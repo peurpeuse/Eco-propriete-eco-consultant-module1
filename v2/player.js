@@ -6,8 +6,8 @@
   var $ = function (id) { return document.getElementById(id); };
   var main = $('main'), nextBtn = $('nextBtn'), prevBtn = $('prevBtn');
   var PREVIEW = /[?&#]preview/.test(location.href) || (C.preview === true && LMS.mode === 'local');
-  document.documentElement.style.setProperty('--mod', M.color || '#E2231A');
-  document.documentElement.style.setProperty('--mod-s', M.colorSoft || '#FDE4E1');
+  document.documentElement.style.setProperty('--mod', M.color || '#1A7A44');
+  document.documentElement.style.setProperty('--mod-s', M.colorSoft || '#E3F2E9');
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function lc1(s) { return s ? s.charAt(0).toLowerCase() + s.slice(1) : s; }
