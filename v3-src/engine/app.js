@@ -281,9 +281,9 @@
   var R = {}, B = {};
   R.video = function (it) {
     var c = it.cap, v = c.video;
-    var media = v.src ? '<video controls preload="metadata" src="' + esc(v.src) + '"></video>' :
+    var media = v.src ? '<video controls preload="metadata" playsinline' + (v.poster ? ' poster="' + esc(v.poster) + '"' : '') + ' src="' + esc(v.src) + '"></video>' :
       '<img class="seb" src="assets/seb.png" alt=""><button class="pl" id="playBtn" aria-label="Lire la transcription"></button><span class="tag">Vidéo en production · avatar de Seb</span><span class="hook">« ' + esc(v.hook) + ' »</span>';
-    return '<div class="player">' + media + '</div>' + (v.src ? '' : '<p class="muted sm" style="margin-top:8px">La vidéo de Seb est en cours de production. En attendant, la transcription complète est disponible ci-dessous.</p>') +
+    return '<div class="player">' + media + '</div>' + (v.src ? (v.note ? '<p class="muted sm" style="margin-top:8px">' + esc(v.note) + '</p>' : '') : '<p class="muted sm" style="margin-top:8px">La vidéo de Seb est en cours de production. En attendant, la transcription complète est disponible ci-dessous.</p>') +
       '<div class="ptabs" role="tablist"><button role="tab" aria-selected="true" data-pt="tr">Transcription</button><button role="tab" aria-selected="false" data-pt="ob">Objectif</button>' + (C.showProd ? '<button role="tab" aria-selected="false" data-pt="prod">Montage</button>' : '') + '</div>' +
       '<div id="ptr" class="tr noprod" tabindex="0">' + v.segments.map(function (s) { return '<div class="seg"><span class="tc">' + esc(s.tc) + '</span><span>' + esc(s.voice) + '<span class="sc">Plan : ' + esc(s.screen) + (s.onscreen ? ' · À l’écran : ' + esc(s.onscreen) : '') + '</span></span></div>'; }).join('') + '</div>' +
       '<div id="pob" hidden><div class="box"><h3>Objectif de la capsule</h3><p style="margin:0">À la fin de cette capsule, tu sauras ' + esc(lc(c.objective)) + '.</p></div><div class="box"><h3>Ensuite</h3><p style="margin:0">Quiz flash (' + c.quiz.questions.length + ' questions), la fiche « ' + esc(c.resource.title) + ' », l’exercice « ' + esc(c.exercise.title) + ' », puis le devoir à déposer.</p></div></div>';

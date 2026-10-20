@@ -54,7 +54,8 @@ def course(mods, g, scope, preview, pdf=True):
 def write_pkg(dirp, data, scorm, title, ident):
     shutil.rmtree(dirp, ignore_errors=True); os.makedirs(dirp)
     for f in ("index.html", "app.js", "scorm.js"): shutil.copy(os.path.join(ENG, f), dirp)
-    for d in ("assets", "fonts"): shutil.copytree(os.path.join(ENG, d), os.path.join(dirp, d))
+    for d in ("assets", "fonts", "media"):
+        if os.path.isdir(os.path.join(ENG, d)): shutil.copytree(os.path.join(ENG, d), os.path.join(dirp, d))
     open(os.path.join(dirp, "data.js"), "w").write("window.COURSE=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";")
     pdfdir = os.path.join(OUT, "pdf")
     if data.get("pdf") and os.path.isdir(pdfdir):
