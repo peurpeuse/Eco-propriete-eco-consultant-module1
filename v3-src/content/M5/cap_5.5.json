@@ -1,0 +1,375 @@
+{
+ "id": "5.5",
+ "module": 5,
+ "ia": false,
+ "title": "Piloter jusqu'à l'acte",
+ "objective": "Construire et tenir le rétroplanning d'une vente en copropriété, de l'offre acceptée à la remise des clés",
+ "video": {
+  "duration_min": 8,
+  "hook": "Du 2 décembre au 15 mars : 103 jours, Noël au milieu, une offre de prêt, un état daté, un appel de fonds au 1er janvier. Qui tient le calendrier ? Toi.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Le 2 décembre 2026, M. Bernard accepte l'offre des Martin. L'acte est prévu le 15 mars 2027. Entre les deux, il y a Noël, un délai de rétractation, une condition de prêt, peut-être une déclaration d'intention d'aliéner, un appel de fonds au 1er janvier, un état daté, une offre de prêt avec son délai de réflexion, et une visite avant la signature. Si personne ne tient le calendrier, une date glisse, puis une autre, et l'acte recule. Aujourd'hui, on construit le rétroplanning, et on apprend à le piloter.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille ; frise horizontale animée du 2/12/2026 au 15/03/2027 avec des points qui s'allument",
+    "onscreen": "2/12/2026 → 15/03/2027 : 103 jours"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est ton rôle ? Le notaire rédige et vérifie. La banque prête. Le syndic établit l'état daté. Mais personne ne voit tout le tableau, sauf toi. Et tu as pris un engagement écrit dans le mandat : un compte rendu à M. Bernard toutes les deux semaines. Pour un vendeur au profil C, un calendrier daté, avec qui fait quoi, c'est la meilleure preuve de sérieux. Pour les Martin, primo-accédants, c'est ce qui évite la panique de janvier. Concrètement, ton outil, c'est un tableau simple, partagé, avec une date, une étape, un responsable et une preuve. Rien de plus. Mais tenu à jour à chaque échange.",
+    "screen": "Slide : schéma en étoile, l'agent au centre relié au vendeur, aux acquéreurs, au notaire Maître Lemoine, au syndic Mme Roy, à la banque, au diagnostiqueur Diag77",
+    "onscreen": "Tu es le seul à voir tout le tableau"
+   },
+   {
+    "tc": "01:15",
+    "voice": "Première idée : on part de la fin. Le 15 mars, l'acte. Avant, il faut l'offre de prêt acceptée, les fonds disponibles chez le notaire, l'état daté, des diagnostics valables à cette date, et la visite. En remontant, tu trouves les dates butoirs. Le compromis est signé le 15 décembre. La notification arrive, disons présentée le 16 : la rétractation court à partir du 17 décembre. Le dixième jour tombe le samedi 26 : le délai est prorogé au lundi 28 décembre. Le notaire confirme. La condition de prêt a 45 jours : elle expire le 29 janvier 2027. C'est la date la plus sensible du dossier. Si l'offre n'est pas là le 29, ce n'est pas automatiquement fini : les parties peuvent signer un avenant pour prolonger. Mais il faut l'accord de M. Bernard, et un avenant, ça se prépare avant l'échéance, pas le lendemain.",
+    "screen": "Frise lue de droite à gauche : 15/03 acte ← fonds ← offre acceptée ← 29/01 fin de la condition de prêt ← 17-28/12 rétractation ← 15/12 compromis",
+    "onscreen": "Condition de prêt : jusqu'au 29/01/2027"
+   },
+   {
+    "tc": "02:15",
+    "voice": "Deuxième idée : les délais légaux que tu ne peux pas raccourcir. L'offre de prêt : la banque doit la maintenir trente jours, et les Martin ne peuvent l'accepter que dix jours après l'avoir reçue. Si elle arrive le 22 janvier, ils l'acceptent au plus tôt le 1er ou le 2 février : le notaire confirme. Le droit de préemption urbain : quand il s'applique, la commune a deux mois après la réception de la déclaration d'intention d'aliéner, et le délai est suspendu si elle demande des pièces ou une visite. Attention : pour un lot dans une copropriété dont le règlement est publié depuis plus de dix ans, le droit de préemption simple ne s'applique pas, sauf si la commune a décidé de l'étendre. Le notaire vérifie. Par prudence, on prévoit les deux mois.",
+    "screen": "Deux encadrés : « Offre de prêt : 30 jours de validité, acceptation au plus tôt 10 jours après réception » ; « DPU : 2 mois, suspendu si demande de pièces ou visite ; lot en copropriété de plus de 10 ans : seulement si DPU renforcé »",
+    "onscreen": "Offre de prêt : 10 jours de réflexion, incompressibles"
+   },
+   {
+    "tc": "03:20",
+    "voice": "Troisième idée : les dates de la copropriété. Le 1er janvier 2027, l'appel de fonds pour la façade est exigible : 8 970 euros, plus la provision trimestrielle d'environ 663 euros. M. Bernard est encore copropriétaire : il paie. Tu le préviens dès le compromis, pour qu'il ait la trésorerie. Ce montant lui sera remboursé par les Martin le jour de l'acte, comme prévu au compromis. Ensuite, en février, le notaire demande l'état daté au syndic, 380 euros TTC au maximum, à la charge du vendeur. Et tu demandes à Mme Roy si une assemblée est prévue avant le 15 mars.",
+    "screen": "Frise zoomée sur le 1/01/2027 : « M. Bernard paie 8 970 € + ≈ 663 € » → flèche vers le 15/03 « remboursement des 8 970 € par les Martin à l'acte » ; vignette « État daté : février, 380 € TTC max »",
+    "onscreen": "1/01/2027 : M. Bernard paie, remboursé à l'acte"
+   },
+   {
+    "tc": "04:25",
+    "voice": "Démonstration : je remplis le modèle D20. Colonne date, colonne étape, colonne qui fait, colonne preuve. 3 au 11 décembre : diagnostics refaits, documents de copropriété, pré-état daté, dossiers de prêt des Martin chez leur courtier. 15 décembre : compromis. Fin de la rétractation à confirmer. 30 décembre : demandes de prêt déposées, avec justificatif. 1er janvier : appel de fonds payé par M. Bernard. 29 janvier : offre de prêt écrite reçue, condition levée. Février : acceptation de l'offre après dix jours, second financement de la quote-part façade obtenu, état daté, renonciation ou silence de la commune si une déclaration a été faite. Début mars : projet d'acte, fonds virés au notaire. 12 mars : visite avant l'acte. 15 mars : signature et remise des clés.",
+    "screen": "Tableau D20 rempli ligne par ligne, chaque ligne prenant une couleur : vert (fait), orange (en cours), gris (à venir)",
+    "onscreen": "Date · Étape · Qui · Preuve"
+   },
+   {
+    "tc": "05:45",
+    "voice": "La visite avant l'acte, ne la saute jamais. Avec les Martin, tu vérifies que le logement est vide, propre, que ce qui était prévu est resté : par exemple les équipements de la cuisine. Tu relèves les compteurs. Et le jour de l'acte, après la signature, les clés : appartement, cave numéro 22, badge du parking numéro 31, boîte aux lettres. Ensuite, le notaire avise le syndic de la vente dans les quinze jours. Le 1er avril, le deuxième appel de fonds sera pour les Martin : envoie-leur un message de rappel. Un client qui reçoit ce message t'enverra ses amis. Et pour M. Bernard, un dernier compte rendu : la vente est faite, les 8 970 euros lui ont été remboursés, et tu lui souhaites une belle installation près de sa fille à Nantes.",
+    "screen": "B-roll : visite d'appartement vide, relevé de compteur électrique, trousseau de clés posé sur un dossier ; incrustation « cave 22 · parking 31 »",
+    "onscreen": "Après l'acte : rappel de l'appel du 1/04/2027"
+   },
+   {
+    "tc": "06:35",
+    "voice": "Les erreurs fréquentes. Un : ne suivre que les dates du notaire, et découvrir le 28 janvier que la banque n'a toujours pas émis l'offre. Relance à J moins 15. Deux : oublier que le délai de réflexion de l'offre de prêt est incompressible. Trois : laisser le vendeur découvrir l'appel du 1er janvier sur son relevé. Quatre : fixer la visite le matin de l'acte, sans marge pour régler un problème. Cinq : ne pas écrire. Chaque relance, chaque accord, par écrit.",
+    "screen": "Seb face caméra, plan rapproché ; les 5 erreurs s'affichent avec une croix rouge, l'alerte « J−15 : 14/01/2027 » en orange",
+    "onscreen": "Relance banque à J−15 : 14/01/2027"
+   },
+   {
+    "tc": "07:20",
+    "voice": "À toi. D'abord le quiz flash, cinq questions de dates : c'est maintenant que ta mémoire les fixe. Ensuite, tu télécharges le modèle de rétroplanning, déjà rempli avec la vente de M. Bernard, que tu pourras dupliquer pour chacune de tes ventes. Dans l'exercice, tu construis le rétroplanning complet, avec les hypothèses de dates que je t'ai données, et tu rédiges ton premier compte rendu au vendeur. Ensuite, le cas pratique du module : le dossier de vente complet et sécurisé.",
+    "screen": "Seb face caméra ; à droite, les 5 pictogrammes du parcours puis l'annonce du cas pratique du module 5",
+    "onscreen": "Quiz → Rétroplanning → Cas pratique du module"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Le compromis est signé le 15/12/2026 avec une condition de prêt de 45 jours. Quelle est la date limite ?",
+    "options": [
+     "Le 15/01/2027",
+     "Le 29/01/2027",
+     "Le 15/02/2027"
+    ],
+    "answer": 1,
+    "fb_title": "15/12 + 45 jours = 29/01/2027",
+    "fb_text": "45 jours après le 15/12/2026, on arrive au vendredi 29/01/2027. C'est la date la plus sensible du rétroplanning : relance la banque à J−15, le 14/01/2027.",
+    "whys": [
+     "Faux : ce serait une condition d'un mois, le minimum légal, pas les 45 jours prévus.",
+     "Juste : 16 jours en décembre + 29 en janvier = 45 jours.",
+     "Faux : ce serait une condition de deux mois."
+    ]
+   },
+   {
+    "question": "Les Martin reçoivent leur offre de prêt le 22/01/2027. Peuvent-ils la renvoyer signée le lendemain ?",
+    "options": [
+     "Oui, si la banque est d'accord",
+     "Non : ils ne peuvent l'accepter que 10 jours après l'avoir reçue",
+     "Oui, car la condition expire le 29/01",
+     "Non : ils doivent attendre 30 jours"
+    ],
+    "answer": 1,
+    "fb_title": "10 jours de réflexion, incompressibles",
+    "fb_text": "Selon l'article L. 313-34 du Code de la consommation, l'emprunteur ne peut accepter l'offre que 10 jours après l'avoir reçue ; la banque doit la maintenir au moins 30 jours. Ce délai ne se négocie pas : intègre-le au planning.",
+    "whys": [
+     "Faux : ni la banque ni l'emprunteur ne peuvent renoncer à ce délai.",
+     "Juste : acceptation au plus tôt 10 jours après réception ; le notaire confirme la date.",
+     "Faux : la condition est réalisée par l'émission de l'offre conforme, pas par son acceptation anticipée.",
+     "Faux : 30 jours, c'est la durée minimale de maintien de l'offre, pas le délai d'attente."
+    ]
+   },
+   {
+    "question": "La commune de Melun n'a pas répondu deux mois après avoir reçu une déclaration d'intention d'aliéner. Qu'est-ce que cela signifie ?",
+    "options": [
+     "Elle renonce à préempter",
+     "Elle préempte automatiquement",
+     "Le délai repart pour deux mois"
+    ],
+    "answer": 0,
+    "fb_title": "Le silence vaut renonciation",
+    "fb_text": "L'article L. 213-2 du code de l'urbanisme prévoit que le silence de deux mois vaut renonciation. Le délai est suspendu si la commune demande des pièces ou une visite. Pour un lot de copropriété de plus de 10 ans, le droit simple ne s'applique pas, sauf extension décidée par la commune.",
+    "whys": [
+     "Juste : silence de deux mois = renonciation à préempter.",
+     "Faux : la préemption suppose une décision expresse, notifiée.",
+     "Faux : le délai peut être suspendu (pièces, visite), pas reconduit."
+    ]
+   },
+   {
+    "question": "Qui paie l'appel de fonds ITE du 1/01/2027 au syndicat, et que se passe-t-il ensuite ?",
+    "options": [
+     "Les Martin le paient au syndic dès janvier",
+     "Le syndic attend l'acte pour l'appeler",
+     "M. Bernard le paie, puis les Martin le lui remboursent à l'acte, comme prévu au compromis"
+    ],
+    "answer": 2,
+    "fb_title": "Copropriétaire à la date d'exigibilité",
+    "fb_text": "Le 1/01/2027, M. Bernard est copropriétaire : il paie 8 970 € (art. 6-2 du décret de 1967). L'accord des parties, écrit au compromis, prévoit son remboursement par les Martin le 15/03/2027. Préviens-le dès décembre pour sa trésorerie.",
+    "whys": [
+     "Faux : les Martin ne sont pas encore copropriétaires en janvier.",
+     "Faux : l'appel est exigible à la date votée, quelle que soit la vente en cours.",
+     "Juste : M. Bernard paie, remboursement à l'acte selon l'accord rédigé par le notaire."
+    ]
+   },
+   {
+    "question": "Quand places-tu la visite avant l'acte des Martin ?",
+    "options": [
+     "Quelques jours avant, par exemple le 12/03/2027, pour garder une marge",
+     "Juste après la signature de l'acte",
+     "Pendant le délai de rétractation"
+    ],
+    "answer": 0,
+    "fb_title": "Avant, avec une marge",
+    "fb_text": "La visite avant l'acte vérifie que le bien est dans l'état prévu (vide, propre, équipements convenus) et permet de relever les compteurs. La faire quelques jours avant laisse le temps de régler un problème sans repousser la signature.",
+    "whys": [
+     "Juste : une marge de quelques jours protège la date de l'acte.",
+     "Faux : après la signature, il est trop tard pour régler un désaccord sereinement.",
+     "Faux : en décembre, le vendeur occupe encore le logement ; la visite utile est celle de mars."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Modèle de rétroplanning",
+  "kind": "template",
+  "intro": "Ce modèle sert à planifier et suivre une vente de l'offre acceptée jusqu'à l'acte. Remplis-le le jour de l'acceptation de l'offre, partage-le avec le vendeur et les acquéreurs, et mets-le à jour à chaque compte rendu. Les dates ci-dessous sont celles du dossier fictif de M. Bernard ; les délais légaux sont à faire confirmer par le notaire.",
+  "sections": [
+   {
+    "heading": "Le rétroplanning de M. Bernard (exemple fictif)",
+    "type": "table",
+    "headers": [
+     "Date",
+     "Étape",
+     "Qui",
+     "Preuve / point de contrôle"
+    ],
+    "rows": [
+     [
+      "2/12/2026",
+      "Offre des Martin acceptée (184 000 € FAI)",
+      "Vendeur, agent",
+      "Offre contresignée (D15)"
+     ],
+     [
+      "3 au 11/12/2026",
+      "Diagnostics refaits, documents de copropriété, pré-état daté ; dossiers de prêt chez le courtier",
+      "Agent, Diag77, syndic, Martin",
+      "Check-list des pièces complète"
+     ],
+     [
+      "15/12/2026",
+      "Compromis chez Maître Lemoine",
+      "Notaire, parties, agent",
+      "Compromis signé, notification envoyée"
+     ],
+     [
+      "17 au 28/12/2026",
+      "Délai de rétractation (si 1re présentation le 16/12) : 10e jour le samedi 26/12, prorogé au lundi 28/12 (premier jour ouvrable) ; le notaire confirme",
+      "Martin",
+      "Aucun versement hors professionnel garanti"
+     ],
+     [
+      "Dès le 17/12/2026",
+      "DIA si le droit de préemption s'applique (le notaire vérifie) ; 2 mois de délai",
+      "Notaire, commune",
+      "Renonciation ou silence au terme"
+     ],
+     [
+      "30/12/2026",
+      "Demandes de prêt déposées (délai fixé au compromis)",
+      "Martin, courtier",
+      "Justificatif de dépôt transmis"
+     ],
+     [
+      "1/01/2027",
+      "Appel ITE 8 970 € + provision ≈ 663 € payés par M. Bernard",
+      "Vendeur",
+      "Avis d'appel réglé"
+     ],
+     [
+      "14/01/2027",
+      "Relance banque à J−15 de la fin de la condition",
+      "Agent",
+      "Mail de relance"
+     ],
+     [
+      "29/01/2027",
+      "Fin de la condition de prêt : offre écrite reçue",
+      "Banque, Martin",
+      "Copie de l'offre au notaire"
+     ],
+     [
+      "Février 2027",
+      "Acceptation de l'offre (au plus tôt 10 jours après réception) ; second financement de la quote-part ITE ; état daté demandé au syndic",
+      "Martin, banque, notaire, syndic",
+      "Offre acceptée, état daté reçu"
+     ],
+     [
+      "Début mars 2027",
+      "Projet d'acte, fonds virés au notaire, diagnostics vérifiés à la date de l'acte",
+      "Notaire, banque, Martin",
+      "Décompte du notaire"
+     ],
+     [
+      "12/03/2027",
+      "Visite avant l'acte, relevé des compteurs",
+      "Agent, Martin, vendeur",
+      "Fiche de visite signée"
+     ],
+     [
+      "15/03/2027",
+      "Acte authentique, remboursement des 8 970 € au vendeur, remise des clés",
+      "Notaire, parties, agent",
+      "Attestation de vente, trousseau remis"
+     ],
+     [
+      "Après l'acte",
+      "Avis de mutation au syndic sous 15 jours ; rappel aux Martin de l'appel du 1/04/2027",
+      "Notaire, agent",
+      "Message de rappel envoyé"
+     ]
+    ]
+   },
+   {
+    "heading": "Les délais légaux à intégrer",
+    "type": "list",
+    "items": [
+     "Rétractation de l'acquéreur : 10 jours à compter du lendemain de la première présentation de la notification (art. L. 271-1 CCH)",
+     "Condition suspensive de prêt : au moins 1 mois (art. L. 313-41 C. conso.) ; dans le dossier, 45 jours",
+     "Offre de prêt : maintenue au moins 30 jours ; acceptation au plus tôt 10 jours après réception (art. L. 313-34 C. conso.)",
+     "Droit de préemption urbain : silence de 2 mois après réception de la DIA = renonciation ; délai suspendu en cas de demande de pièces ou de visite (art. L. 213-2 C. urb.)",
+     "Lot de copropriété dont le règlement est publié depuis au moins 10 ans : droit de préemption simple non applicable, sauf extension par délibération motivée (art. L. 211-4 C. urb.)",
+     "Avis de mutation au syndic dans les 15 jours suivant la vente ; opposition possible du syndic dans les 15 jours de sa réception (art. 20 loi du 10/07/1965)"
+    ]
+   },
+   {
+    "heading": "Le compte rendu toutes les 2 semaines (engagement du mandat)",
+    "type": "steps",
+    "items": [
+     "Ce qui a été fait depuis le dernier point, avec la preuve",
+     "Ce qui est attendu d'ici le prochain point, avec la date butoir et le responsable",
+     "Les alertes : date à risque, document manquant, relance en cours",
+     "La prochaine décision à prendre par le vendeur, s'il y en a une",
+     "Envoi par écrit, même après un échange téléphonique"
+    ]
+   },
+   {
+    "heading": "Les points d'alerte",
+    "type": "checklist",
+    "items": [
+     "J−15 avant la fin de la condition de prêt : offre émise ou date d'émission confirmée par la banque",
+     "Un diagnostic qui expire avant la date de l'acte",
+     "Une assemblée générale annoncée avant l'acte, avec de nouveaux travaux",
+     "Un état daté non reçu 3 semaines avant l'acte",
+     "Une date qui tombe un week-end ou un jour férié : faire confirmer par le notaire",
+     "Une prorogation de la condition de prêt : uniquement par avenant signé des deux parties"
+    ]
+   }
+  ],
+  "footer": "Sources : art. L. 271-1 CCH, art. L. 313-34 et L. 313-41 Code de la consommation, art. L. 211-4 et L. 213-2 code de l'urbanisme, art. 20 loi du 10 juillet 1965 (Légifrance), Notaires de France (DIA). Mise à jour : 20/10/2026. Dates du dossier : exemple fictif."
+ },
+ "exercise": {
+  "title": "Rétroplanning de la vente",
+  "duration_min": 35,
+  "context": "Offre des Martin acceptée le 2/12/2026, compromis le 15/12/2026 chez Maître Lemoine (condition de prêt : 193 800 €, 25 ans, 3,90 % maximum, 45 jours), acte prévu le 15/03/2027. Appel de fonds ITE exigible le 1/01/2027. Hypothèses fictives : notification du compromis présentée le 16/12/2026 ; offre de prêt reçue par les Martin le 22/01/2027. M. Bernard attend ton premier compte rendu.",
+  "materials": [
+   "D20 Rétroplanning type",
+   "D19 Compromis (trame)",
+   "D16 Pré-état daté",
+   "D07 PV d'AG du 12/06/2025",
+   "D14 Fiches des acquéreurs",
+   "D17 Dossier de diagnostic technique"
+  ],
+  "steps": [
+   "Place sur D20 les dates fixes : offre, compromis, appel de fonds, acte.",
+   "Calcule les dates issues des délais : rétractation, fin de la condition de prêt, acceptation de l'offre au plus tôt, échéance de la DIA si elle est nécessaire.",
+   "Indique pour la DIA ce que le notaire doit vérifier (copropriété de plus de 10 ans, extension éventuelle par la commune).",
+   "Ajoute les étapes de copropriété (appel du 1/01, état daté, question sur une AG avant l'acte) et le second financement de la quote-part ITE.",
+   "Place la visite avant l'acte et la remise des clés, puis les actions après l'acte.",
+   "Ajoute les relances et points d'alerte (J−15 banque, diagnostics, état daté).",
+   "Rédige le premier compte rendu à M. Bernard (10 lignes)."
+  ],
+  "expected": "Exemple de réponse : rétractation du 17/12 au 28/12/2026 (10e jour le samedi 26/12, prorogé au lundi 28/12, premier jour ouvrable ; le notaire confirme) ; fin de la condition de prêt le 29/01/2027 (15/12 + 45 jours), relance banque le 14/01/2027 ; offre reçue le 22/01/2027 → acceptation au plus tôt 10 jours après réception, soit début février (1 ou 2/02/2027 selon le calcul du notaire), offre valable 30 jours ; DIA : le notaire vérifie si le droit de préemption s'applique (règlement des Tilleuls publié depuis plus de 10 ans : droit simple non applicable sauf extension par la commune) ; si DIA reçue le 18/12/2026, silence = renonciation le 18/02/2027, sauf suspension. Copropriété : 1/01/2027, M. Bernard paie 8 970 € + ≈ 663 € (prévenu dès le compromis) ; état daté demandé en février (380 € TTC max) ; question à Mme Roy sur une AG avant le 15/03. Second financement des 35 880 € d'ITE obtenu avant l'acte (8 970 € remboursés à M. Bernard le 15/03). Visite le 12/03/2027, acte et clés (appartement, cave 22, badge parking 31) le 15/03/2027 ; avis de mutation au syndic sous 15 jours ; rappel aux Martin pour l'appel du 1/04/2027. Compte rendu : fait, à venir avec dates et responsables, alertes, aucune décision attendue de M. Bernard sauf la trésorerie du 1/01."
+ },
+ "deliverable": {
+  "title": "Rétroplanning de la vente de M. Bernard + premier compte rendu",
+  "format": "Tableur (XLSX) ou PDF, 1 page + compte rendu de 10 lignes",
+  "criteria": [
+   "Les 4 dates fixes (2/12/2026, 15/12/2026, 1/01/2027, 15/03/2027) sont placées",
+   "La fin de la condition de prêt (29/01/2027) et la relance à J−15 sont calculées",
+   "Le délai de réflexion de 10 jours de l'offre de prêt est intégré",
+   "Le traitement du droit de préemption est expliqué (vérification par le notaire, 2 mois si applicable)",
+   "L'appel du 1/01/2027 est attribué à M. Bernard avec remboursement à l'acte",
+   "Chaque ligne indique qui fait quoi et la preuve attendue",
+   "Le compte rendu au vendeur tient en 10 lignes et liste les alertes"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Art. L. 271-1 CCH : délai de rétractation (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667917"
+  },
+  {
+   "label": "Art. L. 313-34 Code de la consommation : offre de prêt, 30 jours, acceptation après 10 jours (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433173"
+  },
+  {
+   "label": "Art. L. 313-41 Code de la consommation : condition suspensive de prêt (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433227"
+  },
+  {
+   "label": "Art. L. 213-2 code de l'urbanisme : délai de 2 mois du droit de préemption (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037670981"
+  },
+  {
+   "label": "Art. L. 211-4 code de l'urbanisme : exclusion des lots de copropriété de plus de 10 ans (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028810700"
+  },
+  {
+   "label": "Notaires de France : la déclaration d'intention d'aliéner",
+   "url": "https://www.notaires.fr/fr/collectivites-territoriales/droit-de-preemption-et-dexpropriation/la-declaration-d%E2%80%99intention-d%E2%80%99aliener-dia"
+  },
+  {
+   "label": "Art. 20 loi du 10 juillet 1965 : avis de mutation au syndic (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000049398754"
+  },
+  {
+   "label": "Art. 6-2 décret du 17 mars 1967 : appels de fonds et vente (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488321"
+  },
+  {
+   "label": "La finance pour tous : délais de l'offre de prêt et délai de 4 mois pour la vente",
+   "url": "https://www.lafinancepourtous.com/pratique/credit/credit-immobilier/pret-immo-l-essentiel-a-savoir/les-delais-de-validite-et-d-acceptation/"
+  },
+  {
+   "label": "ANIL — Cass. 3e civ., 5/12/2007 : délai de rétractation expirant un samedi ou un jour férié prorogé au premier jour ouvrable suivant (art. 642 CPC)",
+   "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/jurisprudence/jurisprudence-2008/compromis-/-promesse-/-delai-de-retractation/"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D07, D14, D16, D17, D19, D20)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Relecture juridique obligatoire (rétractation, offre de prêt, DPU et art. L. 211-4, avis de mutation). Visuels : frise animée 2/12/2026 → 15/03/2027, schéma en étoile des intervenants, D20 rempli avec code couleur. B-roll : visite d'appartement vide, relevé de compteur, remise de clés chez le notaire. Jours vérifiés : 26/12/2026 = samedi, 28/12/2026 = lundi, 29/01/2027 = vendredi, 12/03/2027 = vendredi, 15/03/2027 = lundi. [À VALIDER] : (1) prorogation au premier jour ouvrable suivant (lundi 28/12/2026) : vérifiée (Cass. 3e civ., 5/12/2007, n° 06-19.567, art. 642 CPC ; ANIL), date à confirmer par le notaire ; (2) date exacte d'acceptation de l'offre (« dix jours après réception » : 1 ou 2/02/2027 selon le mode de calcul) ; (3) existence d'un DPU renforcé à Melun sur le secteur (fictif : hypothèse de prudence) ; (4) dates fictives de notification (16/12) et de réception de l'offre (22/01) ; (5) dépôt des demandes de prêt au 30/12/2026 = délai proposé, pas une règle."
+}

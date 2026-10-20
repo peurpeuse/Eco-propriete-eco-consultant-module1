@@ -1,0 +1,417 @@
+{
+ "id": "2.3",
+ "module": 2,
+ "ia": false,
+ "title": "Calculs : surfaces, kWh/m², CO₂",
+ "objective": "Calculer sans erreur la surface, la consommation (énergie finale et primaire), les émissions, la classe DPE et le coût annuel d'un logement",
+ "video": {
+  "duration_min": 8,
+  "hook": "11 400 kWh par an. Et pourtant, l'étiquette de M. Bernard affiche 345, puis 285, puis 255. Même appartement, trois chiffres. Si tu ne sais pas les refaire, tu ne peux pas les défendre.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "11 400. C'est le nombre de kilowattheures que le DPE attribue chaque année à l'appartement de M. Bernard. Et pourtant, sur l'étiquette, tu lis 345. Puis, sur son attestation actualisée, 285. Et en 2027, ce sera 255. Même appartement, mêmes convecteurs, trois chiffres différents. M. Bernard, ancien ingénieur, va te demander d'où ils viennent. Si tu ne sais pas les refaire devant lui, tu ne peux pas les défendre.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; les chiffres 11 400, 345, 285, 255 apparaissent l'un après l'autre à sa droite",
+    "onscreen": "11 400 kWh · 345 · 285 · 255"
+   },
+   {
+    "tc": "00:30",
+    "voice": "Pourquoi c'est important ? Parce qu'un chiffre faux dans ton dossier, c'est toute ton estimation qui tombe. Une surface mal comptée, c'est un prix au mètre carré faux, et en copropriété, un risque juridique. Une classe énergie mal comprise, c'est une décote injustifiée, comme les moins 15 % des deux autres agences. Aujourd'hui, cinq calculs, toujours dans le même ordre : la surface, l'énergie finale, l'énergie primaire, le CO₂ avec la règle du double seuil, et le coût annuel. Prends une calculatrice et le DPE de M. Bernard, le D02.",
+    "screen": "Slide « 5 calculs dans l'ordre » : 1 Surface · 2 Énergie finale · 3 Énergie primaire · 4 CO₂ et double seuil · 5 Coût annuel",
+    "onscreen": "Surface → EF → EP → CO₂ → €"
+   },
+   {
+    "tc": "01:10",
+    "voice": "Premier calcul : la surface. Il y a trois surfaces à connaître. La surface habitable, définie par le code de la construction : on déduit murs, cloisons, gaines, embrasures, et on exclut balcons, caves, garages, loggias, vérandas et tout ce qui fait moins d'1,80 mètre de hauteur. La surface privative, dite Carrez, obligatoire dans la promesse et l'acte de vente d'un lot de copropriété : même logique, mais elle compte des locaux clos et couverts que l'habitable exclut, comme une véranda. Et la surface de référence du DPE, qui repose sur la surface habitable. Chez M. Bernard, additionne les pièces du plan : 24, plus 11, 10 et 9 pour les chambres, 9 pour la cuisine, 5 pour la salle de bains, 1,5 pour le WC, 6,5 pour l'entrée. Total : 76 mètres carrés. Le balcon de 6 mètres carrés, la cave et la place de parking ne comptent pas. Ici, les trois surfaces sont égales : 76.",
+    "screen": "Slide tableau 3 colonnes Habitable / Carrez / DPE ; puis plan D04 avec les surfaces de chaque pièce qui s'additionnent jusqu'à 76,0 m², le balcon barré",
+    "onscreen": "24 + 11 + 10 + 9 + 9 + 5 + 1,5 + 6,5 = 76,0 m²"
+   },
+   {
+    "tc": "02:20",
+    "voice": "Un point juridique sur la Carrez. Si la surface réelle est inférieure de plus d'un vingtième, donc de plus de 5 %, à celle écrite dans l'acte, l'acquéreur peut demander une baisse du prix proportionnelle, dans l'année qui suit l'acte. Pour M. Bernard : 76 fois 0,95, égale 72,2. En dessous de 72,2 mètres carrés mesurés, le risque existe. D'où le mesurage par un professionnel, le D17.",
+    "screen": "Slide formule : 76 × 0,95 = 72,2 m² ; jauge verte au-dessus de 72,2, rouge en dessous",
+    "onscreen": "Seuil Carrez : −5 % → 72,2 m²"
+   },
+   {
+    "tc": "02:50",
+    "voice": "Deuxième calcul : l'énergie finale. C'est l'énergie consommée et facturée au logement, en kilowattheures. Le DPE de M. Bernard indique 150 kilowattheures par mètre carré et par an. Détail par usage : 112 pour le chauffage, 26 pour l'eau chaude, 4 pour l'éclairage, 8 pour les auxiliaires. Vérifie toujours la somme : 112 plus 26 plus 4 plus 8, égale 150. Pour l'année entière : 150 fois 76, égale 11 400 kilowattheures. Retiens aussi les proportions : le chauffage, c'est 112 sur 150, environ 75 %. C'est là que se jouera l'argumentaire travaux.",
+    "screen": "Slide barre empilée 112 / 26 / 4 / 8 = 150 kWhEF/m²/an ; puis 150 × 76 = 11 400 kWhEF/an",
+    "onscreen": "150 × 76 = 11 400 kWhEF/an"
+   },
+   {
+    "tc": "03:35",
+    "voice": "Troisième calcul : l'énergie primaire, celle qui classe le logement. Pour l'électricité, on multiplie l'énergie finale par un coefficient de conversion. Il valait 2,3 en 2023, quand le DPE a été fait. Il vaut 1,9 depuis le 1er janvier 2026. Il vaudra 1,7 au 1er janvier 2027. Fais les trois calculs. 150 fois 2,3 : 345, classe F, puisque F va de 331 à 420. 150 fois 1,9 : 285, classe E. 150 fois 1,7 : 255, toujours E. Remarque au passage : à 255, M. Bernard sera à 5 kilowattheures du seuil de D, fixé à 250. Ça ne veut pas dire qu'il passera en D. Ça veut dire que tu le notes.",
+    "screen": "Slide trois lignes animées : 150 × 2,3 = 345 → F ; 150 × 1,9 = 285 → E ; 150 × 1,7 = 255 → E ; échelle A-G avec curseur ; zoom sur l'écart 255 / 250",
+    "onscreen": "EP = EF × coefficient (2,3 → 1,9 → 1,7)"
+   },
+   {
+    "tc": "04:25",
+    "voice": "Quatrième calcul : le CO₂ et le double seuil. Le DPE de M. Bernard indique 12 kilos de CO₂ par mètre carré et par an. Sur la grille climat, au-dessus de 11 et jusqu'à 30, c'est la classe C. Sur l'année : 12 fois 76, égale 912 kilos. Maintenant, la règle du double seuil : la classe du logement est la moins bonne des deux. En 2023 : énergie F, climat C, donc F. Aujourd'hui, avec l'attestation : énergie E, climat C, donc E. Un logement chauffé à l'électricité émet peu : c'est presque toujours l'énergie primaire qui décide.",
+    "screen": "Slide deux échelles côte à côte (énergie / climat) ; marqueurs F et C en 2023 puis E et C en 2026 ; flèche « la moins bonne l'emporte »",
+    "onscreen": "Classe = la moins bonne des deux"
+   },
+   {
+    "tc": "05:05",
+    "voice": "Cinquième calcul : le coût annuel. Le DPE l'estime entre 2 330 et 3 190 euros par an, avec les prix moyens des énergies au 1er janvier 2021. Rends-le parlant. Par mois : 2 330 divisé par 12, environ 194 euros, et 3 190 divisé par 12, environ 266 euros. Par mètre carré : entre 30,7 et 42 euros par an. Et si tu divises par 11 400 kilowattheures, tu retrouves un prix moyen implicite de 0,20 à 0,28 euro le kilowattheure. Attention : c'est une estimation conventionnelle, pas les factures de M. Bernard. Toujours dire l'année de référence des prix.",
+    "screen": "Slide : 2 330 / 12 ≈ 194 €/mois ; 3 190 / 12 ≈ 266 €/mois ; 2 330 / 76 ≈ 30,7 €/m² ; 3 190 / 76 ≈ 42,0 €/m² ; mention « prix au 1/01/2021 »",
+    "onscreen": "≈ 194 à 266 € par mois (prix 2021)"
+   },
+   {
+    "tc": "05:50",
+    "voice": "Démonstration : le contrôle croisé. Pose côte à côte le DPE, le D02, et l'attestation actualisée, le D03. Première vérification : la surface du DPE, 76, est-elle la même que le mesurage Carrez du D17 ? Oui. Deuxième : la somme des usages fait-elle bien 150 ? Oui. Troisième : 150 fois 1,9, est-ce que ça donne bien la classe affichée sur l'attestation ? 285, classe E : oui. Si l'une de ces trois vérifications échoue, tu ne corriges pas toi-même. Tu poses la question au diagnostiqueur, par écrit. C'est exactement ce que M. Bernard attend de toi : de la rigueur, pas des certitudes.",
+    "screen": "Plein écran : D02 et D03 côte à côte, trois coches vertes apparaissent successivement sur surface, somme des usages et classe ; puis D17 zoomé sur « 76,0 m² »",
+    "onscreen": "3 contrôles : surface · somme des usages · classe"
+   },
+   {
+    "tc": "06:35",
+    "voice": "Les erreurs fréquentes. Un : compter le balcon ou la cave dans la surface. Deux : appliquer le coefficient de l'électricité au gaz ou au fioul ; il ne concerne que l'électricité. Trois : multiplier l'énergie primaire par le coefficient, au lieu de partir de l'énergie finale. Quatre : oublier le CO₂, et rater la classe d'un logement au gaz. Cinq : annoncer une classe à partir de ton calcul. Ton calcul sert à repérer et à expliquer. La classe officielle, c'est le DPE ou l'attestation actualisée de l'ADEME. Et pour les logements de moins de 40 mètres carrés, les seuils sont différents : ne recalcule pas, lis l'étiquette.",
+    "screen": "Seb face caméra, plan rapproché ; cinq cartons rouges apparaissent un à un avec les erreurs",
+    "onscreen": "Ton calcul repère. Le DPE établit."
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi. Quiz flash, cinq questions, calculatrice autorisée. Ensuite, télécharge la fiche formules et son calculateur : un tableau à remplir pour chaque bien. Dans l'exercice, tu refais tous les calculs de M. Bernard, du plan jusqu'au coût par mois. Et tu déposes ton tableau rempli. Je vérifie chaque opération, à la décimale près.",
+    "screen": "Seb face caméra, plan taille ; bandeau des 5 étapes, l'étape ② clignote ; aperçu du calculateur à remplir",
+    "onscreen": "Quiz → Fiche formules + calculateur → Tableau rempli"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Le DPE de M. Bernard indique 150 kWhEF/m²/an (tout électrique). Avec le coefficient en vigueur en 2026 (1,9), quelle est son énergie primaire et sa classe énergie ?",
+    "options": [
+     "285 kWhEP/m²/an, classe E",
+     "345 kWhEP/m²/an, classe F",
+     "255 kWhEP/m²/an, classe D"
+    ],
+    "answer": 0,
+    "fb_title": "150 × 1,9 = 285 → E",
+    "fb_text": "L'énergie primaire se calcule à partir de l'énergie finale : 150 × 1,9 = 285 kWhEP/m²/an, entre 251 et 330 : classe E. 345 correspond au coefficient 2,3 (DPE de 2023), 255 au coefficient 1,7 (2027), et 255 reste en E.",
+    "whys": [
+     "Juste : 150 × 1,9 = 285, dans la tranche E (251 à 330).",
+     "Faux : 345 = 150 × 2,3, le coefficient de 2023.",
+     "Faux : 255 = 150 × 1,7 (2027), et 255 dépasse 250 : c'est encore E, pas D."
+    ]
+   },
+   {
+    "question": "Quelle surface Carrez faut-il indiquer pour le lot de M. Bernard (pièces 76,0 m², balcon 6 m², cave n° 22, parking n° 31) ?",
+    "options": [
+     "82 m², balcon compris",
+     "76 m²",
+     "76 m² plus la surface de la cave"
+    ],
+    "answer": 1,
+    "fb_title": "Balcon, cave, parking : exclus",
+    "fb_text": "La Carrez compte les planchers des locaux clos et couverts d'au moins 1,80 m de hauteur, après déduction des murs et cloisons. Le balcon n'est pas clos ; caves et parkings sont hors champ de la mention Carrez.",
+    "whys": [
+     "Faux : un balcon n'est ni clos ni couvert, il n'entre pas dans la Carrez.",
+     "Juste : 24 + 11 + 10 + 9 + 9 + 5 + 1,5 + 6,5 = 76,0 m².",
+     "Faux : la loi exclut caves, garages et emplacements de stationnement."
+    ]
+   },
+   {
+    "question": "En 2023, le DPE donnait 345 kWhEP/m²/an et 12 kgCO₂/m²/an. Quelle était la classe du logement ?",
+    "options": [
+     "C, car la classe climat est la meilleure",
+     "E, la moyenne des deux",
+     "F, la moins bonne des deux"
+    ],
+    "answer": 2,
+    "fb_title": "Double seuil : la moins bonne l'emporte",
+    "fb_text": "Énergie : 345 → F (331 à 420). Climat : 12 → C (plus de 11, jusqu'à 30). La classe retenue est la moins bonne des deux : F. Avec l'attestation actualisée, l'énergie passe à E, donc la classe aussi.",
+    "whys": [
+     "Faux : on ne retient jamais la meilleure des deux classes.",
+     "Faux : il n'y a pas de moyenne dans la règle du double seuil.",
+     "Juste : F en énergie, C en climat : la moins bonne est F."
+    ]
+   },
+   {
+    "question": "Quelle est la consommation annuelle en énergie finale de l'appartement (150 kWhEF/m²/an, 76 m²) ?",
+    "options": [
+     "26 220 kWh",
+     "11 400 kWh",
+     "1 140 kWh",
+     "21 660 kWh"
+    ],
+    "answer": 1,
+    "fb_title": "150 × 76 = 11 400",
+    "fb_text": "Consommation annuelle = consommation au m² × surface. 150 × 76 = 11 400 kWhEF/an. 26 220 et 21 660 sont des totaux en énergie primaire (345 × 76 et 285 × 76).",
+    "whys": [
+     "Faux : 26 220 = 345 × 76, c'est de l'énergie primaire (coefficient 2,3).",
+     "Juste : 150 × 76 = 11 400 kWh d'énergie finale par an.",
+     "Faux : erreur d'un facteur 10 dans la multiplication.",
+     "Faux : 21 660 = 285 × 76, c'est de l'énergie primaire (coefficient 1,9)."
+    ]
+   },
+   {
+    "question": "L'acte indiquera 76 m² Carrez. Après la vente, l'acquéreur fait mesurer 73 m². Peut-il obtenir une baisse du prix sur ce fondement ?",
+    "options": [
+     "Oui, dès qu'il manque un mètre carré",
+     "Non : 73 m² est au-dessus du seuil de 72,2 m² (76 × 0,95)",
+     "Oui, mais seulement si le vendeur était de mauvaise foi"
+    ],
+    "answer": 1,
+    "fb_title": "Seuil d'un vingtième",
+    "fb_text": "La diminution du prix n'est due que si la surface réelle est inférieure de plus d'un vingtième à celle de l'acte. 76 × 0,95 = 72,2 m². À 73 m², l'écart (3 m², soit 3,9 %) reste sous 5 %.",
+    "whys": [
+     "Faux : la loi fixe un seuil d'un vingtième (5 %).",
+     "Juste : 73 > 72,2 ; l'écart de 3,9 % ne dépasse pas 5 %.",
+     "Faux : la bonne ou mauvaise foi n'est pas la condition ; c'est l'écart de surface."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche formules + calculateur",
+  "kind": "fiche",
+  "intro": "Toutes les formules pour vérifier les chiffres d'un dossier (surface, énergie, CO₂, classe, coût), avec l'exemple corrigé de M. Bernard et un calculateur à remplir pour chacun de tes biens. Règle d'or : ton calcul sert à repérer et à expliquer ; la classe officielle vient du DPE ou de l'attestation actualisée ADEME.",
+  "sections": [
+   {
+    "heading": "Trois surfaces, trois usages",
+    "type": "table",
+    "headers": [
+     "Surface",
+     "Définition",
+     "Exclu",
+     "Utilisée pour",
+     "M. Bernard"
+    ],
+    "rows": [
+     [
+      "Habitable (CCH, art. R. 156-1)",
+      "Plancher construit moins murs, cloisons, marches, gaines, embrasures",
+      "Balcons, loggias, vérandas, caves, garages, combles non aménagés, parties < 1,80 m",
+      "Bail, base de la surface du DPE",
+      "76,0 m²"
+     ],
+     [
+      "Privative « Carrez » (loi du 10/07/1965, art. 46)",
+      "Planchers des locaux clos et couverts moins murs, cloisons, marches, gaines, embrasures",
+      "Parties < 1,80 m ; caves, garages, parkings ; lots < 8 m²",
+      "Promesse et acte de vente d'un lot de copropriété",
+      "76,0 m²"
+     ],
+     [
+      "Référence du DPE",
+      "Surface habitable, plus certaines surfaces chauffées (ex. véranda chauffée)",
+      "Comme l'habitable",
+      "Calcul des kWh/m² et kgCO₂/m²",
+      "76,0 m²"
+     ]
+    ]
+   },
+   {
+    "heading": "Surface et tolérance Carrez",
+    "type": "formula",
+    "text": "Surface = somme des pièces (hors balcon, cave, parking). Exemple : 24 + 11 + 10 + 9 + 9 + 5 + 1,5 + 6,5 = 76,0 m². Seuil de risque Carrez : surface de l'acte × 0,95 = 76 × 0,95 = 72,2 m². Si la surface réelle est inférieure de plus d'un vingtième, l'acquéreur peut demander une diminution proportionnelle du prix dans l'année qui suit l'acte authentique. Mesurage par un professionnel recommandé (D17)."
+   },
+   {
+    "heading": "Énergie finale et consommation annuelle",
+    "type": "formula",
+    "text": "EF annuelle = EF au m² × surface. Exemple : 150 × 76 = 11 400 kWhEF/an. Contrôle de la somme des usages : 112 (chauffage) + 26 (eau chaude) + 4 (éclairage) + 8 (auxiliaires) = 150. Part du chauffage : 112 / 150 ≈ 74,7 % ; eau chaude : 26 / 150 ≈ 17,3 %."
+   },
+   {
+    "heading": "Énergie primaire (électricité) et classe",
+    "type": "formula",
+    "text": "EP = EF × coefficient de l'électricité : 2,3 jusqu'au 31/12/2025 ; 1,9 depuis le 1/01/2026 ; 1,7 au 1/01/2027. Exemple : 150 × 2,3 = 345 → F ; 150 × 1,9 = 285 → E ; 150 × 1,7 = 255 → E (à 5 du seuil D = 250). Totaux annuels : 345 × 76 = 26 220 ; 285 × 76 = 21 660 ; 255 × 76 = 19 380 kWhEP/an. Le coefficient ne concerne que l'électricité ; pour un logement au gaz ou au fioul, seule la part électrique change."
+   },
+   {
+    "heading": "Émissions et double seuil",
+    "type": "formula",
+    "text": "Émissions annuelles = kgCO₂/m²/an × surface. Exemple : 12 × 76 = 912 kgCO₂/an → classe climat C (plus de 11, jusqu'à 30). Classe du logement = la moins bonne entre énergie et climat. 2023 : F (énergie) et C (climat) → F. Attestation actualisée : E et C → E. Le facteur d'émission moyen implicite du DPE de M. Bernard : 12 / 150 = 0,08 kgCO₂ par kWhEF (repère, pas une valeur réglementaire)."
+   },
+   {
+    "heading": "Coût annuel estimé",
+    "type": "formula",
+    "text": "Le DPE donne une fourchette en euros par an, avec l'année de référence des prix. Exemple : 2 330 à 3 190 €/an (prix au 1/01/2021). Par mois : 2 330 / 12 ≈ 194 € ; 3 190 / 12 ≈ 266 €. Par m² : 2 330 / 76 ≈ 30,7 € ; 3 190 / 76 ≈ 42,0 €. Prix implicite : 2 330 / 11 400 ≈ 0,204 €/kWh ; 3 190 / 11 400 ≈ 0,280 €/kWh. C'est une estimation conventionnelle (usage standard), pas les factures du vendeur."
+   },
+   {
+    "heading": "Seuils DPE (logements de 40 m² et plus)",
+    "type": "table",
+    "headers": [
+     "Classe",
+     "Énergie primaire (kWhEP/m²/an)",
+     "Émissions (kgCO₂/m²/an)"
+    ],
+    "rows": [
+     [
+      "A",
+      "≤ 70",
+      "≤ 6"
+     ],
+     [
+      "B",
+      "> 70 et ≤ 110",
+      "> 6 et ≤ 11"
+     ],
+     [
+      "C",
+      "> 110 et ≤ 180",
+      "> 11 et ≤ 30"
+     ],
+     [
+      "D",
+      "> 180 et ≤ 250",
+      "> 30 et ≤ 50"
+     ],
+     [
+      "E",
+      "> 250 et ≤ 330",
+      "> 50 et ≤ 70"
+     ],
+     [
+      "F",
+      "> 330 et ≤ 420",
+      "> 70 et ≤ 100"
+     ],
+     [
+      "G",
+      "> 420",
+      "> 100"
+     ]
+    ]
+   },
+   {
+    "heading": "Calculateur à remplir",
+    "type": "table",
+    "headers": [
+     "Ligne",
+     "Formule",
+     "Ton bien",
+     "M. Bernard (corrigé)"
+    ],
+    "rows": [
+     [
+      "1. Surface",
+      "Somme des pièces, hors annexes",
+      "……",
+      "76,0 m²"
+     ],
+     [
+      "2. Seuil Carrez",
+      "Surface × 0,95",
+      "……",
+      "72,2 m²"
+     ],
+     [
+      "3. EF / m²",
+      "Lue sur le DPE (somme des usages)",
+      "……",
+      "150 kWhEF/m²/an"
+     ],
+     [
+      "4. EF / an",
+      "Ligne 3 × ligne 1",
+      "……",
+      "11 400 kWhEF/an"
+     ],
+     [
+      "5. EP / m² (2,3)",
+      "Ligne 3 × 2,3",
+      "……",
+      "345 → F"
+     ],
+     [
+      "6. EP / m² (1,9)",
+      "Ligne 3 × 1,9",
+      "……",
+      "285 → E"
+     ],
+     [
+      "7. EP / m² (1,7)",
+      "Ligne 3 × 1,7",
+      "……",
+      "255 → E"
+     ],
+     [
+      "8. GES / an",
+      "kgCO₂/m² × ligne 1",
+      "……",
+      "912 kgCO₂/an (C)"
+     ],
+     [
+      "9. Classe retenue",
+      "La moins bonne (EP en vigueur, GES)",
+      "……",
+      "E (attestation)"
+     ],
+     [
+      "10. Coût / mois",
+      "Fourchette DPE ÷ 12",
+      "……",
+      "≈ 194 à 266 € (prix 2021)"
+     ],
+     [
+      "11. Écart au seuil inférieur",
+      "EP (1,7) − seuil de la classe du dessous",
+      "……",
+      "255 − 250 = 5"
+     ]
+    ]
+   }
+  ],
+  "footer": "Sources : CCH art. R. 156-1 ; loi n° 65-557 du 10/07/1965, art. 46 ; arrêté du 25/03/2024 (surface de référence, seuils) ; arrêté du 13/08/2025 (coefficient 1,9) et arrêté du 19/08/2026 (coefficient 1,7) ; service-public.gouv.fr F16096. Seuils pour les logements de 40 m² et plus (moins de 40 m² : lire l'étiquette). Données du fil rouge fictives. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Calculer surface et consommation",
+  "duration_min": 30,
+  "context": "M. Bernard veut comprendre pourquoi son appartement est passé de F à E « sans travaux » et ce que coûte son énergie. Il te demande de lui montrer les calculs, ligne par ligne. Tu remplis le calculateur à partir de son plan et de son DPE, puis tu vérifies que tu retrouves l'attestation actualisée.",
+  "materials": [
+   "D04 Plan et descriptif de l'appartement",
+   "D02 DPE du 14/03/2023 (synthèse)",
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D17 Dossier de diagnostic technique (mesurage Carrez)"
+  ],
+  "steps": [
+   "À partir du D04, additionne les surfaces des pièces et liste ce que tu exclus (et pourquoi).",
+   "Compare ton total au mesurage Carrez du D17 et calcule le seuil de tolérance de 5 %.",
+   "Vérifie la somme des usages du D02 (chauffage, eau chaude, éclairage, auxiliaires) et calcule l'énergie finale annuelle.",
+   "Calcule l'énergie primaire avec 2,3, 1,9 et 1,7, et la classe énergie correspondante.",
+   "Calcule les émissions annuelles et applique le double seuil pour chaque coefficient.",
+   "Convertis le coût annuel du DPE en coût par mois et par m², et rappelle l'année des prix.",
+   "Compare ta classe au D03 et rédige 3 phrases pour expliquer à M. Bernard le passage de F à E."
+  ],
+  "expected": "Corrigé. Surface : 24 + 11 + 10 + 9 + 9 + 5 + 1,5 + 6,5 = 76,0 m² ; exclus : balcon 6 m² (non clos), cave n° 22 et parking n° 31 (hors Carrez). Seuil Carrez : 76 × 0,95 = 72,2 m². Usages : 112 + 26 + 4 + 8 = 150 kWhEF/m²/an ; EF annuelle 150 × 76 = 11 400 kWhEF. EP : 150 × 2,3 = 345 → F (26 220 kWhEP/an) ; 150 × 1,9 = 285 → E (21 660) ; 150 × 1,7 = 255 → E (19 380), à 5 kWhEP/m² du seuil D. GES : 12 × 76 = 912 kgCO₂/an → C. Double seuil : 2023 F/C → F ; 2026 E/C → E ; 2027 E/C → E. Coût : 2 330 à 3 190 €/an (prix au 1/01/2021) → ≈ 194 à 266 €/mois, ≈ 30,7 à 42,0 €/m²/an. Le D03 affiche E : cohérent. Phrases : « Votre consommation n'a pas changé : 150 kWh par m² et par an. Ce qui a changé, c'est le coefficient qui convertit l'électricité en énergie primaire : 2,3 en 2023, 1,9 depuis janvier 2026. 150 × 1,9 = 285, ce qui vous place en E, et l'attestation de l'ADEME le confirme. »"
+ },
+ "deliverable": {
+  "title": "Calculateur rempli : appartement de M. Bernard",
+  "format": "Tableur (XLSX) ou PDF, 1 page : les 11 lignes du calculateur + 3 phrases",
+  "criteria": [
+   "La surface est 76,0 m², avec le détail de l'addition et les exclusions (balcon, cave, parking) justifiées",
+   "Le seuil Carrez 72,2 m² est calculé",
+   "Les trois énergies primaires 345 / 285 / 255 et leurs classes F / E / E sont exactes",
+   "Les émissions annuelles (912 kgCO₂) et la règle du double seuil sont appliquées pour chaque année",
+   "Le coût est converti par mois (≈ 194 à 266 €) avec la mention de l'année des prix (2021)",
+   "Les 3 phrases expliquent le passage de F à E sans promettre de classe future"
+  ],
+  "example": "« Ligne 7 : 150 × 1,7 = 255 kWhEP/m²/an → E (seuil D = 250, écart 5). À ne pas présenter comme un passage en D. »"
+ },
+ "sources": [
+  {
+   "label": "Code de la construction et de l'habitation, art. R. 156-1 (surface habitable)",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043808633"
+  },
+  {
+   "label": "Loi n° 65-557 du 10/07/1965, art. 46 (superficie Carrez, diminution du prix au-delà d'un vingtième)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000029946555/"
+  },
+  {
+   "label": "Arrêté du 25 mars 2024 (surface de référence du DPE, seuils petites surfaces)",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049446315"
+  },
+  {
+   "label": "INC : abaissement du coefficient de l'électricité à 1,9 au 1/01/2026 (arrêté du 13/08/2025)",
+   "url": "https://www.inc-conso.fr/content/1er-janvier-2026-abaissement-du-coefficient-de-conversion-de-lelectricite-des-dpe"
+  },
+  {
+   "label": "Arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027), NOR VLOL2617030A",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+  },
+  {
+   "label": "Service-Public, F16096 : DPE (seuils, validité, opposabilité)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+  }
+ ],
+ "notes_prod": "Visuels : tableau des 3 surfaces ; plan D04 avec addition animée jusqu'à 76,0 m² ; jauge Carrez 72,2 m² ; barre empilée 112/26/4/8 ; trois calculs EP animés sur l'échelle A-G ; double échelle énergie/climat ; conversion du coût en €/mois. Tous les calculs ont été refaits (76,0 ; 72,2 ; 11 400 ; 345/285/255 ; 26 220/21 660/19 380 ; 912 ; 194/266 ; 30,7/42,0 ; 0,204/0,280). Mention obligatoire à l'écran : « prix des énergies au 1/01/2021 » et « seuils ≥ 40 m² ». Le facteur 0,08 kgCO₂/kWhEF est une déduction du fil rouge (12/150), pas un facteur réglementaire : les facteurs d'émission par usage figurent dans la méthode 3CL [À VALIDER si on veut les citer]. Relecture juridique : règle Carrez (un vingtième, action dans l'année). Ne pas affirmer de passage en D en 2027."
+}

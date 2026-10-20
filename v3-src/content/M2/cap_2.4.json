@@ -1,0 +1,344 @@
+{
+ "id": "2.4",
+ "module": 2,
+ "ia": true,
+ "title": "Lire un DPE, bases 3CL",
+ "objective": "Lire un DPE 3CL rubrique par rubrique, vérifier sa validité et son attestation actualisée, et en tirer les points faibles du bien avec l'aide de l'IA",
+ "video": {
+  "duration_min": 8,
+  "hook": "Le DPE de M. Bernard fait plusieurs pages. Les deux autres agences n'ont lu qu'une lettre : F. Toi, tu vas lire tout le document, et y trouver ce qu'elles ont raté.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Le DPE de M. Bernard fait plusieurs pages. Les deux autres agences n'en ont lu qu'une lettre : F. Et elles en ont tiré moins 15 %. Toi, tu vas lire le document en entier. Parce que dans ces pages, il y a la date qui dit s'il est encore valable, le schéma qui dit où part la chaleur, le détail des consommations, et des recommandations de travaux. Bref, tout ce qu'il faut pour parler du bien avec des faits.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; à côté, le D02 qui se déplie page par page",
+    "onscreen": "Un DPE, ce n'est pas une lettre"
+   },
+   {
+    "tc": "00:35",
+    "voice": "Pourquoi c'est ton affaire ? Le DPE est opposable depuis le 1er juillet 2021 : l'acquéreur peut s'appuyer dessus. Il est dans l'annonce, dans le dossier de diagnostics, et il sera sur la table de négociation. Et il est calculé avec une méthode commune, la méthode 3CL : une consommation conventionnelle, pour un usage standard, à partir du bâti et des équipements. Pas à partir des factures. Ton rôle n'est pas de refaire le diagnostic. C'est de le lire mieux que tout le monde, et de repérer ce qui compte pour la vente.",
+    "screen": "Slide trois pictogrammes : « Opposable depuis le 1/07/2021 », « Méthode 3CL conventionnelle », « Pas les factures »",
+    "onscreen": "Méthode 3CL : conventionnelle, opposable"
+   },
+   {
+    "tc": "01:15",
+    "voice": "Première idée clé : l'en-tête d'abord. Avant la lettre, lis trois choses. Le numéro ADEME, à 13 caractères : pour M. Bernard, 2377E0123456X. La date d'établissement : 14 mars 2023. Et la date de fin de validité : 13 mars 2033, dix ans plus tard. Un DPE établi depuis le 1er juillet 2021 vaut dix ans. Établi avant, il n'est plus valable aujourd'hui et il faut en refaire un. Ensuite, la surface : 76 mètres carrés, cohérente avec la Carrez. Le type d'énergie : tout électrique. Avec ces informations, tu sais déjà une chose essentielle : l'étiquette a été calculée avec l'ancien coefficient de l'électricité. Elle a peut-être changé.",
+    "screen": "Plein écran : en-tête du D02 zoomé, surlignage successif du numéro ADEME (13 caractères comptés un par un), de la date 14/03/2023, de la fin de validité 13/03/2033 et de la surface 76 m²",
+    "onscreen": "N° ADEME · date · validité · surface · énergie"
+   },
+   {
+    "tc": "02:05",
+    "voice": "C'est là qu'intervient l'attestation actualisée. Pour un DPE établi depuis le 1er juillet 2021, le propriétaire peut la télécharger gratuitement sur l'observatoire DPE-Audit de l'ADEME, avec le numéro à 13 caractères, sans nouvelle visite. Elle remplace l'étiquette et vaut jusqu'à la fin de validité du DPE d'origine. M. Bernard l'a fait : son attestation affiche la classe E, valable jusqu'au 13 mars 2033. Conséquence pour l'annonce : classe énergie E, classe climat C, et la mention « logement à consommation énergétique excessive », réservée aux classes F et G, ne s'applique plus.",
+    "screen": "Capture fictive de l'attestation D03 : étiquette E, mention « valable jusqu'au 13/03/2033 » ; puis bloc DPE d'annonce conforme (E / C) avec la mention « consommation excessive » barrée",
+    "onscreen": "Attestation ADEME : E, jusqu'au 13/03/2033"
+   },
+   {
+    "tc": "02:50",
+    "voice": "Deuxième idée clé : les pages du milieu, celles que personne ne lit. Le schéma des déperditions, qui répartit les pertes entre murs, fenêtres, plancher, toit, ponts thermiques et ventilation. Un indicateur de performance de l'isolation, sur quatre niveaux, d'insuffisante à très bonne. Le confort d'été, la ventilation, les énergies renouvelables. Et surtout la répartition des consommations par usage. Chez M. Bernard : 112 pour le chauffage, 26 pour l'eau chaude, 4 pour l'éclairage, 8 pour les auxiliaires. Le chauffage, c'est les trois quarts. Tu sais maintenant où se joue la performance de ce logement.",
+    "screen": "Plein écran : pages intérieures du D02, schéma des déperditions surligné, puis tableau des consommations par usage avec la ligne chauffage en orange",
+    "onscreen": "Chauffage : 112 sur 150, environ 75 %"
+   },
+   {
+    "tc": "03:30",
+    "voice": "Troisième idée clé : les recommandations. Le DPE de 2021 ne se contente pas de noter. Il recommande des gestes d'usage, d'entretien, et des travaux présentés en deux scénarios cohérents, chacun avec une fourchette de coûts : un premier pour sortir de l'état de passoire, un second plus ambitieux. Ne les prends pas pour des devis. Compare-les aux vrais devis du D13 : fenêtres, VMC, radiateurs à inertie, chauffe-eau thermodynamique, 16 500 euros au total. Et à ce que la copropriété a déjà voté. C'est cette comparaison qui rend ton dossier crédible. Dernier coup d'œil : le descriptif technique, en fin de document. Il liste ce que le diagnostiqueur a pris en compte, paroi par paroi, équipement par équipement. Si tu y lis « double vitrage » pour les chambres, alors que tu as vu du simple vitrage, tu le signales au diagnostiqueur, par écrit.",
+    "screen": "Slide deux colonnes : « Recommandations du DPE (scénarios, fourchettes) » / « Devis réels D13 : 5 600 + 2 900 + 4 800 + 3 200 = 16 500 € »",
+    "onscreen": "Recommandations ≠ devis : on compare"
+   },
+   {
+    "tc": "04:35",
+    "voice": "Démonstration, avec l'IA. Tu ouvres l'outil d'IA validé par ton agence. Tu colles le prompt de la ressource, avec les données techniques du DPE, et seulement elles. Pas de nom, pas d'adresse, pas de numéro ADEME : ce numéro permet de retrouver le logement. Tu demandes à l'IA quatre choses : vérifier la cohérence des calculs, recalculer l'énergie primaire avec 1,9 et 1,7, classer les points faibles, et proposer des phrases pour le vendeur. Puis tu contrôles. L'IA t'écrit 150 fois 1,7 égale 255, classe D ? Faux : le seuil de D, c'est 250. 255, c'est encore E. Tu corriges, tu annotes. L'IA te fait gagner du temps. Elle ne signe pas ton dossier.",
+    "screen": "Capture d'écran d'un outil d'IA générique (sans marque) : prompt collé sans nom ni adresse, réponse affichée ; une erreur « 255 → D » entourée en rouge et corrigée « 255 → E »",
+    "onscreen": "Données techniques seulement · On vérifie tout"
+   },
+   {
+    "tc": "05:25",
+    "voice": "Ce que tu en tires, pour M. Bernard. Cinq points faibles, dans l'ordre : un, des convecteurs de 1998 sans programmation, pour trois quarts de la consommation ; deux, quatre fenêtres en simple vitrage ; trois, des murs quasi non isolés avec le pont thermique du balcon, que l'isolation par l'extérieur votée traitera en partie ; quatre, une ventilation naturelle sans VMC, avec un conduit obstrué ; cinq, un ballon d'eau chaude électrique de 2011. Et un point de vigilance : en 2027, à 255, il sera tout près du seuil de D. Ce n'est pas une promesse. C'est une piste à faire étudier par un diagnostiqueur, après travaux.",
+    "screen": "Slide liste numérotée 1 à 5 avec pictogrammes (radiateur, fenêtre, mur, ventilation, ballon) et un encadré orange « Vigilance 2027 : 255 / seuil D 250 »",
+    "onscreen": "5 points faibles + 1 vigilance"
+   },
+   {
+    "tc": "06:15",
+    "voice": "Les erreurs fréquentes. Un : lire la lettre sans lire la date. Un DPE de 2019, aussi joli soit-il, n'est plus valable. Deux : confondre la classe du DPE d'origine et celle de l'attestation. Dans l'annonce, c'est la classe en vigueur, et rien d'autre. Trois : prendre les fourchettes de travaux du DPE pour des devis. Un acquéreur qui négocie sur une fourchette haute, c'est de l'argent perdu pour ton vendeur. Quatre : coller un DPE complet, avec le nom et l'adresse du vendeur, dans une IA grand public. Cinq : croire l'IA sur parole. Elle calcule vite, elle se trompe parfois avec beaucoup d'assurance. Et un sixième, plus subtil : oublier de dire à M. Bernard ce que son DPE dit de bien. Ses émissions sont en C. Son DPE est valable jusqu'en 2033. Sa classe officielle n'est plus F. Pour un profil C, ces faits-là comptent autant que les points faibles.",
+    "screen": "Seb face caméra, plan rapproché ; cinq cartons rouges barrés apparaissent un à un",
+    "onscreen": "Date · attestation · devis · RGPD · vérification"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi. Quiz flash, cinq questions. Ensuite, télécharge la fiche lecture DPE : elle contient la grille de lecture et le prompt prêt à copier. Dans l'exercice, tu analyses le DPE de M. Bernard avec l'IA, tu contrôles ce qu'elle produit, et tu rédiges sa fiche points faibles. Tu déposes la fiche, avec la réponse de l'IA annotée. Je regarde surtout tes corrections.",
+    "screen": "Seb face caméra, plan taille ; bandeau des 5 étapes, l'étape ② clignote ; aperçu de la fiche lecture DPE",
+    "onscreen": "Quiz → Fiche lecture DPE + prompt → Fiche points faibles"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Dans un DPE établi depuis juillet 2021, quelle rubrique te dit par quelles parois le logement perd le plus de chaleur ?",
+    "options": [
+     "L'estimation des coûts annuels",
+     "Le schéma des déperditions",
+     "L'étiquette climat"
+    ],
+    "answer": 1,
+    "fb_title": "Le schéma des déperditions",
+    "fb_text": "Le DPE 2021 contient un schéma qui répartit les pertes (murs, fenêtres, plancher, toit, ponts thermiques, ventilation) et un indicateur de performance de l'isolation sur quatre niveaux. C'est ta porte d'entrée vers les travaux prioritaires.",
+    "whys": [
+     "Faux : les coûts donnent une fourchette en euros, pas la répartition des pertes.",
+     "Juste : il répartit les déperditions par poste et oriente les travaux.",
+     "Faux : l'étiquette climat mesure les émissions de gaz à effet de serre."
+    ]
+   },
+   {
+    "question": "M. Bernard a obtenu une attestation actualisée (classe E) pour son DPE du 14/03/2023. Jusqu'à quand est-elle valable ?",
+    "options": [
+     "Jusqu'au 13/03/2033, fin de validité du DPE d'origine",
+     "Un an à partir de son téléchargement",
+     "Jusqu'au 31/12/2026, date du prochain changement de coefficient"
+    ],
+    "answer": 0,
+    "fb_title": "Même fin de validité que le DPE",
+    "fb_text": "L'attestation actualisée, gratuite sur l'observatoire DPE-Audit de l'ADEME, remplace l'étiquette sans nouvelle visite et vaut jusqu'à la fin de validité du DPE d'origine : 14/03/2023 + 10 ans → 13/03/2033.",
+    "whys": [
+     "Juste : elle suit la validité du DPE d'origine (10 ans).",
+     "Faux : il n'existe pas de durée propre d'un an.",
+     "Faux : le changement de coefficient ne met pas fin à sa validité ; avec 1,7, la classe reste E (255)."
+    ]
+   },
+   {
+    "question": "Tu veux faire analyser le DPE par une IA grand public. Que peux-tu y coller ?",
+    "options": [
+     "Le PDF complet du DPE, c'est plus rapide",
+     "Les données techniques (surface, année, équipements, consommations, classes), sans nom, adresse ni numéro ADEME",
+     "Le numéro ADEME seulement, l'IA retrouvera le reste"
+    ],
+    "answer": 1,
+    "fb_title": "Minimiser avant de coller",
+    "fb_text": "Le DPE complet contient le nom, l'adresse et le numéro ADEME, qui identifient le logement et son propriétaire. Pour l'analyse, les données techniques suffisent. Utilise l'outil validé par ton agence et relis tout.",
+    "whys": [
+     "Faux : le PDF contient des données personnelles inutiles à l'analyse.",
+     "Juste : c'est tout ce dont l'IA a besoin, sans donnée identifiante.",
+     "Faux : le numéro ADEME permet de retrouver le logement ; c'est une donnée à protéger."
+    ]
+   },
+   {
+    "question": "Comment le DPE 2021 présente-t-il ses recommandations de travaux ?",
+    "options": [
+     "Sous forme de devis d'artisans RGE à signer",
+     "Une liste de gestes indépendants, sans coût",
+     "Deux scénarios de travaux cohérents, chacun avec une fourchette de coûts"
+    ],
+    "answer": 2,
+    "fb_title": "Deux scénarios chiffrés en fourchette",
+    "fb_text": "Le DPE propose des recommandations d'usage et d'entretien, et deux scénarios de travaux cohérents entre eux, évalués en fourchette de coûts. Ce ne sont pas des devis : compare-les aux devis réels (D13).",
+    "whys": [
+     "Faux : le diagnostiqueur ne fournit pas de devis.",
+     "Faux : c'était la logique de l'ancien DPE (lots indépendants).",
+     "Juste : deux scénarios cohérents, avec une fourchette de coûts."
+    ]
+   },
+   {
+    "question": "Quelles mentions énergie doivent figurer dans l'annonce de M. Bernard, une fois l'attestation obtenue ?",
+    "options": [
+     "Classe F et « logement à consommation énergétique excessive »",
+     "Classe énergie E, classe climat C et l'estimation des dépenses annuelles avec l'année de référence des prix",
+     "Classe D, puisqu'il sera à 255 en 2027"
+    ],
+    "answer": 1,
+    "fb_title": "L'étiquette en vigueur, rien de plus",
+    "fb_text": "L'annonce reprend la classe en vigueur (E, attestation), la classe climat (C) et l'estimation des dépenses annuelles avec l'année de référence. La mention « consommation énergétique excessive » ne vise que F et G.",
+    "whys": [
+     "Faux : F est l'ancien classement, remplacé par l'attestation (E).",
+     "Juste : ce sont les mentions de l'étiquette en vigueur.",
+     "Faux : 255 reste en E (seuil D = 250), et seul un document officiel établit une classe."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche lecture DPE",
+  "kind": "fiche",
+  "intro": "La grille pour lire un DPE établi selon la méthode 3CL-DPE 2021 en 10 minutes, vérifier sa validité, repérer les points faibles du bien et préparer ton argumentaire. Avec le prompt IA prêt à copier (données techniques uniquement) et l'exemple de M. Bernard.",
+  "sections": [
+   {
+    "heading": "Les rubriques du DPE, dans l'ordre de lecture",
+    "type": "table",
+    "headers": [
+     "Rubrique",
+     "Ce que tu relèves",
+     "M. Bernard (D02 / D03)"
+    ],
+    "rows": [
+     [
+      "En-tête",
+      "N° ADEME (13 caractères), date d'établissement, fin de validité, surface, type d'énergie",
+      "2377E0123456X ; 14/03/2023 ; 13/03/2033 ; 76 m² ; tout électrique"
+     ],
+     [
+      "Étiquettes énergie et climat",
+      "kWhEP/m²/an, kgCO₂/m²/an, les deux classes, la classe retenue",
+      "345 (F) et 12 (C) → F en 2023 ; attestation : E"
+     ],
+     [
+      "Estimation des coûts annuels",
+      "Fourchette en € et année de référence des prix",
+      "2 330 à 3 190 €/an, prix au 1/01/2021"
+     ],
+     [
+      "Schéma des déperditions et isolation",
+      "Postes dominants, indicateur de performance de l'isolation (4 niveaux)",
+      "À relever sur le D02 : murs, fenêtres, ventilation attendus en tête"
+     ],
+     [
+      "Ventilation, confort d'été, renouvelables",
+      "Type de ventilation, indicateur de confort d'été",
+      "Ventilation naturelle, pas de VMC"
+     ],
+     [
+      "Consommations par usage",
+      "Chauffage, eau chaude, éclairage, auxiliaires (refroidissement)",
+      "112 / 26 / 4 / 8 = 150 kWhEF/m²/an"
+     ],
+     [
+      "Recommandations",
+      "Usage, entretien, deux scénarios de travaux avec fourchettes de coûts",
+      "À comparer aux devis D13 (16 500 €) et à l'ITE votée"
+     ],
+     [
+      "Descriptif technique",
+      "Données d'entrée (parois, menuiseries, équipements) et leur origine",
+      "Vérifier : simple vitrage des chambres, convecteurs 1998, ballon 2011"
+     ]
+    ]
+   },
+   {
+    "heading": "Validité : la vérification en 30 secondes",
+    "type": "checklist",
+    "items": [
+     "DPE établi avant le 1/07/2021 : plus valable aujourd'hui, nouveau DPE obligatoire avant la mise en vente",
+     "DPE établi depuis le 1/07/2021 : valable 10 ans (M. Bernard : jusqu'au 13/03/2033)",
+     "Logement chauffé à l'électricité et DPE antérieur à 2026 : télécharger l'attestation actualisée gratuite (observatoire DPE-Audit ADEME, numéro à 13 caractères)",
+     "Travaux réalisés depuis le DPE : un nouveau DPE est recommandé pour les valoriser",
+     "Lot de copropriété : pas d'audit énergétique réglementaire à la vente (il vise les maisons et immeubles en monopropriété)",
+     "Annonce : classe en vigueur, classe climat, dépenses annuelles estimées avec l'année de référence ; « consommation énergétique excessive » seulement pour F et G"
+    ]
+   },
+   {
+    "heading": "Repérer les points faibles",
+    "type": "steps",
+    "items": [
+     "Identifie l'étiquette qui décide (énergie ou climat) : pour un logement électrique, c'est presque toujours l'énergie primaire.",
+     "Classe les usages par poids (part de chaque usage dans l'énergie finale).",
+     "Lis le schéma des déperditions et l'indicateur d'isolation : quels postes dominent ?",
+     "Croise avec le descriptif technique et ta visite : équipements anciens, simple vitrage, absence de VMC.",
+     "Calcule l'écart au seuil de la classe inférieure avec le coefficient en vigueur (et celui de l'année suivante).",
+     "Compare les recommandations du DPE aux devis réels et aux travaux votés par la copropriété."
+    ]
+   },
+   {
+    "heading": "Prompt IA prêt à copier (données techniques uniquement)",
+    "type": "text",
+    "text": "« Tu es un conseiller expert du DPE (méthode 3CL-DPE 2021) qui aide un agent immobilier. Données d'un appartement (aucune donnée personnelle) : T4 de 76 m², 4e étage sur 6, immeuble de 1972 ; murs béton avec doublage polystyrène 2 cm ; 4 fenêtres bois simple vitrage (chambres), autres fenêtres PVC double vitrage 2004 ; ventilation naturelle, pas de VMC ; chauffage : 6 convecteurs électriques de 1998 sans programmation ; eau chaude : ballon électrique 200 L de 2011. DPE de mars 2023 : 150 kWhEF/m²/an (chauffage 112, eau chaude 26, éclairage 4, auxiliaires 8), 345 kWhEP/m²/an (coefficient 2,3), 12 kgCO₂/m²/an, classe F ; attestation actualisée : classe E. Tâches : 1) vérifie la somme des usages et le calcul de l'énergie primaire ; 2) recalcule l'énergie primaire avec 1,9 et 1,7 et donne la classe avec les seuils des logements de 40 m² et plus (E : > 250 et ≤ 330 ; D : > 180 et ≤ 250) ; 3) classe les 5 points faibles par impact, avec la donnée qui le justifie ; 4) propose 3 phrases pour le vendeur et 3 pour un acquéreur, sans promettre de classe ni de prix. Format : tableau puis phrases. Contraintes : n'invente aucune valeur ; écris [à vérifier] quand tu n'es pas sûr ; réponds en français. »"
+   },
+   {
+    "heading": "Contrôler la réponse de l'IA",
+    "type": "checklist",
+    "items": [
+     "Chaque calcul refait à la main : 150 × 1,9 = 285 (E) ; 150 × 1,7 = 255 (E, pas D)",
+     "Aucune classe annoncée comme certaine en dehors du DPE ou de l'attestation",
+     "Aucune règle juridique ou aide financière citée sans source officielle",
+     "Points faibles cohérents avec ta visite et avec le D02",
+     "Phrases relues : pas de promesse de classe, de prix ou d'économie garantie"
+    ]
+   },
+   {
+    "heading": "Exemple rempli : fiche points faibles de M. Bernard",
+    "type": "list",
+    "items": [
+     "1. Chauffage : 6 convecteurs de 1998 sans programmation, 112 kWhEF/m²/an soit ≈ 75 % de la consommation.",
+     "2. Menuiseries : 4 fenêtres bois simple vitrage dans les chambres (paroi froide, fuites).",
+     "3. Murs peu isolés (2 cm de polystyrène) et pont thermique du balcon ; ITE votée pour 2027.",
+     "4. Ventilation naturelle sans VMC, conduit de salle de bains obstrué (moisissures).",
+     "5. Eau chaude : ballon électrique 200 L de 2011, 26 kWhEF/m²/an (≈ 17 %).",
+     "Vigilance : en 2027, 150 × 1,7 = 255, à 5 du seuil D (250) : piste à faire étudier, jamais une promesse."
+    ]
+   }
+  ],
+  "footer": "Sources : ecologie.gouv.fr (DPE : contenu, indicateurs, recommandations) ; ANIL (DPE 2021 : schéma des déperditions, isolation sur 4 niveaux, deux scénarios de travaux) ; service-public.gouv.fr F16096 et F32061 ; observatoire DPE-Audit ADEME ; arrêtés du 13/08/2025 et du 19/08/2026. Données du fil rouge fictives. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Repérer les points faibles",
+  "duration_min": 35,
+  "context": "M. Bernard te confie son DPE et son attestation. Il veut savoir ce que le document dit vraiment de son appartement, et ce qu'un acquéreur va y lire. Tu prépares une fiche points faibles d'une page, en t'aidant d'une IA pour gagner du temps, mais tu restes responsable de chaque chiffre.",
+  "materials": [
+   "D02 DPE du 14/03/2023 (synthèse)",
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D13 Devis des travaux privatifs",
+   "D17 Dossier de diagnostic technique"
+  ],
+  "steps": [
+   "Lis l'en-tête du D02 : numéro ADEME, date, fin de validité, surface, énergie ; vérifie la cohérence de la surface avec le D17.",
+   "Relève les étiquettes, les consommations par usage, le schéma des déperditions et les recommandations du D02 ; relève la classe du D03.",
+   "Prépare le prompt de la ressource avec les seules données techniques (aucun nom, adresse ni numéro ADEME) et lance-le dans l'outil validé par ton agence.",
+   "Contrôle la réponse : refais chaque calcul, repère au moins deux erreurs ou approximations et annote-les.",
+   "Rédige la fiche : validité, classe en vigueur, 5 points faibles classés avec leur donnée justificative, vigilance 2027.",
+   "Compare les recommandations du D02 aux devis du D13 (16 500 €) et note les écarts.",
+   "Écris une phrase pour M. Bernard et une phrase pour un acquéreur, sans promesse."
+  ],
+  "ia_prompt": {
+   "prompt": "Rôle : tu es un conseiller expert du diagnostic de performance énergétique (méthode 3CL-DPE 2021) qui assiste un agent immobilier ; tu es rigoureux et tu signales tes incertitudes.\nContexte (données techniques anonymisées, à coller telles quelles) : appartement T4 de 76 m², 4e étage sur 6, logements chauffés dessus et dessous, immeuble de 1972. Murs en béton banché, doublage intérieur polystyrène 2 cm. Menuiseries : séjour et cuisine PVC double vitrage 2004 ; 4 fenêtres bois simple vitrage d'origine dans les chambres, joints dégradés. Ventilation naturelle (grilles et conduits collectifs), pas de VMC, conduit de salle de bains partiellement obstrué. Chauffage : 6 convecteurs électriques de 1998 sans programmation. Eau chaude : ballon électrique 200 L de 2011. DPE de mars 2023 : énergie finale 150 kWhEF/m²/an (chauffage 112, eau chaude 26, éclairage 4, auxiliaires 8) ; énergie primaire 345 kWhEP/m²/an (coefficient électricité 2,3) ; émissions 12 kgCO₂/m²/an ; classe F (énergie F, climat C). Attestation actualisée : classe E. Travaux de copropriété votés : ravalement avec isolation thermique par l'extérieur, démarrage prévu en 2027.\nTâches : 1) Vérifie que la somme des usages fait 150 et que 150 × 2,3 = 345. 2) Calcule l'énergie primaire avec les coefficients 1,9 (2026) et 1,7 (2027) et donne la classe énergie avec les seuils des logements de 40 m² et plus : C > 110 et ≤ 180 ; D > 180 et ≤ 250 ; E > 250 et ≤ 330 ; F > 330 et ≤ 420. Applique la règle du double seuil avec la classe climat. 3) Calcule la part de chaque usage dans l'énergie finale. 4) Classe les 5 principaux points faibles du logement par impact sur la consommation et le confort, avec pour chacun la donnée qui le justifie. 5) Indique l'écart entre l'énergie primaire 2027 et le seuil de la classe D, sans conclure à un changement de classe. 6) Propose 3 phrases pour expliquer le DPE au vendeur et 3 phrases pour un acquéreur.\nFormat : un tableau (calculs), un tableau (points faibles : rang, point faible, donnée, impact), puis les phrases.\nContraintes : n'invente aucune donnée absente ci-dessus ; écris [à vérifier] dès que tu n'es pas sûr ; ne promets ni classe, ni prix, ni économie chiffrée ; ne cite aucune loi ou aide sans préciser qu'elle est à vérifier sur une source officielle ; réponds en français.",
+   "guardrails": [
+    "RGPD : jamais de nom, d'adresse, de numéro ADEME ni de PDF complet du DPE dans un outil d'IA non validé par ton agence ; les données techniques suffisent.",
+    "Vérifie chaque calcul à la main avec la fiche formules (capsule 2.3) : par exemple 255 reste en E, le seuil de D est 250.",
+    "L'IA ne remplace pas le diagnostiqueur : seuls le DPE et l'attestation actualisée ADEME établissent une classe.",
+    "Relis et réécris toute phrase destinée au vendeur ou à un acquéreur : aucune promesse de classe, de prix ou d'économie.",
+    "Toute règle ou aide citée par l'IA se vérifie sur une source officielle (Service-Public, ADEME, Légifrance) avant usage."
+   ]
+  },
+  "expected": "Fiche attendue (exemple). Validité : DPE n° ADEME 13 caractères établi le 14/03/2023, valable jusqu'au 13/03/2033 ; surface 76 m², cohérente avec le mesurage Carrez (D17). Classe en vigueur : E (attestation D03), climat C ; ancien classement F (345 = 150 × 2,3) ; la mention « consommation énergétique excessive » ne s'applique plus. Calculs : 112 + 26 + 4 + 8 = 150 ; 150 × 1,9 = 285 → E ; 150 × 1,7 = 255 → E ; parts : chauffage ≈ 74,7 %, eau chaude ≈ 17,3 %, éclairage ≈ 2,7 %, auxiliaires ≈ 5,3 %. Points faibles : 1) convecteurs 1998 sans programmation (112 kWhEF/m²) ; 2) 4 fenêtres bois simple vitrage ; 3) murs à 2 cm de polystyrène + pont thermique du balcon (ITE votée pour 2027) ; 4) ventilation naturelle sans VMC, conduit obstrué ; 5) ballon électrique 2011 (26 kWhEF/m²). Vigilance : en 2027, 255 contre un seuil D à 250 (écart 5) : à faire étudier par un diagnostiqueur après travaux. Recommandations du D02 à comparer au D13 : fenêtres 5 600 €, VMC 2 900 €, radiateurs à inertie 4 800 €, chauffe-eau thermodynamique 3 200 €, total 16 500 €. Corrections typiques de l'IA : « 255 → D » corrigé en E ; une aide financière citée sans source supprimée ; une économie en euros « garantie » retirée. Phrase vendeur : « Votre DPE reste valable jusqu'en 2033 et votre classe officielle est E ; le chauffage fait les trois quarts de la consommation, c'est là que se trouvent les marges. » Phrase acquéreur : « L'étiquette en vigueur est E ; les quatre postes de travaux privatifs sont chiffrés à 16 500 € et l'isolation de la façade est votée. »"
+ },
+ "deliverable": {
+  "title": "Fiche points faibles du DPE de M. Bernard",
+  "format": "PDF, 1 page + annexe : prompt utilisé et réponse de l'IA annotée",
+  "criteria": [
+   "La validité est vérifiée : 14/03/2023 → 13/03/2033 et classe en vigueur E (attestation D03)",
+   "Les énergies primaires 345 / 285 / 255 et les classes F / E / E sont exactes, avec le double seuil (climat C)",
+   "Les 5 points faibles sont classés, chacun avec une donnée chiffrée ou un constat issu du D02",
+   "La réponse de l'IA est annotée avec au moins 2 corrections ou vérifications explicites",
+   "Le prompt annexé ne contient ni nom, ni adresse, ni numéro ADEME",
+   "Les recommandations du DPE sont comparées aux devis D13 (16 500 €)",
+   "Les phrases vendeur et acquéreur ne promettent ni classe, ni prix, ni économie"
+  ],
+  "example": "« Vigilance 2027 : 150 × 1,7 = 255 kWhEP/m²/an, classe E, à 5 du seuil D. À faire étudier par un diagnostiqueur après les travaux privatifs ; aucune classe annoncée. »"
+ },
+ "sources": [
+  {
+   "label": "Ministère de la Transition écologique : le DPE (indicateurs, recommandations, opposabilité)",
+   "url": "https://www.ecologie.gouv.fr/politiques-publiques/diagnostic-performance-energetique-dpe"
+  },
+  {
+   "label": "ANIL : DPE, nouveau cadre (schéma des déperditions, isolation sur 4 niveaux, deux scénarios de travaux)",
+   "url": "https://www.anil.org/aj-dpe-mentions-obligatoires-annonces-baux-immobiliers/"
+  },
+  {
+   "label": "Service-Public, F16096 : diagnostic de performance énergétique",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+  },
+  {
+   "label": "Service-Public, F32061 : mentions DPE dans les annonces",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32061"
+  },
+  {
+   "label": "Observatoire DPE-Audit de l'ADEME (attestation actualisée)",
+   "url": "https://observatoire-dpe-audit.ademe.fr"
+  },
+  {
+   "label": "Arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027), NOR VLOL2617030A",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+  },
+  {
+   "label": "CNIL : principes du RGPD (minimisation)",
+   "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2"
+  }
+ ],
+ "notes_prod": "Visuels : D02 fictif déplié page par page (filigrane FICTIF), en-tête zoomé avec comptage des 13 caractères, attestation D03 (E, valable jusqu'au 13/03/2033), bloc annonce E/C, pages schéma des déperditions et consommations par usage, comparatif recommandations / devis D13, capture d'un outil d'IA générique sans marque avec l'erreur « 255 → D » corrigée. À aligner avec le rédacteur du dossier : le D02 doit contenir un schéma des déperditions, un indicateur d'isolation et deux scénarios de recommandations cohérents avec le D13 (non chiffrés dans le dossier fil rouge) [À VALIDER]. Ne jamais afficher de nom ou d'adresse dans la séquence IA. Ne pas affirmer de passage en D en 2027. Relecture juridique : mentions de l'annonce après attestation (classe en vigueur, suppression de la mention « consommation excessive »)."
+}

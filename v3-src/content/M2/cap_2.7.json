@@ -1,0 +1,355 @@
+{
+ "id": "2.7",
+ "module": 2,
+ "ia": false,
+ "title": "Audit de la copropriété",
+ "objective": "Analyser un PV d'AG, le carnet d'entretien, le PPPT et la fiche synthétique pour repérer les charges, travaux votés et risques financiers d'un lot",
+ "video": {
+  "duration_min": 8,
+  "hook": "35 880 €. C'est ce que la copropriété va appeler sur le lot de M. Bernard en 2027. Si tu ne l'as pas lu dans le PV d'AG, l'acheteur, lui, le lira.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Trente-cinq mille huit cent quatre-vingts euros. C'est la part de M. Bernard dans les travaux de façade votés par sa copropriété. Appelée en quatre fois, en 2027. Les deux agences qui lui ont proposé 172 000 euros n'en ont pas parlé. Peut-être qu'elles ne l'ont pas vu. Le problème, c'est que l'acheteur, lui, le verra : la loi impose de lui remettre les procès-verbaux d'assemblée générale avant la signature de la promesse. Donc la seule question, c'est : qui le découvre en premier ? Toi, en préparant ton estimation, ou l'acheteur, juste avant de signer ?",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; incrustation du chiffre 35 880 € qui grossit",
+    "onscreen": "35 880 € votés pour le lot"
+   },
+   {
+    "tc": "00:45",
+    "voice": "Pourquoi c'est central ? Parce qu'en appartement, tu ne vends pas seulement des murs. Tu vends une part d'immeuble, avec ses charges, ses travaux passés et ses travaux à venir. Un appartement impeccable dans une copropriété en difficulté, c'est une mauvaise affaire. Un appartement à rafraîchir dans un immeuble bien géré, qui va être isolé, c'est souvent une bonne affaire. L'audit de la copropriété, c'est la deuxième moitié de l'audit à 360°. Et c'est là que tu fais la différence avec les agents qui s'arrêtent à la porte du logement. Et pour M. Bernard, profil C, c'est le terrain idéal : des documents officiels, des tantièmes, des calculs qu'il peut refaire lui-même. Il aimera ça.",
+    "screen": "Slide en deux colonnes : « Le logement » / « La copropriété » ; B-roll hall d'immeuble, boîtes aux lettres, ascenseur",
+    "onscreen": "Un lot = un logement + une part d'immeuble"
+   },
+   {
+    "tc": "01:30",
+    "voice": "Première idée : quatre documents racontent l'immeuble. La fiche synthétique, le D10 : la carte d'identité, avec le nombre de lots, le syndic, le budget, les impayés. Le carnet d'entretien, le D08 : le passé, ce qui a été refait et quand. Les PV d'assemblée générale, le D07 : le présent, ce qui a été voté. Et le projet de plan pluriannuel de travaux, le PPPT, le D09 : l'avenir, ce qui sera à voter dans les dix prochaines années. Ajoute le DPE collectif de l'immeuble. Passé, présent, futur : avec ces documents, tu sais où va l'immeuble.",
+    "screen": "Frise animée « Passé – Présent – Futur » : D08 carnet → D07 PV d'AG → D09 PPPT ; D10 fiche synthétique en carte d'identité au-dessus",
+    "onscreen": "Carnet = passé · PV = présent · PPPT = futur"
+   },
+   {
+    "tc": "02:15",
+    "voice": "Démonstration avec Les Tilleuls. La fiche synthétique : 48 lots principaux, syndic professionnel, budget prévisionnel 2026 de 85 000 euros. Le lot de M. Bernard pèse 312 tantièmes sur 10 000. Donc sa part de charges courantes, c'est 85 000 fois 312 divisé par 10 000 : 2 652 euros par an, environ 663 euros par trimestre. Le fonds de travaux : 4 250 euros par an pour l'immeuble, soit 5 % du budget. Pour le lot, 132,60 euros par an, et 1 061 euros accumulés. Vérifie au passage le plancher légal : au moins 5 % du budget, et, comme un plan de travaux a été adopté, au moins 2,5 % du montant des travaux qu'il prévoit. Tu poses la question au syndic, par écrit. Attention : cette somme reste à la copropriété, elle n'est pas remboursée au vendeur. Les impayés : 6 % du budget. C'est modéré, mais tu le notes.",
+    "screen": "Plein écran : fiche synthétique D10 avec lignes surlignées ; calcul animé 85 000 × 312 / 10 000 = 2 652 €/an ; puis fonds de travaux 4 250 € → 132,60 €/lot, solde 1 061 €",
+    "onscreen": "Charges du lot : 2 652 €/an"
+   },
+   {
+    "tc": "03:05",
+    "voice": "Maintenant le PV d'AG du 12 juin 2025, le D07. Résolution votée à la majorité de l'article 25 : ravalement avec isolation thermique par l'extérieur, un million cent cinquante mille euros TTC. Démarrage prévu en avril 2027. Pour le lot : 1 150 000 fois 312 sur 10 000, ça fait 35 880 euros. Appelés en quatre échéances de 8 970 euros, le 1er janvier, le 1er avril, le 1er juillet et le 1er octobre 2027. Le syndic a demandé une aide MaPrimeRénov' Copropriété, mais elle n'est pas encore notifiée. Donc tu ne la chiffres pas, tu la mentionnes.",
+    "screen": "Plein écran : extrait du PV d'AG D07, résolution ITE surlignée ; calcul animé 1 150 000 × 312 / 10 000 = 35 880 € ; échéancier en 4 cases : 01/01, 01/04, 01/07, 01/10/2027 à 8 970 €",
+    "onscreen": "4 × 8 970 € en 2027"
+   },
+   {
+    "tc": "03:50",
+    "voice": "Le carnet d'entretien, le D08 : ascenseurs remplacés en 2019, colonnes d'eau refaites en 2015, étanchéité de la toiture-terrasse de 2004, avec une fin de vie prévue vers 2030. Et le PPPT, adopté en AG en juin 2024, confirme : façade et isolation d'abord, menuiseries des parties communes, puis toiture en 2030. Ce qui compte pour toi : les gros postes récents sont faits, la façade est votée, et le prochain chantier, la toiture, est déjà identifié. Pas encore chiffré : tu ne l'inventes pas, tu le signales. Enfin, le DPE collectif de février 2026 classe l'immeuble en E. L'isolation votée est la réponse. Pour l'acheteur, c'est un argument : il achète dans un immeuble qui se modernise, pas dans un immeuble qui se dégrade.",
+    "screen": "Plein écran : tableau du carnet D08 (2015 colonnes, 2019 ascenseurs, 2004 toiture → 2030) ; puis synthèse PPPT D09 en 3 priorités ; étiquette DPE collectif E",
+    "onscreen": "Prochain chantier identifié : toiture 2030"
+   },
+   {
+    "tc": "04:35",
+    "voice": "Deuxième idée : qui paie un appel de fonds quand l'appartement se vend ? La règle est dans le décret du 17 mars 1967, article 6-2. Les provisions du budget courant exigibles sont payées par le vendeur. Pour les travaux hors budget, comme l'isolation, c'est celui qui est copropriétaire le jour où l'appel est exigible. Exemple : si l'acte est signé mi-mars 2027, M. Bernard est copropriétaire au 1er janvier, il paie la première échéance. L'acquéreur paiera les trois suivantes, soit 26 910 euros. Vendeur et acquéreur peuvent convenir d'un autre partage, mais cet accord n'engage qu'eux, pas le syndicat. Et c'est le notaire qui le rédige.",
+    "screen": "Slide « Art. 6-2 du décret du 17/03/1967 » : budget courant → vendeur ; travaux hors budget → copropriétaire à la date d'exigibilité ; frise 2027 avec l'acte au 15/03 : 1 échéance M. Bernard, 3 échéances acquéreur",
+    "onscreen": "Travaux : paie le copropriétaire à la date d'exigibilité"
+   },
+   {
+    "tc": "05:20",
+    "voice": "Troisième idée : ces documents, tu dois les réunir maintenant, pas au compromis. L'article L. 721-2 du code de la construction liste ce que l'acquéreur reçoit au plus tard à la promesse : fiche synthétique, règlement de copropriété, PV des trois dernières AG, informations financières sur les charges, les impayés et le fonds de travaux, carnet d'entretien, notice d'information, plan ou projet de plan de travaux. S'il manque un document, le délai de rétractation de l'acquéreur ne démarre pas. Donc tu demandes tout au syndic dès le mandat. Avec ton dossier complet, tu sécurises la vente.",
+    "screen": "Check-list animée des documents de l'art. L. 721-2 CCH qui se cochent une à une ; incrustation « Document manquant = délai de rétractation qui ne court pas »",
+    "onscreen": "Dossier copro complet dès le mandat"
+   },
+   {
+    "tc": "06:05",
+    "voice": "Les erreurs fréquentes. Un : lire seulement le dernier PV. Les travaux votés il y a deux ans peuvent encore être appelés. Deux : dire au vendeur qu'il récupérera son fonds de travaux. C'est faux, il reste attaché au lot. Trois : présenter les 35 880 euros comme une catastrophe. C'est aussi un immeuble qui sera isolé, et ça soutient la valeur après travaux. Quatre : promettre qui paiera quoi. Tu expliques la règle, tu prépares la discussion, et c'est le notaire qui rédige. Cinq : oublier les impayés. Un immeuble où les impayés montent, c'est un immeuble où les travaux risquent de traîner.",
+    "screen": "Seb plan taille ; 5 cartes qui apparaissent une à une : Un seul PV / Fonds remboursé / Catastrophe / Promesse de partage / Impayés oubliés",
+    "onscreen": "La règle, oui. La promesse, non."
+   },
+   {
+    "tc": "06:55",
+    "voice": "À toi de jouer. Le quiz flash d'abord, cinq questions. Ensuite tu télécharges la check-list copropriété : tu l'enverras au syndic à chaque nouveau mandat. Puis l'exercice : avec le PV d'AG et le carnet d'entretien de M. Bernard, tu calcules sa quote-part, tu dresses l'échéancier, tu repères les prochains travaux et tu rédiges ta note de risques. Tu la déposes, je la relis. Et retiens ça : un acheteur ne fuit pas devant des travaux votés. Il fuit devant des travaux qu'il découvre seul.",
+    "screen": "Seb face caméra, plan rapproché ; bandeau des étapes : Quiz → Check-list copropriété → Exercice PV + carnet → Dépôt",
+    "onscreen": "Ce que l'acheteur découvre seul le fait fuir"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Le PV d'AG D07 vote une ITE à 1 150 000 € TTC. Le lot de M. Bernard a 312/10 000 tantièmes. Quelle est sa quote-part ?",
+    "options": [
+     "3 588 €",
+     "35 880 €",
+     "26 910 €",
+     "8 970 €"
+    ],
+    "answer": 1,
+    "fb_title": "1 150 000 × 312 / 10 000",
+    "fb_text": "La quote-part se calcule sur les tantièmes de charges générales : 1 150 000 × 312 / 10 000 = 35 880 €, appelés en 4 échéances de 8 970 € en 2027.",
+    "whys": [
+     "Faux : erreur d'un facteur 10 dans la division par 10 000.",
+     "Juste : c'est la part totale du lot pour les travaux votés.",
+     "Faux : 26 910 € correspond à 3 échéances, celles qui seraient dues par l'acquéreur si l'acte a lieu mi-mars 2027.",
+     "Faux : 8 970 € est une seule des quatre échéances."
+    ]
+   },
+   {
+    "question": "Selon l'art. 6-2 du décret du 17 mars 1967, qui paie au syndicat une échéance de travaux hors budget en cas de vente ?",
+    "options": [
+     "Toujours le vendeur, puisque les travaux ont été votés avant la vente",
+     "Celui qui est copropriétaire à la date d'exigibilité de l'appel",
+     "Toujours l'acquéreur, puisqu'il profitera des travaux"
+    ],
+    "answer": 1,
+    "fb_title": "La date d'exigibilité décide",
+    "fb_text": "Pour les dépenses hors budget prévisionnel, le paiement incombe au vendeur ou à l'acquéreur selon qui est copropriétaire au moment de l'exigibilité. Un accord contraire est possible, mais il n'a d'effet qu'entre les parties (art. 6-3).",
+    "whys": [
+     "Faux : la date du vote ne compte pas pour le syndicat, c'est la date d'exigibilité de chaque appel.",
+     "Juste : c'est la règle de l'art. 6-2, 2°.",
+     "Faux : l'acquéreur ne paie que les appels exigibles après qu'il est devenu copropriétaire, sauf accord entre les parties."
+    ]
+   },
+   {
+    "question": "M. Bernard te demande s'il récupérera les 1 061 € accumulés au fonds de travaux en vendant. Que réponds-tu ?",
+    "options": [
+     "« Oui, le syndic vous les rembourse à la vente »",
+     "« Non, ils restent attachés au lot ; un remboursement par l'acquéreur ne peut venir que d'un accord dans l'acte »",
+     "« Oui, ils sont automatiquement déduits du prix »"
+    ],
+    "answer": 1,
+    "fb_title": "Le fonds suit le lot",
+    "fb_text": "Les sommes versées au fonds de travaux sont attachées au lot et acquises au syndicat : le syndic ne les rembourse pas au vendeur. Les parties peuvent en tenir compte entre elles, si c'est prévu dans l'acte.",
+    "whys": [
+     "Faux : il n'y a pas de remboursement par le syndicat à l'occasion d'une vente.",
+     "Juste : c'est la règle, avec la seule souplesse d'un accord entre vendeur et acquéreur.",
+     "Faux : rien n'est automatique ; tout ajustement doit être négocié et écrit."
+    ]
+   },
+   {
+    "question": "Quel document te dit quels gros travaux restent à venir dans les 10 ans à la résidence Les Tilleuls ?",
+    "options": [
+     "Le carnet d'entretien (D08)",
+     "Le projet de plan pluriannuel de travaux (D09)",
+     "Le DPE de l'appartement (D02)"
+    ],
+    "answer": 1,
+    "fb_title": "Le PPPT parle du futur",
+    "fb_text": "Le PPPT liste les travaux à prévoir sur 10 ans avec leurs priorités : ici ravalement + ITE, menuiseries des parties communes et toiture-terrasse en 2030. Le carnet raconte le passé, le DPE parle du logement.",
+    "whys": [
+     "Faux : le carnet d'entretien retrace ce qui a été fait et les contrats en cours, pas le programme à venir.",
+     "Juste : c'est sa fonction, et il fait partie des documents remis à l'acquéreur.",
+     "Faux : le DPE du logement ne traite pas les travaux de l'immeuble."
+    ]
+   },
+   {
+    "question": "Un document de l'art. L. 721-2 n'a pas été remis à l'acquéreur lors de la promesse. Conséquence ?",
+    "options": [
+     "Aucune, il pourra le demander au notaire",
+     "La promesse est nulle de plein droit",
+     "Le délai de rétractation de l'acquéreur ne court qu'à compter du lendemain de la remise"
+    ],
+    "answer": 2,
+    "fb_title": "Le délai attend le dossier",
+    "fb_text": "Selon l'art. L. 721-3 CCH, si les documents et informations requis ne sont pas remis au plus tard à la promesse, le délai de rétractation ne court qu'à partir du lendemain de leur communication. D'où l'intérêt de tout réunir dès le mandat.",
+    "whys": [
+     "Faux : il y a une conséquence directe sur le délai de rétractation, qui retarde la vente.",
+     "Faux : la loi ne prévoit pas la nullité automatique, mais le report du point de départ du délai.",
+     "Juste : c'est l'effet prévu par l'art. L. 721-3 CCH."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Check-list copropriété",
+  "kind": "checklist",
+  "intro": "À utiliser dès la prise de mandat d'un appartement : demande les documents au vendeur ou au syndic, puis contrôle les points de risque. Le tableau final te sert de note d'analyse pour l'estimation et, plus tard, de dossier pour l'acquéreur.",
+  "sections": [
+   {
+    "heading": "Documents à réunir (art. L. 721-2 CCH, remis à l'acquéreur au plus tard à la promesse)",
+    "type": "checklist",
+    "items": [
+     "Fiche synthétique de la copropriété",
+     "Règlement de copropriété et état descriptif de division, avec leurs modificatifs publiés",
+     "Procès-verbaux des assemblées générales des 3 dernières années",
+     "Charges courantes et hors budget payées par le vendeur sur les 2 derniers exercices",
+     "Sommes susceptibles d'être dues au syndicat par l'acquéreur",
+     "État global des impayés de charges et de la dette fournisseurs",
+     "Part du fonds de travaux rattachée au lot et dernière cotisation versée",
+     "Carnet d'entretien de l'immeuble",
+     "Notice d'information sur les droits et obligations des copropriétaires",
+     "Plan pluriannuel de travaux adopté, à défaut projet de plan (PPPT) ; conclusions du DTG le cas échéant",
+     "En complément utile : DPE collectif, derniers appels de fonds, contrats en cours (ascenseur, entretien)"
+    ]
+   },
+   {
+    "heading": "Les points de risque à contrôler",
+    "type": "checklist",
+    "items": [
+     "Travaux votés non encore appelés : montant, tantièmes, échéancier, dates d'exigibilité",
+     "Travaux à venir au PPPT : nature, année, chiffrage s'il existe",
+     "Fonds de travaux : cotisation au moins égale à 5 % du budget prévisionnel et, si un plan pluriannuel de travaux est adopté, à 2,5 % du montant des travaux qu'il prévoit (art. 14-2-1 de la loi du 10/07/1965)",
+     "Impayés : niveau en % du budget et évolution d'une année sur l'autre",
+     "Procédures en cours contre le syndicat ou entre copropriétaires",
+     "Carnet d'entretien : gros postes refaits (ascenseurs, colonnes, toiture) et ceux en fin de vie",
+     "DPE collectif : classe de l'immeuble et cohérence avec les travaux votés",
+     "Aides demandées par le syndic : notifiées ou non (ne jamais chiffrer une aide non notifiée)"
+    ]
+   },
+   {
+    "heading": "Calculer la part du lot",
+    "type": "formula",
+    "text": "Quote-part du lot = montant voté × tantièmes du lot / total des tantièmes. Exemple Les Tilleuls : ITE 1 150 000 € × 312 / 10 000 = 35 880 €, en 4 échéances de 8 970 €. Charges courantes : 85 000 € × 312 / 10 000 = 2 652 € par an (≈ 663 € par trimestre). Fonds de travaux : 4 250 € × 312 / 10 000 = 132,60 € par an."
+   },
+   {
+    "heading": "Qui paie quoi en cas de vente (art. 6-2 du décret du 17 mars 1967)",
+    "type": "table",
+    "headers": [
+     "Dépense",
+     "Qui paie au syndicat",
+     "À retenir"
+    ],
+    "rows": [
+     [
+      "Provision exigible du budget prévisionnel",
+      "Le vendeur",
+      "Les charges courantes du trimestre en cours"
+     ],
+     [
+      "Provisions hors budget (travaux votés)",
+      "Le copropriétaire à la date d'exigibilité de l'appel",
+      "Vendeur si l'appel est exigible avant l'acte, acquéreur après"
+     ],
+     [
+      "Trop ou moins perçu à l'approbation des comptes",
+      "Le copropriétaire à la date d'approbation",
+      "Régularisation possible après la vente"
+     ],
+     [
+      "Fonds de travaux déjà versé",
+      "Reste au syndicat, attaché au lot",
+      "Pas de remboursement par le syndic au vendeur"
+     ],
+     [
+      "Accord différent entre vendeur et acquéreur",
+      "N'engage que les parties (art. 6-3)",
+      "Rédigé par le notaire dans l'acte"
+     ]
+    ]
+   },
+   {
+    "heading": "Exemple rempli : résidence Les Tilleuls (fictif)",
+    "type": "table",
+    "headers": [
+     "Point",
+     "Constat",
+     "Niveau de vigilance"
+    ],
+    "rows": [
+     [
+      "Travaux votés",
+      "ITE votée le 12/06/2025 : 35 880 € pour le lot, 4 × 8 970 € en 2027",
+      "Élevé : à intégrer à l'estimation et au plan de financement"
+     ],
+     [
+      "Travaux à venir",
+      "Toiture-terrasse vers 2030 (PPPT), non chiffrée",
+      "Moyen : à signaler sans chiffrer"
+     ],
+     [
+      "Fonds de travaux",
+      "4 250 €/an (5 %), solde du lot 1 061 €",
+      "À vérifier avec le syndic : plan adopté, donc plancher de 2,5 % des travaux prévus au plan en plus des 5 % du budget"
+     ],
+     [
+      "Impayés",
+      "6 % du budget",
+      "Modéré, à suivre"
+     ],
+     [
+      "Entretien",
+      "Ascenseurs 2019, colonnes 2015",
+      "Positif : gros postes récents"
+     ],
+     [
+      "Énergie",
+      "DPE collectif E (février 2026)",
+      "L'ITE votée vise à l'améliorer"
+     ]
+    ]
+   },
+   {
+    "heading": "Ta phrase pour le vendeur",
+    "type": "text",
+    "text": "« Votre immeuble a voté une isolation par l'extérieur. Votre part est de 35 880 €, appelée en 2027. Selon la date de la vente, une partie sera payée par vous, le reste par l'acquéreur, et votre notaire pourra écrire un autre partage si vous vous mettez d'accord. Je l'intègre dès maintenant dans l'estimation, pour qu'aucun acheteur ne le découvre seul. »"
+   }
+  ],
+  "footer": "Sources : art. L. 721-1 à L. 721-3 CCH (version en vigueur au 20/10/2026) ; art. 6-2 et 6-3 du décret n° 67-223 du 17 mars 1967 (Légifrance) ; Service-Public : fonds de travaux, plan pluriannuel de travaux, DPE collectif. Données Les Tilleuls fictives. Relecture juridique avant diffusion. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Analyser PV d'AG et carnet",
+  "duration_min": 30,
+  "context": "M. Bernard t'a transmis les documents de copropriété que le syndic Cabinet Martel Gestion lui a envoyés. Avant de lui remettre ton estimation, tu dois savoir ce que la copropriété va coûter au futur acquéreur et à lui-même, et quels arguments tu peux en tirer.",
+  "materials": [
+   "D07 PV d'AG du 12/06/2025 (extraits)",
+   "D08 Carnet d'entretien (extraits)",
+   "D09 Synthèse du PPPT",
+   "D10 Fiche synthétique de la copropriété",
+   "D06 Appels de charges et budget prévisionnel 2026"
+  ],
+  "steps": [
+   "Dans D10 et D06, relève le budget prévisionnel, les tantièmes du lot, le fonds de travaux et le taux d'impayés ; calcule les charges annuelles et trimestrielles du lot.",
+   "Dans D07, relève la résolution sur l'ITE (majorité, montant, entreprise, calendrier) et calcule la quote-part du lot et chaque échéance.",
+   "Construis l'échéancier 2027 et applique l'art. 6-2 dans l'hypothèse d'un acte signé le 15/03/2027 : qui paie chaque échéance au syndicat ?",
+   "Dans D08 et D09, liste les gros postes déjà faits et ceux à venir, avec leur année.",
+   "Classe chaque point en vigilance faible, moyenne ou élevée.",
+   "Rédige ta note de risques en une page, avec la phrase que tu diras à M. Bernard."
+  ],
+  "expected": "Charges courantes : 85 000 × 312 / 10 000 = 2 652 €/an, soit ≈ 663 €/trimestre. Fonds de travaux : 4 250 €/an (5 % de 85 000 €), soit 132,60 €/an pour le lot ; solde 1 061 € au 30/09/2026, non remboursé par le syndic ; plan de travaux adopté : plancher de 2,5 % des travaux du plan à vérifier avec le syndic. Impayés : 6 % du budget, vigilance modérée. ITE votée le 12/06/2025 à la majorité de l'art. 25 : 1 150 000 € TTC, Façades Briardes, démarrage avril 2027 ; quote-part 1 150 000 × 312 / 10 000 = 35 880 €, 4 échéances de 8 970 € (1/01, 1/04, 1/07, 1/10/2027). Acte au 15/03/2027 : M. Bernard est copropriétaire au 1/01/2027, il paie 8 970 € ; l'acquéreur paie les 3 suivantes, 26 910 € (sauf accord différent entre eux, rédigé par le notaire, sans effet pour le syndicat). Aide MaPrimeRénov' Copropriété demandée, non notifiée : mentionnée, pas chiffrée. Carnet : ascenseurs 2019, colonnes 2015 (positifs) ; toiture-terrasse 2004, fin de vie vers 2030 (PPPT : à voter, non chiffrée). DPE collectif E (février 2026) : l'ITE en est la réponse. Aucune procédure. Conclusion : copropriété saine, un gros appel connu et daté (vigilance élevée, à intégrer à l'estimation en 2.10), un chantier futur identifié (vigilance moyenne)."
+ },
+ "deliverable": {
+  "title": "Note d'analyse de la copropriété Les Tilleuls",
+  "format": "PDF ou DOCX, 1 page",
+  "criteria": [
+   "Les charges du lot sont calculées avec le détail (85 000 × 312 / 10 000 = 2 652 €/an)",
+   "La quote-part ITE (35 880 €) et l'échéancier des 4 appels de 8 970 € avec leurs dates figurent",
+   "La règle de l'art. 6-2 est correctement appliquée à l'hypothèse d'un acte au 15/03/2027 (1 échéance vendeur, 3 acquéreur)",
+   "Le fonds de travaux est présenté comme non remboursé par le syndic au vendeur",
+   "Les travaux à venir (toiture vers 2030) sont signalés sans être chiffrés, et l'aide non notifiée n'est pas chiffrée",
+   "Chaque point a un niveau de vigilance justifié",
+   "La note renvoie au notaire pour tout accord de répartition entre vendeur et acquéreur"
+  ],
+  "example": "« Travaux votés (vigilance élevée) : ITE votée le 12/06/2025, 35 880 € pour le lot, appelés en 4 × 8 970 € en 2027. Si l'acte est signé le 15/03/2027, M. Bernard règle l'appel du 1/01 et l'acquéreur les trois suivants (26 910 €), sauf accord différent rédigé par le notaire. »"
+ },
+ "sources": [
+  {
+   "label": "Code de la construction et de l'habitation, art. L. 721-1 à L. 721-3 (information des acquéreurs d'un lot de copropriété)",
+   "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000028784362"
+  },
+  {
+   "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (version en vigueur depuis le 25/12/2025)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+  },
+  {
+   "label": "Décret n° 67-223 du 17 mars 1967, art. 6-3 (convention contraire : effet entre les parties)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488324"
+  },
+  {
+   "label": "Service-Public : fonds de travaux dans les copropriétés",
+   "url": "https://www.service-public.fr/particuliers/vosdroits/F34026"
+  },
+  {
+   "label": "Service-Public : qui paie les charges de copropriété l'année de la vente",
+   "url": "https://www.service-public.fr/particuliers/vosdroits/F32920"
+  },
+  {
+   "label": "Service-Public : plan pluriannuel de travaux",
+   "url": "https://www.service-public.fr/particuliers/vosdroits/F36760"
+  },
+  {
+   "label": "Service-Public : DPE collectif (obligatoire depuis le 1/01/2026 pour les copropriétés d'au plus 50 lots)",
+   "url": "https://www.service-public.fr/particuliers/vosdroits/F37504"
+  },
+  {
+   "label": "ANIL : diagnostics de l'immeuble (DPE collectif, DTG, PPPT)",
+   "url": "https://www.anil.org/parole-expert-logement/diagnostics-immeuble-dpe-collectif-dtg-pppt-obligatoires/"
+  }
+ ],
+ "notes_prod": "Relecture juridique obligatoire (art. 6-2 et 6-3 du décret de 1967, art. L. 721-2 et L. 721-3 CCH, fonds de travaux). Visuels : extraits fictifs de D07 (résolution ITE surlignée), D08 (tableau des travaux), D09 (3 priorités), D10 (fiche synthétique) ; frise 2027 avec les 4 échéances et l'acte au 15/03/2027 ; calculs animés. B-roll : hall d'immeuble, boîtes aux lettres, ascenseur, façade béton des années 1970. Points de cohérence : l'hypothèse « acte au 15/03/2027 » est celle de la Bible (calendrier) ; l'accord final entre M. Bernard et les Martin (remboursement de l'appel du 1/01/2027 à l'acte) relève des modules 4-5 et n'est pas dévoilé ici. Le seuil PPPT (« 50 lots ou moins au 1/01/2025 ») vient de la Bible et de Service-Public ; [À VALIDER] : décompte des lots (48 lots principaux + caves et parkings) au regard des seuils PPPT et DPE collectif."
+}

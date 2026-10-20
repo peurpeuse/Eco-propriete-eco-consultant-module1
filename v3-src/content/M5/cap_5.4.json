@@ -1,0 +1,357 @@
+{
+ "id": "5.4",
+ "module": 5,
+ "ia": false,
+ "title": "Financer l'achat et les travaux",
+ "objective": "Construire et contrôler le plan de financement d'un acquéreur, travaux privatifs et appels de fonds de copropriété compris",
+ "video": {
+  "duration_min": 8,
+  "hook": "215 800 € de besoin, 22,3 % d'endettement : le prêt des Martin passe. Mais 35 880 € de façade arrivent en 2027. Avec quoi les paient-ils ? On monte le plan complet.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Julie et Thomas Martin, 31 et 33 ans, primo-accédants, 4 600 euros nets par mois à deux. Leur prêt immobilier tient sur une page : 215 800 euros de besoin, 22 000 euros d'apport, 193 800 euros empruntés, et un taux d'endettement de 22,3 %. La banque sera contente. Mais toi, tu connais l'immeuble. Et tu sais qu'il reste une dépense à financer à part : leur quote-part de la façade. Aujourd'hui, on construit le plan complet, prêt principal plus second financement, et on vérifie qu'il tient même dans le pire des cas.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille ; incrustation de la fiche D14 des Martin : revenus 4 600 €/mois, apport 22 000 €",
+    "onscreen": "Besoin 215 800 € · prêt 193 800 € · 22,3 %"
+   },
+   {
+    "tc": "00:45",
+    "voice": "Pourquoi c'est ton affaire ? Parce qu'une vente sur un financement fragile, c'est une condition suspensive qui échoue, un vendeur qui a perdu trois mois, et une réputation abîmée. Attention, tu n'es pas courtier, sauf si tu en as le statut. Tu ne négocies pas le crédit. Mais tu vérifies que le projet tient debout, et tu orientes vers une banque ou un courtier. C'est exactement ce que tu as fait en qualifiant les Martin au module 4. Maintenant, on passe au détail. Et retiens la règle qu'on applique dans tout le dossier : le prêt principal finance l'achat et les travaux privatifs ; la quote-part de la façade a son propre financement.",
+    "screen": "Slide : « Agent = cohérence du projet » / « Banque ou courtier = montage du crédit » ; flèche d'orientation entre les deux",
+    "onscreen": "Tu contrôles la cohérence, le courtier monte le crédit"
+   },
+   {
+    "tc": "01:40",
+    "voice": "Première idée : le besoin, c'est tout ce qui sort de la poche le jour de l'achat et juste après. Le prix : 184 000 euros, honoraires d'agence de 9 000 euros compris. Les frais de notaire : environ 13 300 euros, calculés sur 175 000 euros, puisque les honoraires à la charge de l'acquéreur ne supportent pas les droits de mutation. Les travaux privatifs chiffrés au module 2 : 16 500 euros pour les fenêtres, la VMC, les radiateurs et le chauffe-eau thermodynamique. Les frais de garantie du prêt : environ 2 000 euros. Total : 215 800 euros. Moins 22 000 euros d'apport : 193 800 euros à emprunter.",
+    "screen": "Tableau qui se remplit ligne par ligne : 184 000 + 13 300 + 16 500 + 2 000 = 215 800 ; − 22 000 = 193 800",
+    "onscreen": "215 800 − 22 000 = 193 800 €"
+   },
+   {
+    "tc": "02:35",
+    "voice": "Deuxième idée : les règles qui s'imposent à la banque. Le Haut Conseil de stabilité financière fixe deux plafonds : un taux d'effort de 35 % maximum, assurance comprise, et une durée de 25 ans maximum, avec deux ans de plus quand l'entrée dans le logement est différée. Les banques peuvent déroger pour une part limitée de leurs dossiers, en priorité pour les résidences principales et les primo-accédants. Il y a aussi le taux d'usure : 5,40 % pour les prêts de 20 ans et plus ce trimestre, assurance et frais compris. Pour les Martin : 193 800 euros sur 25 ans à 3,55 %, c'est environ 975 euros par mois hors assurance, 1 024 euros avec. 1 024 divisé par 4 600 : 22,3 %. Large marge.",
+    "screen": "Jauge de taux d'endettement : 22,3 % en vert, plafond 35 % en rouge ; encadré « 25 ans max · usure 5,40 % (T4 2026) »",
+    "onscreen": "1 024 / 4 600 = 22,3 % (plafond 35 %)"
+   },
+   {
+    "tc": "03:35",
+    "voice": "Démonstration : le second financement. Je reprends le pré-état daté. Les Martin vont rembourser à M. Bernard l'appel du 1er janvier, 8 970 euros, le jour de l'acte. Puis payer trois appels de 8 970 euros en avril, juillet et octobre 2027. Total : 35 880 euros. Leur apport de 22 000 euros est déjà utilisé. Règle du dossier : le prêt principal reste à 193 800 euros, et cette quote-part est financée à part. Première piste : l'éco-prêt à taux zéro. Pour des travaux de copropriété, c'est d'abord un éco-PTZ collectif, souscrit par le syndicat ; un copropriétaire ne peut demander un éco-PTZ individuel pour sa quote-part que si l'assemblée a refusé le prêt collectif, et pour une seule action, c'est 15 000 euros au maximum. Donc on ne compte pas dessus. Deuxième piste, celle qu'on retient : un prêt travaux classique. Exemple fictif : 35 880 euros sur 15 ans à 4,50 %, environ 274 euros par mois hors assurance. 1 024 plus 274 : 1 298 euros. Divisé par 4 600 : environ 28,2 %. Sous 35 %.",
+    "screen": "Tableau du plan avec un bloc ajouté « Second financement : quote-part ITE 35 880 € » ; encadré éco-PTZ (collectif d'abord, individuel seulement si l'AG refuse, 15 000 € max) barré « non retenu » ; calcul : 274 €/mois, 1 298 €, 28,2 %",
+    "onscreen": "Prêt travaux (fictif) : 1 298 € / 4 600 ≈ 28,2 %"
+   },
+   {
+    "tc": "05:00",
+    "voice": "Et le test de résistance, comme au module 4 : si la banque finance tout en un seul prêt, 193 800 plus 35 880, soit 229 680 euros sur 25 ans à 3,55 %, la mensualité monte à environ 1 156 euros hors assurance, 1 214 avec. Taux d'effort : environ 26,4 %. Toujours sous 35 %. Le projet tient dans les deux cas. Mais ça se décide avant le compromis, pas après. Concrètement, tu présentes les deux options au courtier des Martin : un prêt principal et un prêt travaux, ou un seul prêt. C'est lui qui compare le coût total, l'assurance et les garanties. Toi, tu vérifies une seule chose : que chaque somme due en 2027 a une source de financement datée. Le 15 mars, 8 970 euros à rembourser à M. Bernard. Puis 8 970 euros le 1er avril, le 1er juillet et le 1er octobre.",
+    "screen": "Slide « Test de résistance » : 229 680 € en un seul prêt → ≈ 1 214 €/mois → 26,4 % ; puis frise 2027 : 15/03 (8 970 € remboursés) · 1/04 · 1/07 · 1/10",
+    "onscreen": "Tout en un prêt : 229 680 € → ≈ 26,4 %"
+   },
+   {
+    "tc": "06:10",
+    "voice": "Les erreurs fréquentes. Un : calculer les frais de notaire sur le prix honoraires inclus. Deux : oublier les travaux, ou les mettre dans le plan sans devis : la banque voudra les devis. Trois : compter une aide avant sa notification. Quatre : regarder le taux d'endettement sans regarder ce qui reste pour vivre : ici, 4 600 moins 1 024, il reste 3 576 euros par mois. Cinq : oublier les appels de fonds de la copropriété. C'est l'erreur qui fait tomber le plus de ventes d'appartements. Et tu gardes une trace écrite de ce que tu as vérifié.",
+    "screen": "Seb face caméra, plan rapproché ; les 5 erreurs s'affichent une à une, la cinquième en rouge",
+    "onscreen": "Reste à vivre : 4 600 − 1 024 = 3 576 €"
+   },
+   {
+    "tc": "06:55",
+    "voice": "Avec Julie, profil I, tu restes positif et concret : le projet tient, voilà le point à régler. Avec Thomas, profil S, tu montres le plan pas à pas et tu proposes un rendez-vous à trois avec leur courtier. Avec M. Bernard, tu expliques simplement que tu as vérifié le financement des acquéreurs, appels de fonds compris. C'est ça, sécuriser une vente.",
+    "screen": "Trois vignettes : Julie (I), Thomas (S), M. Bernard (C) avec la phrase adaptée à chacun",
+    "onscreen": "Même plan, trois façons de l'expliquer"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi. Le quiz, puis le modèle de plan de financement à télécharger. Dans l'exercice, tu construis le plan complet des Martin, prêt principal, second financement et test de résistance, et tu le déposes comme si tu l'envoyais à leur courtier. Dernière capsule du module : piloter la vente jusqu'à l'acte.",
+    "screen": "Seb face caméra ; à droite, les 5 pictogrammes du parcours",
+    "onscreen": "Quiz → Modèle de plan → Plan des Martin → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Sur quelle base les frais de notaire des Martin (≈ 13 300 €) sont-ils calculés ?",
+    "options": [
+     "Sur 184 000 €, prix honoraires inclus",
+     "Sur 175 000 €, prix net vendeur, car les honoraires sont à la charge de l'acquéreur",
+     "Sur 193 800 €, montant du prêt"
+    ],
+    "answer": 1,
+    "fb_title": "Sur le prix net vendeur",
+    "fb_text": "Quand les honoraires d'agence sont à la charge de l'acquéreur et mentionnés comme tels, les droits de mutation sont calculés sur le prix hors honoraires : 175 000 €. D'où ≈ 13 300 € dans le plan des Martin (estimation à faire confirmer par le notaire).",
+    "whys": [
+     "Faux : inclure les 9 000 € d'honoraires surestime les frais de notaire.",
+     "Juste : base de 175 000 €, les honoraires à la charge de l'acquéreur ne supportent pas les droits.",
+     "Faux : le prêt finance le projet ; il n'est pas l'assiette des droits de mutation."
+    ]
+   },
+   {
+    "question": "Quelle mensualité le taux d'endettement de 22,3 % des Martin prend-il en compte ?",
+    "options": [
+     "975 €, hors assurance",
+     "1 024 €, assurance comprise",
+     "1 012 €, au taux maximal de la condition",
+     "1 214 €, test de résistance en un seul prêt de 229 680 €"
+    ],
+    "answer": 1,
+    "fb_title": "Assurance comprise",
+    "fb_text": "La règle du HCSF porte sur un taux d'effort assurance comprise : 1 024 € / 4 600 € = 22,3 %. La mensualité de 975 € est hors assurance ; 1 214 € correspond au test de résistance (tout financé en un seul prêt de 229 680 €, ≈ 26,4 %).",
+    "whys": [
+     "Faux : 975 € est la mensualité hors assurance, le HCSF raisonne assurance comprise.",
+     "Juste : 1 024 € / 4 600 € = 22,3 %.",
+     "Faux : 1 012 € est la mensualité hors assurance au taux maximal de 3,90 %, un test de la condition.",
+     "Faux : 1 214 € est le test de résistance avec la quote-part ITE intégrée, pas le prêt principal."
+    ]
+   },
+   {
+    "question": "Les Martin veulent compter MaPrimeRénov' pour leurs 4 fenêtres dans le plan. Que leur dis-tu ?",
+    "options": [
+     "Oui, c'est une aide automatique pour les fenêtres en 2026",
+     "Oui, si les fenêtres sont posées avant l'acte",
+     "Non : en 2026, les fenêtres seules ne sont pas éligibles au parcours par geste ; on ne compte pas une aide incertaine"
+    ],
+    "answer": 2,
+    "fb_title": "Pas d'aide incertaine dans un plan",
+    "fb_text": "D'après Service-Public (vérifiée le 1/09/2026), les menuiseries ne figurent pas dans les gestes éligibles du parcours par geste en métropole ; elles relèvent de la rénovation d'ampleur, qui exige au moins deux postes d'isolation et un gain de deux classes. L'éco-PTZ, lui, est une piste à étudier.",
+    "whys": [
+     "Faux : aucune aide n'est automatique, et les fenêtres seules ne sont pas éligibles au parcours par geste en 2026.",
+     "Faux : les travaux ne doivent pas commencer avant l'accord de l'Anah, et l'éligibilité ne dépend pas de la date de l'acte.",
+     "Juste : on vérifie l'éligibilité avant, et on ne chiffre que ce qui est acquis."
+    ]
+   },
+   {
+    "question": "Comment les Martin financent-ils leur quote-part ITE de 35 880 € dans le dossier ?",
+    "options": [
+     "Elle est incluse dans le prêt principal de 193 800 €",
+     "Par un second financement à part (prêt travaux), le prêt principal restant à 193 800 €",
+     "Par l'apport de 22 000 €",
+     "Par MaPrimeRénov' Copropriété"
+    ],
+    "answer": 1,
+    "fb_title": "Un second financement, à part",
+    "fb_text": "Le prêt principal (193 800 €) finance le prix, les frais, les travaux privatifs et la garantie ; l'apport est entièrement utilisé. Les 35 880 € d'ITE (8 970 € remboursés à l'acte + 3 × 8 970 € en 2027) sont financés à part : exemple fictif, prêt travaux ≈ 274 €/mois → ≈ 28,2 %.",
+    "whys": [
+     "Faux : 193 800 € = 215 800 − 22 000 ; l'ITE n'est pas dans ce besoin.",
+     "Juste : c'est la règle du dossier ; le taux d'effort global reste sous 35 %.",
+     "Faux : les 22 000 € d'apport sont déjà absorbés par le besoin de 215 800 €.",
+     "Faux : l'aide demandée par le syndic n'est pas notifiée, elle vaut 0 € dans le plan."
+    ]
+   },
+   {
+    "question": "Quelles sont les deux limites fixées par le HCSF pour un prêt immobilier ?",
+    "options": [
+     "Taux d'effort 33 % hors assurance et durée 30 ans",
+     "Taux d'effort 35 % assurance comprise et durée 25 ans (27 ans avec différé)",
+     "Taux d'effort 40 % et durée libre pour les primo-accédants"
+    ],
+    "answer": 1,
+    "fb_title": "35 % et 25 ans",
+    "fb_text": "Décision D-HCSF-2021-7 : 35 % maximum assurance comprise, 25 ans maximum, avec 2 ans de différé tolérés quand l'entrée dans le logement est décalée. Les banques peuvent déroger pour 20 % de leur production trimestrielle.",
+    "whys": [
+     "Faux : 33 % est une ancienne règle d'usage ; le HCSF fixe 35 % assurance comprise.",
+     "Juste : 35 % et 25 ans, plus 2 ans de différé possibles.",
+     "Faux : les primo-accédants bénéficient d'une part de la flexibilité, pas d'une durée libre."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Modèle de plan",
+  "kind": "template",
+  "intro": "Ce modèle sert à construire et contrôler le plan de financement d'un acquéreur avant le compromis. Remplis-le avec l'acquéreur, puis fais-le valider par sa banque ou son courtier : tu vérifies la cohérence du projet, tu ne montes pas le crédit (sauf statut d'intermédiaire en opérations de banque).",
+  "sections": [
+   {
+    "heading": "1. Le besoin : exemple rempli avec les Martin",
+    "type": "table",
+    "headers": [
+     "Poste",
+     "Montant",
+     "Source / remarque"
+    ],
+    "rows": [
+     [
+      "Prix d'achat honoraires inclus",
+      "184 000 €",
+      "D15 : 175 000 € net vendeur + 9 000 € d'honoraires à la charge des acquéreurs"
+     ],
+     [
+      "Frais de notaire (estimation)",
+      "≈ 13 300 €",
+      "Calculés sur 175 000 € ; montant exact donné par le notaire"
+     ],
+     [
+      "Travaux privatifs",
+      "16 500 €",
+      "D13 : fenêtres 5 600, VMC 2 900, radiateurs 4 800, chauffe-eau thermodynamique 3 200"
+     ],
+     [
+      "Frais de garantie du prêt",
+      "≈ 2 000 €",
+      "Caution ou hypothèque selon la banque"
+     ],
+     [
+      "Total du besoin",
+      "215 800 €",
+      "184 000 + 13 300 + 16 500 + 2 000"
+     ],
+     [
+      "Apport",
+      "− 22 000 €",
+      "D14"
+     ],
+     [
+      "Prêt principal",
+      "193 800 €",
+      "215 800 − 22 000"
+     ]
+    ]
+   },
+   {
+    "heading": "2. Les lignes à ne pas oublier en copropriété",
+    "type": "checklist",
+    "items": [
+     "Second financement prévu pour la quote-part de travaux votés (Martin : 35 880 €, prêt principal inchangé à 193 800 €)",
+     "Appels de fonds pour travaux votés exigibles après l'acte (Martin : 3 × 8 970 € = 26 910 € en 2027)",
+     "Remboursements convenus au vendeur à l'acte (Martin : 8 970 € pour l'appel du 1/01/2027)",
+     "Remboursement éventuel du fonds de travaux, s'il a été négocié (Martin : non)",
+     "Prorata des charges courantes et de la taxe foncière, selon ce que prévoit l'acte",
+     "Frais de déménagement et premiers équipements, hors financement bancaire"
+    ]
+   },
+   {
+    "heading": "3. Calcul de la mensualité",
+    "type": "formula",
+    "text": "Mensualité hors assurance = C × t / (1 − (1 + t)^−n), avec C le capital, t le taux annuel divisé par 12 et n le nombre de mois. Martin : C = 193 800 €, t = 3,55 % / 12, n = 300 mois → ≈ 975 € hors assurance ; avec l'assurance (≈ 49 €) → ≈ 1 024 €. Au taux maximal de la condition (3,90 %) : ≈ 1 012 € hors assurance."
+   },
+   {
+    "heading": "4. Taux d'endettement et reste à vivre",
+    "type": "formula",
+    "text": "Taux d'endettement = mensualités de crédit assurance comprise / revenus nets mensuels. Prêt principal seul : 1 024 / 4 600 = 22,3 % ; reste à vivre 3 576 €. Avec le second financement (exemple fictif : prêt travaux de 35 880 € sur 15 ans à 4,50 % ≈ 274 € hors assurance) : (1 024 + 274) / 4 600 ≈ 28,2 %, hors assurance du second prêt. Test de résistance : tout en un seul prêt de 229 680 € (193 800 + 35 880) sur 25 ans à 3,55 % ≈ 1 156 € hors assurance, ≈ 1 214 € avec → 1 214 / 4 600 ≈ 26,4 %. Les deux restent sous 35 %."
+   },
+   {
+    "heading": "5. Les règles à vérifier (faits au 20/10/2026)",
+    "type": "list",
+    "items": [
+     "HCSF : taux d'effort 35 % maximum assurance comprise, durée 25 ans maximum (2 ans de différé tolérés), dérogations limitées à 20 % de la production trimestrielle des banques",
+     "Taux d'usure du 1/10 au 31/12/2026 : 5,40 % pour les prêts de 20 ans et plus (TAEG, assurance et frais compris)",
+     "Taux moyen observé sur 20 ans en octobre 2026 : ≈ 3,50 à 3,55 %",
+     "Condition suspensive de prêt obligatoire dans l'avant-contrat dès qu'un crédit finance le prix"
+    ]
+   },
+   {
+    "heading": "6. Les aides aux travaux : ce qu'on peut écrire",
+    "type": "table",
+    "headers": [
+     "Dispositif",
+     "Règle 2026 (Service-Public, vérifiée le 1/09/2026)",
+     "Pour les Martin"
+    ],
+    "rows": [
+     [
+      "Éco-PTZ",
+      "Sans condition de ressources ; 7 000 € pour une action sur les parois vitrées, 15 000 € pour une autre action seule, 25 000 € pour 2 actions, 30 000 € pour 3 et plus ; 15 ans ; entreprise RGE ; résidence principale ; demande possible avec le prêt d'achat",
+      "Piste à étudier avec la banque (fenêtres) ; non intégré au plan"
+     ],
+     [
+      "Éco-PTZ Copropriétés / quote-part de parties communes",
+      "Souscrit par le syndicat après vote en AG (art. 25) ; éco-PTZ individuel pour sa quote-part seulement si le syndicat a refusé le prêt collectif ; 15 000 € pour une action, 15 ans ; à la vente, sommes restant dues exigibles sauf transfert convenu à l'acquéreur",
+      "Aucun éco-PTZ voté pour l'ITE : non retenu ; à demander au syndic"
+     ],
+     [
+      "MaPrimeRénov' par geste",
+      "Gestes éligibles en métropole : pompes à chaleur, réseau de chaleur, dépose de cuve fioul, audit ; selon les ressources",
+      "Fenêtres non éligibles : 0 € dans le plan"
+     ],
+     [
+      "MaPrimeRénov' rénovation d'ampleur",
+      "Logement E à G, au moins 2 postes d'isolation de l'enveloppe, gain d'au moins 2 classes, accompagnement obligatoire",
+      "Projet trop léger : non concerné"
+     ],
+     [
+      "MaPrimeRénov' Copropriété (ITE)",
+      "Demandée par le syndic pour le syndicat",
+      "Non notifiée : 0 € dans le plan"
+     ]
+    ]
+   },
+   {
+    "heading": "7. Avant de valider le plan",
+    "type": "steps",
+    "items": [
+     "Comparer le besoin total au montant de la condition de prêt du compromis",
+     "Vérifier que chaque somme due à la copropriété en 2027 a une source de financement",
+     "Faire confirmer les frais de notaire par l'étude et les conditions de prêt par la banque ou le courtier",
+     "Ne chiffrer aucune aide non notifiée",
+     "Remettre le plan à l'acquéreur avec la mention « estimation, à valider par votre banque »"
+    ]
+   }
+  ],
+  "footer": "Sources : HCSF (décision D-HCSF-2021-7, economie.gouv.fr), Service-Public F19905 (éco-PTZ) et F35083 (MaPrimeRénov'), taux d'usure T4 2026, art. L. 313-41 Code de la consommation. Mise à jour : 20/10/2026. Montants des Martin : exemple fictif."
+ },
+ "exercise": {
+  "title": "Plan de financement",
+  "duration_min": 35,
+  "context": "Julie et Thomas Martin (revenus nets 4 600 €/mois, apport 22 000 €) achètent l'appartement de M. Bernard 184 000 € FAI (175 000 € net vendeur). Ils prévoient les travaux privatifs chiffrés (16 500 €). Leur courtier attend un plan complet avant le compromis du 15/12/2026. Tu sais, par le pré-état daté, que la copropriété appellera 35 880 € pour l'ITE en 2027.",
+  "materials": [
+   "D14 Fiches des acquéreurs",
+   "D13 Devis des travaux privatifs",
+   "D15 Offres d'achat reçues",
+   "D16 Pré-état daté",
+   "D07 PV d'AG du 12/06/2025"
+  ],
+  "steps": [
+   "Calcule le besoin total ligne par ligne et le montant du prêt principal.",
+   "Calcule la mensualité hors assurance à 3,55 % sur 25 ans, puis avec 49 € d'assurance.",
+   "Calcule le taux d'endettement et le reste à vivre ; compare au plafond du HCSF.",
+   "Repère dans D16 et D07 les sommes dues à la copropriété en 2027 et vérifie si le plan les finance.",
+   "Monte le second financement de la quote-part ITE (prêt principal inchangé) : vérifie la piste éco-PTZ, chiffre un prêt travaux, calcule le taux d'effort global, puis fais le test de résistance « tout en un seul prêt ».",
+   "Indique quelles aides tu peux écrire dans le plan, et lesquelles non, avec la règle 2026.",
+   "Rédige 5 lignes de synthèse pour le courtier des Martin."
+  ],
+  "expected": "Corrigé : besoin = 184 000 + 13 300 + 16 500 + 2 000 = 215 800 € ; prêt principal = 215 800 − 22 000 = 193 800 € sur 25 ans à 3,55 % ≈ 975 € hors assurance, ≈ 1 024 € avec. Endettement = 1 024 / 4 600 = 22,3 % ; reste à vivre 3 576 €. Quote-part ITE financée à part : 8 970 € remboursés à M. Bernard à l'acte + 3 × 8 970 € (1/04, 1/07, 1/10/2027) = 35 880 €. Éco-PTZ : collectif à voter par le syndicat ; individuel pour la quote-part seulement si l'AG a refusé le collectif, 15 000 € max pour une action → non retenu. Prêt travaux (exemple fictif) : 35 880 € sur 15 ans à 4,50 % ≈ 274 € hors assurance → (1 024 + 274) / 4 600 ≈ 28,2 %. Test de résistance : 229 680 € en un seul prêt sur 25 ans à 3,55 % ≈ 1 156 € hors assurance, ≈ 1 214 € avec → ≈ 26,4 %. Les deux sous 35 %. Aides : MaPrimeRénov' par geste, fenêtres non éligibles en 2026 → 0 € ; MaPrimeRénov' Copropriété non notifiée → 0 € ; éco-PTZ pour les fenêtres privatives : piste à étudier. Synthèse au courtier : projet finançable ; second financement de 35 880 € à obtenir avant l'acte (8 970 € dus le 15/03/2027)."
+ },
+ "deliverable": {
+  "title": "Plan de financement complet des Martin",
+  "format": "Tableur (XLSX) ou PDF, 1 page + 5 lignes de synthèse",
+  "criteria": [
+   "Le besoin de 215 800 € est détaillé en 4 postes avec leur source",
+   "Le prêt de 193 800 € et la mensualité (≈ 975 € / ≈ 1 024 €) sont calculés",
+   "Le taux d'endettement de 22,3 % et le reste à vivre de 3 576 € sont calculés et comparés au plafond de 35 %",
+   "Les 35 880 € d'ITE sont financés à part (prêt principal inchangé à 193 800 €), avec leurs dates et le taux d'effort global calculé",
+   "Le test de résistance (229 680 € en un seul prêt ≈ 26,4 %) est calculé et comparé à 35 %",
+   "Aucune aide non notifiée ou non éligible n'est chiffrée"
+  ]
+ },
+ "sources": [
+  {
+   "label": "HCSF : mesure relative à l'octroi de crédits immobiliers (décision D-HCSF-2021-7)",
+   "url": "https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers"
+  },
+  {
+   "label": "Service-Public : éco-prêt à taux zéro (F19905, vérifiée le 1/09/2026)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19905"
+  },
+  {
+   "label": "Service-Public : éco-PTZ Copropriétés (F38064, vérifiée le 1/07/2025)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38064"
+  },
+  {
+   "label": "ANIL : éco-prêt à taux zéro copropriétés (mise à jour 2/09/2026)",
+   "url": "https://www.anil.org/aj-eco-ptz-copropriete-renovation-energetique/"
+  },
+  {
+   "label": "Service-Public : MaPrimeRénov' (F35083, vérifiée le 1/09/2026)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35083"
+  },
+  {
+   "label": "Meilleurtaux : taux d'usure au 1er octobre 2026",
+   "url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2026-septembre/taux-dusure-au-1er-octobre-2026-les-nouveaux-plafonds.html"
+  },
+  {
+   "label": "Art. L. 313-41 Code de la consommation : condition suspensive de prêt (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433227"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D07, D13 à D16)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Relecture juridique et financière (HCSF, usure, éco-PTZ individuel et copropriétés, MaPrimeRénov' 2026, statut IOBSP). Règle du parcours (coordination, cohérente avec la 4.4) : prêt principal 193 800 € inchangé, quote-part ITE 35 880 € financée à part ; test de résistance 229 680 € en un prêt ≈ 26,4 %. Visuels : tableau du besoin animé, jauge d'endettement 22,3 % / 28,2 % / 26,4 % / 35 %, slide aides 2026, bloc « second financement ». B-roll : couple devant un tableur, rendez-vous chez un courtier. Calculs vérifiés : 193 800 € à 3,55 % / 300 mois = 975,41 € ; 35 880 € à 4,50 % / 180 mois = 274,48 € ; 229 680 € à 3,55 % / 300 mois = 1 156,00 € + assurance proportionnelle 58 € = 1 214 € → 26,4 %. [À VALIDER] : (1) taux et durée du prêt travaux (4,50 %, 15 ans) = hypothèse fictive ; un prêt travaux de moins de 75 000 € sans garantie hypothécaire relève du crédit à la consommation ; (2) éco-PTZ individuel pour une quote-part de parties communes : Service-Public le prévoit si le syndicat refuse l'éco-PTZ collectif, l'ANIL ne traite pas ce cas ; (3) éligibilité éco-PTZ des fenêtres privatives (exigences Uw/Sw) ; (4) frais de notaire ≈ 13 300 € : chiffre dossier fil rouge non recalculé."
+}

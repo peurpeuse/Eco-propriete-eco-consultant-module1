@@ -1,0 +1,339 @@
+{
+ "id": "4.1",
+ "module": 4,
+ "ia": true,
+ "title": "Le produit commercial",
+ "objective": "Rédiger avec l'IA une annonce conforme et vendeuse : mentions DPE, honoraires et copropriété exactes, défauts annoncés avec leur budget",
+ "video": {
+  "duration_min": 8,
+  "hook": "189 000 €, classe E, 35 880 € de travaux votés : comment écrire l'annonce de M. Bernard sans faire fuir l'acheteur, et sans rien cacher ?",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Le mandat de M. Bernard est signé. 189 000 euros, honoraires inclus. Maintenant, il faut mettre l'appartement sur le marché. Et là, deux choses peuvent tout faire rater. Une annonce non conforme, qui t'expose à une sanction et fait douter l'acheteur. Ou une annonce qui cache les travaux votés, et l'acheteur les découvre en visite. Dans les deux cas, tu perds la confiance. Aujourd'hui, on écrit ensemble une annonce exacte, complète, et qui donne envie. Avec l'IA, mais pas n'importe comment.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; à 00:08, incrustation du mandat D18 signé le 5/11/2026",
+    "onscreen": "Mandat exclusif : 189 000 € FAI"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est important pour toi ? Parce que l'annonce est le premier document que l'acheteur lit. Il y décide s'il appelle ou non. Un acquéreur de 2026 a lu des articles sur le DPE, il a vu des reportages sur les passoires, il connaît le mot copropriété en difficulté. S'il trouve dans ton annonce les bons chiffres, au bon endroit, il se dit : cet agent sait ce qu'il vend. C'est exactement l'image d'éco-consultant que tu construis depuis le module 1. L'annonce, c'est ton produit commercial : le bien, plus les preuves, plus le budget.",
+    "screen": "B-roll : une personne fait défiler des annonces sur son téléphone dans un salon, gros plan sur les étiquettes DPE colorées",
+    "onscreen": "Annonce = bien + preuves + budget"
+   },
+   {
+    "tc": "01:25",
+    "voice": "Première idée clé : les mentions énergie. Le code de la construction impose d'afficher, en couleur et de façon lisible, la classe énergie et la classe climat. Pour M. Bernard, on n'affiche pas la classe F de 2023. On affiche la classe de l'attestation actualisée de l'ADEME, le document D03 : classe énergie E, classe climat C. Ensuite, le montant estimé des dépenses annuelles d'énergie pour un usage standard, avec l'année de référence des prix. Sur son DPE : entre 2 330 et 3 190 euros par an, prix de l'énergie indexés au 1er janvier 2021. Et la mention logement à consommation énergétique excessive ? Elle concerne les logements classés F ou G. Avec l'attestation en E, elle ne s'applique plus. Mais si tu publies l'ancienne étiquette, tu te tires une balle dans le pied.",
+    "screen": "Plein écran : document D03 (attestation actualisée) à gauche, D02 (DPE 2023) à droite ; la classe E est entourée en vert, la classe F barrée",
+    "onscreen": "CLASSE ÉNERGIE E · CLASSE CLIMAT C"
+   },
+   {
+    "tc": "02:30",
+    "voice": "Deuxième idée clé : le prix et les honoraires. Les honoraires sont à la charge de l'acquéreur. Donc l'annonce donne le prix honoraires inclus, 189 000 euros, en plus gros. Puis le prix hors honoraires, 180 000 euros. Puis les honoraires, en pourcentage du prix hors honoraires, toutes taxes comprises : 9 000 divisé par 180 000, ça fait 5 %. Et tu écris clairement qui les paie. Un acheteur qui doit faire le calcul lui-même, c'est un acheteur qui se méfie.",
+    "screen": "Slide animée : bloc prix de l'annonce qui se construit ligne par ligne, avec le calcul 9 000 / 180 000 = 5 % qui s'affiche",
+    "onscreen": "189 000 € FAI · 180 000 € hors honoraires · 5 % TTC acquéreur"
+   },
+   {
+    "tc": "03:05",
+    "voice": "Troisième idée clé : la copropriété. Pour un lot en copropriété, l'annonce dit que le bien est soumis au statut de la copropriété, le nombre de lots, et le montant moyen annuel de la quote-part de charges courantes du vendeur. Chez M. Bernard : 48 lots principaux, 2 652 euros par an, d'après le budget prévisionnel 2026, le document D06. Elle précise aussi si le syndicat fait l'objet d'une procédure pour copropriété en difficulté. Ici, aucune. Et les travaux de ravalement avec isolation votés en juin 2025 ? La loi ne t'oblige pas à les chiffrer dans l'annonce. Moi, je te conseille de les annoncer. Une ligne suffit : isolation de la façade votée, quote-part du lot 35 880 euros, dossier complet sur demande. Tu filtres les curieux, tu attires ceux qui ont le budget, et personne ne tombe de sa chaise en visite.",
+    "screen": "Plein écran : D10 fiche synthétique et D06 budget prévisionnel zoomés sur les 48 lots et les 2 652 € ; puis extrait D07 PV d'AG avec le vote ITE surligné",
+    "onscreen": "48 lots · 2 652 €/an · aucune procédure"
+   },
+   {
+    "tc": "04:15",
+    "voice": "Passons à la démonstration. J'ouvre mon outil d'IA. Je ne lui écris pas : fais-moi une annonce pour un T4 à Melun. Je lui donne un rôle : rédacteur d'annonces pour une agence. Un contexte : les données du bien, sans nom ni adresse exacte du vendeur. Une tâche : un titre, un texte de 1 200 caractères maximum, un bloc de mentions obligatoires. Et des contraintes : pas de superlatif invérifiable, pas de classe énergie différente de celle que je fournis, les défauts annoncés avec leur solution. L'IA me propose un titre : Melun, T4 de 76 mètres carrés, balcon sud-ouest, 4e étage avec ascenseur. Bien. Dans le texte, elle a écrit : appartement entièrement rénové. C'est faux. Je corrige : cuisine refaite en 2016, sols en 2016. Et elle a oublié l'année de référence des prix de l'énergie. Je l'ajoute. Tu vois le principe : l'IA écrit vite, toi tu vérifies tout.",
+    "screen": "Capture d'écran animée de l'outil d'IA : le prompt collé, puis la réponse ; les deux erreurs sont surlignées en rouge puis corrigées à l'écran",
+    "onscreen": "L'IA rédige, tu vérifies chaque chiffre"
+   },
+   {
+    "tc": "05:25",
+    "voice": "Le texte de l'annonce, maintenant. On commence par ce qui fait rêver : le séjour de 24 mètres carrés, le balcon plein sud-ouest, trois vraies chambres, la cave et le parking. Puis on donne les preuves : attestation énergie E, chiffrage des travaux privatifs disponible, 16 500 euros pour viser la classe D, estimation à confirmer, avec l'isolation de la copropriété à venir. Le défaut devient un projet. C'est la logique Éco-Propriété : on ne vend pas un bien parfait, on vend un bien expliqué. Et les photos suivent le plan Éco-staging : salle de bains assainie, plafond de cuisine repeint, séjour éclairé.",
+    "screen": "Annonce finale mise en page façon portail immobilier, avec les photos D05 du séjour et du balcon ; zoom successif sur chaque bloc",
+    "onscreen": "On ne vend pas un bien parfait, on vend un bien expliqué"
+   },
+   {
+    "tc": "06:10",
+    "voice": "Les erreurs que je vois le plus souvent. Un : afficher la mauvaise étiquette, celle du DPE d'origine, alors que l'attestation actualisée existe. Deux : écrire le prix honoraires inclus sans le prix hors honoraires, ou oublier de dire qui paie. Trois : oublier les mentions de copropriété, surtout les charges. Quatre : laisser l'IA inventer. Proche des commerces, calme absolu, faibles charges : si tu ne peux pas le prouver, tu ne l'écris pas. Cinq : coller dans l'IA le nom, l'adresse ou le téléphone de ton vendeur. Tu n'en as pas besoin, et ce sont des données personnelles.",
+    "screen": "Seb face caméra, plan rapproché ; à chaque erreur, une icône rouge numérotée apparaît à droite",
+    "onscreen": "5 erreurs : étiquette, honoraires, copro, invention, données perso"
+   },
+   {
+    "tc": "06:55",
+    "voice": "Dernier réflexe avant de publier : fais relire l'annonce à M. Bernard. C'est un profil C, il va tout vérifier, et c'est parfait. Il signe le bon à publier, et ton annonce devient un document que vous assumez à deux. Garde aussi la date de publication et les supports utilisés : ça nourrit ton compte rendu toutes les deux semaines, comme promis dans le mandat.",
+    "screen": "B-roll : un agent tend une annonce imprimée à un homme de 64 ans à sa table de cuisine, qui la relit stylo en main",
+    "onscreen": "Bon à publier signé par le vendeur"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi maintenant. Le quiz flash t'attend juste après cette vidéo : cinq questions, deux minutes. Ensuite, télécharge le modèle d'annonce : il contient le bloc des mentions obligatoires et le prompt complet. Dans l'exercice, tu rédiges l'annonce de M. Bernard avec l'IA, à partir des documents D02, D03, D04, D06 et D10. Et tu déposes ton annonce finale avec la liste de tes corrections. Je la relis ligne par ligne, comme le ferait un acheteur exigeant.",
+    "screen": "Seb face caméra, plan taille ; incrustation des 4 étapes suivantes (quiz, ressource, exercice, livrable) en pictogrammes",
+    "onscreen": "Quiz → Modèle d'annonce → Exercice IA → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Quelle classe énergie affiches-tu dans l'annonce de M. Bernard en novembre 2026 ?",
+    "options": [
+     "F, celle du DPE du 14/03/2023",
+     "E, celle de l'attestation actualisée ADEME (D03)",
+     "D, la classe visée après travaux privatifs"
+    ],
+    "answer": 1,
+    "fb_title": "L'étiquette officielle en vigueur",
+    "fb_text": "L'attestation actualisée recalcule le DPE avec le coefficient électricité de 2026 : classe E, valable jusqu'au 13/03/2033. C'est elle qu'on affiche. Une classe après travaux n'est qu'une estimation : elle ne va jamais dans le bloc des mentions.",
+    "whys": [
+     "Le classement F a été recalculé : afficher F dévalorise le bien à tort et contredit le document officiel.",
+     "Oui : l'attestation actualisée est le document officiel de la classe actuelle du logement.",
+     "La classe D est une estimation après travaux non réalisés : l'afficher serait trompeur."
+    ]
+   },
+   {
+    "question": "Les honoraires (9 000 € TTC) sont à la charge de l'acquéreur. Quelle présentation du prix est conforme ?",
+    "options": [
+     "189 000 € FAI, sans autre précision",
+     "180 000 € net vendeur en gros, 189 000 € en petit",
+     "189 000 € honoraires inclus en plus gros, 180 000 € hors honoraires, honoraires 5 % TTC à la charge de l'acquéreur"
+    ],
+    "answer": 2,
+    "fb_title": "Deux prix et un pourcentage",
+    "fb_text": "L'arrêté du 10 janvier 2017 impose le prix honoraires inclus (en caractères plus grands) et hors honoraires, le montant TTC des honoraires en pourcentage du prix hors honoraires (9 000 / 180 000 = 5 %) et la partie qui les paie.",
+    "whys": [
+     "Il manque le prix hors honoraires, le pourcentage et la partie qui paie.",
+     "C'est l'inverse : le prix honoraires inclus doit être en caractères plus grands.",
+     "Oui : c'est la présentation complète exigée quand l'acquéreur paie les honoraires."
+    ]
+   },
+   {
+    "question": "Quelle mention de copropriété est obligatoire dans l'annonce ?",
+    "options": [
+     "Le montant moyen annuel de la quote-part de charges courantes du vendeur",
+     "Le nom du syndic et du gestionnaire",
+     "Le montant du fonds de travaux attaché au lot"
+    ],
+    "answer": 0,
+    "fb_title": "Les charges, toujours",
+    "fb_text": "L'article L. 721-1 du CCH impose : bien soumis au statut de la copropriété, nombre de lots, montant moyen annuel de la quote-part des charges courantes (ici 2 652 €) et l'existence éventuelle d'une procédure pour copropriété en difficulté.",
+    "whys": [
+     "Oui : 2 652 € par an pour le lot de M. Bernard, d'après le budget prévisionnel 2026.",
+     "Le nom du syndic n'est pas une mention obligatoire de l'annonce.",
+     "Le fonds de travaux figure dans les documents remis à l'acquéreur, pas dans les mentions obligatoires de l'annonce."
+    ]
+   },
+   {
+    "question": "L'IA a écrit « appartement entièrement rénové, faibles charges ». Que fais-tu ?",
+    "options": [
+     "Tu gardes : c'est vendeur",
+     "Tu corriges avec des faits vérifiables : cuisine et sols 2016, charges 2 652 €/an",
+     "Tu supprimes tout le paragraphe et tu publies sans texte"
+    ],
+    "answer": 1,
+    "fb_title": "Pas d'affirmation sans preuve",
+    "fb_text": "L'appartement n'est pas entièrement rénové (fenêtres des chambres, chauffage, ventilation) et « faibles charges » est un jugement. On remplace par des faits datés et chiffrés tirés du dossier.",
+    "whys": [
+     "Une affirmation fausse expose à une pratique commerciale trompeuse et détruit la confiance en visite.",
+     "Oui : des faits datés et des chiffres issus du dossier, que l'acheteur pourra vérifier.",
+     "Une annonce sans texte perd l'occasion de valoriser le bien ; il suffit de corriger."
+    ]
+   },
+   {
+    "question": "Que mets-tu dans le prompt d'annonce envoyé à l'IA ?",
+    "options": [
+     "Les caractéristiques du bien, les chiffres du DPE et de la copropriété, sans nom ni adresse exacte du vendeur",
+     "La copie intégrale du mandat signé pour que l'IA ait tout",
+     "Le numéro de téléphone de M. Bernard pour la rubrique contact"
+    ],
+    "answer": 0,
+    "fb_title": "Le bien, pas la personne",
+    "fb_text": "L'IA a besoin des données du bien, pas de celles du vendeur. Nom, adresse précise, téléphone, mandat signé : ce sont des données personnelles qui n'ont rien à faire dans un outil que tu ne maîtrises pas.",
+    "whys": [
+     "Oui : tout ce qui sert à écrire l'annonce, rien qui identifie le vendeur.",
+     "Le mandat contient l'identité et les coordonnées du vendeur : inutile et risqué au regard du RGPD.",
+     "Le contact de l'annonce, c'est toi ; le téléphone du vendeur ne doit jamais circuler."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Modèle d'annonce",
+  "kind": "template",
+  "intro": "Ce modèle sert à rédiger, vérifier et faire valider toute annonce de vente d'un appartement en copropriété. Remplis le bloc des mentions obligatoires d'après les documents, puis rédige le texte (ou fais-le rédiger par l'IA avec le prompt ci-dessous) et passe la check-list avant publication. L'exemple rempli est celui de M. Bernard (exemple fictif).",
+  "sections": [
+   {
+    "heading": "1. Bloc des mentions obligatoires (vente d'un logement en copropriété par un professionnel)",
+    "type": "table",
+    "headers": [
+     "Mention",
+     "Règle",
+     "Exemple rempli (M. Bernard)"
+    ],
+    "rows": [
+     [
+      "Prix honoraires inclus",
+      "En caractères plus grands que le prix hors honoraires (arrêté du 10/01/2017)",
+      "189 000 €"
+     ],
+     [
+      "Prix hors honoraires",
+      "Obligatoire si les honoraires sont à la charge de l'acquéreur",
+      "180 000 €"
+     ],
+     [
+      "Honoraires",
+      "Montant TTC en % du prix hors honoraires, précédé du mot « Honoraires », et partie qui les paie",
+      "Honoraires : 5 % TTC du prix hors honoraires, à la charge de l'acquéreur"
+     ],
+     [
+      "Classe énergie et classe climat",
+      "En couleur et lisibles sur vitrine et internet ; en presse écrite, « CLASSE ÉNERGIE » et « CLASSE CLIMAT » en majuscules (R. 126-21 et R. 126-22 CCH)",
+      "CLASSE ÉNERGIE E · CLASSE CLIMAT C (attestation actualisée ADEME, DPE n° 2377E0123456X)"
+     ],
+     [
+      "Dépenses annuelles d'énergie",
+      "« Montant estimé des dépenses annuelles d'énergie pour un usage standard : » + année de référence des prix (R. 126-23 CCH)",
+      "Entre 2 330 € et 3 190 € par an. Prix moyens des énergies indexés au 1er janvier 2021"
+     ],
+     [
+      "Logement F ou G",
+      "Mention précédée de « Logement à consommation énergétique excessive : » (R. 126-24 CCH)",
+      "Sans objet : classe E (attestation actualisée)"
+     ],
+     [
+      "Statut et nombre de lots",
+      "Bien soumis au statut de la copropriété + nombre de lots (L. 721-1 CCH)",
+      "Copropriété de 48 lots principaux (chiffre total à reprendre de la fiche synthétique D10)"
+     ],
+     [
+      "Charges courantes",
+      "Montant moyen annuel de la quote-part du vendeur au budget prévisionnel",
+      "2 652 € par an (budget prévisionnel 2026)"
+     ],
+     [
+      "Procédure",
+      "Préciser si le syndicat fait l'objet d'une procédure (art. 29-1 A, 29-1 loi de 1965, L. 615-6 CCH)",
+      "Aucune procédure en cours"
+     ],
+     [
+      "Risques",
+      "Si un état des risques est requis : « Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr » (R. 125-25 C. env.)",
+      "Mention reprise (état des risques présent dans le D17)"
+     ]
+    ]
+   },
+   {
+    "heading": "2. Structure du texte d'annonce",
+    "type": "steps",
+    "items": [
+     "Titre (70 caractères max.) : ville, type, surface, l'atout n° 1 (balcon sud-ouest, étage avec ascenseur).",
+     "Accroche (2 phrases) : la vie dans le bien (séjour de 24 m² ouvert sur le balcon, trois chambres).",
+     "Description pièce par pièce, avec les dates des travaux faits (cuisine 2016, sols 2016, tableau électrique 2010).",
+     "Annexes : cave, parking extérieur, ascenseur, transports et services seulement s'ils sont vérifiés.",
+     "Énergie et projet : attestation E, chiffrage des travaux privatifs disponible (16 500 € pour viser D, estimation à confirmer par un diagnostiqueur).",
+     "Copropriété : charges, travaux votés et quote-part (35 880 € en 4 échéances en 2027), dossier complet sur demande.",
+     "Bloc des mentions obligatoires, puis contact de l'agence."
+    ]
+   },
+   {
+    "heading": "3. Exemple de texte (M. Bernard, exemple fictif)",
+    "type": "text",
+    "text": "Melun – T4 de 76 m² avec balcon sud-ouest, 4e étage avec ascenseur. Dans une résidence de 1972 bien entretenue (ascenseurs remplacés en 2019), cet appartement traversant offre un séjour lumineux de 24 m² ouvert sur un balcon de 6 m² exposé sud-ouest, une cuisine séparée refaite en 2016, trois chambres (11, 10 et 9 m²), une salle de bains avec baignoire et un WC séparé. Sols refaits en 2016, tableau électrique de 2010. Cave et place de parking extérieure. Énergie : classe E (attestation actualisée ADEME). Un chiffrage des travaux privatifs (fenêtres des chambres, VMC, chauffage, eau chaude : 16 500 € TTC sur devis) est remis à chaque visiteur. Copropriété : ravalement avec isolation de la façade voté en juin 2025, démarrage prévu en avril 2027, quote-part du lot 35 880 € appelée en 4 échéances en 2027 ; dossier complet (PV d'AG, plan pluriannuel, DPE collectif) sur demande."
+   },
+   {
+    "heading": "4. Prompt IA d'annonce (à copier)",
+    "type": "text",
+    "text": "Tu es rédacteur d'annonces immobilières pour une agence en Île-de-France. Contexte : [coller les caractéristiques du bien : type, surface Carrez, étage, ascenseur, pièces et surfaces, exposition, annexes, dates des travaux faits, classe énergie et climat de l'attestation, fourchette des dépenses d'énergie et année de référence, nombre de lots, charges annuelles, travaux votés et quote-part]. Tâche : rédige 1) trois titres de 70 caractères max., 2) un texte de 1 200 caractères max., 3) le bloc des mentions obligatoires. Contraintes : n'invente aucune information ; aucun superlatif invérifiable ; n'écris aucune classe énergie autre que celle fournie ; présente chaque défaut avec sa solution chiffrée si je te la donne ; tutoiement interdit dans l'annonce (vouvoiement du lecteur). Termine par la liste des informations qui te manquent."
+   },
+   {
+    "heading": "5. Check-list avant publication",
+    "type": "checklist",
+    "items": [
+     "La classe affichée est celle du document officiel le plus récent (attestation actualisée si elle existe).",
+     "Les deux étiquettes sont en couleur sur internet et en vitrine.",
+     "La fourchette des dépenses d'énergie et l'année de référence des prix sont reprises du DPE.",
+     "Prix honoraires inclus plus grand que le prix hors honoraires ; pourcentage TTC et partie qui paie indiqués.",
+     "Statut de copropriété, nombre de lots, charges annuelles et procédure éventuelle mentionnés.",
+     "Mention Géorisques présente si un état des risques est requis.",
+     "Aucune affirmation non prouvée (calme, proximité, « rénové ») ; dates et chiffres tirés du dossier.",
+     "Aucune donnée personnelle du vendeur dans l'outil d'IA ni dans l'annonce.",
+     "Bon à publier signé par le vendeur, date et supports de diffusion notés."
+    ]
+   }
+  ],
+  "footer": "Sources : CCH art. R. 126-21 à R. 126-25 et L. 721-1 ; arrêté du 10 janvier 2017 ; C. env. art. R. 125-25 (Légifrance, consulté le 20/10/2026). Exemple fictif Éco-Propriété. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Annonce rédigée avec l'IA",
+  "duration_min": 35,
+  "context": "Le mandat exclusif de M. Bernard est signé depuis le 5/11/2026 (189 000 € FAI, 180 000 € net vendeur, 9 000 € TTC d'honoraires à la charge de l'acquéreur). Le plan Éco-staging est réalisé. Tu dois publier l'annonce cette semaine sur ton site et deux portails.",
+  "materials": [
+   "D02 DPE du 14/03/2023 (synthèse)",
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D04 Plan et descriptif de l'appartement",
+   "D05 Reportage photo commenté",
+   "D06 Appels de charges et budget prévisionnel 2026",
+   "D07 PV d'AG du 12/06/2025",
+   "D10 Fiche synthétique de la copropriété",
+   "D13 Devis des travaux privatifs"
+  ],
+  "steps": [
+   "Remplis le bloc des mentions obligatoires du modèle à partir de D02, D03, D06 et D10 (sans IA).",
+   "Prépare les données du bien à coller dans le prompt, sans nom, adresse exacte ni coordonnées du vendeur.",
+   "Lance le prompt fourni et récupère les titres, le texte et le bloc de mentions.",
+   "Compare la réponse de l'IA à ton bloc : relève chaque erreur ou oubli (classe, année de référence, honoraires, charges).",
+   "Corrige le texte : remplace toute affirmation invérifiable par un fait daté ou chiffré du dossier.",
+   "Choisis 5 photos de D05 dans l'ordre de l'annonce (séjour et balcon en premier).",
+   "Rédige la phrase de présentation des travaux votés (35 880 €) et du chiffrage privatif (16 500 €)."
+  ],
+  "ia_prompt": {
+   "prompt": "Rôle : tu es rédacteur d'annonces immobilières pour une agence indépendante en Seine-et-Marne. Tu écris pour des acquéreurs de 2026, attentifs au DPE et aux charges de copropriété.\nContexte (exemple fictif) : appartement T4 de 76 m² (surface Carrez), Melun, résidence de 1972, 4e étage sur 6 avec ascenseur (remplacé en 2019). Séjour 24 m² avec balcon 6 m² exposé sud-ouest, cuisine séparée 9 m² refaite en 2016, 3 chambres (11, 10, 9 m²), salle de bains 5 m² avec baignoire, WC séparé, entrée 6,5 m². Sols stratifiés 2016, tableau électrique 2010. Cave et place de parking extérieure. Chauffage électrique individuel. Attestation actualisée ADEME : CLASSE ÉNERGIE E, CLASSE CLIMAT C. Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2 330 € et 3 190 € par an, prix moyens des énergies indexés au 1er janvier 2021. Copropriété de 48 lots principaux, charges courantes 2 652 € par an, aucune procédure. Ravalement avec isolation thermique par l'extérieur voté le 12/06/2025, démarrage prévu en avril 2027, quote-part du lot 35 880 € en 4 échéances de 8 970 € en 2027. Travaux privatifs chiffrés sur devis : 16 500 € TTC (4 fenêtres, VMC, radiateurs à inertie, chauffe-eau thermodynamique). Prix : 189 000 € honoraires inclus, 180 000 € hors honoraires, honoraires 5 % TTC à la charge de l'acquéreur.\nTâche : 1) propose 3 titres de 70 caractères maximum ; 2) rédige un texte d'annonce de 1 200 caractères maximum ; 3) écris le bloc des mentions obligatoires (prix, honoraires, classes énergie et climat, dépenses d'énergie avec année de référence, copropriété, mention Géorisques).\nFormat : trois parties titrées, texte en paragraphes courts, vouvoiement du lecteur.\nContraintes : n'invente aucune information (pas de « calme », « proche de tout », « entièrement rénové ») ; n'affiche aucune autre classe énergie que E ; présente les travaux votés et le chiffrage privatif comme un projet maîtrisé, sans promettre de classe après travaux ; termine par la liste des informations qui te manquent.",
+   "guardrails": [
+    "Ne colle jamais le nom, l'adresse exacte, le téléphone ou le mandat du vendeur dans l'outil d'IA : les données du bien suffisent (RGPD).",
+    "Vérifie chaque chiffre de la réponse contre D02, D03, D06, D07, D10 et D13 avant publication : l'IA recopie mal et invente.",
+    "Relis la conformité toi-même (honoraires, mentions DPE et copropriété) : l'IA ne connaît pas toujours la règle en vigueur.",
+    "Fais valider l'annonce finale par le vendeur (bon à publier) : c'est toi et l'agence qui en êtes responsables, pas l'outil."
+   ]
+  },
+  "expected": "Bloc attendu : « 189 000 € » (plus grand) ; « 180 000 € hors honoraires » ; « Honoraires : 5 % TTC du prix hors honoraires, à la charge de l'acquéreur » ; « CLASSE ÉNERGIE E – CLASSE CLIMAT C » (étiquettes en couleur en ligne) ; « Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2 330 € et 3 190 € par an. Prix moyens des énergies indexés au 1er janvier 2021 » ; « Bien soumis au statut de la copropriété – 48 lots principaux – Charges courantes : 2 652 € par an – Aucune procédure en cours » ; mention Géorisques. Pas de mention « consommation énergétique excessive » (classe E). Corrections typiques à relever dans la réponse de l'IA : « entièrement rénové » remplacé par « cuisine et sols refaits en 2016 » ; année de référence 2021 ajoutée ; honoraires exprimés en % du prix hors honoraires et non du prix FAI (9 000 / 189 000 = 4,76 % serait faux) ; aucune classe D ou C annoncée comme acquise. Titre type : « Melun – T4 76 m², balcon sud-ouest, 4e étage ascenseur ». Phrase travaux type : « Isolation de la façade votée en 2025 (quote-part 35 880 € en 2027) et travaux privatifs chiffrés à 16 500 € : dossier complet remis en visite »."
+ },
+ "deliverable": {
+  "title": "Annonce de M. Bernard prête à publier",
+  "format": "PDF ou DOCX, 2 pages : page 1 l'annonce finale, page 2 le tableau « réponse de l'IA → correction → source »",
+  "criteria": [
+   "Le prix est présenté en 189 000 € honoraires inclus (plus grand), 180 000 € hors honoraires, honoraires 5 % TTC à la charge de l'acquéreur",
+   "Les classes affichées sont E (énergie) et C (climat), issues de D03, sans mention « consommation énergétique excessive »",
+   "La fourchette 2 330 € – 3 190 € et l'année de référence 2021 des prix sont présentes",
+   "Les mentions de copropriété (statut, nombre de lots, 2 652 €/an, absence de procédure) sont présentes",
+   "Les travaux votés (35 880 €) et le chiffrage privatif (16 500 €) sont annoncés sans promesse de classe",
+   "Au moins 3 corrections de la réponse de l'IA sont listées avec le document source (code D)",
+   "Aucune donnée personnelle du vendeur n'apparaît dans le prompt ni dans l'annonce"
+  ],
+  "example": "Correction n° 2 — IA : « Honoraires : 4,76 % » → corrigé : « Honoraires : 5 % TTC du prix hors honoraires (9 000 / 180 000), à la charge de l'acquéreur » — source : D18 mandat, arrêté du 10/01/2017."
+ },
+ "sources": [
+  {
+   "label": "Légifrance — CCH, art. R. 126-21 à R. 126-25 (mentions DPE dans les annonces)",
+   "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818607/"
+  },
+  {
+   "label": "Légifrance — CCH, art. L. 721-1 (annonces d'un lot de copropriété)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369572"
+  },
+  {
+   "label": "Légifrance — Arrêté du 10 janvier 2017 relatif à l'information des consommateurs (transaction immobilière)",
+   "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033888549/"
+  },
+  {
+   "label": "Service-Public — État des risques, mention Géorisques dans l'annonce",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239"
+  },
+  {
+   "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+   "url": "https://observatoire-dpe-audit.ademe.fr"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (structure d'annonce, prompt, check-list)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : maquette d'annonce façon portail (fictive, sans logo de portail réel) avec étiquettes énergie E et climat C aux couleurs officielles ; D02 et D03 côte à côte ; bloc prix animé. Capture d'outil d'IA générique (pas de marque à l'écran). B-roll : défilement d'annonces sur smartphone, relecture par le vendeur. Points à valider : [À VALIDER] que l'attestation actualisée reprend la même fourchette de dépenses (2 330 – 3 190 €, prix 2021) que le DPE d'origine ; [À VALIDER] nombre total de lots à afficher (48 lots principaux ou total incluant caves et parkings, d'après D10 et le règlement de copropriété) ; présence effective d'un état des risques requis à Melun. Relecture juridique des mentions obligatoires (arrêté 2017, CCH, C. env.)."
+}

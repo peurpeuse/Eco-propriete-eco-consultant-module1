@@ -1,0 +1,343 @@
+{
+ "id": "2.2",
+ "module": 2,
+ "ia": false,
+ "title": "Physique du bâtiment : déperditions",
+ "objective": "Repérer par où un logement perd sa chaleur (parois, ponts thermiques, air) et hiérarchiser les déperditions de l'appartement de M. Bernard",
+ "video": {
+  "duration_min": 8,
+  "hook": "Les chambres de M. Bernard sont froides, même chauffées. Et sa salle de bains moisit. Ce n'est pas un hasard : c'est de la physique, et tu peux la lire en visite.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Mardi, visite chez M. Bernard. Dans la grande chambre, il te dit : « Le convecteur tourne à fond, et pourtant j'ai froid près de la fenêtre. » Puis il ouvre la salle de bains : des taches noires au plafond et dans les angles. Deux symptômes, une même histoire : la chaleur s'en va, et l'humidité reste. Aujourd'hui, tu apprends à lire cette histoire.",
+    "screen": "B-roll : visite d'appartement, main posée sur une fenêtre bois simple vitrage, puis panoramique sur le plafond moisi d'une salle de bains",
+    "onscreen": "Froid aux fenêtres + moisissures = déperditions à lire"
+   },
+   {
+    "tc": "00:25",
+    "voice": "Pourquoi un agent immobilier doit comprendre ça ? Parce que l'acquéreur, lui, va le sentir. Il pose la main sur la vitre, il voit la buée, il sent le courant d'air. Si tu ne sais pas expliquer d'où ça vient, il imagine le pire et il négocie sur le pire. Si tu sais l'expliquer, avec le bon vocabulaire et les travaux déjà prévus, tu transformes une peur en budget. Tu n'es pas thermicien. Tu n'as pas à faire de calculs réglementaires. Mais tu dois savoir où regarder, et quoi dire. Et M. Bernard, notre ancien ingénieur, va tester ton vocabulaire dès la première pièce. Un mot juste, et il t'écoute. Un mot approximatif, et il te range avec les deux autres agences.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; incrustation d'un acquéreur fictif la main sur une vitre embuée",
+    "onscreen": "Une peur expliquée devient un budget"
+   },
+   {
+    "tc": "01:20",
+    "voice": "Première idée clé : la chaleur va toujours du chaud vers le froid, et elle prend trois chemins. Un : à travers les parois. Les murs, les fenêtres, le plancher, le plafond. Plus une paroi est isolante, plus elle freine ce passage. On mesure ça avec la résistance thermique, R : plus R est grand, mieux c'est. Deux : par les ponts thermiques, ces endroits où l'isolation est interrompue. Un balcon en béton qui traverse le mur, la jonction entre un plancher et la façade, le tour d'une fenêtre. Trois : par l'air. L'air qu'on renouvelle volontairement pour respirer, et l'air qui fuit sans qu'on le veuille, par des joints usés ou des entrées non contrôlées.",
+    "screen": "Slide animée : coupe d'un appartement avec trois flèches rouges « parois », « ponts thermiques », « air renouvelé et fuites »",
+    "onscreen": "Parois · Ponts thermiques · Air"
+   },
+   {
+    "tc": "02:15",
+    "voice": "Combien pèse chaque chemin ? L'ADEME publie un ordre de grandeur pour une maison construite avant 1974, à partir de l'observatoire des DPE : environ 31 % par les murs, 27 % par l'air renouvelé et les fuites, 14 % par les fenêtres, 10 % par les planchers bas, 9 % par le toit, 9 % par les ponts thermiques. Attention, c'est une maison. Un appartement au quatrième étage, entre deux logements chauffés, c'est une autre géométrie. Sous lui, un voisin chauffé. Au-dessus, un voisin chauffé. Par le plancher et le plafond, presque rien ne part. Tout se joue donc sur la façade : les murs, les fenêtres, les ponts thermiques et l'air.",
+    "screen": "Slide : diagramme en barres ADEME (maison avant 1974) ; puis transition vers la coupe de l'immeuble Les Tilleuls avec le 4e étage surligné entre deux étages chauffés",
+    "onscreen": "Source : ADEME, observatoire DPE 2025 (maison avant 1974)"
+   },
+   {
+    "tc": "03:00",
+    "voice": "Deuxième idée clé : la paroi froide. Ton corps échange de la chaleur avec l'air, mais aussi avec les surfaces qui l'entourent. Devant une fenêtre en simple vitrage, ou contre un mur à peine isolé, tu as froid même si l'air est chaud. C'est exactement ce que décrit M. Bernard dans ses trois chambres : quatre fenêtres en bois, simple vitrage d'origine, des joints dégradés. Résultat : une paroi froide, et des courants d'air. Et ses murs ? Béton banché de 1972, doublés à l'intérieur par deux centimètres de polystyrène. Fais le calcul d'ordre de grandeur : R égale épaisseur divisée par la conductivité. Avec une hypothèse de 0,04 pour ce polystyrène, 0,02 divisé par 0,04, ça donne 0,5. Les aides à l'isolation des murs visent un R d'au moins 3,7. On est sept fois en dessous.",
+    "screen": "Slide formule R = e / λ ; calcul 0,02 / 0,04 = 0,5 m².K/W comparé à une jauge « R ≥ 3,7 » ; puis photo D05 de la chambre avec la fenêtre bois",
+    "onscreen": "R = e / λ → 0,5 contre ≥ 3,7"
+   },
+   {
+    "tc": "04:05",
+    "voice": "Troisième idée clé : là où il fait froid, l'eau se dépose. L'air de la salle de bains est chargé de vapeur. Quand il touche une surface froide, un angle, un plafond près de la façade, un pont thermique, il condense. Si l'air humide n'est pas évacué, les moisissures arrivent. Chez M. Bernard, la ventilation est naturelle : des grilles et des conduits collectifs, sans VMC. Et le conduit de la salle de bains est partiellement obstrué. Voilà le paradoxe : trop d'air froid qui entre par les fenêtres des chambres, pas assez d'air humide qui sort de la salle de bains. Les moisissures ne sont pas un défaut d'entretien du vendeur. C'est un symptôme technique.",
+    "screen": "Schéma animé : vapeur d'eau qui monte dans la salle de bains, conduit shunt barré d'une croix rouge, gouttelettes sur l'angle froid ; incrustation photo D05 du plafond",
+    "onscreen": "Air humide + paroi froide + extraction bouchée = moisissures"
+   },
+   {
+    "tc": "04:55",
+    "voice": "Démonstration sur le plan, le D04. Pièce par pièce, tu regardes chaque paroi et tu te demandes : de l'autre côté, il y a quoi ? L'extérieur, le palier, un voisin chauffé ? Séjour : façade sud-ouest, fenêtre PVC double vitrage de 2004, et surtout le balcon de 6 mètres carrés. La dalle du balcon traverse le mur : c'est le pont thermique majeur de l'appartement. Les trois chambres : façade, murs peu isolés, simple vitrage, fuites. Salle de bains : extraction insuffisante. Plancher et plafond : voisins chauffés, pertes faibles. Tu classes : murs et fenêtres des chambres en premier, puis l'air, puis le pont thermique du balcon. Et tu ajoutes l'information qui change tout : le ravalement avec isolation par l'extérieur est voté pour 2027.",
+    "screen": "Plein écran : plan D04 annoté en direct, flèches rouges épaisses sur les chambres et le balcon, flèches fines sur la cuisine et le séjour, croix « faible » sur plancher et plafond",
+    "onscreen": "Pont thermique majeur : dalle du balcon"
+   },
+   {
+    "tc": "05:50",
+    "voice": "Dernier réflexe : relier chaque déperdition à ce qui est prévu. Les murs ? Isolation par l'extérieur votée en assemblée, démarrage prévu en avril 2027. Les fenêtres des chambres ? Remplacement chiffré à 5 600 euros dans le devis D13. L'air ? Une VMC hygroréglable et le débouchage du conduit, 2 900 euros. Le balcon ? Rien dans les devis privatifs : tu le notes comme point à vérifier dans le descriptif du ravalement. Ce tableau, c'est ta future réponse à l'acquéreur qui dit « c'est une passoire ». Tu ne nies pas le froid. Tu montres que chaque cause a une solution, un prix, ou une date.",
+    "screen": "Slide tableau 4 lignes : poste / cause / solution / document (D07, D13) ; la ligne « balcon » s'affiche en orange avec la mention « à vérifier »",
+    "onscreen": "Chaque cause → une solution, un prix ou une date"
+   },
+   {
+    "tc": "06:35",
+    "voice": "Les erreurs fréquentes. Un : plaquer les chiffres d'une maison sur un appartement. Le toit de M. Bernard, ce n'est pas son problème, c'est celui de la copropriété. Deux : accuser le vendeur. « Vous n'aérez pas assez » : faux et blessant. Trois : promettre. « Avec l'isolation par l'extérieur, plus de froid, plus de moisissures. » L'isolation par l'extérieur va réduire fortement les pertes par les murs, mais le balcon reste un point délicat, et sans extraction efficace, l'humidité restera. Quatre : oublier que le DPE de 2021 contient lui aussi un schéma des déperditions. Compare toujours ce que tu vois avec ce qu'il dit.",
+    "screen": "Seb face caméra, plan rapproché ; quatre cartons apparaissent : « Maison ≠ appartement », « Pas de reproche », « Pas de promesse », « Comparer avec le DPE »",
+    "onscreen": "Constater, expliquer, ne pas promettre"
+   },
+   {
+    "tc": "07:20",
+    "voice": "À toi. Le quiz flash d'abord, cinq questions. Ensuite, télécharge le schéma des déperditions : il te servira à chaque visite. Puis l'exercice : sur le plan et les photos de l'appartement de M. Bernard, tu repères et tu classes ses déperditions. Tu déposes ton plan annoté avec ton classement. Je vérifie surtout une chose : est-ce que ton explication tiendrait devant un acquéreur ? Dans la prochaine capsule, on passe aux chiffres : surfaces, kilowattheures et CO₂.",
+    "screen": "Seb face caméra, plan taille ; bandeau des 5 étapes, l'étape ② « Je me teste » clignote",
+    "onscreen": "Quiz → Schéma des déperditions → Plan annoté"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Selon l'ADEME (observatoire DPE 2025), quel est le premier poste de déperdition d'une maison construite avant 1974 ?",
+    "options": [
+     "Le toit",
+     "Les murs",
+     "Les ponts thermiques",
+     "Les fenêtres"
+    ],
+    "answer": 1,
+    "fb_title": "Les murs, environ 31 %",
+    "fb_text": "Ordre de grandeur ADEME pour une maison d'avant 1974 : murs 31 %, air renouvelé et fuites 27 %, fenêtres 14 %, planchers bas 10 %, toit 9 %, ponts thermiques 9 %. C'est une moyenne de maison, pas une règle pour un appartement.",
+    "whys": [
+     "Faux : le toit pèse environ 9 % dans cette moyenne ADEME.",
+     "Juste : environ 31 % des pertes passent par les murs.",
+     "Faux : environ 9 %, mais ils provoquent souvent condensation et moisissures.",
+     "Faux : environ 14 %, mais ce sont eux qu'on sent le plus (paroi froide)."
+    ]
+   },
+   {
+    "question": "Appartement de M. Bernard, 4e étage sur 6, logements chauffés dessus et dessous. Quel poste de déperdition est le plus faible ?",
+    "options": [
+     "Les murs de façade",
+     "Les fenêtres des chambres",
+     "Le plancher et le plafond"
+    ],
+    "answer": 2,
+    "fb_title": "Entre deux voisins chauffés",
+    "fb_text": "La chaleur va du chaud vers le froid. Quand il fait à peu près la même température de l'autre côté, presque rien ne passe. Les pertes de M. Bernard se concentrent sur la façade : murs, fenêtres, ponts thermiques, air.",
+    "whys": [
+     "Faux : béton de 1972 avec 2 cm de polystyrène, c'est un poste majeur.",
+     "Faux : simple vitrage et joints dégradés, c'est un poste majeur et ressenti.",
+     "Juste : de l'autre côté se trouvent des logements chauffés, l'écart de température est faible."
+    ]
+   },
+   {
+    "question": "Quelle est la cause principale des moisissures dans la salle de bains de M. Bernard ?",
+    "options": [
+     "Un défaut d'entretien du vendeur",
+     "Une extraction insuffisante (conduit partiellement obstrué) combinée à des surfaces froides",
+     "Le dégât des eaux du voisin du 5e en 2022"
+    ],
+    "answer": 1,
+    "fb_title": "Un symptôme technique",
+    "fb_text": "L'air humide n'est pas assez évacué et il condense sur les surfaces froides (angles, plafond côté façade). Le traitement passe par la ventilation (débouchage, VMC) et, à terme, par l'isolation.",
+    "whys": [
+     "Faux : accuser le vendeur est inexact et ferme la discussion.",
+     "Juste : ventilation insuffisante + paroi froide = condensation puis moisissures.",
+     "Faux : ce sinistre a laissé une auréole au plafond de la cuisine ; il est réparé et clos."
+    ]
+   },
+   {
+    "question": "Deux murs : l'un a une résistance thermique R = 0,5 m².K/W, l'autre R = 3,7 m².K/W. Lequel isole le mieux ?",
+    "options": [
+     "Celui à R = 3,7",
+     "Celui à R = 0,5",
+     "Impossible à dire sans la classe DPE"
+    ],
+    "answer": 0,
+    "fb_title": "Plus R est grand, mieux c'est",
+    "fb_text": "R = épaisseur / conductivité (λ). Plus R est élevé, plus la paroi freine la chaleur. Le doublage de 2 cm de M. Bernard donne un R d'environ 0,5 (hypothèse λ = 0,04), loin des 3,7 visés pour les aides à l'isolation des murs.",
+    "whys": [
+     "Juste : R plus grand = paroi plus isolante.",
+     "Faux : c'est l'inverse ; R = 0,5 correspond à un mur quasi non isolé.",
+     "Faux : R se compare directement, sans passer par l'étiquette du logement."
+    ]
+   },
+   {
+    "question": "Un acquéreur en visite : « Les chambres sont glaciales, c'est une passoire ? » Quelle réponse est la plus juste ?",
+    "options": [
+     "« Non, c'est juste une impression, l'appartement est très bien isolé. »",
+     "« Oui, il faudra tout refaire, comptez beaucoup de travaux. »",
+     "« C'est le simple vitrage et des murs peu isolés. Les 4 fenêtres sont chiffrées, l'isolation extérieure est votée pour 2027. »"
+    ],
+    "answer": 2,
+    "fb_title": "Expliquer, puis chiffrer",
+    "fb_text": "Tu confirmes ce qu'il ressent, tu nommes la cause et tu relies chaque cause à une solution chiffrée ou votée (devis D13, PV d'AG D07). Tu ne nies pas, tu ne dramatises pas, tu ne promets pas de résultat.",
+    "whys": [
+     "Faux : nier une sensation réelle détruit ta crédibilité.",
+     "Faux : dramatiser sans chiffre fait baisser l'offre sans raison.",
+     "Juste : cause nommée, solution chiffrée, travaux de copropriété déjà votés."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Schéma des déperditions",
+  "kind": "fiche",
+  "intro": "Une fiche de terrain pour repérer en visite par où un logement perd sa chaleur, classer les déperditions et en parler simplement au vendeur comme à l'acquéreur. À croiser avec le schéma des déperditions du DPE (rubrique présente dans les DPE établis depuis le 1/07/2021).",
+  "sections": [
+   {
+    "heading": "Les trois chemins de la chaleur",
+    "type": "text",
+    "text": "La chaleur va toujours du chaud vers le froid. Elle quitte un logement par trois chemins. 1) Les parois : murs, fenêtres et portes, plancher bas, plafond ou toit ; leur performance se lit avec la résistance thermique R (m².K/W) : plus R est grand, mieux la paroi isole. 2) Les ponts thermiques : zones où l'isolation est interrompue (dalle de balcon traversante, jonction plancher/façade, tour des fenêtres, angles). 3) L'air : le renouvellement volontaire (ventilation, indispensable pour la santé) et les fuites parasites (joints usés, coffres, passages de gaines). Une paroi froide donne une sensation d'inconfort même si l'air est chaud, et favorise la condensation."
+   },
+   {
+    "heading": "Ordre de grandeur ADEME et lecture en appartement",
+    "type": "table",
+    "headers": [
+     "Poste",
+     "Maison avant 1974 (ADEME)",
+     "Appartement intermédiaire (logements chauffés dessus et dessous)"
+    ],
+    "rows": [
+     [
+      "Murs",
+      "≈ 31 %",
+      "Poste majeur si la façade est peu isolée"
+     ],
+     [
+      "Air renouvelé et fuites",
+      "≈ 27 %",
+      "Poste majeur : ventilation et étanchéité des menuiseries"
+     ],
+     [
+      "Fenêtres",
+      "≈ 14 %",
+      "Poste majeur et ressenti si simple vitrage"
+     ],
+     [
+      "Planchers bas",
+      "≈ 10 %",
+      "Faible si un logement chauffé est dessous"
+     ],
+     [
+      "Toit",
+      "≈ 9 %",
+      "Faible si un logement chauffé est dessus (dernier étage : à vérifier)"
+     ],
+     [
+      "Ponts thermiques",
+      "≈ 9 %",
+      "À surveiller : balcons, jonctions planchers/façade"
+     ]
+    ]
+   },
+   {
+    "heading": "Repérer en visite : les indices",
+    "type": "checklist",
+    "items": [
+     "Main posée sur la vitre et sur le mur de façade : sensation de paroi froide ?",
+     "Courant d'air au bord des fenêtres, joints secs ou décollés, ouvrants qui ferment mal",
+     "Buée sur les vitres, traces noires dans les angles, au plafond, derrière les meubles",
+     "Grilles d'entrée et de sortie d'air présentes, propres, non bouchées ; bouche de salle de bains qui aspire (feuille de papier)",
+     "Dalle de balcon dans le prolongement du plancher intérieur (pont thermique probable)",
+     "Ce qu'il y a de l'autre côté de chaque paroi : extérieur, palier, cage d'escalier, voisin chauffé, local non chauffé",
+     "Travaux de copropriété votés ou prévus (PV d'AG, PPPT) qui traiteront une partie des déperditions"
+    ]
+   },
+   {
+    "heading": "Calcul d'ordre de grandeur : la résistance thermique",
+    "type": "formula",
+    "text": "R = e / λ, avec e l'épaisseur de l'isolant en mètres et λ sa conductivité thermique en W/m.K (donnée du fabricant). Exemple sur le fil rouge : doublage polystyrène de 2 cm, hypothèse λ = 0,04 W/m.K → R = 0,02 / 0,04 = 0,5 m².K/W. Repère : les aides à l'isolation des murs visent R ≥ 3,7 m².K/W. Le mur de M. Bernard est environ 7 fois en dessous (3,7 / 0,5 = 7,4). Ce calcul sert à comprendre et à expliquer, pas à remplacer un diagnostic."
+   },
+   {
+    "heading": "Schéma rempli : l'appartement de M. Bernard",
+    "type": "table",
+    "headers": [
+     "Poste",
+     "Constat",
+     "Niveau",
+     "Ce qui est prévu ou chiffré"
+    ],
+    "rows": [
+     [
+      "Murs de façade",
+      "Béton banché 1972, doublage polystyrène 2 cm (R ≈ 0,5)",
+      "Fort",
+      "ITE votée en AG le 12/06/2025, démarrage prévu avril 2027 (D07)"
+     ],
+     [
+      "Fenêtres des chambres",
+      "4 fenêtres bois simple vitrage d'origine, joints dégradés",
+      "Fort",
+      "Remplacement par PVC double vitrage Uw ≤ 1,3 : 5 600 € (D13)"
+     ],
+     [
+      "Air et ventilation",
+      "Ventilation naturelle, pas de VMC, conduit de la salle de bains partiellement obstrué",
+      "Fort",
+      "VMC hygroréglable B + débouchage : 2 900 € (D13)"
+     ],
+     [
+      "Pont thermique balcon",
+      "Dalle traversante du séjour (balcon 6 m²)",
+      "Moyen",
+      "Traitement à vérifier dans le descriptif de l'ITE"
+     ],
+     [
+      "Fenêtres séjour et cuisine",
+      "PVC double vitrage 2004",
+      "Moyen",
+      "Rien à court terme"
+     ],
+     [
+      "Plancher et plafond",
+      "Logements chauffés dessous et dessus",
+      "Faible",
+      "Sans objet"
+     ]
+    ]
+   },
+   {
+    "heading": "Ce que tu dis au vendeur et à l'acquéreur",
+    "type": "list",
+    "items": [
+     "« Ce que vous ressentez près des fenêtres, c'est le simple vitrage et des murs peu isolés : c'est mesurable et chiffrable. »",
+     "« Les moisissures de la salle de bains viennent d'une extraction insuffisante : le conduit est en partie bouché, une VMC est chiffrée. »",
+     "« Le ravalement avec isolation par l'extérieur est voté pour 2027 : il traitera les murs, pas les fenêtres ni la ventilation. »",
+     "À éviter : « plus aucun froid après les travaux », « vous n'aérez pas assez », « c'est une passoire »."
+    ]
+   }
+  ],
+  "footer": "Sources : ADEME, « Tout savoir sur l'isolation » (répartition des pertes d'une maison construite avant 1974, observatoire DPE 2025) ; ANIL, contenu du DPE 2021 (schéma des déperditions, performance de l'isolation) ; formation Audit énergétique Éco-Propriété (ponts thermiques, ventilation). λ = 0,04 : hypothèse de calcul. Données du fil rouge fictives. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Repérer les déperditions",
+  "duration_min": 25,
+  "context": "Tu prépares le dossier d'estimation de M. Bernard. Avant d'en parler avec lui et, plus tard, avec les acquéreurs, tu dois savoir par où son appartement perd sa chaleur, dans quel ordre, et ce que les travaux votés ou chiffrés vont changer. Appartement T4 de 76 m², 4e étage sur 6, immeuble de 1972, logements chauffés dessus et dessous.",
+  "materials": [
+   "D04 Plan et descriptif de l'appartement",
+   "D05 Reportage photo commenté (12 photos)",
+   "D02 DPE du 14/03/2023 (synthèse)",
+   "D07 PV d'AG du 12/06/2025 (extraits)",
+   "D13 Devis des travaux privatifs"
+  ],
+  "steps": [
+   "Sur le plan D04, pour chaque pièce, indique ce qu'il y a de l'autre côté de chaque paroi (extérieur, palier, voisin chauffé).",
+   "Trace sur le plan les déperditions : flèches épaisses (fortes), moyennes, fines (faibles), et un symbole pour les ponts thermiques.",
+   "Associe au moins 4 photos du D05 à une déperdition ou à un symptôme (paroi froide, joints, moisissures, balcon).",
+   "Calcule l'ordre de grandeur de R du doublage des murs (2 cm, λ = 0,04) et compare-le à 3,7.",
+   "Classe les déperditions de la plus forte à la plus faible et justifie chaque rang en une ligne.",
+   "Pour chaque poste, indique ce qui est voté (D07) ou chiffré (D13), et ce qui reste non traité.",
+   "Écris deux phrases pour un acquéreur qui dit « les chambres sont glaciales »."
+  ],
+  "expected": "Classement attendu (exemple) : 1) Murs de façade : béton 1972 + polystyrène 2 cm, R ≈ 0,02 / 0,04 = 0,5 m².K/W, soit environ 7 fois moins que 3,7 ; traité par l'ITE votée le 12/06/2025 (démarrage avril 2027). 2) Fenêtres des 3 chambres : 4 fenêtres bois simple vitrage, joints dégradés : paroi froide + fuites ; remplacement chiffré 5 600 € (D13). 3) Air : ventilation naturelle sans VMC ; fuites aux fenêtres bois et extraction insuffisante dans la salle de bains (conduit obstrué) → moisissures ; VMC hygro B + débouchage 2 900 € (D13). 4) Pont thermique du balcon du séjour (dalle traversante, balcon 6 m²) : non traité par les devis privatifs, traitement à vérifier dans le descriptif de l'ITE. 5) Fenêtres PVC double vitrage 2004 du séjour et de la cuisine : correctes. 6) Plancher et plafond : faibles, logements chauffés dessus et dessous. Phrases acquéreur : « Vous sentez le simple vitrage d'origine et des murs peu isolés. Le remplacement des 4 fenêtres est chiffré à 5 600 €, et l'isolation de la façade est votée par la copropriété pour 2027. »"
+ },
+ "deliverable": {
+  "title": "Plan des déperditions de l'appartement de M. Bernard",
+  "format": "PDF, 1 page : plan D04 annoté + tableau de classement",
+  "criteria": [
+   "Les 4 postes de façade (murs, fenêtres des chambres, air/ventilation, pont thermique du balcon) sont repérés sur le plan",
+   "Plancher et plafond sont classés faibles avec la justification « logements chauffés dessus et dessous »",
+   "Le calcul R = 0,02 / 0,04 = 0,5 m².K/W est posé et comparé à 3,7",
+   "Chaque poste est relié à un document : ITE (D07), devis (D13) ou « non traité »",
+   "Le lien moisissures ↔ extraction insuffisante + paroi froide est expliqué sans reproche au vendeur",
+   "Les deux phrases pour l'acquéreur ne contiennent aucune promesse de résultat"
+  ],
+  "example": "« 4) Pont thermique du balcon : dalle traversante du séjour ; non traité par les devis privatifs ; à vérifier dans le descriptif de l'ITE (D07). »"
+ },
+ "sources": [
+  {
+   "label": "ADEME, Tout savoir sur l'isolation (répartition des pertes, maison avant 1974, observatoire DPE 2025)",
+   "url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/renover/tout-savoir-isolation"
+  },
+  {
+   "label": "ANIL, DPE : contenu (schéma des déperditions, performance de l'isolation)",
+   "url": "https://www.anil.org/aj-dpe-mentions-obligatoires-annonces-baux-immobiliers/"
+  },
+  {
+   "label": "Ministère de la Transition écologique, Guide pour les diagnostiqueurs DPE (repère R ≥ 3,7 m².K/W pour les murs)",
+   "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_pour_les_diagnostiqueurs_DPE.pdf"
+  },
+  {
+   "label": "Formation Audit énergétique Éco-Propriété (J4 Systèmes, J8 Mur, Menuiserie, Ventilation) — contenus internes vérifiés",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : coupe d'appartement avec 3 flèches (parois, ponts thermiques, air) ; diagramme ADEME maison avant 1974 avec mention de source à l'écran ; coupe de l'immeuble Les Tilleuls (4e entre deux étages chauffés) ; formule R = e/λ ; plan D04 annoté en direct. B-roll : main sur vitre froide, buée, moisissures d'angle, dalle de balcon. Ne pas afficher de pourcentages pour l'appartement (aucune source). λ = 0,04 W/m.K présenté comme hypothèse. Le chiffre « murs 9 % » de la formation Audit (J8_Mur) contredit l'ADEME : non repris. Vérifier avec le rédacteur du dossier que le D02 contient un schéma des déperditions cohérent (murs, fenêtres, air dominants ; plancher/plafond faibles) [À VALIDER]. Le traitement du pont thermique du balcon par l'ITE n'est pas décrit dans le dossier fil rouge : formulé « à vérifier »."
+}

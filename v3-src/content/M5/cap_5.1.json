@@ -1,0 +1,355 @@
+{
+ "id": "5.1",
+ "module": 5,
+ "ia": false,
+ "title": "Diagnostics et pièces",
+ "objective": "Constituer et contrôler le dossier de diagnostic technique d'un appartement de 1972 en copropriété avant la signature du compromis",
+ "video": {
+  "duration_min": 8,
+  "hook": "15 décembre : les Martin signent. Si l'état des risques a plus de six mois, leur délai de rétractation risque d'être décalé. Et c'est ton dossier qui est en cause.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Le 2 décembre, M. Bernard a accepté l'offre des Martin. Le compromis est prévu le 15 décembre chez Maître Lemoine. Tout le monde est content. Sauf que dans le dossier de diagnostic que M. Bernard t'a transmis, l'état des risques date de mars, et le diagnostic électricité de 2023. Si personne ne le voit, c'est la signature qui recule, ou pire, la vente qui devient fragile. Aujourd'hui, on apprend à contrôler ce dossier en dix minutes, avant que le notaire ne le fasse à ta place.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; à 00:15, incrustation du calendrier : 2/12 offre acceptée, 15/12 compromis",
+    "onscreen": "Compromis le 15/12 : ton dossier est-il prêt ?"
+   },
+   {
+    "tc": "00:35",
+    "voice": "Pourquoi c'est ton affaire, et pas seulement celle du diagnostiqueur ? Parce que la loi demande que le dossier de diagnostic technique soit annexé à la promesse de vente. Il est fourni par le vendeur, mais c'est toi qui as promis à M. Bernard un dossier technique complet dans ton mandat exclusif. Un diagnostic manquant ou périmé, c'est un vendeur qui ne peut pas s'exonérer de la garantie des vices cachés sur ce point. Pour l'état des risques, l'acquéreur peut même demander la résolution de la vente ou une baisse du prix. Ton rôle n'est pas de faire les diagnostics. Ton rôle, c'est de vérifier qu'il ne manque rien, que chaque pièce est valable à la bonne date, et de le dire au vendeur à temps.",
+    "screen": "Slide : schéma « Vendeur fournit → Agent contrôle → Notaire annexe au compromis » avec le logo de l'article L. 271-4 du CCH",
+    "onscreen": "Le DDT est annexé à la promesse (art. L. 271-4 CCH)"
+   },
+   {
+    "tc": "01:25",
+    "voice": "Première idée : la liste dépend du bien. Pas de liste toute faite. Tu pars de trois questions. Quand le permis de construire a-t-il été délivré ? Ici 1970, donc avant le 1er juillet 1997 : repérage amiante obligatoire. Quel âge ont les installations ? L'électricité a plus de quinze ans, même avec le tableau refait en 2010 : diagnostic électricité. Il n'y a pas de gaz dans l'appartement : pas de diagnostic gaz. Où se trouve l'immeuble ? Pour la commune et la parcelle, tu vérifies l'état des risques, les termites selon l'arrêté préfectoral, le bruit si l'adresse est dans une zone de bruit d'aérodrome, la mérule si une zone existe. Et le plomb ? Il ne concerne que les logements construits avant 1949. Les Tilleuls datent de 1972 : pas de plomb.",
+    "screen": "Slide arbre de décision : permis avant 1/07/1997 ? → amiante ; installation > 15 ans ? → électricité / gaz ; construit avant 1949 ? → plomb ; zone ? → ERP, termites, bruit, mérule",
+    "onscreen": "1972 : amiante oui, plomb non, gaz non"
+   },
+   {
+    "tc": "02:30",
+    "voice": "Deuxième idée : en copropriété, on diagnostique la partie privative. L'amiante, l'électricité, les termites portent sur le lot de M. Bernard. Le dossier technique amiante des parties communes, celui que détient le syndic, ne remplace pas le repérage de l'appartement. C'est l'erreur classique. Et pour la surface, c'est la loi Carrez : 76,0 mètres carrés. Le balcon de 6 mètres carrés, la cave et la place de parking n'entrent pas dans ce chiffre. Si la surface réelle est inférieure de plus d'un vingtième à celle de l'acte, l'acquéreur peut obtenir une baisse de prix proportionnelle. Un mesurage sérieux, c'est une assurance pour ton vendeur.",
+    "screen": "Plan D04 de l'appartement : surfaces des pièces surlignées en vert, balcon, cave et parking hachurés en gris",
+    "onscreen": "Carrez : 76,0 m² — hors balcon, cave, parking"
+   },
+   {
+    "tc": "03:20",
+    "voice": "Troisième idée : la validité se juge à la date de l'acte, pas à la date où tu ouvres le dossier. Le DPE vaut dix ans. Celui de M. Bernard date du 14 mars 2023, et son attestation actualisée en classe E vaut jusqu'au 13 mars 2033 : on joint les deux. Le diagnostic électricité doit avoir moins de trois ans à la signature de l'acte. Un état des termites, s'il est exigé, moins de six mois. L'état des risques doit avoir moins de six mois et il est actualisé si les informations ont changé. L'amiante, s'il ne révèle aucune présence et qu'il a été fait depuis avril 2013, n'a pas de limite de durée. Le Carrez reste valable tant que les surfaces ne changent pas. Et si un document valable au compromis expire avant l'acte, il faut le refaire pour l'annexer à l'acte.",
+    "screen": "Frise chronologique 2023 → 2033 avec les barres de validité : DPE et attestation jusqu'au 13/03/2033, électricité 3 ans, ERP 6 mois, amiante illimité si absence ; repère rouge sur l'acte du 15/03/2027",
+    "onscreen": "La bonne date : celle de l'acte (15/03/2027)"
+   },
+   {
+    "tc": "04:25",
+    "voice": "Démonstration. J'ouvre la première version du dossier D17 envoyée par M. Bernard. Premier contrôle : le DPE. J'ai la synthèse D02 en classe F, mais pas l'attestation actualisée. Je l'ajoute, c'est le document D03, classe E. Deuxième contrôle : l'électricité. Le rapport date de septembre 2023. Trois ans, c'est septembre 2026. Il est déjà périmé : on le commande. Troisième contrôle : l'état des risques, établi en mars 2026. Au 15 décembre, il aura plus de six mois : on le refait, c'est rapide. Quatrième contrôle : l'amiante. Je trouve le dossier technique des parties communes, pas le repérage du lot. Il manque. Cinquième contrôle : le Carrez, 76,0 mètres carrés, établi à l'achat, sans travaux depuis. Je le garde.",
+    "screen": "Écran partagé : à gauche D17 (version incomplète) feuilleté page par page, à droite la check-list qui se coche en vert ou se marque en rouge",
+    "onscreen": "3 pièces à commander : électricité, ERP, amiante privatif"
+   },
+   {
+    "tc": "05:30",
+    "voice": "Je finis par ce qui ne concerne pas le lot, et je l'écris quand même : plomb, non concerné, construit en 1972 ; gaz, pas d'installation ; assainissement non collectif, l'immeuble est raccordé au réseau ; audit énergétique, non exigé car c'est un lot de copropriété. Pour les termites, le bruit et la mérule, je vérifie les arrêtés et le plan d'exposition au bruit, et je note la source. Écrire « non concerné, parce que… », c'est ce qui rassure un vendeur au profil C comme M. Bernard. Ensuite, un seul mail au diagnostiqueur Diag77, certifié et assuré, avec les trois commandes, et un mail au vendeur avec le planning.",
+    "screen": "Check-list complétée plein écran, colonne « Justification » mise en avant ; B-roll : agent qui envoie un e-mail depuis son bureau",
+    "onscreen": "« Non concerné » + la raison + la source"
+   },
+   {
+    "tc": "06:40",
+    "voice": "Les erreurs que je vois le plus souvent. Un : confondre le dossier technique amiante de l'immeuble avec le repérage du lot. Deux : vérifier la validité aujourd'hui au lieu de la vérifier au jour de l'acte. Trois : oublier que l'état des risques doit être remis dès la première visite, et que l'annonce doit renvoyer au site Géorisques. Quatre : promettre au vendeur qu'un diagnostic « passera ». Ce n'est pas toi qui le décides. Ton travail, c'est un dossier complet, daté, et expliqué.",
+    "screen": "Seb face caméra, plan rapproché ; incrustations successives des 4 erreurs avec une croix rouge",
+    "onscreen": "Valide au jour de l'acte, pas au jour du contrôle"
+   },
+   {
+    "tc": "07:20",
+    "voice": "À toi maintenant. Un quiz flash de cinq questions pour ancrer tout ça. Ensuite, tu télécharges la check-list des pièces : c'est l'outil que tu gardes pour chaque vente d'appartement. Dans l'exercice, tu contrôles la version incomplète du dossier D17 de M. Bernard, pièce par pièce, et tu déposes ta check-list complétée avec le mail au vendeur. Prochaine capsule : les documents de copropriété, et les pièges du pré-état daté.",
+    "screen": "Seb face caméra ; à droite, les 5 pictogrammes du parcours : Je regarde, Je me teste, Je télécharge, Je pratique, Je dépose",
+    "onscreen": "Quiz → Check-list → Contrôle de D17 → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Pourquoi le dossier de M. Bernard ne contient-il pas de constat de risque d'exposition au plomb ?",
+    "options": [
+     "Parce que le plomb n'est jamais exigé en copropriété",
+     "Parce que l'immeuble a été construit après le 1er janvier 1949",
+     "Parce que l'attestation DPE classe E le remplace"
+    ],
+    "answer": 1,
+    "fb_title": "Le plomb vise les logements d'avant 1949",
+    "fb_text": "Le constat de risque d'exposition au plomb concerne les logements construits avant le 1er janvier 1949. Les Tilleuls datent de 1972 : il n'est pas exigé. Écris-le quand même dans ta check-list avec la raison.",
+    "whys": [
+     "Faux : en copropriété, le constat plomb est exigé pour la partie privative si le logement date d'avant 1949.",
+     "Juste : la règle porte sur la date de construction, avant le 1er janvier 1949 ; 1972 est hors champ.",
+     "Faux : le DPE et son attestation concernent l'énergie, ils ne remplacent aucun autre diagnostic."
+    ]
+   },
+   {
+    "question": "Le diagnostic électricité de M. Bernard date du 6 septembre 2023. L'acte est prévu le 15 mars 2027. Que fais-tu ?",
+    "options": [
+     "Rien : il a été fait par un diagnostiqueur certifié",
+     "Tu le fais refaire : il doit avoir moins de 3 ans à la signature de l'acte",
+     "Tu attends le compromis pour voir si le notaire le demande"
+    ],
+    "answer": 1,
+    "fb_title": "Moins de 3 ans au jour de l'acte",
+    "fb_text": "Pour la vente, l'état de l'installation intérieure d'électricité doit avoir moins de 3 ans à la signature de l'acte. Celui de septembre 2023 est périmé dès septembre 2026 : on le commande avant le compromis du 15/12/2026.",
+    "whys": [
+     "Faux : la certification du diagnostiqueur ne prolonge pas la durée de validité du rapport.",
+     "Juste : 3 ans de validité, appréciés à la date de l'acte ; le rapport de 2023 ne couvre pas mars 2027.",
+     "Faux : attendre fait perdre du temps et met le compromis en risque ; c'est à toi d'anticiper."
+    ]
+   },
+   {
+    "question": "Quand l'état des risques doit-il être remis à un acquéreur qui visite l'appartement ?",
+    "options": [
+     "Dès la première visite, puis annexé à la promesse",
+     "Uniquement le jour de l'acte authentique",
+     "Seulement si l'acquéreur le demande par écrit",
+     "Après la levée des conditions suspensives"
+    ],
+    "answer": 0,
+    "fb_title": "Dès la première visite",
+    "fb_text": "Service-Public le rappelle : l'état des risques est remis lors de la première visite, puis annexé à la promesse ou à l'acte. Il doit avoir moins de 6 mois. S'il manque à la promesse, le délai de rétractation ne court qu'à partir du lendemain de sa remise.",
+    "whys": [
+     "Juste : remise à la première visite, annexe à la promesse, moins de 6 mois.",
+     "Faux : le jour de l'acte, c'est trop tard ; l'acquéreur doit être informé avant de s'engager.",
+     "Faux : c'est une obligation du vendeur, pas une option à la demande de l'acquéreur.",
+     "Faux : l'acquéreur doit connaître les risques avant de signer, pas après les conditions suspensives."
+    ]
+   },
+   {
+    "question": "Dans le dossier, tu trouves le dossier technique amiante des parties communes fourni par le syndic. Est-ce suffisant ?",
+    "options": [
+     "Oui, il couvre tout l'immeuble, donc aussi l'appartement",
+     "Oui, si le syndic l'a mis à jour cette année",
+     "Non, il faut aussi le repérage amiante de la partie privative du lot"
+    ],
+    "answer": 2,
+    "fb_title": "Parties communes ≠ partie privative",
+    "fb_text": "En copropriété, le repérage amiante annexé à la vente porte sur la partie privative du lot. Le dossier technique amiante des parties communes est un document du syndicat : utile, mais il ne remplace pas le repérage de l'appartement (permis délivré en 1970, avant le 1/07/1997).",
+    "whys": [
+     "Faux : le dossier des parties communes ne décrit pas les matériaux à l'intérieur du lot.",
+     "Faux : une mise à jour ne change pas son périmètre, qui reste les parties communes.",
+     "Juste : il faut un repérage de la partie privative, en plus de l'information sur les parties communes."
+    ]
+   },
+   {
+    "question": "M. Bernard te demande s'il doit faire réaliser un audit énergétique, comme son voisin qui vend une maison. Ta réponse ?",
+    "options": [
+     "Oui, parce que l'appartement était classé F avant l'attestation",
+     "Non : l'audit réglementaire vise les maisons et immeubles en monopropriété, pas un lot de copropriété",
+     "Oui, parce que l'immeuble a un DPE collectif classé E"
+    ],
+    "answer": 1,
+    "fb_title": "Pas d'audit pour un lot de copropriété",
+    "fb_text": "L'audit énergétique obligatoire à la vente concerne les maisons et les immeubles en monopropriété classés E, F ou G. L'appartement de M. Bernard est un lot de copropriété : on joint le DPE et l'attestation actualisée (classe E), sans audit.",
+    "whys": [
+     "Faux : la classe ne suffit pas, c'est le type de bien qui exclut l'audit ; et l'attestation le classe E.",
+     "Juste : un lot de copropriété n'est pas soumis à l'audit énergétique réglementaire à la vente.",
+     "Faux : le DPE collectif de l'immeuble ne déclenche pas d'audit pour la vente d'un lot."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Check-list des pièces",
+  "kind": "checklist",
+  "intro": "Cette check-list sert à contrôler, avant le compromis, le dossier de diagnostic technique et les pièces du vendeur pour un appartement en copropriété. Utilise-la dès la prise de mandat, puis une seconde fois quinze jours avant le compromis, en vérifiant chaque validité à la date prévue de l'acte.",
+  "sections": [
+   {
+    "heading": "Les diagnostics : quand, combien de temps",
+    "type": "table",
+    "headers": [
+     "Diagnostic",
+     "Obligatoire si…",
+     "Validité pour la vente",
+     "Lot de M. Bernard (exemple fictif)"
+    ],
+    "rows": [
+     [
+      "DPE (+ attestation actualisée ADEME si elle existe)",
+      "Toujours pour un logement",
+      "10 ans",
+      "DPE du 14/03/2023 + attestation classe E, valables jusqu'au 13/03/2033"
+     ],
+     [
+      "Amiante (partie privative)",
+      "Permis de construire délivré avant le 1/07/1997",
+      "Illimitée si absence d'amiante et repérage fait depuis le 1/04/2013 ; sinon suivre les obligations du rapport",
+      "Exigé (permis 1970) : repérage du lot à commander"
+     ],
+     [
+      "Électricité",
+      "Installation intérieure de plus de 15 ans",
+      "Moins de 3 ans à la signature de l'acte",
+      "Exigé : rapport de 2023 périmé, à refaire"
+     ],
+     [
+      "Gaz",
+      "Installation intérieure de plus de 15 ans",
+      "Moins de 3 ans",
+      "Non concerné : pas d'installation de gaz"
+     ],
+     [
+      "Plomb (CREP)",
+      "Logement construit avant le 1/01/1949",
+      "1 an si plomb au-delà des seuils, sinon illimitée",
+      "Non concerné : construit en 1972"
+     ],
+     [
+      "État des risques (ERP)",
+      "Bien situé dans une zone à risques listée par la réglementation",
+      "Moins de 6 mois ; actualisé si les informations changent",
+      "À refaire : l'état de mars 2026 aura plus de 6 mois au 15/12/2026"
+     ],
+     [
+      "Termites",
+      "Zone délimitée par arrêté préfectoral",
+      "Moins de 6 mois",
+      "Vérifier l'arrêté de Seine-et-Marne et noter la source"
+     ],
+     [
+      "Bruit des aérodromes",
+      "Adresse dans une zone du plan d'exposition au bruit",
+      "Pas de durée fixée",
+      "Vérifier le plan d'exposition au bruit le plus proche"
+     ],
+     [
+      "Mérule",
+      "Zone délimitée par arrêté",
+      "Pas de durée fixée",
+      "Vérifier en préfecture ; mention dans la promesse"
+     ],
+     [
+      "Assainissement",
+      "Installation non collective (et contrôle de raccordement dans certains territoires d'Île-de-France)",
+      "3 ans (non collectif)",
+      "Immeuble raccordé : vérifier si la commune impose un contrôle de raccordement"
+     ],
+     [
+      "Surface Carrez",
+      "Lot de copropriété de 8 m² ou plus",
+      "Sans limite si les surfaces ne changent pas",
+      "76,0 m², hors balcon 6 m², cave n° 22 et parking n° 31"
+     ],
+     [
+      "Audit énergétique",
+      "Maison ou immeuble en monopropriété classé E, F ou G",
+      "5 ans",
+      "Non concerné : lot de copropriété"
+     ]
+    ]
+   },
+   {
+    "heading": "Les pièces du vendeur à réunir en plus du dossier de diagnostic",
+    "type": "checklist",
+    "items": [
+     "Titre de propriété (extrait D11) : désignation exacte du lot, numéros de cave et de parking",
+     "Dernier avis de taxe foncière (D11 : 1 412 € par an)",
+     "Pièce d'identité et situation familiale du vendeur (veuf, bien propre : le notaire vérifie)",
+     "Plan et descriptif de l'appartement (D04)",
+     "Factures et garanties des travaux récents : cuisine 2016, électricité 2010, menuiseries PVC 2004",
+     "Justificatifs des sinistres : dégât des eaux de 2022, cause réparée, sinistre clos (assurance de l'immeuble)",
+     "Documents de copropriété (capsule 5.2) : ils sont distincts du dossier de diagnostic technique"
+    ]
+   },
+   {
+    "heading": "Les 6 contrôles avant d'envoyer le dossier au notaire",
+    "type": "steps",
+    "items": [
+     "Lister les diagnostics exigés à partir de 3 questions : date du permis, âge des installations, localisation (communes et parcelle)",
+     "Pour chaque pièce, noter la date d'établissement et calculer sa date de fin de validité",
+     "Comparer chaque fin de validité à la date prévue de l'acte, pas à la date du jour",
+     "Vérifier que les diagnostics de partie privative portent bien sur le lot (adresse, étage, numéro de lot)",
+     "Vérifier la certification, l'assurance et l'indépendance du diagnostiqueur (annuaire officiel des diagnostiqueurs)",
+     "Écrire « non concerné » avec la raison et la source pour chaque diagnostic exclu"
+    ]
+   },
+   {
+    "heading": "Ce que risque le vendeur si une pièce manque",
+    "type": "text",
+    "text": "Si, à la signature de l'acte, il manque un diagnostic plomb, amiante, termites, gaz, électricité ou assainissement en cours de validité, le vendeur ne peut pas s'exonérer de la garantie des vices cachés correspondante. Si l'état des risques manque, l'acquéreur peut demander la résolution de la vente ou une diminution du prix. Si la surface Carrez réelle est inférieure de plus d'un vingtième à celle de l'acte, le vendeur supporte une baisse de prix proportionnelle. Enfin, un document valable au compromis mais expiré avant l'acte doit être remplacé. Le notaire tranche les cas particuliers : ton rôle est de lui transmettre un dossier complet et daté."
+   },
+   {
+    "heading": "Phrase type pour le vendeur (profil C)",
+    "type": "text",
+    "text": "« Monsieur Bernard, j'ai contrôlé les pièces une par une à la date de l'acte prévu le 15 mars 2027. Trois documents sont à refaire : le diagnostic électricité de 2023, l'état des risques de mars 2026 et le repérage amiante de l'appartement. Je vous joins le tableau avec, pour chaque pièce, sa date, sa validité et la source de la règle. Diag77 peut intervenir la semaine prochaine. »"
+   }
+  ],
+  "footer": "Sources : art. L. 271-4, L. 271-5 et D. 271-5 du Code de la construction et de l'habitation (Légifrance), art. 46 de la loi du 10 juillet 1965, Service-Public (fiches F10798 et F12239), notaires.fr, INC. Mise à jour : 20/10/2026. Exemples de dates : fictifs."
+ },
+ "exercise": {
+  "title": "Contrôler un dossier incomplet",
+  "duration_min": 30,
+  "context": "Variante d'entraînement (exemple fictif) : imagine que M. Bernard t'envoie cette première version de son dossier de diagnostic technique, différente du D17 complet, pour le compromis du 15/12/2026 ; l'acte est prévu le 15/03/2027. Le dossier contient : la synthèse du DPE du 14/03/2023 en classe F (D02), un rapport électricité du 6/09/2023, un état des risques du 10/03/2026, le dossier technique amiante des parties communes transmis par le syndic, et un certificat Carrez de 76,0 m² établi lors de l'achat en 1998. Aucune mention pour les termites, le bruit ou la mérule.",
+  "materials": [
+   "Variante décrite ci-dessus (première version du DDT)",
+   "D17 Dossier de diagnostic technique (version complète, pour comparer)",
+   "D02 DPE du 14/03/2023",
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D04 Plan et descriptif",
+   "D11 Extrait du titre de propriété"
+  ],
+  "steps": [
+   "Liste les diagnostics exigés pour ce lot à partir de la date du permis (1970), de l'âge des installations et de la localisation.",
+   "Pour chaque pièce reçue, note sa date et calcule sa date de fin de validité.",
+   "Compare chaque fin de validité à la date de l'acte (15/03/2027) et classe la pièce : valable, à refaire, manquante, non concernée.",
+   "Repère l'erreur de périmètre sur l'amiante et la pièce manquante sur le DPE.",
+   "Pour termites, bruit et mérule, indique ce que tu vérifies et où.",
+   "Rédige le mail à M. Bernard (10 lignes maximum) : ce qui manque, pourquoi, qui commande, pour quand."
+  ],
+  "expected": "Corrigé : (1) DPE D02 valable jusqu'au 13/03/2033 mais incomplet : ajouter l'attestation actualisée D03 (classe E, même échéance). (2) Électricité du 6/09/2023 : périmée le 5/09/2026, à refaire avant le compromis (moins de 3 ans à l'acte). (3) ERP du 10/03/2026 : plus de 6 mois au 15/12/2026, à refaire et à remettre aux Martin, qui ont déjà visité (il aurait dû leur être remis à la première visite). (4) Amiante : le dossier technique des parties communes ne suffit pas ; repérage de la partie privative à commander (permis 1970). (5) Carrez 76,0 m² de 1998 : valable, aucune modification de surface ; vérifier qu'il exclut le balcon de 6 m², la cave et le parking. (6) Plomb non concerné (1972), gaz non concerné (pas d'installation), audit non exigé (lot de copropriété), assainissement : immeuble raccordé, vérifier en mairie si un contrôle de raccordement est imposé. (7) Termites, bruit, mérule : vérifier l'arrêté préfectoral, le plan d'exposition au bruit et la zone mérule, noter « non concerné » ou commander. Mail : 3 commandes groupées chez Diag77 (électricité, ERP, amiante privatif), rapports attendus avant le 8/12/2026."
+ },
+ "deliverable": {
+  "title": "Check-list des pièces complétée pour le lot de M. Bernard",
+  "format": "PDF, 1 à 2 pages : tableau de contrôle + mail au vendeur",
+  "criteria": [
+   "Les 12 lignes du tableau sont renseignées avec un statut : valable, à refaire, manquante ou non concernée",
+   "Chaque date de fin de validité est calculée et comparée au 15/03/2027",
+   "Le rapport électricité de 2023 et l'ERP de mars 2026 sont identifiés comme à refaire",
+   "L'erreur amiante (parties communes au lieu de la partie privative) est relevée",
+   "L'attestation actualisée D03 est ajoutée au DPE",
+   "Chaque « non concerné » est justifié (règle et source)",
+   "Le mail au vendeur tient en 10 lignes et indique qui commande et pour quelle date"
+  ],
+  "example": "« Électricité : rapport du 6/09/2023, fin de validité 5/09/2026, acte le 15/03/2027 → à refaire. Commande Diag77, rapport attendu avant le 8/12/2026. »"
+ },
+ "sources": [
+  {
+   "label": "Art. L. 271-4 CCH : contenu du dossier de diagnostic technique (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049398848"
+  },
+  {
+   "label": "Art. L. 271-5 CCH : documents expirés entre promesse et acte (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043978261"
+  },
+  {
+   "label": "Art. D. 271-5 CCH : durées de validité plomb, termites, gaz, électricité (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038967784"
+  },
+  {
+   "label": "Service-Public : diagnostics à fournir à la vente (F10798)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798"
+  },
+  {
+   "label": "Service-Public : état des risques, remise à la première visite (F12239, vérifiée le 28/09/2026)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239"
+  },
+  {
+   "label": "Notaires de France : les diagnostics techniques immobiliers",
+   "url": "https://www.notaires.fr/fr/immobilier-fiscalite/diagnostics/les-diagnostics-techniques-immobiliers"
+  },
+  {
+   "label": "INC : diagnostics obligatoires et durées de validité",
+   "url": "https://www.inc-conso.fr/content/logement/vente-immobiliere-les-diagnostics-obligatoires-pour-les-logements-usage-dhabitation"
+  },
+  {
+   "label": "Art. 46 loi du 10 juillet 1965 : surface Carrez (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000029946555"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D02, D03, D04, D11, D17)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Relecture juridique obligatoire (DDT, validités, sanctions). Visuels : arbre de décision des diagnostics, frise des validités avec repère acte 15/03/2027, plan D04 avec zones Carrez, D17 version incomplète (à produire en plus de D17 complet du dossier global : dates fictives 6/09/2023 électricité, 10/03/2026 ERP, DTA parties communes à la place du repérage privatif). B-roll : diagnostiqueur en intervention dans un appartement, agent au bureau. [À VALIDER] : arrêté termites en Seine-et-Marne et plan d'exposition au bruit (aérodrome le plus proche de Melun) ; Melun dans ou hors des territoires du contrôle de raccordement « nage en Seine » (8° de l'art. L. 271-4) ; validité amiante (règle INC/notaires, à confirmer par le relecteur sur le Code de la santé publique). Ne jamais citer d'URL à l'oral."
+}

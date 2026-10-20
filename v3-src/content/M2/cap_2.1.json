@@ -1,0 +1,308 @@
+{
+ "id": "2.1",
+ "module": 2,
+ "ia": false,
+ "title": "Le projet du vendeur",
+ "objective": "Conduire l'entretien de découverte pour fixer le motif, le délai réel, le prix attendu, les contraintes et les critères de choix du vendeur avant toute estimation",
+ "video": {
+  "duration_min": 8,
+  "hook": "M. Bernard au téléphone : « Deux agences m'ont dit 172 000 €, je veux vendre avant l'été 2027. » Si ta première question est « Vous le voyez à combien ? », tu es déjà la troisième agence.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Octobre 2026. Tu as enfin M. Bernard au téléphone. En trente secondes, il t'a dit deux choses. « Deux agences m'ont annoncé 172 000 euros. » Et : « Je veux avoir vendu avant l'été 2027. » Là, tu as une tentation. Lui demander : « Et vous, vous le voyez à combien ? » Si tu fais ça, tu viens de devenir la troisième agence. Aujourd'hui, on apprend à poser les bonnes questions, dans le bon ordre.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; incrustation d'un téléphone qui sonne avec la mention « M. Bernard »",
+    "onscreen": "Étape 1 sur 13 : le projet du vendeur"
+   },
+   {
+    "tc": "00:30",
+    "voice": "Pourquoi commencer par le projet, et pas par le bien ? Parce qu'une estimation sans projet, c'est un chiffre hors-sol. Le prix de mise en vente, le délai, la stratégie, la question des travaux : tout dépend de ce que le vendeur veut vraiment. Dans le programme Éco-Consultant, c'est l'étape 1 sur 13, et toutes les autres s'appuient dessus. Il y a un deuxième enjeu : la confiance. M. Bernard est un profil C. Ancien ingénieur des services techniques d'une mairie, il veut des faits, des documents, et il déteste qu'on le presse. Avec lui, une découverte bâclée se voit tout de suite. Une découverte rigoureuse, c'est déjà une preuve de ta méthode.",
+    "screen": "Slide « Les 13 étapes Éco-Consultant » avec l'étape 1 « Projet vendeur » en surbrillance orange ; puis vignette profil DISC « C » à côté de la photo-avatar de M. Bernard",
+    "onscreen": "Pas de projet clair = pas d'estimation utile"
+   },
+   {
+    "tc": "01:25",
+    "voice": "Première idée clé : le motif et le délai, avant le prix. Pourquoi vend-il ? Pour se rapprocher de sa fille, à Nantes, et acheter plus petit. Pour quand ? « Avant l'été 2027. » Creuse : « Et si la vente se signait en septembre 2027, ce serait un problème ? » Il te répondra : « À trois mois près, non. » Voilà ton vrai délai : une marge de quelques mois, pas une urgence. Ça change tout. Tu n'as aucune raison de brader, et tu as le temps de préparer un dossier solide. Demande aussi l'ordre des opérations. Veut-il vendre avant d'acheter à Nantes ? A-t-il besoin du prix de vente pour acheter ? Son prêt est soldé depuis longtemps : pas de crédit en cours à rembourser à la vente. Note tout.",
+    "screen": "Slide frise : octobre 2026 → été 2027, avec une zone hachurée « marge de 3 mois » ; icône Melun → Nantes",
+    "onscreen": "Délai réel : avant l'été 2027, souple à 3 mois"
+   },
+   {
+    "tc": "02:20",
+    "voice": "Deuxième idée clé : le prix qu'il a en tête, et d'où il vient. M. Bernard espère 205 000 euros. Les deux agences lui ont dit 172 000, en invoquant moins 15 % à cause du DPE. Ne commente pas ces chiffres au téléphone. Pose deux questions. « Sur quoi vous basez-vous pour 205 000 ? » Et : « Qu'est-ce qu'on vous a montré pour justifier 172 000 ? » Tu vas découvrir qu'aucune des deux agences ne lui a parlé de l'attestation actualisée de son DPE, ni des appels de fonds du ravalement. Tu notes l'écart, sans trancher. Le prix, tu le construiras dans les prochaines capsules, avec des comparables et des preuves écrites.",
+    "screen": "Slide deux colonnes : « Ce qu'il espère : 205 000 € » / « Ce qu'on lui a dit : 172 000 € (−15 % DPE) », et au centre un point d'interrogation « Sur quelles preuves ? »",
+    "onscreen": "On note l'écart. On ne tranche pas."
+   },
+   {
+    "tc": "03:05",
+    "voice": "Troisième idée clé : les contraintes qui peuvent bloquer ou coûter. Qui décide ? Il est seul propriétaire, c'est un bien propre acheté en 1998 : tu le vérifieras sur l'extrait du titre, le D11. La copropriété, ensuite. Connaît-il les travaux votés ? L'assemblée du 12 juin 2025 a voté le ravalement avec isolation par l'extérieur. Sa quote-part : 35 880 euros, appelée en quatre échéances de 8 970 euros, la première le 1er janvier 2027. Si la vente n'est pas signée à cette date, c'est en principe lui, copropriétaire à ce moment-là, qui paie cet appel au syndic. Il doit l'anticiper. Enfin, la fiscalité. C'est sa résidence principale ? Alors la plus-value est exonérée. Et s'il part à Nantes avant la vente, l'exonération peut être conservée s'il l'a occupée jusqu'à la mise en vente et si la vente intervient dans un délai normal. Pour le détail, c'est le notaire.",
+    "screen": "Plein écran : extrait du PV d'AG D07 avec le vote ITE surligné ; incrustation du calcul 1 150 000 × 312 / 10 000 = 35 880 € ; puis échéancier des 4 appels",
+    "onscreen": "1er appel : 8 970 € le 1/01/2027"
+   },
+   {
+    "tc": "04:15",
+    "voice": "Passons à la démonstration. Ouvre la fiche découverte vierge, le D01. Six rubriques : le vendeur et la décision, le projet et le délai, le prix, le bien vu par le vendeur, la copropriété, et ses critères pour choisir une agence. Avec un profil C, envoie le questionnaire par e-mail la veille : il aime préparer. Le jour du rendez-vous, reformule chaque réponse et fais-la valider. « Si je résume : vous voulez avoir signé avant l'été 2027, avec une souplesse de trois mois, c'est bien ça ? » Demande-lui aussi son prix plancher. Il te répondra sans doute : « Je vous le dirai quand j'aurai vu votre estimation. » C'est une réponse. Note-la telle quelle, et ne répète jamais un prix plancher à un acquéreur. Un conseil de terrain : pose les questions dans l'ordre de la fiche, mais laisse-le dériver quand il parle de ses travaux ou de la copropriété. C'est souvent là qu'il te donne l'information que personne n'a cherchée.",
+    "screen": "Capture du D01 (fiche découverte vierge) qui se remplit rubrique par rubrique, zoom sur la rubrique « Projet et délai »",
+    "onscreen": "Reformuler → faire valider → écrire"
+   },
+   {
+    "tc": "05:30",
+    "voice": "Termine toujours par la question qui fait la différence : « Qu'est-ce qui vous ferait dire, dans six mois, que vous avez choisi la bonne agence ? » M. Bernard répondra : « Des comptes rendus écrits, réguliers, avec des chiffres. Et qu'on ne me raconte pas d'histoires sur mon DPE. » Tu viens d'obtenir deux choses : ton futur engagement de mandat, et le sujet sur lequel tu dois être irréprochable. Dernier geste : la liste des documents. DPE et numéro ADEME, appels de charges, procès-verbaux d'assemblée, titre de propriété, taxe foncière, factures des travaux faits. Tu la lui laisses par écrit.",
+    "screen": "B-roll : agent et vendeur à une table de salon, documents étalés ; incrustation de la liste des pièces D02, D06, D07, D11 qui s'affichent une à une",
+    "onscreen": "« Qu'est-ce qui vous ferait dire que vous avez choisi la bonne agence ? »"
+   },
+   {
+    "tc": "06:10",
+    "voice": "Les erreurs fréquentes, maintenant. Un : parler prix dès la première minute. Deux : collecter des données inutiles. Ses revenus, son épargne, sa santé : tu n'en as pas besoin pour vendre son bien, donc tu ne les demandes pas. C'est le principe de minimisation du RGPD. Trois : ne rien écrire. Une découverte qui reste dans ta tête n'existe pas pour un profil C. Quatre : promettre. « On vendra à 205 000 », tu n'en sais rien. Dis plutôt : « Je vous remettrai une estimation écrite et justifiée. » Et une cinquième, plus discrète : oublier d'envoyer la synthèse. Sous quarante-huit heures, tu envoies cinq lignes à M. Bernard : son projet, son délai, son prix espéré, l'appel de fonds de janvier, ses attentes. Tu lui demandes de confirmer ou de corriger. Pour un profil C, ce petit e-mail vaut plus qu'une plaquette. Il prouve que tu as écouté, et il devient la base écrite de tout ce qui suivra : l'estimation, la stratégie, et le mandat.",
+    "screen": "Seb face caméra, plan rapproché ; quatre pictogrammes rouges barrés apparaissent à gauche (€, tirelire, dossier vide, main qui promet)",
+    "onscreen": "Minimisation : on ne collecte que l'utile"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi, maintenant. D'abord le quiz flash : cinq questions, tout de suite, pendant que c'est frais. Ensuite, télécharge le questionnaire projet : tu l'utiliseras dès ton prochain rendez-vous vendeur. Puis l'exercice : tu remplis la fiche découverte de M. Bernard à partir de la transcription de votre entretien. Enfin, tu déposes ta fiche, une page. Je la relis et je te fais un retour précis. On se retrouve ensuite pour parler du bâtiment lui-même. À tout de suite.",
+    "screen": "Seb face caméra, plan taille ; bandeau des 5 étapes ① Je regarde ② Je me teste ③ Je télécharge ④ Je pratique ⑤ Je dépose, l'étape ② clignote",
+    "onscreen": "Quiz → Questionnaire projet → Fiche découverte"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Au premier appel, M. Bernard te dit : « Deux agences m'ont annoncé 172 000 €. » Quelle est ta meilleure réaction ?",
+    "options": [
+     "« C'est sous-évalué, chez nous vous vendrez plus cher. »",
+     "« Qu'est-ce qu'on vous a montré pour justifier ce chiffre ? Et vous, sur quoi vous basez-vous pour 205 000 € ? »",
+     "« Le marché est difficile, il faudra sans doute s'aligner. »"
+    ],
+    "answer": 1,
+    "fb_title": "On questionne l'origine des chiffres",
+    "fb_text": "Avant toute estimation, tu cherches d'où viennent les chiffres qu'il a en tête. Tu notes l'écart sans le commenter : le prix se construira plus tard, avec des comparables et des preuves écrites.",
+    "whys": [
+     "Faux : c'est une promesse sans preuve, exactement ce qu'un profil C rejette.",
+     "Juste : tu découvres la base de chaque chiffre sans prendre parti, et tu prépares ton argumentaire.",
+     "Faux : tu reprends un chiffre sans savoir comment il a été construit et tu deviens interchangeable."
+    ]
+   },
+   {
+    "question": "Quel est le délai réel de M. Bernard, tel que la découverte le révèle ?",
+    "options": [
+     "Urgent : il doit avoir vendu avant fin 2026.",
+     "Aucun délai : il vend seulement si le prix lui plaît.",
+     "Avant l'été 2027, avec une souplesse d'environ trois mois."
+    ],
+    "answer": 2,
+    "fb_title": "Un délai, et sa marge",
+    "fb_text": "Il veut avoir vendu « avant l'été 2027 » mais n'est pas pressé « à 3 mois près ». Ce n'est pas une urgence : aucune raison de brader, et du temps pour préparer un dossier solide.",
+    "whys": [
+     "Faux : rien dans son projet n'impose une vente en 2026.",
+     "Faux : il a un vrai projet (se rapprocher de sa fille à Nantes) et une échéance.",
+     "Juste : c'est la réponse obtenue en creusant « et si c'était en septembre 2027 ? »."
+    ]
+   },
+   {
+    "question": "Laquelle de ces informations ne collectes-tu pas lors de la découverte ?",
+    "options": [
+     "Le délai souhaité pour signer",
+     "Le montant de son épargne et de ses revenus",
+     "Les travaux votés en assemblée générale",
+     "Ses critères pour choisir une agence"
+    ],
+    "answer": 1,
+    "fb_title": "Minimisation des données",
+    "fb_text": "Le RGPD impose de ne collecter que les données nécessaires à la finalité. Pour vendre son bien, tu n'as besoin ni de ses revenus ni de son épargne : tu ne les demandes pas.",
+    "whys": [
+     "À collecter : le délai fixe toute la stratégie de vente.",
+     "À ne pas collecter : ces données ne servent pas à vendre son appartement.",
+     "À collecter : les travaux votés pèsent sur le prix et sur qui paie quoi.",
+     "À collecter : ils te disent quels engagements écrire dans le mandat."
+    ]
+   },
+   {
+    "question": "Le 1er appel de fonds ITE (8 970 €) est exigible le 1/01/2027. Si la vente n'est pas signée à cette date, qui le paie au syndic ?",
+    "options": [
+     "M. Bernard, copropriétaire à la date d'exigibilité, sauf accord entre vendeur et acquéreur (qui n'engage pas le syndicat).",
+     "L'acquéreur, puisque c'est lui qui profitera de l'isolation.",
+     "Personne : l'appel est suspendu tant que le lot est en vente."
+    ],
+    "answer": 0,
+    "fb_title": "La date d'exigibilité décide",
+    "fb_text": "En principe, le copropriétaire à la date d'exigibilité paie l'appel de fonds au syndic. Vendeur et acquéreur peuvent convenir d'une répartition entre eux, que le notaire rédige. Ton rôle : le repérer dès la découverte.",
+    "whys": [
+     "Juste : c'est la règle de principe ; un accord entre les parties reste possible entre elles.",
+     "Faux : tant qu'il n'est pas propriétaire, l'acquéreur ne doit rien au syndic.",
+     "Faux : une mise en vente ne suspend pas les appels de fonds votés."
+    ]
+   },
+   {
+    "question": "Le logement est la résidence principale de M. Bernard. Il s'installe à Nantes avant la signature de la vente. Que dis-tu de la plus-value ?",
+    "options": [
+     "« Elle sera forcément imposée, ce ne sera plus votre résidence principale. »",
+     "« Elle n'est exonérée que si vous rachetez un logement à Nantes. »",
+     "« Exonération possible si vous l'occupiez jusqu'à la mise en vente et si la vente suit dans un délai normal ; le notaire confirmera. »"
+    ],
+    "answer": 2,
+    "fb_title": "Exonération : les conditions",
+    "fb_text": "La vente de la résidence principale est exonérée. Si le vendeur a quitté les lieux, l'exonération reste possible s'il l'occupait jusqu'à la mise en vente et si la vente intervient dans un délai normal (en principe un an). Tu signales, le notaire confirme.",
+    "whys": [
+     "Faux : un départ avant la vente ne fait pas perdre automatiquement l'exonération.",
+     "Faux : l'exonération de la résidence principale ne dépend pas d'un rachat.",
+     "Juste : c'est la règle publiée par l'administration fiscale, à faire confirmer par le notaire."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Questionnaire projet",
+  "kind": "questionnaire",
+  "intro": "Le questionnaire de l'entretien de découverte vendeur (étape 1 sur 13). Envoie-le la veille du rendez-vous à un vendeur qui aime préparer (profil C), puis utilise-le comme trame pendant l'entretien. Tu reformules chaque réponse, tu la fais valider, tu l'écris dans la fiche découverte (D01).",
+  "sections": [
+   {
+    "heading": "Mode d'emploi",
+    "type": "steps",
+    "items": [
+     "Avant : relis l'accord de recontact (objet, date) et prépare ce que tu sais déjà (DPE, adresse, copropriété).",
+     "Ouvre l'entretien par le projet, jamais par le prix : « Avant de parler de votre appartement, parlez-moi de votre projet. »",
+     "Pose une question à la fois, laisse le silence travailler, note les mots exacts du vendeur.",
+     "Reformule chaque bloc et fais-le valider : « Si je résume… c'est bien ça ? »",
+     "Termine par ses critères de choix d'une agence et par la liste des documents à te transmettre.",
+     "Après : envoie sous 48 h une synthèse écrite de 5 lignes à faire valider par le vendeur."
+    ]
+   },
+   {
+    "heading": "Bloc 1 · Le vendeur et la décision",
+    "type": "list",
+    "items": [
+     "Qui est propriétaire ? Seul, en couple, en indivision, via une société ?",
+     "Le bien est-il un bien propre, commun, issu d'une succession ? (à recouper avec le titre de propriété)",
+     "Qui d'autre doit être d'accord ou consulté avant de signer (enfant, conjoint, notaire) ?",
+     "Est-ce votre résidence principale ? Depuis quand ?"
+    ]
+   },
+   {
+    "heading": "Bloc 2 · Le projet et le délai",
+    "type": "list",
+    "items": [
+     "Pourquoi vendez-vous, et pourquoi maintenant ?",
+     "Où et quoi voulez-vous acheter ou louer ensuite ?",
+     "Pour quand voulez-vous avoir signé ? Et si c'était trois mois plus tard, que se passerait-il ?",
+     "Voulez-vous vendre avant d'acheter, ou l'inverse ? Avez-vous besoin du prix de vente pour acheter ?",
+     "Avez-vous un crédit en cours sur ce bien ?"
+    ]
+   },
+   {
+    "heading": "Bloc 3 · Le prix",
+    "type": "list",
+    "items": [
+     "Quel prix avez-vous en tête ? Sur quoi vous basez-vous ?",
+     "Avez-vous déjà reçu des avis de valeur ? De qui, à quel montant, avec quelles justifications ?",
+     "En dessous de quel prix ne vendriez-vous pas ? (réponse possible : « après votre estimation » : note-la telle quelle)",
+     "Les honoraires : avez-vous une préférence sur la partie qui les paie ?"
+    ]
+   },
+   {
+    "heading": "Bloc 4 · Le bien vu par le vendeur",
+    "type": "list",
+    "items": [
+     "Qu'est-ce que vous préférez dans ce logement ? Qu'est-ce qui vous a gêné ?",
+     "Quels travaux avez-vous faits, quand, avec quelles factures ?",
+     "Y a-t-il eu des sinistres (dégât des eaux, fissure) ? Sont-ils réparés et clos ?",
+     "Avez-vous votre DPE et son numéro ADEME à 13 caractères ? Avez-vous téléchargé une attestation actualisée ?"
+    ]
+   },
+   {
+    "heading": "Bloc 5 · La copropriété",
+    "type": "list",
+    "items": [
+     "Montant de vos charges et des appels de fonds en cours ?",
+     "Des travaux ont-ils été votés ? Pour combien, avec quelles échéances ?",
+     "Y a-t-il un plan pluriannuel de travaux, un DPE collectif, des procédures en cours ?",
+     "Avez-vous les trois derniers procès-verbaux d'assemblée générale ?"
+    ]
+   },
+   {
+    "heading": "Bloc 6 · Ses critères pour choisir une agence",
+    "type": "list",
+    "items": [
+     "Qu'attendez-vous d'un agent pendant la vente ?",
+     "Qu'est-ce qui vous ferait dire, dans six mois, que vous avez choisi la bonne agence ?",
+     "Comment et à quel rythme voulez-vous être informé ?"
+    ]
+   },
+   {
+    "heading": "Documents à demander (dossier fil rouge)",
+    "type": "checklist",
+    "items": [
+     "DPE complet et numéro ADEME (D02), attestation actualisée si disponible (D03)",
+     "Extrait du titre de propriété et dernière taxe foncière (D11)",
+     "Appels de charges et budget prévisionnel (D06)",
+     "Procès-verbaux des 3 dernières assemblées générales (D07)",
+     "Carnet d'entretien, PPPT, fiche synthétique de la copropriété (D08, D09, D10)",
+     "Diagnostics existants (D17) et factures des travaux réalisés"
+    ]
+   },
+   {
+    "heading": "Ce que tu ne demandes pas",
+    "type": "text",
+    "text": "Revenus, épargne, santé, situation familiale détaillée, opinions : ces données ne servent pas à estimer ni à vendre le bien. Le RGPD impose la minimisation : tu ne collectes que ce qui est nécessaire à ta mission. Si le vendeur les évoque spontanément, tu ne les notes pas dans la fiche. Exemple rempli : M. Bernard, 64 ans, propriétaire seul (bien propre, 1998, prêt soldé) ; projet : se rapprocher de sa fille à Nantes et acheter plus petit ; délai : avant l'été 2027, souple à 3 mois ; prix espéré 205 000 € ; avis reçus 172 000 € (−15 % « à cause du DPE », sans justification écrite) ; contrainte : appel de fonds ITE de 8 970 € au 1/01/2027 ; attente : comptes rendus écrits et chiffrés."
+   }
+  ],
+  "footer": "Sources : service-public.gouv.fr F10864 et impots.gouv.fr (plus-value, résidence principale) ; CNIL, principe de minimisation (RGPD art. 5) ; décret n° 67-223, art. 6-2 (appels de fonds en cas de vente). Données du fil rouge fictives. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Fiche découverte vendeur",
+  "duration_min": 30,
+  "context": "Exemple fictif. Tu as mené l'entretien de découverte avec M. Bernard à son domicile. Extraits de la transcription : « Je veux me rapprocher de ma fille à Nantes et prendre plus petit. » « Avant l'été 2027… à trois mois près, ce n'est pas grave. » « J'espère 205 000 €. Les deux autres agences m'ont dit 172 000, moins 15 % à cause du DPE, mais personne ne m'a montré de calcul. » « Je suis seul propriétaire, je l'ai acheté en 1998, le prêt est fini depuis longtemps. » « Mon prix plancher ? Je vous le dirai quand j'aurai vu votre estimation. » « Le ravalement a été voté l'an dernier, je ne sais plus combien je dois. » « Ce que je veux : des comptes rendus écrits, avec des chiffres. » Il ajoute spontanément le montant de sa pension et le nom de son médecin.",
+  "materials": [
+   "D01 Fiche découverte vendeur (vierge)",
+   "D07 PV d'AG du 12/06/2025 (extraits)",
+   "D06 Appels de charges et budget prévisionnel 2026",
+   "D11 Extrait du titre de propriété et taxe foncière"
+  ],
+  "steps": [
+   "Remplis les 6 rubriques du D01 à partir de la transcription, avec les mots du vendeur.",
+   "Formule le délai réel (échéance et marge) et l'ordre des opérations vente / achat.",
+   "Note le prix espéré, les avis reçus et leur justification, et le statut du prix plancher.",
+   "Avec le D07, calcule la quote-part ITE du lot et l'échéancier ; repère l'appel qui tombera pendant la vente.",
+   "Liste les contraintes et les points à faire confirmer par le notaire (propriété, appel de fonds, plus-value).",
+   "Barre les informations que tu ne dois pas conserver et justifie en une phrase.",
+   "Rédige la synthèse de 5 lignes que tu enverras à M. Bernard pour validation."
+  ],
+  "expected": "Fiche attendue (exemple). Vendeur : M. Alain Bernard, 64 ans, propriétaire seul, bien propre acheté en 1998, prêt soldé (à vérifier sur D11). Projet : se rapprocher de sa fille à Nantes, acheter plus petit ; vente avant achat a priori, pas de crédit à solder. Délai : signature souhaitée avant l'été 2027, souple à 3 mois. Prix : espéré 205 000 € ; avis de deux agences à 172 000 € (−15 % « DPE »), sans justification écrite ; prix plancher non communiqué, à redemander après l'estimation. Copropriété : ITE votée le 12/06/2025, 1 150 000 € × 312/10 000 = 35 880 € pour le lot, 4 appels de 8 970 € (1/01, 1/04, 1/07, 1/10/2027) ; le 1er tombera avant la vente : en principe payé par M. Bernard ; à intégrer à la stratégie et à faire rédiger par le notaire si un accord avec l'acquéreur est trouvé. Fiscalité : résidence principale, exonération de plus-value à confirmer par le notaire, y compris s'il déménage avant la vente. Critères : comptes rendus écrits et chiffrés, aucune « histoire » sur le DPE. Données barrées : pension et médecin (non nécessaires, minimisation RGPD). Synthèse : « Vous souhaitez vendre pour vous rapprocher de votre fille, avant l'été 2027 avec une marge de trois mois. Vous espérez 205 000 € ; je vous remettrai une estimation écrite et justifiée. Un appel de fonds de 8 970 € est prévu le 1/01/2027. Vous souhaitez des comptes rendus écrits réguliers. Merci de me confirmer ou de corriger. »"
+ },
+ "deliverable": {
+  "title": "Fiche découverte de M. Bernard",
+  "format": "PDF ou DOCX, 1 page (trame D01)",
+  "criteria": [
+   "Les 6 rubriques du D01 sont renseignées avec au moins une citation du vendeur",
+   "Le délai est formulé avec son échéance et sa marge (avant l'été 2027, souple à 3 mois)",
+   "Le prix espéré (205 000 €) et les avis reçus (172 000 €) sont notés avec leur origine, sans jugement de valeur",
+   "La quote-part ITE (35 880 €) et l'appel de 8 970 € au 1/01/2027 sont identifiés comme contrainte",
+   "Au moins 5 documents à demander sont listés avec leur code (D02, D06, D07, D11…)",
+   "Aucune donnée non nécessaire (revenus, santé) n'apparaît dans la fiche",
+   "Une synthèse de 5 lignes à faire valider par le vendeur termine la fiche"
+  ],
+  "example": "« Délai : signature souhaitée avant l'été 2027 ; M. Bernard accepte une marge de 3 mois (“à trois mois près, ce n'est pas grave”). »"
+ },
+ "sources": [
+  {
+   "label": "Service-Public, F10864 : plus-value immobilière, exonération de la résidence principale",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10864"
+  },
+  {
+   "label": "impots.gouv.fr : plus-values exonérées (logement quitté avant la vente, délai normal)",
+   "url": "https://www.impots.gouv.fr/particulier/plus-values-exonerees"
+  },
+  {
+   "label": "Cour de cassation, 3e civ., 20 mai 2021 (art. 6-2 du décret du 17 mars 1967, provision exigible lors d'une vente)",
+   "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000043566011"
+  },
+  {
+   "label": "CNIL : principes du RGPD (minimisation des données)",
+   "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (13 étapes Éco-Consultant, données fil rouge fictives)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : slide des 13 étapes (étape 1 en orange), frise délai oct. 2026 → été 2027 avec marge, slide 205 000 € / 172 000 €, extrait D07 avec calcul 35 880 € et échéancier 4 × 8 970 €, D01 qui se remplit. B-roll « entretien au salon avec un retraité ». Relecture juridique : règle de l'appel de fonds (copropriétaire à la date d'exigibilité, art. 6-2 décret 1967) et exonération de plus-value en cas de départ avant la vente (conditions et « délai normal »). Vérifier la cohérence avec le D01 (6 rubriques) produit par le rédacteur du dossier. Pas d'URL à l'oral."
+}

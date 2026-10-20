@@ -1,0 +1,302 @@
+{
+ "id": "3.3",
+ "module": 3,
+ "ia": false,
+ "title": "Travaux ou vente en l'état",
+ "objective": "Arbitrer, chiffres à l'appui, entre faire les travaux avant la vente et vendre en l'état avec un chiffrage remis aux acquéreurs",
+ "video": {
+  "duration_min": 8,
+  "hook": "« Si je change les fenêtres et le chauffage, je vends 216 600 €, non ? » M. Bernard a fait le calcul. Il lui manque juste une ligne : 35 880 €.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "M. Bernard a fait ses calculs. Il te montre une feuille : « Les appartements rénovés se vendent 2 850 euros le mètre carré. Fois 76, ça fait 216 600 euros. Si je fais les travaux, je gagne 30 000 euros par rapport à votre estimation. » Son raisonnement est logique. Il lui manque juste une ligne. Une ligne à 35 880 euros. Aujourd'hui, on apprend à arbitrer entre faire les travaux et vendre en l'état. Pas avec une intuition. Avec un tableau.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille ; insert : feuille manuscrite de M. Bernard « 76 × 2 850 = 216 600 € »",
+    "onscreen": "76 m² × 2 850 €/m² = 216 600 €"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est ton rôle ? Parce que ton vendeur va te poser la question. Toujours. « Est-ce que je fais les travaux avant ? » Si tu réponds au feeling, tu prends un risque pour lui : dépenser de l'argent qui ne reviendra pas, ou retarder sa vente de plusieurs mois. Et si tu réponds avec un tableau clair, tu deviens celui qui l'aide à décider. Attention : tu conseilles, il décide. Ta mission, c'est de lui mettre les chiffres sous les yeux, pas de choisir à sa place.",
+    "screen": "Slide : « Tu conseilles, il décide » en grand ; dessous, deux chemins illustrés « Travaux avant » / « Vente en l'état »",
+    "onscreen": "Tu conseilles, il décide"
+   },
+   {
+    "tc": "01:20",
+    "voice": "Première idée clé : on compare deux scénarios, chacun avec quatre lignes. Le prix net espéré, ce que ça coûte au vendeur, le délai, et le risque. Scénario A, vente en l'état. Fourchette net vendeur : 178 000 à 186 000 euros. Coût : l'Éco-staging, environ 450 euros, et pas de gros travaux. Délai : mise en vente en novembre 2026. Scénario B, travaux puis vente. Les quatre devis privatifs du dossier D13 : fenêtres des chambres 5 600 euros, VMC 2 900 euros, radiateurs à inertie 4 800 euros, chauffe-eau thermodynamique 3 200 euros. Total : 16 500 euros. Et ensuite seulement, la vente.",
+    "screen": "Tableau à deux colonnes qui se construit : Scénario A / Scénario B, lignes Prix · Coût · Délai · Risque ; devis D13 en vignette",
+    "onscreen": "Devis D13 : 5 600 + 2 900 + 4 800 + 3 200 = 16 500 €"
+   },
+   {
+    "tc": "02:10",
+    "voice": "Deuxième idée clé : la valeur après rénovation, 216 600 euros, suppose deux choses. Les travaux privatifs faits, et l'isolation par l'extérieur de l'immeuble réalisée. Or l'ITE a été votée le 12 juin 2025, chantier prévu à partir d'avril 2027. Pour le lot de M. Bernard : 35 880 euros, en quatre appels de 8 970 euros, le 1er janvier, le 1er avril, le 1er juillet et le 1er octobre 2027. Et la règle, c'est l'article 6-2 du décret de 1967 : ces appels sont payés par celui qui est copropriétaire à la date où ils sont exigibles. Donc, plus M. Bernard vend tard, plus il paie d'appels.",
+    "screen": "Frise 2026-2027 : 4 jalons d'appels de fonds de 8 970 € ; incrustation « Décret n° 67-223, art. 6-2 : copropriétaire à la date d'exigibilité »",
+    "onscreen": "4 × 8 970 € = 35 880 € · payés par le copropriétaire à la date d'exigibilité"
+   },
+   {
+    "tc": "03:05",
+    "voice": "Faisons le calcul complet. Pour toucher les 216 600 euros, M. Bernard doit payer 16 500 euros de travaux privatifs, plus les quatre appels de l'ITE, 35 880 euros. Total : 52 380 euros. Et il doit attendre la fin du chantier de façade, dont il faut demander la durée au syndic. Or, entre le milieu de la fourchette en l'état, 182 000 euros, et 216 600, l'écart est de 34 600 euros. Il dépenserait 52 380 euros pour espérer en récupérer 34 600. Et il vendrait après l'été 2027, alors que son objectif, c'est avant. Le calcul est clair : les travaux ne paient pas avant la vente.",
+    "screen": "Plein écran : calcul animé ligne par ligne · 16 500 + 35 880 = 52 380 € · 216 600 − 182 000 = 34 600 € · balance qui penche",
+    "onscreen": "Dépense 52 380 € pour un écart de 34 600 € : non"
+   },
+   {
+    "tc": "03:55",
+    "voice": "Et si on faisait seulement les travaux privatifs ? C'est la question suivante de M. Bernard. Là, sois honnête : on ne sait pas chiffrer précisément la valeur avec les travaux privatifs seuls. Les comparables à 2 850 euros sont des biens rénovés dans des immeubles déjà isolés. Ce qu'on sait, c'est le délai : trouver les artisans, faire les travaux, puis mettre en vente. Plusieurs mois. Assez pour que la vente glisse après le 1er avril ou le 1er juillet 2027, et qu'il paie deux ou trois appels de 8 970 euros de plus. Et l'acheteur, lui, préfère souvent choisir ses radiateurs.",
+    "screen": "Seb face caméra, plan rapproché ; incrustation : « Travaux privatifs seuls = valeur non documentée + délai + appels supplémentaires »",
+    "onscreen": "Valeur non documentée + délai = risque"
+   },
+   {
+    "tc": "04:45",
+    "voice": "Démonstration, maintenant, avec la grille. Je la pose devant M. Bernard. Colonne A, vente en l'état. Colonne B, travaux privatifs puis vente. Colonne C, attendre la fin de l'ITE. Je remplis ligne par ligne, devant lui, avec ses documents. Prix visé : je montre le tableau des comparables D12. Coût : je montre les devis D13 et le PV d'AG D07. Mise en vente : je montre la frise des appels de fonds. Puis la dernière ligne : est-ce compatible avec « avant l'été 2027 » ? A, oui. B, risqué. C, non. Je ne commente pas trop. Je laisse M. Bernard lire, refaire les additions avec sa calculatrice s'il le veut. Un profil comme le sien a besoin de refaire le calcul lui-même. Quand il le refait et trouve le même résultat, c'est lui qui s'est convaincu. Pas toi.",
+    "screen": "Plein écran : la grille d'arbitrage se remplit colonne par colonne ; insert B-roll : M. Bernard (comédien) refait l'addition sur une calculatrice",
+    "onscreen": "Démonstration · grille remplie avec le vendeur"
+   },
+   {
+    "tc": "05:55",
+    "voice": "Troisième idée clé : vendre en l'état, ce n'est pas vendre au rabais. C'est vendre avec un dossier. Les 16 500 euros de travaux, tu ne les caches pas : tu les remets aux acheteurs, devis à l'appui. L'ITE votée, tu l'expliques : c'est aussi un futur gain pour eux, un immeuble isolé, des charges de chauffage plus basses, une étiquette qui peut s'améliorer, à faire confirmer par un diagnostiqueur. Et l'Éco-staging, environ 450 euros, règle les défauts qui font peur en visite. Côté impôts, ne t'aventure pas : si c'est sa résidence principale, la plus-value est en principe exonérée, mais c'est le notaire qui le confirme.",
+    "screen": "Slide « Vente en l'état = vente avec dossier » : 3 pictos (devis remis, ITE expliquée, Éco-staging 450 €) ; bandeau bas « Fiscalité : renvoi au notaire »",
+    "onscreen": "En l'état ≠ au rabais"
+   },
+   {
+    "tc": "06:50",
+    "voice": "Les erreurs fréquentes. Un : additionner la valeur après rénovation sans retirer le coût des travaux. Deux : oublier les appels de fonds votés en copropriété. C'est l'erreur de M. Bernard, et de beaucoup d'agents. Trois : promettre une classe énergie après travaux. Les estimations, D puis C, sont indicatives, à confirmer par un diagnostiqueur. Quatre : décider à la place du vendeur. Tu lui donnes le tableau, ta recommandation écrite, et c'est lui qui signe l'arbitrage. Cinq : jouer au fiscaliste. Plus-value, déductions : c'est le notaire.",
+    "screen": "Slide « 5 erreurs », révélées une à une, pictogramme barré pour chacune",
+    "onscreen": "Coûts retirés · appels de fonds · pas de classe promise · il décide · notaire"
+   },
+   {
+    "tc": "07:30",
+    "voice": "À toi. Quiz flash juste après. Puis tu télécharges la grille d'arbitrage, prête à remplir avec n'importe quel vendeur. Dans l'exercice, tu remplis la grille pour M. Bernard, tu choisis un scénario et tu le justifies. Ton livrable : la grille remplie et une recommandation écrite de dix lignes. Prochaine capsule : le plan Éco-staging, 450 euros bien placés.",
+    "screen": "Seb face caméra ; pictos du parcours, miniature de la grille d'arbitrage",
+    "onscreen": "Quiz → Grille d'arbitrage → Exercice → Livrable"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "M. Bernard calcule : « Rénové, mon appartement vaut 216 600 €. » Quelle condition oublie-t-il ?",
+    "options": [
+     "Que cette valeur suppose les travaux privatifs ET l'ITE de l'immeuble réalisés",
+     "Que les prix vont baisser en 2027",
+     "Que la surface Carrez est inférieure à 76 m²"
+    ],
+    "answer": 0,
+    "fb_title": "Deux conditions, pas une",
+    "fb_text": "216 600 € = 76 × 2 850 €/m², prix de biens rénovés dans des immeubles isolés. Il faut donc les travaux privatifs (16 500 €) et l'ITE réalisée (35 880 € pour le lot, chantier à partir d'avril 2027).",
+    "whys": [
+     "Juste : sans ITE réalisée, les comparables à 2 850 €/m² ne s'appliquent pas.",
+     "Faux : aucune donnée ne permet de l'affirmer, et ce n'est pas l'oubli de son calcul.",
+     "Faux : la surface Carrez est bien de 76,0 m²."
+    ]
+   },
+   {
+    "question": "Combien M. Bernard devrait-il dépenser pour viser la valeur après rénovation ?",
+    "options": [
+     "16 500 €",
+     "35 880 €",
+     "52 380 €",
+     "34 600 €"
+    ],
+    "answer": 2,
+    "fb_title": "16 500 + 35 880",
+    "fb_text": "Travaux privatifs (D13) : 16 500 €. Appels de fonds ITE s'il est encore copropriétaire à chaque échéance : 4 × 8 970 = 35 880 €. Total : 52 380 €, pour un écart de valeur de 34 600 € (216 600 − 182 000).",
+    "whys": [
+     "Incomplet : ce sont les seuls travaux privatifs.",
+     "Incomplet : c'est seulement la quote-part de l'ITE.",
+     "Juste : 16 500 + 35 880 = 52 380 €.",
+     "Faux : c'est l'écart de valeur, pas la dépense."
+    ]
+   },
+   {
+    "question": "L'appel de fonds ITE de 8 970 € est exigible le 1/04/2027. Qui le paie au syndicat ?",
+    "options": [
+     "Toujours le vendeur, puisque les travaux ont été votés quand il était propriétaire",
+     "Celui qui est copropriétaire à la date d'exigibilité (art. 6-2 du décret de 1967)",
+     "Toujours l'acquéreur, puisqu'il profitera des travaux",
+     "Le syndic, sur le fonds de travaux"
+    ],
+    "answer": 1,
+    "fb_title": "La date d'exigibilité décide",
+    "fb_text": "Art. 6-2 du décret n° 67-223 : les provisions hors budget prévisionnel incombent à celui qui est copropriétaire au moment de l'exigibilité. Vendeur et acquéreur peuvent convenir d'une autre répartition entre eux, chez le notaire, sans que cela engage le syndicat.",
+    "whys": [
+     "Faux : la date du vote ne décide pas du payeur vis-à-vis du syndicat.",
+     "Juste : c'est la règle de l'art. 6-2 du décret du 17 mars 1967.",
+     "Faux : seulement s'il est déjà copropriétaire à cette date, sauf accord entre les parties.",
+     "Faux : le fonds de travaux reste attaché au lot, il ne paie pas les appels à la place du copropriétaire."
+    ]
+   },
+   {
+    "question": "M. Bernard demande : « Et les impôts sur la plus-value ? » Que réponds-tu ?",
+    "options": [
+     "« Aucun impôt, c'est certain. »",
+     "« Si c'est votre résidence principale, elle est en principe exonérée ; le notaire vous le confirmera. »",
+     "« Vous paierez 19 % sur le gain. »"
+    ],
+    "answer": 1,
+    "fb_title": "Renvoyer au notaire",
+    "fb_text": "Selon Service-Public, la plus-value sur la résidence principale est exonérée. Mais la qualification de résidence principale et le calcul relèvent du notaire : tu donnes le principe, tu ne garantis rien.",
+    "whys": [
+     "Faux : tu ne peux pas garantir une situation fiscale que tu n'as pas vérifiée.",
+     "Juste : principe exact, vérification renvoyée au notaire.",
+     "Faux : chiffre appliqué sans vérifier l'exonération de la résidence principale."
+    ]
+   },
+   {
+    "question": "Quelle recommandation écris-tu à M. Bernard, objectif « vendu avant l'été 2027 » ?",
+    "options": [
+     "Faire les 16 500 € de travaux puis vendre au printemps 2027",
+     "Vendre en l'état avec Éco-staging (≈ 450 €) et remettre aux acquéreurs le chiffrage des travaux",
+     "Attendre la fin de l'ITE pour vendre au prix rénové",
+     "Baisser le prix de 15 % à cause du DPE"
+    ],
+    "answer": 1,
+    "fb_title": "Le scénario A, documenté",
+    "fb_text": "Vendre en l'état dès novembre 2026 respecte son objectif, évite de dépenser 52 380 € pour un écart de 34 600 € et limite les appels de fonds payés. Les devis D13 et l'ITE sont présentés aux acquéreurs comme un budget et un atout.",
+    "whys": [
+     "Faux : retarde la vente et l'expose à plus d'appels de fonds.",
+     "Juste : rapide, peu coûteux, transparent pour les acquéreurs.",
+     "Faux : incompatible avec son échéance et coûteux.",
+     "Faux : décote forfaitaire non justifiée, et son étiquette en vigueur est E."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Grille d'arbitrage",
+  "kind": "grille",
+  "intro": "Cette grille t'aide à comparer, avec le vendeur, deux scénarios : vendre en l'état ou faire des travaux avant la vente. Remplis-la après l'estimation (module 2) et avant le rendez-vous de restitution. Tu conseilles, le vendeur décide et signe l'arbitrage.",
+  "sections": [
+   {
+    "heading": "Les 4 questions à poser avant de choisir",
+    "type": "checklist",
+    "items": [
+     "Quelle valeur documentée après travaux (comparables réels, pas une intuition) ?",
+     "Combien coûtent les travaux (devis datés) et les appels de fonds de copropriété déjà votés ?",
+     "Combien de temps avant la mise en vente, et quelle échéance pour le vendeur ?",
+     "Quel risque : chantier qui déborde, acquéreur qui veut choisir, classe énergie non garantie ?"
+    ]
+   },
+   {
+    "heading": "La formule de rentabilité des travaux",
+    "type": "formula",
+    "text": "Gain net des travaux = (valeur après travaux − valeur en l'état) − coût des travaux − coûts induits (appels de fonds payés en plus, délai). Si le gain net est négatif ou incertain, vente en l'état avec chiffrage remis aux acquéreurs. Exemple M. Bernard : (216 600 − 182 000) − 16 500 − 35 880 = 34 600 − 52 380 = −17 780 €. Les travaux ne paient pas avant la vente."
+   },
+   {
+    "heading": "Grille remplie : M. Bernard (fil rouge, fictif)",
+    "type": "table",
+    "headers": [
+     "Critère",
+     "A · Vente en l'état",
+     "B · Travaux privatifs puis vente",
+     "C · Attendre la fin de l'ITE"
+    ],
+    "rows": [
+     [
+      "Prix net visé",
+      "178 000 – 186 000 € (fourchette)",
+      "Non documenté (pas de comparables « privatifs seuls »)",
+      "≈ 216 600 € (76 × 2 850 €/m²)"
+     ],
+     [
+      "Coût pour le vendeur",
+      "≈ 450 € d'Éco-staging",
+      "16 500 € de travaux (D13)",
+      "16 500 € + 35 880 € d'appels ITE = 52 380 €"
+     ],
+     [
+      "Mise en vente",
+      "Novembre 2026",
+      "Après les travaux : plusieurs mois",
+      "Après le chantier de façade (début avril 2027, durée à demander au syndic)"
+     ],
+     [
+      "Appels ITE payés par le vendeur",
+      "Selon la date de l'acte (règle de l'exigibilité)",
+      "Probablement 2 ou 3 appels de 8 970 €",
+      "Les 4 appels, 35 880 €"
+     ],
+     [
+      "Objectif « avant l'été 2027 »",
+      "Compatible",
+      "Risqué",
+      "Incompatible"
+     ],
+     [
+      "Recommandation",
+      "Retenue",
+      "Non retenue",
+      "Non retenue"
+     ]
+    ]
+   },
+   {
+    "heading": "Ce que tu remets aux acquéreurs en cas de vente en l'état",
+    "type": "list",
+    "items": [
+     "Le chiffrage des travaux privatifs, devis à l'appui : fenêtres 5 600 €, VMC 2 900 €, radiateurs 4 800 €, chauffe-eau 3 200 €, total 16 500 € TTC.",
+     "L'extrait du PV d'AG et le calendrier des appels de fonds ITE (4 × 8 970 €, 2027).",
+     "L'attestation actualisée (classe E) et l'estimation indicative de performance après travaux (D puis C), à faire confirmer par un diagnostiqueur.",
+     "La synthèse du PPPT (toiture-terrasse prévue en 2030)."
+    ]
+   },
+   {
+    "heading": "Fiscalité et aides : où tu t'arrêtes",
+    "type": "text",
+    "text": "Plus-value : selon Service-Public, la vente de la résidence principale est exonérée. Tu peux le dire comme un principe, mais la qualification et le calcul relèvent du notaire. Aides aux travaux (MaPrimeRénov' Copropriété demandée par le syndic, aides individuelles) : ne les chiffre pas tant qu'elles ne sont pas notifiées ; renvoie vers France Rénov' et vers le syndic. Répartition des appels de fonds entre vendeur et acquéreur : un accord est possible, il est rédigé par le notaire."
+   },
+   {
+    "heading": "La phrase de restitution",
+    "type": "text",
+    "text": "« Monsieur Bernard, faire les travaux vous coûterait 52 380 € en comptant les appels de façade, pour un écart de valeur de 34 600 €, et vous ferait vendre après l'été. Je vous recommande de vendre en l'état, avec un dossier qui chiffre tout pour l'acheteur. C'est vous qui décidez : voici la grille, prenez le temps de la relire. »"
+   }
+  ],
+  "footer": "Sources : décret n° 67-223 du 17 mars 1967, art. 6-2 (Légifrance, version en vigueur depuis le 25/12/2025) ; Service-Public F10864 (plus-value immobilière). Chiffres du fil rouge fictifs (dossier fil rouge Éco-Consultant). Proposition pédagogique Éco-Propriété. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Choisir et justifier",
+  "duration_min": 30,
+  "context": "Avant le rendez-vous de restitution du 29/10/2026, M. Bernard t'a envoyé un mail : « Ne vaudrait-il pas mieux que je fasse les travaux avant de vendre ? Un rénové se vend 216 600 €. » Tu dois remplir la grille d'arbitrage et lui répondre par écrit.",
+  "materials": [
+   "D07 PV d'AG du 12/06/2025 (vote ITE)",
+   "D09 Synthèse du PPPT",
+   "D12 Tableau des comparables",
+   "D13 Devis des travaux privatifs",
+   "D03 Attestation actualisée ADEME"
+  ],
+  "steps": [
+   "Relève dans D12 les deux prix de référence (en l'état et rénové) et la fourchette en l'état.",
+   "Additionne les devis D13 et calcule la quote-part ITE du lot à partir de D07 (tantièmes 312/10 000).",
+   "Remplis les 3 scénarios de la grille (prix, coût, mise en vente, appels payés, compatibilité avec l'objectif).",
+   "Applique la formule de rentabilité et conclus.",
+   "Liste ce que tu remettras aux acquéreurs si le vendeur choisit la vente en l'état.",
+   "Rédige ta réponse écrite à M. Bernard (10 lignes maximum), en laissant la décision au vendeur et en renvoyant la fiscalité au notaire."
+  ],
+  "expected": "Références : 2 650 €/m² en l'état (fourchette 178 000 – 186 000 € net) ; 2 850 €/m² rénové, soit 216 600 € avec travaux privatifs ET ITE réalisés. Devis D13 : 5 600 + 2 900 + 4 800 + 3 200 = 16 500 €. ITE : 1 150 000 × 312/10 000 = 35 880 €, 4 appels de 8 970 € (1/01, 1/04, 1/07, 1/10/2027), payés par le copropriétaire à la date d'exigibilité (art. 6-2 décret 1967). Rentabilité : (216 600 − 182 000) − 16 500 − 35 880 = −17 780 €. Scénario B : valeur non documentée, délai de plusieurs mois, 2 à 3 appels supplémentaires probables. Scénario C : incompatible avec « avant l'été 2027 ». Recommandation : vente en l'état dès novembre 2026, Éco-staging ≈ 450 €, chiffrage des travaux (16 500 €), PV d'AG, calendrier des appels et attestation E remis aux acquéreurs. Réponse : « Monsieur Bernard, pour viser 216 600 €, il faudrait les travaux privatifs (16 500 €) et la fin de l'isolation de façade (35 880 € pour votre lot), soit 52 380 € pour un écart de 34 600 €, et une vente après l'été 2027. Je vous recommande la vente en l'état, avec un dossier chiffré pour l'acheteur. La grille est jointe ; la décision vous appartient. Pour la plus-value, le notaire vous confirmera l'exonération de la résidence principale. »"
+ },
+ "deliverable": {
+  "title": "Grille d'arbitrage remplie + recommandation écrite à M. Bernard",
+  "format": "PDF ou DOCX, 1 à 2 pages",
+  "criteria": [
+   "Les 4 devis D13 sont repris avec leur montant et le total de 16 500 € est exact",
+   "La quote-part ITE (35 880 €, 4 × 8 970 € avec les dates) est calculée à partir de D07 et la règle de l'exigibilité est citée",
+   "La formule de rentabilité est appliquée avec le résultat −17 780 € (ou un calcul équivalent explicité)",
+   "Les 3 scénarios sont comparés sur prix, coût, délai, appels payés et compatibilité avec l'objectif « avant l'été 2027 »",
+   "La recommandation laisse la décision au vendeur, ne promet aucune classe énergie et renvoie la fiscalité au notaire",
+   "La liste des pièces remises aux acquéreurs en cas de vente en l'état est présente"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des provisions lors de la vente d'un lot)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+  },
+  {
+   "label": "Service-Public — Plus-value immobilière : exonération de la résidence principale (F10864)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10864"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété — grille d'arbitrage (chiffres du fil rouge fictifs)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : tableau 2 colonnes puis 3 scénarios, frise des 4 appels de fonds 2027, balance animée 52 380 € / 34 600 €, feuille manuscrite de M. Bernard. Points à valider : relecture juridique (art. 6-2 décret 1967 et accord vendeur/acquéreur qui n'engage pas le syndicat) ; durée du chantier ITE à ne pas chiffrer (non connue dans le dossier) ; fiscalité volontairement limitée au principe d'exonération de la résidence principale, renvoi au notaire. Les estimations de classe après travaux (D, puis C) restent indicatives et non promises. Cohérence : Éco-staging ≈ 450 € (capsule 3.4), prix 189 000 € FAI (capsule 3.5)."
+}

@@ -1,0 +1,329 @@
+{
+ "id": "4.3",
+ "module": 4,
+ "ia": false,
+ "title": "Défauts transformés en budget",
+ "objective": "Présenter à l'acquéreur chaque défaut du bien avec sa solution, son coût sourcé et son calendrier, dont les 16 500 € de travaux privatifs et les 35 880 € d'appels de fonds",
+ "video": {
+  "duration_min": 8,
+  "hook": "Fenêtres en simple vitrage, pas de VMC, façade à isoler : pour un acheteur, trois raisons de partir. Pour toi, une seule page qui transforme ces défauts en budget.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Thomas Martin sort de la chambre et dit : il fait froid près de la fenêtre. Puis dans la salle de bains : c'est humide, non ? Et sur le palier : j'ai lu que la façade allait coûter cher. Trois défauts, trois doutes. Si tu les laisses flotter, l'acheteur fait ses propres calculs, et il voit toujours plus grand que la réalité. Il va arriver avec une offre à moins vingt pour cent. Alors aujourd'hui, on transforme chaque défaut en ligne de budget.",
+    "screen": "B-roll : un homme pose la main sur une fenêtre bois ancienne, puis regarde un angle de plafond de salle de bains ; plan sur une façade d'immeuble des années 1970",
+    "onscreen": "Un défaut non chiffré = un doute"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est important ? Parce que le cerveau déteste l'incertitude. Face à un risque flou, on surestime. Face à un chiffre précis, daté, sourcé, on décide. C'est la différence entre un acheteur qui négocie à l'aveugle et un acheteur qui négocie sur des faits. Et c'est exactement la promesse que tu as faite à M. Bernard dans le mandat : le chiffrage des travaux remis à chaque acquéreur. Tu tiens ta promesse, et tu protèges son prix. Et il y a un deuxième effet. Un acheteur qui a tous les chiffres en main peut les montrer à son courtier dès la semaine suivante. Son dossier de financement est plus solide, ton offre arrive plus vite, et elle tient jusqu'au compromis.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; incrustation de l'engagement écrit du mandat D18 « chiffrage des travaux remis aux acquéreurs »",
+    "onscreen": "Flou = surestimation · Chiffre = décision"
+   },
+   {
+    "tc": "01:40",
+    "voice": "Première idée clé : un défaut se présente toujours en quatre temps. Le constat, ce qu'on voit. La conséquence, ce que ça change pour l'acheteur. La solution, ce qu'on fait. Et le coût, avec sa source. Exemple : quatre fenêtres en bois simple vitrage dans les chambres. Conséquence : sensation de paroi froide, pertes de chaleur. Solution : PVC double vitrage, avec un Uw inférieur ou égal à 1,3. Coût : 5 600 euros TTC, devis au dossier. Constat, conséquence, solution, coût. Tu ne sautes jamais une étape, et tu ne grossis jamais le défaut. Même chose pour la ventilation : le constat, pas de VMC et un conduit partiellement bouché. La conséquence, de la condensation et des moisissures, que tu as fait traiter avant la mise en vente. La solution, une VMC hygroréglable. Le coût, sur devis. Tu vois : c'est toujours le même geste.",
+    "screen": "Slide : quatre cases en ligne « Constat → Conséquence → Solution → Coût » qui se remplissent avec l'exemple des fenêtres ; photo D05 de la fenêtre en vignette",
+    "onscreen": "Constat · Conséquence · Solution · Coût"
+   },
+   {
+    "tc": "02:50",
+    "voice": "Deuxième idée clé : le budget privatif, poste par poste. On reprend le devis D13. Fenêtres : 5 600 euros. Ventilation mécanique simple flux hygroréglable, avec le débouchage du conduit de la salle de bains : 2 900 euros. Six radiateurs à inertie programmables et un thermostat : 4 800 euros. Chauffe-eau thermodynamique de 200 litres à la place du ballon électrique : 3 200 euros. Total : 16 500 euros. Et l'effet attendu ? Selon l'estimation, la consommation passerait d'environ 150 à 110 kilowattheures d'énergie finale par mètre carré et par an, soit une classe D. C'est une estimation : elle doit être confirmée par un diagnostiqueur. Tu le dis à chaque fois.",
+    "screen": "Plein écran : tableau du devis D13 qui s'affiche ligne par ligne, total 16 500 € en surbrillance ; à droite, flèche de l'étiquette E vers D avec la mention « estimation à confirmer »",
+    "onscreen": "Travaux privatifs : 16 500 € TTC → D (estimation)"
+   },
+   {
+    "tc": "03:40",
+    "voice": "Troisième idée clé : le budget collectif. Le ravalement avec isolation thermique par l'extérieur a été voté en assemblée le 12 juin 2025. Montant pour l'immeuble : 1 150 000 euros. Le lot de M. Bernard a 312 tantièmes sur 10 000. Calcul : 1 150 000 fois 312 divisé par 10 000, ça fait 35 880 euros. Appelés en quatre échéances de 8 970 euros, le 1er janvier, le 1er avril, le 1er juillet et le 1er octobre 2027. Une aide MaPrimeRénov' Copropriété a été demandée par le syndic, mais son montant n'est pas notifié. Donc tu ne la comptes pas. Et après l'isolation, en plus des travaux privatifs, l'estimation donne une classe C. Encore une estimation, à confirmer. Et rappelle aux acheteurs une chose simple : ces travaux, toute la copropriété les paie. Ce n'est pas un défaut caché de cet appartement-là. C'est l'immeuble entier qui se met à niveau, avec un plan pluriannuel adopté dès 2024, et la toiture-terrasse déjà repérée pour 2030.",
+    "screen": "Plein écran : extrait du PV D07 avec le vote surligné ; calcul animé 1 150 000 × 312 / 10 000 = 35 880 € ; frise 2027 avec les 4 appels de 8 970 €",
+    "onscreen": "ITE : 35 880 € = 4 × 8 970 € en 2027"
+   },
+   {
+    "tc": "05:05",
+    "voice": "La démonstration, maintenant. Tu es assis avec les Martin, et tu poses une seule page sur la table : la fiche défauts et budget. En haut, les petits défauts déjà traités : la salle de bains assainie, le plafond de cuisine repeint après le dégât des eaux de 2022, sinistre clos. La fissure fine du dégagement : moins de 0,2 millimètre, non structurelle, à surveiller, zéro euro aujourd'hui. Au milieu, les quatre postes privatifs : 16 500 euros. En bas, la copropriété : 35 880 euros, en quatre dates. Thomas respire. Il dit : en fait, on sait où on va. Voilà l'effet recherché. Il ne négocie plus contre un risque, il construit un projet. Et tu ajoutes : ces chiffres vont dans votre plan de financement, on en parle avec votre courtier.",
+    "screen": "Mise en scène tournée : table du séjour, une feuille A4 « Défauts → budget » posée devant le couple ; zoom successif sur les trois blocs de la fiche",
+    "onscreen": "Une page, trois blocs : traité · privatif · copro"
+   },
+   {
+    "tc": "06:05",
+    "voice": "Les erreurs fréquentes. Un : minimiser. Ce n'est rien, c'est juste une fenêtre. L'acheteur entend : il me cache quelque chose. Deux : donner un prix au doigt mouillé. Un chiffre sans devis ne vaut rien en négociation. Trois : promettre un gain. Avec ça, vous ferez 800 euros d'économies par an. Tu n'en sais rien, et ça engage ta responsabilité. Quatre : compter une aide non notifiée. Cinq : présenter les travaux comme rentables à la revente. Tu ne promets pas de plus-value, tu présentes un coût et un confort. Six : oublier la date. Un coût sans calendrier, l'acheteur ne sait pas où le mettre dans son budget. Toujours le montant, et quand.",
+    "screen": "Seb face caméra, plan rapproché ; cinq bulles barrées en rouge : « c'est rien », « environ 10 000 € », « 800 € d'économies », « l'aide couvrira », « ça se revend plus cher »",
+    "onscreen": "Ni minimiser, ni deviner, ni promettre"
+   },
+   {
+    "tc": "07:00",
+    "voice": "Un dernier conseil. Cette fiche, M. Bernard la voit avant les acheteurs. Profil C : il vérifie tout, il veut la source de chaque chiffre. Une fois qu'il l'a validée, elle devient votre document commun. Et en négociation, quand un acheteur dira : avec tous ces travaux, je propose moins, tu auras déjà la réponse sur la table.",
+    "screen": "B-roll : M. Bernard (figurant, 64 ans) lit la fiche à son bureau, annote un chiffre au stylo, puis hoche la tête",
+    "onscreen": "Fiche validée par le vendeur avant diffusion"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi maintenant. Le quiz flash t'attend : cinq questions, dont deux calculs. Télécharge la fiche défauts et budget, elle est prête à remplir. Dans l'exercice, tu chiffres tous les défauts de l'appartement de M. Bernard à partir du devis D13, du PV d'assemblée D07 et du reportage photo D05. Et tu déposes ta fiche d'une page, celle que tu poserais sur la table des Martin.",
+    "screen": "Seb face caméra, plan taille ; pictogrammes des étapes quiz, ressource, exercice, dépôt",
+    "onscreen": "Quiz → Fiche défauts → budget → Exercice → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Dans quel ordre présentes-tu un défaut à l'acquéreur ?",
+    "options": [
+     "Coût, puis solution",
+     "Constat, conséquence, solution, coût sourcé",
+     "Solution seulement, pour rester positif"
+    ],
+    "answer": 1,
+    "fb_title": "Quatre temps, toujours",
+    "fb_text": "Le constat rend le défaut objectif, la conséquence le rend concret, la solution donne une issue, le coût sourcé permet de décider. Sauter une étape crée un doute ou une impression de manipulation.",
+    "whys": [
+     "Commencer par le coût fait peur avant que l'acheteur ait compris le défaut.",
+     "Oui : c'est la séquence qui transforme un défaut en décision.",
+     "Cacher le défaut derrière la solution, c'est le laisser découvrir plus tard : la confiance tombe."
+    ]
+   },
+   {
+    "question": "Quel est le total des travaux privatifs chiffrés au devis D13 ?",
+    "options": [
+     "12 300 €",
+     "16 500 €",
+     "35 880 €",
+     "52 380 €"
+    ],
+    "answer": 1,
+    "fb_title": "16 500 € TTC",
+    "fb_text": "Fenêtres 5 600 € + VMC 2 900 € + radiateurs 4 800 € + chauffe-eau thermodynamique 3 200 € = 16 500 € TTC (devis fictifs, prix indicatifs à valider localement).",
+    "whys": [
+     "12 300 € oublie le chauffe-eau thermodynamique (3 200 €).",
+     "Oui : 5 600 + 2 900 + 4 800 + 3 200 = 16 500 €.",
+     "35 880 € est la quote-part des travaux de la copropriété, pas le budget privatif.",
+     "52 380 € additionne privatif et copropriété : c'est le budget total, pas le privatif."
+    ]
+   },
+   {
+    "question": "Comment calcules-tu la quote-part ITE du lot de M. Bernard ?",
+    "options": [
+     "1 150 000 € / 48 lots = 23 958 €",
+     "1 150 000 € × 5 % = 57 500 €",
+     "1 150 000 € × 312 / 10 000 = 35 880 €"
+    ],
+    "answer": 2,
+    "fb_title": "Les tantièmes du lot",
+    "fb_text": "Les travaux de ravalement se répartissent selon les tantièmes de charges générales : 312 / 10 000 pour ce lot. 1 150 000 × 0,0312 = 35 880 €, appelés en 4 échéances de 8 970 € en 2027.",
+    "whys": [
+     "On ne divise pas par le nombre de lots : chaque lot paie selon ses tantièmes.",
+     "5 % correspond au minimum du fonds de travaux, rien à voir avec la quote-part.",
+     "Oui : montant voté × tantièmes du lot."
+    ]
+   },
+   {
+    "question": "Thomas demande : « Et l'aide MaPrimeRénov' Copropriété, elle réduit combien ? » Ta réponse ?",
+    "options": [
+     "« Le syndic l'a demandée, le montant n'est pas notifié : je ne la compte pas dans le budget. »",
+     "« Environ la moitié, c'est ce qu'on voit d'habitude. »",
+     "« Elle couvrira tout, ne vous inquiétez pas. »"
+    ],
+    "answer": 0,
+    "fb_title": "Une aide non notifiée ne se compte pas",
+    "fb_text": "Tant que le montant n'est pas notifié, l'aide reste une possibilité. Le budget se présente sans elle : si elle arrive, c'est une bonne nouvelle, pas une promesse non tenue.",
+    "whys": [
+     "Oui : on informe de la demande, on ne chiffre pas ce qui n'est pas acquis.",
+     "Un pourcentage « habituel » est une promesse sans source qui peut se retourner contre toi.",
+     "Promesse intenable : tu ne maîtrises ni l'attribution ni le montant."
+    ]
+   },
+   {
+    "question": "Quelle phrase peux-tu dire sur la performance après travaux ?",
+    "options": [
+     "« Après travaux, le logement sera classé C, c'est garanti. »",
+     "« Vous économiserez 800 € par an. »",
+     "« L'estimation vise D après les travaux privatifs, puis C avec l'isolation : à confirmer par un diagnostiqueur. »"
+    ],
+    "answer": 2,
+    "fb_title": "Estimation, et on le dit",
+    "fb_text": "Les classes D et C après travaux sont des estimations (≈ 110 puis ≈ 85 kWhEF/m²/an). Seul un nouveau DPE après travaux fera foi. Aucun montant d'économie n'est promis.",
+    "whys": [
+     "Une garantie de classe engage ta responsabilité sans base officielle.",
+     "Un montant d'économie dépend des usages et des prix de l'énergie : promesse non vérifiable.",
+     "Oui : la trajectoire est présentée comme une estimation, avec qui la confirmera."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche défauts → budget",
+  "kind": "worksheet",
+  "intro": "Une page à remettre à l'acquéreur en visite ou en deuxième rendez-vous, après validation par le vendeur. Elle transforme chaque défaut en ligne de budget : constat, conséquence, solution, coût sourcé, calendrier. Exemple rempli avec l'appartement de M. Bernard (exemple fictif, devis indicatifs).",
+  "sections": [
+   {
+    "heading": "1. La méthode en quatre temps",
+    "type": "steps",
+    "items": [
+     "Constat : ce qu'on voit, en termes neutres et datés (« 4 fenêtres bois simple vitrage d'origine »).",
+     "Conséquence : ce que ça change pour l'occupant (confort, humidité, consommation), sans exagérer.",
+     "Solution : la réponse technique précise (matériau, performance, entreprise ou type de devis).",
+     "Coût et source : montant TTC, référence du devis ou du PV, date ; « estimation » si ce n'est pas un devis."
+    ]
+   },
+   {
+    "heading": "2. Défauts déjà traités ou sans coût immédiat",
+    "type": "table",
+    "headers": [
+     "Constat",
+     "Statut",
+     "Coût"
+    ],
+    "rows": [
+     [
+      "Moisissures en salle de bains",
+      "Nettoyage et traitement réalisés (plan Éco-staging) ; cause = ventilation, traitée par la VMC ci-dessous",
+      "Inclus dans ≈ 450 € payés par le vendeur"
+     ],
+     [
+      "Auréole au plafond de cuisine",
+      "Dégât des eaux du voisin (2022), cause réparée, sinistre clos ; plafond repeint",
+      "Inclus dans le plan Éco-staging"
+     ],
+     [
+      "Fissure fine (< 0,2 mm) de la cloison du dégagement",
+      "Non structurelle, à surveiller (témoin daté conseillé)",
+      "0 € aujourd'hui"
+     ]
+    ]
+   },
+   {
+    "heading": "3. Travaux privatifs (devis D13)",
+    "type": "table",
+    "headers": [
+     "Constat",
+     "Solution",
+     "Coût TTC"
+    ],
+    "rows": [
+     [
+      "4 fenêtres bois simple vitrage (chambres), paroi froide",
+      "PVC double vitrage, Uw ≤ 1,3",
+      "5 600 €"
+     ],
+     [
+      "Ventilation naturelle, conduit de salle de bains obstrué",
+      "VMC simple flux hygroréglable type B + débouchage du conduit",
+      "2 900 €"
+     ],
+     [
+      "6 convecteurs de 1998 sans programmation",
+      "6 radiateurs à inertie programmables + thermostat",
+      "4 800 €"
+     ],
+     [
+      "Ballon électrique 200 L (2011)",
+      "Chauffe-eau thermodynamique 200 L",
+      "3 200 €"
+     ],
+     [
+      "Total travaux privatifs",
+      "Effet estimé : ≈ 110 kWhEF/m²/an → ≈ 209 kWhEP → classe D (à confirmer par un diagnostiqueur)",
+      "16 500 €"
+     ]
+    ]
+   },
+   {
+    "heading": "4. Travaux de la copropriété votés (PV D07 du 12/06/2025)",
+    "type": "formula",
+    "text": "Quote-part du lot = montant voté × tantièmes du lot / 10 000. Exemple : 1 150 000 € × 312 / 10 000 = 35 880 € TTC (ravalement + isolation thermique par l'extérieur, démarrage prévu avril 2027). Échéancier : 4 appels de 8 970 € exigibles les 1/01/2027, 1/04/2027, 1/07/2027 et 1/10/2027. Aide MaPrimeRénov' Copropriété demandée par le syndic : montant non notifié, non déduit. Effet estimé après ITE + travaux privatifs : ≈ 85 kWhEF/m²/an → ≈ 162 kWhEP → classe C (estimation à confirmer). Qui paie : par principe le copropriétaire à la date d'exigibilité ; accord différent possible entre vendeur et acquéreur, rédigé par le notaire."
+   },
+   {
+    "heading": "5. Récapitulatif pour l'acquéreur",
+    "type": "table",
+    "headers": [
+     "Bloc",
+     "Montant",
+     "Quand"
+    ],
+    "rows": [
+     [
+      "Défauts déjà traités",
+      "0 € pour l'acquéreur",
+      "Fait avant la mise en vente"
+     ],
+     [
+      "Travaux privatifs",
+      "16 500 € TTC",
+      "Au choix de l'acquéreur, après l'acte (à intégrer au plan de financement)"
+     ],
+     [
+      "Travaux de copropriété",
+      "35 880 € TTC",
+      "4 appels en 2027 ; répartition vendeur / acquéreur à convenir"
+     ],
+     [
+      "Total à anticiper",
+      "52 380 € TTC",
+      "À présenter au courtier avec le prix"
+     ]
+    ]
+   },
+   {
+    "heading": "6. Phrases à éviter / à dire",
+    "type": "list",
+    "items": [
+     "À éviter : « Ce n'est rien. » → À dire : « Voici ce que c'est, ce que ça change, et ce que ça coûte. »",
+     "À éviter : « Comptez environ 10 000 €. » → À dire : « 5 600 € TTC, devis du [date], il est dans votre dossier. »",
+     "À éviter : « Vous ferez 800 € d'économies. » → À dire : « La consommation estimée baisse ; seul un DPE après travaux fera foi. »",
+     "À éviter : « L'aide couvrira une bonne partie. » → À dire : « Une aide a été demandée par le syndic ; tant qu'elle n'est pas notifiée, je ne la compte pas. »",
+     "À éviter : « Ça se revendra plus cher. » → À dire : « Vous achetez un bien dont tous les travaux sont connus et datés. »"
+    ]
+   }
+  ],
+  "footer": "Sources : dossier fil rouge fil rouge (devis fictifs D13, PV fictif D07) ; ANIL, art. 6-2 du décret du 17 mars 1967 ; proposition pédagogique Éco-Propriété. Prix indicatifs à valider localement. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Chiffrer les défauts",
+  "duration_min": 30,
+  "context": "Les Martin reviennent pour une deuxième visite le 28/11/2026. Thomas a listé ses inquiétudes : « froid dans les chambres, humidité, façade, fissure ». Tu prépares la fiche défauts → budget d'une page qu'ils emporteront, après validation de M. Bernard.",
+  "materials": [
+   "D05 Reportage photo commenté (12 photos)",
+   "D07 PV d'AG du 12/06/2025",
+   "D09 Synthèse du PPPT",
+   "D13 Devis des travaux privatifs",
+   "D02 DPE et D03 Attestation actualisée"
+  ],
+  "steps": [
+   "À partir de D05, liste tous les défauts visibles et classe-les : déjà traité, privatif, collectif.",
+   "Pour chaque défaut privatif, rédige les quatre temps : constat, conséquence, solution, coût (source D13).",
+   "Calcule la quote-part ITE du lot à partir de D07 (montant voté et tantièmes) et l'échéancier.",
+   "Additionne les budgets privatif et collectif ; indique l'effet estimé sur la classe, avec la mention « estimation à confirmer ».",
+   "Rédige la réponse à Thomas sur la fissure et sur l'aide MaPrimeRénov' Copropriété.",
+   "Mets le tout sur une page, prête à être validée par M. Bernard."
+  ],
+  "expected": "Déjà traités : moisissures de la salle de bains (nettoyage + traitement, plan Éco-staging ≈ 450 € payés par le vendeur, cause traitée par la VMC) ; auréole de cuisine (dégât des eaux 2022, cause réparée, sinistre clos, plafond repeint) ; fissure < 0,2 mm non structurelle, à surveiller, 0 €. Privatif (D13) : fenêtres 5 600 € ; VMC + débouchage 2 900 € ; 6 radiateurs à inertie + thermostat 4 800 € ; chauffe-eau thermodynamique 3 200 € ; total 16 500 € TTC → estimation ≈ 110 kWhEF/m²/an, ≈ 209 kWhEP (110 × 1,9), classe D, à confirmer par un diagnostiqueur. Collectif (D07) : 1 150 000 × 312 / 10 000 = 35 880 € ; 4 × 8 970 € (1/01, 1/04, 1/07, 1/10/2027) ; aide demandée non notifiée, non déduite ; avec ITE ≈ 85 kWhEF → ≈ 162 kWhEP → C (estimation). Total à anticiper : 16 500 + 35 880 = 52 380 € TTC. Réponse fissure : « Moins de 0,2 mm, en escalier sur une cloison, non structurelle : on la surveille, aucun coût aujourd'hui. » Réponse aide : « Le syndic l'a demandée ; tant que le montant n'est pas notifié, je ne la compte pas. »"
+ },
+ "deliverable": {
+  "title": "Fiche défauts → budget de l'appartement de M. Bernard",
+  "format": "PDF, 1 page A4, prête à remettre à l'acquéreur",
+  "criteria": [
+   "Les défauts sont répartis en trois blocs : déjà traités, travaux privatifs, travaux de copropriété",
+   "Chaque poste privatif indique constat, solution et coût TTC conformes à D13 (5 600, 2 900, 4 800, 3 200 €), total 16 500 €",
+   "La quote-part ITE est calculée (1 150 000 × 312 / 10 000 = 35 880 €) avec les 4 échéances de 8 970 € datées",
+   "Toute classe après travaux est présentée comme une estimation à confirmer par un diagnostiqueur",
+   "L'aide MaPrimeRénov' Copropriété est mentionnée sans montant",
+   "Aucune promesse d'économie chiffrée ni de plus-value"
+  ],
+  "example": "Ventilation — Constat : pas de VMC, conduit de salle de bains partiellement obstrué. Conséquence : condensation et moisissures. Solution : VMC simple flux hygroréglable type B + débouchage. Coût : 2 900 € TTC (devis D13)."
+ },
+ "sources": [
+  {
+   "label": "ANIL — Décret du 27 mai 2004 (art. 6-2 du décret de 1967 : paiement des sommes en cas de vente d'un lot)",
+   "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/analyses-juridiques/analyses-juridiques-2004/principales-dispositions-du-decret-27-mai-2004/"
+  },
+  {
+   "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+   "url": "https://observatoire-dpe-audit.ademe.fr"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (méthode en quatre temps, fiche défauts → budget) ; devis et PV fictifs du dossier fil rouge",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : maquette de la fiche défauts → budget (A4) en trois blocs de couleur ; extrait D07 avec vote surligné ; frise 2027 des 4 appels ; flèches E → D → C marquées « estimation ». B-roll : fenêtre bois ancienne, angle de salle de bains, façade années 1970 avec échafaudage (illustratif). Rappeler à l'écran « devis fictifs, prix indicatifs à valider localement ». Le principe « on surestime un risque flou » est une proposition pédagogique (aversion à l'ambiguïté), sans chiffre. Relecture juridique de la phrase sur le paiement des appels de fonds (art. 6-2 du décret du 17 mars 1967)."
+}

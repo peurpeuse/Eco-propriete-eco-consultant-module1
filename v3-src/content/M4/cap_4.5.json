@@ -1,0 +1,327 @@
+{
+ "id": "4.5",
+ "module": 4,
+ "ia": true,
+ "title": "Négocier l'offre",
+ "objective": "Préparer avec l'IA et conduire la négociation des offres reçues : prix plancher écrit, comparaison en net vendeur, accord sur les appels de fonds, acceptation écrite",
+ "video": {
+  "duration_min": 8,
+  "hook": "Deux offres sur la table : 184 000 € avec un prêt, 170 000 € comptant. M. Bernard te demande : « Laquelle je prends ? » Ta réponse tient en un tableau.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Fin novembre 2026. Deux offres écrites arrivent pour l'appartement de M. Bernard. Les Martin proposent 184 000 euros, honoraires inclus, avec un prêt. M. Petit propose 170 000 euros, honoraires inclus, comptant. M. Bernard t'appelle : laquelle je prends ? Si tu réponds au feeling, tu perds ton crédit auprès d'un profil C. Si tu poses sur sa table un tableau clair, avec le net vendeur, les conditions et les risques, il décide en confiance. Aujourd'hui, on prépare une négociation, avec l'IA comme assistant.",
+    "screen": "B-roll : deux offres d'achat imprimées posées sur une table, un stylo ; incrustation « D15 Offres d'achat reçues »",
+    "onscreen": "184 000 € avec prêt vs 170 000 € comptant"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est important ? Parce que la négociation est le moment où tout ce que tu as construit depuis le module 2 se vérifie. L'estimation, le chiffrage des travaux, la qualification des acheteurs. Si tu as bien travaillé, il n'y a pas de bras de fer. Il y a des faits, et des personnes qui décident. Ton rôle n'est pas d'arracher un prix. Ton rôle est de défendre l'intérêt de ton mandant, M. Bernard, et de construire un accord qui ira jusqu'à l'acte. Et souviens-toi du profil de M. Bernard. Un C ne supporte pas l'improvisation. Il veut voir les chiffres écrits avant de parler. Donc tu lui envoies le tableau la veille, et vous en discutez ensuite, posément.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; frise des modules 2 → 3 → 4 avec les livrables déjà produits",
+    "onscreen": "Pas de bras de fer : des faits"
+   },
+   {
+    "tc": "01:40",
+    "voice": "Première idée clé : le prix plancher se fixe avant les offres, par écrit. Pas pendant l'appel, sous le coup de l'émotion. Avec M. Bernard, tu as repris l'estimation : 178 000 à 186 000 euros net vendeur en l'état, avec les appels de fonds de la façade à venir. Ensemble, vous avez fixé un plancher : 175 000 euros net vendeur, à une condition. Que l'appel de fonds du 1er janvier 2027, qu'il paiera parce qu'il sera encore propriétaire, lui soit remboursé par l'acquéreur à l'acte. 8 970 euros. Avec cette condition, il ne supporte aucune part des travaux de façade. Ce plancher, c'est sa décision, notée et datée. Toi, tu l'as éclairée.",
+    "screen": "Plein écran : fiche « Prix plancher » signée par M. Bernard : fourchette 178 000 – 186 000 €, plancher 175 000 € net vendeur, condition « remboursement appel du 1/01/2027 : 8 970 € »",
+    "onscreen": "Plancher : 175 000 € net vendeur + appel du 1/01/2027 remboursé"
+   },
+   {
+    "tc": "02:35",
+    "voice": "Deuxième idée clé : on compare les offres en net vendeur, pas en prix affiché. Les honoraires de 9 000 euros sont à la charge de l'acquéreur. Les Martin : 184 000 moins 9 000, soit 175 000 euros net vendeur. M. Petit : 170 000 moins 9 000, soit 161 000 euros. Puis les appels de fonds. Les trois appels d'avril, juillet et octobre 2027 tombent après l'acte prévu en mars : par principe, ils reviennent à l'acquéreur. Reste celui de janvier. Les Martin acceptent de le rembourser. M. Petit, non. Donc l'offre Petit, pour M. Bernard, c'est 161 000 moins 8 970, soit 152 030 euros. L'écart réel n'est pas de 14 000 euros. Il est de presque 23 000 euros. Ce calcul, M. Bernard ne l'aurait pas fait seul. C'est exactement là que tu apportes de la valeur.",
+    "screen": "Tableau comparatif animé : colonnes Martin / Petit ; lignes prix FAI, honoraires, net vendeur, appel du 1/01/2027, net après appels ; écart final 22 970 € en surbrillance",
+    "onscreen": "Net réel : 175 000 € vs 152 030 €"
+   },
+   {
+    "tc": "03:45",
+    "voice": "Troisième idée clé : le prix n'est qu'une ligne. Une offre, c'est aussi des conditions et un risque. L'offre Martin dépend d'un prêt : 193 800 euros, sur 25 ans, à 3,90 % maximum hors assurance, avec 45 jours pour l'obtenir. Mais tu as qualifié leur dossier : taux d'effort autour de 22 %, loin des 35 %. Le risque existe, il est faible et encadré. L'offre Petit est sans prêt, donc plus rapide, si ses fonds sont prouvés. Tu écris les deux colonnes, avantages et risques. Et tu laisses M. Bernard décider. Il choisit les Martin : plus de net, un risque mesuré, et un couple qui veut vraiment vivre là.",
+    "screen": "Slide : deux colonnes « Avantages / Risques » pour chaque offre ; pictogramme cadenas sur « condition de prêt : 193 800 €, 25 ans, 3,90 % max, 45 jours »",
+    "onscreen": "Prix + conditions + risque"
+   },
+   {
+    "tc": "04:40",
+    "voice": "Démonstration avec l'IA. Je prépare mon rendez-vous de négociation. Je donne à l'outil un rôle : conseiller en négociation immobilière, au service du vendeur. Les données des deux offres, sans aucun nom. Le prix plancher et sa condition. Et je lui demande trois choses : le tableau comparatif en net vendeur, les arguments à présenter aux acquéreurs, et les objections probables avec leurs réponses. L'IA me sort un bon tableau. Mais elle a écrit que les quatre appels de fonds sont à la charge du vendeur, puisque les travaux sont votés avant la vente. C'est faux. Je corrige avec la règle : c'est la date d'exigibilité qui compte, sauf accord entre les parties. Et elle me propose de dire aux Martin qu'il y a d'autres offres plus hautes. Ça aussi, je supprime : je ne bluffe jamais.",
+    "screen": "Capture animée de l'outil d'IA générique : prompt collé, réponse affichée ; deux passages surlignés en rouge (« appels à la charge du vendeur », « dire qu'il y a d'autres offres plus hautes ») puis corrigés",
+    "onscreen": "L'IA prépare, tu corriges, tu ne bluffes jamais"
+   },
+   {
+    "tc": "05:45",
+    "voice": "Et avec les Martin ? Julie, profil I, tu lui parles projet : le balcon, l'été prochain. Thomas, profil S, tu le rassures : tout est chiffré, la répartition des appels de fonds sera écrite par le notaire. Tu confirmes leur offre à 184 000 euros, tu ajoutes la condition du remboursement de l'appel de janvier, et ils l'acceptent. M. Bernard signe son acceptation le 2 décembre 2026. Attention : une offre acceptée par écrit, sur la chose et le prix, peut déjà engager les parties. C'est pour ça que l'accord doit être complet avant la signature. Et aucun versement ne peut être demandé à l'acquéreur avec son offre. Le compromis se signera chez le notaire.",
+    "screen": "B-roll : signature d'un document au stylo par un homme de 64 ans ; incrustation « Offre acceptée le 2/12/2026 — 184 000 € FAI » puis « Compromis chez le notaire »",
+    "onscreen": "Acceptée le 2/12/2026 : 184 000 € FAI"
+   },
+   {
+    "tc": "06:40",
+    "voice": "Les erreurs fréquentes. Un : comparer des prix affichés au lieu du net vendeur. Deux : négocier sans plancher écrit. Trois : cacher une offre au vendeur, même basse. Il doit tout voir, c'est lui qui décide. Quatre : bluffer sur une offre concurrente. Cinq : laisser les appels de fonds dans le flou jusqu'au compromis. Six : coller dans l'IA les noms et la situation financière des acheteurs. Tu n'en as pas besoin. Sept : oublier de prévenir l'acquéreur non retenu. Un message courtois, sans détail sur l'autre offre. Il pourra revenir si la vente ne se fait pas.",
+    "screen": "Seb face caméra, plan rapproché ; sept icônes rouges numérotées",
+    "onscreen": "Net vendeur · plancher écrit · transparence · pas de bluff"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi maintenant. Le quiz flash t'attend : cinq questions, dont deux calculs en net vendeur. Télécharge le plan de négociation : tableau comparatif, prix plancher, arguments, prompt. Dans l'exercice, tu fixes le prix plancher de M. Bernard, tu compares les deux offres du document D15 avec l'IA, et tu prépares tes arguments. Tu déposes ton plan de négociation, et je le relis comme le ferait M. Bernard : chiffre par chiffre.",
+    "screen": "Seb face caméra, plan taille ; pictogrammes quiz, ressource, exercice, dépôt",
+    "onscreen": "Quiz → Plan de négociation → Exercice IA → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Quel est le net vendeur de l'offre de M. Petit (170 000 € FAI, honoraires de 9 000 € à la charge de l'acquéreur) ?",
+    "options": [
+     "170 000 €",
+     "161 000 €",
+     "161 905 €"
+    ],
+    "answer": 1,
+    "fb_title": "170 000 − 9 000 = 161 000 €",
+    "fb_text": "Les honoraires prévus au mandat (9 000 € TTC) sont à la charge de l'acquéreur : on les retire du prix FAI pour obtenir ce que le vendeur perçoit, soit 161 000 €, contre 175 000 € pour l'offre Martin.",
+    "whys": [
+     "170 000 € est le prix payé par l'acquéreur, honoraires inclus.",
+     "Oui : prix FAI moins honoraires fixés au mandat.",
+     "161 905 € suppose des honoraires recalculés à 5 % du nouveau prix : ce n'est pas ce que prévoit le mandat de l'exemple."
+    ]
+   },
+   {
+    "question": "Acte prévu le 15/03/2027. Qui paie, par principe, l'appel de fonds ITE du 1/04/2027 vis-à-vis du syndicat ?",
+    "options": [
+     "M. Bernard, car les travaux ont été votés en 2025",
+     "L'acquéreur, copropriétaire à la date d'exigibilité",
+     "Le syndic, sur le fonds de travaux"
+    ],
+    "answer": 1,
+    "fb_title": "La date d'exigibilité",
+    "fb_text": "Par principe (art. 6-2 du décret du 17 mars 1967), la somme incombe au copropriétaire au moment de son exigibilité. Le 1/04/2027, c'est l'acquéreur. Seul l'appel du 1/01/2027 tombe pendant la propriété de M. Bernard.",
+    "whys": [
+     "La date du vote ne détermine pas qui paie vis-à-vis du syndicat.",
+     "Oui : l'acquéreur sera copropriétaire le 1/04/2027.",
+     "Le fonds de travaux n'est pas utilisé ainsi sans décision d'AG ; il reste attaché au lot."
+    ]
+   },
+   {
+    "question": "Si M. Petit refuse de rembourser l'appel du 1/01/2027, combien M. Bernard garde-t-il réellement avec son offre ?",
+    "options": [
+     "161 000 €",
+     "152 030 €",
+     "170 000 €",
+     "143 060 €"
+    ],
+    "answer": 1,
+    "fb_title": "161 000 − 8 970 = 152 030 €",
+    "fb_text": "M. Bernard paie l'appel de janvier (8 970 €) et n'est pas remboursé : 161 000 − 8 970 = 152 030 €. Avec l'offre Martin, l'appel est remboursé : il garde 175 000 €. Écart réel : 22 970 €.",
+    "whys": [
+     "C'est le net vendeur avant prise en compte de l'appel de fonds de janvier.",
+     "Oui : net vendeur moins l'appel qu'il supporte sans remboursement.",
+     "C'est le prix payé par l'acquéreur, honoraires inclus.",
+     "Ce calcul retire deux appels ; seul celui de janvier reste à sa charge."
+    ]
+   },
+   {
+    "question": "Quand fixe-t-on le prix plancher de M. Bernard ?",
+    "options": [
+     "Avant de recevoir les offres, par écrit, avec lui",
+     "Pendant l'appel des acquéreurs, selon leur réaction",
+     "Après le compromis"
+    ],
+    "answer": 0,
+    "fb_title": "Avant, par écrit",
+    "fb_text": "Le plancher se décide à froid, sur l'estimation et les coûts connus (appels de fonds), et se note avec sa date. Il protège le vendeur de la pression du moment et te donne un cadre clair.",
+    "whys": [
+     "Oui : décision du vendeur, préparée par toi, notée et datée.",
+     "Décidé sous pression, le plancher bouge à chaque objection.",
+     "Après le compromis, le prix est déjà convenu : trop tard."
+    ]
+   },
+   {
+    "question": "L'IA te conseille de dire aux Martin qu'une offre plus haute existe pour les pousser. Que fais-tu ?",
+    "options": [
+     "Tu suis le conseil, c'est une technique classique",
+     "Tu le supprimes : tu ne donnes que des informations vraies et tu gardes la confidentialité des offres",
+     "Tu donnes le nom de l'autre acquéreur pour être crédible"
+    ],
+    "answer": 1,
+    "fb_title": "Jamais de bluff",
+    "fb_text": "Une fausse information en négociation détruit la confiance, peut constituer une pratique trompeuse et fragilise l'accord. Tu peux dire qu'il y a d'autres visites ou offres si c'est vrai, sans en dévoiler le contenu ni l'identité.",
+    "whys": [
+     "Une technique fondée sur un mensonge expose l'agence et le vendeur.",
+     "Oui : vérité, confidentialité et arguments factuels (financement, chiffrage, accord sur les appels).",
+     "L'identité d'un autre acquéreur est une donnée personnelle confidentielle."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Plan de négociation",
+  "kind": "template",
+  "intro": "À préparer avant de présenter les offres au vendeur et avant de rappeler les acquéreurs. Il fixe le cadre (prix plancher écrit), compare les offres en net vendeur, liste les arguments et les concessions possibles, et prépare l'acceptation écrite. Exemple rempli : la vente de M. Bernard (exemple fictif).",
+  "sections": [
+   {
+    "heading": "1. Le cadre fixé avec le vendeur (avant les offres)",
+    "type": "checklist",
+    "items": [
+     "Prix du mandat : 189 000 € FAI = 180 000 € net vendeur + 9 000 € TTC d'honoraires à la charge de l'acquéreur.",
+     "Estimation en l'état : 178 000 – 186 000 € net vendeur.",
+     "Prix plancher écrit et daté : 175 000 € net vendeur, à condition que l'appel de fonds ITE du 1/01/2027 (8 970 €) soit remboursé par l'acquéreur à l'acte.",
+     "Délai souhaité : vente signée avant l'été 2027.",
+     "Conditions acceptables : condition suspensive de prêt si le financement a été qualifié ; pas d'autre condition sans avis du notaire.",
+     "Ce que le vendeur peut céder : date de remise des clés, meubles éventuels (à lister)."
+    ]
+   },
+   {
+    "heading": "2. Tableau comparatif des offres (D15)",
+    "type": "table",
+    "headers": [
+     "Ligne",
+     "Martin",
+     "Petit"
+    ],
+    "rows": [
+     [
+      "Prix FAI",
+      "184 000 €",
+      "170 000 €"
+     ],
+     [
+      "Honoraires (acquéreur)",
+      "9 000 €",
+      "9 000 €"
+     ],
+     [
+      "Net vendeur",
+      "175 000 €",
+      "161 000 €"
+     ],
+     [
+      "Appel ITE du 1/01/2027 (payé par le vendeur)",
+      "Remboursé à l'acte : 0 €",
+      "Non remboursé : − 8 970 €"
+     ],
+     [
+      "Net réel pour le vendeur",
+      "175 000 €",
+      "152 030 €"
+     ],
+     [
+      "Appels du 1/04, 1/07, 1/10/2027",
+      "Acquéreur (date d'exigibilité)",
+      "Acquéreur (date d'exigibilité)"
+     ],
+     [
+      "Financement",
+      "Prêt 193 800 €, 25 ans, taux d'effort ≈ 22,3 %",
+      "Comptant (attestation de fonds à obtenir)"
+     ],
+     [
+      "Condition suspensive",
+      "Prêt : 193 800 €, 25 ans, 3,90 % max. hors assurance, 45 jours",
+      "Aucune condition de prêt"
+     ],
+     [
+      "Risque principal",
+      "Refus de prêt (faible, dossier qualifié)",
+      "Fonds non prouvés ; offre sous le plancher"
+     ]
+    ]
+   },
+   {
+    "heading": "3. Formule du net réel",
+    "type": "formula",
+    "text": "Net réel vendeur = prix FAI − honoraires à la charge de l'acquéreur − sommes que le vendeur supporte sans remboursement. Martin : 184 000 − 9 000 − 0 = 175 000 €. Petit : 170 000 − 9 000 − 8 970 = 152 030 €. Écart réel : 22 970 € (et non 14 000 € en prix affiché). Rappel : 8 970 € = 35 880 € / 4 échéances ; 35 880 € = 1 150 000 € × 312 / 10 000."
+   },
+   {
+    "heading": "4. Arguments factuels à présenter aux acquéreurs",
+    "type": "list",
+    "items": [
+     "Le prix demandé est cohérent avec les ventes comparables du secteur (D12) et intègre déjà les travaux à venir.",
+     "Tous les travaux sont connus et chiffrés : 16 500 € privatifs (D13), 35 880 € de copropriété (D07), sans surprise.",
+     "Classe E officielle (attestation ADEME) et trajectoire estimée vers D puis C, à confirmer par un diagnostiqueur.",
+     "Copropriété saine : 48 lots, aucune procédure, plan pluriannuel adopté, ascenseurs de 2019.",
+     "Accord proposé sur les appels de fonds : chacun sait ce qu'il paie, le notaire l'écrit."
+    ]
+   },
+   {
+    "heading": "5. Déroulé de la négociation",
+    "type": "steps",
+    "items": [
+     "Recevoir chaque offre par écrit (prix, conditions, durée de validité), sans aucun versement de l'acquéreur.",
+     "Vérifier le financement (fiche qualification) ou la preuve des fonds avant de présenter l'offre.",
+     "Présenter toutes les offres au vendeur, avec le tableau comparatif, en rendez-vous ou par écrit (profil C : écrit d'abord).",
+     "Le vendeur décide : acceptation, refus ou contre-proposition écrite.",
+     "Contre-proposition éventuelle : un seul point à la fois (prix ou appel de fonds), argument factuel à l'appui.",
+     "Acceptation écrite et complète (prix, honoraires, répartition des appels de fonds, conditions) : une offre acceptée sur la chose et le prix peut engager les parties.",
+     "Transmission au notaire pour la rédaction du compromis ; information des autres acquéreurs, sans dévoiler l'offre retenue."
+    ]
+   },
+   {
+    "heading": "6. Prompt IA de préparation (à copier)",
+    "type": "text",
+    "text": "Tu es conseiller en négociation immobilière, au service du vendeur. Données (fictives, sans noms) : [prix du mandat, net vendeur, honoraires et qui les paie, estimation, prix plancher et sa condition, offres reçues avec prix FAI, financement, conditions, échéancier des appels de fonds et date prévue de l'acte]. Tâches : 1) tableau comparatif en net vendeur puis en net réel après sommes supportées par le vendeur ; 2) avantages et risques de chaque offre ; 3) cinq arguments factuels pour l'acquéreur retenu ; 4) objections probables et réponses. Contraintes : aucun bluff ni information inventée ; rappelle que la répartition des appels de fonds se rédige chez le notaire ; signale toute donnée manquante."
+   }
+  ],
+  "footer": "Sources : code civil, art. 1583 et 1589-1 ; décret du 17 mars 1967, art. 6-2 (analyse ANIL) ; proposition pédagogique Éco-Propriété. Exemple fictif. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Prix plancher et arguments",
+  "duration_min": 40,
+  "context": "Au 30/11/2026, tu as reçu deux offres écrites (D15, datées des 25 et 28/11) : Julie et Thomas Martin à 184 000 € FAI avec prêt, M. Petit à 170 000 € FAI comptant. Avant de les présenter à M. Bernard le 1/12, tu prépares ton plan de négociation avec l'IA. L'acte est envisagé au 15/03/2027.",
+  "materials": [
+   "D07 PV d'AG du 12/06/2025 (appels de fonds ITE)",
+   "D12 Tableau des comparables",
+   "D13 Devis des travaux privatifs",
+   "D14 Fiches des acquéreurs",
+   "D15 Offres d'achat reçues",
+   "D18 Mandat exclusif (prix, honoraires)"
+  ],
+  "steps": [
+   "Rédige la fiche « prix plancher » de M. Bernard : estimation, plancher en net vendeur, condition sur l'appel du 1/01/2027, justification.",
+   "Calcule pour chaque offre le net vendeur puis le net réel après l'appel de fonds de janvier.",
+   "Lance le prompt IA avec les données anonymisées et récupère tableau, arguments et objections.",
+   "Relève et corrige les erreurs de l'IA (règle de la date d'exigibilité, bluff, chiffres).",
+   "Rédige le message écrit à M. Bernard présentant les deux offres (profil C : faits, tableau, sans pression).",
+   "Prépare ta réponse aux Martin si M. Bernard accepte à condition du remboursement de l'appel de janvier (une phrase pour Julie, une pour Thomas)."
+  ],
+  "ia_prompt": {
+   "prompt": "Rôle : tu es conseiller en négociation immobilière dans une agence ; tu travailles pour le vendeur (mandant) et tu dois rester factuel et loyal envers toutes les parties.\nContexte (exemple fictif, aucune donnée personnelle) : appartement T4 de 76 m² à Melun, mandat exclusif à 189 000 € honoraires inclus = 180 000 € net vendeur + 9 000 € TTC d'honoraires à la charge de l'acquéreur. Estimation en l'état : 178 000 – 186 000 € net vendeur. Prix plancher décidé par le vendeur : 175 000 € net vendeur, à condition que l'appel de fonds du 1/01/2027 (8 970 €) lui soit remboursé par l'acquéreur à l'acte. Travaux de copropriété votés : quote-part 35 880 € en 4 appels de 8 970 € exigibles les 1/01, 1/04, 1/07 et 1/10/2027. Acte authentique envisagé le 15/03/2027. Règle : vis-à-vis du syndicat, chaque appel est dû par le copropriétaire à la date d'exigibilité ; vendeur et acquéreur peuvent convenir d'une autre répartition entre eux (rédaction par le notaire). Offre A : 184 000 € FAI, couple primo-accédant, prêt de 193 800 € sur 25 ans, taux d'effort estimé 22,3 %, condition suspensive de prêt (taux maximal 3,90 % hors assurance, 45 jours), accepte de rembourser l'appel de janvier. Offre B : 170 000 € FAI, investisseur, comptant (preuve des fonds non encore reçue), refuse de rembourser l'appel de janvier.\nTâche : 1) tableau comparatif : prix FAI, honoraires, net vendeur, appel de janvier, net réel, conditions, délai, risques ; 2) recommandation argumentée en 5 lignes, en rappelant que la décision appartient au vendeur ; 3) cinq arguments factuels à présenter à l'acquéreur retenu ; 4) trois objections probables de cet acquéreur et une réponse à chacune.\nFormat : tableau puis listes numérotées ; montants en euros, calculs détaillés.\nContraintes : n'invente aucune information ni aucune offre concurrente ; aucun bluff ; ne tranche aucune question juridique, renvoie au notaire ; signale les données manquantes.",
+   "guardrails": [
+    "Aucune donnée personnelle réelle dans le prompt : pas de noms, d'adresses, de revenus nominatifs ni de copies d'offres signées (RGPD).",
+    "Vérifie chaque calcul de l'IA (175 000, 161 000, 152 030, 22 970 €) et la règle de la date d'exigibilité avant tout usage.",
+    "Supprime toute suggestion de bluff, de pression ou d'information inventée : tu restes loyal envers le vendeur et honnête avec les acquéreurs.",
+    "La répartition des appels de fonds et la rédaction de l'accord relèvent du notaire : l'IA ne remplace pas son avis."
+   ]
+  },
+  "expected": "Prix plancher : 175 000 € net vendeur (sous la fourchette basse de 178 000 € car l'acquéreur rembourse l'appel du 1/01/2027 et prend en charge les trois suivants : le vendeur ne supporte aucune part des 35 880 €), condition écrite : remboursement de 8 970 € à l'acte ; décision du vendeur datée. Comparatif : Martin 184 000 − 9 000 = 175 000 € net vendeur, appel remboursé → net réel 175 000 € ; Petit 170 000 − 9 000 = 161 000 €, appel non remboursé → 161 000 − 8 970 = 152 030 € ; écart réel 22 970 €. Appels des 1/04, 1/07 et 1/10/2027 (3 × 8 970 = 26 910 €) : acquéreur, copropriétaire à ces dates. Risques : Martin = condition de prêt (193 800 €, 25 ans, 3,90 % max., 45 jours), faible car taux d'effort ≈ 22,3 % ; Petit = fonds non prouvés, offre sous le plancher. Erreurs de l'IA à corriger typiquement : « les 4 appels sont à la charge du vendeur » (faux), suggestion d'annoncer une offre concurrente plus haute (supprimée), net vendeur de Petit calculé à 161 905 € (honoraires recalculés à tort). Message à M. Bernard : tableau + « La décision vous appartient ; l'offre A respecte votre plancher et sa condition. » Julie (I) : « Vous pourrez profiter du balcon dès le printemps. » Thomas (S) : « Tout est écrit : vous remboursez l'appel de janvier à l'acte, vous payez les trois suivants, le notaire le rédige. » Issue de référence : acceptation écrite le 2/12/2026 à 184 000 € FAI."
+ },
+ "deliverable": {
+  "title": "Plan de négociation de la vente de M. Bernard",
+  "format": "PDF ou DOCX, 2 pages : fiche prix plancher, tableau comparatif, arguments et objections, tableau des corrections apportées à l'IA",
+  "criteria": [
+   "Le prix plancher est exprimé en net vendeur (175 000 €), avec sa condition (remboursement de l'appel du 1/01/2027) et la mention qu'il est décidé par le vendeur",
+   "Le tableau donne les nets vendeur (175 000 € et 161 000 €) et les nets réels (175 000 € et 152 030 €) avec les calculs",
+   "La répartition des quatre appels de fonds respecte le principe de la date d'exigibilité et renvoie au notaire pour l'accord",
+   "Les conditions et risques de chaque offre sont décrits (condition de prêt 193 800 €, 3,90 % max., 45 jours ; preuve des fonds)",
+   "Au moins 2 corrections de la réponse de l'IA sont listées avec leur justification",
+   "Aucun argument ne repose sur un bluff ou une information non vérifiable",
+   "Le prompt utilisé ne contient aucune donnée personnelle"
+  ],
+  "example": "Correction IA n° 1 — IA : « Les quatre appels de fonds sont dus par le vendeur, les travaux ayant été votés avant la vente. » → Corrigé : « Chaque appel est dû par le copropriétaire à la date d'exigibilité (art. 6-2 du décret de 1967) ; seul celui du 1/01/2027 incombe au vendeur, remboursement convenu à l'acte. »"
+ },
+ "sources": [
+  {
+   "label": "Légifrance — Code civil, art. 1583 (vente parfaite dès l'accord sur la chose et le prix)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441308"
+  },
+  {
+   "label": "Légifrance — Code civil, art. 1589-1 (nullité de l'engagement unilatéral d'achat assorti d'un versement)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441325"
+  },
+  {
+   "label": "ANIL — Décret du 27 mai 2004 (art. 6-2 du décret de 1967 : paiement des appels de fonds en cas de vente ; convention contraire entre les parties)",
+   "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/analyses-juridiques/analyses-juridiques-2004/principales-dispositions-du-decret-27-mai-2004/"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (prix plancher, net réel, déroulé de négociation, prompt)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : tableau comparatif animé Martin / Petit avec la ligne « net réel » en surbrillance ; fiche prix plancher signée (fictive) ; capture d'outil d'IA générique avec deux passages corrigés. B-roll : offres papier sur une table, signature. Le prix plancher de 175 000 € et le refus de M. Petit de rembourser l'appel de janvier sont des choix pédagogiques cohérents avec le dossier fil rouge (offre retenue à 184 000 € FAI le 2/12/2026) : [À VALIDER] par la coordination pour les autres modules. Hypothèse : honoraires maintenus à 9 000 € quel que soit le prix (comme dans l'offre Martin du dossier fil rouge). Relecture juridique : portée d'une offre acceptée (art. 1583), art. 1589-1, formulation de la convention sur les appels de fonds (art. 6-2 du décret du 17 mars 1967)."
+}

@@ -1,0 +1,309 @@
+{
+ "id": "3.2",
+ "module": 3,
+ "ia": false,
+ "title": "Communiquer avec l'outil DISC",
+ "objective": "Repérer le style de communication dominant d'un vendeur (D, I, S, C) et adapter ton discours, tes supports et ton rythme",
+ "video": {
+  "duration_min": 8,
+  "hook": "Même dossier, même prix, deux agents. L'un perd M. Bernard en dix minutes, l'autre signe. La différence ? Pas ce qu'ils disent : comment ils le disent.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Même dossier. Même prix. Deux agents. Le premier arrive chez M. Bernard, plein d'énergie : « Votre appart, il est top, on va le vendre en un mois, faites-moi confiance ! » Dix minutes plus tard, M. Bernard le raccompagne poliment à la porte. Le second pose un classeur sur la table : « Voici les ventes comparables, voici le calcul. Prenez le temps de les lire. » Une semaine plus tard, il signe. Ce qui a changé ? Pas le contenu. La manière. Aujourd'hui, je te donne un outil pour choisir la bonne manière : le DISC.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille ; split-screen B-roll : agent enthousiaste qui gesticule / agent posé qui ouvre un classeur",
+    "onscreen": "Même contenu, autre manière"
+   },
+   {
+    "tc": "00:45",
+    "voice": "D'abord, une mise au point importante. Le DISC n'est pas un test de personnalité, et tu n'es pas psychologue. On ne colle pas d'étiquette sur les gens, on ne diagnostique rien. Le DISC, c'est une grille d'observation de la communication. Elle vient d'un modèle proposé en 1928 par le psychologue américain William Marston. Elle t'aide à repérer comment une personne préfère recevoir l'information et prendre une décision, à un moment donné. Tout le monde a un peu des quatre styles. Toi, tu observes celui qui ressort dans la conversation, et tu adaptes ta façon de parler. C'est tout. Et c'est déjà énorme.",
+    "screen": "Slide sobre : « DISC = outil de communication, pas un diagnostic » ; mention W. M. Marston, 1928",
+    "onscreen": "Un outil de communication, pas un diagnostic"
+   },
+   {
+    "tc": "01:40",
+    "voice": "Les quatre styles, maintenant. Imagine deux questions. Est-ce que la personne va vite ou prend son temps ? Est-ce qu'elle parle d'abord des faits ou des personnes ? Rapide et tourné vers les résultats : c'est le D, Dominant. Il veut l'essentiel, une décision, du concret. Rapide et tourné vers les gens : c'est le I, Influent. Il aime l'échange, les histoires, l'enthousiasme. Posé et tourné vers les gens : c'est le S, Stable. Il veut de la sécurité, des étapes, du temps pour en parler à ses proches. Posé et tourné vers les faits : c'est le C, Conforme. Il veut des preuves, des chiffres, des documents.",
+    "screen": "Animation : matrice 2 × 2 (axe vertical rapide / posé, axe horizontal faits / personnes) ; les 4 quadrants D, I, S, C s'allument un à un, couleurs distinctes",
+    "onscreen": "D Dominant · I Influent · S Stable · C Conforme"
+   },
+   {
+    "tc": "02:35",
+    "voice": "Comment tu repères le style ? Avec trois indices, pas avec un questionnaire. Un : son débit et ses questions. Le D coupe : « Combien ? Quand ? » Le C demande : « D'où vient ce chiffre ? » Deux : ce qu'il te montre. Le I te raconte ses souvenirs dans l'appartement. Le S te parle de sa famille, de ce que pense sa fille. Le C sort une chemise de documents classés. Trois : sa façon de décider. Le D tranche vite. Le I s'emballe puis hésite. Le S veut consulter. Le C veut relire. Note ces indices pendant la découverte, sur la fiche D01. Et garde ton hypothèse ouverte : tu peux te tromper.",
+    "screen": "Slide trois colonnes : « Débit et questions » · « Ce qu'il montre » · « Comment il décide » ; pictogrammes",
+    "onscreen": "3 indices : débit, objets, décision"
+   },
+   {
+    "tc": "03:25",
+    "voice": "Et M. Bernard ? Reprends ce que tu sais. Ancien ingénieur des services techniques. Il a gardé tous ses papiers, classés. Il ne décroche plus aux numéros inconnus. Il a refusé deux estimations parce qu'on lui a dit « moins quinze pour cent à cause du DPE », sans calcul. Il n'est pas pressé à trois mois près, mais il a une échéance claire : avoir vendu avant l'été 2027. Et il déteste l'insistance. Faits, prudence, documents, décision lente : M. Bernard présente un style C. Ça ne veut pas dire qu'il est froid. Ça veut dire que, pour lui faire confiance, il a besoin de vérifier.",
+    "screen": "Fiche portrait de M. Bernard (illustration fictive) avec 5 indices qui s'allument, puis tampon « Style dominant observé : C »",
+    "onscreen": "M. Bernard : style C observé"
+   },
+   {
+    "tc": "04:15",
+    "voice": "Démonstration. Je prépare le rendez-vous de restitution pour un style C. Avant : j'envoie le dossier 48 heures avant, avec le sommaire et les sources. Pendant : je commence par l'ordre du jour, je présente les chiffres dans un tableau, je dis d'où vient chaque donnée. Je ne dis jamais « faites-moi confiance ». Je dis « vérifiez avec moi ». Je laisse des silences. Je réponds aux questions précisément, et si je ne sais pas, je dis « je vérifie et je vous écris demain ». À la fin, je ne force pas la signature. Je propose une date pour qu'il me donne sa réponse, et je lui laisse les documents.",
+    "screen": "Plein écran : trame de rendez-vous adaptée au style C (avant / pendant / après), lignes qui apparaissent au rythme de la voix",
+    "onscreen": "Style C : preuves, sources, temps de réflexion"
+   },
+   {
+    "tc": "05:10",
+    "voice": "Et si ton vendeur était différent ? Avec un D, tu fais court : une page, trois chiffres, une recommandation, et tu lui laisses la décision. Avec un I, tu crées le lien, tu racontes comment tu vas présenter son bien, tu montres des visuels, puis tu ramènes à l'écrit. Avec un S, tu rassures : un plan étape par étape, qui fait quoi, et tu proposes d'associer la personne qui compte pour lui. Le fond reste le même pour tous : le même dossier, le même prix, les mêmes règles. Seule la forme change. Tu ne manipules pas : tu traduis.",
+    "screen": "Slide en 3 cartes D, I, S avec pour chacune « Format · Rythme · À éviter » ; bandeau bas : « Même fond, autre forme »",
+    "onscreen": "Même fond, autre forme"
+   },
+   {
+    "tc": "06:00",
+    "voice": "Les erreurs fréquentes. Un : enfermer quelqu'un dans une lettre. « Lui, c'est un C, il est pénible. » Non. C'est une hypothèse de communication, pas un jugement. Deux : te calquer sur ton propre style. Si tu es un I enthousiaste, tu vas parler à tout le monde comme à un I. Avec M. Bernard, c'est la porte. Trois : utiliser le DISC pour faire pression. Repérer qu'un client est un S anxieux pour lui faire peur, c'est de la manipulation, et c'est contraire à ton devoir de conseil. Quatre : changer de style toutes les deux minutes. Si tu joues le comédien, un C le sent tout de suite. Tu restes toi-même, tu ajustes juste ton rythme, tes supports et tes mots. Et cinq : oublier de vérifier ton hypothèse. Au rendez-vous suivant, observe encore. Si M. Bernard te parle longuement de sa fille et de son futur appartement à Nantes, il y a aussi une part de S chez lui. Tu en tiens compte : tu lui proposes, par exemple, d'envoyer le dossier à sa fille s'il le souhaite.",
+    "screen": "Seb face caméra, plan rapproché ; 3 incrustations successives barrées : « étiqueter » · « parler à son propre style » · « faire pression »",
+    "onscreen": "Hypothèse, pas étiquette"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi. Quiz flash juste après cette vidéo. Ensuite, télécharge la fiche DISC : les quatre profils, leurs indices, comment adapter ton discours. Dans l'exercice, tu profiles M. Bernard à partir de sa fiche découverte et tu réécris trois phrases de ton rendez-vous pour son style. Ton livrable : sa fiche profil et tes phrases adaptées. Prochaine capsule : travaux ou vente en l'état, on fait les comptes.",
+    "screen": "Seb face caméra ; à droite les 5 pictos du parcours, le picto « télécharge » mis en avant avec la miniature de la fiche DISC",
+    "onscreen": "Quiz → Fiche DISC → Exercice → Livrable"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Qu'est-ce que l'outil DISC dans ta pratique d'agent ?",
+    "options": [
+     "Un test de personnalité qui classe définitivement le client",
+     "Une grille d'observation pour adapter ta façon de communiquer",
+     "Un diagnostic psychologique obligatoire avant le mandat"
+    ],
+    "answer": 1,
+    "fb_title": "Un outil de communication",
+    "fb_text": "Le DISC t'aide à repérer comment une personne préfère recevoir l'information et décider. Ce n'est ni un diagnostic, ni une étiquette : c'est une hypothèse de travail que tu ajustes.",
+    "whys": [
+     "Faux : on ne classe personne définitivement, tout le monde a un peu des quatre styles.",
+     "Juste : tu observes et tu adaptes la forme de ton discours.",
+     "Faux : tu n'es pas psychologue et rien ne l'impose."
+    ]
+   },
+   {
+    "question": "Pendant la découverte, M. Bernard demande trois fois « D'où vient ce chiffre ? » et sort une chemise de documents classés. Quel style ressort ?",
+    "options": [
+     "D, Dominant",
+     "I, Influent",
+     "S, Stable",
+     "C, Conforme"
+    ],
+    "answer": 3,
+    "fb_title": "Indices d'un style C",
+    "fb_text": "Questions sur la source des chiffres, documents classés, méfiance envers les promesses : ce sont les indices d'un style C. Il a besoin de vérifier pour faire confiance.",
+    "whys": [
+     "Faux : le D veut l'essentiel et décide vite, il ne vérifie pas chaque source.",
+     "Faux : le I parle de personnes et d'histoires, pas de sources.",
+     "Faux : le S cherche la sécurité relationnelle et consulte ses proches.",
+     "Juste : faits, preuves, documents, décision posée."
+    ]
+   },
+   {
+    "question": "Un vendeur te coupe : « Combien, quand, et qu'est-ce que vous faites de plus ? Allez à l'essentiel. » Comment adaptes-tu ta restitution ?",
+    "options": [
+     "Une page, trois chiffres clés, une recommandation, et tu lui laisses la décision",
+     "Tu racontes en détail chaque vente comparable",
+     "Tu proposes d'en reparler avec sa famille la semaine prochaine"
+    ],
+    "answer": 0,
+    "fb_title": "Style D : aller droit au but",
+    "fb_text": "Un style D veut des résultats et du contrôle. Tu gardes le même fond (dossier, prix, règles) mais tu le présentes en version courte, avec une recommandation claire.",
+    "whys": [
+     "Juste : court, concret, décision laissée au vendeur.",
+     "Faux : trop long pour un D, garde le détail en annexe.",
+     "Faux : c'est une adaptation pour un style S, pas pour un D."
+    ]
+   },
+   {
+    "question": "Quelle phrase évites-tu avec M. Bernard ?",
+    "options": [
+     "« Voici la source de ce chiffre : la ligne 3 du tableau des ventes. »",
+     "« Prenez le temps de relire, je vous appelle jeudi. »",
+     "« Faites-moi confiance, signez aujourd'hui et on vend en un mois. »",
+     "« Je ne sais pas, je vérifie et je vous écris demain. »"
+    ],
+    "answer": 2,
+    "fb_title": "Ni pression ni promesse",
+    "fb_text": "Pour un style C, « faites-moi confiance » sans preuve et l'urgence imposée détruisent la confiance. Et promettre un délai de vente, c'est une promesse que tu ne peux pas tenir, quel que soit le profil.",
+    "whys": [
+     "À garder : une source précise rassure un style C.",
+     "À garder : tu respectes son temps de réflexion.",
+     "À éviter : pression et promesse de délai, l'inverse de ce qu'il attend.",
+     "À garder : avouer une limite et s'engager par écrit renforce ta crédibilité."
+    ]
+   },
+   {
+    "question": "Une collègue te dit : « Ce client est un S anxieux, fais-lui peur avec les travaux pour qu'il signe vite. » Que réponds-tu ?",
+    "options": [
+     "Bonne idée, le DISC sert à ça",
+     "Non : utiliser le DISC pour faire pression, c'est de la manipulation, contraire au devoir de conseil",
+     "Seulement si le prix est bon"
+    ],
+    "answer": 1,
+    "fb_title": "Adapter, pas manipuler",
+    "fb_text": "Le DISC sert à traduire une même information dans la forme qui convient au client. L'utiliser pour exploiter une crainte est de la manipulation : tu y perds la confiance et tu manques à ton devoir de conseil.",
+    "whys": [
+     "Faux : le DISC adapte la forme, il ne justifie aucune pression.",
+     "Juste : avec un S, tu rassures par un plan clair, tu n'exploites pas sa peur.",
+     "Faux : la fin ne justifie pas le moyen, quel que soit le prix."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche DISC : 4 profils",
+  "kind": "fiche",
+  "intro": "Cette fiche t'aide à repérer le style de communication dominant d'un vendeur pendant la découverte, puis à adapter tes supports, ton rythme et tes phrases. Rappel : le DISC est un outil de communication, pas un diagnostic de personnalité. Chacun a un peu des quatre styles ; tu observes celui qui ressort et tu gardes ton hypothèse ouverte.",
+  "sections": [
+   {
+    "heading": "Les 4 styles en un coup d'œil",
+    "type": "table",
+    "headers": [
+     "Style",
+     "Ce qu'il cherche",
+     "Indices à l'oral",
+     "Il décide…"
+    ],
+    "rows": [
+     [
+      "D · Dominant (rapide, faits)",
+      "Résultat, contrôle, efficacité",
+      "Coupe la parole, « combien ? quand ? », phrases courtes",
+      "Vite, s'il a les options et garde la main"
+     ],
+     [
+      "I · Influent (rapide, personnes)",
+      "Relation, reconnaissance, enthousiasme",
+      "Raconte, digresse, tutoie vite, parle de ses souvenirs",
+      "Sur l'émotion, puis hésite"
+     ],
+     [
+      "S · Stable (posé, personnes)",
+      "Sécurité, harmonie, continuité",
+      "Écoute, rassure, cite ses proches, évite le conflit",
+      "Lentement, après avoir consulté"
+     ],
+     [
+      "C · Conforme (posé, faits)",
+      "Exactitude, preuves, règles",
+      "« D'où vient ce chiffre ? », documents classés, questions précises",
+      "Lentement, après avoir vérifié"
+     ]
+    ]
+   },
+   {
+    "heading": "Adapter ton rendez-vous à chaque style",
+    "type": "table",
+    "headers": [
+     "Style",
+     "Support",
+     "Rythme",
+     "Phrase utile",
+     "À éviter"
+    ],
+    "rows": [
+     [
+      "D",
+      "1 page, 3 chiffres, 1 recommandation",
+      "Court, direct",
+      "« Voici ma recommandation et les deux autres options. Vous décidez. »",
+      "Les détails sans fin, le flou"
+     ],
+     [
+      "I",
+      "Visuels, photos, exemple d'annonce",
+      "Vivant, mais recadré",
+      "« Imaginez la première photo de l'annonce… Je vous écris le récapitulatif. »",
+      "La froideur, les tableaux sans récit"
+     ],
+     [
+      "S",
+      "Plan étape par étape, qui fait quoi",
+      "Calme, sans urgence",
+      "« On avance à votre rythme. Voulez-vous en parler à votre fille avant ? »",
+      "La pression, les changements imprévus"
+     ],
+     [
+      "C",
+      "Dossier sourcé envoyé avant, tableau de calcul",
+      "Posé, avec silences",
+      "« Voici la source de chaque chiffre. Vérifions ensemble. »",
+      "« Faites-moi confiance », les approximations"
+     ]
+    ]
+   },
+   {
+    "heading": "Repérer le style en 3 indices (pendant la découverte D01)",
+    "type": "steps",
+    "items": [
+     "Écoute le débit et le type de questions : rapide ou posé, sur les faits ou sur les personnes.",
+     "Observe ce qu'il te montre : chiffres et documents, photos et souvenirs, famille, résultats attendus.",
+     "Note sa façon de décider : trancher, s'enthousiasmer, consulter, vérifier.",
+     "Écris ton hypothèse sur la fiche D01 (« style dominant observé : … ») et ajuste-la au rendez-vous suivant."
+    ]
+   },
+   {
+    "heading": "Exemple rempli : M. Bernard (fil rouge, fictif)",
+    "type": "text",
+    "text": "Indices : ancien ingénieur, documents classés, refuse les estimations « −15 % » sans calcul, ne décroche plus aux numéros inconnus, pas pressé mais échéance « avant l'été 2027 », déteste l'insistance. Style dominant observé : C. Adaptation : dossier et sommaire envoyés 48 h avant le rendez-vous de restitution du 29/10/2026 ; source citée pour chaque chiffre (attestation ADEME classe E, PV d'AG du 12/06/2025, comparables D12) ; tableau de calcul plutôt que discours ; aucune signature demandée le jour même : proposition d'une réponse à une date convenue."
+   },
+   {
+    "heading": "Les règles d'éthique",
+    "type": "checklist",
+    "items": [
+     "Je formule une hypothèse de style, jamais un jugement sur la personne.",
+     "Je garde le même fond pour tous : même dossier, même prix, mêmes règles.",
+     "Je n'utilise jamais une crainte repérée pour faire pression.",
+     "Je n'emploie pas de questionnaire DISC commercial sans licence ni accord du client.",
+     "Je reste attentif à mon propre style pour ne pas parler à tout le monde comme à moi."
+    ]
+   }
+  ],
+  "footer": "Origine du modèle : W. M. Marston, Emotions of Normal People (1928). DISC présenté ici comme grille de communication générique (proposition pédagogique Éco-Propriété), sans lien avec les outils commerciaux sous marque. Fil rouge fictif. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Profiler le vendeur, adapter son discours",
+  "duration_min": 25,
+  "context": "Avant le rendez-vous de restitution du jeudi 29 octobre 2026, tu relis tes notes de découverte sur M. Bernard. Tu veux formuler ton hypothèse de style DISC et adapter trois moments clés du rendez-vous : l'ouverture, l'annonce du prix et la conclusion.",
+  "materials": [
+   "D01 Fiche découverte vendeur (tes notes)",
+   "D03 Attestation actualisée ADEME",
+   "D07 PV d'AG du 12/06/2025",
+   "D12 Tableau des comparables"
+  ],
+  "steps": [
+   "Relève dans D01 au moins 5 indices observés (débit, questions, objets montrés, façon de décider, réactions passées).",
+   "Formule ton hypothèse de style dominant et explique-la en 2 phrases, en précisant ce qui pourrait la contredire.",
+   "Réécris ta phrase d'ouverture pour ce style (ordre du jour, documents envoyés, durée).",
+   "Réécris ta phrase d'annonce du prix en citant au moins une source vérifiable (D12, D03 ou D07).",
+   "Réécris ta phrase de conclusion sans pression, avec une étape datée.",
+   "Pour comparaison, écris la même phrase d'annonce du prix pour un style D et pour un style S."
+  ],
+  "expected": "Indices : ingénieur retraité, chemise de documents classés, refus des estimations −15 % sans calcul, ne répond plus aux numéros inconnus, demande d'où viennent les chiffres, pas pressé mais échéance avant l'été 2027, déteste l'insistance. Hypothèse : style C dominant (posé, orienté faits) ; à surveiller : son attachement à sa fille peut faire apparaître une composante S. Ouverture : « Comme convenu, je vous ai envoyé mardi le dossier et le sommaire. Je vous propose 45 minutes : la valeur, la stratégie, puis vos questions. » Prix : « La fourchette en l'état est de 178 000 à 186 000 € net vendeur. Elle part de 2 650 €/m² sur les ventes comparables du tableau D12, ajustée pour les fenêtres, la ventilation et l'ITE votée au PV du 12/06/2025. Je vous recommande 180 000 € net, soit 189 000 € honoraires inclus. » Conclusion : « Je vous laisse le dossier. Pouvons-nous convenir que vous me donnez votre réponse jeudi 5 novembre ? » Version D : « 189 000 € affiché, 180 000 € net pour vous, mise en ligne sous 10 jours. On y va ? » Version S : « On avance à votre rythme : voici les trois étapes. Voulez-vous en parler à votre fille avant ? »"
+ },
+ "deliverable": {
+  "title": "Fiche profil DISC de M. Bernard + 3 phrases adaptées",
+  "format": "PDF ou DOCX, 1 page",
+  "criteria": [
+   "Au moins 5 indices observables sont relevés, chacun relié à un élément du dossier ou de la découverte",
+   "L'hypothèse de style est formulée comme une hypothèse (pas un jugement) avec un élément qui pourrait la contredire",
+   "La phrase d'annonce du prix cite au moins une source vérifiable (D12, D03 ou D07) et le prix de 189 000 € FAI / 180 000 € net",
+   "La conclusion propose une étape datée sans pression ni promesse de délai ou de prix",
+   "Les versions D et S changent la forme sans changer le fond (même prix, mêmes chiffres)"
+  ],
+  "example": "« Style dominant observé : C (hypothèse). Indices : documents classés, “d'où vient ce chiffre ?”, refus des −15 % sans calcul. À surveiller : composante S liée à son projet familial. »"
+ },
+ "sources": [
+  {
+   "label": "Everything DiSC — Histoire du modèle (W. M. Marston, Emotions of Normal People, 1928)",
+   "url": "https://www.everythingdisc.com/our-story"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété — grille DISC appliquée à la relation vendeur (fil rouge fictif)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : matrice 2 × 2 (rapide/posé × faits/personnes) avec 4 couleurs distinctes et accessibles (ne pas reprendre les couleurs ni le logo d'une marque DISC commerciale) ; split-screen des deux agents (comédiens) ; fiche portrait M. Bernard. Ne jamais présenter le DISC comme un test validé ou un diagnostic. « DiSC » et « Everything DiSC » sont des marques déposées : écrire « DISC » générique et ne pas reproduire de questionnaire propriétaire [À VALIDER relecture juridique de la mention]. Montage : insister sur la phrase « Même fond, autre forme »."
+}

@@ -1,0 +1,331 @@
+{
+ "id": "3.4",
+ "module": 3,
+ "ia": false,
+ "title": "Le plan Éco-staging",
+ "objective": "Construire un plan Éco-staging à petit budget (≈ 450 €) qui traite les défauts visibles sans rien cacher aux acquéreurs",
+ "video": {
+  "duration_min": 8,
+  "hook": "Une tache jaune au plafond de la cuisine. Des points noirs dans la salle de bains. Sur les photos, c'est tout ce que l'acheteur verra. Coût pour régler ça : environ 450 €.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Regarde ces deux photos. À gauche, la salle de bains de M. Bernard aujourd'hui : des points noirs au plafond, dans les angles. À droite, la cuisine : une auréole jaunie au plafond. Maintenant, mets-toi à la place d'un acheteur qui fait défiler les annonces le soir sur son canapé. Il voit ça, il pense : humidité, dégât des eaux, problèmes. Il ne clique pas. Ou pire, il vient visiter avec l'idée de négocier 20 000 euros. Bonne nouvelle : pour traiter ce que l'acheteur voit, il suffit d'environ 450 euros. Bienvenue dans le plan Éco-staging.",
+    "screen": "Seb face caméra (avatar HeyGen) en médaillon ; plein écran : deux photos du reportage D05 côte à côte (salle de bains avec moisissures, plafond de cuisine avec auréole)",
+    "onscreen": "Ce que voit l'acheteur en premier"
+   },
+   {
+    "tc": "00:45",
+    "voice": "Pourquoi c'est ton affaire ? Parce que l'acheteur décide de visiter sur les photos. Et parce qu'en visite, un défaut visible fait douter de tout le reste. Une tache au plafond, et soudain l'acheteur se demande si l'électricité est aux normes, si la toiture fuit, si le vendeur cache quelque chose. L'Éco-staging, c'est la version éco-consultant du home staging. Trois principes : petit budget, actions utiles et durables, et transparence totale. On ne maquille pas un bien. On traite ce qui peut l'être à petit coût, et on documente le reste.",
+    "screen": "Slide : « Éco-staging = petit budget + utile et durable + transparence » ; trois pictos (pièce de monnaie, feuille, loupe)",
+    "onscreen": "Petit budget · utile · transparent"
+   },
+   {
+    "tc": "01:35",
+    "voice": "Première idée clé : on part des défauts, pas de la déco. Reprends le reportage photo D05 et ta grille d'audit du module 2. Pour M. Bernard, il y a quatre défauts visibles. Les moisissures de la salle de bains, dues à une ventilation insuffisante, avec un conduit partiellement obstrué. L'auréole au plafond de la cuisine, un dégât des eaux du voisin du dessus en 2022, cause réparée, sinistre clos. Une fissure fine en escalier sur la cloison du dégagement, non structurelle. Et un séjour encombré, un peu sombre, alors que c'est la pièce qui vend : 24 mètres carrés, balcon plein sud-ouest.",
+    "screen": "Plan D04 de l'appartement avec 4 pastilles numérotées sur les défauts ; vignettes photos D05 qui s'ouvrent au survol",
+    "onscreen": "4 défauts visibles repérés sur D05"
+   },
+   {
+    "tc": "02:20",
+    "voice": "Deuxième idée clé : pour chaque défaut, tu choisis entre trois verbes. Traiter, si c'est petit, pas cher et durable. Documenter, si c'est un vrai sujet technique qui demande des travaux plus lourds. Ou laisser en l'état et expliquer, si c'est sans gravité. Les moisissures : on traite la surface et on débouche le conduit de ventilation. Mais on documente aussi la cause : l'absence de VMC, chiffrée à 2 900 euros dans les devis D13. L'auréole : on traite, une sous-couche anti-taches et une peinture plafond, et on garde la preuve que le sinistre est clos. La fissure : on ne la rebouche pas pour la cacher, on la signale et on explique qu'elle est à surveiller. Le séjour : on traite, on désencombre, on éclaire.",
+    "screen": "Tableau 3 colonnes animé : Traiter / Documenter / Laisser et expliquer ; chaque défaut glisse dans sa colonne",
+    "onscreen": "Traiter · documenter · expliquer"
+   },
+   {
+    "tc": "03:25",
+    "voice": "Troisième idée clé : un budget précis, ligne par ligne. Voilà la répartition indicative pour M. Bernard. Nettoyage et traitement anti-moisissures de la salle de bains, produits et joints : environ 70 euros. Débouchage du conduit de ventilation par un professionnel : environ 150 euros. Reprise du plafond de la cuisine : environ 70 euros. Éclairage du séjour, ampoules LED de couleur chaude et un lampadaire : environ 160 euros. Le désencombrement, lui, ne coûte rien : un après-midi, la déchetterie, quelques dons. Total : environ 450 euros, à la charge du vendeur. Ce sont des prix indicatifs, à vérifier localement. Mais l'ordre de grandeur est là : moins d'un demi pour cent du prix.",
+    "screen": "Plein écran : ticket de caisse animé ligne par ligne · 70 + 150 + 70 + 160 + 0 = 450 € · mention « prix indicatifs, exemple fictif »",
+    "onscreen": "≈ 450 € à la charge du vendeur"
+   },
+   {
+    "tc": "04:15",
+    "voice": "Démonstration : comment tu le présentes à M. Bernard. Tu ne lui dis pas « il faut repeindre ». Tu poses la fiche plan Éco-staging sur la table. Une ligne par action : le défaut, l'action, qui la fait, le coût, la date limite, et la preuve. Par exemple : « Plafond cuisine, sous-couche et peinture, vous ou un artisan, 70 euros, avant le 12 novembre, photo avant et après. » Puis tu lui montres l'effet : la photo actuelle et une photo d'un séjour bien éclairé, désencombré. Tu lui proposes une date de séance photo, juste après les travaux. Et tu fixes la règle : on ne prend aucune photo de l'annonce avant que le plan soit terminé. Et comme M. Bernard aime les preuves, tu lui expliques d'où viennent tes prix : le tarif d'un produit en magasin, le devis d'un artisan pour le conduit. S'il préfère faire la peinture lui-même, très bien, c'est noté dans la colonne « qui ». S'il préfère un artisan, tu lui donnes deux contacts, pas un seul, pour qu'il compare. Enfin, il signe la fiche. Pas pour l'engager juridiquement : pour que chacun sache ce qui est prévu, et pour pouvoir dire aux acheteurs, factures à l'appui, ce qui a été fait.",
+    "screen": "Fiche « Plan Éco-staging » remplie, zoom ligne par ligne ; puis insert B-roll avant / après d'un séjour désencombré et éclairé (visuel d'illustration, pas l'appartement réel)",
+    "onscreen": "Défaut · action · qui · coût · date · preuve"
+   },
+   {
+    "tc": "05:55",
+    "voice": "Maintenant, la ligne rouge. L'Éco-staging, ce n'est pas un cache-misère. Repeindre un plafond taché après un sinistre réglé, c'est normal. Repeindre des moisissures sans dire qu'il n'y a pas de VMC, c'est cacher un défaut. Et ça peut coûter très cher au vendeur. Le Code civil prévoit un devoir d'information : celui qui connaît une information déterminante pour l'autre partie doit la lui donner. Donc tu traites la surface, et tu remets à l'acheteur le devis de la VMC et l'explication. C'est même un argument : « Le défaut est connu, la solution est chiffrée. » Un acheteur rassuré négocie moins qu'un acheteur qui découvre.",
+    "screen": "Seb face caméra, plan rapproché, ton grave ; incrustation : « Code civil, art. 1112-1 : devoir d'information »",
+    "onscreen": "Traiter la surface, révéler la cause"
+   },
+   {
+    "tc": "06:50",
+    "voice": "Les erreurs fréquentes. Un : commencer par la déco. Des coussins neufs ne règlent pas une auréole. Deux : proposer des travaux lourds déguisés en staging. Changer les fenêtres, ce n'est pas de l'Éco-staging, c'est un arbitrage travaux, on l'a vu dans la capsule précédente. Trois : un plan sans date ni responsable. Il ne sera jamais fait. Quatre : photographier avant la fin du plan. Les premières photos restent sur les portails pour toujours. Cinq : oublier la cave et le balcon. Six mètres carrés de balcon encombrés, c'est six mètres carrés que l'acheteur ne voit pas.",
+    "screen": "Slide « 5 erreurs » révélées une à une ; insert photo d'un balcon encombré puis dégagé",
+    "onscreen": "Défauts d'abord · pas de gros travaux · daté · photos après · balcon et cave"
+   },
+   {
+    "tc": "07:35",
+    "voice": "À toi. Quiz flash juste après. Puis tu télécharges le modèle de plan Éco-staging. Dans l'exercice, tu choisis trois actions à petit budget pour M. Bernard, tu les chiffres et tu les dates. Ton livrable : le plan rempli, prêt à être signé par le vendeur. Prochaine capsule : présenter et défendre ton prix.",
+    "screen": "Seb face caméra ; pictos du parcours, miniature du modèle de plan Éco-staging",
+    "onscreen": "Quiz → Modèle de plan → Exercice → Livrable"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Quel est le point de départ d'un plan Éco-staging ?",
+    "options": [
+     "Les tendances déco du moment",
+     "Les défauts visibles repérés sur le reportage photo et la grille d'audit",
+     "Le budget maximal que le vendeur accepte de dépenser"
+    ],
+    "answer": 1,
+    "fb_title": "D'abord les défauts",
+    "fb_text": "On part de ce que voit l'acheteur : défauts visibles relevés sur D05 et à l'audit 360°. La déco vient après, si le budget le permet.",
+    "whys": [
+     "Faux : la déco ne règle aucun défaut visible.",
+     "Juste : on traite ce qui fait douter l'acheteur.",
+     "Faux : le budget compte, mais il découle des actions utiles, pas l'inverse."
+    ]
+   },
+   {
+    "question": "Les moisissures de la salle de bains de M. Bernard viennent d'une ventilation insuffisante. Que prévois-tu ?",
+    "options": [
+     "Repeindre pour que ça ne se voie plus sur les photos",
+     "Traiter la surface, déboucher le conduit, et remettre aux acheteurs le devis VMC (2 900 €)",
+     "Installer une VMC avant la vente",
+     "Ne rien faire et ne pas en parler"
+    ],
+    "answer": 1,
+    "fb_title": "Traiter et documenter",
+    "fb_text": "On traite la surface et on débouche le conduit (Éco-staging), mais la cause reste : pas de VMC. Le devis de 2 900 € (D13) est remis aux acheteurs. C'est le devoir d'information du Code civil (art. 1112-1).",
+    "whys": [
+     "Faux : masquer la cause d'un défaut connu expose le vendeur.",
+     "Juste : action à petit coût + transparence sur la cause.",
+     "Faux : c'est un poste de travaux (arbitrage 3.3), pas de l'Éco-staging.",
+     "Faux : un défaut visible non traité fait fuir ou fait négocier."
+    ]
+   },
+   {
+    "question": "Quel est le budget de l'Éco-staging de M. Bernard ?",
+    "options": [
+     "Environ 450 €, à la charge du vendeur",
+     "Environ 4 500 €",
+     "16 500 €, le total des devis D13"
+    ],
+    "answer": 0,
+    "fb_title": "≈ 450 €",
+    "fb_text": "Répartition indicative : salle de bains ≈ 70 €, débouchage du conduit ≈ 150 €, plafond de cuisine ≈ 70 €, éclairage du séjour ≈ 160 €, désencombrement 0 €. Total ≈ 450 €, prix à vérifier localement.",
+    "whys": [
+     "Juste : moins d'un demi pour cent du prix.",
+     "Faux : ce serait des travaux, pas de l'Éco-staging.",
+     "Faux : c'est le chiffrage des travaux privatifs remis aux acquéreurs."
+    ]
+   },
+   {
+    "question": "La fissure fine (< 0,2 mm) de la cloison du dégagement : que fais-tu ?",
+    "options": [
+     "Tu la rebouches pour qu'elle ne se voie plus",
+     "Tu la laisses, tu la signales et tu expliques qu'elle est non structurelle et à surveiller",
+     "Tu demandes une expertise structure avant toute mise en vente",
+     "Tu la caches derrière un meuble lors des photos"
+    ],
+    "answer": 1,
+    "fb_title": "Laisser et expliquer",
+    "fb_text": "Fissure fine, non structurelle, à surveiller : la reboucher pour la cacher priverait l'acheteur d'une information. On l'explique simplement, sans dramatiser.",
+    "whys": [
+     "Faux : la masquer pourrait être reproché au vendeur.",
+     "Juste : transparence sur un défaut sans gravité.",
+     "Disproportionné : elle est fine et non structurelle selon l'audit.",
+     "Faux : la dissimuler sur les photos, c'est cacher l'information."
+    ]
+   },
+   {
+    "question": "Quand fais-tu la séance photo de l'annonce ?",
+    "options": [
+     "Tout de suite, pour publier vite",
+     "Après la fin du plan Éco-staging, à la date convenue",
+     "Après la première visite"
+    ],
+    "answer": 1,
+    "fb_title": "Photos après le plan",
+    "fb_text": "Les premières photos restent sur les portails et dans la mémoire des acheteurs. On photographie un bien prêt : plan terminé, séjour désencombré, éclairage en place.",
+    "whys": [
+     "Faux : un bien photographié avant le plan se présente mal pour longtemps.",
+     "Juste : on fixe la séance photo juste après la dernière action.",
+     "Faux : sans photos, il n'y a pas de visites."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Modèle de plan",
+  "kind": "modele",
+  "intro": "Ce modèle te sert à construire, chiffrer et faire valider par le vendeur un plan Éco-staging : des actions à petit budget qui traitent les défauts visibles avant les photos, sans rien cacher aux acquéreurs. Remplis-le après l'audit, présente-le au rendez-vous de restitution et annexe-le à tes engagements écrits.",
+  "sections": [
+   {
+    "heading": "Les 3 principes de l'Éco-staging",
+    "type": "list",
+    "items": [
+     "Petit budget : moins de 0,5 % du prix en général, chaque euro relié à un défaut visible.",
+     "Utile et durable : réparer, nettoyer, désencombrer, éclairer plutôt qu'acheter du décor jetable.",
+     "Transparence : on traite la surface, on révèle la cause et on remet les devis des vrais travaux aux acquéreurs."
+    ]
+   },
+   {
+    "heading": "Trier chaque défaut : traiter, documenter ou expliquer",
+    "type": "table",
+    "headers": [
+     "Verbe",
+     "Quand",
+     "Exemple"
+    ],
+    "rows": [
+     [
+      "Traiter",
+      "Petit coût, effet visible, durable",
+      "Plafond taché après sinistre clos, séjour encombré, éclairage faible"
+     ],
+     [
+      "Documenter",
+      "Vrai sujet technique, travaux lourds",
+      "Absence de VMC (devis 2 900 €), fenêtres simple vitrage (5 600 €)"
+     ],
+     [
+      "Laisser et expliquer",
+      "Sans gravité, à surveiller",
+      "Fissure fine non structurelle"
+     ]
+    ]
+   },
+   {
+    "heading": "Plan Éco-staging rempli : M. Bernard (fil rouge, prix indicatifs fictifs)",
+    "type": "table",
+    "headers": [
+     "Défaut",
+     "Action",
+     "Qui",
+     "Coût",
+     "Avant le",
+     "Preuve"
+    ],
+    "rows": [
+     [
+      "Moisissures salle de bains",
+      "Nettoyage, traitement anti-moisissures, joints",
+      "Vendeur",
+      "≈ 70 €",
+      "12/11/2026",
+      "Photos avant / après"
+     ],
+     [
+      "Conduit de ventilation obstrué",
+      "Débouchage par un professionnel",
+      "Artisan",
+      "≈ 150 €",
+      "12/11/2026",
+      "Facture"
+     ],
+     [
+      "Auréole plafond cuisine",
+      "Sous-couche anti-taches + peinture plafond",
+      "Vendeur ou artisan",
+      "≈ 70 €",
+      "12/11/2026",
+      "Photos + preuve de clôture du sinistre 2022"
+     ],
+     [
+      "Séjour encombré et sombre",
+      "Désencombrement (déchetterie, dons)",
+      "Vendeur",
+      "0 €",
+      "10/11/2026",
+      "Photos"
+     ],
+     [
+      "Séjour sombre",
+      "Ampoules LED couleur chaude + 1 lampadaire",
+      "Vendeur",
+      "≈ 160 €",
+      "10/11/2026",
+      "Ticket de caisse"
+     ],
+     [
+      "Total",
+      "",
+      "",
+      "≈ 450 €",
+      "",
+      "Séance photo le 13/11/2026"
+     ]
+    ]
+   },
+   {
+    "heading": "Ce que tu remets aux acquéreurs (rien n'est caché)",
+    "type": "checklist",
+    "items": [
+     "Devis VMC et débouchage (cause des moisissures) : 2 900 €",
+     "Devis fenêtres des chambres : 5 600 €",
+     "Preuve de clôture du sinistre de 2022 (auréole)",
+     "Mention de la fissure fine, non structurelle, à surveiller",
+     "Chiffrage total des travaux privatifs : 16 500 €"
+    ]
+   },
+   {
+    "heading": "Les étapes du plan",
+    "type": "steps",
+    "items": [
+     "Relis le reportage photo et la grille d'audit : liste les défauts visibles.",
+     "Trie chaque défaut : traiter, documenter ou laisser et expliquer.",
+     "Chiffre chaque action (prix locaux, devis si artisan) et vérifie que le total reste un petit budget.",
+     "Fixe une date limite et un responsable par action.",
+     "Fais signer le plan par le vendeur et annexe-le à tes engagements écrits.",
+     "Programme la séance photo juste après la dernière action."
+    ]
+   },
+   {
+    "heading": "La règle de transparence",
+    "type": "text",
+    "text": "Le Code civil (art. 1112-1) impose à la partie qui connaît une information déterminante pour l'autre de la lui communiquer. L'Éco-staging améliore la présentation, il ne supprime jamais une information : la cause d'un défaut traité en surface (ici, l'absence de VMC) est révélée et chiffrée. Phrase type : « Le défaut est connu, la solution est chiffrée. »"
+   }
+  ],
+  "footer": "Sources : Code civil, art. 1112-1 (Légifrance) ; données du fil rouge fictives (dossier fil rouge Éco-Consultant), prix indicatifs à vérifier localement. Proposition pédagogique Éco-Propriété. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "3 actions à petit budget",
+  "duration_min": 25,
+  "context": "M. Bernard est d'accord pour « faire un petit quelque chose » avant les photos, mais pas plus de 500 €. Tu dois choisir 3 actions à petit budget, les chiffrer, les dater, et préparer la phrase qui explique aux acheteurs ce qui reste à faire.",
+  "materials": [
+   "D05 Reportage photo commenté",
+   "D04 Plan et descriptif",
+   "D13 Devis des travaux privatifs"
+  ],
+  "steps": [
+   "Liste les défauts visibles sur D05 et trie-les : traiter, documenter, laisser et expliquer.",
+   "Choisis 3 actions « traiter » à petit budget et justifie leur effet sur les photos ou la visite.",
+   "Chiffre chaque action (prix indicatif sourcé : enseigne, devis, tarif horaire) et vérifie que le total reste sous 500 €.",
+   "Attribue un responsable et une date limite à chaque action, puis une date de séance photo.",
+   "Indique ce que tu remettras aux acquéreurs pour les défauts documentés (devis D13).",
+   "Rédige en 2 phrases l'explication de la cause des moisissures pour un acheteur."
+  ],
+  "expected": "Défauts : moisissures SdB (cause : ventilation insuffisante, conduit obstrué, pas de VMC), auréole plafond cuisine (sinistre 2022 clos), fissure fine du dégagement (non structurelle), séjour encombré et sombre, joints de fenêtres bois dégradés. Tri : traiter = moisissures en surface + débouchage, plafond cuisine, séjour ; documenter = VMC (2 900 €), fenêtres (5 600 €) ; expliquer = fissure. Trois actions retenues (exemple) : 1) salle de bains : nettoyage, traitement, joints ≈ 70 € + débouchage du conduit ≈ 150 € ; 2) plafond cuisine : sous-couche anti-taches + peinture ≈ 70 € ; 3) séjour : désencombrement 0 € + éclairage LED et lampadaire ≈ 160 €. Total ≈ 450 €, sous le plafond de 500 €. Dates : avant le 12/11/2026, séance photo le 13/11/2026 (annonce en ligne avant le 15/11, comme dans D20). Remis aux acquéreurs : devis VMC 2 900 €, devis fenêtres 5 600 €, total travaux privatifs 16 500 €, preuve de clôture du sinistre. Phrase : « Les traces d'humidité de la salle de bains venaient d'un conduit obstrué, débouché en novembre 2026. Il n'y a pas de VMC : voici le devis d'installation, 2 900 €. »"
+ },
+ "deliverable": {
+  "title": "Plan Éco-staging de M. Bernard",
+  "format": "PDF ou tableur, 1 page, signé par le vendeur (simulation)",
+  "criteria": [
+   "3 actions au moins, chacune reliée à un défaut visible identifié sur D05",
+   "Chaque action a un coût indicatif sourcé, un responsable et une date limite",
+   "Le total reste sous 500 € (≈ 450 € attendu)",
+   "Aucune action ne masque un défaut : la cause des moisissures (absence de VMC) est documentée avec le devis de 2 900 €",
+   "La fissure est signalée et expliquée, pas rebouchée pour être cachée",
+   "Une date de séance photo est fixée après la dernière action"
+  ],
+  "example": "« Plafond cuisine · sous-couche anti-taches + peinture · vendeur · ≈ 70 € · avant le 12/11/2026 · photos avant/après + preuve de clôture du sinistre 2022. »"
+ },
+ "sources": [
+  {
+   "label": "Légifrance — Code civil, art. 1112-1 (devoir d'information)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032007138"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété — méthode Éco-staging (prix indicatifs fictifs du fil rouge)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : photos D05 (salle de bains, plafond de cuisine, séjour, balcon), plan D04 avec pastilles, tableau Traiter / Documenter / Expliquer, ticket de caisse animé. B-roll avant/après d'un séjour désencombré et éclairé : préciser à l'écran « illustration » (pas l'appartement réel). Répartition des 450 € fictive et indicative : [À VALIDER] prix locaux (débouchage de conduit, peinture, éclairage). Relecture juridique : formulation sur l'art. 1112-1 C. civ. et le risque de dissimulation. Cohérence : le devis VMC D13 (2 900 €) inclut aussi le débouchage ; préciser aux acquéreurs que le débouchage a été fait sans modifier le chiffrage officiel de 16 500 €."
+}

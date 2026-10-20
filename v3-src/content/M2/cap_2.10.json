@@ -1,0 +1,422 @@
+{
+ "id": "2.10",
+ "module": 2,
+ "ia": true,
+ "title": "Estimer avant / après rénovation",
+ "objective": "Calculer par comparaison une valeur en l'état (fourchette justifiée) et une valeur après rénovation, en intégrant travaux et appels de fonds, avec l'aide de l'IA",
+ "video": {
+  "duration_min": 8,
+  "hook": "172 000 € pour deux agences. 205 000 € dans la tête de M. Bernard. Et toi ? Tu vas calculer deux valeurs, et chacune aura ses preuves.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Deux agences ont dit 172 000 euros. M. Bernard espère 205 000. Entre les deux, 33 000 euros d'écart, et un vendeur qui ne croit plus personne. Aujourd'hui, tu vas faire ce que personne n'a fait pour lui : calculer deux valeurs. La valeur de son appartement en l'état, tel qu'il est aujourd'hui. Et la valeur après rénovation, une fois les travaux privatifs faits et la façade de l'immeuble isolée. Deux chiffres, chacun avec ses preuves. C'est l'aboutissement de tout le module : le projet, le bâtiment, le DPE, la copropriété, les familles de valeur et le chiffrage des travaux.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; incrustation d'une jauge 172 000 € ← ? → 205 000 €",
+    "onscreen": "172 000 € ou 205 000 € ?"
+   },
+   {
+    "tc": "00:45",
+    "voice": "Pourquoi deux valeurs ? Parce que c'est la seule façon de répondre aux deux questions qu'on te posera. Le vendeur : « combien je peux vendre, maintenant ? ». L'acheteur : « combien ça vaudra quand j'aurai fait les travaux ? ». La valeur en l'état fixe le prix. La valeur après rénovation donne du sens à l'achat. Et l'écart entre les deux, comparé au coût des travaux, prépare la décision du module 3 : faire les travaux avant de vendre, ou vendre en l'état avec un budget clair. Sans ces deux chiffres, tu négocies à l'aveugle.",
+    "screen": "Slide deux colonnes : « Valeur en l'état → fixe le prix (vendeur) » / « Valeur après rénovation → donne du sens à l'achat (acquéreur) » ; flèche vers « Module 3 : travaux ou vente en l'état »",
+    "onscreen": "En l'état = prix · Après = projet"
+   },
+   {
+    "tc": "01:30",
+    "voice": "Première idée : on part des ventes, pas des annonces. Une annonce, c'est un prix demandé. Une vente, c'est un prix payé. Tu prends des ventes récentes du secteur, dans des immeubles de la même époque, de surface proche, par exemple dans la base publique DVF. Tu calcules le prix au mètre carré de chacune, puis la médiane : elle résiste mieux qu'une moyenne à une vente atypique. Et tu sépares deux groupes : les biens vendus en l'état, classés D ou E, et les biens rénovés ou dans un immeuble isolé. C'est ce que fait le tableau D12, avec des comparables fictifs. Huit ventes au total, toutes datées de 2025 ou 2026, toutes avec leur surface. M. Bernard pourra refaire chaque calcul.",
+    "screen": "Plein écran : tableau D12 des comparables (fictifs) en deux blocs : 5 ventes « en l'état D-E » et 3 ventes « rénovés / immeuble isolé » ; colonne €/m² mise en évidence ; mention « Exemple fictif inspiré de DVF »",
+    "onscreen": "Des ventes, pas des annonces"
+   },
+   {
+    "tc": "02:15",
+    "voice": "Démonstration. Groupe en l'état : 2 600, 2 620, 2 650, 2 690 et 2 700 euros le mètre carré. La médiane, c'est la valeur du milieu : 2 650. Valeur de départ : 76 mètres carrés fois 2 650, ça fait 201 400 euros. Petite remarque : moins 15 % sur 201 400, ça donne 171 190 euros. Voilà d'où vient le 172 000 des deux agences. Un pourcentage appliqué d'un coup, sans preuve. Nous, on part de la même base, mais on n'ajuste que ce qu'on peut prouver, famille par famille, avec ton tableau de la capsule 2.8.",
+    "screen": "Calcul animé : liste triée 2 600 / 2 620 / 2 650 / 2 690 / 2 700 → médiane 2 650 ; 76 × 2 650 = 201 400 € ; encart rouge « 201 400 × 0,85 = 171 190 € ≈ 172 000 € (méthode des 2 agences) »",
+    "onscreen": "Valeur de départ : 201 400 €"
+   },
+   {
+    "tc": "03:00",
+    "voice": "Deuxième idée : les ajustements. Famille énergétique : les quatre fenêtres en simple vitrage, moins 5 600 euros, au devis. Famille technique : pas de VMC et un conduit bouché, moins 2 900 euros, au devis. Le chauffage et le ballon ? Neutres : les comparables en l'état ont les mêmes. On arrive à 192 900 euros. Reste la famille copropriété : les appels de fonds de l'isolation. Si l'acte est signé mi-mars 2027, l'acquéreur paiera trois échéances, 26 910 euros. Mais il récupère un immeuble isolé. Donc le marché ne retire pas tout : on retient une décote entre 6 900 et 14 900 euros. Ce chiffre-là, c'est un jugement professionnel, et tu l'écris comme tel, avec ton raisonnement.",
+    "screen": "Tableau d'ajustements qui se remplit : 201 400 − 5 600 (énergétique, D13) − 2 900 (technique, D13) = 192 900 ; ligne copropriété : 3 × 8 970 = 26 910 € dus par l'acquéreur → décote retenue 6 900 à 14 900 € ; mention « jugement documenté, pas une règle »",
+    "onscreen": "192 900 € avant effet copropriété"
+   },
+   {
+    "tc": "03:45",
+    "voice": "Résultat : une fourchette en l'état de 178 000 à 186 000 euros net vendeur. Le haut de la fourchette se justifie par les atouts : quatrième étage avec ascenseur, balcon au sud-ouest, cuisine récente, attestation en classe E. Le bas, par le poids des appels de fonds de 2027. Et les petits défauts visibles, les moisissures, l'auréole ? Pas de décote : un plan Éco-staging d'environ 450 euros, payé par le vendeur. Remarque bien : notre fourchette est au-dessus des 172 000 euros des agences, et elle est prouvée ligne par ligne. C'est ça, ton argument face à un profil C.",
+    "screen": "Graphique en barres horizontales : 172 000 € (2 agences) / fourchette 178 000-186 000 € (ton estimation) / 205 000 € (espoir du vendeur) ; atouts listés à droite du haut de fourchette, appels ITE à gauche du bas",
+    "onscreen": "En l'état : 178 000 – 186 000 € net vendeur"
+   },
+   {
+    "tc": "04:30",
+    "voice": "Maintenant la valeur après rénovation. On prend le second groupe du tableau : 2 820, 2 850 et 2 880 euros le mètre carré, médiane 2 850. Avec les travaux privatifs faits et l'isolation de l'immeuble réalisée, l'appartement se compare à ces biens-là : 76 fois 2 850, ça fait 216 600 euros. Et côté énergie, selon une estimation fictive à confirmer par un diagnostiqueur, il passerait autour de la classe C. Voilà la valeur qui donne envie à un acheteur de se projeter : un appartement rénové, dans un immeuble isolé, à ce prix-là.",
+    "screen": "Bloc « rénovés / immeuble isolé » : 2 820 / 2 850 / 2 880 → médiane 2 850 ; 76 × 2 850 = 216 600 € ; étiquette DPE fictive C en incrustation avec mention « estimation à confirmer »",
+    "onscreen": "Après rénovation : 216 600 €"
+   },
+   {
+    "tc": "05:15",
+    "voice": "Troisième idée : comparer l'écart au coût, honnêtement. Entre la fourchette en l'état et la valeur après, il y a entre 30 600 et 38 600 euros. Le coût pour y arriver : 16 500 euros de travaux privatifs, plus 35 880 euros de quote-part pour l'isolation, soit 52 380 euros, sans compter l'aide demandée par le syndic, pas encore notifiée. La rénovation ne se rembourse donc pas entièrement par le prix. Elle se justifie aussi par le confort, les factures, et la revente future. Tu le dis tel quel. Un vendeur et un acheteur qui comprennent ça négocient mieux.",
+    "screen": "Schéma en balance : à gauche « Écart de valeur 30 600 à 38 600 € », à droite « Coût 16 500 + 35 880 = 52 380 € (hors aide non notifiée) » ; trois icônes sous la balance : confort, factures, revente",
+    "onscreen": "Écart de valeur ≠ coût des travaux"
+   },
+   {
+    "tc": "06:00",
+    "voice": "L'IA peut t'aider sur cette étape, à deux conditions : tu lui donnes tes données, et tu vérifies tout. Demande-lui de calculer les prix au mètre carré et la médiane, d'appliquer tes ajustements, de présenter les deux valeurs dans un tableau, puis de rédiger une note d'une page pour un vendeur qui veut des preuves. Demande-lui aussi de jouer un acheteur sceptique qui conteste chaque ajustement : c'est un excellent entraînement. Mais ne lui demande jamais « combien vaut cet appartement à Melun ». Elle n'a pas les ventes du quartier, elle inventerait. Et pas de nom, pas d'adresse.",
+    "screen": "Capture d'un assistant IA générique : prompt avec tableau des comparables et ajustements ; réponse en tableau ; encart « À ne pas faire : “Combien vaut cet appartement ?” » barré",
+    "onscreen": "Tes données → l'IA calcule → tu vérifies"
+   },
+   {
+    "tc": "06:45",
+    "voice": "Les erreurs fréquentes. Un : utiliser des annonces au lieu de ventes. Deux : un pourcentage forfaitaire pour le DPE. Trois : compter deux fois un même défaut. Quatre : oublier les appels de fonds votés, ou au contraire les déduire en entier sans voir ce que l'acheteur y gagne. Cinq : promettre la valeur après rénovation comme un prix de revente garanti. À toi maintenant : le quiz, puis le modèle d'estimation avec le prompt, puis l'exercice. Tu calcules les deux valeurs de M. Bernard et tu déposes ta note. C'est la dernière pièce de ton dossier d'estimation.",
+    "screen": "Seb plan rapproché ; 5 cartes successives (Annonces / % forfaitaire / Double compte / Appels de fonds mal traités / Valeur après promise) puis bandeau : Quiz → Modèle d'estimation → Exercice → Dépôt → Cas pratique du module",
+    "onscreen": "Dernière pièce du dossier d'estimation"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Les ventes comparables en l'état se vendent 2 600, 2 620, 2 650, 2 690 et 2 700 €/m². Quelle valeur de départ pour les 76 m² de M. Bernard ?",
+    "options": [
+     "201 400 €",
+     "201 552 €",
+     "205 200 €"
+    ],
+    "answer": 0,
+    "fb_title": "Médiane × surface",
+    "fb_text": "La médiane des 5 ventes est 2 650 €/m² (valeur du milieu). 76 × 2 650 = 201 400 €. La moyenne (2 652 €/m²) donnerait 201 552 € : la médiane est préférée car elle résiste aux ventes atypiques.",
+    "whys": [
+     "Juste : 76 × 2 650 = 201 400 €.",
+     "Faux : c'est 76 × 2 652, la moyenne ; on retient la médiane.",
+     "Faux : c'est 76 × 2 700, le prix le plus haut, sans justification."
+    ]
+   },
+   {
+    "question": "Pourquoi les convecteurs de 1998 ne font-ils pas l'objet d'un ajustement dans la valeur en l'état ?",
+    "options": [
+     "Parce que le vendeur refuse de les remplacer",
+     "Parce que les comparables en l'état ont le même type d'équipement : c'est déjà dans leur prix",
+     "Parce que le chauffage ne compte pas dans la valeur"
+    ],
+    "answer": 1,
+    "fb_title": "Neutre si les références l'ont aussi",
+    "fb_text": "Un élément partagé par les ventes de référence est déjà intégré à leur prix au m². Le déduire reviendrait à le compter deux fois. Le devis des radiateurs sert pour la valeur après rénovation et le budget de l'acquéreur.",
+    "whys": [
+     "Faux : la décision du vendeur ne change pas la méthode d'estimation.",
+     "Juste : c'est la règle de l'élément neutre.",
+     "Faux : le chauffage compte, mais ici il ne différencie pas le bien de ses comparables."
+    ]
+   },
+   {
+    "question": "Si l'acte est signé mi-mars 2027, quelle part de la quote-part ITE l'acquéreur paiera-t-il au syndicat (sans accord contraire) ?",
+    "options": [
+     "35 880 €",
+     "26 910 €",
+     "8 970 €",
+     "Rien"
+    ],
+    "answer": 1,
+    "fb_title": "Trois échéances après l'acte",
+    "fb_text": "Les appels sont exigibles le 1/01, 1/04, 1/07 et 1/10/2027. Copropriétaire au 1/01, M. Bernard paie la première ; l'acquéreur paie les trois suivantes : 3 × 8 970 = 26 910 €. Un accord différent reste possible entre eux, rédigé par le notaire.",
+    "whys": [
+     "Faux : c'est la quote-part totale, dont une échéance exigible avant l'acte.",
+     "Juste : 3 × 8 970 = 26 910 € (art. 6-2 du décret du 17 mars 1967).",
+     "Faux : c'est l'échéance du 1/01/2027, à la charge de M. Bernard.",
+     "Faux : les appels exigibles après l'acte sont dus par le nouveau copropriétaire."
+    ]
+   },
+   {
+    "question": "Quelle est la valeur après rénovation de l'appartement de M. Bernard (comparables rénovés à 2 820, 2 850 et 2 880 €/m²) ?",
+    "options": [
+     "201 400 €",
+     "216 600 €",
+     "218 880 €"
+    ],
+    "answer": 1,
+    "fb_title": "76 × 2 850",
+    "fb_text": "Médiane des biens rénovés ou en immeuble isolé : 2 850 €/m². 76 × 2 850 = 216 600 €, dans l'hypothèse où les travaux privatifs sont faits et l'ITE de la copropriété réalisée.",
+    "whys": [
+     "Faux : c'est la valeur de départ en l'état.",
+     "Juste : médiane du second groupe × surface.",
+     "Faux : 76 × 2 880 prend le prix le plus haut au lieu de la médiane."
+    ]
+   },
+   {
+    "question": "Que demandes-tu à l'IA pour cette estimation ?",
+    "options": [
+     "« Combien vaut un T4 de 76 m² à Melun ? »",
+     "De calculer médianes, ajustements et fourchette à partir de tes comparables, puis de jouer un acheteur sceptique",
+     "De choisir à ta place le prix de présentation"
+    ],
+    "answer": 1,
+    "fb_title": "Tes données, son calcul, ta vérification",
+    "fb_text": "L'IA n'a pas accès aux ventes locales fiables : elle inventerait. Elle est utile pour calculer, structurer, rédiger et te contredire à partir de tes données sourcées. Tu vérifies chaque chiffre et tu ne transmets aucune donnée personnelle.",
+    "whys": [
+     "Faux : sans tes ventes de référence, la réponse serait inventée.",
+     "Juste : c'est l'usage le plus utile et le plus sûr.",
+     "Faux : le prix de présentation est une décision professionnelle prise avec le vendeur (module 3)."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Modèle d'estimation",
+  "kind": "modele",
+  "intro": "Modèle à remplir pour chaque estimation : il produit une valeur en l'état sous forme de fourchette justifiée et une valeur après rénovation, puis compare l'écart au coût des travaux. Il se remplit après la grille d'audit, la note copropriété, le tableau des 8 familles et le chiffrage des travaux.",
+  "sections": [
+   {
+    "heading": "Les formules",
+    "type": "formula",
+    "text": "Prix au m² d'une vente = prix / surface. Prix de référence = médiane des prix au m². Valeur de départ = surface × médiane. Valeur en l'état = valeur de départ ± ajustements prouvés (fourchette). Valeur après rénovation = surface × médiane des comparables rénovés. Exemple M. Bernard : 76 × 2 650 = 201 400 € ; 76 × 2 850 = 216 600 €."
+   },
+   {
+    "heading": "Méthode en 6 étapes",
+    "type": "steps",
+    "items": [
+     "Sélectionne des ventes récentes (DVF ou références notariales) : même secteur, même époque d'immeuble, surface proche ; jamais des annonces.",
+     "Sépare deux groupes : biens en l'état comparables, biens rénovés ou en immeuble rénové.",
+     "Calcule le prix au m² de chaque vente et la médiane de chaque groupe.",
+     "Applique les ajustements prouvés du tableau des 8 familles, une famille par défaut, sans double compte.",
+     "Intègre les appels de fonds votés selon le calendrier et ce que l'acquéreur y gagne ; écris ton raisonnement.",
+     "Donne une fourchette en l'état, la valeur après rénovation, et compare l'écart au coût total des travaux."
+    ]
+   },
+   {
+    "heading": "Comparables D12 (exemple fictif inspiré de DVF)",
+    "type": "table",
+    "headers": [
+     "Réf.",
+     "Bien",
+     "Vente",
+     "Prix",
+     "€/m²"
+    ],
+    "rows": [
+     [
+      "C1",
+      "T4 78 m², 1972, 4e asc., E",
+      "03/2026",
+      "204 360 €",
+      "2 620"
+     ],
+     [
+      "C2",
+      "T3 68 m², 1968, 2e sans asc., D",
+      "11/2025",
+      "183 600 €",
+      "2 700"
+     ],
+     [
+      "C3",
+      "T4 80 m², 1975, 5e asc., E",
+      "06/2026",
+      "212 000 €",
+      "2 650"
+     ],
+     [
+      "C4",
+      "T4 74 m², 1970, 1er sans asc., E",
+      "01/2026",
+      "192 400 €",
+      "2 600"
+     ],
+     [
+      "C5",
+      "T3 70 m², 1978, 3e asc., D",
+      "09/2025",
+      "188 300 €",
+      "2 690"
+     ],
+     [
+      "R1",
+      "T4 75 m², 1971, immeuble ITE 2022, C",
+      "02/2026",
+      "216 000 €",
+      "2 880"
+     ],
+     [
+      "R2",
+      "T3 66 m², 1969, rénové 2024, D",
+      "10/2025",
+      "186 120 €",
+      "2 820"
+     ],
+     [
+      "R3",
+      "T4 79 m², 1974, immeuble ITE 2021, C",
+      "05/2026",
+      "225 150 €",
+      "2 850"
+     ]
+    ]
+   },
+   {
+    "heading": "Ajustements : exemple rempli M. Bernard",
+    "type": "table",
+    "headers": [
+     "Famille",
+     "Élément",
+     "Ajustement",
+     "Preuve"
+    ],
+    "rows": [
+     [
+      "Marché",
+      "Valeur de départ 76 × 2 650",
+      "201 400 €",
+      "D12 (médiane C1-C5)"
+     ],
+     [
+      "Énergétique",
+      "4 fenêtres bois simple vitrage",
+      "−5 600 €",
+      "Devis D13"
+     ],
+     [
+      "Technique",
+      "Pas de VMC, conduit obstrué",
+      "−2 900 €",
+      "Devis D13"
+     ],
+     [
+      "Technique / énergétique",
+      "Convecteurs 1998, ballon 2011",
+      "0 € (neutre)",
+      "Présents dans C1-C5"
+     ],
+     [
+      "Copropriété",
+      "Appels ITE : 26 910 € dus par l'acquéreur si acte mi-mars 2027, immeuble isolé en contrepartie",
+      "−6 900 € à −14 900 €",
+      "PV D07 ; jugement documenté"
+     ],
+     [
+      "Perçue",
+      "Moisissures, auréole, fissure fine",
+      "0 € (Éco-staging ≈ 450 € à la charge du vendeur)",
+      "Grille 2.6"
+     ],
+     [
+      "Intrinsèque",
+      "4e asc., balcon SO, cuisine 2016, attestation E",
+      "Haut de fourchette",
+      "D04, D03"
+     ],
+     [
+      "Résultat",
+      "Fourchette en l'état, net vendeur",
+      "178 000 € – 186 000 €",
+      "192 900 − 14 900 / − 6 900"
+     ]
+    ]
+   },
+   {
+    "heading": "Avant / après : la comparaison honnête",
+    "type": "table",
+    "headers": [
+     "Indicateur",
+     "Valeur",
+     "Calcul"
+    ],
+    "rows": [
+     [
+      "Valeur en l'état",
+      "178 000 – 186 000 €",
+      "Voir ajustements"
+     ],
+     [
+      "Valeur après rénovation",
+      "216 600 €",
+      "76 × 2 850 (médiane R1-R3)"
+     ],
+     [
+      "Écart de valeur",
+      "30 600 – 38 600 €",
+      "216 600 − 186 000 / − 178 000"
+     ],
+     [
+      "Coût des travaux",
+      "52 380 €",
+      "16 500 (privatifs, D13) + 35 880 (quote-part ITE, D07), hors aide non notifiée"
+     ],
+     [
+      "Performance (fictive, à confirmer)",
+      "F (2023) → E (attestation) → D → C",
+      "Après travaux privatifs ≈ 110 kWhEF/m² ; après ITE ≈ 85"
+     ]
+    ]
+   },
+   {
+    "heading": "Prompt IA prêt à copier",
+    "type": "text",
+    "text": "« Tu es assistant d'un agent immobilier. Voici des ventes comparables (prix, surface) en deux groupes, “en l'état” et “rénovés” : [colle le tableau]. Voici mes ajustements prouvés, avec leur source : [colle]. Calcule le prix au m² de chaque vente, la médiane de chaque groupe, la valeur de départ et la valeur après rénovation pour [surface] m², applique les ajustements et présente une fourchette. Puis joue un acheteur sceptique : conteste chaque ajustement en une phrase. N'ajoute aucune donnée de marché que je ne t'ai pas donnée. » Aucun nom, aucune adresse, aucun numéro de DPE."
+   },
+   {
+    "heading": "Ce que tu dis au vendeur",
+    "type": "text",
+    "text": "« En l'état, votre appartement se situe entre 178 000 et 186 000 € net vendeur : je pars des ventes réelles du secteur et je n'ai retiré que ce que je peux prouver, les fenêtres, la ventilation et une partie des appels de fonds. Rénové, dans un immeuble isolé, il vaudrait autour de 216 600 €. L'écart ne couvre pas tout le coût des travaux : c'est pour cela qu'on décidera ensemble s'il vaut mieux les faire ou vendre avec un budget clair. »"
+   }
+  ],
+  "footer": "Sources : DVF, data.gouv.fr (ventes des 5 dernières années, mises à jour en avril et octobre, hors Alsace-Moselle et Mayotte) ; art. 6-2 du décret n° 67-223 du 17 mars 1967 ; comparables D12 et devis D13 fictifs. La valeur estimée n'est pas une expertise opposable. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Calculer les deux valeurs",
+  "duration_min": 40,
+  "context": "Tu as tous les éléments du dossier de M. Bernard : audit 360°, note copropriété, tableau des 8 familles et chiffrage des travaux. Il attend maintenant deux chiffres, chacun justifié : ce que vaut son appartement aujourd'hui, et ce qu'il vaudrait rénové. Tu calcules, tu fais contrôler par l'IA, et tu rédiges la note que tu lui remettras.",
+  "materials": [
+   "D12 Tableau des comparables (fictifs)",
+   "D13 Devis des travaux privatifs",
+   "D07 PV d'AG du 12/06/2025",
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D04 Plan et descriptif",
+   "Ton tableau des 8 familles (capsule 2.8) et ton chiffrage (capsule 2.9)"
+  ],
+  "steps": [
+   "Calcule le prix au m² de chaque comparable de D12 et la médiane du groupe « en l'état » (C1-C5) et du groupe « rénovés » (R1-R3).",
+   "Calcule la valeur de départ en l'état et la valeur après rénovation pour 76 m².",
+   "Applique les ajustements prouvés (énergétique, technique) et justifie les éléments neutres.",
+   "Calcule ce que l'acquéreur paierait au titre de l'ITE si l'acte est signé le 15/03/2027, puis propose et justifie une décote copropriété ; déduis la fourchette en l'état.",
+   "Compare l'écart de valeur au coût total des travaux (privatifs + quote-part ITE, hors aide non notifiée).",
+   "Fais vérifier tes calculs par l'IA avec le prompt fourni, et demande-lui de jouer l'acheteur sceptique ; note les objections utiles.",
+   "Rédige ta note d'une page pour M. Bernard, avec les deux valeurs et leurs preuves."
+  ],
+  "ia_prompt": {
+   "prompt": "Rôle : tu es l'assistant d'un agent immobilier éco-consultant. Tu calcules et tu présentes ; tu ne fournis aucune donnée de marché que je ne t'ai pas donnée.\nContexte : appartement T4 de 76 m² (Carrez), 4e étage avec ascenseur, balcon 6 m² sud-ouest, immeuble de 1972 en copropriété, Seine-et-Marne. Attestation DPE actualisée : classe E. Le vendeur, très factuel, veut des preuves pour chaque chiffre.\nDonnées – ventes comparables fictives (prix, surface) :\nGroupe en l'état (D-E) : C1 204 360 € / 78 m² ; C2 183 600 € / 68 m² ; C3 212 000 € / 80 m² ; C4 192 400 € / 74 m² ; C5 188 300 € / 70 m².\nGroupe rénovés ou immeuble isolé (C-D) : R1 216 000 € / 75 m² ; R2 186 120 € / 66 m² ; R3 225 150 € / 79 m².\nAjustements prouvés : fenêtres simple vitrage −5 600 € (devis) ; absence de VMC −2 900 € (devis) ; chauffage et ballon neutres (présents dans le groupe en l'état). Copropriété : isolation de façade votée, quote-part du lot 35 880 € en 4 échéances de 8 970 € exigibles les 1/01, 1/04, 1/07 et 1/10/2027 ; acte envisagé le 15/03/2027 ; décote retenue entre 6 900 € et 14 900 €. Travaux privatifs totaux : 16 500 €. Aide de la copropriété demandée, non notifiée.\nTâche : 1) calcule le prix au m² de chaque vente et la médiane de chaque groupe ; 2) calcule la valeur de départ, la fourchette en l'état et la valeur après rénovation ; 3) calcule le montant ITE restant dû par l'acquéreur et l'écart de valeur comparé au coût total des travaux ; 4) rédige une note de 250 mots maximum pour le vendeur, en vouvoyant, sans jargon, chaque chiffre suivi de sa source ; 5) joue ensuite un acheteur sceptique et conteste chaque ajustement en une phrase.\nContraintes : montre tous les calculs ; arrondis au millier seulement pour la fourchette finale ; écris « exemple fictif » pour les comparables ; ne chiffre aucune aide ; ne présente pas la valeur après rénovation comme un prix garanti.\nFormat : tableau des calculs, puis la note, puis les objections.",
+   "guardrails": [
+    "RGPD : aucune donnée personnelle réelle (nom, adresse, numéro de DPE, situation familiale) dans un outil d'IA non maîtrisé par ton agence.",
+    "Vérifie chaque calcul : médianes 2 650 et 2 850 €/m² ; 201 400 € ; 192 900 € ; 178 000-186 000 € ; 216 600 € ; 26 910 € ; 52 380 €.",
+    "N'accepte aucune donnée de marché ajoutée par l'IA : si elle cite un prix moyen de quartier, supprime-le.",
+    "Relis la note : pas de promesse de prix de vente, mention de l'aide non notifiée sans montant, renvoi au notaire pour la répartition des appels de fonds."
+   ]
+  },
+  "expected": "Prix au m² : C1 2 620, C2 2 700, C3 2 650, C4 2 600, C5 2 690 → médiane 2 650 €/m² ; R1 2 880, R2 2 820, R3 2 850 → médiane 2 850 €/m². Valeur de départ : 76 × 2 650 = 201 400 €. Ajustements : −5 600 € (fenêtres, famille énergétique, D13) ; −2 900 € (VMC, famille technique, D13) ; convecteurs et ballon neutres (présents dans C1-C5) → 192 900 €. Copropriété : acte au 15/03/2027 → M. Bernard paie l'appel du 1/01/2027 (8 970 €), l'acquéreur les 3 suivants, 3 × 8 970 = 26 910 € ; décote partielle retenue de 6 900 € à 14 900 € (environ un quart à un peu plus de la moitié de 26 910 €), parce que l'acquéreur obtient un immeuble isolé. Fourchette en l'état : 192 900 − 14 900 = 178 000 € ; 192 900 − 6 900 = 186 000 € net vendeur ; haut de fourchette soutenu par 4e avec ascenseur, balcon sud-ouest, cuisine 2016, attestation E. Défauts visibles : Éco-staging ≈ 450 €, pas de décote. Valeur après rénovation : 76 × 2 850 = 216 600 €. Écart : 30 600 € à 38 600 €. Coût : 16 500 + 35 880 = 52 380 € hors aide non notifiée → la rénovation ne se rembourse pas entièrement par le prix ; arbitrage au module 3. Comparaison : méthode des 2 agences = 201 400 × 0,85 = 171 190 € ≈ 172 000 €, sans preuve. Objections de l'IA utiles : « pourquoi pas toute la quote-part ITE ? » (réponse : contrepartie d'un immeuble isolé, référence aux ventes R1 et R3) ; « vos comparables ont-ils un balcon ? » (à vérifier dans D12)."
+ },
+ "deliverable": {
+  "title": "Note d'estimation avant / après rénovation pour M. Bernard",
+  "format": "PDF, 1 page + annexe (tableau des calculs et échange avec l'IA)",
+  "criteria": [
+   "Les médianes (2 650 et 2 850 €/m²) et les valeurs 201 400 € et 216 600 € sont calculées et justes",
+   "Chaque ajustement est rattaché à une famille de valeur et à une preuve (D13, D07), sans double compte",
+   "Le montant ITE à la charge de l'acquéreur (26 910 € pour un acte au 15/03/2027) est calculé et la décote retenue est justifiée par écrit",
+   "La fourchette en l'état 178 000-186 000 € net vendeur est présentée avec ce qui justifie le haut et le bas",
+   "L'écart de valeur (30 600-38 600 €) est comparé au coût total des travaux (52 380 € hors aide non notifiée)",
+   "La note ne présente pas la valeur après rénovation comme un prix garanti et ne chiffre aucune aide",
+   "L'annexe IA ne contient aucune donnée personnelle et montre au moins une objection d'acheteur avec ta réponse"
+  ],
+  "example": "« En l'état : 178 000 à 186 000 € net vendeur. Base : 5 ventes comparables, médiane 2 650 €/m² × 76 m² = 201 400 €. Retraits prouvés : fenêtres −5 600 € et ventilation −2 900 € (devis). Appels de fonds de l'isolation : décote partielle de 6 900 à 14 900 €, l'acquéreur bénéficiant d'un immeuble isolé. »"
+ },
+ "sources": [
+  {
+   "label": "DVF, Demandes de valeurs foncières (data.gouv.fr) : ventes des 5 dernières années, mises à jour en avril et octobre, hors Alsace-Moselle et Mayotte",
+   "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+  },
+  {
+   "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des provisions en cas de mutation d'un lot)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+  },
+  {
+   "label": "Notaires de France, étude « valeur verte » (transactions 2024, publiée en janvier 2026) : écarts de prix selon la classe DPE à lire par région et par année"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété : méthode par comparaison, comparables D12 et devis D13 fictifs (Bible du fil rouge)"
+  }
+ ],
+ "notes_prod": "Visuels : tableau D12 des comparables (fictifs, à créer à l'identique dans le dossier fil rouge : C1-C5 et R1-R3 avec ces prix et surfaces, médianes 2 650 et 2 850 €/m²) ; calculs animés ; graphique 172 000 / 178 000-186 000 / 205 000 ; balance écart de valeur vs coût des travaux. B-roll : appartement rénové lumineux, façade isolée d'un immeuble des années 1970. Points à valider : la décote copropriété « 6 900 € à 14 900 € » est une proposition pédagogique dérivée de la fourchette de la Bible (192 900 − 186 000 / − 178 000), à présenter comme jugement documenté, pas comme règle de marché ; performances après travaux (D puis C) fictives. Cohérence : le prix de présentation et le mandat (189 000 € FAI, 180 000 € net vendeur) relèvent du module 3, non annoncés ici. Ne pas citer de pourcentage national de valeur verte."
+}

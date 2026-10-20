@@ -1,0 +1,324 @@
+{
+ "id": "3.5",
+ "module": 3,
+ "ia": false,
+ "title": "Présenter et défendre son prix",
+ "objective": "Mener le rendez-vous de restitution et justifier un prix de présentation de 189 000 € FAI (180 000 € net vendeur) par les preuves du dossier",
+ "video": {
+  "duration_min": 8,
+  "hook": "Deux agences ont dit 172 000 €. M. Bernard espère 205 000 €. Toi, tu arrives avec 189 000 €. Il a une seule question : « Pourquoi vous croirais-je, vous ? »",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Jeudi 29 octobre, 10 heures, chez M. Bernard. Sur la table, trois chiffres. 172 000 euros, c'est ce que lui ont annoncé deux agences. 205 000 euros, c'est ce qu'il espère. Et toi, tu arrives avec 189 000 euros. Il croise les bras : « Trois prix, trois discours. Pourquoi vous croirais-je, vous ? » C'est le moment de vérité du module. Aujourd'hui, je te montre comment présenter ton prix, et surtout comment le défendre, avec une seule arme : la preuve.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille ; insert : trois post-it sur une table (172 000 € · 205 000 € · 189 000 €)",
+    "onscreen": "172 000 € · 205 000 € · 189 000 €"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est décisif ? Parce que le prix, c'est le cœur du mandat. Trop haut, tu gagnes peut-être la signature, mais le bien reste en ligne des mois, les acheteurs l'ignorent, et à la fin tu dois baisser : ton vendeur perd du temps et confiance. Trop bas, tu lèses ton vendeur, et un profil comme M. Bernard le sentira. Le bon prix, c'est celui que tu peux défendre deux fois : aujourd'hui devant le vendeur, et demain devant l'acheteur. Si tu ne peux pas le justifier ligne par ligne, ce n'est pas un prix, c'est un pari.",
+    "screen": "Slide : jauge horizontale « trop bas / prix défendable / trop haut » avec conséquences sous chaque zone",
+    "onscreen": "Un prix se défend deux fois : vendeur, puis acheteur"
+   },
+   {
+    "tc": "01:30",
+    "voice": "Première idée clé : une trame en sept temps, toujours la même. Un, l'ordre du jour et le rappel de son projet : vendu avant l'été 2027, pour se rapprocher de sa fille. Deux, l'étiquette en vigueur : l'attestation actualisée, classe E. Trois, la valeur : les ventes comparables et la fourchette. Quatre, la stratégie : vente en l'état, Éco-staging, chiffrage des travaux pour l'acheteur. Cinq, le prix de présentation. Six, tes engagements et le mandat. Sept, ses questions, et une étape datée. Tu ne commences jamais par le prix. Le prix arrive en cinquième position, quand les preuves sont déjà sur la table.",
+    "screen": "Animation : 7 cases numérotées qui s'allument dans l'ordre ; la case 5 « Prix » mise en évidence",
+    "onscreen": "Le prix arrive en 5e position"
+   },
+   {
+    "tc": "02:20",
+    "voice": "Deuxième idée clé : tu montres le calcul, de bout en bout. Les ventes comparables du secteur, appartements T3-T4 dans des immeubles de 1965 à 1980, classés D ou E, vendus en 2025 et 2026 : 2 650 euros du mètre carré en moyenne. Fois 76 mètres carrés : 201 400 euros de base. Ensuite, tu ajustes, et tu dis pourquoi. Les quatre fenêtres en simple vitrage. L'absence de VMC. Et les appels de fonds de l'isolation de façade, votés, que tout acheteur intégrera. Résultat : une fourchette de 178 000 à 186 000 euros net vendeur. Chaque ajustement est relié à une pièce : D12, D13, D07.",
+    "screen": "Plein écran : calcul animé · 76 × 2 650 = 201 400 € → ajustements (fenêtres SV, pas de VMC, appels ITE) → fourchette 178 000 – 186 000 € net ; vignettes D12, D13, D07",
+    "onscreen": "Base 201 400 € → fourchette 178 000 – 186 000 € net"
+   },
+   {
+    "tc": "03:15",
+    "voice": "Et maintenant, tu expliques les deux autres chiffres, sans dénigrer personne. 172 000 euros ? Fais le calcul : 201 400 moins 15 pour cent, ça donne 171 190 euros. C'est une décote forfaitaire, appliquée à cause d'un DPE en F. Sauf que l'étiquette en vigueur, aujourd'hui, c'est E. Et une décote à la louche, ce n'est pas une analyse. 205 000 euros ? Divisé par 76, ça fait près de 2 700 euros du mètre carré. Plus que les comparables en l'état, alors que le bien a des fenêtres à changer, pas de VMC et 35 880 euros d'appels de fonds à venir. Tu ne dis pas « ils ont tort ». Tu dis : « Voici d'où vient chaque chiffre. »",
+    "screen": "Tableau trois lignes : 172 000 € (−15 % forfaitaire sur un F dépassé) · 205 000 € (≈ 2 697 €/m², au-dessus des comparables) · 189 000 € FAI (comparables + ajustements)",
+    "onscreen": "201 400 × 0,85 = 171 190 € · 205 000 / 76 ≈ 2 697 €/m²"
+   },
+   {
+    "tc": "04:15",
+    "voice": "Troisième idée clé : le passage du net au prix affiché. Ta recommandation : 180 000 euros net vendeur. C'est dans la fourchette, plutôt dans sa partie basse, et c'est voulu : l'acheteur fera son propre calcul, avec 16 500 euros de travaux privatifs et les appels de façade. Un prix juste attire des visites dès les premières semaines, et M. Bernard veut vendre avant l'été. À ces 180 000 euros s'ajoutent tes honoraires : 9 000 euros TTC, soit 5 pour cent, à la charge de l'acquéreur. Prix affiché : 189 000 euros, frais d'agence inclus. Dis-le simplement : « Vous, vous recevez 180 000 euros. L'acheteur voit 189 000 euros. »",
+    "screen": "Schéma en escalier : 180 000 € net vendeur + 9 000 € TTC d'honoraires (5 %, charge acquéreur) = 189 000 € FAI ; mention 2 487 €/m² FAI",
+    "onscreen": "180 000 € net + 9 000 € TTC = 189 000 € FAI"
+   },
+   {
+    "tc": "05:10",
+    "voice": "Démonstration : défendre le prix face à l'acheteur, devant le vendeur. C'est ce qui rassure le plus un profil C. Tu lui dis : « Voici les trois questions que les acheteurs poseront, et mes réponses. » Un : « Le DPE ? » Classe E, attestation officielle valable jusqu'en 2033. Deux : « Les travaux ? » 16 500 euros, chiffrés poste par poste, devis à l'appui. Trois : « Les appels de façade ? » 35 880 euros pour le lot, en quatre échéances ; le prix en tient compte, et l'immeuble sera isolé. Quand M. Bernard voit que tu as déjà les réponses, il comprend que ton prix tiendra en visite. Ensuite, tu te tais. Tu laisses M. Bernard relire le calcul, poser ses questions. S'il te dit : « Votre fourchette va jusqu'à 186 000, pourquoi pas 186 000 ? », tu ne te braques pas. Tu lui réponds : « C'est possible, c'est votre décision. Avec 186 000 euros net, le prix affiché passe à 195 300 euros. Je vous recommande 180 000, pour avoir des visites dès les premières semaines. Si nous n'avons pas de visites, nous en reparlerons sur des faits, à une date que nous fixons ensemble. » Tu donnes ton avis, tu montres la conséquence, et tu lui laisses le choix.",
+    "screen": "Slide « Les 3 questions des acheteurs » : DPE · travaux · appels de façade, avec la réponse et la pièce (D03, D13, D07) sous chacune",
+    "onscreen": "3 questions acheteurs, 3 réponses prouvées"
+   },
+   {
+    "tc": "06:50",
+    "voice": "Les erreurs fréquentes. Un : annoncer le prix d'entrée de jeu. Deux : s'aligner sur le chiffre du vendeur pour gagner le mandat. Un prix acheté, c'est une vente perdue. Trois : prendre des annonces en cours comme références. Ce sont des prix demandés, pas des prix de vente. Quatre : confondre net vendeur et prix affiché. Cinq : promettre un délai ou un prix final. Tu recommandes un prix de présentation ; c'est le marché qui fixera le prix de vente. Et six : demander la signature tout de suite à un vendeur qui veut réfléchir.",
+    "screen": "Slide « 6 erreurs » révélées une à une, pictogramme barré pour chacune",
+    "onscreen": "Preuves d'abord · pas de prix acheté · ventes, pas annonces · net ≠ FAI · pas de promesse"
+   },
+   {
+    "tc": "07:35",
+    "voice": "À toi. Quiz flash juste après. Télécharge la trame de rendez-vous. Dans l'exercice, tu construis ton support de restitution pour M. Bernard, sept slides maximum. Ton livrable : ce support, prêt à être projeté ou imprimé. Prochaine capsule : les objections, selon le profil DISC, avec l'IA comme partenaire d'entraînement.",
+    "screen": "Seb face caméra ; pictos du parcours, miniature de la trame de RDV",
+    "onscreen": "Quiz → Trame de RDV → Exercice → Livrable"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Dans la trame de restitution, à quel moment annonces-tu le prix ?",
+    "options": [
+     "En premier, pour capter l'attention",
+     "Après l'étiquette, la valeur et la stratégie, quand les preuves sont posées",
+     "À la fin, après la signature du mandat"
+    ],
+    "answer": 1,
+    "fb_title": "Le prix en 5e position",
+    "fb_text": "Ordre du jour et projet, étiquette, valeur, stratégie, puis prix, engagements et étape datée. Le prix arrive quand le vendeur a déjà vu les preuves.",
+    "whys": [
+     "Faux : sans preuves, le prix devient un chiffre de plus face aux autres agences.",
+     "Juste : le prix découle des preuves déjà présentées.",
+     "Faux : le prix figure obligatoirement dans le mandat, il se discute avant."
+    ]
+   },
+   {
+    "question": "Comment passes-tu de 180 000 € net vendeur au prix affiché ?",
+    "options": [
+     "180 000 + 9 000 € TTC d'honoraires (5 %, charge acquéreur) = 189 000 € FAI",
+     "180 000 − 9 000 = 171 000 € FAI",
+     "180 000 × 1,15 = 207 000 € FAI"
+    ],
+    "answer": 0,
+    "fb_title": "Net + honoraires = FAI",
+    "fb_text": "Honoraires de 9 000 € TTC, soit 5 % de 180 000 €, à la charge de l'acquéreur : prix affiché 189 000 € frais d'agence inclus. Le vendeur reçoit 180 000 €.",
+    "whys": [
+     "Juste : 180 000 × 5 % = 9 000 € ; 180 000 + 9 000 = 189 000 €.",
+     "Faux : les honoraires à la charge de l'acquéreur s'ajoutent au net, ils ne se retranchent pas.",
+     "Faux : aucun taux de 15 % ici ; ce calcul ne correspond à rien du dossier."
+    ]
+   },
+   {
+    "question": "M. Bernard : « Deux agences m'ont dit 172 000 €. » Quelle réponse choisis-tu ?",
+    "options": [
+     "« Ils ne connaissent pas le marché. »",
+     "« 201 400 € moins 15 %, c'est 171 190 € : une décote forfaitaire liée au F. Votre étiquette est E. Voici mes ajustements, pièce par pièce. »",
+     "« Je peux monter à 205 000 € si vous signez aujourd'hui. »",
+     "« Les prix vont remonter, attendez. »"
+    ],
+    "answer": 1,
+    "fb_title": "Expliquer sans dénigrer",
+    "fb_text": "Tu montres d'où vient leur chiffre (décote forfaitaire de 15 % sur une étiquette F dépassée) et tu opposes tes ajustements documentés. Tu ne critiques pas les confrères : tu compares des méthodes.",
+    "whys": [
+     "Faux : dénigrer braque un vendeur C et n'apporte aucune preuve.",
+     "Juste : calcul refait, étiquette en vigueur, ajustements sourcés.",
+     "Faux : prix acheté pour gagner le mandat, indéfendable devant l'acheteur.",
+     "Faux : prédiction non sourcée, contraire à son échéance."
+    ]
+   },
+   {
+    "question": "Pourquoi recommander 180 000 € net plutôt que le haut de la fourchette (186 000 €) ?",
+    "options": [
+     "Pour vendre vite au détriment du vendeur",
+     "Parce que l'acheteur intégrera 16 500 € de travaux et les appels ITE, et que M. Bernard veut vendre avant l'été 2027",
+     "Parce que la loi plafonne le prix à 180 000 €",
+     "Pour réduire les honoraires de l'agence"
+    ],
+    "answer": 1,
+    "fb_title": "Un prix qui génère des visites",
+    "fb_text": "Le prix de présentation tient compte du calcul que fera l'acheteur (travaux, appels de fonds) et de l'échéance du vendeur. C'est une recommandation : le vendeur décide.",
+    "whys": [
+     "Faux : on reste dans la fourchette justifiée, sans brader.",
+     "Juste : prix réaliste, attractif, cohérent avec son échéance.",
+     "Faux : aucune règle ne plafonne le prix d'un bien.",
+     "Faux : les honoraires diminueraient avec le prix, ce n'est pas l'objectif."
+    ]
+   },
+   {
+    "question": "Que dis-tu à M. Bernard sur le prix de vente final ?",
+    "options": [
+     "« Je vous garantis 189 000 €. »",
+     "« Je vous recommande un prix de présentation ; le prix de vente dépendra des offres, que vous accepterez ou non. »",
+     "« Vous vendrez en 91 jours à ce prix. »"
+    ],
+    "answer": 1,
+    "fb_title": "Recommander, pas promettre",
+    "fb_text": "Tu t'engages sur une méthode et des moyens, pas sur un résultat. Le prix de vente se forme avec les offres reçues ; c'est le vendeur qui les accepte.",
+    "whys": [
+     "Faux : promesse de résultat que tu ne peux pas tenir.",
+     "Juste : recommandation claire, décision laissée au vendeur.",
+     "Faux : chiffre déclaratif d'enquête transformé en promesse de délai."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Trame de RDV",
+  "kind": "trame",
+  "intro": "Cette trame structure ton rendez-vous de restitution d'estimation (45 à 60 minutes). Elle te sert à présenter la valeur, la stratégie et le prix dans un ordre qui fait passer les preuves avant le chiffre, puis à défendre ce prix comme tu le feras devant un acheteur. Envoie le dossier au vendeur 48 h avant.",
+  "sections": [
+   {
+    "heading": "Les 7 temps du rendez-vous",
+    "type": "table",
+    "headers": [
+     "Temps",
+     "Durée",
+     "Contenu",
+     "Pièce montrée"
+    ],
+    "rows": [
+     [
+      "1. Ordre du jour et projet",
+      "5 min",
+      "Objectif, durée, rappel du projet et de l'échéance",
+      "D01"
+     ],
+     [
+      "2. Étiquette en vigueur",
+      "5 min",
+      "Attestation actualisée, classe, validité",
+      "D02, D03"
+     ],
+     [
+      "3. Valeur",
+      "10 min",
+      "Comparables, base, ajustements, fourchette",
+      "D12, D13, D07"
+     ],
+     [
+      "4. Stratégie",
+      "10 min",
+      "Vente en l'état ou travaux, Éco-staging, pièces remises aux acheteurs",
+      "Grille d'arbitrage, plan Éco-staging"
+     ],
+     [
+      "5. Prix de présentation",
+      "5 min",
+      "Net vendeur, honoraires, prix FAI, 3 questions des acheteurs",
+      "Calcul écrit"
+     ],
+     [
+      "6. Engagements et mandat",
+      "10 min",
+      "Engagements écrits, clause d'exclusivité lue ensemble",
+      "D18"
+     ],
+     [
+      "7. Questions et étape datée",
+      "5-15 min",
+      "Réponses, date de décision convenue",
+      "Récapitulatif écrit"
+     ]
+    ]
+   },
+   {
+    "heading": "Le calcul à montrer (exemple M. Bernard, fil rouge fictif)",
+    "type": "formula",
+    "text": "Base = surface × prix moyen des comparables en l'état = 76 × 2 650 = 201 400 €. Ajustements (fenêtres simple vitrage, absence de VMC, appels de fonds ITE à venir) → fourchette 178 000 – 186 000 € net vendeur. Prix recommandé : 180 000 € net + 9 000 € TTC d'honoraires (5 %, charge acquéreur) = 189 000 € FAI, soit ≈ 2 487 €/m² affiché et ≈ 2 368 €/m² net."
+   },
+   {
+    "heading": "Expliquer les autres chiffres sans dénigrer",
+    "type": "table",
+    "headers": [
+     "Chiffre entendu",
+     "D'où il vient",
+     "Ta phrase"
+    ],
+    "rows": [
+     [
+      "172 000 €",
+      "201 400 × 0,85 = 171 190 € : décote forfaitaire de 15 % liée au F de 2023",
+      "« Votre étiquette en vigueur est E. Je préfère ajuster poste par poste, pièce à l'appui. »"
+     ],
+     [
+      "205 000 €",
+      "≈ 2 697 €/m², au-dessus des comparables en l'état, sans tenir compte des défauts ni des appels ITE",
+      "« Ce prix correspond à un bien sans travaux ni appels de fonds. Regardons les ventes réelles ensemble. »"
+     ]
+    ]
+   },
+   {
+    "heading": "Les 3 questions des acheteurs, préparées devant le vendeur",
+    "type": "list",
+    "items": [
+     "« Le DPE ? » → Classe E, attestation officielle ADEME valable jusqu'au 13/03/2033 (D03).",
+     "« Les travaux ? » → 16 500 € chiffrés : fenêtres 5 600 €, VMC 2 900 €, radiateurs 4 800 €, chauffe-eau 3 200 € (D13).",
+     "« Les appels de façade ? » → 35 880 € pour le lot, 4 × 8 970 € en 2027 (D07) ; le prix en tient compte, l'immeuble sera isolé."
+    ]
+   },
+   {
+    "heading": "Phrases clés",
+    "type": "list",
+    "items": [
+     "« Avant de parler prix, regardons ensemble ce que disent les ventes réelles. »",
+     "« Chaque ajustement est relié à une pièce de votre dossier. »",
+     "« Vous recevez 180 000 € ; l'acheteur voit 189 000 €. »",
+     "« Je vous recommande un prix de présentation ; le prix de vente se formera avec les offres, et c'est vous qui les accepterez. »",
+     "« Prenez le temps de relire. Pouvons-nous convenir d'une réponse le 5 novembre ? »"
+    ]
+   },
+   {
+    "heading": "À ne jamais faire",
+    "type": "checklist",
+    "items": [
+     "Annoncer le prix avant les preuves",
+     "Aligner ton prix sur celui du vendeur pour gagner le mandat",
+     "Citer des annonces en cours comme références de prix",
+     "Confondre net vendeur et prix affiché",
+     "Promettre un prix de vente ou un délai",
+     "Dénigrer les confrères"
+    ]
+   }
+  ],
+  "footer": "Données du fil rouge fictives (dossier fil rouge Éco-Consultant, marché inspiré de DVF, présenté comme exemple). Loi n° 70-9 du 2 janvier 1970 et décret n° 72-678, art. 73 (rémunération et partie qui la paie précisées dans le mandat). Proposition pédagogique Éco-Propriété. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Support de restitution",
+  "duration_min": 40,
+  "context": "Le rendez-vous de restitution avec M. Bernard a lieu le jeudi 29 octobre 2026 à 10 h, chez lui. Il a reçu le dossier le 27. Tu prépares le support que tu poseras sur la table (ou projetteras sur une tablette) : 7 slides maximum, une par temps de la trame.",
+  "materials": [
+   "D01 Fiche découverte vendeur",
+   "D03 Attestation actualisée ADEME",
+   "D07 PV d'AG du 12/06/2025",
+   "D12 Tableau des comparables",
+   "D13 Devis des travaux privatifs",
+   "D18 Modèle de mandat exclusif"
+  ],
+  "steps": [
+   "Slide 1 : ordre du jour et rappel du projet de M. Bernard (échéance, motivation).",
+   "Slide 2 : étiquette en vigueur (attestation E, validité) et explication en une phrase du changement de coefficient.",
+   "Slide 3 : la valeur, avec la base, les ajustements reliés aux pièces et la fourchette.",
+   "Slide 4 : la stratégie (vente en l'état, Éco-staging ≈ 450 €, pièces remises aux acheteurs).",
+   "Slide 5 : le prix de présentation (net, honoraires, FAI) et les 3 questions des acheteurs avec leurs réponses.",
+   "Slide 6 : tes engagements et la clause d'exclusivité à lire ensemble ; slide 7 : récapitulatif et date de décision proposée."
+  ],
+  "expected": "Slide 1 : « Vendre avant l'été 2027 pour vous rapprocher de votre fille à Nantes. Ordre du jour : 45 min. » Slide 2 : « Étiquette en vigueur : E (attestation ADEME, valable jusqu'au 13/03/2033). Le F de 2023 était calculé avec un coefficient électricité de 2,3, qui est de 1,9 depuis le 1/01/2026. » Slide 3 : « Comparables en l'état : 2 650 €/m² × 76 m² = 201 400 € ; ajustements : fenêtres simple vitrage (D13), absence de VMC (D13), appels ITE (D07) → 178 000 – 186 000 € net. » Slide 4 : « Vente en l'état : dépenser 52 380 € pour un écart de 34 600 € ne paie pas ; Éco-staging ≈ 450 € ; remis aux acheteurs : devis 16 500 €, PV d'AG, attestation E. » Slide 5 : « 180 000 € net + 9 000 € TTC (5 %, charge acquéreur) = 189 000 € FAI ; DPE → E ; travaux → 16 500 € ; façade → 35 880 € en 4 × 8 970 €. » Slide 6 : engagements écrits (attestation jointe, dossier technique, plan Éco-staging, compte rendu toutes les 2 semaines, chiffrage remis aux acquéreurs), clause d'exclusivité en caractères très apparents, résiliable après 3 mois avec 15 jours de préavis par LRAR. Slide 7 : « Votre réponse le jeudi 5 novembre ; je vous laisse le dossier. »"
+ },
+ "deliverable": {
+  "title": "Support de restitution pour M. Bernard",
+  "format": "PDF, 7 slides maximum",
+  "criteria": [
+   "Les 7 temps de la trame sont présents et le prix n'apparaît qu'à partir de la slide 5",
+   "Le calcul 76 × 2 650 = 201 400 € et la fourchette 178 000 – 186 000 € net sont exacts, chaque ajustement relié à une pièce (D07, D12 ou D13)",
+   "Le passage 180 000 € net + 9 000 € TTC = 189 000 € FAI est explicite, avec la partie qui paie les honoraires",
+   "L'étiquette présentée est la classe E de l'attestation, sans promesse de classe future",
+   "Les 3 questions des acheteurs (DPE, travaux, appels de façade) ont une réponse chiffrée",
+   "La dernière slide propose une étape datée, sans demander la signature le jour même"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972 (art. 73 : rémunération précisée dans le mandat et partie qui la paie)",
+   "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006061974/"
+  },
+  {
+   "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+   "url": "https://observatoire-dpe-audit.ademe.fr"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété — trame de restitution en 7 temps (chiffres du fil rouge fictifs)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : trois post-it 172 000 / 205 000 / 189 000 €, jauge du prix, calcul animé de la base et de la fourchette, schéma en escalier net + honoraires = FAI, slide des 3 questions acheteurs avec vignettes D03, D07, D13. Le détail chiffré de chaque ajustement entre 201 400 € et la fourchette n'est pas donné dans le dossier fil rouge : ne pas l'inventer à l'écran, rester sur « ajustements » + pièces (cohérence avec la capsule 2.10). Ne pas annoncer le prix de vente final (184 000 €, module 4). Relecture juridique : mentions d'honoraires dans le mandat. Chiffre dérivé à l'oral : 186 000 € net × 1,05 = 195 300 € FAI (honoraires de 5 %, comme pour 180 000 € → 189 000 €)."
+}

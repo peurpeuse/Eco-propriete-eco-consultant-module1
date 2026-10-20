@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Éco-Consultant · Formation en ligne</title>
+<style>body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:#F7FAF8;color:#1A1A1A}#ld{min-height:100vh;display:grid;place-items:center;text-align:center;padding:16px}#ld b{display:block;color:#1A7A44;font-size:20px;margin-bottom:6px}</style>
+</head><body><div id="ld"><div><b>Éco-Consultant</b>Chargement de la formation…</div></div>
+<script>
+(function(){
+  var BASE='https://cdn.jsdelivr.net/gh/peurpeuse/Eco-propriete-eco-consultant-module1@929db2f0fce4462c5916ad3108eb946ccfdb7b53/v3/';
+  function get(u,n){return fetch(BASE+u,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.text();}).catch(function(e){if(n>0)return new Promise(function(res){setTimeout(res,1500)}).then(function(){return get(u,n-1)});throw e;});}
+  get('index.html',5).then(function(html){
+    var doc=new DOMParser().parseFromString(html,'text/html');
+    var b=document.createElement('base');b.href=BASE;document.head.appendChild(b);
+    document.title=doc.title;
+    [].forEach.call(doc.head.querySelectorAll('style,link'),function(n){document.head.appendChild(document.importNode(n,true));});
+    var scripts=[].map.call(doc.querySelectorAll('script[src]'),function(s){return s.getAttribute('src');});
+    [].forEach.call(doc.querySelectorAll('script'),function(s){s.remove();});
+    document.body.innerHTML=doc.body.innerHTML;
+    return scripts.reduce(function(p,src){return p.then(function(){return get(src,5).then(function(code){var s=document.createElement('script');s.text=code;document.body.appendChild(s);});});},Promise.resolve());
+  }).catch(function(){document.getElementById('ld').innerHTML='<div><b>Éco-Consultant</b>Le chargement a échoué. Recharge la page.</div>';});
+})();
+</script></body></html>

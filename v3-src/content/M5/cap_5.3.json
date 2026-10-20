@@ -1,0 +1,312 @@
+{
+ "id": "5.3",
+ "module": 5,
+ "ia": false,
+ "title": "Compromis et conditions suspensives",
+ "objective": "Choisir l'avant-contrat et rédiger avec le notaire des conditions suspensives qui protègent l'acquéreur sans fragiliser la vente",
+ "video": {
+  "duration_min": 8,
+  "hook": "Taux maximal 3,90 % au lieu de 3,55 %, 45 jours au lieu de 60 : trois chiffres dans une clause qui décident si la vente des Martin tient ou tombe.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Le 15 décembre, les Martin signent le compromis chez Maître Lemoine. Dans ce document, une phrase va peser plus que toutes les autres : la condition suspensive d'obtention du prêt. 193 800 euros, sur 25 ans, à un taux maximal de 3,90 % hors assurance, dans un délai de 45 jours. Chaque chiffre a été choisi. Trop bas, les Martin ne trouveront jamais de banque et la vente tombe. Trop large, M. Bernard reste bloqué des mois pour rien. Aujourd'hui, on apprend à choisir ces chiffres.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille ; incrustation de la clause type : « 193 800 € · 25 ans · 3,90 % max hors assurance · 45 jours »",
+    "onscreen": "Une clause, quatre chiffres, une vente"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est ton sujet ? Le notaire rédige, et c'est son rôle. Mais c'est toi qui connais les parties depuis des semaines : le projet de M. Bernard, la capacité d'emprunt des Martin, les appels de fonds de la copropriété. Si tu arrives chez le notaire avec ces informations prêtes, le compromis est juste. Si tu arrives les mains vides, on recopie un modèle, et un modèle ne connaît pas les 35 880 euros de façade. Pense aussi à ton vendeur. M. Bernard est un profil C : il veut comprendre chaque clause avant de signer. Il te demandera pourquoi 45 jours, pourquoi 3,90 %, et ce qui se passe si la banque dit non. Si tu as les réponses, il signe serein. Sinon, il repousse.",
+    "screen": "Slide : trois cercles « Vendeur », « Acquéreurs », « Notaire » ; l'agent au centre avec un dossier « infos prêtes »",
+    "onscreen": "Le notaire rédige, l'agent prépare"
+   },
+   {
+    "tc": "01:15",
+    "voice": "Première idée : compromis ou promesse unilatérale. Dans le compromis, les deux s'engagent : le vendeur à vendre, les acquéreurs à acheter. Il vaut vente, sous conditions. On y verse en général un dépôt de garantie de 5 à 10 % du prix. Dans la promesse unilatérale, seul le vendeur s'engage. Les acquéreurs ont une option, souvent de deux ou trois mois, et versent une indemnité d'immobilisation, en principe 10 %, qu'ils perdent s'ils ne lèvent pas l'option sans motif prévu. Faite sous seing privé, elle doit être enregistrée dans les dix jours de son acceptation, sinon elle est nulle. Pour les Martin, primo-accédants, et M. Bernard, qui veut un engagement ferme, le compromis chez le notaire est le choix retenu.",
+    "screen": "Tableau comparatif : Compromis (engagement réciproque, dépôt de garantie 5-10 %, pas d'enregistrement obligatoire) / Promesse unilatérale (option, indemnité d'immobilisation ≈ 10 %, enregistrement sous 10 jours si sous seing privé)",
+    "onscreen": "Compromis : les deux s'engagent"
+   },
+   {
+    "tc": "02:20",
+    "voice": "Deuxième idée : le délai de rétractation. Les Martin sont des acquéreurs non professionnels d'un logement : ils ont dix jours pour se rétracter, sans motif. Le délai court à partir du lendemain de la première présentation de la lettre recommandée qui leur notifie le compromis, ou de la remise de l'acte en main propre quand un agent mandaté leur remet. Pendant ce délai, personne ne peut recevoir d'argent de leur part, sauf un professionnel qui dispose d'une garantie financière, et qui le rend sous vingt et un jours en cas de rétractation. Et rappelle-toi la capsule précédente : si les documents de copropriété ou l'état des risques manquent, ce délai peut ne démarrer qu'à leur remise.",
+    "screen": "Frise : 15/12 signature → notification → J+1 début → 10 jours ; encadré « aucun versement pendant le délai, sauf professionnel avec garantie financière »",
+    "onscreen": "10 jours, à partir du lendemain de la notification"
+   },
+   {
+    "tc": "03:20",
+    "voice": "Troisième idée : les conditions suspensives. La plus importante, c'est le prêt. La loi l'impose dès que le prix est payé avec un crédit immobilier, et sa durée ne peut pas être inférieure à un mois. Si le prêt est refusé, le dépôt de garantie est rendu intégralement. Pour les Martin : 193 800 euros, c'est leur besoin réel. 25 ans, c'est la durée maximale recommandée par le Haut Conseil de stabilité financière. Le taux : le marché est autour de 3,55 % sur 20 ans en octobre 2026. On met 3,90 % maximum : une marge réaliste. À 3,90 %, la mensualité serait d'environ 1 012 euros hors assurance, toujours finançable. Et 45 jours, c'est le temps pour obtenir une offre écrite, pas un simple accord de principe.",
+    "screen": "Slide « Les 4 paramètres de la condition de prêt » : montant 193 800 € / durée 25 ans / taux max 3,90 % (marché ≈ 3,55 % ; usure 5,40 %) / délai 45 jours → 29/01/2027",
+    "onscreen": "À 3,90 % : ≈ 1 012 €/mois hors assurance"
+   },
+   {
+    "tc": "04:30",
+    "voice": "Les autres conditions courantes : que la commune n'exerce pas son droit de préemption, quand il s'applique ; que l'état hypothécaire ne révèle pas d'inscriptions supérieures au prix, ici le prêt de M. Bernard est soldé ; et que les renseignements d'urbanisme ne révèlent pas de servitude grave. Ensuite, les clauses sur mesure. Pour Les Tilleuls, la clause clé, c'est celle des appels de fonds. On écrit noir sur blanc : l'appel ITE du 1er janvier 2027, 8 970 euros, est payé par M. Bernard, copropriétaire à cette date, et remboursé par les Martin le jour de l'acte ; les appels suivants sont à leur charge. Et on prévoit le cas d'une assemblée qui voterait de nouveaux travaux avant l'acte.",
+    "screen": "Extrait du compromis D19 (trame) : paragraphe « Travaux votés et appels de fonds » surligné ; tableau 1/01 M. Bernard → remboursé à l'acte ; 1/04, 1/07, 1/10 : acquéreurs",
+    "onscreen": "Clause appels de fonds : qui paie, quand, combien"
+   },
+   {
+    "tc": "05:35",
+    "voice": "Démonstration : ta fiche de préparation pour Maître Lemoine. Parties, prix 184 000 euros honoraires inclus, soit 175 000 euros net vendeur et 9 000 euros d'honoraires à la charge des acquéreurs, comme dans le mandat. Condition de prêt : les quatre paramètres. Délai pour déposer les demandes de prêt, et obligation d'en justifier. Clause appels de fonds. Fonds de travaux de 1 061 euros : ici, aucun remboursement n'a été négocié, on l'écrit. Date limite de l'acte : 15 mars 2027. Et une question que tu poses aux Martin avant de signer : comment financez-vous votre quote-part de façade ? Règle du dossier : la condition suspensive porte sur le prêt principal de 193 800 euros, et les 35 880 euros d'ITE ont leur propre financement, à arrêter avant la signature. On le verra en détail dans la capsule suivante.",
+    "screen": "Formulaire « Fiche conditions » rempli à l'écran, champ par champ ; la question sur le financement des appels 2027 clignote en orange",
+    "onscreen": "Question à poser : comment financez-vous les 35 880 € d'ITE ?"
+   },
+   {
+    "tc": "06:35",
+    "voice": "Les erreurs fréquentes. Un : un taux maximal égal au taux du jour. À la moindre hausse, la condition devient impossible à remplir. Deux : un délai trop court, du genre trente jours en décembre, avec les fêtes. Trois : oublier de prévoir que les acquéreurs doivent déposer leurs demandes rapidement et en justifier. Quatre : se taire sur les appels de fonds en espérant que le notaire y pense. Cinq : donner un avis juridique à la place du notaire. Toi, tu prépares, tu expliques, tu alertes.",
+    "screen": "Seb face caméra, plan rapproché ; les 5 erreurs s'affichent à gauche avec une croix rouge",
+    "onscreen": "Préparer, expliquer, alerter"
+   },
+   {
+    "tc": "07:20",
+    "voice": "À toi. D'abord le quiz flash, cinq questions, juste maintenant, pendant que c'est frais. Ensuite, tu télécharges la fiche conditions : un tableau compromis ou promesse, les règles de la rétractation, les six paramètres de la condition de prêt et un exemple de clause pour les appels de fonds. Dans l'exercice, tu remplis la fiche de préparation du compromis des Martin et tu justifies chaque paramètre, calcul de mensualité compris. Tu la déposes comme si tu l'envoyais à Maître Lemoine. Prochaine capsule : le plan de financement complet, travaux compris.",
+    "screen": "Seb face caméra ; à droite, les 5 pictogrammes du parcours",
+    "onscreen": "Quiz → Fiche conditions → Préparation du compromis → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Quelle est la différence essentielle entre un compromis et une promesse unilatérale de vente ?",
+    "options": [
+     "Dans le compromis, vendeur et acquéreurs s'engagent ; dans la promesse unilatérale, seul le vendeur s'engage",
+     "Le compromis est toujours signé chez le notaire, la promesse jamais",
+     "La promesse unilatérale n'ouvre pas de délai de rétractation"
+    ],
+    "answer": 0,
+    "fb_title": "Engagement réciproque contre option",
+    "fb_text": "Le compromis (promesse synallagmatique) engage les deux parties et vaut vente sous conditions. La promesse unilatérale engage le vendeur ; l'acquéreur dispose d'une option, contre une indemnité d'immobilisation, en principe 10 % du prix.",
+    "whys": [
+     "Juste : c'est la différence de fond, qui change les conséquences d'un renoncement.",
+     "Faux : les deux peuvent être signés sous seing privé ou chez le notaire.",
+     "Faux : le délai de rétractation de 10 jours s'applique aux deux pour un logement."
+    ]
+   },
+   {
+    "question": "Le compromis des Martin leur est notifié par lettre recommandée, présentée le 16/12/2026. Quand commence leur délai de rétractation ?",
+    "options": [
+     "Le 15/12/2026, jour de la signature",
+     "Le 17/12/2026, lendemain de la première présentation",
+     "Le 1/01/2027",
+     "Le jour où ils reçoivent l'offre de prêt"
+    ],
+    "answer": 1,
+    "fb_title": "Le lendemain de la première présentation",
+    "fb_text": "L'article L. 271-1 du CCH fait courir les 10 jours à compter du lendemain de la première présentation de la lettre de notification. Ici : à partir du 17/12/2026, à condition que tous les documents obligatoires aient été remis.",
+    "whys": [
+     "Faux : la signature ne fait pas courir le délai, c'est la notification.",
+     "Juste : lendemain de la première présentation, soit le 17/12/2026.",
+     "Faux : aucune date fixe ; le point de départ dépend de la notification.",
+     "Faux : l'offre de prêt a son propre délai de réflexion, distinct de la rétractation."
+    ]
+   },
+   {
+    "question": "Pourquoi fixer le taux maximal de la condition de prêt à 3,90 % plutôt qu'à 3,55 % ?",
+    "options": [
+     "Pour que les Martin puissent refuser n'importe quelle offre",
+     "Parce que la loi impose 0,35 point de marge",
+     "Pour laisser une marge réaliste si les taux montent, sans rendre la condition impossible"
+    ],
+    "answer": 2,
+    "fb_title": "Une marge réaliste",
+    "fb_text": "Avec un taux maximal égal au taux du jour, la moindre hausse rendrait la condition irréalisable et la vente tomberait. 3,90 % laisse une marge sous l'usure (5,40 %) ; à ce taux, la mensualité reste d'environ 1 012 € hors assurance.",
+    "whys": [
+     "Faux : si une offre respecte les paramètres, la condition est réalisée ; ce n'est pas un droit de refus libre.",
+     "Faux : la loi ne fixe aucune marge ; c'est une négociation entre les parties.",
+     "Juste : une marge raisonnable protège les acquéreurs sans bloquer le vendeur."
+    ]
+   },
+   {
+    "question": "Quelle durée minimale la loi impose-t-elle pour la condition suspensive d'obtention du prêt ?",
+    "options": [
+     "10 jours",
+     "1 mois",
+     "45 jours",
+     "3 mois"
+    ],
+    "answer": 1,
+    "fb_title": "Un mois minimum",
+    "fb_text": "L'article L. 313-41 du Code de la consommation fixe une durée de validité d'au moins un mois à compter de la signature. Les parties choisissent librement un délai plus long : ici 45 jours, jusqu'au 29/01/2027, pour tenir compte des fêtes.",
+    "whys": [
+     "Faux : 10 jours, c'est le délai de rétractation, pas la durée de la condition.",
+     "Juste : un mois minimum, à compter de la signature de l'acte.",
+     "Faux : 45 jours est le choix des parties dans le dossier, pas le minimum légal.",
+     "Faux : 3 mois est possible mais pas imposé."
+    ]
+   },
+   {
+    "question": "Pour Les Tilleuls, quelle clause sur mesure dois-tu demander au notaire ?",
+    "options": [
+     "Une clause prévoyant que le syndic remboursera l'ITE aux Martin",
+     "Une clause qui annule la vente si les travaux de façade commencent",
+     "Une clause qui fixe qui paie chaque appel de fonds ITE et prévoit le remboursement de l'appel du 1/01/2027 à l'acte"
+    ],
+    "answer": 2,
+    "fb_title": "La clause des appels de fonds",
+    "fb_text": "Le 1/01/2027, M. Bernard paie 8 970 € au syndicat (copropriétaire à cette date). L'accord des parties prévoit que les Martin le lui remboursent à l'acte et paient les appels suivants. Cet accord n'engage pas le syndicat : il doit être écrit par le notaire.",
+    "whys": [
+     "Faux : le syndic ne rembourse rien ; il appelle les fonds auprès du copropriétaire du moment.",
+     "Faux : les travaux sont votés et connus ; une telle clause n'a pas de sens.",
+     "Juste : elle répartit clairement 35 880 € entre vendeur et acquéreurs, dates à l'appui."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche conditions",
+  "kind": "sheet",
+  "intro": "Cette fiche prépare l'avant-contrat avec le notaire : choix entre compromis et promesse, délai de rétractation, conditions suspensives et clauses spécifiques à la copropriété. Remplis-la avec les parties après l'acceptation de l'offre et transmets-la au notaire avant le rendez-vous de signature. Elle ne remplace pas son conseil.",
+  "sections": [
+   {
+    "heading": "Compromis ou promesse unilatérale ?",
+    "type": "table",
+    "headers": [
+     "",
+     "Compromis (promesse synallagmatique)",
+     "Promesse unilatérale de vente"
+    ],
+    "rows": [
+     [
+      "Qui s'engage",
+      "Le vendeur et l'acquéreur",
+      "Le vendeur seul ; l'acquéreur a une option"
+     ],
+     [
+      "Somme versée",
+      "Dépôt de garantie, en général 5 à 10 % du prix",
+      "Indemnité d'immobilisation, en principe 10 % du prix"
+     ],
+     [
+      "Formalité",
+      "Pas d'enregistrement obligatoire",
+      "Sous seing privé : enregistrement dans les 10 jours de l'acceptation, sinon nulle"
+     ],
+     [
+      "Si l'acquéreur renonce hors conditions",
+      "Le vendeur peut agir en justice ; clause pénale le plus souvent",
+      "Il perd l'indemnité d'immobilisation"
+     ],
+     [
+      "Usage conseillé",
+      "Engagement ferme des deux parties (cas des Martin)",
+      "Vendeur prêt à immobiliser son bien contre indemnité"
+     ]
+    ]
+   },
+   {
+    "heading": "Délai de rétractation : les règles",
+    "type": "list",
+    "items": [
+     "10 jours pour l'acquéreur non professionnel d'un logement (art. L. 271-1 CCH)",
+     "Point de départ : lendemain de la première présentation de la lettre de notification, ou lendemain de la remise en main propre par le professionnel mandaté",
+     "Aucun versement pendant le délai, sauf entre les mains d'un professionnel disposant d'une garantie financière, qui restitue sous 21 jours en cas de rétractation (art. L. 271-2)",
+     "Si les documents de copropriété ou l'état des risques ne sont pas remis à la promesse, le délai ne court qu'à partir du lendemain de leur remise",
+     "Si le dernier jour tombe un samedi, un dimanche ou un jour férié, le délai est prorogé au premier jour ouvrable suivant (art. 642 CPC, Cass. 3e civ., 5/12/2007) ; le notaire confirme la date"
+    ]
+   },
+   {
+    "heading": "La condition de prêt : les 6 paramètres à fixer",
+    "type": "checklist",
+    "items": [
+     "Montant : le besoin réel issu du plan de financement (Martin : 193 800 €)",
+     "Durée maximale : compatible avec les règles du HCSF, 25 ans au plus (Martin : 25 ans)",
+     "Taux maximal hors assurance : marché + marge réaliste, sous l'usure (Martin : 3,90 %, marché ≈ 3,55 %, usure 5,40 %)",
+     "Délai de réalisation : au moins 1 mois (art. L. 313-41 C. conso.) ; Martin : 45 jours, soit jusqu'au 29/01/2027",
+     "Délai de dépôt des demandes de prêt et obligation d'en justifier au vendeur",
+     "Ce qui réalise la condition : l'offre de prêt écrite, pas un accord de principe"
+    ]
+   },
+   {
+    "heading": "Les autres conditions courantes",
+    "type": "checklist",
+    "items": [
+     "Non-exercice du droit de préemption, quand il s'applique (le notaire vérifie)",
+     "État hypothécaire sans inscription supérieure au prix (prêt de M. Bernard soldé)",
+     "Renseignements d'urbanisme sans servitude grave",
+     "Clause de répartition des appels de fonds pour travaux votés (la quote-part ITE des Martin est financée à part, hors condition de prêt principal)"
+    ]
+   },
+   {
+    "heading": "Clause appels de fonds : exemple pour Les Tilleuls (fictif)",
+    "type": "text",
+    "text": "« Le vendeur déclare que l'assemblée générale du 12/06/2025 a voté des travaux de ravalement avec isolation thermique par l'extérieur pour 1 150 000 € TTC, soit 35 880 € pour le lot, appelés en quatre échéances de 8 970 € les 1/01, 1/04, 1/07 et 1/10/2027. L'échéance du 1/01/2027 sera réglée par le vendeur, copropriétaire à cette date, et lui sera remboursée par l'acquéreur le jour de l'acte authentique. Les échéances suivantes seront à la charge de l'acquéreur. » Formulation à adapter et valider par le notaire."
+   },
+   {
+    "heading": "Exemple : condition de prêt des Martin calculée",
+    "type": "formula",
+    "text": "Mensualité = C × t / (1 − (1 + t)^−n), avec t = taux annuel / 12 et n = nombre de mois. Au taux du marché : 193 800 € × (3,55 % / 12) sur 300 mois ≈ 975 € hors assurance. Au taux maximal de la condition : 193 800 € × (3,90 % / 12) sur 300 mois ≈ 1 012 € hors assurance, soit ≈ 1 061 € avec 49 € d'assurance et un taux d'endettement d'environ 23,1 % (1 061 / 4 600). La condition reste donc réalisable même au taux maximal."
+   }
+  ],
+  "footer": "Sources : art. L. 271-1 et L. 271-2 CCH, art. L. 313-41 Code de la consommation (Légifrance), Notaires de France (promesse et compromis, mise à jour 19/06/2026), HCSF décision D-HCSF-2021-7. Taux de marché et usure : faits vérifiés au 20/10/2026. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Choisir les conditions",
+  "duration_min": 30,
+  "context": "L'offre des Martin à 184 000 € FAI a été acceptée le 2/12/2026. Maître Lemoine te demande une fiche de préparation pour le compromis du 15/12/2026. Les Martin empruntent 193 800 € ; ils ont 22 000 € d'apport ; leurs revenus sont de 4 600 € nets par mois. La copropriété appellera 35 880 € pour l'ITE en 2027.",
+  "materials": [
+   "D14 Fiches des acquéreurs",
+   "D15 Offres d'achat reçues",
+   "D16 Pré-état daté",
+   "D07 PV d'AG du 12/06/2025",
+   "D19 Compromis (trame)",
+   "D18 Modèle de mandat exclusif"
+  ],
+  "steps": [
+   "Choisis entre compromis et promesse unilatérale et justifie en 3 lignes pour ces parties.",
+   "Fixe les 6 paramètres de la condition de prêt et justifie le taux maximal par un calcul de mensualité.",
+   "Calcule la date limite de réalisation de la condition (45 jours après le 15/12/2026).",
+   "Liste les autres conditions suspensives utiles et dis qui vérifie chacune.",
+   "Rédige le projet de clause appels de fonds (à soumettre au notaire).",
+   "Formule la question à poser aux Martin sur le financement à part de leur quote-part ITE (35 880 €), distinct du prêt principal couvert par la condition."
+  ],
+  "expected": "Exemple de réponse : compromis chez Maître Lemoine (engagement ferme souhaité par M. Bernard, profil C ; acquéreurs protégés par la rétractation et la condition de prêt). Condition de prêt : 193 800 € ; 25 ans ; 3,90 % maximum hors assurance (mensualité ≈ 1 012 € contre ≈ 975 € à 3,55 % ; avec 49 € d'assurance ≈ 1 061 €, soit ≈ 23,1 % d'endettement, sous 35 %) ; délai 45 jours → 29/01/2027 ; dépôt d'au moins une demande conforme dans un délai court fixé au compromis (proposition : 15 jours) avec justificatif ; réalisation par offre écrite. Autres conditions : non-préemption si le droit s'applique (le notaire vérifie, voir 5.5), état hypothécaire (prêt soldé), urbanisme. Clause appels de fonds : 1/01/2027 payé par M. Bernard et remboursé à l'acte (8 970 €), 1/04, 1/07, 1/10/2027 à la charge des Martin (26 910 €) ; nouveaux travaux votés avant l'acte : répartition à négocier et écrire. Fonds de travaux 1 061 € : aucun remboursement négocié, à mentionner. Rappel des choix du module 4 : prix plancher de M. Bernard 175 000 € net vendeur, accepté sous réserve du remboursement de l'appel du 1/01/2027 ; honoraires 9 000 €. Question aux Martin : « Comment financez-vous les 35 880 € d'ITE ? » ; règle du dossier : la condition suspensive porte sur le seul prêt principal de 193 800 €, la quote-part ITE est financée à part (capsule 5.4), à arrêter avant la signature."
+ },
+ "deliverable": {
+  "title": "Fiche de préparation du compromis des Martin",
+  "format": "PDF ou DOCX, 1 à 2 pages",
+  "criteria": [
+   "Le choix compromis / promesse est justifié par la situation des parties",
+   "Les 4 paramètres chiffrés de la condition de prêt sont repris à l'identique (193 800 €, 25 ans, 3,90 %, 45 jours)",
+   "La date limite du 29/01/2027 est calculée",
+   "La mensualité au taux maximal est calculée (≈ 1 012 € hors assurance) et comparée au plafond de 35 %",
+   "La clause appels de fonds répartit les 4 échéances de 8 970 € avec le remboursement à l'acte",
+   "La condition porte sur le prêt principal ; le second financement de la quote-part ITE est demandé aux acquéreurs avant la signature",
+   "La fiche renvoie au notaire pour la rédaction finale"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Art. L. 271-1 CCH : délai de rétractation de 10 jours (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667917"
+  },
+  {
+   "label": "Art. L. 271-2 CCH : versements pendant le délai (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031012910"
+  },
+  {
+   "label": "Art. L. 313-41 Code de la consommation : condition suspensive de prêt, 1 mois minimum (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433227"
+  },
+  {
+   "label": "Notaires de France : la promesse de vente et le compromis de vente (mise à jour 19/06/2026)",
+   "url": "https://www.notaires.fr/fr/immobilier-fiscalite/achat-et-vente-les-etapes/la-promesse-de-vente-et-le-compromis-de-vente"
+  },
+  {
+   "label": "HCSF : mesure relative à l'octroi de crédits immobiliers (35 %, 25 ans)",
+   "url": "https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers"
+  },
+  {
+   "label": "Meilleurtaux : taux d'usure au 1er octobre 2026",
+   "url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2026-septembre/taux-dusure-au-1er-octobre-2026-les-nouveaux-plafonds.html"
+  },
+  {
+   "label": "ANIL — Cass. 3e civ., 5/12/2007 : délai de rétractation expirant un samedi ou un jour férié prorogé au premier jour ouvrable suivant (art. 642 CPC)",
+   "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/jurisprudence/jurisprudence-2008/compromis-/-promesse-/-delai-de-retractation/"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D07, D14 à D19)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Relecture juridique obligatoire (compromis / promesse, L. 271-1, L. 271-2, L. 313-41, clause appels de fonds). Visuels : tableau compromis / promesse, frise de rétractation, carte des 4 paramètres de la condition de prêt, extrait de la trame D19 surligné. B-roll : signature chez le notaire (mains, stylo, dossier), couple qui relit un document. Calculs vérifiés : 193 800 € à 3,55 % sur 300 mois = 975,41 € ; à 3,90 % = 1 012,28 € ; (1 012 + 49) / 4 600 = 23,1 %. [À VALIDER] : délai de dépôt des demandes de prêt (15 jours = proposition pédagogique, pas une règle) ; prorogation au premier jour ouvrable suivant si le délai de rétractation finit un samedi, un dimanche ou un jour férié : vérifiée (Cass. 3e civ., 5/12/2007, n° 06-19.567, art. 642 CPC ; ANIL) ; règle de coordination : condition suspensive sur le seul prêt principal de 193 800 €, quote-part ITE financée à part (voir 5.4) ; prix plancher 175 000 € net vendeur conditionné au remboursement de l'appel du 1/01/2027 (module 4)."
+}

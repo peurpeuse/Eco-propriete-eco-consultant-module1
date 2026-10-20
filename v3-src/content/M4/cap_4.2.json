@@ -1,0 +1,314 @@
+{
+ "id": "4.2",
+ "module": 4,
+ "ia": false,
+ "title": "Préparer et mener la visite",
+ "objective": "Construire et conduire le parcours de visite de l'appartement de M. Bernard, documents en main, et répondre juste aux questions DPE, copropriété et travaux votés",
+ "video": {
+  "duration_min": 8,
+  "hook": "Les Martin entrent dans le séjour et Julie demande : « Et la façade, c'est voté ? » Si tu hésites deux secondes, la visite est finie. Voici comment ne jamais hésiter.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Samedi, 10 heures. Julie et Thomas Martin visitent l'appartement de M. Bernard. Ils ont vu l'annonce, ils ont noté la classe E, et ils ont lu la ligne sur l'isolation de la façade. À peine entrés, Julie demande : et la façade, c'est voté ? Combien pour nous ? Si tu réponds à peu près, si tu fouilles dans ton téléphone, tu perds la visite. Si tu sors la bonne page du dossier, tu gagnes leur confiance. La visite, ça se prépare comme un rendez-vous de restitution.",
+    "screen": "B-roll : un couple d'une trentaine d'années entre dans un appartement lumineux, l'agent les accueille, dossier à la main",
+    "onscreen": "« Et la façade, c'est voté ? »"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est important ? Parce qu'une visite, c'est vingt à quarante minutes pendant lesquelles l'acheteur se fait une opinion qui va durer. Les neurosciences le montrent : on retient surtout le moment le plus fort et la fin. Donc tu choisis ton moment fort, et tu soignes la sortie. Et entre les deux, tu ne laisses pas le défaut surgir tout seul. Un défaut découvert par l'acheteur, c'est un doute. Un défaut que tu annonces avec sa solution, c'est une preuve de sérieux.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; slide avec une courbe d'émotion : pic au balcon, fin au séjour",
+    "onscreen": "Un moment fort + une bonne fin"
+   },
+   {
+    "tc": "01:25",
+    "voice": "Première idée clé : la préparation. La veille, tu appelles les acheteurs pour vérifier leur projet et leur financement. On le verra en détail dans la capsule 4.4. Puis tu prépares ton dossier de visite. Dedans : l'attestation actualisée E, le plan, la fiche synthétique de la copropriété, le budget prévisionnel, le PV d'assemblée de juin 2025, la synthèse du plan pluriannuel, le devis des travaux privatifs. Et l'état des risques : la règle impose de le remettre dès la première visite, et il doit dater de moins de six mois. Tu en imprimes un exemplaire par visiteur. Le matin, tu passes avant tout le monde : tu ouvres les volets, tu allumes le séjour, tu aères la salle de bains, tu vérifies que le plan Éco-staging tient toujours.",
+    "screen": "Plein écran : pochette de visite qu'on remplit document par document (D03, D04, D10, D06, D07, D09, D13, état des risques D17), chaque code s'affiche",
+    "onscreen": "Dossier de visite : 8 documents"
+   },
+   {
+    "tc": "02:25",
+    "voice": "Deuxième idée clé : l'ordre des pièces. On ne visite pas dans l'ordre du couloir, on visite dans l'ordre de l'histoire. Tu commences en bas : le hall, l'ascenseur remplacé en 2019. Tu dis tout de suite que la façade va être isolée, ça les rassure sur l'immeuble. Dans l'appartement, tu vas directement au séjour et tu ouvres la porte-fenêtre du balcon. Vingt-quatre mètres carrés, plein sud-ouest. C'est ton moment fort. Ensuite la cuisine refaite en 2016. Puis les trois chambres : c'est là que tu montres les fenêtres en simple vitrage, et tu annonces le chiffre, 5 600 euros pour les quatre. Puis la salle de bains, assainie : tu expliques la ventilation et la VMC à 2 900 euros. Et tu finis assis dans le séjour, dossier ouvert sur la table.",
+    "screen": "Plan D04 animé : un trait vert dessine le parcours hall → séjour/balcon → cuisine → chambres → salle de bains → WC → retour séjour ; pictogramme étoile sur le balcon",
+    "onscreen": "Parcours : histoire, pas couloir"
+   },
+   {
+    "tc": "03:30",
+    "voice": "Troisième idée clé : les réponses aux trois questions qui reviennent toujours. Le DPE, d'abord. L'acheteur a parfois vu passer la classe F. Ta réponse : le DPE de 2023 a été recalculé avec le coefficient de l'électricité en vigueur depuis 2026, l'attestation officielle de l'ADEME classe le logement en E, et elle est valable jusqu'en mars 2033. Tu la montres. La copropriété, ensuite : 48 lots, 2 652 euros de charges par an, pas de chauffage collectif, des impayés modérés, pas de procédure. Les travaux votés, enfin. Ravalement avec isolation de la façade, voté le 12 juin 2025. Quote-part du lot : 35 880 euros, en quatre appels de 8 970 euros en 2027. Qui paie ? Par principe, celui qui est copropriétaire quand l'appel devient exigible. Mais vendeur et acheteur peuvent convenir d'autre chose dans la vente. Ça, on en reparle à l'offre, et c'est le notaire qui le rédige.",
+    "screen": "Écran partagé en trois colonnes « DPE », « Copropriété », « Travaux votés » ; à chaque réponse, le document correspondant (D03, D10, D07) s'affiche zoomé",
+    "onscreen": "Les 3 questions : DPE · copro · travaux votés"
+   },
+   {
+    "tc": "04:45",
+    "voice": "Regardons la démonstration de fin de visite. Les Martin sont assis. Tu poses trois questions ouvertes. Qu'est-ce qui vous a plu ? Qu'est-ce qui vous freine ? Où en êtes-vous de votre financement ? Thomas dit : les fenêtres et la façade, ça fait beaucoup. Tu ne contestes pas. Tu sors le devis D13 et tu montres le total : 16 500 euros, poste par poste. Puis l'échéancier des appels de fonds. Tu dis : on a tout chiffré pour que vous décidiez en connaissance de cause. Julie demande si elle peut revenir avec son père. Tu proposes un créneau tout de suite. Et tu notes tout sur ta fiche de visite.",
+    "screen": "Mise en scène tournée : table du séjour, agent et couple ; gros plan sur le devis D13 posé entre eux, puis sur la fiche de visite remplie",
+    "onscreen": "3 questions de fin : plu ? freine ? financement ?"
+   },
+   {
+    "tc": "05:35",
+    "voice": "Les erreurs fréquentes. Un : visiter sans avoir vérifié le financement, et faire perdre un samedi à tout le monde. Deux : laisser l'acheteur découvrir seul la moisissure ou la fenêtre qui ferme mal. Trois : promettre une classe après travaux. Tu dis estimation, à confirmer par un diagnostiqueur. Quatre : répondre à la place du notaire sur qui paiera les appels de fonds. Tu donnes le principe, tu ne tranches pas. Cinq : critiquer le vendeur ou la copropriété pour faire baisser le prix. Ce n'est pas ton rôle.",
+    "screen": "Seb face caméra, plan rapproché ; cinq icônes rouges apparaissent une à une",
+    "onscreen": "Jamais : promesse de classe, avis juridique tranché"
+   },
+   {
+    "tc": "06:15",
+    "voice": "Après la visite, dans l'heure, tu fais deux choses. Tu envoies aux acheteurs un message de remerciement avec les documents promis : l'attestation, le devis, l'échéancier des appels de fonds. Et tu notes le retour pour M. Bernard : points aimés, freins, suite envisagée. Mot pour mot, sans interpréter. C'est la matière de ton compte rendu toutes les deux semaines, comme promis dans le mandat. Ton vendeur, profil C, attend des faits. Donne-lui des faits. Et si trois visiteurs de suite butent sur le même point, par exemple les fenêtres, ce n'est pas un hasard : tu en parles avec lui, chiffres à l'appui, à la date convenue. Pas avant, et jamais au téléphone entre deux portes.",
+    "screen": "B-roll : l'agent dans sa voiture, tape un message sur son téléphone ; incrustation d'un extrait de compte rendu vendeur",
+    "onscreen": "Dans l'heure : merci + compte rendu"
+   },
+   {
+    "tc": "07:10",
+    "voice": "À toi maintenant. Le quiz flash t'attend juste après cette vidéo : cinq questions sur les réponses à donner en visite. Ensuite, télécharge la check-list visite : la préparation de la veille, le parcours type, les réponses aux questions sensibles et la fiche de retour. Dans l'exercice, tu dessines le parcours de visite de l'appartement de M. Bernard sur le plan D04, tu écris ce que tu montres et ce que tu dis dans chaque pièce, et tu rédiges tes réponses aux trois questions qui reviennent toujours. Tu déposes ton parcours, et je le valide comme si j'étais l'acheteur.",
+    "screen": "Seb face caméra, plan taille ; pictogrammes des 4 étapes suivantes",
+    "onscreen": "Quiz → Check-list visite → Parcours → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Quel document dois-tu remettre au potentiel acquéreur dès la première visite ?",
+    "options": [
+     "Le pré-état daté",
+     "L'état des risques, établi depuis moins de six mois",
+     "Le titre de propriété de M. Bernard"
+    ],
+    "answer": 1,
+    "fb_title": "L'état des risques, dès la 1re visite",
+    "fb_text": "Depuis le 1er janvier 2023, l'état des risques est remis lors de la première visite et doit dater de moins de six mois (art. R. 125-25 du code de l'environnement). Les autres documents viennent plus tard ou ne se communiquent pas.",
+    "whys": [
+     "Le pré-état daté sert à la promesse de vente, pas à la visite.",
+     "Oui : c'est une obligation réglementaire, à préparer en autant d'exemplaires que de visiteurs.",
+     "Le titre de propriété contient des données personnelles : il ne se distribue pas en visite."
+    ]
+   },
+   {
+    "question": "Dans quel ordre fais-tu visiter l'appartement de M. Bernard ?",
+    "options": [
+     "Hall, séjour et balcon, cuisine, chambres, salle de bains, retour au séjour",
+     "Entrée, WC, salle de bains, chambres, cuisine, séjour",
+     "Le séjour seulement, puis le dossier au bureau"
+    ],
+    "answer": 0,
+    "fb_title": "L'ordre de l'histoire",
+    "fb_text": "On ouvre sur le moment fort (séjour de 24 m² et balcon sud-ouest), on montre les défauts avec leur chiffrage (fenêtres des chambres, ventilation) et on termine assis au séjour, dossier ouvert.",
+    "whys": [
+     "Oui : moment fort d'abord, défauts expliqués ensuite, fin posée autour du dossier.",
+     "L'ordre du couloir finit sur le séjour mais commence par les pièces les moins valorisantes.",
+     "Une visite partielle empêche l'acheteur de se projeter et cache les défauts : mauvais calcul."
+    ]
+   },
+   {
+    "question": "Julie Martin a vu « classe F » sur un ancien document. Que lui réponds-tu ?",
+    "options": [
+     "« C'est une erreur du diagnostiqueur, n'en tenez pas compte. »",
+     "« Après les travaux, ce sera C, c'est garanti. »",
+     "« Le DPE de 2023 a été recalculé avec le coefficient 2026 : l'attestation officielle classe le logement en E, la voici. »"
+    ],
+    "answer": 2,
+    "fb_title": "Le document officiel, montré",
+    "fb_text": "Le DPE n'était pas faux : la règle de calcul de l'électricité a changé (2,3 puis 1,9 en 2026). L'attestation actualisée ADEME, valable jusqu'au 13/03/2033, fait foi. On la montre, on ne promet rien d'autre.",
+    "whys": [
+     "Faux et dangereux : le diagnostiqueur a appliqué la règle de 2023.",
+     "Une classe après travaux est une estimation à confirmer, jamais une garantie.",
+     "Oui : explication factuelle et preuve sur papier (D03)."
+    ]
+   },
+   {
+    "question": "Thomas demande : « Les appels de fonds de la façade, c'est nous ou le vendeur ? » Ta réponse ?",
+    "options": [
+     "« C'est le vendeur : les travaux ont été votés avant la vente. »",
+     "« Par principe, le copropriétaire à la date d'exigibilité ; un autre accord est possible, rédigé par le notaire. »",
+     "« C'est toujours l'acheteur, c'est la loi. »"
+    ],
+    "answer": 1,
+    "fb_title": "Le principe, pas la sentence",
+    "fb_text": "Vis-à-vis du syndicat, la somme incombe au copropriétaire au moment de l'exigibilité (art. 6-2 du décret de 1967). Une convention contraire est possible entre vendeur et acquéreur, sans effet envers le syndicat. Tu donnes le principe et tu renvoies au notaire.",
+    "whys": [
+     "C'est la date d'exigibilité qui compte, pas la date du vote.",
+     "Oui : c'est le principe, avec la possibilité d'un accord entre les parties rédigé par le notaire.",
+     "Ce n'est pas toujours l'acheteur : l'appel du 1/01/2027 sera exigible quand M. Bernard sera encore propriétaire."
+    ]
+   },
+   {
+    "question": "Que fais-tu dans l'heure qui suit la visite ?",
+    "options": [
+     "Rien : tu attends que les acheteurs rappellent",
+     "Tu appelles M. Bernard pour lui demander de baisser le prix",
+     "Tu envoies les documents promis aux acheteurs et tu notes leur retour pour le compte rendu du vendeur"
+    ],
+    "answer": 2,
+    "fb_title": "La sortie compte autant que l'entrée",
+    "fb_text": "Le message de remerciement avec les documents promis prolonge la visite. Le retour noté (aimé, freins, suite) nourrit le compte rendu écrit toutes les deux semaines promis dans le mandat.",
+    "whys": [
+     "L'attente laisse le doute s'installer et l'acheteur visiter ailleurs.",
+     "Une baisse se discute sur la base de plusieurs retours et à une date convenue, pas après une visite.",
+     "Oui : suivi acheteur et information du vendeur, deux engagements tenus."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Check-list visite",
+  "kind": "checklist",
+  "intro": "À imprimer pour chaque visite d'un appartement en copropriété. Elle couvre la préparation (J-1 et jour J), le parcours, les réponses aux questions sensibles et le retour au vendeur. Exemple rempli : l'appartement de M. Bernard (exemple fictif).",
+  "sections": [
+   {
+    "heading": "La veille (J-1)",
+    "type": "checklist",
+    "items": [
+     "Appel de qualification de chaque acquéreur : projet, délai, financement vérifié (voir fiche qualification 4.4).",
+     "Créneau confirmé par SMS ou e-mail avec l'adresse et ton numéro.",
+     "Vendeur prévenu : absent pendant la visite de préférence, animaux et objets personnels rangés.",
+     "Dossier de visite imprimé : attestation DPE (D03), plan (D04), fiche synthétique (D10), budget prévisionnel (D06), extrait de PV d'AG (D07), synthèse PPPT (D09), devis travaux (D13).",
+     "État des risques de moins de six mois imprimé en un exemplaire par visiteur (remise obligatoire dès la 1re visite).",
+     "Bon de visite et fiche de retour prêts."
+    ]
+   },
+   {
+    "heading": "Le jour J, 20 minutes avant",
+    "type": "checklist",
+    "items": [
+     "Volets ouverts, lumières du séjour allumées, fenêtres entrouvertes 5 minutes puis refermées.",
+     "Salle de bains aérée et propre (plan Éco-staging), plafond de cuisine vérifié.",
+     "Clés de la cave et accès au parking testés.",
+     "Chauffage réglé pour une température confortable dans les chambres."
+    ]
+   },
+   {
+    "heading": "Le parcours type (appartement de M. Bernard)",
+    "type": "table",
+    "headers": [
+     "Étape",
+     "Ce que tu montres",
+     "Ce que tu dis (exemple)"
+    ],
+    "rows": [
+     [
+      "Hall et ascenseur",
+      "Parties communes, ascenseur 2019",
+      "« La façade sera isolée à partir d'avril 2027 : c'est voté et chiffré. »"
+     ],
+     [
+      "Séjour et balcon",
+      "24 m², balcon 6 m² sud-ouest",
+      "Silence : laisse-les sortir sur le balcon. C'est le moment fort."
+     ],
+     [
+      "Cuisine",
+      "Cuisine 2016, plafond repeint",
+      "« Un dégât des eaux du voisin en 2022, cause réparée, sinistre clos. »"
+     ],
+     [
+      "Chambres (11, 10, 9 m²)",
+      "Fenêtres bois simple vitrage",
+      "« Les quatre fenêtres sont chiffrées : 5 600 € TTC sur devis. »"
+     ],
+     [
+      "Salle de bains et WC",
+      "Pièce assainie, grilles de ventilation",
+      "« Pas de VMC aujourd'hui : 2 900 € avec le débouchage du conduit. »"
+     ],
+     [
+      "Dégagement",
+      "Fissure fine de la cloison",
+      "« Fissure de moins de 0,2 mm, non structurelle, à surveiller. »"
+     ],
+     [
+      "Retour au séjour",
+      "Dossier ouvert sur la table",
+      "« Qu'est-ce qui vous a plu ? Qu'est-ce qui vous freine ? Où en est votre financement ? »"
+     ],
+     [
+      "Cave et parking",
+      "Cave n° 22, place n° 31",
+      "À proposer en fin de visite si l'intérêt est confirmé."
+     ]
+    ]
+   },
+   {
+    "heading": "Réponses types aux questions sensibles",
+    "type": "list",
+    "items": [
+     "DPE : « Le DPE de 2023 a été recalculé avec le coefficient de l'électricité de 2026. L'attestation officielle ADEME classe le logement en E, valable jusqu'au 13/03/2033. »",
+     "Après travaux ? « Le chiffrage vise la classe D pour 16 500 €, puis C avec l'isolation de la façade : ce sont des estimations à confirmer par un diagnostiqueur. »",
+     "Charges : « 2 652 € par an pour ce lot, budget 2026. Chauffage individuel : pas de chauffage collectif dans les charges. »",
+     "Santé de la copropriété : « 48 lots, impayés de l'ordre de 6 % du budget, aucune procédure, plan pluriannuel adopté en 2024. »",
+     "Travaux votés : « Ravalement avec isolation voté le 12/06/2025 : 35 880 € pour le lot, en quatre appels de 8 970 € en 2027. Une aide a été demandée par le syndic, montant non connu. »",
+     "Qui paie les appels ? « Par principe, le copropriétaire à la date d'exigibilité ; un autre accord est possible entre vendeur et acquéreur, rédigé par le notaire. »",
+     "Fonds de travaux : « 1 061 € attachés au lot au 30/09/2026 ; ils restent au lot, sauf accord dans l'acte. »"
+    ]
+   },
+   {
+    "heading": "Fiche de retour de visite (à remplir dans l'heure)",
+    "type": "checklist",
+    "items": [
+     "Date, heure, nom des visiteurs, source du contact.",
+     "Ce qui a plu (verbatim).",
+     "Les freins exprimés (verbatim) et ta réponse.",
+     "Financement : apport, accord de principe, courtier.",
+     "Suite : deuxième visite, offre attendue, abandon (motif).",
+     "Message de remerciement et documents envoyés : oui / non.",
+     "Ligne prévue dans le compte rendu vendeur (toutes les 2 semaines)."
+    ]
+   }
+  ],
+  "footer": "Sources : C. env. art. R. 125-25 ; décret n° 67-223 du 17 mars 1967, art. 6-2 (analyse ANIL) ; proposition pédagogique Éco-Propriété. Exemple fictif. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Parcours de visite",
+  "duration_min": 30,
+  "context": "Samedi 21/11/2026, tu fais visiter l'appartement de M. Bernard aux Martin à 10 h. Ils ont lu l'annonce (classe E, travaux votés annoncés). Julie (profil I) s'enthousiasme vite, Thomas (profil S) a besoin d'être rassuré. Tu prépares ton parcours et tes réponses.",
+  "materials": [
+   "D03 Attestation actualisée ADEME",
+   "D04 Plan et descriptif de l'appartement",
+   "D05 Reportage photo commenté",
+   "D06 Budget prévisionnel 2026",
+   "D07 PV d'AG du 12/06/2025",
+   "D10 Fiche synthétique",
+   "D13 Devis des travaux privatifs",
+   "D17 Dossier de diagnostic technique (état des risques)"
+  ],
+  "steps": [
+   "Liste les documents de ton dossier de visite (codes D) et coche ceux que tu remets, ceux que tu montres seulement.",
+   "Sur le plan D04, trace ton parcours et numérote les étapes ; repère ton moment fort.",
+   "Pour chaque pièce, écris en une phrase ce que tu montres et ce que tu dis (atout ou défaut + solution chiffrée).",
+   "Rédige tes réponses (2 à 3 phrases) aux trois questions : DPE, copropriété, travaux votés.",
+   "Adapte une phrase pour Julie (profil I) et une pour Thomas (profil S).",
+   "Rédige le message de remerciement envoyé après la visite."
+  ],
+  "expected": "Dossier : remis = état des risques (< 6 mois, obligatoire), attestation D03, synthèse des charges (D06/D10), devis D13 ; montrés = extrait D07 et D09. Parcours : 1 hall (ascenseur 2019, façade isolée en 2027) → 2 séjour + balcon sud-ouest (moment fort, laisser le temps) → 3 cuisine (2016 ; auréole = dégât des eaux 2022 clos) → 4 chambres (fenêtres simple vitrage : 5 600 €) → 5 salle de bains (ventilation, VMC 2 900 €) → 6 WC et dégagement (fissure < 0,2 mm, à surveiller) → 7 retour au séjour, dossier ouvert : trois questions de fin. Réponse DPE : « Le DPE de 2023 a été recalculé avec le coefficient 2026 ; l'attestation ADEME classe le logement en E jusqu'au 13/03/2033. » Copropriété : « 48 lots, 2 652 €/an, impayés modérés (6 %), aucune procédure, PPPT adopté en 2024. » Travaux votés : « 35 880 € pour le lot, 4 appels de 8 970 € les 1/01, 1/04, 1/07 et 1/10/2027 ; par principe à la charge du copropriétaire à la date d'exigibilité ; un accord différent est possible, rédigé par le notaire. » Julie (I) : « Imaginez vos dîners d'été sur ce balcon. » Thomas (S) : « Tout est chiffré et daté, vous n'aurez pas de surprise. »"
+ },
+ "deliverable": {
+  "title": "Parcours de visite de l'appartement de M. Bernard",
+  "format": "PDF, 1 à 2 pages : plan annoté + tableau étape / ce que je montre / ce que je dis + 3 réponses types",
+  "criteria": [
+   "Le parcours commence par le séjour et le balcon (ou y mène directement) et se termine assis au séjour",
+   "Chaque défaut montré (fenêtres, ventilation, fissure, plafond) est associé à sa solution et à son coût ou statut issu de D13 ou du dossier fil rouge",
+   "L'état des risques figure dans les documents remis dès la première visite",
+   "La réponse DPE cite l'attestation E (D03) et ne promet aucune classe après travaux",
+   "La réponse sur les travaux votés donne 35 880 €, les 4 échéances de 8 970 € et le principe de la date d'exigibilité avec renvoi au notaire",
+   "Le message de remerciement post-visite est rédigé"
+  ],
+  "example": "Étape 4 — Chambres — Je montre : les 4 fenêtres bois simple vitrage — Je dis : « Elles sont chiffrées : 5 600 € TTC pour passer en PVC double vitrage, le devis est dans votre dossier. »"
+ },
+ "sources": [
+  {
+   "label": "Légifrance — Code de l'environnement, art. R. 125-25 (état des risques remis dès la 1re visite, moins de 6 mois)",
+   "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000006176683/"
+  },
+  {
+   "label": "Service-Public — Diagnostic immobilier : état des risques",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239"
+  },
+  {
+   "label": "ANIL — Décret du 27 mai 2004 (art. 6-2 du décret de 1967 : paiement des appels de fonds en cas de vente)",
+   "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/analyses-juridiques/analyses-juridiques-2004/principales-dispositions-du-decret-27-mai-2004/"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (parcours, réponses types, fiche de retour)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Tournage : mise en scène de visite dans un appartement des années 1970 (balcon, chambres avec fenêtres bois) avec deux figurants trentenaires ; plan D04 animé avec tracé du parcours. Slide « courbe d'émotion » (pic-fin) : présenter comme principe de psychologie (effet pic-fin, Kahneman) sans chiffre. Relecture juridique : formulation du principe de l'art. 6-2 du décret du 17 mars 1967 et de la convention contraire entre les parties. [À VALIDER] délai de remise et forme de l'état des risques si visites multiples (un exemplaire par visiteur proposé par la pédagogie). Durée de visite « 20 à 40 minutes » : ordre de grandeur pédagogique, non sourcé."
+}

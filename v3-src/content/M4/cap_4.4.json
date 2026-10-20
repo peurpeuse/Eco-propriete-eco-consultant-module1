@@ -1,0 +1,335 @@
+{
+ "id": "4.4",
+ "module": 4,
+ "ia": false,
+ "title": "Qualifier l'acquéreur",
+ "objective": "Vérifier avant la visite le projet et la capacité de financement d'un acquéreur (règles HCSF, mensualité, taux d'usure) et constituer sa fiche de qualification",
+ "video": {
+  "duration_min": 8,
+  "hook": "Deux acheteurs pour l'appartement de M. Bernard : un couple qui emprunte 193 800 €, un investisseur qui paie comptant. Lequel est le plus solide ? Réponse : il faut calculer.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Deux contacts sont arrivés cette semaine pour l'appartement de M. Bernard. Julie et Thomas Martin, 31 et 33 ans, premier achat. Et M. Petit, 58 ans, investisseur, qui annonce : je paie comptant. Spontanément, tu préfères qui ? Beaucoup d'agents diraient : le comptant, c'est plus sûr. Peut-être. Mais tu n'en sais rien tant que tu n'as pas qualifié les deux. Aujourd'hui, on apprend à vérifier un projet et un financement avant même la visite.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; à 00:10, deux fiches D14 apparaissent : « Martin » et « Petit »",
+    "onscreen": "Martin (prêt) ou Petit (comptant) ?"
+   },
+   {
+    "tc": "00:40",
+    "voice": "Pourquoi c'est important ? Parce que tu as promis à M. Bernard des visites qualifiées. Un acheteur non qualifié, c'est un samedi perdu, un vendeur qui doute de toi, et parfois une offre acceptée qui tombe deux mois plus tard faute de prêt. Le compromis signé puis annulé, c'est le pire scénario pour un vendeur prudent comme lui. La qualification, c'est ta protection et la sienne.",
+    "screen": "B-roll : un agent au téléphone, carnet ouvert, coche des cases sur une fiche ; incrustation « Engagement du mandat : visites qualifiées »",
+    "onscreen": "Visite qualifiée = projet + financement vérifiés"
+   },
+   {
+    "tc": "01:10",
+    "voice": "Première idée clé : on qualifie d'abord le projet. Pourquoi achetez-vous ? Résidence principale ou investissement ? Pour quand ? Qu'avez-vous déjà visité, et pourquoi ça n'a pas marché ? Qui décide ? Les Martin achètent leur résidence principale, ils veulent emménager au printemps 2027, ils ont visité quatre appartements. Julie a un profil I : elle parle vite, elle s'enthousiasme. Thomas a un profil S : il veut être rassuré, il a besoin de temps. Tu notes tout. Ce sont tes leviers pour la visite et pour la négociation.",
+    "screen": "Slide : fiche qualification qui se remplit, bloc « Projet » ; pictogrammes DISC I (jaune) et S (vert) à côté des prénoms",
+    "onscreen": "Projet : pourquoi, quand, qui décide"
+   },
+   {
+    "tc": "01:55",
+    "voice": "Comment poser les questions d'argent sans braquer ? Tu annonces la règle avant de demander. Par exemple : pour respecter le temps de M. Bernard, je ne fais visiter que des projets dont le financement est étudié. Est-ce que je peux vous poser trois questions ? Puis tu demandes : quel apport ? Avez-vous vu un courtier ou votre banque ? Quels revenus nets pour le foyer, à peu près ? Tu ne demandes ni bulletins de salaire ni avis d'imposition : ce n'est pas ton rôle, c'est celui de la banque. Tu notes des ordres de grandeur, et tu demandes l'accord de principe dès qu'il existe. Avec Julie, tu restes chaleureux et rapide. Avec Thomas, tu expliques pourquoi tu poses chaque question.",
+    "screen": "Mise en scène : agent au téléphone, casque, fiche qualification à l'écran ; bulles de dialogue animées avec les trois questions",
+    "onscreen": "Annonce la règle, puis 3 questions"
+   },
+   {
+    "tc": "02:55",
+    "voice": "Deuxième idée clé : les règles du financement. Depuis 2022, les banques appliquent les normes du Haut Conseil de stabilité financière. Deux plafonds : un taux d'effort de 35 % maximum, assurance emprunteur comprise. Et une durée de 25 ans maximum. Avec une marge de souplesse limitée pour les banques. Ensuite, le taux. En octobre 2026, le taux moyen sur 20 ans tourne autour de 3,50 à 3,55 %. Et le taux d'usure, le taux maximal légal, assurance et frais compris, est de 5,40 % pour les prêts de 20 ans et plus, jusqu'au 31 décembre 2026. Retiens ces quatre repères.",
+    "screen": "Slide : quatre cartes « 35 % assurance comprise », « 25 ans max. », « ≈ 3,55 % (oct. 2026) », « usure 5,40 % (T4 2026) »",
+    "onscreen": "HCSF : 35 % · 25 ans · usure 5,40 %"
+   },
+   {
+    "tc": "03:45",
+    "voice": "Démonstration avec les Martin. Revenus nets : 4 600 euros par mois à deux. Apport : 22 000 euros. Leur plan : prix 184 000 euros, frais de notaire environ 13 300 euros, travaux privatifs 16 500, frais de garantie environ 2 000. Total : 215 800 euros. Moins l'apport : 193 800 euros à emprunter. Sur 25 ans à 3,55 %, la mensualité hors assurance est d'environ 975 euros. Avec l'assurance, environ 1 024 euros. Taux d'effort : 1 024 divisé par 4 600, environ 22,3 %. On est loin des 35 %. Plafond HCSF pour eux : 35 % de 4 600, soit 1 610 euros par mois. Il reste de la marge. Et un TAEG estimé autour de 4,2 %, sous l'usure. Le dossier tient. Et garde en tête que ces chiffres ne sont pas les tiens : ce sont ceux du dossier des Martin, et c'est leur courtier qui les confirmera.",
+    "screen": "Plein écran : tableau de calcul qui se construit ligne par ligne (D14), formule de mensualité en petit, résultats en gras : 975 €, 1 024 €, 22,3 %",
+    "onscreen": "193 800 € · 25 ans · 3,55 % → ≈ 975 € (≈ 1 024 € assurance comprise) · 22,3 %"
+   },
+   {
+    "tc": "04:55",
+    "voice": "Attention, il y a un point que les Martin n'ont pas mis dans leur plan : la quote-part des travaux de façade, 35 880 euros en 2027. Selon l'accord qui sera trouvé avec M. Bernard, une grande partie sera pour eux. Tu fais le test : si tout était financé par le prêt, on emprunterait environ 229 700 euros. Mensualité autour de 1 156 euros, environ 1 214 avec l'assurance, soit 26,4 % de leurs revenus. Toujours sous les 35 %. Mais c'est à la banque de le dire, pas à toi. Tu leur conseilles d'apporter le PV d'assemblée et l'échéancier à leur courtier dès maintenant.",
+    "screen": "Slide « Test de résistance » : ligne + 35 880 € ITE ajoutée au tableau ; nouveau taux d'effort 26,4 % sous la barre rouge des 35 %",
+    "onscreen": "Test : + 35 880 € ITE → ≈ 26,4 %"
+   },
+   {
+    "tc": "05:50",
+    "voice": "Troisième idée clé : le comptant se vérifie aussi. M. Petit annonce 170 000 euros comptant. Tu lui demandes une attestation de fonds de sa banque ou de son notaire. Tu lui demandes s'il compte quand même emprunter : un acheteur qui paie sans prêt le déclare dans l'avant-contrat, et le notaire rédige cette mention. Et comme tout professionnel de l'immobilier, tu as des obligations de vigilance contre le blanchiment : identifier ton client, comprendre l'origine des fonds, et alerter si quelque chose cloche. Enfin, son projet : il veut louer. Avec une classe E, il doit connaître le calendrier des interdictions de location. Tu le renvoies aux textes en vigueur, tu ne fais pas de pronostic.",
+    "screen": "Plein écran : fiche Petit (D14) ; trois cases à cocher qui s'animent « attestation de fonds », « déclaration sans prêt », « vigilance LCB-FT »",
+    "onscreen": "Comptant : preuve des fonds + vigilance"
+   },
+   {
+    "tc": "06:45",
+    "voice": "Les erreurs fréquentes. Un : demander le salaire à la porte de l'appartement. On qualifie au téléphone, la veille, avec tact. Deux : faire le calcul à la place du courtier et annoncer un accord. Tu vérifies la cohérence, la banque décide. Trois : oublier l'assurance dans le taux d'effort. Quatre : prendre le comptant pour une garantie, sans preuve. Cinq : garder des copies de bulletins de salaire dont tu n'as pas besoin. Les données de tes acquéreurs, tu les limites au nécessaire, et tu les protèges.",
+    "screen": "Seb face caméra, plan rapproché ; cinq icônes rouges numérotées à droite",
+    "onscreen": "La banque décide, toi tu vérifies la cohérence"
+   },
+   {
+    "tc": "07:30",
+    "voice": "À toi maintenant. Le quiz flash t'attend : cinq questions, dont un calcul de taux d'effort. Télécharge la fiche qualification : projet, financement, calculs, conformité. Dans l'exercice, tu remplis la fiche des Martin et celle de M. Petit à partir du document D14, avec tous les calculs. Et tu déposes la fiche d'un acquéreur type, celle que tu utiliseras dès lundi.",
+    "screen": "Seb face caméra, plan taille ; pictogrammes quiz, ressource, exercice, dépôt",
+    "onscreen": "Quiz → Fiche qualification → Exercice → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Selon les normes HCSF, quel taux d'effort maximal s'applique, et sur quelle base ?",
+    "options": [
+     "33 % hors assurance",
+     "35 % assurance emprunteur comprise",
+     "40 % hors assurance pour les primo-accédants"
+    ],
+    "answer": 1,
+    "fb_title": "35 %, assurance comprise",
+    "fb_text": "Le HCSF fixe un taux d'effort maximal de 35 % des revenus nets, assurance emprunteur comprise, et une durée maximale de 25 ans, avec une marge de flexibilité encadrée pour les banques.",
+    "whys": [
+     "33 % est une ancienne règle d'usage, et l'assurance doit être comptée.",
+     "Oui : 35 % des revenus, mensualité assurance comprise.",
+     "Il n'existe pas de plafond à 40 % pour les primo-accédants ; ils bénéficient seulement d'une part de la marge de flexibilité."
+    ]
+   },
+   {
+    "question": "Les Martin gagnent 4 600 €/mois et paieraient 1 024 €/mois assurance comprise. Leur taux d'effort ?",
+    "options": [
+     "≈ 22,3 %",
+     "≈ 21,2 %",
+     "≈ 35 %"
+    ],
+    "answer": 0,
+    "fb_title": "1 024 / 4 600 ≈ 22,3 %",
+    "fb_text": "Taux d'effort = mensualité assurance comprise / revenus nets mensuels = 1 024 / 4 600 ≈ 0,223. Ils sont sous le plafond de 35 % (1 610 €/mois).",
+    "whys": [
+     "Oui : 1 024 ÷ 4 600 = 0,2226, soit environ 22,3 %.",
+     "21,2 % correspond à la mensualité hors assurance (975 / 4 600) : il faut compter l'assurance.",
+     "35 % est le plafond, soit 1 610 €/mois pour ces revenus, pas leur taux réel."
+    ]
+   },
+   {
+    "question": "Le TAEG d'un prêt de 25 ans proposé aux Martin est estimé à 4,2 %. Est-il possible en novembre 2026 ?",
+    "options": [
+     "Non, il dépasse le taux moyen de 3,55 %",
+     "Oui, il reste sous le taux d'usure de 5,40 % (prêts de 20 ans et plus, T4 2026)",
+     "On ne peut pas savoir, l'usure ne concerne que le taux nominal"
+    ],
+    "answer": 1,
+    "fb_title": "Sous l'usure, donc possible",
+    "fb_text": "Le taux d'usure plafonne le coût total du crédit (TAEG : intérêts, assurance, frais). Pour les prêts de 20 ans et plus, il est de 5,40 % du 1/10 au 31/12/2026. 4,2 % est en dessous.",
+    "whys": [
+     "Le taux moyen n'est pas un plafond : c'est le TAEG comparé à l'usure qui compte.",
+     "Oui : TAEG 4,2 % < usure 5,40 %.",
+     "C'est l'inverse : l'usure se compare au TAEG, qui inclut assurance et frais."
+    ]
+   },
+   {
+    "question": "M. Petit annonce un achat comptant à 170 000 € FAI. Que fais-tu avant de transmettre son offre ?",
+    "options": [
+     "Rien, le comptant est toujours sûr",
+     "Tu demandes une preuve des fonds, tu vérifies s'il compte emprunter et tu appliques ta vigilance anti-blanchiment",
+     "Tu exiges un chèque d'acompte avec l'offre"
+    ],
+    "answer": 1,
+    "fb_title": "Le comptant se prouve",
+    "fb_text": "Attestation de fonds, déclaration de non-recours au prêt dans l'avant-contrat (rédigée par le notaire) et obligations de vigilance de l'agent : identification, origine des fonds. Et aucun versement ne peut être exigé avec une offre d'achat.",
+    "whys": [
+     "Une annonce de comptant sans preuve n'est qu'une déclaration.",
+     "Oui : preuve, déclaration et vigilance, avant de présenter l'offre au vendeur.",
+     "Un engagement unilatéral d'achat assorti d'un versement est nul (art. 1589-1 du code civil)."
+    ]
+   },
+   {
+    "question": "Les Martin n'ont pas intégré la quote-part ITE (35 880 €) à leur plan. Que fais-tu ?",
+    "options": [
+     "Tu n'en parles pas pour ne pas les décourager",
+     "Tu leur annonces que la banque acceptera, puisque le taux d'effort resterait sous 35 %",
+     "Tu fais un test de résistance et tu leur conseilles de montrer le PV et l'échéancier à leur courtier"
+    ],
+    "answer": 2,
+    "fb_title": "Tester, puis renvoyer au courtier",
+    "fb_text": "Si tout était emprunté (≈ 229 700 €), la mensualité serait d'environ 1 214 € assurance comprise, soit ≈ 26,4 %. C'est un indicateur, pas un accord : la banque décide sur le dossier complet.",
+    "whys": [
+     "Cacher un coût connu, c'est préparer l'échec du financement.",
+     "Tu n'as pas à annoncer une décision de banque : tu vérifies seulement la cohérence.",
+     "Oui : test chiffré et transmission des documents au courtier, sans promesse."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche qualification",
+  "kind": "form",
+  "intro": "À remplir au téléphone la veille de la visite, puis à compléter avant de présenter une offre au vendeur. Elle sert à proposer des visites qualifiées, à préparer la négociation et à sécuriser le compromis. Ne conserve que les informations nécessaires et supprime-les quand elles ne servent plus (RGPD). Exemple : Julie et Thomas Martin (exemple fictif).",
+  "sections": [
+   {
+    "heading": "1. Le projet",
+    "type": "checklist",
+    "items": [
+     "Type d'achat : résidence principale / secondaire / investissement locatif.",
+     "Délai souhaité d'emménagement ou de mise en location.",
+     "Situation actuelle : locataire, propriétaire à revendre (vente en cours ?).",
+     "Biens déjà visités et raisons du refus.",
+     "Qui décide, qui influence (parents, associé…) ; profil DISC observé.",
+     "Critères indispensables / rédhibitoires (étage, ascenseur, extérieur, travaux)."
+    ]
+   },
+   {
+    "heading": "2. Le financement (achat avec prêt)",
+    "type": "table",
+    "headers": [
+     "Donnée",
+     "Martin (exemple)",
+     "Contrôle"
+    ],
+    "rows": [
+     [
+      "Revenus nets mensuels du foyer",
+      "4 600 € (deux CDI)",
+      "Stabilité des revenus"
+     ],
+     [
+      "Apport personnel",
+      "22 000 €",
+      "Couvre au moins les frais de notaire et de garantie ?"
+     ],
+     [
+      "Prix FAI visé",
+      "184 000 €",
+      "—"
+     ],
+     [
+      "Frais de notaire (base hors honoraires 175 000 €)",
+      "≈ 13 300 €",
+      "Estimation, à confirmer par le notaire"
+     ],
+     [
+      "Travaux privatifs prévus (D13)",
+      "16 500 €",
+      "Inclus dans le prêt"
+     ],
+     [
+      "Frais de garantie",
+      "≈ 2 000 €",
+      "Estimation"
+     ],
+     [
+      "Besoin total / montant à emprunter",
+      "215 800 € / 193 800 €",
+      "215 800 − 22 000"
+     ],
+     [
+      "Mensualité hors assurance (25 ans, 3,55 %)",
+      "≈ 975 €",
+      "Formule ci-dessous"
+     ],
+     [
+      "Mensualité assurance comprise",
+      "≈ 1 024 €",
+      "Assurance ≈ 49 €/mois (exemple)"
+     ],
+     [
+      "Taux d'effort",
+      "≈ 22,3 %",
+      "≤ 35 % (HCSF)"
+     ],
+     [
+      "Courtier / accord de principe",
+      "À obtenir",
+      "Date de rendez-vous notée"
+     ]
+    ]
+   },
+   {
+    "heading": "3. Les formules",
+    "type": "formula",
+    "text": "Mensualité = C × t / (1 − (1 + t)^−n), avec C le capital, t le taux annuel / 12, n le nombre de mois. Exemple : C = 193 800 €, t = 3,55 % / 12 = 0,002958, n = 300 → mensualité ≈ 975,41 €. Taux d'effort = mensualité assurance comprise / revenus nets = 1 024 / 4 600 ≈ 22,3 %. Mensualité maximale HCSF = 35 % × 4 600 = 1 610 €. Test de résistance : si la quote-part ITE de 35 880 € était aussi empruntée, C ≈ 229 680 € → ≈ 1 156 € hors assurance, ≈ 1 214 € avec une assurance au même taux → ≈ 26,4 %. TAEG estimé (intérêts + assurance + 2 000 € de garantie) ≈ 4,2 % < usure 5,40 %."
+   },
+   {
+    "heading": "4. Les repères d'octobre 2026",
+    "type": "list",
+    "items": [
+     "Taux d'effort maximal : 35 % des revenus nets, assurance emprunteur comprise (HCSF).",
+     "Durée maximale : 25 ans (27 ans dans certains cas de différé, par exemple achat avec travaux importants ou VEFA).",
+     "Marge de flexibilité : 20 % de la production trimestrielle des banques peut déroger, en priorité pour la résidence principale et les primo-accédants.",
+     "Taux moyen sur 20 ans : ≈ 3,50 – 3,55 % (octobre 2026).",
+     "Taux d'usure (TAEG maximal), prêts de 20 ans et plus : 5,40 % du 1/10 au 31/12/2026."
+    ]
+   },
+   {
+    "heading": "5. Achat comptant (exemple : M. Petit)",
+    "type": "checklist",
+    "items": [
+     "Attestation de disponibilité des fonds (banque ou notaire) avant transmission de l'offre.",
+     "Confirmation qu'il ne recourra pas à un prêt : la déclaration figurera dans l'avant-contrat (rédaction du notaire).",
+     "Vigilance anti-blanchiment : identité vérifiée, origine des fonds cohérente, doute = procédure interne de l'agence.",
+     "Projet locatif : l'informer que la classe E est concernée par le calendrier de décence énergétique, et le renvoyer aux textes en vigueur.",
+     "Aucun versement demandé avec l'offre d'achat."
+    ]
+   },
+   {
+    "heading": "6. Décision de visite",
+    "type": "text",
+    "text": "Visite proposée si : projet clair, délai compatible avec celui du vendeur (vente avant l'été 2027), financement cohérent (taux d'effort estimé ≤ 35 % assurance comprise, apport couvrant les frais, ou fonds prouvés pour un comptant). Sinon : rappel après le rendez-vous du courtier. Note la décision et la date, elle alimente ton compte rendu vendeur."
+   }
+  ],
+  "footer": "Sources : HCSF (normes 35 % / 25 ans) ; Meilleurtaux, taux moyens au 19/10/2026 ; Banque de France, taux d'usure T4 2026 ; code civil art. 1589-1 ; proposition pédagogique Éco-Propriété. Calculs d'exemple sur données fictives. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Fiche d'un acquéreur type",
+  "duration_min": 30,
+  "context": "Après la diffusion de l'annonce, deux contacts sérieux demandent une visite : Julie et Thomas Martin, et M. Petit. Avant de les recevoir, tu remplis leur fiche de qualification au téléphone, puis tu fais les calculs.",
+  "materials": [
+   "D14 Fiches des acquéreurs (Martin, Petit)",
+   "D13 Devis des travaux privatifs",
+   "D07 PV d'AG du 12/06/2025 (quote-part ITE)",
+   "Fiche qualification (ressource)"
+  ],
+  "steps": [
+   "Remplis le bloc « Projet » pour les Martin et pour M. Petit à partir de D14 (motivations, délai, décideurs, profils DISC).",
+   "Construis le plan de financement des Martin : prix, frais de notaire, travaux, garantie, apport, montant à emprunter.",
+   "Calcule la mensualité hors assurance (193 800 €, 25 ans, 3,55 %), la mensualité assurance comprise et le taux d'effort ; compare au plafond HCSF.",
+   "Fais le test de résistance avec la quote-part ITE (35 880 €) et rédige la phrase de conseil aux Martin.",
+   "Liste les pièces et vérifications demandées à M. Petit (comptant, vigilance, projet locatif).",
+   "Décide pour chacun : visite proposée oui / non, et pourquoi."
+  ],
+  "expected": "Martin : résidence principale, emménagement printemps 2027, Julie I (enthousiaste, visualise), Thomas S (rassurance, temps). Plan : 184 000 + ≈ 13 300 + 16 500 + ≈ 2 000 = 215 800 € ; − 22 000 = 193 800 € à emprunter. Mensualité : 193 800 × 0,002958 / (1 − 1,002958^−300) ≈ 975 € hors assurance ; ≈ 1 024 € avec assurance (≈ 49 €/mois). Taux d'effort ≈ 1 024 / 4 600 = 22,3 % < 35 % (plafond 1 610 €). TAEG estimé ≈ 4,2 % < 5,40 %. Test ITE : 193 800 + 35 880 = 229 680 € → ≈ 1 156 € + ≈ 58 € d'assurance ≈ 1 214 € → ≈ 26,4 % : cohérent, à confirmer par la banque ; conseil : « Montrez dès maintenant le PV d'AG et l'échéancier des appels de fonds à votre courtier. » Visite : oui. Petit : investisseur, 170 000 € FAI comptant, veut louer ; demandes : attestation de fonds, confirmation sans prêt (mention dans l'avant-contrat), identification et origine des fonds (vigilance LCB-FT), information sur le calendrier de location des logements classés E ; aucun versement avec l'offre. Visite : oui, sous réserve de la preuve des fonds."
+ },
+ "deliverable": {
+  "title": "Fiche d'un acquéreur type",
+  "format": "PDF ou DOCX, 1 à 2 pages : ta fiche qualification réutilisable, remplie pour les Martin, avec les calculs",
+  "criteria": [
+   "Le bloc projet est rempli (type d'achat, délai, décideurs, profils DISC de Julie et Thomas)",
+   "Le plan de financement donne 215 800 € de besoin et 193 800 € à emprunter, avec le détail des postes",
+   "La mensualité (≈ 975 € hors assurance, ≈ 1 024 € assurance comprise) et le taux d'effort (≈ 22,3 %) sont calculés avec la formule",
+   "Le résultat est comparé aux repères HCSF (35 % assurance comprise, 25 ans) et à l'usure (5,40 %)",
+   "Le test de résistance intégrant la quote-part ITE (35 880 €) est présenté sans annoncer de décision bancaire",
+   "La fiche ne demande que des données nécessaires et mentionne leur durée de conservation"
+  ],
+  "example": "Taux d'effort : 1 024 € / 4 600 € = 22,3 % (plafond HCSF 35 % assurance comprise, soit 1 610 €/mois) → dossier cohérent, accord de principe du courtier attendu le 25/11/2026."
+ },
+ "sources": [
+  {
+   "label": "April — Règles HCSF : 35 %, 25 ans (27 avec différé), flexibilité 20 %",
+   "url": "https://www.april.fr/assurance-pret/guide/regles-hcsf"
+  },
+  {
+   "label": "Cafpi — HCSF 2026 : pas d'assouplissement des règles du crédit immobilier",
+   "url": "https://www.cafpi.fr/credit-immobilier/actualites/hcsf-2026-pas-d-assouplissement-des-regles-du-credit-immobilier-ce-que-cela-change-pour-votre-projet"
+  },
+  {
+   "label": "Faits vérifiés Éco-Consultant au 20/10/2026 : taux moyen 20 ans ≈ 3,50-3,55 % (Meilleurtaux, 19/10/2026) ; usure 5,40 % au T4 2026 (Banque de France)",
+   "url": "https://www.banque-france.fr/fr/statistiques/taux-et-cours/taux-dusure"
+  },
+  {
+   "label": "Légifrance — Code civil, art. 1589-1 (aucun versement avec un engagement unilatéral d'achat)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441325"
+  },
+  {
+   "label": "Ministère de l'Économie — Commission nationale des sanctions, décision LCB-FT secteur immobilier (2024)",
+   "url": "https://www.economie.gouv.fr/files/files/directions_services/commission-nationale-sanctions/media-document/2023-10_DecisionCNS27052024_IMMO.pdf"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (fiche qualification, test de résistance)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : tableau de calcul animé (plan Martin), cartes HCSF / usure, fiche D14 Martin et Petit. Afficher « exemple fictif, calculs indicatifs » à l'écran. Points à valider : [À VALIDER] assurance ≈ 49 €/mois (différence dossier fil rouge 1 024 − 975, ≈ 0,30 %/an du capital) ; TAEG ≈ 4,2 % calculé par Éco-Propriété (intérêts + assurance + 2 000 € de garantie, hors frais de dossier) ; [À VALIDER] le plan de financement du dossier fil rouge (prêt 193 800 €) n'intègre pas la quote-part ITE (35 880 €) : le test de résistance (≈ 26,4 %) est présenté comme indicateur, à harmoniser avec la capsule 5.4 ; référence exacte de la mention de non-recours au prêt (code de la consommation, art. L. 313-42 [À VALIDER]) ; calendrier d'interdiction de location des logements E (2034 en métropole selon les faits vérifiés, à revérifier). Relecture juridique (financement, LCB-FT)."
+}

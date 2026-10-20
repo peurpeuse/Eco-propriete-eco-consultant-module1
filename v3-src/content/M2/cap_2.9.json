@@ -1,0 +1,313 @@
+{
+ "id": "2.9",
+ "module": 2,
+ "ia": true,
+ "title": "Chiffrer les travaux",
+ "objective": "Chiffrer des postes de travaux par quantité × prix unitaire avec une source datée, et utiliser l'IA pour structurer et contrôler le chiffrage",
+ "video": {
+  "duration_min": 8,
+  "hook": "« Il y a au moins 30 000 euros de travaux. » C'est ce que dira le premier acheteur. Chez M. Bernard, le devis dit 16 500 €. Celui qui a le chiffre prouvé gagne la négociation.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "« Il y a au moins 30 000 euros de travaux là-dedans. » Tu as déjà entendu cette phrase en visite. L'acheteur voit des fenêtres anciennes, des convecteurs, une salle de bains humide, et il fait un calcul dans sa tête. Un calcul toujours trop haut, parce qu'il a peur. Chez M. Bernard, le devis des travaux privatifs dit 16 500 euros. Quatre postes, quatre lignes. La différence entre 30 000 et 16 500, c'est exactement ce que tu peux protéger pour ton vendeur. À une condition : que ton chiffre soit prouvé, détaillé et honnête.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; incrustation « 30 000 € ? » barré, remplacé par « 16 500 € (devis D13) »",
+    "onscreen": "Peur de l'acheteur : 30 000 € · Devis : 16 500 €"
+   },
+   {
+    "tc": "00:45",
+    "voice": "Pourquoi c'est ton travail ? Parce que ce chiffrage sert trois fois. Une : pour calculer la valeur après rénovation, dans la capsule suivante. Deux : pour aider M. Bernard à choisir entre faire les travaux ou vendre en l'état, au module 3. Trois : pour transformer chaque défaut en budget devant l'acheteur, au module 4. Attention, tu n'es pas maître d'œuvre. Tu ne promets pas un prix. Tu présentes des prix indicatifs, sourcés, datés, à faire valider par des entreprises. C'est cette prudence qui te rend crédible, surtout face à un vendeur comme M. Bernard.",
+    "screen": "Slide « Un chiffrage, 3 usages » : 2.10 Valeur après travaux / Module 3 Travaux ou vente en l'état / Module 4 Défauts → budget ; bandeau bas « Prix indicatifs à valider »",
+    "onscreen": "Prix indicatifs, sourcés, datés"
+   },
+   {
+    "tc": "01:30",
+    "voice": "Première idée : un poste, c'est une quantité multipliée par un prix unitaire. Jamais un montant global sorti de nulle part. Les quantités, tu les as déjà : elles viennent de ton audit et du plan. Chez M. Bernard : quatre fenêtres bois en simple vitrage, deux dans la grande chambre, une dans chacune des deux autres. Six convecteurs. Une ventilation à créer et un conduit à déboucher. Un ballon de 200 litres. Si ta quantité est fausse, tout ton chiffrage est faux. Donc tu recomptes sur le plan et sur les photos, pièce par pièce.",
+    "screen": "Plan D04 de l'appartement animé : 4 fenêtres bois cerclées dans les chambres (2 + 1 + 1), 6 convecteurs pointés, conduit de la salle de bains, ballon dans la cuisine ; formule « Quantité × Prix unitaire = Poste »",
+    "onscreen": "Quantité × prix unitaire = poste"
+   },
+   {
+    "tc": "02:15",
+    "voice": "Démonstration avec le devis D13. Fenêtres : quatre fenêtres PVC double vitrage, avec un coefficient Uw inférieur ou égal à 1,3, à 1 400 euros pièce posée, ça fait 5 600 euros. Ventilation : une VMC simple flux hygroréglable de type B, avec le débouchage du conduit, au forfait : 2 900 euros. Chauffage : six radiateurs à inertie programmables avec un thermostat, 4 800 euros, soit en moyenne 800 euros par radiateur, thermostat compris. Eau chaude : un chauffe-eau thermodynamique de 200 litres, 3 200 euros. Total : 16 500 euros TTC. Rapporté à la surface, environ 217 euros par mètre carré. Et si tu veux savoir ce que ça change sur l'étiquette : selon une estimation fictive à faire confirmer par un diagnostiqueur, l'appartement passerait autour de 110 kilowattheures d'énergie finale par mètre carré, en classe D.",
+    "screen": "Plein écran : tableau de chiffrage qui se construit ligne par ligne (Poste / Quantité / Prix unitaire / Total / Source) : 4 × 1 400 = 5 600 ; 1 × 2 900 = 2 900 ; 6 × 800 = 4 800 ; 1 × 3 200 = 3 200 ; total 16 500 € TTC ; 16 500 / 76 ≈ 217 €/m²",
+    "onscreen": "16 500 € TTC ≈ 217 €/m²"
+   },
+   {
+    "tc": "03:00",
+    "voice": "Deuxième idée : la source, et sa date. Du plus fiable au moins fiable : un devis d'entreprise, idéalement deux pour comparer, et d'une entreprise RGE si le vendeur ou l'acheteur veut des aides. Ensuite, les prix de chantiers récents de ton réseau d'artisans. Puis les études de prix publiques, comme celles de l'ADEME, à actualiser car elles vieillissent vite. Et vérifie la TVA. Dans un logement de plus de deux ans, des travaux d'amélioration énergétique éligibles peuvent être à 5,5 %, d'autres travaux à 10 %. Tu ne le décides pas : tu lis le taux sur le devis.",
+    "screen": "Pyramide de fiabilité : Devis (2 si possible, RGE) → Chantiers récents du réseau → Études de prix publiques (ADEME) ; encart « TVA : 5,5 % ou 10 % selon les travaux, à lire sur le devis »",
+    "onscreen": "Une source, une date, un taux de TVA"
+   },
+   {
+    "tc": "03:45",
+    "voice": "Troisième idée : la prudence s'écrit. Sur ta fiche, tu notes ce qui est compris et ce qui ne l'est pas : la dépose, l'évacuation, les finitions, les raccords électriques. Tu sépares les travaux privatifs, 16 500 euros, des travaux de la copropriété, les 35 880 euros de l'isolation de façade. Ce ne sont pas les mêmes payeurs, ni le même calendrier. Et les aides : tu ne chiffres que celles qui sont notifiées. L'aide demandée par le syndic n'est pas notifiée, donc zéro dans le tableau. Enfin, chaque fiche porte la mention « prix indicatifs à valider ». Pour M. Bernard, qui lit tout, c'est même ce qui fera la différence : il verra que tu ne caches rien.",
+    "screen": "Fiche de chiffrage avec 3 encarts : « Compris / Non compris », « Privatif 16 500 € ≠ Copropriété 35 880 € », « Aides : seulement si notifiées » ; tampon « Prix indicatifs à valider »",
+    "onscreen": "Privatif ≠ copropriété · Aide non notifiée = 0"
+   },
+   {
+    "tc": "04:30",
+    "voice": "Et l'IA dans tout ça ? Elle est très utile, mais pas pour inventer des prix. Tu lui donnes tes quantités, tes prix unitaires et tes sources, et tu lui demandes trois choses. Un : mettre le tout dans un tableau propre. Deux : vérifier les multiplications et le total. Trois : lister ce que tu as pu oublier, comme la dépose ou une reprise de peinture. Elle peut aussi rédiger une fiche claire pour l'acheteur. Mais si elle te propose un prix, tu le traites comme une hypothèse à vérifier, jamais comme une source. Et tu ne colles jamais le nom ou l'adresse de ton client.",
+    "screen": "Capture d'écran d'un assistant IA (interface générique) : prompt collé avec les 4 postes, réponse en tableau ; incrustation de 3 coches « Mettre en forme · Vérifier les calculs · Lister les oublis » et d'une croix « Inventer un prix »",
+    "onscreen": "L'IA structure et vérifie. Elle ne source pas."
+   },
+   {
+    "tc": "05:15",
+    "voice": "Je te montre le geste. Je colle le prompt de la ressource, avec les données de l'appartement sans nom ni adresse. L'IA me rend un tableau. Je contrôle : quatre fois 1 400, 5 600, c'est bon. Le total fait 16 500, c'est bon. Elle me suggère d'ajouter la reprise d'enduit autour des nouvelles fenêtres : bonne remarque, je vérifie auprès du menuisier si c'est compris. Elle me propose aussi un prix pour une VMC « autour de 1 500 euros » : je l'ignore, j'ai un devis. Et je relis chaque phrase avant de l'envoyer. C'est moi qui signe, pas l'outil.",
+    "screen": "Écran partagé : à gauche le prompt, à droite la réponse de l'IA ; surlignage vert sur les calculs vérifiés, surlignage orange sur la suggestion « reprise d'enduit », barré rouge sur le prix inventé ; Seb en incrustation",
+    "onscreen": "Tu contrôles chaque chiffre"
+   },
+   {
+    "tc": "06:00",
+    "voice": "Les erreurs fréquentes. Un : un montant global sans quantité, « environ 15 000 euros de travaux ». Personne ne peut le vérifier. Deux : une seule source, ou une source sans date. Trois : mélanger hors taxes et TTC. Quatre : compter les aides avant qu'elles soient accordées. Cinq : additionner les travaux de la copropriété et les travaux privatifs sans les distinguer. Et six, la plus dangereuse : présenter ton chiffrage comme un engagement. Tu n'es pas l'entreprise. Ton chiffrage est un outil d'aide à la décision, avec ses sources, et il le dit. Avec un acheteur, c'est le même principe : tu montres le détail, il peut vérifier.",
+    "screen": "Seb plan taille ; 6 cartes successives : Montant global / Source unique ou sans date / HT ≠ TTC / Aides non accordées / Copro + privatif mélangés / Chiffrage présenté comme un engagement",
+    "onscreen": "Un chiffrage n'est pas un devis"
+   },
+   {
+    "tc": "06:45",
+    "voice": "À toi. Le quiz flash d'abord. Puis tu télécharges le modèle de chiffrage, avec le prompt prêt à copier. L'exercice : tu chiffres trois postes de l'appartement de M. Bernard, les fenêtres, la ventilation et le chauffage, à partir du plan, des photos et du devis. Tu ajoutes le chauffe-eau, tu retrouves le total, et tu fais contrôler ton tableau par l'IA. Puis tu déposes ton modèle rempli. Souviens-toi : face à un acheteur qui a peur, un chiffre précis, sourcé et daté vaut mieux que tous les discours.",
+    "screen": "Seb face caméra, plan rapproché ; bandeau : Quiz → Modèle de chiffrage + prompt → Exercice 3 postes → Contrôle IA → Dépôt",
+    "onscreen": "Précis, sourcé, daté"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Le devis D13 indique 5 600 € pour les fenêtres des chambres de M. Bernard. Quel est le prix unitaire par fenêtre ?",
+    "options": [
+     "1 866 € (3 fenêtres)",
+     "1 400 € (4 fenêtres)",
+     "933 € (6 fenêtres)"
+    ],
+    "answer": 1,
+    "fb_title": "Recompter sur le plan",
+    "fb_text": "Il y a 4 fenêtres bois simple vitrage : 2 dans la grande chambre et 1 dans chacune des deux autres. 5 600 / 4 = 1 400 € posée. La quantité vient toujours du plan et des photos, pas d'une supposition.",
+    "whys": [
+     "Faux : 3 chambres ne veut pas dire 3 fenêtres ; la grande chambre en a 2.",
+     "Juste : 4 fenêtres × 1 400 € = 5 600 €.",
+     "Faux : 6 correspond aux convecteurs, pas aux fenêtres."
+    ]
+   },
+   {
+    "question": "Quelle source de prix est la plus fiable pour chiffrer la VMC de M. Bernard ?",
+    "options": [
+     "Le prix proposé par un assistant IA",
+     "Un devis d'entreprise daté, idéalement comparé à un second",
+     "Un prix moyen national trouvé sur un forum"
+    ],
+    "answer": 1,
+    "fb_title": "Le devis daté d'abord",
+    "fb_text": "Un devis d'entreprise correspond au logement réel, à une date donnée. En comparer deux limite les écarts. L'IA et les moyennes non sourcées ne sont que des hypothèses à vérifier.",
+    "whys": [
+     "Faux : l'IA peut inventer ou généraliser un prix ; ce n'est jamais une source.",
+     "Juste : c'est la référence, à présenter avec sa date et son entreprise.",
+     "Faux : un prix moyen non sourcé ne tient pas devant un vendeur exigeant ni devant un acheteur."
+    ]
+   },
+   {
+    "question": "Le syndic a demandé une aide MaPrimeRénov' Copropriété, non encore notifiée. Comment l'intègres-tu dans ton chiffrage ?",
+    "options": [
+     "Tu la mentionnes sans la chiffrer",
+     "Tu retires une estimation de l'aide du coût de l'ITE",
+     "Tu la soustrais des travaux privatifs"
+    ],
+    "answer": 0,
+    "fb_title": "Pas notifiée, pas chiffrée",
+    "fb_text": "Une aide demandée mais pas accordée n'a pas de montant certain. La mentionner informe ; la chiffrer crée une promesse que tu ne maîtrises pas. Et elle concerne la copropriété, pas les travaux privatifs.",
+    "whys": [
+     "Juste : c'est la règle de prudence de la Bible du fil rouge et de la ressource.",
+     "Faux : tu inventerais un montant non notifié.",
+     "Faux : l'aide demandée par le syndic porte sur les travaux de la copropriété."
+    ]
+   },
+   {
+    "question": "Que demandes-tu à l'IA quand tu prépares le chiffrage des travaux de M. Bernard ?",
+    "options": [
+     "De trouver le meilleur prix du marché pour chaque poste",
+     "De mettre en tableau tes quantités, prix et sources, vérifier les calculs et lister les oublis possibles",
+     "De rédiger un devis à faire signer au vendeur"
+    ],
+    "answer": 1,
+    "fb_title": "Structurer, vérifier, compléter",
+    "fb_text": "L'IA est efficace pour mettre en forme, contrôler l'arithmétique et suggérer des oublis (dépose, finitions). Les prix viennent de tes sources ; tu relis tout et tu ne colles aucune donnée personnelle.",
+    "whys": [
+     "Faux : l'IA n'a pas accès à des prix fiables et datés du marché local.",
+     "Juste : c'est son meilleur usage dans cette étape.",
+     "Faux : tu n'es pas l'entreprise ; un devis engage celui qui réalise les travaux."
+    ]
+   },
+   {
+    "question": "Quelle présentation est correcte pour l'acquéreur de l'appartement de M. Bernard ?",
+    "options": [
+     "« Travaux à prévoir : 52 380 € »",
+     "« Travaux privatifs : 16 500 € TTC (devis D13, prix indicatifs à valider) ; travaux de copropriété votés : 35 880 € appelés en 2027 »",
+     "« Environ 15 000 € de travaux »"
+    ],
+    "answer": 1,
+    "fb_title": "Séparer, sourcer, dater",
+    "fb_text": "Les travaux privatifs et ceux de la copropriété n'ont ni le même payeur ni le même calendrier. On les présente séparément, avec leurs sources ; l'addition brute (16 500 + 35 880 = 52 380 €) effraie sans informer.",
+    "whys": [
+     "Faux : l'addition brute mélange deux natures de dépenses et deux calendriers.",
+     "Juste : deux lignes distinctes, sourcées, avec la mention de prudence.",
+     "Faux : montant global arrondi, sans quantité ni source, et sans la copropriété."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Modèle de chiffrage",
+  "kind": "modele",
+  "intro": "Modèle à remplir pour chaque bien après l'audit 360°. Il transforme les défauts relevés en postes chiffrés, sourcés et datés, utilisables pour l'estimation, l'arbitrage travaux ou vente en l'état, et la fiche remise aux acquéreurs. Il contient le prompt IA prêt à copier.",
+  "sections": [
+   {
+    "heading": "La formule",
+    "type": "formula",
+    "text": "Poste = quantité × prix unitaire TTC (source, date). Total = somme des postes. Ratio = total / surface habitable. Exemple M. Bernard : fenêtres 4 × 1 400 € = 5 600 € ; total 16 500 € ; 16 500 / 76 ≈ 217 €/m²."
+   },
+   {
+    "heading": "Tableau de chiffrage : exemple rempli (devis D13, fictif)",
+    "type": "table",
+    "headers": [
+     "Poste",
+     "Quantité",
+     "Prix unitaire TTC",
+     "Total TTC",
+     "Source"
+    ],
+    "rows": [
+     [
+      "Fenêtres PVC double vitrage Uw ≤ 1,3 (remplacent bois simple vitrage)",
+      "4",
+      "1 400 €",
+      "5 600 €",
+      "Devis D13"
+     ],
+     [
+      "VMC simple flux hygroréglable type B + débouchage conduit SdB",
+      "1 ensemble",
+      "2 900 €",
+      "2 900 €",
+      "Devis D13 (forfait)"
+     ],
+     [
+      "Radiateurs à inertie programmables + thermostat",
+      "6",
+      "800 € (moyenne, thermostat compris)",
+      "4 800 €",
+      "Devis D13"
+     ],
+     [
+      "Chauffe-eau thermodynamique 200 L (remplace ballon électrique)",
+      "1",
+      "3 200 €",
+      "3 200 €",
+      "Devis D13"
+     ],
+     [
+      "Total travaux privatifs",
+      "",
+      "",
+      "16 500 €",
+      "Prix indicatifs à valider"
+     ]
+    ]
+   },
+   {
+    "heading": "Sources de prix, de la plus fiable à la moins fiable",
+    "type": "list",
+    "items": [
+     "Devis d'entreprise daté, au nom du logement (idéalement 2 pour comparer ; entreprise RGE si des aides sont visées).",
+     "Prix de chantiers récents de ton réseau d'artisans, sur des logements comparables.",
+     "Études de prix publiques (par exemple l'étude des prix de la rénovation énergétique de l'ADEME), à actualiser.",
+     "Prix proposés par une IA ou trouvés sur un forum : hypothèses à vérifier, jamais une source."
+    ]
+   },
+   {
+    "heading": "Contrôles avant diffusion",
+    "type": "checklist",
+    "items": [
+     "Chaque quantité est recomptée sur le plan et les photos",
+     "Chaque prix a une source et une date",
+     "Tout est en TTC et le taux de TVA du devis est noté (5,5 % ou 10 % selon la nature des travaux, logement de plus de 2 ans)",
+     "Compris / non compris précisé : dépose, évacuation, finitions, raccords",
+     "Travaux privatifs et travaux de copropriété présentés séparément",
+     "Aucune aide non notifiée n'est chiffrée",
+     "La mention « prix indicatifs à valider » figure sur la fiche",
+     "Les totaux ont été recalculés (à la main ou par l'IA, puis vérifiés)"
+    ]
+   },
+   {
+    "heading": "Prompt IA prêt à copier",
+    "type": "text",
+    "text": "« Tu es assistant d'un agent immobilier éco-consultant. Voici les postes de travaux d'un appartement de 76 m² (immeuble de 1972), avec quantité, prix unitaire TTC et source : [colle ton tableau]. 1) Présente-les dans un tableau Poste / Quantité / Prix unitaire / Total / Source. 2) Recalcule chaque ligne et le total, et signale toute incohérence. 3) Liste les prestations souvent oubliées pour ces postes (dépose, évacuation, finitions…), sous forme de questions à poser à l'entreprise. 4) Ne propose aucun prix nouveau ; si tu en mentionnes un, écris « hypothèse non sourcée ». » Ne colle jamais de nom, d'adresse ou de numéro de DPE."
+   },
+   {
+    "heading": "Ce que tu dis au vendeur et à l'acquéreur",
+    "type": "text",
+    "text": "« Voici les travaux privatifs que j'ai identifiés, poste par poste, avec les quantités et les prix d'un devis daté : 16 500 € TTC, soit environ 217 € par m². Ce sont des prix indicatifs, à faire confirmer par les entreprises. Les travaux de la copropriété sont à part : ils sont votés et appelés par l'immeuble, selon un calendrier connu. »"
+   }
+  ],
+  "footer": "Sources : devis D13 (fictif) ; economie.gouv.fr et Service-Public Entreprendre (taux de TVA réduits pour les travaux dans les logements de plus de 2 ans) ; ADEME, étude des prix de la rénovation énergétique des logements (2019, à actualiser). Prix indicatifs à valider localement. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Chiffrer 3 postes",
+  "duration_min": 35,
+  "context": "M. Bernard veut savoir ce que coûteraient les travaux privatifs, pour lui comme pour un acquéreur. Tu as le plan, le reportage photo et un devis. Tu chiffres trois postes toi-même, tu complètes avec le quatrième, puis tu fais contrôler ton tableau par l'IA avant de le présenter.",
+  "materials": [
+   "D04 Plan et descriptif de l'appartement",
+   "D05 Reportage photo commenté",
+   "D13 Devis des travaux privatifs",
+   "D07 PV d'AG du 12/06/2025 (pour distinguer les travaux de copropriété)",
+   "Modèle de chiffrage (ressource de la capsule)"
+  ],
+  "steps": [
+   "Sur D04 et D05, compte les quantités pour 3 postes : fenêtres bois simple vitrage à remplacer, ventilation à créer, émetteurs de chauffage à remplacer.",
+   "Dans D13, relève le montant de chaque poste et déduis le prix unitaire (ou indique « forfait »).",
+   "Remplis le modèle : poste, quantité, prix unitaire, total, source et date.",
+   "Ajoute la ligne du chauffe-eau thermodynamique (D13), calcule le total et le ratio en €/m².",
+   "Colle ton tableau dans un assistant IA avec le prompt de la ressource ; note ce qu'il corrige ou suggère, et ce que tu refuses.",
+   "Rédige la note de prudence : compris / non compris, TVA, aides, séparation avec les travaux de copropriété."
+  ],
+  "ia_prompt": {
+   "prompt": "Rôle : tu es l'assistant d'un agent immobilier éco-consultant qui prépare un chiffrage de travaux privatifs pour un vendeur et de futurs acquéreurs.\nContexte : appartement T4 de 76 m² au 4e étage d'un immeuble de 1972 en copropriété (Seine-et-Marne). Constat de visite : 4 fenêtres bois simple vitrage dans les chambres (joints dégradés), pas de VMC et conduit de salle de bains partiellement obstrué (moisissures), 6 convecteurs électriques de 1998 sans programmation, ballon électrique 200 L de 2011. Attestation DPE actualisée : classe E.\nDonnées de chiffrage (devis fictif daté, TTC) :\n- Fenêtres PVC double vitrage Uw ≤ 1,3 : 4 × 1 400 € ;\n- VMC simple flux hygroréglable type B + débouchage du conduit : forfait 2 900 € ;\n- Radiateurs à inertie programmables : 6 + 1 thermostat, total 4 800 € ;\n- Chauffe-eau thermodynamique 200 L : 1 × 3 200 €.\nTâche : 1) présente un tableau Poste / Quantité / Prix unitaire TTC / Total TTC / Source ; 2) recalcule chaque ligne, le total et le coût par m² et signale toute erreur ; 3) liste, poste par poste, les prestations souvent oubliées sous forme de questions à poser à l'entreprise ; 4) rédige une fiche de 120 mots maximum pour des acquéreurs, claire et non anxiogène, avec la mention « prix indicatifs à valider ».\nContraintes : n'invente aucun prix ; si tu cites un ordre de grandeur, écris « hypothèse non sourcée » ; ne chiffre aucune aide ; ne mélange pas ces travaux avec ceux de la copropriété (ravalement et isolation de façade votés, traités à part) ; vouvoie les acquéreurs dans la fiche.\nFormat : tableau, puis liste de questions, puis la fiche.",
+   "guardrails": [
+    "RGPD : ne colle jamais le nom du vendeur, l'adresse, le numéro de DPE ni aucune donnée personnelle réelle dans un outil d'IA non maîtrisé par ton agence.",
+    "Vérifie toi-même chaque multiplication et le total : 5 600 + 2 900 + 4 800 + 3 200 = 16 500 €.",
+    "Tout prix proposé par l'IA est une hypothèse : il ne remplace jamais un devis daté.",
+    "Relis la fiche acquéreurs avant envoi : pas de promesse de prix, pas d'aide chiffrée, mention « prix indicatifs à valider » présente."
+   ]
+  },
+  "expected": "Quantités : 4 fenêtres (2 grande chambre + 1 + 1), 1 ventilation (VMC + débouchage), 6 émetteurs + 1 thermostat. Tableau : fenêtres 4 × 1 400 € = 5 600 € ; VMC forfait 1 × 2 900 € = 2 900 € ; radiateurs 6 × 800 € (moyenne, thermostat compris) = 4 800 € ; sous-total 3 postes = 13 300 € ; chauffe-eau thermodynamique 1 × 3 200 € = 3 200 € ; total 16 500 € TTC ; ratio 16 500 / 76 ≈ 217 €/m². Source : devis D13 (fictif), date à indiquer, prix indicatifs à valider localement. Note de prudence : compris / non compris à confirmer (dépose et évacuation des anciennes fenêtres, reprises d'enduit et de peinture, raccordements électriques) ; taux de TVA à lire sur le devis ; aucune aide chiffrée ; travaux de copropriété (ITE, 35 880 € pour le lot, appelés en 2027) présentés à part. Contrôle IA : calculs confirmés ; suggestions utiles retenues sous forme de questions (reprise d'enduit autour des fenêtres, évacuation du ballon) ; tout prix proposé par l'IA écarté comme non sourcé. Performance annoncée seulement comme estimation fictive à faire confirmer par un diagnostiqueur (≈ 110 kWhEF/m²/an, classe D après travaux privatifs)."
+ },
+ "deliverable": {
+  "title": "Modèle de chiffrage rempli pour l'appartement de M. Bernard",
+  "format": "XLSX ou PDF, 1 page, + capture de l'échange avec l'IA (annexe)",
+  "criteria": [
+   "Les 3 postes demandés sont chiffrés avec quantité, prix unitaire, total et source datée",
+   "Les quantités sont exactes (4 fenêtres, 1 ensemble VMC, 6 radiateurs + thermostat)",
+   "Le total de 16 500 € TTC et le ratio ≈ 217 €/m² sont justes",
+   "La mention « prix indicatifs à valider » et le compris / non compris figurent",
+   "Les travaux de copropriété (35 880 €) sont présentés séparément et aucune aide n'est chiffrée",
+   "L'annexe montre au moins une correction ou suggestion de l'IA vérifiée, et ne contient aucune donnée personnelle"
+  ],
+  "example": "« Fenêtres PVC double vitrage Uw ≤ 1,3 : 4 × 1 400 € = 5 600 € TTC, devis D13 du [date], dépose et évacuation comprises (à confirmer). Prix indicatifs à valider. »"
+ },
+ "sources": [
+  {
+   "label": "economie.gouv.fr : TVA à taux réduit, pour quels travaux (5,5 % amélioration énergétique, 10 % autres travaux, logements achevés depuis plus de 2 ans)",
+   "url": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-taux-reduit-pour-quels-travaux"
+  },
+  {
+   "label": "Service-Public Entreprendre : taux de TVA pour les travaux de rénovation d'un logement",
+   "url": "https://entreprendre.service-public.fr/vosdroits/F23568"
+  },
+  {
+   "label": "ADEME, Rénovation énergétique des logements : étude des prix (2019)",
+   "url": "https://www.precarite-energie.org/wp-content/uploads/2019/11/renovation-energetique-logements-etude-prix-2019.pdf"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété : méthode quantité × prix unitaire, devis D13 fictif (Bible du fil rouge)"
+  }
+ ],
+ "notes_prod": "Visuels : plan D04 annoté (4 fenêtres, 6 convecteurs, conduit, ballon) ; tableau de chiffrage construit ligne par ligne ; pyramide des sources ; capture d'un assistant IA générique (aucune marque, aucune donnée personnelle à l'écran). B-roll : artisan posant une fenêtre, bouche de VMC, radiateur à inertie. Points à valider : taux de TVA applicables à chaque poste (5,5 % / 10 %) selon l'art. 278-0 bis A et 279-0 bis CGI et leur évolution récente [À VALIDER avant tournage] ; prix unitaire « 800 € par radiateur, thermostat compris » = moyenne dérivée du devis D13 (4 800 / 6), pas une ligne du devis ; performance après travaux (≈ 110 kWhEF/m²/an, D) fictive, à présenter comme telle. Le prix VMC « autour de 1 500 € » cité dans la démonstration est volontairement un exemple de prix inventé par l'IA, à barrer à l'écran."
+}

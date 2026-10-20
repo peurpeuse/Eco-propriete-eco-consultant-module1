@@ -1,0 +1,233 @@
+{
+ "id": 5,
+ "title": "Sécuriser la vente",
+ "entry": "Mener la vente jusqu'à l'acte",
+ "exit": "Check-list de sécurisation",
+ "capsules": [
+  "5.1",
+  "5.2",
+  "5.3",
+  "5.4",
+  "5.5"
+ ],
+ "case": {
+  "title": "Dossier de vente complet et sécurisé",
+  "duration_min": 180,
+  "brief": "Nous sommes le 3 décembre 2026. M. Bernard a accepté la veille l'offre de Julie et Thomas Martin à 184 000 € FAI (175 000 € net vendeur, 9 000 € d'honoraires à la charge des acquéreurs), après avoir refusé l'offre de M. Petit à 170 000 € FAI. Le compromis est fixé au 15/12/2026 chez Maître Lemoine, notaire des acquéreurs, et l'acte au 15/03/2027. Maître Lemoine te demande un dossier complet avant le 11/12/2026. M. Bernard, profil C, veut un document qui prouve que rien n'a été oublié. Les Martin, primo-accédants, veulent savoir exactement ce qu'ils paieront et quand. Tu dois livrer un dossier de vente sécurisé : pièces contrôlées et valables à la date de l'acte, documents de copropriété remis et analysés, fiche de préparation du compromis, plan de financement complet des acquéreurs avec le financement à part de leur quote-part ITE, rétroplanning jusqu'aux clés et check-list de sécurisation finale. Tous les éléments sont fictifs ; les règles de droit citées doivent être sourcées et relues par le notaire.",
+  "documents": [
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D04 Plan et descriptif",
+   "D06 Appels de charges et budget 2026",
+   "D07 PV d'AG du 12/06/2025",
+   "D08 Carnet d'entretien",
+   "D09 Synthèse du PPPT",
+   "D10 Fiche synthétique",
+   "D11 Extrait du titre de propriété et taxe foncière",
+   "D13 Devis des travaux privatifs",
+   "D14 Fiches des acquéreurs",
+   "D15 Offres d'achat reçues",
+   "D16 Pré-état daté",
+   "D17 Dossier de diagnostic technique",
+   "D19 Compromis (trame)",
+   "D20 Rétroplanning type"
+  ],
+  "tasks": [
+   "Contrôler le dossier de diagnostic technique (D17) à la date de l'acte et lister les pièces à commander (capsule 5.1).",
+   "Vérifier la liste des documents de l'article L. 721-2 et rédiger la note de risques du pré-état daté pour les Martin (capsule 5.2).",
+   "Préparer la fiche du compromis : choix de l'avant-contrat, condition de prêt principal (193 800 €, 25 ans, 3,90 % maximum hors assurance, 45 jours), clause de répartition des appels de fonds ITE (capsule 5.3).",
+   "Construire le plan de financement complet des Martin : prêt principal, second financement de la quote-part ITE, taux d'effort global et test de résistance (capsule 5.4).",
+   "Construire le rétroplanning du 2/12/2026 au 15/03/2027 et le premier compte rendu au vendeur (capsule 5.5).",
+   "Assembler la check-list de sécurisation en une page, avec un statut et une preuve par ligne.",
+   "Rédiger le mail d'envoi à Maître Lemoine (10 lignes) listant les pièces jointes et les points à trancher par le notaire."
+  ],
+  "deliverable": "Un dossier PDF unique : check-list de sécurisation (1 page) en tête, puis contrôle du DDT, note de risques copropriété, fiche de préparation du compromis, plan de financement complet, rétroplanning et mail au notaire.",
+  "criteria": [
+   {
+    "label": "Diagnostics contrôlés à la date de l'acte",
+    "points": 3,
+    "expected": "Chaque pièce du D17 contrôlée à la date de l'acte (15/03/2027) : état de l'électricité manquant ou périmé à commander, ERP de moins de 6 mois, repérage amiante du lot (pas le seul DTA des parties communes), attestation D03 jointe au DPE ; chaque « non concerné » justifié (plomb, gaz, audit)."
+   },
+   {
+    "label": "Documents de copropriété et pré-état daté",
+    "points": 3,
+    "expected": "Liste L. 721-2 vérifiée ; ITE 35 880 € = 4 × 8 970 € datés ; fonds de travaux 1 061 € non remboursé par le syndicat ; impayés 5 100 € ; toiture 2030 non chiffrée ; aide non notifiée non chiffrée."
+   },
+   {
+    "label": "Compromis et conditions suspensives",
+    "points": 3,
+    "expected": "Compromis justifié ; condition de prêt principal reprise à l'identique (193 800 €, 25 ans, 3,90 %, 45 jours → 29/01/2027) ; rétractation de 10 jours expliquée ; clause appels de fonds avec remboursement de l'appel du 1/01/2027 à l'acte."
+   },
+   {
+    "label": "Plan de financement complet",
+    "points": 4,
+    "expected": "Besoin 215 800 €, prêt 193 800 €, ≈ 975 € / ≈ 1 024 €, 22,3 % ; quote-part ITE 35 880 € financée à part avec taux d'effort global calculé ; test de résistance 229 680 € en un seul prêt ≈ 26,4 % ; aucune aide incertaine chiffrée."
+   },
+   {
+    "label": "Rétroplanning et pilotage",
+    "points": 3,
+    "expected": "Dates fixes et calculées justes (rétractation, 29/01/2027, offre de prêt + 10 jours, DPU vérifié par le notaire, état daté, visite le 12/03, acte le 15/03) ; responsable et preuve par ligne ; relance J−15."
+   },
+   {
+    "label": "Check-list de sécurisation",
+    "points": 2,
+    "expected": "Une page, une ligne par risque (pièces, copropriété, compromis, financement, calendrier), statut et preuve renseignés."
+   },
+   {
+    "label": "Communication et posture",
+    "points": 2,
+    "expected": "Mail au notaire clair, points juridiques renvoyés au notaire ; compte rendu au vendeur adapté au profil C ; explications aux Martin factuelles, sans promesse."
+   }
+  ]
+ },
+ "reminders": {
+  "J1": {
+   "subject": "Module 5 : la date qui compte, c'est celle de l'acte",
+   "message": "Bonjour, hier tu as terminé le module « Sécuriser la vente ». Une seule idée à garder aujourd'hui : chaque pièce du dossier se contrôle à la date de l'acte, pas à la date du jour. Le diagnostic électricité de M. Bernard (2023) était valable quand il l'a reçu, mais pas le 15/03/2027. Prends 3 minutes pour répondre aux questions ci-dessous, puis rouvre ta check-list des pièces. À demain sur la plateforme, Seb",
+   "sms": "Éco-Consultant : un diagnostic se contrôle à la date de l'acte, pas d'aujourd'hui. 3 questions t'attendent sur la plateforme. Seb",
+   "questions": [
+    {
+     "question": "Un état des risques établi le 10/06/2026 est-il utilisable pour un compromis signé le 15/12/2026 ?",
+     "options": [
+      "Oui, il est valable un an",
+      "Non, il doit avoir moins de 6 mois à la signature de la promesse",
+      "Oui, s'il n'y a pas eu de catastrophe naturelle depuis"
+     ],
+     "answer": 1,
+     "fb_title": "Moins de 6 mois",
+     "fb_text": "L'état des risques doit avoir été établi depuis moins de 6 mois. Du 10/06 au 15/12/2026, il y a plus de 6 mois : il faut le refaire, et le remettre dès la première visite pour les futurs visiteurs.",
+     "whys": [
+      "Faux : la durée est de 6 mois, pas d'un an.",
+      "Juste : 6 mois maximum, et actualisation si les informations changent.",
+      "Faux : l'absence d'événement ne prolonge pas la validité."
+     ]
+    },
+    {
+     "question": "Pour un appartement dont le permis a été délivré en 1985, quel repérage est exigé à la vente ?",
+     "options": [
+      "Un repérage amiante de la partie privative",
+      "Un constat plomb",
+      "Aucun : seuls les immeubles d'avant 1949 sont concernés"
+     ],
+     "answer": 0,
+     "fb_title": "Amiante : permis avant le 1/07/1997",
+     "fb_text": "Le repérage amiante est exigé si le permis de construire a été délivré avant le 1er juillet 1997. En copropriété, il porte sur la partie privative du lot. Le plomb ne concerne que les logements d'avant 1949.",
+     "whys": [
+      "Juste : permis de 1985, donc avant le 1/07/1997 ; repérage de la partie privative.",
+      "Faux : le constat plomb vise les logements construits avant le 1/01/1949.",
+      "Faux : 1949 est le seuil du plomb, pas celui de l'amiante."
+     ]
+    }
+   ]
+  },
+  "J7": {
+   "subject": "Une semaine après : qui paie l'appel de fonds ?",
+   "message": "Bonjour, il y a une semaine tu as appris à lire un pré-état daté. Rappel : pour les travaux hors budget, c'est le copropriétaire à la date d'exigibilité qui paie le syndicat ; tout autre accord se fait entre vendeur et acquéreur et s'écrit chez le notaire. Teste-toi avec ces questions, puis relis la fiche copro à la vente avant ton prochain compromis en copropriété. Seb",
+   "sms": "Éco-Consultant : appel de fonds hors budget = payé par le copropriétaire à la date d'exigibilité. 3 questions de rappel t'attendent. Seb",
+   "questions": [
+    {
+     "question": "Un appel de fonds pour travaux votés est exigible le 1/02 ; la vente est signée le 15/01. Vis-à-vis du syndicat, qui le paie ?",
+     "options": [
+      "Le vendeur",
+      "L'acquéreur, copropriétaire au 1/02",
+      "Le syndic, sur le fonds de travaux"
+     ],
+     "answer": 1,
+     "fb_title": "Le copropriétaire à la date d'exigibilité",
+     "fb_text": "Art. 6-2 du décret du 17 mars 1967 : les provisions hors budget sont payées par celui qui est copropriétaire au moment de l'exigibilité. Au 1/02, c'est l'acquéreur. Les parties peuvent convenir d'une autre répartition entre elles.",
+     "whys": [
+      "Faux : au 1/02, le vendeur n'est plus copropriétaire.",
+      "Juste : l'acquéreur est copropriétaire à la date d'exigibilité.",
+      "Faux : le fonds de travaux n'est pas utilisé automatiquement pour payer un appel."
+     ]
+    },
+    {
+     "question": "Quel est le plafond du coût de l'état daté facturé par le syndic au vendeur ?",
+     "options": [
+      "150 € TTC",
+      "380 € TTC",
+      "Il n'y a pas de plafond"
+     ],
+     "answer": 1,
+     "fb_title": "380 € TTC",
+     "fb_text": "Le coût de l'état daté est plafonné à 380 € TTC et facturé au vendeur. C'est le pré-état daté qui n'a pas de plafond légal.",
+     "whys": [
+      "Faux : ce montant ne correspond à aucun plafond de l'état daté.",
+      "Juste : 380 € TTC maximum, à la charge du vendeur.",
+      "Faux : l'absence de plafond concerne le pré-état daté, pas l'état daté."
+     ]
+    },
+    {
+     "question": "Les documents de l'article L. 721-2 sont remis aux acquéreurs 5 jours après le compromis. Quel effet ?",
+     "options": [
+      "Aucun, s'ils sont remis avant l'acte",
+      "Le compromis est nul",
+      "Le délai de rétractation ne court qu'à partir du lendemain de leur remise"
+     ],
+     "answer": 2,
+     "fb_title": "Le délai de rétractation est décalé",
+     "fb_text": "Si les documents de copropriété ne sont pas remis au plus tard à la promesse, le délai de rétractation de 10 jours ne commence qu'au lendemain de leur remise. D'où l'intérêt de tout réunir avant la signature.",
+     "whys": [
+      "Faux : le retard a une conséquence directe sur la rétractation.",
+      "Faux : la sanction prévue est le décalage du délai, pas la nullité.",
+      "Juste : le délai de 10 jours part du lendemain de la remise des documents."
+     ]
+    }
+   ]
+  },
+  "J30": {
+   "subject": "Un mois après : ton prochain dossier de vente",
+   "message": "Bonjour, un mois après le module 5, reprends ta check-list de sécurisation sur ta prochaine vente réelle. Les trois réflexes : une condition de prêt réaliste (marché + marge, durée suffisante), un plan de financement qui inclut les appels de fonds de la copropriété, un rétroplanning avec une relance à J−15 avant la fin de la condition. Réponds à ces questions, puis partage ta check-list avec ton équipe. Seb",
+   "sms": "Éco-Consultant : 1 mois après le module 5, teste tes réflexes de sécurisation (prêt, appels de fonds, J−15). 3 questions t'attendent. Seb",
+   "questions": [
+    {
+     "question": "Un acquéreur emprunte au taux du marché de 3,55 %. Quel taux maximal proposes-tu dans la condition de prêt ?",
+     "options": [
+      "3,55 %, le taux du jour",
+      "Un taux un peu supérieur, par exemple 3,90 %, sous l'usure",
+      "Le taux d'usure, 5,40 %"
+     ],
+     "answer": 1,
+     "fb_title": "Une marge réaliste",
+     "fb_text": "Un taux égal au taux du jour rend la condition irréalisable à la moindre hausse ; le taux d'usure oblige l'acquéreur à accepter presque n'importe quelle offre. Une marge raisonnable, comme 3,90 % pour les Martin, protège les deux parties.",
+     "whys": [
+      "Faux : la moindre hausse ferait échouer la condition et tomber la vente.",
+      "Juste : marge réaliste, mensualité testée (≈ 1 012 € pour les Martin).",
+      "Faux : l'acquéreur serait tenu d'accepter un crédit très cher."
+     ]
+    },
+    {
+     "question": "Avec un prêt principal de 1 024 €/mois et des revenus de 4 600 €, si tout est financé en un seul prêt de 229 680 € (≈ 1 214 €/mois), le taux d'effort est d'environ :",
+     "options": [
+      "22,3 %",
+      "26,4 %",
+      "35 %"
+     ],
+     "answer": 1,
+     "fb_title": "Le test de résistance tient",
+     "fb_text": "1 214 / 4 600 ≈ 26,4 %. Même en intégrant la quote-part ITE de 35 880 € dans un seul prêt, le projet des Martin reste sous le plafond HCSF de 35 % assurance comprise.",
+     "whys": [
+      "Faux : 22,3 % correspond au seul prêt principal de 193 800 €.",
+      "Juste : 1 214 € / 4 600 € ≈ 26,4 %.",
+      "Faux : 35 % est le plafond du HCSF, pas le résultat du calcul."
+     ]
+    },
+    {
+     "question": "Pour la vente d'un lot dans une copropriété dont le règlement est publié depuis 1972, le droit de préemption urbain simple :",
+     "options": [
+      "S'applique toujours",
+      "Ne s'applique pas, sauf extension décidée par la commune ; le notaire vérifie",
+      "Ne s'applique qu'aux maisons"
+     ],
+     "answer": 1,
+     "fb_title": "Exclusion des copropriétés de plus de 10 ans",
+     "fb_text": "L'article L. 211-4 du code de l'urbanisme exclut du DPU simple les lots de copropriété dont le règlement est publié depuis au moins 10 ans, sauf délibération motivée de la commune. Si le droit s'applique, la commune a 2 mois après la DIA.",
+     "whys": [
+      "Faux : la loi prévoit une exclusion pour ces lots.",
+      "Juste : exclusion, sauf extension par délibération motivée ; vérification par le notaire.",
+      "Faux : le DPU peut viser tout type de bien ; l'exclusion porte sur les lots de copropriété anciens."
+     ]
+    }
+   ]
+  }
+ }
+}

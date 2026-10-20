@@ -1,0 +1,382 @@
+{
+ "id": "2.5",
+ "module": 2,
+ "ia": false,
+ "title": "Techniques du bâtiment",
+ "objective": "Identifier en visite les équipements d'un logement (chauffage, eau chaude, ventilation, menuiseries, isolation), leur âge, leur état et leur impact sur le DPE et le confort",
+ "video": {
+  "duration_min": 8,
+  "hook": "Six convecteurs de 1998, un ballon de 2011, quatre fenêtres d'origine, pas de VMC. Chez M. Bernard, chaque équipement raconte un chiffre du DPE. Apprends à les lire en dix minutes de visite.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Six convecteurs de 1998. Un ballon d'eau chaude de 2011. Quatre fenêtres en bois d'origine. Pas de VMC. Chez M. Bernard, chaque équipement raconte un chiffre du DPE. Et chacun deviendra une question d'acquéreur. « Le chauffage, il a quel âge ? » « Et l'eau chaude ? » « On peut mettre une VMC ? » Aujourd'hui, tu apprends à faire le tour technique d'un appartement en dix minutes, et à savoir quoi en dire.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; vignettes photo D05 qui défilent : convecteur, ballon, fenêtre bois, grille d'aération",
+    "onscreen": "5 familles : chauffage · eau chaude · ventilation · menuiseries · isolation"
+   },
+   {
+    "tc": "00:30",
+    "voice": "Pourquoi c'est important ? Parce que les équipements, c'est la partie du bien que l'acquéreur va devoir financer. S'il ne sait pas ce qu'il achète, il prend une marge de sécurité, et cette marge, c'est ton vendeur qui la paie. Si tu sais dire « tel équipement, tel âge, tel impact, telle solution chiffrée », tu remplaces l'inquiétude par un budget. Et tu montres à M. Bernard que tu as regardé son appartement comme un technicien, pas comme un vendeur pressé. Cinq familles, toujours dans le même ordre : chauffage, eau chaude, ventilation, menuiseries, isolation.",
+    "screen": "Slide : balance « inquiétude » / « budget » qui bascule vers « budget » quand les cinq pictogrammes s'alignent",
+    "onscreen": "Un équipement identifié = un budget, pas une peur"
+   },
+   {
+    "tc": "01:15",
+    "voice": "Première famille : le chauffage. Chez M. Bernard, six convecteurs électriques de 1998, ceux qu'on appelle des grille-pain, sans programmation. Comment tu les reconnais ? Un boîtier fin, des grilles en haut, un thermostat à molette, chaud en haut et froid en bas de la pièce. Leur impact : le chauffage pèse 112 kilowattheures par mètre carré sur 150, les trois quarts de la consommation. Sans programmation, ils chauffent quand personne n'est là. La solution chiffrée dans le D13 : six radiateurs à inertie programmables avec thermostat, 4 800 euros. Le gain principal vient de la régulation et du confort ; ça reste un chauffage électrique. Une pompe à chaleur air-air serait plus performante, mais en copropriété, une unité extérieure sur le balcon ou la façade passe par une autorisation de l'assemblée.",
+    "screen": "Photo D05 d'un convecteur avec annotations (grilles, molette, date de fabrication sur l'étiquette) ; puis barre « chauffage 112 / 150 » ; puis ligne de devis D13 « 4 800 € »",
+    "onscreen": "Chauffage : 112 sur 150 kWhEF/m²/an"
+   },
+   {
+    "tc": "02:10",
+    "voice": "Deuxième famille : l'eau chaude. Un ballon électrique de 200 litres, posé dans la cuisine, installé en 2011. Regarde la plaque signalétique : l'année et la capacité y sont. L'eau chaude pèse 26 kilowattheures par mètre carré, environ 17 % de la consommation. La solution du D13 : un chauffe-eau thermodynamique de 200 litres, 3 200 euros. C'est une petite pompe à chaleur dédiée à l'eau chaude, efficace sur un logement tout électrique. Deux vigilances : le fabricant impose un volume de pièce minimal s'il prend l'air ambiant, et l'appareil fait un peu de bruit. S'il prend l'air extérieur, il faut percer la façade : c'est la copropriété qui décide.",
+    "screen": "Photo D05 du ballon dans la cuisine, zoom sur une plaque signalétique (année, 200 L) ; schéma simple d'un chauffe-eau thermodynamique ; ligne de devis D13 « 3 200 € »",
+    "onscreen": "Eau chaude : 26 kWhEF/m²/an, ≈ 17 %"
+   },
+   {
+    "tc": "03:00",
+    "voice": "Troisième famille : la ventilation. L'immeuble date de 1972 : ventilation naturelle, des grilles hautes et basses, et des conduits collectifs dits shunt. Pas de VMC. Test simple en visite : une feuille de papier devant la bouche de la salle de bains. Si elle ne colle pas, l'extraction est faible. Chez M. Bernard, le conduit est en partie obstrué : d'où les moisissures. La solution du D13 : une VMC simple flux hygroréglable de type B avec le débouchage du conduit, 2 900 euros. Point de vigilance majeur : le conduit shunt est une partie commune, partagé avec les voisins. Le raccordement d'une VMC se valide avec le syndic et un professionnel, pour ne pas perturber le tirage des autres logements.",
+    "screen": "Schéma en coupe d'un immeuble avec un conduit shunt collectif et des raccordements à chaque étage ; B-roll « feuille de papier devant une bouche d'extraction » ; ligne de devis D13 « 2 900 € »",
+    "onscreen": "Conduit shunt = partie commune → syndic"
+   },
+   {
+    "tc": "03:50",
+    "voice": "Quatrième famille : les menuiseries. Séjour et cuisine : PVC double vitrage de 2004. Pour les reconnaître, l'année est souvent gravée dans l'intercalaire, entre les deux vitres. Les trois chambres : quatre fenêtres en bois, simple vitrage d'origine, joints dégradés. Approche la flamme d'un briquet ou la lampe de ton téléphone, et compte les reflets : un seul reflet, c'est du simple vitrage. La solution du D13 : quatre fenêtres PVC double vitrage, Uw inférieur ou égal à 1,3, 5 600 euros. Deux règles. Les nouvelles fenêtres rendent le logement plus étanche : elles doivent garder des entrées d'air, et la ventilation doit suivre. Et en copropriété, si l'aspect extérieur change, on vérifie le règlement et, si besoin, on demande l'autorisation de l'assemblée.",
+    "screen": "Gros plan sur l'intercalaire d'un double vitrage avec une date ; reflet unique sur un simple vitrage ; photo D05 d'une fenêtre bois aux joints dégradés ; ligne de devis D13 « 5 600 € »",
+    "onscreen": "Fenêtres neuves = entrées d'air + ventilation"
+   },
+   {
+    "tc": "04:45",
+    "voice": "Cinquième famille : l'isolation. Les murs : béton banché de 1972, deux centimètres de polystyrène. Tapote le mur : un son creux, c'est un doublage ; regarde l'épaisseur au niveau d'une prise ou d'un tableau de fenêtre. Plancher et plafond : logements chauffés dessus et dessous, rien à faire. Et surtout, ne propose pas d'isoler les murs par l'intérieur : l'isolation par l'extérieur est votée, démarrage prévu en avril 2027. Récapitulons l'impact. Les quatre postes privatifs du D13 font 16 500 euros. Estimation fictive à faire confirmer par un diagnostiqueur : après ces travaux, environ 110 kilowattheures d'énergie finale, soit 209 en primaire, classe D ; avec l'isolation de la copropriété en plus, environ 85, soit 162, classe C.",
+    "screen": "Slide récapitulatif : 4 lignes D13 (5 600 + 2 900 + 4 800 + 3 200 = 16 500 €) ; puis échelle A-G avec trois marqueurs : aujourd'hui E (285), après travaux privatifs D (209), après ITE C (162) ; mention « estimation fictive à confirmer »",
+    "onscreen": "16 500 € → D estimé · + ITE → C estimé"
+   },
+   {
+    "tc": "05:35",
+    "voice": "Démonstration : ton tour technique, en dix minutes, avec le plan D04 en main. Tu entres, tu commences par la cuisine : le ballon, sa plaque, la bouche d'extraction. Puis la salle de bains : la feuille de papier devant la bouche, les angles du plafond. Ensuite chaque chambre : la fenêtre, son reflet, ses joints, le convecteur et son étiquette. Le séjour : la porte-fenêtre, le balcon, le mur de façade. Tu termines par le tableau électrique et les grilles d'entrée d'air. À chaque arrêt, une photo et une ligne dans ta grille : équipement, année, état. M. Bernard te suit et commente. Laisse-le faire : c'est lui qui te dira que le ballon a été installé en 2011, et que le conduit de la salle de bains « n'a jamais bien tiré ».",
+    "screen": "Plan D04 avec un parcours fléché numéroté (cuisine → salle de bains → chambres → séjour → entrée) ; à chaque étape, une vignette photo D05 et une ligne de grille qui se remplit",
+    "onscreen": "Cuisine → SdB → chambres → séjour → entrée"
+   },
+   {
+    "tc": "06:35",
+    "voice": "Les erreurs fréquentes. Un : dater un équipement « à l'œil » sans lire la plaque. Deux : proposer des travaux qui touchent les parties communes sans parler du syndic : le conduit, la façade, parfois les fenêtres. Trois : changer les fenêtres sans penser à la ventilation, et créer les moisissures que tu voulais éviter. Quatre : additionner des promesses. « Avec tout ça, vous diviserez votre facture par deux » : tu n'en sais rien. Cinq : annoncer une classe après travaux comme une certitude. Toi, tu dis : « estimation, à faire confirmer par un diagnostiqueur, après les travaux ». C'est moins spectaculaire. C'est ce qui te rend crédible.",
+    "screen": "Seb face caméra, plan rapproché ; cinq cartons rouges barrés apparaissent un à un",
+    "onscreen": "Lire · vérifier la copro · ventiler · ne pas promettre"
+   },
+   {
+    "tc": "07:15",
+    "voice": "À toi. Quiz flash, cinq questions. Télécharge ensuite la fiche techniques du bâtiment : c'est ta grille de visite, à garder sur ton téléphone. Dans l'exercice, tu identifies les équipements de M. Bernard à partir du plan et des photos, et tu remplis le tableau d'impact. Tu le déposes, je le relis ligne par ligne. La prochaine fois, on passe à l'audit à 360 degrés et aux pathologies.",
+    "screen": "Seb face caméra, plan taille ; bandeau des 5 étapes, l'étape ② clignote ; aperçu de la fiche techniques du bâtiment",
+    "onscreen": "Quiz → Fiche techniques → Tableau des équipements"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Dans le DPE de M. Bernard (150 kWhEF/m²/an), quel usage pèse le plus lourd ?",
+    "options": [
+     "L'eau chaude (26)",
+     "Les auxiliaires (8)",
+     "Le chauffage (112), environ les trois quarts"
+    ],
+    "answer": 2,
+    "fb_title": "Le chauffage d'abord",
+    "fb_text": "112 / 150 ≈ 75 % : le chauffage par convecteurs de 1998 sans programmation est le premier levier. L'eau chaude suit (26 / 150 ≈ 17 %).",
+    "whys": [
+     "Faux : 26 sur 150, environ 17 %, c'est le deuxième poste.",
+     "Faux : 8 sur 150, environ 5 %.",
+     "Juste : 112 sur 150, environ 75 % de l'énergie finale."
+    ]
+   },
+   {
+    "question": "Pourquoi coordonner le remplacement des fenêtres des chambres avec la ventilation ?",
+    "options": [
+     "Parce que des fenêtres plus étanches réduisent les entrées d'air : sans ventilation efficace, l'humidité et les moisissures augmentent",
+     "Parce que la loi interdit de changer des fenêtres sans VMC",
+     "Ce n'est pas nécessaire, les deux sujets sont indépendants"
+    ],
+    "answer": 0,
+    "fb_title": "Étanchéité et ventilation vont ensemble",
+    "fb_text": "Plus le logement est étanche, plus il faut évacuer l'humidité. Les nouvelles fenêtres doivent garder des entrées d'air (sauf ventilation double flux), et l'extraction de la salle de bains doit fonctionner.",
+    "whys": [
+     "Juste : c'est la logique physique et la recommandation de l'ADEME.",
+     "Faux : ce n'est pas une interdiction légale, c'est une règle de bonne pratique.",
+     "Faux : chez M. Bernard, l'extraction est déjà insuffisante (moisissures)."
+    ]
+   },
+   {
+    "question": "Remplacer les 6 convecteurs par des radiateurs à inertie programmables avec thermostat (4 800 €) : quel effet principal annonces-tu ?",
+    "options": [
+     "Une division par deux de la facture, garantie",
+     "Un meilleur confort et une meilleure régulation (programmation), le logement restant chauffé à l'électricité",
+     "Un passage certain en classe C"
+    ],
+    "answer": 1,
+    "fb_title": "Régulation et confort, sans promesse",
+    "fb_text": "Le gain vient surtout de la programmation et d'une chaleur plus homogène. C'est toujours un chauffage électrique. L'effet sur l'étiquette se fait confirmer par un diagnostiqueur, avec l'ensemble des travaux.",
+    "whys": [
+     "Faux : aucune économie ne peut être garantie, et ce chiffre n'est pas sourcé.",
+     "Juste : c'est l'effet réel, présenté sans promesse.",
+     "Faux : l'estimation fictive après les 4 postes privatifs est D, et elle reste à confirmer."
+    ]
+   },
+   {
+    "question": "Un acquéreur veut installer une VMC en se raccordant au conduit collectif de la salle de bains. Que lui dis-tu ?",
+    "options": [
+     "« Aucun souci, c'est à l'intérieur de votre appartement. »",
+     "« C'est interdit en copropriété, oubliez. »",
+     "« Le conduit est commun : solution à valider avec le syndic et un professionnel. Le devis de 2 900 € inclut le débouchage. »"
+    ],
+    "answer": 2,
+    "fb_title": "Partie commune : on passe par le syndic",
+    "fb_text": "Le conduit shunt dessert plusieurs logements. Un raccordement mal conçu peut perturber les voisins. Tu signales le point, tu renvoies vers le syndic et un professionnel, sans interdire ni autoriser toi-même.",
+    "whys": [
+     "Faux : le conduit collectif n'est pas une partie privative.",
+     "Faux : ce n'est pas interdit par principe ; c'est à valider.",
+     "Juste : vigilance copropriété + solution chiffrée."
+    ]
+   },
+   {
+    "question": "Un acquéreur demande s'il doit prévoir d'isoler les murs par l'intérieur. Ta meilleure réponse ?",
+    "options": [
+     "« Non : l'isolation par l'extérieur est votée (début avril 2027). Priorité aux fenêtres, à la ventilation, au chauffage, à l'eau chaude. »",
+     "« Oui, c'est indispensable, comptez plusieurs milliers d'euros. »",
+     "« Les murs, ce n'est jamais un sujet en appartement. »"
+    ],
+    "answer": 0,
+    "fb_title": "Ne pas doubler les travaux votés",
+    "fb_text": "L'ITE votée le 12/06/2025 traitera les murs. Isoler par l'intérieur en plus réduirait la surface pour un gain limité. Les postes privatifs prioritaires sont ceux du D13 (16 500 €).",
+    "whys": [
+     "Juste : tu t'appuies sur le PV d'AG (D07) et les devis (D13).",
+     "Faux : cela ignore les travaux déjà votés par la copropriété.",
+     "Faux : chez M. Bernard, les murs sont un poste majeur, traité par l'ITE."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche techniques du bâtiment",
+  "kind": "fiche",
+  "intro": "Ta grille de visite pour identifier en 10 minutes les équipements d'un appartement, estimer leur âge et leur état, comprendre leur impact sur le DPE et le confort, et repérer ce qui dépend de la copropriété. Avec l'exemple rempli de M. Bernard.",
+  "sections": [
+   {
+    "heading": "Où regarder, quoi demander",
+    "type": "table",
+    "headers": [
+     "Famille",
+     "Où regarder",
+     "Indices d'âge et d'état",
+     "Question au vendeur"
+    ],
+    "rows": [
+     [
+      "Chauffage",
+      "Émetteurs de chaque pièce, thermostat, tableau électrique",
+      "Étiquette de l'appareil (année), présence ou non de programmation",
+      "Factures, entretien, pièces mal chauffées ?"
+     ],
+     [
+      "Eau chaude",
+      "Cuisine, salle de bains, placard technique",
+      "Plaque signalétique (année, litres), traces de calcaire ou de fuite",
+      "Date d'installation, panne récente ?"
+     ],
+     [
+      "Ventilation",
+      "Bouches d'extraction (cuisine, salle de bains, WC), grilles d'entrée d'air",
+      "Test de la feuille de papier, moisissures, buée",
+      "VMC ou ventilation naturelle ? Conduits entretenus ?"
+     ],
+     [
+      "Menuiseries",
+      "Chaque fenêtre et porte-fenêtre",
+      "Date dans l'intercalaire, reflet simple ou double, joints, fermeture",
+      "Année de remplacement, factures ?"
+     ],
+     [
+      "Isolation",
+      "Murs de façade (son, épaisseur aux prises et tableaux), plafond et sol selon l'étage",
+      "Paroi froide, doublage, logements chauffés autour",
+      "Travaux d'isolation faits ou votés en copropriété ?"
+     ]
+    ]
+   },
+   {
+    "heading": "Impact sur le DPE et le confort",
+    "type": "table",
+    "headers": [
+     "Solution",
+     "Effet principal",
+     "Vigilance",
+     "Prix (devis D13, fictifs)"
+    ],
+    "rows": [
+     [
+      "Radiateurs à inertie programmables + thermostat",
+      "Régulation, confort, chaleur plus homogène",
+      "Reste un chauffage électrique ; effet sur l'étiquette à faire confirmer",
+      "4 800 € (6 radiateurs)"
+     ],
+     [
+      "Chauffe-eau thermodynamique 200 L",
+      "Baisse de la consommation d'eau chaude sur un logement tout électrique",
+      "Volume de pièce minimal (notice), bruit, percement de façade = copropriété",
+      "3 200 €"
+     ],
+     [
+      "VMC simple flux hygroréglable B + débouchage",
+      "Évacuation de l'humidité, fin des moisissures, débits maîtrisés",
+      "Conduit shunt = partie commune : valider avec syndic et professionnel",
+      "2 900 €"
+     ],
+     [
+      "Fenêtres PVC double vitrage Uw ≤ 1,3",
+      "Fin de la paroi froide, moins de fuites, confort acoustique",
+      "Entrées d'air obligatoires sans double flux ; aspect extérieur = règlement / AG",
+      "5 600 € (4 fenêtres)"
+     ],
+     [
+      "Isolation des murs",
+      "Forte baisse des pertes par la façade",
+      "Ici : ITE votée en AG, ne pas isoler par l'intérieur",
+      "Quote-part ITE 35 880 € (copropriété)"
+     ]
+    ]
+   },
+   {
+    "heading": "Copropriété : à vérifier avant de proposer des travaux",
+    "type": "checklist",
+    "items": [
+     "Le règlement de copropriété : qu'est-ce qui est privatif, qu'est-ce qui est commun (fenêtres, conduits, façade, balcon) ?",
+     "Les travaux qui touchent les parties communes ou l'aspect extérieur demandent une autorisation de l'assemblée générale (loi du 10/07/1965, art. 25 b)",
+     "Les conduits de ventilation collectifs (shunt) : solution de VMC à valider avec le syndic et un professionnel",
+     "Les travaux déjà votés ou prévus (PV d'AG, PPPT) pour ne pas faire deux fois le même travail",
+     "Le calendrier du chantier de copropriété (ITE en avril 2027) pour coordonner les travaux privatifs"
+    ]
+   },
+   {
+    "heading": "Ordre logique des travaux",
+    "type": "steps",
+    "items": [
+     "Traiter l'humidité et la ventilation (débouchage, VMC) : c'est la condition de tout le reste.",
+     "Remplacer les menuiseries les plus faibles, avec entrées d'air, en même temps ou après la ventilation.",
+     "Laisser la copropriété traiter l'enveloppe (ITE votée) plutôt que doubler par l'intérieur.",
+     "Adapter les systèmes (chauffage, eau chaude) à l'enveloppe améliorée pour ne pas les surdimensionner.",
+     "Faire confirmer la performance obtenue par un nouveau DPE pour la valoriser à la vente."
+    ]
+   },
+   {
+    "heading": "Exemple rempli : appartement de M. Bernard",
+    "type": "table",
+    "headers": [
+     "Famille",
+     "Équipement constaté",
+     "Âge / état",
+     "Impact",
+     "Solution"
+    ],
+    "rows": [
+     [
+      "Chauffage",
+      "6 convecteurs électriques, sans programmation",
+      "1998, 28 ans",
+      "112 kWhEF/m²/an (≈ 75 %), inconfort",
+      "Radiateurs à inertie + thermostat, 4 800 €"
+     ],
+     [
+      "Eau chaude",
+      "Ballon électrique 200 L, cuisine",
+      "2011, 15 ans",
+      "26 kWhEF/m²/an (≈ 17 %)",
+      "Chauffe-eau thermodynamique, 3 200 €"
+     ],
+     [
+      "Ventilation",
+      "Naturelle (grilles + shunt), pas de VMC",
+      "1972, conduit salle de bains obstrué",
+      "Moisissures, débits non maîtrisés",
+      "VMC hygro B + débouchage, 2 900 €"
+     ],
+     [
+      "Menuiseries",
+      "PVC DV séjour et cuisine ; 4 bois simple vitrage chambres",
+      "2004 ; origine, joints dégradés",
+      "Paroi froide, fuites",
+      "4 fenêtres PVC Uw ≤ 1,3, 5 600 €"
+     ],
+     [
+      "Isolation",
+      "Béton banché + polystyrène 2 cm ; voisins chauffés dessus/dessous",
+      "1972, quasi non isolé",
+      "Pertes par la façade, pont thermique balcon",
+      "ITE votée, démarrage avril 2027"
+     ]
+    ]
+   },
+   {
+    "heading": "Ce que tu dis à l'acquéreur",
+    "type": "text",
+    "text": "« Les quatre postes privatifs sont identifiés et chiffrés par des devis : fenêtres 5 600 €, VMC 2 900 €, radiateurs 4 800 €, chauffe-eau 3 200 €, soit 16 500 €. L'isolation de la façade est votée par la copropriété pour 2027. Une estimation, à faire confirmer par un diagnostiqueur, place le logement autour de 110 kWh d'énergie finale par m² après les travaux privatifs, soit 209 en primaire avec le coefficient 1,9 (classe D), et autour de 85 (162, classe C) une fois l'isolation de la façade réalisée. » Tu ne promets ni classe ni économie : tu présentes des devis et une estimation sourcée."
+   }
+  ],
+  "footer": "Sources : formation Audit énergétique Éco-Propriété (J4 Systèmes ; J8 chauffage, ECS, ventilation, menuiseries, mur, méthodologie), contenus vérifiés ; ADEME « Tout savoir sur l'isolation » (isolation et ventilation, simple vitrage) ; loi n° 65-557 du 10/07/1965, art. 25 b. Devis et estimations de performance fictifs (fil rouge), à confirmer par un diagnostiqueur. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Identifier les équipements",
+  "duration_min": 25,
+  "context": "Avant la restitution de l'estimation, tu fais le point technique sur l'appartement de M. Bernard. Les acquéreurs poseront les mêmes questions : âge, état, impact, solution, prix. Tu dois pouvoir répondre à chacune avec une donnée et un document.",
+  "materials": [
+   "D04 Plan et descriptif de l'appartement",
+   "D05 Reportage photo commenté (12 photos)",
+   "D02 DPE du 14/03/2023 (synthèse)",
+   "D13 Devis des travaux privatifs",
+   "D07 PV d'AG du 12/06/2025 (extraits)"
+  ],
+  "steps": [
+   "À partir du D04 et du D05, liste les équipements des 5 familles (chauffage, eau chaude, ventilation, menuiseries, isolation) avec leur localisation.",
+   "Pour chacun, note l'âge (année) et l'état observé, et l'indice qui te permet de le dire.",
+   "Relie chaque équipement à un usage ou un poste du DPE (D02) et à son poids (kWhEF/m²/an ou constat).",
+   "Associe la solution et le prix du D13, et vérifie le total.",
+   "Repère les points qui dépendent de la copropriété (conduit shunt, façade, fenêtres, ITE votée au D07).",
+   "Propose l'ordre logique des travaux et justifie-le en une ligne par étape.",
+   "Rédige les 3 phrases que tu diras à un acquéreur, avec la mention « estimation à confirmer par un diagnostiqueur »."
+  ],
+  "expected": "Tableau attendu (exemple). Chauffage : 6 convecteurs électriques de 1998 sans programmation, 112 kWhEF/m²/an (112/150 ≈ 75 %) → radiateurs à inertie programmables + thermostat, 4 800 €. Eau chaude : ballon électrique 200 L de 2011 dans la cuisine, 26 kWhEF/m²/an (≈ 17 %) → chauffe-eau thermodynamique 200 L, 3 200 € ; vigilance volume de pièce, bruit, façade. Ventilation : naturelle (grilles + shunt), pas de VMC, conduit salle de bains partiellement obstrué → moisissures → VMC hygro B + débouchage, 2 900 € ; conduit shunt = partie commune : syndic. Menuiseries : PVC DV 2004 (séjour, cuisine) correctes ; 4 fenêtres bois simple vitrage d'origine dans les chambres, joints dégradés → PVC DV Uw ≤ 1,3, 5 600 € ; entrées d'air ; aspect extérieur : règlement / AG. Isolation : murs béton + 2 cm de polystyrène, pont thermique balcon ; plancher et plafond sur logements chauffés → ITE votée le 12/06/2025 (quote-part 35 880 €), démarrage avril 2027 : pas d'isolation intérieure. Total D13 : 5 600 + 2 900 + 4 800 + 3 200 = 16 500 €. Ordre : ventilation → fenêtres → (ITE copropriété) → chauffage et eau chaude → nouveau DPE. Estimation fictive à confirmer : ≈ 110 kWhEF → 209 kWhEP (×1,9) → D ; avec ITE ≈ 85 → 161,5 ≈ 162 → C."
+ },
+ "deliverable": {
+  "title": "Tableau des équipements de l'appartement de M. Bernard",
+  "format": "PDF ou XLSX, 1 page : tableau 5 familles + ordre des travaux + 3 phrases acquéreur",
+  "criteria": [
+   "Les 5 familles sont renseignées avec équipement, année et état (convecteurs 1998, ballon 2011, fenêtres bois d'origine, PVC 2004, ventilation naturelle, murs 2 cm)",
+   "Chaque équipement est relié à une donnée du DPE (112, 26 kWhEF/m²/an) ou à un constat de visite",
+   "Les 4 solutions et prix du D13 sont reportés et le total de 16 500 € est juste",
+   "Au moins 3 points dépendant de la copropriété sont signalés (conduit shunt, façade ou fenêtres, ITE votée)",
+   "L'ordre des travaux commence par la ventilation et n'inclut pas d'isolation intérieure des murs",
+   "Les estimations de classe après travaux (D puis C) sont présentées comme fictives, à confirmer par un diagnostiqueur"
+  ],
+  "example": "« Ventilation : naturelle (grilles + conduit shunt), pas de VMC ; conduit SdB obstrué → moisissures. Solution : VMC hygro B + débouchage, 2 900 € (D13). Copropriété : conduit = partie commune, solution à valider avec le syndic. »"
+ },
+ "sources": [
+  {
+   "label": "ADEME, Tout savoir sur l'isolation (isolation associée à une ventilation efficace, simple vitrage)",
+   "url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/renover/tout-savoir-isolation"
+  },
+  {
+   "label": "Loi n° 65-557 du 10/07/1965 (art. 25 b : travaux affectant les parties communes ou l'aspect extérieur)",
+   "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068256/"
+  },
+  {
+   "label": "Ministère de la Transition écologique, Guide pour les diagnostiqueurs DPE (performances Uw, recommandations menuiseries)",
+   "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_pour_les_diagnostiqueurs_DPE.pdf"
+  },
+  {
+   "label": "Formation Audit énergétique Éco-Propriété (J4 Systèmes, J8 chauffage, ECS, ventilation, menuiseries, méthodologie) — contenus internes vérifiés",
+   "url": "https://eco-propriete.fr"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (devis et estimations de performance fictifs du fil rouge)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : photos D05 annotées (convecteur, ballon et plaque signalétique, fenêtre bois, bouche d'extraction, intercalaire daté) ; schéma d'un conduit shunt collectif ; schéma simple d'un chauffe-eau thermodynamique ; récapitulatif D13 (16 500 €) ; échelle A-G avec E (285) → D (209) → C (162) et mention « estimation fictive à confirmer ». B-roll : test de la feuille de papier sur une bouche d'extraction. Points [À VALIDER] par un technicien : raccordement d'une VMC individuelle sur un conduit shunt de ventilation naturelle (règles et solutions admises) ; « test du briquet / reflet » pour distinguer simple et double vitrage ; volume minimal de pièce pour un CET sur air ambiant (renvoyé à la notice, aucun chiffre donné). Relecture juridique : art. 25 b de la loi de 1965 (autorisation de travaux affectant parties communes ou aspect extérieur) et statut privatif/commun des fenêtres selon le règlement. Pas de pourcentage d'économie annoncé (chiffres de la formation Audit non sourcés)."
+}

@@ -1,0 +1,363 @@
+{
+ "id": "5.2",
+ "module": 5,
+ "ia": false,
+ "title": "Documents de copropriété",
+ "objective": "Réunir les documents de copropriété exigés à la promesse et repérer dans un pré-état daté les sommes qui pèseront sur l'acquéreur",
+ "video": {
+  "duration_min": 8,
+  "hook": "35 880 €. C'est ce que les Martin devront payer pour la façade, en plus du prix. Si ce chiffre sort après le compromis, ta vente tombe. Il est écrit dans un document : lequel ?",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Trente-cinq mille huit cent quatre-vingts euros. C'est la quote-part du lot de M. Bernard dans les travaux de ravalement avec isolation par l'extérieur votés en juin 2025. Quatre appels de 8 970 euros, le premier le 1er janvier 2027. Les Martin le savent, parce que tu l'as mis sur la table dès la visite. Mais imagine qu'ils le découvrent la veille de l'acte. Aujourd'hui, on apprend à lire les documents de copropriété comme un acquéreur prudent, et à les remettre à temps.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille ; incrustation animée : 35 880 € = 4 × 8 970 € (1/01, 1/04, 1/07, 1/10/2027)",
+    "onscreen": "ITE : 35 880 € pour le lot, en 4 appels"
+   },
+   {
+    "tc": "00:35",
+    "voice": "Pourquoi c'est central pour toi ? Parce qu'en copropriété, l'acquéreur n'achète pas seulement 76 mètres carrés. Il achète aussi une part d'un immeuble, avec son budget, ses dettes, ses travaux votés et ceux qui arrivent. La loi impose de lui remettre une série de documents au plus tard à la signature de la promesse. S'ils ne sont pas remis, le délai de rétractation ne commence qu'au lendemain de leur remise. Et surtout, un acquéreur mal informé, c'est un acquéreur qui renégocie ou qui part. Les documents, c'est le vendeur qui les fournit, souvent par l'intermédiaire du syndic. Mais dans la pratique, c'est l'agent qui les réclame, qui relance et qui les lit le premier. Si tu attends le notaire, tu perds deux semaines.",
+    "screen": "Slide : un immeuble en coupe, le lot de M. Bernard surligné au 4e étage, flèches vers « budget », « travaux votés », « impayés », « fonds de travaux »",
+    "onscreen": "Acheter un lot, c'est acheter une part de l'immeuble"
+   },
+   {
+    "tc": "01:15",
+    "voice": "Première idée : la liste légale. Elle est dans l'article L. 721-2 du Code de la construction. Trois familles. L'organisation de l'immeuble : la fiche synthétique de la copropriété, le règlement et l'état descriptif de division avec leurs modificatifs, les procès-verbaux des assemblées des trois dernières années. Les informations financières : les charges payées par le vendeur sur les deux derniers exercices, les sommes que l'acquéreur pourra devoir au syndicat, l'état global des impayés et des dettes envers les fournisseurs, la part du fonds de travaux attachée au lot et la dernière cotisation. Et enfin : le carnet d'entretien, une notice sur les droits et obligations des copropriétaires, les conclusions du diagnostic technique global s'il existe, et le plan pluriannuel de travaux, ou à défaut son projet.",
+    "screen": "Slide en 3 colonnes : Organisation (D10, règlement, D07) / Finances (D06, D16) / Immeuble (D08, notice, D09 PPPT) ; chaque document apparaît avec son code",
+    "onscreen": "Art. L. 721-2 CCH : 3 familles de documents"
+   },
+   {
+    "tc": "02:25",
+    "voice": "Deuxième idée : pré-état daté et état daté, ce n'est pas la même chose. Le pré-état daté, c'est un nom d'usage. Il rassemble les informations financières exigées à la promesse. Le syndic peut le facturer, et son prix n'est pas plafonné ; le vendeur peut aussi réunir ces informations lui-même depuis son extranet. L'état daté, lui, est prévu par le décret de 1967. C'est le syndic seul qui l'établit, à la demande du notaire, avant l'acte. Il dit ce que le vendeur doit au syndicat, ce que le syndicat lui doit, et ce qui restera à la charge de l'acquéreur. Son coût est plafonné à 380 euros TTC, à la charge du vendeur. Dis-le à M. Bernard dès le mandat : pas de surprise sur la facture.",
+    "screen": "Tableau comparatif à deux colonnes : Pré-état daté (avant la promesse, nom d'usage, prix libre) / État daté (avant l'acte, syndic seul, 380 € TTC maximum, payé par le vendeur)",
+    "onscreen": "État daté : 380 € TTC maximum, payé par le vendeur"
+   },
+   {
+    "tc": "03:30",
+    "voice": "Troisième idée : qui paie quoi. La règle du décret de 1967 est simple. La provision trimestrielle du budget exigible est payée par le vendeur. Les appels pour des travaux hors budget sont payés par celui qui est copropriétaire à la date où ils sont exigibles. Le 1er janvier 2027, c'est M. Bernard : il paie 8 970 euros. Les appels d'avril, juillet et octobre tomberont après l'acte du 15 mars : ce sont les Martin. Les parties peuvent prévoir autre chose entre elles, et c'est ce qu'elles ont fait : les Martin rembourseront à M. Bernard l'appel de janvier le jour de l'acte. Mais cet accord n'engage pas le syndicat. Il doit être écrit par le notaire.",
+    "screen": "Frise 2027 : 1/01 (M. Bernard paie, remboursé à l'acte), 15/03 acte, 1/04, 1/07, 1/10 (les Martin) ; mention « art. 6-2 décret du 17 mars 1967 »",
+    "onscreen": "Hors budget : paie le copropriétaire à la date d'exigibilité"
+   },
+   {
+    "tc": "04:35",
+    "voice": "Démonstration sur le pré-état daté D16. Je cherche cinq choses. Un : les travaux votés et pas encore appelés. Je trouve l'ITE, 35 880 euros, quatre échéances, et une aide MaPrimeRénov' Copropriété demandée mais pas notifiée. Je ne la chiffre pas. Deux : le fonds de travaux. 1 061 euros attachés au lot. Ils restent au syndicat, ils ne sont pas remboursés à M. Bernard, sauf accord avec l'acquéreur dans l'acte. Trois : les impayés de l'immeuble, 6 % du budget, soit 5 100 euros sur 85 000. Modéré, à surveiller. Quatre : les procédures. Aucune. Cinq : ce qui arrive après. Le plan de travaux prévoit la toiture-terrasse vers 2030. Pas encore votée, mais je le signale.",
+    "screen": "D16 zoomé, surligneur jaune sur chaque ligne citée ; à côté, le PPPT D09 avec la ligne « toiture-terrasse 2030 » entourée",
+    "onscreen": "Impayés : 6 % × 85 000 € = 5 100 €"
+   },
+   {
+    "tc": "05:50",
+    "voice": "Les erreurs que je vois. Un : remettre le pré-état daté sans le lire, comme une formalité. Deux : oublier que c'est une photo à une date : entre la promesse et l'acte, une assemblée peut voter de nouveaux travaux. Demande au syndic s'il y a une assemblée prévue avant le 15 mars. Trois : promettre aux acquéreurs le montant d'une aide qui n'est pas notifiée. Quatre : laisser croire au vendeur qu'il récupérera son fonds de travaux. Il ne le récupère que si l'acquéreur accepte de le lui rembourser, et c'est une négociation.",
+    "screen": "Seb face caméra, plan rapproché ; les 4 erreurs s'affichent une à une avec une croix rouge",
+    "onscreen": "Le pré-état daté est une photo, pas un film"
+   },
+   {
+    "tc": "06:25",
+    "voice": "Pour M. Bernard, profil C, tu prépares un tableau : chaque somme, sa source, sa date, qui la paie. Il veut des preuves, donne-lui la page du procès-verbal et la ligne du pré-état daté. Pour les Martin, tu fais le même tableau, vu de leur côté, et tu le relis avec eux avant le compromis. Julie aime les échanges directs, Thomas a besoin d'être rassuré sur la durée : montre-leur la frise de 2027 et demande-leur comment ils comptent payer les trois appels d'avril, juillet et octobre. Si la réponse est floue, tu le notes, et on le traitera dans le plan de financement. Le notaire rédige ; toi, tu fais en sorte que personne ne signe sans avoir compris ce qu'il paiera, et quand.",
+    "screen": "Écran partagé : tableau « vendeur » à gauche, tableau « acquéreurs » à droite, mêmes lignes, colonnes différentes",
+    "onscreen": "Une somme = une source + une date + un payeur"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi. Le quiz d'abord, cinq questions. Ensuite tu télécharges la fiche copro à la vente, avec la liste légale et le tableau qui paie quoi. Dans l'exercice, tu analyses le pré-état daté D16 et tu listes les risques pour les Martin, chiffres à l'appui. Tu déposes ta note de risques. Prochaine capsule : le compromis et ses conditions suspensives.",
+    "screen": "Seb face caméra ; à droite, les 5 pictogrammes du parcours",
+    "onscreen": "Quiz → Fiche copro → Analyse de D16 → Dépôt"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Quel document n'est PAS dans la liste de l'article L. 721-2 à remettre au plus tard à la promesse ?",
+    "options": [
+     "La fiche synthétique de la copropriété",
+     "Les procès-verbaux des assemblées des trois dernières années",
+     "L'état daté établi par le syndic",
+     "Le carnet d'entretien de l'immeuble"
+    ],
+    "answer": 2,
+    "fb_title": "L'état daté vient avant l'acte",
+    "fb_text": "L'article L. 721-2 liste la fiche synthétique, le règlement, les PV des 3 dernières AG, les informations financières, le carnet d'entretien, la notice, le DTG et le plan de travaux. L'état daté, prévu par le décret de 1967, est demandé par le notaire avant l'acte.",
+    "whys": [
+     "Faux : la fiche synthétique fait partie des documents d'organisation de l'immeuble.",
+     "Faux : les PV des trois dernières années sont exigés, sauf si le vendeur n'a pas pu les obtenir du syndic.",
+     "Juste : l'état daté n'est pas une pièce de la promesse ; il est établi par le syndic pour l'acte.",
+     "Faux : le carnet d'entretien est expressément exigé (3° du II de l'article)."
+    ]
+   },
+   {
+    "question": "Combien M. Bernard paiera-t-il au maximum au syndic pour l'état daté ?",
+    "options": [
+     "Rien : c'est l'acquéreur qui le paie",
+     "380 € TTC au maximum",
+     "Le prix fixé librement par le syndic"
+    ],
+    "answer": 1,
+    "fb_title": "380 € TTC, à la charge du vendeur",
+    "fb_text": "Le coût de l'état daté est plafonné à 380 € TTC (décret n° 2020-153) et facturé au vendeur. Le pré-état daté, lui, n'a pas de plafond légal : à vérifier dans le contrat du syndic.",
+    "whys": [
+     "Faux : la loi met ces frais à la charge du copropriétaire vendeur.",
+     "Juste : plafond de 380 € TTC fixé par décret, à la charge du vendeur.",
+     "Faux : c'est le pré-état daté qui n'est pas plafonné, pas l'état daté."
+    ]
+   },
+   {
+    "question": "L'appel de fonds ITE de 8 970 € est exigible le 1er janvier 2027, l'acte est le 15 mars 2027. Vis-à-vis du syndicat, qui le paie ?",
+    "options": [
+     "Les Martin, puisque les travaux commencent après l'acte",
+     "Moitié vendeur, moitié acquéreurs",
+     "M. Bernard, copropriétaire à la date d'exigibilité"
+    ],
+    "answer": 2,
+    "fb_title": "Le copropriétaire à la date d'exigibilité",
+    "fb_text": "Pour les dépenses hors budget, le décret de 1967 (art. 6-2) désigne celui qui est copropriétaire au moment de l'exigibilité : M. Bernard le 1/01/2027. L'accord prévoyant que les Martin le lui remboursent à l'acte vaut entre eux, pas envers le syndicat.",
+    "whys": [
+     "Faux : la date de début des travaux ne compte pas, c'est la date d'exigibilité de l'appel.",
+     "Faux : aucun partage automatique ; un partage serait un accord entre les parties.",
+     "Juste : M. Bernard est copropriétaire le 1/01/2027, il paie ; le remboursement à l'acte est un accord privé."
+    ]
+   },
+   {
+    "question": "M. Bernard pense récupérer à la vente les 1 061 € du fonds de travaux attachés à son lot. Que lui réponds-tu ?",
+    "options": [
+     "Le syndic les lui rembourse à l'acte",
+     "Ils restent au syndicat ; seul un accord avec l'acquéreur, écrit dans l'acte, peut les lui faire rembourser",
+     "Ils sont déduits automatiquement du prix de vente",
+     "Ils sont versés sur le compte de la nouvelle copropriétaire"
+    ],
+    "answer": 1,
+    "fb_title": "Le fonds de travaux reste attaché au lot",
+    "fb_text": "La loi de 1965 (art. 14-2-1) prévoit que les sommes du fonds de travaux sont attachées aux lots et ne sont pas remboursées par le syndicat lors d'une cession. Un remboursement par l'acquéreur est possible, s'il l'accepte : c'est un point de négociation.",
+    "whys": [
+     "Faux : le syndicat ne rembourse pas le fonds de travaux lors de la vente.",
+     "Juste : non remboursable par le syndicat ; un accord avec l'acquéreur est possible, rédigé par le notaire.",
+     "Faux : rien n'est automatique, le prix est celui que les parties fixent.",
+     "Faux : le fonds appartient au syndicat des copropriétaires, pas à un copropriétaire."
+    ]
+   },
+   {
+    "question": "Le pré-état daté indique des impayés de 6 % du budget de 85 000 €. Comment le présentes-tu aux Martin ?",
+    "options": [
+     "5 100 € d'impayés dans l'immeuble : niveau modéré, à surveiller dans les prochains comptes",
+     "Un risque nul, puisque ce ne sont pas leurs dettes",
+     "Un motif suffisant pour renoncer à l'achat"
+    ],
+    "answer": 0,
+    "fb_title": "Chiffrer, situer, surveiller",
+    "fb_text": "6 % × 85 000 € = 5 100 €. C'est l'état global des impayés exigé par l'article L. 721-2. Un niveau modéré, mais si les impayés montent, les autres copropriétaires peuvent devoir compenser la trésorerie. Tu donnes le chiffre et tu proposes de suivre l'évolution.",
+    "whys": [
+     "Juste : le chiffre, son poids et une action de suivi ; c'est une information neutre et vérifiable.",
+     "Faux : des impayés durables pèsent sur la trésorerie du syndicat, donc sur tous les copropriétaires.",
+     "Faux : 6 % est un niveau modéré ; dramatiser ferait perdre une vente sans raison."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche copro à la vente",
+  "kind": "sheet",
+  "intro": "Cette fiche liste les documents de copropriété à remettre à l'acquéreur au plus tard à la promesse, explique la différence entre pré-état daté et état daté, et indique qui paie quoi entre vendeur et acquéreur. Utilise-la dès le mandat pour demander les pièces au syndic, puis avant le compromis pour relire le pré-état daté avec les acquéreurs.",
+  "sections": [
+   {
+    "heading": "Les documents à remettre au plus tard à la promesse (art. L. 721-2 CCH)",
+    "type": "checklist",
+    "items": [
+     "Fiche synthétique de la copropriété (D10)",
+     "Règlement de copropriété et état descriptif de division, avec les actes modificatifs publiés",
+     "Procès-verbaux des assemblées générales des 3 dernières années (D07), sauf si le vendeur n'a pas pu les obtenir du syndic",
+     "Charges courantes et hors budget payées par le vendeur sur les 2 derniers exercices (D06)",
+     "Sommes susceptibles d'être dues au syndicat par l'acquéreur",
+     "État global des impayés de charges et de la dette envers les fournisseurs",
+     "Part du fonds de travaux attachée au lot et dernière cotisation versée",
+     "Carnet d'entretien de l'immeuble (D08)",
+     "Notice d'information sur les droits et obligations des copropriétaires",
+     "Conclusions du diagnostic technique global, s'il existe",
+     "Plan pluriannuel de travaux adopté ou, à défaut, son projet s'il a été élaboré (D09)"
+    ]
+   },
+   {
+    "heading": "Pré-état daté ou état daté ?",
+    "type": "table",
+    "headers": [
+     "",
+     "Pré-état daté",
+     "État daté"
+    ],
+    "rows": [
+     [
+      "Base",
+      "Nom d'usage pour les informations financières de l'art. L. 721-2",
+      "Art. 5 du décret du 17 mars 1967"
+     ],
+     [
+      "Quand",
+      "Au plus tard à la signature de la promesse",
+      "Avant l'acte, à la demande du notaire"
+     ],
+     [
+      "Qui l'établit",
+      "Le syndic s'il accepte, ou le vendeur à partir de ses documents",
+      "Le syndic uniquement"
+     ],
+     [
+      "Coût",
+      "Pas de plafond légal : vérifier le contrat du syndic",
+      "380 € TTC maximum, facturé au vendeur"
+     ],
+     [
+      "Contenu clé",
+      "Charges payées, sommes à venir, impayés, fonds de travaux",
+      "Sommes dues par le vendeur, dues au vendeur, à la charge de l'acquéreur"
+     ]
+    ]
+   },
+   {
+    "heading": "Qui paie quoi lors de la vente d'un lot",
+    "type": "list",
+    "items": [
+     "Provision exigible du budget prévisionnel : le vendeur (art. 6-2, 1° du décret de 1967)",
+     "Provisions pour dépenses hors budget (travaux votés) : celui qui est copropriétaire à la date d'exigibilité (art. 6-2, 2°)",
+     "Régularisation des comptes (trop ou moins perçu) : celui qui est copropriétaire lors de l'approbation des comptes (art. 6-2, 3°)",
+     "Fonds de travaux : reste au syndicat, jamais remboursé par lui ; un remboursement par l'acquéreur se négocie et s'écrit dans l'acte",
+     "État daté : le vendeur, dans la limite de 380 € TTC",
+     "Tout accord différent entre vendeur et acquéreur vaut entre eux seulement : il ne s'impose pas au syndicat et doit être rédigé par le notaire"
+    ]
+   },
+   {
+    "heading": "Exemple rempli : le lot de M. Bernard (fictif)",
+    "type": "table",
+    "headers": [
+     "Poste",
+     "Montant",
+     "Source",
+     "Qui paie"
+    ],
+    "rows": [
+     [
+      "Charges courantes 2026",
+      "2 652 €/an (≈ 663 €/trimestre)",
+      "D06 : 85 000 € × 312/10 000",
+      "Le vendeur jusqu'à l'acte, puis les acquéreurs"
+     ],
+     [
+      "ITE, appel du 1/01/2027",
+      "8 970 €",
+      "D07, AG du 12/06/2025",
+      "M. Bernard, remboursé par les Martin à l'acte (accord)"
+     ],
+     [
+      "ITE, appels des 1/04, 1/07, 1/10/2027",
+      "3 × 8 970 € = 26 910 €",
+      "D07",
+      "Les Martin"
+     ],
+     [
+      "Fonds de travaux attaché au lot",
+      "1 061 € au 30/09/2026",
+      "D16",
+      "Reste au syndicat"
+     ],
+     [
+      "Impayés de l'immeuble",
+      "6 % × 85 000 € = 5 100 €",
+      "D16",
+      "Information : niveau modéré"
+     ],
+     [
+      "Toiture-terrasse",
+      "Non chiffrée, non votée (vers 2030)",
+      "D09 PPPT, D08",
+      "À anticiper par les acquéreurs"
+     ]
+    ]
+   },
+   {
+    "heading": "Les questions à poser au syndic avant le compromis",
+    "type": "steps",
+    "items": [
+     "Une assemblée générale est-elle prévue avant la date de l'acte ? Avec quels projets de travaux ?",
+     "L'aide MaPrimeRénov' Copropriété demandée pour l'ITE est-elle notifiée ? (sinon, ne pas la chiffrer)",
+     "Les appels de fonds ITE sont-ils confirmés aux dates votées ?",
+     "Y a-t-il des procédures en cours ou des impayés en hausse depuis le dernier exercice ?",
+     "Quel est le délai de délivrance de l'état daté et son prix dans le contrat de syndic ?"
+    ]
+   },
+   {
+    "heading": "À retenir",
+    "type": "text",
+    "text": "Si les documents de l'article L. 721-2 ne sont pas remis au plus tard à la promesse, le délai de rétractation de l'acquéreur ne court qu'à partir du lendemain de leur remise. Le pré-état daté est une photo à une date : entre la promesse et l'acte, une assemblée peut voter de nouveaux travaux. Ton rôle : réunir les pièces, chiffrer chaque somme avec sa source, et vérifier que vendeur et acquéreurs ont compris qui paie quoi. La rédaction des accords revient au notaire."
+   }
+  ],
+  "footer": "Sources : art. L. 721-2 CCH, art. 5 et 6-2 du décret n° 67-223 du 17 mars 1967, art. 14-2-1 de la loi n° 65-557 du 10 juillet 1965 (Légifrance), Service-Public F37294 (vérifiée le 18/02/2026), FNAIM. Mise à jour : 20/10/2026. Chiffres du lot : exemple fictif."
+ },
+ "exercise": {
+  "title": "Risques du pré-état daté",
+  "duration_min": 30,
+  "context": "Avant le compromis du 15/12/2026, Mme Roy (Cabinet Martel Gestion) a transmis le pré-état daté du lot de M. Bernard (D16). Les Martin, primo-accédants, te demandent : « Concrètement, qu'est-ce qu'on devra payer à la copropriété, et quand ? ». Tu prépares une note de risques que tu relis avec eux, et une version courte pour M. Bernard.",
+  "materials": [
+   "D16 Pré-état daté",
+   "D06 Appels de charges et budget 2026",
+   "D07 PV d'AG du 12/06/2025",
+   "D08 Carnet d'entretien",
+   "D09 Synthèse du PPPT",
+   "D10 Fiche synthétique"
+  ],
+  "steps": [
+   "Vérifie que toutes les pièces de l'article L. 721-2 sont réunies ; liste celles qui manquent.",
+   "Relève dans D16 et D07 tous les travaux votés et leurs échéances ; calcule la quote-part du lot.",
+   "Applique la règle de l'art. 6-2 du décret de 1967 et l'accord des parties : qui paie chaque appel ?",
+   "Relève le fonds de travaux attaché au lot et explique ce qu'il devient à la vente.",
+   "Calcule le montant des impayés de l'immeuble et qualifie le niveau de risque.",
+   "Repère dans D08 et D09 les travaux à venir non votés et formule-les sans chiffre inventé.",
+   "Rédige la note : tableau des risques (somme, source, date, payeur, action) + 3 questions pour le syndic."
+  ],
+  "expected": "Exemple de réponse attendue : (1) ITE votée le 12/06/2025 : 1 150 000 € × 312/10 000 = 35 880 € ; 4 × 8 970 € au 1/01, 1/04, 1/07, 1/10/2027. Le 1/01/2027, M. Bernard paie (copropriétaire à cette date), les Martin le lui remboursent à l'acte (accord à rédiger par Maître Lemoine) ; les 3 autres appels, 26 910 €, sont pour les Martin. Total pour les Martin : 35 880 €, moins l'aide MaPrimeRénov' Copropriété si elle est notifiée (ne pas la chiffrer). (2) Fonds de travaux : 1 061 € au 30/09/2026, reste au syndicat, non remboursé à M. Bernard sauf accord dans l'acte : point de négociation, pas un dû. (3) Impayés : 6 % × 85 000 € = 5 100 €, niveau modéré, à suivre dans les comptes. (4) Charges courantes : 2 652 €/an, ≈ 663 €/trimestre. (5) Toiture-terrasse en fin de vie vers 2030 (D08, D09) : non votée, non chiffrée, à anticiper. (6) Aucune procédure. Questions au syndic : AG prévue avant le 15/03/2027 ? Aide MaPrimeRénov' notifiée ? Délai et prix de l'état daté ? Risque principal : que les Martin n'aient pas prévu le financement des 35 880 € (voir capsule 5.4)."
+ },
+ "deliverable": {
+  "title": "Note de risques copropriété pour les acquéreurs",
+  "format": "PDF ou DOCX, 1 page : tableau des risques + 3 questions au syndic",
+  "criteria": [
+   "La quote-part ITE de 35 880 € est calculée (1 150 000 × 312/10 000) avec les 4 échéances de 8 970 € datées",
+   "Le payeur de chaque appel est indiqué selon l'art. 6-2 du décret de 1967 et l'accord des parties",
+   "Le fonds de travaux de 1 061 € est présenté comme non remboursé par le syndicat",
+   "Les impayés sont chiffrés (5 100 €) et qualifiés",
+   "Aucune aide non notifiée n'est chiffrée",
+   "Chaque ligne cite sa source (D06, D07, D08, D09 ou D16)",
+   "Trois questions pertinentes au syndic sont formulées"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Art. L. 721-2 CCH : documents à remettre à l'acquéreur d'un lot (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043977384"
+  },
+  {
+   "label": "Art. L. 721-3 CCH : point de départ du délai de rétractation (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031110572"
+  },
+  {
+   "label": "Service-Public : état daté, plafond de 380 € TTC (F37294, vérifiée le 18/02/2026)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37294"
+  },
+  {
+   "label": "Art. 6-2 du décret du 17 mars 1967 : répartition des provisions (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488321"
+  },
+  {
+   "label": "Art. 5 du décret du 17 mars 1967 : état daté (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042078599/"
+  },
+  {
+   "label": "Art. 14-2-1 loi du 10 juillet 1965 : fonds de travaux (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043967792"
+  },
+  {
+   "label": "FNAIM : pré-état daté, obligations (mise à jour mai 2024)",
+   "url": "https://www.fnaim.fr/4194-qu-est-ce-que-le-pre-etat-date-quelles-obligations.htm"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D06 à D10, D16)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Relecture juridique obligatoire (L. 721-2, état daté, art. 6-2, fonds de travaux). Visuels : immeuble en coupe avec le lot au 4e, tableau pré-état daté / état daté, frise des appels ITE 2027, D16 et D09 surlignés. B-roll : rendez-vous avec un couple au bureau, classeur de copropriété. [À VALIDER] : (1) L. 721-3 cité via FNAIM et Service-Public (délai de rétractation décalé) : le relecteur confirme le texte exact ; (2) dossier fil rouge : le PPPT est dit « adopté » ; si un plan pluriannuel est adopté, l'art. 14-2-1 fixe une cotisation minimale de 2,5 % du montant des travaux du plan ET 5 % du budget ; la cotisation du dossier fil rouge (4 250 € = 5 %) n'est cohérente que si le plan n'est pas « adopté » au sens du II de l'art. 14-2 : ne pas citer le taux de 2,5 % à l'oral tant que ce point n'est pas tranché ; (3) charges des 2 derniers exercices non chiffrées dans le dossier fil rouge : ne pas inventer de montant pour D16."
+}

@@ -1,0 +1,360 @@
+{
+ "id": "3.1",
+ "module": 3,
+ "ia": false,
+ "title": "Maîtriser le dossier client",
+ "objective": "Constituer et tenir à jour le dossier complet du vendeur (D01 à D20) pour arriver au rendez-vous de restitution avec toutes les preuves",
+ "video": {
+  "duration_min": 8,
+  "hook": "M. Bernard ouvre une chemise cartonnée : « Les deux autres agences sont venues les mains vides. Vous, qu'est-ce que vous m'apportez ? »",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Salut, c'est Seb. Mardi soir, M. Bernard ouvre sa chemise cartonnée. Dedans, son DPE, ses appels de charges, le PV de la dernière assemblée générale. Il te regarde et il te dit : « Les deux autres agences sont venues les mains vides. Vous, qu'est-ce que vous m'apportez ? » Tu as quatre secondes pour répondre. Et la bonne réponse, ce n'est pas une phrase. C'est un dossier. Dans ce module, on transforme ton estimation en mandat exclusif. Et ça commence ici : avant de parler prix, avant de parler exclusivité, tu dois maîtriser le dossier de ton client mieux que lui.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; insert B-roll : mains qui ouvrent une chemise cartonnée sur une table de salon",
+    "onscreen": "Module 3 · Gagner l'exclusivité par l'expertise"
+   },
+   {
+    "tc": "00:50",
+    "voice": "Pourquoi c'est si important ? Parce que M. Bernard est un profil prudent. Ancien ingénieur, il veut des preuves, des chiffres, des documents. Il se méfie des promesses. Avec lui, le dossier, c'est ta crédibilité. Et pense à l'autre bout de la chaîne : l'acheteur. Un acheteur d'appartement en copropriété, en 2026, il pose trois questions. Quelle étiquette énergie ? Combien de charges ? Quels travaux votés ? Si tu réponds « je vais me renseigner », il passe au bien suivant. Si tu sors la pièce, il reste. Un dossier complet, c'est un argument de vente pour le vendeur et un argument d'achat pour l'acquéreur.",
+    "screen": "Slide deux colonnes : à gauche « Le vendeur C veut des preuves », à droite « L'acheteur pose 3 questions : étiquette, charges, travaux votés »",
+    "onscreen": "Le dossier = ta crédibilité"
+   },
+   {
+    "tc": "01:40",
+    "voice": "Première idée clé : un dossier, ce n'est pas une pile de papiers. C'est quatre blocs. Bloc un, le vendeur et le titre : la fiche découverte D01, l'extrait du titre et la taxe foncière, D11. Bloc deux, le bien et son énergie : le DPE D02, l'attestation actualisée en classe E, D03, le plan D04, le reportage photo D05, les devis de travaux D13, et le dossier de diagnostic technique D17. Bloc trois, la copropriété : appels de charges D06, PV d'AG D07, carnet d'entretien D08, synthèse du PPPT D09, fiche synthétique D10. Bloc quatre, le marché et la vente : les comparables D12 et le modèle de mandat D18. Le reste viendra plus tard, avec les acheteurs.",
+    "screen": "Animation : 4 blocs de couleur qui se remplissent des codes D01 à D18 au fil de la voix",
+    "onscreen": "4 blocs : vendeur · bien · copropriété · marché"
+   },
+   {
+    "tc": "02:35",
+    "voice": "Deuxième idée clé : chaque pièce a une source, une date et un statut. Le DPE vient de Diag77, il date du 14 mars 2023. L'attestation actualisée, M. Bernard l'a téléchargée gratuitement sur l'observatoire de l'ADEME : classe E, valable jusqu'au 13 mars 2033. Le PV d'AG du 12 juin 2025, c'est le syndic, le Cabinet Martel Gestion, qui le fournit. Et le statut, c'est simple : reçu, demandé, à commander, ou plus tard. L'état de l'installation électrique, par exemple : une partie des circuits date de 1972, l'installation a plus de 15 ans, il est obligatoire pour vendre. S'il n'est pas au dossier, tu l'inscris « à commander », avec une date.",
+    "screen": "Plein écran : tableau de suivi (colonnes Pièce · Source · Date · Statut · Prochaine action) qui se remplit ligne par ligne",
+    "onscreen": "Source · date · statut"
+   },
+   {
+    "tc": "03:30",
+    "voice": "Troisième idée clé : tu lis chaque pièce, et tu en tires une phrase pour le vendeur. Exemple. Le PV d'AG D07 : ravalement avec isolation par l'extérieur voté, 1 150 000 euros pour l'immeuble. Pour le lot de M. Bernard, 312 dix-millièmes, ça fait 35 880 euros, en quatre appels de 8 970 euros, en 2027. Ta phrase : « Monsieur Bernard, c'est la question que tous les acheteurs vont poser. On va la préparer ensemble. » Autre exemple : le fonds de travaux. 1 061 euros attachés au lot au 30 septembre 2026. Ta phrase : « Cette somme reste au lot, sauf accord dans l'acte. » Une pièce lue, c'est une objection désamorcée.",
+    "screen": "Document D07 zoomé, résolution ITE surlignée en jaune ; incrustation du calcul 1 150 000 × 312/10 000",
+    "onscreen": "1 150 000 € × 312/10 000 = 35 880 € · 4 × 8 970 €"
+   },
+   {
+    "tc": "04:20",
+    "voice": "Démonstration. Je prends le dossier de M. Bernard, une semaine avant le rendez-vous de restitution. J'ouvre le tableau de suivi. Bloc un : D11 reçu, taxe foncière 1 412 euros par an, il est seul propriétaire, prêt soldé. Bloc deux : D02 et D03 reçus, D13 reçu, total des devis 16 500 euros. D17 : DPE, amiante, état des risques et mesurage Carrez au dossier, mais l'état de l'électricité manque : à commander. Pas de plomb, l'immeuble est d'après 1949. Pas de gaz. Bloc trois : je demande à Mme Roy, chez le syndic, la fiche synthétique D10. Bloc quatre : D12, mes comparables, mis à jour. Puis j'envoie à M. Bernard un mail récapitulatif : ce que j'ai, ce qui manque, qui s'en charge, avant quand.",
+    "screen": "Capture d'écran animée du tableau de suivi rempli pour M. Bernard ; curseur qui passe chaque ligne en vert, orange ou gris",
+    "onscreen": "Démonstration · dossier de M. Bernard au 27/10/2026"
+   },
+   {
+    "tc": "05:20",
+    "voice": "Les erreurs fréquentes, maintenant. Un : garder le vieux DPE en tête du dossier. Pour M. Bernard, c'est l'attestation en classe E qui fait foi aujourd'hui, pas le F de 2023. Deux : oublier la copropriété. Un appartement sans PV d'AG, c'est une vente qui casse chez le notaire. Trois : collecter trop. Tu n'as pas besoin des revenus de M. Bernard ni de ses relevés bancaires pour vendre son bien. Ce n'est pas utile, donc tu ne le demandes pas : c'est le principe de minimisation des données. Quatre : un dossier sans date. Un appel de charges de 2024, ce n'est plus une preuve en novembre 2026.",
+    "screen": "Slide « 4 erreurs » : pictogrammes barrés (vieux DPE, immeuble oublié, loupe sur relevé bancaire, calendrier périmé)",
+    "onscreen": "Pas de vieux DPE · pas de copro oubliée · pas de données inutiles · pas de pièce sans date"
+   },
+   {
+    "tc": "06:10",
+    "voice": "Et un dernier conseil, pour le profil de M. Bernard. Envoie-lui le dossier avant le rendez-vous. Pas tout : le sommaire, l'attestation, les comparables et la liste des pièces manquantes. Un profil prudent déteste découvrir un chiffre en direct. Il veut le lire tranquillement, le vérifier, préparer ses questions. Si tu lui laisses ce temps-là, il arrive au rendez-vous en confiance. Et toi, tu arrives avec un client qui a déjà validé la moitié de ton travail. Dernier geste, souvent oublié : le jour du rendez-vous, tu ne sors pas ton dossier en vrac. Tu le présentes dans l'ordre des quatre blocs, avec un sommaire en première page. Si M. Bernard te pose une question sur les charges, tu ouvres le bloc trois, page deux, et tu lui montres la ligne. Pas besoin de chercher, pas besoin d'improviser. C'est ce calme-là qui fait la différence avec les deux autres agences.",
+    "screen": "B-roll : M. Bernard (comédien) lit un document à sa table, lunettes sur le nez, stylo en main",
+    "onscreen": "Envoyer le sommaire 48 h avant"
+   },
+   {
+    "tc": "07:25",
+    "voice": "À toi de jouer. Tout de suite, un quiz flash de cinq questions. Ensuite, tu télécharges la check-list et le tableau de suivi. Dans l'exercice, tu constitues le dossier de M. Bernard avec les documents D01 à D18, et tu repères ce qui manque. Ton livrable : le tableau de suivi rempli et le mail récapitulatif au vendeur. On se retrouve dans la capsule suivante pour parler de communication, avec l'outil DISC.",
+    "screen": "Seb face caméra, plan rapproché ; à droite, les 5 pictos du parcours (regarde, teste, télécharge, pratique, dépose)",
+    "onscreen": "Quiz → Check-list → Exercice → Livrable"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "M. Bernard te tend son DPE de mars 2023 (classe F) et son attestation ADEME actualisée (classe E). Quelle pièce places-tu en tête du bloc « bien et énergie » ?",
+    "options": [
+     "Le DPE de 2023, c'est le document d'origine",
+     "L'attestation actualisée en classe E, valable jusqu'au 13/03/2033",
+     "Aucune des deux : il faut un nouveau DPE"
+    ],
+    "answer": 1,
+    "fb_title": "L'attestation fait foi",
+    "fb_text": "Le DPE de 2023 reste valable, mais l'attestation actualisée (coefficient 1,9 depuis le 1/01/2026) le remplace pour l'étiquette jusqu'à la fin de validité du DPE d'origine. C'est elle que tu montres en premier.",
+    "whys": [
+     "Le F de 2023 a été calculé avec le coefficient 2,3 : ce n'est plus l'étiquette en vigueur.",
+     "Juste : elle remplace l'étiquette sans nouvelle visite et vaut jusqu'au 13/03/2033.",
+     "Faux : aucun travaux depuis 2023, le DPE est valable et l'attestation suffit."
+    ]
+   },
+   {
+    "question": "Quelle pièce n'a rien à faire dans le dossier de M. Bernard ?",
+    "options": [
+     "Le PV d'AG du 12/06/2025",
+     "Ses trois derniers relevés bancaires",
+     "La synthèse du PPPT",
+     "L'extrait du titre de propriété"
+    ],
+    "answer": 1,
+    "fb_title": "Minimisation des données",
+    "fb_text": "Tu ne collectes que les données utiles à la vente du bien. Les finances personnelles du vendeur ne servent pas à vendre son appartement (prêt soldé, propriétaire seul) : tu ne les demandes pas.",
+    "whys": [
+     "Utile : il prouve le vote de l'ITE et son montant.",
+     "Juste : donnée personnelle inutile à la vente, principe de minimisation (RGPD).",
+     "Utile : il annonce les travaux futurs de l'immeuble.",
+     "Utile : il prouve que M. Bernard est seul propriétaire."
+    ]
+   },
+   {
+    "question": "Le PV d'AG D07 indique 1 150 000 € TTC de ravalement avec ITE. Le lot a 312/10 000 tantièmes. Quelle est sa quote-part ?",
+    "options": [
+     "35 880 €, en 4 appels de 8 970 €",
+     "11 500 €, en une fois",
+     "3 588 €, en 4 appels de 897 €"
+    ],
+    "answer": 0,
+    "fb_title": "Le bon calcul",
+    "fb_text": "1 150 000 × 312 / 10 000 = 35 880 €, appelés en 4 échéances de 8 970 € exigibles le 1/01, le 1/04, le 1/07 et le 1/10/2027.",
+    "whys": [
+     "Juste : 1 150 000 × 0,0312 = 35 880 €, soit 4 × 8 970 €.",
+     "Faux : c'est 1 % du montant, pas la quote-part en tantièmes.",
+     "Faux : erreur d'un facteur 10 sur les tantièmes."
+    ]
+   },
+   {
+    "question": "L'état de l'installation électrique n'est pas au dossier D17. Que fais-tu ?",
+    "options": [
+     "Rien : le tableau électrique a été refait en 2010",
+     "Tu l'inscris « à commander » avec une date : installation de plus de 15 ans, il est obligatoire",
+     "Tu demandes au vendeur une attestation sur l'honneur",
+     "Tu attends que le notaire le réclame"
+    ],
+    "answer": 1,
+    "fb_title": "Statut et date",
+    "fb_text": "Une partie des circuits date de 1972 : l'installation a plus de 15 ans, l'état de l'électricité fait donc partie du dossier de diagnostic technique (D17). Chaque pièce manquante reçoit un statut « à commander » et une échéance, avant la mise en vente.",
+    "whys": [
+     "Faux : un tableau refait en 2010 ne dispense pas du diagnostic, l'installation a plus de 15 ans.",
+     "Juste : pièce obligatoire, statut et date dans le tableau de suivi.",
+     "Faux : une déclaration du vendeur ne remplace pas un diagnostic réalisé par un professionnel.",
+     "Faux : découvrir le manque chez le notaire retarde la vente."
+    ]
+   },
+   {
+    "question": "Pourquoi envoyer le sommaire du dossier à M. Bernard 48 h avant le rendez-vous ?",
+    "options": [
+     "Pour éviter de le présenter en rendez-vous",
+     "Parce que son profil prudent veut lire et vérifier les chiffres avant d'en parler",
+     "Parce que la loi l'impose",
+     "Pour qu'il le transmette aux autres agences"
+    ],
+    "answer": 1,
+    "fb_title": "Respecter son rythme",
+    "fb_text": "Un profil C n'aime pas découvrir un chiffre en direct. Lui laisser le temps de lire, c'est l'inviter à préparer ses questions et arriver en confiance. C'est une pratique de communication, pas une obligation légale.",
+    "whys": [
+     "Faux : on le présente quand même, il a juste eu le temps de le lire.",
+     "Juste : il vérifie, il prépare ses questions, il arrive en confiance.",
+     "Faux : aucune règle ne l'impose, c'est une proposition pédagogique.",
+     "Faux : ce n'est pas l'objectif, même s'il reste libre de ses documents."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Check-list + tableau de suivi",
+  "kind": "checklist",
+  "intro": "Cette fiche te sert à constituer, contrôler et suivre le dossier d'un vendeur d'appartement en copropriété, de la découverte jusqu'au mandat. Utilise-la dès le premier rendez-vous, mets le tableau à jour à chaque pièce reçue et envoie le sommaire au vendeur 48 h avant le rendez-vous de restitution.",
+  "sections": [
+   {
+    "heading": "Bloc 1 · Le vendeur et le titre",
+    "type": "checklist",
+    "items": [
+     "Fiche découverte vendeur remplie (projet, délai, prochain logement, critères de réussite) : D01",
+     "Extrait du titre de propriété : propriétaire(s), date et origine de propriété, bien propre ou commun : D11",
+     "Dernière taxe foncière (montant annuel) : D11",
+     "Prêt en cours ou soldé (une simple déclaration suffit, pas de relevé)",
+     "Consentement de recontact et sa preuve (date, objet, durée, retrait)"
+    ]
+   },
+   {
+    "heading": "Bloc 2 · Le bien et son énergie",
+    "type": "checklist",
+    "items": [
+     "DPE complet avec son numéro ADEME à 13 caractères : D02",
+     "Attestation actualisée ADEME si DPE postérieur au 1/07/2021 et chauffage électrique : D03",
+     "Plan et descriptif, surfaces pièce par pièce, annexes (cave, parking) : D04",
+     "Reportage photo commenté, défauts compris : D05",
+     "Devis ou chiffrage des travaux privatifs : D13",
+     "Dossier de diagnostic technique (DPE, amiante si permis avant juillet 1997, électricité et gaz si installation de plus de 15 ans, état des risques, mesurage Carrez ; plomb si construit avant 1949) : D17",
+     "Liste des travaux réalisés depuis le DPE, factures à l'appui"
+    ]
+   },
+   {
+    "heading": "Bloc 3 · La copropriété",
+    "type": "checklist",
+    "items": [
+     "Appels de charges et budget prévisionnel de l'année : D06",
+     "PV des 3 dernières AG, travaux votés et montants : D07",
+     "Carnet d'entretien de l'immeuble : D08",
+     "PPPT ou plan pluriannuel de travaux : D09",
+     "Fiche synthétique de la copropriété (à demander au syndic) : D10",
+     "Montant du fonds de travaux attaché au lot",
+     "DPE collectif ou audit de l'immeuble s'il existe"
+    ]
+   },
+   {
+    "heading": "Bloc 4 · Le marché et la vente",
+    "type": "checklist",
+    "items": [
+     "Tableau des ventes comparables datées (pas des annonces) : D12",
+     "Estimation en l'état et après rénovation, écrite et justifiée",
+     "Modèle de mandat de l'agence relu (clause d'exclusivité très apparente) : D18",
+     "Plus tard : fiches acquéreurs (D14), offres (D15), pré-état daté (D16), compromis (D19), rétroplanning (D20)"
+    ]
+   },
+   {
+    "heading": "Tableau de suivi · exemple rempli (M. Bernard, 27/10/2026)",
+    "type": "table",
+    "headers": [
+     "Pièce",
+     "Source",
+     "Date",
+     "Statut",
+     "Prochaine action"
+    ],
+    "rows": [
+     [
+      "D02 DPE",
+      "Diag77",
+      "14/03/2023",
+      "Reçu",
+      "Archiver, ne plus le montrer seul"
+     ],
+     [
+      "D03 Attestation ADEME (E)",
+      "Vendeur (observatoire ADEME)",
+      "2026",
+      "Reçu",
+      "Joindre au mandat et à l'annonce"
+     ],
+     [
+      "D06 Appels de charges 2026",
+      "Cabinet Martel Gestion",
+      "2026",
+      "Reçu",
+      "Calculer la charge mensuelle : 2 652 € / 12 = 221 €"
+     ],
+     [
+      "D07 PV d'AG",
+      "Cabinet Martel Gestion",
+      "12/06/2025",
+      "Reçu",
+      "Préparer la réponse ITE (35 880 €)"
+     ],
+     [
+      "D10 Fiche synthétique",
+      "Mme Roy, syndic",
+      "À venir",
+      "Demandé",
+      "Relancer le 03/11/2026"
+     ],
+     [
+      "D13 Devis travaux privatifs",
+      "Entreprises (fictives)",
+      "Oct. 2026",
+      "Reçu",
+      "Total 16 500 € TTC à présenter"
+     ],
+     [
+      "D17 Amiante, ERP, Carrez",
+      "Diag77",
+      "14/03/2023 ; 08 et 10/10/2026",
+      "Reçu",
+      "Vérifier chaque validité à la date de l'acte"
+     ],
+     [
+      "D17 État de l'installation électrique",
+      "Diagnostiqueur au choix du vendeur",
+      "À venir",
+      "À commander",
+      "Bon de commande signé par le vendeur avant le 13/11/2026"
+     ],
+     [
+      "D18 Mandat exclusif",
+      "Agence",
+      "Modèle",
+      "Prêt",
+      "Présenter au RDV de restitution"
+     ]
+    ]
+   },
+   {
+    "heading": "Les 5 règles d'un dossier qui convainc",
+    "type": "list",
+    "items": [
+     "Une pièce = une source + une date + un statut. Sans date, ce n'est plus une preuve.",
+     "Chaque pièce lue donne une phrase pour le vendeur et une réponse pour l'acheteur.",
+     "Tu demandes ce qui sert à vendre le bien, rien de plus (minimisation des données).",
+     "L'étiquette en vigueur passe devant l'ancienne : attestation actualisée d'abord.",
+     "Tu envoies le sommaire au vendeur avant le rendez-vous et tu notes qui fait quoi, avant quand."
+    ]
+   }
+  ],
+  "footer": "Sources : ADEME, observatoire DPE-Audit ; Service-Public, dossier de diagnostic technique (F10798) ; CNIL, principe de minimisation. Proposition pédagogique Éco-Propriété. Données du fil rouge fictives. Mise à jour : 20/10/2026."
+ },
+ "exercise": {
+  "title": "Constituer le dossier du vendeur",
+  "duration_min": 30,
+  "context": "Mardi 27 octobre 2026. Le rendez-vous de restitution avec M. Bernard est fixé au jeudi 29 octobre chez lui. Tu as reçu de sa part une chemise de documents et tu as produit ton estimation au module 2. Tu dois constituer son dossier, repérer ce qui manque et lui envoyer un récapitulatif écrit avant le rendez-vous.",
+  "materials": [
+   "D01 Fiche découverte vendeur",
+   "D02 DPE du 14/03/2023",
+   "D03 Attestation actualisée ADEME",
+   "D04 Plan et descriptif",
+   "D05 Reportage photo",
+   "D06 Appels de charges 2026",
+   "D07 PV d'AG du 12/06/2025",
+   "D08 Carnet d'entretien",
+   "D09 Synthèse du PPPT",
+   "D11 Titre et taxe foncière",
+   "D12 Comparables",
+   "D13 Devis travaux privatifs",
+   "D18 Modèle de mandat exclusif"
+  ],
+  "steps": [
+   "Classe les documents reçus dans les 4 blocs (vendeur, bien et énergie, copropriété, marché).",
+   "Pour chaque pièce, renseigne la source, la date et le statut (reçu, demandé, à commander, plus tard) dans le tableau de suivi.",
+   "Repère les pièces manquantes ou à commander et fixe une prochaine action datée avec le responsable.",
+   "Pour 3 pièces clés (D03, D06, D07), écris la phrase que tu diras au vendeur et la réponse que tu feras à un acheteur.",
+   "Liste les données que tu ne dois pas collecter et explique pourquoi en une phrase.",
+   "Rédige le mail récapitulatif à M. Bernard (10 lignes maximum) : ce que tu as, ce qui manque, qui s'en charge, avant quand."
+  ],
+  "expected": "Bloc 1 : D01, D11 reçus (propriétaire seul, taxe foncière 1 412 €/an, prêt soldé). Bloc 2 : D02, D03 (classe E, valable jusqu'au 13/03/2033), D04, D05, D13 (16 500 € TTC) reçus ; D17 incomplet : amiante (permis 1970, repérage du 14/03/2023), état des risques (08/10/2026) et mesurage Carrez (10/10/2026) reçus ; état de l'installation électrique (plus de 15 ans) à commander ; pas de plomb (après 1949), pas de gaz. Bloc 3 : D06, D07, D08, D09 reçus ; D10 fiche synthétique à demander à Mme Roy (Cabinet Martel Gestion). Bloc 4 : D12 et D18 prêts. Phrases : D03 « Votre étiquette en vigueur est E, c'est elle qui figurera dans l'annonce » ; D06 « Charges : 2 652 €/an, soit 221 €/mois, sans chauffage collectif » ; D07 « 35 880 € d'ITE votés, en 4 appels de 8 970 € en 2027 : on prépare la réponse pour les acheteurs ». Données exclues : revenus, relevés bancaires, situation de la fille (inutiles à la vente). Mail : ton factuel, pièce à commander (état de l'électricité), proposition d'un bon de commande à signer au rendez-vous, rappel du rendez-vous du 29/10."
+ },
+ "deliverable": {
+  "title": "Tableau de suivi du dossier de M. Bernard + mail récapitulatif",
+  "format": "Tableur (XLSX) + mail en PDF, 1 page",
+  "criteria": [
+   "Les 4 blocs sont présents et chaque document D01 à D18 disponible est classé dans le bon bloc",
+   "Chaque ligne indique une source, une date et un statut parmi : reçu, demandé, à commander, plus tard",
+   "La pièce manquante du D17 (état de l'installation électrique) et la fiche synthétique D10 sont repérées avec une action datée",
+   "L'attestation actualisée (classe E) est identifiée comme l'étiquette en vigueur",
+   "Aucune donnée personnelle inutile n'est demandée (revenus, relevés bancaires)",
+   "Le mail tient en 10 lignes et indique qui fait quoi, avant quelle date"
+  ],
+  "example": "« Monsieur Bernard, voici le point sur votre dossier avant jeudi. Reçus : DPE et attestation (classe E), plan, charges 2026, PV d'AG, carnet, PPPT, devis. Diagnostics reçus : amiante, état des risques, Carrez. À commander : état de l'électricité (bon de commande à signer jeudi). Je demande la fiche synthétique au syndic. »"
+ },
+ "sources": [
+  {
+   "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+   "url": "https://observatoire-dpe-audit.ademe.fr"
+  },
+  {
+   "label": "Service-Public — Diagnostics immobiliers obligatoires lors de la vente (dossier de diagnostic technique)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798"
+  },
+  {
+   "label": "CNIL — Définition : minimisation des données",
+   "url": "https://www.cnil.fr/fr/definition/minimisation"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété — structure du dossier en 4 blocs (données du fil rouge fictives)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "notes_prod": "Visuels : tableau de suivi animé (vert reçu / orange à commander / gris plus tard), 4 blocs de couleur, D07 avec la résolution ITE surlignée, calcul 1 150 000 × 312/10 000 en incrustation. B-roll : chemise cartonnée, lecture d'un document à une table de salon (comédien M. Bernard, 64 ans). Livrer le tableau de suivi en XLSX modifiable. Points à valider : liste des diagnostics D17 conforme à le dossier fil rouge (pas de plomb, pas de gaz ; termites selon arrêté préfectoral du lieu du bien [À VALIDER pour Melun])."
+}

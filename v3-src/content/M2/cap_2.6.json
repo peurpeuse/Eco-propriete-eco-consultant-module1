@@ -1,0 +1,387 @@
+{
+ "id": "2.6",
+ "module": 2,
+ "ia": false,
+ "title": "Audit 360° et pathologies",
+ "objective": "Mener un audit visuel à 360° d'un logement, décrire chaque pathologie (symptôme, cause probable, gravité) et savoir quand renvoyer vers un expert",
+ "video": {
+  "duration_min": 8,
+  "hook": "Une auréole jaune au plafond de la cuisine de M. Bernard. L'acheteur y verra une fuite. Toi, tu dois savoir si la cause est réglée, et pouvoir le prouver.",
+  "segments": [
+   {
+    "tc": "00:00",
+    "voice": "Une auréole jaune au plafond de la cuisine. Des points noirs au plafond de la salle de bains. Une petite fissure dans le couloir. C'est ce que tu vois en entrant chez M. Bernard. Et c'est exactement ce que verra le premier acheteur. Sauf que lui, il ne saura pas faire la différence entre un défaut grave et un défaut banal. Alors il fera ce que font tous les acheteurs inquiets : il baissera son offre, ou il partira. Ton travail aujourd'hui, c'est de voir avant lui, de comprendre avant lui, et d'avoir la réponse avant qu'il pose la question.",
+    "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété ; insert rapide de 3 photos du reportage D05 (P08 auréole cuisine, P06 moisissures salle de bains, P11 fissure du dégagement)",
+    "onscreen": "Voir avant l'acheteur"
+   },
+   {
+    "tc": "00:45",
+    "voice": "Pourquoi c'est ton sujet, et pas seulement celui du diagnostiqueur ? Parce que le DPE ne parle pas des taches, des fissures ou des moisissures. Le dossier de diagnostics non plus, en tout cas pas comme ça. Or ce sont ces détails qui font chuter une négociation. Un agent qui a fait le tour complet du bien, qui a noté chaque désordre et qui connaît sa cause, arrive en rendez-vous avec un argument que les autres n'ont pas. Pour M. Bernard, profil C, c'est encore plus vrai : il veut des faits, des photos, des preuves. Une grille d'audit propre, c'est la preuve que tu as travaillé.",
+    "screen": "Seb plan taille ; à droite, slide « Ce que le DPE ne dit pas » : taches, fissures, moisissures, joints, humidité",
+    "onscreen": "Le DPE ne voit pas les pathologies"
+   },
+   {
+    "tc": "01:35",
+    "voice": "Première idée : l'audit à 360°, c'est un ordre de visite, toujours le même. Tu commences dehors : la façade, les balcons, les abords. Tu passes par les parties communes : hall, cage d'escalier, ascenseur, caves. Puis tu entres dans le logement, pièce par pièce, toujours dans le même sens. Tu regardes du sol au plafond, puis les fenêtres, la ventilation, le chauffage, l'eau chaude, l'électricité. Et tu termines par les documents. Avec un ordre fixe, tu n'oublies rien. Et quand tu montres ta grille au vendeur, il voit une méthode, pas une impression. Côté matériel, rien de compliqué : ton téléphone avec la date sur les photos, un mètre laser, une lampe, une boussole pour l'exposition, et un réglet pour donner l'échelle d'une fissure.",
+    "screen": "Schéma animé « 360° » : 5 cercles concentriques (abords → parties communes → pièces → équipements → documents) ; B-roll visite d'appartement, montée d'escalier, main qui ouvre une fenêtre",
+    "onscreen": "Dehors → communs → pièces → équipements → documents"
+   },
+   {
+    "tc": "02:20",
+    "voice": "Deuxième idée : une pathologie, ça se lit en quatre temps. Tu observes le symptôme. Tu cherches la cause. Tu poses une hypothèse. Et tu décides : on peut traiter simplement, ou on renvoie vers un expert. Attention au mot. Tu ne poses pas un diagnostic, tu fais un constat visuel. Tu écris : « traces noires au plafond et dans les angles, cause probable : ventilation insuffisante ». Tu n'écris jamais : « pas de problème d'humidité ». Et si tu ne sais pas, tu le dis, et tu renvoies vers la bonne personne. C'est ça, être professionnel.",
+    "screen": "Slide 4 étapes : Observer le symptôme → Chercher la cause → Poser une hypothèse → Traiter ou renvoyer ; incrustation « Constat visuel ≠ diagnostic »",
+    "onscreen": "Constat visuel, pas diagnostic"
+   },
+   {
+    "tc": "03:05",
+    "voice": "Démonstration chez M. Bernard, avec le reportage photo D05. Photo 6, la salle de bains : des moisissures au plafond et dans les angles. Photo 7 : la grille du conduit de ventilation est en partie bouchée. Il n'y a pas de VMC dans l'appartement. Le lien est clair : la vapeur du bain ne sort pas, elle condense sur les parois les plus froides. Gravité moyenne, cause identifiée, remède connu : débouchage du conduit, puis une VMC hygroréglable. C'est d'ailleurs dans le devis D13. Et en attendant, un traitement anti-moisissures dans le plan Éco-staging.",
+    "screen": "Plein écran : photos P06 et P07 du reportage D05 côte à côte, flèche du conduit obstrué vers les moisissures ; puis ligne VMC du devis D13 surlignée",
+    "onscreen": "Moisissures = vapeur + ventilation bloquée"
+   },
+   {
+    "tc": "03:50",
+    "voice": "Photo 8, la cuisine : l'auréole jaune au plafond. Ici, la cause n'est pas dans l'appartement. C'est un dégât des eaux venu du voisin du cinquième, en 2022. La fuite a été réparée, le sinistre est clos, c'est l'assurance de l'immeuble qui l'a pris en charge. Donc ce n'est pas un problème technique, c'est un problème d'image. La réponse, c'est une preuve écrite : tu demandes au syndic le courrier de clôture du sinistre. Puis un coup de peinture sur le plafond. Avec la preuve dans le dossier, l'acheteur n'a plus de question.",
+    "screen": "Plein écran : photo P08 auréole plafond cuisine ; incrustation chronologie « 2022 fuite au 5e → réparée → sinistre clos » ; icône document « courrier de clôture à demander au syndic »",
+    "onscreen": "Cause réglée + preuve écrite = objection levée"
+   },
+   {
+    "tc": "04:35",
+    "voice": "Photo 11, le dégagement : une fissure fine, en escalier, sur une cloison. Moins de deux dixièmes de millimètre. Ce n'est pas un mur porteur, et elle ne traverse pas. Elle est donc considérée comme non structurelle. Mais tu ne t'arrêtes pas là : tu la photographies avec une règle et la date, et tu notes « à surveiller ». Photos 4 et 5, les chambres : fenêtres bois en simple vitrage, joints abîmés, sensation de paroi froide. Pas grave pour le bâtiment, mais très visible pour un acheteur. Et le remède est chiffré : remplacement des quatre fenêtres. Dernier point sur ces photos : la photo 3, le balcon. La dalle traverse le mur, c'est un pont thermique. Mais c'est une partie commune : ce n'est pas M. Bernard qui le traitera seul, c'est une question pour le syndic.",
+    "screen": "Plein écran : photo P11 fissure avec réglet et date incrustée ; puis P04 fenêtre bois simple vitrage, zoom sur joint dégradé ; incrustation « 4 fenêtres bois → devis D13 »",
+    "onscreen": "Fissure fine : photo datée, à surveiller"
+   },
+   {
+    "tc": "05:20",
+    "voice": "Troisième idée, la plus importante : savoir quand t'arrêter. Tu renvoies vers un expert dès qu'une fissure s'élargit, traverse un mur, touche un mur porteur ou une façade, ou s'accompagne d'une porte qui frotte. Tu renvoies vers un plombier ou l'assurance si l'humidité est active, si une tache s'étend ou si c'est humide au toucher. Tu renvoies vers le syndic tout ce qui touche les parties communes : façade, balcon, toiture, colonnes. Et tu ne perces, tu ne grattes, tu ne démontes jamais rien : immeuble de 1972, on attend le repérage amiante du dossier de diagnostics.",
+    "screen": "Slide « Quand renvoyer vers un expert » en 4 blocs : Structure (expert bâtiment), Eau active (plombier, assurance), Parties communes (syndic), Matériaux suspects (diagnostiqueur) ; Seb en incrustation coin bas droit",
+    "onscreen": "Si tu ne sais pas : tu renvoies"
+   },
+   {
+    "tc": "06:05",
+    "voice": "Les erreurs fréquentes. Un : rassurer trop vite. « Ce n'est rien » est une phrase qui peut te coûter cher si c'était quelque chose. Deux : cacher. Une tache repeinte sans preuve de réparation, c'est un risque juridique pour le vendeur, et pour toi. Trois : dramatiser. Une fissure fine de cloison n'est pas un problème de structure. Quatre : faire confiance à une seule image. Même une caméra thermique peut tromper si elle est mal interprétée. Ton outil le plus fiable, c'est la méthode : observer, chercher la cause, écrire ce que tu vois, et renvoyer quand tu ne sais pas.",
+    "screen": "Seb plan taille ; 4 cartes qui apparaissent une à une : Rassurer trop vite / Cacher / Dramatiser / Une seule image",
+    "onscreen": "Ni rassurer, ni cacher, ni dramatiser"
+   },
+   {
+    "tc": "06:50",
+    "voice": "À toi maintenant. D'abord le quiz flash, cinq questions, tout de suite, pendant que c'est frais. Ensuite, télécharge la grille d'audit et le tableau des pathologies : tu les emportes à chaque visite. Puis l'exercice : tu remplis la grille à partir des douze photos du reportage de M. Bernard. Pour chaque photo : ce que tu vois, la cause probable, la gravité, et ce que tu fais. Enfin, tu déposes ta grille complète. Je la relis personnellement. Et souviens-toi : un défaut expliqué, c'est un défaut qui ne fait plus peur.",
+    "screen": "Seb face caméra, plan rapproché ; bandeau des 4 étapes suivantes : Quiz → Grille d'audit → Exercice 12 photos → Dépôt",
+    "onscreen": "Un défaut expliqué ne fait plus peur"
+   }
+  ]
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Chez M. Bernard, des moisissures couvrent le plafond de la salle de bains et la grille du conduit est en partie bouchée. Quelle est la cause la plus probable ?",
+    "options": [
+     "Une infiltration par la toiture-terrasse",
+     "Une ventilation insuffisante : la vapeur condense sur les parois froides",
+     "Une remontée d'humidité par le sol"
+    ],
+    "answer": 1,
+    "fb_title": "Vapeur + ventilation bloquée",
+    "fb_text": "Pas de VMC, conduit partiellement obstrué : la vapeur d'eau ne s'évacue pas et condense sur les surfaces froides. Le remède est connu : débouchage du conduit puis VMC hygroréglable (devis D13).",
+    "whys": [
+     "Faux : l'appartement est au 4e étage sur 6, la toiture-terrasse n'est pas au-dessus de la salle de bains.",
+     "Juste : symptôme (moisissures en plafond et angles) et cause visible (conduit obstrué, pas de VMC) concordent.",
+     "Faux : au 4e étage, sur un logement chauffé, une remontée par le sol n'a pas de sens."
+    ]
+   },
+   {
+    "question": "L'auréole au plafond de la cuisine vient d'un dégât des eaux du voisin du 5e en 2022, réparé et clos. Que fais-tu en priorité ?",
+    "options": [
+     "Tu conseilles de repeindre avant les visites, sans en parler",
+     "Tu demandes au syndic le courrier de clôture du sinistre et tu le mets au dossier",
+     "Tu fais intervenir un expert en structure",
+     "Tu appliques une décote de 5 % sur le prix"
+    ],
+    "answer": 1,
+    "fb_title": "La preuve avant la peinture",
+    "fb_text": "La cause est réglée : le problème est d'image. La preuve écrite de la clôture du sinistre lève l'objection ; la peinture vient ensuite, dans le plan Éco-staging, et l'information reste transparente pour l'acheteur.",
+    "whys": [
+     "Faux : masquer un désordre sans preuve de réparation expose le vendeur, et toi, à un reproche de dissimulation.",
+     "Juste : c'est la pièce qui transforme une inquiétude en fait vérifié.",
+     "Faux : une auréole d'eau sur un plafond n'est pas un signe de désordre structurel.",
+     "Faux : aucune décote forfaitaire ; le coût réel est une reprise de peinture."
+    ]
+   },
+   {
+    "question": "Laquelle de ces situations impose de renvoyer vers un expert bâtiment ?",
+    "options": [
+     "Une fissure fine en escalier sur une cloison, stable depuis des années",
+     "Des joints de fenêtres bois dégradés",
+     "Une fissure qui s'élargit sur un mur porteur, avec une porte qui frotte"
+    ],
+    "answer": 2,
+    "fb_title": "Évolutive + porteur = expert",
+    "fb_text": "Une fissure qui évolue, sur un élément porteur, avec des déformations associées (porte qui frotte), sort du constat visuel. L'agent renvoie vers un expert bâtiment et ne se prononce pas.",
+    "whys": [
+     "Faux : fissure fine, non structurelle et stable : on la photographie datée et on la surveille.",
+     "Faux : c'est un défaut d'entretien et de confort, chiffrable par un menuisier.",
+     "Juste : évolution, élément porteur et déformation sont trois signaux d'alerte réunis."
+    ]
+   },
+   {
+    "question": "Dans ta grille, comment rédiges-tu le constat de la fissure du dégagement chez M. Bernard ?",
+    "options": [
+     "« Fissure sans gravité, aucun risque »",
+     "« Fissure fine (< 0,2 mm) en escalier sur cloison, non traversante ; photo datée ; à surveiller »",
+     "« Problème de structure probable, expertise urgente »"
+    ],
+    "answer": 1,
+    "fb_title": "Décrire, dater, surveiller",
+    "fb_text": "Tu décris ce que tu vois (largeur, forme, support), tu dates une photo avec une règle et tu indiques le suivi. Tu ne promets pas l'absence de risque et tu ne dramatises pas.",
+    "whys": [
+     "Faux : « aucun risque » est un diagnostic que l'agent n'a pas la compétence de poser.",
+     "Juste : constat précis, preuve datée, action de suivi : c'est le bon niveau.",
+     "Faux : une fissure fine en escalier sur une cloison non porteuse n'indique pas un problème de structure."
+    ]
+   },
+   {
+    "question": "Dans quel ordre mènes-tu un audit à 360° ?",
+    "options": [
+     "Documents, puis pièces, puis façade",
+     "Façade et abords, parties communes, pièces, équipements, documents",
+     "Uniquement les pièces que le vendeur te montre"
+    ],
+    "answer": 1,
+    "fb_title": "Du dehors vers le dedans",
+    "fb_text": "Un ordre fixe évite les oublis : abords et façade, parties communes, logement pièce par pièce du sol au plafond, équipements, puis vérification des documents.",
+    "whys": [
+     "Faux : commencer par les documents oriente ton regard ; on observe d'abord, on vérifie ensuite.",
+     "Juste : c'est la séquence de la grille, toujours la même d'une visite à l'autre.",
+     "Faux : l'audit couvre tout le bien, y compris cave, parking et parties communes."
+    ]
+   }
+  ]
+ },
+ "resource": {
+  "title": "Grille d'audit + pathologies",
+  "kind": "grille",
+  "intro": "Grille à imprimer ou à remplir sur tablette pendant la visite d'estimation. Elle impose un ordre de visite à 360°, aide à décrire chaque pathologie sans poser de diagnostic et indique quand renvoyer vers un professionnel. Le compte rendu qui en sort rejoint le dossier d'estimation.",
+  "sections": [
+   {
+    "heading": "Avant la visite : matériel et documents",
+    "type": "checklist",
+    "items": [
+     "Appareil photo ou smartphone avec date et heure activées",
+     "Mètre laser et réglet (pour donner l'échelle d'une fissure sur la photo)",
+     "Lampe torche, boussole (exposition des pièces)",
+     "Hygromètre (facultatif) : une mesure ponctuelle n'est qu'un indice",
+     "DPE ou attestation actualisée, plan du logement, carnet d'entretien de l'immeuble",
+     "Liste des travaux réalisés et des sinistres connus (questionner le vendeur)"
+    ]
+   },
+   {
+    "heading": "Grille 360° : l'ordre de visite",
+    "type": "table",
+    "headers": [
+     "Zone",
+     "Ce que tu observes",
+     "Signal d'alerte"
+    ],
+    "rows": [
+     [
+      "Façade et abords",
+      "Fissures, éclats de béton, état des balcons, gouttières",
+      "Fers apparents, éclats, traces d'écoulement"
+     ],
+     [
+      "Parties communes",
+      "Hall, cage d'escalier, ascenseur, caves, local technique",
+      "Infiltrations, odeur d'humidité, affichage d'un sinistre"
+     ],
+     [
+      "Pièces (sol au plafond)",
+      "Revêtements, plafonds, angles, cloisons, plinthes",
+      "Taches, auréoles, moisissures, fissures, gonflements"
+     ],
+     [
+      "Menuiseries",
+      "Type de vitrage, état des joints, fermeture, entrées d'air",
+      "Simple vitrage, joints dégradés, condensation entre vitrages"
+     ],
+     [
+      "Ventilation",
+      "Bouches, grilles, conduits, présence d'une VMC",
+      "Grille bouchée, pas d'entrée d'air, odeurs persistantes"
+     ],
+     [
+      "Chauffage et eau chaude",
+      "Type, âge, programmation, emplacement du ballon",
+      "Appareils anciens sans régulation, fuite au groupe de sécurité"
+     ],
+     [
+      "Électricité",
+      "Tableau, prises, différentiel",
+      "Odeur de brûlé, fils apparents, prises chaudes"
+     ],
+     [
+      "Documents",
+      "DPE, diagnostics, carnet d'entretien, factures",
+      "Écart entre ce qui est vu et ce qui est écrit"
+     ]
+    ]
+   },
+   {
+    "heading": "Lire une pathologie en 4 temps",
+    "type": "steps",
+    "items": [
+     "Observer le symptôme : où, quelle taille, quelle forme, depuis quand (selon le vendeur).",
+     "Chercher la cause : eau extérieure, fuite, condensation, mouvement, usure.",
+     "Poser une hypothèse écrite : « cause probable », jamais « certaine ».",
+     "Décider : traitement simple chiffrable, surveillance datée, ou renvoi vers un professionnel."
+    ]
+   },
+   {
+    "heading": "Pathologies fréquentes en appartement",
+    "type": "table",
+    "headers": [
+     "Symptôme",
+     "Causes probables",
+     "Ce que tu fais"
+    ],
+    "rows": [
+     [
+      "Moisissures en plafond et angles de pièce humide",
+      "Ventilation insuffisante, paroi froide, production de vapeur",
+      "Vérifier bouches et conduits ; chiffrer ventilation ; traitement de surface"
+     ],
+     [
+      "Auréole jaunie au plafond",
+      "Fuite chez le voisin du dessus, ancienne ou active",
+      "Toucher et observer : sec ou humide ? Demander la preuve de réparation et de clôture du sinistre"
+     ],
+     [
+      "Fissure fine en escalier sur cloison",
+      "Retrait des matériaux, légers mouvements",
+      "Photo datée avec réglet, à surveiller"
+     ],
+     [
+      "Fissure large, traversante ou évolutive",
+      "Mouvement de structure possible",
+      "Renvoi vers un expert bâtiment ; ne pas se prononcer"
+     ],
+     [
+      "Joints de fenêtre dégradés, paroi froide",
+      "Usure, menuiserie ancienne, simple vitrage",
+      "Chiffrer remplacement ou réfection"
+     ],
+     [
+      "Condensation sur vitrages, odeur de renfermé",
+      "Défaut de renouvellement d'air",
+      "Vérifier entrées et sorties d'air ; chiffrer"
+     ],
+     [
+      "Peinture qui cloque sur bois extérieur",
+      "Support humide, défaut d'entretien",
+      "Chiffrer entretien ou remplacement"
+     ]
+    ]
+   },
+   {
+    "heading": "Quand renvoyer vers un professionnel",
+    "type": "list",
+    "items": [
+     "Structure : fissure qui s'élargit, traverse un mur, touche un élément porteur ou la façade, ou s'accompagne d'une déformation → expert bâtiment.",
+     "Eau active : tache humide au toucher, qui s'étend, odeur forte → plombier, recherche de fuite, déclaration à l'assurance.",
+     "Parties communes : façade, balcons, toiture, colonnes, ascenseur → syndic (et carnet d'entretien).",
+     "Matériaux suspects dans un immeuble construit avant juillet 1997 → ne rien percer ni gratter ; se référer au repérage amiante du dossier de diagnostics.",
+     "Électricité dangereuse → électricien ; le diagnostic électricité du dossier précise les anomalies.",
+     "Doute, quel qu'il soit → tu l'écris et tu proposes l'avis d'un professionnel."
+    ]
+   },
+   {
+    "heading": "Exemple rempli : M. Bernard (extrait)",
+    "type": "table",
+    "headers": [
+     "Photo D05",
+     "Constat",
+     "Cause probable",
+     "Action"
+    ],
+    "rows": [
+     [
+      "P06-P07 Salle de bains",
+      "Moisissures plafond et angles ; grille de conduit en partie bouchée",
+      "Ventilation insuffisante, pas de VMC",
+      "Débouchage + VMC (D13, 2 900 €) ; anti-moisissures (Éco-staging)"
+     ],
+     [
+      "P08 Cuisine",
+      "Auréole jaunie au plafond, sèche",
+      "Dégât des eaux du 5e en 2022, réparé, sinistre clos",
+      "Courrier de clôture à demander au syndic ; reprise de peinture"
+     ],
+     [
+      "P11 Dégagement",
+      "Fissure fine (< 0,2 mm) en escalier, cloison",
+      "Non structurelle",
+      "Photo datée avec réglet ; à surveiller"
+     ],
+     [
+      "P04-P05 Chambres",
+      "Fenêtres bois simple vitrage, joints dégradés, paroi froide",
+      "Menuiseries d'origine 1972",
+      "Remplacement des 4 fenêtres (D13, 5 600 €)"
+     ]
+    ]
+   },
+   {
+    "heading": "Les mots justes dans ton compte rendu",
+    "type": "text",
+    "text": "Écris « constat visuel du [date] », « cause probable », « à surveiller », « à faire confirmer par un professionnel ». Évite « aucun risque », « sain », « conforme » : ce sont des conclusions d'expert. Joins toujours la photo datée correspondante. Une grille honnête protège le vendeur, rassure l'acheteur et te protège en cas de litige."
+   }
+  ],
+  "footer": "Sources : formation Audit énergétique Éco-Propriété (module Pathologies) ; fiches pathologie bâtiment de l'Agence Qualité Construction (dont E.09 Condensations dans les logements). Exemple fictif M. Bernard. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Grille sur photos du bien",
+  "duration_min": 30,
+  "context": "Tu prépares l'estimation de l'appartement de M. Bernard (T4 de 76 m², 4e étage, immeuble de 1972 à Melun). Tu as fait la visite et le reportage photo D05 (12 photos commentées). M. Bernard, profil C, attend un compte rendu précis et sans jugement hâtif. Remplis la grille d'audit à 360° à partir des photos.",
+  "materials": [
+   "D05 Reportage photo commenté (12 photos)",
+   "D04 Plan et descriptif de l'appartement",
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D08 Carnet d'entretien (extraits)",
+   "D13 Devis des travaux privatifs"
+  ],
+  "steps": [
+   "Classe les 12 photos de D05 dans l'ordre de la grille 360° : abords, parties communes, pièces, équipements.",
+   "Pour chaque photo, écris le constat visuel en une phrase (où, quoi, quelle taille).",
+   "Indique la cause probable et note la gravité : faible, moyenne ou à expertiser.",
+   "Décide de l'action : traitement simple, surveillance datée, renvoi vers un professionnel (lequel) ou demande de document (lequel).",
+   "Relie chaque défaut chiffrable à une ligne du devis D13 ou au plan Éco-staging.",
+   "Rédige en 3 lignes la synthèse que tu liras à M. Bernard."
+  ],
+  "expected": "Grille attendue (12 lignes). P01 Façade 1972 : béton, balcons ; état à vérifier dans le carnet D08 ; ravalement + ITE votés (voir capsule 2.7). P02 Séjour : fenêtre PVC double vitrage 2004, bon état. P03 Balcon sud-ouest 6 m² : dalle traversante, pont thermique, partie commune → syndic. P04 Grande chambre : 2 fenêtres bois simple vitrage, joints dégradés → remplacement (D13, 4 fenêtres, 5 600 €). P05 Chambre : paroi froide, pas de trace → même action. P06 Salle de bains : moisissures plafond et angles, gravité moyenne, cause ventilation. P07 Conduit obstrué → débouchage + VMC hygro B (D13, 2 900 €) ; anti-moisissures en Éco-staging. P08 Cuisine : auréole sèche, dégât des eaux du 5e en 2022 réparé et clos → courrier de clôture à demander au syndic + peinture. P09 Ballon électrique 200 L de 2011 : fonctionne, à remplacer à terme (D13, chauffe-eau thermodynamique 3 200 €). P10 Convecteurs de 1998 sans programmation → radiateurs à inertie (D13, 4 800 €). P11 Fissure fine (< 0,2 mm) en escalier sur cloison du dégagement, non structurelle → photo datée avec réglet, à surveiller. P12 Tableau électrique 2010 : bon état apparent ; se référer au diagnostic électricité (D17). Synthèse : « Aucun désordre de structure constaté. Trois points visibles : humidité de la salle de bains liée à la ventilation, auréole ancienne dont la cause est réglée, fenêtres d'origine des chambres. Tous ont une cause identifiée et un coût. »"
+ },
+ "deliverable": {
+  "title": "Grille d'audit 360° de l'appartement de M. Bernard",
+  "format": "PDF, 2 pages maximum (grille + synthèse de 3 lignes)",
+  "criteria": [
+   "Les 12 photos de D05 sont traitées, dans l'ordre de la grille 360°",
+   "Chaque ligne contient un constat visuel, une cause probable, une gravité et une action",
+   "Aucune formule de diagnostic d'expert (« aucun risque », « sain », « conforme »)",
+   "La fissure du dégagement est décrite (largeur, forme, support) avec une action de surveillance datée",
+   "L'auréole de la cuisine est reliée à une preuve à demander au syndic (courrier de clôture du sinistre)",
+   "Au moins 3 défauts sont reliés à une ligne chiffrée du devis D13",
+   "Au moins un cas de renvoi vers un professionnel ou vers le syndic est identifié et justifié"
+  ],
+  "example": "« P06-P07 Salle de bains : moisissures au plafond et dans les angles ; grille du conduit en partie obstruée ; cause probable : ventilation insuffisante (pas de VMC) ; gravité moyenne ; action : débouchage du conduit et VMC hygroréglable (D13, 2 900 €), traitement anti-moisissures avant les visites. »"
+ },
+ "sources": [
+  {
+   "label": "Agence Qualité Construction, fiche pathologie bâtiment E.09 « Condensations dans les logements »",
+   "url": "https://qualiteconstruction.com/wp-content/uploads/2024/01/fi-pathologie-batiment-e09-condensations-logements.pdf"
+  },
+  {
+   "label": "Formation Audit énergétique Éco-Propriété, journée 3 « Pathologies » (méthode : observer, rechercher la cause, diagnostiquer, préconiser, renvoyer vers une expertise)"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété : grille 360° et exemple fictif M. Bernard (Bible du fil rouge)"
+  }
+ ],
+ "notes_prod": "Visuels : 12 photos du reportage D05 à produire en cohérence avec la liste de l'exercice (P01 façade, P02 séjour PVC, P03 balcon SO, P04 fenêtre bois grande chambre, P05 chambre paroi froide, P06 moisissures SdB, P07 grille conduit obstrué, P08 auréole cuisine, P09 ballon 200 L 2011, P10 convecteur 1998, P11 fissure avec réglet, P12 tableau électrique 2010) : à aligner avec le contenu de D05 dans le dossier fil rouge. Schéma animé « 360° » en cercles concentriques. B-roll : visite d'appartement, main sur un joint de fenêtre, lampe torche sur un plafond. Points à valider : seuil « < 0,2 mm » repris de la Bible (fictif, pas un seuil réglementaire) ; phrase sur la caméra thermique reprise de la formation Audit énergétique ; mention amiante (permis avant juillet 1997) cohérente avec D17. Montage : rythme vif, chaque photo à l'écran au moment où Seb la cite."
+}

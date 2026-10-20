@@ -1,0 +1,3849 @@
+{
+ "start": {
+  "welcome": "Bienvenue dans ÉCO-CONSULTANT ! Je suis Seb, et je vais t'accompagner du premier contact jusqu'à la signature chez le notaire. Pendant tout le parcours, tu suis un seul dossier : celui de M. Alain Bernard, 64 ans, propriétaire d'un T4 de 76 m² à Melun, classé F sur un DPE de 2023. Deux agences lui ont annoncé « −15 % à cause du DPE ». Toi, tu vas lui montrer, preuves à l'appui, ce que vaut vraiment son bien, obtenir son mandat exclusif et sécuriser sa vente. 5 modules, 34 capsules de 8 minutes, un exercice concret à chaque fois, et l'IA comme assistante, jamais comme pilote. Commence par le test de positionnement : il ne compte pas dans ton résultat, il nous sert à savoir d'où tu pars. On y va ?",
+  "platform_steps": [
+   "Ouvre l'e-mail d'invitation Éco-Propriété et clique sur le lien d'activation de ton compte (vérifie tes courriers indésirables si tu ne le trouves pas).",
+   "Choisis un mot de passe personnel et robuste ; ne le partage avec personne, ton compte est nominatif.",
+   "Complète ton profil : nom, agence ou réseau, ville d'exercice. Ces informations servent à ton attestation de fin de formation.",
+   "Indique si tu acceptes les rappels par e-mail et par SMS (J+1, J+7, J+30 après chaque module) : ils renforcent la mémorisation, et tu peux les désactiver à tout moment.",
+   "Teste le son et la vidéo sur la première capsule ; utilise un navigateur à jour, sur ordinateur de préférence pour les exercices.",
+   "Télécharge le dossier fil rouge (documents D01 à D20) : tu en auras besoin dans presque tous les exercices.",
+   "Passe le test de positionnement (20 questions, environ 15 minutes) avant d'ouvrir le module 1.",
+   "En cas de problème d'accès, utilise le formulaire d'assistance de la plateforme en précisant ton navigateur et une capture d'écran."
+  ],
+  "how_it_works": "Chaque capsule suit 5 étapes. ① Je regarde : une vidéo de 8 minutes, la durée où l'attention reste haute. ② Je me teste : un quiz flash de 4 ou 5 questions juste après, parce que se tester tout de suite ancre mieux qu'une relecture. ③ Je télécharge : la ressource à garder et à réutiliser en rendez-vous. ④ Je pratique : un exercice sur le dossier de M. Bernard, avec un prompt d'IA prêt à l'emploi dans les capsules marquées IA. ⑤ Je dépose : ton livrable, au format demandé ; je le valide avec des critères précis et je te fais un retour écrit. Après chaque module, tu reçois trois rappels (J+1, J+7, J+30) avec 2 ou 3 questions : 2 minutes chacun, c'est la répétition espacée qui fait tenir les acquis. Chaque module se termine par un cas pratique ; la formation, par le quiz final et le dépôt du dossier fil rouge complet.",
+  "dossier_intro": "Le dossier fil rouge, c'est le dossier réel d'une vente… en version fictive. M. Alain Bernard, 64 ans, retraité, veut vendre son T4 de 76 m² au 4e étage de la Résidence Les Tilleuls à Melun (immeuble de 1972, 48 lots) pour se rapprocher de sa fille à Nantes avant l'été 2027. Son DPE de 2023 le classe F ; il espère 205 000 €, on lui en a proposé 172 000 €. Dans le dossier, tu trouves les 20 documents d'un agent qui travaille bien : fiche découverte (D01), DPE et attestation actualisée (D02-D03), plan et photos (D04-D05), charges, PV d'AG, carnet d'entretien, PPPT et fiche synthétique de la copropriété (D06-D10), titre et taxe foncière (D11), comparables (D12), devis (D13), acquéreurs et offres (D14-D15), pré-état daté et diagnostics (D16-D17), mandat, compromis et rétroplanning (D18-D20). Tous les chiffres sont cohérents d'un document à l'autre : utilise-les tels quels, et note toute anomalie, certaines sont volontaires."
+ },
+ "positioning": {
+  "intro": "20 questions, 4 par module, pour mesurer ce que tu sais déjà. Ce test ne compte pas dans ton résultat : réponds sans chercher, et choisis « au hasard » plutôt que de tricher. Ton score par module t'indique où mettre ton énergie ; tu repasseras des questions équivalentes au quiz final pour mesurer ta progression.",
+  "questions": [
+   {
+    "module": 1,
+    "question": "Depuis le 1er janvier 2026, quel coefficient le DPE applique-t-il à l'électricité pour passer de l'énergie finale à l'énergie primaire ?",
+    "options": [
+     "2,3",
+     "1,9",
+     "1,7",
+     "1,0"
+    ],
+    "answer": 1,
+    "fb_title": "1,9 depuis le 1/01/2026",
+    "fb_text": "Le coefficient électricité est passé de 2,3 à 1,9 le 1/01/2026 (arrêté du 13/08/2025) et passera à 1,7 le 1/01/2027 (arrêté du 19/08/2026). Un logement tout électrique peut donc gagner une classe sans travaux : c'est le point de départ du dossier de M. Bernard.",
+    "whys": [
+     "C'était le coefficient en vigueur jusqu'au 31/12/2025 : il ne s'applique plus aux calculs de 2026.",
+     "Juste : l'arrêté du 13/08/2025 a abaissé le coefficient de 2,3 à 1,9 au 1/01/2026.",
+     "C'est le coefficient prévu au 1/01/2027 (arrêté du 19/08/2026), pas celui de 2026.",
+     "1,0 est le coefficient des autres énergies (gaz, fioul, bois), pas celui de l'électricité."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "Un propriétaire ne t'a donné aucun accord préalable. Depuis le 11 août 2026, peux-tu l'appeler pour lui proposer une estimation ?",
+    "options": [
+     "Oui, s'il n'est pas inscrit sur Bloctel",
+     "Oui, une fois par mois au maximum",
+     "Non : il faut son consentement préalable, libre, spécifique et dont tu gardes la preuve",
+     "Oui, si son bien est classé F ou G"
+    ],
+    "answer": 2,
+    "fb_title": "Pas d'appel sans accord préalable",
+    "fb_text": "Depuis le 11/08/2026 (loi n° 2025-594, décret n° 2026-662), le démarchage téléphonique d'un particulier exige son consentement préalable : acte positif clair, nominatif à ton agence, objet et durée précisés, preuve conservée au moins 3 ans. Sanction : jusqu'à 75 000 € (personne physique) ou 375 000 € (personne morale).",
+    "whys": [
+     "Bloctel est supprimé : l'absence d'inscription ne vaut plus autorisation, c'est l'accord préalable qui compte.",
+     "Aucune fréquence ne rend licite un appel sans consentement préalable.",
+     "Juste : la loi du 30 juin 2025 remplace Bloctel par un régime de consentement préalable, nominatif et prouvable.",
+     "La classe DPE n'ouvre aucun droit d'appel : sans consentement, l'appel est illicite."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "Pour obtenir plus d'avis sur ta fiche Google Business Profile, quelle pratique respecte les règles de Google ?",
+    "options": [
+     "Demander un avis sincère à chaque client, avec le lien direct de ta fiche",
+     "Offrir un bon d'achat contre un avis 5 étoiles",
+     "Faire écrire des avis par tes proches",
+     "Ne solliciter que les clients satisfaits, en leur offrant un cadeau"
+    ],
+    "answer": 0,
+    "fb_title": "Des avis sincères, sans contrepartie",
+    "fb_text": "Les avis sont l'un des premiers signaux de confiance d'une fiche locale. Demande-les systématiquement après chaque rendez-vous ou vente, avec ton lien direct, et réponds à chacun. Pas de contrepartie, pas d'avis rédigés par des proches.",
+    "whys": [
+     "Juste : solliciter tous tes clients, sans contrepartie ni filtrage, est la pratique attendue par Google.",
+     "Les règles de Google interdisent d'offrir une contrepartie en échange d'un avis.",
+     "Des avis qui ne reflètent pas une expérience réelle de client sont interdits et peuvent être supprimés.",
+     "Le cadeau est une contrepartie interdite, et trier les clients fausse l'image de ta fiche."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "Un vendeur te dit : « Mon DPE est F, je dois baisser de 15 %. » Quelle est la réponse la plus professionnelle ?",
+    "options": [
+     "Il a raison : c'est la décote moyenne nationale",
+     "Lui conseiller de refaire tout de suite un DPE complet payant",
+     "Ignorer le DPE : les acheteurs n'y prêtent pas attention",
+     "Vérifier la date du DPE et l'attestation actualisée, puis chiffrer l'effet réel sur la valeur locale"
+    ],
+    "answer": 3,
+    "fb_title": "Vérifier avant de décoter",
+    "fb_text": "Avant de parler de décote, vérifie l'étiquette : un DPE tout électrique de 2023 peut gagner une classe grâce au nouveau coefficient. Ensuite, chiffre l'effet sur la valeur avec des comparables locaux et un coût de travaux, jamais avec un pourcentage national.",
+    "whys": [
+     "Aucune décote nationale fiable ne s'applique telle quelle : l'écart de prix varie fortement selon la région et l'année.",
+     "Pour un DPE établi depuis le 1/07/2021, l'attestation actualisée est gratuite et suffit souvent.",
+     "Faux : la classe figure obligatoirement dans l'annonce et pèse sur la négociation et le financement.",
+     "Juste : on vérifie d'abord l'étiquette (réforme du coefficient), puis on chiffre localement, avec des comparables."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Un appartement consomme 150 kWhEF/m²/an et mesure 76 m². Quelle est sa consommation annuelle en énergie finale ?",
+    "options": [
+     "1 140 kWh",
+     "15 000 kWh",
+     "11 400 kWh",
+     "26 220 kWh"
+    ],
+    "answer": 2,
+    "fb_title": "Surface × consommation unitaire",
+    "fb_text": "La consommation annuelle s'obtient en multipliant la consommation par m² par la surface : 150 kWhEF/m²/an × 76 m² = 11 400 kWhEF/an. Garde l'unité (EF ou EP) à chaque étape : c'est la première source d'erreur.",
+    "whys": [
+     "Erreur d'un facteur 10 : refais la multiplication 150 × 76.",
+     "C'est 150 × 100 : la surface du bien est de 76 m², pas de 100 m².",
+     "Juste : 150 × 76 = 11 400 kWh d'énergie finale par an.",
+     "C'est 345 × 76, une consommation en énergie primaire avec l'ancien coefficient 2,3, pas l'énergie finale."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Un DPE affiche 285 kWhEP/m²/an (classe E) et 12 kgCO₂/m²/an (classe C). Quelle classe figure sur l'étiquette ?",
+    "options": [
+     "E, la moins bonne des deux",
+     "C, la meilleure des deux",
+     "D, la moyenne des deux"
+    ],
+    "answer": 0,
+    "fb_title": "Double seuil : la moins bonne l'emporte",
+    "fb_text": "Le DPE classe le logement selon deux indicateurs, l'énergie primaire et les émissions de gaz à effet de serre. L'étiquette retient la moins bonne des deux classes : ici E (285 kWhEP) l'emporte sur C (12 kgCO₂).",
+    "whys": [
+     "Juste : depuis la réforme de 2021, la classe retenue est la moins bonne des deux indicateurs (double seuil).",
+     "Non : c'est la moins bonne des deux classes qui est retenue, pas la meilleure.",
+     "Il n'y a pas de moyenne : le DPE applique un double seuil et retient la classe la plus défavorable."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Moisissures au plafond d'une salle de bains sans VMC, conduit de ventilation partiellement obstrué : quelle cause traiter en priorité ?",
+    "options": [
+     "Une remontée capillaire dans les murs",
+     "Un défaut de l'installation électrique",
+     "Un problème de structure du plancher",
+     "Une ventilation insuffisante qui laisse l'humidité se condenser"
+    ],
+    "answer": 3,
+    "fb_title": "Condensation = ventilation",
+    "fb_text": "Moisissures en angle et au plafond, conduit obstrué, absence de VMC : le diagnostic le plus probable est la condensation par manque de ventilation. On traite la cause (débouchage du conduit, VMC hygroréglable) avant de repeindre.",
+    "whys": [
+     "Les remontées capillaires touchent le bas des murs en rez-de-chaussée, pas un plafond au 4e étage.",
+     "L'électricité n'explique pas la condensation : le symptôme pointe vers l'air et l'humidité.",
+     "Un défaut de structure se traduit par des fissures ou des déformations, pas par des moisissures en angle de plafond.",
+     "Juste : sans renouvellement d'air, la vapeur d'eau se condense sur les parois froides et les moisissures apparaissent."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Des travaux de 1 150 000 € TTC sont votés en AG ; le lot représente 312/10 000 des tantièmes. Quelle est sa quote-part ?",
+    "options": [
+     "3 588 €",
+     "35 880 €",
+     "358 800 €",
+     "11 500 €"
+    ],
+    "answer": 1,
+    "fb_title": "Montant × tantièmes",
+    "fb_text": "La quote-part d'un lot = montant voté × tantièmes du lot / total des tantièmes. Ici 1 150 000 × 312 / 10 000 = 35 880 €. C'est le premier chiffre à sortir d'un PV d'AG avant toute estimation.",
+    "whys": [
+     "Erreur d'un facteur 10 : les tantièmes sont exprimés en dix-millièmes, pas en cent-millièmes.",
+     "Juste : 1 150 000 × 312 / 10 000 = 35 880 €.",
+     "Erreur d'un facteur 10 : 312/10 000 = 3,12 %, et 3,12 % de 1 150 000 € font 35 880 €.",
+     "C'est 1 % du montant : la quote-part correspond à 3,12 %, pas à 1 %."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Ton vendeur est factuel, prudent, veut des preuves et déteste l'insistance. Quel profil DISC, et quelle approche ?",
+    "options": [
+     "C : documents, chiffres sourcés et temps de réflexion",
+     "D : aller droit au but et conclure vite",
+     "I : enthousiasme et anecdotes",
+     "S : rassurer par la relation avant tout"
+    ],
+    "answer": 0,
+    "fb_title": "Profil C : la preuve avant tout",
+    "fb_text": "Le profil C (Conforme / Consciencieux) veut comprendre avant de décider. Apporte des documents, des chiffres sourcés, une méthode écrite, et laisse-lui le temps : c'est exactement le profil de M. Bernard.",
+    "whys": [
+     "Juste : le profil C (Conforme) décide sur preuves ; il lui faut de l'écrit, de la précision et du temps.",
+     "Le profil D aime la rapidité et le résultat ; avec un C, presser l'échange crée de la méfiance.",
+     "L'enthousiasme convainc un profil I, mais un C y verra un manque de rigueur.",
+     "Le profil S recherche la stabilité et la relation ; un C attend d'abord des faits vérifiables."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Un vendeur a signé un mandat exclusif. À partir de quand peut-il le résilier, et comment ?",
+    "options": [
+     "À tout moment, par simple appel téléphonique",
+     "Seulement à la fin du mandat, sans préavis",
+     "Après 3 mois, par lettre recommandée avec AR, avec un préavis de 15 jours",
+     "Après 1 mois, par e-mail"
+    ],
+    "answer": 2,
+    "fb_title": "3 mois, puis préavis de 15 jours",
+    "fb_text": "Loi Hoguet : la clause d'exclusivité doit figurer en caractères très apparents et, passé un délai de 3 mois, le mandat exclusif peut être dénoncé à tout moment par lettre recommandée avec avis de réception, moyennant un préavis de 15 jours.",
+    "whys": [
+     "Non : la résiliation d'un mandat exclusif est encadrée (délai de 3 mois, écrit recommandé, préavis).",
+     "Non : passé 3 mois, le mandant peut le dénoncer à tout moment avec un préavis de 15 jours.",
+     "Juste : c'est la règle du décret n° 72-678 pour le mandat exclusif (loi Hoguet).",
+     "Le délai est de 3 mois et la forme est la lettre recommandée avec avis de réception."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Pour arbitrer entre « travaux avant vente » et « vente en l'état », quel critère est décisif ?",
+    "options": [
+     "Toujours faire les travaux : un bien rénové se vend plus cher",
+     "Comparer le gain de valeur au coût, au délai et à la capacité du vendeur à piloter le chantier",
+     "Toujours vendre en l'état : les acheteurs préfèrent choisir",
+     "Suivre l'avis du premier artisan consulté"
+    ],
+    "answer": 1,
+    "fb_title": "Un arbitrage chiffré, pas un réflexe",
+    "fb_text": "On compare la valeur après travaux, moins le coût et les risques, à la valeur en l'état assortie d'un chiffrage remis aux acquéreurs. Le projet du vendeur (délai, énergie, budget) fait partie du calcul.",
+    "whys": [
+     "Un bien rénové vaut plus, mais le gain ne couvre pas toujours le coût, le délai et le risque du chantier.",
+     "Juste : l'arbitrage met en balance gain attendu, coût, délai, risque et situation personnelle du vendeur.",
+     "Ce n'est pas une règle : selon le bien et le marché, certains travaux ciblés sont rentables.",
+     "Un artisan chiffre des travaux ; il n'évalue ni la valeur de marché ni le projet du vendeur."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Quelle action relève d'un plan Éco-staging à petit budget ?",
+    "options": [
+     "Remplacer toutes les fenêtres avant les visites",
+     "Refaire entièrement la cuisine",
+     "Masquer une tache d'humidité sans en traiter la cause",
+     "Traiter les moisissures, déboucher un conduit, désencombrer et éclairer"
+    ],
+    "answer": 3,
+    "fb_title": "Petit budget, vrai effet",
+    "fb_text": "L'Éco-staging, c'est quelques centaines d'euros pour traiter ce qui inquiète (humidité, odeurs), dégager l'espace et la lumière, sans rien cacher. Les gros postes, eux, sont chiffrés et remis aux acquéreurs.",
+    "whys": [
+     "C'est un poste de travaux (plusieurs milliers d'euros), pas une action d'Éco-staging à petit budget.",
+     "Une cuisine neuve est un investissement lourd, rarement rentable avant une vente.",
+     "Cacher un défaut sans le traiter est trompeur et se retourne contre le vendeur et contre toi.",
+     "Juste : actions peu coûteuses qui traitent une cause, rassurent et mettent le bien en valeur."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "Que doit afficher l'annonce de vente d'un logement soumis au DPE ?",
+    "options": [
+     "Seulement la classe énergie, si elle est bonne",
+     "Les classes énergie et climat, et le montant estimé des dépenses annuelles d'énergie",
+     "Rien : le DPE n'est remis qu'au compromis",
+     "Uniquement le nom du diagnostiqueur"
+    ],
+    "answer": 1,
+    "fb_title": "Classes et coûts dans l'annonce",
+    "fb_text": "Depuis 2011 (classe énergie), 2021 (classe climat) et le 1/01/2022 (coûts estimés), l'annonce affiche ces informations en caractères au moins aussi grands que le texte. Les logements F et G portent en plus la mention « logement à consommation énergétique excessive ».",
+    "whys": [
+     "La classe doit figurer quelle qu'elle soit, avec la classe climat et les coûts estimés.",
+     "Juste : classe énergie, classe climat et coûts annuels estimés (avec l'année de référence des prix) sont obligatoires.",
+     "Le DPE est annexé au compromis, mais ses classes et ses coûts estimés doivent déjà figurer dans l'annonce.",
+     "Le nom du diagnostiqueur n'est pas une mention obligatoire de l'annonce."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "Un couple gagne 4 600 € nets par mois. Quelle mensualité maximale, assurance comprise, respecte le plafond HCSF de 35 % ?",
+    "options": [
+     "1 380 €",
+     "2 300 €",
+     "1 150 €",
+     "1 610 €"
+    ],
+    "answer": 3,
+    "fb_title": "35 % assurance comprise",
+    "fb_text": "Le HCSF fixe un taux d'effort maximal de 35 % des revenus nets, assurance emprunteur comprise, et une durée maximale de 25 ans (avec des marges de dérogation pour les banques). 4 600 × 0,35 = 1 610 €.",
+    "whys": [
+     "C'est 30 % des revenus : le plafond de référence du HCSF est de 35 %.",
+     "C'est 50 % des revenus : bien au-delà du plafond de 35 %.",
+     "C'est 25 % des revenus : un niveau confortable, mais pas le maximum demandé.",
+     "Juste : 4 600 × 35 % = 1 610 € de charges de crédit, assurance comprise."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "En visite, l'acquéreur pointe les fenêtres simple vitrage des chambres. Quelle est la meilleure réponse ?",
+    "options": [
+     "Montrer le devis des fenêtres et l'intégrer à son plan de financement",
+     "Minimiser : « ça ne compte pas »",
+     "Promettre une baisse de prix équivalente",
+     "Dire que la copropriété va les remplacer"
+    ],
+    "answer": 0,
+    "fb_title": "Un défaut chiffré devient un budget",
+    "fb_text": "Le défaut n'est pas caché : il est documenté et chiffré. L'acquéreur sait combien coûtent les travaux, peut les financer avec son prêt, et le prix reste défendu.",
+    "whys": [
+     "Juste : un défaut chiffré devient un budget maîtrisé que l'acquéreur peut financer.",
+     "Minimiser un défaut visible détruit la confiance et nourrit la négociation.",
+     "Tu n'as pas mandat pour négocier à la place du vendeur, et tu affaiblis le prix avant toute offre.",
+     "Les fenêtres d'un lot sont en principe privatives : c'est faux et cela engage ta responsabilité."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "Avant de transmettre une offre au vendeur, que dois-tu avoir défini avec lui ?",
+    "options": [
+     "Uniquement le prix de l'annonce",
+     "Rien : il suffit de lui transmettre l'offre telle quelle",
+     "Son prix plancher net vendeur et ses priorités (délai, conditions)",
+     "Le montant d'honoraires que tu accepterais de baisser"
+    ],
+    "answer": 2,
+    "fb_title": "Un plancher fixé à froid",
+    "fb_text": "Le plan de négociation se prépare avant la première offre : prix plancher net vendeur, conditions acceptables (prêt, délai, date d'acte) et arguments. Le jour de l'offre, tu analyses au lieu d'improviser.",
+    "whys": [
+     "Le prix affiché n'est pas le prix d'acceptation : il faut connaître le plancher et les priorités.",
+     "Tu transmets toute offre, mais ton rôle est aussi de l'analyser au regard d'un cadre fixé à l'avance.",
+     "Juste : sans plancher ni priorités, tu ne peux ni analyser une offre ni conseiller ton vendeur.",
+     "Réduire tes honoraires n'est pas une stratégie de négociation : on part du net vendeur et des conditions."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Dans quel cas l'état de l'installation intérieure d'électricité est-il obligatoire dans le dossier de diagnostic technique d'une vente ?",
+    "options": [
+     "Seulement si le bien est classé F ou G",
+     "Seulement pour les maisons individuelles",
+     "Quand le bien a été construit avant 1949",
+     "Quand l'installation a plus de 15 ans"
+    ],
+    "answer": 3,
+    "fb_title": "Électricité : plus de 15 ans",
+    "fb_text": "Le DDT regroupe les diagnostics exigés selon le bien : DPE, amiante (permis avant le 1/07/1997), plomb (avant 1949), électricité et gaz (installations de plus de 15 ans), ERP, etc. Le mesurage Carrez s'y ajoute pour un lot de copropriété.",
+    "whys": [
+     "Le diagnostic électrique ne dépend pas de la classe DPE.",
+     "Il concerne aussi les appartements dès que l'installation a plus de 15 ans.",
+     "Le seuil de 1949 concerne le constat de risque d'exposition au plomb, pas l'électricité.",
+     "Juste : l'état de l'installation électrique est exigé quand l'installation a plus de 15 ans."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Des travaux votés avant la vente sont appelés après le compromis. Vis-à-vis du syndicat, qui paie un appel de fonds ?",
+    "options": [
+     "Le copropriétaire à la date d'exigibilité de l'appel",
+     "Toujours le vendeur, puisqu'il était là au vote",
+     "Toujours l'acquéreur, dès la signature du compromis",
+     "Le syndic, en puisant dans le fonds de travaux"
+    ],
+    "answer": 0,
+    "fb_title": "Date d'exigibilité",
+    "fb_text": "Vis-à-vis du syndicat, le copropriétaire à la date d'exigibilité paie l'appel (art. 6-2 du décret du 17/03/1967). Vendeur et acquéreur peuvent convenir d'une autre répartition entre eux, rédigée par le notaire, mais elle n'engage pas le syndicat.",
+    "whys": [
+     "Juste : l'art. 6-2 du décret du 17/03/1967 vise le copropriétaire, vendeur ou acquéreur, au moment de l'exigibilité.",
+     "La date du vote ne compte pas vis-à-vis du syndicat : seule compte la date d'exigibilité.",
+     "Le compromis ne transfère pas la qualité de copropriétaire : c'est l'acte authentique qui la transfère.",
+     "Le fonds de travaux n'est utilisé que sur décision de l'AG ; il ne remplace pas les appels votés."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Après la signature d'un compromis, de quel délai de rétractation dispose l'acquéreur non professionnel d'un logement ?",
+    "options": [
+     "7 jours",
+     "14 jours",
+     "10 jours",
+     "Aucun délai"
+    ],
+    "answer": 2,
+    "fb_title": "10 jours pour l'acquéreur",
+    "fb_text": "L'acquéreur non professionnel d'un logement peut se rétracter pendant 10 jours (art. L. 271-1 CCH). Le délai court le lendemain de la première présentation de la lettre de notification ou de la remise de l'acte en main propre.",
+    "whys": [
+     "C'était l'ancien délai, porté à 10 jours par la loi Macron de 2015.",
+     "14 jours est le délai de rétractation d'un contrat conclu hors établissement (comme un mandat), pas du compromis.",
+     "Juste : l'article L. 271-1 du CCH prévoit un délai de rétractation de 10 jours.",
+     "L'acquéreur non professionnel d'un immeuble à usage d'habitation bénéficie bien d'un délai de rétractation."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Quelle est la durée minimale de validité de la condition suspensive d'obtention de prêt ?",
+    "options": [
+     "15 jours",
+     "1 mois",
+     "45 jours, obligatoirement",
+     "3 mois"
+    ],
+    "answer": 1,
+    "fb_title": "Au moins un mois",
+    "fb_text": "La condition suspensive de prêt ne peut pas avoir une durée de validité inférieure à un mois (art. L. 313-41 C. conso). En pratique, on fixe souvent 45 à 60 jours selon le dossier de l'acquéreur.",
+    "whys": [
+     "Trop court : la loi impose au moins un mois à compter de la signature.",
+     "Juste : l'article L. 313-41 du Code de la consommation fixe une durée minimale d'un mois.",
+     "45 jours est une durée courante, choisie par les parties, mais le minimum légal est d'un mois.",
+     "Les parties peuvent prévoir plus long, mais le minimum légal est d'un mois."
+    ]
+   }
+  ]
+ },
+ "final": {
+  "intro": "40 questions, 8 par module, toutes en situation sur le dossier de M. Bernard. Elles mesurent les mêmes compétences que le test de positionnement, sous une autre forme. Il te faut au moins 70 % de bonnes réponses pour valider le parcours ; en dessous, tu peux revoir les capsules indiquées et repasser le quiz. Garde le dossier fil rouge ouvert : les calculs s'appuient sur ses chiffres.",
+  "threshold": 70,
+  "questions": [
+   {
+    "module": 1,
+    "question": "DPE de M. Bernard (2023) : 150 kWhEF/m²/an, tout électrique. Avec le coefficient en vigueur en octobre 2026, quelle consommation en énergie primaire ?",
+    "options": [
+     "345 kWhEP/m²/an → classe F",
+     "255 kWhEP/m²/an → classe E",
+     "285 kWhEP/m²/an → classe E",
+     "150 kWhEP/m²/an → classe C"
+    ],
+    "answer": 2,
+    "fb_title": "150 × 1,9 = 285 → E",
+    "fb_text": "En 2026, le coefficient électricité est de 1,9 : 150 × 1,9 = 285 kWhEP/m²/an, classe E. Avec 12 kgCO₂/m²/an (classe C), l'étiquette retient E. C'est ce que montre l'attestation actualisée D03.",
+    "whys": [
+     "C'est le calcul de 2023 avec l'ancien coefficient 2,3, qui ne s'applique plus en 2026.",
+     "C'est le calcul avec 1,7, le coefficient prévu au 1/01/2027, pas celui d'octobre 2026.",
+     "Juste : 150 × 1,9 = 285 kWhEP/m²/an, dans la tranche E (251 à 330).",
+     "150 est la consommation en énergie finale : il faut appliquer le coefficient 1,9."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "M. Bernard a coché sur ton site une case l'autorisant à être recontacté par ton agence au sujet de son DPE. Que dois-tu conserver ?",
+    "options": [
+     "La preuve du consentement (date, texte accepté, objet), au moins 3 ans",
+     "Rien : le formulaire en ligne suffit sans trace",
+     "La preuve qu'il n'est pas inscrit sur Bloctel",
+     "Une copie de sa pièce d'identité"
+    ],
+    "answer": 0,
+    "fb_title": "Garder la preuve 3 ans",
+    "fb_text": "Le consentement de M. Bernard est nominatif (ton agence), précis (son DPE et l'estimation) et donné par un acte positif. Conserve la date, le texte exact de la case, l'objet et la durée : au moins 3 ans. Il peut le retirer à tout moment, même à l'oral.",
+    "whys": [
+     "Juste : la preuve du consentement se conserve au moins 3 ans (art. R. 223-2 du Code de la consommation).",
+     "Sans preuve conservée, tu ne peux pas démontrer que l'appel était autorisé.",
+     "Bloctel est supprimé depuis le 11/08/2026 : seul le consentement préalable compte.",
+     "Inutile et disproportionné au regard du RGPD : on conserve la preuve du consentement, pas une pièce d'identité."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "Après la vente de M. Bernard, quelle démarche pour obtenir un avis Google est à la fois conforme et efficace ?",
+    "options": [
+     "Lui proposer une remise s'il met 5 étoiles",
+     "Rédiger l'avis à sa place pour lui faire gagner du temps",
+     "Attendre qu'il pense à le faire seul",
+     "Lui envoyer le lien direct de ta fiche et lui demander un avis sincère"
+    ],
+    "answer": 3,
+    "fb_title": "Demander, au bon moment",
+    "fb_text": "Le meilleur moment est juste après un moment fort (signature de l'acte). Un message court, le lien direct, aucune contrepartie : M. Bernard, profil C, appréciera une demande sobre et précise.",
+    "whys": [
+     "Une contrepartie en échange d'un avis est interdite par les règles de Google.",
+     "Un avis rédigé par le professionnel n'est pas un avis client : il est trompeur.",
+     "Conforme, mais peu efficace : sans demande ni lien, la plupart des clients satisfaits ne laissent pas d'avis.",
+     "Juste : une demande simple, avec le lien direct, au bon moment et sans contrepartie."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "Une agence a annoncé à M. Bernard « −15 % à cause du DPE », soit 172 000 €. Quel est ton premier geste ?",
+    "options": [
+     "Annoncer un prix plus élevé pour décrocher le mandat",
+     "Vérifier le DPE de 2023 et faire éditer l'attestation actualisée (classe E)",
+     "Confirmer la décote pour paraître prudent",
+     "Lui faire réaliser l'audit énergétique obligatoire"
+    ],
+    "answer": 1,
+    "fb_title": "D'abord l'étiquette, ensuite le prix",
+    "fb_text": "Le DPE de M. Bernard date du 14/03/2023 : il a été établi après le 1/07/2021, donc l'attestation actualisée gratuite de l'ADEME est disponible. Elle le classe E, ce qui supprime la mention « logement à consommation énergétique excessive ».",
+    "whys": [
+     "Surestimer pour signer crée un mandat qui ne vend pas et une baisse de prix plus tard.",
+     "Juste : la réforme du coefficient change l'étiquette ; on vérifie avant de parler de prix.",
+     "Confirmer un chiffre non vérifié, c'est renoncer à ton expertise.",
+     "L'audit réglementaire à la vente vise les maisons et les immeubles en monopropriété, pas un lot de copropriété."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "Sur ta page Facebook, quel post sert le mieux ton positionnement d'éco-consultant à Melun ?",
+    "options": [
+     "Une photo de vitrine avec « Estimation gratuite ! »",
+     "Le nom et l'adresse d'un client dont tu as vendu le bien",
+     "Un cas fictif chiffré : « DPE F en 2023, classe E aujourd'hui : ce qui change pour la vente »",
+     "Le partage d'un article national sans commentaire"
+    ],
+    "answer": 2,
+    "fb_title": "Un cas concret, anonymisé",
+    "fb_text": "Sur Facebook, un contenu local, concret et chiffré montre ce que tu fais pour un vendeur. Présente-le comme un exemple fictif ou anonymisé : jamais de nom ni d'adresse de client sans son accord.",
+    "whys": [
+     "Message générique : il ne te distingue pas des autres agences.",
+     "Publier des données personnelles sans accord écrit expose à une sanction RGPD.",
+     "Juste : un cas concret, local et chiffré démontre ton expertise sans exposer de client.",
+     "Sans ton analyse locale, le post ne montre pas ce que tu apportes."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "Pour ton profil LinkedIn d'expert, quel titre est le plus efficace ?",
+    "options": [
+     "Agent immobilier",
+     "Éco-consultant immobilier à Melun · J'aide les vendeurs de biens classés E, F ou G",
+     "Passionné d'immobilier et de belles rencontres",
+     "Meilleur agent de Seine-et-Marne"
+    ],
+    "answer": 1,
+    "fb_title": "Qui, où, pour qui, quoi",
+    "fb_text": "Un titre LinkedIn efficace combine ton métier, ton territoire, ta cible et le problème que tu règles. C'est la phrase que les propriétaires et les prescripteurs liront en premier.",
+    "whys": [
+     "Trop générique : rien ne te distingue des autres agents.",
+     "Juste : le titre dit qui tu es, où tu interviens, pour qui et quel problème tu résous.",
+     "Sympathique, mais ne dit ni ton expertise ni ton territoire.",
+     "Une affirmation invérifiable affaiblit la crédibilité, surtout auprès d'un profil C."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "Tu veux que l'IA rédige un compte rendu pour M. Bernard. Que mets-tu dans le prompt ?",
+    "options": [
+     "Son nom, son téléphone et son adresse, pour personnaliser",
+     "Le PDF complet de son titre de propriété",
+     "Tout, sans relecture : l'IA reprend fidèlement les chiffres",
+     "Les données du bien, sans nom ni coordonnées, puis tu relis et vérifies chaque chiffre"
+    ],
+    "answer": 3,
+    "fb_title": "Anonymiser, puis vérifier",
+    "fb_text": "Dans un outil d'IA, on donne les données utiles à la tâche (surface, DPE, charges, devis), jamais le nom, l'adresse ou le téléphone du client. Puis on relit tout : chiffres, règles, ton. Tu signes le compte rendu, pas l'IA.",
+    "whys": [
+     "Données personnelles inutiles dans un outil non maîtrisé : contraire au principe de minimisation.",
+     "Trop de données personnelles et inutiles pour la tâche.",
+     "L'IA peut inventer ou déformer un chiffre : relecture et vérification sont obligatoires.",
+     "Juste : minimisation des données (RGPD) et relecture humaine systématique."
+    ]
+   },
+   {
+    "module": 1,
+    "question": "En 30 secondes, quel pitch convient à M. Bernard (profil C) ?",
+    "options": [
+     "« J'ai vérifié votre DPE : classe E aujourd'hui. Je vous propose une estimation documentée, pièces à l'appui. »",
+     "« Je vends tout en 15 jours, faites-moi confiance ! »",
+     "« Signez aujourd'hui, l'offre expire ce soir. »",
+     "« Les autres agences se trompent toujours. »"
+    ],
+    "answer": 0,
+    "fb_title": "Fait, méthode, preuve",
+    "fb_text": "Ton pitch tient en trois temps : ce que tu as vérifié (la classe E), ce que tu proposes (une estimation documentée), et la preuve que tu apportes (dossier, comparables, devis). Pas de superlatif, pas de pression.",
+    "whys": [
+     "Juste : un fait vérifié, une méthode, des preuves : exactement ce qu'attend un profil C.",
+     "Promesse invérifiable : un profil C s'en méfie immédiatement.",
+     "La pression fait fuir un profil C, qui déteste l'insistance.",
+     "Dénigrer la concurrence n'apporte aucune preuve et décrédibilise ton discours."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Avec 150 kWhEF/m²/an et le coefficient 1,9, quelle est la consommation annuelle en énergie primaire des 76 m² de M. Bernard ?",
+    "options": [
+     "11 400 kWhEP",
+     "21 660 kWhEP",
+     "26 220 kWhEP",
+     "2 166 kWhEP"
+    ],
+    "answer": 1,
+    "fb_title": "285 × 76 = 21 660",
+    "fb_text": "On passe de l'énergie finale à l'énergie primaire avec le coefficient (1,9 en 2026), puis on multiplie par la surface : 150 × 1,9 × 76 = 21 660 kWhEP/an. En énergie finale, la consommation reste de 11 400 kWh/an.",
+    "whys": [
+     "11 400 kWh correspond à l'énergie finale (150 × 76), sans coefficient.",
+     "Juste : 150 × 1,9 = 285 kWhEP/m²/an, puis 285 × 76 = 21 660 kWhEP/an.",
+     "C'est le calcul avec l'ancien coefficient 2,3 (345 × 76), plus en vigueur en 2026.",
+     "Erreur d'un facteur 10 dans la multiplication par la surface."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Après travaux privatifs, le bien serait à environ 209 kWhEP/m²/an (estimation), avec des émissions restant faibles (classe C ou mieux). Quelle classe ?",
+    "options": [
+     "C",
+     "E",
+     "D"
+    ],
+    "answer": 2,
+    "fb_title": "209 kWhEP → D",
+    "fb_text": "Seuils pour 40 m² et plus : C jusqu'à 180, D jusqu'à 250, E jusqu'à 330 kWhEP/m²/an. Avec 209 kWhEP et des émissions en C ou mieux, la classe est D. C'est une estimation fictive à faire confirmer par un diagnostiqueur après travaux.",
+    "whys": [
+     "C serait au mieux la classe climat ; l'étiquette retient la moins bonne des deux, ici D.",
+     "La classe E commence au-delà de 250 kWhEP/m²/an : 209 est en D.",
+     "Juste : 209 kWhEP est dans la tranche D (181 à 250) et les émissions sont en C ou mieux ; la moins bonne, D, l'emporte."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Photo de la salle de bains de M. Bernard : moisissures en angle de plafond. Que recommandes-tu à l'acquéreur ?",
+    "options": [
+     "Une VMC hygroréglable et le débouchage du conduit (2 900 € TTC au devis)",
+     "Une peinture anti-moisissures, qui suffit",
+     "Isoler le plancher bas",
+     "Remplacer le tableau électrique"
+    ],
+    "answer": 0,
+    "fb_title": "Traiter la cause, chiffrer le remède",
+    "fb_text": "Les moisissures de la salle de bains viennent d'une ventilation insuffisante (pas de VMC, conduit partiellement obstrué). Le plan Éco-staging traite l'urgence (nettoyage, débouchage) et le devis D13 chiffre la VMC pour l'acquéreur.",
+    "whys": [
+     "Juste : on traite la cause, le manque de ventilation, avec un poste chiffré au devis D13.",
+     "La peinture masque le symptôme ; sans ventilation, les moisissures reviennent.",
+     "Le plancher bas donne sur un logement chauffé : ce n'est pas la cause du problème.",
+     "Le tableau a été refait en 2010 et n'a aucun lien avec la condensation."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Au PV d'AG du 12/06/2025, l'ITE est votée pour 1 150 000 € TTC. Combien vaut chacune des 4 échéances pour le lot de M. Bernard ?",
+    "options": [
+     "35 880 €",
+     "2 875 €",
+     "9 200 €",
+     "8 970 €"
+    ],
+    "answer": 3,
+    "fb_title": "35 880 € ÷ 4 = 8 970 €",
+    "fb_text": "Quote-part du lot : 1 150 000 × 312 / 10 000 = 35 880 €, appelée en 4 échéances de 8 970 € (1/01, 1/04, 1/07 et 1/10/2027). Ces dates d'exigibilité déterminent qui paie quoi lors de la vente.",
+    "whys": [
+     "C'est la quote-part totale du lot, répartie en 4 échéances.",
+     "Ce n'est pas un calcul cohérent avec les tantièmes du lot (312/10 000).",
+     "Le calcul exact donne 1 150 000 × 312 / 10 000 / 4 = 8 970 €.",
+     "Juste : 35 880 € de quote-part divisés en 4 échéances = 8 970 €."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Où se situe le pont thermique majeur de l'appartement de M. Bernard ?",
+    "options": [
+     "Au plancher bas, sur un logement chauffé",
+     "Au droit du balcon, là où la dalle traverse la façade",
+     "Au plafond, sous un logement chauffé",
+     "Dans la cloison fissurée du dégagement"
+    ],
+    "answer": 1,
+    "fb_title": "La dalle de balcon traversante",
+    "fb_text": "Dans un immeuble de 1972 en béton banché, la dalle du balcon prolonge le plancher à travers la façade : c'est un pont thermique. L'ITE votée par la copropriété le traitera en partie ; d'ici là, on le signale dans l'audit 360°.",
+    "whys": [
+     "Le plancher donne sur un logement chauffé : les échanges de chaleur y sont faibles.",
+     "Juste : la dalle de balcon traversante interrompt l'isolation et crée un pont thermique important.",
+     "Même logique : un plafond sous un logement chauffé n'est pas une paroi déperditive majeure.",
+     "Cette fissure fine est intérieure et non structurelle : elle n'est pas un pont thermique."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Quel usage explique l'essentiel des 150 kWhEF/m²/an du DPE de M. Bernard ?",
+    "options": [
+     "Le chauffage par 6 convecteurs de 1998 sans programmation : 112 kWhEF/m²/an",
+     "L'eau chaude : ballon électrique de 200 L, 26 kWhEF/m²/an",
+     "L'éclairage : 4 kWhEF/m²/an",
+     "Les auxiliaires : 8 kWhEF/m²/an"
+    ],
+    "answer": 0,
+    "fb_title": "Le chauffage d'abord",
+    "fb_text": "Répartition du DPE D02 : chauffage 112, eau chaude 26, auxiliaires 8, éclairage 4 kWhEF/m²/an. Les convecteurs sans régulation et les fenêtres simple vitrage sont donc les premiers leviers d'amélioration.",
+    "whys": [
+     "Juste : le chauffage représente 112 des 150 kWhEF/m²/an, soit environ 75 %.",
+     "L'eau chaude pèse 26 kWhEF/m²/an, environ 17 % du total : ce n'est pas l'essentiel.",
+     "L'éclairage ne représente que 4 kWhEF/m²/an.",
+     "Les auxiliaires ne représentent que 8 kWhEF/m²/an."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Parmi ces familles de valeur, de laquelle relève d'abord la quote-part ITE de 35 880 € votée en AG ?",
+    "options": [
+     "Valeur intrinsèque",
+     "Valeur perçue",
+     "Valeur de copropriété",
+     "Valeur transactionnelle"
+    ],
+    "answer": 2,
+    "fb_title": "Famille « copropriété »",
+    "fb_text": "Les 8 familles : intrinsèque, marché, technique, énergétique, copropriété, perçue, financière, transactionnelle. La quote-part ITE se range en copropriété ; elle a aussi un effet énergétique (classe après travaux) et financier (échéancier).",
+    "whys": [
+     "La valeur intrinsèque tient au bien lui-même (surface, étage, plan), pas aux décisions de l'AG.",
+     "La valeur perçue concerne le ressenti de l'acquéreur ; la quote-part est un chiffre objectif de copropriété.",
+     "Juste : elle découle d'une décision de l'AG et de la situation de l'immeuble, donc de la famille copropriété.",
+     "La valeur transactionnelle porte sur les conditions de la vente, pas sur les travaux votés."
+    ]
+   },
+   {
+    "module": 2,
+    "question": "Valeur après rénovation : comparables rénovés à 2 850 €/m², bien de 76 m². Quel résultat ?",
+    "options": [
+     "201 400 €",
+     "189 000 €",
+     "231 000 €",
+     "216 600 €"
+    ],
+    "answer": 3,
+    "fb_title": "76 × 2 850 = 216 600 €",
+    "fb_text": "Valeur après rénovation (travaux privatifs faits et ITE réalisée) : 76 × 2 850 = 216 600 €. En l'état : base 76 × 2 650 = 201 400 €, ajustée pour les fenêtres, l'absence de VMC et les appels ITE, d'où la fourchette 178 000 – 186 000 €.",
+    "whys": [
+     "C'est 76 × 2 650 €/m², la base des biens D-E en l'état, pas après rénovation.",
+     "C'est le prix du mandat FAI, pas la valeur après rénovation.",
+     "Ce montant ne correspond à aucun calcul cohérent avec 76 m² × 2 850 €/m².",
+     "Juste : 76 × 2 850 = 216 600 €."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "M. Bernard (profil C) hésite à signer l'exclusivité. Quelle phrase choisis-tu ?",
+    "options": [
+     "« Décidez maintenant, j'ai un autre vendeur intéressé. »",
+     "« Voici mes engagements écrits et un compte rendu toutes les 2 semaines : prenez le temps de les lire. »",
+     "« Faites-moi confiance, je le sens bien ! »",
+     "« On en reparlera autour d'un café, sans papier. »"
+    ],
+    "answer": 1,
+    "fb_title": "De l'écrit et du temps",
+    "fb_text": "Avec M. Bernard, l'exclusivité se gagne par des engagements écrits (attestation actualisée, dossier technique, plan Éco-staging, compte rendu toutes les 2 semaines, chiffrage des travaux) et en lui laissant le temps de lire.",
+    "whys": [
+     "Pression et urgence artificielle : un profil C se ferme.",
+     "Juste : de l'écrit, des engagements vérifiables et du temps : la bonne réponse à un profil C.",
+     "L'intuition ne convainc pas un C : il veut des preuves.",
+     "Sans écrit, un profil C n'a rien sur quoi fonder sa décision."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Le mandat exclusif de M. Bernard est signé le 5/11/2026. Au plus tôt, quand peut-il le dénoncer, et avec quel préavis ?",
+    "options": [
+     "À partir du 5/02/2027, par lettre recommandée AR, préavis de 15 jours",
+     "Dès le 6/11/2026, par téléphone",
+     "Uniquement après 1 an",
+     "À partir du 5/12/2026, avec un préavis de 3 mois"
+    ],
+    "answer": 0,
+    "fb_title": "5/11 + 3 mois = 5/02/2027",
+    "fb_text": "Décret n° 72-678 : passé un délai de 3 mois, le mandat exclusif peut être dénoncé à tout moment par lettre recommandée avec avis de réception, avec un préavis de 15 jours. Pour un mandat signé le 5/11/2026 : à partir du 5/02/2027.",
+    "whys": [
+     "Juste : passé 3 mois, dénonciation par lettre recommandée avec AR et préavis de 15 jours.",
+     "Non : le mandat exclusif ne peut être dénoncé qu'après 3 mois, et par écrit recommandé.",
+     "Le délai est de 3 mois, pas d'un an.",
+     "Le délai est de 3 mois et le préavis de 15 jours, pas l'inverse."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "M. Bernard, 64 ans, veut rejoindre sa fille à Nantes avant l'été 2027. Travaux privatifs (16 500 €) avant la vente, ou vente en l'état chiffrée ?",
+    "options": [
+     "Tous les travaux : le prix montera forcément de 16 500 €",
+     "Baisser de 15 % sans chiffrage",
+     "Attendre la fin de l'ITE pour vendre",
+     "Vente en l'état, devis remis aux acquéreurs : pas de chantier à piloter, valeur défendue par le chiffrage"
+    ],
+    "answer": 3,
+    "fb_title": "En l'état, mais chiffré",
+    "fb_text": "Pour M. Bernard, la vente en l'état avec un chiffrage précis (D13 : 16 500 € TTC) est la plus cohérente : son calendrier, son âge et son déménagement rendent un chantier risqué. Les acquéreurs financent les travaux avec leur prêt.",
+    "whys": [
+     "Le gain de valeur n'est pas garanti euro pour euro, et le chantier retarde la vente.",
+     "Une décote forfaitaire sans chiffrage fait perdre de l'argent au vendeur.",
+     "L'ITE démarre en avril 2027 : attendre sa fin est incompatible avec son projet.",
+     "Juste : le chiffrage défend le prix sans imposer un chantier, un délai et un risque au vendeur."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Budget Éco-staging de M. Bernard : environ 450 €. Quelle action est prioritaire ?",
+    "options": [
+     "Remplacer une fenêtre de chambre",
+     "Repeindre le séjour dans une couleur vive",
+     "Traiter les moisissures et déboucher le conduit de la salle de bains",
+     "Acheter de nouveaux meubles"
+    ],
+    "answer": 2,
+    "fb_title": "Traiter ce qui inquiète",
+    "fb_text": "Le plan Éco-staging de M. Bernard (≈ 450 €) : nettoyage et traitement anti-moisissures de la salle de bains et débouchage du conduit, reprise du plafond de cuisine, désencombrement et éclairage du séjour.",
+    "whys": [
+     "Une fenêtre coûte plus que tout le budget, et ne règle qu'une partie du problème.",
+     "Le séjour est déjà le point fort : une couleur marquée divise les acquéreurs.",
+     "Juste : c'est le défaut qui inquiète le plus en visite, et le traiter ne coûte pas cher.",
+     "Hors budget et sans effet sur les défauts réels du bien."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "M. Bernard espère 205 000 €. Ta fourchette en l'état est de 178 000 à 186 000 €. Comment la défends-tu ?",
+    "options": [
+     "En annonçant 205 000 € pour signer, puis en baissant",
+     "Avec les comparables D12, des ajustements chiffrés (fenêtres, VMC, ITE) et un calcul écrit",
+     "En disant « c'est le marché », sans détail",
+     "En montrant seulement l'estimation d'une autre agence"
+    ],
+    "answer": 1,
+    "fb_title": "Un prix recalculable",
+    "fb_text": "Base : 76 × 2 650 = 201 400 € (comparables D-E en l'état, D12), puis ajustements pour les fenêtres simple vitrage, l'absence de VMC et les appels ITE à venir : 178 000 – 186 000 €. Remets-lui le calcul par écrit.",
+    "whys": [
+     "Surestimer pour signer coûte du temps au vendeur et ta crédibilité.",
+     "Juste : un profil C accepte un prix qu'il peut recalculer à partir de preuves.",
+     "Sans détail, M. Bernard ne peut pas vérifier : il ne te suivra pas.",
+     "Ce n'est pas ta méthode et cela ne justifie rien."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Objection de M. Bernard : « Pourquoi l'exclusivité ? Plusieurs agences, c'est plus de chances. » Quelle réponse est adaptée ?",
+    "options": [
+     "Lui dire qu'il se trompe",
+     "Lui promettre un prix plus élevé s'il signe",
+     "Abandonner le dossier",
+     "Lui montrer tes engagements écrits et ce que change une diffusion unique, suivie et cohérente"
+    ],
+    "answer": 3,
+    "fb_title": "Répondre par des engagements",
+    "fb_text": "Avec un profil C, l'objection est une demande d'information. Montre le plan écrit : un seul prix affiché, un dossier technique complet, un compte rendu toutes les 2 semaines et le chiffrage des travaux remis à chaque acquéreur.",
+    "whys": [
+     "Contredire frontalement ferme la discussion, surtout avec un profil C.",
+     "Promettre un prix pour obtenir un mandat est trompeur et intenable.",
+     "L'objection est normale : c'est une demande de preuves, pas un refus.",
+     "Juste : on répond à un profil C par des faits et des engagements vérifiables."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Pour constituer le dossier du vendeur, quels documents demandes-tu en priorité côté copropriété ?",
+    "options": [
+     "Ses avis d'imposition",
+     "Ses relevés bancaires",
+     "Les PV des dernières AG, le carnet d'entretien, le PPPT et la fiche synthétique",
+     "Le contrat de son assurance auto"
+    ],
+    "answer": 2,
+    "fb_title": "Les pièces qui révèlent les risques",
+    "fb_text": "PV d'AG (D07), carnet d'entretien (D08), PPPT (D09), fiche synthétique (D10), appels de charges (D06) : ces documents font apparaître les 35 880 € de travaux votés, l'état de l'immeuble et le niveau des impayés.",
+    "whys": [
+     "Les revenus du vendeur ne servent pas à l'analyse de la copropriété.",
+     "Données personnelles sans rapport avec l'analyse du lot.",
+     "Juste : ils révèlent travaux votés, état de l'immeuble, programme à venir et santé financière.",
+     "Sans rapport avec la vente du lot."
+    ]
+   },
+   {
+    "module": 3,
+    "question": "Mandat à 189 000 € FAI, honoraires de 9 000 € TTC à la charge de l'acquéreur. Quel est le net vendeur ?",
+    "options": [
+     "180 000 €",
+     "189 000 €",
+     "171 000 €",
+     "179 550 €"
+    ],
+    "answer": 0,
+    "fb_title": "FAI − honoraires = net vendeur",
+    "fb_text": "189 000 € FAI = 180 000 € net vendeur + 9 000 € TTC d'honoraires (5 % de 180 000 €) à la charge de l'acquéreur. L'annonce doit afficher le prix honoraires inclus et exclus, et le pourcentage.",
+    "whys": [
+     "Juste : 189 000 − 9 000 = 180 000 € net vendeur.",
+     "189 000 € est le prix honoraires inclus payé par l'acquéreur.",
+     "Tu as retiré deux fois les honoraires.",
+     "Ce n'est pas le calcul : les honoraires sont de 9 000 € TTC, soit 5 % du net vendeur."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "Que doit indiquer l'annonce du bien de M. Bernard au titre du DPE, après l'attestation actualisée ?",
+    "options": [
+     "Classe F, puisque le DPE d'origine date de 2023",
+     "Aucune classe tant qu'un nouveau DPE n'est pas fait",
+     "Classe énergie E, classe climat C et le montant estimé des dépenses annuelles d'énergie",
+     "Uniquement « DPE en cours »"
+    ],
+    "answer": 2,
+    "fb_title": "E, C et les coûts estimés",
+    "fb_text": "Avec l'attestation actualisée D03, le bien est classé E (énergie) et C (climat). L'annonce affiche aussi le montant estimé des dépenses annuelles (entre 2 330 € et 3 190 €, prix de référence 2021) et n'a plus la mention « consommation excessive ».",
+    "whys": [
+     "L'attestation actualisée remplace l'étiquette : la classe à afficher est E.",
+     "Le DPE de 2023 reste valable jusqu'au 13/03/2033 et l'attestation met l'étiquette à jour.",
+     "Juste : l'annonce reprend les classes à jour et les coûts estimés, avec l'année de référence des prix.",
+     "Le DPE existe et est valable : la mention « en cours » serait inexacte."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "Julie et Thomas Martin : 4 600 € nets par mois, mensualité de 1 024 € assurance comprise. Quel est leur taux d'endettement ?",
+    "options": [
+     "22,3 %",
+     "35 %",
+     "21,2 %",
+     "26,7 %"
+    ],
+    "answer": 0,
+    "fb_title": "1 024 / 4 600 = 22,3 %",
+    "fb_text": "Le taux d'endettement se calcule assurance comprise : 1 024 / 4 600 = 22,3 %. Les Martin ont une marge confortable sous le plafond de 35 %, ce qui rend leur offre solide face à celle de M. Petit.",
+    "whys": [
+     "Juste : 1 024 / 4 600 = 22,3 %, bien sous le plafond de 35 %.",
+     "35 % est le plafond HCSF, pas leur taux réel.",
+     "C'est le calcul sans assurance (975 / 4 600) : le HCSF raisonne assurance comprise.",
+     "Ce chiffre ne correspond pas à 1 024 / 4 600."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "En visite, Thomas Martin demande : « Et cette VMC qui manque ? » Que réponds-tu ?",
+    "options": [
+     "« Ce n'est pas obligatoire, on n'en parle pas. »",
+     "« Le vendeur baissera de 10 000 €. »",
+     "« La copropriété va l'installer en 2027. »",
+     "« Le devis est là : 2 900 € TTC, VMC hygroréglable et débouchage du conduit. »"
+    ],
+    "answer": 3,
+    "fb_title": "Réponse documentée",
+    "fb_text": "Chaque défaut a son prix au dossier : VMC et débouchage 2 900 € TTC, fenêtres 5 600 €, radiateurs 4 800 €, chauffe-eau thermodynamique 3 200 €. Thomas (profil S) est rassuré par une réponse calme et précise.",
+    "whys": [
+     "Esquiver un défaut fait perdre la confiance d'un acquéreur de profil S.",
+     "Tu n'as pas mandat pour annoncer une baisse, et le montant est sans rapport avec le devis.",
+     "Faux : l'ITE votée ne comprend pas de VMC dans les logements.",
+     "Juste : réponse factuelle, documentée et chiffrée (D13)."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "Deux offres : Martin à 184 000 € FAI avec prêt, Petit à 170 000 € FAI comptant (honoraires de 9 000 €). Quel net vendeur pour chacune ?",
+    "options": [
+     "184 000 € et 170 000 €",
+     "175 000 € et 161 000 €",
+     "175 000 € et 170 000 €",
+     "166 000 € et 161 000 €"
+    ],
+    "answer": 1,
+    "fb_title": "Comparer en net vendeur",
+    "fb_text": "Une offre s'analyse en net vendeur et en conditions. Martin : 175 000 € net, condition de prêt mais taux d'endettement de 22,3 %. Petit : 161 000 € net, comptant. L'écart de 14 000 € justifie de retenir Martin.",
+    "whys": [
+     "Ce sont les prix FAI : il faut retirer les honoraires pour comparer le net vendeur.",
+     "Juste : 184 000 − 9 000 = 175 000 € ; 170 000 − 9 000 = 161 000 €.",
+     "Les honoraires se déduisent aussi de l'offre de M. Petit.",
+     "Le calcul de l'offre Martin est faux : 184 000 − 9 000 = 175 000 €."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "Par quelle pièce termines-tu la visite de l'appartement de M. Bernard ?",
+    "options": [
+     "La salle de bains",
+     "La cave n° 22",
+     "Le séjour de 24 m² avec son balcon sud-ouest",
+     "Une chambre en simple vitrage"
+    ],
+    "answer": 2,
+    "fb_title": "Finir sur le point fort",
+    "fb_text": "Un parcours de visite se construit : entrée, pièces de nuit, cuisine et salle de bains (défauts présentés avec leur chiffrage), puis le séjour et le balcon sud-ouest pour finir. C'est la dernière image que l'acquéreur emporte.",
+    "whys": [
+     "C'est la pièce au défaut le plus visible : mieux vaut la montrer au milieu du parcours.",
+     "Une annexe : on la présente, mais elle ne doit pas conclure la visite.",
+     "Juste : on termine sur le point fort pour laisser la meilleure impression (proposition pédagogique).",
+     "Finir sur un défaut laisse une impression négative."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "Que vérifies-tu en premier pour qualifier Julie et Thomas Martin ?",
+    "options": [
+     "Leurs goûts en décoration",
+     "Seulement leur coup de cœur",
+     "Le détail de leur épargne retraite",
+     "Revenus, apport, situation professionnelle et simulation ou accord de principe bancaire"
+    ],
+    "answer": 3,
+    "fb_title": "Finançable ou pas ?",
+    "fb_text": "Les Martin : CDI tous les deux, 4 600 € nets par mois, 22 000 € d'apport. Une simulation bancaire confirme un prêt de 193 800 € sur 25 ans. Ce sont ces faits qui rendent leur offre crédible.",
+    "whys": [
+     "Utile pour la visite, pas pour savoir s'ils peuvent acheter.",
+     "Un coup de cœur sans financement ne fait pas une vente.",
+     "Trop intrusif et inutile : on s'en tient aux éléments du financement.",
+     "Juste : ces éléments disent si leur projet est finançable et à quel montant."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "M. Bernard a fixé un plancher de 175 000 € net vendeur. Les Martin offrent 184 000 € FAI. Que fais-tu ?",
+    "options": [
+     "La refuser sans la transmettre",
+     "Transmettre l'offre par écrit, montrer qu'elle atteint le plancher et détailler ses conditions",
+     "Lui conseiller d'attendre 189 000 €",
+     "L'accepter à sa place"
+    ],
+    "answer": 1,
+    "fb_title": "Transmettre, analyser, conseiller",
+    "fb_text": "184 000 € FAI = 175 000 € net vendeur, soit le plancher fixé. Conditions : prêt de 193 800 € sur 25 ans, taux maximal de 3,90 % hors assurance. M. Bernard accepte le 2/12/2026.",
+    "whys": [
+     "Tu dois transmettre les offres : c'est le vendeur qui décide.",
+     "Juste : tu transmets, tu analyses (net vendeur, conditions, délais) et tu conseilles.",
+     "L'offre atteint son plancher ; attendre fait courir le risque de perdre un acquéreur solide.",
+     "Seul le vendeur peut accepter une offre."
+    ]
+   },
+   {
+    "module": 4,
+    "question": "L'IA a rédigé l'annonce et écrit « appartement classé C ». Que fais-tu ?",
+    "options": [
+     "Corriger (classe énergie E, classe climat C) et vérifier chaque autre donnée",
+     "Laisser : l'IA s'appuie sur des données fiables",
+     "Supprimer toute mention du DPE",
+     "Écrire « classe C après travaux » sans autre précision"
+    ],
+    "answer": 0,
+    "fb_title": "Toujours relire l'IA",
+    "fb_text": "C est la classe climat ; la classe retenue est E. Relis toute annonce produite par l'IA : surface Carrez (76,0 m²), étage, charges (2 652 €/an), travaux votés, honoraires. L'annonce est publiée sous ta responsabilité.",
+    "whys": [
+     "Juste : l'IA a confondu les deux indicateurs ; l'annonce engage ta responsabilité.",
+     "L'IA peut se tromper ou mélanger des données : tu restes responsable de l'annonce.",
+     "Les classes et les coûts estimés sont des mentions obligatoires.",
+     "Une classe hypothétique présentée sans précision est trompeuse."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Le DDT de M. Bernard contient le DPE, l'état amiante, l'ERP et le mesurage Carrez. Quelle pièce manque ?",
+    "options": [
+     "L'état de l'installation électrique (installation de plus de 15 ans)",
+     "Le constat de risque d'exposition au plomb",
+     "L'état de l'installation de gaz",
+     "L'audit énergétique réglementaire"
+    ],
+    "answer": 0,
+    "fb_title": "Il manque l'électricité",
+    "fb_text": "Immeuble de 1972, électricité partiellement refaite en 2010 : l'installation a plus de 15 ans, l'état électrique est obligatoire. Sans lui, le vendeur ne peut pas s'exonérer de la garantie des vices cachés sur ce point.",
+    "whys": [
+     "Juste : l'installation a plus de 15 ans (le tableau de 2010 ne suffit pas à rajeunir l'ensemble).",
+     "Non requis : l'immeuble date de 1972, après le 1/01/1949.",
+     "Non requis : le logement n'a pas d'installation de gaz.",
+     "Non requis pour un lot de copropriété."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Appel ITE du 1/01/2027, acte prévu le 15/03/2027. Qui le paie au syndic, et comment est-il réglé entre les parties ?",
+    "options": [
+     "Les Martin le paient au syndic dès le compromis",
+     "Personne ne le paie avant l'acte",
+     "M. Bernard le paie ; les acquéreurs le lui remboursent à l'acte, selon leur accord",
+     "Le syndic le prélève sur le fonds de travaux"
+    ],
+    "answer": 2,
+    "fb_title": "Exigibilité + accord entre parties",
+    "fb_text": "M. Bernard, copropriétaire au 1/01/2027, paie 8 970 € au syndic. Accord du 2/12/2026 : les acquéreurs le lui remboursent à l'acte (clause rédigée par le notaire), puis paient eux-mêmes les échéances d'avril, juillet et octobre 2027.",
+    "whys": [
+     "Au 1/01/2027, les Martin ne sont pas encore copropriétaires.",
+     "L'appel est exigible le 1/01/2027 : le copropriétaire à cette date doit le payer.",
+     "Juste : vendeur à l'exigibilité vis-à-vis du syndicat ; remboursement convenu entre les parties.",
+     "Le fonds de travaux ne remplace pas un appel voté."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Compromis signé le 15/12/2026, notifié par lettre recommandée. Quand commence le délai de rétractation des Martin ?",
+    "options": [
+     "Le jour de la signature",
+     "Le lendemain de la première présentation de la lettre de notification",
+     "Le 15/03/2027, date de l'acte",
+     "À la réception de leur offre de prêt"
+    ],
+    "answer": 1,
+    "fb_title": "Le lendemain de la première présentation",
+    "fb_text": "Le délai de 10 jours court à compter du lendemain de la première présentation de la lettre recommandée (ou de la remise en main propre contre récépissé). Note la date dans le rétroplanning D20.",
+    "whys": [
+     "La signature ne fait pas courir le délai : c'est la notification.",
+     "Juste : c'est le point de départ prévu par l'article L. 271-1 du CCH.",
+     "Le délai s'exerce après le compromis, pas à l'acte.",
+     "L'offre de prêt ouvre un autre délai, de réflexion, qui n'a rien à voir."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Condition suspensive de prêt du compromis du 15/12/2026, délai de 45 jours : quelle est la date limite ?",
+    "options": [
+     "15/01/2027",
+     "15/02/2027",
+     "15/03/2027",
+     "29/01/2027"
+    ],
+    "answer": 3,
+    "fb_title": "15/12 + 45 jours = 29/01",
+    "fb_text": "Du 15/12/2026, 45 jours mènent au 29/01/2027. Les Martin doivent déposer leurs demandes de prêt rapidement et justifier de leurs démarches : c'est un jalon clé du rétroplanning D20.",
+    "whys": [
+     "Cela ne fait que 31 jours.",
+     "Cela fait 62 jours, au-delà des 45 jours prévus.",
+     "C'est la date prévue de l'acte, pas celle de la condition de prêt.",
+     "Juste : 16 jours restent en décembre après le 15, plus 29 jours en janvier = 45 jours."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Quel document le syndic établit-il pour le notaire lors de la vente du lot, à un tarif plafonné ?",
+    "options": [
+     "L'état daté",
+     "Le pré-état daté",
+     "Le PPPT",
+     "Le carnet d'entretien"
+    ],
+    "answer": 0,
+    "fb_title": "État daté : 380 € TTC maximum",
+    "fb_text": "Avant l'acte, le notaire demande au syndic l'état daté (sommes dues, à payer, appels votés). Il est plafonné à 380 € TTC. Le pré-état daté (D16), lui, sert au compromis et n'a pas de cadre tarifaire réglementé.",
+    "whys": [
+     "Juste : l'état daté, dont le coût est plafonné à 380 € TTC (décret n° 2020-153).",
+     "Le pré-état daté n'est pas prévu par un texte et son prix n'est pas plafonné.",
+     "Le PPPT est un plan de travaux, adopté en AG, pas un document de mutation.",
+     "Le carnet est tenu en continu ; ce n'est pas le document de mutation."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Plan de financement Martin : besoin total de 215 800 €, apport de 22 000 €. Quel montant de prêt ?",
+    "options": [
+     "184 000 €",
+     "215 800 €",
+     "193 800 €",
+     "171 800 €"
+    ],
+    "answer": 2,
+    "fb_title": "Besoin − apport = prêt",
+    "fb_text": "Prix 184 000 € + frais de notaire ≈ 13 300 € + travaux 16 500 € + garantie ≈ 2 000 € = 215 800 €. Moins l'apport de 22 000 € : prêt de 193 800 € sur 25 ans à 3,55 %, mensualité ≈ 975 € hors assurance.",
+    "whys": [
+     "C'est le prix FAI : le besoin inclut aussi frais de notaire, travaux et garantie.",
+     "C'est le besoin total, avant déduction de l'apport.",
+     "Juste : 215 800 − 22 000 = 193 800 €.",
+     "Tu as retiré deux fois l'apport."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Le solde du fonds de travaux attaché au lot (1 061 € au 30/09/2026) : que devient-il à la vente ?",
+    "options": [
+     "Le syndic le rembourse à M. Bernard",
+     "Il est partagé entre tous les copropriétaires",
+     "Il est automatiquement déduit du prix de vente",
+     "Il reste attaché au lot, sans remboursement par le syndicat"
+    ],
+    "answer": 3,
+    "fb_title": "Attaché au lot",
+    "fb_text": "Le fonds de travaux est attaché au lot : à la vente, il n'est pas remboursé par le syndicat. Vendeur et acquéreur peuvent en tenir compte dans le prix ou par une clause de l'acte, sans que cela engage le syndicat.",
+    "whys": [
+     "Non : le syndicat ne rembourse pas le vendeur.",
+     "Non : le solde reste attaché au lot vendu.",
+     "Rien d'automatique : les parties peuvent seulement en tenir compte dans leur accord.",
+     "Juste : les sommes versées au fonds de travaux restent acquises au syndicat et attachées au lot."
+    ]
+   },
+   {
+    "module": 5,
+    "question": "Quel jalon doit être franchi avant la signature de l'acte du 15/03/2027 ?",
+    "options": [
+     "La signature d'un nouveau mandat",
+     "L'acceptation de l'offre de prêt, après le délai de réflexion de 10 jours",
+     "Une nouvelle AG de copropriété",
+     "La fin des travaux d'ITE"
+    ],
+    "answer": 1,
+    "fb_title": "Offre de prêt acceptée",
+    "fb_text": "L'offre de prêt impose un délai de réflexion : l'emprunteur ne peut l'accepter qu'à partir du 11e jour suivant sa réception. Prévois-le dans le rétroplanning, avec l'état daté et la purge éventuelle du droit de préemption.",
+    "whys": [
+     "Le mandat a déjà produit son effet : la vente est engagée.",
+     "Juste : l'emprunteur ne peut accepter l'offre qu'après 10 jours ; sans offre acceptée, pas de fonds.",
+     "Aucune AG n'est nécessaire pour que la vente ait lieu.",
+     "L'ITE démarre en avril 2027 : elle n'a aucun lien avec la date de l'acte."
+    ]
+   }
+  ]
+ },
+ "satisfaction": {
+  "intro": "Ton avis nous sert à améliorer la formation : 5 minutes, réponses anonymisées dans les bilans. Merci d'être précis, surtout dans les champs libres.",
+  "questions": [
+   {
+    "type": "scale",
+    "question": "Globalement, quel est ton niveau de satisfaction sur la formation Éco-Consultant ? (1 = pas du tout satisfait, 5 = très satisfait)",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "type": "scale",
+    "question": "Les objectifs annoncés au début du parcours ont-ils été atteints ? (1 = pas du tout, 5 = totalement)",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quel module t'a été le plus utile ?",
+    "options": [
+     "Module 1 · Se différencier pour attirer les propriétaires",
+     "Module 2 · Estimer et construire la stratégie de vente",
+     "Module 3 · Gagner l'exclusivité par l'expertise",
+     "Module 4 · Convertir le projet en compromis",
+     "Module 5 · Sécuriser la vente"
+    ]
+   },
+   {
+    "type": "scale",
+    "question": "Le format des capsules (vidéo de 8 min, quiz, ressource, exercice, livrable) t'a-t-il convenu ? (1 = pas du tout, 5 = tout à fait)",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "type": "scale",
+    "question": "Le fil rouge de M. Bernard t'a-t-il aidé à comprendre et à retenir ? (1 = pas du tout, 5 = beaucoup)",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "type": "scale",
+    "question": "Les retours du formateur sur tes livrables étaient-ils utiles et suffisamment rapides ? (1 = pas du tout, 5 = tout à fait)",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Les rappels J+1, J+7 et J+30 :",
+    "options": [
+     "M'ont aidé à retenir",
+     "Étaient utiles mais trop fréquents",
+     "Je ne les ai pas lus",
+     "Je les ai désactivés"
+    ]
+   },
+   {
+    "type": "scale",
+    "question": "Te sens-tu capable d'appliquer dès maintenant ce que tu as appris avec tes propres clients ? (1 = pas du tout, 5 = tout à fait)",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "type": "choice",
+    "question": "Quelle compétence vas-tu mettre en œuvre en premier ?",
+    "options": [
+     "Visibilité locale (Google, Facebook, LinkedIn)",
+     "Estimation avant / après rénovation",
+     "Audit du bien et de la copropriété",
+     "Obtention de mandats exclusifs",
+     "Visites, qualification et négociation",
+     "Sécurisation du dossier jusqu'à l'acte"
+    ]
+   },
+   {
+    "type": "scale",
+    "question": "Les outils d'IA proposés (prompts, garde-fous) te seront-ils utiles au quotidien ? (1 = pas du tout, 5 = très utiles)",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "type": "scale",
+    "question": "La plateforme était-elle simple à utiliser (accès, vidéos, dépôt des livrables) ? (1 = très difficile, 5 = très simple)",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "type": "scale",
+    "question": "Recommanderais-tu cette formation à un confrère ou une consœur ? (0 = certainement pas, 10 = certainement)",
+    "options": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ]
+   },
+   {
+    "type": "text",
+    "question": "Qu'est-ce qui t'a le plus apporté dans cette formation ?"
+   },
+   {
+    "type": "text",
+    "question": "Que faudrait-il améliorer en priorité (contenu, durée, outils, accompagnement) ?"
+   },
+   {
+    "type": "text",
+    "question": "As-tu rencontré une difficulté (technique, compréhension, accessibilité) dont tu souhaites nous faire part ?"
+   }
+  ]
+ },
+ "attestation": {
+  "title": "Attestation de fin de formation",
+  "text": "Je soussigné(e), [nom et fonction du représentant de l'organisme de formation], [raison sociale et numéro de déclaration d'activité de l'organisme], atteste que {nom} a suivi l'action de formation « ÉCO-CONSULTANT : de la valeur verte à la vente sécurisée », dispensée en formation à distance (e-learning accompagné par le formateur Sébastien Paumier), du {date_debut} au {date_fin}, pour une durée de {duree}.\n\nNature de l'action : action de formation (art. L. 6313-1 du Code du travail).\n\nObjectifs de la formation :\n1. Se différencier pour attirer les propriétaires : se positionner en éco-consultant et devenir visible localement, dans le respect des règles de prospection.\n2. Estimer et construire la stratégie de vente : analyser le bien, le bâtiment, le DPE et la copropriété, et estimer la valeur avant et après rénovation.\n3. Gagner l'exclusivité par l'expertise : restituer l'estimation, adapter sa communication au profil du vendeur et obtenir un mandat exclusif conforme à la loi Hoguet.\n4. Convertir le projet en compromis : présenter le bien, mener les visites, qualifier les acquéreurs et négocier l'offre.\n5. Sécuriser la vente : contrôler les diagnostics et les documents de copropriété, préparer le compromis et le financement, et piloter la vente jusqu'à l'acte.\n\nRésultats de l'évaluation des acquis : quiz final réussi avec {resultat_quiz_final} de bonnes réponses (seuil de validation : 70 %) ; livrables des capsules et dossier fil rouge validés par le formateur.\n\nLa présente attestation est délivrée conformément à l'article L. 6353-1 du Code du travail. Il s'agit d'une attestation de fin de formation : elle ne constitue ni un diplôme, ni un titre, ni une certification professionnelle.\n\nFait à [ville], le [date].\nSignature et cachet de l'organisme de formation",
+  "fields": [
+   "{nom}",
+   "{date_debut}",
+   "{date_fin}",
+   "{duree}",
+   "{resultat_quiz_final}"
+  ]
+ },
+ "end": {
+  "dossier_complet": "Le livrable final rassemble, en un seul document, le travail que tu as mené sur M. Bernard tout au long du parcours. Il contient les 5 sorties de module : (1) ton plan de visibilité sur 30 jours, ton offre de service et ton pitch ; (2) le dossier d'estimation complet : audit 360° du bien, analyse de la copropriété (35 880 € d'ITE, PPPT, charges), calculs énergétiques, chiffrage des travaux (16 500 € TTC) et valeurs avant / après rénovation (178 000 – 186 000 € en l'état ; 216 600 € après) ; (3) le mandat exclusif obtenu en simulation, avec le support de restitution et l'argumentaire adapté au profil C ; (4) l'annonce, le parcours de visite, la qualification des acquéreurs et l'analyse des offres jusqu'à l'offre acceptée ; (5) la check-list de sécurisation : contrôle du DDT, documents de copropriété, conditions du compromis, plan de financement Martin et rétroplanning jusqu'au 15/03/2027. Format : un PDF unique de 15 à 30 pages, avec un sommaire, une page de synthèse (le dossier en une page) et une annexe des prompts d'IA utilisés. Les chiffres doivent être identiques à ceux du dossier fil rouge, chaque calcul montré, chaque règle juridique sourcée, aucune donnée personnelle réelle.",
+  "criteria": [
+   {
+    "label": "Complétude",
+    "points": 4,
+    "expected": "Les 5 sorties de module sont présentes, avec sommaire, page de synthèse et annexe des prompts."
+   },
+   {
+    "label": "Exactitude des chiffres",
+    "points": 5,
+    "expected": "Tous les chiffres sont conformes au dossier fil rouge (DPE 285 kWhEP → E, quote-part ITE 35 880 €, devis 16 500 €, valeurs 178-186 k€ et 216 600 €, prêt 193 800 €, endettement ≈ 22,3 %) et chaque calcul est détaillé."
+   },
+   {
+    "label": "Analyse technique et copropriété",
+    "points": 4,
+    "expected": "Déperditions, pathologies et équipements sont reliés à des recommandations chiffrées ; les risques de la copropriété (travaux votés, PPPT, impayés, fonds de travaux) sont identifiés."
+   },
+   {
+    "label": "Stratégie et relation vendeur",
+    "points": 3,
+    "expected": "Le choix de la vente en l'état chiffrée est justifié ; le discours est adapté au profil DISC C ; les engagements du mandat sont écrits."
+   },
+   {
+    "label": "Commercialisation",
+    "points": 3,
+    "expected": "Annonce conforme (classes E / C, coûts estimés, honoraires), défauts transformés en budget, offres comparées en net vendeur et en conditions."
+   },
+   {
+    "label": "Sécurisation juridique",
+    "points": 4,
+    "expected": "La pièce manquante du DDT est repérée, la répartition des appels de fonds est correcte, la condition de prêt et le rétroplanning sont datés avec les délais légaux sourcés ; renvoi au notaire quand c'est son rôle."
+   },
+   {
+    "label": "Usage responsable de l'IA et présentation",
+    "points": 2,
+    "expected": "Prompts anonymisés, sorties de l'IA vérifiées et corrigées ; document clair, sans faute, présentable à un vendeur."
+   }
+  ],
+  "message": "Tu y es ! Il y a quelques semaines, M. Bernard ne décrochait plus son téléphone et pensait perdre 15 % à cause de son DPE. Avec toi, il a appris que son bien était classé E, il a compris ce que valait vraiment son appartement, il t'a confié l'exclusivité et il a vendu à un jeune couple qui sait exactement ce qu'il achète, travaux compris. Ce n'est pas de la chance : c'est une méthode. Vérifier avant d'affirmer, chiffrer au lieu de décoter, écrire ce qu'on promet, et sécuriser chaque étape jusqu'à l'acte. Maintenant, la vraie formation commence : ton prochain vendeur. Reprends la ressource de la capsule 1.1, ouvre ta fiche Google, et applique tout ça dès lundi. Je compte sur toi, et n'oublie pas de me raconter ta première exclusivité. À très vite ! Seb"
+ },
+ "dossier": {
+  "intro": "Dossier fil rouge de la formation Éco-Consultant : 20 documents fictifs à usage pédagogique, cohérents entre eux, à citer par leur code (D01 à D20).",
+  "documents": [
+   {
+    "id": "D01",
+    "title": "Fiche découverte vendeur (vierge)",
+    "kind": "formulaire",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Mode d'emploi",
+      "type": "text",
+      "text": "Fiche à remplir pendant ou juste après le premier rendez-vous avec le vendeur (capsule 2.1). Elle sert de base à l'estimation, au choix de la stratégie (travaux ou vente en l'état) et au profil DISC. Note les mots exacts du vendeur entre guillemets : ils serviront au rendez-vous de restitution."
+     },
+     {
+      "heading": "1. Identité et contact (données minimales, RGPD)",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "À compléter"
+      ],
+      "rows": [
+       [
+        "Nom, prénom",
+        "…"
+       ],
+       [
+        "Canal de contact préféré et horaires",
+        "…"
+       ],
+       [
+        "Origine du contact et preuve du consentement (date, texte accepté)",
+        "…"
+       ],
+       [
+        "Autres décideurs (co-propriétaire, enfants, notaire, conseiller)",
+        "…"
+       ]
+      ]
+     },
+     {
+      "heading": "2. Le projet",
+      "type": "list",
+      "items": [
+       "Pourquoi vendez-vous ? Qu'allez-vous faire après la vente ?",
+       "Quelle échéance ? Qu'arrive-t-il si la vente prend 3 mois de plus ?",
+       "Projet d'achat lié (lieu, budget, financement, vente préalable nécessaire ?)",
+       "Prix espéré et d'où vient ce chiffre (estimations reçues, voisin, internet)",
+       "Prix en dessous duquel vous ne vendrez pas (à reposer au moment du mandat)"
+      ]
+     },
+     {
+      "heading": "3. Le bien (vérifier sur pièces)",
+      "type": "list",
+      "items": [
+       "Surface Carrez, étage, ascenseur, annexes (cave, parking, balcon)",
+       "Année de construction, date d'achat, travaux réalisés (factures)",
+       "Chauffage, eau chaude, ventilation, menuiseries (type, année)",
+       "DPE : date, numéro ADEME à 13 caractères, classe, attestation actualisée possible ?",
+       "Défauts connus, sinistres passés et leur clôture"
+      ]
+     },
+     {
+      "heading": "4. La copropriété",
+      "type": "list",
+      "items": [
+       "Syndic et coordonnées du gestionnaire",
+       "Dernières AG : travaux votés, montants, échéanciers",
+       "Charges annuelles du lot, fonds de travaux, impayés éventuels",
+       "PPPT, DPE collectif, procédures en cours"
+      ]
+     },
+     {
+      "heading": "5. Situation juridique et pièces",
+      "type": "list",
+      "items": [
+       "Titre de propriété, régime (bien propre, indivision, succession)",
+       "Taxe foncière",
+       "Diagnostics existants et date",
+       "Prêt en cours ou soldé"
+      ]
+     },
+     {
+      "heading": "6. Profil et suite",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "À compléter"
+      ],
+      "rows": [
+       [
+        "Profil DISC observé (D, I, S, C) et indices",
+        "…"
+       ],
+       [
+        "Ce qui l'inquiète le plus",
+        "…"
+       ],
+       [
+        "Ce qu'il attend de l'agent",
+        "…"
+       ],
+       [
+        "Prochain rendez-vous et pièces à fournir",
+        "…"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D02",
+    "title": "DPE du 14/03/2023 — synthèse",
+    "kind": "rapport",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Identification",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Numéro ADEME",
+        "2377E0123456X (13 caractères)"
+       ],
+       [
+        "Date d'établissement",
+        "14/03/2023"
+       ],
+       [
+        "Fin de validité",
+        "13/03/2033 (10 ans)"
+       ],
+       [
+        "Diagnostiqueur",
+        "Diag77 (fictif), certification en cours de validité"
+       ],
+       [
+        "Méthode",
+        "3CL-DPE 2021, DPE logement en immeuble collectif"
+       ],
+       [
+        "Adresse",
+        "Résidence Les Tilleuls, 14 rue des Acacias, 77000 Melun — 4e étage, appartement T4"
+       ],
+       [
+        "Surface habitable",
+        "76,0 m²"
+       ],
+       [
+        "Année de construction",
+        "1972"
+       ]
+      ]
+     },
+     {
+      "heading": "Étiquettes (coefficient électricité 2,3 en vigueur en 2023)",
+      "type": "table",
+      "headers": [
+       "Indicateur",
+       "Valeur",
+       "Classe"
+      ],
+      "rows": [
+       [
+        "Énergie primaire",
+        "345 kWhEP/m²/an (150 kWhEF × 2,3)",
+        "F (331 à 420)"
+       ],
+       [
+        "Émissions de gaz à effet de serre",
+        "12 kgCO₂/m²/an (912 kgCO₂/an)",
+        "C (11 à 30)"
+       ],
+       [
+        "Classe retenue (la moins bonne des deux)",
+        "—",
+        "F"
+       ],
+       [
+        "Mention portée sur le DPE",
+        "« Logement à consommation énergétique excessive »",
+        "—"
+       ]
+      ]
+     },
+     {
+      "heading": "Consommations par usage",
+      "type": "table",
+      "headers": [
+       "Usage",
+       "kWhEF/m²/an",
+       "kWhEF/an (× 76 m²)",
+       "kWhEP/m²/an (× 2,3)",
+       "Coût annuel estimé"
+      ],
+      "rows": [
+       [
+        "Chauffage",
+        "112",
+        "8 512",
+        "257,6",
+        "1 740 € à 2 380 €"
+       ],
+       [
+        "Eau chaude sanitaire",
+        "26",
+        "1 976",
+        "59,8",
+        "410 € à 550 €"
+       ],
+       [
+        "Éclairage",
+        "4",
+        "304",
+        "9,2",
+        "60 € à 90 €"
+       ],
+       [
+        "Auxiliaires",
+        "8",
+        "608",
+        "18,4",
+        "120 € à 170 €"
+       ],
+       [
+        "TOTAL",
+        "150",
+        "11 400",
+        "345",
+        "2 330 € à 3 190 € par an"
+       ]
+      ]
+     },
+     {
+      "heading": "Coûts estimés",
+      "type": "text",
+      "text": "Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2 330 € et 3 190 € par an (prix moyens des énergies indexés au 1er janvier 2021, abonnements compris). C'est une consommation conventionnelle, calculée pour un usage type : elle ne reproduit pas les factures réelles de M. Bernard."
+     },
+     {
+      "heading": "Description du logement retenue par le diagnostiqueur",
+      "type": "table",
+      "headers": [
+       "Poste",
+       "Description",
+       "Appréciation"
+      ],
+      "rows": [
+       [
+        "Murs",
+        "Béton banché 1972, doublage polystyrène 2 cm d'origine ; pont thermique au droit du balcon",
+        "Insuffisante"
+       ],
+       [
+        "Menuiseries",
+        "Séjour et cuisine : PVC double vitrage 2004 ; 3 chambres (4 fenêtres) : bois simple vitrage d'origine",
+        "Insuffisante (chambres)"
+       ],
+       [
+        "Plancher bas / plafond",
+        "Sur et sous logements chauffés",
+        "Sans objet"
+       ],
+       [
+        "Chauffage",
+        "Électrique direct : 6 convecteurs 1998, sans programmation",
+        "Insuffisante"
+       ],
+       [
+        "Eau chaude",
+        "Ballon électrique 200 L (2011), dans la cuisine",
+        "Moyenne"
+       ],
+       [
+        "Ventilation",
+        "Naturelle par grilles et conduits shunt ; pas de VMC",
+        "Insuffisante"
+       ]
+      ]
+     },
+     {
+      "heading": "Recommandations du DPE (sans montant : voir devis D13)",
+      "type": "list",
+      "items": [
+       "Étape 1 : remplacer les 4 fenêtres simple vitrage par des menuiseries performantes (Uw ≤ 1,3)",
+       "Étape 1 : installer une ventilation mécanique hygroréglable et rétablir le conduit de la salle de bains",
+       "Étape 1 : remplacer les convecteurs par des émetteurs programmables avec régulation",
+       "Étape 2 : chauffe-eau thermodynamique en remplacement du ballon électrique",
+       "Étape 2 (copropriété) : isolation thermique des façades par l'extérieur"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D03",
+    "title": "Attestation actualisée ADEME (classe E)",
+    "kind": "rapport",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Objet",
+      "type": "text",
+      "text": "Attestation éditée gratuitement par M. Bernard le 06/10/2026 sur l'observatoire DPE-Audit de l'ADEME, à partir du numéro de son DPE (2377E0123456X). Fait vérifié : pour un DPE établi depuis le 1/07/2021, l'attestation recalcule l'étiquette avec le coefficient électricité en vigueur, sans nouvelle visite ; elle vaut jusqu'à la fin de validité du DPE d'origine."
+     },
+     {
+      "heading": "Recalcul",
+      "type": "table",
+      "headers": [
+       "Indicateur",
+       "DPE d'origine (2023)",
+       "Attestation actualisée (2026)"
+      ],
+      "rows": [
+       [
+        "Coefficient électricité",
+        "2,3",
+        "1,9 (depuis le 1/01/2026, arrêté du 13/08/2025)"
+       ],
+       [
+        "Consommation en énergie finale",
+        "150 kWhEF/m²/an",
+        "150 kWhEF/m²/an (inchangée)"
+       ],
+       [
+        "Énergie primaire",
+        "345 kWhEP/m²/an → F",
+        "285 kWhEP/m²/an → E (251 à 330)"
+       ],
+       [
+        "Émissions",
+        "12 kgCO₂/m²/an → C",
+        "12 kgCO₂/m²/an → C"
+       ],
+       [
+        "Classe retenue",
+        "F",
+        "E"
+       ],
+       [
+        "Mention « consommation énergétique excessive »",
+        "Oui",
+        "Non"
+       ]
+      ]
+     },
+     {
+      "heading": "Validité",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Numéro du DPE d'origine",
+        "2377E0123456X"
+       ],
+       [
+        "Date d'édition de l'attestation",
+        "06/10/2026"
+       ],
+       [
+        "Valable jusqu'au",
+        "13/03/2033 (fin de validité du DPE d'origine)"
+       ],
+       [
+        "Audit énergétique réglementaire",
+        "Non requis : lot de copropriété (l'audit à la vente vise les maisons et immeubles en monopropriété)"
+       ]
+      ]
+     },
+     {
+      "heading": "Note pédagogique : 1er janvier 2027",
+      "type": "text",
+      "text": "Fait vérifié : le coefficient passera à 1,7 le 1/01/2027 (arrêté du 19/08/2026). Recalcul : 150 × 1,7 = 255 kWhEP/m²/an, toujours en classe E (le seuil de D est à 250). Une nouvelle attestation pourra être éditée en 2027 : la classe ne change pas, mais le chiffre affiché baisse."
+     }
+    ]
+   },
+   {
+    "id": "D04",
+    "title": "Plan et descriptif de l'appartement",
+    "kind": "plan",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Tableau des surfaces",
+      "type": "table",
+      "headers": [
+       "Pièce",
+       "Surface",
+       "Observations"
+      ],
+      "rows": [
+       [
+        "Séjour",
+        "24,0 m²",
+        "Sud-ouest, accès balcon 6 m², fenêtre et porte-fenêtre PVC double vitrage 2004, 2 convecteurs"
+       ],
+       [
+        "Chambre 1",
+        "11,0 m²",
+        "2 fenêtres bois simple vitrage, 1 convecteur, paroi froide"
+       ],
+       [
+        "Chambre 2",
+        "10,0 m²",
+        "1 fenêtre bois simple vitrage, 1 convecteur"
+       ],
+       [
+        "Chambre 3",
+        "9,0 m²",
+        "1 fenêtre bois simple vitrage, 1 convecteur"
+       ],
+       [
+        "Cuisine (séparée)",
+        "9,0 m²",
+        "Refaite en 2016, fenêtre PVC 2004, ballon 200 L, 1 convecteur, auréole au plafond"
+       ],
+       [
+        "Salle de bains",
+        "5,0 m²",
+        "Baignoire, sans fenêtre, conduit shunt partiellement obstrué, moisissures"
+       ],
+       [
+        "WC séparé",
+        "1,5 m²",
+        "Grille de ventilation haute"
+       ],
+       [
+        "Entrée / dégagement",
+        "6,5 m²",
+        "Placards, fissure fine en escalier sur la cloison"
+       ],
+       [
+        "TOTAL habitable (= Carrez)",
+        "76,0 m²",
+        "Hors balcon (6 m²), cave n° 22 et parking n° 31"
+       ]
+      ]
+     },
+     {
+      "heading": "Plan schématique (description)",
+      "type": "text",
+      "text": "Porte palière au nord, sur le dégagement central. À gauche du dégagement : cuisine (fenêtre nord-est), WC puis salle de bains. Au fond : séjour traversant vers le balcon sud-ouest. À droite : les trois chambres en enfilade, côté nord-ouest pour les chambres 2 et 3, chambre 1 à l'angle (deux fenêtres). Les 6 convecteurs sont sous les fenêtres. Le ballon d'eau chaude est dans un placard de la cuisine."
+     },
+     {
+      "heading": "Caractéristiques",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Immeuble",
+        "Résidence Les Tilleuls, 1972 (permis 1970), 6 étages, 2 cages, ascenseur"
+       ],
+       [
+        "Situation du lot",
+        "4e étage sur 6, cage A"
+       ],
+       [
+        "Annexes",
+        "Cave n° 22, place de parking extérieure n° 31"
+       ],
+       [
+        "Chauffage / ECS",
+        "Électrique individuel : 6 convecteurs 1998 ; ballon 200 L (2011)"
+       ],
+       [
+        "Électricité",
+        "Partiellement refaite en 2010, tableau neuf"
+       ],
+       [
+        "Sols / cuisine",
+        "Stratifié 2016 ; cuisine équipée 2016"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D05",
+    "title": "Reportage photo commenté (12 photos)",
+    "kind": "photos",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Mode d'emploi",
+      "type": "text",
+      "text": "Les 12 photos sont décrites ci-dessous : ce que l'on voit, sans interprétation. Utilise-les pour la grille d'audit 360° (capsule 2.6), le repérage des déperditions (2.2) et l'annonce (4.1). Les visuels sont fournis à part dans la plateforme."
+     },
+     {
+      "heading": "Les photos",
+      "type": "table",
+      "headers": [
+       "N°",
+       "Sujet",
+       "Ce que l'on voit"
+      ],
+      "rows": [
+       [
+        "P01",
+        "Façade côté rue",
+        "Immeuble de 1972 en béton, 6 étages, enduit terni, balcons en saillie (dalle traversante). Ravalement + ITE votés en AG (D07)."
+       ],
+       [
+        "P02",
+        "Séjour",
+        "24 m², lumineux ; baie et fenêtre PVC double vitrage 2004 en bon état ; deux convecteurs sous les fenêtres ; pièce encombrée."
+       ],
+       [
+        "P03",
+        "Balcon sud-ouest",
+        "6 m², vue dégagée ; dalle traversante (pont thermique) ; garde-corps métal, traces de rouille au nez de dalle (partie commune : syndic)."
+       ],
+       [
+        "P04",
+        "Grande chambre (11 m²)",
+        "Deux fenêtres bois simple vitrage d'origine, joints dégradés, peinture écaillée, condensation en bas de vitre."
+       ],
+       [
+        "P05",
+        "Chambre 2 (10 m²)",
+        "Fenêtre bois simple vitrage d'origine ; sensation de paroi froide ; aucune trace d'humidité ; sol stratifié 2016."
+       ],
+       [
+        "P06",
+        "Salle de bains (plafond et angles)",
+        "Baignoire, faïence ancienne ; moisissures noires au plafond et dans les angles ; traces de condensation."
+       ],
+       [
+        "P07",
+        "Salle de bains (bouche de ventilation)",
+        "Bouche du conduit shunt encrassée, en partie obstruée ; pas de VMC."
+       ],
+       [
+        "P08",
+        "Cuisine",
+        "Cuisine équipée 2016 en bon état ; auréole jaunie d'environ 40 cm au plafond (dégât des eaux du 5e en 2022, cause réparée, sinistre clos)."
+       ],
+       [
+        "P09",
+        "Ballon d'eau chaude",
+        "Ballon électrique 200 L de 2011 dans un placard de la cuisine ; fonctionne."
+       ],
+       [
+        "P10",
+        "Convecteur (détail)",
+        "Convecteur « grille-pain » de 1998 (plaque signalétique), thermostat mécanique à molette, pas de programmation ; 6 appareils au total."
+       ],
+       [
+        "P11",
+        "Dégagement",
+        "Fissure fine (< 0,2 mm) en escalier sur la cloison, non structurelle, à surveiller (photo datée avec réglet)."
+       ],
+       [
+        "P12",
+        "Tableau électrique",
+        "Tableau refait en 2010, bon état apparent ; l'état de l'installation intérieure d'électricité relève du diagnostic (D17)."
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D06",
+    "title": "Appels de charges et budget prévisionnel 2026",
+    "kind": "tableau",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Références",
+      "type": "text",
+      "text": "Syndicat des copropriétaires de la Résidence Les Tilleuls, représenté par le Cabinet Martel Gestion (Melun), gestionnaire Mme Roy. Lot de M. Alain Bernard : appartement, cave n° 22, parking n° 31 — 312 / 10 000 tantièmes de charges générales. Simplification pédagogique : toutes les dépenses sont réparties en charges générales."
+     },
+     {
+      "heading": "Budget prévisionnel 2026 (voté le 12/06/2025)",
+      "type": "table",
+      "headers": [
+       "Poste",
+       "Immeuble",
+       "Quote-part du lot (312/10 000)"
+      ],
+      "rows": [
+       [
+        "Ascenseurs (contrats d'entretien, électricité, téléalarme)",
+        "11 900 €",
+        "371,28 €"
+       ],
+       [
+        "Nettoyage et entretien des parties communes",
+        "16 500 €",
+        "514,80 €"
+       ],
+       [
+        "Eau froide (compteur général, hors relevés individuels)",
+        "12 400 €",
+        "386,88 €"
+       ],
+       [
+        "Électricité des parties communes",
+        "6 300 €",
+        "196,56 €"
+       ],
+       [
+        "Assurance multirisque de l'immeuble",
+        "8 600 €",
+        "268,32 €"
+       ],
+       [
+        "Honoraires du syndic (gestion courante)",
+        "10 200 €",
+        "318,24 €"
+       ],
+       [
+        "Espaces verts",
+        "4 800 €",
+        "149,76 €"
+       ],
+       [
+        "Petites réparations et entretien courant",
+        "7 300 €",
+        "227,76 €"
+       ],
+       [
+        "Contrats divers (portes, interphones, extincteurs, désinsectisation)",
+        "2 400 €",
+        "74,88 €"
+       ],
+       [
+        "Frais bancaires, affranchissements, conseil syndical",
+        "1 100 €",
+        "34,32 €"
+       ],
+       [
+        "Provision pour dépenses imprévues",
+        "3 500 €",
+        "109,20 €"
+       ],
+       [
+        "TOTAL BUDGET PRÉVISIONNEL 2026",
+        "85 000 €",
+        "2 652,00 €"
+       ]
+      ]
+     },
+     {
+      "heading": "Appel de fonds du 4e trimestre 2026 (exigible le 1/10/2026)",
+      "type": "table",
+      "headers": [
+       "Ligne",
+       "Montant"
+      ],
+      "rows": [
+       [
+        "Provision sur budget 2026 (1/4 de 2 652 €)",
+        "663,00 €"
+       ],
+       [
+        "Cotisation au fonds de travaux (1/4 de 132,60 €)",
+        "33,15 €"
+       ],
+       [
+        "Total appelé",
+        "696,15 €"
+       ],
+       [
+        "Situation du compte au 30/09/2026",
+        "À jour (aucune somme due)"
+       ]
+      ]
+     },
+     {
+      "heading": "Fonds de travaux",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Cotisation annuelle de l'immeuble votée en AG (5 % du budget)",
+        "4 250 €"
+       ],
+       [
+        "Cotisation annuelle du lot",
+        "132,60 €"
+       ],
+       [
+        "Solde attaché au lot au 30/09/2026",
+        "1 061 €"
+       ],
+       [
+        "Règle (fait vérifié)",
+        "Sommes attachées au lot et acquises au syndicat : pas de remboursement par le syndicat lors de la vente"
+       ]
+      ]
+     },
+     {
+      "heading": "Appels de fonds travaux déjà votés (ITE, AG du 12/06/2025)",
+      "type": "table",
+      "headers": [
+       "Échéance",
+       "Montant pour le lot"
+      ],
+      "rows": [
+       [
+        "1/01/2027",
+        "8 970 €"
+       ],
+       [
+        "1/04/2027",
+        "8 970 €"
+       ],
+       [
+        "1/07/2027",
+        "8 970 €"
+       ],
+       [
+        "1/10/2027",
+        "8 970 €"
+       ],
+       [
+        "Total",
+        "35 880 €"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D07",
+    "title": "PV d'AG du 12/06/2025 (extraits)",
+    "kind": "pv",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "En-tête",
+      "type": "text",
+      "text": "Procès-verbal de l'assemblée générale ordinaire du syndicat des copropriétaires de la Résidence Les Tilleuls, tenue le 12 juin 2025 à 18 h 30, salle municipale du quartier, sur convocation du Cabinet Martel Gestion. Copropriétaires présents ou représentés : 33 sur 48, totalisant 7 420 tantièmes sur 10 000. M. Alain Bernard (lot 312/10 000) est présent."
+     },
+     {
+      "heading": "Résolutions (extraits)",
+      "type": "table",
+      "headers": [
+       "N°",
+       "Objet",
+       "Majorité",
+       "Pour / Contre / Abst. (tantièmes)",
+       "Décision"
+      ],
+      "rows": [
+       [
+        "1",
+        "Élection du président de séance",
+        "Art. 24",
+        "7 420 / 0 / 0",
+        "Adoptée"
+       ],
+       [
+        "3",
+        "Approbation des comptes de l'exercice 2024",
+        "Art. 24",
+        "6 980 / 0 / 440",
+        "Adoptée"
+       ],
+       [
+        "5",
+        "Budget prévisionnel 2026 : 85 000 €",
+        "Art. 24",
+        "6 610 / 310 / 500",
+        "Adoptée"
+       ],
+       [
+        "6",
+        "Cotisation au fonds de travaux maintenue à 5 % du budget (4 250 €)",
+        "Art. 25",
+        "5 520 / 1 400 / 500",
+        "Adoptée (5 520 > 5 000)"
+       ],
+       [
+        "8",
+        "Travaux de ravalement avec isolation thermique par l'extérieur, entreprise Façades Briardes, 1 150 000 € TTC (honoraires de maîtrise d'œuvre, de syndic et assurance dommages-ouvrage compris)",
+        "Art. 25",
+        "5 680 / 1 240 / 500",
+        "Adoptée (5 680 > 5 000)"
+       ],
+       [
+        "9",
+        "Échéancier : 4 appels de 25 % exigibles les 1/01, 1/04, 1/07 et 1/10/2027",
+        "Art. 24",
+        "6 400 / 520 / 500",
+        "Adoptée"
+       ],
+       [
+        "10",
+        "Mandat au syndic pour demander l'aide MaPrimeRénov' Copropriété et désigner une assistance à maîtrise d'ouvrage",
+        "Art. 24",
+        "7 100 / 0 / 320",
+        "Adoptée"
+       ],
+       [
+        "11",
+        "Étude préalable à la réfection de la toiture-terrasse",
+        "Art. 24",
+        "2 900 / 3 700 / 820",
+        "Rejetée — reportée à une prochaine AG"
+       ]
+      ]
+     },
+     {
+      "heading": "Résolution 8 : détail",
+      "type": "text",
+      "text": "Démarrage prévu en avril 2027, durée estimée 8 mois. Objectif annoncé par le maître d'œuvre : amélioration de la classe énergétique de l'immeuble (DPE collectif réalisé en février 2026 : E). Quote-part du lot de M. Bernard : 1 150 000 × 312 / 10 000 = 35 880 €, soit 4 échéances de 8 970 €. Le montant de l'aide MaPrimeRénov' Copropriété n'est pas encore notifié : il ne peut pas être déduit."
+     },
+     {
+      "heading": "Rappel de la règle des majorités",
+      "type": "text",
+      "text": "Article 24 : majorité des voix exprimées des présents, représentés ou votant par correspondance. Article 25 : majorité des voix de tous les copropriétaires, soit plus de 5 000 tantièmes sur 10 000 ici. Fait vérifié (art. 6-2 du décret du 17/03/1967) : les appels de fonds sont payés au syndicat par le copropriétaire, vendeur ou acquéreur, à la date de leur exigibilité."
+     }
+    ]
+   },
+   {
+    "id": "D08",
+    "title": "Carnet d'entretien (extraits)",
+    "kind": "rapport",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Identification",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Immeuble",
+        "Résidence Les Tilleuls, 14 rue des Acacias, 77000 Melun"
+       ],
+       [
+        "Construction",
+        "1972 (permis de construire 1970)"
+       ],
+       [
+        "Syndic",
+        "Cabinet Martel Gestion — gestionnaire Mme Roy"
+       ],
+       [
+        "Lots",
+        "48 lots principaux (logements), caves et parkings"
+       ],
+       [
+        "Dossier technique amiante (parties communes)",
+        "Établi, consultable chez le syndic"
+       ]
+      ]
+     },
+     {
+      "heading": "Contrats d'entretien en cours",
+      "type": "table",
+      "headers": [
+       "Équipement",
+       "Prestataire (fictif)",
+       "Échéance"
+      ],
+      "rows": [
+       [
+        "Ascenseurs (2)",
+        "Ascenseurs de la Brie",
+        "31/12/2027"
+       ],
+       [
+        "Assurance multirisque immeuble",
+        "Mutuelle fictive « Assur'Habitat »",
+        "Reconduction annuelle au 1/01"
+       ],
+       [
+        "Nettoyage parties communes",
+        "Net'Seine",
+        "Reconduction annuelle"
+       ],
+       [
+        "Entretien des espaces verts",
+        "Jardins de Melun",
+        "Reconduction annuelle"
+       ]
+      ]
+     },
+     {
+      "heading": "Historique des gros travaux",
+      "type": "table",
+      "headers": [
+       "Année",
+       "Travaux",
+       "Commentaire"
+      ],
+      "rows": [
+       [
+        "2004",
+        "Réfection de l'étanchéité de la toiture-terrasse",
+        "Fin de vie prévue vers 2030"
+       ],
+       [
+        "2015",
+        "Remplacement des colonnes d'eau",
+        "Bon état"
+       ],
+       [
+        "2019",
+        "Remplacement des 2 ascenseurs",
+        "Bon état"
+       ],
+       [
+        "2022",
+        "Dégât des eaux du lot du 5e (cage A) vers le lot du 4e",
+        "Cause réparée, sinistre clos, prise en charge par l'assurance de l'immeuble"
+       ],
+       [
+        "2024",
+        "PPPT adopté en AG le 20/06/2024",
+        "Voir D09"
+       ],
+       [
+        "2026",
+        "DPE collectif (février)",
+        "Classe E"
+       ]
+      ]
+     },
+     {
+      "heading": "Observations du syndic",
+      "type": "text",
+      "text": "Ventilation naturelle par conduits shunt dans tout l'immeuble ; plusieurs copropriétaires signalent des conduits encrassés. Aucune procédure judiciaire en cours. Taux d'impayés de charges : 6 % du budget (niveau modéré, à surveiller)."
+     }
+    ]
+   },
+   {
+    "id": "D09",
+    "title": "Synthèse du PPPT",
+    "kind": "rapport",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Contexte",
+      "type": "text",
+      "text": "Projet de plan pluriannuel de travaux (PPPT) adopté en AG le 20/06/2024, réalisé par un bureau d'études fictif. Fait vérifié : le PPPT est obligatoire pour les copropriétés de plus de 15 ans ; pour celles de 50 lots ou moins, l'obligation s'applique depuis le 1/01/2025 (Les Tilleuls, 48 lots, l'a fait en avance). Il couvre 10 ans et doit être actualisé tous les 10 ans."
+     },
+     {
+      "heading": "Programme sur 10 ans (estimations du PPPT)",
+      "type": "table",
+      "headers": [
+       "Travaux",
+       "Année cible",
+       "Estimation TTC",
+       "Quote-part du lot (312/10 000)",
+       "Statut"
+      ],
+      "rows": [
+       [
+        "Ravalement + isolation thermique par l'extérieur (ITE), traitement des nez de dalle des balcons",
+        "2027",
+        "1 100 000 €",
+        "34 320 €",
+        "Votée le 12/06/2025 : 1 150 000 € TTC (devis retenu)"
+       ],
+       [
+        "Remplacement des menuiseries des parties communes (halls, cages d'escalier)",
+        "2028",
+        "85 000 €",
+        "2 652 €",
+        "À voter"
+       ],
+       [
+        "Réfection et isolation de la toiture-terrasse",
+        "2030",
+        "210 000 €",
+        "6 552 €",
+        "Étude préalable rejetée en 2025, à revoter"
+       ],
+       [
+        "Étude de ventilation collective (conduits shunt)",
+        "2029",
+        "15 000 €",
+        "468 €",
+        "À voter"
+       ],
+       [
+        "Rénovation des halls et de l'éclairage des parties communes",
+        "2032",
+        "60 000 €",
+        "1 872 €",
+        "À voter"
+       ],
+       [
+        "TOTAL des estimations du PPPT",
+        "2027-2032",
+        "1 470 000 €",
+        "45 864 €",
+        "Hors aides"
+       ]
+      ]
+     },
+     {
+      "heading": "Performance attendue",
+      "type": "text",
+      "text": "Selon le bureau d'études (estimation fictive), l'ITE et la toiture amélioreraient la performance de l'immeuble d'une à deux classes. Pour le lot de M. Bernard, l'estimation pédagogique est : après travaux privatifs ≈ 110 kWhEF/m²/an (D), après ITE en plus ≈ 85 kWhEF/m²/an, soit 162 kWhEP avec le coefficient 1,9 (C). À faire confirmer par un diagnostiqueur."
+     },
+     {
+      "heading": "Ce que l'agent en retient",
+      "type": "list",
+      "items": [
+       "Les 35 880 € de l'ITE sont votés : ils sont certains et datés.",
+       "Les autres postes sont des estimations non votées : à présenter comme un risque, avec leur ordre de grandeur (370 000 € × 312 / 10 000 ≈ 11 544 € pour le lot de 2028 à 2032).",
+       "La toiture-terrasse (fin de vie 2030) est le prochain gros poste.",
+       "Une copropriété qui planifie ses travaux est un argument de valeur, pas seulement un coût."
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D10",
+    "title": "Fiche synthétique de la copropriété",
+    "kind": "formulaire",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Identification",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Nom",
+        "Résidence Les Tilleuls"
+       ],
+       [
+        "Adresse",
+        "14 rue des Acacias, 77000 Melun"
+       ],
+       [
+        "Numéro d'immatriculation au registre (fictif)",
+        "AC7-845-213"
+       ],
+       [
+        "Date du règlement de copropriété",
+        "1972"
+       ],
+       [
+        "Syndic",
+        "Cabinet Martel Gestion, syndic professionnel, mandat jusqu'au 30/06/2027"
+       ]
+      ]
+     },
+     {
+      "heading": "Organisation juridique et technique",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Nombre de lots principaux",
+        "48 logements"
+       ],
+       [
+        "Lots annexes",
+        "48 caves, 52 places de parking extérieures"
+       ],
+       [
+        "Bâtiments / cages",
+        "1 bâtiment, 2 cages, 6 étages, 2 ascenseurs"
+       ],
+       [
+        "Chauffage",
+        "Individuel électrique (pas de chauffage collectif)"
+       ],
+       [
+        "Période de construction",
+        "1970-1974"
+       ],
+       [
+        "DPE collectif",
+        "Février 2026 : classe E"
+       ],
+       [
+        "PPPT",
+        "Adopté le 20/06/2024"
+       ]
+      ]
+     },
+     {
+      "heading": "Données financières (exercice 2025)",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Budget prévisionnel 2026",
+        "85 000 €"
+       ],
+       [
+        "Charges pour opérations courantes 2025",
+        "83 400 €"
+       ],
+       [
+        "Impayés de charges",
+        "5 100 € (6 % du budget)"
+       ],
+       [
+        "Dettes fournisseurs",
+        "2 300 €"
+       ],
+       [
+        "Fonds de travaux (solde immeuble au 30/09/2026)",
+        "≈ 34 000 €"
+       ],
+       [
+        "Procédures judiciaires en cours",
+        "Aucune"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D11",
+    "title": "Extrait du titre de propriété et taxe foncière",
+    "kind": "acte",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Extrait de l'acte d'acquisition",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Date de l'acte",
+        "1998 (acte reçu par un notaire de Melun)"
+       ],
+       [
+        "Acquéreur",
+        "M. Alain Bernard, seul propriétaire (bien propre — origine de propriété à faire confirmer par le notaire)"
+       ],
+       [
+        "Désignation",
+        "Lot n° 87 : appartement T4 au 4e étage, cage A ; lot n° 122 : cave n° 22 ; lot n° 171 : parking extérieur n° 31"
+       ],
+       [
+        "Tantièmes",
+        "312 / 10 000 des parties communes générales (lots 87, 122 et 171 réunis)"
+       ],
+       [
+        "Financement",
+        "Prêt soldé, aucune hypothèque inscrite en cours"
+       ]
+      ]
+     },
+     {
+      "heading": "Avis de taxe foncière 2026 (extrait)",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Montant"
+      ],
+      "rows": [
+       [
+        "Taxe foncière sur les propriétés bâties",
+        "1 412 € par an"
+       ],
+       [
+        "Dont taxe d'enlèvement des ordures ménagères",
+        "Comprise dans le montant ci-dessus"
+       ],
+       [
+        "Échéance",
+        "15/10/2026"
+       ]
+      ]
+     },
+     {
+      "heading": "Points d'attention",
+      "type": "text",
+      "text": "Vérifier la concordance des numéros de lots entre le titre, le règlement de copropriété et le pré-état daté. La taxe foncière de l'année de la vente est habituellement répartie au prorata entre vendeur et acquéreur par une clause de l'acte (usage, à confirmer par le notaire)."
+     }
+    ]
+   },
+   {
+    "id": "D12",
+    "title": "Tableau des comparables (fictifs)",
+    "kind": "tableau",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Méthode",
+      "type": "text",
+      "text": "8 ventes fictives d'appartements T3-T4 dans des immeubles de 1968 à 1978 du secteur de Melun, signées en 2025-2026, présentées comme un extrait de base de ventes (type DVF). C1 à C5 : biens en l'état (D-E). R1 à R3 : biens rénovés ou immeubles isolés (C-D). Classes DPE connues au moment de la vente. Prix net vendeur."
+     },
+     {
+      "heading": "Ventes comparables",
+      "type": "table",
+      "headers": [
+       "Réf.",
+       "Bien",
+       "Année immeuble",
+       "DPE",
+       "Date de vente",
+       "Prix net vendeur",
+       "€/m²"
+      ],
+      "rows": [
+       [
+        "C1",
+        "T4 78 m², 4e avec ascenseur",
+        "1972",
+        "E",
+        "03/2026",
+        "204 360 €",
+        "2 620"
+       ],
+       [
+        "C2",
+        "T3 68 m², 2e sans ascenseur",
+        "1968",
+        "D",
+        "11/2025",
+        "183 600 €",
+        "2 700"
+       ],
+       [
+        "C3",
+        "T4 80 m², 5e avec ascenseur",
+        "1975",
+        "E",
+        "06/2026",
+        "212 000 €",
+        "2 650"
+       ],
+       [
+        "C4",
+        "T4 74 m², 1er sans ascenseur",
+        "1970",
+        "E",
+        "01/2026",
+        "192 400 €",
+        "2 600"
+       ],
+       [
+        "C5",
+        "T3 70 m², 3e avec ascenseur",
+        "1978",
+        "D",
+        "09/2025",
+        "188 300 €",
+        "2 690"
+       ],
+       [
+        "R1",
+        "T4 75 m², immeuble isolé par l'extérieur en 2022",
+        "1971",
+        "C",
+        "02/2026",
+        "216 000 €",
+        "2 880"
+       ],
+       [
+        "R2",
+        "T3 66 m², appartement rénové en 2024",
+        "1969",
+        "D",
+        "10/2025",
+        "186 120 €",
+        "2 820"
+       ],
+       [
+        "R3",
+        "T4 79 m², immeuble isolé par l'extérieur en 2021",
+        "1974",
+        "C",
+        "05/2026",
+        "225 150 €",
+        "2 850"
+       ]
+      ]
+     },
+     {
+      "heading": "Lecture",
+      "type": "table",
+      "headers": [
+       "Groupe",
+       "Biens",
+       "Prix moyen au m²"
+      ],
+      "rows": [
+       [
+        "D-E en l'état",
+        "C1 à C5",
+        "Médiane des €/m² (2 600 · 2 620 · 2 650 · 2 690 · 2 700) = 2 650 €/m²"
+       ],
+       [
+        "Rénovés / immeuble isolé (C-D)",
+        "R1 à R3",
+        "Médiane (2 820 · 2 850 · 2 880) = 2 850 €/m²"
+       ],
+       [
+        "Base en l'état du bien de M. Bernard",
+        "76 m²",
+        "76 × 2 650 = 201 400 €"
+       ],
+       [
+        "Valeur après rénovation",
+        "76 m²",
+        "76 × 2 850 = 216 600 €"
+       ]
+      ]
+     },
+     {
+      "heading": "Attention",
+      "type": "text",
+      "text": "Les comparables C1 à C5 n'ont pas de travaux de façade votés. Le bien de M. Bernard supporte 35 880 € d'appels de fonds ITE (D07) : ajustement à justifier dans l'estimation (capsule 2.10). Données fictives inspirées de DVF."
+     }
+    ]
+   },
+   {
+    "id": "D13",
+    "title": "Devis des travaux privatifs",
+    "kind": "devis",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Présentation",
+      "type": "text",
+      "text": "Quatre devis fictifs, établis en octobre 2026 pour le lot de M. Bernard, à remettre aux acquéreurs. Prix indicatifs à valider localement. Fait vérifié : TVA à 5,5 % pour les travaux d'amélioration de la performance énergétique listés par l'arrêté du 4/12/2024 (art. 278-0 bis A du CGI ; logement achevé depuis plus de 2 ans) : fenêtres Uw ≤ 1,3 et Sw ≥ 0,3, VMC simple flux hygroréglable, régulation et programmation du chauffage, chauffe-eau thermodynamique répondant aux critères. Les autres travaux d'amélioration, comme les radiateurs, relèvent du taux de 10 % (art. 279-0 bis du CGI). Le client atteste par écrit que les conditions du taux réduit sont remplies."
+     },
+     {
+      "heading": "Devis 1 — Menuiserie du Val de Seine : 4 fenêtres",
+      "type": "table",
+      "headers": [
+       "Désignation",
+       "Qté",
+       "PU HT",
+       "Total HT",
+       "TVA"
+      ],
+      "rows": [
+       [
+        "Fenêtre PVC 2 vantaux 120 × 135 cm, double vitrage 4/16/4 argon, Uw = 1,3 W/m².K, Sw = 0,42 (grande chambre)",
+        "2",
+        "980,00 €",
+        "1 960,00 €",
+        "5,5 %"
+       ],
+       [
+        "Fenêtre PVC 2 vantaux 100 × 125 cm, mêmes performances (chambres 2 et 3)",
+        "2",
+        "890,00 €",
+        "1 780,00 €",
+        "5,5 %"
+       ],
+       [
+        "Dépose des fenêtres bois existantes, évacuation et recyclage",
+        "4",
+        "95,00 €",
+        "380,00 €",
+        "5,5 %"
+       ],
+       [
+        "Pose en rénovation, calfeutrement, habillages intérieurs et extérieurs (forfait)",
+        "1",
+        "1 188,06 €",
+        "1 188,06 €",
+        "5,5 %"
+       ]
+      ]
+     },
+     {
+      "heading": "Devis 1 — récapitulatif",
+      "type": "table",
+      "headers": [
+       "Base",
+       "Montant HT",
+       "TVA / TTC"
+      ],
+      "rows": [
+       [
+        "Total HT à 5,5 %",
+        "5 308,06 €",
+        "TVA 5,5 % : 291,94 €"
+       ],
+       [
+        "TOTAL TTC",
+        "5 308,06 € HT",
+        "5 600,00 € TTC"
+       ]
+      ]
+     },
+     {
+      "heading": "Devis 2 — Ventil'Brie : VMC et conduit",
+      "type": "table",
+      "headers": [
+       "Désignation",
+       "Qté",
+       "PU HT",
+       "Total HT",
+       "TVA"
+      ],
+      "rows": [
+       [
+        "Caisson VMC simple flux hygroréglable type B basse consommation",
+        "1",
+        "640,00 €",
+        "640,00 €",
+        "5,5 %"
+       ],
+       [
+        "Bouches d'extraction hygroréglables (cuisine, salle de bains, WC)",
+        "3",
+        "75,00 €",
+        "225,00 €",
+        "5,5 %"
+       ],
+       [
+        "Entrées d'air hygroréglables sur menuiseries (séjour, 3 chambres)",
+        "5",
+        "32,00 €",
+        "160,00 €",
+        "5,5 %"
+       ],
+       [
+        "Gaines, raccordements, pose et mise en service (forfait)",
+        "1",
+        "1 050,26 €",
+        "1 050,26 €",
+        "5,5 %"
+       ],
+       [
+        "Débouchage et nettoyage du conduit de la salle de bains, inspection caméra",
+        "1",
+        "646,00 €",
+        "646,00 €",
+        "10 %"
+       ]
+      ]
+     },
+     {
+      "heading": "Devis 2 — récapitulatif",
+      "type": "table",
+      "headers": [
+       "Base",
+       "Montant HT",
+       "TVA / TTC"
+      ],
+      "rows": [
+       [
+        "Total HT à 5,5 %",
+        "2 075,26 €",
+        "TVA 5,5 % : 114,14 €"
+       ],
+       [
+        "Total HT à 10 %",
+        "646,00 €",
+        "TVA 10 % : 64,60 €"
+       ],
+       [
+        "TOTAL TTC",
+        "2 721,26 € HT",
+        "2 900,00 € TTC"
+       ]
+      ]
+     },
+     {
+      "heading": "Devis 3 — Élec'Melun : chauffage",
+      "type": "table",
+      "headers": [
+       "Désignation",
+       "Qté",
+       "PU HT",
+       "Total HT",
+       "TVA"
+      ],
+      "rows": [
+       [
+        "Radiateur à inertie sèche 1 500 W, programmable, détection de fenêtre ouverte (séjour)",
+        "2",
+        "690,00 €",
+        "1 380,00 €",
+        "10 %"
+       ],
+       [
+        "Radiateur à inertie sèche 1 000 W, programmable (chambres, cuisine)",
+        "4",
+        "520,00 €",
+        "2 080,00 €",
+        "10 %"
+       ],
+       [
+        "Gestionnaire d'énergie programmable avec délestage et thermostat d'ambiance",
+        "1",
+        "380,00 €",
+        "380,00 €",
+        "5,5 %"
+       ],
+       [
+        "Dépose des 6 convecteurs, pose, raccordement fil pilote, essais (forfait)",
+        "1",
+        "539,18 €",
+        "539,18 €",
+        "10 %"
+       ]
+      ]
+     },
+     {
+      "heading": "Devis 3 — récapitulatif",
+      "type": "table",
+      "headers": [
+       "Base",
+       "Montant HT",
+       "TVA / TTC"
+      ],
+      "rows": [
+       [
+        "Total HT à 5,5 %",
+        "380,00 €",
+        "TVA 5,5 % : 20,90 €"
+       ],
+       [
+        "Total HT à 10 %",
+        "3 999,18 €",
+        "TVA 10 % : 399,92 €"
+       ],
+       [
+        "TOTAL TTC",
+        "4 379,18 € HT",
+        "4 800,00 € TTC"
+       ]
+      ]
+     },
+     {
+      "heading": "Devis 4 — Élec'Melun : eau chaude",
+      "type": "table",
+      "headers": [
+       "Désignation",
+       "Qté",
+       "PU HT",
+       "Total HT",
+       "TVA"
+      ],
+      "rows": [
+       [
+        "Chauffe-eau thermodynamique 200 L sur air ambiant, classe d'efficacité A+",
+        "1",
+        "2 150,00 €",
+        "2 150,00 €",
+        "5,5 %"
+       ],
+       [
+        "Dépose et évacuation du ballon électrique 200 L de 2011",
+        "1",
+        "120,00 €",
+        "120,00 €",
+        "5,5 %"
+       ],
+       [
+        "Pose, raccordements hydrauliques et électriques, groupe de sécurité, mise en service (forfait)",
+        "1",
+        "763,18 €",
+        "763,18 €",
+        "5,5 %"
+       ]
+      ]
+     },
+     {
+      "heading": "Devis 4 — récapitulatif",
+      "type": "table",
+      "headers": [
+       "Base",
+       "Montant HT",
+       "TVA / TTC"
+      ],
+      "rows": [
+       [
+        "Total HT à 5,5 %",
+        "3 033,18 €",
+        "TVA 5,5 % : 166,82 €"
+       ],
+       [
+        "TOTAL TTC",
+        "3 033,18 € HT",
+        "3 200,00 € TTC"
+       ]
+      ]
+     },
+     {
+      "heading": "Synthèse",
+      "type": "table",
+      "headers": [
+       "Poste",
+       "Devis TTC"
+      ],
+      "rows": [
+       [
+        "Fenêtres (4)",
+        "5 600 €"
+       ],
+       [
+        "VMC hygroréglable + débouchage",
+        "2 900 €"
+       ],
+       [
+        "6 radiateurs à inertie + régulation",
+        "4 800 €"
+       ],
+       [
+        "Chauffe-eau thermodynamique 200 L",
+        "3 200 €"
+       ],
+       [
+        "TOTAL",
+        "16 500 €"
+       ]
+      ]
+     },
+     {
+      "heading": "Réserves techniques à faire vérifier",
+      "type": "list",
+      "items": [
+       "Fenêtres : l'aspect extérieur (teinte, partition) doit respecter le règlement de copropriété ; autorisation éventuelle de l'AG si la façade est modifiée.",
+       "VMC : le rejet d'air dans un conduit collectif nécessite l'accord de la copropriété ; solution technique à valider avec le syndic et l'entreprise.",
+       "Chauffe-eau thermodynamique sur air ambiant : volume de la cuisine (≈ 22 m³) et bruit à vérifier ; variante gainable possible.",
+       "Aides : la TVA réduite ne dépend pas du label RGE, mais les aides publiques l'exigent souvent ; vérifier l'éligibilité au moment des travaux."
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D14",
+    "title": "Fiches des acquéreurs (Martin, Petit)",
+    "kind": "formulaire",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Julie et Thomas Martin",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Information"
+      ],
+      "rows": [
+       [
+        "Âges / situation",
+        "31 et 33 ans, en couple, primo-accédants, locataires à Melun"
+       ],
+       [
+        "Emploi",
+        "Tous deux en CDI (période d'essai terminée)"
+       ],
+       [
+        "Revenus nets",
+        "4 600 € par mois à deux"
+       ],
+       [
+        "Apport",
+        "22 000 €"
+       ],
+       [
+        "Crédits en cours",
+        "Aucun"
+       ],
+       [
+        "Projet",
+        "Résidence principale, 3 chambres (un enfant prévu), proche de la gare"
+       ],
+       [
+        "Budget annoncé",
+        "≈ 190 000 € FAI hors travaux ; travaux finançables par le prêt"
+       ],
+       [
+        "Profils DISC",
+        "Julie : I (influente, enthousiaste, sensible au coup de cœur) ; Thomas : S (stable, rassuré par le calme et les garanties)"
+       ],
+       [
+        "Financement",
+        "Simulation bancaire : prêt possible de 193 800 € sur 25 ans à 3,55 %"
+       ],
+       [
+        "Points de vigilance",
+        "Inquiets des travaux de copropriété ; veulent connaître le coût total"
+       ]
+      ]
+     },
+     {
+      "heading": "M. Petit",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Information"
+      ],
+      "rows": [
+       [
+        "Âge / situation",
+        "58 ans, investisseur, plusieurs biens locatifs"
+       ],
+       [
+        "Financement",
+        "Achat comptant, sans condition de prêt"
+       ],
+       [
+        "Projet",
+        "Location nue ; recherche un rendement"
+       ],
+       [
+        "Budget",
+        "170 000 € FAI maximum"
+       ],
+       [
+        "Points de vigilance",
+        "Négocie fortement en s'appuyant sur les travaux votés et le DPE"
+       ]
+      ]
+     },
+     {
+      "heading": "Rappel RGPD",
+      "type": "text",
+      "text": "Fiches internes à l'agence : données limitées au projet d'achat, conservées pour la durée de la recherche, jamais transmises à un outil d'IA sans anonymisation."
+     }
+    ]
+   },
+   {
+    "id": "D15",
+    "title": "Offres d'achat reçues",
+    "kind": "formulaire",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Offre n° 1 — M. Petit",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Contenu"
+      ],
+      "rows": [
+       [
+        "Date",
+        "25/11/2026"
+       ],
+       [
+        "Prix proposé",
+        "170 000 € FAI (161 000 € net vendeur + 9 000 € d'honoraires)"
+       ],
+       [
+        "Financement",
+        "Comptant, sans condition suspensive de prêt"
+       ],
+       [
+        "Validité",
+        "7 jours"
+       ],
+       [
+        "Conditions",
+        "Signature du compromis sous 15 jours"
+       ]
+      ]
+     },
+     {
+      "heading": "Offre n° 2 — Julie et Thomas Martin",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Contenu"
+      ],
+      "rows": [
+       [
+        "Date",
+        "28/11/2026"
+       ],
+       [
+        "Prix proposé",
+        "184 000 € FAI (175 000 € net vendeur + 9 000 € d'honoraires à la charge des acquéreurs)"
+       ],
+       [
+        "Financement",
+        "Prêt de 193 800 € sur 25 ans, taux maximal 3,90 % hors assurance ; apport 22 000 €"
+       ],
+       [
+        "Validité",
+        "Jusqu'au 3/12/2026"
+       ],
+       [
+        "Conditions",
+        "Condition suspensive de prêt ; appel de fonds ITE du 1/01/2027 payé par le vendeur et remboursé par les acquéreurs à l'acte ; échéances suivantes à leur charge"
+       ]
+      ]
+     },
+     {
+      "heading": "Décision",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Contenu"
+      ],
+      "rows": [
+       [
+        "Offre retenue",
+        "Offre n° 2 (Martin), acceptée par écrit par M. Bernard le 2/12/2026"
+       ],
+       [
+        "Motif",
+        "Net vendeur 175 000 € (plancher atteint), dossier de financement solide (taux d'endettement ≈ 22,3 %)"
+       ],
+       [
+        "Offre n° 1",
+        "Déclinée par écrit le 2/12/2026"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D16",
+    "title": "Pré-état daté",
+    "kind": "rapport",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Objet",
+      "type": "text",
+      "text": "Document établi le 5/12/2026 par le Cabinet Martel Gestion à la demande du vendeur, pour la signature du compromis. Il n'est pas prévu par un texte (contrairement à l'état daté, demandé par le notaire avant l'acte et plafonné à 380 € TTC). Arrêté au 30/09/2026."
+     },
+     {
+      "heading": "Partie 1 — Sommes dues par le vendeur",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Montant"
+      ],
+      "rows": [
+       [
+        "Provisions exigibles non payées",
+        "0 €"
+       ],
+       [
+        "Charges impayées des exercices antérieurs",
+        "0 €"
+       ],
+       [
+        "Avances",
+        "0 €"
+       ]
+      ]
+     },
+     {
+      "heading": "Partie 2 — Charges du lot",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Montant"
+      ],
+      "rows": [
+       [
+        "Charges courantes payées — exercice 2024",
+        "2 580 €"
+       ],
+       [
+        "Charges courantes payées — exercice 2025",
+        "2 610 €"
+       ],
+       [
+        "Budget 2026 — quote-part du lot",
+        "2 652 € (663 € par trimestre)"
+       ],
+       [
+        "Cotisation annuelle au fonds de travaux",
+        "132,60 €"
+       ],
+       [
+        "Solde du fonds de travaux attaché au lot",
+        "1 061 €"
+       ]
+      ]
+     },
+     {
+      "heading": "Partie 3 — Travaux votés non encore exigibles",
+      "type": "table",
+      "headers": [
+       "Échéance",
+       "Montant pour le lot"
+      ],
+      "rows": [
+       [
+        "1/01/2027",
+        "8 970 €"
+       ],
+       [
+        "1/04/2027",
+        "8 970 €"
+       ],
+       [
+        "1/07/2027",
+        "8 970 €"
+       ],
+       [
+        "1/10/2027",
+        "8 970 €"
+       ],
+       [
+        "Total ITE (AG du 12/06/2025)",
+        "35 880 €"
+       ]
+      ]
+     },
+     {
+      "heading": "Partie 4 — Situation de la copropriété",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Valeur"
+      ],
+      "rows": [
+       [
+        "Impayés de charges dans l'immeuble",
+        "6 % du budget"
+       ],
+       [
+        "Dettes fournisseurs",
+        "2 300 €"
+       ],
+       [
+        "Procédures en cours",
+        "Aucune"
+       ],
+       [
+        "Aide MaPrimeRénov' Copropriété",
+        "Demandée, montant non notifié"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D17",
+    "title": "Dossier de diagnostic technique (DDT)",
+    "kind": "rapport",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Composition du dossier transmis par le vendeur",
+      "type": "text",
+      "text": "Dossier remis par M. Bernard le 10/10/2026. Pour chaque pièce : date, résultat, validité. Rappel (fait vérifié, art. L. 271-4 du CCH) : le DDT est annexé à la promesse de vente ou, à défaut, à l'acte authentique."
+     },
+     {
+      "heading": "Pièces fournies",
+      "type": "table",
+      "headers": [
+       "Pièce",
+       "Date / opérateur",
+       "Résultat",
+       "Validité"
+      ],
+      "rows": [
+       [
+        "DPE n° 2377E0123456X + attestation actualisée",
+        "14/03/2023 / Diag77 ; attestation du 06/10/2026",
+        "Classe E (285 kWhEP, 12 kgCO₂)",
+        "13/03/2033"
+       ],
+       [
+        "État amiante (parties privatives)",
+        "14/03/2023 / Diag77",
+        "Absence de matériaux de la liste A et B sur les éléments accessibles",
+        "Illimitée (résultat négatif, repérage selon la norme en vigueur)"
+       ],
+       [
+        "État des risques (ERP)",
+        "08/10/2026 / Diag77",
+        "Zone de sismicité 1 (très faible) ; potentiel radon de catégorie 1 ; bien hors zone réglementée d'un plan de prévention des risques (données fictives)",
+        "6 mois, soit jusqu'au 08/04/2027"
+       ],
+       [
+        "Mesurage Carrez",
+        "10/10/2026 / Diag77",
+        "76,0 m² (lot n° 87)",
+        "Sans limite tant que le lot n'est pas modifié"
+       ]
+      ]
+     },
+     {
+      "heading": "Pièces non requises",
+      "type": "table",
+      "headers": [
+       "Diagnostic",
+       "Motif"
+      ],
+      "rows": [
+       [
+        "Constat de risque d'exposition au plomb",
+        "Immeuble construit après le 1/01/1949"
+       ],
+       [
+        "État de l'installation de gaz",
+        "Pas d'installation de gaz"
+       ],
+       [
+        "Audit énergétique réglementaire",
+        "Lot de copropriété"
+       ],
+       [
+        "État relatif aux termites",
+        "Selon l'arrêté préfectoral en vigueur (donnée fictive, à vérifier pour un vrai dossier)"
+       ],
+       [
+        "Assainissement non collectif",
+        "Immeuble raccordé au réseau public"
+       ]
+      ]
+     },
+     {
+      "heading": "Observations",
+      "type": "text",
+      "text": "Électricité partiellement refaite en 2010 (tableau neuf), installation d'origine 1972 pour une partie des circuits. Le dossier est à contrôler pièce par pièce avant le compromis (capsule 5.1)."
+     }
+    ]
+   },
+   {
+    "id": "D18",
+    "title": "Modèle de mandat exclusif",
+    "kind": "modele",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Statut du modèle",
+      "type": "text",
+      "text": "Trame pédagogique à adapter au modèle de ton réseau ou de ta fédération et à faire valider juridiquement. Faits vérifiés (loi n° 70-9 du 2/01/1970 et décret n° 72-678) : mandat écrit préalable, inscrit au registre des mandats ; prix, durée, rémunération et partie qui la paie précisés ; clause d'exclusivité en caractères très apparents ; résiliation possible après 3 mois avec préavis de 15 jours par lettre recommandée avec AR ; en cas de signature hors établissement, droit de rétractation de 14 jours avec formulaire."
+     },
+     {
+      "heading": "Identification",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "À compléter / exemple du fil rouge"
+      ],
+      "rows": [
+       [
+        "N° d'inscription au registre des mandats",
+        "…"
+       ],
+       [
+        "Mandant",
+        "M. Alain Bernard"
+       ],
+       [
+        "Mandataire",
+        "[Ton agence], carte professionnelle n° … délivrée par la CCI …, garantie financière …"
+       ],
+       [
+        "Bien",
+        "Lots 87, 122 et 171, Résidence Les Tilleuls, Melun ; T4 de 76,0 m² Carrez"
+       ],
+       [
+        "Date et lieu de signature",
+        "5/11/2026, à …"
+       ]
+      ]
+     },
+     {
+      "heading": "Conditions financières",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Exemple du fil rouge"
+      ],
+      "rows": [
+       [
+        "Prix de présentation",
+        "189 000 € honoraires inclus"
+       ],
+       [
+        "Prix net vendeur",
+        "180 000 €"
+       ],
+       [
+        "Honoraires",
+        "9 000 € TTC, soit 5 % du prix net vendeur, à la charge de l'acquéreur"
+       ],
+       [
+        "Exigibilité des honoraires",
+        "À la signature de l'acte authentique"
+       ]
+      ]
+     },
+     {
+      "heading": "CLAUSE D'EXCLUSIVITÉ (À IMPRIMER EN CARACTÈRES TRÈS APPARENTS)",
+      "type": "text",
+      "text": "PENDANT LA DURÉE DU PRÉSENT MANDAT, LE MANDANT S'INTERDIT DE NÉGOCIER LA VENTE DU BIEN, DIRECTEMENT OU PAR L'INTERMÉDIAIRE D'UN AUTRE MANDATAIRE. [Rédaction des conséquences et de la clause pénale éventuelle à faire valider juridiquement.]"
+     },
+     {
+      "heading": "Durée et résiliation",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Exemple"
+      ],
+      "rows": [
+       [
+        "Durée initiale",
+        "3 mois à compter du 5/11/2026"
+       ],
+       [
+        "Résiliation",
+        "Passé 3 mois, à tout moment, par lettre recommandée avec AR, préavis de 15 jours"
+       ],
+       [
+        "Rétractation (si signé hors établissement)",
+        "14 jours, formulaire détachable joint"
+       ]
+      ]
+     },
+     {
+      "heading": "Engagements écrits du mandataire (fil rouge)",
+      "type": "list",
+      "items": [
+       "Joindre l'attestation actualisée (classe E) à toute diffusion",
+       "Constituer et remettre le dossier technique du bien et de la copropriété",
+       "Mettre en œuvre le plan Éco-staging (≈ 450 € à la charge du vendeur)",
+       "Adresser un compte rendu écrit toutes les 2 semaines",
+       "Remettre à chaque acquéreur le chiffrage des travaux privatifs (16 500 € TTC)"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D19",
+    "title": "Compromis de vente (trame)",
+    "kind": "modele",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Statut",
+      "type": "text",
+      "text": "Trame pédagogique résumant les clauses principales : la rédaction de l'avant-contrat relève du notaire (ici Maître Lemoine, notaire des acquéreurs). Les mentions entre crochets sont à compléter par lui."
+     },
+     {
+      "heading": "Parties et bien",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Contenu"
+      ],
+      "rows": [
+       [
+        "Vendeur",
+        "M. Alain Bernard"
+       ],
+       [
+        "Acquéreurs",
+        "M. Thomas Martin et Mme Julie Martin"
+       ],
+       [
+        "Bien",
+        "Lots 87 (appartement 76,0 m² Carrez), 122 (cave) et 171 (parking), Résidence Les Tilleuls, Melun"
+       ],
+       [
+        "Date de signature",
+        "15/12/2026, en l'étude de Maître Lemoine"
+       ]
+      ]
+     },
+     {
+      "heading": "Prix et honoraires",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Contenu"
+      ],
+      "rows": [
+       [
+        "Prix de vente",
+        "175 000 €"
+       ],
+       [
+        "Honoraires de négociation",
+        "9 000 € TTC à la charge des acquéreurs"
+       ],
+       [
+        "Dépôt de garantie",
+        "[Montant à convenir, versé chez le notaire]"
+       ],
+       [
+        "Date prévue de l'acte authentique",
+        "15/03/2027"
+       ]
+      ]
+     },
+     {
+      "heading": "Condition suspensive de prêt",
+      "type": "table",
+      "headers": [
+       "Rubrique",
+       "Contenu"
+      ],
+      "rows": [
+       [
+        "Montant",
+        "193 800 €"
+       ],
+       [
+        "Durée",
+        "25 ans"
+       ],
+       [
+        "Taux maximal",
+        "3,90 % hors assurance"
+       ],
+       [
+        "Délai d'obtention",
+        "45 jours, soit jusqu'au 29/01/2027 (minimum légal : 1 mois, art. L. 313-41 C. conso)"
+       ],
+       [
+        "Obligation des acquéreurs",
+        "Déposer leurs demandes dans le délai fixé et en justifier"
+       ]
+      ]
+     },
+     {
+      "heading": "Travaux de copropriété votés (accord des parties)",
+      "type": "table",
+      "headers": [
+       "Échéance ITE",
+       "Payée au syndic par",
+       "Charge finale"
+      ],
+      "rows": [
+       [
+        "1/01/2027 — 8 970 €",
+        "M. Bernard (copropriétaire à cette date)",
+        "Acquéreurs : remboursement au vendeur le jour de l'acte"
+       ],
+       [
+        "1/04, 1/07 et 1/10/2027 — 3 × 8 970 €",
+        "Acquéreurs (copropriétaires à ces dates)",
+        "Acquéreurs"
+       ]
+      ]
+     },
+     {
+      "heading": "Annexes",
+      "type": "list",
+      "items": [
+       "DDT complet (D17 — à compléter de l'état de l'installation électrique)",
+       "Documents de copropriété : règlement et état descriptif, PV des 3 dernières AG, fiche synthétique, carnet d'entretien, PPPT, pré-état daté",
+       "Attestation de superficie Carrez",
+       "Notice d'information sur le droit de rétractation de 10 jours (art. L. 271-1 CCH)"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "D20",
+    "title": "Rétroplanning type",
+    "kind": "tableau",
+    "notice": "Document fictif à usage pédagogique",
+    "sections": [
+     {
+      "heading": "Avertissement",
+      "type": "text",
+      "text": "Document fictif à usage pédagogique : personnes, bien, copropriété, entreprises, montants et références sont inventés pour la formation Éco-Consultant. Seules les règles signalées comme telles sont réelles."
+     },
+     {
+      "heading": "Mode d'emploi",
+      "type": "text",
+      "text": "Rétroplanning de la vente de M. Bernard, du mandat à l'acte. Les délais légaux sont signalés « fait vérifié » ; les autres dates sont des objectifs à piloter. Mets-le à jour à chaque étape et partage-le avec le vendeur dans le compte rendu toutes les 2 semaines."
+     },
+     {
+      "heading": "Jalons",
+      "type": "table",
+      "headers": [
+       "Date",
+       "Jalon",
+       "Responsable",
+       "Point de contrôle"
+      ],
+      "rows": [
+       [
+        "05/11/2026",
+        "Signature du mandat exclusif (3 mois)",
+        "Agent / vendeur",
+        "Inscription au registre, rétractation 14 jours si hors établissement"
+       ],
+       [
+        "06-15/11/2026",
+        "Plan Éco-staging, photos, annonce",
+        "Agent",
+        "Classes E / C et coûts estimés dans l'annonce"
+       ],
+       [
+        "16-30/11/2026",
+        "Visites, qualification, offres",
+        "Agent",
+        "Plan de financement de chaque acquéreur"
+       ],
+       [
+        "02/12/2026",
+        "Acceptation de l'offre Martin (184 000 € FAI)",
+        "Vendeur",
+        "Acceptation écrite, offre Petit déclinée"
+       ],
+       [
+        "03-10/12/2026",
+        "Pièces au notaire : DDT, copropriété, pré-état daté",
+        "Agent / vendeur",
+        "Vérifier la réception de l'état de l'installation électrique commandé en novembre (capsule 3.1)"
+       ],
+       [
+        "15/12/2026",
+        "Signature du compromis",
+        "Notaire",
+        "Notification pour la rétractation"
+       ],
+       [
+        "28/12/2026",
+        "Fin du délai de rétractation (10 jours)",
+        "Notaire",
+        "Fait vérifié : départ le lendemain de la première présentation (16/12) ; le 10e jour tombe un samedi (26/12), prorogation au lundi 28/12"
+       ],
+       [
+        "01/01/2027",
+        "Appel ITE n° 1 (8 970 €) payé par M. Bernard",
+        "Vendeur",
+        "Garder la preuve de paiement pour l'acte"
+       ],
+       [
+        "29/01/2027",
+        "Fin de la condition suspensive de prêt (45 jours)",
+        "Acquéreurs",
+        "Offre de prêt émise ou attestation de refus"
+       ],
+       [
+        "Février 2027",
+        "Acceptation de l'offre de prêt",
+        "Acquéreurs",
+        "Fait vérifié : délai de réflexion de 10 jours"
+       ],
+       [
+        "≈ 17/12/2026",
+        "DIA déposée par le notaire, si le droit de préemption s'applique au lot",
+        "Notaire",
+        "Lot de copropriété de plus de 10 ans : en principe hors préemption, sauf délibération de la commune (L. 211-4 C. urb.) ; réponse sous 2 mois, soit ≈ 17/02/2027"
+       ],
+       [
+        "Février 2027",
+        "État daté demandé au syndic",
+        "Notaire",
+        "Fait vérifié : honoraires plafonnés à 380 € TTC"
+       ],
+       [
+        "15/03/2027",
+        "Signature de l'acte authentique",
+        "Notaire",
+        "Remboursement de l'appel du 1/01/2027 ; remise des clés"
+       ],
+       [
+        "01/04/2027",
+        "Appel ITE n° 2 payé par les Martin",
+        "Acquéreurs",
+        "Démarrage du chantier ITE"
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
