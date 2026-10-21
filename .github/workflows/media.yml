@@ -1,0 +1,32 @@
+name: media-capsule
+on:
+  push:
+    branches: [media-job]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and encode
+        run: |
+          set -e
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          mkdir -p out/hls
+          curl -sSL -o out/original.mp4 "$(cat .github/media-src.txt)"
+          ls -la out
+          ffmpeg -v error -y -i out/original.mp4 -vf scale=-2:720 -c:v libx264 -preset medium -crf 26 -c:a aac -b:a 96k -movflags +faststart out/capsule_1-1_720p.mp4
+          ffmpeg -v error -y -i out/capsule_1-1_720p.mp4 -c copy -hls_time 6 -hls_playlist_type vod -hls_segment_filename out/hls/seg_%03d.ts out/hls/index.m3u8
+          ls -la out out/hls | head -20
+      - name: Publish to media branch
+        run: |
+          git config user.name "media-bot"
+          git config user.email "media-bot@users.noreply.github.com"
+          git checkout --orphan media
+          git rm -rq --cached . || true
+          find . -maxdepth 1 ! -name out ! -name .git ! -name . -exec rm -rf {} +
+          mkdir -p capsule_1-1 && mv out/* capsule_1-1/ && rmdir out
+          SZ=$(stat -c %s capsule_1-1/original.mp4); if [ "$SZ" -gt 95000000 ]; then rm capsule_1-1/original.mp4; fi
+          git add -A && git commit -qm "Capsule 1.1 video (HeyGen render, 720p + HLS)"
+          git push -f origin media
