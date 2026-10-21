@@ -5,7 +5,7 @@
 </head><body><div id="ld"><div><b>Éco-Consultant</b>Chargement de la formation…</div></div>
 <script>
 (function(){
-  var BASE='https://cdn.jsdelivr.net/gh/peurpeuse/Eco-propriete-eco-consultant-module1@b20be4a037b719f286053b973c985360090b82ee/v3/';
+  var BASE='https://cdn.jsdelivr.net/gh/peurpeuse/Eco-propriete-eco-consultant-module1@4d1d562cb627a4fbc7aeddfb49e11898961f961d/v3/';
   function get(u,n){return fetch(BASE+u,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.text();}).catch(function(e){if(n>0)return new Promise(function(res){setTimeout(res,1500)}).then(function(){return get(u,n-1)});throw e;});}
   get('index.html',5).then(function(html){
     var doc=new DOMParser().parseFromString(html,'text/html');
