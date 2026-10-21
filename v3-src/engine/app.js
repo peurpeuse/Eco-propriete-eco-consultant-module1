@@ -198,6 +198,7 @@
     $('navBtn').setAttribute('aria-expanded', 'false');
     [].forEach.call(app.querySelectorAll('[data-sec]'), function (b) { b.onclick = function () { var id = b.getAttribute('data-sec'); openSecs[id] = !openSecs[id]; var n = $('courseNav'), st = n.scrollTop; n.outerHTML = navHtml(it); $('courseNav').scrollTop = st; bindNav(it); }; });
     bindNav(it);
+    attachHls();
     [].forEach.call(app.querySelectorAll('.main [data-key]'), function (b) { b.onclick = function () { go(['learn', b.getAttribute('data-key')]); }; });
     [].forEach.call(app.querySelectorAll('[data-home]'), function (b) { b.onclick = function () { go(['home']); }; });
     if (mk) $(mk.id).onclick = function () { mk.fn(it); refresh(it); announce('Élément terminé'); };
@@ -281,7 +282,8 @@
   var R = {}, B = {};
   R.video = function (it) {
     var c = it.cap, v = c.video;
-    var media = v.src ? '<video controls preload="metadata" playsinline' + (v.poster ? ' poster="' + esc(v.poster) + '"' : '') + ' src="' + esc(v.src) + '"></video>' :
+    var isHls = v.src && /\.m3u8($|\?)/.test(v.src);
+    var media = v.src ? '<video controls preload="metadata" playsinline' + (v.poster ? ' poster="' + esc(v.poster) + '"' : '') + (isHls ? ' data-hls="' : ' src="') + esc(v.src) + '"></video>' :
       '<img class="seb" src="assets/seb.png" alt=""><button class="pl" id="playBtn" aria-label="Lire la transcription"></button><span class="tag">Vidéo en production · avatar de Seb</span><span class="hook">« ' + esc(v.hook) + ' »</span>';
     return '<div class="player">' + media + '</div>' + (v.src ? (v.note ? '<p class="muted sm" style="margin-top:8px">' + esc(v.note) + '</p>' : '') : '<p class="muted sm" style="margin-top:8px">La vidéo de Seb est en cours de production. En attendant, la transcription complète est disponible ci-dessous.</p>') +
       '<div class="ptabs" role="tablist"><button role="tab" aria-selected="true" data-pt="tr">Transcription</button><button role="tab" aria-selected="false" data-pt="ob">Objectif</button>' + (C.showProd ? '<button role="tab" aria-selected="false" data-pt="prod">Montage</button>' : '') + '</div>' +
@@ -432,6 +434,23 @@
     var txt = (a.text || '').replace(/\{nom\}/g, name).replace(/\{date_debut\}/g, '…').replace(/\{date_fin\}/g, new Date().toLocaleDateString('fr-FR')).replace(/\{duree\}/g, M.duration || '…').replace(/\{resultat_quiz_final\}/g, S.t.fin != null ? S.t.fin + ' %' : '…');
     return (ok ? '' : '<p><span class="chip wait">Disponible après le quiz final réussi (' + TH + ' %) · aperçu</span></p>') + '<div class="att"><img src="assets/logo-dark.png" alt="Éco-Consultant"><h2>' + esc(a.title || 'Attestation de fin de formation') + '</h2><p>' + esc(txt) + '</p></div>';
   };
+
+  // Vidéos en streaming HLS (segments < 20 Mo, servis par jsDelivr) : natif sur Safari, hls.js ailleurs
+  var hlsLoading = null;
+  function attachHls() {
+    var vids = app.querySelectorAll('video[data-hls]');
+    if (!vids.length) return;
+    [].forEach.call(vids, function (vd) {
+      var url = vd.getAttribute('data-hls');
+      if (vd.canPlayType('application/vnd.apple.mpegurl')) { vd.src = url; return; }
+      var go = function () { if (window.Hls && window.Hls.isSupported()) { var h = new window.Hls(); h.loadSource(url); h.attachMedia(vd); } };
+      if (window.Hls) return go();
+      if (!hlsLoading) {
+        hlsLoading = new Promise(function (ok) { var sc = document.createElement('script'); sc.src = 'https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js'; sc.onload = ok; sc.onerror = ok; document.head.appendChild(sc); });
+      }
+      hlsLoading.then(go);
+    });
+  }
 
   if (PREVIEW) { var pb = document.createElement('div'); pb.className = 'preview'; pb.textContent = 'Démonstration · tout est ouvert'; document.body.appendChild(pb); }
   window.__eco = { S: S, go: go, FLAT: FLAT };
