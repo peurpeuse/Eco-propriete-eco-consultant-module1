@@ -83,6 +83,22 @@ details .in{padding:0 14px 14px;display:flex;flex-direction:column;gap:10px}
 .seg .tc{font-variant-numeric:tabular-nums;font-weight:700;color:var(--muted);font-size:14px;padding-top:2px}
 .seg .os{font-size:14px;color:var(--muted);margin-top:4px}
 .points{background:var(--orange-s);border-color:transparent}
+.seg.now{background:var(--green-s);border-radius:8px;box-shadow:0 0 0 6px var(--green-s)}
+.tcb{border:0;background:none;font-weight:700;color:var(--green-d);padding:2px 0 0;font-size:14px;font-variant-numeric:tabular-nums;text-align:left}
+.vwrap{background:var(--surface);padding-bottom:6px;z-index:2}
+.vwrap video{width:100%;aspect-ratio:16/9;border-radius:10px;background:#000;display:block}
+@media (min-width:700px){.vwrap{position:sticky;top:118px}.vwrap video{max-width:400px}}
+.tag.ok{background:var(--green-s);color:var(--green-d)}
+.tag.cf{background:var(--orange);color:#fff}
+.alt{border-left:3px solid var(--line);padding:2px 0 2px 8px;margin-top:6px;font-size:15px}
+.alt.won{border-color:var(--green);background:var(--green-s)}
+.alt .by{font-size:13px;font-weight:700;color:var(--muted);display:block}
+.ask{background:var(--sunk);border-radius:8px;padding:8px 10px;margin-top:6px;font-size:15px;display:flex;flex-direction:column;gap:6px}
+.ask.forme{outline:2px solid var(--orange)}
+.ask .rep{border-left:3px solid var(--green);padding-left:8px}
+.mini{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:8px;padding:3px 10px;font-size:14px;font-weight:600}
+.mini.sel{background:var(--green);border-color:var(--green);color:#fff}
+.edtools{display:flex;gap:4px 12px;flex-wrap:wrap}
 .rowbtns{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .watch{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--green-d);text-decoration:none;border:2px solid var(--green);border-radius:10px;padding:8px 14px;background:var(--surface)}
 .team{display:flex;flex-direction:column;gap:10px}
@@ -194,9 +210,54 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
   }
   function toast(t) { var x = $("toast"); x.textContent = t; x.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(function () { x.classList.remove("show"); }, 1800); }
   function label(it) { return it.kind === "module" ? "Module " + it.mod : "Capsule " + it.id; }
-  function rec(id) { if (!mine.items[id]) mine.items[id] = {}; var r = mine.items[id]; r.parts = r.parts || {}; r.edits = r.edits || {}; return r; }
+  function rec(id) { if (!mine.items[id]) mine.items[id] = {}; var r = mine.items[id]; ["parts", "edits", "asks", "answers", "choix"].forEach(function (k) { r[k] = r[k] || {}; }); return r; }
   function peek(id) { return mine.items[id] || {}; }
-  function myState(id) { return peek(id).s || ""; }
+  function applied(id) { return (DATA && DATA.applied && DATA.applied[id]) || null; }
+  // un élément déjà traité redevient « à revalider » quand des corrections ont été appliquées après ton avis
+  function isRev(id) { var r = peek(id), a = applied(id); return !!(r.s && a && (!r.at || r.at < a.at)); }
+  function myState(id) { return isRev(id) ? "" : (peek(id).s || ""); }
+  function dfr(iso) { var d = new Date(iso); return String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0"); }
+  var NAMES = {};
+  function who(u) { var n = NAMES[u], r = team[u] && team[u].role ? ROLE_NAME[team[u].role] : ""; return (n ? n.split(" ")[0] : "Quelqu'un") + (r ? " (" + r + ")" : ""); }
+  function tItem(u, id) { return (team[u] && team[u].items && team[u].items[id]) || {}; }
+  // une version proposée est périmée si la correction a été appliquée après qu'elle a été écrite
+  function stale(id, ref, e) { var a = applied(id); return !!(a && a.refs && a.refs[ref] !== undefined && (!e.at || e.at < a.at)); }
+  function versions(id, ref) {
+    var out = [];
+    Object.keys(team).forEach(function (u) { var e = (tItem(u, id).edits || {})[ref]; if (e && !stale(id, ref, e)) out.push({ u: u, after: e.after }); });
+    return out;
+  }
+  function decision(id, ref) {
+    var d = null;
+    Object.keys(team).forEach(function (u) { if (team[u].role === "DIR") { var c = (tItem(u, id).choix || {})[ref]; if (c) d = { by: u, pick: c }; } });
+    return d;
+  }
+  function conflicts() {
+    var out = [];
+    ITEMS.forEach(function (it, i) {
+      var refs = {};
+      Object.keys(team).forEach(function (u) { Object.keys(tItem(u, it.id).edits || {}).forEach(function (r) { refs[r] = 1; }); });
+      Object.keys(refs).forEach(function (r) {
+        var vs = versions(it.id, r), distinct = {}; vs.forEach(function (v) { distinct[v.after] = 1; });
+        if (Object.keys(distinct).length >= 2 && !decision(it.id, r)) out.push({ i: i, ref: r });
+      });
+    });
+    return out;
+  }
+  function asksForMe() {
+    var out = [];
+    if (!mine.role) return out;
+    ITEMS.forEach(function (it, i) {
+      Object.keys(team).forEach(function (u) {
+        if (u === uid) return;
+        var as = tItem(u, it.id).asks || {};
+        Object.keys(as).forEach(function (ref) {
+          if (as[ref].role === mine.role && !(peek(it.id).answers || {})[u + "|" + ref]) out.push({ i: i, u: u, ref: ref, q: as[ref].q });
+        });
+      });
+    });
+    return out;
+  }
   function done() { return ITEMS.filter(function (it) { return myState(it.id); }).length; }
   function est(it) { return it.kind === "module" ? 4 : Math.round(it.min + 5); }   // minutes de relecture estimées
   function mmss(s) { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + " min " + String(s % 60).padStart(2, "0"); }
@@ -227,33 +288,85 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
   }
 
   /* ---------- 1. correction directe dans le texte ---------- */
+  function myEdit(id, ref) { var e = (peek(id).edits || {})[ref]; return e && !stale(id, ref, e) ? e : null; }
   function editable(it, part, ref, text, display) {
-    var r = peek(it.id), e = r.edits && r.edits[ref];
-    var box = el("div", { class: "ed" + (e ? " chg" : "") });
+    var box = el("div", { class: "ed", "data-ref": ref });
     var drawView = function () {
-      box.textContent = ""; box.className = "ed" + ((peek(it.id).edits || {})[ref] ? " chg" : "");
-      var cur = (peek(it.id).edits || {})[ref];
+      var cur = myEdit(it.id, ref), a = applied(it.id);
+      box.textContent = ""; box.className = "ed" + (cur ? " chg" : "");
+      if (a && a.refs && a.refs[ref] !== undefined) box.appendChild(el("span", { class: "tag ok", text: "✓ Corrigé le " + dfr(a.at) }));
       if (cur) {
         box.appendChild(el("span", { class: "tag mine", text: "Ta version" }));
         box.appendChild(el("span", { class: "new", text: cur.after }));
         box.appendChild(el("del", { text: text }));
       } else box.appendChild(display ? display() : el("span", { text: text }));
-      if (!readOnly) box.appendChild(el("button", { class: "eb", type: "button", text: cur ? "✏️ Modifier ta version" : "✏️ Modifier", onclick: drawEdit }));
+      // 2. versions des autres + choix du décideur
+      var vs = versions(it.id, ref), dec = decision(it.id, ref), isDir = mine.role === "DIR" && !readOnly;
+      var distinct = {}; vs.forEach(function (v) { distinct[v.after] = 1; });
+      if (Object.keys(distinct).length >= 2 && !dec) box.appendChild(el("span", { class: "tag cf", text: "⚖️ Versions différentes · le décideur tranche" }));
+      var pick = function (val) { return function () { rec(it.id).choix[ref] = val; team[uid] = mine; save(); toast("Version retenue"); drawView(); }; };
+      vs.forEach(function (v) {
+        if (v.u === uid && !isDir) return;
+        var won = dec && dec.pick === v.u;
+        box.appendChild(el("div", { class: "alt" + (won ? " won" : "") }, [el("span", { class: "by", text: (v.u === uid ? "Ta version" : "Version de " + who(v.u)) + (won ? " · ✓ retenue par le décideur" : "") }), v.after,
+          isDir && !won ? el("button", { class: "eb", type: "button", text: "Retenir cette version", onclick: pick(v.u) }) : null]));
+      });
+      if (vs.length && dec && dec.pick === "orig") box.appendChild(el("span", { class: "tag ok", text: "Le décideur garde le texte d'origine" }));
+      // 3. questions aux experts sur ce passage
+      Object.keys(team).forEach(function (u) {
+        var q = (tItem(u, it.id).asks || {})[ref]; if (!q) return;
+        var key = u + "|" + ref, myAns = (peek(it.id).answers || {})[key];
+        var forMe = u !== uid && q.role === mine.role && !readOnly;
+        var kids = [el("span", null, [el("b", { text: "🙋 " + (u === uid ? "Ta question" : who(u)) + " → " + ROLE_NAME[q.role] + " : " }), q.q])];
+        Object.keys(team).forEach(function (v) { var ans = (tItem(v, it.id).answers || {})[key]; if (ans) kids.push(el("div", { class: "rep" }, [el("b", { text: who(v) + " : " }), ans.text])); });
+        if (forMe) {
+          var ta = el("textarea", { "aria-label": "Ta réponse", placeholder: "Ta réponse…" }); ta.value = myAns ? myAns.text : "";
+          kids.push(ta, el("div", { class: "rowbtns" }, [el("button", { class: "mini sel", type: "button", text: myAns ? "Modifier ma réponse" : "Répondre", onclick: function () {
+            var t = ta.value.trim(); if (!t) { ta.focus(); return; }
+            rec(it.id).answers[key] = { text: t, at: new Date().toISOString() }; team[uid] = mine; save(); toast("Réponse envoyée"); drawView(); } })]));
+        }
+        if (u === uid && !readOnly) kids.push(el("div", null, [el("button", { class: "eb", type: "button", text: "Retirer ma question", onclick: function () { delete rec(it.id).asks[ref]; team[uid] = mine; save(); drawView(); } })]));
+        box.appendChild(el("div", { class: "ask" + (forMe && !myAns ? " forme" : "") }, kids));
+      });
+      if (!readOnly) box.appendChild(el("div", { class: "edtools" }, [
+        el("button", { class: "eb", type: "button", text: cur ? "✏️ Modifier ta version" : "✏️ Modifier", onclick: drawEdit }),
+        el("button", { class: "eb", type: "button", text: "🙋 Demander à un expert", onclick: drawAsk }),
+        isDir && vs.length && !(dec && dec.pick === "orig") ? el("button", { class: "eb", type: "button", text: "Garder l'original", onclick: pick("orig") }) : null]));
     };
     var drawEdit = function () {
-      var cur = (peek(it.id).edits || {})[ref];
+      var cur = myEdit(it.id, ref);
       var ta = el("textarea", { "aria-label": "Nouvelle version" }); ta.value = cur ? cur.after : text;
       box.textContent = "";
       box.appendChild(ta);
       box.appendChild(el("div", { class: "rowbtns" }, [
         el("button", { class: "chip sel", type: "button", text: "Enregistrer ma version", onclick: function () {
           var v = ta.value.trim(); var rr = rec(it.id);
-          if (!v || v === text) delete rr.edits[ref]; else { rr.edits[ref] = { part: part, before: text, after: v }; rr.parts[part] = { s: "fix", note: (rr.parts[part] || {}).note || "" }; }
-          save(); toast(v && v !== text ? "Ta version est enregistrée" : "Modification annulée"); drawView(); refreshParts(it); updateBar(it); } }),
+          if (!v || v === text) delete rr.edits[ref]; else { rr.edits[ref] = { part: part, before: text, after: v, at: new Date().toISOString() }; rr.parts[part] = { s: "fix", note: (rr.parts[part] || {}).note || "" }; }
+          team[uid] = mine; save(); toast(v && v !== text ? "Ta version est enregistrée" : "Modification annulée"); drawView(); refreshParts(it); updateBar(it); } }),
         cur ? el("button", { class: "chip", type: "button", text: "Revenir au texte d'origine", onclick: function () { delete rec(it.id).edits[ref]; save(); drawView(); updateBar(it); } }) : null,
         el("button", { class: "chip", type: "button", text: "Annuler", onclick: drawView })]));
       ta.focus();
     };
+    var drawAsk = function () {
+      var role = "", ex = (peek(it.id).asks || {})[ref];
+      var chips = el("div", { class: "roles" });
+      ROLES.filter(function (r) { return r[0] !== mine.role; }).forEach(function (r) {
+        var b = el("button", { class: "mini", type: "button", text: r[1], onclick: function () { role = r[0]; chips.querySelectorAll(".mini").forEach(function (x) { x.classList.remove("sel"); }); b.classList.add("sel"); } });
+        if (ex && ex.role === r[0]) { role = r[0]; b.classList.add("sel"); }
+        chips.appendChild(b);
+      });
+      var ta = el("textarea", { "aria-label": "Ta question", placeholder: "Ex. : ce chiffre est-il toujours valable en 2026 ?" }); ta.value = ex ? ex.q : "";
+      box.textContent = "";
+      box.appendChild(el("b", { text: "À qui veux-tu poser la question ?" }));
+      box.appendChild(chips); box.appendChild(ta);
+      box.appendChild(el("div", { class: "rowbtns" }, [
+        el("button", { class: "chip sel", type: "button", text: "Envoyer la question", onclick: function () {
+          var q = ta.value.trim(); if (!role) { toast("Choisis à qui tu poses la question"); return; } if (!q) { ta.focus(); return; }
+          rec(it.id).asks[ref] = { role: role, q: q, at: new Date().toISOString() }; team[uid] = mine; save(); toast("Question envoyée à : " + ROLE_NAME[role]); drawView(); } }),
+        el("button", { class: "chip", type: "button", text: "Annuler", onclick: drawView })]));
+      ta.focus();
+    };
+    box._draw = drawView;
     drawView();
     return box;
   }
@@ -291,7 +404,7 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
     return d;
   }
   function counts(it) {
-    var r = peek(it.id), parts = r.parts || {}, ed = Object.keys(r.edits || {}).length;
+    var r = peek(it.id), parts = r.parts || {}, ed = Object.keys(r.edits || {}).filter(function (k) { return myEdit(it.id, k); }).length;
     var fixP = Object.keys(parts).filter(function (k) { return parts[k].s === "fix"; }).length;
     return { ed: ed, fixP: fixP };
   }
@@ -345,6 +458,49 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
     document.body.appendChild(ov); drawClock(); goBtn.focus();
   }
 
+  /* ---------- 5. vidéo dans la page, reliée au script ---------- */
+  var HLS_URL = "https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js", hlsP = null, curHls = null;
+  function mmss2(s) { s = Math.round(s); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
+  function loadHls() {
+    if (window.Hls) return Promise.resolve(window.Hls);
+    if (!hlsP) hlsP = new Promise(function (ok, ko) { var s = document.createElement("script"); s.src = HLS_URL; s.onload = function () { ok(window.Hls); }; s.onerror = ko; document.head.appendChild(s); });
+    return hlsP;
+  }
+  function videoPlayer(it) {
+    var v = el("video", { controls: "", playsinline: "", preload: "metadata", "aria-label": "Vidéo de la capsule " + it.id });
+    var wrap = el("div", { class: "vwrap" }, [v]);
+    var failed = false, ready = null;
+    var fail = function () {
+      if (failed) return; failed = true;
+      wrap.replaceChildren(el("p", { class: "banner", text: "La vidéo ne peut pas se lire dans cette page. Utilise le bouton « Regarder la vidéo sur le site »." }));
+    };
+    if (v.canPlayType("application/vnd.apple.mpegurl")) { v.src = it.vsrc; ready = Promise.resolve(); }
+    else ready = loadHls().then(function (H) {
+      if (!H || !H.isSupported()) return fail();
+      if (curHls) curHls.destroy();
+      curHls = new H(); curHls.loadSource(it.vsrc); curHls.attachMedia(v);
+      curHls.on(H.Events.ERROR, function (e, d) { if (d && d.fatal) fail(); });
+    }).catch(fail);
+    return {
+      wrap: wrap,
+      seek: function (t) {
+        ready.then(function () {
+          var go = function () { v.currentTime = t; var p = v.play(); if (p && p.catch) p.catch(function () {}); };
+          if (v.readyState >= 1) go(); else { v.addEventListener("loadedmetadata", go, { once: true }); v.load && !v.src && v.load(); }
+        });
+      },
+      sync: function (rows, starts) {
+        var last = -1;
+        v.addEventListener("timeupdate", function () {
+          var t = v.currentTime, k = 0;
+          for (var i = 0; i < starts.length; i++) if (t >= starts[i]) k = i;
+          if (k === last) return; last = k;
+          rows.forEach(function (r, i) { r.classList.toggle("now", i === k); });
+        });
+      }
+    };
+  }
+
   /* ---------- contenu ---------- */
   function moduleBody(it) {
     return [
@@ -367,8 +523,15 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
     if (it.video) btns.push(el("a", { class: "watch", href: DATA.site + "/#c" + it.id.replace(".", "-"), target: "_blank", rel: "noopener", text: "▶ Regarder la vidéo sur le site" }));
     vid.push(el("div", { class: "rowbtns" }, btns));
     if (!it.video) vid.push(el("p", { class: "muted", text: "Vidéo pas encore tournée : tu valides le script, la vidéo sera produite ensuite." }));
-    vid.push(el("details", { open: "" }, [el("summary", { text: "Le script de Seb (clique « Modifier » sur un passage pour le réécrire)" }), el("div", { class: "in" }, it.script.map(function (s) {
-      return el("div", { class: "seg" }, [el("div", { class: "tc", text: s[0] }), el("div", null, [editable(it, "video", "seg:" + s[0], s[1]), s[2] ? el("p", { class: "os", text: "À l'écran : " + s[2] }) : null])]); }))]));
+    var player = it.vsrc ? videoPlayer(it) : null;
+    if (player) vid.push(player.wrap);
+    var segRows = it.script.map(function (s, i) {
+      var t = player && it.vstarts && it.vstarts[i] != null ? it.vstarts[i] : null;
+      var tc = t != null ? el("button", { class: "tcb", type: "button", title: "Lire la vidéo à partir d'ici", text: "▶ " + mmss2(t), onclick: function () { player.seek(t); } }) : el("div", { class: "tc", text: s[0] });
+      return el("div", { class: "seg" }, [tc, el("div", null, [editable(it, "video", "seg:" + s[0], s[1]), s[2] ? el("p", { class: "os", text: "À l'écran : " + s[2] }) : null])]);
+    });
+    if (player && it.vstarts) player.sync(segRows, it.vstarts);
+    vid.push(el("details", { open: "" }, [el("summary", { text: player ? "Le script de Seb (clique un temps pour l'écouter, « Modifier » pour réécrire)" : "Le script de Seb (clique « Modifier » sur un passage pour le réécrire)" }), el("div", { class: "in" }, segRows)]));
     k.push(sec("① La vidéo", "video", it, vid));
     k.push(sec("② Le quiz (" + it.quiz.length + " questions)", "quiz", it, [el("details", null, [el("summary", { text: "Voir et corriger les questions" }),
       el("div", { class: "in" }, [el("ol", null, it.quiz.map(function (q, i) {
@@ -429,6 +592,18 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
     var p = planSession(), left = sessionLeft();
     var kids = [el("div", { class: "kicker", text: "Bienvenue" }), el("h1", { text: (myName ? "Bonjour " + myName.split(" ")[0] + "," : "Bonjour,") + " on avance par petites séances" }),
       el("p", { text: "Tu relis un élément à la fois. Si un passage ne te va pas, tu cliques « Modifier » et tu le réécris toi-même. Pour chaque partie (vidéo, quiz, fiche, exercice, livrable) : ✓ OK ou ✏️ À corriger. Le prompteur te permet de lire ton script à voix haute, chronomètre en main." })];
+    var qs = asksForMe();
+    if (qs.length) kids.push(el("div", { class: "sec" }, [el("h2", { text: "🙋 Questions pour toi (" + qs.length + ")" }), el("ul", { class: "plan" }, qs.map(function (q) {
+      var it = ITEMS[q.i];
+      return el("li", null, [el("button", { class: "link", type: "button", style: "text-align:left", text: label(it) + " · " + who(q.u) + " : « " + (q.q.length > 90 ? q.q.slice(0, 90) + "…" : q.q) + " »", onclick: function () { open(q.i, q.ref); } })]); }))]));
+    if (mine.role === "DIR") {
+      var cf = conflicts();
+      if (cf.length) kids.push(el("div", { class: "sec" }, [el("h2", { text: "⚖️ Versions à trancher (" + cf.length + ")" }), el("ul", { class: "plan" }, cf.map(function (c) {
+        var it = ITEMS[c.i];
+        return el("li", null, [el("button", { class: "link", type: "button", style: "text-align:left", text: label(it) + " · " + it.title, onclick: function () { open(c.i, c.ref); } })]); }))]));
+    }
+    var revs = ITEMS.filter(function (it) { return isRev(it.id); });
+    if (revs.length) kids.push(el("p", { class: "banner", text: "✓ " + revs.length + " élément" + (revs.length > 1 ? "s ont" : " a") + " été corrigé" + (revs.length > 1 ? "s" : "") + " depuis ton dernier passage. Il" + (revs.length > 1 ? "s reviennent" : " revient") + " dans tes séances pour une dernière vérification." }));
     if (left.length) {
       kids.push(el("div", { class: "sec" }, [el("h2", { text: "Ta séance en cours" }), el("ul", { class: "plan" }, left.map(function (id) { var it = ITEMS[byId(id)]; return el("li", null, [el("span", { text: label(it) + " · " + it.title }), el("span", { class: "muted", text: "≈ " + est(it) + " min" })]); })),
         el("button", { class: "big yes", type: "button", text: "Reprendre ma séance", onclick: function () { open(byId(left[0])); } })]));
@@ -454,6 +629,7 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
   /* ---------- écrans ---------- */
   function render() {
     var m = $("main"); m.textContent = ""; $("bar").hidden = true;
+    if (curHls) { curHls.destroy(); curHls = null; }
     if (!ITEMS.length) return;
     if (readOnly) m.appendChild(el("div", { class: "banner", text: "Tu peux lire, mais pas valider : demande au propriétaire de te donner l'accès « Contributeur » à cette page." }));
     if (!db) m.appendChild(el("div", { class: "banner", text: "Tes choix ne peuvent pas être enregistrés ici (connexion indisponible). Ouvre la page depuis claude.ai, connecté à ton compte." }));
@@ -467,6 +643,9 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
   function renderItem() {
     var it = ITEMS[idx], m = $("main");
     var left = sessionLeft();
+    var rev = isRev(it.id);
+    if (rev) { var rr = rec(it.id); rr.parts = {}; rr.note = ""; }   // contenu corrigé : on repart d'un avis neuf
+    if (rev) m.appendChild(el("div", { class: "banner", text: "✓ Corrigé le " + dfr(applied(it.id).at) + " d'après les remarques. Vérifie que c'est bon pour toi, puis valide." }));
     if (mine.session && mine.session.ids.indexOf(it.id) >= 0) {
       var pos = mine.session.ids.indexOf(it.id) + 1, rest = left.reduce(function (a, id) { return a + est(ITEMS[byId(id)]); }, 0);
       m.appendChild(el("div", { class: "sess" }, [el("span", null, [el("b", { text: "Séance : " + pos + " / " + mine.session.ids.length }), " · reste ≈ " + rest + " min"]),
@@ -513,7 +692,7 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
       pane.appendChild(el("button", { class: "row", type: "button", onclick: function () { close(); open(i); } }, [
         el("span", { class: "dot " + myState(it.id) }), el("span", { class: "n", text: it.kind === "module" ? "M" + it.mod : it.id }),
         el("span", { class: "t", text: it.title }),
-        el("span", { class: "k", text: others.length ? others.length + " avis" + (nfix ? " · " + nfix + " ✏️" : "") : "≈ " + est(it) + " min" })]));
+        el("span", { class: "k", text: isRev(it.id) ? "à revalider" : others.length ? others.length + " avis" + (nfix ? " · " + nfix + " ✏️" : "") : "≈ " + est(it) + " min" })]));
     });
     document.body.appendChild(d);
   }
@@ -546,7 +725,14 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
     var n = nextOpen(idx);
     if (n < 0) { view = "end"; render(); } else open(n);
   }
-  function open(i) { idx = i; view = "item"; render(); window.scrollTo(0, 0); }
+  function open(i, ref) {
+    idx = i; view = "item"; render(); window.scrollTo(0, 0);
+    // ouvre les blocs repliés qui contiennent une question pour toi ou le passage demandé
+    var targets = Array.prototype.slice.call(document.querySelectorAll(".ask.forme"));
+    if (ref) { var b = document.querySelector('.ed[data-ref="' + ref.replace(/"/g, '\\"') + '"]'); if (b) targets.unshift(b); }
+    targets.forEach(function (t) { var d = t.closest("details"); if (d) d.open = true; });
+    if (ref && targets[0]) targets[0].scrollIntoView({ block: "center" });
+  }
 
   $("yesBtn").addEventListener("click", finishItem);
   $("noBtn").addEventListener("click", function () { $("fixBox").hidden = false; $("note").focus(); });
@@ -576,8 +762,16 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
           snap.docs.forEach(function (doc) { if (doc.exists) t[doc.id] = doc.data(); });
           if (first && t[uid]) { mine = JSON.parse(JSON.stringify(t[uid])); if (!mine.items) mine.items = {}; }
           t[uid] = mine; team = t;
-          if (first) { first = false; render(); }
-          else { renderTicks(); var old = $("teamSec"); if (old && view === "item") old.replaceWith(teamBlock(ITEMS[idx])); }
+          var ids = Object.keys(t).filter(function (u) { return !(u in NAMES); });
+          var names = ids.length && user ? user.profiles(ids).then(function (ps) { ids.forEach(function (u) { NAMES[u] = (ps[u] && ps[u].name) || ""; }); }).catch(function () {}) : Promise.resolve();
+          if (first) { first = false; names.then(render); }
+          else names.then(function () {
+            renderTicks();
+            if (view !== "item") return;
+            var old = $("teamSec"); if (old) old.replaceWith(teamBlock(ITEMS[idx]));
+            // met à jour les passages sans toucher à ceux où tu es en train d'écrire
+            document.querySelectorAll(".ed").forEach(function (b) { if (b._draw && !b.contains(document.activeElement) && !b.querySelector("textarea")) b._draw(); });
+          });
         }, function () { db = null; render(); });
       });
     });
