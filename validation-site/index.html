@@ -62,6 +62,8 @@
     });
   }
   function me() {
+    // sans clé d'accès : lecture seule, on ne demande ni nom ni rôle
+    if (!KEY) return Promise.resolve({ id: null, name: "", avatarUrl: "" });
     if (!meP) meP = (function () {
       var id = lsGet("ev:uid");
       if (!id) { id = (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2)).toLowerCase(); lsSet("ev:uid", id); }
