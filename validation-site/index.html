@@ -12,6 +12,8 @@
   var m = /[#&]k=([A-Za-z0-9_-]{16,})/.exec(location.hash || "");
   if (m) { lsSet("ev:key", m[1]); history.replaceState(null, "", location.pathname + location.search); }
   var KEY = lsGet("ev:key") || "";
+  // la page peut être servie via une balise <base> (jsDelivr) : l'API reste toujours sur l'adresse Vercel
+  var API = location.origin;
   var lastDocs = {};
 
   // data.json + état publié par Claude
@@ -19,7 +21,7 @@
   window.fetch = function (u, o) {
     if (u === "data.json") {
       return Promise.all([ofetch("data.json", { cache: "no-store" }).then(function (r) { return r.json(); }),
-        ofetch("/api/state", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })])
+        ofetch(API + "/api/state", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })])
         .then(function (a) {
           var d = a[0], s = a[1] || {};
           d.applied = Object.assign({}, d.applied || {}, s.applied || {});
@@ -31,7 +33,7 @@
   };
 
   function api(method, body) {
-    return ofetch("/api/avis", { method: method, cache: "no-store", headers: { "Content-Type": "application/json", "x-key": KEY }, body: body ? JSON.stringify(body) : undefined })
+    return ofetch(API + "/api/avis", { method: method, cache: "no-store", headers: { "Content-Type": "application/json", "x-key": KEY }, body: body ? JSON.stringify(body) : undefined })
       .then(function (r) {
         if (r.status === 401) throw { code: "invalid_argument", message: "clé" };
         if (!r.ok) throw { code: "unavailable", message: "HTTP " + r.status };
