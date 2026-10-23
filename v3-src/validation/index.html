@@ -196,6 +196,12 @@ main .wrap{padding-block:16px 110px}
 .tag.prod{background:var(--green);color:#fff}
 .chip.go{background:var(--green);border-color:var(--green);color:#fff}
 .chip.go:hover{background:var(--green-d)}
+/* ---- réinitialisation ---- */
+.reset{border:1px dashed var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:10px}
+.danger{background:var(--surface);color:var(--red);border:2px solid var(--red);border-radius:12px;padding:10px 14px;font-weight:700}
+.danger.full{background:var(--red);color:#fff}
+.tag.rv{background:var(--orange-s);color:var(--fg)}
+.dif .eb{border:1px solid var(--line);border-radius:999px;padding:6px 12px;background:var(--surface);color:var(--green-d);font-weight:700;font-size:14px;min-height:40px;cursor:pointer}
 /* ---- téléphone ---- */
 @media (max-width:600px){
   body{font-size:17px}
@@ -311,7 +317,7 @@ main .wrap{padding-block:16px 110px}
   }
   function toast(t) { var x = $("toast"); x.textContent = t; x.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(function () { x.classList.remove("show"); }, 1800); }
   function label(it) { return it.kind === "module" ? "Module " + it.mod : "Capsule " + it.id; }
-  function rec(id) { if (!mine.items[id]) mine.items[id] = {}; var r = mine.items[id]; ["parts", "edits", "asks", "answers", "choix"].forEach(function (k) { r[k] = r[k] || {}; }); return r; }
+  function rec(id) { if (!mine.items[id]) mine.items[id] = {}; var r = mine.items[id]; ["parts", "edits", "asks", "answers", "choix", "revert"].forEach(function (k) { r[k] = r[k] || {}; }); return r; }
   function peek(id) { return mine.items[id] || {}; }
   function applied(id) { return (DATA && DATA.applied && DATA.applied[id]) || null; }
   // un élément déjà traité redevient « à revalider » quand des corrections ont été appliquées après ton avis
@@ -319,6 +325,7 @@ main .wrap{padding-block:16px 110px}
   function myState(id) { return isRev(id) ? "" : (peek(id).s || ""); }
   function dfr(iso) { var d = new Date(iso); return String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0"); }
   var NAMES = {};
+  var RELEVE_TRIGGER = "trig_019UTHaXrXnRvu8A8PMkPaa6", isOwnerV = false;
   var PROD_TRIGGER = "trig_01UksUFiYDKzksGH9ZpzwQNt", MCP_SERVER = "Claude Code Remote", mcpP = null;
   function getMcp() { if (!mcpP) mcpP = window.claude && window.claude.use ? window.claude.use("mcp").catch(function () { return null; }) : Promise.resolve(null); return mcpP; }
   function hm(iso) { var d = new Date(iso); return dfr(iso) + " à " + d.getHours() + "h" + String(d.getMinutes()).padStart(2, "0"); }
@@ -392,6 +399,13 @@ main .wrap{padding-block:16px 110px}
   }
 
   /* ---------- 1. correction directe dans le texte ---------- */
+  function revertBtn(it, ref, redraw) {
+    var a = applied(it.id); if (!a || !a.refs || a.refs[ref] === undefined || readOnly) return null;
+    var rv = (peek(it.id).revert || {})[ref];
+    return el("button", { class: "eb", type: "button", text: rv ? "Annuler le retour" : "↺ Revenir à l'ancien texte", onclick: function () {
+      var r = rec(it.id); if (rv) delete r.revert[ref]; else r.revert[ref] = { at: new Date().toISOString() };
+      team[uid] = mine; save(); toast(rv ? "Retour annulé" : "Retour demandé : appliqué à la prochaine relève"); redraw(); } });
+  }
   function myEdit(id, ref) { var e = (peek(id).edits || {})[ref]; return e && !stale(id, ref, e) ? e : null; }
   function editable(it, part, ref, text, display) {
     var box = el("div", { class: "ed", "data-ref": ref });
@@ -399,7 +413,10 @@ main .wrap{padding-block:16px 110px}
     var drawView = function () {
       var cur = myEdit(it.id, ref), a = applied(it.id);
       box.textContent = ""; box.className = "ed" + (cur ? " chg" : "");
-      if (a && a.refs && a.refs[ref] !== undefined) box.appendChild(el("span", { class: "tag ok", text: "✓ Corrigé le " + dfr(a.at) }));
+      if (a && a.refs && a.refs[ref] !== undefined) {
+        var rv = (peek(it.id).revert || {})[ref];
+        box.appendChild(el("span", { class: rv ? "tag rv" : "tag ok", text: rv ? "↺ Retour à l'ancien texte demandé" : "✓ Corrigé le " + dfr(a.at) }));
+      }
       if (cur) {
         box.appendChild(el("span", { class: "tag mine", text: "Ta version" }));
         box.appendChild(el("span", { class: "new", text: cur.after }));
@@ -438,7 +455,8 @@ main .wrap{padding-block:16px 110px}
       if (!readOnly) box.appendChild(el("div", { class: "edtools" }, [
         el("button", { class: "eb", type: "button", text: cur ? "✏️ Modifier ta version" : "✏️ Modifier", onclick: drawEdit }),
         el("button", { class: "eb", type: "button", "aria-label": "Demander à un expert", onclick: drawAsk }, ["🙋 Demander", el("span", { class: "lt", text: " à un expert" })]),
-        isDir && vs.length && !(dec && dec.pick === "orig") ? el("button", { class: "eb", type: "button", text: "Garder l'original", onclick: pick("orig") }) : null]));
+        isDir && vs.length && !(dec && dec.pick === "orig") ? el("button", { class: "eb", type: "button", text: "Garder l'original", onclick: pick("orig") }) : null,
+        revertBtn(it, ref, drawView)]));
     };
     var drawEdit = function () {
       var cur = myEdit(it.id, ref);
@@ -621,6 +639,91 @@ main .wrap{padding-block:16px 110px}
         });
       }
     };
+  }
+
+  /* ---------- réinitialisation ---------- */
+  function clearItemDrafts(id) {
+    try {
+      var pre = dk(""), del = [];
+      for (var i = 0; i < localStorage.length; i++) { var k = localStorage.key(i); if (k && k.indexOf(pre) === 0 && k.slice(pre.length).split("|")[1] === id) del.push(k); }
+      del.forEach(function (k) { localStorage.removeItem(k); });
+    } catch (e) {}
+  }
+  function clearAllDrafts() {
+    try {
+      var pre = dk(""), del = [];
+      for (var i = 0; i < localStorage.length; i++) { var k = localStorage.key(i); if (k && k.indexOf(pre) === 0) del.push(k); }
+      del.forEach(function (k) { localStorage.removeItem(k); });
+      localStorage.removeItem("evp:" + uid);
+    } catch (e) {}
+  }
+  // bouton en deux temps : premier clic = « Tu es sûr ? », deuxième = action
+  function sureBtn(label, sure, act, cls) {
+    var b = el("button", { class: cls || "danger", type: "button", text: label });
+    var armed = false, t = 0;
+    b.addEventListener("click", function () {
+      if (!armed) { armed = true; b.textContent = sure; b.classList.add("full"); t = setTimeout(function () { armed = false; b.textContent = label; b.classList.remove("full"); }, 6000); return; }
+      clearTimeout(t); armed = false; act(b);
+    });
+    return b;
+  }
+  function itemResetBlock(it) {
+    var r = peek(it.id);
+    var has = r.s || Object.keys(r.edits || {}).length || Object.keys(r.parts || {}).length || r.note || Object.keys(r.asks || {}).length || Object.keys(r.answers || {}).length || Object.keys(r.choix || {}).length;
+    if (readOnly || (!has && !Object.keys(r.revert || {}).length)) return null;
+    return el("div", { class: "reset" }, [
+      el("b", { text: "Tu t'es trompé ?" }),
+      el("p", { class: "muted", text: "Efface tes avis sur cet élément : tes versions réécrites, tes remarques, tes questions et tes choix. L'élément redevient « à valider » pour toi. Les avis des autres ne bougent pas." }),
+      sureBtn("↺ Réinitialiser mes changements sur cet élément", "Tu es sûr ? Clique encore pour tout effacer", function () {
+        delete mine.items[it.id]; clearItemDrafts(it.id); team[uid] = mine; save(); toast("Tes changements sur cet élément sont effacés"); showAll = false; render();
+      })]);
+  }
+  function setTasks(enabled) {
+    return getMcp().then(function (mcp) {
+      if (!mcp) throw { code: "not_granted" };
+      var next = new Date(); next.setUTCHours(18, 0, 0, 0); if (next.getTime() - Date.now() < 5 * 60000) next.setUTCDate(next.getUTCDate() + 1);
+      var a = enabled ? { trigger_id: RELEVE_TRIGGER, enabled: true, run_once_at: next.toISOString() } : { trigger_id: RELEVE_TRIGGER, enabled: false };
+      return mcp.callTool(MCP_SERVER, "update_trigger", a, { cache: false }).then(function () {
+        return mcp.callTool(MCP_SERVER, "update_trigger", { trigger_id: PROD_TRIGGER, enabled: !!enabled }, { cache: false });
+      }).then(function () { return next; });
+    });
+  }
+  function taskErr(e) {
+    var c = e && e.code;
+    if (c === "approval_required" || c === "not_in_manifest" || c === "consent_required") return "Tu n'as pas autorisé la page à gérer les tâches planifiées. Autorise « Claude Code Remote » et recommence.";
+    if (c === "server_not_connected" || c === "needs_reauth") return "Le connecteur « Claude Code Remote » n'est pas disponible sur ton compte.";
+    if (c === "tool_error") return "Les tâches planifiées appartiennent au compte du propriétaire : seul lui peut les arrêter.";
+    if (c === "server_unavailable" || c === "upstream_error") return "Pas de réponse claire du service : la modification a peut-être été faite. Vérifie dans tes tâches planifiées avant de recommencer.";
+    return "Impossible de modifier les tâches planifiées depuis cette vue.";
+  }
+  function resetPanel() {
+    var box = el("div", { class: "reset" });
+    var draw = function (msg) {
+      box.textContent = "";
+      box.appendChild(el("p", { class: "muted", text: "En cas d'erreur, tu peux tout remettre à zéro. Ces actions demandent une confirmation." }));
+      box.appendChild(sureBtn("↺ Effacer tous mes avis", "Tu es sûr ? Clique encore : tout ce que tu as validé ou corrigé sera effacé", function () {
+        mine = { role: mine.role, items: {}, session: null, prod: mine.prod, tasks: mine.tasks }; clearAllDrafts(); team[uid] = mine; save(); toast("Tous tes avis sont effacés"); view = "home"; render();
+      }));
+      if (isOwnerV) {
+        var paused = mine.tasks && mine.tasks.paused;
+        box.appendChild(el("b", { text: "Tâches planifiées : " + (paused ? "⏸ arrêtées depuis le " + hm(paused) : "▶ actives (relève chaque soir à 18h, production à la demande)") }));
+        if (msg) box.appendChild(el("p", { class: "banner", text: msg }));
+        if (!paused) box.appendChild(sureBtn("⏸ Arrêter les tâches planifiées et annuler les productions en attente", "Tu es sûr ? Clique encore pour tout arrêter", function (b) {
+          b.disabled = true;
+          setTasks(false).then(function () {
+            Object.keys(mine.prod || {}).forEach(function (m) { if (!mine.prod[m].fired) delete mine.prod[m]; });
+            mine.tasks = { paused: new Date().toISOString() }; team[uid] = mine; save(); toast("Tâches planifiées arrêtées"); draw();
+          }).catch(function (e) { draw(taskErr(e)); });
+        }));
+        else box.appendChild(el("button", { class: "big go", type: "button", text: "▶ Réactiver les tâches planifiées", onclick: function (e) {
+          e.currentTarget.disabled = true;
+          setTasks(true).then(function (next) { mine.tasks = { paused: null }; team[uid] = mine; save(); toast("Tâches réactivées · prochaine relève le " + hm(next.toISOString())); draw(); }).catch(function (er) { draw(taskErr(er)); });
+        } }));
+        box.appendChild(el("p", { class: "muted", text: "Une production déjà lancée ne peut pas être arrêtée d'ici : elle va jusqu'au bout. Les corrections déjà reportées dans le contenu s'annulent passage par passage avec « ↺ Revenir à l'ancien texte »." }));
+      }
+    };
+    draw();
+    return el("details", null, [el("summary", { text: "⚙️ Réinitialiser en cas d'erreur" }), el("div", { class: "in" }, [box])]);
   }
 
   /* ---------- mise en production d'un module ---------- */
@@ -840,6 +943,7 @@ main .wrap{padding-block:16px 110px}
         el("button", { class: "big yes", type: "button", text: "Commencer la séance", onclick: startSession })]));
     }
     kids.push(el("p", { class: "muted", text: done() + " / " + ITEMS.length + " éléments traités · il reste environ " + fmtH(remainingMin()) + " de relecture au total." }));
+    if (!readOnly && uid) kids.push(resetPanel());
     kids.push(el("div", { class: "rowbtns" }, [el("button", { class: "chip", type: "button", text: "Parcourir librement", onclick: function () { var n = nextOpen(-1); open(n < 0 ? 0 : n); } }), el("button", { class: "chip", type: "button", text: "Sommaire", onclick: openSummary })]));
     $("main").appendChild(el("article", { class: "card" }, kids));
   }
@@ -882,7 +986,7 @@ main .wrap{padding-block:16px 110px}
     var head = [el("div", { class: "kicker" }, [el("span", { class: "dpe" }), "Module " + it.mod + " · " + (idx + 1) + " / " + ITEMS.length + " · ≈ " + est(it) + " min",
       it.kind === "capsule" ? el("span", { class: "tags" }, it.experts.map(function (x) { return el("span", { class: "tag exp", text: "Relecture " + x }); })) : el("span", { class: "tag", text: "Vue d'ensemble du module" })]),
       el("h1", { text: (it.kind === "module" ? "" : it.id + " · ") + it.title })];
-    var body = diffOnly ? diffBody(it) : (it.kind === "module" ? moduleBody(it) : capsuleBody(it)).concat([teamBlock(it)]);
+    var body = (diffOnly ? diffBody(it) : (it.kind === "module" ? moduleBody(it) : capsuleBody(it)).concat([teamBlock(it)])).concat([itemResetBlock(it)]);
     m.appendChild(el("article", { class: "card", style: "--c:" + it.color }, head.concat(body)));
     $("bar").hidden = false;
     var s = myState(it.id);
@@ -912,7 +1016,14 @@ main .wrap{padding-block:16px 110px}
       el("p", { class: "muted", text: "Seuls les passages corrigés sont affichés. Si c'est bon pour toi, appuie sur « C'est bon »." }),
       el("div", { class: "diff" }, refs.map(function (ref) {
         var v = a.refs[ref], after = typeof v === "string" ? v : (v.after || ""), before = (typeof v === "object" && v.before) || findBefore(it.id, ref, after);
-        return el("div", { class: "dif" }, [el("span", { class: "where", text: refLabel(ref) }), before ? el("del", { text: before }) : null, el("ins", { text: after })]);
+        var d = el("div", { class: "dif" });
+        var drawD = function () {
+          d.textContent = "";
+          var rv = (peek(it.id).revert || {})[ref];
+          [el("span", { class: "where", text: refLabel(ref) + (rv ? " · ↺ retour à l'ancien texte demandé" : "") }), before ? el("del", { text: before }) : null, el("ins", { text: after }), el("div", null, [revertBtn(it, ref, drawD)])].forEach(function (x) { if (x) d.appendChild(x); });
+        };
+        drawD();
+        return d;
       })),
       el("button", { class: "chip", type: "button", text: "Voir tout l'élément", onclick: function () { showAll = true; render(); } })])];
   }
@@ -938,7 +1049,7 @@ main .wrap{padding-block:16px 110px}
     var close = function () { d.remove(); };
     var d = el("div", { class: "drawer", onclick: function (e) { if (e.target === d) close(); } }, [pane]);
     pane.appendChild(el("div", { class: "top" }, [el("b", { class: "brand", text: "🚀 Envoi à la production" }), el("button", { class: "chip", type: "button", text: "Fermer", onclick: close })]));
-    pane.appendChild(el("p", { class: "muted", text: "Un module envoyé est transformé à la relève de 18h : vidéos de Seb, fiches PDF, SCORM et publication sur le site. Un module non envoyé : seules les corrections du texte sont reportées." }));
+    pane.appendChild(el("p", { class: "muted", text: "Quand le décideur confirme l'envoi d'un module, Claude le produit tout de suite : vidéos de Seb, fiches PDF, SCORM et publication sur le site. Un module non envoyé : seules les corrections du texte sont reportées, rien n'est produit." }));
     [1, 2, 3, 4, 5].forEach(function (m) {
       var mi = ITEMS.findIndex(function (x) { return x.kind === "module" && x.mod === m; });
       pane.appendChild(el("div", { class: "sec", style: "--c:" + ITEMS[mi].color }, [el("h3", null, [el("span", { class: "dpe" }), "Module " + m + " · " + ITEMS[mi].title]), prodBlock(m)]));
@@ -1002,6 +1113,10 @@ main .wrap{padding-block:16px 110px}
     if (ref && targets[0]) targets[0].scrollIntoView({ block: "center" });
   }
 
+  // l'espace en bas de page suit la hauteur réelle de la barre (qui grandit quand la remarque est ouverte)
+  function padBar() { var w = document.querySelector("main .wrap"); if (w) w.style.paddingBottom = ($("bar").hidden ? 24 : $("bar").offsetHeight + 24) + "px"; }
+  if (window.ResizeObserver) new ResizeObserver(padBar).observe($("bar"));
+  new MutationObserver(padBar).observe($("bar"), { attributes: true, attributeFilter: ["hidden"] });
   $("yesBtn").addEventListener("click", finishItem);
   $("note").addEventListener("input", function () { if (view === "item") lsSet(dk("n|" + ITEMS[idx].id), $("note").value); });
   function overlayOpen() { return !!document.querySelector(".prompt,.drawer"); }
@@ -1047,6 +1162,7 @@ main .wrap{padding-block:16px 110px}
       if (!user) { render(); return; }
       return user.me().then(function (me) {
         uid = me.id; myName = me.name || "";
+        if (user.isOwner) user.isOwner().then(function (o) { isOwnerV = !!o; if (view === "home") render(); }).catch(function () {});
         if (!db || !uid) { render(); return; }
         user.can("data.write").then(function (w) { if (w === false) { readOnly = true; render(); } });
         var first = true;
