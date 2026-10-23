@@ -19,6 +19,9 @@ Ce dossier contient tout ce qu'il faut pour **produire, publier et faire évolue
 | `05_PUBLICATION/` | Technique | Mettre à jour le site et les SCORM, revenir en arrière |
 | `06_A-REMPLIR_DECIDEUR/` | **Décideur final** | Fiches à remplir : **cadrer avant de créer**, puis **valider** |
 | `07_PROMPTS/` | Coordinateur | Prompts prêts à coller pour que Claude produise à partir des fiches |
+| `08_PIPELINE/` | **Pilotage** | Un dossier par module (M1 à M5) : tableau de bord, fiches F1/F2/F3 **pré-remplies** avec le contenu actuel, F5 ; Google Sheet de suivi des 34 capsules ; prompt P5 |
+
+**Pour piloter la production des 5 modules, commence par `08_PIPELINE/00_PIPELINE_GLOBAL.md` et le Google Sheet de suivi.**
 
 ## Le circuit en 4 temps
 
