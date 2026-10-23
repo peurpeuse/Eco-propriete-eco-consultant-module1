@@ -48,8 +48,16 @@ def load():
     g = json.load(open(os.path.join(CON, "global.json")))
     return mods, g
 
+def downloads(mods):
+    """Paquets SCORM proposés au téléchargement sur le site (servis depuis v3/scorm/)."""
+    d = [{"file": f"scorm/ECO-CONSULTANT_Parcours-complet_SCORM12_v{VERSION}.zip", "label": "Parcours complet · 5 modules, 34 capsules", "full": True}]
+    d += [{"file": f"scorm/ECO-CONSULTANT_M{m['id']}_{SLUG[m['id']]}_SCORM12_v{VERSION}.zip", "label": f"Module {m['id']} · {m['title']}"} for m in mods]
+    return d
+
 def course(mods, g, scope, preview, pdf=True):
-    return {"meta": dict(META, key="v3-" + "-".join(map(str, scope["modules"]))), "modules": mods, "global": g, "scope": scope, "preview": preview, "pdf": pdf, "showProd": preview}
+    meta = dict(META, key="v3-" + "-".join(map(str, scope["modules"])))
+    if preview: meta["downloads"] = downloads(mods); meta["version"] = VERSION
+    return {"meta": meta, "modules": mods, "global": g, "scope": scope, "preview": preview, "pdf": pdf, "showProd": preview}
 
 def write_pkg(dirp, data, scorm, title, ident):
     shutil.rmtree(dirp, ignore_errors=True); os.makedirs(dirp)
