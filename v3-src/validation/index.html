@@ -184,6 +184,16 @@ main .wrap{padding-block:16px 110px}
 .vwrap video{max-width:none !important;height:100%;object-fit:contain}
 .vwrap.float video{position:fixed;right:max(12px,env(safe-area-inset-right,0px));top:calc(118px + env(safe-area-inset-top,0px));bottom:auto;width:min(46vw,300px);height:auto;aspect-ratio:16/9;z-index:8;box-shadow:0 8px 28px rgba(0,0,0,.35);border-radius:10px}
 .toast{top:auto;bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+/* ---- mise en production ---- */
+.prod{border:2px solid var(--green);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px;background:var(--green-s)}
+.prod.wait{border-color:var(--line);background:var(--bg)}
+.prod h2{display:flex;gap:8px;align-items:center}
+.chk{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:4px;font-size:15px}
+.chk li::before{content:"✓ ";color:var(--green-d);font-weight:700}
+.chk li.no::before{content:"• ";color:var(--orange)}
+.go{background:var(--green);color:#fff;border:0}
+.pstate{font-weight:700}
+.tag.prod{background:var(--green);color:#fff}
 /* ---- téléphone ---- */
 @media (max-width:600px){
   body{font-size:17px}
@@ -608,9 +618,84 @@ main .wrap{padding-block:16px 110px}
     };
   }
 
+  /* ---------- mise en production d'un module ---------- */
+  function modItems(mod) { return ITEMS.filter(function (it) { return it.mod === mod; }); }
+  function readiness(mod) {
+    var its = modItems(mod), caps = its.filter(function (it) { return it.kind === "capsule"; });
+    var notOk = caps.filter(function (it) { return myState(it.id) !== "ok"; });
+    var cf = conflicts().filter(function (c) { return ITEMS[c.i].mod === mod; }).length;
+    var openQ = 0;
+    its.forEach(function (it) {
+      Object.keys(team).forEach(function (u) {
+        Object.keys(tItem(u, it.id).asks || {}).forEach(function (ref) {
+          var key = u + "|" + ref, answered = Object.keys(team).some(function (v) { return (tItem(v, it.id).answers || {})[key]; });
+          if (!answered) openQ++;
+        });
+      });
+    });
+    var noVideo = its.filter(function (it) { return it.kind === "capsule" && !it.vsrc; }).length;
+    var changed = its.filter(function (it) { var a = applied(it.id); return it.kind === "capsule" && it.vsrc && a && Object.keys(a.refs || {}).some(function (r) { return r.indexOf("seg:") === 0; }); }).length;
+    return { n: caps.length, notOk: notOk, cf: cf, openQ: openQ, noVideo: noVideo, changed: changed, ready: !notOk.length && !cf && !openQ };
+  }
+  // demande = posée par un membre « Décideur » dans son propre avis ; traitement = écrit par Claude dans data.json (DATA.prod)
+  function prodReq(mod) {
+    var r = null;
+    Object.keys(team).forEach(function (u) { var p = team[u].role === "DIR" && team[u].prod && team[u].prod[mod]; if (p && (!r || p.at > r.at)) r = { at: p.at, by: u }; });
+    return r;
+  }
+  function prodState(mod) {
+    var req = prodReq(mod), done = DATA && DATA.prod && DATA.prod[mod];
+    if (req && (!done || done.at < req.at)) return { k: "req", req: req };
+    if (done) return { k: done.status === "publie" ? "pub" : "run", done: done };
+    return { k: "" };
+  }
+  function prodLabel(mod) {
+    var s = prodState(mod);
+    return s.k === "req" ? "🚀 Demandé le " + dfr(s.req.at) + " · lancé à la relève de 18h" : s.k === "run" ? "⏳ Production en cours" + (s.done.note ? " · " + s.done.note : "") : s.k === "pub" ? "✓ En production depuis le " + dfr(s.done.at) : "";
+  }
+  function prodBlock(mod) {
+    var box = el("div", { class: "prod" }), isDir = mine.role === "DIR" && !readOnly;
+    var conf = false;
+    var draw = function (confirming) {
+      conf = !!confirming; box.textContent = "";
+      var s = prodState(mod), rd = readiness(mod);
+      box.className = "prod" + (s.k || rd.ready ? "" : " wait");
+      box.appendChild(el("h2", { text: "🚀 Mise en production du module " + mod }));
+      if (s.k) box.appendChild(el("p", { class: "pstate", text: prodLabel(mod) }));
+      else box.appendChild(el("p", { class: "muted", text: "Tant que le module n'est pas envoyé, Claude reporte seulement les corrections du texte. Rien n'est produit." }));
+      if (s.k === "req" && isDir) { box.appendChild(el("button", { class: "chip", type: "button", text: "Annuler la demande", onclick: function () { if (mine.prod) delete mine.prod[mod]; team[uid] = mine; save(); toast("Demande annulée"); draw(); } })); return; }
+      if (s.k === "req" || s.k === "run") return;
+      var chk = [
+        [rd.n - rd.notOk.length + " / " + rd.n + " capsules validées par toi", !rd.notOk.length],
+        [rd.cf ? rd.cf + " version" + (rd.cf > 1 ? "s" : "") + " à trancher" : "Aucune version à trancher", !rd.cf],
+        [rd.openQ ? rd.openQ + " question" + (rd.openQ > 1 ? "s" : "") + " aux experts sans réponse" : "Aucune question en attente", !rd.openQ]];
+      if (isDir) box.appendChild(el("ul", { class: "chk" }, chk.map(function (c) { return el("li", { class: c[1] ? "" : "no", text: c[0] }); })));
+      if (!isDir) { if (!s.k) box.appendChild(el("p", { class: "muted", text: "Seul le décideur peut envoyer le module en production." })); return; }
+      if (!rd.ready) {
+        if (rd.notOk.length) box.appendChild(el("button", { class: "chip", type: "button", text: "Aller au prochain élément à valider", onclick: function () { open(ITEMS.indexOf(rd.notOk[0])); } }));
+        return;
+      }
+      if (!confirming) { box.appendChild(el("button", { class: "big go", type: "button", text: s.k === "pub" ? "🚀 Republier le module avec les dernières corrections" : "🚀 Mettre le module en production", onclick: function () { draw(true); } })); return; }
+      box.appendChild(el("b", { text: "À la relève de 18h, Claude va :" }));
+      box.appendChild(el("ul", null, [
+        el("li", { text: "reporter toutes les corrections validées dans le contenu ;" }),
+        rd.noVideo || rd.changed ? el("li", { text: "produire " + (rd.noVideo + rd.changed) + " vidéo" + (rd.noVideo + rd.changed > 1 ? "s" : "") + " de Seb (voix ElevenLabs, avatar HeyGen, motion design) : " + rd.noVideo + " nouvelle" + (rd.noVideo > 1 ? "s" : "") + ", " + rd.changed + " à refaire. Cela consomme des crédits ;" }) : el("li", { text: "aucune vidéo à produire : elles sont toutes à jour ;" }),
+        el("li", { text: "régénérer les fiches PDF et le paquet SCORM du module ;" }),
+        el("li", { text: "publier le module sur le site Vercel (téléchargement SCORM pour le LMS)." })]));
+      box.appendChild(el("div", { class: "rowbtns" }, [
+        el("button", { class: "big go", type: "button", text: "Confirmer l'envoi en production", onclick: function () {
+          mine.prod = mine.prod || {}; mine.prod[mod] = { at: new Date().toISOString() }; team[uid] = mine; save(); toast("Module " + mod + " envoyé en production"); draw(); } }),
+        el("button", { class: "chip", type: "button", text: "Annuler", onclick: function () { draw(false); } })]));
+    };
+    draw(false);
+    box._draw = function () { draw(conf); };
+    return box;
+  }
+
   /* ---------- contenu ---------- */
   function moduleBody(it) {
     return [
+      prodBlock(it.mod),
       sec("Le module", "module", it, [
         editable(it, "module", "entree", it.entry + " → " + it.exit),
         el("ol", null, it.capsules.map(function (c) { return el("li", null, [c[0] + " · " + c[1], c[2] ? el("span", { class: "tag", text: "IA", style: "margin-left:6px" }) : null]); }))]),
@@ -709,6 +794,11 @@ main .wrap{padding-block:16px 110px}
         var it = ITEMS[c.i];
         return el("li", null, [el("button", { class: "link", type: "button", style: "text-align:left", text: label(it) + " · " + it.title, onclick: function () { open(c.i, c.ref); } })]); }))]));
     }
+    var mods = [1, 2, 3, 4, 5];
+    if (mine.role === "DIR" || mods.some(function (m) { return prodState(m).k; })) kids.push(el("div", { class: "sec" }, [el("h2", { text: "🚀 Production" }), el("ul", { class: "plan" }, mods.map(function (m) {
+      var rd = readiness(m), lab = prodLabel(m), mi = ITEMS.findIndex(function (x) { return x.kind === "module" && x.mod === m; });
+      return el("li", null, [el("button", { class: "link", type: "button", style: "text-align:left", text: "Module " + m + " · " + ITEMS[mi].title, onclick: function () { open(mi); } }),
+        el("span", { class: rd.ready || lab ? "st ok" : "muted", text: lab || (rd.ready ? "prêt à envoyer" : (rd.n - rd.notOk.length) + "/" + rd.n + " validés") })]); }))]));
     var revs = ITEMS.filter(function (it) { return isRev(it.id); });
     if (revs.length) kids.push(el("p", { class: "banner", text: "✓ " + revs.length + " élément" + (revs.length > 1 ? "s ont" : " a") + " été corrigé" + (revs.length > 1 ? "s" : "") + " depuis ton dernier passage. Il" + (revs.length > 1 ? "s reviennent" : " revient") + " dans tes séances pour une dernière vérification." }));
     if (left.length) {
@@ -820,7 +910,7 @@ main .wrap{padding-block:16px 110px}
     pane.appendChild(el("div", { class: "legend" }, [el("span", null, [el("i", { style: "background:var(--green)" }), "validé"]), el("span", null, [el("i", { style: "background:var(--orange)" }), "corrections"]), el("span", null, [el("i", { style: "border:2px solid var(--line)" }), "pas encore vu"])]));
     var cur = 0;
     ITEMS.forEach(function (it, i) {
-      if (it.mod !== cur) { cur = it.mod; pane.appendChild(el("h3", { style: "--c:" + it.color }, [el("span", { class: "dpe" }), "Module " + it.mod])); }
+      if (it.mod !== cur) { cur = it.mod; pane.appendChild(el("h3", { style: "--c:" + it.color }, [el("span", { class: "dpe" }), "Module " + it.mod, prodState(it.mod).k ? el("span", { class: "tag prod", text: prodState(it.mod).k === "pub" ? "en production" : "🚀" }) : null])); }
       var others = Object.keys(team).filter(function (u) { return u !== uid && team[u].items && team[u].items[it.id] && team[u].items[it.id].s; });
       var nfix = others.filter(function (u) { return team[u].items[it.id].s === "fix"; }).length;
       pane.appendChild(el("button", { class: "row", type: "button", onclick: function () { close(); open(i); } }, [
@@ -937,6 +1027,7 @@ main .wrap{padding-block:16px 110px}
             renderTicks();
             if (view !== "item") return;
             var old = $("teamSec"); if (old) old.replaceWith(teamBlock(ITEMS[idx]));
+            document.querySelectorAll(".prod").forEach(function (b) { if (b._draw) b._draw(); });
             // met à jour les passages sans toucher à ceux où tu es en train d'écrire
             document.querySelectorAll(".ed").forEach(function (b) { if (b._draw && !b.contains(document.activeElement) && !b.querySelector("textarea")) b._draw(); });
           });
