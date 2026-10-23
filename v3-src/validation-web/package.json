@@ -1,0 +1,9 @@
+{
+  "name": "eco-consultant-validation",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "dependencies": {
+    "@vercel/blob": "1.1.1"
+  }
+}
