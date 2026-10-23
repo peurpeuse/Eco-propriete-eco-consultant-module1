@@ -726,51 +726,63 @@ main .wrap{padding-block:16px 110px}
     return el("details", null, [el("summary", { text: "⚙️ Réinitialiser en cas d'erreur" }), el("div", { class: "in" }, [box])]);
   }
 
-  /* ---------- mise en production d'un module ---------- */
+  /* ---------- mise en production de la page ouverte (une capsule, ou un module depuis sa fiche) ---------- */
+  // clé de production : numéro de module (fiche module) ou identifiant de capsule (« 1.1 »)
+  function pKey(it) { return it.kind === "module" ? it.mod : it.id; }
+  function isCapKey(key) { return typeof key === "string" && key.indexOf(".") > 0; }
+  function keyName(key) { return isCapKey(key) ? "la capsule " + key : "le module " + key; }
   function modItems(mod) { return ITEMS.filter(function (it) { return it.mod === mod; }); }
-  function readiness(mod) {
-    var its = modItems(mod), caps = its.filter(function (it) { return it.kind === "capsule"; });
+  function readiness(key) {
+    var its = isCapKey(key) ? ITEMS.filter(function (it) { return it.id === key; }) : modItems(key);
+    var caps = its.filter(function (it) { return it.kind === "capsule"; });
     var notOk = caps.filter(function (it) { return myState(it.id) !== "ok"; });
-    var cf = conflicts().filter(function (c) { return ITEMS[c.i].mod === mod; }).length;
+    var ids = its.map(function (it) { return it.id; });
+    var cf = conflicts().filter(function (c) { return ids.indexOf(ITEMS[c.i].id) >= 0; }).length;
     var openQ = 0;
     its.forEach(function (it) {
       Object.keys(team).forEach(function (u) {
         Object.keys(tItem(u, it.id).asks || {}).forEach(function (ref) {
-          var key = u + "|" + ref, answered = Object.keys(team).some(function (v) { return (tItem(v, it.id).answers || {})[key]; });
+          var k = u + "|" + ref, answered = Object.keys(team).some(function (v) { return (tItem(v, it.id).answers || {})[k]; });
           if (!answered) openQ++;
         });
       });
     });
-    var noVideo = its.filter(function (it) { return it.kind === "capsule" && !it.vsrc; }).length;
-    var changed = its.filter(function (it) { var a = applied(it.id); return it.kind === "capsule" && it.vsrc && a && Object.keys(a.refs || {}).some(function (r) { return r.indexOf("seg:") === 0; }); }).length;
+    var noVideo = caps.filter(function (it) { return !it.vsrc; }).length;
+    var changed = caps.filter(function (it) { var a = applied(it.id); return it.vsrc && a && Object.keys(a.refs || {}).some(function (r) { return r.indexOf("seg:") === 0; }); }).length;
     return { n: caps.length, notOk: notOk, cf: cf, openQ: openQ, noVideo: noVideo, changed: changed, ready: !notOk.length && !cf && !openQ };
   }
   // demande = posée par un membre « Décideur » dans son propre avis ; traitement = écrit par Claude dans data.json (DATA.prod)
-  function prodReq(mod) {
+  function prodReq(key) {
     var r = null;
-    Object.keys(team).forEach(function (u) { var p = team[u].role === "DIR" && team[u].prod && team[u].prod[mod]; if (p && (!r || p.at > r.at)) r = { at: p.at, by: u, fired: p.fired || null, err: p.err || null }; });
+    Object.keys(team).forEach(function (u) { var p = team[u].role === "DIR" && team[u].prod && team[u].prod[key]; if (p && (!r || p.at > r.at)) r = { at: p.at, by: u, fired: p.fired || null, err: p.err || null }; });
     return r;
   }
-  function prodState(mod) {
-    var req = prodReq(mod), done = DATA && DATA.prod && DATA.prod[mod];
+  function prodState(key) {
+    var req = prodReq(key), done = DATA && DATA.prod && DATA.prod[key];
+    // une capsule est aussi « en production » si tout son module a été publié après coup
+    if (!done && isCapKey(key)) { var m = DATA && DATA.prod && DATA.prod[Number(key.split(".")[0])]; if (m && m.status === "publie") done = m; }
     if (req && (!done || done.at < req.at)) return { k: "req", req: req };
     if (done) return { k: done.status === "publie" ? "pub" : "run", done: done };
     return { k: "" };
   }
-  function prodLabel(mod) {
-    var s = prodState(mod);
+  function prodLabel(key) {
+    var s = prodState(key);
     return s.k === "req" ? (s.req.fired ? "🚀 Production lancée le " + hm(s.req.fired) + " · compte rendu par notification" : "🚀 Demandé le " + dfr(s.req.at) + " · lancé à la relève de 18h") : s.k === "run" ? "⏳ Production en cours" + (s.done.note ? " · " + s.done.note : "") : s.k === "pub" ? "✓ En production depuis le " + dfr(s.done.at) : "";
   }
   // enregistre la demande (preuve pour Claude), puis réveille tout de suite la tâche de production
-  function launch(mod, draw) {
+  function launch(key, draw) {
     var req = { at: new Date().toISOString() };
-    mine.prod = mine.prod || {}; mine.prod[mod] = req; team[uid] = mine;
+    mine.prod = mine.prod || {}; mine.prod[key] = req; team[uid] = mine;
+    var who = (myName || "le décideur") + " (avis/" + uid + ", prod[\"" + key + "\"])";
+    var text = isCapKey(key)
+      ? "Élément à produire : UNIQUEMENT la capsule " + key + " (module " + key.split(".")[0] + "), pas le reste du module. Demande enregistrée à " + req.at + " par " + who + ". Applique les étapes à cette seule capsule : vérifie qu'elle est validée par le décideur, reporte ses corrections, produis sa vidéo si elle n'en a pas ou si son script a changé, puis build.py et publication (le SCORM du module " + key.split(".")[0] + " est régénéré avec cette capsule ; les autres capsules gardent leur version actuelle, sans nouvelle vidéo). Statut à écrire dans data.json : prod[\"" + key + "\"]."
+      : "Module à produire : " + key + " (toutes ses capsules). Demande enregistrée à " + req.at + " par " + who + ".";
     save().then(function () { return getMcp(); }).then(function (mcp) {
       if (!mcp) throw { code: "not_granted" };
-      return mcp.callTool(MCP_SERVER, "fire_trigger", { trigger_id: PROD_TRIGGER, text: "Module à produire : " + mod + ". Demande enregistrée à " + req.at + " par " + (myName || "le décideur") + " (avis/" + uid + ", prod." + mod + ")." }, { cache: false });
+      return mcp.callTool(MCP_SERVER, "fire_trigger", { trigger_id: PROD_TRIGGER, text: text }, { cache: false });
     }).then(function () {
       req.fired = new Date().toISOString(); delete req.err; save();
-      toast("Production du module " + mod + " lancée");
+      toast("Production de " + keyName(key) + " lancée");
       draw(false);
     }).catch(function (e) {
       var c = e && e.code, msg;
@@ -782,43 +794,45 @@ main .wrap{padding-block:16px 110px}
       req.err = msg; save(); toast("Demande enregistrée"); draw(false);
     });
   }
-  function prodBlock(mod) {
-    var box = el("div", { class: "prod" }), isDir = mine.role === "DIR" && !readOnly;
+  function prodBlock(key) {
+    var box = el("div", { class: "prod" }), isDir = mine.role === "DIR" && !readOnly, cap = isCapKey(key);
     var conf = false;
     var draw = function (confirming) {
       conf = !!confirming; box.textContent = "";
-      var s = prodState(mod), rd = readiness(mod);
+      var s = prodState(key), rd = readiness(key);
       box.className = "prod" + (s.k || rd.ready ? "" : " wait");
-      box.appendChild(el("h2", { text: "🚀 Mise en production du module " + mod }));
-      if (s.k) box.appendChild(el("p", { class: "pstate", text: prodLabel(mod) }));
-      else box.appendChild(el("p", { class: "muted", text: "Tant que le module n'est pas envoyé, Claude reporte seulement les corrections du texte. Rien n'est produit." }));
+      box.appendChild(el("h2", { text: "🚀 Mise en production de " + keyName(key) }));
+      if (s.k) box.appendChild(el("p", { class: "pstate", text: prodLabel(key) }));
+      else box.appendChild(el("p", { class: "muted", text: cap ? "Seule cette capsule est concernée. Tant qu'elle n'est pas envoyée, Claude reporte seulement ses corrections du texte : rien n'est produit." : "Tout le module est concerné. Tant qu'il n'est pas envoyé, Claude reporte seulement les corrections du texte : rien n'est produit." }));
       if (s.k === "req" && s.req.err && isDir) box.appendChild(el("p", { class: "banner", text: s.req.err }));
-      if (s.k === "req" && isDir && !s.req.fired) { box.appendChild(el("button", { class: "big go", type: "button", text: "🚀 Réessayer de lancer maintenant", onclick: function (e) { e.currentTarget.disabled = true; launch(mod, draw); } })); box.appendChild(el("button", { class: "chip", type: "button", text: "Annuler la demande", onclick: function () { if (mine.prod) delete mine.prod[mod]; team[uid] = mine; save(); toast("Demande annulée"); draw(); } })); return; }
+      if (s.k === "req" && isDir && !s.req.fired) { box.appendChild(el("button", { class: "big go", type: "button", text: "🚀 Réessayer de lancer maintenant", onclick: function (e) { e.currentTarget.disabled = true; launch(key, draw); } })); box.appendChild(el("button", { class: "chip", type: "button", text: "Annuler la demande", onclick: function () { if (mine.prod) delete mine.prod[key]; team[uid] = mine; save(); toast("Demande annulée"); draw(); } })); return; }
       if (s.k === "req" || s.k === "run") return;
       var chk = [
-        [rd.n - rd.notOk.length + " / " + rd.n + " capsules validées par toi", !rd.notOk.length],
+        [cap ? (rd.notOk.length ? "Capsule pas encore validée par toi" : "Capsule validée par toi") : rd.n - rd.notOk.length + " / " + rd.n + " capsules validées par toi", !rd.notOk.length],
         [rd.cf ? rd.cf + " version" + (rd.cf > 1 ? "s" : "") + " à trancher" : "Aucune version à trancher", !rd.cf],
         [rd.openQ ? rd.openQ + " question" + (rd.openQ > 1 ? "s" : "") + " aux experts sans réponse" : "Aucune question en attente", !rd.openQ]];
       if (isDir) box.appendChild(el("ul", { class: "chk" }, chk.map(function (c) { return el("li", { class: c[1] ? "" : "no", text: c[0] }); })));
       if (!isDir) {
-        if (!s.k) box.appendChild(el("p", { class: "muted", text: "Seul le rôle « Décideur » peut envoyer le module en production." }));
+        if (!s.k) box.appendChild(el("p", { class: "muted", text: "Seul le rôle « Décideur » peut envoyer en production." }));
         if (!readOnly && uid && !s.k) box.appendChild(el("button", { class: "chip", type: "button", text: "Je suis le décideur : passer en rôle Décideur", onclick: function () { mine.role = "DIR"; team[uid] = mine; save(); toast("Rôle : Décideur"); renderTicks(); document.querySelectorAll(".prod").forEach(function (b) { if (b._draw) b._draw(); }); } }));
         return;
       }
       if (!rd.ready) {
-        if (rd.notOk.length) box.appendChild(el("button", { class: "chip", type: "button", text: "Aller au prochain élément à valider", onclick: function () { var dr = box.closest(".drawer"); if (dr) dr.remove(); open(ITEMS.indexOf(rd.notOk[0])); } }));
+        if (cap && rd.notOk.length) box.appendChild(el("p", { class: "muted", text: "Valide d'abord cette capsule avec le bouton vert en bas, puis reviens ici." }));
+        else if (rd.notOk.length) box.appendChild(el("button", { class: "chip", type: "button", text: "Aller à la prochaine capsule à valider", onclick: function () { var dr = box.closest(".drawer"); if (dr) dr.remove(); open(ITEMS.indexOf(rd.notOk[0])); } }));
         return;
       }
-      if (!confirming) { box.appendChild(el("button", { class: "big go", type: "button", text: s.k === "pub" ? "🚀 Republier le module avec les dernières corrections" : "🚀 Mettre le module en production", onclick: function () { draw(true); } })); return; }
+      var nv = rd.noVideo + rd.changed;
+      if (!confirming) { box.appendChild(el("button", { class: "big go", type: "button", text: (s.k === "pub" ? "🚀 Republier " : "🚀 Mettre en production ") + (cap ? "cette capsule" : "ce module"), onclick: function () { draw(true); } })); return; }
       box.appendChild(el("h2", { text: "Tu es sûr ?" }));
-      box.appendChild(el("b", { text: "Dès que tu confirmes, Claude lance la production du module " + mod + " :" }));
+      box.appendChild(el("b", { text: "Dès que tu confirmes, Claude lance la production de " + keyName(key) + (cap ? " et de rien d'autre :" : " (toutes ses capsules) :") }));
       box.appendChild(el("ul", null, [
-        el("li", { text: "reporter toutes les corrections validées dans le contenu ;" }),
-        rd.noVideo || rd.changed ? el("li", { text: "produire " + (rd.noVideo + rd.changed) + " vidéo" + (rd.noVideo + rd.changed > 1 ? "s" : "") + " de Seb (voix ElevenLabs, avatar HeyGen, motion design) : " + rd.noVideo + " nouvelle" + (rd.noVideo > 1 ? "s" : "") + ", " + rd.changed + " à refaire. Cela consomme des crédits ;" }) : el("li", { text: "aucune vidéo à produire : elles sont toutes à jour ;" }),
-        el("li", { text: "régénérer les fiches PDF et le paquet SCORM du module ;" }),
-        el("li", { text: "publier le module sur le site Vercel (téléchargement SCORM pour le LMS)." })]));
+        el("li", { text: cap ? "reporter les corrections validées de cette capsule ;" : "reporter toutes les corrections validées du module ;" }),
+        nv ? el("li", { text: cap ? (rd.noVideo ? "produire sa vidéo de Seb (voix ElevenLabs, avatar HeyGen, motion design). Cela consomme des crédits ;" : "refaire sa vidéo de Seb : son script a changé. Cela consomme des crédits ;") : "produire " + nv + " vidéo" + (nv > 1 ? "s" : "") + " de Seb (voix ElevenLabs, avatar HeyGen, motion design) : " + rd.noVideo + " nouvelle" + (rd.noVideo > 1 ? "s" : "") + ", " + rd.changed + " à refaire. Cela consomme des crédits ;" }) : el("li", { text: cap ? "pas de vidéo à produire : la sienne est à jour ;" : "aucune vidéo à produire : elles sont toutes à jour ;" }),
+        el("li", { text: cap ? "régénérer sa fiche PDF et le paquet SCORM du module " + key.split(".")[0] + " (les autres capsules gardent leur version actuelle) ;" : "régénérer les fiches PDF et le paquet SCORM du module ;" }),
+        el("li", { text: "publier sur le site Vercel (téléchargement SCORM pour le LMS)." })]));
       box.appendChild(el("div", { class: "rowbtns" }, [
-        el("button", { class: "big go", type: "button", text: "Oui, lancer la production maintenant", onclick: function (e) { e.currentTarget.disabled = true; launch(mod, draw); } }),
+        el("button", { class: "big go", type: "button", text: "Oui, lancer la production de " + (cap ? "cette capsule" : "ce module"), onclick: function (e) { e.currentTarget.disabled = true; launch(key, draw); } }),
         el("button", { class: "chip", type: "button", text: "Non, annuler", onclick: function () { draw(false); } })]));
     };
     draw(false);
@@ -829,7 +843,7 @@ main .wrap{padding-block:16px 110px}
   /* ---------- contenu ---------- */
   function moduleBody(it) {
     return [
-      prodBlock(it.mod),
+      prodBlock(pKey(it)),
       sec("Le module", "module", it, [
         editable(it, "module", "entree", it.entry + " → " + it.exit),
         el("ol", null, it.capsules.map(function (c) { return el("li", null, [c[0] + " · " + c[1], c[2] ? el("span", { class: "tag", text: "IA", style: "margin-left:6px" }) : null]); }))]),
@@ -871,6 +885,7 @@ main .wrap{padding-block:16px 110px}
         el("ol", null, it.exo[3].map(function (s, i) { return el("li", null, [editable(it, "exo", "ex:" + (i + 1), s)]); }))])])]));
     k.push(sec("⑤ Le livrable", "livrable", it, [el("p", null, [el("b", { text: it.livrable[0] }), " · " + it.livrable[1]]),
       el("ul", null, it.livrable[2].map(function (c, i) { return el("li", null, [editable(it, "livrable", "liv:" + (i + 1), c)]); }))]));
+    k.push(prodBlock(pKey(it)));
     if (it.points) k.push(el("details", { class: "points" }, [el("summary", { text: "Points à vérifier par les experts (" + it.experts.join(", ") + ")" }), el("div", { class: "in" }, [el("p", { text: it.points })])]));
     return k;
   }
@@ -1049,11 +1064,13 @@ main .wrap{padding-block:16px 110px}
     var close = function () { d.remove(); };
     var d = el("div", { class: "drawer", onclick: function (e) { if (e.target === d) close(); } }, [pane]);
     pane.appendChild(el("div", { class: "top" }, [el("b", { class: "brand", text: "🚀 Envoi à la production" }), el("button", { class: "chip", type: "button", text: "Fermer", onclick: close })]));
-    pane.appendChild(el("p", { class: "muted", text: "Quand le décideur confirme l'envoi d'un module, Claude le produit tout de suite : vidéos de Seb, fiches PDF, SCORM et publication sur le site. Un module non envoyé : seules les corrections du texte sont reportées, rien n'est produit." }));
-    [1, 2, 3, 4, 5].forEach(function (m) {
-      var mi = ITEMS.findIndex(function (x) { return x.kind === "module" && x.mod === m; });
-      pane.appendChild(el("div", { class: "sec", style: "--c:" + ITEMS[mi].color }, [el("h3", null, [el("span", { class: "dpe" }), "Module " + m + " · " + ITEMS[mi].title]), prodBlock(m)]));
-    });
+    if (view === "item" && ITEMS[idx]) {
+      var it = ITEMS[idx];
+      pane.appendChild(el("p", { class: "muted", text: "Tu envoies seulement la page ouverte : " + (it.kind === "module" ? "le module " + it.mod + " · " + it.title : "la capsule " + it.id + " · " + it.title) + "." }));
+      pane.appendChild(prodBlock(pKey(it)));
+    } else {
+      pane.appendChild(el("p", { class: "banner", text: "Ouvre d'abord la capsule (ou la fiche du module) que tu veux envoyer en production, puis appuie sur 🚀." }));
+    }
     document.body.appendChild(d);
   }
   function openSummary() {
