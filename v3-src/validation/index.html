@@ -202,6 +202,15 @@ main .wrap{padding-block:16px 110px}
 .danger.full{background:var(--red);color:#fff}
 .tag.rv{background:var(--orange-s);color:var(--fg)}
 .dif .eb{border:1px solid var(--line);border-radius:999px;padding:6px 12px;background:var(--surface);color:var(--green-d);font-weight:700;font-size:14px;min-height:40px;cursor:pointer}
+/* ---- journal ---- */
+.jl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.jl li{border-bottom:1px solid var(--line);padding:8px 2px;display:flex;flex-direction:column;gap:4px;font-size:15px}
+.jl .jt{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.jl .jw{font-weight:700}
+.jl .jx{display:flex;flex-direction:column;gap:2px;font-size:14px;border-left:3px solid var(--line);padding-left:8px}
+.jl del{color:var(--muted)} .jl ins{text-decoration:none;background:var(--green-s);border-radius:4px;padding:0 3px}
+.jday{font-family:var(--display);font-weight:600;font-size:15px;margin:10px 0 2px;color:var(--muted)}
+.jf{display:flex;gap:6px;flex-wrap:wrap}
 /* ---- téléphone ---- */
 @media (max-width:600px){
   body{font-size:17px}
@@ -245,7 +254,7 @@ main .wrap{padding-block:16px 110px}
       <span class="logos"><svg class="lg-ep" viewBox="0 0 400 92" role="img" aria-label="Éco-propriété" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="epg" x1="0" y1="0" x2="78.6" y2="78.8" gradientUnits="userSpaceOnUse"><stop stop-color="#33B07D"/><stop offset="1" stop-color="#0F6634"/></linearGradient></defs><path d="M110.69 77.66C108.69 78.83 105.79 79.41 102.01 79.41C97.58 79.41 94.00 78.06 91.26 75.38C88.52 72.69 87.16 69.22 87.16 64.97C87.16 60.06 88.62 56.20 91.56 53.37C94.49 50.54 98.42 49.12 103.33 49.12C106.73 49.12 109.18 49.57 110.70 50.47V58.03C108.84 56.64 106.77 55.95 104.48 55.95C101.94 55.95 99.91 56.69 98.42 58.19C96.93 59.68 96.19 61.74 96.19 64.37C96.19 67.01 96.90 68.94 98.33 70.39C99.76 71.85 101.71 72.58 104.21 72.58C106.42 72.58 108.59 71.88 110.71 70.49V77.66L110.69 77.66Z" fill="#116B36"/><path d="M130.23 79.42C125.43 79.42 121.66 78.07 118.92 75.37C116.17 72.67 114.80 69.01 114.80 64.39C114.80 59.76 116.22 55.88 119.07 53.18C121.92 50.47 125.77 49.13 130.63 49.13C135.48 49.13 139.16 50.47 141.87 53.18C144.59 55.88 145.95 59.44 145.95 63.88C145.95 68.68 144.54 72.46 141.74 75.25C138.94 78.03 135.10 79.42 130.23 79.42H130.23ZM130.46 55.95C128.35 55.95 126.73 56.67 125.56 58.12C124.39 59.56 123.82 61.61 123.82 64.27C123.82 69.81 126.05 72.59 130.51 72.59C134.97 72.59 136.89 69.74 136.89 64.04C136.89 58.65 134.75 55.95 130.46 55.95Z" fill="#116B36"/><path d="M160.72 75.36H160.60V91.99H151.72V49.83H160.60V54.17H160.72C162.91 50.81 166.00 49.12 169.97 49.12C173.70 49.12 176.59 50.40 178.62 52.97C180.65 55.54 181.67 59.02 181.67 63.45C181.67 68.26 180.48 72.13 178.11 75.04C175.74 77.96 172.59 79.41 168.65 79.41C165.18 79.41 162.54 78.06 160.72 75.35V75.36ZM160.47 63.51V65.83C160.47 67.82 160.99 69.45 162.04 70.71C163.09 71.97 164.46 72.60 166.17 72.60C168.20 72.60 169.77 71.82 170.88 70.25C172.00 68.68 172.56 66.45 172.56 63.57C172.56 58.49 170.59 55.95 166.65 55.95C164.83 55.95 163.34 56.65 162.19 58.02C161.04 59.41 160.47 61.23 160.47 63.51Z" fill="currentColor"/><path d="M206.22 57.87C205.15 57.29 203.90 56.99 202.48 56.99C200.55 56.99 199.04 57.70 197.95 59.12C196.86 60.55 196.32 62.48 196.32 64.92V78.71H187.43V49.83H196.32V55.18H196.44C197.84 51.27 200.37 49.32 204.03 49.32C204.97 49.32 205.70 49.44 206.23 49.66V57.87H206.22Z" fill="currentColor"/><path d="M224.07 79.42C219.27 79.42 215.50 78.07 212.75 75.37C210.01 72.67 208.63 69.01 208.63 64.39C208.63 59.76 210.06 55.88 212.91 53.18C215.75 50.47 219.61 49.13 224.46 49.13C229.32 49.13 233 50.47 235.71 53.18C238.43 55.88 239.79 59.44 239.79 63.88C239.79 68.68 238.38 72.46 235.58 75.25C232.78 78.03 228.94 79.42 224.06 79.42H224.07ZM224.29 55.95C222.19 55.95 220.57 56.67 219.40 58.12C218.23 59.56 217.66 61.61 217.66 64.27C217.66 69.81 219.89 72.59 224.35 72.59C228.81 72.59 230.73 69.74 230.73 64.04C230.73 58.65 228.58 55.95 224.29 55.95Z" fill="currentColor"/><path d="M254.56 75.36H254.44V91.99H245.56V49.83H254.44V54.17H254.56C256.75 50.81 259.84 49.12 263.81 49.12C267.54 49.12 270.42 50.40 272.46 52.97C274.49 55.54 275.51 59.02 275.51 63.45C275.51 68.26 274.32 72.13 271.95 75.04C269.58 77.96 266.43 79.41 262.49 79.41C259.02 79.41 256.38 78.06 254.56 75.35L254.56 75.36ZM254.30 63.51V65.83C254.30 67.82 254.82 69.45 255.88 70.71C256.93 71.97 258.30 72.60 260.01 72.60C262.04 72.60 263.61 71.82 264.72 70.25C265.84 68.68 266.4 66.45 266.4 63.57C266.4 58.49 264.42 55.95 260.49 55.95C258.67 55.95 257.18 56.65 256.03 58.02C254.88 59.40 254.30 61.23 254.30 63.51Z" fill="currentColor"/><path d="M300.06 57.87C298.99 57.29 297.74 56.99 296.32 56.99C294.39 56.99 292.88 57.70 291.79 59.12C290.70 60.55 290.16 62.48 290.16 64.92V78.71H281.27V49.83H290.16V55.18H290.27C291.68 51.27 294.21 49.32 297.87 49.32C298.81 49.32 299.53 49.44 300.06 49.66V57.87H300.06Z" fill="currentColor"/><path d="M308.69 45.26C307.19 45.26 305.97 44.81 305.01 43.92C304.05 43.02 303.57 41.93 303.57 40.63C303.57 39.33 304.05 38.21 305.01 37.36C305.97 36.51 307.19 36.09 308.69 36.09C310.19 36.09 311.44 36.51 312.39 37.36C313.33 38.21 313.81 39.30 313.81 40.63C313.81 41.96 313.33 43.09 312.39 43.96C311.44 44.82 310.21 45.26 308.69 45.26ZM313.08 78.71H304.19V49.83H313.08V78.71Z" fill="currentColor"/><path d="M346.42 66.81H327.64C327.94 71.00 330.57 73.09 335.54 73.09C338.71 73.09 341.50 72.34 343.89 70.84V77.27C341.23 78.70 337.77 79.42 333.52 79.42C328.87 79.42 325.26 78.13 322.69 75.54C320.12 72.95 318.84 69.35 318.84 64.72C318.84 60.09 320.23 56.12 323.00 53.32C325.78 50.52 329.18 49.12 333.23 49.12C337.28 49.12 340.68 50.37 342.98 52.87C345.27 55.37 346.42 58.76 346.42 63.05V66.80V66.81ZM342.72 36.14L333.92 45.26H327.50L334.81 36.14H342.72ZM338.19 61.33C338.19 57.19 336.52 55.13 333.19 55.13C331.76 55.13 330.53 55.72 329.49 56.91C328.45 58.09 327.82 59.57 327.59 61.33H338.20H338.19Z" fill="currentColor"/><path d="M369.12 78.37C367.81 79.07 365.83 79.42 363.19 79.42C356.93 79.42 353.80 76.16 353.80 69.63V56.40H349.13V49.83H353.80V43.59L362.65 41.05V49.83H369.12V56.40H362.65V68.08C362.65 71.08 363.84 72.59 366.22 72.59C367.16 72.59 368.12 72.32 369.11 71.77V78.37H369.12Z" fill="currentColor"/><path d="M400 66.81H381.21C381.51 71.00 384.14 73.09 389.12 73.09C392.28 73.09 395.07 72.34 397.46 70.84V77.27C394.80 78.70 391.34 79.42 387.09 79.42C382.44 79.42 378.83 78.13 376.26 75.54C373.69 72.95 372.41 69.35 372.41 64.72C372.41 60.09 373.80 56.12 376.57 53.32C379.35 50.52 382.75 49.12 386.81 49.12C390.86 49.12 394.26 50.37 396.55 52.87C398.84 55.37 400 58.76 400 63.05V66.80V66.81ZM396.29 36.14L387.49 45.26H381.07L388.39 36.14H396.29ZM391.76 61.33C391.76 57.19 390.09 55.13 386.76 55.13C385.33 55.13 384.10 55.72 383.06 56.91C382.02 58.09 381.39 59.57 381.17 61.33H391.77H391.76Z" fill="currentColor"/><path d="M39.00 0H0V39.05C0 60.99 17.73 78.77 39.59 78.77H78.60V39.71C78.60 17.78 60.87 0 39.00 0ZM69.79 69.95H39.53C22.57 69.95 8.81 56.15 8.81 39.13V8.82H39.07C56.04 8.82 69.79 22.62 69.79 39.64V69.94V69.95Z" fill="url(#epg)"/><path d="M51.84 35.68H35.44V38.04C35.44 40.97 37.81 43.35 40.73 43.35H61.32V38.95C61.32 27.27 51.89 17.80 40.25 17.80H17.74L17.80 38.61C17.85 51.01 27.87 61.03 40.22 61.03H61.32V52.01H39.32C32.24 52.01 26.51 46.26 26.51 39.16V26.65H39.76C47.26 26.68 51.81 32.90 51.83 35.68H51.84Z" fill="url(#epg)"/></svg><span class="lg-x">×</span><img class="lg-ec l" src="logo-ec-dark.png" alt="Éco-Consultant"><img class="lg-ec d" src="logo-ec-white.png" alt=""></span>
       <span class="ttl">Validation de la formation · 5 modules, 34 capsules</span>
     </button>
-    <div class="hbtns"><button class="chip" id="roleBtn" type="button" aria-label="Mon rôle"><span class="ib">👤</span><span class="tx" id="roleTx">Mon rôle</span></button><button class="chip go" id="prodBtn" type="button" aria-label="Envoi à la production"><span class="ib">🚀</span><span class="tx">🚀 Production</span></button><button class="chip" id="sumBtn" type="button" aria-label="Sommaire"><span class="ib">☰</span><span class="tx">Sommaire</span></button></div>
+    <div class="hbtns"><button class="chip" id="roleBtn" type="button" aria-label="Mon rôle"><span class="ib">👤</span><span class="tx" id="roleTx">Mon rôle</span></button><button class="chip go" id="prodBtn" type="button" aria-label="Envoi à la production"><span class="ib">🚀</span><span class="tx">🚀 Production</span></button><button class="chip" id="logBtn" type="button" aria-label="Journal des modifications" hidden><span class="ib">📜</span><span class="tx">Journal</span></button><button class="chip" id="outBtn" type="button" aria-label="Se déconnecter" title="Se déconnecter" hidden><span class="ib">⎋</span><span class="tx">Déconnexion</span></button><button class="chip" id="sumBtn" type="button" aria-label="Sommaire"><span class="ib">☰</span><span class="tx">Sommaire</span></button></div>
   </div>
   <div class="ticks" id="ticks" aria-label="Progression"></div>
   <div class="count" id="count">Chargement du contenu…</div>
@@ -325,7 +334,7 @@ main .wrap{padding-block:16px 110px}
   function myState(id) { return isRev(id) ? "" : (peek(id).s || ""); }
   function dfr(iso) { var d = new Date(iso); return String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0"); }
   var NAMES = {};
-  var RELEVE_TRIGGER = "trig_019UTHaXrXnRvu8A8PMkPaa6", isOwnerV = false;
+  var RELEVE_TRIGGER = "trig_019UTHaXrXnRvu8A8PMkPaa6", isOwnerV = false, JRN = null;
   var PROD_TRIGGER = "trig_01UksUFiYDKzksGH9ZpzwQNt", MCP_SERVER = "Claude Code Remote", mcpP = null;
   function getMcp() { if (!mcpP) mcpP = window.claude && window.claude.use ? window.claude.use("mcp").catch(function () { return null; }) : Promise.resolve(null); return mcpP; }
   function hm(iso) { var d = new Date(iso); return dfr(iso) + " à " + d.getHours() + "h" + String(d.getMinutes()).padStart(2, "0"); }
@@ -639,6 +648,74 @@ main .wrap{padding-block:16px 110px}
         });
       }
     };
+  }
+
+  /* ---------- journal : qui a modifié quoi (version en ligne) ---------- */
+  function itemName(id) {
+    if (id == null) return "";
+    var i = byId(String(id));
+    if (i >= 0) return label(ITEMS[i]) + " · " + ITEMS[i].title;
+    if (/^\d+$/.test(String(id))) return "Module " + id;
+    return String(id);
+  }
+  function jRow(r, showItem) {
+    var role = team[r.user_id] && team[r.user_id].role ? " (" + ROLE_NAME[team[r.user_id].role] + ")" : "";
+    var d = new Date(r.at), t = String(d.getHours()).padStart(2, "0") + "h" + String(d.getMinutes()).padStart(2, "0");
+    var kids = [el("span", { class: "jt", text: t + (showItem && r.item_id ? " · " + itemName(r.item_id) : "") }),
+      el("span", null, [el("span", { class: "jw", text: (r.user_name || "Quelqu'un") + role }), " " + r.action])];
+    if (r.before || r.after) kids.push(el("div", { class: "jx" }, [r.before ? el("del", { text: r.before }) : null, r.after ? el("ins", { text: r.after }) : null]));
+    var li = el("li", null, kids);
+    if (showItem && r.item_id && byId(String(r.item_id)) >= 0) { li.style.cursor = "pointer"; li.title = "Ouvrir cet élément"; li.addEventListener("click", function () { var dr = li.closest(".drawer"); if (dr) dr.remove(); open(byId(String(r.item_id)), r.ref && r.ref.indexOf("part:") !== 0 ? r.ref : undefined); }); }
+    return li;
+  }
+  function jList(rows, showItem) {
+    var box = el("div");
+    if (!rows.length) { box.appendChild(el("p", { class: "muted", text: "Aucune modification pour l'instant." })); return box; }
+    var day = "", ul = null;
+    rows.forEach(function (r) {
+      var d = new Date(r.at), k = d.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+      if (k !== day) { day = k; box.appendChild(el("div", { class: "jday", text: k.charAt(0).toUpperCase() + k.slice(1) })); ul = el("ul", { class: "jl" }); box.appendChild(ul); }
+      ul.appendChild(jRow(r, showItem));
+    });
+    return box;
+  }
+  function openJournal(onlyItem) {
+    if (!JRN) return;
+    var pane = el("div", { class: "pane", role: "dialog", "aria-label": "Journal des modifications" });
+    var close = function () { d.remove(); };
+    var d = el("div", { class: "drawer", onclick: function (e) { if (e.target === d) close(); } }, [pane]);
+    var filt = { user: null, item: onlyItem || null };
+    var list = el("div"), chips = el("div", { class: "jf" });
+    var draw = function () {
+      chips.textContent = "";
+      var mk = function (lab, on, fn) { return el("button", { class: "mini" + (on ? " sel" : ""), type: "button", text: lab, onclick: fn }); };
+      chips.appendChild(mk("Tout le monde", !filt.user, function () { filt.user = null; draw(); }));
+      Object.keys(team).filter(function (u) { return team[u] && team[u].role; }).forEach(function (u) {
+        chips.appendChild(mk((team[u].name || NAMES[u] || (u === uid ? myName : "") || "Quelqu'un").split(" ")[0], filt.user === u, function () { filt.user = u; draw(); }));
+      });
+      if (view === "item" && ITEMS[idx]) chips.appendChild(mk(filt.item ? "Seulement « " + ITEMS[idx].id + " »" : "Tous les éléments", false, function () { filt.item = filt.item ? null : ITEMS[idx].id; draw(); }));
+      list.textContent = ""; list.appendChild(el("p", { class: "muted", text: "Chargement…" }));
+      JRN.list({ item: filt.item, user: filt.user, limit: 300 }).then(function (rows) { list.textContent = ""; list.appendChild(jList(rows, !filt.item)); })
+        .catch(function () { list.textContent = ""; list.appendChild(el("p", { class: "banner", text: "Le journal n'a pas pu se charger. Réessaie dans un instant." })); });
+    };
+    pane.appendChild(el("div", { class: "top" }, [el("b", { class: "brand", text: "📜 Journal des modifications" }), el("button", { class: "chip", type: "button", text: "Fermer", onclick: close })]));
+    pane.appendChild(el("p", { class: "muted", text: "Chaque enregistrement est noté ici avec son auteur et l'heure du serveur. Le journal ne peut être ni modifié ni effacé." }));
+    pane.appendChild(chips); pane.appendChild(list);
+    document.body.appendChild(d);
+    draw();
+  }
+  function historyBlock(it) {
+    if (!JRN) return null;
+    var inner = el("div", { class: "in" }, [el("p", { class: "muted", text: "Ouvre pour charger." })]);
+    var det = el("details", null, [el("summary", { text: "📜 Historique de cet élément" }), inner]);
+    var loaded = false;
+    det.addEventListener("toggle", function () {
+      if (!det.open || loaded) return; loaded = true;
+      inner.textContent = ""; inner.appendChild(el("p", { class: "muted", text: "Chargement…" }));
+      JRN.list({ item: it.id, limit: 100 }).then(function (rows) { inner.textContent = ""; inner.appendChild(jList(rows, false)); })
+        .catch(function () { inner.textContent = ""; inner.appendChild(el("p", { class: "banner", text: "Historique indisponible pour l'instant." })); loaded = false; });
+    });
+    return det;
   }
 
   /* ---------- réinitialisation ---------- */
@@ -1001,7 +1078,7 @@ main .wrap{padding-block:16px 110px}
     var head = [el("div", { class: "kicker" }, [el("span", { class: "dpe" }), "Module " + it.mod + " · " + (idx + 1) + " / " + ITEMS.length + " · ≈ " + est(it) + " min",
       it.kind === "capsule" ? el("span", { class: "tags" }, it.experts.map(function (x) { return el("span", { class: "tag exp", text: "Relecture " + x }); })) : el("span", { class: "tag", text: "Vue d'ensemble du module" })]),
       el("h1", { text: (it.kind === "module" ? "" : it.id + " · ") + it.title })];
-    var body = (diffOnly ? diffBody(it) : (it.kind === "module" ? moduleBody(it) : capsuleBody(it)).concat([teamBlock(it)])).concat([itemResetBlock(it)]);
+    var body = (diffOnly ? diffBody(it) : (it.kind === "module" ? moduleBody(it) : capsuleBody(it)).concat([teamBlock(it)])).concat([historyBlock(it), itemResetBlock(it)]);
     m.appendChild(el("article", { class: "card", style: "--c:" + it.color }, head.concat(body)));
     $("bar").hidden = false;
     var s = myState(it.id);
@@ -1163,6 +1240,8 @@ main .wrap{padding-block:16px 110px}
   $("skipBtn").addEventListener("click", next);
   $("prevBtn").addEventListener("click", prev);
   $("sumBtn").addEventListener("click", openSummary);
+  $("logBtn").addEventListener("click", function () { openJournal(null); });
+  $("outBtn").addEventListener("click", function () { if (JRN) JRN.logout(); });
   $("prodBtn").addEventListener("click", function () { if (ITEMS.length) openProd(); });
   $("homeBtn").addEventListener("click", function () { view = "home"; render(); });
   $("roleBtn").addEventListener("click", function () { if (uid && !readOnly) { $("main").textContent = ""; $("bar").hidden = true; renderRole(); } });
@@ -1174,6 +1253,10 @@ main .wrap{padding-block:16px 110px}
 
   function connect() {
     if (!window.claude || !window.claude.use) return;
+    window.claude.use("journal").then(function (j) {
+      if (!j) return;
+      JRN = j; $("logBtn").hidden = false; $("outBtn").hidden = false;
+    }).catch(function () {});
     Promise.all([window.claude.use("db"), window.claude.use("user")]).then(function (r) {
       db = r[0]; user = r[1];
       if (!user) { render(); return; }

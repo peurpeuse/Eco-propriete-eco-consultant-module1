@@ -11,9 +11,9 @@ os.makedirs(os.path.join(DIST, "api"))
 page = open(os.path.join(SRC, "index.html"), encoding="utf-8").read()
 # textes propres à claude.ai → version en ligne
 SUBS = [
-    ("demande au propriétaire de te donner l'accès « Contributeur » à cette page.", "ouvre le lien complet reçu (il contient la clé d'accès de l'équipe)."),
+    ("demande au propriétaire de te donner l'accès « Contributeur » à cette page.", "reconnecte-toi avec ton identifiant et ton mot de passe."),
     ("Tes choix ne peuvent pas être enregistrés ici (connexion indisponible). Ouvre la page depuis claude.ai, connecté à ton compte.",
-     "Tes choix ne peuvent pas être enregistrés : il manque la clé d'accès. Ouvre le lien complet reçu (avec #k=…)."),
+     "Connexion au serveur impossible pour l'instant. Vérifie ta connexion internet puis recharge la page."),
     ("🚀 Production lancée le ", "🚀 Envoyé en production le "),
     ("compte rendu par notification", "Claude le prend en charge dans l'heure"),
     ("lancé à la relève de 18h", "pris en charge dans l'heure"),
