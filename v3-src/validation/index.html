@@ -3,11 +3,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style>
-/* Mise en page : une carte à la fois, barre d'actions collée en bas, progression en 39 graduations aux couleurs DPE */
+/* Mise en page : une carte à la fois, barre d'actions collée en bas, progression en 39 graduations aux couleurs DPE ; prompteur plein écran */
 :root{
   --bg:#F3F7F4; --surface:#FFFFFF; --sunk:#E8F0EB; --line:#D5E2DA;
   --fg:#16241C; --muted:#56675D; --green:#1A7A44; --green-d:#0F5A31; --green-s:#E1F1E7;
-  --orange:#E07A00; --orange-s:#FFF0DD; --red:#C62828; --red-s:#FCE6E4;
+  --orange:#E07A00; --orange-s:#FFF0DD; --red:#C62828;
+  --prompt-bg:#0D1511; --prompt-fg:#F2F7F4;
   --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
   --r:14px;
@@ -15,11 +16,11 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0E1612; --surface:#16211B; --sunk:#1D2A23; --line:#2B3C33;
   --fg:#E6F0EA; --muted:#9DB0A5; --green:#3DBA74; --green-d:#7FD6A3; --green-s:#173527;
-  --orange:#FFA347; --orange-s:#3A2814; --red:#FF7A70; --red-s:#3A1A18; color-scheme:dark}}
+  --orange:#FFA347; --orange-s:#3A2814; --red:#FF7A70; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0E1612; --surface:#16211B; --sunk:#1D2A23; --line:#2B3C33;
   --fg:#E6F0EA; --muted:#9DB0A5; --green:#3DBA74; --green-d:#7FD6A3; --green-s:#173527;
-  --orange:#FFA347; --orange-s:#3A2814; --red:#FF7A70; --red-s:#3A1A18; color-scheme:dark}
+  --orange:#FFA347; --orange-s:#3A2814; --red:#FF7A70; color-scheme:dark}
 *{box-sizing:border-box}
 html,body{background:var(--bg);color:var(--fg)}
 body{font-family:var(--body);font-size:17px;line-height:1.55;margin:0}
@@ -28,11 +29,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
 header .wrap{display:flex;flex-direction:column;gap:8px;padding-block:12px}
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.brand{font-family:var(--display);font-weight:700;font-size:20px;color:var(--green-d);letter-spacing:-.01em}
+.brand{font-family:var(--display);font-weight:700;font-size:20px;color:var(--green-d);letter-spacing:-.01em;background:none;border:0;padding:0;text-align:left;cursor:pointer}
 .brand small{display:block;font-family:var(--body);font-weight:600;font-size:13px;color:var(--muted);letter-spacing:.02em}
 .hbtns{display:flex;gap:8px;flex-wrap:wrap}
 .ticks{display:grid;grid-template-columns:repeat(39,1fr);gap:2px;height:10px}
-.ticks span{border-radius:2px;background:var(--sunk);position:relative;cursor:pointer;border:0;padding:0}
+.ticks span{border-radius:2px;background:var(--sunk);cursor:pointer}
 .ticks span.on{background:var(--c)}
 .ticks span.fix{background:repeating-linear-gradient(45deg,var(--c) 0 3px,transparent 3px 6px)}
 .ticks span.cur{outline:2px solid var(--fg);outline-offset:1px}
@@ -43,24 +44,36 @@ button{font:inherit;cursor:pointer}
 .chip:hover{border-color:var(--green)}
 .chip.sel{background:var(--green);border-color:var(--green);color:#fff}
 :focus-visible{outline:3px solid var(--orange);outline-offset:2px}
-main .wrap{padding-block:20px 170px;display:flex;flex-direction:column;gap:16px}
-.banner{border-radius:var(--r);padding:12px 16px;font-size:15px;background:var(--orange-s);color:var(--fg);border:1px solid var(--line)}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:18px;border-top:6px solid var(--c,var(--green))}
+main .wrap{padding-block:20px 190px;display:flex;flex-direction:column;gap:16px}
+.banner{border-radius:var(--r);padding:12px 16px;font-size:15px;background:var(--orange-s);border:1px solid var(--line)}
+.sess{border-radius:var(--r);padding:10px 16px;font-size:15px;background:var(--green-s);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;font-variant-numeric:tabular-nums}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:20px;border-top:6px solid var(--c,var(--green))}
 .kicker{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .dpe{display:inline-block;width:12px;height:12px;border-radius:3px;background:var(--c)}
 h1{font-family:var(--display);font-weight:700;font-size:clamp(26px,5vw,36px);line-height:1.1;margin:0;text-wrap:balance;letter-spacing:-.015em}
-h2{font-family:var(--display);font-weight:600;font-size:19px;margin:0 0 6px}
-.sec{display:flex;flex-direction:column;gap:6px;min-width:0}
+h2{font-family:var(--display);font-weight:600;font-size:19px;margin:0}
+.sec{display:flex;flex-direction:column;gap:8px;min-width:0}
 .sec p{margin:0}
+.shead{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.pt{display:flex;gap:6px}
+.pt button{border:2px solid var(--line);background:var(--surface);color:var(--muted);border-radius:8px;padding:3px 10px;font-size:14px;font-weight:700}
+.pt button.ok.on{background:var(--green);border-color:var(--green);color:#fff}
+.pt button.fix.on{background:var(--orange);border-color:var(--orange);color:#fff}
+.pnote{width:100%;min-height:60px}
 .muted{color:var(--muted)}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
 .tag{font-size:13px;font-weight:700;border-radius:6px;padding:2px 8px;background:var(--sunk);color:var(--fg)}
-.tag.exp{background:var(--orange-s);color:var(--fg)}
-.tag.ok{background:var(--green-s)}
+.tag.exp{background:var(--orange-s)}
+.tag.mine{background:var(--orange);color:#fff}
 ol,ul{margin:0;padding-left:22px}
 li{margin:2px 0}
-.qa li b{display:block}
-.qa .ans{color:var(--green-d);font-weight:600}
+.ed{position:relative;border-radius:8px;padding:4px 6px;margin:-4px -6px}
+.ed:hover{background:var(--sunk)}
+.ed .eb{border:0;background:none;color:var(--green-d);font-weight:700;font-size:14px;padding:0 0 0 6px;cursor:pointer}
+.ed.chg{background:var(--orange-s)}
+.ed del{color:var(--muted);display:block;font-size:14px}
+.ed .new{display:block}
+.ans{color:var(--green-d);font-weight:600;display:block}
 details{border:1px solid var(--line);border-radius:10px;background:var(--bg)}
 details>summary{cursor:pointer;padding:10px 14px;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:8px}
 details>summary::after{content:"＋";color:var(--muted)}
@@ -70,27 +83,29 @@ details .in{padding:0 14px 14px;display:flex;flex-direction:column;gap:10px}
 .seg .tc{font-variant-numeric:tabular-nums;font-weight:700;color:var(--muted);font-size:14px;padding-top:2px}
 .seg .os{font-size:14px;color:var(--muted);margin-top:4px}
 .points{background:var(--orange-s);border-color:transparent}
-.watch{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--green-d);text-decoration:none;border:2px solid var(--green);border-radius:10px;padding:8px 14px;width:fit-content}
-.team{display:flex;flex-direction:column;gap:8px}
+.rowbtns{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.watch{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--green-d);text-decoration:none;border:2px solid var(--green);border-radius:10px;padding:8px 14px;background:var(--surface)}
+.team{display:flex;flex-direction:column;gap:10px}
 .who{display:grid;grid-template-columns:32px 1fr;gap:10px;align-items:start}
 .who img{width:32px;height:32px;border-radius:50%}
-.who .st{font-weight:700}
-.who .st.ok{color:var(--green-d)} .who .st.fix{color:var(--orange)}
-.who .note{white-space:pre-wrap;font-size:15px}
+.st{font-weight:700}
+.st.ok{color:var(--green-d)} .st.fix{color:var(--orange)}
+.note{white-space:pre-wrap;font-size:15px}
+.edl{font-size:14px;border-left:3px solid var(--orange);padding-left:8px;margin-top:4px}
 .bar{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
 .bar .wrap{padding-block:12px;display:flex;flex-direction:column;gap:10px}
-.acts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.acts{display:grid;grid-template-columns:2fr 1fr;gap:10px}
 .big{border-radius:12px;padding:14px 16px;font-weight:700;font-size:17px;border:2px solid transparent}
 .yes{background:var(--green);color:#fff}
 .yes:hover{background:var(--green-d)}
 .no{background:var(--surface);color:var(--fg);border-color:var(--orange)}
 .no:hover{background:var(--orange-s)}
-.nav{display:flex;justify-content:space-between;gap:8px}
+.nav{display:flex;justify-content:space-between;gap:8px;align-items:center}
 .link{background:none;border:0;color:var(--muted);font-weight:600;padding:4px 2px}
 .link:hover{color:var(--fg)}
 textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10px;border:2px solid var(--orange);padding:10px;background:var(--surface);color:var(--fg);resize:vertical}
 .mine{font-size:14px;font-weight:700}
-.toast{position:fixed;left:50%;transform:translateX(-50%);top:calc(112px + env(safe-area-inset-top,0px));background:var(--fg);color:var(--bg);padding:10px 18px;border-radius:999px;font-weight:700;z-index:8;opacity:0;transition:opacity .2s;pointer-events:none;max-width:calc(100% - 32px)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);top:calc(112px + env(safe-area-inset-top,0px));background:var(--fg);color:var(--bg);padding:10px 18px;border-radius:999px;font-weight:700;z-index:12;opacity:0;transition:opacity .2s;pointer-events:none;max-width:calc(100% - 32px)}
 .toast.show{opacity:1}
 .drawer{position:fixed;inset:0;z-index:9;background:rgba(0,0,0,.35);display:flex;justify-content:flex-end}
 .drawer .pane{background:var(--surface);width:min(440px,100%);height:100%;overflow:auto;padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 24px 16px;display:flex;flex-direction:column;gap:14px}
@@ -103,16 +118,29 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
 .row .t{font-size:15px;min-width:0}
 .row .k{font-size:13px;color:var(--muted)}
 .roles{display:flex;flex-wrap:wrap;gap:8px}
-.end{text-align:left}
+.plan{display:flex;flex-direction:column;gap:6px;padding:0;list-style:none}
+.plan li{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding:6px 0;font-variant-numeric:tabular-nums}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+/* prompteur */
+.prompt{position:fixed;inset:0;z-index:20;background:var(--prompt-bg);color:var(--prompt-fg);display:flex;flex-direction:column}
+.prompt .pbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:calc(10px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid rgba(255,255,255,.15)}
+.prompt .clock{font-family:var(--display);font-size:30px;font-variant-numeric:tabular-nums}
+.prompt .clock small{font-family:var(--body);font-size:14px;opacity:.7;margin-left:8px}
+.prompt .pbtn{border:1px solid rgba(255,255,255,.35);background:transparent;color:var(--prompt-fg);border-radius:999px;padding:8px 14px;font-weight:700}
+.prompt .pbtn.go{background:#2EA56E;border-color:#2EA56E}
+.prompt .scroller{flex:1;overflow:hidden;position:relative}
+.prompt .roll{position:absolute;left:0;right:0;top:0;padding:40vh max(24px,env(safe-area-inset-right,0px)) 60vh max(24px,env(safe-area-inset-left,0px));max-width:900px;margin:0 auto;font-size:clamp(26px,4.4vw,42px);line-height:1.45;font-weight:600}
+.prompt .roll .ptc{font-size:16px;opacity:.55;display:block;margin-top:28px;font-variant-numeric:tabular-nums}
+.prompt .guide{position:absolute;left:0;right:0;top:38%;height:3px;background:rgba(46,165,110,.6);pointer-events:none}
+.prompt .pfoot{padding:8px max(16px,env(safe-area-inset-left,0px)) calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:10px;justify-content:center;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.15)}
 @media (prefers-reduced-motion: reduce){.toast{transition:none}}
-@media (max-width:480px){.card{padding:16px}.big{font-size:16px;padding:12px}}
+@media (max-width:480px){.card{padding:16px}.big{font-size:16px;padding:12px}.acts{grid-template-columns:1fr}}
 </style>
 
 <header><div class="wrap">
   <div class="top">
-    <div class="brand">Validation de la formation<small>Éco-Consultant · 5 modules, 34 capsules</small></div>
+    <button class="brand" id="homeBtn" type="button">Validation de la formation<small>Éco-Consultant · 5 modules, 34 capsules</small></button>
     <div class="hbtns"><button class="chip" id="roleBtn" type="button">Mon rôle</button><button class="chip" id="sumBtn" type="button">Sommaire</button></div>
   </div>
   <div class="ticks" id="ticks" aria-label="Progression"></div>
@@ -125,12 +153,12 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
 
 <div class="bar" id="bar" hidden><div class="wrap">
   <div id="fixBox" hidden>
-    <label for="note" class="mine">Qu'est-ce qu'il faut corriger ? (minutage, n° de question, texte exact…)</label>
-    <textarea id="note" placeholder="Ex. : 03:25, remplacer « coefficient 2,3 » par « coefficient 2,3 jusqu'au 31/12/2025 ». Source : arrêté du 13/08/2025."></textarea>
+    <label for="note" class="mine">Remarque générale sur cet élément (facultatif)</label>
+    <textarea id="note" placeholder="Ex. : le ton est trop scolaire au début, je veux une accroche plus directe."></textarea>
   </div>
-  <div class="acts" id="acts">
-    <button class="big yes" id="yesBtn" type="button">✓ Je valide</button>
-    <button class="big no" id="noBtn" type="button">✏️ À corriger</button>
+  <div class="acts">
+    <button class="big yes" id="yesBtn" type="button">✓ Valider et continuer</button>
+    <button class="big no" id="noBtn" type="button">✏️ Remarque</button>
   </div>
   <div class="nav"><button class="link" id="prevBtn" type="button">← Précédent</button><span class="mine" id="mine"></span><button class="link" id="skipBtn" type="button">Passer →</button></div>
 </div></div>
@@ -142,10 +170,12 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
   "use strict";
   var ROLES = [["DIR", "Décideur"], ["FORM", "Formateur"], ["JUR", "Juriste / notaire"], ["TECH", "Technique bâtiment"], ["FIN", "Financement"], ["VID", "Vidéo"]];
   var ROLE_NAME = {}; ROLES.forEach(function (r) { ROLE_NAME[r[0]] = r[1]; });
-  var DATA = null, ITEMS = [], idx = 0;
-  var db = null, user = null, uid = null, readOnly = false;
-  var mine = { role: "", items: {} };      // mes décisions
-  var team = {};                            // uid -> {role, items}
+  var PARTS = { video: "Vidéo", quiz: "Quiz", fiche: "Fiche", exo: "Exercice", livrable: "Livrable", module: "Module" };
+  var SESSION_MIN = 20;
+  var DATA = null, ITEMS = [], idx = 0, view = "home";
+  var db = null, user = null, uid = null, myName = "", readOnly = false;
+  var mine = { role: "", items: {}, session: null };
+  var team = {};
   var writing = Promise.resolve();
   var $ = function (id) { return document.getElementById(id); };
 
@@ -155,172 +185,342 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
       if (k === "text") e.textContent = attrs[k];
       else if (k === "class") e.className = attrs[k];
       else if (k === "style") e.setAttribute("style", attrs[k]);
+      else if (attrs[k] == null) continue;
       else if (k.slice(0, 2) === "on") e.addEventListener(k.slice(2), attrs[k]);
       else e.setAttribute(k, attrs[k]);
     }
-    (kids || []).forEach(function (c) { if (c != null) e.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+    (kids || []).forEach(function (c) { if (c != null && c !== false) e.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
     return e;
   }
   function toast(t) { var x = $("toast"); x.textContent = t; x.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(function () { x.classList.remove("show"); }, 1800); }
   function label(it) { return it.kind === "module" ? "Module " + it.mod : "Capsule " + it.id; }
-  function myState(id) { var d = mine.items[id]; return d ? d.s : ""; }
+  function rec(id) { if (!mine.items[id]) mine.items[id] = {}; var r = mine.items[id]; r.parts = r.parts || {}; r.edits = r.edits || {}; return r; }
+  function peek(id) { return mine.items[id] || {}; }
+  function myState(id) { return peek(id).s || ""; }
   function done() { return ITEMS.filter(function (it) { return myState(it.id); }).length; }
+  function est(it) { return it.kind === "module" ? 4 : Math.round(it.min + 5); }   // minutes de relecture estimées
+  function mmss(s) { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + " min " + String(s % 60).padStart(2, "0"); }
   function nextOpen(from) {
     for (var i = from + 1; i < ITEMS.length; i++) if (!myState(ITEMS[i].id)) return i;
     for (var j = 0; j <= from && j < ITEMS.length; j++) if (!myState(ITEMS[j].id)) return j;
     return -1;
   }
+  function remainingMin() { return ITEMS.filter(function (it) { return !myState(it.id); }).reduce(function (a, it) { return a + est(it); }, 0); }
+  function fmtH(m) { return m >= 60 ? Math.floor(m / 60) + " h " + String(m % 60).padStart(2, "0") : m + " min"; }
 
-  /* ---------- en-tête : progression ---------- */
+  /* ---------- en-tête ---------- */
   function renderTicks() {
     var t = $("ticks"); t.textContent = "";
     ITEMS.forEach(function (it, i) {
       var s = myState(it.id);
       var b = el("span", { role: "button", tabindex: "0", title: label(it) + " · " + it.title, "aria-label": label(it), style: "--c:" + it.color,
-        class: (s === "ok" ? "on" : s === "fix" ? "fix" : "") + (i === idx ? " cur" : "") });
-      b.addEventListener("click", function () { go(i); });
-      b.addEventListener("keydown", function (e) { if (e.key === "Enter") go(i); });
+        class: (s === "ok" ? "on" : s === "fix" ? "fix" : "") + (view === "item" && i === idx ? " cur" : "") });
+      b.addEventListener("click", function () { open(i); });
+      b.addEventListener("keydown", function (e) { if (e.key === "Enter") open(i); });
       t.appendChild(b);
     });
     var n = done(), fix = ITEMS.filter(function (it) { return myState(it.id) === "fix"; }).length;
     var c = $("count"); c.textContent = "";
     c.appendChild(el("b", { text: n + " / " + ITEMS.length }));
-    c.appendChild(document.createTextNode(" traités par toi" + (fix ? " · " + fix + " à corriger" : "") + (mine.role ? " · rôle : " + ROLE_NAME[mine.role] : "")));
+    c.appendChild(document.createTextNode(" traités" + (fix ? " · " + fix + " avec corrections" : "") + " · reste ≈ " + fmtH(remainingMin()) + (mine.role ? " · " + ROLE_NAME[mine.role] : "")));
     $("roleBtn").textContent = mine.role ? ROLE_NAME[mine.role] : "Mon rôle";
   }
 
-  /* ---------- contenu d'un élément ---------- */
-  function sec(title, kids, id) { var d = el("div", { class: "sec" }, [el("h2", { text: title })].concat(kids)); if (id) d.id = id; return d; }
-  function list(tag, arr) { return el(tag, null, arr.map(function (x) { return el("li", { text: x }); })); }
+  /* ---------- 1. correction directe dans le texte ---------- */
+  function editable(it, part, ref, text, display) {
+    var r = peek(it.id), e = r.edits && r.edits[ref];
+    var box = el("div", { class: "ed" + (e ? " chg" : "") });
+    var drawView = function () {
+      box.textContent = ""; box.className = "ed" + ((peek(it.id).edits || {})[ref] ? " chg" : "");
+      var cur = (peek(it.id).edits || {})[ref];
+      if (cur) {
+        box.appendChild(el("span", { class: "tag mine", text: "Ta version" }));
+        box.appendChild(el("span", { class: "new", text: cur.after }));
+        box.appendChild(el("del", { text: text }));
+      } else box.appendChild(display ? display() : el("span", { text: text }));
+      if (!readOnly) box.appendChild(el("button", { class: "eb", type: "button", text: cur ? "✏️ Modifier ta version" : "✏️ Modifier", onclick: drawEdit }));
+    };
+    var drawEdit = function () {
+      var cur = (peek(it.id).edits || {})[ref];
+      var ta = el("textarea", { "aria-label": "Nouvelle version" }); ta.value = cur ? cur.after : text;
+      box.textContent = "";
+      box.appendChild(ta);
+      box.appendChild(el("div", { class: "rowbtns" }, [
+        el("button", { class: "chip sel", type: "button", text: "Enregistrer ma version", onclick: function () {
+          var v = ta.value.trim(); var rr = rec(it.id);
+          if (!v || v === text) delete rr.edits[ref]; else { rr.edits[ref] = { part: part, before: text, after: v }; rr.parts[part] = { s: "fix", note: (rr.parts[part] || {}).note || "" }; }
+          save(); toast(v && v !== text ? "Ta version est enregistrée" : "Modification annulée"); drawView(); refreshParts(it); updateBar(it); } }),
+        cur ? el("button", { class: "chip", type: "button", text: "Revenir au texte d'origine", onclick: function () { delete rec(it.id).edits[ref]; save(); drawView(); updateBar(it); } }) : null,
+        el("button", { class: "chip", type: "button", text: "Annuler", onclick: drawView })]));
+      ta.focus();
+    };
+    drawView();
+    return box;
+  }
 
+  /* ---------- 2. avis partie par partie ---------- */
+  function partCtl(it, part) {
+    var wrap = el("div", { class: "pt", "data-part": part });
+    var noteBox = el("textarea", { class: "pnote", placeholder: "Ce qui ne va pas dans cette partie…", "aria-label": "Remarque sur " + PARTS[part] });
+    var draw = function () {
+      wrap.textContent = "";
+      var p = (peek(it.id).parts || {})[part] || {};
+      [["ok", "✓"], ["fix", "✏️"]].forEach(function (b) {
+        wrap.appendChild(el("button", { type: "button", class: b[0] + (p.s === b[0] ? " on" : ""), title: b[0] === "ok" ? "Partie validée" : "Partie à corriger",
+          "aria-pressed": String(p.s === b[0]), text: b[1] + " " + (b[0] === "ok" ? "OK" : "À corriger"), disabled: readOnly ? "" : null,
+          onclick: function () { var rr = rec(it.id); rr.parts[part] = { s: b[0], note: (rr.parts[part] || {}).note || "" }; save(); draw(); syncNote(); updateBar(it); } }));
+      });
+    };
+    var syncNote = function () {
+      var p = (peek(it.id).parts || {})[part] || {};
+      noteBox.hidden = p.s !== "fix"; noteBox.value = p.note || "";
+    };
+    noteBox.addEventListener("change", function () { var rr = rec(it.id); rr.parts[part] = { s: "fix", note: noteBox.value.trim() }; save(); });
+    draw(); syncNote();
+    wrap._note = noteBox; wrap._draw = function () { draw(); syncNote(); };
+    if (readOnly) wrap.querySelectorAll("button").forEach(function (b) { b.disabled = true; });
+    return wrap;
+  }
+  function refreshParts(it) { document.querySelectorAll(".pt").forEach(function (w) { if (w._draw) w._draw(); }); }
+  function sec(title, part, it, kids, id) {
+    var head = el("div", { class: "shead" }, [el("h2", { text: title })]);
+    var ctl = null;
+    if (part) { ctl = partCtl(it, part); head.appendChild(ctl); }
+    var d = el("div", { class: "sec" }, [head].concat(ctl ? [ctl._note] : []).concat(kids));
+    if (id) d.id = id;
+    return d;
+  }
+  function counts(it) {
+    var r = peek(it.id), parts = r.parts || {}, ed = Object.keys(r.edits || {}).length;
+    var fixP = Object.keys(parts).filter(function (k) { return parts[k].s === "fix"; }).length;
+    return { ed: ed, fixP: fixP };
+  }
+  function updateBar(it) {
+    var c = counts(it);
+    var n = c.ed + c.fixP;
+    $("yesBtn").textContent = n ? "Enregistrer et continuer (" + (c.ed ? c.ed + " modif." : "") + (c.ed && c.fixP ? ", " : "") + (c.fixP ? c.fixP + " partie" + (c.fixP > 1 ? "s" : "") + " à corriger" : "") + ")" : "✓ Tout valider et continuer";
+  }
+
+  /* ---------- 3. prompteur ---------- */
+  function openPrompter(it) {
+    var wpm = 140, running = false, elapsed = 0, last = 0, y = 0, raf = 0, lock = null;
+    var segs = it.script.map(function (s) { var e = (peek(it.id).edits || {})["seg:" + s[0]]; return [s[0], e ? e.after : s[1]]; });
+    var words = segs.reduce(function (a, s) { return a + (s[1].match(/\S+/g) || []).length; }, 0);
+    var roll = el("div", { class: "roll" }, segs.map(function (s) { return el("p", null, [el("span", { class: "ptc", text: s[0] }), s[1]]); }));
+    var scroller = el("div", { class: "scroller" }, [roll, el("div", { class: "guide" })]);
+    var clock = el("div", { class: "clock" }), speed = el("span");
+    var goBtn = el("button", { class: "pbtn go", type: "button", text: "▶ Démarrer" });
+    var drawClock = function () { clock.textContent = ""; clock.appendChild(document.createTextNode(mmss(elapsed / 1000))); clock.appendChild(el("small", { text: "cible ≈ " + mmss(words / 140 * 60) })); speed.textContent = wpm + " mots/min"; };
+    var tick = function (t) {
+      if (!running) return;
+      var dt = last ? t - last : 0; last = t; elapsed += dt;
+      var total = roll.scrollHeight - scroller.clientHeight * 0.95;
+      var pxPerMs = total / (words / wpm * 60000);
+      y = Math.min(total, y + dt * pxPerMs); roll.style.transform = "translateY(" + (-y) + "px)";
+      drawClock();
+      raf = requestAnimationFrame(tick);
+    };
+    var toggle = function () {
+      running = !running; last = 0; goBtn.textContent = running ? "⏸ Pause" : "▶ Reprendre";
+      if (running) { raf = requestAnimationFrame(tick); try { navigator.wakeLock && navigator.wakeLock.request("screen").then(function (l) { lock = l; }).catch(function () {}); } catch (e) {} }
+      else cancelAnimationFrame(raf);
+    };
+    goBtn.addEventListener("click", toggle);
+    var close = function (keep) {
+      running = false; cancelAnimationFrame(raf); try { lock && lock.release(); } catch (e) {}
+      if (keep && elapsed > 5000) { var rr = rec(it.id); rr.prompteur = { sec: Math.round(elapsed / 1000), wpm: wpm, at: new Date().toISOString() }; save(); toast("Durée lue enregistrée : " + mmss(elapsed / 1000)); render(); }
+      ov.remove(); document.removeEventListener("keydown", key);
+    };
+    var key = function (e) { if (e.key === " ") { e.preventDefault(); toggle(); } if (e.key === "Escape") close(false); };
+    document.addEventListener("keydown", key);
+    var ov = el("div", { class: "prompt", role: "dialog", "aria-label": "Prompteur" }, [
+      el("div", { class: "pbar" }, [clock, el("div", { class: "rowbtns" }, [
+        el("button", { class: "pbtn", type: "button", text: "− lent", onclick: function () { wpm = Math.max(100, wpm - 10); drawClock(); } }), speed,
+        el("button", { class: "pbtn", type: "button", text: "+ vite", onclick: function () { wpm = Math.min(200, wpm + 10); drawClock(); } })])]),
+      scroller,
+      el("div", { class: "pfoot" }, [goBtn,
+        el("button", { class: "pbtn", type: "button", text: "↺ Revenir au début", onclick: function () { y = 0; roll.style.transform = ""; } }),
+        el("button", { class: "pbtn", type: "button", text: "✓ Terminer et enregistrer la durée", onclick: function () { close(true); } }),
+        el("button", { class: "pbtn", type: "button", text: "Fermer", onclick: function () { close(false); } })])]);
+    document.body.appendChild(ov); drawClock(); goBtn.focus();
+  }
+
+  /* ---------- contenu ---------- */
   function moduleBody(it) {
     return [
-      sec("Point de départ → ce que l'apprenant produit", [el("p", { text: it.entry + " → " + it.exit })]),
-      sec(it.capsules.length + " capsules", [el("ol", null, it.capsules.map(function (c) {
-        return el("li", null, [c[0] + " · " + c[1], c[2] ? el("span", { class: "tag", text: "IA", style: "margin-left:6px" }) : null]); }))]),
-      sec("Cas pratique de fin de module", [
-        el("p", null, [el("b", { text: it.case.title }), " · " + (it.case.min || "?") + " min"]),
+      sec("Le module", "module", it, [
+        editable(it, "module", "entree", it.entry + " → " + it.exit),
+        el("ol", null, it.capsules.map(function (c) { return el("li", null, [c[0] + " · " + c[1], c[2] ? el("span", { class: "tag", text: "IA", style: "margin-left:6px" }) : null]); }))]),
+      el("div", { class: "sec" }, [el("h2", { text: "Cas pratique · " + it.case.title + " (" + (it.case.min || "?") + " min)" }),
         el("details", null, [el("summary", { text: "Lire l'énoncé et la grille de notation" }), el("div", { class: "in" }, [
-          el("p", { text: it.case.brief || "" }),
+          editable(it, "module", "cas", it.case.brief || ""),
           el("p", null, [el("b", { text: "Livrable : " }), it.case.deliverable || ""]),
-          list("ul", it.case.criteria.map(function (c) { return c[0] + " (" + c[1] + " pts)"; }))])])]),
-      sec("Rappels après le module", [list("ul", it.reminders.map(function (r) { return r[0].replace("J", "J+") + " · " + (r[1] || ""); }))])
+          el("ul", null, it.case.criteria.map(function (c) { return el("li", { text: c[0] + " (" + c[1] + " pts)" }); }))])])]),
+      el("div", { class: "sec" }, [el("h2", { text: "Rappels après le module" }), el("ul", null, it.reminders.map(function (r) { return el("li", { text: r[0].replace("J", "J+") + " · " + (r[1] || "") }); }))])
     ];
   }
   function capsuleBody(it) {
-    var k = [];
-    k.push(sec("Objectif", [el("p", { text: it.objective })]));
-    var vid = [el("p", null, [el("b", { text: "Accroche : " }), it.hook || ""]),
-      el("p", { class: "muted", text: it.script.length + " segments · " + it.words + " mots · ≈ " + String(it.min).replace(".", ",") + " min" })];
-    if (it.video) vid.push(el("a", { class: "watch", href: DATA.site + "/#c" + it.id.replace(".", "-"), target: "_blank", rel: "noopener", text: "▶ Regarder la vidéo sur le site" }));
-    else vid.push(el("p", null, [el("span", { class: "tag", text: "Vidéo pas encore tournée" }), " Tu valides le script : la vidéo sera produite ensuite."]));
-    vid.push(el("details", null, [el("summary", { text: "Lire le script complet de Seb" }), el("div", { class: "in" }, it.script.map(function (s) {
-      return el("div", { class: "seg" }, [el("div", { class: "tc", text: s[0] }), el("div", null, [el("p", { text: s[1] }), s[2] ? el("p", { class: "os", text: "À l'écran : " + s[2] }) : null])]); }))]));
-    k.push(sec("① La vidéo", vid));
-    k.push(sec("② Le quiz (" + it.quiz.length + " questions)", [el("details", null, [el("summary", { text: "Voir les questions et les bonnes réponses" }),
-      el("div", { class: "in" }, [el("ol", { class: "qa" }, it.quiz.map(function (q) { return el("li", null, [el("b", { text: q[0] }), el("span", { class: "ans", text: "✓ " + q[1] })]); }))])])]));
-    k.push(sec("③ La fiche PDF", [el("p", null, [el("b", { text: it.fiche[0] })]), el("p", { class: "muted", text: it.fiche[1].join(" · ") })]));
-    k.push(sec("④ L'exercice", [el("p", null, [el("b", { text: it.exo[0] }), " · " + (it.exo[1] || "?") + " min" + (it.ia ? " · avec l'IA" : "")]),
-      el("details", null, [el("summary", { text: "Voir la consigne et les étapes" }), el("div", { class: "in" }, [el("p", { text: it.exo[2] }), list("ol", it.exo[3])])])]));
-    k.push(sec("⑤ Le livrable", [el("p", null, [el("b", { text: it.livrable[0] }), " · " + it.livrable[1]]), list("ul", it.livrable[2])]));
+    var k = [], r = peek(it.id);
+    k.push(el("div", { class: "sec" }, [el("h2", { text: "Objectif" }), editable(it, "video", "obj", it.objective)]));
+    var vid = [el("p", { class: "muted", text: it.script.length + " segments · " + it.words + " mots · ≈ " + String(it.min).replace(".", ",") + " min" + (r.prompteur ? " · lu par toi en " + mmss(r.prompteur.sec) : "") })];
+    var btns = [el("button", { class: "watch", type: "button", text: "🎙 Lire le script au prompteur", onclick: function () { openPrompter(it); } })];
+    if (it.video) btns.push(el("a", { class: "watch", href: DATA.site + "/#c" + it.id.replace(".", "-"), target: "_blank", rel: "noopener", text: "▶ Regarder la vidéo sur le site" }));
+    vid.push(el("div", { class: "rowbtns" }, btns));
+    if (!it.video) vid.push(el("p", { class: "muted", text: "Vidéo pas encore tournée : tu valides le script, la vidéo sera produite ensuite." }));
+    vid.push(el("details", { open: "" }, [el("summary", { text: "Le script de Seb (clique « Modifier » sur un passage pour le réécrire)" }), el("div", { class: "in" }, it.script.map(function (s) {
+      return el("div", { class: "seg" }, [el("div", { class: "tc", text: s[0] }), el("div", null, [editable(it, "video", "seg:" + s[0], s[1]), s[2] ? el("p", { class: "os", text: "À l'écran : " + s[2] }) : null])]); }))]));
+    k.push(sec("① La vidéo", "video", it, vid));
+    k.push(sec("② Le quiz (" + it.quiz.length + " questions)", "quiz", it, [el("details", null, [el("summary", { text: "Voir et corriger les questions" }),
+      el("div", { class: "in" }, [el("ol", null, it.quiz.map(function (q, i) {
+        var txt = q[0] + "\n✓ " + q[1];
+        return el("li", null, [editable(it, "quiz", "q:" + (i + 1), txt, function () { return el("span", null, [el("b", { text: q[0] }), el("span", { class: "ans", text: "✓ " + q[1] })]); })]); }))])])]));
+    k.push(sec("③ La fiche PDF", "fiche", it, [editable(it, "fiche", "fiche", it.fiche[0] + "\n" + it.fiche[1].join(" · "), function () {
+      return el("span", null, [el("b", { text: it.fiche[0] }), el("span", { class: "muted", style: "display:block", text: it.fiche[1].join(" · ") })]); })]));
+    k.push(sec("④ L'exercice", "exo", it, [el("p", null, [el("b", { text: it.exo[0] }), " · " + (it.exo[1] || "?") + " min" + (it.ia ? " · avec l'IA" : "")]),
+      el("details", null, [el("summary", { text: "Voir et corriger la consigne et les étapes" }), el("div", { class: "in" }, [
+        editable(it, "exo", "ex:contexte", it.exo[2]),
+        el("ol", null, it.exo[3].map(function (s, i) { return el("li", null, [editable(it, "exo", "ex:" + (i + 1), s)]); }))])])]));
+    k.push(sec("⑤ Le livrable", "livrable", it, [el("p", null, [el("b", { text: it.livrable[0] }), " · " + it.livrable[1]]),
+      el("ul", null, it.livrable[2].map(function (c, i) { return el("li", null, [editable(it, "livrable", "liv:" + (i + 1), c)]); }))]));
     if (it.points) k.push(el("details", { class: "points" }, [el("summary", { text: "Points à vérifier par les experts (" + it.experts.join(", ") + ")" }), el("div", { class: "in" }, [el("p", { text: it.points })])]));
     return k;
   }
 
   function teamBlock(it) {
-    var ids = Object.keys(team).filter(function (u) { return team[u].items && team[u].items[it.id]; });
+    var ids = Object.keys(team).filter(function (u) { return u !== uid && team[u].items && team[u].items[it.id] && team[u].items[it.id].s; });
     var box = el("div", { class: "team" });
-    if (!ids.length) { box.appendChild(el("p", { class: "muted", text: "Personne n'a encore donné son avis sur cet élément." })); return sec("L'avis de l'équipe", [box], "teamSec"); }
+    var wrap = el("div", { class: "sec", id: "teamSec" }, [el("h2", { text: "L'avis des autres" }), box]);
+    if (!ids.length) { box.appendChild(el("p", { class: "muted", text: "Personne d'autre n'a encore donné son avis ici." })); return wrap; }
     var draw = function (ps) {
       box.textContent = "";
       ids.forEach(function (u) {
-        var d = team[u].items[it.id], p = (ps && ps[u]) || {};
+        var d = team[u].items[it.id], p = (ps && ps[u]) || {}, parts = d.parts || {}, eds = d.edits || {};
         box.appendChild(el("div", { class: "who" }, [el("img", { src: p.avatarUrl || "", alt: "" }), el("div", null, [
-          el("div", null, [el("b", { text: (p.isMe ? "Toi" : (p.name || "Quelqu'un")) }), team[u].role ? " · " + ROLE_NAME[team[u].role] : "", " · ",
-            el("span", { class: "st " + d.s, text: d.s === "ok" ? "✓ validé" : "✏️ à corriger" })]),
-          d.note ? el("div", { class: "note", text: d.note }) : null])]));
+          el("div", null, [el("b", { text: p.name || "Quelqu'un" }), team[u].role ? " · " + ROLE_NAME[team[u].role] : "", " · ",
+            el("span", { class: "st " + d.s, text: d.s === "ok" ? "✓ validé" : "✏️ corrections" })]),
+          Object.keys(parts).length ? el("div", { class: "tags" }, Object.keys(parts).map(function (k) { return el("span", { class: "tag" + (parts[k].s === "fix" ? " exp" : ""), text: PARTS[k] + (parts[k].s === "fix" ? " ✏️" : " ✓") }); })) : null,
+          d.note ? el("div", { class: "note", text: d.note }) : null].concat(Object.keys(eds).map(function (k) { return el("div", { class: "edl note", text: k + " → " + eds[k].after }); })).concat(
+          Object.keys(parts).filter(function (k) { return parts[k].note; }).map(function (k) { return el("div", { class: "edl note", text: PARTS[k] + " : " + parts[k].note }); })))]));
       });
     };
     draw(null);
     if (user) user.profiles(ids).then(draw);
-    return sec("L'avis de l'équipe", [box], "teamSec");
+    return wrap;
   }
 
+  /* ---------- 4. séances ---------- */
+  function planSession() {
+    var list = [], total = 0, i = -1;
+    while (true) {
+      i = nextAfter(i, list); if (i < 0) break;
+      var m = est(ITEMS[i]);
+      if (list.length && total + m > SESSION_MIN + 3) break;
+      list.push(ITEMS[i].id); total += m;
+      if (total >= SESSION_MIN) break;
+    }
+    return { ids: list, min: total };
+  }
+  function nextAfter(i, taken) { for (var j = i + 1; j < ITEMS.length; j++) if (!myState(ITEMS[j].id) && taken.indexOf(ITEMS[j].id) < 0) return j; return -1; }
+  function sessionLeft() { var s = mine.session; if (!s) return []; return s.ids.filter(function (id) { return !myState(id); }); }
+  function startSession() { var p = planSession(); if (!p.ids.length) { view = "end"; render(); return; } mine.session = { ids: p.ids, at: new Date().toISOString() }; save(); open(byId(p.ids[0])); }
+  function byId(id) { for (var i = 0; i < ITEMS.length; i++) if (ITEMS[i].id === id) return i; return -1; }
+
+  function renderHome() {
+    var p = planSession(), left = sessionLeft();
+    var kids = [el("div", { class: "kicker", text: "Bienvenue" }), el("h1", { text: (myName ? "Bonjour " + myName.split(" ")[0] + "," : "Bonjour,") + " on avance par petites séances" }),
+      el("p", { text: "Tu relis un élément à la fois. Si un passage ne te va pas, tu cliques « Modifier » et tu le réécris toi-même. Pour chaque partie (vidéo, quiz, fiche, exercice, livrable) : ✓ OK ou ✏️ À corriger. Le prompteur te permet de lire ton script à voix haute, chronomètre en main." })];
+    if (left.length) {
+      kids.push(el("div", { class: "sec" }, [el("h2", { text: "Ta séance en cours" }), el("ul", { class: "plan" }, left.map(function (id) { var it = ITEMS[byId(id)]; return el("li", null, [el("span", { text: label(it) + " · " + it.title }), el("span", { class: "muted", text: "≈ " + est(it) + " min" })]); })),
+        el("button", { class: "big yes", type: "button", text: "Reprendre ma séance", onclick: function () { open(byId(left[0])); } })]));
+    } else if (p.ids.length) {
+      kids.push(el("div", { class: "sec" }, [el("h2", { text: "Séance proposée · ≈ " + p.min + " min" }), el("ul", { class: "plan" }, p.ids.map(function (id) { var it = ITEMS[byId(id)]; return el("li", null, [el("span", { text: label(it) + " · " + it.title }), el("span", { class: "muted", text: "≈ " + est(it) + " min" })]); })),
+        el("button", { class: "big yes", type: "button", text: "Commencer la séance", onclick: startSession })]));
+    }
+    kids.push(el("p", { class: "muted", text: done() + " / " + ITEMS.length + " éléments traités · il reste environ " + fmtH(remainingMin()) + " de relecture au total." }));
+    kids.push(el("div", { class: "rowbtns" }, [el("button", { class: "chip", type: "button", text: "Parcourir librement", onclick: function () { var n = nextOpen(-1); open(n < 0 ? 0 : n); } }), el("button", { class: "chip", type: "button", text: "Sommaire", onclick: openSummary })]));
+    $("main").appendChild(el("article", { class: "card" }, kids));
+  }
+  function renderRecap() {
+    var s = mine.session || { ids: [] };
+    $("main").appendChild(el("article", { class: "card" }, [
+      el("div", { class: "kicker", text: "Séance terminée" }), el("h1", { text: "Bien joué, la séance est finie" }),
+      el("ul", { class: "plan" }, s.ids.map(function (id) { var it = ITEMS[byId(id)], c = counts(it), st = myState(id);
+        return el("li", null, [el("span", { text: label(it) + " · " + it.title }), el("span", { class: "st " + st, text: st === "ok" ? "✓ validé" : st === "fix" ? "✏️ " + (c.ed ? c.ed + " modif." : "corrections") : "—" })]); })),
+      el("p", { class: "muted", text: "Il reste environ " + fmtH(remainingMin()) + " de relecture. Tu peux t'arrêter là : tu reprendras au même endroit." }),
+      el("div", { class: "rowbtns" }, [el("button", { class: "big yes", type: "button", text: "Séance suivante (≈ 20 min)", onclick: function () { mine.session = null; startSession(); } }),
+        el("button", { class: "chip", type: "button", text: "Arrêter pour aujourd'hui", onclick: function () { mine.session = null; save(); view = "home"; render(); } })])]));
+  }
+
+  /* ---------- écrans ---------- */
   function render() {
-    var m = $("main"); m.textContent = "";
+    var m = $("main"); m.textContent = ""; $("bar").hidden = true;
     if (!ITEMS.length) return;
-    if (!mine.role && uid && !readOnly) { renderRole(); return; }
-    if (idx < 0) { renderEnd(); return; }
-    var it = ITEMS[idx];
     if (readOnly) m.appendChild(el("div", { class: "banner", text: "Tu peux lire, mais pas valider : demande au propriétaire de te donner l'accès « Contributeur » à cette page." }));
     if (!db) m.appendChild(el("div", { class: "banner", text: "Tes choix ne peuvent pas être enregistrés ici (connexion indisponible). Ouvre la page depuis claude.ai, connecté à ton compte." }));
-    var head = [el("div", { class: "kicker" }, [el("span", { class: "dpe" }), "Module " + it.mod + " · " + (idx + 1) + " / " + ITEMS.length,
+    if (!mine.role && uid && !readOnly) { renderRole(); renderTicks(); return; }
+    if (view === "home") renderHome();
+    else if (view === "recap") renderRecap();
+    else if (view === "end") renderEnd();
+    else renderItem();
+    renderTicks();
+  }
+  function renderItem() {
+    var it = ITEMS[idx], m = $("main");
+    var left = sessionLeft();
+    if (mine.session && mine.session.ids.indexOf(it.id) >= 0) {
+      var pos = mine.session.ids.indexOf(it.id) + 1, rest = left.reduce(function (a, id) { return a + est(ITEMS[byId(id)]); }, 0);
+      m.appendChild(el("div", { class: "sess" }, [el("span", null, [el("b", { text: "Séance : " + pos + " / " + mine.session.ids.length }), " · reste ≈ " + rest + " min"]),
+        el("button", { class: "link", type: "button", text: "Arrêter la séance", onclick: function () { view = "home"; render(); } })]));
+    }
+    var head = [el("div", { class: "kicker" }, [el("span", { class: "dpe" }), "Module " + it.mod + " · " + (idx + 1) + " / " + ITEMS.length + " · ≈ " + est(it) + " min",
       it.kind === "capsule" ? el("span", { class: "tags" }, it.experts.map(function (x) { return el("span", { class: "tag exp", text: "Relecture " + x }); })) : el("span", { class: "tag", text: "Vue d'ensemble du module" })]),
       el("h1", { text: (it.kind === "module" ? "" : it.id + " · ") + it.title })];
-    var card = el("article", { class: "card", style: "--c:" + it.color }, head.concat(it.kind === "module" ? moduleBody(it) : capsuleBody(it)).concat([teamBlock(it)]));
-    m.appendChild(card);
+    m.appendChild(el("article", { class: "card", style: "--c:" + it.color }, head.concat(it.kind === "module" ? moduleBody(it) : capsuleBody(it)).concat([teamBlock(it)])));
     $("bar").hidden = false;
     var s = myState(it.id);
-    $("mine").textContent = s === "ok" ? "✓ Tu as validé" : s === "fix" ? "✏️ Tu as demandé une correction" : "";
-    $("fixBox").hidden = true; $("note").value = (mine.items[it.id] && mine.items[it.id].note) || "";
-    $("noBtn").textContent = "✏️ À corriger";
+    $("mine").textContent = s === "ok" ? "✓ Déjà validé par toi" : s === "fix" ? "✏️ Corrections déjà envoyées" : "";
+    $("fixBox").hidden = !peek(it.id).note; $("note").value = peek(it.id).note || "";
     $("yesBtn").disabled = $("noBtn").disabled = readOnly;
-    renderTicks();
+    updateBar(it);
   }
-  function refresh() {
-    renderTicks();
-    var old = $("teamSec");
-    if (old && idx >= 0 && ITEMS[idx]) old.replaceWith(teamBlock(ITEMS[idx]));
-  }
-
   function renderRole() {
-    $("bar").hidden = true;
     var roles = el("div", { class: "roles" }, ROLES.map(function (r) {
-      return el("button", { class: "chip" + (mine.role === r[0] ? " sel" : ""), type: "button", text: r[1], onclick: function () { setRole(r[0]); } }); }));
+      return el("button", { class: "chip" + (mine.role === r[0] ? " sel" : ""), type: "button", text: r[1], onclick: function () { mine.role = r[0]; save(); view = "home"; render(); } }); }));
     $("main").appendChild(el("article", { class: "card" }, [
-      el("div", { class: "kicker", text: "Avant de commencer" }),
-      el("h1", { text: "Qui es-tu dans l'équipe ?" }),
-      el("p", { text: "Tu vas voir les 5 modules et les 34 capsules, un par un. Pour chacun : « Je valide » ou « À corriger ». Tu passes tout seul au suivant, et tu peux t'arrêter quand tu veux : tu reprendras là où tu en étais." }),
-      roles,
-      el("p", { class: "muted", text: "Ton rôle s'affiche à côté de tes avis, pour que l'équipe sache qui a validé quoi." })]));
-    renderTicks();
+      el("div", { class: "kicker", text: "Avant de commencer" }), el("h1", { text: "Qui es-tu dans l'équipe ?" }),
+      el("p", { text: "Ton rôle s'affiche à côté de tes avis, pour que l'équipe sache qui a validé quoi." }), roles]));
   }
   function renderEnd() {
-    $("bar").hidden = true;
     var fix = ITEMS.filter(function (it) { return myState(it.id) === "fix"; });
-    $("main").appendChild(el("article", { class: "card end" }, [
-      el("div", { class: "kicker", text: "Terminé" }),
-      el("h1", { text: "Tu as tout passé en revue. Merci !" }),
-      el("p", { text: (ITEMS.length - fix.length) + " éléments validés, " + fix.length + " à corriger. Claude lit tes remarques, applique les corrections et lance les vidéos des capsules validées." }),
-      fix.length ? sec("Tes demandes de correction", [el("ul", null, fix.map(function (it) {
-        return el("li", null, [el("button", { class: "link", type: "button", text: label(it) + " · " + it.title, onclick: function () { go(ITEMS.indexOf(it)); } })]); }))]) : null,
-      el("button", { class: "chip", type: "button", text: "Revoir depuis le début", onclick: function () { go(0); } })]));
-    renderTicks();
+    $("main").appendChild(el("article", { class: "card" }, [
+      el("div", { class: "kicker", text: "Terminé" }), el("h1", { text: "Tu as tout passé en revue. Merci !" }),
+      el("p", { text: (ITEMS.length - fix.length) + " éléments validés, " + fix.length + " avec des corrections. Claude lit tes versions et tes remarques, les applique et lance les vidéos des capsules validées." }),
+      fix.length ? el("div", { class: "sec" }, [el("h2", { text: "Tes corrections" }), el("ul", null, fix.map(function (it) {
+        return el("li", null, [el("button", { class: "link", type: "button", text: label(it) + " · " + it.title, onclick: function () { open(ITEMS.indexOf(it)); } })]); }))]) : null,
+      el("button", { class: "chip", type: "button", text: "Revoir depuis le début", onclick: function () { open(0); } })]));
   }
-
-  /* ---------- sommaire ---------- */
   function openSummary() {
     var pane = el("div", { class: "pane", role: "dialog", "aria-label": "Sommaire" });
     var close = function () { d.remove(); };
     var d = el("div", { class: "drawer", onclick: function (e) { if (e.target === d) close(); } }, [pane]);
     pane.appendChild(el("div", { class: "top" }, [el("b", { class: "brand", text: "Sommaire" }), el("button", { class: "chip", type: "button", text: "Fermer", onclick: close })]));
-    pane.appendChild(el("div", { class: "legend" }, [el("span", null, [el("i", { style: "background:var(--green)" }), "validé par toi"]), el("span", null, [el("i", { style: "background:var(--orange)" }), "à corriger"]), el("span", null, [el("i", { style: "border:2px solid var(--line)" }), "pas encore vu"])]));
+    pane.appendChild(el("div", { class: "legend" }, [el("span", null, [el("i", { style: "background:var(--green)" }), "validé"]), el("span", null, [el("i", { style: "background:var(--orange)" }), "corrections"]), el("span", null, [el("i", { style: "border:2px solid var(--line)" }), "pas encore vu"])]));
     var cur = 0;
     ITEMS.forEach(function (it, i) {
       if (it.mod !== cur) { cur = it.mod; pane.appendChild(el("h3", { style: "--c:" + it.color }, [el("span", { class: "dpe" }), "Module " + it.mod])); }
-      var s = myState(it.id);
-      var others = Object.keys(team).filter(function (u) { return u !== uid && team[u].items && team[u].items[it.id]; });
+      var others = Object.keys(team).filter(function (u) { return u !== uid && team[u].items && team[u].items[it.id] && team[u].items[it.id].s; });
       var nfix = others.filter(function (u) { return team[u].items[it.id].s === "fix"; }).length;
-      pane.appendChild(el("button", { class: "row", type: "button", onclick: function () { close(); go(i); } }, [
-        el("span", { class: "dot " + s }), el("span", { class: "n", text: it.kind === "module" ? "M" + it.mod : it.id }),
+      pane.appendChild(el("button", { class: "row", type: "button", onclick: function () { close(); open(i); } }, [
+        el("span", { class: "dot " + myState(it.id) }), el("span", { class: "n", text: it.kind === "module" ? "M" + it.mod : it.id }),
         el("span", { class: "t", text: it.title }),
-        el("span", { class: "k", text: others.length ? others.length + " avis" + (nfix ? " · " + nfix + " ✏️" : "") : "" })]));
+        el("span", { class: "k", text: others.length ? others.length + " avis" + (nfix ? " · " + nfix + " ✏️" : "") : "≈ " + est(it) + " min" })]));
     });
     document.body.appendChild(d);
   }
 
   /* ---------- enregistrement ---------- */
   function save() {
+    if (uid) team[uid] = mine;
     if (!db || !uid) return Promise.resolve();
     var body = JSON.parse(JSON.stringify(mine));
     writing = writing.then(function () { return db.doc("avis/" + uid).set(body); }).catch(function (e) {
@@ -329,53 +529,55 @@ textarea{width:100%;min-height:90px;font:inherit;font-size:16px;border-radius:10
     });
     return writing;
   }
-  function decide(s, note) {
-    var it = ITEMS[idx];
-    mine.items[it.id] = { s: s, note: note || "", at: new Date().toISOString() };
-    team[uid || "moi"] = mine;
+  function finishItem() {
+    var it = ITEMS[idx], r = rec(it.id);
+    if (it.kind === "capsule") ["video", "quiz", "fiche", "exo", "livrable"].forEach(function (p) { if (!r.parts[p]) r.parts[p] = { s: "ok", note: "" }; });
+    else if (!r.parts.module) r.parts.module = { s: "ok", note: "" };
+    r.note = $("note").value.trim();
+    var c = counts(it);
+    r.s = (c.ed || c.fixP || r.note) ? "fix" : "ok"; r.at = new Date().toISOString();
     save();
-    toast((s === "ok" ? "✓ Validé · " : "✏️ Correction notée · ") + label(it));
-    go(nextOpen(idx));
+    toast((r.s === "ok" ? "✓ Validé · " : "✏️ Corrections envoyées · ") + label(it));
+    if (mine.session && mine.session.ids.indexOf(it.id) >= 0) {
+      var left = sessionLeft();
+      if (!left.length) { view = "recap"; render(); window.scrollTo(0, 0); return; }
+      open(byId(left[0])); return;
+    }
+    var n = nextOpen(idx);
+    if (n < 0) { view = "end"; render(); } else open(n);
   }
-  function setRole(r) { mine.role = r; if (uid) team[uid] = mine; save(); render(); }
-  function go(i) { idx = i; render(); window.scrollTo(0, 0); }
+  function open(i) { idx = i; view = "item"; render(); window.scrollTo(0, 0); }
 
-  $("yesBtn").addEventListener("click", function () { decide("ok"); });
-  $("noBtn").addEventListener("click", function () {
-    var box = $("fixBox");
-    if (box.hidden) { box.hidden = false; $("noBtn").textContent = "Enregistrer et continuer"; $("note").focus(); return; }
-    var n = $("note").value.trim();
-    if (!n) { $("note").focus(); toast("Écris ce qu'il faut corriger"); return; }
-    decide("fix", n);
-  });
-  $("skipBtn").addEventListener("click", function () { go(Math.min(ITEMS.length - 1, (idx < 0 ? 0 : idx) + 1)); });
-  $("prevBtn").addEventListener("click", function () { go(Math.max(0, (idx < 0 ? ITEMS.length : idx) - 1)); });
+  $("yesBtn").addEventListener("click", finishItem);
+  $("noBtn").addEventListener("click", function () { $("fixBox").hidden = false; $("note").focus(); });
+  $("skipBtn").addEventListener("click", function () { open(Math.min(ITEMS.length - 1, idx + 1)); });
+  $("prevBtn").addEventListener("click", function () { open(Math.max(0, idx - 1)); });
   $("sumBtn").addEventListener("click", openSummary);
-  $("roleBtn").addEventListener("click", function () { if (uid && !readOnly) { $("main").textContent = ""; renderRole(); } });
+  $("homeBtn").addEventListener("click", function () { view = "home"; render(); });
+  $("roleBtn").addEventListener("click", function () { if (uid && !readOnly) { $("main").textContent = ""; $("bar").hidden = true; renderRole(); } });
 
   /* ---------- démarrage ---------- */
   fetch("data.json").then(function (r) { return r.json(); }).then(function (d) {
-    DATA = d; ITEMS = d.items; idx = 0; renderTicks(); render(); connect();
+    DATA = d; ITEMS = d.items; view = "home"; render(); connect();
   }).catch(function () { $("main").textContent = ""; $("main").appendChild(el("div", { class: "banner", text: "Le contenu n'a pas pu se charger. Recharge la page." })); });
 
   function connect() {
     if (!window.claude || !window.claude.use) return;
     Promise.all([window.claude.use("db"), window.claude.use("user")]).then(function (r) {
       db = r[0]; user = r[1];
-      if (!user) return;
-      return user.id().then(function (id) {
-        uid = id;
+      if (!user) { render(); return; }
+      return user.me().then(function (me) {
+        uid = me.id; myName = me.name || "";
         if (!db || !uid) { render(); return; }
         user.can("data.write").then(function (w) { if (w === false) { readOnly = true; render(); } });
         var first = true;
         db.collection("avis").onSnapshot(function (snap) {
           var t = {};
           snap.docs.forEach(function (doc) { if (doc.exists) t[doc.id] = doc.data(); });
-          if (t[uid] && !snap.metadata.hasPendingWrites) mine = JSON.parse(JSON.stringify(t[uid]));
-          if (!mine.items) mine.items = {};
+          if (first && t[uid]) { mine = JSON.parse(JSON.stringify(t[uid])); if (!mine.items) mine.items = {}; }
           t[uid] = mine; team = t;
-          if (first) { first = false; idx = nextOpen(-1); render(); }
-          else refresh();
+          if (first) { first = false; render(); }
+          else { renderTicks(); var old = $("teamSec"); if (old && view === "item") old.replaceWith(teamBlock(ITEMS[idx])); }
         }, function () { db = null; render(); });
       });
     });
