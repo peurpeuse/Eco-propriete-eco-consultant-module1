@@ -5,7 +5,7 @@
 <script>
 /* Chargeur : la page (figée sur un commit du dépôt) vient de GitHub ; l'API reste sur ce site Vercel.
    Pour publier une nouvelle version : changer SHA puis redéployer ce seul fichier. */
-var SHA = "69587c34bfa0c76f0d7a3b8a46e20777037cef73";
+var SHA = "0cd4eeb6cff1c615c1fc11431207cecf0363aa84";
 var RAW = "https://raw.githubusercontent.com/peurpeuse/eco-propriete-eco-consultant-module1/" + SHA + "/validation-site/";
 var CDN = "https://cdn.jsdelivr.net/gh/peurpeuse/eco-propriete-eco-consultant-module1@" + SHA + "/validation-site/";
 function get(u) { return fetch(u).then(function (r) { if (!r.ok) throw r.status; return r.text(); }); }
