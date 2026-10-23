@@ -20,7 +20,7 @@
   var ofetch = window.fetch.bind(window);
   window.fetch = function (u, o) {
     if (u === "data.json") {
-      return Promise.all([ofetch("data.json", { cache: "no-store" }).then(function (r) { return r.json(); }),
+      return Promise.all([ofetch(window.EV_DATA_URL || "data.json", { cache: "no-store" }).then(function (r) { return r.json(); }),
         ofetch(API + "/api/state", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })])
         .then(function (a) {
           var d = a[0], s = a[1] || {};
