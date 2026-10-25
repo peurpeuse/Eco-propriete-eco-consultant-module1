@@ -4,10 +4,16 @@
 <style>body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:#F7FAF8;color:#1A1A1A}#ld{min-height:100vh;display:grid;place-items:center;text-align:center;padding:16px}#ld b{display:block;color:#1A7A44;font-size:20px;margin-bottom:6px}</style>
 </head><body><div id="ld"><div><b>Éco-Consultant</b>Chargement de la formation…</div></div>
 <script>
+/* Chargeur : le site (figé sur un commit du dépôt) vient de GitHub ; jsDelivr seulement en secours
+   (jsDelivr refuse les dépôts de plus de 50 Mo). Nouvelle version = changer SHA puis redéployer ce fichier. */
 (function(){
-  var BASE='https://cdn.jsdelivr.net/gh/peurpeuse/Eco-propriete-eco-consultant-module1@6aa9f9c8fd923a49ba4add002a5989a7329878a1/v3/';
-  function get(u,n){return fetch(BASE+u,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.text();}).catch(function(e){if(n>0)return new Promise(function(res){setTimeout(res,1500)}).then(function(){return get(u,n-1)});throw e;});}
-  get('index.html',5).then(function(html){
+  var SHA='c38a1db9f68608dc6982a9edfd91fd7608e4f493';
+  var RAW='https://raw.githubusercontent.com/peurpeuse/eco-propriete-eco-consultant-module1/'+SHA+'/v3/';
+  var CDN='https://cdn.jsdelivr.net/gh/peurpeuse/eco-propriete-eco-consultant-module1@'+SHA+'/v3/';
+  var BASE=RAW;
+  function one(b,u,n){return fetch(b+u,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.text();}).catch(function(e){if(n>0)return new Promise(function(res){setTimeout(res,1200)}).then(function(){return one(b,u,n-1)});throw e;});}
+  function get(u){return one(RAW,u,2).catch(function(){return one(CDN,u,1);});}
+  get('index.html').then(function(html){
     var doc=new DOMParser().parseFromString(html,'text/html');
     var b=document.createElement('base');b.href=BASE;document.head.appendChild(b);
     document.title=doc.title;
@@ -15,7 +21,7 @@
     var scripts=[].map.call(doc.querySelectorAll('script[src]'),function(s){return s.getAttribute('src');});
     [].forEach.call(doc.querySelectorAll('script'),function(s){s.remove();});
     document.body.innerHTML=doc.body.innerHTML;
-    return scripts.reduce(function(p,src){return p.then(function(){return get(src,5).then(function(code){var s=document.createElement('script');s.text=code;document.body.appendChild(s);});});},Promise.resolve());
+    return scripts.reduce(function(p,src){return p.then(function(){return get(src).then(function(code){var s=document.createElement('script');s.text=code;document.body.appendChild(s);});});},Promise.resolve());
   }).catch(function(){document.getElementById('ld').innerHTML='<div><b>Éco-Consultant</b>Le chargement a échoué. Recharge la page.</div>';});
 })();
 </script></body></html>
