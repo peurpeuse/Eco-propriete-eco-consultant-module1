@@ -441,15 +441,18 @@
     return (ok ? '' : '<p><span class="chip wait">Disponible après le quiz final réussi (' + TH + ' %) · aperçu</span></p>') + '<div class="att"><img src="assets/logo-dark.png" alt="Éco-Consultant"><h2>' + esc(a.title || 'Attestation de fin de formation') + '</h2><p>' + esc(txt) + '</p></div>';
   };
 
-  // Vidéos en streaming HLS (segments < 20 Mo, servis par jsDelivr) : natif sur Safari, hls.js ailleurs
+  // Vidéos en streaming HLS (segments < 20 Mo, servis depuis GitHub) : hls.js partout où il fonctionne
+  // (y compris Safari récent), lecture native seulement en secours (anciens iPhone)
   var hlsLoading = null;
   function attachHls() {
     var vids = app.querySelectorAll('video[data-hls]');
     if (!vids.length) return;
     [].forEach.call(vids, function (vd) {
       var url = vd.getAttribute('data-hls');
-      if (vd.canPlayType('application/vnd.apple.mpegurl')) { vd.src = url; return; }
-      var go = function () { if (window.Hls && window.Hls.isSupported()) { var h = new window.Hls(); h.loadSource(url); h.attachMedia(vd); } };
+      var go = function () {
+        if (window.Hls && window.Hls.isSupported()) { var h = new window.Hls(); h.loadSource(url); h.attachMedia(vd); }
+        else if (vd.canPlayType('application/vnd.apple.mpegurl')) vd.src = url;
+      };
       if (window.Hls) return go();
       if (!hlsLoading) {
         hlsLoading = new Promise(function (ok) { var sc = document.createElement('script'); sc.src = 'https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js'; sc.onload = ok; sc.onerror = ok; document.head.appendChild(sc); });

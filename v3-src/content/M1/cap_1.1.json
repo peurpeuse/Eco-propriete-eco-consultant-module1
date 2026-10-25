@@ -63,7 +63,7 @@
     "onscreen": "Quiz · Fiche tendances 2026 · Exercice · Livrable"
    }
   ],
-  "src": "https://cdn.jsdelivr.net/gh/peurpeuse/Eco-propriete-eco-consultant-module1@542a04d646b4f135850de633b28de01c4ea35ba1/media/capsule_1-1/index.m3u8",
+  "src": "https://raw.githubusercontent.com/peurpeuse/eco-propriete-eco-consultant-module1/542a04d646b4f135850de633b28de01c4ea35ba1/media/capsule_1-1/index.m3u8",
   "poster": "media/poster_1-1.jpg"
  },
  "quiz": {
