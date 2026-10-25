@@ -616,9 +616,9 @@ main .wrap{padding-block:16px 110px}
       if (failed) return; failed = true;
       wrap.replaceChildren(el("p", { class: "banner", text: "La vidéo ne peut pas se lire dans cette page. Utilise le bouton « Regarder la vidéo sur le site »." }));
     };
-    if (v.canPlayType("application/vnd.apple.mpegurl")) { v.src = it.vsrc; ready = Promise.resolve(); }
-    else ready = loadHls().then(function (H) {
-      if (!H || !H.isSupported()) return fail();
+    // hls.js d'abord (les fichiers servis par GitHub n'ont pas le type « vidéo ») ; lecture native seulement en secours
+    ready = loadHls().catch(function () { return null; }).then(function (H) {
+      if (!H || !H.isSupported()) { if (v.canPlayType("application/vnd.apple.mpegurl")) { v.src = it.vsrc; v.addEventListener("error", fail); return; } return fail(); }
       if (curHls) curHls.destroy();
       curHls = new H(); curHls.loadSource(it.vsrc); curHls.attachMedia(v);
       curHls.on(H.Events.ERROR, function (e, d) { if (d && d.fatal) fail(); });
