@@ -53,7 +53,7 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": ["255 reste en E : le seuil de D est à 250.", "Nom, adresse, numéro ADEME : partis dans l'outil."],
-      "source": "Seuils DPE des logements de 40 m² et plus (E : > 250 et ≤ 330), Service-Public F16096 et arrêté du 25/03/2024 ; CNIL, principes du RGPD (minimisation)"
+      "source": "Seuils DPE des logements de 40 m² et plus (E : > 250 et ≤ 330), arrêté du 31/03/2021 modifié (échelle de référence) ; CNIL, principes du RGPD (minimisation)"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
@@ -165,9 +165,9 @@
       "voice": "Ouvre l'observatoire de l'ADEME maintenant.",
       "voice_status": "proposition",
       "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
-      "source": "Lien de l'observatoire DPE-Audit repris de la capsule 2.4 ; à tester le jour du tournage",
+      "source": "Lien de l'observatoire DPE-Audit donné par Service-Public (fiche R67366, « Vérifier son DPE et télécharger une attestation ») ; à tester le jour du tournage",
       "cta": "Ouvrir l'observatoire DPE-Audit",
-      "url": "https://observatoire-dpe-audit.ademe.fr"
+      "url": "https://observatoire-dpe-audit.ademe.fr/accueil"
     },
     {
       "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
@@ -194,8 +194,9 @@
     { "label": "Ministère de la Transition écologique : le DPE (indicateurs, recommandations, opposabilité)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/diagnostic-performance-energetique-dpe" },
     { "label": "ANIL : DPE, nouveau cadre (schéma des déperditions, isolation sur 4 niveaux, deux scénarios de travaux)", "url": "https://www.anil.org/aj-dpe-mentions-obligatoires-annonces-baux-immobiliers/" },
     { "label": "Service-Public, F16096 : DPE (validité 10 ans, mise à jour gratuite sans nouvelle visite, coefficients 1,9 et 1,7), consulté le 26/10/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096" },
-    { "label": "Service-Public, F32061 : mentions DPE dans les annonces", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32061" },
-    { "label": "Observatoire DPE-Audit de l'ADEME (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+    { "label": "Service-Public, F32061 : mentions DPE dans les annonces (« logement à consommation énergétique excessive » pour les classes F et G)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32061" },
+    { "label": "Observatoire DPE-Audit de l'ADEME (attestation actualisée), lien donné par Service-Public R67366", "url": "https://observatoire-dpe-audit.ademe.fr/accueil" },
+    { "label": "Arrêté du 31 mars 2021 relatif au DPE (échelle de référence des classes, version consolidée)", "url": "https://aida.ineris.fr/reglementation/arrete-310321-relatif-diagnostic-performance-energetique-batiments-parties-batiments" },
     { "label": "Plan Immobilier : attestation actualisée sur l'Observatoire DPE-Audit, même validité que le DPE d'origine", "url": "https://www.plan-immobilier.fr/actualites-immobilieres/un-nouveau-calcul-du-dpe-des-le-1er-janvier-2026" },
     { "label": "Arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027), NOR VLOL2617030A", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
     { "label": "CNIL : principes du RGPD (minimisation)", "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2" },

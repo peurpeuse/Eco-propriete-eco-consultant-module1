@@ -49,7 +49,7 @@
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
       "title": "Diagnostic périmé à l'acte. Vendeur exposé.",
-      "voice": "Sauf qu'à l'acte, un diagnostic périmé ne protège plus rien. M. Bernard ne peut plus s'exonérer de la garantie des vices cachés.",
+      "voice": "Sauf qu'à l'acte, un diagnostic périmé ne protège plus le vendeur. M. Bernard ne peut plus s'exonérer de la garantie des vices cachés.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": ["Diagnostic périmé à l'acte.", "Vendeur exposé aux vices cachés."],
@@ -87,7 +87,7 @@
       "source": "Pratique de récupération (retrieval practice)",
       "prompt": "Toi, que proposerais-tu ?",
       "context": "Maxime, nouvel entrant, reçoit le dossier de M. Bernard : électricité du 6/09/2023, état des risques du 10/03/2026, dossier amiante des parties communes. Que lui conseilles-tu avant le compromis du 15/12/2026 ?",
-      "model_answer": "Je calcule chaque fin de validité et je la compare au 15/03/2027. L'électricité est périmée depuis le 5/09/2026, l'état des risques aura plus de six mois au compromis, et il manque le repérage amiante du lot. Je groupe les trois commandes chez un diagnostiqueur certifié et j'écris au vendeur.",
+      "model_answer": "Je calcule chaque fin de validité et je la compare au 15/03/2027. L'électricité n'était valable que jusqu'au 5/09/2026, l'état des risques aura plus de six mois au compromis, et il manque le repérage amiante du lot. Je groupe les trois commandes chez un diagnostiqueur certifié et j'écris au vendeur.",
       "keywords": ["date de l'acte", "électricité", "état des risques", "amiante du lot"]
     },
     {
@@ -185,7 +185,7 @@
     {
       "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
       "title": "Bravo !",
-      "voice": "Douze lignes, chacune datée et justifiée. C'est exactement le dossier qu'un notaire attend.",
+      "voice": "Douze lignes, chacune datée et justifiée. Tu sais ce qui sera valable le jour de l'acte, et pourquoi.",
       "voice_status": "proposition",
       "interaction": "Effet statut, aucun badge",
       "status": "Ta check-list : 12 lignes, toutes vérifiées au 15/03/2027.",
@@ -212,6 +212,7 @@
     "Validité illimitée de l'amiante (absence d'amiante, repérage depuis le 1/04/2013) : règle INC / notaires à confirmer sur le Code de la santé publique ; non citée à l'oral dans ce chapitre",
     "Carte 2 (maison de 1938, gaz de 2005) : cas de transfert fictif ; l'audit énergétique ne vaut que pour une maison classée E, F ou G",
     "Écran 13 : lien vers l'annuaire officiel des diagnostiqueurs (étape 5 des contrôles de la capsule) ; alternative possible : « #exercice » (contrôle de D17)",
-    "Écran 15 : effet statut fondé sur le livrable (fait observable), pas sur une statistique externe"
+    "Écran 15 : effet statut fondé sur le livrable (fait observable), pas sur une statistique externe",
+    "Art. L. 271-4, I, 11° et 12° (vérifié sur Légifrance le 26/10/2026) : certificat d'appareil de chauffage au bois en zone de plan de protection de l'atmosphère, et arrêtés de police de sécurité et salubrité ; non concernés ici (chauffage électrique, aucun arrêté connu) mais absents de l'arbre de décision et de la check-list en 12 lignes : à trancher (ajout d'une ligne ou mention « non concerné »)"
   ]
 }

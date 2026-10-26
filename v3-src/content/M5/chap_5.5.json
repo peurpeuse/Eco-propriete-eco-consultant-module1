@@ -68,13 +68,13 @@
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
       "title": "Partir de la fin → Délais légaux → Dates copro",
-      "voice": "Trois idées. Un : on part de la fin. L'acte est le 15 mars ; avant, il faut l'offre acceptée, les fonds, l'état daté et la visite. La condition de prêt expire le 29 janvier : c'est la date la plus sensible. Deux : les délais légaux. L'offre de prêt est maintenue trente jours, et acceptée au plus tôt dix jours après réception. Droit de préemption, s'il s'applique : deux mois. Le notaire vérifie. Trois : les dates de la copropriété. Le 1er janvier, M. Bernard paie l'appel de 8 970 euros, remboursé à l'acte. Préviens-le dès le compromis.",
+      "voice": "Trois idées. Un : on part de la fin. L'acte est le 15 mars ; avant, il faut l'offre acceptée, les fonds, l'état daté et la visite. La condition de prêt expire le 29 janvier : c'est la date la plus sensible. Deux : les délais légaux. L'offre de prêt est maintenue au moins trente jours, et acceptée au plus tôt dix jours après réception. Droit de préemption, s'il s'applique : deux mois. Le notaire vérifie. Trois : les dates de la copropriété. Le 1er janvier, M. Bernard paie l'appel de 8 970 euros, remboursé à l'acte. Préviens-le dès le compromis.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
       "source": "Code de la consommation, art. L. 313-34 et L. 313-41 ; code de l'urbanisme, art. L. 213-2 et L. 211-4 ; décret du 17 mars 1967, art. 6-2 (Légifrance)",
       "steps": [
         { "label": "Partir de la fin", "detail": "Acte le 15/03/2027 ; condition de prêt jusqu'au 29/01/2027, la date la plus sensible." },
-        { "label": "Délais légaux", "detail": "Offre : 30 jours de validité, acceptation 10 jours après réception. Préemption : 2 mois si elle s'applique." },
+        { "label": "Délais légaux", "detail": "Offre : maintenue 30 jours au moins, acceptée 10 jours après réception. Préemption : 2 mois si elle s'applique." },
         { "label": "Dates copro", "detail": "1/01/2027 : M. Bernard paie 8 970 €, remboursés à l'acte." }
       ]
     },
@@ -133,7 +133,7 @@
     {
       "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
       "title": "Le rétroplanning : date, étape, qui, preuve",
-      "voice": "Dans D20 : compromis le 15 décembre, rétractation jusqu'au 28, à confirmer. Le 1er janvier, M. Bernard paie l'appel. Le 14, relance banque ; le 29, l'offre écrite. En février, acceptation et état daté. Le 12 mars, la visite. Le 15, l'acte et les clés.",
+      "voice": "Dans D20 : compromis le 15 décembre, rétractation jusqu'au 28, à confirmer. Le 1er janvier, M. Bernard paie l'appel. Le 14, relance banque ; le 29 au plus tard, l'offre écrite. En février, acceptation et état daté. Le 12 mars, la visite. Le 15, l'acte et les clés.",
       "voice_status": "proposition",
       "interaction": "Étapes qui s'enchaînent",
       "source": "Capsule 5.5, modèle de rétroplanning (dates fictives : notification présentée le 16/12/2026) ; prorogation au lundi 28/12/2026 : Cass. 3e civ., 5/12/2007 et art. 642 CPC (ANIL), à confirmer par le notaire",
@@ -141,7 +141,7 @@
       "steps": [
         "15/12/2026 : compromis ; rétractation du 17 au 28/12 (le notaire confirme)",
         "1/01/2027 : appel ITE 8 970 € + ≈ 663 € payés par M. Bernard",
-        "14/01 : relance banque ; 29/01 : offre écrite reçue",
+        "14/01 : relance banque ; 29/01 au plus tard : offre écrite en main",
         "Février : offre acceptée après 10 jours ; état daté demandé",
         "12/03 : visite avant l'acte ; 15/03 : acte et remise des clés"
       ]

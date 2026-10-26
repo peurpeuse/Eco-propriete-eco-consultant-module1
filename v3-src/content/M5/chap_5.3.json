@@ -102,14 +102,14 @@
         "options": [
           "Une condition de prêt doit rester réalisable : un taux maximal avec une marge sur le marché et un délai tenable",
           "La loi impose un taux maximal égal au taux du jour",
-          "La loi impose une marge d'exactement 0,35 point"
+          "Aucune : plus la clause colle au taux du jour, mieux l'acquéreur est protégé"
         ],
         "answer": 0,
         "feedback": "La loi impose la condition et une durée d'au moins un mois ; les chiffres, ce sont les parties qui les choisissent. Avec le taux du jour, la moindre hausse rend la condition impossible à remplir.",
         "whys": [
           "Exact : 3,90 % laisse une marge réaliste sous l'usure de 5,40 %, et la mensualité reste finançable.",
           "Faux : la loi ne fixe aucun taux ; c'est une négociation entre les parties.",
-          "Faux : aucune marge légale n'existe ; 0,35 point, c'est simplement l'écart choisi dans ce dossier."
+          "Faux : collée au taux du jour, la clause ne protège personne ; la moindre hausse la rend impossible à remplir, et la vente tombe."
         ]
       },
       "card2": {
@@ -133,7 +133,7 @@
     {
       "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
       "title": "La fiche : quatre chiffres justifiés",
-      "voice": "Sur la fiche : 193 800 euros, le besoin réel. 25 ans, le maximum du HCSF. 3,90 % hors assurance : le marché est autour de 3,55 %, l'usure à 5,40 %. Et 45 jours, jusqu'au 29 janvier, pour une offre écrite.",
+      "voice": "Sur la fiche : 193 800 euros, le besoin réel. 25 ans, le maximum du HCSF. 3,90 % hors assurance : le marché à vingt ans est autour de 3,55 %, l'usure à 5,40 %. Et 45 jours, jusqu'au 29 janvier, pour une offre écrite.",
       "voice_status": "proposition",
       "interaction": "Étapes qui s'enchaînent",
       "source": "HCSF, décision D-HCSF-2021-7 (25 ans) ; taux d'usure au 1/10/2026 : 5,40 % (Meilleurtaux) ; taux moyen 20 ans ≈ 3,50-3,55 % en oct. 2026 (fait vérifié de la bible) ; 15/12/2026 + 45 jours = 29/01/2027",
@@ -141,7 +141,7 @@
       "steps": [
         "Montant : 193 800 €, le besoin réel du plan de financement",
         "Durée : 25 ans, maximum recommandé par le HCSF",
-        "Taux : 3,90 % max hors assurance (marché ≈ 3,55 %, usure 5,40 %)",
+        "Taux : 3,90 % max hors assurance (marché 20 ans ≈ 3,55 %, usure 5,40 %)",
         "Délai : 45 jours, jusqu'au 29/01/2027, réalisé par une offre écrite"
       ]
     },
@@ -208,6 +208,7 @@
     "Écran 5 : la vente « tombe » si la condition n'est pas réalisée ; le sort exact (caducité, avenant de prorogation) dépend de la rédaction du compromis : le notaire confirme la formulation",
     "Carte 2 : « une offre à 4,9 % réaliserait la condition » repose sur le principe qu'une offre conforme aux paramètres réalise la condition (capsule 5.3) : à faire confirmer par le relecteur",
     "Taux de marché ≈ 3,55 % et usure 5,40 % : faits datés d'octobre 2026, à remettre à jour au tournage",
+    "À trancher par Sébastien Paumier : Meilleurtaux (taux d'usure au 1/10/2026, vérifié le 26/10/2026) cite des taux moyens de septembre 2026 à 3,60 % sur 20 ans et 3,70 % sur 25 ans (Vousfinancer) ; le prêt des Martin est sur 25 ans à 3,55 % (bible). La marge de 3,90 % ne serait alors que de 0,2 point : garder 3,90 % (chiffre du compromis dans la bible) mais vérifier le taux 25 ans au tournage",
     "Délai de dépôt des demandes de prêt (15 jours dans la capsule) : proposition pédagogique, non citée ici",
     "Règle de coordination : la condition suspensive porte sur le seul prêt principal de 193 800 € ; la quote-part ITE de 35 880 € est financée à part (chapitre 5.4)",
     "Écran 13 : renvoie à l'exercice (« #exercice »)"

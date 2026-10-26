@@ -53,7 +53,7 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": ["1er janvier 2027 : appel de fonds de 8 970 €.", "Personne ne l'avait demandé. Personne ne l'a prévu."],
-      "source": "Dossier fil rouge fictif (PV d'AG D07 : 1 150 000 € × 312 / 10 000 = 35 880 €, 4 appels de 8 970 €) ; règle : le copropriétaire à la date d'exigibilité paie l'appel, décret du 17 mars 1967, art. 6-2 (Cour de cassation, 3e civ., 20 mai 2021)"
+      "source": "Dossier fil rouge fictif (PV d'AG D07 : 1 150 000 € × 312 / 10 000 = 35 880 €, 4 appels de 8 970 €) ; règle : un appel de fonds hors budget prévisionnel est payé par le copropriétaire à la date d'exigibilité, décret n° 67-223 du 17 mars 1967, art. 6-2, 2° ; un accord contraire vendeur-acquéreur n'engage pas le syndicat (art. 6-3)"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
@@ -61,8 +61,8 @@
       "voice": "Trente-trois mille euros. C'est l'écart entre ce qu'espère M. Bernard et ce qu'on lui a annoncé. Ton travail commence par une question : d'où vient chacun de ces chiffres ?",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "value": "33 000 €", "label": "d'écart entre le prix espéré (205 000 €) et le prix annoncé par deux agences (172 000 €)",
-      "source": "Bible du fil rouge (données fictives) : 205 000 − 172 000 = 33 000 €"
+      "value": "33 000 €", "label": "d'écart entre le prix espéré (205 000 €) et le prix annoncé par deux agences (172 000 €) : calcul du dossier de M. Bernard",
+      "source": "Calcul sur le dossier fil rouge (données fictives, pas une statistique) : 205 000 − 172 000 = 33 000 €"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -70,7 +70,7 @@
       "voice": "Trois blocs, dans cet ordre. D'abord, le motif et le délai, avant le prix. M. Bernard veut se rapprocher de sa fille à Nantes et avoir vendu avant l'été 2027. Creuse : « Et en septembre 2027, ce serait un problème ? » « À trois mois près, non. » Pas d'urgence, donc aucune raison de brader. Ensuite, le prix et son origine. Tu ne commentes pas. Tu lui demandes sur quoi il se base pour 205 000, et ce qu'on lui a montré pour justifier 172 000. Tu notes l'écart, tu ne tranches pas. Enfin, les contraintes. Qui décide ? Il est seul propriétaire. La copropriété ? Le ravalement est voté : 35 880 euros pour son lot, en quatre appels de 8 970 euros. La fiscalité ? C'est sa résidence principale : plus-value exonérée en principe, le notaire confirmera.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
-      "source": "Bible du fil rouge (fictif) ; Service-Public F10864 et impots.gouv.fr (exonération de la plus-value de la résidence principale) ; décret du 17 mars 1967, art. 6-2",
+      "source": "Bible du fil rouge (fictif) ; Service-Public F10864 et impots.gouv.fr (exonération de la plus-value de la résidence principale) ; décret du 17 mars 1967, art. 6-2, 2°",
       "steps": [
         { "label": "Motif et délai", "detail": "Nantes, avant l'été 2027, souple à trois mois : pas d'urgence." },
         { "label": "Prix et origine", "detail": "205 000 € espérés, 172 000 € annoncés : on demande les preuves, on ne tranche pas." },
@@ -95,7 +95,7 @@
       "voice": "À toi de jouer : retourne la carte.",
       "voice_status": "proposition",
       "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
-      "source": "Proposition pédagogique Éco-Propriété (étape 1 sur 13 : le projet du vendeur) ; CNIL, principes du RGPD (minimisation)",
+      "source": "Proposition pédagogique Éco-Propriété (étape 1 sur 13 : le projet du vendeur) ; capsule 2.1",
       "card1": {
         "question": "Quelle règle Mozi enfreint-il ?",
         "options": [
@@ -186,21 +186,22 @@
       "voice": "Bravo. Là où deux agences ont lancé un chiffre, toi, tu as posé les bonnes questions.",
       "voice_status": "proposition",
       "interaction": "Effet statut, aucun badge",
-      "status": "Ta fiche : 6 rubriques et une synthèse à valider. Les deux autres agences : un chiffre, sans une question.",
-      "source": "Bible du fil rouge (fictif) : deux agences ont annoncé 172 000 € (« −15 % à cause du DPE ») sans justification écrite"
+      "status": "Ta fiche : 6 rubriques et une synthèse à valider. Les deux autres agences : un chiffre, sans calcul montré.",
+      "source": "Bible du fil rouge (fictif) : deux agences ont annoncé 172 000 € (« −15 % à cause du DPE ») ; transcription de l'exercice 2.1 : « personne ne m'a montré de calcul »"
     }
   ],
   "sources": [
     { "label": "Service-Public, F10864 : plus-value immobilière, exonération de la résidence principale", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10864" },
     { "label": "impots.gouv.fr : plus-values exonérées (logement quitté avant la vente, délai normal)", "url": "https://www.impots.gouv.fr/particulier/plus-values-exonerees" },
-    { "label": "Cour de cassation, 3e civ., 20 mai 2021 (art. 6-2 du décret du 17 mars 1967, provision exigible lors d'une vente)", "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000043566011" },
+    { "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (2° : provisions hors budget payées par le copropriétaire au moment de l'exigibilité) et 6-3 (convention contraire inopposable au syndicat), texte cité par BJ Avocat, 29/09/2025", "url": "https://www.bjavocat.com/2025/09/29/qui-doit-payer-les-charges-lors-de-la-vente-dun-lot-de-copropriete/" },
+    { "label": "Cour de cassation, 3e civ., 20 mai 2021, n° 20-15.633 (application de l'art. 6-2 lors d'une adjudication)", "url": "https://www.lemondedudroit.fr/droit-civil/280-immobilier-construction/76903-adjudication-d-un-lot-de-copropriete-a-qui-incombe-le-paiement-de-la-provision.html" },
     { "label": "CNIL : principes du RGPD (minimisation des données)", "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2" },
     { "label": "Proposition pédagogique Éco-Propriété (13 étapes Éco-Consultant, données fil rouge fictives : BIBLE.md, D01, D07)", "url": "https://eco-propriete.fr" }
   ],
   "open_points": [
     "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
     "Écran 6 : le chiffre clé (33 000 € d'écart) est tiré du fil rouge fictif ; à remplacer par une statistique réelle sourcée si Sébastien Paumier le souhaite",
-    "Écran 5 et carte 2 : règle de l'appel de fonds (copropriétaire à la date d'exigibilité, art. 6-2 du décret de 1967) à faire relire par un juriste avant tournage (la bible demande une vérification avant citation)",
+    "Écran 5 et carte 2 : règle de l'appel de fonds vérifiée (art. 6-2, 2° et 6-3 du décret de 1967, texte cité par un cabinet d'avocats) ; relecture d'un juriste sur le texte consolidé Légifrance conseillée avant tournage",
     "Écran 7 : exonération de plus-value formulée « en principe, le notaire confirmera » ; cas du départ avant la vente non détaillé faute de temps",
     "Écran 13 : pas d'outil en ligne officiel, lien vers l'exercice (#exercice) ; écran 14 : fin sobre à valider",
     "Cohérence à vérifier avec le D01 produit par le rédacteur du dossier (6 rubriques)"

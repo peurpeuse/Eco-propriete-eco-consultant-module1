@@ -67,25 +67,25 @@
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
       "title": "Trois chemins → Paroi froide → Condensation",
-      "voice": "Trois idées. Un : la chaleur va du chaud vers le froid, par trois chemins. Les parois, mesurées par leur résistance thermique, R : plus R est grand, mieux elles isolent. Les ponts thermiques, comme la dalle du balcon qui traverse le mur. Et l'air, renouvelé ou qui fuit. Entre deux voisins chauffés, plancher et plafond perdent peu : tout se joue sur la façade. Deux : la paroi froide. Devant un simple vitrage, tu as froid même si l'air est chaud. Les murs de M. Bernard ? Deux centimètres de polystyrène. Avec une hypothèse de 0,04, R égale 0,02 divisé par 0,04 : 0,5. Les aides visent 3,7. Sept fois plus. Trois : là où c'est froid, l'eau se dépose. L'air humide de la salle de bains touche un angle froid, et le conduit est en partie bouché. Les moisissures sont un symptôme technique, pas un défaut d'entretien.",
+      "voice": "Trois idées. Un : la chaleur va du chaud vers le froid, par trois chemins. Les parois, mesurées par leur résistance thermique, R : plus R est grand, mieux elles isolent. Les ponts thermiques, comme la dalle du balcon qui traverse le mur. Et l'air, renouvelé ou qui fuit. Entre deux voisins chauffés, plancher et plafond perdent peu : tout se joue sur la façade. Deux : la paroi froide. Devant un simple vitrage, tu as froid même si l'air est chaud. Les murs de M. Bernard ? Deux centimètres de polystyrène. Avec une hypothèse de 0,04, R égale 0,02 divisé par 0,04 : 0,5. Les aides exigent au moins 3,7. Sept fois plus. Trois : là où c'est froid, l'eau se dépose. L'air humide de la salle de bains touche un angle froid, et le conduit est en partie bouché. Les moisissures sont un symptôme technique, pas un défaut d'entretien.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
-      "source": "ADEME, « Tout savoir sur l'isolation » ; Ministère de la Transition écologique, Guide pour les diagnostiqueurs DPE (repère R ≥ 3,7 m².K/W pour les murs) ; λ = 0,04 W/m.K : hypothèse de calcul",
+      "source": "ADEME, « Tout savoir sur l'isolation » ; fiche CEE BAR-EN-102, version au 1/01/2025 (isolant des murs : R ≥ 3,7 m².K/W) ; λ = 0,04 W/m.K : hypothèse de calcul",
       "steps": [
         { "label": "Trois chemins", "detail": "Parois (R), ponts thermiques, air. Entre deux voisins chauffés, tout se joue sur la façade." },
-        { "label": "Paroi froide", "detail": "Simple vitrage et murs à R ≈ 0,02 / 0,04 = 0,5, contre 3,7 visé : froid ressenti." },
+        { "label": "Paroi froide", "detail": "Simple vitrage ; doublage de 2 cm : R = 0,02 / 0,04 = 0,5, contre 3,7 exigé par les aides." },
         { "label": "Condensation", "detail": "Air humide + angle froid + conduit bouché = moisissures. Un symptôme, pas une faute." }
       ]
     },
     {
       "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
       "title": "Toi, que proposerais-tu ?",
-      "voice": "Un acquéreur de Sarah pose la main sur la vitre. Toi, que proposerais-tu ?",
+      "voice": "Sarah fait visiter. Un acquéreur pose la main sur la vitre. Toi, que proposerais-tu ?",
       "voice_status": "proposition",
       "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
       "source": "Pratique de récupération (retrieval practice)",
       "prompt": "Toi, que proposerais-tu ?",
-      "context": "En visite chez M. Bernard, un acquéreur accompagné par Sarah lance : « Les chambres sont glaciales, c'est une passoire ? » Que lui réponds-tu ?",
+      "context": "Sarah fait visiter l'appartement de M. Bernard. Un acquéreur lance : « Les chambres sont glaciales, c'est une passoire ? » À sa place, que réponds-tu ?",
       "model_answer": "Je confirme ce qu'il ressent et je nomme la cause : le simple vitrage d'origine et des murs peu isolés. Puis je relie chaque cause à une solution : les quatre fenêtres sont chiffrées à 5 600 €, l'isolation de la façade est votée pour 2027. Je ne nie pas, je ne promets rien.",
       "keywords": ["simple vitrage", "murs peu isolés", "chiffré", "voté", "sans promesse"]
     },
@@ -193,7 +193,7 @@
   "sources": [
     { "label": "ADEME, Tout savoir sur l'isolation (répartition des pertes, maison avant 1974, observatoire DPE 2025)", "url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/renover/tout-savoir-isolation" },
     { "label": "ANIL, DPE : contenu (schéma des déperditions, performance de l'isolation)", "url": "https://www.anil.org/aj-dpe-mentions-obligatoires-annonces-baux-immobiliers/" },
-    { "label": "Ministère de la Transition écologique, Guide pour les diagnostiqueurs DPE (repère R ≥ 3,7 m².K/W pour les murs)", "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_pour_les_diagnostiqueurs_DPE.pdf" },
+    { "label": "Ministère de la Transition écologique, fiche CEE BAR-EN-102 « Isolation des murs », version A65-4 au 1/01/2025 (R ≥ 3,7 m².K/W)", "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-EN-102%20vA65-4%20%C3%A0%20compter%20du%2001-01-2025_1.pdf" },
     { "label": "Formation Audit énergétique Éco-Propriété (ponts thermiques, ventilation) — contenus internes vérifiés", "url": "https://eco-propriete.fr" },
     { "label": "Bible du fil rouge (données fictives : D04, D07, D13, carnet d'entretien)", "url": null }
   ],

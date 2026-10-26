@@ -40,11 +40,11 @@
     },
     {
       "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
-      "title": "35 880 € votés, 0 page lue, 1 surprise",
-      "voice": "Trente-cinq mille huit cent quatre-vingts euros votés, zéro page lue, et une belle surprise.",
+      "title": "35 880 € de façade, 0 page lue, 1 surprise",
+      "voice": "Trente-cinq mille huit cent quatre-vingts euros de façade, zéro page lue, et une belle surprise.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["35 880 € votés", "0 page lue", "1 surprise"]
+      "beats": ["35 880 € de façade", "0 page lue", "1 surprise"]
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
@@ -68,10 +68,10 @@
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
       "title": "Liste → Pré-état daté → Qui paie",
-      "voice": "Trois idées. Un : la liste légale, article L. 721-2. L'organisation de l'immeuble, les finances, et l'état de l'immeuble : fiche synthétique, règlement, procès-verbaux des trois dernières assemblées, sommes dues, impayés, fonds de travaux, carnet d'entretien, plan de travaux. Deux : le pré-état daté rassemble les informations financières pour la promesse. L'état daté, lui, est établi par le syndic seul, avant l'acte. Trois : qui paie. Un appel de travaux est payé par celui qui est copropriétaire à la date où il est exigible. Le 1er janvier 2027, c'est M. Bernard.",
+      "voice": "Trois idées. Un : la liste légale, article L. 721-2. L'organisation de l'immeuble, les finances, et l'état de l'immeuble : fiche synthétique, règlement, procès-verbaux des assemblées des trois dernières années, sommes dues, impayés, fonds de travaux, carnet d'entretien, plan de travaux. Deux : le pré-état daté rassemble les informations financières pour la promesse. L'état daté, lui, est établi par le syndic seul, avant l'acte. Trois : qui paie. Un appel de travaux est payé par celui qui est copropriétaire à la date où il est exigible. Le 1er janvier 2027, c'est M. Bernard.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
-      "source": "CCH, art. L. 721-2 (Légifrance) ; décret du 17 mars 1967, art. 5 et 6-2 (Légifrance) ; FNAIM, pré-état daté (mai 2024)",
+      "source": "CCH, art. L. 721-2, II (Légifrance, texte vérifié le 26/10/2026 : PV des assemblées des trois dernières années) ; décret du 17 mars 1967, art. 5 et 6-2, 2° (Légifrance, vérifié le 26/10/2026) ; FNAIM, pré-état daté (mai 2024)",
       "steps": [
         { "label": "Liste", "detail": "Art. L. 721-2 : organisation, finances, état de l'immeuble. Remise au plus tard à la promesse." },
         { "label": "Pré-état daté", "detail": "Infos financières pour la promesse. L'état daté, lui, vient du syndic avant l'acte." },
@@ -87,8 +87,8 @@
       "source": "Pratique de récupération (retrieval practice)",
       "prompt": "Toi, que proposerais-tu ?",
       "context": "Claire, négociatrice, reçoit le pré-état daté de M. Bernard. Les Martin lui demandent : « Concrètement, qu'est-ce qu'on paiera à la copropriété, et quand ? ». Que leur répond-elle ?",
-      "model_answer": "Je leur montre un tableau : 35 880 € d'isolation de façade en 4 appels de 8 970 €. Celui du 1/01/2027 est payé par M. Bernard et remboursé à l'acte ; les trois suivants sont pour eux. Le fonds de travaux de 1 061 € reste au syndicat. Impayés : 5 100 €, niveau modéré. Toiture vers 2030, pas encore votée.",
-      "keywords": ["35 880 €", "4 appels", "date d'exigibilité", "source"]
+      "model_answer": "Je leur montre un tableau : 35 880 € d'isolation de façade en 4 appels de 8 970 €. Celui du 1/01/2027 est payé par M. Bernard et remboursé à l'acte ; les trois suivants sont pour eux. Le fonds de travaux de 1 061 € reste au syndicat. Impayés dans l'immeuble : 5 100 €, niveau modéré. Toiture vers 2030, pas encore votée.",
+      "keywords": ["35 880 €", "4 appels", "remboursé à l'acte", "fonds de travaux"]
     },
     {
       "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",

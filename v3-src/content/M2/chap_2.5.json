@@ -61,8 +61,8 @@
       "voice": "Soixante-quinze pour cent. C'est la part du chauffage dans la consommation de M. Bernard : 112 sur 150. Six convecteurs de 1998 font l'essentiel de son DPE.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "value": "≈ 75 %", "label": "de la consommation de M. Bernard vient du chauffage (112 sur 150 kWhEF/m²/an)",
-      "source": "DPE du 14/03/2023 (D02, fil rouge fictif) : 112 / 150 ≈ 74,7 %"
+      "value": "≈ 75 %", "label": "de la consommation de M. Bernard vient du chauffage : calcul sur son DPE (112 sur 150 kWhEF/m²/an)",
+      "source": "Calcul sur le DPE du 14/03/2023 (D02, fil rouge fictif, pas une statistique) : 112 / 150 ≈ 74,7 %"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -113,7 +113,7 @@
       },
       "card2": {
         "question": "Si Hugo proposait d'isoler les murs de M. Bernard par l'intérieur, que se passerait-il ?",
-        "answer": "Il doublerait des travaux déjà votés : l'isolation par l'extérieur démarre en avril 2027. M. Bernard perdrait de la surface pour un gain limité, et l'acquéreur paierait deux fois pour les mêmes murs."
+        "answer": "Il doublerait des travaux déjà votés : l'isolation par l'extérieur démarre en avril 2027. M. Bernard perdrait de la surface habitable pour un gain limité, et on paierait deux fois pour isoler les mêmes murs : lui à l'intérieur, la copropriété à l'extérieur."
       }
     },
     {

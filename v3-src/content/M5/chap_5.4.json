@@ -68,7 +68,7 @@
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
       "title": "Besoin → Règles → Second financement",
-      "voice": "Trois idées. Un : le besoin. Prix 184 000 euros, frais de notaire environ 13 300 calculés sur 175 000, travaux privatifs 16 500, garantie environ 2 000. Total : 215 800. Moins 22 000 d'apport : 193 800 à emprunter. Deux : les règles. Sur 25 ans à 3,55 %, environ 1 024 euros par mois, assurance comprise. Divisé par 4 600 : 22,3 %. Trois : la façade. 35 880 euros, financés à part. L'éco-prêt individuel n'est possible que si l'assemblée refuse le prêt collectif : on ne compte pas dessus. On chiffre un prêt travaux.",
+      "voice": "Trois idées. Un : le besoin. Prix 184 000 euros, frais de notaire environ 13 300 calculés sur 175 000, travaux privatifs 16 500, garantie environ 2 000. Total : 215 800. Moins 22 000 d'apport : 193 800 à emprunter. Deux : les règles. Sur 25 ans à 3,55 %, environ 1 024 euros par mois, assurance comprise. Divisé par 4 600 : 22,3 %. Trois : la façade. 35 880 euros, financés à part. Pour cette quote-part, l'éco-prêt individuel n'est possible que si l'assemblée a refusé le prêt collectif : on ne compte pas dessus. On chiffre un prêt travaux.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
       "source": "Bible, § 7 (plan de financement Martin) ; HCSF D-HCSF-2021-7 ; Service-Public F19905 et F38064 (éco-PTZ) ; calculs vérifiés de la capsule 5.4",
@@ -206,7 +206,7 @@
     "Relecture juridique et financière : HCSF, usure, éco-PTZ individuel et copropriétés, MaPrimeRénov' 2026, statut IOBSP (l'agent ne monte pas le crédit)",
     "Écran 5 : conséquence tirée du dossier fil rouge (aide non notifiée = 0 €), pas d'une statistique externe",
     "Prêt travaux 35 880 € sur 15 ans à 4,50 % : hypothèse fictive ; un prêt travaux de moins de 75 000 € sans garantie hypothécaire relève du crédit à la consommation",
-    "Éco-PTZ individuel pour une quote-part de parties communes : prévu par Service-Public si le syndicat refuse le prêt collectif ; l'ANIL ne traite pas ce cas",
+    "Éco-PTZ individuel pour une quote-part de parties communes : Service-Public F38064 (vérifiée le 1/07/2025, relue le 26/10/2026) le prévoit si le syndicat vote contre l'éco-PTZ Copropriétés ; plafond cumulé 30 000 € (50 000 € en rénovation globale) ; l'ANIL ne traite pas ce cas",
     "Frais de notaire ≈ 13 300 € : chiffre du dossier fil rouge, non recalculé",
     "Écran 13 : renvoie à l'exercice (« #exercice »)"
   ]
