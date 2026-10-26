@@ -1,6 +1,6 @@
 # Brief rédacteur — Éco-Consultant v3 : 5 modules, 34 capsules de 8 minutes
 
-Tu écris des **capsules complètes** de la formation e-learning **ÉCO-CONSULTANT** (marque Éco-Propriété ; formateur : Sébastien Paumier, dit **Seb** ; public : agents immobiliers, mandataires, négociateurs). Tout est en français, **tutoiement** de l'apprenant partout (vidéo, quiz, ressources, exercices).
+Tu écris des **capsules complètes** de la formation e-learning **ÉCO-CONSULTANT** (marque Éco-Propriété ; formateur : Sébastien Paumier, dit **Sébastien Paumier** ; public : agents immobiliers, mandataires, négociateurs). Tout est en français, **tutoiement** de l'apprenant partout (vidéo, quiz, ressources, exercices).
 
 **Avant d'écrire, lis en entier :**
 1. `/home/claude/eco_v3/content/BIBLE.md` — le fil rouge (M. Bernard, son appartement en copropriété à Melun, tous les chiffres). Ne change aucun chiffre. Si tu en dérives un, montre le calcul.
@@ -9,7 +9,7 @@ Tu écris des **capsules complètes** de la formation e-learning **ÉCO-CONSULTA
 4. Pour les capsules bâtiment (2.2, 2.5, 2.6), la formation maison « Audit énergétique » a des contenus utiles, extraits en texte dans `/home/claude/audit_ref/txt/*.md` (notamment `J8_*.md` : mur, menuiserie, ventilation, chauffage, ECS, planchers ; `J3_Audit_énergétique_-pathologie.md` ; `J4_Systèmes-Généralités.md`). Reprends-en la matière en la vérifiant, jamais les chiffres non sourcés.
 
 ## Le format (schéma validé par le client)
-Chaque capsule suit 5 étapes : **① Je regarde** (vidéo de Seb, 8 min) → **② Je me teste** (quiz flash) → **③ Je télécharge** (la ressource) → **④ Je pratique** (exercice sur le fil rouge, avec l'IA quand la capsule est marquée IA) → **⑤ Je dépose** (livrable validé par le formateur).
+Chaque capsule suit 5 étapes : **① Je regarde** (vidéo de Sébastien Paumier, 8 min) → **② Je me teste** (quiz flash) → **③ Je télécharge** (la ressource) → **④ Je pratique** (exercice sur le fil rouge, avec l'IA quand la capsule est marquée IA) → **⑤ Je dépose** (livrable validé par le formateur).
 Trois fils conducteurs traversent tout : **l'IA** (prompts métier prêts à l'emploi), **les neurosciences** (8 min d'attention, récupération active juste après la vidéo, répétition espacée J+1/J+7/J+30, émotion et récit via le fil rouge), **le fil rouge** (le même bien avance de module en module).
 
 ## Le plan à respecter (titre, exercice « EX », ressource « RES » ; [IA] = capsule IA)
@@ -67,7 +67,7 @@ Trois fils conducteurs traversent tout : **l'IA** (prompts métier prêts à l'e
    "duration_min": 8,
    "hook": "Accroche des 20 premières secondes (question, chiffre, situation de M. Bernard)",
    "segments": [
-     {"tc": "00:00", "voice": "Texte exact dit par Seb…", "screen": "Seb face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété", "onscreen": "Texte incrusté court (optionnel)"},
+     {"tc": "00:00", "voice": "Texte exact dit par Sébastien Paumier…", "screen": "Sébastien Paumier face caméra (avatar HeyGen), plan taille, fond bureau Éco-Propriété", "onscreen": "Texte incrusté court (optionnel)"},
      {"tc": "00:40", "voice": "…", "screen": "Plein écran : extrait du PV d'AG D07 avec le vote ITE surligné", "onscreen": "35 880 € pour le lot"}
    ]
  },
@@ -87,7 +87,7 @@ Trois fils conducteurs traversent tout : **l'IA** (prompts métier prêts à l'e
 ### ① La vidéo (8 min, la pièce maîtresse)
 - **980 à 1 300 mots de voix au total** (≈ 140 mots/min, vise ~1 100). 6 à 14 segments ; `tc` = minute:seconde de début (00:00, 00:40…), croissant, dernier segment vers 07:20-07:40.
 - Structure : **accroche** (situation de M. Bernard ou chiffre fort, 20 s) → **pourquoi c'est important** pour l'agent → **3 idées clés maximum**, chacune illustrée sur le fil rouge → **démonstration** pas à pas (le geste métier sur les documents du dossier D01-D20) → **erreurs fréquentes** → **ce que tu fais maintenant** (annonce du quiz, de la ressource, de l'exercice et du livrable).
-- Seb parle comme à l'oral : phrases courtes, « tu », exemples concrets, pas de liste lue. Il ne cite pas d'URL à l'oral.
+- Sébastien Paumier parle comme à l'oral : phrases courtes, « tu », exemples concrets, pas de liste lue. Il ne cite pas d'URL à l'oral.
 - `screen` décrit précisément ce qu'on voit (avatar plein cadre / plan taille, slide avec tel schéma, document D07 zoomé, incrustation, B-roll « visite d'appartement ») : c'est la consigne de montage. `onscreen` = texte court incrusté.
 
 ### ② Le quiz flash (4 à 5 QCM, juste après la vidéo)

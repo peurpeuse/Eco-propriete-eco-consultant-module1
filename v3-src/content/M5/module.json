@@ -82,8 +82,8 @@
  "reminders": {
   "J1": {
    "subject": "Module 5 : la date qui compte, c'est celle de l'acte",
-   "message": "Bonjour, hier tu as terminé le module « Sécuriser la vente ». Une seule idée à garder aujourd'hui : chaque pièce du dossier se contrôle à la date de l'acte, pas à la date du jour. Le diagnostic électricité de M. Bernard (2023) était valable quand il l'a reçu, mais pas le 15/03/2027. Prends 3 minutes pour répondre aux questions ci-dessous, puis rouvre ta check-list des pièces. À demain sur la plateforme, Seb",
-   "sms": "Éco-Consultant : un diagnostic se contrôle à la date de l'acte, pas d'aujourd'hui. 3 questions t'attendent sur la plateforme. Seb",
+   "message": "Bonjour, hier tu as terminé le module « Sécuriser la vente ». Une seule idée à garder aujourd'hui : chaque pièce du dossier se contrôle à la date de l'acte, pas à la date du jour. Le diagnostic électricité de M. Bernard (2023) était valable quand il l'a reçu, mais pas le 15/03/2027. Prends 3 minutes pour répondre aux questions ci-dessous, puis rouvre ta check-list des pièces. À demain sur la plateforme, Sébastien Paumier",
+   "sms": "Éco-Consultant : un diagnostic se contrôle à la date de l'acte, pas d'aujourd'hui. 3 questions t'attendent sur la plateforme. Sébastien Paumier",
    "questions": [
     {
      "question": "Un état des risques établi le 10/06/2026 est-il utilisable pour un compromis signé le 15/12/2026 ?",
@@ -121,8 +121,8 @@
   },
   "J7": {
    "subject": "Une semaine après : qui paie l'appel de fonds ?",
-   "message": "Bonjour, il y a une semaine tu as appris à lire un pré-état daté. Rappel : pour les travaux hors budget, c'est le copropriétaire à la date d'exigibilité qui paie le syndicat ; tout autre accord se fait entre vendeur et acquéreur et s'écrit chez le notaire. Teste-toi avec ces questions, puis relis la fiche copro à la vente avant ton prochain compromis en copropriété. Seb",
-   "sms": "Éco-Consultant : appel de fonds hors budget = payé par le copropriétaire à la date d'exigibilité. 3 questions de rappel t'attendent. Seb",
+   "message": "Bonjour, il y a une semaine tu as appris à lire un pré-état daté. Rappel : pour les travaux hors budget, c'est le copropriétaire à la date d'exigibilité qui paie le syndicat ; tout autre accord se fait entre vendeur et acquéreur et s'écrit chez le notaire. Teste-toi avec ces questions, puis relis la fiche copro à la vente avant ton prochain compromis en copropriété. Sébastien Paumier",
+   "sms": "Éco-Consultant : appel de fonds hors budget = payé par le copropriétaire à la date d'exigibilité. 3 questions de rappel t'attendent. Sébastien Paumier",
    "questions": [
     {
      "question": "Un appel de fonds pour travaux votés est exigible le 1/02 ; la vente est signée le 15/01. Vis-à-vis du syndicat, qui le paie ?",
@@ -176,8 +176,8 @@
   },
   "J30": {
    "subject": "Un mois après : ton prochain dossier de vente",
-   "message": "Bonjour, un mois après le module 5, reprends ta check-list de sécurisation sur ta prochaine vente réelle. Les trois réflexes : une condition de prêt réaliste (marché + marge, durée suffisante), un plan de financement qui inclut les appels de fonds de la copropriété, un rétroplanning avec une relance à J−15 avant la fin de la condition. Réponds à ces questions, puis partage ta check-list avec ton équipe. Seb",
-   "sms": "Éco-Consultant : 1 mois après le module 5, teste tes réflexes de sécurisation (prêt, appels de fonds, J−15). 3 questions t'attendent. Seb",
+   "message": "Bonjour, un mois après le module 5, reprends ta check-list de sécurisation sur ta prochaine vente réelle. Les trois réflexes : une condition de prêt réaliste (marché + marge, durée suffisante), un plan de financement qui inclut les appels de fonds de la copropriété, un rétroplanning avec une relance à J−15 avant la fin de la condition. Réponds à ces questions, puis partage ta check-list avec ton équipe. Sébastien Paumier",
+   "sms": "Éco-Consultant : 1 mois après le module 5, teste tes réflexes de sécurisation (prêt, appels de fonds, J−15). 3 questions t'attendent. Sébastien Paumier",
    "questions": [
     {
      "question": "Un acquéreur emprunte au taux du marché de 3,55 %. Quel taux maximal proposes-tu dans la condition de prêt ?",

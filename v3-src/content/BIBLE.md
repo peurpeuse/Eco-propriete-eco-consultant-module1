@@ -71,7 +71,7 @@ Tout ce qui suit est **FICTIF** (personnes, bien, copropriété, chiffres de mar
 ## 8. Les autres personnages (fictifs)
 - **L'apprenant** : agent·e immobilier·ère (ou mandataire) qui devient éco-consultant·e ; « ton agence ».
 - **Karim** : agent indépendant à Melun, contre-exemple (fiche Google incomplète, page Facebook inactive depuis 8 mois, LinkedIn sans photo, annonce « −15 % à cause du DPE »).
-- **Seb** (Sébastien Paumier, formateur réel) présente toutes les vidéos.
+- **Sébastien Paumier** (Sébastien Paumier, formateur réel) présente toutes les vidéos.
 - **Maître Lemoine**, notaire de l'acquéreur ; **Mme Roy**, gestionnaire au Cabinet Martel Gestion ; **Diag77**, diagnostiqueur.
 
 ## 9. Le dossier fil rouge (documents disponibles, à citer par leur code)
