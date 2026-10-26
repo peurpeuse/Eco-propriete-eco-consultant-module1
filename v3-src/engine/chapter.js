@@ -190,7 +190,7 @@
 
   function render(ch, o) {
     injectCss(); o = o || {};
-    var total = sec(ch.screens[14].end);
+    var md = (ch.media && ch.media.screens) || [], total = md.length === 15 ? md.reduce(function (t, m) { return t + (m.dur || 0); }, 0) : sec(ch.screens[14].end);
     var w = [0, 0, 0, 0, 0, 0]; ch.screens.forEach(function (s) { w[s.brick - 1] += sec(s.end) - sec(s.tc); });
     return '<div class="ch' + (o.render ? ' render' : '') + '" data-ch="' + esc(ch.id) + '">' +
       '<div class="stage" tabindex="0" role="region" aria-label="Chapitre ' + esc(ch.id) + ' : ' + esc(ch.title) + '">' + ch.screens.map(function (s) { return screenHtml(s, ch); }).join('') +
@@ -207,7 +207,7 @@
     var stage = root.querySelector('.stage'), scs = stage.querySelectorAll('.sc'), cc = stage.querySelector('.cc p'), seb = stage.querySelector('.seb');
     var tm = root.querySelector('[data-tm]'), btnP = root.querySelector('[data-c=play]');
     var media = (ch.media && ch.media.screens) || [];
-    var i = Math.min(14, st.i || 0), t0 = 0, el = 0, playing = false, raf = 0, au = null, sound = true, words = [], chunks = [], lastW = -1;
+    var i = Math.min(14, st.i || 0), t0 = 0, el = 0, playing = false, raf = 0, au = null, sound = true, words = [], chunks = [], lastW = -1, started = false;
     var dur = ch.screens.map(function (s, k) { return (media[k] && media[k].dur) || Math.max(3, sec(s.end) - sec(s.tc)); });
     var starts = []; dur.reduce(function (a, d, k) { starts[k] = a; return a + d; }, 0);
     if (media.some(function (m) { return m && m.audio; })) root.querySelector('[data-c=snd]').hidden = false;
@@ -253,11 +253,11 @@
     }
     function tick(now) {
       raf = 0; if (!playing) return;
-      el = au && !isNaN(au.currentTime) && au.currentTime > 0 ? au.currentTime : (now - t0) / 1000;
+      el = (now - t0) / 1000;
       paint();
       var s = ch.screens[i];
       if (el >= dur[i]) {
-        if (GATE[s.kind] || i === 14) { el = dur[i]; paint(); seb.classList.remove('talk'); return; }
+        if ((GATE[s.kind] && !(s.kind === 'welcome' && started)) || i === 14) { el = dur[i]; paint(); seb.classList.remove('talk'); return; }
         show(i + 1);
       }
       raf = requestAnimationFrame(tick);
@@ -285,7 +285,8 @@
       if (c === 'play') play(!playing); else if (c === 'prev') show(i - 1); else if (c === 'next') { show(i + 1); }
       else if (c === 'cc') { var on = root.classList.toggle('nocc'); b.setAttribute('aria-pressed', String(!on)); }
       else if (c === 'snd') { sound = !sound; b.setAttribute('aria-pressed', String(sound)); if (au) au.muted = !sound; }
-      if (a === 'start' || a === 'next') next();
+      if (a === 'start' && media.some(function (m) { return m && m.audio; }) && i === 0) { started = true; show(0); play(true); }
+      else if (a === 'start' || a === 'next') next();
       else if (a === 'flip2') b.closest('.card').classList.add('flip');
       else if (a === 'c2') { scs[i].querySelector('.cards').classList.add('c1'); var c2 = scs[i].querySelector('[data-card="2"] .go'); if (c2) c2.focus(); }
       else if (a === 'exo') hk.onExercise && hk.onExercise();

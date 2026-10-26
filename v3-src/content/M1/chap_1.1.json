@@ -326,5 +326,101 @@
     "Écran 10 à 12 : choix des deux outils (message consenti, tableau des 3 changements) et formulation du message à valider",
     "Écran 13 : pas d'outil officiel, bouton vers l'exercice (#exercice)",
     "Contenu de la capsule non repris faute de place : taux moyen 20 ans et taux d'usure 5,40 %, enquête leboncoin Immo (51 %), les 5 techniques détaillées ; ils restent dans la fiche « Réglementation et tendances 2026 »"
-  ]
+  ],
+  "media": {
+    "screens": [
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_01.mp3",
+        "dur": 8.83,
+        "audio_dur": 8.03,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_02.mp3",
+        "dur": 3.35,
+        "audio_dur": 2.55,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_03.mp3",
+        "dur": 4.05,
+        "audio_dur": 3.25,
+        "voice": "Mozi (ElevenLabs « Julien »)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_04.mp3",
+        "dur": 3.91,
+        "audio_dur": 3.11,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_05.mp3",
+        "dur": 10.97,
+        "audio_dur": 10.17,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_06.mp3",
+        "dur": 9.81,
+        "audio_dur": 9.01,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_07.mp3",
+        "dur": 42.74,
+        "audio_dur": 41.94,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_08.mp3",
+        "dur": 4.19,
+        "audio_dur": 3.39,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_09.mp3",
+        "dur": 3.31,
+        "audio_dur": 2.51,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_10.mp3",
+        "dur": 8.42,
+        "audio_dur": 7.62,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_11.mp3",
+        "dur": 15.99,
+        "audio_dur": 15.19,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_12.mp3",
+        "dur": 16.22,
+        "audio_dur": 15.42,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_13.mp3",
+        "dur": 3.0,
+        "audio_dur": 1.67,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_14.mp3",
+        "dur": 3.0,
+        "audio_dur": 1.44,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      },
+      {
+        "audio": "https://btmpylcpqxwkdgllnuul.supabase.co/storage/v1/object/public/voix/chapitre_1-1/ecran_15.mp3",
+        "dur": 7.02,
+        "audio_dur": 6.22,
+        "voice": "Sébastien Paumier (ElevenLabs SEB)"
+      }
+    ],
+    "generated": "2026-10-26",
+    "note": "Voix ElevenLabs eleven_multilingual_v2 ; flow slTG7RyC3Da5WpawyFHy ; fichiers hébergés sur Supabase Storage (bucket public « voix »)"
+  }
 }
