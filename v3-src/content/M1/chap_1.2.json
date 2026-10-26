@@ -48,11 +48,11 @@
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
-      "title": "La lettre a changé. Le −15 % n'a pas de source.",
-      "voice": "Problème : depuis 2026, l'appartement de M. Bernard est classé E, plus F. Et le moins quinze pour cent ne vient d'aucune étude.",
+      "title": "La lettre a changé. Le −15 % sort de nulle part.",
+      "voice": "Problème : depuis 2026, l'appartement de M. Bernard est classé E, plus F. Et ce moins quinze pour cent n'a ni région, ni année, ni source.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "lines": ["La lettre a changé : c'est E.", "Le −15 % n'a aucune source."],
+      "lines": ["La lettre a changé : c'est E.", "Le −15 % : ni région, ni année, ni source."],
       "source": "Coefficient électricité 1,9 depuis le 1/01/2026 (arrêté du 13/08/2025) : 150 × 1,9 = 285 kWhEP/m²/an, classe E (attestation actualisée ADEME, fil rouge) ; aucune décote nationale unique : l'écart varie selon la région, le type de bien et l'année (Notaires de France, valeur verte, transactions 2024, 7/01/2026)"
     },
     {
@@ -147,7 +147,7 @@
     {
       "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
       "title": "Comparables et devis : situer, calculer, poser",
-      "voice": "Puis tu sors les comparables. Tu situes son appartement, en l'état et rénové. Tu calcules l'écart : quinze mille deux cents euros. Et tu poses à côté les devis : seize mille cinq cents euros de travaux. Énergie, valeur, budget.",
+      "voice": "Puis tu sors les comparables. Tu situes son appartement, en l'état et rénové. Tu calcules l'écart : quinze mille deux cents euros. Et tu poses à côté les devis : seize mille cinq cents euros de travaux privatifs, hors façade de la copropriété. Énergie, valeur, budget.",
       "voice_status": "proposition",
       "interaction": "Étapes qui s'enchaînent",
       "source": "Comparables D12 et devis D13 fictifs (BIBLE.md, § 5 et 6)",
@@ -155,7 +155,7 @@
       "steps": [
         "Ouvrir D12 : 2 650 €/m² en l'état, 2 850 €/m² rénové",
         "Calculer : 200 € × 76 m² = 15 200 €",
-        "Poser D13 à côté : 16 500 € de travaux privatifs",
+        "Poser D13 à côté : 16 500 € de travaux privatifs (hors ITE de la copropriété)",
         "Parler montant, jamais pourcentage"
       ]
     },
@@ -203,6 +203,7 @@
     "Écran 9, carte 2 : seuil climat F (75 kgCO₂ > 70) repris de la capsule ; à revérifier sur Service-Public avant tournage",
     "Écran 11 : parcours exact sur l'observatoire DPE-Audit à vérifier le jour du tournage",
     "Non repris faute de place : l'absence d'audit obligatoire pour un lot de copropriété (relecture juridique demandée dans la capsule) ; le passage à 1,7 au 1/01/2027 (255, toujours E) — à garder dans la fiche « Argumentaire valeur verte »",
-    "Les comparables (2 650 et 2 850 €/m²) et les devis (16 500 €) sont fictifs : mention « exemple fictif » à l'écran"
+    "Les comparables (2 650 et 2 850 €/m²) et les devis (16 500 €) sont fictifs : mention « exemple fictif » à l'écran",
+    "Écrans 7 et 12 : les 2 850 €/m² visent des biens rénovés dans un immeuble isolé (ITE comprise, quote-part 35 880 € pour M. Bernard), alors que les 16 500 € ne couvrent que les travaux privatifs ; la revue a ajouté « hors façade de la copropriété » pour éviter de laisser croire que 16 500 € de travaux « rapportent » 15 200 €. À valider"
   ]
 }

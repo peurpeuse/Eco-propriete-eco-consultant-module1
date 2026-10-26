@@ -58,11 +58,11 @@
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
       "title": "1928 : le modèle de Marston",
-      "voice": "La grille DISC vient d'un modèle proposé en 1928 par le psychologue William Marston. Quatre styles. Attention : c'est un outil de communication, pas un diagnostic.",
+      "voice": "La grille DISC vient d'un modèle proposé en 1928 par le psychologue William Marston. Quatre styles. Attention : c'est un outil de communication, pas un test scientifique ni un diagnostic.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "1928",
-      "label": "modèle de W. M. Marston, à l'origine de la grille DISC en 4 styles",
+      "label": "modèle de W. M. Marston, à l'origine de la grille DISC en 4 styles : un outil de communication, pas une science validée",
       "source": "Everything DiSC, « Our story » : W. M. Marston, Emotions of Normal People (1928)"
     },
     {
@@ -109,7 +109,7 @@
         "whys": [
           "Exact : le fond ne bouge pas ; seuls le rythme, les supports et les mots s'adaptent.",
           "Faux : c'est précisément l'erreur de Mozi. Parler à un C comme à un I, c'est la porte.",
-          "Faux : exploiter une crainte pour faire pression, c'est de la manipulation, contraire à ton devoir de conseil."
+          "Faux : exploiter une crainte pour faire pression, c'est de la manipulation. Le DISC sert à traduire, pas à forcer."
         ]
       },
       "card2": {
@@ -176,7 +176,7 @@
       "voice_status": "proposition",
       "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
       "source": "fin sobre : proposition à valider",
-      "ask": "Dépose une capture de la fiche profil DISC de M. Bernard (hypothèse et indices) avec tes 3 phrases adaptées.",
+      "ask": "Dépose une capture de la fiche profil DISC de M. Bernard (hypothèse et au moins 5 indices observés) avec tes 3 phrases adaptées.",
       "later": "Je le ferai plus tard",
       "later_text": "D'accord. M. Bernard t'attend : reviens déposer sa fiche profil quand elle est prête."
     },
@@ -198,7 +198,7 @@
     "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
     "Écran 5 : la conséquence s'appuie sur le fil rouge (fictif), pas sur une étude ; à valider",
     "Mention de marque : écrire « DISC » générique, ne pas reproduire de questionnaire ni de couleurs d'une marque DiSC commerciale [À VALIDER relecture juridique, héritage capsule]",
-    "Écran 9 : « devoir de conseil » cité sans texte de référence ; à faire préciser si l'on veut une source juridique",
+    "Écran 9 : mention « devoir de conseil » retirée (aucun texte cité) ; le DISC est présenté comme un outil de communication sans validation scientifique (écran 6)",
     "Écran 15 : effet statut fondé sur un fait observable, pas sur une statistique"
   ]
 }

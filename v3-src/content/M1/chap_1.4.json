@@ -58,11 +58,11 @@
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
       "title": "29 jours d'avance",
-      "voice": "Bonne nouvelle : dans Meta Business Suite, tu peux programmer une publication jusqu'à vingt-neuf jours à l'avance. Ton mois peut être prêt d'un coup.",
+      "voice": "Bonne nouvelle : sur ta page Facebook, tu peux programmer une publication jusqu'à vingt-neuf jours à l'avance. Ton mois peut être prêt d'un coup.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "29 jours", "label": "pour programmer une publication à l'avance (de 20 minutes à 29 jours)",
-      "source": "Meta, aide « Programmer une publication pour ta Page Facebook » (facebook.com/help/389849807718635), citée dans la capsule 1.4 — à revérifier le jour du tournage"
+      "source": "Meta, aide « Schedule a post… for your Facebook Page » (facebook.com/help/389849807718635) : « between 20 minutes and 29 days away », consulté le 26/10/2026 ; règle de produit, pas une statistique — à revérifier le jour du tournage"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -104,7 +104,7 @@
           "Aucune : sur Facebook, l'annonceur cible qui il veut"
         ],
         "answer": 0,
-        "feedback": "Une offre d'estimation est un service lié au logement. Pour une audience en France, Meta impose la catégorie Logement : ciblage par zone avec un rayon élargi, sans critère d'âge, de genre ni de code postal.",
+        "feedback": "Meta range les services d'estimation parmi les publicités Logement. Pour une audience en France, il faut choisir la catégorie Logement : ciblage par zone avec un rayon élargi, sans critère d'âge, de genre ni de code postal.",
         "whys": [
           "Exact : ces règles visent à empêcher la discrimination dans l'accès au logement.",
           "Faux : le code postal n'est pas ciblable du tout en catégorie Logement, quel qu'en soit le nombre.",
@@ -135,7 +135,7 @@
       "voice": "Dans le planificateur, tu prépares trois posts de piliers différents. Chaque chiffre a sa source, chaque exemple est signalé fictif. Tu programmes. Et le jour où tu publies un bien : classes énergie et climat, dépenses estimées, mentions de copropriété.",
       "voice_status": "proposition",
       "interaction": "Étapes qui s'enchaînent",
-      "source": "Meta, programmation et Planificateur ; mentions DPE dans les annonces (Service-Public F16096) ; mentions copropriété (INC, art. L. 721-1 CCH) — à vérifier le jour du tournage",
+      "source": "Meta, programmation (20 min à 29 jours : règle des Pages Facebook, à confirmer dans le Planificateur) ; mentions DPE dans les annonces (Service-Public F16096) ; mentions copropriété (INC, art. L. 721-1 CCH) — à vérifier le jour du tournage",
       "tool": "Planificateur de Meta Business Suite",
       "steps": [
         "Préparer 3 posts : pédagogie, coulisses, avis",

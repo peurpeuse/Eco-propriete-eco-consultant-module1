@@ -53,15 +53,15 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": ["Sans mandat écrit : aucune mission.", "Et aucun honoraire."],
-      "source": "Loi n° 70-9 du 2 janvier 1970 (loi Hoguet), art. 6 : mandat écrit préalable à toute mission et rémunération (Légifrance)"
+      "source": "Loi n° 70-9 du 2 janvier 1970 (loi Hoguet), art. 6 (conventions écrites, conditions de la rémunération) et décret n° 72-678 du 20 juillet 1972, art. 72 (pas de négociation ni d'engagement sans mandat écrit préalable) (Légifrance)"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
       "title": "51 % misent sur la concurrence",
-      "voice": "Et la moitié des vendeurs pensent que mettre les agences en concurrence augmente leurs chances. C'est du déclaratif, mais tu l'entends tous les jours.",
+      "voice": "Selon quatre cent dix-neuf professionnels interrogés par leboncoin Immo, la moitié des vendeurs pensent que la mise en concurrence augmente leurs chances. C'est déclaratif, mais tu l'entends tous les jours.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "value": "51 %", "label": "des vendeurs pensent que mettre les agences en concurrence augmente leurs chances (déclaratif)",
+      "value": "51 %", "label": "des vendeurs misent sur la mise en concurrence, selon 419 professionnels interrogés (déclaratif)",
       "source": "Enquête leboncoin Immo auprès de 419 professionnels (sept.-oct. 2025, déclaratif), relayée par MySweetImmo le 6 novembre 2025"
     },
     {
@@ -95,7 +95,7 @@
       "voice": "À toi de jouer : retourne la carte.",
       "voice_status": "proposition",
       "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
-      "source": "Loi n° 70-9 du 2 janvier 1970, art. 6 ; décret n° 72-678 du 20 juillet 1972 (registre des mandats, exclusivité) ; rétractation de 14 jours hors établissement (capsule 1.7, relecture juridique demandée)",
+      "source": "Loi n° 70-9 du 2 janvier 1970, art. 6 ; décret n° 72-678 du 20 juillet 1972, art. 72 (mandat écrit préalable, registre des mandats) et art. 78 (exclusivité, résiliation après 3 mois) ; code de la consommation, art. L. 221-18 (14 jours de rétractation hors établissement) ; rétractation de 14 jours hors établissement (capsule 1.7, relecture juridique demandée)",
       "card1": {
         "question": "Quelle règle Mozi enfreint-il ?",
         "options": [

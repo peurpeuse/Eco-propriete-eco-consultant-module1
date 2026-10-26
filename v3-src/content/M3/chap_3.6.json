@@ -58,12 +58,12 @@
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
       "title": "2,3 → 1,9 : le F devient E",
-      "voice": "Un fait vaut mieux qu'un argument. Le coefficient de l'électricité est passé de 2,3 à 1,9 au 1er janvier 2026. Résultat : l'étiquette de M. Bernard passe de F à E.",
+      "voice": "Un fait vaut mieux qu'un argument. Le coefficient de l'électricité est passé de 2,3 à 1,9 au 1er janvier 2026. Résultat : avec l'attestation actualisée, l'étiquette de M. Bernard passe de F à E.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "2,3 → 1,9",
-      "label": "coefficient électricité au 1/01/2026 : le F de 2023 devient E",
-      "source": "Arrêté du 13/08/2025 (coefficient 1,9 au 1/01/2026), fait vérifié de la bible §3 ; attestation actualisée ADEME D03 (classe E, fil rouge fictif)"
+      "label": "coefficient électricité au 1/01/2026 : avec l'attestation actualisée, le F de 2023 devient E",
+      "source": "Arrêté du 13 août 2025 modifiant le facteur de conversion de l'énergie finale en énergie primaire de l'électricité relatif au DPE (Légifrance, JORFTEXT000052134589 : 2,3 → 1,9 au 1/01/2026) ; calcul du fil rouge 150 × 1,9 = 285 kWhEP/m²/an → E ; attestation actualisée ADEME D03 (classe E, fictif)"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -195,14 +195,14 @@
     { "label": "Légifrance — Code de la consommation, art. L. 221-18 (rétractation de 14 jours, contrat hors établissement)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842" },
     { "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265" },
     { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
-    { "label": "Arrêté du 13 août 2025 (coefficient électricité 1,9 au 1/01/2026), fait vérifié de la bible du fil rouge", "url": null },
+    { "label": "Légifrance — Arrêté du 13 août 2025 modifiant le facteur de conversion de l'énergie finale en énergie primaire de l'électricité relatif au diagnostic de performance énergétique (1,9 au 1/01/2026), vérifié le 26/10/2026", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052134589" },
     { "label": "CNIL — Définition : minimisation des données", "url": "https://www.cnil.fr/fr/definition/minimisation" },
     { "label": "Proposition pédagogique Éco-Propriété — méthode ARFE, réponses par profil DISC, prompt de jeu de rôle (fil rouge fictif)", "url": "https://eco-propriete.fr" }
   ],
   "open_points": [
     "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
     "Écran 5 : la rétractation de 14 jours s'applique au contrat conclu hors établissement ; formulation à faire relire (relecture juridique)",
-    "Écran 6 : ajouter l'URL Légifrance de l'arrêté du 13/08/2025 (fait vérifié dans la bible, URL non reprise)",
+    "Écran 6 : URL Légifrance de l'arrêté du 13/08/2025 ajoutée (JORFTEXT000052134589) ; formulation « avec l'attestation actualisée » ajoutée (le DPE de 2023 n'est pas modifié, c'est l'attestation qui affiche E)",
     "Écran 12 : tester le prompt sur l'outil IA retenu par Éco-Propriété avant diffusion (ordre des objections, score caché, débriefing) ; outil non nommé à l'écran",
     "Relecture juridique : formulation de l'art. 6-2 et de l'accord vendeur/acquéreur (héritage capsule)",
     "Écran 15 : effet statut fondé sur un fait observable, pas sur une statistique"

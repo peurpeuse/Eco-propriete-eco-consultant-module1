@@ -62,7 +62,7 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "5 ans", "label": "de ventes immobilières réelles en open data, mises à jour en avril et en octobre",
-      "source": "data.gouv.fr, jeu de données « Demandes de valeurs foncières » (DVF), consulté le 26/10/2026 : cinq dernières années, hors Alsace, Moselle et Mayotte"
+      "source": "data.gouv.fr, jeu de données « Demandes de valeurs foncières » (DVF), consulté le 26/10/2026 : « transactions immobilières intervenues au cours des cinq dernières années », mise à jour semestrielle en avril et en octobre, « à l'exception de l'Alsace, de la Moselle et de Mayotte »"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -86,7 +86,7 @@
       "source": "Pratique de récupération (retrieval practice) ; modèle d'estimation de la capsule 2.10",
       "prompt": "Toi, que proposerais-tu ?",
       "context": "Karim veut annoncer 205 000 € à M. Bernard, « pour lui faire plaisir ». Que lui présentes-tu à la place ?",
-      "model_answer": "Les deux valeurs prouvées : 178 000 à 186 000 € net vendeur en l'état, à partir de la médiane des ventes et des devis ; 216 600 € après rénovation. Aucune vente comparable en l'état ne soutient 205 000 €.",
+      "model_answer": "Les deux valeurs prouvées : 178 000 à 186 000 € net vendeur en l'état, à partir de la médiane des ventes et des devis ; 216 600 € après rénovation. Même la vente en l'état la plus chère, 2 700 €/m², donne 205 200 € avant les retraits prouvés : 205 000 € ne tient pas.",
       "keywords": ["ventes", "médiane", "fourchette", "après rénovation"]
     },
     {
@@ -165,7 +165,7 @@
       "voice": "Ouvre DVF maintenant.",
       "voice_status": "proposition",
       "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
-      "source": "Application « Données de valeur foncière » de data.gouv.fr, lien relevé le 26/10/2026 ; lien à valider",
+      "source": "Explorateur DVF de data.gouv.fr (lien donné par la page https://www.data.gouv.fr/pages/onboarding/dvf/, relevé le 26/10/2026) ; à tester le jour du tournage",
       "cta": "Ouvrir DVF",
       "url": "https://explore.data.gouv.fr/immobilier"
     },
@@ -202,6 +202,8 @@
     "Écran 7 et 11 : la décote copropriété « 6 900 à 14 900 € » est une proposition pédagogique dérivée de la fourchette de la bible, à présenter comme jugement documenté, pas comme règle de marché",
     "Écran 12 : performances après travaux (D puis C) non affichées dans ce chapitre ; elles restent fictives, à confirmer par un diagnostiqueur",
     "Écran 13 : lien de l'application DVF relevé sur data.gouv.fr (https://explore.data.gouv.fr/immobilier) ; à tester le jour du tournage",
+    "Écran 8 (revue) : la phrase « aucune vente comparable ne soutient 205 000 € » était inexacte (C5 à 2 700 €/m² × 76 = 205 200 € avant ajustements) ; reformulée",
+    "Écran 7 : sept montants en 55 s ; charge cognitive élevée, compensée par l'affichage des étapes. À tester sur un apprenant ; sinon déplacer le détail des retraits vers l'écran 11",
     "Tableau D12 (C1-C5, R1-R3) à créer à l'identique dans le dossier fil rouge ; toujours afficher « exemple fictif »",
     "Le prix de présentation et le mandat (189 000 € FAI) relèvent du module 3 et ne sont pas annoncés ici ; ne citer aucun pourcentage national de valeur verte"
   ]

@@ -4,7 +4,7 @@
   "title": "Être recommandé sur LinkedIn",
   "capsule_title": "LinkedIn : un profil d'expert",
   "duration": "4:30",
-  "objective": "Construire un profil LinkedIn d'éco-consultant crédible pour les prescripteurs (titre, infos, preuves) et publier sans automatisation, dans le respect du RGPD",
+  "objective": "Construire un profil LinkedIn d'éco-consultant crédible pour les prescripteurs (titre, Infos, preuves), publier un premier post utile et développer son réseau sans automatisation",
   "mozi": {
     "line": "Mon robot invite trois cents notaires par jour pendant que je dors !",
     "scene": "Mozi ronfle dans un hamac pendant qu'un petit robot violet tape frénétiquement sur son ordinateur. Histoire absurde, sans morale."
@@ -58,11 +58,11 @@
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
       "title": "1 semaine sans inviter personne",
-      "voice": "Et ce blocage dure en général une semaine. Une semaine sans pouvoir inviter un seul notaire. Ton réseau se construit à la main.",
+      "voice": "D'après l'aide de LinkedIn, ce blocage dure en général une semaine. Une semaine sans pouvoir inviter un seul notaire. Ton réseau se construit à la main.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "1 semaine", "label": "de blocage des invitations, en général, quand la limite est atteinte",
-      "source": "LinkedIn Aide, « Limite d'invitations atteinte » (linkedin.com/help/linkedin/answer/a550555) : restriction temporaire, en général une semaine — à revérifier le jour du tournage"
+      "source": "à vérifier : LinkedIn Aide, « Limite d'invitations atteinte » (linkedin.com/help/linkedin/answer/a550555), durée « en général une semaine » reprise de la capsule 1.5 ; page non consultable automatiquement le 26/10/2026, à contrôler à la main avant tournage. Règle de plateforme, pas une statistique"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -183,11 +183,11 @@
     {
       "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
       "title": "Bravo !",
-      "voice": "Ton profil a ses cinq zones remplies, et zéro robot. Quand on tapera ton nom, on saura quoi te confier.",
+      "voice": "Ton profil dit où, quoi et pour qui, preuves à l'appui, et zéro robot. Quand on tapera ton nom, on saura quoi te confier.",
       "voice_status": "proposition",
       "interaction": "Effet statut, aucun badge",
-      "status": "Ton profil : 5 zones remplies, 0 robot.",
-      "source": "Fait observable sur le profil de l'apprenant ; 5 zones (photo, bannière, titre, Infos, Sélection) : proposition pédagogique Éco-Propriété"
+      "status": "Ton profil : titre, Infos, preuves. 0 robot.",
+      "source": "Fait observable sur la capture de l'apprenant (titre, Infos, preuves vus aux écrans 7 et 11) ; aucune comparaison chiffrée"
     }
   ],
   "sources": [
@@ -204,7 +204,8 @@
     "Toutes les voix sont des propositions à valider par Sébastien Paumier",
     "Écran 6 : la « durée d'une semaine » vient de l'aide LinkedIn (formulation « en général ») ; à revérifier le jour du tournage, comme les règles d'automatisation",
     "Écran 9, carte 2 : Maxime est présenté comme nouvel entrant ; ne rien affirmer sur ses droits liés à la carte T dans ce chapitre",
-    "Écran 15 : effet statut fondé sur un fait observable (5 zones), pas sur une statistique ; à valider",
+    "Écran 15 : effet statut recentré sur ce que le chapitre enseigne (titre, Infos, preuves) ; les « 5 zones » (photo, bannière…) n'étaient pas vues dans le chapitre. À valider",
+    "Écran 7 : ranger la formation Éco-Consultant dans « Licences et certifications » suppose qu'elle délivre une attestation ou une certification réelle ; sinon, la citer ailleurs (risque de laisser croire à une certification). À trancher par Sébastien Paumier",
     "Non repris faute de place : l'interdiction d'extraire des profils (CNIL, « public ne veut pas dire libre »), le rythme conseillé d'un post tous les 15 jours (seulement dans la réponse modèle de l'écran 8, c'est un conseil, pas une règle)",
     "Écran 13 : lien LinkedIn à valider"
   ]

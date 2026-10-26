@@ -49,11 +49,11 @@
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
       "title": "L'acheteur le lit. Avant de signer.",
-      "voice": "Sauf que la loi impose de remettre à l'acheteur les PV des trois dernières assemblées, au plus tard à la promesse. Il découvrira les travaux. Seul. Juste avant de signer.",
+      "voice": "Sauf que la loi impose de remettre à l'acheteur les PV d'assemblée des trois dernières années, au plus tard à la promesse. Il découvrira les travaux. Seul. Juste avant de signer.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "lines": ["Les PV des 3 dernières AG sont remis à l'acheteur.", "Il découvre les 35 880 € seul, juste avant de signer."],
-      "source": "Code de la construction et de l'habitation, art. L. 721-2 (documents remis à l'acquéreur au plus tard à la promesse), Légifrance, version en vigueur au 20/10/2026"
+      "lines": ["Les PV d'AG des 3 dernières années sont remis à l'acheteur.", "Il découvre les 35 880 € seul, juste avant de signer."],
+      "source": "Code de la construction et de l'habitation, art. L. 721-2, II, 1°, c (procès-verbaux des assemblées générales des trois dernières années, remis au plus tard à la promesse), Légifrance, consulté le 26/10/2026"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
@@ -62,7 +62,7 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "5 %", "label": "du budget prévisionnel : cotisation annuelle minimale au fonds de travaux",
-      "source": "Service-Public, « Fonds de travaux dans les copropriétés » (F34026) ; loi n° 65-557 du 10/07/1965, art. 14-2-1"
+      "source": "Service-Public, « Fonds de travaux mis en place dans les copropriétés » (F34026, vérifié le 09/06/2026) : au moins 5 % du budget prévisionnel ; loi n° 65-557 du 10/07/1965, art. 14-2-1 (sommes attachées au lot, non remboursées par le syndicat à la cession)"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -70,7 +70,7 @@
       "voice": "Trois idées. Un : quatre documents racontent l'immeuble. Le carnet d'entretien, c'est le passé. Le PV d'assemblée, le présent. Le PPPT, l'avenir sur dix ans. Et la fiche synthétique, sa carte d'identité. Deux : tu calcules la part du lot. Le montant voté, fois les tantièmes du lot, divisé par dix mille. Pour l'isolation des Tilleuls : un million cent cinquante mille euros, fois 312, divisé par dix mille. Trente-cinq mille huit cent quatre-vingts euros. Trois : qui paie quand on vend ? Pour des travaux hors budget, celui qui est copropriétaire le jour où l'appel est exigible. Un autre partage reste possible entre vendeur et acheteur, mais c'est le notaire qui l'écrit.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
-      "source": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (version en vigueur depuis le 25/12/2025) et art. 6-3 (Légifrance) ; PV d'AG D07 (fictif)",
+      "source": "Décret n° 67-223 du 17 mars 1967, art. 6-2, 2° (version issue du décret n° 2025-1292 du 22/12/2025, en vigueur depuis le 25/12/2025, lue sur Légifrance le 26/10/2026) et art. 6-3 ; PV d'AG D07 (fictif)",
       "steps": [
         { "label": "4 documents", "detail": "Carnet = passé, PV d'AG = présent, PPPT = futur, fiche synthétique = identité." },
         { "label": "Part du lot", "detail": "Montant voté × tantièmes du lot / 10 000 : ici 35 880 €." },
@@ -86,8 +86,8 @@
       "source": "Pratique de récupération (retrieval practice) ; CCH, art. L. 721-2",
       "prompt": "Toi, que proposerais-tu ?",
       "context": "Maxime prépare l'estimation d'un appartement. Le vendeur lui donne seulement le dernier PV d'AG : aucun travaux voté dedans. Que doit-il faire avant d'estimer ?",
-      "model_answer": "Demander au syndic tout le dossier : fiche synthétique, PV des trois dernières AG, carnet d'entretien, PPPT, impayés et fonds de travaux. Des travaux votés il y a deux ans peuvent encore être appelés.",
-      "keywords": ["trois dernières AG", "syndic", "PPPT", "travaux votés"]
+      "model_answer": "Demander au syndic tout le dossier : fiche synthétique, PV d'AG des trois dernières années, carnet d'entretien, PPPT, impayés et fonds de travaux. Des travaux votés il y a deux ans peuvent encore être appelés.",
+      "keywords": ["trois dernières années", "syndic", "PPPT", "travaux votés"]
     },
     {
       "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
@@ -104,10 +104,10 @@
           "Les travaux de copropriété ne regardent que le syndic"
         ],
         "answer": 0,
-        "feedback": "L'acheteur recevra les PV des trois dernières AG au plus tard à la promesse (CCH, art. L. 721-2). L'agent qui ne les lit pas découvre les 35 880 € après lui.",
+        "feedback": "L'acheteur recevra les PV d'AG des trois dernières années au plus tard à la promesse (CCH, art. L. 721-2). L'agent qui ne les lit pas découvre les 35 880 € après lui.",
         "whys": [
           "Exact : les travaux votés pèsent sur le lot, et l'acheteur lira ces PV. Tu dois les avoir lus avant lui.",
-          "Faux : des travaux votés il y a deux ans peuvent encore être appelés. On lit les trois dernières AG.",
+          "Faux : des travaux votés il y a deux ans peuvent encore être appelés. On lit les PV des trois dernières années.",
           "Faux : la quote-part est appelée sur chaque lot, donc sur le vendeur ou sur l'acquéreur."
         ]
       },
@@ -183,7 +183,7 @@
     {
       "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
       "title": "Bravo !",
-      "voice": "Bravo. Les deux agences n'ont jamais parlé des 35 880 euros. Toi, tu as le montant, les dates, et qui paie.",
+      "voice": "Bravo. Les deux agences n'ont pas parlé des 35 880 euros. Toi, tu as le montant, les dates, et qui paie.",
       "voice_status": "proposition",
       "interaction": "Effet statut, aucun badge",
       "status": "Les deux agences : 0 mention des 35 880 €. Toi : le montant, les dates et qui paie.",
@@ -192,6 +192,8 @@
   ],
   "sources": [
     { "label": "Code de la construction et de l'habitation, art. L. 721-1 à L. 721-3 (information des acquéreurs d'un lot de copropriété)", "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000028784362" },
+    { "label": "CCH, art. L. 721-2 (II, 1°, c : PV des assemblées générales des trois dernières années)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043977384" },
+    { "label": "Service-Public : vente d'un logement en copropriété (documents remis à la promesse)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2604" },
     { "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (version en vigueur depuis le 25/12/2025)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265" },
     { "label": "Décret n° 67-223 du 17 mars 1967, art. 6-3 (convention contraire : effet entre les parties)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488324" },
     { "label": "Service-Public : fonds de travaux dans les copropriétés", "url": "https://www.service-public.fr/particuliers/vosdroits/F34026" },
@@ -202,6 +204,7 @@
   "open_points": [
     "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
     "Relecture juridique obligatoire : art. 6-2 et 6-3 du décret de 1967, art. L. 721-2 CCH, fonds de travaux (art. 14-2-1 loi 1965)",
+    "Corrigé en revue : L. 721-2 vise les PV d'AG « des trois dernières années » (et non « des trois dernières AG ») ; la capsule 2.7 (segment 05:20) dit encore « PV des trois dernières AG » : à harmoniser",
     "Écran 6 : le plancher complémentaire de 2,5 % du montant des travaux du plan adopté n'est pas affiché, pour garder une idée par écran ; il reste dans la ressource",
     "Écran 9 carte 2 : l'hypothèse « acte au 15/03/2027 » vient de la bible ; l'accord final M. Bernard / Martin (remboursement de l'appel du 1/01/2027) relève des modules 4-5 et n'est pas dévoilé ici",
     "Écran 13 : lien vers l'annuaire du registre des copropriétés (outil réel) ; à valider, la copropriété Les Tilleuls étant fictive",

@@ -48,21 +48,21 @@
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
-      "title": "52 380 € dépensés. Vente après l'été 2027.",
-      "voice": "En vrai : 16 500 euros de travaux, plus 35 880 euros d'appels de façade. 52 380 euros dépensés, pour 34 600 euros d'écart. Et une vente après l'été 2027.",
+      "title": "52 380 € dépensés. Vente repoussée après le chantier.",
+      "voice": "En vrai : 16 500 euros de travaux, plus 35 880 euros d'appels de façade. 52 380 euros dépensés, pour 34 600 euros d'écart. Et une vente repoussée après le chantier, qui ne démarre qu'en avril 2027.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "lines": ["52 380 € dépensés pour 34 600 € d'écart.", "Vente repoussée après l'été 2027."],
+      "lines": ["52 380 € dépensés pour 34 600 € d'écart.", "Vente repoussée après le chantier (début avril 2027)."],
       "source": "Dossier fil rouge (fictif) : devis D13 = 16 500 € ; PV d'AG D07 = 35 880 € pour le lot ; 216 600 − 182 000 = 34 600 € ; appels payés par le copropriétaire à la date d'exigibilité (décret n° 67-223 du 17/03/1967, art. 6-2, Légifrance)"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
       "title": "35 880 € : la ligne qui manque",
-      "voice": "La ligne qui manque à Mozi : 35 880 euros. C'est la part du lot de M. Bernard dans l'isolation de façade votée. Quatre appels de 8 970 euros, en 2027.",
+      "voice": "Dans notre dossier d'exemple, la ligne qui manque à Mozi : 35 880 euros. C'est la part du lot de M. Bernard dans l'isolation de façade votée. Quatre appels de 8 970 euros, en 2027.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "35 880 €",
-      "label": "d'isolation de façade votée pour le lot : 4 appels de 8 970 € en 2027",
+      "label": "d'isolation de façade votée pour le lot (dossier d'exemple fictif) : 4 appels de 8 970 € en 2027",
       "source": "PV d'AG du 12/06/2025 (D07) : 1 150 000 € × 312/10 000 = 35 880 €, appels aux 1/01, 1/04, 1/07 et 1/10/2027 — dossier fil rouge fictif"
     },
     {
@@ -87,7 +87,7 @@
       "source": "Pratique de récupération (retrieval practice)",
       "prompt": "Toi, que proposerais-tu ?",
       "context": "Hugo, mandataire, reçoit un mail de M. Bernard : « Un rénové se vend 216 600 €. Ne vaudrait-il pas mieux que je fasse les travaux ? » Que lui répond-il ?",
-      "model_answer": "Pour viser 216 600 €, il faut 16 500 € de travaux privatifs et la façade isolée, soit 35 880 € d'appels pour le lot : 52 380 € pour 34 600 € d'écart, et une vente après l'été 2027. Je recommande la vente en l'état avec un dossier chiffré pour l'acheteur. La grille est jointe ; la décision vous appartient.",
+      "model_answer": "Pour viser 216 600 €, il faut 16 500 € de travaux privatifs et la façade isolée, soit 35 880 € d'appels pour le lot : 52 380 € pour 34 600 € d'écart, et une vente repoussée après le chantier, qui démarre en avril 2027. Je recommande la vente en l'état avec un dossier chiffré pour l'acheteur. La grille est jointe ; la décision vous appartient.",
       "keywords": ["52 380 €", "34 600 €", "appels de fonds", "il décide"]
     },
     {
@@ -96,7 +96,7 @@
       "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi oublie-t-il ?",
       "voice_status": "proposition",
       "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
-      "source": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (Légifrance, version en vigueur depuis le 25/12/2025)",
+      "source": "Décret n° 67-223 du 17 mars 1967, art. 6-2, 2° (Légifrance, version en vigueur depuis le 25/12/2025, vérifiée le 26/10/2026)",
       "card1": {
         "question": "Quelle règle Mozi enfreint-il ?",
         "options": [
@@ -105,7 +105,7 @@
           "Aucune : le prix rénové s'applique dès que les travaux sont votés"
         ],
         "answer": 0,
-        "feedback": "Art. 6-2 du décret du 17 mars 1967 : vis-à-vis du syndicat, c'est le copropriétaire à la date d'exigibilité qui paie. Plus M. Bernard vend tard, plus il paie d'appels.",
+        "feedback": "Art. 6-2, 2°, du décret du 17 mars 1967 : vis-à-vis du syndicat, c'est le copropriétaire à la date d'exigibilité qui paie. Plus M. Bernard vend tard, plus il paie d'appels.",
         "whys": [
           "Exact : chaque appel de 8 970 € est payé par celui qui est copropriétaire à sa date. Un autre partage peut se convenir chez le notaire, sans engager le syndicat.",
           "Faux : rien ne met automatiquement les appels à la charge de l'acquéreur ; tout dépend de la date d'exigibilité.",

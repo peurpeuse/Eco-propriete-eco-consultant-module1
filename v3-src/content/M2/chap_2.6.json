@@ -24,7 +24,7 @@
       "voice_status": "proposition",
       "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
       "items": [
-        { "verb": "Comprendre", "text": "pourquoi le DPE ne voit ni taches, ni fissures, ni moisissures" },
+        { "verb": "Comprendre", "text": "pourquoi un défaut caché expose, et un défaut expliqué rassure" },
         { "verb": "Appliquer", "text": "mener l'audit à 360° et lire chaque pathologie en 4 temps" },
         { "verb": "Prouver", "text": "montrer ta grille d'audit remplie pour M. Bernard" }
       ]
@@ -53,7 +53,7 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": ["Cacher exprès une information déterminante : c'est un dol.", "Un dol rend la vente annulable."],
-      "source": "Code civil, art. 1137 (dol par dissimulation intentionnelle d'une information déterminante) et art. 1131 (les vices du consentement sont une cause de nullité relative), Légifrance, consulté le 26/10/2026"
+      "source": "Code civil, art. 1137 (dol par dissimulation intentionnelle d'une information déterminante), art. 1138 (dol émanant du représentant du contractant) et art. 1131 (les vices du consentement sont une cause de nullité relative), Légifrance, consulté le 26/10/2026"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
@@ -62,7 +62,7 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "1997", "label": "permis de construire délivré avant le 1er juillet 1997 : état amiante obligatoire à la vente",
-      "source": "Service-Public, « Quels sont les diagnostics immobiliers à fournir en cas de vente d'un logement ? » (F10798), consulté le 26/10/2026"
+      "source": "Service-Public, « Quels sont les diagnostics immobiliers à fournir en cas de vente d'un logement ? » (F10798), page vérifiée le 07/03/2025, consultée le 26/10/2026"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -100,14 +100,14 @@
         "question": "Quelle règle Mozi enfreint-il ?",
         "options": [
           "Un désordre visible se décrit et se prouve, il ne se cache pas",
-          "Il faut attendre la fin de la visite pour repeindre",
+          "Repeindre un plafond est interdit avant une vente",
           "Aucune : une auréole sèche n'a pas à être mentionnée"
         ],
         "answer": 0,
         "feedback": "Cacher exprès une information déterminante peut constituer un dol (Code civil, art. 1137). Pour l'auréole de M. Bernard, la bonne réponse est une preuve : le courrier de clôture du sinistre, puis la peinture.",
         "whys": [
           "Exact : constat écrit, cause, preuve. C'est ce qui protège le vendeur, l'acheteur et toi.",
-          "Faux : le moment ne change rien. Repeindre pour masquer reste une dissimulation.",
+          "Faux : repeindre est permis, c'est même dans le plan Éco-staging. Ce qui pose problème, c'est de cacher sans informer ni prouver.",
           "Faux : sèche ou non, elle se voit et inquiète. La preuve que le sinistre est clos répond avant la question."
         ]
       },
@@ -192,6 +192,7 @@
   ],
   "sources": [
     { "label": "Code civil, art. 1137 (dol, dissimulation intentionnelle d'une information déterminante)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036829827" },
+    { "label": "Code civil, art. 1138 (le dol est aussi constitué s'il émane du représentant du contractant, par exemple son mandataire)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000032007571/" },
     { "label": "Code civil, art. 1130 à 1144 (vices du consentement ; art. 1131 : nullité relative)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000032007571/" },
     { "label": "Service-Public, diagnostics immobiliers à fournir en cas de vente (amiante si permis avant le 1/07/1997), consulté le 26/10/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798" },
     { "label": "Agence Qualité Construction, fiche pathologie bâtiment E.09 « Condensations dans les logements »", "url": "https://qualiteconstruction.com/wp-content/uploads/2024/01/fi-pathologie-batiment-e09-condensations-logements.pdf" },
@@ -204,6 +205,7 @@
     "Écran 6 : choix du repère « 1997 » (amiante) comme chiffre clé ; la capsule d'origine n'avait pas de statistique sourcée sur les pathologies (la fiche AQC E.09 ne donne pas de quantité de vapeur)",
     "Écran 12 : seuil « < 0,2 mm » repris de la bible, fictif, pas un seuil réglementaire",
     "Écran 13 : pas d'outil en ligne officiel, le bouton mène à l'exercice (#exercice)",
+    "Écran 5 : la fiche AQC E.09 cite la ventilation insuffisante parmi plusieurs facteurs (surproduction de vapeur, chauffage insuffisant) ; la formule « cause probable » reste donc la bonne. Art. 1138 ajouté en source : à faire confirmer par un juriste si l'on veut dire à l'écran que le dol peut venir de l'agent mandataire",
     "Photos P01 à P12 du reportage D05 à produire en cohérence avec la capsule 2.6"
   ]
 }

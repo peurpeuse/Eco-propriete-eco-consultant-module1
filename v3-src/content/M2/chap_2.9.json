@@ -49,11 +49,11 @@
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
       "title": "30 000 € annoncés. 16 500 € au devis.",
-      "voice": "Et l'acheteur le croit. Il retire trente mille euros de son offre. Or le devis dit seize mille cinq cents. La différence, c'est ton vendeur qui la perd.",
+      "voice": "Et si l'acheteur le croit, il retire trente mille euros de son offre. Or le devis dit seize mille cinq cents. La différence, c'est ton vendeur qui la perd.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "lines": ["L'acheteur retire 30 000 € de son offre.", "Le devis D13 dit 16 500 € TTC."],
-      "source": "Bible du fil rouge : devis D13 des travaux privatifs, 16 500 € TTC (fictif) ; capsule 2.9 (« au moins 30 000 € de travaux », phrase type d'acheteur)"
+      "lines": ["S'il le croit, l'acheteur retire 30 000 € de son offre.", "Le devis D13 dit 16 500 € TTC."],
+      "source": "Bible du fil rouge : devis D13 des travaux privatifs, 16 500 € TTC (fictif) ; capsule 2.9 (« au moins 30 000 € de travaux », phrase type d'acheteur : situation type, pas un fait observé)"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
@@ -194,13 +194,14 @@
   "sources": [
     { "label": "economie.gouv.fr : TVA à taux réduit, pour quels travaux (5,5 % amélioration énergétique, 10 % autres travaux, logements achevés depuis plus de 2 ans ; chaudières fossiles à 20 % depuis le 1/03/2025), publié le 11/12/2025", "url": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-taux-reduit-pour-quels-travaux" },
     { "label": "Service-Public Entreprendre : taux de TVA pour les travaux de rénovation d'un logement", "url": "https://entreprendre.service-public.fr/vosdroits/F23568" },
+    { "label": "CAPEB Centre-Val de Loire, fiche pratique TVA 5,5 % (décembre 2025) : liste des équipements et seuils de performance", "url": "https://www.capeb.fr/www/capeb/media//centrevaldeloire/document/fiche-pratique-tva-5.5-decembre-2025.pdf" },
     { "label": "ADEME, Rénovation énergétique des logements : étude des prix (2019)", "url": "https://www.precarite-energie.org/wp-content/uploads/2019/11/renovation-energetique-logements-etude-prix-2019.pdf" },
     { "label": "Proposition pédagogique Éco-Propriété : méthode quantité × prix unitaire, devis D13 fictif (Bible du fil rouge)", "url": null }
   ],
   "open_points": [
     "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
     "Écran 5 : la conséquence (« l'acheteur retire 30 000 € ») est une situation type de la capsule, pas un fait sourcé ; le seul chiffre sourcé est le devis D13 fictif",
-    "Écran 6 : taux de TVA par poste (5,5 % / 10 %) à faire valider avant tournage (art. 278-0 bis A et 279-0 bis CGI), notamment pour les radiateurs à inertie et le chauffe-eau thermodynamique",
+    "Écran 6 : taux de TVA par poste (5,5 % / 10 %) à faire valider avant tournage (art. 278-0 bis A et 279-0 bis CGI, annexe IV art. 18 bis). Lecture de la revue (fiche CAPEB de décembre 2025) : fenêtres 5,5 % si Uw ≤ 1,3 et Sw ≥ 0,3 (le Sw n'est pas dans la bible) ; VMC simple flux hygroréglable 5,5 % ; chauffe-eau thermodynamique 5,5 % sous seuil d'efficacité ; radiateurs à inertie non listés, donc a priori 10 % (seule la régulation peut relever du 5,5 %). Ne rien afficher par poste tant qu'un expert-comptable ou le fournisseur du devis ne l'a pas confirmé",
     "Écran 11 : 800 € par radiateur = moyenne dérivée du devis (4 800 / 6), pas une ligne du devis",
     "Écran 12 : capture d'un assistant IA générique (aucune marque, aucune donnée personnelle) ; le prix VMC « 1 500 € » est volontairement un prix inventé par l'IA, à barrer à l'écran",
     "Écran 13 : pas d'outil officiel, le bouton mène à l'exercice (#exercice)"

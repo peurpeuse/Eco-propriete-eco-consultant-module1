@@ -57,8 +57,8 @@
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
-      "title": "22 970 € d'écart réel, pas 14 000 €",
-      "voice": "En prix affiché, 14 000 euros d'écart. En net réel pour M. Bernard : 22 970 euros.",
+      "title": "Dossier de M. Bernard : 22 970 € d'écart réel, pas 14 000 €",
+      "voice": "Dans le dossier de M. Bernard, les deux offres ont 14 000 euros d'écart en prix affiché. En net réel : 22 970 euros.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "22 970 €", "label": "d'écart réel entre les deux offres, et non 14 000 €",
@@ -95,7 +95,7 @@
       "voice": "À toi de jouer : retourne la carte.",
       "voice_status": "proposition",
       "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
-      "source": "Plan de négociation (capsule 4.5), proposition pédagogique ; code civil, art. 1589-1 (Légifrance)",
+      "source": "Plan de négociation (capsule 4.5), proposition pédagogique ; code civil, art. 1137, 1138 et 1589-1 (Légifrance, consulté le 26/10/2026)",
       "card1": {
         "question": "Quelle règle Mozi enfreint-il ?",
         "options": [
@@ -108,7 +108,7 @@
         "whys": [
           "Exact : tableau en net réel, conditions, risques, puis décision de M. Bernard.",
           "Faux : 184 000 et 170 000 incluent les honoraires et ignorent l'appel de janvier.",
-          "Faux : une information inventée trompe l'acquéreur et peut faire tomber l'accord."
+          "Faux : un mensonge pour obtenir l'accord de l'acquéreur peut constituer un dol, même venant du représentant du vendeur (code civil, art. 1137 et 1138)."
         ]
       },
       "card2": {
@@ -183,16 +183,18 @@
     {
       "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
       "title": "Bravo !",
-      "voice": "M. Bernard a signé le 2 décembre. 184 000 euros, et 175 000 euros net réel. Direction le notaire.",
+      "voice": "Tableau en main, M. Bernard a accepté l'offre Martin le 2 décembre : 175 000 euros net réel, 22 970 de plus que l'offre comptant.",
       "voice_status": "proposition",
       "interaction": "Effet statut, aucun badge",
-      "status": "Offre acceptée le 2/12/2026 : 184 000 € FAI, 175 000 € net réel.",
+      "status": "Offre acceptée le 2/12/2026 : 175 000 € net réel, soit 22 970 € de plus que l'offre comptant.",
       "source": "Dossier fil rouge, exemple fictif (BIBLE § 7 : offre Martin acceptée le 2/12/2026)"
     }
   ],
   "sources": [
     { "label": "Légifrance — Code civil, art. 1583 (vente parfaite dès l'accord sur la chose et le prix)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441308" },
     { "label": "Légifrance — Code civil, art. 1589-1 (nullité de l'engagement unilatéral d'achat assorti d'un versement)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441325" },
+    { "label": "Légifrance — Code civil, art. 1130 à 1144 (art. 1137 dol, art. 1138 dol du représentant)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000032007571/" },
+    { "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2 (version en vigueur depuis le 25/12/2025)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053191265" },
     { "label": "ANIL — Décret du 27 mai 2004 (art. 6-2 du décret de 1967 : paiement des appels de fonds en cas de vente ; convention contraire entre les parties)", "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/analyses-juridiques/analyses-juridiques-2004/principales-dispositions-du-decret-27-mai-2004/" },
     { "label": "Proposition pédagogique Éco-Propriété (prix plancher, net réel, déroulé de négociation, prompt) ; dossier fil rouge fictif", "url": "https://eco-propriete.fr" }
   ],
@@ -202,6 +204,7 @@
     "Prix plancher de 175 000 € et refus de M. Petit de rembourser l'appel de janvier : choix pédagogiques à valider par la coordination pour les autres modules",
     "Hypothèse : honoraires maintenus à 9 000 € quel que soit le prix",
     "Relecture juridique : portée d'une offre acceptée (art. 1583), art. 1589-1, formulation de la convention sur les appels de fonds (art. 6-2 du décret du 17 mars 1967)",
-    "La qualification juridique du bluff (pratique commerciale trompeuse ?) n'est pas affirmée à l'écran : à faire préciser si on veut l'ajouter"
+    "Bluff : la carte 1 le rattache désormais au dol (code civil, art. 1137 et 1138, vérifiés sur Légifrance) ; la qualification de pratique commerciale trompeuse reste à faire préciser par un juriste si on veut l'ajouter",
+    "Écran 15 : fait fictif du fil rouge (offre Martin acceptée le 2/12/2026), comparé à l'offre comptant ; ce n'est pas une statistique externe"
   ]
 }

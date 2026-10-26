@@ -53,16 +53,16 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": ["Information déterminante cachée.", "Responsabilité engagée, vente annulable."],
-      "source": "Code civil, art. 1112-1 (Légifrance, en vigueur depuis le 1/10/2016) : le manquement au devoir d'information engage la responsabilité et peut entraîner l'annulation du contrat (art. 1130 et suivants)"
+      "source": "Code civil, art. 1112-1 (Légifrance, en vigueur depuis le 1/10/2016, vérifié le 26/10/2026) : le manquement au devoir d'information engage la responsabilité et peut entraîner l'annulation du contrat (art. 1130 et suivants)"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
       "title": "≈ 450 € pour ce que voit l'acheteur",
-      "voice": "Bonne nouvelle : pour traiter ce que l'acheteur voit chez M. Bernard, il suffit d'environ 450 euros. Moins d'un quart de pour cent du prix affiché.",
+      "voice": "Bonne nouvelle : dans notre dossier d'exemple, traiter ce que l'acheteur voit chez M. Bernard coûte environ 450 euros. Moins d'un quart de pour cent du prix affiché.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "≈ 450 €",
-      "label": "pour traiter les défauts visibles, soit moins de 0,25 % des 189 000 € affichés",
+      "label": "pour traiter les défauts visibles dans le dossier d'exemple (fictif), soit moins de 0,25 % des 189 000 € affichés",
       "source": "Dossier fil rouge, bible §7 (plan Éco-staging ≈ 450 €, prix indicatifs fictifs) ; calcul : 450 / 189 000 ≈ 0,24 %"
     },
     {

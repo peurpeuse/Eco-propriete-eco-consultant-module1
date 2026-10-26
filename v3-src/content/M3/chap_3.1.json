@@ -53,7 +53,7 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": ["PV d'AG absent du compromis.", "Rétractation de l'acheteur repoussée."],
-      "source": "Code de la construction et de l'habitation, art. L. 721-2 (PV des AG des trois dernières années remis au plus tard à la promesse) et art. L. 721-3 (sinon, le délai de rétractation ne court qu'à compter du lendemain de leur communication), Légifrance, consulté le 26/10/2026"
+      "source": "Code de la construction et de l'habitation, art. L. 721-2, II, 1° c (PV des AG des trois dernières années remis au plus tard à la promesse, sauf si le vendeur n'a pas pu les obtenir du syndic) et art. L. 721-3 (sinon, le délai de rétractation de l'art. L. 271-1 ne court qu'à compter du lendemain de leur communication), Légifrance, vérifié le 26/10/2026"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
@@ -63,7 +63,7 @@
       "interaction": "Aucune",
       "value": "15 ans",
       "label": "d'installation électrique : au-delà, l'état de l'électricité est obligatoire à la vente",
-      "source": "Service-Public, Diagnostics immobiliers obligatoires lors de la vente (F10798) ; circuits de 1972 : dossier fil rouge (capsule 3.1, fictif)"
+      "source": "Service-Public, Diagnostics immobiliers obligatoires lors de la vente (F10798, mis à jour le 7/03/2025 : installation de plus de 15 ans) ; circuits de 1972 : dossier fil rouge (capsule 3.1, fictif)"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -108,7 +108,7 @@
         "feedback": "Tu ne collectes que ce qui sert à vendre le bien (CNIL, minimisation). Et le PV d'AG, lui, doit être remis à l'acquéreur au plus tard à la promesse (CCH, art. L. 721-2).",
         "whys": [
           "Exact : seules les données nécessaires à la finalité sont collectées. Les relevés bancaires ne servent pas à vendre un appartement.",
-          "Faux : prêt soldé, propriétaire seul. Les finances de M. Bernard ne disent rien de son bien.",
+          "Faux : tu vérifies son identité et son titre de propriété, pas ses relevés. Ses finances ne disent rien de son bien.",
           "Faux : l'accord du vendeur ne rend pas utile une donnée inutile ; la minimisation s'applique quand même."
         ]
       },
@@ -201,7 +201,7 @@
   ],
   "open_points": [
     "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
-    "Écran 5 : formulation des art. L. 721-2 et L. 721-3 CCH à faire relire (relecture juridique)",
+    "Écran 5 : art. L. 721-2 et L. 721-3 CCH vérifiés sur Légifrance le 26/10/2026 ; la voix simplifie (exception : vendeur n'ayant pas pu obtenir les PV du syndic) — relecture juridique conseillée",
     "Écran 11 : le numéro ADEME du fil rouge est fictif ; parcours de l'observatoire à filmer sur un DPE réel anonymisé ou en capture simulée, à vérifier le jour du tournage",
     "Écran 13 : lien vers l'observatoire ADEME à valider (alternative : « #exercice »)",
     "Écran 15 : effet statut fondé sur un fait observable et sur la scène du fil rouge, pas sur une statistique",

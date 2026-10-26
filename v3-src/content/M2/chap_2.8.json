@@ -52,8 +52,8 @@
       "voice": "Résultat : 172 000 euros, sans une seule preuve. Or les notaires le constatent : l'effet du DPE sur les prix varie selon les territoires. Un pourcentage unique ne tient pas.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "lines": ["201 400 × 0,85 = 171 190 € : un pourcentage, pas une preuve.", "L'effet du DPE varie selon les territoires."],
-      "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », mis à jour le 7/01/2026 (dynamiques territoriales contrastées) ; calcul sur la valeur de départ de la bible (76 × 2 650 = 201 400 €, fictif)"
+      "lines": ["172 000 € : un pourcentage, pas une preuve.", "L'effet du DPE varie selon les territoires."],
+      "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », mis à jour le 7/01/2026 (« dynamiques territoriales contrastées ») ; 172 000 € des deux agences : situation fictive de la bible"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
@@ -62,7 +62,7 @@
       "voice_status": "proposition",
       "interaction": "Aucune",
       "value": "≈ 15 %", "label": "des logements anciens vendus début 2025 étaient classés F ou G",
-      "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », mis à jour le 7/01/2026 (part des ventes F-G : de 11 % à 17 % entre 2021 et 2023, puis stabilisée autour de 15 % début 2025)"
+      "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », mis à jour le 7/01/2026 (part des ventes F-G : de 11 % à 17 % entre 2021 et 2023, puis stabilisée autour de 15 % début 2025), page relue le 26/10/2026"
     },
     {
       "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
@@ -203,6 +203,7 @@
     "Écran 6 : chiffre « ≈ 15 % » lu sur la page notaires.fr du 7/01/2026 (le texte source omet le symbole % après 17) ; à vérifier dans l'étude complète (Calameo non consultable par l'outil)",
     "Écran 5 : l'étude complète des notaires (écarts F-G / D par région) n'a pas pu être lue ; seule la mention « dynamiques territoriales contrastées » est affichée, sans chiffre régional",
     "Le prix de référence 2 650 €/m² est fictif : à annoncer comme exemple fictif à l'écran",
+    "Écran 5 (revue) : le calcul « 201 400 × 0,85 = 171 190 € » a été retiré de l'écran, car la base 201 400 € n'est introduite qu'en 2.10 ; il reste dans le chapitre 2.10",
     "Le classement fenêtres = énergétique et VMC = technique doit rester identique en 2.10 et dans le cas pratique du module"
   ]
 }
