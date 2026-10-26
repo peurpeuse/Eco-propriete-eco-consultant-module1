@@ -1,0 +1,210 @@
+{
+  "id": "4.1",
+  "module": 4,
+  "title": "Écrire l'annonce",
+  "capsule_title": "Le produit commercial",
+  "duration": "4:30",
+  "objective": "Rédiger avec l'IA une annonce conforme et vendeuse : mentions DPE, honoraires et copropriété exactes, défauts annoncés avec leur budget",
+  "mozi": {
+    "line": "L'IA a écrit « villa avec piscine » ? Je publie sans lire !",
+    "scene": "Mozi colle l'annonce générée par l'IA pour le T4 de Melun sur trois portails à la fois, les yeux fermés. L'annonce parle d'une piscine. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 4.1 : écrire l'annonce",
+      "voice": "Bienvenue. Le mandat de M. Bernard est signé. Dans ce chapitre, tu écris son annonce avec l'IA : exacte, complète, et qui donne envie.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "les mentions obligatoires d'une annonce en copropriété" },
+        { "verb": "Appliquer", "text": "faire rédiger l'annonce par l'IA, puis tout vérifier" },
+        { "verb": "Prouver", "text": "montrer ton annonce finale et tes corrections" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "L'IA a écrit « villa avec piscine » ? Je publie sans lire !",
+      "voice": "L'IA a écrit « villa avec piscine » ? Je publie sans lire !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "L'IA a écrit « villa avec piscine » ? Je publie sans lire !",
+      "scene": "Mozi colle l'annonce de l'IA sur trois portails à la fois, les yeux fermés. Elle parle d'une piscine."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "1 prompt, 0 relecture, 0 mention",
+      "voice": "Un prompt, zéro relecture, zéro mention obligatoire.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["1 prompt", "0 relecture", "0 mention"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Annonce contrôlée. Agence sanctionnée.",
+      "voice": "Et là, la DGCCRF contrôle. Honoraires mal affichés, DPE absent, charges oubliées : avertissement, injonction, parfois procès-verbal.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Annonce contrôlée.", "Avertissement, injonction, procès-verbal."],
+      "source": "DGCCRF, « Contrôle des professionnels de l'immobilier » (page du 08/12/2022, contrôles 2020) : 760 avertissements, 861 injonctions, 121 intentions de procès-verbaux ; manquements fréquents sur les honoraires, le DPE et les mentions de copropriété des annonces"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "62,5 % des agences contrôlées en anomalie",
+      "voice": "Sur un millier d'agences contrôlées par la DGCCRF, plus de six sur dix étaient en anomalie.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "62,5 %", "label": "des établissements immobiliers contrôlés étaient en anomalie",
+      "source": "DGCCRF, « Contrôle des professionnels de l'immobilier » : 1 006 établissements contrôlés en 2020, taux d'anomalie 62,5 % (page du 08/12/2022)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Énergie → Prix → Copropriété",
+      "voice": "Une annonce conforme tient en trois blocs. D'abord l'énergie. Pour M. Bernard, tu n'affiches pas la classe F de 2023. Tu affiches l'attestation actualisée de l'ADEME : classe énergie E, classe climat C, en couleur. Puis les dépenses d'énergie : entre 2 330 et 3 190 euros par an, prix indexés au 1er janvier 2021. Ensuite le prix. Les honoraires sont payés par l'acquéreur. Donc 189 000 euros honoraires inclus, en plus gros. Puis 180 000 euros hors honoraires. Puis 5 % TTC, à la charge de l'acquéreur. Enfin la copropriété : 48 lots principaux, 2 652 euros de charges par an, aucune procédure. Et la façade votée ? La loi n'oblige pas à la chiffrer. Moi, je te conseille une ligne : quote-part 35 880 euros, dossier sur demande.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "CCH, art. R. 126-21 à R. 126-25 (mentions DPE) et L. 721-1 (copropriété) ; arrêté du 10 janvier 2017 (prix et honoraires) — Légifrance, consulté le 20/10/2026 ; chiffres du dossier fil rouge (D03, D06, D10, D18)",
+      "steps": [
+        { "label": "Énergie", "detail": "Classes E et C de l'attestation ADEME, dépenses 2 330 à 3 190 €/an, prix 2021." },
+        { "label": "Prix", "detail": "189 000 € honoraires inclus en plus gros, 180 000 € hors honoraires, 5 % TTC acquéreur." },
+        { "label": "Copropriété", "detail": "48 lots principaux, 2 652 €/an de charges, aucune procédure ; travaux votés annoncés." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; quiz de la capsule 4.1",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "L'IA a écrit pour M. Bernard : « appartement entièrement rénové, faibles charges, classe D après travaux ». Que fais-tu avant de publier ?",
+      "model_answer": "Je remplace chaque affirmation par un fait du dossier : cuisine et sols refaits en 2016, charges 2 652 € par an. Je retire la classe D : seule la classe E de l'attestation s'affiche. Puis M. Bernard relit et signe le bon à publier.",
+      "keywords": ["faits du dossier", "classe E", "supprimer", "bon à publier"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Arrêté du 10 janvier 2017 ; CCH, art. R. 126-21 à R. 126-25 et L. 721-1 (Légifrance, consulté le 20/10/2026) ; DGCCRF (08/12/2022)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "L'annonce doit être exacte et porter les mentions obligatoires : c'est le professionnel qui publie qui en répond",
+          "Une annonce immobilière ne peut pas dépasser 1 200 caractères",
+          "Aucune : si l'IA se trompe, c'est l'éditeur de l'outil qui est responsable"
+        ],
+        "answer": 0,
+        "feedback": "Prix et honoraires (arrêté du 10 janvier 2017), DPE (CCH, art. R. 126-21 et suivants), copropriété (CCH, art. L. 721-1) : ces mentions s'imposent au professionnel qui diffuse l'annonce. L'IA n'est qu'un outil.",
+        "whys": [
+          "Exact : tu publies, donc tu réponds de chaque chiffre et de chaque mention.",
+          "Faux : 1 200 caractères, c'est la consigne de notre prompt, pas une règle légale.",
+          "Faux : l'outil ne publie rien. C'est l'agence qui diffuse l'annonce qui est contrôlée."
+        ]
+      },
+      "card2": {
+        "question": "Si Maxime publiait l'annonce de M. Bernard avec la classe F de 2023, que se passerait-il ?",
+        "answer": "Il afficherait une classe dépassée, contredite par l'attestation officielle en E. Le bien paraîtrait plus énergivore qu'il ne l'est, avec la mention « logement à consommation énergétique excessive ». Des acheteurs passeraient leur chemin, et M. Bernard perdrait confiance."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : une annonce exacte et vendeuse. Le prompt IA, et la check-list avant publication.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Modèle d'annonce Éco-Propriété (capsule 4.1) : proposition pédagogique",
+      "goal": "Une annonce exacte et vendeuse",
+      "tools": [
+        { "name": "Prompt IA", "role": "Rédiger vite les titres, le texte et le bloc des mentions" },
+        { "name": "Check-list avant publication", "role": "Vérifier chaque chiffre contre le dossier avant de publier" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Prompt : rôle, contexte, tâche, contraintes",
+      "voice": "Dans l'outil d'IA, tu donnes un rôle : rédacteur d'annonces. Un contexte : les données du bien, sans le nom ni l'adresse de M. Bernard. Une tâche : trois titres, 1 200 caractères, le bloc des mentions. Et des contraintes : rien d'inventé, aucune autre classe que E.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Modèle d'annonce, prompt IA (capsule 4.1) ; aucune donnée personnelle du vendeur dans l'outil (RGPD)",
+      "tool": "Prompt IA",
+      "steps": [
+        "Rôle : rédacteur d'annonces pour une agence",
+        "Contexte : le bien et ses chiffres, sans nom ni adresse du vendeur",
+        "Tâche : 3 titres, 1 200 caractères max, bloc des mentions",
+        "Contraintes : rien d'inventé, classe E uniquement"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Check-list : comparer, corriger, faire signer",
+      "voice": "Puis la check-list. Tu compares la réponse aux documents D03, D06 et D10. « Entièrement rénové » ? Faux : tu écris cuisine et sols refaits en 2016. L'année des prix de l'énergie manque ? Tu l'ajoutes. Enfin, M. Bernard relit et signe le bon à publier.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Modèle d'annonce, check-list avant publication (capsule 4.1)",
+      "tool": "Check-list avant publication",
+      "steps": [
+        "Comparer : chaque chiffre contre D03, D06 et D10",
+        "Corriger : « entièrement rénové » devient « cuisine et sols refaits en 2016 »",
+        "Compléter : prix de l'énergie indexés au 1er janvier 2021",
+        "Valider : bon à publier signé par M. Bernard"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Rédige l'annonce maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 4.1 (annonce rédigée avec l'IA)",
+      "cta": "Rédiger l'annonce de M. Bernard",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 4.1 : annonce prête à publier + tableau des corrections",
+      "ask": "Dépose une capture de ton annonce finale, bloc des mentions visible, avec ta liste d'au moins trois corrections de l'IA.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. L'annonce de M. Bernard t'attend : reviens déposer ta capture quand elle est prête."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Ton annonce coche toutes les mentions, sans une seule invention. Lors du dernier grand contrôle, six agences sur dix n'en faisaient pas autant.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton annonce : conforme. Les agences contrôlées : 62,5 % en anomalie.",
+      "source": "DGCCRF, « Contrôle des professionnels de l'immobilier » : 62,5 % d'anomalies sur 1 006 établissements contrôlés en 2020 (page du 08/12/2022)"
+    }
+  ],
+  "sources": [
+    { "label": "Légifrance — CCH, art. R. 126-21 à R. 126-25 (mentions DPE dans les annonces)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818607/" },
+    { "label": "Légifrance — CCH, art. L. 721-1 (annonces d'un lot de copropriété)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369572" },
+    { "label": "Légifrance — Arrêté du 10 janvier 2017 relatif à l'information des consommateurs (transaction immobilière)", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033888549/" },
+    { "label": "DGCCRF — Contrôle des professionnels de l'immobilier (1 006 établissements, 62,5 % d'anomalies, contrôles 2020 ; page du 08/12/2022)", "url": "https://economie.gouv.fr/dgccrf/laction-de-la-dgccrf/les-enquetes/controle-des-professionnels-de-limmobilier" },
+    { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+    { "label": "Proposition pédagogique Éco-Propriété (structure d'annonce, prompt, check-list) ; dossier fil rouge fictif (D03, D06, D10, D18)", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Chiffre DGCCRF (62,5 %) issu des contrôles de 2020, publié le 08/12/2022 : vérifier avant tournage qu'aucune enquête plus récente n'est parue (une page DGCCRF du 19/12/2024 n'a pas pu être consultée)",
+    "Nombre de lots à afficher : 48 lots principaux ou total incluant caves et parkings (à trancher d'après D10 et le règlement de copropriété)",
+    "Vérifier que l'attestation actualisée reprend la même fourchette de dépenses (2 330 – 3 190 €, prix 2021) que le DPE d'origine",
+    "La mention Géorisques n'est pas reprise dans les écrans (faute de place) : elle reste dans le modèle d'annonce et l'exercice",
+    "Écran 13 : lien vers l'exercice interne (#exercice), pas d'outil officiel unique pour la rédaction",
+    "Relecture juridique des mentions obligatoires (arrêté 2017, CCH)"
+  ]
+}

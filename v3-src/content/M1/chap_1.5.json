@@ -1,0 +1,211 @@
+{
+  "id": "1.5",
+  "module": 1,
+  "title": "Être recommandé sur LinkedIn",
+  "capsule_title": "LinkedIn : un profil d'expert",
+  "duration": "4:30",
+  "objective": "Construire un profil LinkedIn d'éco-consultant crédible pour les prescripteurs (titre, infos, preuves) et publier sans automatisation, dans le respect du RGPD",
+  "mozi": {
+    "line": "Mon robot invite trois cents notaires par jour pendant que je dors !",
+    "scene": "Mozi ronfle dans un hamac pendant qu'un petit robot violet tape frénétiquement sur son ordinateur. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 1.5 : être recommandé sur LinkedIn",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas faire de ton profil LinkedIn une raison de te recommander.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi LinkedIn sert tes prescripteurs, pas ta prospection de vendeurs" },
+        { "verb": "Appliquer", "text": "réécrire ton titre, ta section Infos et publier un premier post" },
+        { "verb": "Prouver", "text": "montrer ton profil avant et après en une image" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Mon robot invite trois cents notaires par jour pendant que je dors !",
+      "voice": "Mon robot invite trois cents notaires par jour pendant que je dors !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Mon robot invite trois cents notaires par jour pendant que je dors !",
+      "scene": "Mozi ronfle dans un hamac pendant qu'un petit robot violet tape sur son ordinateur."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "300 invitations, 0 message perso, 1 robot",
+      "voice": "Trois cents invitations, zéro message personnel, un robot.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["300 invitations", "0 message perso", "1 robot"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Compte restreint. Invitations bloquées.",
+      "voice": "Sauf que LinkedIn interdit les outils automatisés : le compte peut être restreint. Et quand la limite d'invitations est atteinte, l'envoi est bloqué.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Robot détecté : compte restreint.", "Limite atteinte : invitations bloquées."],
+      "source": "LinkedIn Aide, « Logiciels et extensions interdits » et « Activité automatisée sur LinkedIn » (restriction du compte) ; « Limite d'invitations atteinte » (blocage temporaire) — pages citées dans la capsule 1.5, mise à jour du 20/10/2026"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "1 semaine sans inviter personne",
+      "voice": "Et ce blocage dure en général une semaine. Une semaine sans pouvoir inviter un seul notaire. Ton réseau se construit à la main.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "1 semaine", "label": "de blocage des invitations, en général, quand la limite est atteinte",
+      "source": "LinkedIn Aide, « Limite d'invitations atteinte » (linkedin.com/help/linkedin/answer/a550555) : restriction temporaire, en général une semaine — à revérifier le jour du tournage"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Titre → Infos → Preuves",
+      "voice": "Un, le titre. C'est la phrase la plus lue de ton profil : il suit ton nom partout. Il dit où, quoi, pour qui. Pas agent immobilier passionné. Plutôt : agent immobilier à Melun, éco-consultant, DPE, valeur verte, logements à rénover. Et jamais un titre que tu n'as pas. Deux, la section Infos, en quatre paragraphes courts : qui tu aides, le problème que tu règles, ta méthode, comment te contacter. Écris je, pas notre agence. Trois, les preuves. Ta formation dans Licences et certifications. Trois recommandations ciblées : un notaire ou un courtier, un artisan RGE, un client vendeur. Et dans la Sélection, ton meilleur post.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "LinkedIn Aide, « Ajouter des sections au profil » et « Section Sélection » ; modèle de titre, d'Infos et de preuves : proposition pédagogique Éco-Propriété (capsule 1.5)",
+      "steps": [
+        { "label": "Titre", "detail": "Où, quoi, pour qui ; aucun titre réglementé que tu n'as pas, aucune promesse." },
+        { "label": "Infos", "detail": "4 paragraphes à la première personne : qui j'aide, quel problème, ma méthode, me contacter." },
+        { "label": "Preuves", "detail": "Formation, 3 recommandations ciblées, ton meilleur post épinglé en Sélection." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Élodie anime un réseau de mandataires. Elle te demande comment se faire connaître des notaires et courtiers du secteur, sans robot. Que lui conseilles-tu ?",
+      "model_answer": "Inviter à la main quelques notaires et courtiers, avec un message personnalisé : qui je suis, pourquoi eux, ce que je propose. Commenter leurs posts avec un vrai apport avant de leur écrire. Et publier un post utile tous les quinze jours, sur un créneau fixe.",
+      "keywords": ["message personnalisé", "commenter", "post utile", "sans automatisation"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "LinkedIn Aide, « Logiciels et extensions interdits » et « Activité automatisée sur LinkedIn »",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "LinkedIn interdit les logiciels et méthodes automatisées pour inviter, écrire ou extraire des contacts",
+          "LinkedIn autorise les robots jusqu'à 100 invitations par semaine",
+          "Aucune : inviter des notaires est permis, quelle que soit la méthode"
+        ],
+        "answer": 0,
+        "feedback": "LinkedIn interdit les bots et méthodes automatisées non autorisées. Le compte peut être restreint. Quelques invitations ciblées et personnalisées valent mieux que trois cents messages types.",
+        "whys": [
+          "Exact : l'outil est interdit, quelle que soit la cadence.",
+          "Faux : « 100 par semaine » n'est pas un chiffre officiel, et l'outil reste interdit.",
+          "Faux : inviter est permis, mais pas avec un robot."
+        ]
+      },
+      "card2": {
+        "question": "Maxime, nouvel entrant, veut écrire « Expert DPE certifié » dans son titre. S'il le faisait, que se passerait-il ?",
+        "answer": "Il laisserait croire qu'il est diagnostiqueur certifié. Le premier notaire ou vendeur qui vérifie perd confiance, comme M. Bernard qui vérifie tout. Son titre doit dire ce qu'il fait vraiment : où, quoi, pour qui."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : qu'un notaire ait envie de te recommander. Ton profil, et ton premier post.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Être recommandé par tes prescripteurs",
+      "tools": [
+        { "name": "Ton profil", "role": "Dire en trois secondes où, quoi, pour qui" },
+        { "name": "Ton premier post", "role": "Prouver que tu sais expliquer le DPE" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Profil : capturer, titrer, écrire, prouver",
+      "voice": "Le profil. Tu fais une capture avant. Tu réécris ton titre : ville, spécialité, type de biens. Tu écris tes Infos en quatre paragraphes. Puis tu ajoutes ta formation et tu demandes trois recommandations.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "LinkedIn Aide, sections du profil — interface à vérifier le jour du tournage",
+      "tool": "Ton profil",
+      "steps": [
+        "Capturer le haut du profil « avant »",
+        "Titre : ville, spécialité, type de biens",
+        "Infos : 4 paragraphes, à la première personne",
+        "Preuves : formation, 3 recommandations, Sélection"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Post : accroche, fait, leçon, question",
+      "voice": "Le post, en quatre blocs. L'accroche : un T4 électrique classé F en 2023. Le fait sourcé : coefficient un virgule neuf depuis 2026, donc classe E. La leçon : vérifier avant de chiffrer. Une question aux notaires. Exemple fictif, sans nom ni adresse.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Coefficient 1,9 au 1/01/2026 (arrêté du 13/08/2025) ; post jusqu'à 3 000 caractères (LinkedIn Aide, « Publier et partager des posts »)",
+      "tool": "Ton premier post",
+      "steps": [
+        "Accroche : un T4 électrique classé F en 2023",
+        "Fait sourcé : 150 × 1,9 = 285, classe E",
+        "Leçon : vérifier avant de chiffrer",
+        "Question aux notaires ; mention « exemple fictif »"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Ouvre ton profil maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien à valider",
+      "cta": "Ouvrir mon profil LinkedIn",
+      "url": "https://www.linkedin.com/"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton profil, avant et après.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture du haut de ton profil après modification : photo, titre, début de la section Infos visibles.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Commence par ton titre, c'est la phrase la plus lue : reviens déposer ta capture quand elle est prête."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Ton profil a ses cinq zones remplies, et zéro robot. Quand on tapera ton nom, on saura quoi te confier.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton profil : 5 zones remplies, 0 robot.",
+      "source": "Fait observable sur le profil de l'apprenant ; 5 zones (photo, bannière, titre, Infos, Sélection) : proposition pédagogique Éco-Propriété"
+    }
+  ],
+  "sources": [
+    { "label": "LinkedIn Aide — Logiciels et extensions interdits", "url": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions" },
+    { "label": "LinkedIn Aide — Activité automatisée sur LinkedIn (restriction du compte)", "url": "https://www.linkedin.com/help/linkedin/answer/a1340567" },
+    { "label": "LinkedIn Aide — Limite d'invitations atteinte (restriction temporaire, en général une semaine)", "url": "https://www.linkedin.com/help/linkedin/answer/a550555" },
+    { "label": "LinkedIn Aide — Publier et partager des posts (jusqu'à 3 000 caractères)", "url": "https://www.linkedin.com/help/linkedin/answer/a528176" },
+    { "label": "LinkedIn Aide — Section Sélection (Featured) du profil", "url": "https://www.linkedin.com/help/linkedin/answer/a552452/featured-section-on-your-profile-faqs" },
+    { "label": "LinkedIn Aide — Ajouter des sections au profil", "url": "https://www.linkedin.com/help/linkedin/answer/a540837/add-sections-to-your-profile" },
+    { "label": "CNIL — Réutilisation des données publiées sur Internet à des fins commerciales", "url": "https://www.cnil.fr/fr/reutilisation-de-vos-donnees-publiees-sur-internet-des-fins-commerciales-quels-sont-vos-droits" },
+    { "label": "Légifrance — Arrêté du 19 août 2026 (coefficient électricité 1,7 au 1/01/2027 ; rappel du 1,9 au 1/01/2026, arrêté du 13/08/2025)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier",
+    "Écran 6 : la « durée d'une semaine » vient de l'aide LinkedIn (formulation « en général ») ; à revérifier le jour du tournage, comme les règles d'automatisation",
+    "Écran 9, carte 2 : Maxime est présenté comme nouvel entrant ; ne rien affirmer sur ses droits liés à la carte T dans ce chapitre",
+    "Écran 15 : effet statut fondé sur un fait observable (5 zones), pas sur une statistique ; à valider",
+    "Non repris faute de place : l'interdiction d'extraire des profils (CNIL, « public ne veut pas dire libre »), le rythme conseillé d'un post tous les 15 jours (seulement dans la réponse modèle de l'écran 8, c'est un conseil, pas une règle)",
+    "Écran 13 : lien LinkedIn à valider"
+  ]
+}

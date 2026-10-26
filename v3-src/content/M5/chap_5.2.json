@@ -1,0 +1,215 @@
+{
+  "id": "5.2",
+  "module": 5,
+  "title": "Lire les documents de copropriété",
+  "capsule_title": "Documents de copropriété",
+  "duration": "4:30",
+  "objective": "Réunir les documents de copropriété exigés à la promesse et repérer dans un pré-état daté les sommes qui pèseront sur l'acquéreur",
+  "mozi": {
+    "line": "La façade à 35 880 € ? Chut, ce sera la surprise de la crémaillère !",
+    "scene": "Mozi glisse le procès-verbal d'assemblée sous une pile de brochures et fait des clins d'œil appuyés aux acquéreurs. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 5.2 : lire les documents de copropriété",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas lire les documents de copropriété comme un acquéreur prudent.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "ce qu'un acquéreur achète vraiment avec un lot de copropriété" },
+        { "verb": "Appliquer", "text": "réunir les pièces et lire le pré-état daté de M. Bernard" },
+        { "verb": "Prouver", "text": "montrer ta note de risques pour les Martin" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "La façade à 35 880 € ? Chut, ce sera la surprise de la crémaillère !",
+      "voice": "La façade à 35 880 € ? Chut, ce sera la surprise de la crémaillère !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "La façade à 35 880 € ? Chut, ce sera la surprise de la crémaillère !",
+      "scene": "Mozi cache le procès-verbal d'assemblée sous des brochures et fait des clins d'œil aux acquéreurs."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "35 880 € votés, 0 page lue, 1 surprise",
+      "voice": "Trente-cinq mille huit cent quatre-vingts euros votés, zéro page lue, et une belle surprise.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["35 880 € votés", "0 page lue", "1 surprise"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Documents non remis. Rétractation qui ne démarre pas.",
+      "voice": "Résultat : tant que ces documents ne sont pas remis aux acquéreurs, leur délai de rétractation ne démarre pas. La vente reste en suspens.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Documents non remis.", "Rétractation qui ne démarre pas."],
+      "source": "Code de la construction et de l'habitation, art. L. 721-3 : si les documents du II de l'art. L. 721-2 ne sont pas remis au plus tard à la promesse, le délai de rétractation ne court qu'à compter du lendemain de leur communication (Légifrance, version en vigueur consultée le 26/10/2026)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "380 € TTC au plus pour l'état daté",
+      "voice": "Un chiffre à donner à M. Bernard dès le mandat : l'état daté coûte au maximum trois cent quatre-vingts euros TTC, et c'est lui qui paie.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "380 € TTC",
+      "label": "au maximum pour l'état daté, à la charge du vendeur",
+      "source": "Service-Public, fiche F37294 (vérifiée le 18/02/2026) ; décret n° 2020-153"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Liste → Pré-état daté → Qui paie",
+      "voice": "Trois idées. Un : la liste légale, article L. 721-2. L'organisation de l'immeuble, les finances, et l'état de l'immeuble : fiche synthétique, règlement, procès-verbaux des trois dernières assemblées, sommes dues, impayés, fonds de travaux, carnet d'entretien, plan de travaux. Deux : le pré-état daté rassemble les informations financières pour la promesse. L'état daté, lui, est établi par le syndic seul, avant l'acte. Trois : qui paie. Un appel de travaux est payé par celui qui est copropriétaire à la date où il est exigible. Le 1er janvier 2027, c'est M. Bernard.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "CCH, art. L. 721-2 (Légifrance) ; décret du 17 mars 1967, art. 5 et 6-2 (Légifrance) ; FNAIM, pré-état daté (mai 2024)",
+      "steps": [
+        { "label": "Liste", "detail": "Art. L. 721-2 : organisation, finances, état de l'immeuble. Remise au plus tard à la promesse." },
+        { "label": "Pré-état daté", "detail": "Infos financières pour la promesse. L'état daté, lui, vient du syndic avant l'acte." },
+        { "label": "Qui paie", "detail": "Un appel de travaux : le copropriétaire à la date d'exigibilité." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Claire, négociatrice, reçoit le pré-état daté de M. Bernard. Les Martin lui demandent : « Concrètement, qu'est-ce qu'on paiera à la copropriété, et quand ? ». Que leur répond-elle ?",
+      "model_answer": "Je leur montre un tableau : 35 880 € d'isolation de façade en 4 appels de 8 970 €. Celui du 1/01/2027 est payé par M. Bernard et remboursé à l'acte ; les trois suivants sont pour eux. Le fonds de travaux de 1 061 € reste au syndicat. Impayés : 5 100 €, niveau modéré. Toiture vers 2030, pas encore votée.",
+      "keywords": ["35 880 €", "4 appels", "date d'exigibilité", "source"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "CCH, art. L. 721-2 et L. 721-3 (Légifrance, consultés le 26/10/2026)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Les documents de l'art. L. 721-2, dont les sommes que l'acquéreur pourra devoir, sont remis au plus tard à la promesse",
+          "Les travaux votés ne se révèlent qu'au jour de l'acte, dans l'état daté",
+          "Aucune : les travaux de façade ne regardent que le syndic"
+        ],
+        "answer": 0,
+        "feedback": "L'article L. 721-2 impose de remettre à l'acquéreur, au plus tard à la promesse, les informations financières, dont les sommes qu'il pourra devoir au syndicat. Sinon, sa rétractation ne démarre qu'à leur remise (art. L. 721-3).",
+        "whys": [
+          "Exact : remise au plus tard à la promesse ; à défaut, le délai de rétractation est décalé.",
+          "Faux : l'état daté arrive avant l'acte, bien trop tard pour informer un acquéreur qui s'engage.",
+          "Faux : l'acquéreur paiera sa quote-part ; c'est une information due avant qu'il s'engage."
+        ]
+      },
+      "card2": {
+        "question": "Si une assemblée votait de nouveaux travaux entre la promesse et l'acte d'une vente de Karim, que se passerait-il ?",
+        "answer": "Le pré-état daté ne les montrerait pas : c'est une photo à une date. Karim doit demander au syndic si une assemblée est prévue avant l'acte, et faire prévoir au compromis qui paiera ces nouveaux appels."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : que personne ne signe sans savoir ce qu'il paiera, et quand. La fiche copro, et le tableau qui paie quoi.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Outils de la capsule 5.2 (fiche copro à la vente) : choix à valider",
+      "goal": "Chaque somme connue avant de signer",
+      "tools": [
+        { "name": "Fiche copro à la vente", "role": "Réunir les pièces de l'art. L. 721-2" },
+        { "name": "Tableau qui paie quoi", "role": "Une somme, une source, une date, un payeur" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "La fiche : toutes les pièces ?",
+      "voice": "Sur la fiche, je coche par famille. Organisation : fiche synthétique, règlement, procès-verbaux. Finances : appels de charges, pré-état daté, fonds de travaux. Immeuble : carnet d'entretien, notice, plan de travaux. Une pièce manque ? Je relance Mme Roy avant le 15 décembre.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "CCH, art. L. 721-2 (Légifrance) ; dossier fil rouge fictif D06 à D10, D16",
+      "tool": "Fiche copro à la vente",
+      "steps": [
+        "Organisation : fiche synthétique D10, règlement, PV d'AG D07",
+        "Finances : appels de charges D06, pré-état daté D16, fonds de travaux",
+        "Immeuble : carnet d'entretien D08, notice, PPPT D09",
+        "Une pièce manque : relance de Mme Roy avant le 15/12/2026"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le tableau : qui paie quoi ?",
+      "voice": "Dans le tableau : 35 880 euros de façade, quatre appels. Janvier pour M. Bernard, remboursé à l'acte ; les trois suivants pour les Martin. Fonds de travaux : 1 061 euros, ils restent au syndicat. Impayés : 5 100 euros, modéré. Toiture vers 2030 : non votée, je la signale.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Décret du 17 mars 1967, art. 6-2 ; loi du 10 juillet 1965, art. 14-2-1 (Légifrance) ; chiffres du dossier fil rouge fictif (D07, D09, D16)",
+      "tool": "Tableau qui paie quoi",
+      "steps": [
+        "ITE : 1 150 000 × 312/10 000 = 35 880 €, 4 appels de 8 970 € (D07)",
+        "1/01/2027 : M. Bernard, remboursé à l'acte ; 1/04, 1/07, 1/10 : les Martin",
+        "Fonds de travaux : 1 061 €, reste au syndicat (D16)",
+        "Impayés : 6 % × 85 000 € = 5 100 €, niveau modéré",
+        "Toiture-terrasse vers 2030 : non votée, non chiffrée (D09)"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais-le maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice dans un nouvel onglet",
+      "source": "Exercice de la capsule 5.2 : risques du pré-état daté ; lien à valider",
+      "cta": "Analyser le pré-état daté D16",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 5.2 : note de risques copropriété pour les acquéreurs",
+      "ask": "Dépose une capture de ta note de risques copropriété : le tableau des sommes et tes trois questions au syndic.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le pré-état daté de M. Bernard t'attend : reviens déposer ta note quand elle est prête."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Chaque somme a sa source, sa date et son payeur. Les Martin signeront en sachant ce qu'ils paieront.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta note : chaque somme a sa source, sa date et son payeur.",
+      "source": "Fait observable : critères du livrable de la capsule 5.2 (chaque ligne cite D06, D07, D08, D09 ou D16)"
+    }
+  ],
+  "sources": [
+    { "label": "Art. L. 721-2 CCH : documents à remettre à l'acquéreur d'un lot (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043977384" },
+    { "label": "Art. L. 721-3 CCH : point de départ du délai de rétractation si documents non remis (Légifrance, texte vérifié le 26/10/2026)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031110572" },
+    { "label": "Service-Public : état daté, plafond de 380 € TTC (F37294, vérifiée le 18/02/2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37294" },
+    { "label": "Art. 6-2 du décret du 17 mars 1967 : répartition des provisions (Légifrance)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488321" },
+    { "label": "Art. 5 du décret du 17 mars 1967 : état daté (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042078599/" },
+    { "label": "Art. 14-2-1 loi du 10 juillet 1965 : fonds de travaux (Légifrance)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043967792" },
+    { "label": "FNAIM : pré-état daté, obligations (mise à jour mai 2024)", "url": "https://www.fnaim.fr/4194-qu-est-ce-que-le-pre-etat-date-quelles-obligations.htm" },
+    { "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D06 à D10, D16)", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Relecture juridique obligatoire : art. L. 721-2, état daté, art. 6-2 du décret de 1967, fonds de travaux",
+    "Art. L. 721-3 : texte vérifié sur Légifrance le 26/10/2026 (le décalage vise les documents des 1° et 2° du II de l'art. L. 721-2) ; le relecteur confirme la formulation simplifiée de l'écran 5",
+    "Fonds de travaux : PPPT dit « adopté » dans le dossier fil rouge ; cotisation de 5 % du budget cohérente seulement si le plan n'est pas adopté au sens du II de l'art. 14-2 : ne pas citer le taux de 2,5 % tant que ce point n'est pas tranché",
+    "Aide MaPrimeRénov' Copropriété demandée par le syndic, non notifiée : jamais chiffrée",
+    "Charges payées par le vendeur sur les 2 derniers exercices : non chiffrées dans le dossier fil rouge, ne pas inventer de montant",
+    "Prix du pré-état daté non plafonné (FNAIM) : à vérifier dans le contrat du syndic",
+    "Écran 13 : renvoie à l'exercice (« #exercice »), pas d'outil officiel en ligne identifié pour ce geste"
+  ]
+}

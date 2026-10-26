@@ -1,0 +1,208 @@
+{
+  "id": "1.2",
+  "module": 1,
+  "title": "Vérifier avant de chiffrer",
+  "capsule_title": "Éco-consultant et valeur verte",
+  "duration": "4:30",
+  "objective": "Distinguer l'approche éco-consultant de l'approche agent classique : lire et vérifier le DPE, puis chiffrer la valeur verte avec des ventes réelles et des devis",
+  "mozi": {
+    "line": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+    "scene": "Mozi, sur le palier de M. Bernard, regarde le DPE à travers la porte vitrée, sans entrer, et colle un autocollant « −15 % » sur la sonnette. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 1.2 : vérifier avant de chiffrer",
+      "voice": "Bienvenue. Dans ce chapitre, tu deviens éco-consultant : celui qui vérifie le DPE avant de parler prix.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "ce qui sépare l'éco-consultant de l'agent classique" },
+        { "verb": "Appliquer", "text": "lire, vérifier, puis chiffrer la valeur verte du bien de M. Bernard" },
+        { "verb": "Prouver", "text": "montrer ta promesse d'éco-consultant en trois phrases" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+      "voice": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+      "scene": "Mozi lit le DPE à travers la porte vitrée et colle un autocollant « −15 % » sur la sonnette."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "1 lettre, −15 %, 0 page lue",
+      "voice": "Une lettre, moins quinze pour cent, zéro page lue.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["1 lettre", "−15 %", "0 page lue"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "La lettre a changé. Le −15 % n'a pas de source.",
+      "voice": "Problème : depuis 2026, l'appartement de M. Bernard est classé E, plus F. Et le moins quinze pour cent ne vient d'aucune étude.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["La lettre a changé : c'est E.", "Le −15 % n'a aucune source."],
+      "source": "Coefficient électricité 1,9 depuis le 1/01/2026 (arrêté du 13/08/2025) : 150 × 1,9 = 285 kWhEP/m²/an, classe E (attestation actualisée ADEME, fil rouge) ; aucune décote nationale unique : l'écart varie selon la région, le type de bien et l'année (Notaires de France, valeur verte, transactions 2024, 7/01/2026)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "≈ 15 % des ventes sont des F ou G",
+      "voice": "Et pourtant, les logements classés F ou G représentaient environ quinze pour cent des ventes de l'ancien début 2025. Ils se vendent.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "≈ 15 %", "label": "des ventes de l'ancien concernaient des logements F ou G début 2025",
+      "source": "Notaires de France, La valeur verte des logements en France sur les transactions 2024 (7 janvier 2026)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Lire → Vérifier → Chiffrer",
+      "voice": "D'abord, tu lis. Le DPE donne deux notes : l'énergie et le climat. La classe retenue, c'est la moins bonne des deux. Chez M. Bernard, en 2023 : trois cent quarante-cinq, F pour l'énergie ; douze kilos de CO deux, C pour le climat. C'est l'énergie qui décide. Ensuite, tu vérifies. Chauffage électrique, coefficient un virgule neuf : deux cent quatre-vingt-cinq, classe E. L'attestation de l'ADEME le prouve, gratuitement. Enfin, tu chiffres. Comparables du dossier, fictifs : deux mille six cent cinquante euros le mètre carré en l'état, deux mille huit cent cinquante rénové. Deux cents euros d'écart, fois soixante-seize : quinze mille deux cents euros. L'acheteur négociera sur un montant, pas sur une lettre.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Double seuil et classe retenue (Service-Public F16096) ; coefficient 1,9 (arrêté du 13/08/2025) ; comparables D12 fictifs (BIBLE.md, § 5)",
+      "steps": [
+        { "label": "Lire", "detail": "Deux notes, énergie et climat : la moins bonne fixe la classe (345 → F, 12 kgCO₂ → C)." },
+        { "label": "Vérifier", "detail": "Électricité, coefficient 1,9 : 285, classe E, prouvée par l'attestation ADEME." },
+        { "label": "Chiffrer", "detail": "(2 850 − 2 650) × 76 = 15 200 € d'écart local (exemple fictif)." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard te demande : « Mon DPE dit F. Ça me fait perdre combien ? » Que lui réponds-tu, sans répéter l'erreur de Mozi ?",
+      "model_answer": "Je vérifie d'abord l'étiquette en vigueur : avec l'attestation actualisée de l'ADEME, votre appartement est classé E. Ensuite, je pars des ventes comparables de votre secteur et je chiffre les travaux par devis, 16 500 € dans votre dossier. Pas de pourcentage tombé du ciel.",
+      "keywords": ["attestation", "ventes comparables", "devis", "pas de pourcentage"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Notaires de France, valeur verte (transactions 2024, 7/01/2026) ; Service-Public F16096 (double seuil)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Pas de décote forfaitaire : la valeur verte se cite avec la région, le type de bien, l'année des ventes et la classe de référence",
+          "La loi fixe à 15 % la décote d'un logement classé F",
+          "Aucune : seule la lettre en haut du DPE compte"
+        ],
+        "answer": 0,
+        "feedback": "Il n'existe pas de « −15 % » valable partout. Les Notaires mesurent un écart qui varie selon la région, le type de bien et l'année. Et avant tout chiffre, on vérifie l'étiquette en vigueur.",
+        "whys": [
+          "Exact : sans ses quatre repères, un pourcentage n'est pas une information, c'est une rumeur.",
+          "Faux : aucun texte ne fixe une décote par classe. Le prix se fonde sur les ventes réelles.",
+          "Faux : la lettre peut être dépassée (coefficient 1,9 depuis 2026) et elle ne dit rien du coût des travaux."
+        ]
+      },
+      "card2": {
+        "question": "Si Claire appliquait la même méthode à une maison chauffée au gaz (300 kWhEP, classe E ; 75 kgCO₂, classe F), quelle classe retiendrait-elle ?",
+        "answer": "F : la classe retenue est la moins bonne des deux notes. Ici, ce sont les émissions qui décident, et la baisse du coefficient électrique ne change rien pour un logement au gaz."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : transformer une lettre en montant vérifiable. L'attestation de l'ADEME, et le duo comparables plus devis.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Transformer une lettre en montant vérifiable",
+      "tools": [
+        { "name": "Attestation actualisée ADEME", "role": "Prouver l'étiquette en vigueur, gratuitement" },
+        { "name": "Comparables et devis", "role": "Chiffrer l'écart énergétique en euros" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "ADEME : relever, télécharger, dater",
+      "voice": "Sur l'observatoire de l'ADEME : tu relèves le numéro du DPE, treize caractères en haut de la première page. Tu télécharges l'attestation actualisée, sans nouvelle visite. Classe E, valable jusqu'au treize mars 2033.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "ADEME, observatoire DPE-Audit : attestation actualisée gratuite pour les DPE établis depuis le 1/07/2021, valable jusqu'à la fin du DPE d'origine ; fil rouge D03 (BIBLE.md, § 3) — parcours à vérifier le jour du tournage",
+      "tool": "Attestation actualisée ADEME",
+      "steps": [
+        "Relever le numéro ADEME : 13 caractères en haut du DPE",
+        "Ouvrir l'observatoire DPE-Audit de l'ADEME",
+        "Télécharger l'attestation actualisée : classe E",
+        "Noter la validité : jusqu'au 13/03/2033"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Comparables et devis : situer, calculer, poser",
+      "voice": "Puis tu sors les comparables. Tu situes son appartement, en l'état et rénové. Tu calcules l'écart : quinze mille deux cents euros. Et tu poses à côté les devis : seize mille cinq cents euros de travaux. Énergie, valeur, budget.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Comparables D12 et devis D13 fictifs (BIBLE.md, § 5 et 6)",
+      "tool": "Comparables et devis",
+      "steps": [
+        "Ouvrir D12 : 2 650 €/m² en l'état, 2 850 €/m² rénové",
+        "Calculer : 200 € × 76 m² = 15 200 €",
+        "Poser D13 à côté : 16 500 € de travaux privatifs",
+        "Parler montant, jamais pourcentage"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Vérifie une étiquette maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien à valider",
+      "cta": "Ouvrir l'observatoire DPE-Audit",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta promesse en trois phrases.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une photo de ta promesse d'éco-consultant : trois phrases (je vérifie, je construis la valeur, je remets par écrit) et sa version pour M. Bernard.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Teste-la d'abord à voix haute, en vingt secondes, puis reviens la déposer."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Tu as une classe vérifiée : E. Les deux agences annonçaient F, sans avoir regardé.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta classe : E, vérifiée. Celle des deux agences : F, supposée.",
+      "source": "Fil rouge fictif (BIBLE.md, § 1 et 3) : attestation actualisée classe E ; deux agences ont annoncé « −15 % à cause du DPE »"
+    }
+  ],
+  "sources": [
+    { "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
+    { "label": "Service-Public — Diagnostic de performance énergétique (DPE), F16096", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096" },
+    { "label": "Légifrance — Arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027 (rappel du 1,9 au 1/01/2026, arrêté du 13/08/2025)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
+    { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+    { "label": "INC — L'obligation de réaliser un audit énergétique lors de la vente de certaines maisons", "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier",
+    "Écran 5 : formulation « le −15 % n'a aucune source » à valider (on vise la rumeur d'une décote nationale unique, pas l'étude des Notaires)",
+    "Écran 9, carte 2 : seuil climat F (75 kgCO₂ > 70) repris de la capsule ; à revérifier sur Service-Public avant tournage",
+    "Écran 11 : parcours exact sur l'observatoire DPE-Audit à vérifier le jour du tournage",
+    "Non repris faute de place : l'absence d'audit obligatoire pour un lot de copropriété (relecture juridique demandée dans la capsule) ; le passage à 1,7 au 1/01/2027 (255, toujours E) — à garder dans la fiche « Argumentaire valeur verte »",
+    "Les comparables (2 650 et 2 850 €/m²) et les devis (16 500 €) sont fictifs : mention « exemple fictif » à l'écran"
+  ]
+}

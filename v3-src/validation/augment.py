@@ -15,6 +15,8 @@ OFFSETS = {"1.1": os.path.join(ROOT, "video11/mg/offsets.json")}
 for it in D["items"]:
     if it["kind"] != "capsule":
         continue
+    if os.path.exists(os.path.join(ROOT, "content", "M%s" % it["mod"], "chap_%s.json" % it["id"])):
+        continue  # format chapitre : la vidéo sera produite au nouveau gabarit
     f = os.path.join(ROOT, "content", "M%s" % it["mod"], "cap_%s.json" % it["id"])
     src = None
     if os.path.exists(f):

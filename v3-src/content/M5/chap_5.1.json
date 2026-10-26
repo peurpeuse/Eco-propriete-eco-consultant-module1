@@ -1,0 +1,217 @@
+{
+  "id": "5.1",
+  "module": 5,
+  "title": "Contrôler les diagnostics",
+  "capsule_title": "Diagnostics et pièces",
+  "duration": "4:30",
+  "objective": "Constituer et contrôler le dossier de diagnostic technique d'un appartement de 1972 en copropriété avant la signature du compromis",
+  "mozi": {
+    "line": "Électricité de 2023 ? Il est rodé, il passera encore mieux en 2027 !",
+    "scene": "Mozi souffle la poussière d'un vieux rapport électricité, le tamponne « comme neuf » et l'agrafe au compromis. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 5.1 : contrôler les diagnostics",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas contrôler le dossier de diagnostic de M. Bernard avant le compromis du 15 décembre.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi un diagnostic se juge à la date de l'acte" },
+        { "verb": "Appliquer", "text": "contrôler le dossier de M. Bernard pièce par pièce" },
+        { "verb": "Prouver", "text": "montrer ta check-list des pièces complétée" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Électricité de 2023 ? Il est rodé, il passera encore mieux en 2027 !",
+      "voice": "Électricité de 2023 ? Il est rodé, il passera encore mieux en 2027 !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Électricité de 2023 ? Il est rodé, il passera encore mieux en 2027 !",
+      "scene": "Mozi tamponne « comme neuf » un rapport électricité jauni et l'agrafe au compromis."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "Rapport de 2023, acte en 2027, « ça passera »",
+      "voice": "Un rapport de 2023, un acte en 2027, et un « ça passera ».",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["Rapport de 2023", "Acte en 2027", "« Ça passera »"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Diagnostic périmé à l'acte. Vendeur exposé.",
+      "voice": "Sauf qu'à l'acte, un diagnostic périmé ne protège plus rien. M. Bernard ne peut plus s'exonérer de la garantie des vices cachés.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Diagnostic périmé à l'acte.", "Vendeur exposé aux vices cachés."],
+      "source": "Code de la construction et de l'habitation, art. L. 271-4, II : sans document en cours de validité à l'acte, le vendeur ne peut pas s'exonérer de la garantie des vices cachés correspondante (Légifrance, version en vigueur consultée le 26/10/2026)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "3 ans : la limite du diagnostic électricité",
+      "voice": "Retiens ce chiffre : le diagnostic électricité doit avoir moins de trois ans le jour de l'acte. Pas le jour où tu ouvres le dossier.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "3 ans",
+      "label": "de validité au plus pour le diagnostic électricité, appréciés à la signature de l'acte",
+      "source": "Code de la construction et de l'habitation, art. D. 271-5 (Légifrance) ; Service-Public, fiche F10798"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Liste → Lot → Date",
+      "voice": "Trois idées, pas plus. Un : la liste dépend du bien. Permis de 1970, donc amiante. Électricité de plus de quinze ans, donc diagnostic. Pas de gaz, et pas de plomb : l'immeuble date de 1972. Deux : en copropriété, on diagnostique le lot. Le dossier amiante des parties communes ne remplace pas le repérage de l'appartement. Et la surface Carrez, c'est 76,0 mètres carrés, sans le balcon, la cave ni le parking. Trois : la validité se juge à la date de l'acte, le 15 mars 2027. Un document valable au compromis mais expiré avant l'acte doit être refait.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "CCH, art. L. 271-4 et L. 271-5 (Légifrance) ; loi du 10 juillet 1965, art. 46 (Carrez) ; Service-Public F10798 ; Notaires de France, les diagnostics techniques immobiliers",
+      "steps": [
+        { "label": "Liste", "detail": "Elle dépend du bien : permis de 1970, donc amiante ; électricité de plus de 15 ans ; ni gaz ni plomb." },
+        { "label": "Lot", "detail": "On diagnostique la partie privative. Carrez : 76,0 m², hors balcon, cave et parking." },
+        { "label": "Date", "detail": "Chaque validité se juge au jour de l'acte : le 15/03/2027." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Maxime, nouvel entrant, reçoit le dossier de M. Bernard : électricité du 6/09/2023, état des risques du 10/03/2026, dossier amiante des parties communes. Que lui conseilles-tu avant le compromis du 15/12/2026 ?",
+      "model_answer": "Je calcule chaque fin de validité et je la compare au 15/03/2027. L'électricité est périmée depuis le 5/09/2026, l'état des risques aura plus de six mois au compromis, et il manque le repérage amiante du lot. Je groupe les trois commandes chez un diagnostiqueur certifié et j'écris au vendeur.",
+      "keywords": ["date de l'acte", "électricité", "état des risques", "amiante du lot"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "CCH, art. D. 271-5 et L. 271-5 (Légifrance) ; Service-Public F10798",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "La validité d'un diagnostic se juge à la date de l'acte : l'électricité doit avoir moins de 3 ans",
+          "Un diagnostic fait par un professionnel certifié reste valable sans limite de durée",
+          "Aucune : c'est au notaire seul de vérifier les dates"
+        ],
+        "answer": 0,
+        "feedback": "Pour la vente, l'état de l'installation électrique doit avoir moins de 3 ans à la signature de l'acte. Le rapport de 2023 ne couvre pas mars 2027 : on le refait avant le compromis.",
+        "whys": [
+          "Exact : 3 ans, appréciés le jour de l'acte. Un rapport de septembre 2023 est périmé dès septembre 2026.",
+          "Faux : la certification du diagnostiqueur ne prolonge pas la durée de validité du rapport.",
+          "Faux : le notaire annexe le dossier, mais c'est toi qui as promis au vendeur un dossier complet ; attendre met le compromis en risque."
+        ]
+      },
+      "card2": {
+        "question": "Si Sarah vendait une maison de 1938 avec une chaudière gaz de 2005, que se passerait-il pour son dossier ?",
+        "answer": "Construite avant 1949 : constat plomb exigé. Installation gaz de plus de 15 ans : diagnostic gaz. Et si la maison est classée E, F ou G, un audit énergétique. Même méthode : trois questions, puis chaque date comparée à celle de l'acte."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : un dossier complet et valable le jour de l'acte. L'arbre de décision, et la frise des validités.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Outils de la capsule 5.1 (check-list des pièces) : choix à valider",
+      "goal": "Un dossier valable le 15/03/2027",
+      "tools": [
+        { "name": "Arbre de décision", "role": "Savoir quels diagnostics ce lot exige" },
+        { "name": "Frise des validités", "role": "Comparer chaque fin de validité à la date de l'acte" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "L'arbre : quels diagnostics ?",
+      "voice": "Sur l'arbre : permis de 1970, donc repérage amiante du lot. Électricité de plus de quinze ans : diagnostic. Pas de gaz, pas de plomb. Puis la localisation : état des risques, termites, bruit, mérule. Chaque « non concerné » porte sa raison.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "CCH, art. L. 271-4 (Légifrance) ; Service-Public F10798 ; arrêtés termites, bruit et mérule pour Melun : à vérifier",
+      "tool": "Arbre de décision",
+      "steps": [
+        "Permis avant le 1/07/1997 ? 1970 : repérage amiante du lot",
+        "Installation de plus de 15 ans ? Électricité : oui ; gaz : aucune installation",
+        "Construit avant le 1/01/1949 ? Non, 1972 : pas de plomb",
+        "Où est le bien ? ERP, termites, bruit, mérule : vérifier et noter la source"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "La frise : valable le 15/03/2027 ?",
+      "voice": "Sur la frise : DPE et attestation jusqu'en 2033, on garde. Électricité de septembre 2023 : périmée, on la refait. État des risques de mars 2026 : trop vieux au compromis. Amiante du lot : manquant. Carrez : valable. Trois commandes, un seul mail à Diag77.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "CCH, art. D. 271-5 (Légifrance) ; Service-Public F12239 (état des risques : moins de 6 mois) ; dates du dossier : variante fictive de la capsule 5.1",
+      "tool": "Frise des validités",
+      "steps": [
+        "DPE du 14/03/2023 + attestation classe E : valables jusqu'au 13/03/2033",
+        "Électricité du 6/09/2023 : fin le 5/09/2026, à refaire",
+        "ERP du 10/03/2026 : plus de 6 mois au 15/12/2026, à refaire",
+        "Amiante : seulement le dossier des parties communes, repérage du lot à commander",
+        "Carrez 76,0 m², sans travaux depuis : valable"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais-le maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "Annuaire officiel des diagnostiqueurs immobiliers certifiés, cité par le ministère de la Transition écologique (page consultée le 26/10/2026) ; lien à valider",
+      "cta": "Vérifier un diagnostiqueur certifié",
+      "url": "https://diagnostiqueurs.din.developpement-durable.gouv.fr/index.action"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 5.1 : check-list des pièces complétée",
+      "ask": "Dépose une capture de ta check-list des pièces complétée pour le lot de M. Bernard, avec un statut par ligne.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le dossier de M. Bernard t'attend : reviens déposer ta check-list quand elle est prête."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Douze lignes, chacune datée et justifiée. C'est exactement le dossier qu'un notaire attend.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta check-list : 12 lignes, toutes vérifiées au 15/03/2027.",
+      "source": "Fait observable : critères du livrable de la capsule 5.1 (12 lignes renseignées, dates comparées au 15/03/2027)"
+    }
+  ],
+  "sources": [
+    { "label": "Art. L. 271-4 CCH : contenu du dossier de diagnostic technique et sanctions (Légifrance, consulté le 26/10/2026)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049398848" },
+    { "label": "Art. L. 271-5 CCH : documents expirés entre promesse et acte (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043978261" },
+    { "label": "Art. D. 271-5 CCH : durées de validité plomb, termites, gaz, électricité (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038967784" },
+    { "label": "Service-Public : diagnostics à fournir à la vente (F10798)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798" },
+    { "label": "Service-Public : état des risques, remise à la première visite, moins de 6 mois (F12239, vérifiée le 28/09/2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239" },
+    { "label": "Notaires de France : les diagnostics techniques immobiliers", "url": "https://www.notaires.fr/fr/immobilier-fiscalite/diagnostics/les-diagnostics-techniques-immobiliers" },
+    { "label": "INC : diagnostics obligatoires et durées de validité", "url": "https://www.inc-conso.fr/content/logement/vente-immobiliere-les-diagnostics-obligatoires-pour-les-logements-usage-dhabitation" },
+    { "label": "Art. 46 loi du 10 juillet 1965 : surface Carrez (Légifrance)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000029946555" },
+    { "label": "Ministère de la Transition écologique : diagnostiqueur immobilier, profession réglementée (renvoi vers l'annuaire officiel, consulté le 26/10/2026)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/diagnostiqueur-immobilier-profession-reglementee" },
+    { "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D02, D03, D04, D11, D17)", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Relecture juridique obligatoire : liste du DDT, durées de validité, sanction des vices cachés (art. L. 271-4, II)",
+    "Dates de la démonstration (électricité du 6/09/2023, ERP du 10/03/2026, DTA des parties communes à la place du repérage privatif) : variante fictive de la capsule, distincte du D17 complet ; visuel D17 « version incomplète » à produire",
+    "À vérifier pour Melun : arrêté termites de Seine-et-Marne, plan d'exposition au bruit le plus proche, zone mérule, contrôle de raccordement à l'assainissement",
+    "Validité illimitée de l'amiante (absence d'amiante, repérage depuis le 1/04/2013) : règle INC / notaires à confirmer sur le Code de la santé publique ; non citée à l'oral dans ce chapitre",
+    "Carte 2 (maison de 1938, gaz de 2005) : cas de transfert fictif ; l'audit énergétique ne vaut que pour une maison classée E, F ou G",
+    "Écran 13 : lien vers l'annuaire officiel des diagnostiqueurs (étape 5 des contrôles de la capsule) ; alternative possible : « #exercice » (contrôle de D17)",
+    "Écran 15 : effet statut fondé sur le livrable (fait observable), pas sur une statistique externe"
+  ]
+}

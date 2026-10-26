@@ -1,0 +1,209 @@
+{
+  "id": "2.6",
+  "module": 2,
+  "title": "Voir avant l'acheteur",
+  "capsule_title": "Audit 360° et pathologies",
+  "duration": "4:30",
+  "objective": "Mener un audit visuel à 360° d'un logement, décrire chaque pathologie (symptôme, cause probable, gravité) et savoir quand renvoyer vers un expert",
+  "mozi": {
+    "line": "Un coup de rouleau, et l'auréole n'a jamais existé !",
+    "scene": "Mozi, en costume, repeint le plafond de la cuisine pendant la visite, l'acheteur juste derrière lui, le pot de peinture sous le bras. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 2.6 : voir avant l'acheteur",
+      "voice": "Bienvenue. Dans ce chapitre, tu fais le tour complet d'un logement, et tu vois les défauts avant l'acheteur.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi le DPE ne voit ni taches, ni fissures, ni moisissures" },
+        { "verb": "Appliquer", "text": "mener l'audit à 360° et lire chaque pathologie en 4 temps" },
+        { "verb": "Prouver", "text": "montrer ta grille d'audit remplie pour M. Bernard" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Un coup de rouleau, et l'auréole n'a jamais existé !",
+      "voice": "Un coup de rouleau, et l'auréole n'a jamais existé !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Un coup de rouleau, et l'auréole n'a jamais existé !",
+      "scene": "Mozi repeint le plafond de la cuisine en pleine visite, l'acheteur juste derrière lui."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "1 auréole, 1 coup de rouleau, 0 question",
+      "voice": "Une auréole, un coup de rouleau, zéro question.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["1 auréole", "1 coup de rouleau", "0 question"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Défaut caché. Vente attaquable.",
+      "voice": "Sauf que repeindre pour cacher, c'est dissimuler. Si l'information était déterminante pour l'acheteur, c'est un dol. Et la vente peut être annulée.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Cacher exprès une information déterminante : c'est un dol.", "Un dol rend la vente annulable."],
+      "source": "Code civil, art. 1137 (dol par dissimulation intentionnelle d'une information déterminante) et art. 1131 (les vices du consentement sont une cause de nullité relative), Légifrance, consulté le 26/10/2026"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "Permis avant juillet 1997 : on ne gratte rien",
+      "voice": "Un repère à retenir : 1997. Si le permis de construire date d'avant juillet 1997, la vente exige un repérage amiante. Les Tilleuls datent de 1972 : tu ne perces rien, tu ne grattes rien.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "1997", "label": "permis de construire délivré avant le 1er juillet 1997 : état amiante obligatoire à la vente",
+      "source": "Service-Public, « Quels sont les diagnostics immobiliers à fournir en cas de vente d'un logement ? » (F10798), consulté le 26/10/2026"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Ordre 360° → Lecture en 4 temps → Renvoi",
+      "voice": "Trois idées. D'abord, un ordre de visite, toujours le même. Dehors, les parties communes, puis chaque pièce, du sol au plafond. Ensuite les fenêtres, la ventilation, le chauffage, l'eau chaude, l'électricité. Et enfin les documents. Deuxième idée : une pathologie se lit en quatre temps. Le symptôme, la cause, une hypothèse écrite, et une décision. Tu fais un constat visuel, pas un diagnostic. Tu écris « cause probable », jamais « aucun risque ». Troisième idée : savoir t'arrêter. Une fissure qui s'élargit ou touche un mur porteur : expert bâtiment. Une tache humide qui s'étend : plombier et assurance. La façade, le balcon, la toiture : le syndic. Si tu ne sais pas, tu renvoies.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Formation Audit énergétique Éco-Propriété, journée 3 « Pathologies » ; Agence Qualité Construction, fiche pathologie E.09 « Condensations dans les logements » (2024)",
+      "steps": [
+        { "label": "Ordre 360°", "detail": "Dehors, parties communes, pièces du sol au plafond, équipements, documents." },
+        { "label": "4 temps", "detail": "Symptôme, cause, hypothèse écrite, décision : traiter, surveiller ou renvoyer." },
+        { "label": "Renvoi", "detail": "Structure : expert. Eau active : plombier. Parties communes : syndic." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; AQC, fiche E.09 (ventilation insuffisante et condensation)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Claire visite un T3. Traces noires au plafond de la salle de bains, grille d'aération à moitié bouchée. Le vendeur lui dit : « Ce n'est rien. » Que note-t-elle dans sa grille ?",
+      "model_answer": "Constat visuel du jour : traces noires au plafond et dans les angles, grille d'extraction en partie obstruée. Cause probable : ventilation insuffisante. Gravité moyenne. Action : débouchage, chiffrage d'une ventilation, photo datée. Jamais « ce n'est rien ».",
+      "keywords": ["constat visuel", "cause probable", "ventilation", "photo datée"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Code civil, art. 1137 (Légifrance) ; méthode de la capsule 2.6",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Un désordre visible se décrit et se prouve, il ne se cache pas",
+          "Il faut attendre la fin de la visite pour repeindre",
+          "Aucune : une auréole sèche n'a pas à être mentionnée"
+        ],
+        "answer": 0,
+        "feedback": "Cacher exprès une information déterminante peut constituer un dol (Code civil, art. 1137). Pour l'auréole de M. Bernard, la bonne réponse est une preuve : le courrier de clôture du sinistre, puis la peinture.",
+        "whys": [
+          "Exact : constat écrit, cause, preuve. C'est ce qui protège le vendeur, l'acheteur et toi.",
+          "Faux : le moment ne change rien. Repeindre pour masquer reste une dissimulation.",
+          "Faux : sèche ou non, elle se voit et inquiète. La preuve que le sinistre est clos répond avant la question."
+        ]
+      },
+      "card2": {
+        "question": "Chez un vendeur d'Hugo, une fissure s'élargit sur un mur porteur. S'il la rebouchait avant les visites, que se passerait-il ?",
+        "answer": "Il masquerait peut-être un mouvement de structure : plus personne ne pourrait voir s'il évolue, et l'acheteur pourrait reprocher une dissimulation. La bonne voie : photo datée avec réglet, et renvoi immédiat vers un expert bâtiment."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux gestes, un seul but",
+      "voice": "Deux gestes, un seul but : que chaque défaut ait une cause et une preuve. La grille à 360°, et la photo datée avec sa preuve écrite.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Proposition pédagogique Éco-Propriété : grille 360° (ressource de la capsule 2.6)",
+      "goal": "Une cause et une preuve pour chaque défaut",
+      "tools": [
+        { "name": "La grille 360°", "role": "Ne rien oublier, dans le même ordre à chaque visite" },
+        { "name": "La photo datée et la preuve écrite", "role": "Rendre chaque constat vérifiable" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "La grille chez M. Bernard",
+      "voice": "Chez M. Bernard, tu suis la grille. Dehors : le balcon, une dalle traversante, c'est pour le syndic. Dans les pièces : moisissures, auréole, fissure fine. Côté équipements : pas de VMC, un conduit obstrué, six convecteurs de 1998. Et tu finis par les documents.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (bien fictif) ; reportage photo D05",
+      "tool": "Grille 360°",
+      "steps": [
+        "Dehors : balcon sud-ouest, dalle traversante, pont thermique → syndic",
+        "Pièces : moisissures en salle de bains, auréole en cuisine, fissure du dégagement",
+        "Équipements : pas de VMC, conduit obstrué, 6 convecteurs de 1998",
+        "Documents : carnet d'entretien, diagnostics, devis D13"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Une preuve par défaut",
+      "voice": "Ensuite, une preuve par défaut. La fissure : photo datée avec un réglet, moins de deux dixièmes de millimètre, à surveiller. L'auréole : le courrier de clôture du sinistre, demandé au syndic. Les moisissures et les fenêtres : les lignes chiffrées du devis.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge : devis D13 (fictif) ; seuil « < 0,2 mm » fictif, pas un seuil réglementaire",
+      "tool": "Photo datée et preuve écrite",
+      "steps": [
+        "Fissure P11 : photo datée avec réglet, < 0,2 mm, « à surveiller »",
+        "Auréole P08 : courrier de clôture du sinistre demandé au syndic",
+        "Moisissures P06-P07 : débouchage + VMC, devis D13, 2 900 €",
+        "Fenêtres P04-P05 : 4 fenêtres à remplacer, devis D13, 5 600 €"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Remplis ta grille maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice dans un nouvel onglet",
+      "source": "Exercice de la capsule 2.6 (grille sur les 12 photos du reportage D05)",
+      "cta": "Ouvrir l'exercice : 12 photos",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta grille.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.6 : grille d'audit 360° de l'appartement de M. Bernard",
+      "ask": "Dépose une capture de ta grille d'audit 360° pour M. Bernard : 12 photos, chacune avec constat, cause probable, gravité et action.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Les douze photos t'attendent : reviens déposer ta grille quand elle est prête."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Douze constats, douze causes, et pas un seul « aucun risque ». Un défaut expliqué ne fait plus peur.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta grille : 12 constats, 12 causes, 0 « aucun risque ».",
+      "source": "Fait observable : critères du livrable de la capsule 2.6"
+    }
+  ],
+  "sources": [
+    { "label": "Code civil, art. 1137 (dol, dissimulation intentionnelle d'une information déterminante)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036829827" },
+    { "label": "Code civil, art. 1130 à 1144 (vices du consentement ; art. 1131 : nullité relative)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000032007571/" },
+    { "label": "Service-Public, diagnostics immobiliers à fournir en cas de vente (amiante si permis avant le 1/07/1997), consulté le 26/10/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798" },
+    { "label": "Agence Qualité Construction, fiche pathologie bâtiment E.09 « Condensations dans les logements »", "url": "https://qualiteconstruction.com/wp-content/uploads/2024/01/fi-pathologie-batiment-e09-condensations-logements.pdf" },
+    { "label": "Formation Audit énergétique Éco-Propriété, journée 3 « Pathologies » (observer, rechercher la cause, préconiser, renvoyer vers une expertise)", "url": null },
+    { "label": "Bible du fil rouge : bien de M. Bernard, reportage D05 et devis D13 (fictifs)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Écran 5 : formulation juridique du dol (art. 1137 et 1131) à faire relire ; le dol suppose une intention et une information déterminante, ne pas présenter la nullité comme automatique",
+    "Écran 6 : choix du repère « 1997 » (amiante) comme chiffre clé ; la capsule d'origine n'avait pas de statistique sourcée sur les pathologies (la fiche AQC E.09 ne donne pas de quantité de vapeur)",
+    "Écran 12 : seuil « < 0,2 mm » repris de la bible, fictif, pas un seuil réglementaire",
+    "Écran 13 : pas d'outil en ligne officiel, le bouton mène à l'exercice (#exercice)",
+    "Photos P01 à P12 du reportage D05 à produire en cohérence avec la capsule 2.6"
+  ]
+}

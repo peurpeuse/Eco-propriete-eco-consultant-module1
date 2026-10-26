@@ -1,0 +1,214 @@
+{
+  "id": "1.4",
+  "module": 1,
+  "title": "Être présent sur Facebook",
+  "capsule_title": "Facebook : page, groupes, pub locale",
+  "duration": "4:30",
+  "objective": "Animer une page Facebook pro, intervenir utilement dans les groupes locaux et paramétrer une campagne locale conforme (catégorie Logement, consentement)",
+  "mozi": {
+    "line": "Ma pub d'estimation ? Seulement les plus de soixante ans, rue par rue !",
+    "scene": "Mozi, carte de Melun punaisée au mur, entoure au feutre violet deux codes postaux et colle l'étiquette « 60 ans et + » sur chaque rue. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 1.4 : être présent sur Facebook",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas prouver sur Facebook que tu es là, cette semaine, dans ton quartier.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "les trois leviers : ta page, les groupes locaux, la pub locale" },
+        { "verb": "Appliquer", "text": "programmer tes posts et paramétrer une campagne test conforme" },
+        { "verb": "Prouver", "text": "montrer le paramétrage de ta campagne en une image" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Ma pub d'estimation ? Seulement les plus de soixante ans, rue par rue !",
+      "voice": "Ma pub d'estimation ? Seulement les plus de soixante ans, rue par rue !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Ma pub d'estimation ? Seulement les plus de soixante ans, rue par rue !",
+      "scene": "Mozi entoure deux codes postaux au feutre violet et colle « 60 ans et + » sur chaque rue de la carte."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "60 ans et plus, 2 codes postaux, 0 catégorie",
+      "voice": "Soixante ans et plus, deux codes postaux, zéro catégorie.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["60 ans et plus", "2 codes postaux", "0 catégorie"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Ciblage interdit. Pub refusée.",
+      "voice": "Sauf qu'en France, une pub d'estimation relève de la catégorie spéciale Logement : ni âge, ni code postal. Sans elle, la pub peut être refusée.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Ciblage par âge et code postal : interdit.", "Pub sans catégorie Logement : refusable."],
+      "source": "Meta, aide « About ads for housing » (France incluse) et « Audiences des campagnes Logement » : âge 18 à 65 ans et plus, tous genres, pas de ciblage par code postal, rayon élargi ; une pub mal classée peut être refusée (pages citées dans la capsule 1.4, mise à jour du 20/10/2026)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "29 jours d'avance",
+      "voice": "Bonne nouvelle : dans Meta Business Suite, tu peux programmer une publication jusqu'à vingt-neuf jours à l'avance. Ton mois peut être prêt d'un coup.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "29 jours", "label": "pour programmer une publication à l'avance (de 20 minutes à 29 jours)",
+      "source": "Meta, aide « Programmer une publication pour ta Page Facebook » (facebook.com/help/389849807718635), citée dans la capsule 1.4 — à revérifier le jour du tournage"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Page → Groupes → Pub",
+      "voice": "Un, ta page. Le même nom que ta fiche Google, une vraie photo, ta zone, un bouton d'action. Puis quatre piliers : pédagogie, avant-après, coulisses, avis, toujours avec l'accord écrit de tes clients. Trois publications par semaine suffisent. Deux, les groupes locaux. Tu lis les règles, et tu apportes avant de demander. Quelqu'un demande si son DPE de 2023 vaut encore quelque chose ? Tu réponds à tout le groupe, sur le fond. Pas de message privé non sollicité. Trois, la pub. Une offre d'estimation en France ? Catégorie spéciale Logement : tu cibles une zone, pas un âge. Et dans le formulaire, une case non cochée, au nom de ton agence, avec l'objet et la durée.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Meta (catégorie Logement, formulaires instantanés) ; loi n° 2025-594 et décret n° 2026-662 (consentement) ; rythme de 3 publications par semaine : proposition pédagogique Éco-Propriété (calendrier éditorial type)",
+      "steps": [
+        { "label": "Page", "detail": "Nom identique à ta fiche Google, vraie photo, zone, bouton ; 4 piliers, 3 posts par semaine." },
+        { "label": "Groupes", "detail": "Lire les règles, répondre sur le fond à tout le groupe, aucun message privé non sollicité." },
+        { "label": "Pub", "detail": "Catégorie Logement, ciblage par zone, formulaire avec case non cochée nominative." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Sarah lit dans le groupe « Melun entre voisins » (exemple fictif) : « Mon DPE F date de 2023, il vaut encore quelque chose ? » Que répondrais-tu à tout le groupe ?",
+      "model_answer": "Un DPE établi depuis juillet 2021 est valable dix ans. Si votre chauffage est électrique, le calcul a changé au 1er janvier 2026 : une attestation actualisée gratuite se télécharge sur l'observatoire de l'ADEME, sans nouvelle visite. Votre classe a peut-être changé.",
+      "keywords": ["10 ans", "électrique", "attestation", "ADEME"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Meta, aide « About ads for housing » et « Comment choisir une catégorie publicitaire spéciale » ; loi n° 2025-594 (consentement préalable)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Une pub d'estimation qui vise la France doit être en catégorie spéciale Logement : ni âge, ni genre, ni code postal",
+          "Une pub immobilière doit viser au moins trois codes postaux",
+          "Aucune : sur Facebook, l'annonceur cible qui il veut"
+        ],
+        "answer": 0,
+        "feedback": "Une offre d'estimation est un service lié au logement. Pour une audience en France, Meta impose la catégorie Logement : ciblage par zone avec un rayon élargi, sans critère d'âge, de genre ni de code postal.",
+        "whys": [
+          "Exact : ces règles visent à empêcher la discrimination dans l'accès au logement.",
+          "Faux : le code postal n'est pas ciblable du tout en catégorie Logement, quel qu'en soit le nombre.",
+          "Faux : les catégories spéciales encadrent justement le ciblage de certaines publicités."
+        ]
+      },
+      "card2": {
+        "question": "Si Karim lançait la même pub en catégorie Logement, sur Melun et les communes voisines, avec une case non cochée au nom de son agence, que se passerait-il ?",
+        "answer": "Sa pub serait conforme, diffusée sur une zone, sans tri par âge. Et chaque personne qui coche la case lui donne un accord nominatif, daté, qu'il peut prouver : il a le droit de la rappeler, sur cet objet et pour la durée indiquée."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : que les vendeurs de ton secteur te lisent, puis te contactent. Le planificateur, et le gestionnaire de publicités.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Être lu, puis contacté, par les vendeurs de ton secteur",
+      "tools": [
+        { "name": "Planificateur de Meta Business Suite", "role": "Publier régulièrement sans y passer tes soirées" },
+        { "name": "Gestionnaire de publicités", "role": "Recevoir des demandes de vendeurs consentants" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Planificateur : préparer, sourcer, programmer",
+      "voice": "Dans le planificateur, tu prépares trois posts de piliers différents. Chaque chiffre a sa source, chaque exemple est signalé fictif. Tu programmes. Et le jour où tu publies un bien : classes énergie et climat, dépenses estimées, mentions de copropriété.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Meta, programmation et Planificateur ; mentions DPE dans les annonces (Service-Public F16096) ; mentions copropriété (INC, art. L. 721-1 CCH) — à vérifier le jour du tournage",
+      "tool": "Planificateur de Meta Business Suite",
+      "steps": [
+        "Préparer 3 posts : pédagogie, coulisses, avis",
+        "Une source par chiffre, exemple signalé fictif",
+        "Programmer : de 20 minutes à 29 jours à l'avance",
+        "Bien à vendre : classes, dépenses estimées, mentions copropriété"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Pub : objectif, catégorie, zone, formulaire",
+      "voice": "Dans le gestionnaire de publicités : objectif Prospects. Catégorie Logement cochée. Zone : Melun et les communes voisines. Budget test, par exemple cinq euros par jour pendant sept jours. Et un formulaire avec ta politique de confidentialité et une case non cochée.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Meta, objectifs publicitaires, catégories spéciales, formulaires instantanés ; budget de 35 € : exemple fictif de la capsule 1.4 — à vérifier le jour du tournage",
+      "tool": "Gestionnaire de publicités",
+      "steps": [
+        "Objectif : Prospects (formulaire)",
+        "Catégorie spéciale Logement cochée",
+        "Zone : Melun et communes voisines",
+        "Budget test fictif : 5 € × 7 jours = 35 €",
+        "Formulaire : lien de confidentialité, case non cochée"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Paramètre ta campagne maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien à valider",
+      "cta": "Ouvrir Meta Business Suite",
+      "url": "https://business.facebook.com/"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta campagne.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture du paramétrage de ta campagne test : catégorie Logement, zone, et formulaire avec sa case non cochée. Tu n'es pas obligé de la lancer.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Commence par programmer tes trois posts, puis reviens déposer ta campagne."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Ta campagne est conforme. Chaque demande qu'elle t'apporte est un accord que tu peux prouver.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta campagne : conforme. Chaque demande : un accord prouvable.",
+      "source": "Meta (catégorie Logement) ; consentement préalable nominatif, preuve conservée 3 ans (loi n° 2025-594, décret n° 2026-662)"
+    }
+  ],
+  "sources": [
+    { "label": "Meta — Programmer une publication pour ta Page Facebook (20 min à 29 jours)", "url": "https://www.facebook.com/help/389849807718635" },
+    { "label": "Meta — Utiliser le Planificateur de Meta Business Suite", "url": "https://www.facebook.com/business/help/1678733516458988" },
+    { "label": "Meta — Choisir le bon objectif publicitaire dans le Gestionnaire de publicités", "url": "https://www.facebook.com/business/help/1438417719786914" },
+    { "label": "Meta — About ads for housing (pays concernés, dont la France)", "url": "https://www.facebook.com/business/help/837655677217892" },
+    { "label": "Meta — Audiences des campagnes Logement, Emploi, Produits et services financiers", "url": "https://www.facebook.com/business/help/2220749868045706" },
+    { "label": "Meta — Comment choisir une catégorie publicitaire spéciale", "url": "https://fr-fr.facebook.com/business/help/298000447747885" },
+    { "label": "Meta — Ajouter une mention personnalisée (cases de consentement) à un formulaire instantané", "url": "https://www.facebook.com/business/help/1550411888622740" },
+    { "label": "Service-Public — DPE : informations obligatoires dans les annonces immobilières (F16096)", "url": "https://www.service-public.fr/particuliers/vosdroits/F16096" },
+    { "label": "INC — Annonces de vente d'un lot de copropriété : mentions obligatoires (art. L. 721-1 CCH)", "url": "https://www.inc-conso.fr/node/15088" },
+    { "label": "economie.gouv.fr — Démarchage téléphonique : consentement préalable (loi n° 2025-594, décret n° 2026-662)", "url": "https://www.economie.gouv.fr/entreprises/bloctel-professionnels-reglementation" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier",
+    "Dans la capsule, Karim est le contre-exemple (page inactive depuis 8 mois) ; dans le gabarit, Karim est un apprenant. Ici, Mozi porte la mauvaise pratique et Karim fait la version conforme (écran 9, carte 2) : à valider",
+    "Règles Meta (catégorie Logement, programmation 20 min à 29 jours, objectifs) à revérifier le jour du tournage",
+    "Rythme « 3 publications par semaine » : proposition pédagogique, pas une règle de Meta",
+    "Écran 11 : mentions d'annonce d'un bien (DPE et copropriété) seulement évoquées ; le détail pour M. Bernard (E, C, 2 330-3 190 €/an, 48 lots, 2 652 €/an) reste dans la fiche ; montant des dépenses à afficher après attestation actualisée à confirmer avec un diagnostiqueur",
+    "Écran 13 : lien Meta Business Suite à valider"
+  ]
+}

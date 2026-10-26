@@ -1,0 +1,215 @@
+{
+  "id": "5.3",
+  "module": 5,
+  "title": "Préparer le compromis",
+  "capsule_title": "Compromis et conditions suspensives",
+  "duration": "4:30",
+  "objective": "Choisir l'avant-contrat et rédiger avec le notaire des conditions suspensives qui protègent l'acquéreur sans fragiliser la vente",
+  "mozi": {
+    "line": "Taux maximal 3,55 %, pile le taux du jour : au moins, c'est précis !",
+    "scene": "Mozi recopie au centième près le taux d'une affiche de banque dans la clause de prêt, fier comme un horloger. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 5.3 : préparer le compromis",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas préparer le compromis des Martin, chiffre par chiffre.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "comment une condition suspensive protège sans bloquer" },
+        { "verb": "Appliquer", "text": "fixer la condition de prêt et la clause des appels de fonds" },
+        { "verb": "Prouver", "text": "montrer ta fiche de préparation pour le notaire" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Taux maximal 3,55 %, pile le taux du jour : au moins, c'est précis !",
+      "voice": "Taux maximal 3,55 %, pile le taux du jour : au moins, c'est précis !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Taux maximal 3,55 %, pile le taux du jour : au moins, c'est précis !",
+      "scene": "Mozi recopie au centième près le taux d'une affiche de banque dans la clause de prêt."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "Taux du jour, zéro marge, 30 jours à Noël",
+      "voice": "Le taux du jour, zéro marge, et trente jours en pleine période de fêtes.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["Taux du jour", "Zéro marge", "30 jours à Noël"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Condition non réalisée. Dépôt rendu, vente tombée.",
+      "voice": "Les taux bougent d'un cheveu, et aucune offre n'entre dans la clause. La condition n'est pas réalisée : le dépôt est rendu en entier, et la vente tombe.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Condition non réalisée.", "Dépôt rendu, vente tombée."],
+      "source": "Code de la consommation, art. L. 313-41, al. 2 : si la condition suspensive de prêt n'est pas réalisée, toute somme versée d'avance par l'acquéreur est immédiatement et intégralement remboursable (Légifrance, version en vigueur consultée le 26/10/2026)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "1 mois minimum pour la condition de prêt",
+      "voice": "La loi fixe un plancher : la condition de prêt dure au moins un mois. Au-delà, c'est à toi de proposer la bonne durée.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "1 mois",
+      "label": "durée minimale de la condition suspensive d'obtention du prêt",
+      "source": "Code de la consommation, art. L. 313-41, al. 1 (Légifrance, consulté le 26/10/2026)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Avant-contrat → Rétractation → Condition de prêt",
+      "voice": "Trois idées. Un : compromis ou promesse unilatérale. Dans le compromis, les deux parties s'engagent. Dans la promesse, seul le vendeur s'engage, et l'acquéreur a une option. Pour les Martin et M. Bernard, ce sera le compromis. Deux : la rétractation. Dix jours, à partir du lendemain de la première présentation de la lettre de notification. Trois : la condition de prêt, avec quatre chiffres choisis. 193 800 euros, 25 ans, 3,90 % maximum hors assurance, 45 jours. À 3,90 %, la mensualité reste d'environ 1 012 euros : la condition est réalisable.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Notaires de France, promesse et compromis (mise à jour 19/06/2026) ; CCH, art. L. 271-1 ; Code de la consommation, art. L. 313-41 (Légifrance) ; calcul de mensualité : capsule 5.3 (1 012,28 €)",
+      "steps": [
+        { "label": "Avant-contrat", "detail": "Compromis : les deux s'engagent. Promesse unilatérale : le vendeur seul, l'acquéreur a une option." },
+        { "label": "Rétractation", "detail": "10 jours, à partir du lendemain de la première présentation de la notification." },
+        { "label": "Condition de prêt", "detail": "193 800 €, 25 ans, 3,90 % max hors assurance, 45 jours." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Hugo, mandataire, prépare avec toi le compromis des Martin. Il propose un taux maximal de 3,55 %, le taux du jour, et 30 jours de délai en décembre. Que lui proposerais-tu ?",
+      "model_answer": "Une marge réaliste : 3,90 % maximum hors assurance, bien sous l'usure de 5,40 %, et 45 jours pour obtenir une offre écrite malgré les fêtes. Je vérifie que la mensualité au taux maximal reste finançable : environ 1 012 € pour 193 800 € sur 25 ans.",
+      "keywords": ["marge", "taux maximal", "45 jours", "offre écrite"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Code de la consommation, art. L. 313-41 (Légifrance) ; Notaires de France (19/06/2026) ; taux d'usure au 1/10/2026 (Meilleurtaux)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Une condition de prêt doit rester réalisable : un taux maximal avec une marge sur le marché et un délai tenable",
+          "La loi impose un taux maximal égal au taux du jour",
+          "La loi impose une marge d'exactement 0,35 point"
+        ],
+        "answer": 0,
+        "feedback": "La loi impose la condition et une durée d'au moins un mois ; les chiffres, ce sont les parties qui les choisissent. Avec le taux du jour, la moindre hausse rend la condition impossible à remplir.",
+        "whys": [
+          "Exact : 3,90 % laisse une marge réaliste sous l'usure de 5,40 %, et la mensualité reste finançable.",
+          "Faux : la loi ne fixe aucun taux ; c'est une négociation entre les parties.",
+          "Faux : aucune marge légale n'existe ; 0,35 point, c'est simplement l'écart choisi dans ce dossier."
+        ]
+      },
+      "card2": {
+        "question": "Si Élodie conseillait à ses mandataires un taux maximal de 5 % et quatre mois de délai, que se passerait-il ?",
+        "answer": "La condition serait facile à remplir, mais le vendeur resterait bloqué quatre mois. Et une offre à 4,9 % réaliserait la condition : les acquéreurs devraient acheter avec un prêt très cher. Une clause trop large protège mal les deux côtés."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : un compromis juste, qui tient jusqu'à l'acte. La fiche conditions, et la clause des appels de fonds.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Outils de la capsule 5.3 (fiche conditions) : choix à valider",
+      "goal": "Un compromis qui tient jusqu'à l'acte",
+      "tools": [
+        { "name": "Fiche conditions", "role": "Fixer et justifier les paramètres du prêt" },
+        { "name": "Clause appels de fonds", "role": "Écrire qui paie chaque appel de la façade" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "La fiche : quatre chiffres justifiés",
+      "voice": "Sur la fiche : 193 800 euros, le besoin réel. 25 ans, le maximum du HCSF. 3,90 % hors assurance : le marché est autour de 3,55 %, l'usure à 5,40 %. Et 45 jours, jusqu'au 29 janvier, pour une offre écrite.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "HCSF, décision D-HCSF-2021-7 (25 ans) ; taux d'usure au 1/10/2026 : 5,40 % (Meilleurtaux) ; taux moyen 20 ans ≈ 3,50-3,55 % en oct. 2026 (fait vérifié de la bible) ; 15/12/2026 + 45 jours = 29/01/2027",
+      "tool": "Fiche conditions",
+      "steps": [
+        "Montant : 193 800 €, le besoin réel du plan de financement",
+        "Durée : 25 ans, maximum recommandé par le HCSF",
+        "Taux : 3,90 % max hors assurance (marché ≈ 3,55 %, usure 5,40 %)",
+        "Délai : 45 jours, jusqu'au 29/01/2027, réalisé par une offre écrite"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "La clause : qui paie la façade ?",
+      "voice": "Pour la clause : l'appel du 1er janvier, 8 970 euros, est payé par M. Bernard, copropriétaire à cette date. Les Martin le lui remboursent le jour de l'acte, puis paient les trois appels suivants. On prévoit aussi le cas de nouveaux travaux. Maître Lemoine rédige.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Décret du 17 mars 1967, art. 6-2 (Légifrance) ; accord des parties du dossier fil rouge fictif (AG du 12/06/2025, D07, D19)",
+      "tool": "Clause appels de fonds",
+      "steps": [
+        "AG du 12/06/2025 : ITE votée, 35 880 € pour le lot",
+        "1/01/2027 : 8 970 € payés par M. Bernard, remboursés à l'acte",
+        "1/04, 1/07, 1/10/2027 : à la charge des Martin",
+        "Nouveaux travaux votés avant l'acte : répartition prévue",
+        "Rédaction finale : Maître Lemoine"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais-le maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice dans un nouvel onglet",
+      "source": "Exercice de la capsule 5.3 : choisir les conditions ; lien à valider",
+      "cta": "Remplir la fiche de préparation",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 5.3 : fiche de préparation du compromis des Martin",
+      "ask": "Dépose une capture de ta fiche de préparation du compromis des Martin, avec les quatre paramètres justifiés et la clause des appels de fonds.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Maître Lemoine attend ta fiche : reviens la déposer quand elle est prête."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Quatre chiffres, quatre justifications. Ta fiche arrive chez le notaire prête à rédiger.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta condition de prêt : 4 chiffres, 4 justifications.",
+      "source": "Fait observable : critères du livrable de la capsule 5.3 (193 800 €, 25 ans, 3,90 %, 45 jours, chacun justifié)"
+    }
+  ],
+  "sources": [
+    { "label": "Art. L. 313-41 Code de la consommation : condition suspensive de prêt, 1 mois minimum, remboursement intégral si non réalisée (Légifrance, texte vérifié le 26/10/2026)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433227" },
+    { "label": "Art. L. 271-1 CCH : délai de rétractation de 10 jours (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667917" },
+    { "label": "Art. L. 271-2 CCH : versements pendant le délai (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031012910" },
+    { "label": "Notaires de France : la promesse de vente et le compromis de vente (mise à jour 19/06/2026)", "url": "https://www.notaires.fr/fr/immobilier-fiscalite/achat-et-vente-les-etapes/la-promesse-de-vente-et-le-compromis-de-vente" },
+    { "label": "HCSF : mesure relative à l'octroi de crédits immobiliers (35 %, 25 ans)", "url": "https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers" },
+    { "label": "Meilleurtaux : taux d'usure au 1er octobre 2026", "url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2026-septembre/taux-dusure-au-1er-octobre-2026-les-nouveaux-plafonds.html" },
+    { "label": "Art. 6-2 du décret du 17 mars 1967 : appels de fonds et vente (Légifrance)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488321" },
+    { "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D07, D14 à D19)", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Relecture juridique obligatoire : compromis / promesse, art. L. 271-1, L. 271-2, L. 313-41, clause des appels de fonds",
+    "Écran 5 : la vente « tombe » si la condition n'est pas réalisée ; le sort exact (caducité, avenant de prorogation) dépend de la rédaction du compromis : le notaire confirme la formulation",
+    "Carte 2 : « une offre à 4,9 % réaliserait la condition » repose sur le principe qu'une offre conforme aux paramètres réalise la condition (capsule 5.3) : à faire confirmer par le relecteur",
+    "Taux de marché ≈ 3,55 % et usure 5,40 % : faits datés d'octobre 2026, à remettre à jour au tournage",
+    "Délai de dépôt des demandes de prêt (15 jours dans la capsule) : proposition pédagogique, non citée ici",
+    "Règle de coordination : la condition suspensive porte sur le seul prêt principal de 193 800 € ; la quote-part ITE de 35 880 € est financée à part (chapitre 5.4)",
+    "Écran 13 : renvoie à l'exercice (« #exercice »)"
+  ]
+}

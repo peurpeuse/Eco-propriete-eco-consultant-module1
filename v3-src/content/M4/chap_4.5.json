@@ -1,0 +1,207 @@
+{
+  "id": "4.5",
+  "module": 4,
+  "title": "Négocier l'offre",
+  "capsule_title": "Négocier l'offre",
+  "duration": "4:30",
+  "objective": "Préparer avec l'IA et conduire la négociation des offres reçues : prix plancher écrit, comparaison en net vendeur, accord sur les appels de fonds, acceptation écrite",
+  "mozi": {
+    "line": "Pile, les Martin ; face, j'invente une offre à 200 000 !",
+    "scene": "Mozi lance une pièce au-dessus des deux offres, la rattrape dans sa tasse de café, puis appelle les Martin pour leur parler d'un acheteur imaginaire. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 4.5 : négocier l'offre",
+      "voice": "Bienvenue. Deux offres pour M. Bernard : 184 000 euros avec prêt, 170 000 comptant. Ici, tu l'aides à choisir, chiffres en main.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi on compare les offres en net réel" },
+        { "verb": "Appliquer", "text": "fixer le prix plancher et préparer la négociation avec l'IA" },
+        { "verb": "Prouver", "text": "montrer ton plan de négociation chiffré" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Pile, les Martin ; face, j'invente une offre à 200 000 !",
+      "voice": "Pile, les Martin ; face, j'invente une offre à 200 000 !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Pile, les Martin ; face, j'invente une offre à 200 000 !",
+      "scene": "Mozi lance une pièce au-dessus des deux offres, puis appelle les Martin pour parler d'un acheteur imaginaire."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "Prix affiché, pile ou face, faux concurrent",
+      "voice": "Le prix affiché, un pile ou face, un faux concurrent.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["Prix affiché", "Pile ou face", "Faux concurrent"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "22 970 € perdus. Vente engagée.",
+      "voice": "Sauf qu'entre les deux offres, l'écart réel est de 22 970 euros. Et une offre acceptée sur la chose et le prix peut déjà engager la vente.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Face : 22 970 € de moins.", "Offre acceptée : vente engagée."],
+      "source": "Calcul du dossier fil rouge fictif : 175 000 − 152 030 = 22 970 € (capsule 4.5) ; code civil, art. 1583 : vente parfaite dès l'accord sur la chose et le prix (Légifrance)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "22 970 € d'écart réel, pas 14 000 €",
+      "voice": "En prix affiché, 14 000 euros d'écart. En net réel pour M. Bernard : 22 970 euros.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "22 970 €", "label": "d'écart réel entre les deux offres, et non 14 000 €",
+      "source": "Dossier fil rouge, exemple fictif : Martin 184 000 − 9 000 = 175 000 € ; Petit 170 000 − 9 000 − 8 970 = 152 030 € (plan de négociation, capsule 4.5)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Plancher → Net réel → Conditions",
+      "voice": "Une négociation se prépare en trois temps. D'abord, le plancher : avant les offres, par écrit. Avec M. Bernard, 175 000 euros net vendeur, à une condition. L'appel de fonds du 1er janvier 2027, 8 970 euros, lui est remboursé à l'acte. Ensuite, le net réel. Les honoraires, 9 000 euros, sont payés par l'acquéreur. Martin : 175 000 euros net, appel remboursé. Petit : 161 000 euros, et il refuse de rembourser l'appel. Il reste 152 030 euros. Enfin, les conditions et les risques. Les Martin ont besoin d'un prêt : 193 800 euros, 3,90 % maximum, 45 jours. Risque faible : leur dossier est qualifié. M. Petit doit encore prouver ses fonds. Tu poses le tableau. Et c'est M. Bernard qui décide.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Plan de négociation (capsule 4.5) ; dossier fil rouge fictif (BIBLE § 7) ; décret du 17 mars 1967, art. 6-2 (analyse ANIL)",
+      "steps": [
+        { "label": "Plancher", "detail": "175 000 € net vendeur, écrit avant les offres, appel du 1/01/2027 remboursé." },
+        { "label": "Net réel", "detail": "Martin 175 000 €, Petit 152 030 € : 22 970 € d'écart." },
+        { "label": "Conditions", "detail": "Prêt de 193 800 €, 3,90 % max, 45 jours ; fonds de M. Petit à prouver." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; plan de négociation (capsule 4.5)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard t'appelle : « 184 000 ou 170 000, laquelle je prends ? » Que lui proposes-tu ?",
+      "model_answer": "Je lui envoie d'abord un tableau écrit : net vendeur et net réel de chaque offre, 175 000 € contre 152 030 €, avec les conditions et les risques. Je lui rappelle son plancher. Puis on en parle posément, et c'est lui qui décide.",
+      "keywords": ["tableau", "net réel", "plancher", "il décide"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Plan de négociation (capsule 4.5), proposition pédagogique ; code civil, art. 1589-1 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "On compare les offres en net réel pour le vendeur, avec des informations vraies, et c'est lui qui décide",
+          "L'agent retient l'offre la plus haute en prix affiché",
+          "Annoncer une offre concurrente imaginaire est une technique admise"
+        ],
+        "answer": 0,
+        "feedback": "Ton rôle : éclairer ton mandant avec des chiffres justes. Le prix affiché trompe (14 000 € d'écart affiché, 22 970 € réels), et un bluff détruit la confiance et fragilise l'accord.",
+        "whys": [
+          "Exact : tableau en net réel, conditions, risques, puis décision de M. Bernard.",
+          "Faux : 184 000 et 170 000 incluent les honoraires et ignorent l'appel de janvier.",
+          "Faux : une information inventée trompe l'acquéreur et peut faire tomber l'accord."
+        ]
+      },
+      "card2": {
+        "question": "Si Karim acceptait le chèque que M. Petit veut joindre à son offre, que se passerait-il ?",
+        "answer": "L'engagement de M. Petit serait nul : un engagement unilatéral d'achat assorti d'un versement est nul (code civil, art. 1589-1). Karim exposerait l'agence, et les fonds de M. Petit ne seraient toujours pas prouvés."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : que M. Bernard décide en confiance. Le tableau en net réel, et le prompt IA de préparation.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Plan de négociation (capsule 4.5) : proposition pédagogique",
+      "goal": "Une décision éclairée de M. Bernard",
+      "tools": [
+        { "name": "Tableau en net réel", "role": "Comparer ce que le vendeur garde vraiment" },
+        { "name": "Prompt IA de négociation", "role": "Préparer arguments et objections, puis corriger" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le tableau : du prix affiché au net réel",
+      "voice": "Le tableau, d'abord. Une colonne par offre. Le prix honoraires inclus, moins 9 000 euros. Puis l'appel de janvier, remboursé ou non. Puis le net réel, les conditions et le risque. Tu l'envoies la veille : un profil C lit avant de parler.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Plan de négociation, tableau comparatif (capsule 4.5) ; offres D15 fictives",
+      "tool": "Tableau en net réel",
+      "steps": [
+        "Prix FAI : 184 000 € / 170 000 €",
+        "Moins 9 000 € d'honoraires : 175 000 € / 161 000 €",
+        "Appel du 1/01/2027 : remboursé / − 8 970 €",
+        "Net réel : 175 000 € / 152 030 €, avec conditions et risques"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le prompt : préparer, puis corriger",
+      "voice": "Le prompt, ensuite. Rôle : conseiller du vendeur. Les offres, sans aucun nom. Tâche : tableau, arguments, objections. L'IA écrit que les quatre appels sont pour le vendeur ? Faux : c'est la date d'exigibilité qui compte. Elle propose un bluff ? Tu supprimes.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Plan de négociation, prompt IA (capsule 4.5) ; décret du 17 mars 1967, art. 6-2 (analyse ANIL) ; aucune donnée personnelle dans l'outil (RGPD)",
+      "tool": "Prompt IA de négociation",
+      "steps": [
+        "Rôle : conseiller en négociation, au service du vendeur",
+        "Données anonymes : offres, plancher, échéancier, date d'acte",
+        "Tâche : tableau, arguments, objections",
+        "Corriger : date d'exigibilité, et aucun bluff"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Prépare ton plan maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 4.5 (prix plancher et arguments)",
+      "cta": "Préparer mon plan de négociation",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 4.5 : plan de négociation de la vente de M. Bernard",
+      "ask": "Dépose une capture de ton plan de négociation : prix plancher écrit et tableau en net réel des deux offres.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. M. Bernard attend son tableau : reviens déposer ton plan quand il est prêt."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "M. Bernard a signé le 2 décembre. 184 000 euros, et 175 000 euros net réel. Direction le notaire.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Offre acceptée le 2/12/2026 : 184 000 € FAI, 175 000 € net réel.",
+      "source": "Dossier fil rouge, exemple fictif (BIBLE § 7 : offre Martin acceptée le 2/12/2026)"
+    }
+  ],
+  "sources": [
+    { "label": "Légifrance — Code civil, art. 1583 (vente parfaite dès l'accord sur la chose et le prix)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441308" },
+    { "label": "Légifrance — Code civil, art. 1589-1 (nullité de l'engagement unilatéral d'achat assorti d'un versement)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441325" },
+    { "label": "ANIL — Décret du 27 mai 2004 (art. 6-2 du décret de 1967 : paiement des appels de fonds en cas de vente ; convention contraire entre les parties)", "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/analyses-juridiques/analyses-juridiques-2004/principales-dispositions-du-decret-27-mai-2004/" },
+    { "label": "Proposition pédagogique Éco-Propriété (prix plancher, net réel, déroulé de négociation, prompt) ; dossier fil rouge fictif", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Écran 6 : le chiffre clé (22 970 €) vient du dossier fil rouge fictif, pas d'une statistique externe ; à valider",
+    "Prix plancher de 175 000 € et refus de M. Petit de rembourser l'appel de janvier : choix pédagogiques à valider par la coordination pour les autres modules",
+    "Hypothèse : honoraires maintenus à 9 000 € quel que soit le prix",
+    "Relecture juridique : portée d'une offre acceptée (art. 1583), art. 1589-1, formulation de la convention sur les appels de fonds (art. 6-2 du décret du 17 mars 1967)",
+    "La qualification juridique du bluff (pratique commerciale trompeuse ?) n'est pas affirmée à l'écran : à faire préciser si on veut l'ajouter"
+  ]
+}

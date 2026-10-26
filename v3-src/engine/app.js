@@ -27,8 +27,9 @@
     check: '<path d="M5 12l5 5L20 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>',
     chev: '<path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'
   };
+  IC.chapter = IC.video;
   function ic(k) { return '<svg class="i" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">' + (IC[k] || IC.reading) + '</svg>'; }
-  var KIND = { video: 'Vidéo', quiz: 'Quiz flash', reading: 'Lecture', practice: 'Exercice pratique', assignment: 'Devoir', case: 'Cas pratique évalué', reminder: 'Rappels espacés', welcome: 'Lecture', dossier: 'Ressources', test: 'Évaluation', survey: 'Questionnaire', cert: 'Attestation' };
+  var KIND = { chapter: 'Chapitre interactif', video: 'Vidéo', quiz: 'Quiz flash', reading: 'Lecture', practice: 'Exercice pratique', assignment: 'Devoir', case: 'Cas pratique évalué', reminder: 'Rappels espacés', welcome: 'Lecture', dossier: 'Ressources', test: 'Évaluation', survey: 'Questionnaire', cert: 'Attestation' };
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function nl(s) { return esc(s).replace(/\n/g, '<br>'); }
@@ -61,11 +62,19 @@
       var s = { id: 'm' + m.id, mod: m, title: m.title, color: 'var(--m' + m.id + ')', groups: [] };
       m.capsules.forEach(function (c) {
         var g = { label: c.id + ' · ' + c.title, items: [] }; s.groups.push(g);
+        if (c.chapter) {
+          g.label = c.id + ' · ' + c.chapter.title;
+          add(s, g, { key: 'c:' + c.id + ':0', kind: 'chapter', cap: c, step: 0, title: 'Chapitre ' + c.id + ' · ' + c.chapter.title, dur: 'Chapitre interactif · ' + (c.chapter.duration || '4:30') });
+          add(s, g, { key: 'c:' + c.id + ':2', kind: 'reading', cap: c, step: 2, title: c.resource.title, dur: 'Pour aller plus loin · fiche PDF', opt: 1 });
+          add(s, g, { key: 'c:' + c.id + ':3', kind: 'practice', cap: c, step: 3, title: c.exercise.title, dur: 'Pour aller plus loin · ' + c.exercise.duration_min + ' min' + (c.ia ? ' · IA' : ''), ia: c.ia, opt: 1 });
+          add(s, g, { key: 'c:' + c.id + ':4', kind: 'assignment', cap: c, step: 4, title: c.deliverable.title, dur: 'Pour aller plus loin · devoir', opt: 1 });
+        } else {
         add(s, g, { key: 'c:' + c.id + ':0', kind: 'video', cap: c, step: 0, title: c.title, dur: 'Vidéo · 8 min' });
         add(s, g, { key: 'c:' + c.id + ':1', kind: 'quiz', cap: c, step: 1, title: 'Quiz flash', dur: 'Quiz · ' + c.quiz.questions.length + ' questions' });
         add(s, g, { key: 'c:' + c.id + ':2', kind: 'reading', cap: c, step: 2, title: c.resource.title, dur: 'Lecture · fiche PDF' });
         add(s, g, { key: 'c:' + c.id + ':3', kind: 'practice', cap: c, step: 3, title: c.exercise.title, dur: 'Exercice · ' + c.exercise.duration_min + ' min' + (c.ia ? ' · IA' : ''), ia: c.ia });
         add(s, g, { key: 'c:' + c.id + ':4', kind: 'assignment', cap: c, step: 4, title: c.deliverable.title, dur: 'Devoir · à déposer' });
+        }
       });
       var g2 = { label: 'Fin du module ' + m.id, items: [] }; s.groups.push(g2);
       add(s, g2, { key: 'case:' + m.id, kind: 'case', mod: m, title: m.case.title, dur: 'Cas pratique · ' + m.case.duration_min + ' min' });
@@ -106,7 +115,7 @@
     if (SCOPE.end && S.t.fin != null) raw = S.t.fin;
     else { var t = 0, n = 0; MODS.forEach(function (m) { m.capsules.forEach(function (c) { var q = (S.c[c.id] || {}).q; if (q != null) { t += q; n++; } }); }); if (n) raw = Math.round(t / n); }
     if (raw != null) LMS.set('cmi.core.score.raw', raw);
-    var need = FLAT.filter(function (it) { return ['cert', 'survey', 'welcome', 'dossier', 'reminder'].indexOf(it.kind) < 0; });
+    var need = FLAT.filter(function (it) { return !it.opt && ['cert', 'survey', 'welcome', 'dossier', 'reminder'].indexOf(it.kind) < 0; });
     if (need.every(isDone)) LMS.set('cmi.core.lesson_status', 'completed');
   }
   var nInter = null;
@@ -144,19 +153,19 @@
     var cta = '<button class="btn p big" data-learn="' + esc(nextKey()) + '">' + (started ? 'Reprendre la formation' : 'Commencer la formation') + '</button>';
     var single = MODS.length === 1;
     var h = '<section class="hero"><div class="wrap"><div><div class="crumb">' + esc(M.program || 'Formation') + ' › Immobilier › Transaction</div><h1>' + esc(single ? 'Module ' + MODS[0].id + ' · ' + MODS[0].title : TITLE) + '</h1>' +
-      '<p class="lead">' + esc(single ? (M.objectives || {})[MODS[0].id] || M.pitch : M.pitch) + '</p><div class="inst"><img src="assets/seb.png" alt=""><span>Formateur : <b>Seb</b>, Éco-Propriété</span></div>' +
+      '<p class="lead">' + esc(single ? (M.objectives || {})[MODS[0].id] || M.pitch : M.pitch) + '</p><div class="inst"><img src="assets/seb.png" alt=""><span>Formateur : <b>Sébastien Paumier</b>, Éco-Propriété</span></div>' +
       '<div class="row">' + cta + (started ? '<span class="muted">' + pct() + ' % terminé</span>' : '') + '</div></div>' +
       '<div class="side"><div class="card"><b>Ce qui est inclus</b><ul class="incl">' +
-      [[nCaps + ' vidéos de 8 minutes avec Seb', 'video'], [nCaps + ' quiz flash corrigés', 'quiz'], [nCaps + ' fiches pratiques en PDF', 'reading'], [nCaps + ' exercices sur un dossier réel (fictif)', 'practice'], [MODS.length + ' cas pratique' + (MODS.length > 1 ? 's' : '') + ' évalué' + (MODS.length > 1 ? 's' : ''), 'case'], ['Rappels J+1, J+7, J+30', 'reminder'], ['Attestation de fin de formation', 'cert']].map(function (x) { return '<li>' + ic(x[1]) + '<span>' + esc(x[0]) + '</span></li>'; }).join('') + '</ul></div></div></div>' +
-      '<div class="wrap"><div class="facts"><div><b>' + MODS.length + ' module' + (single ? '' : 's') + '</b><span>' + nCaps + ' capsules de 8 min</span></div><div><b>Niveau intermédiaire</b><span>Agents, mandataires, négociateurs</span></div><div><b>' + esc(single ? '≈ ' + Math.round(MODS[0].capsules.length * 1.1 + 1) + ' heures' : M.hours || '≈ 40 heures') + '</b><span>À ton rythme, 100 % en ligne</span></div><div><b>Attestation</b><span>De fin de formation</span></div></div></div></section>' +
+      [[nCaps + ' chapitres interactifs de 4 min 30 avec Sébastien Paumier', 'video'], [nCaps + ' quiz en cartes à retourner', 'quiz'], [nCaps + ' fiches pratiques en PDF', 'reading'], [nCaps + ' exercices sur un dossier réel (fictif)', 'practice'], [MODS.length + ' cas pratique' + (MODS.length > 1 ? 's' : '') + ' évalué' + (MODS.length > 1 ? 's' : ''), 'case'], ['Rappels J+1, J+7, J+30', 'reminder'], ['Attestation de fin de formation', 'cert']].map(function (x) { return '<li>' + ic(x[1]) + '<span>' + esc(x[0]) + '</span></li>'; }).join('') + '</ul></div></div></div>' +
+      '<div class="wrap"><div class="facts"><div><b>' + MODS.length + ' module' + (single ? '' : 's') + '</b><span>' + nCaps + ' chapitres de 4 min 30</span></div><div><b>Niveau intermédiaire</b><span>Agents, mandataires, négociateurs</span></div><div><b>' + esc(single ? '≈ ' + Math.round(MODS[0].capsules.length * 1.1 + 1) + ' heures' : M.hours || '≈ 40 heures') + '</b><span>À ton rythme, 100 % en ligne</span></div><div><b>Attestation</b><span>De fin de formation</span></div></div></div></section>' +
       '<nav class="tabsbar" aria-label="Sections de la page"><div class="wrap"><a href="#apropos" class="on">À propos</a><a href="#modules">Modules</a><a href="#formateur">Formateur</a><a href="#evaluation">Évaluation</a>' + (M.downloads ? '<a href="#lms">Pour ton LMS</a>' : '') + '</div></nav>' +
       '<div class="wrap"><section class="sec" id="apropos"><h2>Ce que tu vas apprendre</h2><div class="learn">' + MODS.map(function (m) { return '<div>' + ic('check') + '<span>' + esc((M.objectives || {})[m.id] || m.title) + '</span></div>'; }).join('') + '</div>' +
       '<h2 class="mt">Compétences travaillées</h2><div class="skills">' + (M.skills || []).map(function (s) { return '<span>' + esc(s) + '</span>'; }).join('') + '</div>' +
-      '<h2 class="mt">Détails</h2><div class="details"><div><b>Format</b><span class="muted">Vidéo, quiz, lecture, exercice, devoir</span></div><div><b>Langue</b><span class="muted">Français</span></div><div><b>Fil rouge</b><span class="muted">Un T4 à Melun classé F, de l’estimation à l’acte</span></div><div><b>Intelligence artificielle</b><span class="muted">' + nIA + ' exercices avec prompts métier</span></div></div></section>' +
+      '<h2 class="mt">Détails</h2><div class="details"><div><b>Format</b><span class="muted">Chapitres de 15 écrans : Mozi, le cours, le quiz, la démo, ta preuve</span></div><div><b>Langue</b><span class="muted">Français</span></div><div><b>Fil rouge</b><span class="muted">Un T4 à Melun classé F, de l’estimation à l’acte</span></div><div><b>Intelligence artificielle</b><span class="muted">' + nIA + ' exercices avec prompts métier</span></div></div></section>' +
       '<section class="sec" id="modules"><h2>' + (single ? 'Contenu du module' : 'Il y a ' + MODS.length + ' modules dans cette formation') + '</h2><p class="muted">Code couleur DPE : tu progresses du rouge vers le vert, comme un logement qu’on rénove.</p><div class="mods">' +
       SECS.map(function (s) { return modCard(s); }).join('') + '</div></section>' +
-      '<section class="sec" id="formateur"><h2>Formateur</h2><div class="inst2"><img src="assets/seb.png" alt=""><div><h3>Seb</h3><p class="muted" style="margin:2px 0 8px">Formateur Éco-Propriété · spécialiste transaction et performance énergétique</p><p>' + esc(cut((G.start || {}).welcome, 420)) + '</p></div></div></section>' +
-      '<section class="sec" id="evaluation"><h2>Comment tu es évalué</h2><div class="details"><div><b>Quiz flash</b><span class="muted">Après chaque vidéo, corrigés et rejouables</span></div><div><b>Devoirs</b><span class="muted">' + nCaps + ' livrables avec grille de validation</span></div><div><b>Cas pratiques</b><span class="muted">Un par module, évalué par le formateur</span></div>' + (SCOPE.end ? '<div><b>Quiz final</b><span class="muted">' + ((G.final || {}).questions || []).length + ' questions, seuil ' + TH + ' %</span></div>' : '<div><b>Score SCORM</b><span class="muted">Moyenne des quiz flash</span></div>') + '</div><div class="row" style="margin-top:22px">' + cta + '</div></section></div>';
+      '<section class="sec" id="formateur"><h2>Formateur</h2><div class="inst2"><img src="assets/seb.png" alt=""><div><h3>Sébastien Paumier</h3><p class="muted" style="margin:2px 0 8px">Formateur Éco-Propriété · spécialiste transaction et performance énergétique</p><p>' + esc(cut((G.start || {}).welcome, 420)) + '</p></div></div></section>' +
+      '<section class="sec" id="evaluation"><h2>Comment tu es évalué</h2><div class="details"><div><b>Quiz en cartes</b><span class="muted">Dans chaque chapitre, retour expliqué immédiat</span></div><div><b>Devoirs</b><span class="muted">' + nCaps + ' livrables avec grille de validation</span></div><div><b>Cas pratiques</b><span class="muted">Un par module, évalué par le formateur</span></div>' + (SCOPE.end ? '<div><b>Quiz final</b><span class="muted">' + ((G.final || {}).questions || []).length + ' questions, seuil ' + TH + ' %</span></div>' : '<div><b>Score SCORM</b><span class="muted">Moyenne des quiz flash</span></div>') + '</div><div class="row" style="margin-top:22px">' + cta + '</div></section></div>';
     if (M.downloads) {
       // Paquets SCORM 1.2 à importer dans le LMS (site uniquement, pas dans les paquets eux-mêmes)
       var dl = '<section class="sec" id="lms"><h2>Pour ton LMS : les paquets SCORM</h2><p class="muted">Télécharge le paquet et importe-le tel quel dans ton LMS (format SCORM 1.2, version ' + esc(M.version || '') + '). Le suivi (progression, score, statut « terminé ») remonte dans le LMS. Les vidéos sont lues en streaming : l’apprenant doit avoir accès à Internet.</p><div class="dl">' +
@@ -172,9 +181,9 @@
   function modCard(s) {
     var items = secItems(s), nd = items.filter(isDone).length, m = s.mod;
     var first = items.filter(function (it) { return !isDone(it); })[0] || items[0];
-    var meta = m ? m.capsules.length + ' vidéos · ' + m.capsules.length + ' quiz · ' + m.capsules.length + ' lectures · ' + m.capsules.length + ' exercices · 1 cas pratique' : items.length + ' éléments';
+    var meta = m ? m.capsules.length + ' chapitres interactifs · ' + m.capsules.length + ' fiches · ' + m.capsules.length + ' exercices · 1 cas pratique' : items.length + ' éléments';
     var body = m ? '<div class="io"><div><b>Point de départ</b><br>' + esc(m.entry) + '</div><div><b>Ce que tu produis</b><br>' + esc(m.exit) + '</div></div>' +
-      '<ul class="ilist">' + m.capsules.map(function (c) { return '<li>' + ic('video') + '<span><b>' + c.id + ' · ' + esc(c.title) + '</b>' + (c.ia ? ' <span class="chip ia">IA</span>' : '') + '<br><span class="muted sm">' + esc(c.objective) + '</span></span><span class="k">5 éléments</span></li>'; }).join('') +
+      '<ul class="ilist">' + m.capsules.map(function (c) { var mz = c.chapter && c.chapter.mozi && c.chapter.mozi.line; return '<li>' + ic('video') + '<span><b>' + c.id + ' · ' + esc(c.chapter ? c.chapter.title : c.title) + '</b>' + (c.ia ? ' <span class="chip ia">IA</span>' : '') + '<br><span class="muted sm">' + esc(mz ? 'Mozi : « ' + mz + ' »' : c.objective) + '</span></span><span class="k">' + (c.chapter ? '4 min 30' : '5 éléments') + '</span></li>'; }).join('') +
       '<li>' + ic('case') + '<span><b>Cas pratique</b> · ' + esc(m.case.title) + '</span><span class="k">' + m.case.duration_min + ' min</span></li><li>' + ic('reminder') + '<span>Rappels J+1 · J+7 · J+30</span><span class="k">Quiz</span></li></ul>' :
       '<ul class="ilist">' + items.map(function (it) { return '<li>' + ic(it.kind) + '<span>' + esc(it.title) + '</span><span class="k">' + esc(it.dur) + '</span></li>'; }).join('') + '</ul>';
     return '<details class="mod" style="--mc:' + s.color + '"' + (m && m.id === MODS[0].id ? ' open' : '') + '><summary><span class="bar6"></span><span>' + (m ? '<span class="mk">MODULE ' + m.id + '</span>' : '') + '<h3>' + esc(s.title) + '</h3><div class="meta">' + esc(meta) + (nd ? ' · ' + nd + '/' + items.length + ' terminés' : '') + '</div></span><span class="chev">' + ic('chev') + '</span></summary><div class="body">' + body +
@@ -285,13 +294,30 @@
   }
 
   /* ---------- Rendus par type ---------- */
-  var R = {}, B = {};
+  var R = {}, B = {}, CH = null;
+  R.chapter = function (it) {
+    var c = it.cap;
+    return window.EcoChapter.render(c.chapter, { avatar: 'assets/seb.png' }) +
+      '<div class="box" style="margin-top:18px"><h3>Pour aller plus loin</h3><p style="margin:0">La fiche « ' + esc(c.resource.title) + ' », l’exercice complet « ' + esc(c.exercise.title) + ' » et le devoir « ' + esc(c.deliverable.title) + ' » sont dans le plan, juste après ce chapitre.</p></div>';
+  };
+  B.chapter = function (it) {
+    var c = it.cap, st = cs(c.id), k = 'proof:' + c.id;
+    var ch = st.ch || (st.ch = {});
+    if (CH) CH.destroy();
+    CH = window.EcoChapter.mount(app.querySelector('.ch'), c.chapter, {
+      state: ch, proof: DEP[k], save: save,
+      onDone: function () { if (!st.v) { st.v = 1; save(); var n = $('courseNav'); if (n) { var y = n.scrollTop; n.outerHTML = navHtml(it); $('courseNav').scrollTop = y; bindNav(it); } } },
+      onQuiz: function (ok, sel) { st.q = ok ? 100 : 0; interaction('ch' + c.id + '-q1', String.fromCharCode(97 + sel), ok, String.fromCharCode(97 + c.chapter.screens[8].card1.answer)); },
+      onProof: function (u) { DEP[k] = u; saveDep(); },
+      onExercise: function () { go(['learn', 'c:' + c.id + ':3']); }
+    });
+  };
   R.video = function (it) {
     var c = it.cap, v = c.video;
     var isHls = v.src && /\.m3u8($|\?)/.test(v.src);
     var media = v.src ? '<video controls preload="metadata" playsinline' + (v.poster ? ' poster="' + esc(v.poster) + '"' : '') + (isHls ? ' data-hls="' : ' src="') + esc(v.src) + '"></video>' :
-      '<img class="seb" src="assets/seb.png" alt=""><button class="pl" id="playBtn" aria-label="Lire la transcription"></button><span class="tag">Vidéo en production · avatar de Seb</span><span class="hook">« ' + esc(v.hook) + ' »</span>';
-    return '<div class="player">' + media + '</div>' + (v.src ? (v.note ? '<p class="muted sm" style="margin-top:8px">' + esc(v.note) + '</p>' : '') : '<p class="muted sm" style="margin-top:8px">La vidéo de Seb est en cours de production. En attendant, la transcription complète est disponible ci-dessous.</p>') +
+      '<img class="seb" src="assets/seb.png" alt=""><button class="pl" id="playBtn" aria-label="Lire la transcription"></button><span class="tag">Vidéo en production · avatar de Sébastien Paumier</span><span class="hook">« ' + esc(v.hook) + ' »</span>';
+    return '<div class="player">' + media + '</div>' + (v.src ? (v.note ? '<p class="muted sm" style="margin-top:8px">' + esc(v.note) + '</p>' : '') : '<p class="muted sm" style="margin-top:8px">La vidéo de Sébastien Paumier est en cours de production. En attendant, la transcription complète est disponible ci-dessous.</p>') +
       '<div class="ptabs" role="tablist"><button role="tab" aria-selected="true" data-pt="tr">Transcription</button><button role="tab" aria-selected="false" data-pt="ob">Objectif</button>' + (C.showProd ? '<button role="tab" aria-selected="false" data-pt="prod">Montage</button>' : '') + '</div>' +
       '<div id="ptr" class="tr noprod" tabindex="0">' + v.segments.map(function (s) { return '<div class="seg"><span class="tc">' + esc(s.tc) + '</span><span>' + esc(s.voice) + '<span class="sc">Plan : ' + esc(s.screen) + (s.onscreen ? ' · À l’écran : ' + esc(s.onscreen) : '') + '</span></span></div>'; }).join('') + '</div>' +
       '<div id="pob" hidden><div class="box"><h3>Objectif de la capsule</h3><p style="margin:0">À la fin de cette capsule, tu sauras ' + esc(lc(c.objective)) + '.</p></div><div class="box"><h3>Ensuite</h3><p style="margin:0">Quiz flash (' + c.quiz.questions.length + ' questions), la fiche « ' + esc(c.resource.title) + ' », l’exercice « ' + esc(c.exercise.title) + ' », puis le devoir à déposer.</p></div></div>';
@@ -391,7 +417,7 @@
   };
   R.welcome = function () {
     var s = G.start || {};
-    return '<div class="box seb"><img src="assets/seb.png" alt="Seb, ton formateur"><div>' + nl(s.welcome) + '</div></div>' +
+    return '<div class="box seb"><img src="assets/seb.png" alt="Sébastien Paumier, ton formateur"><div>' + nl(s.welcome) + '</div></div>' +
       '<div class="box"><h3>Accès à la plateforme</h3><ol class="st">' + (s.platform_steps || []).map(function (x) { return '<li><span>' + nl(x) + '</span></li>'; }).join('') + '</ol></div>' +
       '<div class="box"><h3>Comment fonctionne une capsule</h3><p style="margin:0">' + nl(s.how_it_works) + '</p></div>';
   };
@@ -464,6 +490,9 @@
   if (PREVIEW) { var pb = document.createElement('div'); pb.className = 'preview'; pb.textContent = 'Démonstration · tout est ouvert'; document.body.appendChild(pb); }
   window.__eco = { S: S, go: go, FLAT: FLAT };
   var start = S.cur && S.cur[0] === 'learn' && BYKEY[S.cur[1]] ? S.cur : ['home'];
+  var rm = /^#render-(\d+)-(\d+)(?:-(\d+))?$/.exec(location.hash);
+  if (rm) { var rc = null; C.modules.forEach(function (m) { m.capsules.forEach(function (c) { if (c.id === rm[1] + '.' + rm[2]) rc = c; }); });
+    if (rc && rc.chapter) { document.body.classList.add('rendering'); app.innerHTML = window.EcoChapter.render(rc.chapter, { render: true }); window.EcoChapter.mount(app.querySelector('.ch'), rc.chapter, { render: true, state: { i: rm[3] ? +rm[3] - 1 : 0 } }); return; } }
   var hm = /^#c(\d+)-(\d+)$/.exec(location.hash); if (hm && BYKEY['c:' + hm[1] + '.' + hm[2] + ':0']) start = ['learn', 'c:' + hm[1] + '.' + hm[2] + ':0'];
   S.cur = start; render(); save();
 })();

@@ -905,7 +905,7 @@ main .wrap{padding-block:16px 110px}
       box.appendChild(el("b", { text: "Dès que tu confirmes, Claude lance la production de " + keyName(key) + (cap ? " et de rien d'autre :" : " (toutes ses capsules) :") }));
       box.appendChild(el("ul", null, [
         el("li", { text: cap ? "reporter les corrections validées de cette capsule ;" : "reporter toutes les corrections validées du module ;" }),
-        nv ? el("li", { text: cap ? (rd.noVideo ? "produire sa vidéo de Seb (voix ElevenLabs, avatar HeyGen, motion design). Cela consomme des crédits ;" : "refaire sa vidéo de Seb : son script a changé. Cela consomme des crédits ;") : "produire " + nv + " vidéo" + (nv > 1 ? "s" : "") + " de Seb (voix ElevenLabs, avatar HeyGen, motion design) : " + rd.noVideo + " nouvelle" + (rd.noVideo > 1 ? "s" : "") + ", " + rd.changed + " à refaire. Cela consomme des crédits ;" }) : el("li", { text: cap ? "pas de vidéo à produire : la sienne est à jour ;" : "aucune vidéo à produire : elles sont toutes à jour ;" }),
+        nv ? el("li", { text: cap ? (rd.noVideo ? "produire sa vidéo de Sébastien Paumier (voix ElevenLabs, avatar HeyGen, motion design). Cela consomme des crédits ;" : "refaire sa vidéo de Sébastien Paumier : son script a changé. Cela consomme des crédits ;") : "produire " + nv + " vidéo" + (nv > 1 ? "s" : "") + " de Sébastien Paumier (voix ElevenLabs, avatar HeyGen, motion design) : " + rd.noVideo + " nouvelle" + (rd.noVideo > 1 ? "s" : "") + ", " + rd.changed + " à refaire. Cela consomme des crédits ;" }) : el("li", { text: cap ? "pas de vidéo à produire : la sienne est à jour ;" : "aucune vidéo à produire : elles sont toutes à jour ;" }),
         el("li", { text: cap ? "régénérer sa fiche PDF et le paquet SCORM du module " + key.split(".")[0] + " (les autres capsules gardent leur version actuelle) ;" : "régénérer les fiches PDF et le paquet SCORM du module ;" }),
         el("li", { text: "publier sur le site Vercel (téléchargement SCORM pour le LMS)." })]));
       box.appendChild(el("div", { class: "rowbtns" }, [
@@ -935,20 +935,20 @@ main .wrap{padding-block:16px 110px}
   function capsuleBody(it) {
     var k = [], r = peek(it.id);
     k.push(el("div", { class: "sec" }, [el("h2", { text: "Objectif" }), editable(it, "video", "obj", it.objective)]));
-    var vid = [el("p", { class: "muted", text: it.script.length + " segments · " + it.words + " mots · ≈ " + String(it.min).replace(".", ",") + " min" + (r.prompteur ? " · lu par toi en " + mmss(r.prompteur.sec) : "") })];
+    var vid = [el("p", { class: "muted", text: (it.chapter ? "Chapitre · " + it.script.length + " écrans · Mozi : « " + it.chapter.mozi + " » · " : it.script.length + " segments · ") + it.words + " mots · ≈ " + String(it.min).replace(".", ",") + " min" + (r.prompteur ? " · lu par toi en " + mmss(r.prompteur.sec) : "") })];
     var btns = [el("button", { class: "watch", type: "button", text: "🎙 Lire le script au prompteur", onclick: function () { openPrompter(it); } })];
-    if (it.video) btns.push(el("a", { class: "watch", href: DATA.site + "/#c" + it.id.replace(".", "-"), target: "_blank", rel: "noopener", text: "▶ Regarder la vidéo sur le site" }));
+    if (it.video || it.chapter) btns.push(el("a", { class: "watch", href: DATA.site + "/#c" + it.id.replace(".", "-"), target: "_blank", rel: "noopener", text: it.chapter ? "▶ Voir le chapitre interactif sur le site" : "▶ Regarder la vidéo sur le site" }));
     vid.push(el("div", { class: "rowbtns" }, btns));
-    if (!it.video) vid.push(el("p", { class: "muted", text: "Vidéo pas encore tournée : tu valides le script, la vidéo sera produite ensuite." }));
+    if (!it.video) vid.push(el("p", { class: "muted", text: it.chapter ? "Un passage = un écran du chapitre (15 écrans, 4 min 30). Tu valides les voix ; la voix de Sébastien Paumier et le motion design sont produits après ta mise en production." : "Vidéo pas encore tournée : tu valides le script, la vidéo sera produite ensuite." }));
     var player = it.vsrc ? videoPlayer(it) : null;
     if (player) vid.push(player.wrap);
     var segRows = it.script.map(function (s, i) {
       var t = player && it.vstarts && it.vstarts[i] != null ? it.vstarts[i] : null;
       var tc = t != null ? el("button", { class: "tcb", type: "button", title: "Lire la vidéo à partir d'ici", text: "▶ " + mmss2(t), onclick: function () { player.seek(t); } }) : el("div", { class: "tc", text: s[0] });
-      return el("div", { class: "seg" }, [tc, el("div", null, [editable(it, "video", "seg:" + s[0], s[1]), s[2] ? el("p", { class: "os", text: "À l'écran : " + s[2] }) : null])]);
+      return el("div", { class: "seg" }, [tc, el("div", null, [editable(it, "video", "seg:" + s[0], s[1]), s[2] ? el("p", { class: "os", text: (it.chapter ? "" : "À l'écran : ") + s[2] + (it.chapter && it.chapter.status && it.chapter.status[i + 1] === "proposition" ? " · voix à valider" : "") }) : null])]);
     });
     if (player && it.vstarts) player.sync(segRows, it.vstarts);
-    vid.push(el("details", { open: "" }, [el("summary", { text: player ? "Le script de Seb (clique un temps pour l'écouter, « Modifier » pour réécrire)" : "Le script de Seb (clique « Modifier » sur un passage pour le réécrire)" }), el("div", { class: "in" }, segRows)]));
+    vid.push(el("details", { open: "" }, [el("summary", { text: player ? "Le script de Sébastien Paumier (clique un temps pour l'écouter, « Modifier » pour réécrire)" : "Le script de Sébastien Paumier (clique « Modifier » sur un passage pour le réécrire)" }), el("div", { class: "in" }, segRows)]));
     k.push(sec("① La vidéo", "video", it, vid));
     k.push(sec("② Le quiz (" + it.quiz.length + " questions)", "quiz", it, [el("details", null, [el("summary", { text: "Voir et corriger les questions" }),
       el("div", { class: "in" }, [el("ol", null, it.quiz.map(function (q, i) {

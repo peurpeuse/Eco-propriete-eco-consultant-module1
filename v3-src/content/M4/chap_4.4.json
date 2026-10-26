@@ -1,0 +1,211 @@
+{
+  "id": "4.4",
+  "module": 4,
+  "title": "Qualifier l'acquéreur",
+  "capsule_title": "Qualifier l'acquéreur",
+  "duration": "4:30",
+  "objective": "Vérifier avant la visite le projet et la capacité de financement d'un acquéreur (règles HCSF, mensualité, taux d'usure) et constituer sa fiche de qualification",
+  "mozi": {
+    "line": "Il a dit « comptant » en souriant : c'est prouvé !",
+    "scene": "Mozi tamponne « financement validé » sur la fiche de M. Petit, qui ne lui a montré qu'un sac de pièces en chocolat. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 4.4 : qualifier l'acquéreur",
+      "voice": "Bienvenue. Deux acheteurs pour M. Bernard : un couple qui emprunte, un investisseur qui paie comptant. Ici, tu vérifies lequel tient la route.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "les règles qui décident d'un financement" },
+        { "verb": "Appliquer", "text": "qualifier les Martin et M. Petit avant la visite" },
+        { "verb": "Prouver", "text": "montrer ta fiche qualification, calculs compris" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Il a dit « comptant » en souriant : c'est prouvé !",
+      "voice": "Il a dit « comptant » en souriant : c'est prouvé !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Il a dit « comptant » en souriant : c'est prouvé !",
+      "scene": "Mozi tamponne « financement validé » ; M. Petit ne lui a montré qu'un sac de pièces en chocolat."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "1 sourire, 0 preuve, « dossier validé »",
+      "voice": "Un sourire, zéro preuve, et le dossier est validé.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["1 sourire", "0 preuve", "« dossier validé »"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Offre qui tombe. Agence contrôlée.",
+      "voice": "Sauf que le comptant se prouve. Sans fonds, l'offre tombe. Et sans vigilance anti-blanchiment, c'est l'agence qui se met en faute devant la DGCCRF.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Fonds absents : l'offre tombe.", "Vigilance oubliée : la DGCCRF contrôle."],
+      "source": "DGCCRF, lutte contre le blanchiment (page du 28/09/2023) : les professionnels de l'entremise immobilière sont assujettis à des mesures de vigilance et contrôlés par la DGCCRF ; Commission nationale des sanctions, décision du 27/05/2024 (secteur immobilier)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "35 % des revenus, assurance comprise",
+      "voice": "Le repère qui compte : une mensualité de 35 % des revenus au maximum, assurance comprise, sur 25 ans au maximum.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "35 %", "label": "taux d'effort maximal, assurance emprunteur comprise (25 ans max.)",
+      "source": "HCSF, normes du crédit immobilier : 35 % assurance comprise, 25 ans (27 avec différé), flexibilité 20 % (April, guide des règles HCSF ; Cafpi, « HCSF 2026 : pas d'assouplissement »)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Projet → Financement → Comptant",
+      "voice": "Tu qualifies en trois temps, la veille, au téléphone. D'abord le projet : pourquoi, pour quand, qui décide. Les Martin achètent leur résidence principale pour le printemps 2027. Julie, profil I, s'enthousiasme. Thomas, profil S, veut être rassuré. Ensuite le financement. Tu annonces la règle, puis trois questions : l'apport, le courtier, les revenus. Les Martin empruntent 193 800 euros sur 25 ans à 3,55 %. Mensualité : environ 1 024 euros assurance comprise, pour 4 600 euros de revenus. Soit 22,3 %, loin des 35 %. Et un TAEG sous l'usure de 5,40 %. Enfin le comptant. M. Petit ne paie pas avec un sourire : attestation de fonds, achat sans prêt confirmé, vigilance sur l'origine des fonds. Tu vérifies la cohérence. La banque décide.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "HCSF (April, Cafpi) ; taux moyen 20 ans ≈ 3,50-3,55 % (Meilleurtaux, 19/10/2026) ; usure 5,40 % au T4 2026 (Banque de France) ; plan de financement Martin du dossier fil rouge fictif (BIBLE § 7)",
+      "steps": [
+        { "label": "Projet", "detail": "Pourquoi, pour quand, qui décide ; Julie (I) s'enthousiasme, Thomas (S) veut être rassuré." },
+        { "label": "Financement", "detail": "193 800 € sur 25 ans à 3,55 % : ≈ 1 024 €/mois, 22,3 % des revenus." },
+        { "label": "Comptant", "detail": "Attestation de fonds, achat sans prêt confirmé, vigilance anti-blanchiment." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; code civil, art. 1589-1",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Maxime te dit : « M. Petit paie comptant, je lui fais visiter demain sans rien demander. » Que lui conseilles-tu ?",
+      "model_answer": "Avant de présenter son offre : une attestation de fonds de sa banque ou de son notaire, la confirmation qu'il n'empruntera pas, et la vigilance anti-blanchiment sur son identité et l'origine des fonds. Et aucun chèque avec l'offre.",
+      "keywords": ["attestation de fonds", "sans prêt", "origine des fonds", "aucun versement"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "DGCCRF, lutte contre le blanchiment (page du 28/09/2023) ; code civil, art. 1589-1 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Un professionnel de l'immobilier applique des mesures de vigilance anti-blanchiment à ses clients",
+          "Un achat comptant dispense l'agent de toute vérification",
+          "L'agent doit exiger un chèque avec l'offre pour prouver les fonds"
+        ],
+        "answer": 0,
+        "feedback": "Les professionnels de l'entremise immobilière sont assujettis à la lutte contre le blanchiment, sous le contrôle de la DGCCRF : évaluer le risque, appliquer une vigilance adaptée, déclarer à Tracfin en cas de soupçon. Et aucun versement ne peut accompagner une offre d'achat (code civil, art. 1589-1).",
+        "whys": [
+          "Exact : « comptant » se vérifie, comme un prêt.",
+          "Faux : tant que les fonds ne sont pas prouvés, « comptant » n'est qu'une déclaration.",
+          "Faux : un engagement unilatéral d'achat assorti d'un versement est nul (art. 1589-1)."
+        ]
+      },
+      "card2": {
+        "question": "Si Sarah oubliait l'assurance dans le taux d'effort des Martin, que se passerait-il ?",
+        "answer": "Elle trouverait 975 / 4 600, soit 21,2 % au lieu de 22,3 %. Ici, ça ne change rien. Mais sur un dossier proche des 35 %, elle ferait visiter un acheteur que la banque refuserait ensuite."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : ne faire visiter que des projets solides. La fiche qualification, et le calcul du taux d'effort.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Fiche qualification (capsule 4.4) : proposition pédagogique",
+      "goal": "Des visites qualifiées",
+      "tools": [
+        { "name": "Fiche qualification", "role": "Connaître le projet et le financement avant la visite" },
+        { "name": "Calcul du taux d'effort", "role": "Vérifier la cohérence avec les règles HCSF" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "La fiche : la veille, au téléphone",
+      "voice": "La fiche, la veille, au téléphone. Tu annonces : pour respecter le temps de M. Bernard, j'étudie le financement avant la visite. Puis l'apport, le courtier, les revenus du foyer. Pas de bulletin de salaire : des ordres de grandeur.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Fiche qualification (capsule 4.4) ; données limitées au nécessaire (RGPD)",
+      "tool": "Fiche qualification",
+      "steps": [
+        "Annoncer la règle : visites réservées aux projets étudiés",
+        "Projet : résidence principale, printemps 2027, qui décide",
+        "Financement : apport 22 000 €, courtier, 4 600 € nets par mois",
+        "Pas de bulletins de salaire : des ordres de grandeur"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le calcul : du besoin au taux d'effort",
+      "voice": "Le calcul, ensuite. Besoin : 215 800 euros. Moins l'apport : 193 800 à emprunter. Sur 25 ans à 3,55 %, environ 1 024 euros avec l'assurance. Divisé par 4 600 : 22,3 %. Avec la façade, 26,4 % : à montrer au courtier.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Plan de financement Martin et test de résistance du dossier fil rouge fictif (BIBLE § 7) ; calculs indicatifs, la banque décide",
+      "tool": "Calcul du taux d'effort",
+      "steps": [
+        "Besoin : 184 000 + 13 300 + 16 500 + 2 000 = 215 800 €",
+        "Prêt : 215 800 − 22 000 = 193 800 €",
+        "Mensualité ≈ 975 €, ≈ 1 024 € assurance comprise",
+        "Taux d'effort : 1 024 / 4 600 ≈ 22,3 % ; avec la façade ≈ 26,4 %"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais le calcul maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "ANIL, outils de calcul : « Diagnostic de financement immobilier » (page consultée le 26/10/2026)",
+      "cta": "Ouvrir le diagnostic de financement de l'ANIL",
+      "url": "https://www.anil.org/outils/outils-de-calcul/diagnostic-de-financement/"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 4.4 : fiche d'un acquéreur type",
+      "ask": "Dépose une capture de la fiche qualification des Martin : projet, plan de financement et taux d'effort calculé.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Ta fiche t'attend : reviens la déposer avant la prochaine visite."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Ton dossier est qualifié : 22,3 % pour les Martin, sous le plafond de 35 %. M. Bernard ne perdra pas un samedi.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Les Martin : 22,3 %. Le plafond HCSF : 35 %.",
+      "source": "HCSF : 35 % assurance comprise (April, Cafpi) ; taux d'effort Martin du dossier fil rouge fictif"
+    }
+  ],
+  "sources": [
+    { "label": "April — Règles HCSF : 35 %, 25 ans (27 avec différé), flexibilité 20 %", "url": "https://www.april.fr/assurance-pret/guide/regles-hcsf" },
+    { "label": "Cafpi — HCSF 2026 : pas d'assouplissement des règles du crédit immobilier", "url": "https://www.cafpi.fr/credit-immobilier/actualites/hcsf-2026-pas-d-assouplissement-des-regles-du-credit-immobilier-ce-que-cela-change-pour-votre-projet" },
+    { "label": "Faits vérifiés Éco-Consultant au 20/10/2026 : taux moyen 20 ans ≈ 3,50-3,55 % (Meilleurtaux, 19/10/2026) ; usure 5,40 % au T4 2026 (Banque de France)", "url": "https://www.banque-france.fr/fr/statistiques/taux-et-cours/taux-dusure" },
+    { "label": "Légifrance — Code civil, art. 1589-1 (aucun versement avec un engagement unilatéral d'achat)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006441325" },
+    { "label": "DGCCRF — Lutte contre le blanchiment : professionnels de l'entremise immobilière assujettis et contrôlés (page du 28/09/2023)", "url": "https://www.economie.gouv.fr/node/3224288" },
+    { "label": "Ministère de l'Économie — Commission nationale des sanctions, décision LCB-FT secteur immobilier (27/05/2024)", "url": "https://www.economie.gouv.fr/files/files/directions_services/commission-nationale-sanctions/media-document/2023-10_DecisionCNS27052024_IMMO.pdf" },
+    { "label": "ANIL — Outils de calcul : diagnostic de financement immobilier", "url": "https://www.anil.org/outils/outils-de-calcul/diagnostic-de-financement/" },
+    { "label": "Proposition pédagogique Éco-Propriété (fiche qualification, test de résistance) ; dossier fil rouge fictif", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Assurance ≈ 49 €/mois et TAEG ≈ 4,2 % : valeurs calculées par Éco-Propriété sur le dossier fictif, à valider",
+    "Test de résistance (≈ 26,4 %) présenté comme indicateur : à harmoniser avec la capsule 5.4",
+    "Page DGCCRF LCB-FT (28/09/2023) : elle cite l'évaluation des risques, la vigilance adaptée et la déclaration Tracfin, sans détailler « origine des fonds » ; formulation à faire relire (LCB-FT)",
+    "Écran 13 : l'outil ANIL « Diagnostic de financement » a été repéré sur la liste des outils ANIL ; vérifier son fonctionnement et sa pertinence le jour du tournage",
+    "Référence de la mention de non-recours au prêt dans l'avant-contrat (code de la consommation) non citée à l'écran : à valider"
+  ]
+}

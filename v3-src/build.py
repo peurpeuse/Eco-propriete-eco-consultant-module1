@@ -43,6 +43,9 @@ def load():
         m = json.load(open(mf))
         caps = sorted(glob.glob(os.path.join(CON, f"M{n}", "cap_*.json")), key=capkey)
         m["capsules"] = [json.load(open(f)) for f in caps]
+        for c in m["capsules"]:  # chapitre interactif (gabarit 15 écrans) quand il existe
+            cf = os.path.join(CON, f"M{n}", f"chap_{c['id']}.json")
+            if os.path.exists(cf): c["chapter"] = json.load(open(cf))
         m["id"] = n
         mods.append(m)
     g = json.load(open(os.path.join(CON, "global.json")))
@@ -61,7 +64,7 @@ def course(mods, g, scope, preview, pdf=True):
 
 def write_pkg(dirp, data, scorm, title, ident):
     shutil.rmtree(dirp, ignore_errors=True); os.makedirs(dirp)
-    for f in ("index.html", "app.js", "scorm.js"): shutil.copy(os.path.join(ENG, f), dirp)
+    for f in ("index.html", "chapter.js", "app.js", "scorm.js"): shutil.copy(os.path.join(ENG, f), dirp)
     for d in ("assets", "fonts", "media"):
         if os.path.isdir(os.path.join(ENG, d)): shutil.copytree(os.path.join(ENG, d), os.path.join(dirp, d))
     open(os.path.join(dirp, "data.js"), "w").write("window.COURSE=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";")
@@ -192,7 +195,8 @@ def heygen(mods):
         w = csv.writer(f, delimiter=";"); w.writerow(["capsule", "module", "titre", "mots", "duree_estimee_min", "script"])
         for m in mods:
             for c in m["capsules"]:
-                txt = "\n\n".join(s["voice"] for s in c["video"]["segments"]); n = len(re.findall(r"\w+", txt))
+                segs = c["chapter"]["screens"] if c.get("chapter") else c["video"]["segments"]
+                txt = "\n\n".join(s["voice"] for s in segs); n = len(re.findall(r"\w+", txt))
                 w.writerow([c["id"], m["id"], c["title"], n, round(n / 140, 1), txt])
                 open(os.path.join(d, f"script_{c['id'].replace('.', '-')}.txt"), "w").write(f"{c['id']} — {c['title']}\n\n{txt}\n")
 
@@ -206,6 +210,7 @@ def preview_file(data):
     d = dict(data, pdf=False)
     h = h.replace('<script src="scorm.js"></script>', "<script>" + open(os.path.join(ENG, "scorm.js")).read() + "</script>")
     h = h.replace('<script src="data.js"></script>', "<script>window.COURSE=" + json.dumps(d, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + ";</script>")
+    h = h.replace('<script src="chapter.js"></script>', "<script>" + open(os.path.join(ENG, "chapter.js")).read() + "</script>")
     h = h.replace('<script src="app.js"></script>', "<script>" + app + "</script>")
     h = re.sub(r"<!doctype html>\s*<html[^>]*>\s*<head>", "", h, flags=re.I)
     h = re.sub(r'<meta charset="utf-8">\s*<meta name="viewport"[^>]*>\s*', "", h)
@@ -234,7 +239,8 @@ def main():
     shutil.rmtree(tmp)
     preview_file(course(mods, g, full, True))
     n = sum(len(m["capsules"]) for m in mods)
-    words = sum(len(re.findall(r"\w+", s["voice"])) for m in mods for c in m["capsules"] for s in c["video"]["segments"])
+    words = sum(len(re.findall(r"\w+", s["voice"])) for m in mods for c in m["capsules"] for s in (c["chapter"]["screens"] if c.get("chapter") else c["video"]["segments"]))
+    print(f"chapitres au gabarit : {sum(1 for m in mods for c in m['capsules'] if c.get('chapter'))}/{n}")
     print(f"OK : {n} capsules, {words} mots de voix (≈ {round(words / 140)} min) ; paquets : {', '.join(sorted(os.listdir(sd)))}")
 
 if __name__ == "__main__": main()

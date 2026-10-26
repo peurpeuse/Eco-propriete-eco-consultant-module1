@@ -1,0 +1,209 @@
+{
+  "id": "2.2",
+  "module": 2,
+  "title": "Lire par où part la chaleur",
+  "capsule_title": "Physique du bâtiment : déperditions",
+  "duration": "4:30",
+  "objective": "Repérer par où un logement perd sa chaleur (parois, ponts thermiques, air) et hiérarchiser les déperditions de l'appartement de M. Bernard",
+  "mozi": {
+    "line": "Il fait froid ? C'est le toit, forcément !",
+    "scene": "Au 4e étage sur 6, Mozi pointe le plafond de M. Bernard, au-dessus duquel le voisin du 5e est bien chauffé, et lui conseille d'isoler ses « combles ». Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 2.2 : lire par où part la chaleur",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas lire un appartement comme un technicien : par où part la chaleur, et pourquoi.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "les trois chemins de la chaleur : parois, ponts thermiques, air" },
+        { "verb": "Appliquer", "text": "classer les déperditions de l'appartement de M. Bernard" },
+        { "verb": "Prouver", "text": "montrer ton plan annoté en une image" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Il fait froid ? C'est le toit, forcément !",
+      "voice": "Il fait froid ? C'est le toit, forcément !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Il fait froid ? C'est le toit, forcément !",
+      "scene": "Au 4e étage sur 6, Mozi montre le plafond et conseille d'isoler les « combles », sous l'appartement chauffé du voisin du 5e."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "4e étage, voisin chauffé au-dessus, « c'est le toit »",
+      "voice": "Quatrième étage sur six. Un voisin chauffé au-dessus. Et pourtant : c'est le toit.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["4e étage sur 6", "Un voisin chauffé au-dessus", "« C'est le toit »"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Les vraies causes restent. Le froid aussi.",
+      "voice": "Les vraies causes restent en place : les murs, les fenêtres, l'air. Même dans une maison d'avant 1974, le toit ne pèse qu'environ 9 % des pertes. Ici, au-dessus, il y a un voisin chauffé.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Murs, fenêtres, air : les vraies causes restent.", "Toit d'une maison : environ 9 % des pertes. Ici : un voisin chauffé."],
+      "source": "ADEME, « Tout savoir sur l'isolation » (répartition des pertes d'une maison construite avant 1974, observatoire DPE 2025) ; bible du fil rouge (4e étage sur 6, logements chauffés dessus et dessous)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "31 % des pertes passent par les murs",
+      "voice": "Trente et un pour cent. C'est la part des pertes qui passe par les murs d'une maison d'avant 1974, selon l'ADEME. Mais M. Bernard vit en appartement : on va voir ce que ça change.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "31 %", "label": "des pertes de chaleur d'une maison construite avant 1974 passent par les murs",
+      "source": "ADEME, « Tout savoir sur l'isolation », observatoire DPE 2025 (murs ≈ 31 %, air ≈ 27 %, fenêtres ≈ 14 %, planchers bas ≈ 10 %, toit ≈ 9 %, ponts thermiques ≈ 9 %)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Trois chemins → Paroi froide → Condensation",
+      "voice": "Trois idées. Un : la chaleur va du chaud vers le froid, par trois chemins. Les parois, mesurées par leur résistance thermique, R : plus R est grand, mieux elles isolent. Les ponts thermiques, comme la dalle du balcon qui traverse le mur. Et l'air, renouvelé ou qui fuit. Entre deux voisins chauffés, plancher et plafond perdent peu : tout se joue sur la façade. Deux : la paroi froide. Devant un simple vitrage, tu as froid même si l'air est chaud. Les murs de M. Bernard ? Deux centimètres de polystyrène. Avec une hypothèse de 0,04, R égale 0,02 divisé par 0,04 : 0,5. Les aides visent 3,7. Sept fois plus. Trois : là où c'est froid, l'eau se dépose. L'air humide de la salle de bains touche un angle froid, et le conduit est en partie bouché. Les moisissures sont un symptôme technique, pas un défaut d'entretien.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "ADEME, « Tout savoir sur l'isolation » ; Ministère de la Transition écologique, Guide pour les diagnostiqueurs DPE (repère R ≥ 3,7 m².K/W pour les murs) ; λ = 0,04 W/m.K : hypothèse de calcul",
+      "steps": [
+        { "label": "Trois chemins", "detail": "Parois (R), ponts thermiques, air. Entre deux voisins chauffés, tout se joue sur la façade." },
+        { "label": "Paroi froide", "detail": "Simple vitrage et murs à R ≈ 0,02 / 0,04 = 0,5, contre 3,7 visé : froid ressenti." },
+        { "label": "Condensation", "detail": "Air humide + angle froid + conduit bouché = moisissures. Un symptôme, pas une faute." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Un acquéreur de Sarah pose la main sur la vitre. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "En visite chez M. Bernard, un acquéreur accompagné par Sarah lance : « Les chambres sont glaciales, c'est une passoire ? » Que lui réponds-tu ?",
+      "model_answer": "Je confirme ce qu'il ressent et je nomme la cause : le simple vitrage d'origine et des murs peu isolés. Puis je relie chaque cause à une solution : les quatre fenêtres sont chiffrées à 5 600 €, l'isolation de la façade est votée pour 2027. Je ne nie pas, je ne promets rien.",
+      "keywords": ["simple vitrage", "murs peu isolés", "chiffré", "voté", "sans promesse"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Formation Audit énergétique Éco-Propriété (contenus internes vérifiés) ; bible du fil rouge (toiture-terrasse : étanchéité 2004, fin de vie prévue 2030)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "La chaleur va du chaud vers le froid : entre deux logements chauffés, presque rien ne passe",
+          "La chaleur monte toujours : à tout étage, le toit est le premier responsable",
+          "Aucune : en copropriété, chaque appartement perd d'abord par le toit"
+        ],
+        "answer": 0,
+        "feedback": "La chaleur quitte un logement vers plus froid que lui. Au 4e étage sur 6, avec un voisin chauffé dessus et dessous, les pertes se concentrent sur la façade : murs, fenêtres, ponts thermiques, air.",
+        "whys": [
+          "Exact : de l'autre côté du plafond, il fait à peu près la même température. Presque rien ne passe.",
+          "Faux : l'air chaud monte dans une pièce, mais la chaleur ne sort que vers plus froid. Au-dessus, le 5e est chauffé.",
+          "Faux : seul le dernier étage est sous le toit. C'est plaquer le schéma d'une maison sur un appartement."
+        ]
+      },
+      "card2": {
+        "question": "Si M. Bernard habitait au 6e, le dernier étage, que se passerait-il ?",
+        "answer": "Le plafond donnerait sur la toiture-terrasse, plus sur un voisin chauffé : il deviendrait un poste de déperdition à vérifier. Ici, l'étanchéité date de 2004 et sa fin de vie est prévue en 2030 : un sujet de copropriété à signaler, sans le chiffrer."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux gestes, un seul but",
+      "voice": "Deux gestes, un seul but : transformer une peur en budget. Le plan annoté, puis le tableau des solutions.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource « Schéma des déperditions » de la capsule 2.2",
+      "goal": "Transformer une peur en budget",
+      "tools": [
+        { "name": "Plan annoté (D04)", "role": "Repérer et classer les déperditions, pièce par pièce" },
+        { "name": "Tableau cause → solution (D07, D13)", "role": "Relier chaque cause à une solution, un prix ou une date" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le plan : de l'autre côté, il y a quoi ?",
+      "voice": "Sur le plan, pièce par pièce, tu te demandes : de l'autre côté, il y a quoi ? Les chambres : façade, simple vitrage, fuites. Flèches épaisses. Le séjour : la dalle du balcon, pont thermique majeur. Plancher et plafond : voisins chauffés, pertes faibles.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (D04, fictif) ; ressource « Schéma des déperditions » de la capsule 2.2",
+      "tool": "Plan annoté (D04)",
+      "steps": [
+        "Pour chaque paroi : extérieur, palier ou voisin chauffé ?",
+        "Chambres : murs peu isolés, simple vitrage, fuites → flèches épaisses",
+        "Séjour : dalle du balcon traversante → pont thermique majeur",
+        "Plancher et plafond : voisins chauffés → pertes faibles"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le tableau : une solution, un prix ou une date",
+      "voice": "Puis tu relies chaque cause à ce qui est prévu. Les murs : isolation par l'extérieur votée, démarrage en avril 2027. Les fenêtres des chambres : 5 600 euros. L'air : VMC et débouchage, 2 900 euros. Le balcon : à vérifier. Une solution, un prix ou une date.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (fictif) : PV d'AG du 12/06/2025 (D07) ; devis des travaux privatifs (D13)",
+      "tool": "Tableau cause → solution (D07, D13)",
+      "steps": [
+        "Murs → ITE votée le 12/06/2025, démarrage avril 2027 (D07)",
+        "Fenêtres des chambres → remplacement chiffré 5 600 € (D13)",
+        "Air → VMC hygroréglable + débouchage, 2 900 € (D13)",
+        "Balcon → traitement à vérifier dans le descriptif de l'ITE"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Annote le plan de M. Bernard maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Pas d'outil en ligne officiel : renvoi vers l'exercice de la capsule",
+      "cta": "Ouvrir l'exercice",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton plan annoté.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.2 : plan des déperditions de l'appartement de M. Bernard",
+      "ask": "Dépose une capture de ton plan D04 annoté (flèches, pont thermique du balcon) avec ton classement des déperditions.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le plan de M. Bernard t'attend : reviens déposer ta capture quand il est annoté."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Le froid de M. Bernard, tu ne le sens plus seulement : tu sais le lire.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton plan : 6 postes classés, chacun relié à une solution, un prix ou une date. Mozi : un seul, le toit.",
+      "source": "Fait observable : le livrable de la capsule 2.2 (6 postes du schéma rempli)"
+    }
+  ],
+  "sources": [
+    { "label": "ADEME, Tout savoir sur l'isolation (répartition des pertes, maison avant 1974, observatoire DPE 2025)", "url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/renover/tout-savoir-isolation" },
+    { "label": "ANIL, DPE : contenu (schéma des déperditions, performance de l'isolation)", "url": "https://www.anil.org/aj-dpe-mentions-obligatoires-annonces-baux-immobiliers/" },
+    { "label": "Ministère de la Transition écologique, Guide pour les diagnostiqueurs DPE (repère R ≥ 3,7 m².K/W pour les murs)", "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_pour_les_diagnostiqueurs_DPE.pdf" },
+    { "label": "Formation Audit énergétique Éco-Propriété (ponts thermiques, ventilation) — contenus internes vérifiés", "url": "https://eco-propriete.fr" },
+    { "label": "Bible du fil rouge (données fictives : D04, D07, D13, carnet d'entretien)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Écrans 5 et 6 : les pourcentages ADEME concernent une maison d'avant 1974 ; mention de source à l'écran obligatoire, aucun pourcentage pour l'appartement",
+    "Écran 7 : λ = 0,04 W/m.K présenté comme hypothèse ; R ≈ 0,5 contre 3,7 (rapport 7,4, dit « sept fois »)",
+    "Écran 12 : traitement du pont thermique du balcon par l'ITE non décrit dans le dossier fil rouge, formulé « à vérifier »",
+    "Carte 2 : toiture-terrasse (étanchéité 2004, fin de vie 2030) citée sans chiffrage",
+    "Vérifier avec le rédacteur du dossier que le D02 contient un schéma des déperditions cohérent",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

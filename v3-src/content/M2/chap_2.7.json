@@ -1,0 +1,210 @@
+{
+  "id": "2.7",
+  "module": 2,
+  "title": "Lire l'immeuble",
+  "capsule_title": "Audit de la copropriété",
+  "duration": "4:30",
+  "objective": "Analyser un PV d'AG, le carnet d'entretien, le PPPT et la fiche synthétique pour repérer les charges, travaux votés et risques financiers d'un lot",
+  "mozi": {
+    "line": "Le PV d'AG ? Parfait pour caler la table !",
+    "scene": "Mozi plie le procès-verbal d'assemblée générale en huit, le glisse sous le pied bancal de la table du salon, puis signe son estimation dessus. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 2.7 : lire l'immeuble",
+      "voice": "Bienvenue. Dans ce chapitre, tu lis l'immeuble, pas seulement l'appartement. Et tu trouves ce que l'acheteur découvrirait seul.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "ce que racontent fiche synthétique, carnet, PV d'AG et PPPT" },
+        { "verb": "Appliquer", "text": "calculer la part du lot et dire qui paie chaque appel de fonds" },
+        { "verb": "Prouver", "text": "montrer ta note d'analyse de la copropriété Les Tilleuls" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Le PV d'AG ? Parfait pour caler la table !",
+      "voice": "Le PV d'AG ? Parfait pour caler la table !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Le PV d'AG ? Parfait pour caler la table !",
+      "scene": "Mozi glisse le PV d'assemblée générale plié sous le pied bancal de la table, puis signe son estimation dessus."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "3 PV, 0 lu, 35 880 € oubliés",
+      "voice": "Trois procès-verbaux, zéro lu, trente-cinq mille huit cent quatre-vingts euros oubliés.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": "Quote-part ITE du lot : PV d'AG D07 (Bible du fil rouge, fictif)",
+      "beats": ["3 PV", "0 lu", "35 880 € oubliés"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "L'acheteur le lit. Avant de signer.",
+      "voice": "Sauf que la loi impose de remettre à l'acheteur les PV des trois dernières assemblées, au plus tard à la promesse. Il découvrira les travaux. Seul. Juste avant de signer.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Les PV des 3 dernières AG sont remis à l'acheteur.", "Il découvre les 35 880 € seul, juste avant de signer."],
+      "source": "Code de la construction et de l'habitation, art. L. 721-2 (documents remis à l'acquéreur au plus tard à la promesse), Légifrance, version en vigueur au 20/10/2026"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "5 % du budget, chaque année, au fonds de travaux",
+      "voice": "Un chiffre à connaître : chaque année, au moins cinq pour cent du budget de la copropriété vont au fonds de travaux. Et cet argent reste attaché au lot. Le syndic ne le rembourse pas au vendeur.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "5 %", "label": "du budget prévisionnel : cotisation annuelle minimale au fonds de travaux",
+      "source": "Service-Public, « Fonds de travaux dans les copropriétés » (F34026) ; loi n° 65-557 du 10/07/1965, art. 14-2-1"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "4 documents → Part du lot → Qui paie",
+      "voice": "Trois idées. Un : quatre documents racontent l'immeuble. Le carnet d'entretien, c'est le passé. Le PV d'assemblée, le présent. Le PPPT, l'avenir sur dix ans. Et la fiche synthétique, sa carte d'identité. Deux : tu calcules la part du lot. Le montant voté, fois les tantièmes du lot, divisé par dix mille. Pour l'isolation des Tilleuls : un million cent cinquante mille euros, fois 312, divisé par dix mille. Trente-cinq mille huit cent quatre-vingts euros. Trois : qui paie quand on vend ? Pour des travaux hors budget, celui qui est copropriétaire le jour où l'appel est exigible. Un autre partage reste possible entre vendeur et acheteur, mais c'est le notaire qui l'écrit.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (version en vigueur depuis le 25/12/2025) et art. 6-3 (Légifrance) ; PV d'AG D07 (fictif)",
+      "steps": [
+        { "label": "4 documents", "detail": "Carnet = passé, PV d'AG = présent, PPPT = futur, fiche synthétique = identité." },
+        { "label": "Part du lot", "detail": "Montant voté × tantièmes du lot / 10 000 : ici 35 880 €." },
+        { "label": "Qui paie", "detail": "Travaux hors budget : le copropriétaire à la date d'exigibilité de l'appel." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; CCH, art. L. 721-2",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Maxime prépare l'estimation d'un appartement. Le vendeur lui donne seulement le dernier PV d'AG : aucun travaux voté dedans. Que doit-il faire avant d'estimer ?",
+      "model_answer": "Demander au syndic tout le dossier : fiche synthétique, PV des trois dernières AG, carnet d'entretien, PPPT, impayés et fonds de travaux. Des travaux votés il y a deux ans peuvent encore être appelés.",
+      "keywords": ["trois dernières AG", "syndic", "PPPT", "travaux votés"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "CCH, art. L. 721-2 ; décret du 17 mars 1967, art. 6-2 et 6-3 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Lire les PV d'AG et chiffrer les travaux votés avant d'estimer",
+          "Seul le dernier PV compte, les anciens sont périmés",
+          "Les travaux de copropriété ne regardent que le syndic"
+        ],
+        "answer": 0,
+        "feedback": "L'acheteur recevra les PV des trois dernières AG au plus tard à la promesse (CCH, art. L. 721-2). L'agent qui ne les lit pas découvre les 35 880 € après lui.",
+        "whys": [
+          "Exact : les travaux votés pèsent sur le lot, et l'acheteur lira ces PV. Tu dois les avoir lus avant lui.",
+          "Faux : des travaux votés il y a deux ans peuvent encore être appelés. On lit les trois dernières AG.",
+          "Faux : la quote-part est appelée sur chaque lot, donc sur le vendeur ou sur l'acquéreur."
+        ]
+      },
+      "card2": {
+        "question": "Si l'acte de M. Bernard était signé le 15 mars 2027, qui paierait chaque appel de 8 970 € au syndicat ?",
+        "answer": "M. Bernard, copropriétaire au 1er janvier 2027, paie le premier appel. L'acquéreur paie les trois suivants : 3 × 8 970 = 26 910 €. Un autre partage reste possible entre eux, rédigé par le notaire, sans effet pour le syndicat (art. 6-3)."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux documents, un seul but",
+      "voice": "Deux documents, un seul but : savoir ce que l'immeuble coûtera au lot. La fiche synthétique, et le PV d'assemblée générale.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Check-list copropriété (ressource de la capsule 2.7)",
+      "goal": "Savoir ce que l'immeuble coûtera au lot",
+      "tools": [
+        { "name": "Fiche synthétique (D10)", "role": "Charges courantes, fonds de travaux, impayés" },
+        { "name": "PV d'AG (D07)", "role": "Travaux votés, montant, calendrier des appels" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "La fiche synthétique des Tilleuls",
+      "voice": "Sur la fiche synthétique : un budget de quatre-vingt-cinq mille euros, et 312 tantièmes pour le lot. Donc 2 652 euros de charges par an. Le fonds de travaux : 132 euros 60 par an, et 1 061 euros accumulés, qui restent au lot. Impayés : six pour cent. Modéré, tu le notes.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (fiche synthétique D10 et budget D06, fictifs) ; Service-Public F34026 (fonds de travaux)",
+      "tool": "Fiche synthétique (D10)",
+      "steps": [
+        "Budget 2026 : 85 000 € ; lot : 312 / 10 000",
+        "Charges : 85 000 × 312 / 10 000 = 2 652 €/an (≈ 663 € par trimestre)",
+        "Fonds de travaux : 132,60 €/an pour le lot ; solde 1 061 €, non remboursé par le syndic",
+        "Impayés : 6 % du budget, modéré, à suivre"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le PV d'AG du 12 juin 2025",
+      "voice": "Dans le PV du 12 juin 2025 : l'isolation par l'extérieur est votée, un million cent cinquante mille euros. Part du lot : 35 880 euros, en quatre appels de 8 970 euros en 2027. L'aide demandée par le syndic n'est pas notifiée : tu la cites, tu ne la chiffres pas.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (PV d'AG D07, fictif)",
+      "tool": "PV d'AG (D07)",
+      "steps": [
+        "Résolution du 12/06/2025 : ravalement + ITE, 1 150 000 € TTC, majorité de l'article 25",
+        "Part du lot : 1 150 000 × 312 / 10 000 = 35 880 €",
+        "Échéancier : 4 × 8 970 € les 1/01, 1/04, 1/07 et 1/10/2027",
+        "Aide MaPrimeRénov' Copropriété demandée : mentionnée, pas chiffrée"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Cherche une copropriété maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "Registre national des copropriétés (Anah), annuaire public, consulté le 26/10/2026 ; lien à valider",
+      "cta": "Ouvrir l'annuaire des copropriétés",
+      "url": "https://www.registre-coproprietes.gouv.fr/annuaire"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta note.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.7 : note d'analyse de la copropriété Les Tilleuls",
+      "ask": "Dépose une capture de ta note d'analyse : charges du lot, quote-part ITE, échéancier 2027 et qui paie chaque appel.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le PV d'AG t'attend : reviens déposer ta note quand elle est prête."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Les deux agences n'ont jamais parlé des 35 880 euros. Toi, tu as le montant, les dates, et qui paie.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Les deux agences : 0 mention des 35 880 €. Toi : le montant, les dates et qui paie.",
+      "source": "Bible du fil rouge (situation fictive des deux agences) ; capsule 2.7"
+    }
+  ],
+  "sources": [
+    { "label": "Code de la construction et de l'habitation, art. L. 721-1 à L. 721-3 (information des acquéreurs d'un lot de copropriété)", "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000028784362" },
+    { "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (version en vigueur depuis le 25/12/2025)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265" },
+    { "label": "Décret n° 67-223 du 17 mars 1967, art. 6-3 (convention contraire : effet entre les parties)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488324" },
+    { "label": "Service-Public : fonds de travaux dans les copropriétés", "url": "https://www.service-public.fr/particuliers/vosdroits/F34026" },
+    { "label": "Service-Public : plan pluriannuel de travaux", "url": "https://www.service-public.fr/particuliers/vosdroits/F36760" },
+    { "label": "Registre national des copropriétés (Anah) : annuaire public", "url": "https://www.registre-coproprietes.gouv.fr/annuaire" },
+    { "label": "Bible du fil rouge : copropriété Les Tilleuls, D06, D07, D08, D09, D10 (fictifs)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Relecture juridique obligatoire : art. 6-2 et 6-3 du décret de 1967, art. L. 721-2 CCH, fonds de travaux (art. 14-2-1 loi 1965)",
+    "Écran 6 : le plancher complémentaire de 2,5 % du montant des travaux du plan adopté n'est pas affiché, pour garder une idée par écran ; il reste dans la ressource",
+    "Écran 9 carte 2 : l'hypothèse « acte au 15/03/2027 » vient de la bible ; l'accord final M. Bernard / Martin (remboursement de l'appel du 1/01/2027) relève des modules 4-5 et n'est pas dévoilé ici",
+    "Écran 13 : lien vers l'annuaire du registre des copropriétés (outil réel) ; à valider, la copropriété Les Tilleuls étant fictive",
+    "Décompte des lots (48 lots principaux + caves et parkings) au regard des seuils PPPT et DPE collectif : à valider (point déjà ouvert dans la capsule)"
+  ]
+}

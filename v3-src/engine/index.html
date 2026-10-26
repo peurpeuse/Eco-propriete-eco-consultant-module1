@@ -4,22 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Éco-Consultant · Formation en ligne</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;700;800;900&display=swap">
 <style>
 @font-face{font-family:"Lato";src:url(fonts/lato-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:"Lato";src:url(fonts/lato-400i.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
 @font-face{font-family:"Lato";src:url(fonts/lato-700.woff2) format("woff2");font-weight:700 900;font-style:normal;font-display:swap}
 /* Layout : page de cours type plateforme MOOC (bandeau + sections) ; vue d'apprentissage = barre latérale du plan + contenu de l'élément */
 :root{
-  --g:#1A7A44; --g-d:#0F5A31; --g-l:#2EA56E; --g-s:#E3F2E9; --g-t:#F3FAF6;
+  --g:#141414; --g-d:#A8460F; --g-l:#E56618; --g-s:#FFE9D2; --g-t:#FFF6EC; /* charte Éco-Consultant : encre + orange (planches formats vidéo) */
   --o:#FF8D16; --o-d:#B85A00; --o-s:#FFF1E0;
-  --ink:#1F1F1F; --muted:#5B6560; --line:#E1E5E2; --paper:#FFFFFF; --page:#FFFFFF; --sunk:#F5F7F6;
+  --ink:#141414; --muted:#5E5F58; --line:#D9DAD2; --paper:#FFFFFF; --page:#FFFFFF; --sunk:#F2F3EC;
   --ok:#1F8A4C; --ok-s:#E3F4EA; --ko:#C62828; --ko-s:#FCE6E4; --warn-s:#FFF3D6; --warn:#6B4A00;
   --m1:#E2231A; --m2:#F08A00; --m3:#D9AD00; --m4:#7DB534; --m5:#2FA84F;
   --side:320px;
 }
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
-body{background:var(--page);color:var(--ink);font:16px/1.55 "Lato","Segoe UI",Arial,sans-serif;-webkit-text-size-adjust:100%}
+body{background:var(--page);color:var(--ink);font:16px/1.55 "Inter","Lato","Segoe UI",Arial,sans-serif;-webkit-text-size-adjust:100%}
 button,input,textarea,select{font:inherit;color:inherit}
 button{cursor:pointer}
 a{color:var(--g-d)}
@@ -38,7 +39,7 @@ svg.i{width:18px;height:18px;flex:0 0 auto;vertical-align:middle}
 @media (max-width:700px){.top .ct,.top .pg span{display:none}}
 /* Buttons */
 .btn{border:0;border-radius:6px;padding:11px 20px;font-weight:700;display:inline-flex;align-items:center;gap:8px;min-height:44px;text-decoration:none;font-size:15px}
-.btn.p{background:var(--g);color:#fff}.btn.p:hover{background:var(--g-d)}
+.btn.p{background:var(--o);color:#141414}.btn.p:hover{background:#FFA445}
 .btn.s{background:var(--paper);color:var(--g-d);border:1px solid var(--g)}
 .btn.s:hover{background:var(--g-t)}
 .btn.o{background:var(--o);color:#1A1A1A}
@@ -49,7 +50,8 @@ svg.i{width:18px;height:18px;flex:0 0 auto;vertical-align:middle}
 .chip.ia{background:var(--o);color:#1A1A1A}.chip.ok{background:var(--ok-s);color:var(--ok)}.chip.wait{background:var(--warn-s);color:var(--warn)}
 .muted{color:var(--muted)}
 /* ---------- Landing ---------- */
-.hero{background:linear-gradient(120deg,#E9F5EE 0%,#F7FBF8 60%,#FFF4E6 100%);border-bottom:1px solid var(--line)}
+.hero{background:#F2F3EC;border-bottom:1px solid var(--line)}
+body.rendering .top,body.rendering .preview{display:none!important}body.rendering{background:#F2F3EC}
 .wrap{max-width:1180px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px))}
 .hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:40px;padding-top:36px;padding-bottom:36px;align-items:center}
 @media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero .side{display:none}}
@@ -266,6 +268,7 @@ table.res{margin-top:8px}table.res td.w{width:40%}
 <div class="sr" id="live" aria-live="polite"></div>
 <script src="scorm.js"></script>
 <script src="data.js"></script>
+<script src="chapter.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

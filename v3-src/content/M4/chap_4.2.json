@@ -1,0 +1,208 @@
+{
+  "id": "4.2",
+  "module": 4,
+  "title": "Mener la visite",
+  "capsule_title": "Préparer et mener la visite",
+  "duration": "4:30",
+  "objective": "Construire et conduire le parcours de visite de l'appartement de M. Bernard, documents en main, et répondre juste aux questions DPE, copropriété et travaux votés",
+  "mozi": {
+    "line": "L'état des risques ? Chez le notaire ! On commence par les toilettes !",
+    "scene": "Mozi ouvre la visite par les WC, lumière éteinte, et cherche le PV d'assemblée sur un téléphone déchargé pendant que les visiteurs attendent dans le couloir. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 4.2 : mener la visite",
+      "voice": "Bienvenue. Samedi, les Martin visitent chez M. Bernard. Dans ce chapitre, tu prépares une visite où tu n'hésites jamais.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi l'ordre des pièces et les documents font la confiance" },
+        { "verb": "Appliquer", "text": "préparer le dossier et tracer le parcours chez M. Bernard" },
+        { "verb": "Prouver", "text": "montrer ton parcours annoté sur le plan" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "L'état des risques ? Chez le notaire ! On commence par les toilettes !",
+      "voice": "L'état des risques ? Chez le notaire ! On commence par les toilettes !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "L'état des risques ? Chez le notaire ! On commence par les toilettes !",
+      "scene": "Mozi ouvre la visite par les WC, lumière éteinte, et cherche le PV d'AG sur un téléphone déchargé."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "Pas de dossier, pas d'ordre, pas de réponse",
+      "voice": "Pas de dossier, pas d'ordre, pas de réponse.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["Pas de dossier", "Pas d'ordre", "Pas de réponse"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "État des risques oublié. Vente fragilisée.",
+      "voice": "Sauf que l'état des risques se remet dès la première visite. Sinon, l'acheteur peut demander l'annulation de la vente, ou une baisse du prix.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["État des risques non remis.", "Vente annulable, ou prix réduit."],
+      "source": "Service-Public, « Diagnostic immobilier : état des risques » (F12239, vérifié le 28/09/2026) : remise lors de la 1re visite ; à défaut, l'acquéreur peut demander au tribunal l'annulation de la vente ou une réduction du prix, avec d'éventuels dommages et intérêts"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "Moins de 6 mois, dès la 1re visite",
+      "voice": "Retiens ce repère : l'état des risques date de moins de six mois, et il est remis dès la première visite.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "6 mois", "label": "âge maximal de l'état des risques, remis dès la 1re visite",
+      "source": "Code de l'environnement, art. R. 125-25 ; Service-Public F12239 (vérifié le 28/09/2026)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Préparer → Ordonner → Répondre",
+      "voice": "Une visite réussie tient en trois temps. D'abord, tu prépares. La veille, tu vérifies le financement des visiteurs. Tu remplis ta pochette : attestation E, plan, fiche synthétique, budget, PV d'assemblée, plan pluriannuel, devis. Et l'état des risques, un exemplaire par visiteur. Ensuite, tu ordonnes. Pas l'ordre du couloir : l'ordre de l'histoire. Le séjour et le balcon sud-ouest d'abord, c'est ton moment fort. Puis les chambres, où tu annonces les fenêtres : 5 600 euros. Tu finis assis au séjour, dossier ouvert. Enfin, tu réponds juste. Le DPE : attestation E, valable jusqu'en mars 2033. La copropriété : 48 lots, 2 652 euros par an, aucune procédure. Les travaux votés : 35 880 euros, en quatre appels en 2027.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Check-list visite (capsule 4.2) ; dossier fil rouge fictif (D03, D06, D07, D10, D13) ; « moment fort et fin » : effet pic-fin, proposition pédagogique sans chiffre",
+      "steps": [
+        { "label": "Préparer", "detail": "Financement vérifié la veille, pochette de 8 documents, état des risques par visiteur." },
+        { "label": "Ordonner", "detail": "Séjour et balcon d'abord, défauts chiffrés ensuite, fin assis au séjour." },
+        { "label": "Répondre", "detail": "DPE, copropriété, travaux votés : un chiffre, un document." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; décret du 17 mars 1967, art. 6-2 (analyse ANIL)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Julie Martin entre dans le séjour et demande : « Et la façade, c'est voté ? Combien pour nous ? » Que réponds-tu ?",
+      "model_answer": "Oui : ravalement avec isolation voté le 12 juin 2025. Quote-part du lot : 35 880 €, en quatre appels de 8 970 € en 2027. Par principe, chaque appel est payé par le copropriétaire à sa date d'exigibilité ; un autre accord est possible, rédigé par le notaire. Et je lui montre le PV.",
+      "keywords": ["35 880 €", "date d'exigibilité", "notaire", "PV d'AG"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Code de l'environnement, art. R. 125-25 ; Service-Public F12239 (vérifié le 28/09/2026)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "L'état des risques se remet dès la première visite, établi depuis moins de six mois",
+          "L'état des risques se remet seulement à la signature du compromis",
+          "L'état des risques se remet uniquement si l'acheteur le demande"
+        ],
+        "answer": 0,
+        "feedback": "Depuis le 1er janvier 2023, l'état des risques est remis lors de la première visite et doit dater de moins de six mois (code de l'environnement, art. R. 125-25). Il est ensuite annexé à la promesse et à l'acte.",
+        "whys": [
+          "Exact : tu l'imprimes avant la visite, il repart avec l'acheteur.",
+          "Faux : il sera aussi annexé au compromis, mais la remise commence dès la première visite.",
+          "Faux : c'est une obligation, pas une option à la demande."
+        ]
+      },
+      "card2": {
+        "question": "Si Claire remettait aux Martin un état des risques de huit mois, que se passerait-il ?",
+        "answer": "Le document ne respecterait pas la règle des six mois : Claire doit le refaire avant la visite. Un état des risques absent ou inexact peut conduire à l'annulation de la vente ou à une baisse du prix."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : une visite sans hésitation. Le dossier de visite, et le parcours tracé sur le plan.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Check-list visite (capsule 4.2) : proposition pédagogique",
+      "goal": "Une visite sans hésitation",
+      "tools": [
+        { "name": "Dossier de visite", "role": "Avoir la bonne page pour chaque question" },
+        { "name": "Parcours sur le plan D04", "role": "Raconter le bien dans l'ordre de l'histoire" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le dossier : 8 documents, dont l'état des risques",
+      "voice": "Le dossier, d'abord. Tu glisses l'attestation E et le plan. Puis la fiche synthétique et le budget 2026. Puis le PV de juin 2025 et le plan pluriannuel. Puis le devis à 16 500 euros. Et l'état des risques, un par visiteur.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Check-list visite (capsule 4.2) ; dossier fil rouge fictif (D03, D04, D06, D07, D09, D10, D13, D17)",
+      "tool": "Dossier de visite",
+      "steps": [
+        "Énergie et plan : attestation D03, plan D04",
+        "Copropriété : fiche D10, budget D06 (2 652 €/an)",
+        "Travaux : PV D07, PPPT D09, devis D13 (16 500 €)",
+        "État des risques de moins de 6 mois, un par visiteur"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le parcours : l'histoire, pas le couloir",
+      "voice": "Le parcours, ensuite. Hall : l'ascenseur de 2019, la façade isolée en 2027. Séjour et balcon : tu te tais, tu laisses regarder. Chambres : fenêtres, 5 600 euros. Salle de bains : VMC, 2 900 euros. Retour au séjour : tes trois questions de fin.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Check-list visite, parcours type (capsule 4.2) ; devis D13 fictif",
+      "tool": "Parcours sur le plan D04",
+      "steps": [
+        "Hall : ascenseur 2019, façade isolée à partir d'avril 2027",
+        "Séjour et balcon sud-ouest : le moment fort, en silence",
+        "Chambres et salle de bains : 5 600 € et 2 900 €, devis en main",
+        "Retour au séjour : ce qui a plu, ce qui freine, le financement"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Prépare ton état des risques maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "Service-Public, service en ligne « Remplir l'état des risques » (lien donné par la page F12239, vérifiée le 28/09/2026)",
+      "cta": "Remplir l'état des risques",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58592"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 4.2 : parcours de visite de l'appartement de M. Bernard",
+      "ask": "Dépose une photo de ton parcours tracé sur le plan D04 : étapes numérotées, moment fort repéré, ce que tu dis dans chaque pièce.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Les Martin arrivent samedi : reviens déposer ton parcours quand il est prêt."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Ton parcours est prêt, ton dossier aussi. Quand Julie posera sa question, tu sortiras la bonne page.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton dossier : 8 documents, état des risques compris. Zéro hésitation.",
+      "source": "Fait observable : dossier de visite complet selon la check-list visite (capsule 4.2)"
+    }
+  ],
+  "sources": [
+    { "label": "Légifrance — Code de l'environnement, art. R. 125-25 (état des risques remis dès la 1re visite, moins de 6 mois)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000006176683/" },
+    { "label": "Service-Public — Diagnostic immobilier : état des risques (F12239, vérifié le 28/09/2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239" },
+    { "label": "Service-Public — Service en ligne « Remplir l'état des risques »", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58592" },
+    { "label": "ANIL — Décret du 27 mai 2004 (art. 6-2 du décret de 1967 : paiement des appels de fonds en cas de vente)", "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/analyses-juridiques/analyses-juridiques-2004/principales-dispositions-du-decret-27-mai-2004/" },
+    { "label": "Proposition pédagogique Éco-Propriété (parcours, réponses types, fiche de retour) ; dossier fil rouge fictif", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Écran 5 : Service-Public parle d'« annulation de la vente » (et non de « résolution ») ; formulation à faire relire juridiquement",
+    "Un exemplaire de l'état des risques par visiteur : proposition pédagogique, à valider",
+    "Écran 13 : le lien ouvre le service en ligne Service-Public pour remplir l'état des risques (cité par F12239) ; vérifier qu'il convient à un professionnel qui le prépare pour son vendeur",
+    "Formulation du principe de la date d'exigibilité (art. 6-2 du décret du 17 mars 1967) à faire relire juridiquement",
+    "Effet pic-fin présenté comme principe de psychologie, sans chiffre ni source chiffrée"
+  ]
+}

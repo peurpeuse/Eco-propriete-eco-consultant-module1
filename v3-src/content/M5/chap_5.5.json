@@ -1,0 +1,218 @@
+{
+  "id": "5.5",
+  "module": 5,
+  "title": "Piloter jusqu'à l'acte",
+  "capsule_title": "Piloter jusqu'à l'acte",
+  "duration": "4:30",
+  "objective": "Construire et tenir le rétroplanning d'une vente en copropriété, de l'offre acceptée à la remise des clés",
+  "mozi": {
+    "line": "La condition de prêt expire ce soir ? Parfait, j'appelle la banque demain !",
+    "scene": "Le 29 janvier à 18 h, Mozi range son agenda vide, éteint la lumière et part en sifflotant. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 5.5 : piloter jusqu'à l'acte",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas tenir le calendrier de la vente, du 2 décembre jusqu'aux clés.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "quelles dates font glisser une vente" },
+        { "verb": "Appliquer", "text": "construire le rétroplanning de M. Bernard et le premier compte rendu" },
+        { "verb": "Prouver", "text": "montrer ton rétroplanning daté, avec qui fait quoi" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "La condition de prêt expire ce soir ? Parfait, j'appelle la banque demain !",
+      "voice": "La condition de prêt expire ce soir ? Parfait, j'appelle la banque demain !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "La condition de prêt expire ce soir ? Parfait, j'appelle la banque demain !",
+      "scene": "Le 29 janvier à 18 h, Mozi range son agenda vide et part en sifflotant."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "45 jours, 0 relance, appel le 30",
+      "voice": "Quarante-cinq jours, zéro relance, et un coup de fil le trente.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["45 jours", "0 relance", "Appel le 30"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Condition expirée sans offre. Vente fragilisée.",
+      "voice": "Le 29 janvier au soir, la condition expire sans offre. La vente est fragilisée, et il faut négocier un avenant avec M. Bernard.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["29/01 : condition expirée sans offre.", "Vente fragilisée, avenant à négocier."],
+      "source": "Code de la consommation, art. L. 313-41 (Légifrance, consulté le 26/10/2026) ; prorogation uniquement par avenant signé des deux parties (capsule 5.5, modèle de rétroplanning) ; à vérifier : effet exact de l'expiration selon la rédaction du compromis, confirmé par le notaire"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "10 jours de réflexion, incompressibles",
+      "voice": "Un délai que personne ne peut raccourcir : l'emprunteur ne peut accepter l'offre de prêt que dix jours après l'avoir reçue.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "10 jours",
+      "label": "avant de pouvoir accepter une offre de prêt reçue",
+      "source": "Code de la consommation, art. L. 313-34 (Légifrance, texte vérifié le 26/10/2026)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Partir de la fin → Délais légaux → Dates copro",
+      "voice": "Trois idées. Un : on part de la fin. L'acte est le 15 mars ; avant, il faut l'offre acceptée, les fonds, l'état daté et la visite. La condition de prêt expire le 29 janvier : c'est la date la plus sensible. Deux : les délais légaux. L'offre de prêt est maintenue trente jours, et acceptée au plus tôt dix jours après réception. Droit de préemption, s'il s'applique : deux mois. Le notaire vérifie. Trois : les dates de la copropriété. Le 1er janvier, M. Bernard paie l'appel de 8 970 euros, remboursé à l'acte. Préviens-le dès le compromis.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Code de la consommation, art. L. 313-34 et L. 313-41 ; code de l'urbanisme, art. L. 213-2 et L. 211-4 ; décret du 17 mars 1967, art. 6-2 (Légifrance)",
+      "steps": [
+        { "label": "Partir de la fin", "detail": "Acte le 15/03/2027 ; condition de prêt jusqu'au 29/01/2027, la date la plus sensible." },
+        { "label": "Délais légaux", "detail": "Offre : 30 jours de validité, acceptation 10 jours après réception. Préemption : 2 mois si elle s'applique." },
+        { "label": "Dates copro", "detail": "1/01/2027 : M. Bernard paie 8 970 €, remboursés à l'acte." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Élodie anime un réseau de mandataires. L'un d'eux attend que le notaire lui donne les dates. Pour la vente de M. Bernard, que lui proposerais-tu ?",
+      "model_answer": "Un rétroplanning partagé, construit en partant de l'acte : date, étape, qui, preuve. J'y place le 29/01/2027 pour la condition de prêt, une relance de la banque à J−15 le 14/01, l'appel du 1/01 payé par M. Bernard, la visite le 12/03, et un compte rendu toutes les deux semaines.",
+      "keywords": ["rétroplanning", "29/01/2027", "relance", "qui fait quoi"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Code de la consommation, art. L. 313-41 (Légifrance) ; capsule 5.5, points d'alerte du modèle de rétroplanning",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "La condition de prêt a une date limite : on relance avant l'échéance, et toute prolongation passe par un avenant signé des deux parties",
+          "La condition de prêt se prolonge d'elle-même tant que la banque étudie le dossier",
+          "Aucune : la date de la condition n'est qu'indicative"
+        ],
+        "answer": 0,
+        "feedback": "La condition court jusqu'au 29/01/2027. Tu relances la banque à J−15, le 14/01. Si l'offre risque d'arriver en retard, on prépare un avenant avant l'échéance, avec l'accord de M. Bernard.",
+        "whys": [
+          "Exact : une date limite se surveille ; la prolonger demande l'accord écrit du vendeur et des acquéreurs.",
+          "Faux : rien n'est automatique ; sans avenant, la date du compromis s'applique.",
+          "Faux : la date est un engagement contractuel, pas une simple indication."
+        ]
+      },
+      "card2": {
+        "question": "Si la banque envoyait l'offre aux Martin le 22/01/2027, que se passerait-il ?",
+        "answer": "L'offre écrite arriverait avant le 29/01 : la condition peut être réalisée. Mais les Martin ne pourraient l'accepter que dix jours après réception, début février, date confirmée par le notaire. L'offre reste valable au moins trente jours."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : qu'aucune date ne glisse jusqu'au 15 mars. Le rétroplanning, et le compte rendu toutes les deux semaines.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Outils de la capsule 5.5 (modèle de rétroplanning D20, engagement de compte rendu du mandat) : choix à valider",
+      "goal": "Aucune date qui glisse jusqu'au 15/03/2027",
+      "tools": [
+        { "name": "Rétroplanning D20", "role": "Date, étape, qui fait, preuve" },
+        { "name": "Compte rendu", "role": "Informer M. Bernard toutes les deux semaines, par écrit" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le rétroplanning : date, étape, qui, preuve",
+      "voice": "Dans D20 : compromis le 15 décembre, rétractation jusqu'au 28, à confirmer. Le 1er janvier, M. Bernard paie l'appel. Le 14, relance banque ; le 29, l'offre écrite. En février, acceptation et état daté. Le 12 mars, la visite. Le 15, l'acte et les clés.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Capsule 5.5, modèle de rétroplanning (dates fictives : notification présentée le 16/12/2026) ; prorogation au lundi 28/12/2026 : Cass. 3e civ., 5/12/2007 et art. 642 CPC (ANIL), à confirmer par le notaire",
+      "tool": "Rétroplanning D20",
+      "steps": [
+        "15/12/2026 : compromis ; rétractation du 17 au 28/12 (le notaire confirme)",
+        "1/01/2027 : appel ITE 8 970 € + ≈ 663 € payés par M. Bernard",
+        "14/01 : relance banque ; 29/01 : offre écrite reçue",
+        "Février : offre acceptée après 10 jours ; état daté demandé",
+        "12/03 : visite avant l'acte ; 15/03 : acte et remise des clés"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le compte rendu : cinq rubriques",
+      "voice": "Le compte rendu tient en cinq rubriques. Ce qui est fait, avec la preuve. Ce qui vient, avec la date et le responsable. Les alertes. La décision attendue du vendeur, s'il y en a une. Et toujours par écrit, même après un appel.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Capsule 5.5, modèle de rétroplanning (compte rendu toutes les 2 semaines, engagement écrit du mandat exclusif, bible § 7)",
+      "tool": "Compte rendu",
+      "steps": [
+        "Fait depuis le dernier point, avec la preuve",
+        "À venir : date butoir et responsable",
+        "Alertes : date à risque, pièce manquante, relance en cours",
+        "Décision attendue du vendeur, s'il y en a une",
+        "Envoi par écrit, même après un appel"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais-le maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice dans un nouvel onglet",
+      "source": "Exercice de la capsule 5.5 : rétroplanning de la vente ; lien à valider",
+      "cta": "Construire mon rétroplanning",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 5.5 : rétroplanning de la vente et premier compte rendu",
+      "ask": "Dépose une capture du rétroplanning de la vente de M. Bernard, avec ton premier compte rendu.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. M. Bernard attend son premier compte rendu : reviens déposer ton rétroplanning quand il est prêt."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Cent trois jours, quatorze étapes, et chacune a son responsable. Tu tiens le calendrier.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "103 jours, 14 étapes, un responsable pour chacune.",
+      "source": "Fait observable : rétroplanning de la capsule 5.5, 14 lignes du 2/12/2026 au 15/03/2027 (103 jours)"
+    }
+  ],
+  "sources": [
+    { "label": "Art. L. 313-34 Code de la consommation : offre de prêt maintenue 30 jours, acceptation 10 jours après réception (Légifrance, texte vérifié le 26/10/2026)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433173" },
+    { "label": "Art. L. 313-41 Code de la consommation : condition suspensive de prêt (Légifrance, texte vérifié le 26/10/2026)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433227" },
+    { "label": "Art. L. 271-1 CCH : délai de rétractation (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667917" },
+    { "label": "Art. L. 213-2 code de l'urbanisme : délai de 2 mois du droit de préemption (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037670981" },
+    { "label": "Art. L. 211-4 code de l'urbanisme : exclusion des lots de copropriété de plus de 10 ans (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028810700" },
+    { "label": "Notaires de France : la déclaration d'intention d'aliéner", "url": "https://www.notaires.fr/fr/collectivites-territoriales/droit-de-preemption-et-dexpropriation/la-declaration-d%E2%80%99intention-d%E2%80%99aliener-dia" },
+    { "label": "Art. 6-2 décret du 17 mars 1967 : appels de fonds et vente (Légifrance)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488321" },
+    { "label": "ANIL — Cass. 3e civ., 5/12/2007 : délai de rétractation expirant un samedi ou un jour férié prorogé au premier jour ouvrable suivant (art. 642 CPC)", "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/jurisprudence/jurisprudence-2008/compromis-/-promesse-/-delai-de-retractation/" },
+    { "label": "La finance pour tous : délais de l'offre de prêt", "url": "https://www.lafinancepourtous.com/pratique/credit/credit-immobilier/pret-immo-l-essentiel-a-savoir/les-delais-de-validite-et-d-acceptation/" },
+    { "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D07, D14, D16, D17, D19, D20)", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Relecture juridique obligatoire : rétractation, offre de prêt, droit de préemption et art. L. 211-4, avis de mutation",
+    "Écran 5 : effet de l'expiration de la condition (caducité ou avenant) selon la rédaction du compromis : à confirmer par le notaire",
+    "Dates fictives : notification présentée le 16/12/2026, offre reçue le 22/01/2027 ; fin de rétractation au lundi 28/12/2026 (prorogation vérifiée, ANIL) à confirmer par le notaire",
+    "Date exacte d'acceptation de l'offre : 1 ou 2/02/2027 selon le mode de calcul ; dite « début février » à l'écran",
+    "Existence d'un droit de préemption renforcé à Melun sur le secteur : hypothèse de prudence, non vérifiée",
+    "Provision trimestrielle ≈ 663 € au 1/01/2027 : chiffre du dossier fil rouge (2 652 € / 4)",
+    "Écran 13 : renvoie à l'exercice (« #exercice »)"
+  ]
+}

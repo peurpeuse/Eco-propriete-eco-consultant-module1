@@ -1,0 +1,208 @@
+{
+  "id": "2.8",
+  "module": 2,
+  "title": "Huit familles de valeur",
+  "capsule_title": "Les 8 familles de valeur",
+  "duration": "4:30",
+  "objective": "Classer les atouts et défauts d'un bien dans les 8 familles de valeur et décider, pour chacun, s'il est neutre, chiffré par une preuve ou simple argument",
+  "mozi": {
+    "line": "Avec mes lunettes DPE, je vois tout : moins 15 % !",
+    "scene": "Mozi visite l'appartement avec d'énormes lunettes marquées « DPE », passe devant le balcon ensoleillé sans le voir et se cogne dans la porte de la cuisine. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 2.8 : huit familles de valeur",
+      "voice": "Bienvenue. Dans ce chapitre, tu regardes un bien avec huit paires de lunettes, pas une seule.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi un écart de prix sans famille ni preuve n'est qu'une opinion" },
+        { "verb": "Appliquer", "text": "ranger chaque atout et défaut dans une famille, avec son effet sur le prix" },
+        { "verb": "Prouver", "text": "montrer ton tableau des 8 familles pour M. Bernard" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Avec mes lunettes DPE, je vois tout : moins 15 % !",
+      "voice": "Avec mes lunettes DPE, je vois tout : moins 15 % !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Avec mes lunettes DPE, je vois tout : moins 15 % !",
+      "scene": "Mozi, d'énormes lunettes « DPE » sur le nez, passe devant le balcon sans le voir et se cogne dans la porte."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "1 étiquette, 1 pourcentage, 0 preuve",
+      "voice": "Une étiquette, un pourcentage, zéro preuve.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["1 étiquette", "1 pourcentage", "0 preuve"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "172 000 €. Sans une preuve.",
+      "voice": "Résultat : 172 000 euros, sans une seule preuve. Or les notaires le constatent : l'effet du DPE sur les prix varie selon les territoires. Un pourcentage unique ne tient pas.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["201 400 × 0,85 = 171 190 € : un pourcentage, pas une preuve.", "L'effet du DPE varie selon les territoires."],
+      "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », mis à jour le 7/01/2026 (dynamiques territoriales contrastées) ; calcul sur la valeur de départ de la bible (76 × 2 650 = 201 400 €, fictif)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "≈ 15 % des logements vendus sont F ou G",
+      "voice": "Début 2025, environ quinze pour cent des logements anciens vendus étaient classés F ou G. Ils se vendent. L'étiquette pèse, mais elle n'est qu'une famille parmi huit.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "≈ 15 %", "label": "des logements anciens vendus début 2025 étaient classés F ou G",
+      "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », mis à jour le 7/01/2026 (part des ventes F-G : de 11 % à 17 % entre 2021 et 2023, puis stabilisée autour de 15 % début 2025)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "8 familles → 3 effets → 1 case par défaut",
+      "voice": "Trois idées. Un : huit familles, chacune avec sa question. Intrinsèque : surface, étage, exposition. Marché : que disent les ventes comparables ? Technique : l'état du bâti. Énergétique : la classe et les travaux. Copropriété : charges et travaux votés. Perçue : ce que ressent l'acheteur. Financière : ce que ça lui coûte par mois. Transactionnelle : délai, documents, mandat. Deux : chaque élément a un effet. Neutre, si les comparables l'ont aussi. Chiffré, si une preuve donne un montant. Ou argument, sans montant. Trois : une famille par défaut, jamais deux. Sinon, tu retires deux fois le même montant.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Programme Éco-Consultant : 8 familles de valeur et 3 effets sur le prix (proposition pédagogique, capsule 2.8)",
+      "steps": [
+        { "label": "8 familles", "detail": "Intrinsèque, marché, technique, énergétique, copropriété, perçue, financière, transactionnelle." },
+        { "label": "3 effets", "detail": "Neutre, chiffré par une preuve, ou simple argument." },
+        { "label": "1 case", "detail": "Un défaut, une famille, un montant : jamais de double compte." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; règle « pas de preuve, pas de montant » (capsule 2.8)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Chez un vendeur de Sarah, la salle de bains « fait vieillot ». Un collègue propose « moins 10 000 € » sur le prix. Que fait Sarah ?",
+      "model_answer": "Sans devis ni comparable, pas de montant : c'est un argument de la famille perçue. Elle vérifie si les ventes comparables ont le même type de salle de bains, et propose un petit plan Éco-staging plutôt qu'une décote.",
+      "keywords": ["pas de preuve", "argument", "comparables", "Éco-staging"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Notaires de France, valeur verte, 7/01/2026 ; fiche des 8 familles (capsule 2.8)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Un écart de prix doit avoir une famille et une preuve",
+          "Le DPE compte pour 15 % de la valeur, ni plus ni moins",
+          "Aucune : le DPE suffit pour estimer un appartement"
+        ],
+        "answer": 0,
+        "feedback": "Mozi réduit le bien à une seule famille, l'énergie, et applique un pourcentage sans preuve. Or l'effet du DPE sur les prix varie selon les territoires (Notaires de France, janvier 2026).",
+        "whys": [
+          "Exact : famille plus preuve, c'est un argument. Sans preuve, c'est une opinion.",
+          "Faux : aucune règle ne fixe ce pourcentage ; l'effet du DPE varie selon les territoires.",
+          "Faux : en appartement, la copropriété pèse souvent lourd. Ici, 35 880 € de travaux votés pour le lot."
+        ]
+      },
+      "card2": {
+        "question": "Si Claire rangeait les fenêtres de M. Bernard à la fois en technique et en énergétique, que se passerait-il ?",
+        "answer": "Elle retirerait deux fois 5 600 € : le bien serait sous-estimé de 5 600 €, et M. Bernard, qui refait les calculs, le verrait. Une seule famille, l'énergétique, avec le devis ; en technique, « voir énergétique »."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux gestes, un seul but",
+      "voice": "Deux gestes, un seul but : un prix que l'acheteur ne peut pas casser. Le tableau des huit familles, et le test des comparables.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Fiche des 8 familles (ressource de la capsule 2.8)",
+      "goal": "Un prix que l'acheteur ne peut pas casser",
+      "tools": [
+        { "name": "Le tableau des 8 familles", "role": "Ranger chaque atout et chaque défaut dans une seule case" },
+        { "name": "Le test des comparables", "role": "Décider : neutre, chiffré ou argument" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le tableau de M. Bernard",
+      "voice": "Chez M. Bernard. Intrinsèque : 76 mètres carrés, quatrième avec ascenseur, balcon au sud-ouest. Technique : pas de VMC, mais une cuisine refaite. Énergétique : attestation en E, quatre fenêtres d'origine. Copropriété : l'isolation votée. Perçue : moisissures, auréole, fissure fine.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (bien fictif) ; attestation actualisée D03 ; PV d'AG D07",
+      "tool": "Tableau des 8 familles",
+      "steps": [
+        "Intrinsèque : 76 m², 4e avec ascenseur, balcon 6 m² sud-ouest, cave, parking",
+        "Technique : pas de VMC, conduit obstrué ; cuisine refaite en 2016",
+        "Énergétique : attestation actualisée classe E ; 4 fenêtres bois simple vitrage",
+        "Copropriété : ITE votée, 35 880 € pour le lot en 2027",
+        "Perçue : moisissures, auréole, fissure fine"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Neutre, chiffré ou argument ?",
+      "voice": "Puis le test. Les convecteurs ? Les comparables en l'état en ont aussi : neutre. Les fenêtres : devis, moins 5 600 euros, une seule fois. La ventilation : moins 2 900. Le balcon : un argument. Les défauts visibles : un Éco-staging d'environ 450 euros, pas une décote.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge : devis D13 (fictif), plan Éco-staging ≈ 450 € à la charge du vendeur",
+      "tool": "Test des comparables",
+      "steps": [
+        "Convecteurs de 1998 : aussi dans les comparables en l'état → neutre",
+        "Fenêtres : devis D13 → chiffré, −5 600 €, une seule fois",
+        "Ventilation : devis D13 → chiffré, −2 900 €",
+        "Balcon sud-ouest : pas de montant → argument, haut de fourchette",
+        "Défauts visibles : Éco-staging ≈ 450 €, pas de décote"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Classe les seize éléments maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice dans un nouvel onglet",
+      "source": "Exercice de la capsule 2.8 (classer 16 atouts et défauts)",
+      "cta": "Ouvrir l'exercice : 16 éléments",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton tableau.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.8 : tableau des 8 familles de valeur de l'appartement de M. Bernard",
+      "ask": "Dépose une capture de ton tableau des 8 familles : 16 éléments, chacun dans une seule famille, avec son effet et sa preuve.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Les seize éléments t'attendent : reviens déposer ton tableau quand il est prêt."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Les deux agences ont regardé une famille. Toi, les huit, avec une preuve pour chaque écart.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Les deux agences : 1 famille. Toi : 8, et une preuve par écart.",
+      "source": "Bible du fil rouge (« −15 % à cause du DPE » des deux agences, fictif) ; capsule 2.8"
+    }
+  ],
+  "sources": [
+    { "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », mis à jour le 7/01/2026", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
+    { "label": "Programme Éco-Consultant : 8 familles de valeur (intrinsèque, marché, technique, énergétique, copropriété, perçue, financière, transactionnelle), proposition pédagogique", "url": null },
+    { "label": "DVF, Demandes de valeurs foncières (data.gouv.fr)", "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres" },
+    { "label": "Bible du fil rouge : devis D13, PV D07, attestation D03, comparables D12 (fictifs)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Écran 6 : chiffre « ≈ 15 % » lu sur la page notaires.fr du 7/01/2026 (le texte source omet le symbole % après 17) ; à vérifier dans l'étude complète (Calameo non consultable par l'outil)",
+    "Écran 5 : l'étude complète des notaires (écarts F-G / D par région) n'a pas pu être lue ; seule la mention « dynamiques territoriales contrastées » est affichée, sans chiffre régional",
+    "Le prix de référence 2 650 €/m² est fictif : à annoncer comme exemple fictif à l'écran",
+    "Le classement fenêtres = énergétique et VMC = technique doit rester identique en 2.10 et dans le cas pratique du module"
+  ]
+}

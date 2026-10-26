@@ -1,0 +1,210 @@
+{
+  "id": "2.3",
+  "module": 2,
+  "title": "Refaire les chiffres du dossier",
+  "capsule_title": "Calculs : surfaces, kWh/m², CO₂",
+  "duration": "4:30",
+  "objective": "Calculer sans erreur la surface, la consommation (énergie finale et primaire), les émissions, la classe DPE et le coût annuel d'un logement",
+  "mozi": {
+    "line": "76 m² plus le balcon, plus la cave : disons 90, ça sonne mieux !",
+    "scene": "Mozi mesure le balcon puis la cave de M. Bernard avec un mètre ruban en élastique, qu'il tire de toutes ses forces. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 2.3 : refaire les chiffres du dossier",
+      "voice": "Bienvenue. Prends une calculatrice : dans ce chapitre, tu refais tous les chiffres de M. Bernard.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "d'où viennent la surface, les kWh, le CO₂ et la classe" },
+        { "verb": "Appliquer", "text": "refaire les calculs de M. Bernard, du plan au coût par mois" },
+        { "verb": "Prouver", "text": "montrer ton calculateur rempli en une image" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "76 m² plus le balcon, plus la cave : disons 90, ça sonne mieux !",
+      "voice": "76 mètres carrés plus le balcon, plus la cave : disons 90, ça sonne mieux !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "76 m² plus le balcon, plus la cave : disons 90, ça sonne mieux !",
+      "scene": "Mozi mesure le balcon et la cave avec un mètre ruban en élastique, qu'il étire de toutes ses forces."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "76 m², + balcon + cave, = 90 m²",
+      "voice": "Soixante-seize mètres carrés. Plus le balcon, plus la cave. Égale quatre-vingt-dix.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["76 m² de pièces", "+ balcon + cave", "= 90 m² « qui sonnent mieux »"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Plus de 15 % en moins. Prix réduit.",
+      "voice": "Après la vente, l'acquéreur fait mesurer : 76. Plus de 15 % de moins que l'acte. Au-delà d'un vingtième, il peut demander une baisse du prix proportionnelle, dans l'année qui suit.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Surface réelle : 76 m², soit plus de 15 % de moins que 90.", "Au-delà de 5 % : baisse du prix proportionnelle, dans l'année."],
+      "source": "Loi n° 65-557 du 10/07/1965, art. 46 (diminution du prix si la superficie réelle est inférieure de plus d'un vingtième, action dans l'année de l'acte) ; calcul : (90 − 76) / 90 ≈ 15,6 %"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "1,9 : le coefficient de l'électricité",
+      "voice": "Un virgule neuf. C'est le coefficient de l'électricité depuis le 1er janvier 2026. Il valait 2,3. Il vaudra 1,7 en 2027. Même appartement, autre étiquette.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "1,9", "label": "coefficient de conversion de l'électricité depuis le 1er janvier 2026 (2,3 avant, 1,7 au 1er janvier 2027)",
+      "source": "Arrêté du 13/08/2025 (1,9 au 1/01/2026, INC) ; arrêté du 19/08/2026, NOR VLOL2617030A (1,7 au 1/01/2027) ; Service-Public F16096, consulté le 26/10/2026"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Surface → Énergie → CO₂ et coût",
+      "voice": "Trois calculs, dans cet ordre. Un : la surface. Tu additionnes les pièces du plan : 24, 11, 10, 9, 9, 5, 1,5 et 6,5. Total : 76 mètres carrés. Balcon, cave et parking ne comptent pas. Seuil Carrez : 76 fois 0,95, soit 72,2. Deux : l'énergie. Le DPE indique 150 kilowattheures d'énergie finale par mètre carré. Fois 76 : 11 400 par an. Puis l'énergie primaire. Fois 2,3 : 345, classe F. Fois 1,9 : 285, classe E. Fois 1,7 : 255, toujours E, à 5 du seuil de D. Trois : le CO₂ et le coût. 12 kilos par mètre carré : classe C. La classe retenue, c'est la moins bonne des deux : E aujourd'hui. Le coût : 2 330 à 3 190 euros par an, soit environ 194 à 266 euros par mois, aux prix de 2021.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "CCH art. R. 156-1 ; loi du 10/07/1965, art. 46 ; arrêtés du 13/08/2025 et du 19/08/2026 ; Service-Public F16096 (seuils, logements de 40 m² et plus) ; bible du fil rouge (DPE D02 fictif)",
+      "steps": [
+        { "label": "Surface", "detail": "24 + 11 + 10 + 9 + 9 + 5 + 1,5 + 6,5 = 76,0 m², hors balcon, cave, parking. Seuil Carrez : 72,2 m²." },
+        { "label": "Énergie", "detail": "150 × 76 = 11 400 kWhEF/an. 150 × 2,3 = 345 (F) ; × 1,9 = 285 (E) ; × 1,7 = 255 (E)." },
+        { "label": "CO₂ et coût", "detail": "12 kgCO₂/m² → C ; la moins bonne des deux l'emporte : E. 2 330 à 3 190 €/an, ≈ 194 à 266 €/mois (prix 2021)." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "M. Bernard demande à Hugo pourquoi il passe de F à E sans travaux. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard, ancien ingénieur, demande à Hugo : « Comment mon appartement passe-t-il de F à E alors que je n'ai fait aucun travail ? » Que répond Hugo, en deux phrases ?",
+      "model_answer": "Votre consommation n'a pas changé : 150 kWh d'énergie finale par m² et par an. C'est le coefficient de l'électricité qui est passé de 2,3 à 1,9 : 150 × 1,9 = 285, classe E, et l'attestation de l'ADEME le confirme.",
+      "keywords": ["150", "coefficient", "1,9", "285", "attestation"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Loi n° 65-557 du 10/07/1965, art. 46 (superficie Carrez, un vingtième) ; CCH art. R. 156-1",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "La Carrez compte les locaux clos et couverts : balcon, cave et parking en sont exclus",
+          "La Carrez compte toute la surface du lot, annexes comprises",
+          "Aucune : on peut arrondir la surface tant que l'écart reste sous 20 %"
+        ],
+        "answer": 0,
+        "feedback": "La superficie Carrez compte les planchers des locaux clos et couverts d'au moins 1,80 m de hauteur. Le balcon n'est pas clos ; caves et parkings sont hors champ. Chez M. Bernard : 76,0 m².",
+        "whys": [
+          "Exact : 24 + 11 + 10 + 9 + 9 + 5 + 1,5 + 6,5 = 76,0 m², ni plus ni moins.",
+          "Faux : la loi exclut caves, garages et emplacements de stationnement, et un balcon n'est pas clos.",
+          "Faux : le seuil légal est d'un vingtième, 5 %, et il protège l'acquéreur, pas l'arrondi du vendeur."
+        ]
+      },
+      "card2": {
+        "question": "Si l'acte indiquait 76 m² et que l'acquéreur mesurait 73 m², que se passerait-il ?",
+        "answer": "Rien sur ce fondement. 76 × 0,95 = 72,2 m². À 73 m², l'écart est de 3 m², soit 3,9 % : il reste sous le seuil d'un vingtième."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux gestes, un seul but",
+      "voice": "Deux gestes, un seul but : des chiffres que tu peux refaire devant M. Bernard. Le calculateur, puis le contrôle croisé.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource « Fiche formules + calculateur » de la capsule 2.3",
+      "goal": "Des chiffres que tu peux refaire devant le vendeur",
+      "tools": [
+        { "name": "Calculateur (11 lignes)", "role": "Refaire chaque calcul, du plan au coût par mois" },
+        { "name": "Contrôle croisé (D02, D03, D17)", "role": "Vérifier que les documents disent la même chose" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le calculateur, ligne par ligne",
+      "voice": "Le calculateur, ligne par ligne. Surface : 76, seuil Carrez 72,2. Énergie finale : 11 400 par an. Primaire : 345, 285, puis 255. Émissions : 912 kilos par an. Classe retenue : E. Coût : environ 194 à 266 euros par mois.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Fiche formules + calculateur » de la capsule 2.3 (calculs refaits : 76 × 0,95 = 72,2 ; 150 × 76 = 11 400 ; 12 × 76 = 912 ; 2 330 / 12 ≈ 194 ; 3 190 / 12 ≈ 266)",
+      "tool": "Calculateur (11 lignes)",
+      "steps": [
+        "Lignes 1-2 : surface 76,0 m², seuil Carrez 72,2 m²",
+        "Lignes 3-4 : 150 kWhEF/m²/an, soit 11 400 kWhEF/an",
+        "Lignes 5-7 : 345 (F), 285 (E), 255 (E)",
+        "Lignes 8-10 : 912 kgCO₂/an (C), classe E, ≈ 194 à 266 €/mois"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le contrôle croisé : trois coches",
+      "voice": "Puis le contrôle croisé. La surface du DPE est-elle celle du mesurage Carrez ? La somme des usages fait-elle 150 ? 150 fois 1,9 donne-t-il la classe de l'attestation ? Si un contrôle échoue, tu ne corriges pas : tu écris au diagnostiqueur.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (D02, D03, D17 fictifs) ; démonstration de la capsule 2.3",
+      "tool": "Contrôle croisé (D02, D03, D17)",
+      "steps": [
+        "Surface du DPE (76 m²) = mesurage Carrez du D17 ?",
+        "Somme des usages : 112 + 26 + 4 + 8 = 150 ?",
+        "150 × 1,9 = 285 → E, comme sur l'attestation D03 ?",
+        "Un écart : question écrite au diagnostiqueur"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Remplis le calculateur de M. Bernard maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Pas d'outil en ligne officiel : renvoi vers l'exercice de la capsule",
+      "cta": "Ouvrir l'exercice",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton calculateur rempli.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.3 : calculateur rempli de l'appartement de M. Bernard",
+      "ask": "Dépose une capture de ton calculateur rempli : les 11 lignes de M. Bernard et tes 3 phrases sur le passage de F à E.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Ta calculatrice t'attend : reviens déposer ton tableau quand il est rempli."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Chaque chiffre de M. Bernard, tu peux maintenant le refaire devant lui.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Tes calculs : 11 lignes refaites à la main. Les deux autres agences : une lettre, F, et −15 %.",
+      "source": "Bible du fil rouge (fictif) : deux agences ont annoncé « −15 % à cause du DPE »"
+    }
+  ],
+  "sources": [
+    { "label": "Code de la construction et de l'habitation, art. R. 156-1 (surface habitable)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043808633" },
+    { "label": "Loi n° 65-557 du 10/07/1965, art. 46 (superficie Carrez, diminution du prix au-delà d'un vingtième)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000029946555/" },
+    { "label": "Arrêté du 25 mars 2024 (surface de référence du DPE, seuils petites surfaces)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049446315" },
+    { "label": "INC : abaissement du coefficient de l'électricité à 1,9 au 1/01/2026 (arrêté du 13/08/2025)", "url": "https://www.inc-conso.fr/content/1er-janvier-2026-abaissement-du-coefficient-de-conversion-de-lelectricite-des-dpe" },
+    { "label": "Arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027), NOR VLOL2617030A", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
+    { "label": "Service-Public, F16096 : DPE (seuils, validité, coefficient 1,9 puis 1,7)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096" },
+    { "label": "Bible du fil rouge (données fictives : D02, D03, D04, D17)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Écran 5 : la surface de la cave n'existe pas dans la bible ; « 90 m² » est un chiffre absurde de Mozi, à présenter comme tel (aucune donnée du dossier)",
+    "Relecture juridique de la règle Carrez (un vingtième, action dans l'année de l'acte)",
+    "Écran 7 : mentions obligatoires à l'écran « prix des énergies au 1/01/2021 » et « seuils pour les logements de 40 m² et plus »",
+    "Ne jamais présenter 255 comme un passage en D en 2027",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "1.3",
+  "module": 1,
+  "title": "Attirer des clients",
+  "capsule_title": "Google Business Profile",
+  "duration": "4:30",
+  "objective": "Créer et compléter sa fiche Google (et sa page Facebook) pour être trouvé et choisi, avec de vrais avis",
+  "mozi": {
+    "line": "Cinq étoiles pour moi, personne ne verra rien !",
+    "scene": "Mozi, assis dans sa voiture, tape des avis cinq étoiles sur sa propre fiche avec trois téléphones à la fois. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 1.3 : attirer des clients",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas attirer tes premiers clients en ligne.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "comment un vendeur choisit l'agent qu'il appelle" },
+        { "verb": "Appliquer", "text": "créer et compléter ta fiche Google et ta page Facebook" },
+        { "verb": "Prouver", "text": "montrer ta fiche complète en une image" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Cinq étoiles pour moi, personne ne verra rien !",
+      "voice": "Cinq étoiles pour moi, personne ne verra rien !",
+      "voice_status": "validé",
+      "interaction": "Aucune", "source": null,
+      "line": "Cinq étoiles pour moi, personne ne verra rien !",
+      "scene": "Mozi tape des avis cinq étoiles sur sa propre fiche, trois téléphones en main."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "20 avis, 5 étoiles, 1 seul auteur",
+      "voice": "Vingt avis, cinq étoiles, un seul auteur.",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["20 avis", "5 étoiles", "1 seul auteur"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Avis supprimés. Fiche signalée.",
+      "voice": "Et là, ça ne rate pas : les avis disparaissent, la fiche est signalée.",
+      "voice_status": "validé",
+      "interaction": "Aucune",
+      "lines": ["Avis supprimés.", "Fiche signalée."],
+      "source": "Google peut supprimer les faux avis, bloquer les nouveaux et afficher un avertissement sur la fiche (Journal du Geek, 6 octobre 2024)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "75 % lisent les avis avant d'acheter",
+      "voice": "Avant d'acheter, trois personnes sur quatre lisent d'abord les avis.",
+      "voice_status": "validé",
+      "interaction": "Aucune",
+      "value": "75 %", "label": "des consommateurs lisent les avis avant d'acheter",
+      "source": "Avis Vérifiés, étude relayée par CB News le 17 juillet 2024 (72 000 consommateurs, France, Espagne, Italie)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Recherche → Fiche → Appel",
+      "voice": "Regarde comment un vendeur comme M. Bernard choisit. D'abord, il cherche : « agence immobilière Melun », sur son téléphone. Ensuite, il compare les fiches : les photos, les horaires, les avis, et surtout les réponses de l'agent aux avis. Enfin, il appelle celui qui lui inspire confiance. Pas le plus grand. Celui qui a l'air sérieux, joignable et honnête. Ta fiche, c'est ta première poignée de main.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "à vérifier : formulation du parcours client avec Sébastien Paumier",
+      "steps": [
+        { "label": "Recherche", "detail": "Il tape « agence immobilière Melun » sur son téléphone." },
+        { "label": "Fiche", "detail": "Il compare photos, horaires, avis et réponses aux avis." },
+        { "label": "Appel", "detail": "Il appelle celui qui inspire confiance, pas le plus grand." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "validé",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Mozi a vingt faux avis. Toi, tu démarres avec zéro. Que fais-tu pour que M. Bernard te choisisse ?",
+      "model_answer": "Je demande un avis à chacun de mes vrais clients satisfaits, avec le lien direct de ma fiche, et je réponds à tous les avis, même aux moins bons. Peu d'avis au début, mais tous vrais.",
+      "keywords": ["vrais clients", "demander", "lien", "répondre"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "validé",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Faux avis réputés trompeurs en toutes circonstances (code de la consommation, art. L. 121-4) ; Assemblée nationale, réponse ministérielle du 1er août 2023",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Diffuser de faux avis est une pratique commerciale trompeuse, en toutes circonstances",
+          "Une fiche Google ne peut pas dépasser 20 avis",
+          "Aucune : c'est sa fiche, il y écrit ce qu'il veut"
+        ],
+        "answer": 0,
+        "feedback": "Les faux avis de consommateurs font partie des pratiques réputées trompeuses en toutes circonstances (code de la consommation, art. L. 121-4). Et Google les supprime.",
+        "whys": [
+          "Exact : la loi les classe parmi les pratiques trompeuses en toutes circonstances, sans qu'il faille prouver un préjudice.",
+          "Faux : il n'existe aucun plafond d'avis. Le problème, c'est l'auteur, pas le nombre.",
+          "Faux : la fiche est publique et s'adresse à des consommateurs ; la loi s'applique."
+        ]
+      },
+      "card2": {
+        "question": "S'il n'enfreignait rien, que se passerait-il ?",
+        "answer": "Ses avis viendraient de vrais clients : moins nombreux au début, mais crédibles. Sa fiche ne risquerait ni suppression ni avertissement, et les vendeurs liraient de vraies expériences."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : qu'un vendeur te trouve et ait envie de t'appeler. La fiche Google, et la page Facebook.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Être trouvé et choisi",
+      "tools": [
+        { "name": "Fiche Google", "role": "Être trouvé sur Google Maps et la recherche locale" },
+        { "name": "Page Facebook", "role": "Montrer ton travail à ta communauté locale" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Google : créer, vérifier, compléter",
+      "voice": "Sur Google : tu crées la fiche avec ton vrai nom, tu la fais valider, puis tu la complètes. Catégorie, zone desservie, horaires, photos, et une description de sept cent cinquante caractères maximum, sans lien ni promotion.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Aide Google Business Profile (description : 750 caractères ; validation de l'établissement) — à vérifier le jour du tournage",
+      "tool": "Fiche Google",
+      "steps": [
+        "Créer : ton nom réel, catégorie « Agence immobilière »",
+        "Vérifier : valider l'établissement (vidéo ou autre méthode proposée)",
+        "Compléter : zone desservie, horaires, photos",
+        "Décrire : 750 caractères max, sans lien ni promo"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Facebook : créer, compléter, publier",
+      "voice": "Sur Facebook : tu crées ta page professionnelle, tu la complètes avec tes coordonnées et un bouton d'appel, puis tu publies un premier post utile, sans jamais citer un client.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "à vérifier le jour du tournage",
+      "tool": "Page Facebook",
+      "steps": [
+        "Créer : une page professionnelle à ton nom",
+        "Compléter : catégorie, zone, coordonnées, bouton d'appel",
+        "Publier : un premier post utile, sans donnée client"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais-le maintenant.",
+      "voice_status": "validé",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien à valider",
+      "cta": "Ouvrir ma fiche Google",
+      "url": "https://www.google.com/business/"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "validé",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture de ta fiche Google complétée, vue sur téléphone.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Ta fiche t'attend : reviens déposer ta capture quand elle est prête."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Ta fiche est complète, alors que la moyenne des agences est à 73 %.",
+      "voice_status": "validé",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta fiche : complète. La moyenne : 73 %.",
+      "source": "Taux de complétion moyen des fiches : 73 % (Geolid, 2026)"
+    }
+  ],
+  "sources": [
+    { "label": "Code de la consommation, art. L. 121-4 (pratiques commerciales réputées trompeuses)", "url": null },
+    { "label": "Assemblée nationale, réponse ministérielle sur les faux avis, 1er août 2023", "url": null },
+    { "label": "Avis Vérifiés, via CB News, 17 juillet 2024 : 75 % lisent les avis avant d'acheter", "url": null },
+    { "label": "Journal du Geek, 6 octobre 2024 : Google supprime les faux avis et signale les fiches", "url": null },
+    { "label": "Geolid, 2026 : taux de complétion moyen des fiches 73 %", "url": null },
+    { "label": "Google — Modifier votre fiche d'établissement (description : 750 caractères)", "url": "https://support.google.com/business/answer/3039617?hl=fr" },
+    { "label": "Google — Valider votre établissement sur Google", "url": "https://support.google.com/business/answer/7107242?hl=fr" }
+  ],
+  "open_points": [
+    "Voix des écrans 1, 2, 4, 7, 10, 11, 12 : propositions à valider par Sébastien Paumier",
+    "Étapes Google et Facebook à vérifier le jour du tournage",
+    "Lien de l'écran 13 et fin sobre de l'écran 14 à valider",
+    "Ne pas citer de peine chiffrée : 5 ans et 750 000 € non confirmés sur Légifrance",
+    "Ce chapitre reprend le storyboard « Chapitre 1 : attirer des clients » ; il est rattaché à la capsule 1.3 (Google Business Profile)"
+  ]
+}

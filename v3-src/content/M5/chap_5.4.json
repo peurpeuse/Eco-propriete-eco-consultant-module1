@@ -1,0 +1,213 @@
+{
+  "id": "5.4",
+  "module": 5,
+  "title": "Financer l'achat et les travaux",
+  "capsule_title": "Financer l'achat et les travaux",
+  "duration": "4:30",
+  "objective": "Construire et contrôler le plan de financement d'un acquéreur, travaux privatifs et appels de fonds de copropriété compris",
+  "mozi": {
+    "line": "La façade ? Ils la paieront avec la prime qu'on n'a pas encore reçue !",
+    "scene": "Mozi dessine au feutre un énorme billet « Prime » et le scotche fièrement dans le plan de financement. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 5.4 : financer l'achat et les travaux",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas vérifier que le projet des Martin tient, façade comprise.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "ce que la banque regarde dans un plan de financement" },
+        { "verb": "Appliquer", "text": "construire le plan complet des Martin et le tester" },
+        { "verb": "Prouver", "text": "montrer ton plan prêt pour leur courtier" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "La façade ? Ils la paieront avec la prime qu'on n'a pas encore reçue !",
+      "voice": "La façade ? Ils la paieront avec la prime qu'on n'a pas encore reçue !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "La façade ? Ils la paieront avec la prime qu'on n'a pas encore reçue !",
+      "scene": "Mozi scotche un billet « Prime » dessiné au feutre dans le plan de financement."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "35 880 € à payer, 0 € notifié, « c'est financé »",
+      "voice": "Trente-cinq mille huit cent quatre-vingts euros à payer, zéro euro notifié, et « c'est financé ».",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "beats": ["35 880 € à payer", "0 € notifié", "« C'est financé »"]
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Aide non notifiée : 0 €. Façade sans financement.",
+      "voice": "Une aide non notifiée vaut zéro euro. Il reste trente-cinq mille huit cent quatre-vingts euros à payer en 2027, et rien pour les payer.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Aide non notifiée : 0 €.", "35 880 € sans financement en 2027."],
+      "source": "Dossier fil rouge (bible, § 4) : quote-part ITE 1 150 000 × 312/10 000 = 35 880 €, appelée en 2027 ; aide MaPrimeRénov' Copropriété demandée par le syndic, montant non notifié, à ne pas chiffrer ; capsule 5.4, modèle de plan (règles 2026 vérifiées sur Service-Public F35083 le 1/09/2026)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "35 % : le plafond du taux d'effort",
+      "voice": "La règle que la banque applique : un taux d'effort de trente-cinq pour cent maximum, assurance comprise, sur vingt-cinq ans au plus.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "35 %",
+      "label": "de taux d'effort maximum, assurance comprise, sur 25 ans au plus",
+      "source": "HCSF, décision D-HCSF-2021-7 (economie.gouv.fr)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Besoin → Règles → Second financement",
+      "voice": "Trois idées. Un : le besoin. Prix 184 000 euros, frais de notaire environ 13 300 calculés sur 175 000, travaux privatifs 16 500, garantie environ 2 000. Total : 215 800. Moins 22 000 d'apport : 193 800 à emprunter. Deux : les règles. Sur 25 ans à 3,55 %, environ 1 024 euros par mois, assurance comprise. Divisé par 4 600 : 22,3 %. Trois : la façade. 35 880 euros, financés à part. L'éco-prêt individuel n'est possible que si l'assemblée refuse le prêt collectif : on ne compte pas dessus. On chiffre un prêt travaux.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Bible, § 7 (plan de financement Martin) ; HCSF D-HCSF-2021-7 ; Service-Public F19905 et F38064 (éco-PTZ) ; calculs vérifiés de la capsule 5.4",
+      "steps": [
+        { "label": "Besoin", "detail": "184 000 + 13 300 + 16 500 + 2 000 = 215 800 € ; moins 22 000 € d'apport : 193 800 €." },
+        { "label": "Règles", "detail": "≈ 1 024 €/mois assurance comprise ; 1 024 / 4 600 = 22,3 %, sous 35 %." },
+        { "label": "Second financement", "detail": "35 880 € de façade financés à part ; aucune aide non notifiée." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Sarah voit le plan des Martin à 22,3 % d'endettement et veut l'envoyer tel quel à leur courtier. Que lui conseilles-tu ?",
+      "model_answer": "D'ajouter la quote-part de façade : 35 880 €, dont 8 970 € remboursés à l'acte puis trois appels en 2027. Je chiffre un second financement, environ 274 € par mois, soit 28,2 % au total, et le test tout en un prêt, 26,4 %. Je n'inscris aucune aide non notifiée.",
+      "keywords": ["35 880 €", "second financement", "taux d'effort", "aide non notifiée"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Capsule 5.4, modèle de plan, étape « Ne chiffrer aucune aide non notifiée » ; Service-Public F35083 (vérifiée le 1/09/2026)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Dans un plan de financement, on ne chiffre aucune aide qui n'est pas notifiée",
+          "Une aide demandée par le syndic peut être comptée à moitié, par prudence",
+          "Aucune : une aide copropriété est automatique pour une isolation de façade"
+        ],
+        "answer": 0,
+        "feedback": "L'aide MaPrimeRénov' Copropriété a été demandée par le syndic, mais son montant n'est pas notifié : elle vaut 0 € dans le plan. Les 35 880 € doivent avoir leur propre financement.",
+        "whys": [
+          "Exact : une aide non notifiée vaut zéro ; on la signale, on ne la chiffre pas.",
+          "Faux : la moitié d'un montant inconnu reste un chiffre inventé.",
+          "Faux : aucune aide n'est automatique ; il faut une demande et une décision."
+        ]
+      },
+      "card2": {
+        "question": "Si Karim faisait financer tout en un seul prêt pour les Martin, que se passerait-il ?",
+        "answer": "229 680 € sur 25 ans à 3,55 % : environ 1 214 € par mois assurance comprise, soit 26,4 % d'endettement. Toujours sous 35 % : le projet tient aussi. C'est le courtier qui compare le coût total des deux options."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : que chaque euro dû en 2027 ait son financement. Le plan de financement, et le test de résistance.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Outils de la capsule 5.4 (modèle de plan) : choix à valider",
+      "goal": "Chaque somme de 2027 financée",
+      "tools": [
+        { "name": "Plan de financement", "role": "Calculer besoin, prêt, mensualité, endettement" },
+        { "name": "Test de résistance", "role": "Vérifier que le projet tient même dans le pire cas" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le plan : besoin, prêt, endettement",
+      "voice": "Dans le plan : 215 800 euros de besoin, moins l'apport, 193 800 euros de prêt. Environ 975 euros par mois hors assurance, 1 024 avec. Taux d'endettement : 22,3 %. Et il reste 3 576 euros par mois pour vivre.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible, § 7 ; capsule 5.4 (193 800 € à 3,55 % sur 300 mois = 975,41 € ; assurance ≈ 49 €)",
+      "tool": "Plan de financement",
+      "steps": [
+        "Besoin : 184 000 + 13 300 + 16 500 + 2 000 = 215 800 €",
+        "Prêt : 215 800 − 22 000 = 193 800 €",
+        "Mensualité : ≈ 975 € hors assurance, ≈ 1 024 € avec",
+        "Endettement : 1 024 / 4 600 = 22,3 % ; reste à vivre 3 576 €"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le test : et avec la façade ?",
+      "voice": "Avec la façade : un prêt travaux fictif de 35 880 euros sur 15 ans à 4,50 %, environ 274 euros par mois. Total : 28,2 %. Tout en un seul prêt : 229 680 euros, environ 1 214 euros par mois, 26,4 %. Sous 35 % dans les deux cas.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Capsule 5.4, calculs vérifiés (35 880 € à 4,50 % sur 180 mois = 274,48 € ; 229 680 € à 3,55 % sur 300 mois = 1 156 € + 58 € d'assurance) ; taux et durée du prêt travaux : hypothèse fictive",
+      "tool": "Test de résistance",
+      "steps": [
+        "Prêt travaux (fictif) : 35 880 € sur 15 ans à 4,50 % ≈ 274 €/mois",
+        "Total : (1 024 + 274) / 4 600 ≈ 28,2 %",
+        "Tout en un prêt : 229 680 € ≈ 1 214 €/mois, soit ≈ 26,4 %",
+        "Sous 35 % dans les deux cas : le courtier compare"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais-le maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice dans un nouvel onglet",
+      "source": "Exercice de la capsule 5.4 : plan de financement ; lien à valider",
+      "cta": "Construire le plan des Martin",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 5.4 : plan de financement complet des Martin",
+      "ask": "Dépose une capture du plan de financement complet des Martin : prêt principal, second financement et test de résistance.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le courtier des Martin attend ton plan : reviens le déposer quand il est prêt."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Trois calculs, tous sous trente-cinq pour cent. Ton plan est prêt pour le courtier.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton plan : 22,3 %, 28,2 %, 26,4 %. Le plafond : 35 %.",
+      "source": "HCSF, décision D-HCSF-2021-7 (35 %) ; calculs du livrable de la capsule 5.4"
+    }
+  ],
+  "sources": [
+    { "label": "HCSF : mesure relative à l'octroi de crédits immobiliers (décision D-HCSF-2021-7)", "url": "https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers" },
+    { "label": "Service-Public : éco-prêt à taux zéro (F19905, vérifiée le 1/09/2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19905" },
+    { "label": "Service-Public : éco-PTZ Copropriétés (F38064, vérifiée le 1/07/2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38064" },
+    { "label": "ANIL : éco-prêt à taux zéro copropriétés (mise à jour 2/09/2026)", "url": "https://www.anil.org/aj-eco-ptz-copropriete-renovation-energetique/" },
+    { "label": "Service-Public : MaPrimeRénov' (F35083, vérifiée le 1/09/2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35083" },
+    { "label": "Meilleurtaux : taux d'usure au 1er octobre 2026", "url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2026-septembre/taux-dusure-au-1er-octobre-2026-les-nouveaux-plafonds.html" },
+    { "label": "Art. L. 313-41 Code de la consommation : condition suspensive de prêt (Légifrance)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433227" },
+    { "label": "Proposition pédagogique Éco-Propriété (dossier fil rouge fictif D07, D13 à D16)", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Relecture juridique et financière : HCSF, usure, éco-PTZ individuel et copropriétés, MaPrimeRénov' 2026, statut IOBSP (l'agent ne monte pas le crédit)",
+    "Écran 5 : conséquence tirée du dossier fil rouge (aide non notifiée = 0 €), pas d'une statistique externe",
+    "Prêt travaux 35 880 € sur 15 ans à 4,50 % : hypothèse fictive ; un prêt travaux de moins de 75 000 € sans garantie hypothécaire relève du crédit à la consommation",
+    "Éco-PTZ individuel pour une quote-part de parties communes : prévu par Service-Public si le syndicat refuse le prêt collectif ; l'ANIL ne traite pas ce cas",
+    "Frais de notaire ≈ 13 300 € : chiffre du dossier fil rouge, non recalculé",
+    "Écran 13 : renvoie à l'exercice (« #exercice »)"
+  ]
+}
