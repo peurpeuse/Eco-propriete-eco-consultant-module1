@@ -77,7 +77,7 @@ def check(path):
     txt = json.dumps(d, ensure_ascii=False)
     if re.search(r"\bSeb\b", txt):
         err.append("« Seb » trouvé : écrire « Sébastien Paumier »")
-    if re.search(r"\bvous\b", " ".join(s.get("voice", "") for s in sc if s.get("kind") != "mozi"), re.I):
+    if re.search(r"(?<!-)\bvous\b", " ".join(s.get("voice", "") for s in sc if s.get("kind") != "mozi"), re.I):
         warn.append("« vous » dans une voix : tutoiement attendu (sauf citation)")
     if re.search(r"[\U0001F300-\U0001FAFF]", txt):
         err.append("émoji trouvé")
