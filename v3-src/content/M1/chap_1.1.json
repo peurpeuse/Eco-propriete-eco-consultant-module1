@@ -11,74 +11,138 @@
   },
   "screens": [
     {
-      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
       "title": "Chapitre 1.1 : lire le marché 2026",
       "voice": "Bienvenue. Dans ce chapitre, tu vas voir ce qui a changé en 2026, et comment ça change ta façon de prendre un mandat.",
       "voice_status": "proposition",
-      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
     },
     {
-      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
       "title": "Ce que tu vas faire",
       "voice": "Tu vas comprendre, appliquer, puis prouver.",
       "voice_status": "proposition",
-      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
       "items": [
-        { "verb": "Comprendre", "text": "les trois changements de 2026 : marché, DPE, prospection" },
-        { "verb": "Appliquer", "text": "transformer chaque changement en technique de prise de mandat" },
-        { "verb": "Prouver", "text": "montrer ton tableau des 3 changements clients en une image" }
+        {
+          "verb": "Comprendre",
+          "text": "les trois changements de 2026 : marché, DPE, prospection"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "transformer chaque changement en technique de prise de mandat"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ton tableau des 3 changements clients en une image"
+        }
       ]
     },
     {
-      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
       "title": "J'appelle tout l'annuaire : les gens adorent les surprises !",
       "voice": "J'appelle tout l'annuaire : les gens adorent les surprises !",
       "voice_status": "proposition",
-      "interaction": "Aucune", "source": null,
+      "interaction": "Aucune",
+      "source": null,
       "line": "J'appelle tout l'annuaire : les gens adorent les surprises !",
       "scene": "Mozi compose à la chaîne des numéros relevés sur des annonces, un vieil annuaire ouvert sur les genoux."
     },
     {
-      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
       "title": "500 numéros, 0 accord, 1 seul script",
       "voice": "Cinq cents numéros, zéro accord, un seul script.",
       "voice_status": "proposition",
-      "interaction": "Aucune", "source": null,
-      "beats": ["500 numéros", "0 accord", "1 seul script"]
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "500 numéros",
+        "0 accord",
+        "1 seul script"
+      ]
     },
     {
-      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
-      "title": "Appel interdit. Contrat nul.",
-      "voice": "Sauf que depuis le onze août 2026, appeler un particulier sans son accord préalable est interdit. Et un contrat signé après un tel appel est nul.",
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Appel interdit. Contrat contestable.",
+      "voice": "Sauf que depuis le onze août 2026, appeler un particulier sans son accord préalable est interdit. Et un contrat signé après un tel appel peut être remis en cause.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "lines": ["Appel sans accord : interdit depuis le 11 août 2026.", "Contrat signé ensuite : nul."],
+      "lines": [
+        "Appel sans accord : interdit depuis le 11 août 2026.",
+        "Contrat signé ensuite : contestable."
+      ],
       "source": "Loi n° 2025-594 du 30/06/2025 (art. L. 223-1 du code de la consommation) et décret n° 2026-662 du 23/07/2026 : consentement préalable obligatoire depuis le 11/08/2026 (DGCCRF, « Les règles du démarchage téléphonique s'imposant aux entreprises », 27/07/2026). Nullité du contrat : art. L. 223-1, reprise par plusieurs analyses juridiques mais absente de la fiche DGCCRF — à vérifier sur Légifrance (texte consolidé de l'art. L. 223-1) avant tournage"
     },
     {
-      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
       "title": "958 000 ventes en un an",
       "voice": "Bonne nouvelle quand même : neuf cent cinquante-huit mille logements anciens vendus en un an, à fin juin 2026. Les acheteurs sont revenus.",
       "voice_status": "proposition",
       "interaction": "Aucune",
-      "value": "958 000", "label": "ventes de logements anciens sur 12 mois, à fin juin 2026",
+      "value": "958 000",
+      "label": "ventes de logements anciens sur 12 mois, à fin juin 2026",
       "source": "Insee, Informations rapides n° 216, indices des prix des logements anciens, T2 2026 (8 septembre 2026)"
     },
     {
-      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
       "title": "Marché → DPE → Prospection",
       "voice": "Trois changements, trois réponses. Un, le marché. Les prix reculent de zéro virgule huit pour cent sur un an, les appartements de zéro virgule un seulement. C'est une moyenne nationale : le national donne la tendance, le local donne la valeur. Deux, le DPE. Depuis le premier janvier 2026, l'électricité compte avec un coefficient de un virgule neuf. Chez M. Bernard : cent cinquante fois un virgule neuf, deux cent quatre-vingt-cinq. Classe E, plus F. Trois, la prospection. Tu n'appelles que ceux qui ont dit oui à ton agence, pour un objet précis. M. Bernard a coché ta case : tu peux le recontacter, sur son DPE et son estimation. Rien d'autre.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
       "source": "Insee IR n° 216 (8/09/2026) : −0,8 % sur un an, appartements −0,1 % ; arrêté du 13/08/2025 : coefficient électricité 1,9 au 1/01/2026 ; loi n° 2025-594 et décret n° 2026-662 (DGCCRF)",
       "steps": [
-        { "label": "Marché", "detail": "Le national donne la tendance (appartements −0,1 % sur un an), le local donne la valeur." },
-        { "label": "DPE", "detail": "Coefficient électricité 1,9 depuis le 1/01/2026 : 150 × 1,9 = 285, classe E." },
-        { "label": "Prospection", "detail": "Depuis le 11/08/2026, tu n'appelles que ceux qui ont dit oui à ton agence." }
+        {
+          "label": "Marché",
+          "detail": "Le national donne la tendance (appartements −0,1 % sur un an), le local donne la valeur."
+        },
+        {
+          "label": "DPE",
+          "detail": "Coefficient électricité 1,9 depuis le 1/01/2026 : 150 × 1,9 = 285, classe E."
+        },
+        {
+          "label": "Prospection",
+          "detail": "Depuis le 11/08/2026, tu n'appelles que ceux qui ont dit oui à ton agence."
+        }
       ]
     },
     {
-      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
       "title": "Toi, que proposerais-tu ?",
       "voice": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
       "voice_status": "proposition",
@@ -87,10 +151,19 @@
       "prompt": "Toi, que proposerais-tu ?",
       "context": "M. Bernard ne décroche plus aux numéros inconnus. Deux agences lui ont annoncé « −15 % à cause du DPE ». Il a coché la case de consentement de ton agence. Comment obtiens-tu un rendez-vous ?",
       "model_answer": "Je lui écris d'abord un message qui rappelle sa demande et je lui propose un créneau. Au rendez-vous, je vérifie son DPE avec l'attestation actualisée (classe E), puis je pars des ventes comparables de son secteur, pas d'un pourcentage national.",
-      "keywords": ["consentement", "message", "attestation", "ventes comparables"]
+      "keywords": [
+        "consentement",
+        "message",
+        "attestation",
+        "ventes comparables"
+      ]
     },
     {
-      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
       "title": "Quelle règle Mozi enfreint-il ?",
       "voice": "À toi de jouer : retourne la carte.",
       "voice_status": "proposition",
@@ -117,7 +190,11 @@
       }
     },
     {
-      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
       "title": "Deux outils, un seul but",
       "voice": "Deux outils, un seul but : obtenir ta première rencontre avec M. Bernard. Le message consenti, et le tableau des trois changements.",
       "voice_status": "proposition",
@@ -125,12 +202,22 @@
       "source": "à valider : choix des deux outils",
       "goal": "Décrocher le premier rendez-vous",
       "tools": [
-        { "name": "Le message consenti", "role": "Recontacter M. Bernard dans le cadre exact de son accord" },
-        { "name": "Le tableau des 3 changements", "role": "Relier chaque changement à un fait sourcé et à ta réponse" }
+        {
+          "name": "Le message consenti",
+          "role": "Recontacter M. Bernard dans le cadre exact de son accord"
+        },
+        {
+          "name": "Le tableau des 3 changements",
+          "role": "Relier chaque changement à un fait sourcé et à ta réponse"
+        }
       ]
     },
     {
-      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
       "title": "Le message : rappeler, apporter, proposer",
       "voice": "Le message. Tu rappelles sa demande : son DPE et son estimation. Tu apportes une information utile : son étiquette a peut-être changé. Tu proposes un créneau précis. Et tu gardes la preuve de son accord pendant trois ans.",
       "voice_status": "proposition",
@@ -145,7 +232,11 @@
       ]
     },
     {
-      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
       "title": "Le tableau : 4 colonnes",
       "voice": "Le tableau, en quatre colonnes. Le changement que tu observes chez tes clients. Le fait chiffré, avec sa source et sa date. Ta réponse concrète. Et son application à M. Bernard : cent cinquante fois un virgule neuf, classe E.",
       "voice_status": "proposition",
@@ -160,7 +251,11 @@
       ]
     },
     {
-      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
       "title": "À toi de jouer",
       "voice": "Remplis ton tableau maintenant.",
       "voice_status": "proposition",
@@ -170,7 +265,11 @@
       "url": "#exercice"
     },
     {
-      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
       "title": "Ta preuve en une image",
       "voice": "Montre-moi ton tableau.",
       "voice_status": "proposition",
@@ -181,7 +280,11 @@
       "later_text": "D'accord. Tes prochains rendez-vous te donneront de la matière : reviens déposer ton tableau quand il est prêt."
     },
     {
-      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
       "title": "Bravo !",
       "voice": "Tes trois réponses ont une source et une date. Le moins quinze pour cent des deux agences n'en avait aucune.",
       "voice_status": "proposition",
@@ -191,12 +294,30 @@
     }
   ],
   "sources": [
-    { "label": "Insee — Informations rapides n° 216, indices des prix des logements anciens, T2 2026 (8/09/2026)", "url": "https://www.insee.fr/fr/statistiques/9040119" },
-    { "label": "Légifrance — Arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027 (rappel du 1,9 au 1/01/2026, arrêté du 13/08/2025)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
-    { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
-    { "label": "DGCCRF — Démarchage téléphonique : professionnels, mettez-vous en conformité (loi n° 2025-594, décret n° 2026-662)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/demarchage-telephonique-professionnels-mettez-vous-en-conformite-avec-la-reglementation" },
-    { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026) : consentement 1 an max, identité de l'appelant, preuve 3 ans, fin de Bloctel", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" },
-    { "label": "economie.gouv.fr — Bloctel : réglementation pour les professionnels", "url": "https://www.economie.gouv.fr/entreprises/bloctel-professionnels-reglementation" }
+    {
+      "label": "Insee — Informations rapides n° 216, indices des prix des logements anciens, T2 2026 (8/09/2026)",
+      "url": "https://www.insee.fr/fr/statistiques/9040119"
+    },
+    {
+      "label": "Légifrance — Arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027 (rappel du 1,9 au 1/01/2026, arrêté du 13/08/2025)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "DGCCRF — Démarchage téléphonique : professionnels, mettez-vous en conformité (loi n° 2025-594, décret n° 2026-662)",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/demarchage-telephonique-professionnels-mettez-vous-en-conformite-avec-la-reglementation"
+    },
+    {
+      "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026) : consentement 1 an max, identité de l'appelant, preuve 3 ans, fin de Bloctel",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises"
+    },
+    {
+      "label": "economie.gouv.fr — Bloctel : réglementation pour les professionnels",
+      "url": "https://www.economie.gouv.fr/entreprises/bloctel-professionnels-reglementation"
+    }
   ],
   "open_points": [
     "Toutes les voix sont des propositions à valider par Sébastien Paumier",

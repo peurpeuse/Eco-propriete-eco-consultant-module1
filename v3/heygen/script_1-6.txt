@@ -1,0 +1,31 @@
+1.6 — Créer ses contenus avec l'IA
+
+Bienvenue. Dans ce chapitre, tu vas faire travailler l'IA pour toi, sans jamais lui laisser le volant.
+
+Tu vas comprendre, appliquer, puis prouver.
+
+L'IA l'a écrit avec une virgule, donc c'est vrai : je publie !
+
+Un prompt, dix secondes, zéro vérification.
+
+Résultat : deux virgule cinquante-huit, publié. C'est l'ancienne valeur, abandonnée avec le nouveau DPE de juillet 2021. Le vrai coefficient est un virgule neuf. Et c'est ton nom sous le post.
+
+Le vrai chiffre : un virgule neuf depuis le premier janvier 2026, puis un virgule sept en 2027. Plus une règle est récente, plus tu vérifies.
+
+Un, tu écris un prompt en cinq briques. Le rôle : éco-consultant à Melun. Le contexte : le bien, jamais la personne. La tâche. Le format. Et les contraintes : aucun chiffre absent du prompt, et « à vérifier » entre crochets en cas de doute. Deux, tu vérifies en quatre gestes. Tu surlignes chaque chiffre, date ou règle. Tu remontes à la source officielle : Légifrance, ADEME, Insee, Notaires. Tu contrôles la date et le périmètre. Puis tu corriges, ou tu supprimes. Trois, tu protèges. Pas de nom, pas d'adresse, pas de numéro de DPE dans un outil grand public. Et une image retouchée par IA porte la mention : image retouchée par IA.
+
+Toi, que proposerais-tu ? Écris ou dicte ta réponse.
+
+À toi de jouer : retourne la carte.
+
+Deux outils, un seul but : publier vite, sans jamais publier faux. Le prompt en cinq briques, et le tableau de vérification.
+
+Le prompt. Rôle : éco-consultant immobilier à Melun. Contexte : un T4 de soixante-seize mètres carrés, électrique, F en 2023, E avec l'attestation. Tâche et format : un post de huit cents caractères. Contraintes : aucun chiffre ajouté.
+
+Le tableau, en trois colonnes. Chaque affirmation chiffrée du texte. La source officielle que tu as consultée. Ton verdict : juste, corrigé ou supprimé. Puis une dernière question : est-ce que je signerais ce texte ?
+
+Écris ton prompt maintenant.
+
+Montre-moi ton tableau de vérification.
+
+Chaque chiffre de ton post a sa source. Le post de Mozi affichait deux virgule cinquante-huit.

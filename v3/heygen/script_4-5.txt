@@ -1,0 +1,31 @@
+4.5 — Négocier l'offre
+
+Bienvenue. Deux offres pour M. Bernard : 184 000 euros avec prêt, 170 000 comptant. Ici, tu l'aides à choisir, chiffres en main.
+
+Tu vas comprendre, appliquer, puis prouver.
+
+Pile, les Martin ; face, j'invente une offre à 200 000 !
+
+Le prix affiché, un pile ou face, un faux concurrent.
+
+Sauf qu'entre les deux offres, l'écart réel est de 22 970 euros. Et une offre acceptée sur la chose et le prix peut déjà engager la vente.
+
+Dans le dossier de M. Bernard, les deux offres ont 14 000 euros d'écart en prix affiché. En net réel : 22 970 euros.
+
+Une négociation se prépare en trois temps. D'abord, le plancher : avant les offres, par écrit. Avec M. Bernard, 175 000 euros net vendeur, à une condition. L'appel de fonds du 1er janvier 2027, 8 970 euros, lui est remboursé à l'acte. Ensuite, le net réel. Les honoraires, 9 000 euros, sont payés par l'acquéreur. Martin : 175 000 euros net, appel remboursé. Petit : 161 000 euros, et il refuse de rembourser l'appel. Il reste 152 030 euros. Enfin, les conditions et les risques. Les Martin ont besoin d'un prêt : 193 800 euros, 3,90 % maximum, 45 jours. Risque faible : leur dossier est qualifié. M. Petit doit encore prouver ses fonds. Tu poses le tableau. Et c'est M. Bernard qui décide.
+
+Toi, que proposerais-tu ?
+
+À toi de jouer : retourne la carte.
+
+Deux outils, un seul but : que M. Bernard décide en confiance. Le tableau en net réel, et le prompt IA de préparation.
+
+Le tableau, d'abord. Une colonne par offre. Le prix honoraires inclus, moins 9 000 euros. Puis l'appel de janvier, remboursé ou non. Puis le net réel, les conditions et le risque. Tu l'envoies la veille : un profil C lit avant de parler.
+
+Le prompt, ensuite. Rôle : conseiller du vendeur. Les offres, sans aucun nom. Tâche : tableau, arguments, objections. L'IA écrit que les quatre appels sont pour le vendeur ? Faux : c'est la date d'exigibilité qui compte. Elle propose un bluff ? Tu supprimes.
+
+Prépare ton plan maintenant.
+
+Montre-moi ce que tu as fait.
+
+Tableau en main, M. Bernard a accepté l'offre Martin le 2 décembre : 175 000 euros net réel, 22 970 de plus que l'offre comptant.

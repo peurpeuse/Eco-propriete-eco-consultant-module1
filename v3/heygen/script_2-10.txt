@@ -1,0 +1,31 @@
+2.10 — Estimer avant / après rénovation
+
+Bienvenue. Dans ce chapitre, tu calcules deux valeurs pour M. Bernard : en l'état, et après rénovation. Chacune avec ses preuves.
+
+Tu vas comprendre, appliquer, puis prouver.
+
+Trois annonces, une moyenne sur mes doigts : voilà ton prix !
+
+Trois annonces, une moyenne, zéro vente réelle.
+
+Sauf qu'une annonce, c'est un prix demandé. Pas un prix payé. Une estimation bâtie sur des annonces ne tient pas devant un vendeur qui vérifie.
+
+Ta matière première est publique : cinq ans de ventes réelles, mises à jour deux fois par an. C'est la base DVF. Seules l'Alsace, la Moselle et Mayotte n'y figurent pas.
+
+Trois idées. Un : tu pars des ventes. Tu calcules le prix au mètre carré de chacune, puis la médiane, qui résiste aux ventes atypiques. Chez M. Bernard : 2 650 euros, fois 76 mètres carrés, 201 400 euros. Deux : tu n'ajustes que ce qui est prouvé. Les fenêtres, moins 5 600. La ventilation, moins 2 900. Le chauffage est neutre. Puis les appels de fonds : une décote de 6 900 à 14 900 euros, un jugement que tu écris. Fourchette : 178 000 à 186 000 euros net vendeur. Trois : tu compares honnêtement. Rénové, dans un immeuble isolé : 216 600 euros. L'écart ne couvre pas les 52 380 euros de travaux. Et tu le dis.
+
+Toi, que proposerais-tu ?
+
+À toi de jouer : retourne la carte.
+
+Deux outils, un seul but : deux valeurs que M. Bernard peut refaire seul. La base DVF, et l'assistant IA.
+
+Dans DVF, tu choisis des ventes proches. Ici, l'exemple fictif D12. En l'état, la médiane est à 2 650 euros. Fois 76 : 201 400. Moins les fenêtres et la ventilation : 192 900. Avec la décote copropriété : de 178 000 à 186 000 euros.
+
+Puis l'IA. Tu colles tes comparables, sans nom ni adresse. Elle calcule la valeur après rénovation : médiane 2 850, soit 216 600 euros. Tu vérifies l'écart face aux 52 380 euros de travaux. Puis elle joue l'acheteur sceptique.
+
+Ouvre DVF maintenant.
+
+Montre-moi ta note d'estimation.
+
+Bravo. Les deux agences avaient un chiffre sans preuve. Toi, deux valeurs, et chaque ligne se vérifie.

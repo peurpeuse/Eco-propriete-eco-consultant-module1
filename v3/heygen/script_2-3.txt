@@ -1,0 +1,31 @@
+2.3 — Calculs : surfaces, kWh/m², CO₂
+
+Bienvenue. Prends une calculatrice : dans ce chapitre, tu refais tous les chiffres de M. Bernard.
+
+Tu vas comprendre, appliquer, puis prouver.
+
+76 mètres carrés plus le balcon, plus la cave : disons 90, ça sonne mieux !
+
+Soixante-seize mètres carrés. Plus le balcon, plus la cave. Égale quatre-vingt-dix.
+
+Après la vente, l'acquéreur fait mesurer : 76. Plus de 15 % de moins que l'acte. Au-delà d'un vingtième, il peut demander une baisse du prix proportionnelle, dans l'année qui suit.
+
+Un virgule neuf. C'est le coefficient de l'électricité depuis le 1er janvier 2026. Il valait 2,3. Il vaudra 1,7 en 2027. Même appartement, autre étiquette.
+
+Trois calculs, dans cet ordre. Un : la surface. Tu additionnes les pièces du plan : 24, 11, 10, 9, 9, 5, 1,5 et 6,5. Total : 76 mètres carrés. Balcon, cave et parking ne comptent pas. Seuil Carrez : 76 fois 0,95, soit 72,2. Deux : l'énergie. Le DPE indique 150 kilowattheures d'énergie finale par mètre carré. Fois 76 : 11 400 par an. Puis l'énergie primaire. Fois 2,3 : 345, classe F. Fois 1,9 : 285, classe E. Fois 1,7 : 255, toujours E, à 5 du seuil de D. Trois : le CO₂ et le coût. 12 kilos par mètre carré : classe C. La classe retenue, c'est la moins bonne des deux : E aujourd'hui. Le coût : 2 330 à 3 190 euros par an, soit environ 194 à 266 euros par mois, aux prix de 2021.
+
+M. Bernard demande à Hugo pourquoi il passe de F à E sans travaux. Toi, que proposerais-tu ?
+
+À toi de jouer : retourne la carte.
+
+Deux gestes, un seul but : des chiffres que tu peux refaire devant M. Bernard. Le calculateur, puis le contrôle croisé.
+
+Le calculateur, ligne par ligne. Surface : 76, seuil Carrez 72,2. Énergie finale : 11 400 par an. Primaire : 345, 285, puis 255. Émissions : 912 kilos par an. Classe retenue : E. Coût : environ 194 à 266 euros par mois.
+
+Puis le contrôle croisé. La surface du DPE est-elle celle du mesurage Carrez ? La somme des usages fait-elle 150 ? 150 fois 1,9 donne-t-il la classe de l'attestation ? Si un contrôle échoue, tu ne corriges pas : tu écris au diagnostiqueur.
+
+Remplis le calculateur de M. Bernard maintenant.
+
+Montre-moi ton calculateur rempli.
+
+Bravo. Chaque chiffre de M. Bernard, tu peux maintenant le refaire devant lui.

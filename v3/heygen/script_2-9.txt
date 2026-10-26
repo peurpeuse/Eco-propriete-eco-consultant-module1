@@ -1,0 +1,31 @@
+2.9 — Chiffrer les travaux
+
+Bienvenue. Dans ce chapitre, tu transformes chaque défaut en un chiffre précis, sourcé et daté.
+
+Tu vas comprendre, appliquer, puis prouver.
+
+Je le sens d'ici : trente mille euros de travaux !
+
+Zéro quantité, zéro devis, trente mille euros au flair.
+
+Et si l'acheteur le croit, il retire trente mille euros de son offre. Or le devis dit seize mille cinq cents. La différence, c'est ton vendeur qui la perd.
+
+Un détail qui change tout : la TVA. Dans un logement de plus de deux ans, une rénovation énergétique éligible peut être à cinq et demi pour cent, d'autres travaux à dix. Tu lis le taux sur le devis.
+
+Trois idées. Un : un poste, c'est une quantité fois un prix unitaire. Jamais un montant global. Chez M. Bernard, tu recomptes sur le plan : quatre fenêtres, deux dans la grande chambre, une dans chacune des autres. Six convecteurs. Une ventilation. Un ballon. Deux : chaque prix a une source et une date. D'abord un devis, idéalement deux, d'une entreprise RGE si on vise des aides. Puis les chantiers récents de ton réseau. Un prix proposé par une IA n'est jamais une source. Trois : la prudence s'écrit. Tu sépares les travaux privatifs de ceux de la copropriété. Tu ne chiffres pas une aide non notifiée. Et tu notes : prix indicatifs à valider.
+
+Toi, que proposerais-tu ?
+
+À toi de jouer : retourne la carte.
+
+Deux outils, un seul but : un chiffrage juste et vérifiable. Le modèle de chiffrage, et l'assistant IA, utilisé comme contrôleur.
+
+Dans le modèle : quatre fenêtres à 1 400 euros, soit 5 600. La ventilation au forfait, 2 900. Six radiateurs, 4 800. Le chauffe-eau, 3 200. Total : 16 500 euros TTC, environ 217 euros le mètre carré.
+
+Avec l'IA : tu colles le prompt, sans nom ni adresse. Tu contrôles chaque calcul. Tu gardes la bonne idée, la reprise d'enduit autour des fenêtres, à vérifier avec le menuisier. Et tu barres le prix qu'elle invente. C'est toi qui signes.
+
+Chiffre tes trois postes maintenant.
+
+Montre-moi ton chiffrage.
+
+Bravo. Face aux trente mille euros de la peur, tu as seize mille cinq cents euros, prouvés poste par poste.

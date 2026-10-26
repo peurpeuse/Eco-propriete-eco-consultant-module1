@@ -12,15 +12,15 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 CON, ENG, OUT = (os.path.join(ROOT, d) for d in ("content", "engine", "build"))
 VERSION = "3.0"
 META = {
-    "key": "v3", "program": "Formation Éco-Consultant", "title": "Parcours e-learning : 5 modules, 34 capsules de 8 min",
+    "key": "v3", "program": "Formation Éco-Consultant", "title": "Parcours e-learning : 5 modules, 34 chapitres interactifs de 4 min 30",
     "subtitle": "Code couleur DPE : tu progresses du rouge (module 1) au vert (module 5), comme un logement rénové.",
-    "duration": "≈ 37 à 46 heures de formation à distance (dont 4 h 32 de vidéo, 34 exercices et 5 cas pratiques)",
+    "duration": "≈ 35 à 45 heures de formation à distance (34 chapitres interactifs de 4 min 30, 34 exercices et 5 cas pratiques)",
     "bands": {
         "ia": "Dans chaque module, des prompts métier prêts à l'emploi : contenus marketing, analyse DPE, plan de travaux, estimation, argumentaires, négociation.",
-        "neuro": "Capsules de 8 min (attention), quiz flash après chaque vidéo (récupération active), rappels J+1, J+7, J+30 (répétition espacée), cas réels et fil rouge (émotion, récit).",
+        "neuro": "Chapitres de 4 min 30 en 15 écrans (attention), question ouverte et cartes de quiz dans chaque chapitre (récupération active), rappels J+1, J+7, J+30 (répétition espacée), cas réels et fil rouge (émotion, récit).",
         "fr": "Un bien fictif réaliste : l'appartement de M. Bernard à Melun, son DPE, sa copropriété. Tu le fais avancer à chaque module."},
     "courseTitle": "Éco-Consultant : de la valeur verte à la vente sécurisée",
-    "pitch": "Deviens l'agent de référence sur la performance énergétique : attire les propriétaires, estime avec le DPE, signe en exclusivité, sécurise le compromis et la vente. 34 vidéos de 8 minutes, des exercices sur un vrai dossier (fictif) et l'IA comme assistant à chaque étape.",
+    "pitch": "Deviens l'agent de référence sur la performance énergétique : attire les propriétaires, estime avec le DPE, signe en exclusivité, sécurise le compromis et la vente. 34 chapitres interactifs avec Mozi, le méchant qui fait tout de travers, des exercices sur un vrai dossier (fictif) et l'IA comme assistant à chaque étape.",
     "hours": "≈ 40 heures",
     "objectives": {
         "1": "Te positionner comme expert local de la performance énergétique et construire ta visibilité (offre, pitch, contenus).",
@@ -153,15 +153,17 @@ def pdf_jobs(mods, g):
     body = "<h1>Dossier fil rouge — l'appartement de M. Bernard</h1><p><span class='fict'>Documents fictifs à usage pédagogique</span></p><p>" + e(g.get("start", {}).get("dossier_intro", "")) + "</p><h2>Sommaire</h2><ol>" + "".join(f"<li>{d['id']} · {e(d['title'])}</li>" for d in docs) + "</ol>"
     for d in docs: body += f"<div class='pb'></div><h1>{d['id']} · {e(d['title'])}</h1><p><span class='fict'>Document fictif à usage pédagogique</span></p>" + sections(d.get("sections"))
     jobs.append(("DOSSIER_fil-rouge.pdf", page(body, "#1A7A44", "Dossier fil rouge", "LOGO")))
-    # Scripts vidéo (pour Seb et le montage)
-    body = "<h1>Scripts vidéo — 34 capsules de 8 min</h1><p>Pour chaque capsule : texte exact dit par Seb, minutage, plan à l'écran et incrustations. À valider avant génération HeyGen.</p>"
+    # Storyboards des chapitres (pour Sébastien Paumier et le montage)
+    body = "<h1>Storyboards — 34 chapitres de 4 min 30</h1><p>Pour chaque chapitre : les 15 écrans du gabarit (6 briques), la voix de Sébastien Paumier (ou la réplique de Mozi), l'interaction et la source. Voix marquées « proposition » : à valider avant production.</p>"
     for m in mods:
         for c in m["capsules"]:
-            v = c["video"]; w = sum(len(re.findall(r"\w+", s["voice"])) for s in v["segments"])
-            body += f"<div class='pb'></div><h1>{c['id']} · {e(c['title'])}</h1><p><b>Module {m['id']}</b> · {w} mots ≈ {round(w / 140, 1)} min · Accroche : « {e(v.get('hook'))} »</p>"
-            body += "".join(f"<div class='seg'><span class='tc'>{e(s['tc'])}</span><span>{e(s['voice'])}<br><span class='sc'>Plan : {e(s.get('screen'))}{(' · À l’écran : ' + e(s.get('onscreen'))) if s.get('onscreen') else ''}</span></span></div>" for s in v["segments"])
-            if c.get("notes_prod"): body += f"<p class='sc'><b>Notes de production :</b> {e(c['notes_prod'])}</p>"
-    jobs.append(("SCRIPTS_videos.pdf", page(body, "#1A7A44", "Scripts vidéo · Seb", "LOGO")))
+            ch = c.get("chapter")
+            if not ch: continue
+            w = sum(len(re.findall(r"\w+", s["voice"])) for s in ch["screens"])
+            body += f"<div class='pb'></div><h1>Chapitre {c['id']} · {e(ch['title'])}</h1><p><b>Module {m['id']}</b> · capsule « {e(c['title'])} » · {w} mots · Mozi : « {e(ch['mozi']['line'])} »</p>"
+            body += "".join(f"<div class='seg'><span class='tc'>{e(s['tc'])}</span><span><b>{s['n']}. {e(s['title'])}</b><br>{'Mozi : ' if s['kind'] == 'mozi' else ''}{e(s['voice'])} <i>({e(s.get('voice_status'))})</i><br><span class='sc'>Interaction : {e(s.get('interaction'))}{(' · Source : ' + e(s.get('source'))) if s.get('source') else ''}</span></span></div>" for s in ch["screens"])
+            if ch.get("open_points"): body += "<p class='sc'><b>À valider :</b> " + e(" · ".join(ch["open_points"])) + "</p>"
+    jobs.append(("SCRIPTS_videos.pdf", page(body, "#E56618", "Storyboards · Sébastien Paumier", "LOGO")))
     # Guide formateur (corrigés + grilles) — NE PAS diffuser aux apprenants
     body = "<h1>Guide formateur — corrigés et grilles de validation</h1><p><b>Document réservé au formateur.</b> Pour chaque capsule : objectif, corrigé de l'exercice, critères de validation du livrable, réponses du quiz flash.</p>"
     for m in mods:

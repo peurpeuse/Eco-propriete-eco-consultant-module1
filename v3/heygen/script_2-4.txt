@@ -1,0 +1,31 @@
+2.4 — Lire un DPE, bases 3CL
+
+Bienvenue. Un DPE, ce n'est pas une lettre. Dans ce chapitre, tu le lis en entier, avec l'aide de l'IA.
+
+Tu vas comprendre, appliquer, puis prouver.
+
+L'IA dit classe D ? Alors c'est classe D, j'imprime !
+
+Le DPE complet, collé. Deux cent cinquante-cinq égale D. Imprimé sans relire.
+
+Deux cent cinquante-cinq, c'est encore E : le seuil de D est à 250. Et le nom, l'adresse et le numéro du DPE de M. Bernard sont partis dans un outil que personne n'a validé.
+
+Dix ans. C'est la validité d'un DPE établi depuis le 1er juillet 2021. Celui de M. Bernard, du 14 mars 2023, vaut jusqu'au 13 mars 2033.
+
+Trois zones, dans l'ordre. Un : l'en-tête, avant la lettre. Le numéro ADEME à 13 caractères, la date, 14 mars 2023, la fin de validité, 13 mars 2033, la surface, 76, et l'énergie : tout électrique. Donc ancien coefficient. M. Bernard a téléchargé gratuitement son attestation actualisée sur l'observatoire de l'ADEME : classe E, jusqu'en 2033. La mention « consommation excessive » ne s'applique plus. Deux : les pages du milieu, que personne ne lit. Le schéma des déperditions, l'indicateur d'isolation, et les consommations par usage : 112 pour le chauffage, sur 150. Les trois quarts. Trois : les recommandations. Deux scénarios de travaux, avec des fourchettes de coûts. Ce ne sont pas des devis. Tu les compares aux vrais devis du D13 : 16 500 euros au total.
+
+Sarah veut faire lire un DPE par une IA. Toi, que proposerais-tu ?
+
+À toi de jouer : retourne la carte.
+
+Deux outils, un seul but : une fiche points faibles juste et vérifiée. L'observatoire de l'ADEME, et l'IA validée par ton agence.
+
+Sur l'observatoire de l'ADEME, tu saisis le numéro du DPE, à 13 caractères. Tu télécharges l'attestation actualisée, gratuite, sans nouvelle visite. Puis tu vérifies deux choses : la classe, E, et la fin de validité, 13 mars 2033.
+
+Puis l'IA validée par ton agence. Tu colles le prompt, avec les seules données techniques. Tu demandes les calculs, les cinq points faibles, des phrases. Et tu contrôles : « 255, classe D » ? Faux, c'est E. Tu annotes. L'IA ne signe pas ton dossier.
+
+Ouvre l'observatoire de l'ADEME maintenant.
+
+Montre-moi ta fiche points faibles.
+
+Bravo. Là où d'autres ont lu une lettre, toi, tu as lu tout le document.

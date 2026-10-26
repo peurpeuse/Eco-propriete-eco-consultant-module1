@@ -1,0 +1,31 @@
+4.1 — Le produit commercial
+
+Bienvenue. Le mandat de M. Bernard est signé. Dans ce chapitre, tu écris son annonce avec l'IA : exacte, complète, et qui donne envie.
+
+Tu vas comprendre, appliquer, puis prouver.
+
+L'IA a écrit « villa avec piscine » ? Je publie sans lire !
+
+Un prompt, zéro relecture, zéro mention obligatoire.
+
+Et là, la DGCCRF contrôle. Honoraires mal affichés, DPE absent, charges oubliées : avertissement, injonction, parfois procès-verbal.
+
+En 2023, la DGCCRF a contrôlé 1 739 professionnels de l'immobilier. Près de deux sur trois avaient au moins une anomalie.
+
+Une annonce conforme tient en trois blocs. D'abord l'énergie. Pour M. Bernard, tu n'affiches pas la classe F de 2023. Tu affiches l'attestation actualisée de l'ADEME : classe énergie E, classe climat C. Puis les dépenses d'énergie : entre 2 330 et 3 190 euros par an, prix indexés au 1er janvier 2021. Ensuite le prix. Les honoraires sont payés par l'acquéreur. Donc 189 000 euros honoraires inclus, en plus gros. Puis 180 000 euros hors honoraires. Puis 5 % TTC, à la charge de l'acquéreur. Enfin la copropriété : 48 lots principaux, 2 652 euros de charges par an, aucune procédure. Et la façade votée ? La loi n'oblige pas à la chiffrer. Moi, je te conseille une ligne : quote-part 35 880 euros, dossier sur demande.
+
+Toi, que proposerais-tu ?
+
+À toi de jouer : retourne la carte.
+
+Deux outils, un seul but : une annonce exacte et vendeuse. Le prompt IA, et la check-list avant publication.
+
+Dans l'outil d'IA, tu donnes un rôle : rédacteur d'annonces. Un contexte : les données du bien, sans le nom ni l'adresse de M. Bernard. Une tâche : trois titres, 1 200 caractères, le bloc des mentions. Et des contraintes : rien d'inventé, aucune autre classe que E.
+
+Puis la check-list. Tu compares la réponse aux documents D03, D06 et D10. « Entièrement rénové » ? Faux : tu écris cuisine et sols refaits en 2016. L'année des prix de l'énergie manque ? Tu l'ajoutes, avec la mention Géorisques. Enfin, M. Bernard relit et signe le bon à publier.
+
+Rédige l'annonce maintenant.
+
+Montre-moi ce que tu as fait.
+
+Ton annonce coche toutes les mentions, sans une seule invention. Au dernier contrôle publié, près de deux professionnels sur trois avaient au moins une anomalie.
