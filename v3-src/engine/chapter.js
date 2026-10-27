@@ -144,6 +144,16 @@
     '.ch .sc.hp .src{padding-right:0}' +
     '@container (max-aspect-ratio:1/1){.ch .pose{height:36%;right:2cqmin;bottom:9cqh}.ch .sc.hp{padding-right:6cqmin;padding-bottom:calc(30cqmin + 36cqh)}.ch .stage.hp .cc{right:4cqmin}.ch .sc.hp .src{padding-right:0}.ch .sc.hp:is([data-k=steps],[data-k=quiz],[data-k=retrieval],[data-k=demo],[data-k=proof],[data-k=tools]) .pose{display:none}.ch .sc.hp:is([data-k=steps],[data-k=quiz],[data-k=retrieval],[data-k=demo],[data-k=proof],[data-k=tools]){padding-bottom:30cqmin}}' +
     '@media (prefers-reduced-motion:reduce){.ch .sc.on .pose{animation:none;opacity:1}}' +
+    /* ---------- Mode vidéo : un seul départ, lecture continue ---------- */
+    '.ch .kick,.ch .bcard,.ch .sc [data-act=next],.ch .sc [data-act=try],.ch .sc [data-out=try],.ch .sc[data-k=goals] .go{display:none!important}' +
+    '.ch .vbar{display:flex;align-items:center;gap:10px;margin-top:10px}.ch .vbar button{min-height:44px;min-width:44px;border:1px solid var(--line);background:#fff;border-radius:8px;font:inherit;font-weight:800;padding:0 10px;cursor:pointer;color:var(--ink)}' +
+    '.ch .vbar .pp{background:var(--or);border-color:var(--or);display:grid;place-items:center}.ch .vbar .pp svg{width:20px;height:20px;fill:var(--ink)}.ch .vbar .pp .ic-pause{display:none}.ch.playing .vbar .pp .ic-pause{display:block}.ch.playing .vbar .pp .ic-play{display:none}' +
+    '.ch .tl{flex:1;height:8px;border-radius:4px;background:#D9DAD2;cursor:pointer;position:relative;min-width:60px}.ch .tl i{position:absolute;left:0;top:0;bottom:0;width:var(--p,0%);background:var(--or);border-radius:4px}.ch .tl:focus-visible{outline:3px solid #1A73E8;outline-offset:3px}' +
+    '.ch .vbar .tm{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--mute);white-space:nowrap}.ch .vbar button[aria-pressed=false]{opacity:.5}' +
+    '.ch .bigplay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:15cqmin;height:15cqmin;min-width:56px;min-height:56px;border-radius:50%;border:0;background:var(--or);display:none;place-items:center;cursor:pointer;z-index:8;box-shadow:0 1cqmin 4cqmin rgba(0,0,0,.25)}.ch .bigplay svg{width:45%;height:45%;fill:var(--ink);margin-left:8%}' +
+    '.ch.started:not(.playing) .bigplay{display:grid}.ch.render .bigplay{display:none!important}.ch .stage{cursor:pointer}.ch .stage :is(button,a,input,textarea,label,.card){cursor:auto}.ch .stage :is(button,a,label){cursor:pointer}' +
+    '.ch .stage:fullscreen{width:100vw;height:100vh;aspect-ratio:auto;border:0;border-radius:0}' +
+    '@media (max-width:700px){.ch .vbar{gap:6px}.ch .vbar .tm{display:none}}' +
     '.ch .trs{margin-top:14px}.ch .trs summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}.ch .trs ol{margin:0;padding-left:22px}.ch .trs li{margin:0 0 8px}.ch .trs small{color:var(--mute)}';
 
   function injectCss() {
@@ -246,10 +256,10 @@
     var w = [0, 0, 0, 0, 0, 0]; ch.screens.forEach(function (s) { w[s.brick - 1] += sec(s.end) - sec(s.tc); });
     return '<div class="ch' + (o.render ? ' render' : '') + '" data-ch="' + esc(ch.id) + '">' +
       '<div class="stage" tabindex="0" role="region" aria-label="Chapitre ' + esc(ch.id) + ' : ' + esc(ch.title) + '">' + ch.screens.map(function (s) { return screenHtml(s, ch); }).join('') +
-      '<div class="seb talk"><img src="' + esc(o.avatar || 'assets/seb.png') + '" alt=""><div class="eq" aria-hidden="true"><i style="--d:0s"></i><i style="--d:.2s"></i><i style="--d:.4s"></i><i style="--d:.1s"></i><i style="--d:.3s"></i></div><span>Sébastien Paumier</span></div><div class="cc" aria-live="off"><p></p></div></div>' +
-      '<div class="bricks">' + BRICKS.map(function (b, i) { return '<button data-brick="' + (i + 1) + '" style="--w:' + w[i] + '" aria-label="Brique ' + (i + 1) + ' : ' + esc(b) + '"><i><b></b></i><span>' + (i + 1) + '. ' + esc(b) + '</span></button>'; }).join('') + '</div>' +
-      '<div class="ctl"><button data-c="prev" aria-label="Écran précédent">←</button><button class="pp" data-c="play" aria-label="Lecture">Lecture</button><button data-c="next" aria-label="Écran suivant">→</button>' +
-      '<button data-c="cc" aria-pressed="true">Sous-titres</button><button data-c="snd" aria-pressed="true" hidden>Son</button><span class="tm"><span data-tm>0:00</span> / ' + fmt(total) + '</span></div>' +
+      '<div class="seb talk"><img src="' + esc(o.avatar || 'assets/seb.png') + '" alt=""><div class="eq" aria-hidden="true"><i style="--d:0s"></i><i style="--d:.2s"></i><i style="--d:.4s"></i><i style="--d:.1s"></i><i style="--d:.3s"></i></div><span>Sébastien Paumier</span></div><div class="cc" aria-live="off"><p></p></div><button class="bigplay" data-c="play" aria-label="Lecture" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></button></div>' +
+      '<div class="vbar"><button class="pp" data-c="play" aria-label="Lecture"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="ic-play" d="M7 4.5v15l13-7.5z"/><path class="ic-pause" d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>' +
+      '<div class="tl" data-tl role="slider" tabindex="0" aria-label="Position dans le chapitre" aria-valuemin="0" aria-valuemax="' + Math.round(total) + '" aria-valuenow="0"><i></i></div>' +
+      '<span class="tm"><span data-tm>0:00</span> / ' + fmt(total) + '</span><button data-c="snd" aria-pressed="true" hidden>Son</button><button data-c="cc" aria-pressed="true" aria-label="Sous-titres">CC</button><button data-c="fs" aria-label="Plein écran">⛶</button></div>' +
       '<details class="trs"><summary>Transcription des 15 écrans</summary><ol>' + ch.screens.map(function (s) { return '<li><b>' + esc(s.title) + '</b> <small>(' + esc(s.tc) + ' – ' + esc(s.end) + ')</small><br>' + (s.kind === 'mozi' ? 'Mozi : ' : '') + esc(s.voice) + (s.source ? '<br><small>Source : ' + esc(s.source) + '</small>' : '') + '</li>'; }).join('') + '</ol></details></div>';
   }
 
@@ -263,6 +273,8 @@
     var dur = ch.screens.map(function (s, k) { return (media[k] && media[k].dur) || Math.max(3, sec(s.end) - sec(s.tc)); });
     var starts = []; dur.reduce(function (a, d, k) { starts[k] = a; return a + d; }, 0);
     if (media.some(function (m) { return m && m.audio; })) root.querySelector('[data-c=snd]').hidden = false;
+    var tl = root.querySelector('[data-tl]'), TOT = starts[14] + dur[14];
+    function seekTo(g) { g = Math.max(0, Math.min(TOT - 0.05, g)); var k = 0; while (k < 14 && starts[k + 1] <= g) k++; var was = playing; if (was) play(false); started = true; root.classList.add('started'); show(k); el = g - starts[k]; t0 = performance.now() - el * 1000; paint(); if (was) play(true); }
 
     function show(n, keep) {
       if (au) { au.pause(); au = null; }
@@ -296,8 +308,11 @@
       }
       if (!scs[i].classList.contains('try')) [].forEach.call(scs[i].querySelectorAll('[data-rv]'), function (r) { var k = +r.getAttribute('data-rv'), m = scs[i].querySelectorAll('.rv').length || 1; r.classList.toggle('in', el >= d * (k + 0.4) / (m + 0.6)); r.classList.toggle('on', r.classList.contains('in')); });
       var tr = scs[i].querySelector('[data-track]'); if (tr) { var all = scs[i].querySelectorAll('.steps .rv'), nin = scs[i].querySelectorAll('.steps .rv.in').length; tr.style.setProperty('--t', Math.round(100 * nin / (all.length || 1)) + '%'); }
+      // comme une vidéo : si l'apprenant n'a pas répondu, la réponse s'affiche d'elle-même en fin d'écran
+      if (playing && s.kind === 'quiz' && el > d * 0.6) { var c1 = scs[i].querySelector('[data-card="1"]'); if (c1 && !c1.classList.contains('flip')) { back((s.card1 || {}).answer || 0, true); } var c2 = scs[i].querySelector('[data-card="2"]'); if (el > d * 0.8 && c2 && !c2.classList.contains('flip')) { c2.classList.add('flip'); scs[i].querySelector('.cards').classList.add('c1'); } }
+      if (playing && s.kind === 'retrieval' && el > d * 0.6) { var fr = scs[i].querySelector('[data-out=ret]'); if (fr && fr.hidden) { fr.hidden = false; fr.innerHTML = '<b>Une réponse possible :</b> ' + esc(s.model_answer); } }
       var bc = scs[i].querySelector('[data-count]'); if (bc && bc.getAttribute('data-count')) { var c = JSON.parse(bc.getAttribute('data-count')), v = c.num * Math.min(1, el / 1.4); bc.textContent = c.pre + v.toFixed(c.dec).replace('.', ',') + c.post; }
-      var g = starts[i] + Math.min(el, d); tm.textContent = fmt(g);
+      var g = starts[i] + Math.min(el, d); tm.textContent = fmt(g); if (tl) { tl.querySelector('i').style.setProperty('--p', (100 * g / TOT).toFixed(2) + '%'); tl.setAttribute('aria-valuenow', Math.round(g)); }
       [].forEach.call(root.querySelectorAll('[data-brick]'), function (b) {
         var bi = +b.getAttribute('data-brick'), a = 0, z = 0;
         ch.screens.forEach(function (x, k) { if (x.brick === bi) { z += dur[k]; if (k < i) a += dur[k]; else if (k === i) a += Math.min(el, d); } });
@@ -310,13 +325,15 @@
       paint();
       var s = ch.screens[i];
       if (el >= dur[i]) {
-        if ((GATE[s.kind] && !(s.kind === 'welcome' && started)) || i === 14) { el = dur[i]; paint(); seb.classList.remove('talk'); return; }
+        if ((s.kind === 'welcome' && !started) || i === 14) { el = dur[i]; paint(); play(false); return; }
         show(i + 1);
       }
       raf = requestAnimationFrame(tick);
     }
     function play(on) {
-      playing = on; btnP.textContent = on ? 'Pause' : 'Lecture'; btnP.setAttribute('aria-label', on ? 'Pause' : 'Lecture');
+      if (on && i === 14 && el >= dur[14]) { show(0); started = true; }
+      if (on) { started = true; root.classList.add('started'); }
+      playing = on; root.classList.toggle('playing', on); btnP.setAttribute('aria-label', on ? 'Pause' : 'Lecture');
       seb.classList.toggle('talk', on);
       if (on) { t0 = performance.now() - el * 1000; if (au) au.play().catch(function () {}); else if (media[i] && media[i].audio && sound && el < dur[i]) { au = new Audio(media[i].audio); au.currentTime = el; au.play().catch(function () {}); } if (!raf) raf = requestAnimationFrame(tick); }
       else { if (au) au.pause(); if (raf) cancelAnimationFrame(raf); raf = 0; }
@@ -324,14 +341,18 @@
     function next() { if (i < 14) { show(i + 1); if (!playing) play(true); } }
     function back(sel, silent) {
       var q = ch.screens[i].card1 || {}, ok = sel === q.answer, b = scs[i].querySelector('[data-back="1"]');
-      b.innerHTML = '<div class="mono">' + (ok ? 'Bonne réponse' : 'Pas tout à fait') + '</div><p class="' + (ok ? 'ok' : 'ko') + '">' + esc((q.whys || [])[sel] || '') + '</p>' + (ok ? '' : '<p><b>La bonne réponse :</b> ' + esc((q.options || [])[q.answer]) + '</p>') + '<p>' + esc(q.feedback || '') + '</p>';
+      b.innerHTML = '<div class="mono">' + (silent && st.qz == null ? 'La réponse' : ok ? 'Bonne réponse' : 'Pas tout à fait') + '</div><p class="' + (ok ? 'ok' : 'ko') + '">' + esc((q.whys || [])[sel] || '') + '</p>' + (ok ? '' : '<p><b>La bonne réponse :</b> ' + esc((q.options || [])[q.answer]) + '</p>') + '<p>' + esc(q.feedback || '') + '</p>';
       scs[i].querySelector('[data-card="1"]').classList.add('flip');
       var back2 = b.querySelector('[data-act=c2]'); if (!back2) { b.insertAdjacentHTML('beforeend', '<button class="go" data-act="c2" style="font-size:2.4cqmin;padding:.9cqmin 2.4cqmin;margin-top:auto">Carte 2</button>'); }
       if (!silent) { st.qz = sel; hk.onQuiz && hk.onQuiz(ok, sel); hk.save && hk.save(); }
     }
 
     root.addEventListener('click', function (e) {
-      var b = e.target.closest('[data-act],[data-c],[data-brick],[data-opt],[data-hot]'); if (!b) return;
+      if (e.target.closest('[data-tl]')) { var r = tl.getBoundingClientRect(); seekTo(TOT * (e.clientX - r.left) / r.width); return; }
+      if (e.target.closest('textarea,input,label,.card,.drop')) { if (playing) play(false); }
+      var b = e.target.closest('[data-act],[data-c],[data-brick],[data-opt],[data-hot]');
+      if (!b) { if (e.target.closest('.stage') && !e.target.closest('a,button,textarea,input,label,.card,.drop') && (started || i > 0)) play(!playing); return; }
+      if (b.getAttribute('data-c') === 'fs') { var fe = stage; if (document.fullscreenElement) document.exitFullscreen(); else if (fe.requestFullscreen) fe.requestFullscreen(); return; }
       if (b.hasAttribute('data-hot')) {
         var hn = +b.getAttribute('data-hot'), scT = scs[i]; if (hn !== tryN) return;
         [].forEach.call(scT.querySelectorAll('[data-rv="' + hn + '"]'), function (r) { r.classList.add('in', 'on'); }); b.classList.remove('cur'); b.tabIndex = -1;
@@ -342,11 +363,11 @@
       }
       var a = b.getAttribute('data-act'), c = b.getAttribute('data-c');
       if (b.hasAttribute('data-brick')) { var bi = +b.getAttribute('data-brick'); for (var k = 0; k < 15; k++) if (ch.screens[k].brick === bi) { show(k); break; } return; }
-      if (b.hasAttribute('data-opt')) { back(+b.getAttribute('data-opt')); return; }
+      if (b.hasAttribute('data-opt')) { if (playing) play(false); back(+b.getAttribute('data-opt')); return; }
       if (c === 'play') play(!playing); else if (c === 'prev') show(i - 1); else if (c === 'next') { show(i + 1); }
       else if (c === 'cc') { var on = root.classList.toggle('nocc'); b.setAttribute('aria-pressed', String(!on)); }
       else if (c === 'snd') { sound = !sound; b.setAttribute('aria-pressed', String(sound)); if (au) au.muted = !sound; }
-      if (a === 'start' && media.some(function (m) { return m && m.audio; }) && i === 0) { started = true; show(0); play(true); }
+      if (a === 'start') { started = true; show(0); play(true); }
       else if (a === 'start' || a === 'next') next();
       else if (a === 'flip2') b.closest('.card').classList.add('flip');
       else if (a === 'try') { play(false); var scT = scs[i]; scT.classList.add('try'); [].forEach.call(scT.querySelectorAll('.rv,.rvp'), function (r) { r.classList.remove('in', 'on'); }); var hs = scT.querySelectorAll('.hot'); [].forEach.call(hs, function (h) { h.classList.remove('cur'); h.tabIndex = -1; }); tryN = 0; if (hs[0]) { hs[0].classList.add('cur'); hs[0].tabIndex = 0; hs[0].focus(); } scT.querySelector('[data-out=try]').hidden = false; scT.querySelector('[data-out=try]').textContent = 'Clique sur le bouton orange, étape par étape.'; }
@@ -379,10 +400,11 @@
     });
     stage.addEventListener('keydown', function (e) {
       if (e.target !== stage) return;
-      if (e.key === ' ' || e.key === 'k') { e.preventDefault(); play(!playing); } else if (e.key === 'ArrowRight') show(i + 1); else if (e.key === 'ArrowLeft') show(i - 1);
+      if (e.key === ' ' || e.key === 'k') { e.preventDefault(); play(!playing); } else if (e.key === 'ArrowRight') seekTo(starts[i] + el + 5); else if (e.key === 'ArrowLeft') seekTo(starts[i] + el - 5);
     });
     if (window.SpeechRecognition || window.webkitSpeechRecognition) [].forEach.call(root.querySelectorAll('[data-act=dict]'), function (b) { b.hidden = false; });
     show(i);
+    tl.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); seekTo(starts[i] + el + (e.key === 'ArrowRight' ? 5 : -5)); } });
     var api = {
       show: function (n) { show(n); }, play: play, durations: dur, total: starts[14] + dur[14],
       seek: function (n, t) { show(n); el = t || 0; t0 = performance.now() - el * 1000; paint(); },
