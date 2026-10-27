@@ -208,6 +208,7 @@ def preview_file(data):
     for f in os.listdir(os.path.join(ENG, "fonts")): h = h.replace(f"url(fonts/{f})", "url(" + b64(os.path.join(ENG, "fonts", f), "font/woff2") + ")")
     app = open(os.path.join(ENG, "app.js")).read()
     for f in os.listdir(os.path.join(ENG, "assets")):
+        if os.path.isdir(os.path.join(ENG, "assets", f)): continue  # poses (assets/seb/) : chargées en ligne, pas incluses dans l'aperçu
         u = b64(os.path.join(ENG, "assets", f), "image/png"); h = h.replace(f"assets/{f}", u); app = app.replace(f"assets/{f}", u)
     d = dict(data, pdf=False)
     h = h.replace('<script src="scorm.js"></script>', "<script>" + open(os.path.join(ENG, "scorm.js")).read() + "</script>")

@@ -1176,6 +1176,7 @@ main .wrap{padding-block:16px 110px}
     if (!it.video) vid.push(el("p", { class: "muted", text: it.chapter ? "Un passage = un écran du chapitre (15 écrans, 4 min 30). Tu valides les voix ; la voix de Sébastien Paumier et le motion design sont produits après ta mise en production." : "Vidéo pas encore tournée : tu valides le script, la vidéo sera produite ensuite." }));
     var player = it.vsrc ? videoPlayer(it) : null;
     if (player) vid.push(player.wrap);
+    if (it.chapter && !player) vid.push(el("div", { class: "chembed", style: "position:relative;width:100%;aspect-ratio:16/10;margin:10px 0 14px;border-radius:12px;overflow:hidden;border:1px solid #D9DAD2;background:#F2F3EC" }, [el("iframe", { src: DATA.site + "/#embed-" + it.id.replace(".", "-"), title: "Chapitre " + it.id + " interactif", loading: "lazy", allow: "autoplay; fullscreen", style: "position:absolute;inset:0;width:100%;height:100%;border:0" })]));
     var segRows = it.script.map(function (s, i) {
       var t = player && it.vstarts && it.vstarts[i] != null ? it.vstarts[i] : null;
       var tc = t != null ? el("button", { class: "tcb", type: "button", title: "Lire la vidéo à partir d'ici", text: "▶ " + mmss2(t), onclick: function () { player.seek(t); } }) : el("div", { class: "tc", text: s[0] });

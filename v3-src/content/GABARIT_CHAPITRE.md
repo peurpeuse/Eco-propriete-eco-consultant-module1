@@ -90,3 +90,9 @@ Quand le chapitre n'a pas « deux outils » au sens logiciel (ex. physique du b�
 
 Chaque écran a toujours : `n`, `brick`, `kind`, `tc`, `end`, `title` (texte à l'écran, court), `voice` (ce que dit Sébastien Paumier ; pour l'écran 3, la réplique de Mozi), `voice_status`, `interaction`, `source` (texte ou `null`), plus les champs propres à son type.
 La somme des durées va de 0:00 à 4:30, sans trou ni chevauchement.
+
+## Poses de Sébastien Paumier (facultatif, par écran)
+
+Champ `"pose"` sur un écran : Sébastien Paumier apparaît en pied, à droite (16/9) ou en bas (mobile), à la place de la bulle.
+Poses disponibles (`engine/assets/seb/`) : `salut`, `trois`, `idee`, `choc`, `bras-ouverts`, `presente`, `reflechit`, `carte`, `dossier`, `telephone`, `montre`, `bravo`.
+Pas de pose sur l'écran 3 (Mozi). Chapitre modèle : 1.1.

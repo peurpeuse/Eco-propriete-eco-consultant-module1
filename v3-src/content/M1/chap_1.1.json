@@ -21,7 +21,8 @@
       "voice_status": "proposition",
       "interaction": "Bouton « Commencer »",
       "cta": "Commencer",
-      "source": null
+      "source": null,
+      "pose": "salut"
     },
     {
       "n": 2,
@@ -48,7 +49,8 @@
           "verb": "Prouver",
           "text": "montrer ton tableau des 3 changements clients en une image"
         }
-      ]
+      ],
+      "pose": "trois"
     },
     {
       "n": 3,
@@ -95,7 +97,8 @@
         "Appel sans accord : interdit depuis le 11 août 2026.",
         "Contrat signé ensuite : contestable."
       ],
-      "source": "Loi n° 2025-594 du 30/06/2025 (art. L. 223-1 du code de la consommation) et décret n° 2026-662 du 23/07/2026 : consentement préalable obligatoire depuis le 11/08/2026 (DGCCRF, « Les règles du démarchage téléphonique s'imposant aux entreprises », 27/07/2026). Nullité du contrat : art. L. 223-1, reprise par plusieurs analyses juridiques mais absente de la fiche DGCCRF — à vérifier sur Légifrance (texte consolidé de l'art. L. 223-1) avant tournage"
+      "source": "Loi n° 2025-594 du 30/06/2025 (art. L. 223-1 du code de la consommation) et décret n° 2026-662 du 23/07/2026 : consentement préalable obligatoire depuis le 11/08/2026 (DGCCRF, « Les règles du démarchage téléphonique s'imposant aux entreprises », 27/07/2026). Nullité du contrat : art. L. 223-1, reprise par plusieurs analyses juridiques mais absente de la fiche DGCCRF — à vérifier sur Légifrance (texte consolidé de l'art. L. 223-1) avant tournage",
+      "pose": "choc"
     },
     {
       "n": 6,
@@ -109,7 +112,8 @@
       "interaction": "Aucune",
       "value": "958 000",
       "label": "ventes de logements anciens sur 12 mois, à fin juin 2026",
-      "source": "Insee, Informations rapides n° 216, indices des prix des logements anciens, T2 2026 (8 septembre 2026)"
+      "source": "Insee, Informations rapides n° 216, indices des prix des logements anciens, T2 2026 (8 septembre 2026)",
+      "pose": "idee"
     },
     {
       "n": 7,
@@ -135,7 +139,8 @@
           "label": "Prospection",
           "detail": "Depuis le 11/08/2026, tu n'appelles que ceux qui ont dit oui à ton agence."
         }
-      ]
+      ],
+      "pose": "trois"
     },
     {
       "n": 8,
@@ -156,7 +161,8 @@
         "message",
         "attestation",
         "ventes comparables"
-      ]
+      ],
+      "pose": "reflechit"
     },
     {
       "n": 9,
@@ -187,7 +193,8 @@
       "card2": {
         "question": "Hugo récupère la liste des consentements d'une autre agence. S'il appelait ces propriétaires, que se passerait-il ?",
         "answer": "Il serait hors la loi : le consentement est nominatif, il ne vaut que pour l'agence qui l'a recueilli. Hugo doit recueillir ses propres accords, par exemple avec un formulaire sur son site, case non cochée."
-      }
+      },
+      "pose": "carte"
     },
     {
       "n": 10,
@@ -210,7 +217,8 @@
           "name": "Le tableau des 3 changements",
           "role": "Relier chaque changement à un fait sourcé et à ta réponse"
         }
-      ]
+      ],
+      "pose": "presente"
     },
     {
       "n": 11,
@@ -229,7 +237,8 @@
         "Apporter une info utile : son étiquette a peut-être changé",
         "Proposer un créneau précis, qu'il peut refuser",
         "Garder la preuve de l'accord : date, texte, canal"
-      ]
+      ],
+      "pose": "telephone"
     },
     {
       "n": 12,
@@ -248,7 +257,8 @@
         "Fait : un chiffre, sa source, sa date",
         "Réponse : un geste, un document ou une phrase",
         "M. Bernard : 150 × 1,9 = 285, classe E"
-      ]
+      ],
+      "pose": "dossier"
     },
     {
       "n": 13,
@@ -262,7 +272,8 @@
       "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
       "source": "Exercice de la capsule 1.1 (pas d'outil en ligne officiel)",
       "cta": "Remplir mon tableau des 3 changements",
-      "url": "#exercice"
+      "url": "#exercice",
+      "pose": "montre"
     },
     {
       "n": 14,
@@ -277,7 +288,8 @@
       "source": "fin sobre : proposition à valider",
       "ask": "Dépose une photo ou une capture de ton tableau « Mes 3 changements clients 2026 », les quatre colonnes remplies.",
       "later": "Je le ferai plus tard",
-      "later_text": "D'accord. Tes prochains rendez-vous te donneront de la matière : reviens déposer ton tableau quand il est prêt."
+      "later_text": "D'accord. Tes prochains rendez-vous te donneront de la matière : reviens déposer ton tableau quand il est prêt.",
+      "pose": "bras-ouverts"
     },
     {
       "n": 15,
@@ -290,7 +302,8 @@
       "voice_status": "proposition",
       "interaction": "Effet statut, aucun badge",
       "status": "Tes 3 réponses : sourcées et datées. Le « −15 % » des deux agences : aucune source.",
-      "source": "Fil rouge fictif (BIBLE.md, § 1) : « −15 % à cause du DPE » annoncé sans région, sans année, sans source"
+      "source": "Fil rouge fictif (BIBLE.md, § 1) : « −15 % à cause du DPE » annoncé sans région, sans année, sans source",
+      "pose": "bravo"
     }
   ],
   "sources": [

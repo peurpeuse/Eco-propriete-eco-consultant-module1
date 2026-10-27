@@ -490,9 +490,12 @@
   if (PREVIEW) { var pb = document.createElement('div'); pb.className = 'preview'; pb.textContent = 'Démonstration · tout est ouvert'; document.body.appendChild(pb); }
   window.__eco = { S: S, go: go, FLAT: FLAT };
   var start = S.cur && S.cur[0] === 'learn' && BYKEY[S.cur[1]] ? S.cur : ['home'];
-  var rm = /^#render-(\d+)-(\d+)(?:-(\d+))?$/.exec(location.hash);
-  if (rm) { var rc = null; C.modules.forEach(function (m) { m.capsules.forEach(function (c) { if (c.id === rm[1] + '.' + rm[2]) rc = c; }); });
-    if (rc && rc.chapter) { document.body.classList.add('rendering'); app.innerHTML = window.EcoChapter.render(rc.chapter, { render: true }); window.EcoChapter.mount(app.querySelector('.ch'), rc.chapter, { render: true, state: { i: rm[3] ? +rm[3] - 1 : 0 } }); return; } }
+  var rm = /^#(render|embed)-(\d+)-(\d+)(?:-(\d+))?$/.exec(location.hash);
+  if (rm) { var rc = null; C.modules.forEach(function (m) { m.capsules.forEach(function (c) { if (c.id === rm[2] + '.' + rm[3]) rc = c; }); });
+    if (rc && rc.chapter) {
+      var emb = rm[1] === 'embed'; document.body.classList.add('rendering');
+      app.innerHTML = emb ? '<div style="max-width:1280px;margin:0 auto;padding:12px">' + window.EcoChapter.render(rc.chapter, {}) + '</div>' : window.EcoChapter.render(rc.chapter, { render: true });
+      window.EcoChapter.mount(app.querySelector('.ch'), rc.chapter, { render: !emb, state: { i: rm[4] ? +rm[4] - 1 : 0 } }); return; } }
   var hm = /^#c(\d+)-(\d+)$/.exec(location.hash); if (hm && BYKEY['c:' + hm[1] + '.' + hm[2] + ':0']) start = ['learn', 'c:' + hm[1] + '.' + hm[2] + ':0'];
   S.cur = start; render(); save();
 })();
