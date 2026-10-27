@@ -62,6 +62,7 @@
       "voice": "Bonne nouvelle : dans notre dossier d'exemple, traiter ce que l'acheteur voit chez M. Bernard coûte environ 450 euros. Moins d'un quart de pour cent du prix affiché.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien coûte le traitement des défauts visibles du dossier d'exemple ?", "answer": 450, "min": 0, "max": 5000, "step": 50, "unit": " €"},
       "value": "≈ 450 €",
       "label": "pour traiter les défauts visibles dans le dossier d'exemple (fictif), soit moins de 0,25 % des 189 000 € affichés",
       "source": "Dossier fil rouge, bible §7 (plan Éco-staging ≈ 450 €, prix indicatifs fictifs) ; calcul : 450 / 189 000 ≈ 0,24 %"

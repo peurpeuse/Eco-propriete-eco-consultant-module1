@@ -62,6 +62,7 @@
       "voice": "Selon quatre cent dix-neuf professionnels interrogés par leboncoin Immo, la moitié des vendeurs pensent que la mise en concurrence augmente leurs chances. C'est déclaratif, mais tu l'entends tous les jours.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quelle part des vendeurs misent sur la mise en concurrence des agences ?", "answer": 51, "min": 0, "max": 100, "step": 1, "unit": " %"},
       "value": "51 %", "label": "des vendeurs misent sur la mise en concurrence, selon 419 professionnels interrogés (déclaratif)",
       "source": "Enquête leboncoin Immo auprès de 419 professionnels (sept.-oct. 2025, déclaratif), relayée par MySweetImmo le 6 novembre 2025"
     },

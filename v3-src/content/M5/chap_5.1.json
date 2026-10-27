@@ -62,6 +62,7 @@
       "voice": "Retiens ce chiffre : le diagnostic électricité doit avoir moins de trois ans le jour de l'acte. Pas le jour où tu ouvres le dossier.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien d'années au plus est valable le diagnostic électricité ?", "answer": 3, "min": 1, "max": 15, "step": 1, "unit": " ans"},
       "value": "3 ans",
       "label": "de validité au plus pour le diagnostic électricité, appréciés à la signature de l'acte",
       "source": "Code de la construction et de l'habitation, art. D. 271-5 (Légifrance) ; Service-Public, fiche F10798"

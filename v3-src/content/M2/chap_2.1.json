@@ -62,6 +62,7 @@
       "voice": "Trente-trois mille euros. C'est l'écart entre ce qu'espère M. Bernard et ce qu'on lui a annoncé. Ton travail commence par une question : d'où vient chacun de ces chiffres ?",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel écart entre le prix espéré par M. Bernard (205 000 €) et celui annoncé par deux agences ?", "answer": 33000, "min": 0, "max": 80000, "step": 1000, "unit": " €"},
       "value": "33 000 €", "label": "d'écart entre le prix espéré (205 000 €) et le prix annoncé par deux agences (172 000 €) : calcul du dossier de M. Bernard",
       "source": "Calcul sur le dossier fil rouge (données fictives, pas une statistique) : 205 000 − 172 000 = 33 000 €"
     },

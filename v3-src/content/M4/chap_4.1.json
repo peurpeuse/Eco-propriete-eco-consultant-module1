@@ -62,6 +62,7 @@
       "voice": "En 2023, la DGCCRF a contrôlé 1 739 professionnels de l'immobilier. Près de deux sur trois avaient au moins une anomalie.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quelle part des professionnels de l'immobilier contrôlés en 2023 avait au moins une anomalie ?", "answer": 65.1, "min": 0, "max": 100, "step": 1, "unit": " %"},
       "value": "65,1 %", "label": "des professionnels de l'immobilier contrôlés en 2023 avaient au moins une anomalie",
       "source": "DGCCRF, « Professions de l'immobilier : beaucoup de manquements » : 1 739 professionnels contrôlés en 2023, 1 132 en anomalie, soit 65,1 % (page du 19/12/2024, consultée le 26/10/2026)"
     },

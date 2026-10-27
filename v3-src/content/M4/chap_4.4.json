@@ -62,6 +62,7 @@
       "voice": "Le repère qui compte : une mensualité de 35 % des revenus au maximum, assurance comprise, sur 25 ans au maximum.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel taux d'effort maximal, assurance emprunteur comprise ?", "answer": 35, "min": 0, "max": 60, "step": 1, "unit": " %"},
       "value": "35 %", "label": "taux d'effort maximal, assurance emprunteur comprise (25 ans max.)",
       "source": "HCSF, normes du crédit immobilier : 35 % assurance comprise, 25 ans (27 avec différé), flexibilité 20 % (April, guide des règles HCSF ; Cafpi, « HCSF 2026 : pas d'assouplissement »)"
     },

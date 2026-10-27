@@ -62,6 +62,7 @@
       "voice": "Dans le dossier de M. Bernard, tout est sur la table : 52 380 euros de travaux, privatifs et copropriété, chacun avec sa source.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien de travaux connus et datés pour l'appartement de M. Bernard ?", "answer": 52380, "min": 0, "max": 100000, "step": 1000, "unit": " €"},
       "value": "52 380 €", "label": "de travaux connus, datés et sourcés pour l'appartement de M. Bernard",
       "source": "Dossier fil rouge, exemple fictif : devis D13 (16 500 € TTC) + quote-part ITE du PV d'AG D07 (35 880 € TTC)"
     },

@@ -62,6 +62,7 @@
       "voice": "Et pourtant, les logements classés F ou G représentaient environ quinze pour cent des ventes de l'ancien début 2025. Ils se vendent.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quelle part des ventes de l'ancien concernait des logements F ou G début 2025 ?", "answer": 15, "min": 0, "max": 60, "step": 1, "unit": " %"},
       "value": "≈ 15 %", "label": "des ventes de l'ancien concernaient des logements F ou G début 2025",
       "source": "Notaires de France, La valeur verte des logements en France sur les transactions 2024 (7 janvier 2026)"
     },

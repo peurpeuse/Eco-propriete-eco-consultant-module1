@@ -62,6 +62,7 @@
       "voice": "Soixante-quinze pour cent. C'est la part du chauffage dans la consommation de M. Bernard : 112 sur 150. Six convecteurs de 1998 font l'essentiel de son DPE.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quelle part de la consommation de M. Bernard vient du chauffage ?", "answer": 75, "min": 0, "max": 100, "step": 1, "unit": " %"},
       "value": "≈ 75 %", "label": "de la consommation de M. Bernard vient du chauffage : calcul sur son DPE (112 sur 150 kWhEF/m²/an)",
       "source": "Calcul sur le DPE du 14/03/2023 (D02, fil rouge fictif, pas une statistique) : 112 / 150 ≈ 74,7 %"
     },

@@ -62,6 +62,7 @@
       "voice": "La grille DISC vient d'un modèle proposé en 1928 par le psychologue William Marston. Quatre styles. Attention : c'est un outil de communication, pas un test scientifique ni un diagnostic.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "En quelle année W. M. Marston publie-t-il le modèle à l'origine de la grille DISC ?", "answer": 1928, "min": 1850, "max": 2020, "step": 1, "unit": ""},
       "value": "1928",
       "label": "modèle de W. M. Marston, à l'origine de la grille DISC en 4 styles : un outil de communication, pas une science validée",
       "source": "Everything DiSC, « Our story » : W. M. Marston, Emotions of Normal People (1928)"

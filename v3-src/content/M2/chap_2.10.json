@@ -62,6 +62,7 @@
       "voice": "Ta matière première est publique : cinq ans de ventes réelles, mises à jour deux fois par an. C'est la base DVF. Seules l'Alsace, la Moselle et Mayotte n'y figurent pas.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien d'années de ventes immobilières réelles sont publiées en open data ?", "answer": 5, "min": 1, "max": 20, "step": 1, "unit": " ans"},
       "value": "5 ans", "label": "de ventes immobilières réelles en open data, mises à jour en avril et en octobre",
       "source": "data.gouv.fr, jeu de données « Demandes de valeurs foncières » (DVF), consulté le 26/10/2026 : « transactions immobilières intervenues au cours des cinq dernières années », mise à jour semestrielle en avril et en octobre, « à l'exception de l'Alsace, de la Moselle et de Mayotte »"
     },

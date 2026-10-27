@@ -62,6 +62,7 @@
       "voice": "La loi fixe un plancher : la condition de prêt dure au moins un mois. Au-delà, c'est à toi de proposer la bonne durée.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quelle durée minimale pour la condition suspensive de prêt, en mois ?", "answer": 1, "min": 0, "max": 6, "step": 0.5, "unit": " mois"},
       "value": "1 mois",
       "label": "durée minimale de la condition suspensive d'obtention du prêt",
       "source": "Code de la consommation, art. L. 313-41, al. 1 (Légifrance, consulté le 26/10/2026)"

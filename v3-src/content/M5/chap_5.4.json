@@ -62,6 +62,7 @@
       "voice": "La règle que la banque applique : un taux d'effort de trente-cinq pour cent maximum, assurance comprise, sur vingt-cinq ans au plus.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel taux d'effort maximal, assurance comprise ?", "answer": 35, "min": 0, "max": 60, "step": 1, "unit": " %"},
       "value": "35 %",
       "label": "de taux d'effort maximum, assurance comprise, sur 25 ans au plus",
       "source": "HCSF, décision D-HCSF-2021-7 (economie.gouv.fr)"

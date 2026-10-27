@@ -62,6 +62,7 @@
       "voice": "Un chiffre à connaître : chaque année, au moins cinq pour cent du budget de la copropriété vont au fonds de travaux. Et cet argent reste attaché au lot. Le syndic ne le rembourse pas au vendeur.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel pourcentage minimal du budget prévisionnel va chaque année au fonds de travaux ?", "answer": 5, "min": 0, "max": 20, "step": 0.5, "unit": " %"},
       "value": "5 %", "label": "du budget prévisionnel : cotisation annuelle minimale au fonds de travaux",
       "source": "Service-Public, « Fonds de travaux mis en place dans les copropriétés » (F34026, vérifié le 09/06/2026) : au moins 5 % du budget prévisionnel ; loi n° 65-557 du 10/07/1965, art. 14-2-1 (sommes attachées au lot, non remboursées par le syndicat à la cession)"
     },

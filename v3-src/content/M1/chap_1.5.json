@@ -62,6 +62,7 @@
       "voice": "D'après l'aide de LinkedIn, ce blocage dure en général une semaine. Une semaine sans pouvoir inviter un seul notaire. Ton réseau se construit à la main.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien de temps durent en général les invitations bloquées, en semaines ?", "answer": 1, "min": 0, "max": 8, "step": 1, "unit": " semaine(s)"},
       "value": "1 semaine", "label": "de blocage des invitations, en général, quand la limite est atteinte",
       "source": "à vérifier : LinkedIn Aide, « Limite d'invitations atteinte » (linkedin.com/help/linkedin/answer/a550555), durée « en général une semaine » reprise de la capsule 1.5 ; page non consultable automatiquement le 26/10/2026, à contrôler à la main avant tournage. Règle de plateforme, pas une statistique"
     },

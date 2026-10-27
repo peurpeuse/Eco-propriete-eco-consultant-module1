@@ -62,6 +62,7 @@
       "voice": "Dans le dossier de M. Bernard, les deux offres ont 14 000 euros d'écart en prix affiché. En net réel : 22 970 euros.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel écart réel entre les deux offres ?", "answer": 22970, "min": 0, "max": 50000, "step": 500, "unit": " €"},
       "value": "22 970 €", "label": "d'écart réel entre les deux offres, et non 14 000 €",
       "source": "Dossier fil rouge, exemple fictif : Martin 184 000 − 9 000 = 175 000 € ; Petit 170 000 − 9 000 − 8 970 = 152 030 € (plan de négociation, capsule 4.5)"
     },

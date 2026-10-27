@@ -62,6 +62,7 @@
       "voice": "Début 2025, environ quinze pour cent des logements anciens vendus étaient classés F ou G. Ils se vendent. L'étiquette pèse, mais elle n'est qu'une famille parmi huit.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quelle part des logements anciens vendus début 2025 étaient classés F ou G ?", "answer": 15, "min": 0, "max": 60, "step": 1, "unit": " %"},
       "value": "≈ 15 %", "label": "des logements anciens vendus début 2025 étaient classés F ou G",
       "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », mis à jour le 7/01/2026 (part des ventes F-G : de 11 % à 17 % entre 2021 et 2023, puis stabilisée autour de 15 % début 2025), page relue le 26/10/2026"
     },

@@ -62,6 +62,7 @@
       "voice": "Dans notre dossier d'exemple, ton point de départ : 201 400 euros. Soixante-seize mètres carrés, fois 2 650 euros, le prix moyen des ventes comparables en l'état. Des ventes, pas des annonces.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel prix de base pour 76 m² à 2 650 €/m² ?", "answer": 201400, "min": 150000, "max": 260000, "step": 1000, "unit": " €"},
       "value": "201 400 €",
       "label": "de base (exemple fictif) : 76 m² × 2 650 €/m², ventes comparables en l'état",
       "source": "Dossier fil rouge, bible §5 et tableau D12 (comparables fictifs inspirés de DVF, présentés comme exemple)"

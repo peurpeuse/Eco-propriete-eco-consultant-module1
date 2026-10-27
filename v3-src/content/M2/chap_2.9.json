@@ -62,6 +62,7 @@
       "voice": "Un détail qui change tout : la TVA. Dans un logement de plus de deux ans, une rénovation énergétique éligible peut être à cinq et demi pour cent, d'autres travaux à dix. Tu lis le taux sur le devis.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel taux de TVA pour une rénovation énergétique éligible, logement de plus de 2 ans ?", "answer": 5.5, "min": 0, "max": 20, "step": 0.5, "unit": " %"},
       "value": "5,5 %", "label": "de TVA possible pour une rénovation énergétique éligible, logement de plus de 2 ans (10 % pour d'autres travaux)",
       "source": "economie.gouv.fr, « TVA à taux réduit : pour quels travaux ? », publié le 11/12/2025 (fourniture et pose de chaudières au gaz ou au fioul : 20 % depuis le 1/03/2025)"
     },

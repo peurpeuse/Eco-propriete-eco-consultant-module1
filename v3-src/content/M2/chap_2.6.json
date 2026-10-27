@@ -62,6 +62,7 @@
       "voice": "Un repère à retenir : 1997. Si le permis de construire date d'avant juillet 1997, la vente exige un repérage amiante. Les Tilleuls datent de 1972 : tu ne perces rien, tu ne grattes rien.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Pour un permis de construire délivré avant quelle année l'état amiante est-il obligatoire ?", "answer": 1997, "min": 1950, "max": 2020, "step": 1, "unit": ""},
       "value": "1997", "label": "permis de construire délivré avant le 1er juillet 1997 : état amiante obligatoire à la vente",
       "source": "Service-Public, « Quels sont les diagnostics immobiliers à fournir en cas de vente d'un logement ? » (F10798), page vérifiée le 07/03/2025, consultée le 26/10/2026"
     },

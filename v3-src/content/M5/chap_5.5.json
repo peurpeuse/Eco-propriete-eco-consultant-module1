@@ -62,6 +62,7 @@
       "voice": "Un délai que personne ne peut raccourcir : l'emprunteur ne peut accepter l'offre de prêt que dix jours après l'avoir reçue.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien de jours attendre avant de pouvoir accepter une offre de prêt ?", "answer": 10, "min": 0, "max": 30, "step": 1, "unit": " jours"},
       "value": "10 jours",
       "label": "avant de pouvoir accepter une offre de prêt reçue",
       "source": "Code de la consommation, art. L. 313-34 (Légifrance, texte vérifié le 26/10/2026)"

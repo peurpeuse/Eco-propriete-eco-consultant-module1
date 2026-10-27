@@ -62,6 +62,7 @@
       "voice": "Trente et un pour cent. C'est la part des pertes qui passe par les murs d'une maison d'avant 1974, selon l'ADEME. Mais M. Bernard vit en appartement : on va voir ce que ça change.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quelle part des pertes de chaleur d'une maison d'avant 1974 passe par les murs ?", "answer": 31, "min": 0, "max": 100, "step": 1, "unit": " %"},
       "value": "31 %", "label": "des pertes de chaleur d'une maison construite avant 1974 passent par les murs",
       "source": "ADEME, « Tout savoir sur l'isolation », observatoire DPE 2025 (murs ≈ 31 %, air ≈ 27 %, fenêtres ≈ 14 %, planchers bas ≈ 10 %, toit ≈ 9 %, ponts thermiques ≈ 9 %)"
     },

@@ -111,6 +111,7 @@
       "voice": "Bonne nouvelle quand même : neuf cent cinquante-huit mille logements anciens vendus en un an, à fin juin 2026. Les acheteurs sont revenus.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien de logements anciens ont été vendus en France sur 12 mois (à fin juin 2026) ?", "answer": 958000, "min": 100000, "max": 2000000, "step": 10000, "unit": ""},
       "value": "958 000",
       "label": "ventes de logements anciens sur 12 mois, à fin juin 2026",
       "source": "Insee, Informations rapides n° 216, indices des prix des logements anciens, T2 2026 (8 septembre 2026)",

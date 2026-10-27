@@ -62,6 +62,7 @@
       "voice": "Dans notre dossier d'exemple, la ligne qui manque à Mozi : 35 880 euros. C'est la part du lot de M. Bernard dans l'isolation de façade votée. Quatre appels de 8 970 euros, en 2027.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien coûte l'isolation de façade votée pour le lot de M. Bernard ?", "answer": 35880, "min": 0, "max": 80000, "step": 500, "unit": " €"},
       "value": "35 880 €",
       "label": "d'isolation de façade votée pour le lot (dossier d'exemple fictif) : 4 appels de 8 970 € en 2027",
       "source": "PV d'AG du 12/06/2025 (D07) : 1 150 000 € × 312/10 000 = 35 880 €, appels aux 1/01, 1/04, 1/07 et 1/10/2027 — dossier fil rouge fictif"

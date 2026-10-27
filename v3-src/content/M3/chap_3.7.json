@@ -62,6 +62,7 @@
       "voice": "Selon une enquête de leboncoin Immo auprès de 419 professionnels, en 2025 : 91 jours de délai en exclusif, contre 142 en mandat simple. Un indicateur déclaratif. Jamais une promesse.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel délai moyen de vente déclaré en mandat exclusif, en jours ?", "answer": 91, "min": 0, "max": 200, "step": 1, "unit": " jours"},
       "value": "91 j",
       "label": "de délai moyen déclaré en exclusif, contre 142 j en mandat simple (déclaratif)",
       "source": "Enquête leboncoin Immo auprès de 419 professionnels (22/09 – 7/10/2025), relayée par MySweetImmo le 6/11/2025 : déclarations de professionnels, pas une statistique officielle"

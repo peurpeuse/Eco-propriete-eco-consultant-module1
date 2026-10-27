@@ -62,6 +62,7 @@
       "voice": "Le vrai chiffre : un virgule neuf depuis le premier janvier 2026, puis un virgule sept en 2027. Plus une règle est récente, plus tu vérifies.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel est le coefficient de l'électricité depuis le 1er janvier 2026 ?", "answer": 1.9, "min": 1, "max": 3, "step": 0.1, "unit": ""},
       "value": "1,9", "label": "coefficient de l'électricité depuis le 1er janvier 2026 (1,7 au 1er janvier 2027)",
       "source": "Arrêté du 13/08/2025 (1,9 au 1/01/2026) ; arrêté du 19/08/2026, NOR VLOL2617030A (1,7 au 1/01/2027), Légifrance"
     },

@@ -62,6 +62,7 @@
       "voice": "Avant d'acheter, trois personnes sur quatre lisent d'abord les avis.",
       "voice_status": "validé",
       "interaction": "Aucune",
+      "guess": {"q": "Quelle part des consommateurs lit les avis avant d'acheter ?", "answer": 75, "min": 0, "max": 100, "step": 1, "unit": " %"},
       "value": "75 %", "label": "des consommateurs lisent les avis avant d'acheter",
       "source": "Avis Vérifiés, étude relayée par CB News le 17 juillet 2024 (72 000 consommateurs, France, Espagne, Italie)"
     },

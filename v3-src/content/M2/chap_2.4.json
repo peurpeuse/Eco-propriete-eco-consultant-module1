@@ -62,6 +62,7 @@
       "voice": "Dix ans. C'est la validité d'un DPE établi depuis le 1er juillet 2021. Celui de M. Bernard, du 14 mars 2023, vaut jusqu'au 13 mars 2033.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Combien d'années est valable un DPE établi depuis le 1er juillet 2021 ?", "answer": 10, "min": 1, "max": 20, "step": 1, "unit": " ans"},
       "value": "10 ans", "label": "de validité pour un DPE établi depuis le 1er juillet 2021",
       "source": "Service-Public, F16096 (« Les DPE réalisés depuis le 1er juillet 2021 sont valables 10 ans »), consulté le 26/10/2026"
     },

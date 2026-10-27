@@ -62,6 +62,7 @@
       "voice": "Bonne nouvelle : sur ta page Facebook, tu peux programmer une publication jusqu'à vingt-neuf jours à l'avance. Ton mois peut être prêt d'un coup.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Jusqu'à combien de jours à l'avance peux-tu programmer une publication ?", "answer": 29, "min": 1, "max": 90, "step": 1, "unit": " jours"},
       "value": "29 jours", "label": "pour programmer une publication à l'avance (de 20 minutes à 29 jours)",
       "source": "Meta, aide « Schedule a post… for your Facebook Page » (facebook.com/help/389849807718635) : « between 20 minutes and 29 days away », consulté le 26/10/2026 ; règle de produit, pas une statistique — à revérifier le jour du tournage"
     },

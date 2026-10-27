@@ -62,6 +62,7 @@
       "voice": "Un chiffre à donner à M. Bernard dès le mandat : l'état daté coûte au maximum trois cent quatre-vingts euros TTC, et c'est lui qui paie.",
       "voice_status": "proposition",
       "interaction": "Aucune",
+      "guess": {"q": "Quel montant maximal pour l'état daté ?", "answer": 380, "min": 0, "max": 1500, "step": 10, "unit": " € TTC"},
       "value": "380 € TTC",
       "label": "au maximum pour l'état daté, à la charge du vendeur",
       "source": "Service-Public, fiche F37294 (vérifiée le 18/02/2026) ; décret n° 2020-153"
