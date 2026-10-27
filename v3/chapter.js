@@ -177,6 +177,14 @@
     '.ch .bwhy{margin-top:3cqmin;font-size:max(14px,3.2cqmin);font-weight:700;background:#fff;border-left:1cqmin solid var(--vi);padding:1.6cqmin 2.4cqmin;border-radius:1cqmin;max-width:80%;color:var(--ink)}' +
     '.ch .gate{position:absolute;left:50%;top:2.4cqmin;transform:translateX(-50%);z-index:7;display:none;align-items:center;gap:1.6cqmin;background:var(--ink);color:#fff;border-radius:99px;padding:1cqmin 1cqmin 1cqmin 2.6cqmin;font-weight:800;font-size:max(13px,2.6cqmin);box-shadow:0 1cqmin 3cqmin rgba(0,0,0,.25);white-space:nowrap}.ch.gated .gate{display:flex;animation:chFade .4s both}' +
     '.ch .gate button{border:0;border-radius:99px;background:#fff;color:var(--ink);font:inherit;font-weight:800;padding:.8cqmin 2.2cqmin;min-height:36px;cursor:pointer}.ch.gated .bigplay,.ch.ix .bigplay{display:none!important}' +
+    '.ch .ordg{display:none}.ch .sc.ordering .steps,.ch .sc.ordering .track,.ch .sc.ordering>.t,.ch .sc.ordering>.bgw{display:none}.ch .sc.ordering .ordg{margin-top:5cqmin}.ch .sc.ordering .ordg{display:block;animation:chFade .4s both}' +
+    '.ch .ordg .oq{margin:0 0 2cqmin;font-size:max(14px,3cqmin);font-weight:700}.ch .chips{display:flex;flex-wrap:wrap;gap:2cqmin}' +
+    '.ch .chip{display:flex;align-items:center;gap:1.4cqmin;border:.4cqmin solid var(--ink);background:#fff;color:var(--ink);border-radius:99px;padding:1.6cqmin 3cqmin;font:inherit;font-weight:800;font-size:max(15px,3.6cqmin);cursor:pointer;min-height:44px}.ch .chip b{display:none;background:var(--ink);color:var(--or);border-radius:50%;width:5cqmin;height:5cqmin;min-width:24px;min-height:24px;place-items:center;font-size:.8em}' +
+    '.ch .chip.ok{background:var(--or);border-color:var(--or);cursor:default}.ch .chip.ok b{display:grid}.ch .chip.ko{animation:chShake .4s;border-color:#C62828}.ch .chip:focus-visible{outline:3px solid #1A73E8;outline-offset:2px}' +
+    '.ch .sc.ordering.hp .pose{opacity:1}.ch .ordg .bwhy{border-left-color:var(--or)}' +
+    '.ch .endcard li{display:flex;flex-wrap:wrap;align-items:baseline;gap:.6cqmin 1.4cqmin}.ch .endcard .self{display:inline-flex;gap:1cqmin;margin-left:auto}.ch .endcard .self button{border:1px solid #6E6E66;background:transparent;color:#fff;border-radius:99px;font:inherit;font-size:max(12px,2.1cqmin);font-weight:700;padding:.5cqmin 1.8cqmin;min-height:32px;cursor:pointer}' +
+    '.ch .endcard .self button[data-v=ok][aria-pressed=true]{background:#2E7D32;border-color:#2E7D32}.ch .endcard .self button[data-v=rv][aria-pressed=true]{background:var(--or);border-color:var(--or);color:var(--ink)}.ch .endcard .selfq{margin:0;color:#BDBDB5;font-size:max(12px,2.2cqmin)}' +
+    '.ch.render .endcard .self,.ch.render .endcard .selfq{display:none}' +
     '.ch .trs{margin-top:14px}.ch .trs summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}.ch .trs ol{margin:0;padding-left:22px}.ch .trs li{margin:0 0 8px}.ch .trs small{color:var(--mute)}';
 
   function injectCss() {
@@ -229,7 +237,10 @@
       h = '<div class="sc" data-k="stat">' + kick(s) + '<div class="big a" style="--d:.2s" data-count="' + (c ? esc(JSON.stringify(c)) : '') + '">' + esc(s.value) + '</div><div class="lab a" style="--d:.5s">' + esc(s.label || s.title) + '</div>' + (pct(s.value) != null && pct(s.value) <= 100 ? '<div class="sbar a" style="--d:.3s" aria-hidden="true"><i style="--w:' + pct(s.value) + '%"></i></div>' : '') + srcHtml(s) + '</div>';
     } else if (k === 'steps') {
       h = '<div class="sc" data-k="steps">' + kick(s) + '<h2 class="t a" style="font-size:5.4cqmin">' + esc(s.title) + '</h2><div class="steps">' +
-        (s.steps || []).map(function (x, i) { return '<div class="rv" data-rv="' + i + '"><b>0' + (i + 1) + ' / 0' + (s.steps.length) + '</b><strong>' + esc(x.label) + '</strong><p>' + esc(x.detail) + '</p></div>'; }).join('') + '</div><div class="track a" style="--d:.2s" aria-hidden="true"><i data-track></i></div>' + srcHtml(s) + '</div>';
+        (s.steps || []).map(function (x, i) { return '<div class="rv" data-rv="' + i + '"><b>0' + (i + 1) + ' / 0' + (s.steps.length) + '</b><strong>' + esc(x.label) + '</strong><p>' + esc(x.detail) + '</p></div>'; }).join('') + '</div><div class="track a" style="--d:.2s" aria-hidden="true"><i data-track></i></div>' +
+        (function () { var L = s.steps || []; if (L.length < 2) return ''; var ord = L.map(function (x, j) { return j; }); ord.push(ord.shift()); if (L.length > 2) ord.reverse(); /* jamais dans l'ordre */
+          return '<div class="ordg" data-ordg><p class="oq">Dans quel ordre ? Touche les étapes de la première à la dernière.</p><div class="chips">' + ord.map(function (j) { return '<button class="chip" data-ord="' + j + '"><b></b>' + esc(L[j].label) + '</button>'; }).join('') + '</div><div class="bwhy" data-out="ord" hidden></div></div>'; })() +
+        srcHtml(s) + '</div>';
     } else if (k === 'retrieval') {
       h = '<div class="sc" data-k="retrieval">' + kick(s) + '<div class="ask"><h2 class="t a" style="--d:.1s">' + esc(s.prompt || s.title) + '</h2>' + (s.context ? '<p class="ctx a" style="--d:.25s">' + esc(s.context) + '</p>' : '') +
         '<label class="a" style="--d:.35s"><span class="sr" style="position:absolute;left:-9999px">Ta réponse</span><textarea data-in="ret" placeholder="Écris ou dicte ta réponse…"></textarea></label>' +
@@ -277,7 +288,7 @@
     injectCss(); o = o || {}; ch._assets = o.assets || 'assets/';
     var total = chDurs(ch).reduce(function (t, d) { return t + d; }, 0);
     var stp = (ch.screens.filter(function (x) { return x.kind === 'steps'; })[0] || {}).steps || [];
-    var endc = '<div class="endcard" hidden><div class="kick">À retenir</div><h2 class="t">' + esc(ch.title) + '</h2><ol>' + stp.slice(0, 3).map(function (x) { return '<li><strong>' + esc(x.label) + '</strong> · ' + esc(x.detail) + '</li>'; }).join('') + '</ol>' +
+    var endc = '<div class="endcard" hidden><div class="kick">À retenir</div><h2 class="t">' + esc(ch.title) + '</h2><ol>' + stp.slice(0, 3).map(function (x, j) { return '<li><strong>' + esc(x.label) + '</strong> · ' + esc(x.detail) + '<span class="self" role="group" aria-label="Ton niveau"><button data-self="' + j + '" data-v="ok" aria-pressed="false">Je maîtrise</button><button data-self="' + j + '" data-v="rv" aria-pressed="false">À revoir</button></span></li>'; }).join('') + '</ol><p class="selfq">Pour chaque idée : tu la maîtrises, ou tu veux la revoir ? Les idées « À revoir » sont gardées sur la page d’accueil du cours.</p>' +
       '<div class="row2"><button class="go ghost" data-c="replay">Revoir le chapitre</button><span data-next hidden><button class="go" data-c="gonext"></button><button class="go ghost" data-c="stay">Rester ici</button></span></div><div class="cd" data-cd hidden></div></div>';
     var w = [0, 0, 0, 0, 0, 0]; ch.screens.forEach(function (s) { w[s.brick - 1] += sec(s.end) - sec(s.tc); });
     return '<div class="ch' + (o.render ? ' render' : '') + '" data-ch="' + esc(ch.id) + '">' +
@@ -296,10 +307,10 @@
     var tm = root.querySelector('[data-tm]'), btnP = root.querySelector('[data-c=play]');
     var media = (ch.media && ch.media.screens) || [];
     var i = Math.min(14, st.i || 0), t0 = 0, el = 0, playing = false, raf = 0, au = null, sound = true, words = [], chunks = [], lastW = -1, started = false, tryN = -1;
-    var gt = st.gt || (st.gt = {}), gated = false, gTimer = 0, IX = { belief: 'b', retrieval: 'r', quiz: 'q' };
-    function ixKey(s) { var k = IX[s.kind]; if (!k || hk.render) return ''; if (k === 'b' && s.wrong == null) return ''; return k; }
+    var gt = st.gt || (st.gt = {}), gated = false, gTimer = 0, IX = { belief: 'b', steps: 's', retrieval: 'r', quiz: 'q' }, ordN = 0;
+    function ixKey(s) { var k = IX[s.kind]; if (!k || hk.render) return ''; if (k === 'b' && s.wrong == null) return ''; if (k === 's' && (s.steps || []).length < 2) return ''; return k; }
     function needGate(s) { var k = ixKey(s); return !!k && !gt[k]; }
-    var GTX = { b: 'Touche ce qui cloche chez Mozi', r: 'À toi : écris ta réponse ou dicte-la', q: 'À toi : choisis une réponse' };
+    var GTX = { s: 'Remets les étapes dans l’ordre', b: 'Touche ce qui cloche chez Mozi', r: 'À toi : écris ta réponse ou dicte-la', q: 'À toi : choisis une réponse' };
     function gate(on, txt) { gated = on; root.classList.toggle('gated', on); var g = root.querySelector('[data-gt]'); if (g && txt) g.textContent = txt; }
     function answered(k, go) { gt[k] = 1; hk.save && hk.save(); var was = gated; gate(false); if (was && go) { clearTimeout(gTimer); gTimer = setTimeout(function () { if (!playing) next(); }, go); } }
     function beatWin() { var s = ch.screens[i], sc = scs[i], bt = sc.querySelectorAll('[data-beat]'), w = bt[s.wrong]; if (!w) return; w.classList.add('ok'); var o = sc.querySelector('[data-out=beat]'); o.hidden = false; o.innerHTML = '<b>Bien vu.</b> ' + esc(s.why || ''); }
@@ -319,9 +330,14 @@
       var nx = hk.next, sp = endc.querySelector('[data-next]');
       if (nx && !hk.render) {
         sp.hidden = false; sp.querySelector('[data-c=gonext]').textContent = 'Chapitre suivant : ' + nx.label + ' →';
-        var n = 8, cd = endc.querySelector('[data-cd]'); cd.hidden = false; cd.textContent = 'Suite automatique dans ' + n + ' s';
-        cdT = setInterval(function () { n--; if (n <= 0) { stopCd(); nx.go(); } else cd.textContent = 'Suite automatique dans ' + n + ' s'; }, 1000);
+        var sf = st.self || {}; [].forEach.call(endc.querySelectorAll('[data-self]'), function (x) { x.setAttribute('aria-pressed', String(sf[x.getAttribute('data-self')] === x.getAttribute('data-v'))); });
+        if (Object.keys(sf).length >= endc.querySelectorAll('li').length) startCd(8);
       }
+    }
+    function startCd(n) {
+      var nx = hk.next; if (!nx || hk.render || !endc || endc.hidden) return; stopCd();
+      var cd = endc.querySelector('[data-cd]'); cd.hidden = false; cd.textContent = 'Suite automatique dans ' + n + ' s';
+      cdT = setInterval(function () { n--; if (n <= 0) { stopCd(); nx.go(); } else cd.textContent = 'Suite automatique dans ' + n + ' s'; }, 1000);
     }
     // reprise là où l'apprenant s'était arrêté
     var rsm = root.querySelector('[data-act=resume]');
@@ -336,7 +352,7 @@
       var s = ch.screens[i]; words = String(s.voice || '').split(/\s+/).filter(Boolean); chunks = []; var cur = [];
       words.forEach(function (w, k) { cur.push(k); if (cur.length >= 14 || (cur.length >= 6 && /[.!?;:]$/.test(w))) { chunks.push(cur); cur = []; } }); if (cur.length) chunks.push(cur);
       seb.classList.toggle('off', s.kind === 'mozi' || s.kind === 'belief'); stage.classList.toggle('hp', !!poseOf(s));
-      [].forEach.call(scs[i].querySelectorAll('.rv'), function (r) { r.classList.remove('in'); }); scs[i].classList.remove('try'); tryN = -1;
+      [].forEach.call(scs[i].querySelectorAll('.rv'), function (r) { r.classList.remove('in'); }); scs[i].classList.remove('try', 'ordering'); tryN = -1;
       var bc = scs[i].querySelector('[data-count]'); if (bc && bc.getAttribute('data-count')) bc.textContent = JSON.parse(bc.getAttribute('data-count')).pre + '0';
       st.i = i; if (s.kind === 'bravo') { st.done = 1; hk.onDone && hk.onDone(); } hk.save && hk.save();
       if (playing && media[i] && media[i].audio && sound) { au = new Audio(media[i].audio); au.playbackRate = rate; au.play().catch(function () {}); }
@@ -381,7 +397,7 @@
       paint();
       var s = ch.screens[i];
       if (el >= dur[i]) {
-        if (needGate(s)) { el = dur[i]; paint(); play(false); gate(true, GTX[ixKey(s)]); return; }
+        if (needGate(s)) { el = dur[i]; paint(); play(false); gate(true, GTX[ixKey(s)]); if (ixKey(s) === 's') startOrder(); return; }
         if ((s.kind === 'welcome' && !started) || i === 14) { el = dur[i]; paint(); play(false); if (i === 14) showEnd(); return; }
         show(i + 1);
       }
@@ -397,8 +413,18 @@
       if (on) { t0 = performance.now() - el * 1000 / rate; if (au) au.play().catch(function () {}); else if (media[i] && media[i].audio && sound && el < dur[i]) { au = new Audio(media[i].audio); au.playbackRate = rate; au.currentTime = el; au.play().catch(function () {}); } if (!raf) raf = requestAnimationFrame(tick); }
       else { if (au) au.pause(); if (raf) cancelAnimationFrame(raf); raf = 0; hk.save && hk.save(); }
     }
+    function startOrder() { var sc = scs[i]; ordN = 0; sc.classList.add('ordering'); [].forEach.call(sc.querySelectorAll('[data-ord]'), function (c) { c.classList.remove('ok', 'ko'); c.disabled = false; c.querySelector('b').textContent = ''; }); var o = sc.querySelector('[data-out=ord]'); if (o) o.hidden = true; var f = sc.querySelector('[data-ord]'); if (f) f.focus({ preventScroll: true }); }
+    function endOrder(msg, go) { var sc = scs[i]; var o = sc.querySelector('[data-out=ord]'); o.hidden = false; o.innerHTML = msg; setTimeout(function () { sc.classList.remove('ordering'); }, 1600); answered('s', go); }
+    function pickOrd(b) {
+      var s = ch.screens[i], n = +b.getAttribute('data-ord'), L = s.steps || [], o = scs[i].querySelector('[data-out=ord]');
+      if (b.classList.contains('ok')) return;
+      if (n === ordN) { b.classList.add('ok'); b.disabled = true; b.querySelector('b').textContent = n + 1; ordN++; o.hidden = true;
+        if (ordN >= L.length) endOrder('<b>Bien vu.</b> ' + L.map(function (x, j) { return (j + 1) + '. ' + esc(x.label); }).join(' → '), 3200); }
+      else { b.classList.remove('ko'); void b.offsetWidth; b.classList.add('ko'); o.hidden = false; o.innerHTML = '<b>Pas encore.</b> Quelle étape vient en n° ' + (ordN + 1) + ' ? Indice : ' + esc(String(L[ordN].detail || '').split(/[.:;]/)[0]) + '.'; }
+    }
     function skipGate() {
       var s = ch.screens[i], k = ixKey(s), sc = scs[i];
+      if (k === 's') { endOrder('<b>L’ordre :</b> ' + (s.steps || []).map(function (x, j) { return (j + 1) + '. ' + esc(x.label); }).join(' → '), 2600); return; }
       if (k === 'b') { beatWin(); answered('b', 2600); }
       else if (k === 'r') { var f0 = sc.querySelector('[data-out=ret]'); f0.hidden = false; f0.innerHTML = '<b>Une réponse possible :</b> ' + esc(s.model_answer) + '<br><button class="go" data-act="next" style="margin-top:1.2cqmin;font-size:2.4cqmin;padding:.9cqmin 2.4cqmin">Continuer</button>'; answered('r'); }
       else if (k === 'q') { back((s.card1 || {}).answer || 0, true); answered('q'); }
@@ -424,8 +450,11 @@
     root.addEventListener('click', function (e) {
       if (e.target.closest('[data-tl]')) { var r = tl.getBoundingClientRect(); seekTo(TOT * (e.clientX - r.left) / r.width); return; }
       if (e.target.closest('textarea,input,label,.card,.drop')) { if (playing) play(false); }
-      var b = e.target.closest('[data-act],[data-c],[data-brick],[data-opt],[data-hot],[data-beat]');
+      var b = e.target.closest('[data-act],[data-c],[data-brick],[data-opt],[data-hot],[data-beat],[data-ord],[data-self]');
       if (b && b.hasAttribute('data-beat')) { pickBeat(b); return; }
+      if (b && b.hasAttribute('data-ord')) { pickOrd(b); return; }
+      if (b && b.hasAttribute('data-self')) { var j = +b.getAttribute('data-self'), v = b.getAttribute('data-v'); st.self = st.self || {}; st.self[j] = v; [].forEach.call(root.querySelectorAll('[data-self="' + j + '"]'), function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-v') === v)); }); hk.onSelf && hk.onSelf(st.self); hk.save && hk.save();
+        stopCd(); if (Object.keys(st.self).length >= root.querySelectorAll('.endcard li').length) startCd(5); return; }
       if (!b) { if (!gated && e.target.closest('.stage') && !e.target.closest('a,button,textarea,input,label,.card,.drop,.endcard,.bwhy,.fb') && (started || i > 0)) play(!playing); return; }
       if (b.getAttribute('data-c') === 'fs') { var fe = stage; if (document.fullscreenElement) document.exitFullscreen(); else if (fe.requestFullscreen) fe.requestFullscreen(); return; }
       if (b.hasAttribute('data-hot')) {

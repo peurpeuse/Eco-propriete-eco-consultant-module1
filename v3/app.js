@@ -173,7 +173,13 @@
         M.downloads.map(function (d) { return '<a class="btn ' + (d.full ? 'p' : 's') + '" href="' + esc(d.file) + '" download>' + ic('reading') + ' ' + esc(d.label) + '</a>'; }).join('') + '</div></section>';
       h = h.replace(/<\/div>$/, '') + dl + '</div>';
     }
+    // idées marquées « À revoir » en fin de chapitre
+    var rvl = []; MODS.forEach(function (m) { m.capsules.forEach(function (c) { var ch = c.chapter, sf = ((S.c[c.id] || {}).ch || {}).self; if (!ch || !sf) return; var stp = (ch.screens.filter(function (x) { return x.kind === 'steps'; })[0] || {}).steps || []; Object.keys(sf).forEach(function (j) { if (sf[j] === 'rv' && stp[j]) rvl.push({ c: c, j: +j, label: stp[j].label, detail: stp[j].detail }); }); }); });
+    if (rvl.length) h = h.replace('<nav class="tabsbar"', '<div class="wrap"><section class="sec revoir" id="revoir"><h2>À revoir (' + rvl.length + ')</h2><p class="muted">Les idées que tu as marquées « À revoir » en fin de chapitre. Touche-en une pour revoir le cours au bon endroit, puis remets les étapes dans l’ordre.</p><ul class="rvl">' +
+      rvl.map(function (x) { return '<li><button class="rvb" data-revoir="' + esc(x.c.id) + '"><span class="chip ia">' + esc(x.c.id) + '</span> <b>' + esc(x.label) + '</b><span class="muted"> · ' + esc(cut(x.detail, 90)) + '</span></button><button class="rvx" data-revu="' + esc(x.c.id) + ':' + x.j + '" aria-label="Retirer de la liste">C’est revu</button></li>'; }).join('') + '</ul></section></div><nav class="tabsbar"');
     app.innerHTML = h;
+    [].forEach.call(app.querySelectorAll('[data-revoir]'), function (b) { b.onclick = function () { var id = b.getAttribute('data-revoir'), c0 = cs(id), ch0 = c0.ch || (c0.ch = {}), k7 = 6; ch0.i = k7; ch0.g = 0; if (ch0.gt) delete ch0.gt.s; save(); go(['learn', 'c:' + id + ':0']); }; });
+    [].forEach.call(app.querySelectorAll('[data-revu]'), function (b) { b.onclick = function () { var p = b.getAttribute('data-revu').split(':'), sf = ((S.c[p[0]] || {}).ch || {}).self; if (sf) sf[p[1]] = 'ok'; save(); render(); }; });
     [].forEach.call(app.querySelectorAll('[data-learn]'), function (b) { b.onclick = function () { go(['learn', b.getAttribute('data-learn')]); }; });
     var tabs = app.querySelectorAll('.tabsbar a');
     [].forEach.call(tabs, function (a) { a.onclick = function (e) { e.preventDefault(); var t = $(a.getAttribute('href').slice(1)); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - 120, behavior: 'smooth' }); [].forEach.call(tabs, function (x) { x.classList.toggle('on', x === a); }); }; });
@@ -311,6 +317,7 @@
       onDone: function () { if (!st.v) { st.v = 1; save(); var n = $('courseNav'); if (n) { var y = n.scrollTop; n.outerHTML = navHtml(it); $('courseNav').scrollTop = y; bindNav(it); } } },
       onQuiz: function (ok, sel) { st.q = ok ? 100 : 0; interaction('ch' + c.id + '-q1', String.fromCharCode(97 + sel), ok, String.fromCharCode(97 + c.chapter.screens[8].card1.answer)); },
       onProof: function (u) { DEP[k] = u; saveDep(); },
+      onSelf: function () { save(); },
       onExercise: function () { go(['learn', 'c:' + c.id + ':3']); }
     });
   };

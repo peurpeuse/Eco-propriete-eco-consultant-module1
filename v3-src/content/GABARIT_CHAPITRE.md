@@ -105,3 +105,5 @@ Pas de pose sur l'écran 3 (Mozi). Chapitre modèle : 1.1.
 - **Barre de lecture** : repères des 6 briques, reprise « Reprendre à m:ss », vitesse ×1 / ×1,25 / ×1,5.
 - **Export MP4** : route `#render-x-y` (plein écran, sans boutons d'interaction), enregistrée en 1280×720 et 720×1280.
 - **Points d'arrêt** : en fin d'écran 4 (trouver l'erreur de Mozi), 8 (question ouverte) et 9 (quiz), le lecteur s'arrête et attend la réponse (bouton « Passer » toujours disponible). Une mauvaise réponse au quiz propose « Revoir l'explication » (retour à l'écran 7). En export MP4, les réponses s'affichent seules.
+- **Écran 7** : en fin d'écran, l'apprenant remet les étapes dans l'ordre (titre et mot de fond masqués pendant le jeu ; indice tiré du `detail` de l'étape attendue).
+- **Fin** : chaque idée « À retenir » reçoit « Je maîtrise » ou « À revoir » ; la suite automatique démarre une fois les idées évaluées. Les idées « À revoir » s'affichent sur la page d'accueil du cours (lien vers l'écran 7, bouton « C'est revu »).
