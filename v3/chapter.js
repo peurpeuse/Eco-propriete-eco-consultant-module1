@@ -376,6 +376,7 @@
     }
     function tick(now) {
       raf = 0; if (!playing) return;
+      if (!root.isConnected) { play(false); if (au) { au.pause(); au = null; } return; } // chapitre retiré de la page : on coupe tout
       el = (now - t0) / 1000 * rate;
       paint();
       var s = ch.screens[i];
@@ -490,7 +491,7 @@
       show: function (n) { show(n); }, play: play, durations: dur, total: starts[14] + dur[14],
       seek: function (n, t) { hideEnd(); show(n); el = t || 0; t0 = performance.now() - el * 1000 / rate; paint(); },
       seekTime: function (g) { seekTo(g); }, end: showEnd, rate: setRate,
-      destroy: function () { play(false); stopCd(); clearTimeout(gTimer); }
+      destroy: function () { play(false); if (au) { au.pause(); au.src = ''; au = null; } stopCd(); clearTimeout(gTimer); }
     };
     if (hk.render) { window.__chapter = api; }
     return api;

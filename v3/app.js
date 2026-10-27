@@ -140,6 +140,7 @@
   $('navBtn').onclick = function () { var lv = document.querySelector('.lv'); if (!lv) return; var o = lv.classList.toggle('open'); $('navBtn').setAttribute('aria-expanded', String(o)); };
   function nextKey() { for (var i = 0; i < FLAT.length; i++) if (!isDone(FLAT[i]) && FLAT[i].kind !== 'cert') return FLAT[i].key; return FLAT[0].key; }
   function render() {
+    if (CH) { CH.destroy(); CH = null; } // arrêter le son et la lecture du chapitre qu'on quitte
     var r = S.cur || ['home'];
     if (r[0] === 'learn' && BYKEY[r[1]]) renderLearn(BYKEY[r[1]]); else renderHome();
     bindDocLinks();
