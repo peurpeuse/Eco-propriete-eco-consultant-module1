@@ -96,3 +96,11 @@ La somme des durées va de 0:00 à 4:30, sans trou ni chevauchement.
 Champ `"pose"` sur un écran : Sébastien Paumier apparaît en pied, à droite (16/9) ou en bas (mobile), à la place de la bulle.
 Poses disponibles (`engine/assets/seb/`) : `salut`, `trois`, `idee`, `choc`, `bras-ouverts`, `presente`, `reflechit`, `carte`, `dossier`, `telephone`, `montre`, `bravo`.
 Pas de pose sur l'écran 3 (Mozi). Chapitre modèle : 1.1.
+
+## Lecteur (mode vidéo)
+
+- **Rythme** : la durée de chaque écran est calculée sur le texte de la voix (≈ 2,7 mots/s + 1,6 s de respiration, avec un minimum par type d'écran). Les `tc`/`end` du JSON restent indicatifs. Quand une voix enregistrée existe (`media.screens[k].dur`), c'est elle qui fixe la durée.
+- **Poses** : sans champ `pose`, une pose par défaut est choisie selon le type d'écran (welcome → salut, goals/steps → trois, consequence → choc, stat → idee, retrieval → reflechit, quiz → carte, tools → presente, démo 11 → telephone, démo 12 → dossier, action → montre, proof → bras-ouverts, bravo → bravo). `"pose": "none"` retire la pose.
+- **Fin** : carte « À retenir » (les 3 étapes de l'écran 7), puis chapitre suivant en 8 s (bouton « Rester ici »).
+- **Barre de lecture** : repères des 6 briques, reprise « Reprendre à m:ss », vitesse ×1 / ×1,25 / ×1,5.
+- **Export MP4** : route `#render-x-y` (plein écran, sans boutons d'interaction), enregistrée en 1280×720 et 720×1280.
