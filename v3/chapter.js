@@ -7,6 +7,19 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function sec(t) { var p = String(t).split(':'); return (+p[0]) * 60 + (+p[1] || 0); }
+  /* Rythme calé sur le texte : ~2,7 mots/s + respiration, avec un minimum par type d'écran */
+  var MIN = { welcome: 5, goals: 5, mozi: 4, belief: 5, consequence: 5, stat: 5, steps: 12, retrieval: 12, quiz: 16, tools: 6, demo: 6, action: 4, proof: 6, bravo: 6 };
+  function screenDur(s, m) {
+    if (m && m.dur) return m.dur;
+    var w = String(s.voice || '').split(/\s+/).filter(Boolean).length, d = w / 2.7 + 1.6, mn = MIN[s.kind] || 4;
+    if (s.kind === 'demo') mn = Math.max(mn, 3 * (s.steps || []).length);
+    if (s.kind === 'steps') mn = Math.max(mn, 4 * (s.steps || []).length);
+    return Math.round(Math.max(mn, d) * 10) / 10;
+  }
+  function chDurs(ch) { var md = (ch.media && ch.media.screens) || []; return ch.screens.map(function (s, k) { return screenDur(s, md[k]); }); }
+  /* Pose de Sébastien Paumier par défaut selon le type d'écran (pas de pose sur Mozi ni sur la croyance) */
+  var POSE = { welcome: 'salut', goals: 'trois', consequence: 'choc', stat: 'idee', steps: 'trois', retrieval: 'reflechit', quiz: 'carte', tools: 'presente', action: 'montre', proof: 'bras-ouverts', bravo: 'bravo' };
+  function poseOf(s) { if (s.kind === 'mozi' || s.kind === 'belief') return ''; if (s.pose === 'none') return ''; return s.pose || (s.kind === 'demo' ? (s.n === 11 ? 'telephone' : 'dossier') : POSE[s.kind] || ''); }
   function fmt(s) { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
   function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
 
@@ -154,6 +167,10 @@
     '.ch.started:not(.playing) .bigplay{display:grid}.ch.render .bigplay{display:none!important}.ch .stage{cursor:pointer}.ch .stage :is(button,a,input,textarea,label,.card){cursor:auto}.ch .stage :is(button,a,label){cursor:pointer}' +
     '.ch .stage:fullscreen{width:100vw;height:100vh;aspect-ratio:auto;border:0;border-radius:0}' +
     '@media (max-width:700px){.ch .vbar{gap:6px}.ch .vbar .tm{display:none}}' +
+    '.ch .tl .mk{position:absolute;top:-3px;bottom:-3px;width:3px;margin-left:-1px;background:var(--ink);opacity:.35;border-radius:2px;pointer-events:none;z-index:1}' +
+    '.ch .endcard{position:absolute;inset:0;z-index:9;background:var(--ink);color:#fff;display:flex;flex-direction:column;justify-content:center;gap:2.4cqmin;padding:6cqmin 8cqmin;animation:chFade .5s ease both}.ch .endcard[hidden]{display:none}.ch .endcard .kick{display:inline-block!important;align-self:flex-start;background:var(--or);color:var(--ink)}' +
+    '.ch .endcard h2{margin:0;font-size:6cqmin;line-height:1.05}.ch .endcard ol{margin:0;padding-left:4cqmin;display:grid;gap:1.6cqmin;font-size:max(14px,3cqmin);line-height:1.3}.ch .endcard li strong{color:var(--or)}.ch .endcard .go.ghost{color:#fff;border-color:#fff}.ch .endcard .cd{font-family:"IBM Plex Mono",monospace;color:#BDBDB5;font-size:max(13px,2.4cqmin)}' +
+    '@keyframes chFade{from{opacity:0}to{opacity:1}}.ch.render .endcard .row2,.ch.render .endcard .cd{display:none}.ch .endcard ~ .bigplay{z-index:10}.ch.ended .bigplay{display:none!important}' +
     '.ch .trs{margin-top:14px}.ch .trs summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}.ch .trs ol{margin:0;padding-left:22px}.ch .trs li{margin:0 0 8px}.ch .trs small{color:var(--mute)}';
 
   function injectCss() {
@@ -188,7 +205,7 @@
     if (k === 'welcome') {
       h = '<div class="sc dark wl" data-k="welcome"><div class="kick a">Chapitre ' + esc(ch.id) + ' · ' + esc(ch.duration || '4:30') + '</div>' +
         '<h2 class="t a" style="--d:.15s">' + accent(s.title) + '</h2><p class="a" style="--d:.3s;margin:0;font-size:max(14px,3cqmin);color:#BDBDB5;max-width:80%">' + esc(ch.objective || '') + '</p>' +
-        '<button class="go a" style="--d:.45s" data-act="start">' + esc(s.cta || 'Commencer') + '</button></div>';
+        '<div class="row2 a" style="--d:.45s"><button class="go" data-act="start">' + esc(s.cta || 'Commencer') + '</button><button class="go ghost" data-act="resume" hidden></button></div></div>';
     } else if (k === 'goals') {
       h = '<div class="sc" data-k="goals">' + kick(s) + '<h2 class="t a" style="--d:.1s">' + esc(s.title) + '</h2><div class="goals">' +
         (s.items || []).map(function (x, i) { return '<div class="a" style="--d:' + (0.3 + i * 0.35) + 's"><b>0' + (i + 1) + '</b><strong>' + esc(x.verb) + '</strong> · ' + esc(x.text) + '</div>'; }).join('') +
@@ -246,20 +263,23 @@
         srcHtml(s) + '</div>';
     }
     if (k !== 'welcome') h = h.replace(/^(<div class="sc[^>]*>)/, function (m) { return m + (k === 'mozi' ? '' : bgw(s)) + bcard(s); });
-    if (s.pose && k !== 'mozi') h = h.replace(/^<div class="sc/, '<div class="sc hp').replace(/<\/div>$/, '<img class="pose" src="' + esc((ch._assets || 'assets/') + 'seb/' + s.pose + '.webp') + '" alt="">' + '</div>');
+    var ps = poseOf(s); if (ps) h = h.replace(/^<div class="sc/, '<div class="sc hp').replace(/<\/div>$/, '<img class="pose" src="' + esc((ch._assets || 'assets/') + 'seb/' + ps + '.webp') + '" alt="" loading="lazy">' + '</div>');
     return h;
   }
 
   function render(ch, o) {
     injectCss(); o = o || {}; ch._assets = o.assets || 'assets/';
-    var md = (ch.media && ch.media.screens) || [], total = md.length === 15 ? md.reduce(function (t, m) { return t + (m.dur || 0); }, 0) : sec(ch.screens[14].end);
+    var total = chDurs(ch).reduce(function (t, d) { return t + d; }, 0);
+    var stp = (ch.screens.filter(function (x) { return x.kind === 'steps'; })[0] || {}).steps || [];
+    var endc = '<div class="endcard" hidden><div class="kick">À retenir</div><h2 class="t">' + esc(ch.title) + '</h2><ol>' + stp.slice(0, 3).map(function (x) { return '<li><strong>' + esc(x.label) + '</strong> · ' + esc(x.detail) + '</li>'; }).join('') + '</ol>' +
+      '<div class="row2"><button class="go ghost" data-c="replay">Revoir le chapitre</button><span data-next hidden><button class="go" data-c="gonext"></button><button class="go ghost" data-c="stay">Rester ici</button></span></div><div class="cd" data-cd hidden></div></div>';
     var w = [0, 0, 0, 0, 0, 0]; ch.screens.forEach(function (s) { w[s.brick - 1] += sec(s.end) - sec(s.tc); });
     return '<div class="ch' + (o.render ? ' render' : '') + '" data-ch="' + esc(ch.id) + '">' +
       '<div class="stage" tabindex="0" role="region" aria-label="Chapitre ' + esc(ch.id) + ' : ' + esc(ch.title) + '">' + ch.screens.map(function (s) { return screenHtml(s, ch); }).join('') +
-      '<div class="seb talk"><img src="' + esc(o.avatar || 'assets/seb.png') + '" alt=""><div class="eq" aria-hidden="true"><i style="--d:0s"></i><i style="--d:.2s"></i><i style="--d:.4s"></i><i style="--d:.1s"></i><i style="--d:.3s"></i></div><span>Sébastien Paumier</span></div><div class="cc" aria-live="off"><p></p></div><button class="bigplay" data-c="play" aria-label="Lecture" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></button></div>' +
+      '<div class="seb talk"><img src="' + esc(o.avatar || 'assets/seb.png') + '" alt=""><div class="eq" aria-hidden="true"><i style="--d:0s"></i><i style="--d:.2s"></i><i style="--d:.4s"></i><i style="--d:.1s"></i><i style="--d:.3s"></i></div><span>Sébastien Paumier</span></div><div class="cc" aria-live="off"><p></p></div>' + endc + '<button class="bigplay" data-c="play" aria-label="Lecture" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></button></div>' +
       '<div class="vbar"><button class="pp" data-c="play" aria-label="Lecture"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="ic-play" d="M7 4.5v15l13-7.5z"/><path class="ic-pause" d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>' +
       '<div class="tl" data-tl role="slider" tabindex="0" aria-label="Position dans le chapitre" aria-valuemin="0" aria-valuemax="' + Math.round(total) + '" aria-valuenow="0"><i></i></div>' +
-      '<span class="tm"><span data-tm>0:00</span> / ' + fmt(total) + '</span><button data-c="snd" aria-pressed="true" hidden>Son</button><button data-c="cc" aria-pressed="true" aria-label="Sous-titres">CC</button><button data-c="fs" aria-label="Plein écran">⛶</button></div>' +
+      '<span class="tm"><span data-tm>0:00</span> / ' + fmt(total) + '</span><button data-c="snd" aria-pressed="true" hidden>Son</button><button data-c="rate" aria-label="Vitesse de lecture">×1</button><button data-c="cc" aria-pressed="true" aria-label="Sous-titres">CC</button><button data-c="fs" aria-label="Plein écran">⛶</button></div>' +
       '<details class="trs"><summary>Transcription des 15 écrans</summary><ol>' + ch.screens.map(function (s) { return '<li><b>' + esc(s.title) + '</b> <small>(' + esc(s.tc) + ' – ' + esc(s.end) + ')</small><br>' + (s.kind === 'mozi' ? 'Mozi : ' : '') + esc(s.voice) + (s.source ? '<br><small>Source : ' + esc(s.source) + '</small>' : '') + '</li>'; }).join('') + '</ol></details></div>';
   }
 
@@ -270,11 +290,30 @@
     var tm = root.querySelector('[data-tm]'), btnP = root.querySelector('[data-c=play]');
     var media = (ch.media && ch.media.screens) || [];
     var i = Math.min(14, st.i || 0), t0 = 0, el = 0, playing = false, raf = 0, au = null, sound = true, words = [], chunks = [], lastW = -1, started = false, tryN = -1;
-    var dur = ch.screens.map(function (s, k) { return (media[k] && media[k].dur) || Math.max(3, sec(s.end) - sec(s.tc)); });
+    var dur = chDurs(ch), rate = 1, cdT = 0, endc = root.querySelector('.endcard');
+    try { rate = +localStorage.getItem('ecoRate') || 1; } catch (e) {}
     var starts = []; dur.reduce(function (a, d, k) { starts[k] = a; return a + d; }, 0);
     if (media.some(function (m) { return m && m.audio; })) root.querySelector('[data-c=snd]').hidden = false;
     var tl = root.querySelector('[data-tl]'), TOT = starts[14] + dur[14];
-    function seekTo(g) { g = Math.max(0, Math.min(TOT - 0.05, g)); var k = 0; while (k < 14 && starts[k + 1] <= g) k++; var was = playing; if (was) play(false); started = true; root.classList.add('started'); show(k); el = g - starts[k]; t0 = performance.now() - el * 1000; paint(); if (was) play(true); }
+    // repères des 6 briques sur la barre de lecture
+    if (tl) ch.screens.forEach(function (x, k) { if (k > 0 && x.brick !== ch.screens[k - 1].brick) tl.insertAdjacentHTML('beforeend', '<b class="mk" style="left:' + (100 * starts[k] / TOT).toFixed(2) + '%" title="' + esc(BRICKS[x.brick - 1]) + '"></b>'); });
+    var rb = root.querySelector('[data-c=rate]'); function setRate(r) { var g = starts[i] + el; rate = r; if (rb) rb.textContent = '×' + String(r).replace('.', ','); if (au) au.playbackRate = r; t0 = performance.now() - el * 1000 / rate; try { localStorage.setItem('ecoRate', r); } catch (e) {} }
+    setRate(rate);
+    function stopCd() { if (cdT) { clearInterval(cdT); cdT = 0; } var c = root.querySelector('[data-cd]'); if (c) c.hidden = true; }
+    function hideEnd() { stopCd(); if (endc) endc.hidden = true; root.classList.remove('ended'); }
+    function showEnd() {
+      if (!endc) return; endc.hidden = false; root.classList.add('ended'); st.g = 0; hk.save && hk.save();
+      var nx = hk.next, sp = endc.querySelector('[data-next]');
+      if (nx && !hk.render) {
+        sp.hidden = false; sp.querySelector('[data-c=gonext]').textContent = 'Chapitre suivant : ' + nx.label + ' →';
+        var n = 8, cd = endc.querySelector('[data-cd]'); cd.hidden = false; cd.textContent = 'Suite automatique dans ' + n + ' s';
+        cdT = setInterval(function () { n--; if (n <= 0) { stopCd(); nx.go(); } else cd.textContent = 'Suite automatique dans ' + n + ' s'; }, 1000);
+      }
+    }
+    // reprise là où l'apprenant s'était arrêté
+    var rsm = root.querySelector('[data-act=resume]');
+    if (rsm && !hk.render && !st.done && st.g > 8 && st.g < TOT - 5) { rsm.hidden = false; rsm.textContent = 'Reprendre à ' + fmt(st.g); }
+    function seekTo(g) { g = Math.max(0, Math.min(TOT - 0.05, g)); var k = 0; while (k < 14 && starts[k + 1] <= g) k++; var was = playing; if (was) play(false); started = true; root.classList.add('started'); hideEnd(); show(k); el = g - starts[k]; t0 = performance.now() - el * 1000 / rate; paint(); if (was) play(true); }
 
     function show(n, keep) {
       if (au) { au.pause(); au = null; }
@@ -282,11 +321,11 @@
       [].forEach.call(scs, function (x, k) { x.classList.toggle('on', k === i); x.setAttribute('aria-hidden', String(k !== i)); if (k !== i) x.setAttribute('inert', ''); else x.removeAttribute('inert'); });
       var s = ch.screens[i]; words = String(s.voice || '').split(/\s+/).filter(Boolean); chunks = []; var cur = [];
       words.forEach(function (w, k) { cur.push(k); if (cur.length >= 14 || (cur.length >= 6 && /[.!?;:]$/.test(w))) { chunks.push(cur); cur = []; } }); if (cur.length) chunks.push(cur);
-      seb.classList.toggle('off', s.kind === 'mozi' || s.kind === 'belief'); stage.classList.toggle('hp', !!(s.pose && s.kind !== 'mozi'));
+      seb.classList.toggle('off', s.kind === 'mozi' || s.kind === 'belief'); stage.classList.toggle('hp', !!poseOf(s));
       [].forEach.call(scs[i].querySelectorAll('.rv'), function (r) { r.classList.remove('in'); }); scs[i].classList.remove('try'); tryN = -1;
       var bc = scs[i].querySelector('[data-count]'); if (bc && bc.getAttribute('data-count')) bc.textContent = JSON.parse(bc.getAttribute('data-count')).pre + '0';
       st.i = i; if (s.kind === 'bravo') { st.done = 1; hk.onDone && hk.onDone(); } hk.save && hk.save();
-      if (playing && media[i] && media[i].audio && sound) { au = new Audio(media[i].audio); au.play().catch(function () {}); }
+      if (playing && media[i] && media[i].audio && sound) { au = new Audio(media[i].audio); au.playbackRate = rate; au.play().catch(function () {}); }
       paint(); restore(s);
     }
     function restore(s) {
@@ -312,7 +351,7 @@
       if (playing && s.kind === 'quiz' && el > d * 0.6) { var c1 = scs[i].querySelector('[data-card="1"]'); if (c1 && !c1.classList.contains('flip')) { back((s.card1 || {}).answer || 0, true); } var c2 = scs[i].querySelector('[data-card="2"]'); if (el > d * 0.8 && c2 && !c2.classList.contains('flip')) { c2.classList.add('flip'); scs[i].querySelector('.cards').classList.add('c1'); } }
       if (playing && s.kind === 'retrieval' && el > d * 0.6) { var fr = scs[i].querySelector('[data-out=ret]'); if (fr && fr.hidden) { fr.hidden = false; fr.innerHTML = '<b>Une réponse possible :</b> ' + esc(s.model_answer); } }
       var bc = scs[i].querySelector('[data-count]'); if (bc && bc.getAttribute('data-count')) { var c = JSON.parse(bc.getAttribute('data-count')), v = c.num * Math.min(1, el / 1.4); bc.textContent = c.pre + v.toFixed(c.dec).replace('.', ',') + c.post; }
-      var g = starts[i] + Math.min(el, d); tm.textContent = fmt(g); if (tl) { tl.querySelector('i').style.setProperty('--p', (100 * g / TOT).toFixed(2) + '%'); tl.setAttribute('aria-valuenow', Math.round(g)); }
+      var g = starts[i] + Math.min(el, d); if (started) st.g = Math.round(g); tm.textContent = fmt(g); if (tl) { tl.querySelector('i').style.setProperty('--p', (100 * g / TOT).toFixed(2) + '%'); tl.setAttribute('aria-valuenow', Math.round(g)); }
       [].forEach.call(root.querySelectorAll('[data-brick]'), function (b) {
         var bi = +b.getAttribute('data-brick'), a = 0, z = 0;
         ch.screens.forEach(function (x, k) { if (x.brick === bi) { z += dur[k]; if (k < i) a += dur[k]; else if (k === i) a += Math.min(el, d); } });
@@ -321,22 +360,23 @@
     }
     function tick(now) {
       raf = 0; if (!playing) return;
-      el = (now - t0) / 1000;
+      el = (now - t0) / 1000 * rate;
       paint();
       var s = ch.screens[i];
       if (el >= dur[i]) {
-        if ((s.kind === 'welcome' && !started) || i === 14) { el = dur[i]; paint(); play(false); return; }
+        if ((s.kind === 'welcome' && !started) || i === 14) { el = dur[i]; paint(); play(false); if (i === 14) showEnd(); return; }
         show(i + 1);
       }
       raf = requestAnimationFrame(tick);
     }
     function play(on) {
+      if (on) hideEnd();
       if (on && i === 14 && el >= dur[14]) { show(0); started = true; }
       if (on) { started = true; root.classList.add('started'); }
       playing = on; root.classList.toggle('playing', on); btnP.setAttribute('aria-label', on ? 'Pause' : 'Lecture');
       seb.classList.toggle('talk', on);
-      if (on) { t0 = performance.now() - el * 1000; if (au) au.play().catch(function () {}); else if (media[i] && media[i].audio && sound && el < dur[i]) { au = new Audio(media[i].audio); au.currentTime = el; au.play().catch(function () {}); } if (!raf) raf = requestAnimationFrame(tick); }
-      else { if (au) au.pause(); if (raf) cancelAnimationFrame(raf); raf = 0; }
+      if (on) { t0 = performance.now() - el * 1000 / rate; if (au) au.play().catch(function () {}); else if (media[i] && media[i].audio && sound && el < dur[i]) { au = new Audio(media[i].audio); au.playbackRate = rate; au.currentTime = el; au.play().catch(function () {}); } if (!raf) raf = requestAnimationFrame(tick); }
+      else { if (au) au.pause(); if (raf) cancelAnimationFrame(raf); raf = 0; hk.save && hk.save(); }
     }
     function next() { if (i < 14) { show(i + 1); if (!playing) play(true); } }
     function back(sel, silent) {
@@ -351,7 +391,7 @@
       if (e.target.closest('[data-tl]')) { var r = tl.getBoundingClientRect(); seekTo(TOT * (e.clientX - r.left) / r.width); return; }
       if (e.target.closest('textarea,input,label,.card,.drop')) { if (playing) play(false); }
       var b = e.target.closest('[data-act],[data-c],[data-brick],[data-opt],[data-hot]');
-      if (!b) { if (e.target.closest('.stage') && !e.target.closest('a,button,textarea,input,label,.card,.drop') && (started || i > 0)) play(!playing); return; }
+      if (!b) { if (e.target.closest('.stage') && !e.target.closest('a,button,textarea,input,label,.card,.drop,.endcard') && (started || i > 0)) play(!playing); return; }
       if (b.getAttribute('data-c') === 'fs') { var fe = stage; if (document.fullscreenElement) document.exitFullscreen(); else if (fe.requestFullscreen) fe.requestFullscreen(); return; }
       if (b.hasAttribute('data-hot')) {
         var hn = +b.getAttribute('data-hot'), scT = scs[i]; if (hn !== tryN) return;
@@ -365,9 +405,14 @@
       if (b.hasAttribute('data-brick')) { var bi = +b.getAttribute('data-brick'); for (var k = 0; k < 15; k++) if (ch.screens[k].brick === bi) { show(k); break; } return; }
       if (b.hasAttribute('data-opt')) { if (playing) play(false); back(+b.getAttribute('data-opt')); return; }
       if (c === 'play') play(!playing); else if (c === 'prev') show(i - 1); else if (c === 'next') { show(i + 1); }
+      else if (c === 'rate') setRate(rate === 1 ? 1.25 : rate === 1.25 ? 1.5 : 1);
+      else if (c === 'replay') { hideEnd(); show(0); started = true; play(true); }
+      else if (c === 'stay') stopCd();
+      else if (c === 'gonext') { stopCd(); hk.next && hk.next.go(); }
       else if (c === 'cc') { var on = root.classList.toggle('nocc'); b.setAttribute('aria-pressed', String(!on)); }
       else if (c === 'snd') { sound = !sound; b.setAttribute('aria-pressed', String(sound)); if (au) au.muted = !sound; }
       if (a === 'start') { started = true; show(0); play(true); }
+      else if (a === 'resume') { var rg = st.g; started = true; seekTo(rg); play(true); }
       else if (a === 'start' || a === 'next') next();
       else if (a === 'flip2') b.closest('.card').classList.add('flip');
       else if (a === 'try') { play(false); var scT = scs[i]; scT.classList.add('try'); [].forEach.call(scT.querySelectorAll('.rv,.rvp'), function (r) { r.classList.remove('in', 'on'); }); var hs = scT.querySelectorAll('.hot'); [].forEach.call(hs, function (h) { h.classList.remove('cur'); h.tabIndex = -1; }); tryN = 0; if (hs[0]) { hs[0].classList.add('cur'); hs[0].tabIndex = 0; hs[0].focus(); } scT.querySelector('[data-out=try]').hidden = false; scT.querySelector('[data-out=try]').textContent = 'Clique sur le bouton orange, étape par étape.'; }
@@ -407,8 +452,9 @@
     tl.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); seekTo(starts[i] + el + (e.key === 'ArrowRight' ? 5 : -5)); } });
     var api = {
       show: function (n) { show(n); }, play: play, durations: dur, total: starts[14] + dur[14],
-      seek: function (n, t) { show(n); el = t || 0; t0 = performance.now() - el * 1000; paint(); },
-      destroy: function () { play(false); }
+      seek: function (n, t) { hideEnd(); show(n); el = t || 0; t0 = performance.now() - el * 1000 / rate; paint(); },
+      seekTime: function (g) { seekTo(g); }, end: showEnd, rate: setRate,
+      destroy: function () { play(false); stopCd(); }
     };
     if (hk.render) { window.__chapter = api; }
     return api;

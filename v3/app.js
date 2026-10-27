@@ -306,6 +306,7 @@
     if (CH) CH.destroy();
     CH = window.EcoChapter.mount(app.querySelector('.ch'), c.chapter, {
       state: ch, proof: DEP[k], save: save,
+      next: (function () { var ix = FLAT.indexOf(it); for (var j = ix + 1; j < FLAT.length; j++) if (FLAT[j].kind === 'chapter') { var nt = FLAT[j]; return { label: nt.cap.id + ' · ' + nt.cap.chapter.title, go: function () { go(['learn', nt.key]); } }; } return null; })(),
       onDone: function () { if (!st.v) { st.v = 1; save(); var n = $('courseNav'); if (n) { var y = n.scrollTop; n.outerHTML = navHtml(it); $('courseNav').scrollTop = y; bindNav(it); } } },
       onQuiz: function (ok, sel) { st.q = ok ? 100 : 0; interaction('ch' + c.id + '-q1', String.fromCharCode(97 + sel), ok, String.fromCharCode(97 + c.chapter.screens[8].card1.answer)); },
       onProof: function (u) { DEP[k] = u; saveDep(); },
