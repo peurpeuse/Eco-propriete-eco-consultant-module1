@@ -45,7 +45,7 @@ def check(path):
         if s.get("brick") != BRICKS[i]:
             err.append(tag + " : brique %s au lieu de %s" % (s.get("brick"), BRICKS[i]))
         for k in SPEC.get(s.get("kind"), []):
-            if not s.get(k):
+            if s.get(k) in (None, "", [], {}):
                 err.append(tag + " : champ %s vide" % k)
         try:
             a, b = sec(s["tc"]), sec(s["end"])
