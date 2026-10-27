@@ -171,6 +171,7 @@
     '.ch .endcard{position:absolute;inset:0;z-index:9;background:var(--ink);color:#fff;display:flex;flex-direction:column;justify-content:center;gap:2.4cqmin;padding:6cqmin 8cqmin;animation:chFade .5s ease both}.ch .endcard[hidden]{display:none}.ch .endcard .kick{display:inline-block!important;align-self:flex-start;background:var(--or);color:var(--ink)}' +
     '.ch .endcard h2{margin:0;font-size:6cqmin;line-height:1.05}.ch .endcard ol{margin:0;padding-left:4cqmin;display:grid;gap:1.6cqmin;font-size:max(14px,3cqmin);line-height:1.3}.ch .endcard li strong{color:var(--or)}.ch .endcard .go.ghost{color:#fff;border-color:#fff}.ch .endcard .cd{font-family:"IBM Plex Mono",monospace;color:#BDBDB5;font-size:max(13px,2.4cqmin)}' +
     '@keyframes chFade{from{opacity:0}to{opacity:1}}.ch.render .endcard .row2,.ch.render .endcard .cd{display:none}.ch .endcard ~ .bigplay{z-index:10}.ch.ended .bigplay{display:none!important}' +
+    '.ch.render .sc[data-k=welcome] .row2,.ch.render .sc[data-k=retrieval] .row2,.ch.render .drop .row2,.ch.render [data-act=flip2],.ch.render [data-act=c2],.ch.render .sc[data-k=quiz] [data-act=next],.ch.render .sc[data-k=action] .go.ghost{display:none!important}' +
     '.ch .trs{margin-top:14px}.ch .trs summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}.ch .trs ol{margin:0;padding-left:22px}.ch .trs li{margin:0 0 8px}.ch .trs small{color:var(--mute)}';
 
   function injectCss() {
