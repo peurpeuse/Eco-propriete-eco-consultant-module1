@@ -44,7 +44,8 @@
       "voice": "Même ton. Même blague. Pour tout le monde.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Même ton", "Même blague", "Pour tout le monde"]
+      "beats": ["Même ton", "Même blague", "Pour tout le monde"],
+      "wrong": 2, "why": "Chaque client a son style : on adapte le ton à la personne."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

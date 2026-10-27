@@ -44,7 +44,8 @@
       "voice": "Zéro quantité, zéro devis, trente mille euros au flair.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["0 quantité", "0 devis", "30 000 € au flair"]
+      "beats": ["0 quantité", "0 devis", "30 000 € au flair"],
+      "wrong": 1, "why": "Sans quantités ni devis, on invente : le devis D13 dit 16 500 €."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

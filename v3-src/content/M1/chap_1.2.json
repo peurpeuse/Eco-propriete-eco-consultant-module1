@@ -44,7 +44,8 @@
       "voice": "Une lettre, moins quinze pour cent, zéro page lue.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["1 lettre", "−15 %", "0 page lue"]
+      "beats": ["1 lettre", "−15 %", "0 page lue"],
+      "wrong": 2, "why": "Sans lire le DPE, tu rates la vraie classe : c'est E, pas F."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

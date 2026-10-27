@@ -44,7 +44,8 @@
       "voice": "Trente-cinq mille huit cent quatre-vingts euros de façade, zéro page lue, et une belle surprise.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["35 880 € de façade", "0 page lue", "1 surprise"]
+      "beats": ["35 880 € de façade", "0 page lue", "1 surprise"],
+      "wrong": 1, "why": "Les documents de copropriété se lisent et se remettent : sinon la rétractation ne démarre pas."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

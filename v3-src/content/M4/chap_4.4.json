@@ -44,7 +44,8 @@
       "voice": "Un sourire, zéro preuve, et le dossier est validé.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["1 sourire", "0 preuve", "« dossier validé »"]
+      "beats": ["1 sourire", "0 preuve", "« dossier validé »"],
+      "wrong": 1, "why": "« Comptant » se prouve : sans justificatif, l'offre tombe."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

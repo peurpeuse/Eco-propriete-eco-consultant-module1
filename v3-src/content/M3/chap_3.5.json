@@ -44,7 +44,8 @@
       "voice": "Le prix du vendeur. Plus vingt-cinq mille euros. Mandat signé.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Le prix du vendeur", "+ 25 000 €", "Mandat signé"]
+      "beats": ["Le prix du vendeur", "+ 25 000 €", "Mandat signé"],
+      "wrong": 1, "why": "Surévaluer pour signer : peu de visites, et le bien perd de la valeur."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

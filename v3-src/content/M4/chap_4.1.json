@@ -44,7 +44,8 @@
       "voice": "Un prompt, zéro relecture, zéro mention obligatoire.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["1 prompt", "0 relecture", "0 mention"]
+      "beats": ["1 prompt", "0 relecture", "0 mention"],
+      "wrong": 1, "why": "Une annonce se relit avant publication : mentions obligatoires comprises."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

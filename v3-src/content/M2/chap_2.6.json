@@ -44,7 +44,8 @@
       "voice": "Une auréole, un coup de rouleau, zéro question.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["1 auréole", "1 coup de rouleau", "0 question"]
+      "beats": ["1 auréole", "1 coup de rouleau", "0 question"],
+      "wrong": 1, "why": "Cacher l'auréole exprès, c'est un dol : la vente devient annulable."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

@@ -44,7 +44,8 @@
       "voice": "Le DPE complet, collé. Deux cent cinquante-cinq égale D. Imprimé sans relire.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["PDF complet collé", "« 255 = D »", "Imprimé sans relire"]
+      "beats": ["PDF complet collé", "« 255 = D »", "Imprimé sans relire"],
+      "wrong": 1, "why": "255 reste en E : le seuil de la classe D est à 250."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

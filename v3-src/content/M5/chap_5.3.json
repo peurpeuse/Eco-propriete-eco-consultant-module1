@@ -44,7 +44,8 @@
       "voice": "Le taux du jour, zéro marge, et trente jours en pleine période de fêtes.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Taux du jour", "Zéro marge", "30 jours à Noël"]
+      "beats": ["Taux du jour", "Zéro marge", "30 jours à Noël"],
+      "wrong": 1, "why": "Un taux maximal sans marge : la condition ne se réalise pas et la vente tombe."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

@@ -38,7 +38,7 @@
 | 1 | `welcome` | 0:00–0:10 | Titre « Chapitre X.Y : … » + phrase d'accueil | Bouton « Commencer » |
 | 2 | `goals` | 0:10–0:20 | 3 verbes : comprendre / appliquer / prouver, chacun avec une ligne propre au chapitre | Bouton « Suivant » |
 | 3 | `mozi` | 0:20–0:35 | La réplique absurde de Mozi + description de la scène | Aucune |
-| 4 | `belief` | 0:35–0:50 | La croyance de Mozi résumée en **3 temps courts** (ex. « 20 avis · 5 étoiles · 1 seul auteur ») | Aucune |
+| 4 | `belief` | 0:35–0:50 | La croyance de Mozi résumée en **3 temps courts** (ex. « 20 avis · 5 étoiles · 1 seul auteur ») + `wrong` (indice 0-2 du temps fautif) + `why` (une phrase) | L'apprenant touche le temps fautif ; pause jusqu'à la réponse |
 | 5 | `consequence` | 0:50–1:05 | Ce qui arrive vraiment (2 lignes chocs) + **source** | Aucune |
 | 6 | `stat` | 1:05–1:20 | Un chiffre clé sourcé qui fonde le cours | Aucune |
 | 7 | `steps` | 1:20–2:15 | Le cours : **3 étapes** (une idée par étape), chacune `label` + `detail` | Les étapes apparaissent une à une |
@@ -68,7 +68,7 @@ Quand le chapitre n'a pas « deux outils » au sens logiciel (ex. physique du b�
     { "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10", "title": "Chapitre 1.3 : attirer des clients", "voice": "…", "voice_status": "proposition", "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null },
     { "n": 2, "brick": 1, "kind": "goals", …, "items": [ {"verb": "Comprendre", "text": "…"}, {"verb": "Appliquer", "text": "…"}, {"verb": "Prouver", "text": "…"} ], "cta": "Suivant" },
     { "n": 3, "brick": 2, "kind": "mozi", …, "line": "…", "scene": "…" },
-    { "n": 4, "brick": 2, "kind": "belief", …, "beats": ["20 avis", "5 étoiles", "1 seul auteur"] },
+    { "n": 4, "brick": 2, "kind": "belief", …, "beats": ["20 avis", "5 étoiles", "1 seul auteur"], "wrong": 2, "why": "Des avis écrits par soi-même sont supprimés." },
     { "n": 5, "brick": 3, "kind": "consequence", …, "lines": ["Avis supprimés.", "Fiche signalée."], "source": "…" },
     { "n": 6, "brick": 4, "kind": "stat", …, "value": "75 %", "label": "lisent les avis avant d'acheter", "source": "…" },
     { "n": 7, "brick": 4, "kind": "steps", …, "steps": [ {"label": "Recherche", "detail": "…"}, {"label": "Fiche", "detail": "…"}, {"label": "Appel", "detail": "…"} ] },
@@ -104,3 +104,4 @@ Pas de pose sur l'écran 3 (Mozi). Chapitre modèle : 1.1.
 - **Fin** : carte « À retenir » (les 3 étapes de l'écran 7), puis chapitre suivant en 8 s (bouton « Rester ici »).
 - **Barre de lecture** : repères des 6 briques, reprise « Reprendre à m:ss », vitesse ×1 / ×1,25 / ×1,5.
 - **Export MP4** : route `#render-x-y` (plein écran, sans boutons d'interaction), enregistrée en 1280×720 et 720×1280.
+- **Points d'arrêt** : en fin d'écran 4 (trouver l'erreur de Mozi), 8 (question ouverte) et 9 (quiz), le lecteur s'arrête et attend la réponse (bouton « Passer » toujours disponible). Une mauvaise réponse au quiz propose « Revoir l'explication » (retour à l'écran 7). En export MP4, les réponses s'affichent seules.

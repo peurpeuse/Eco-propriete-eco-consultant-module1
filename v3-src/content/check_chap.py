@@ -8,7 +8,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 KINDS = ["welcome", "goals", "mozi", "belief", "consequence", "stat", "steps", "retrieval", "quiz",
          "tools", "demo", "demo", "action", "proof", "bravo"]
 BRICKS = [1, 1, 2, 2, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6]
-SPEC = {"goals": ["items"], "mozi": ["line", "scene"], "belief": ["beats"], "consequence": ["lines"],
+SPEC = {"goals": ["items"], "mozi": ["line", "scene"], "belief": ["beats", "wrong", "why"], "consequence": ["lines"],
         "stat": ["value", "label"], "steps": ["steps"], "retrieval": ["prompt", "model_answer", "keywords"],
         "quiz": ["card1", "card2"], "tools": ["goal", "tools"], "demo": ["tool", "steps"],
         "action": ["cta", "url"], "proof": ["ask", "later", "later_text"], "bravo": ["status"]}

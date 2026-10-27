@@ -44,7 +44,8 @@
       "voice": "Trente-cinq mille huit cent quatre-vingts euros à payer, zéro euro notifié, et « c'est financé ».",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["35 880 € à payer", "0 € notifié", "« C'est financé »"]
+      "beats": ["35 880 € à payer", "0 € notifié", "« C'est financé »"],
+      "wrong": 2, "why": "Une aide non notifiée vaut 0 € : la façade n'est pas financée."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

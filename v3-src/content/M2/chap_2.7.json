@@ -44,7 +44,8 @@
       "voice": "Trois procès-verbaux, zéro lu, trente-cinq mille huit cent quatre-vingts euros oubliés.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": "Quote-part ITE du lot : PV d'AG D07 (Bible du fil rouge, fictif)",
-      "beats": ["3 PV", "0 lu", "35 880 € oubliés"]
+      "beats": ["3 PV", "0 lu", "35 880 € oubliés"],
+      "wrong": 1, "why": "Les PV d'AG se lisent : les 35 880 € de travaux votés y sont écrits."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

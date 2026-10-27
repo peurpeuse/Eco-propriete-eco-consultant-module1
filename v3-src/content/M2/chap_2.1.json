@@ -44,7 +44,8 @@
       "voice": "Zéro question. Un paillasson. Un prix.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["0 question", "1 paillasson", "1 prix"]
+      "beats": ["0 question", "1 paillasson", "1 prix"],
+      "wrong": 0, "why": "Sans questions, personne ne voit venir l'appel de fonds de 8 970 €."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

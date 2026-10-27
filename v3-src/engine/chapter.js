@@ -158,7 +158,7 @@
     '@container (max-aspect-ratio:1/1){.ch .pose{height:36%;right:2cqmin;bottom:9cqh}.ch .sc.hp{padding-right:6cqmin;padding-bottom:calc(30cqmin + 36cqh)}.ch .stage.hp .cc{right:4cqmin}.ch .sc.hp .src{padding-right:0}.ch .sc.hp:is([data-k=steps],[data-k=quiz],[data-k=retrieval],[data-k=demo],[data-k=proof],[data-k=tools]) .pose{display:none}.ch .sc.hp:is([data-k=steps],[data-k=quiz],[data-k=retrieval],[data-k=demo],[data-k=proof],[data-k=tools]){padding-bottom:30cqmin}}' +
     '@media (prefers-reduced-motion:reduce){.ch .sc.on .pose{animation:none;opacity:1}}' +
     /* ---------- Mode vidéo : un seul départ, lecture continue ---------- */
-    '.ch .kick,.ch .bcard,.ch .sc [data-act=next],.ch .sc [data-act=try],.ch .sc [data-out=try],.ch .sc[data-k=goals] .go{display:none!important}' +
+    '.ch .kick,.ch .bcard,.ch .sc[data-k=goals] [data-act=next],.ch .sc[data-k=action] [data-act=next],.ch .sc [data-act=try],.ch .sc [data-out=try],.ch .sc[data-k=goals] .go{display:none!important}' +
     '.ch .vbar{display:flex;align-items:center;gap:10px;margin-top:10px}.ch .vbar button{min-height:44px;min-width:44px;border:1px solid var(--line);background:#fff;border-radius:8px;font:inherit;font-weight:800;padding:0 10px;cursor:pointer;color:var(--ink)}' +
     '.ch .vbar .pp{background:var(--or);border-color:var(--or);display:grid;place-items:center}.ch .vbar .pp svg{width:20px;height:20px;fill:var(--ink)}.ch .vbar .pp .ic-pause{display:none}.ch.playing .vbar .pp .ic-pause{display:block}.ch.playing .vbar .pp .ic-play{display:none}' +
     '.ch .tl{flex:1;height:8px;border-radius:4px;background:#D9DAD2;cursor:pointer;position:relative;min-width:60px}.ch .tl i{position:absolute;left:0;top:0;bottom:0;width:var(--p,0%);background:var(--or);border-radius:4px}.ch .tl:focus-visible{outline:3px solid #1A73E8;outline-offset:3px}' +
@@ -172,6 +172,11 @@
     '.ch .endcard h2{margin:0;font-size:6cqmin;line-height:1.05}.ch .endcard ol{margin:0;padding-left:4cqmin;display:grid;gap:1.6cqmin;font-size:max(14px,3cqmin);line-height:1.3}.ch .endcard li strong{color:var(--or)}.ch .endcard .go.ghost{color:#fff;border-color:#fff}.ch .endcard .cd{font-family:"IBM Plex Mono",monospace;color:#BDBDB5;font-size:max(13px,2.4cqmin)}' +
     '@keyframes chFade{from{opacity:0}to{opacity:1}}.ch.render .endcard .row2,.ch.render .endcard .cd{display:none}.ch .endcard ~ .bigplay{z-index:10}.ch.ended .bigplay{display:none!important}' +
     '.ch.render .sc[data-k=welcome] .row2,.ch.render .sc[data-k=retrieval] .row2,.ch.render .drop .row2,.ch.render [data-act=flip2],.ch.render [data-act=c2],.ch.render .sc[data-k=quiz] [data-act=next],.ch.render .sc[data-k=action] .go.ghost{display:none!important}' +
+    '.ch .beats .bt{cursor:pointer;border-radius:1.2cqmin;padding:0 .6cqmin;transition:background .2s,color .2s}.ch.gated .beats .bt:not(.ok):not(.ko){outline:.4cqmin dashed var(--vi);outline-offset:.4cqmin}.ch .beats .bt:hover{background:rgba(123,63,228,.12)}.ch .beats .bt:focus-visible{outline:3px solid #1A73E8}' +
+    '.ch .beats .bt.ok{color:#C62828!important;text-decoration:line-through;text-decoration-thickness:1cqmin}.ch .beats .bt.ko{opacity:.35;animation:chShake .4s}@keyframes chShake{25%{transform:translateX(-1cqmin)}75%{transform:translateX(1cqmin)}}' +
+    '.ch .bwhy{margin-top:3cqmin;font-size:max(14px,3.2cqmin);font-weight:700;background:#fff;border-left:1cqmin solid var(--vi);padding:1.6cqmin 2.4cqmin;border-radius:1cqmin;max-width:80%;color:var(--ink)}' +
+    '.ch .gate{position:absolute;left:50%;top:2.4cqmin;transform:translateX(-50%);z-index:7;display:none;align-items:center;gap:1.6cqmin;background:var(--ink);color:#fff;border-radius:99px;padding:1cqmin 1cqmin 1cqmin 2.6cqmin;font-weight:800;font-size:max(13px,2.6cqmin);box-shadow:0 1cqmin 3cqmin rgba(0,0,0,.25);white-space:nowrap}.ch.gated .gate{display:flex;animation:chFade .4s both}' +
+    '.ch .gate button{border:0;border-radius:99px;background:#fff;color:var(--ink);font:inherit;font-weight:800;padding:.8cqmin 2.2cqmin;min-height:36px;cursor:pointer}.ch.gated .bigplay,.ch.ix .bigplay{display:none!important}' +
     '.ch .trs{margin-top:14px}.ch .trs summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}.ch .trs ol{margin:0;padding-left:22px}.ch .trs li{margin:0 0 8px}.ch .trs small{color:var(--mute)}';
 
   function injectCss() {
@@ -216,7 +221,7 @@
         '<div class="bub pop" style="--d:.35s;margin-top:2cqmin">« ' + esc(s.line || s.voice) + ' »</div><div class="scene a" style="--d:.8s">' + esc(s.scene || '') + '</div></div></div>';
     } else if (k === 'belief') {
       h = '<div class="sc vio" data-k="belief">' + kick(s).replace('class="kick a"', 'class="kick a" style="background:var(--vi);color:#fff"') + '<div class="mini">' + mozi() + '</div>' +
-        '<div class="beats" style="margin-top:6cqmin">' + (s.beats || []).map(function (b, i) { return '<span style="--d:' + (0.3 + i * 1.2) + 's">' + esc(b) + (i < 2 ? ',' : '') + '</span>'; }).join('') + '<i class="uline" style="--d:' + (0.4 + (s.beats || []).length * 1.2) + 's"></i></div></div>';
+        '<div class="beats" style="margin-top:6cqmin">' + (s.beats || []).map(function (b, i) { var tap = s.wrong != null; return '<span style="--d:' + (0.3 + i * 1.2) + 's"' + (tap ? ' class="bt" data-beat="' + i + '" role="button" tabindex="0"' : '') + '>' + esc(b) + (i < 2 ? ',' : '') + '</span>'; }).join('') + '<i class="uline" style="--d:' + (0.4 + (s.beats || []).length * 1.2) + 's"></i></div>' + (s.wrong != null ? '<div class="bwhy" data-out="beat" hidden></div>' : '') + '</div>';
     } else if (k === 'consequence') {
       h = '<div class="sc dark" data-k="consequence">' + kick(s) + '<div class="lines">' + (s.lines || [s.title]).map(function (l, i) { return '<span style="--d:' + (0.4 + i * 1.4) + 's">' + esc(l) + '</span>'; }).join('') + '</div>' + srcHtml(s) + '</div>';
     } else if (k === 'stat') {
@@ -277,7 +282,7 @@
     var w = [0, 0, 0, 0, 0, 0]; ch.screens.forEach(function (s) { w[s.brick - 1] += sec(s.end) - sec(s.tc); });
     return '<div class="ch' + (o.render ? ' render' : '') + '" data-ch="' + esc(ch.id) + '">' +
       '<div class="stage" tabindex="0" role="region" aria-label="Chapitre ' + esc(ch.id) + ' : ' + esc(ch.title) + '">' + ch.screens.map(function (s) { return screenHtml(s, ch); }).join('') +
-      '<div class="seb talk"><img src="' + esc(o.avatar || 'assets/seb.png') + '" alt=""><div class="eq" aria-hidden="true"><i style="--d:0s"></i><i style="--d:.2s"></i><i style="--d:.4s"></i><i style="--d:.1s"></i><i style="--d:.3s"></i></div><span>Sébastien Paumier</span></div><div class="cc" aria-live="off"><p></p></div>' + endc + '<button class="bigplay" data-c="play" aria-label="Lecture" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></button></div>' +
+      '<div class="seb talk"><img src="' + esc(o.avatar || 'assets/seb.png') + '" alt=""><div class="eq" aria-hidden="true"><i style="--d:0s"></i><i style="--d:.2s"></i><i style="--d:.4s"></i><i style="--d:.1s"></i><i style="--d:.3s"></i></div><span>Sébastien Paumier</span></div><div class="cc" aria-live="off"><p></p></div>' + endc + '<div class="gate" role="status"><span data-gt>À toi de répondre pour continuer</span><button data-c="skipgate">Passer</button></div><button class="bigplay" data-c="play" aria-label="Lecture" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></button></div>' +
       '<div class="vbar"><button class="pp" data-c="play" aria-label="Lecture"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="ic-play" d="M7 4.5v15l13-7.5z"/><path class="ic-pause" d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>' +
       '<div class="tl" data-tl role="slider" tabindex="0" aria-label="Position dans le chapitre" aria-valuemin="0" aria-valuemax="' + Math.round(total) + '" aria-valuenow="0"><i></i></div>' +
       '<span class="tm"><span data-tm>0:00</span> / ' + fmt(total) + '</span><button data-c="snd" aria-pressed="true" hidden>Son</button><button data-c="rate" aria-label="Vitesse de lecture">×1</button><button data-c="cc" aria-pressed="true" aria-label="Sous-titres">CC</button><button data-c="fs" aria-label="Plein écran">⛶</button></div>' +
@@ -291,6 +296,13 @@
     var tm = root.querySelector('[data-tm]'), btnP = root.querySelector('[data-c=play]');
     var media = (ch.media && ch.media.screens) || [];
     var i = Math.min(14, st.i || 0), t0 = 0, el = 0, playing = false, raf = 0, au = null, sound = true, words = [], chunks = [], lastW = -1, started = false, tryN = -1;
+    var gt = st.gt || (st.gt = {}), gated = false, gTimer = 0, IX = { belief: 'b', retrieval: 'r', quiz: 'q' };
+    function ixKey(s) { var k = IX[s.kind]; if (!k || hk.render) return ''; if (k === 'b' && s.wrong == null) return ''; return k; }
+    function needGate(s) { var k = ixKey(s); return !!k && !gt[k]; }
+    var GTX = { b: 'Touche ce qui cloche chez Mozi', r: 'À toi : écris ta réponse ou dicte-la', q: 'À toi : choisis une réponse' };
+    function gate(on, txt) { gated = on; root.classList.toggle('gated', on); var g = root.querySelector('[data-gt]'); if (g && txt) g.textContent = txt; }
+    function answered(k, go) { gt[k] = 1; hk.save && hk.save(); var was = gated; gate(false); if (was && go) { clearTimeout(gTimer); gTimer = setTimeout(function () { if (!playing) next(); }, go); } }
+    function beatWin() { var s = ch.screens[i], sc = scs[i], bt = sc.querySelectorAll('[data-beat]'), w = bt[s.wrong]; if (!w) return; w.classList.add('ok'); var o = sc.querySelector('[data-out=beat]'); o.hidden = false; o.innerHTML = '<b>Bien vu.</b> ' + esc(s.why || ''); }
     var dur = chDurs(ch), rate = 1, cdT = 0, endc = root.querySelector('.endcard');
     try { rate = +localStorage.getItem('ecoRate') || 1; } catch (e) {}
     var starts = []; dur.reduce(function (a, d, k) { starts[k] = a; return a + d; }, 0);
@@ -318,7 +330,8 @@
 
     function show(n, keep) {
       if (au) { au.pause(); au = null; }
-      i = Math.max(0, Math.min(14, n)); el = 0; t0 = performance.now(); lastW = -1;
+      clearTimeout(gTimer); gate(false);
+      i = Math.max(0, Math.min(14, n)); root.classList.toggle('ix', !!ixKey(ch.screens[i])); el = 0; t0 = performance.now(); lastW = -1;
       [].forEach.call(scs, function (x, k) { x.classList.toggle('on', k === i); x.setAttribute('aria-hidden', String(k !== i)); if (k !== i) x.setAttribute('inert', ''); else x.removeAttribute('inert'); });
       var s = ch.screens[i]; words = String(s.voice || '').split(/\s+/).filter(Boolean); chunks = []; var cur = [];
       words.forEach(function (w, k) { cur.push(k); if (cur.length >= 14 || (cur.length >= 6 && /[.!?;:]$/.test(w))) { chunks.push(cur); cur = []; } }); if (cur.length) chunks.push(cur);
@@ -333,6 +346,7 @@
       var sc = scs[i];
       if (s.kind === 'retrieval' && st.ret) { sc.querySelector('[data-in=ret]').value = st.ret; }
       if (s.kind === 'quiz' && st.qz != null) back(st.qz, true);
+      if (s.kind === 'belief') { [].forEach.call(sc.querySelectorAll('[data-beat]'), function (x) { x.classList.remove('ok', 'ko'); }); var ob = sc.querySelector('[data-out=beat]'); if (ob) ob.hidden = true; if (gt.b && !hk.render) beatWin(); }
       if (s.kind === 'proof' && hk.proof) { var im = sc.querySelector('[data-out=proof]'); im.src = hk.proof; im.hidden = false; }
     }
     function paint() {
@@ -349,8 +363,9 @@
       if (!scs[i].classList.contains('try')) [].forEach.call(scs[i].querySelectorAll('[data-rv]'), function (r) { var k = +r.getAttribute('data-rv'), m = scs[i].querySelectorAll('.rv').length || 1; r.classList.toggle('in', el >= d * (k + 0.4) / (m + 0.6)); r.classList.toggle('on', r.classList.contains('in')); });
       var tr = scs[i].querySelector('[data-track]'); if (tr) { var all = scs[i].querySelectorAll('.steps .rv'), nin = scs[i].querySelectorAll('.steps .rv.in').length; tr.style.setProperty('--t', Math.round(100 * nin / (all.length || 1)) + '%'); }
       // comme une vidéo : si l'apprenant n'a pas répondu, la réponse s'affiche d'elle-même en fin d'écran
-      if (playing && s.kind === 'quiz' && el > d * 0.6) { var c1 = scs[i].querySelector('[data-card="1"]'); if (c1 && !c1.classList.contains('flip')) { back((s.card1 || {}).answer || 0, true); } var c2 = scs[i].querySelector('[data-card="2"]'); if (el > d * 0.8 && c2 && !c2.classList.contains('flip')) { c2.classList.add('flip'); scs[i].querySelector('.cards').classList.add('c1'); } }
-      if (playing && s.kind === 'retrieval' && el > d * 0.6) { var fr = scs[i].querySelector('[data-out=ret]'); if (fr && fr.hidden) { fr.hidden = false; fr.innerHTML = '<b>Une réponse possible :</b> ' + esc(s.model_answer); } }
+      if (playing && hk.render && s.kind === 'belief' && s.wrong != null && el > d * 0.75) { var wb = scs[i].querySelector('[data-beat="' + s.wrong + '"]'); if (wb && !wb.classList.contains('ok')) beatWin(); }
+      if (playing && hk.render && s.kind === 'quiz' && el > d * 0.6) { var c1 = scs[i].querySelector('[data-card="1"]'); if (c1 && !c1.classList.contains('flip')) { back((s.card1 || {}).answer || 0, true); } var c2 = scs[i].querySelector('[data-card="2"]'); if (el > d * 0.8 && c2 && !c2.classList.contains('flip')) { c2.classList.add('flip'); scs[i].querySelector('.cards').classList.add('c1'); } }
+      if (playing && hk.render && s.kind === 'retrieval' && el > d * 0.6) { var fr = scs[i].querySelector('[data-out=ret]'); if (fr && fr.hidden) { fr.hidden = false; fr.innerHTML = '<b>Une réponse possible :</b> ' + esc(s.model_answer); } }
       var bc = scs[i].querySelector('[data-count]'); if (bc && bc.getAttribute('data-count')) { var c = JSON.parse(bc.getAttribute('data-count')), v = c.num * Math.min(1, el / 1.4); bc.textContent = c.pre + v.toFixed(c.dec).replace('.', ',') + c.post; }
       var g = starts[i] + Math.min(el, d); if (started) st.g = Math.round(g); tm.textContent = fmt(g); if (tl) { tl.querySelector('i').style.setProperty('--p', (100 * g / TOT).toFixed(2) + '%'); tl.setAttribute('aria-valuenow', Math.round(g)); }
       [].forEach.call(root.querySelectorAll('[data-brick]'), function (b) {
@@ -365,12 +380,14 @@
       paint();
       var s = ch.screens[i];
       if (el >= dur[i]) {
+        if (needGate(s)) { el = dur[i]; paint(); play(false); gate(true, GTX[ixKey(s)]); return; }
         if ((s.kind === 'welcome' && !started) || i === 14) { el = dur[i]; paint(); play(false); if (i === 14) showEnd(); return; }
         show(i + 1);
       }
       raf = requestAnimationFrame(tick);
     }
     function play(on) {
+      if (on && gated) { skipGate(); return; }
       if (on) hideEnd();
       if (on && i === 14 && el >= dur[14]) { show(0); started = true; }
       if (on) { started = true; root.classList.add('started'); }
@@ -379,20 +396,36 @@
       if (on) { t0 = performance.now() - el * 1000 / rate; if (au) au.play().catch(function () {}); else if (media[i] && media[i].audio && sound && el < dur[i]) { au = new Audio(media[i].audio); au.playbackRate = rate; au.currentTime = el; au.play().catch(function () {}); } if (!raf) raf = requestAnimationFrame(tick); }
       else { if (au) au.pause(); if (raf) cancelAnimationFrame(raf); raf = 0; hk.save && hk.save(); }
     }
+    function skipGate() {
+      var s = ch.screens[i], k = ixKey(s), sc = scs[i];
+      if (k === 'b') { beatWin(); answered('b', 2600); }
+      else if (k === 'r') { var f0 = sc.querySelector('[data-out=ret]'); f0.hidden = false; f0.innerHTML = '<b>Une réponse possible :</b> ' + esc(s.model_answer) + '<br><button class="go" data-act="next" style="margin-top:1.2cqmin;font-size:2.4cqmin;padding:.9cqmin 2.4cqmin">Continuer</button>'; answered('r'); }
+      else if (k === 'q') { back((s.card1 || {}).answer || 0, true); answered('q'); }
+      else gate(false);
+    }
     function next() { if (i < 14) { show(i + 1); if (!playing) play(true); } }
     function back(sel, silent) {
       var q = ch.screens[i].card1 || {}, ok = sel === q.answer, b = scs[i].querySelector('[data-back="1"]');
       b.innerHTML = '<div class="mono">' + (silent && st.qz == null ? 'La réponse' : ok ? 'Bonne réponse' : 'Pas tout à fait') + '</div><p class="' + (ok ? 'ok' : 'ko') + '">' + esc((q.whys || [])[sel] || '') + '</p>' + (ok ? '' : '<p><b>La bonne réponse :</b> ' + esc((q.options || [])[q.answer]) + '</p>') + '<p>' + esc(q.feedback || '') + '</p>';
       scs[i].querySelector('[data-card="1"]').classList.add('flip');
       var back2 = b.querySelector('[data-act=c2]'); if (!back2) { b.insertAdjacentHTML('beforeend', '<button class="go" data-act="c2" style="font-size:2.4cqmin;padding:.9cqmin 2.4cqmin;margin-top:auto">Carte 2</button>'); }
-      if (!silent) { st.qz = sel; hk.onQuiz && hk.onQuiz(ok, sel); hk.save && hk.save(); }
+      if (!silent) { st.qz = sel; hk.onQuiz && hk.onQuiz(ok, sel); hk.save && hk.save(); answered('q');
+        if (!ok && !b.querySelector('[data-c=review]')) b.querySelector('[data-act=c2]').insertAdjacentHTML('beforebegin', '<button class="go ghost" data-c="review" style="font-size:2.2cqmin;padding:.8cqmin 2.2cqmin;margin-top:auto">Revoir l’explication</button>'); }
     }
 
+    function pickBeat(b) {
+      var s = ch.screens[i]; if (hk.render || s.wrong == null || b.classList.contains('ok')) return;
+      var n = +b.getAttribute('data-beat'), o = scs[i].querySelector('[data-out=beat]');
+      if (n === s.wrong) { beatWin(); answered('b', 3200); }
+      else { b.classList.remove('ko'); void b.offsetWidth; b.classList.add('ko'); o.hidden = false; o.innerHTML = '<b>Pas celui-là.</b> Cherche ce qui crée le vrai problème.'; }
+    }
+    root.addEventListener('keydown', function (e) { var b = e.target.closest && e.target.closest('[data-beat]'); if (b && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); pickBeat(b); } });
     root.addEventListener('click', function (e) {
       if (e.target.closest('[data-tl]')) { var r = tl.getBoundingClientRect(); seekTo(TOT * (e.clientX - r.left) / r.width); return; }
       if (e.target.closest('textarea,input,label,.card,.drop')) { if (playing) play(false); }
-      var b = e.target.closest('[data-act],[data-c],[data-brick],[data-opt],[data-hot]');
-      if (!b) { if (e.target.closest('.stage') && !e.target.closest('a,button,textarea,input,label,.card,.drop,.endcard') && (started || i > 0)) play(!playing); return; }
+      var b = e.target.closest('[data-act],[data-c],[data-brick],[data-opt],[data-hot],[data-beat]');
+      if (b && b.hasAttribute('data-beat')) { pickBeat(b); return; }
+      if (!b) { if (!gated && e.target.closest('.stage') && !e.target.closest('a,button,textarea,input,label,.card,.drop,.endcard,.bwhy,.fb') && (started || i > 0)) play(!playing); return; }
       if (b.getAttribute('data-c') === 'fs') { var fe = stage; if (document.fullscreenElement) document.exitFullscreen(); else if (fe.requestFullscreen) fe.requestFullscreen(); return; }
       if (b.hasAttribute('data-hot')) {
         var hn = +b.getAttribute('data-hot'), scT = scs[i]; if (hn !== tryN) return;
@@ -409,6 +442,8 @@
       else if (c === 'rate') setRate(rate === 1 ? 1.25 : rate === 1.25 ? 1.5 : 1);
       else if (c === 'replay') { hideEnd(); show(0); started = true; play(true); }
       else if (c === 'stay') stopCd();
+      else if (c === 'skipgate') skipGate();
+      else if (c === 'review') { var k7 = 0; for (var q7 = 0; q7 < 15; q7++) if (ch.screens[q7].kind === 'steps') { k7 = q7; break; } show(k7); play(true); }
       else if (c === 'gonext') { stopCd(); hk.next && hk.next.go(); }
       else if (c === 'cc') { var on = root.classList.toggle('nocc'); b.setAttribute('aria-pressed', String(!on)); }
       else if (c === 'snd') { sound = !sound; b.setAttribute('aria-pressed', String(sound)); if (au) au.muted = !sound; }
@@ -420,10 +455,10 @@
       else if (a === 'c2') { scs[i].querySelector('.cards').classList.add('c1'); var c2 = scs[i].querySelector('[data-card="2"] .go'); if (c2) c2.focus(); }
       else if (a === 'exo') hk.onExercise && hk.onExercise();
       else if (a === 'later') { scs[i].querySelector('[data-out=later]').hidden = false; st.later = 1; st.done = 1; hk.onDone && hk.onDone(); hk.save && hk.save(); }
-      else if (a === 'ret-skip') { var f0 = scs[i].querySelector('[data-out=ret]'); f0.hidden = false; f0.innerHTML = '<b>Une réponse possible :</b> ' + esc(ch.screens[i].model_answer); setTimeout(next, 2600); }
+      else if (a === 'ret-skip') { var f0 = scs[i].querySelector('[data-out=ret]'); f0.hidden = false; f0.innerHTML = '<b>Une réponse possible :</b> ' + esc(ch.screens[i].model_answer); gt.r = 1; gate(false); setTimeout(next, 2600); }
       else if (a === 'ret-ok') {
         var s = ch.screens[i], txt = scs[i].querySelector('[data-in=ret]').value.trim(), f = scs[i].querySelector('[data-out=ret]');
-        st.ret = txt.slice(0, 300); hk.save && hk.save();
+        st.ret = txt.slice(0, 300); answered('r');
         var hit = (s.keywords || []).filter(function (kw) { return norm(txt).indexOf(norm(kw)) >= 0 || norm(kw).split(' ').some(function (w) { return w.length > 4 && norm(txt).indexOf(w.slice(0, 5)) >= 0; }); });
         f.hidden = false;
         f.innerHTML = (txt ? (hit.length ? '<b>Bien vu :</b> ' + hit.map(function (h) { return '<mark>' + esc(h) + '</mark>'; }).join(' ') + '. ' : '<b>Pas encore.</b> ') : '') +
@@ -455,11 +490,11 @@
       show: function (n) { show(n); }, play: play, durations: dur, total: starts[14] + dur[14],
       seek: function (n, t) { hideEnd(); show(n); el = t || 0; t0 = performance.now() - el * 1000 / rate; paint(); },
       seekTime: function (g) { seekTo(g); }, end: showEnd, rate: setRate,
-      destroy: function () { play(false); stopCd(); }
+      destroy: function () { play(false); stopCd(); clearTimeout(gTimer); }
     };
     if (hk.render) { window.__chapter = api; }
     return api;
   }
 
-  window.EcoChapter = { render: render, mount: mount, mozi: mozi, BRICKS: BRICKS };
+  window.EcoChapter = { render: render, mount: mount, mozi: mozi, BRICKS: BRICKS, durations: chDurs };
 })();

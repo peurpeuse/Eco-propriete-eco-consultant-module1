@@ -44,7 +44,8 @@
       "voice": "Vingt avis, cinq étoiles, un seul auteur.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["20 avis", "5 étoiles", "1 seul auteur"]
+      "beats": ["20 avis", "5 étoiles", "1 seul auteur"],
+      "wrong": 2, "why": "Des avis écrits par soi-même sont supprimés, et la fiche est signalée."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

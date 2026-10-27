@@ -44,7 +44,8 @@
       "voice": "Un rapport de 2023, un acte en 2027, et un « ça passera ».",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Rapport de 2023", "Acte en 2027", "« Ça passera »"]
+      "beats": ["Rapport de 2023", "Acte en 2027", "« Ça passera »"],
+      "wrong": 2, "why": "Un diagnostic électricité de 2023 sera périmé à l'acte en 2027."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

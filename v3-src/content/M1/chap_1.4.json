@@ -44,7 +44,8 @@
       "voice": "Soixante ans et plus, deux codes postaux, zéro catégorie.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["60 ans et plus", "2 codes postaux", "0 catégorie"]
+      "beats": ["60 ans et plus", "2 codes postaux", "0 catégorie"],
+      "wrong": 0, "why": "Cibler une publicité logement par l'âge est interdit."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

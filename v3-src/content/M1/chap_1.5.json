@@ -44,7 +44,8 @@
       "voice": "Trois cents invitations, zéro message personnel, un robot.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["300 invitations", "0 message perso", "1 robot"]
+      "beats": ["300 invitations", "0 message perso", "1 robot"],
+      "wrong": 2, "why": "Les robots d'invitation sont détectés : le compte est restreint."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

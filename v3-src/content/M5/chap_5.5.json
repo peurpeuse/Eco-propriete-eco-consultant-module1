@@ -44,7 +44,8 @@
       "voice": "Quarante-cinq jours, zéro relance, et un coup de fil le trente.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["45 jours", "0 relance", "Appel le 30"]
+      "beats": ["45 jours", "0 relance", "Appel le 30"],
+      "wrong": 1, "why": "Une condition de prêt se suit : on relance avant l'échéance, pas après."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

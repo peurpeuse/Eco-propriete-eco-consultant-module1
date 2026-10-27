@@ -44,7 +44,8 @@
       "voice": "Le prix affiché, un pile ou face, un faux concurrent.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Prix affiché", "Pile ou face", "Faux concurrent"]
+      "beats": ["Prix affiché", "Pile ou face", "Faux concurrent"],
+      "wrong": 2, "why": "Inventer une offre concurrente, c'est tromper l'acheteur."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

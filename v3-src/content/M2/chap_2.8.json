@@ -44,7 +44,8 @@
       "voice": "Une étiquette, un pourcentage, zéro preuve.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["1 étiquette", "1 pourcentage", "0 preuve"]
+      "beats": ["1 étiquette", "1 pourcentage", "0 preuve"],
+      "wrong": 1, "why": "Un pourcentage général n'est pas une preuve : l'effet du DPE varie selon le territoire."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

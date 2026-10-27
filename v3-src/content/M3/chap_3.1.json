@@ -44,7 +44,8 @@
       "voice": "Tout demander. Rien lire. Et voir chez le notaire.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Tout demander", "Rien lire", "Voir chez le notaire"]
+      "beats": ["Tout demander", "Rien lire", "Voir chez le notaire"],
+      "wrong": 2, "why": "Le PV d'AG doit être remis au compromis, sinon la rétractation est repoussée."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

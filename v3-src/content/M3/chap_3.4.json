@@ -44,7 +44,8 @@
       "voice": "Un rouleau. Trois couches. Zéro mot.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["1 rouleau", "3 couches", "0 mot"]
+      "beats": ["1 rouleau", "3 couches", "0 mot"],
+      "wrong": 2, "why": "Taire les moisissures, c'est cacher une information déterminante."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

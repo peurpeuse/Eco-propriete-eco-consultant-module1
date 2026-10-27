@@ -44,7 +44,8 @@
       "voice": "Une clause minuscule. Dix ans. Zéro sortie.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Clause minuscule", "10 ans", "0 sortie"]
+      "beats": ["Clause minuscule", "10 ans", "0 sortie"],
+      "wrong": 0, "why": "Une clause illisible rend l'exclusivité inapplicable."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

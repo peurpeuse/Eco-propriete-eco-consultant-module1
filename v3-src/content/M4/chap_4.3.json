@@ -44,7 +44,8 @@
       "voice": "Trois défauts, zéro chiffre, un grand sourire.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["3 défauts", "0 chiffre", "1 grand sourire"]
+      "beats": ["3 défauts", "0 chiffre", "1 grand sourire"],
+      "wrong": 2, "why": "Maquiller un défaut fait perdre la confiance, et peut constituer un dol."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

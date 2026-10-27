@@ -81,7 +81,8 @@
         "500 numéros",
         "0 accord",
         "1 seul script"
-      ]
+      ],
+      "wrong": 1, "why": "Appeler sans accord préalable est interdit depuis le 11 août 2026."
     },
     {
       "n": 5,

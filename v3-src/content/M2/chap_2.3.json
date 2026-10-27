@@ -44,7 +44,8 @@
       "voice": "Soixante-seize mètres carrés. Plus le balcon, plus la cave. Égale quatre-vingt-dix.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["76 m² de pièces", "+ balcon + cave", "= 90 m² « qui sonnent mieux »"]
+      "beats": ["76 m² de pièces", "+ balcon + cave", "= 90 m² « qui sonnent mieux »"],
+      "wrong": 1, "why": "Balcon et cave ne comptent pas : la surface réelle est de 76 m²."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

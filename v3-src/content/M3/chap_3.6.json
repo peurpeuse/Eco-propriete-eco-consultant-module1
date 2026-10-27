@@ -44,7 +44,8 @@
       "voice": "Une objection. Zéro écoute. Cent pour cent d'insistance.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["1 objection", "0 écoute", "100 % insistance"]
+      "beats": ["1 objection", "0 écoute", "100 % insistance"],
+      "wrong": 1, "why": "Une objection s'écoute ; l'insistance donne une signature rétractable."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

@@ -44,7 +44,8 @@
       "voice": "Pas de dossier, pas d'ordre, pas de réponse.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Pas de dossier", "Pas d'ordre", "Pas de réponse"]
+      "beats": ["Pas de dossier", "Pas d'ordre", "Pas de réponse"],
+      "wrong": 0, "why": "L'état des risques se prépare avant : sinon vente annulable ou prix réduit."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

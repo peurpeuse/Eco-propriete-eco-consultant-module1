@@ -44,7 +44,8 @@
       "voice": "Un prompt, dix secondes, zéro vérification.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["1 prompt", "10 secondes", "0 vérification"]
+      "beats": ["1 prompt", "10 secondes", "0 vérification"],
+      "wrong": 2, "why": "Le texte de l'IA reste sous ta responsabilité : chaque chiffre se vérifie."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

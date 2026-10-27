@@ -44,7 +44,8 @@
       "voice": "Quatrième étage sur six. Un voisin chauffé au-dessus. Et pourtant : c'est le toit.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["4e étage sur 6", "Un voisin chauffé au-dessus", "« C'est le toit »"]
+      "beats": ["4e étage sur 6", "Un voisin chauffé au-dessus", "« C'est le toit »"],
+      "wrong": 2, "why": "Au 4e étage sur 6, sous un voisin chauffé, le toit n'y est pour rien."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",

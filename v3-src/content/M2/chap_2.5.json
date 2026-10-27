@@ -44,7 +44,8 @@
       "voice": "Des fenêtres neuves. Des grilles scotchées. Zéro courant d'air.",
       "voice_status": "proposition",
       "interaction": "Aucune", "source": null,
-      "beats": ["Fenêtres neuves", "Grilles scotchées", "« Zéro courant d'air »"]
+      "beats": ["Fenêtres neuves", "Grilles scotchées", "« Zéro courant d'air »"],
+      "wrong": 1, "why": "Sans grilles d'aération, l'air humide reste : les moisissures arrivent."
     },
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
