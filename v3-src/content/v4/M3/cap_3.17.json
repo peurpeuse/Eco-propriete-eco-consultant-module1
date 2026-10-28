@@ -1,0 +1,147 @@
+{
+  "id": "3.17",
+  "module": 3,
+  "section": "D · Les chiffres devant le vendeur",
+  "etape": "7",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "DISC : identifier le profil du vendeur",
+  "objective": "Formuler, à partir d'au moins 5 indices observés, une hypothèse sur le style de communication dominant du vendeur fil rouge (D, I, S ou C), sans jugement.",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Même dossier, même prix, deux agents : l'un perd M. Bernard en dix minutes, l'autre signe. Sébastien Paumier présente le DISC comme une grille d'observation de la communication, pas un test de personnalité : deux questions (rapide ou posé, faits ou personnes), quatre styles, trois indices pour les repérer. Mozi, lui, colle une étiquette au vendeur dès la porte."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi sort de chez un vendeur et lance : « Lui, c'est un C, il est pénible. » Quelle erreur commet-il ?",
+        "options": [
+          "Il se trompe de lettre : c'est forcément un D",
+          "Il transforme une hypothèse de communication en jugement sur la personne",
+          "Aucune : le DISC sert à classer les clients difficiles"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : rien ne permet de le dire, et le problème n'est pas la lettre choisie.",
+          "Juste : le DISC décrit comment une personne préfère recevoir l'information, à un moment donné ; ce n'est ni un diagnostic ni un jugement.",
+          "Faux : c'est un outil pour adapter ta façon de parler, pas pour étiqueter."
+        ],
+        "fb_title": "Une hypothèse, pas une étiquette",
+        "fb_text": "Le DISC est une grille d'observation issue du modèle de W. M. Marston (1928). Tout le monde a un peu des quatre styles : tu notes celui qui ressort, tu le formules comme une hypothèse et tu gardes en tête ce qui pourrait la contredire."
+      },
+      {
+        "question": "Un vendeur te coupe la parole : « Combien ? Quand ? On signe quand ? » Quel style ressort le plus ?",
+        "options": [
+          "S · Stable",
+          "C · Conforme",
+          "D · Dominant : rapide, tourné vers le résultat"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le S prend son temps, consulte ses proches et évite la pression.",
+          "Faux : le C demande d'où viennent les chiffres et veut relire avant de décider.",
+          "Juste : débit rapide, questions de résultat et de délai, décision rapide : indices typiques du D."
+        ],
+        "fb_title": "Rapide et tourné vers le résultat",
+        "fb_text": "Deux questions suffisent : la personne va-t-elle vite ou prend-elle son temps ? Parle-t-elle d'abord des faits ou des personnes ? Rapide et faits = D ; rapide et personnes = I ; posé et personnes = S ; posé et faits = C."
+      },
+      {
+        "question": "M. Bernard : ingénieur retraité, documents classés, refuse les « −15 % » sans calcul, déteste l'insistance, échéance « avant l'été 2027 ». Ton hypothèse ?",
+        "options": [
+          "Style C dominant (posé, tourné vers les faits), avec une composante S possible liée à son projet familial",
+          "Style I dominant : il aime raconter ses souvenirs",
+          "Impossible à dire sans lui faire passer un questionnaire commercial"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : preuves, documents, prudence, décision lente ; son projet de se rapprocher de sa fille peut faire ressortir une composante S.",
+          "Faux : aucun indice relevé ne va dans ce sens.",
+          "Faux : les indices observés suffisent pour une hypothèse ; un questionnaire sous marque demande une licence et l'accord du client."
+        ],
+        "fb_title": "Style C, hypothèse ouverte",
+        "fb_text": "Faits, prudence, documents, décision lente : M. Bernard présente un style C. Ça ne veut pas dire qu'il est froid ; ça veut dire que, pour faire confiance, il a besoin de vérifier. Son lien avec sa fille peut faire apparaître du S."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche DISC : profils",
+    "kind": "fiche",
+    "intro": "Cette fiche t'aide à repérer le style de communication dominant d'un vendeur pendant la découverte. Le DISC est une grille d'observation de la communication, pas un test de personnalité ni un diagnostic : chacun a un peu des quatre styles, tu observes celui qui ressort et tu gardes ton hypothèse ouverte. L'adaptation du discours fait l'objet de la capsule 3.18.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les 4 styles en un coup d'œil",
+        "headers": ["Style", "Ce qu'il cherche", "Indices à l'oral", "Il décide…"],
+        "rows": [
+          ["D · Dominant (rapide, faits)", "Résultat, contrôle, efficacité", "Coupe la parole, « combien ? quand ? », phrases courtes", "Vite, s'il a les options et garde la main"],
+          ["I · Influent (rapide, personnes)", "Relation, reconnaissance, enthousiasme", "Raconte, digresse, parle de ses souvenirs", "Sur l'émotion, puis hésite"],
+          ["S · Stable (posé, personnes)", "Sécurité, harmonie, continuité", "Écoute, cite ses proches, évite le conflit", "Lentement, après avoir consulté"],
+          ["C · Conforme (posé, faits)", "Exactitude, preuves, règles", "« D'où vient ce chiffre ? », documents classés", "Lentement, après avoir vérifié"]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Repérer le style en 3 indices (pendant la découverte, fiche D01)",
+        "items": [
+          "Écoute le débit et le type de questions : rapide ou posé, sur les faits ou sur les personnes.",
+          "Observe ce qu'il te montre : chiffres et documents, photos et souvenirs, famille, résultats attendus.",
+          "Note sa façon de décider : trancher, s'enthousiasmer, consulter, vérifier.",
+          "Écris ton hypothèse (« style dominant observé : … ») et ce qui pourrait la contredire ; ajuste-la au rendez-vous suivant."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Exemples remplis (fil rouge, fictif)",
+        "text": "M. Bernard : ancien ingénieur, documents classés, refuse les estimations « −15 % » sans calcul, ne décroche plus aux numéros inconnus, pas pressé mais échéance « avant l'été 2027 », déteste l'insistance. Hypothèse : C dominant ; à surveiller : composante S liée au projet de se rapprocher de sa fille. Mme Garnier (parcours maison) : attachée à sa maison, a besoin d'être rassurée, déteste la pression, consulte ses deux fils avant de décider. Hypothèse : S dominant."
+      },
+      {
+        "type": "checklist",
+        "heading": "Les règles d'éthique",
+        "items": [
+          "Je formule une hypothèse de style, jamais un jugement sur la personne.",
+          "Je garde le même fond pour tous : même dossier, même prix, mêmes règles.",
+          "Je n'utilise jamais une crainte repérée pour faire pression.",
+          "Je n'emploie pas de questionnaire DISC commercial sans licence ni accord du client.",
+          "Je reste attentif à mon propre style pour ne pas parler à tout le monde comme à moi."
+        ]
+      }
+    ],
+    "footer": "Origine du modèle : W. M. Marston, Emotions of Normal People (1928). DISC présenté comme grille de communication générique (proposition pédagogique Éco-Propriété), sans lien avec les outils commerciaux sous marque. Fil rouge fictif. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Profiler le vendeur fil rouge",
+    "duration_min": 25,
+    "context": "Avant le rendez-vous de restitution du 29/10/2026, tu relis tes notes de découverte sur ton vendeur fil rouge. Tu dois formuler ton hypothèse de style DISC, la justifier par des indices observés et dire ce qui pourrait la contredire. Corrigé donné pour M. Bernard (appartement) ; un repère est donné pour Mme Garnier (maison).",
+    "materials": ["D01 Fiche découverte vendeur (tes notes)", "D03 Attestation actualisée ADEME", "D12 Tableau des comparables"],
+    "steps": [
+      "Relève dans tes notes au moins 5 indices observés (débit, questions, objets montrés, façon de décider, réactions passées).",
+      "Place chaque indice sur les deux axes : rapide ou posé, faits ou personnes.",
+      "Formule ton hypothèse de style dominant en 2 phrases, sans jugement.",
+      "Écris ce qui pourrait contredire ton hypothèse et ce que tu observeras au prochain rendez-vous pour la vérifier.",
+      "Vérifie ta fiche avec les règles d'éthique."
+    ],
+    "expected": "Corrigé pour M. Bernard. Indices : 1) ancien ingénieur des services techniques (faits) ; 2) chemise de documents classés (faits, posé) ; 3) a refusé deux estimations « −15 % » faute de calcul (faits) ; 4) ne décroche plus aux numéros inconnus, déteste l'insistance (posé, prudence) ; 5) pas pressé à 3 mois près, mais échéance claire « avant l'été 2027 » (décision réfléchie) ; 6) demande d'où viennent les chiffres. Hypothèse : « Style C dominant observé : posé et tourné vers les faits ; il a besoin de vérifier avant de faire confiance. » Ce qui pourrait la contredire : son projet de se rapprocher de sa fille peut faire ressortir une composante S (besoin d'être rassuré, envie d'en parler à sa fille) ; à observer au rendez-vous du 29/10. Aucun jugement (« pénible », « froid »), aucun questionnaire commercial. Repère maison : Mme Garnier, hypothèse S (rassurance, pas de pression, consulte ses fils)."
+  },
+  "deliverable": {
+    "title": "Fiche profil DISC du vendeur fil rouge",
+    "format": "PDF ou DOCX, 1 page",
+    "criteria": [
+      "Au moins 5 indices observables, chacun relié à un élément du dossier ou de la découverte",
+      "Chaque indice est placé sur les axes rapide/posé et faits/personnes",
+      "L'hypothèse est formulée comme une hypothèse, sans jugement sur la personne",
+      "Un élément qui pourrait contredire l'hypothèse et un moyen de la vérifier sont indiqués",
+      "Aucun questionnaire commercial sous marque n'est utilisé"
+    ]
+  },
+  "sources": [
+    {"label": "Everything DiSC — Histoire du modèle (W. M. Marston, Emotions of Normal People, 1928)", "url": "https://www.everythingdisc.com/our-story"},
+    {"label": "Dossier fil rouge Éco-Consultant (BIBLE §1 et §11.1, profils DISC fictifs)", "url": "https://eco-propriete.fr"}
+  ],
+  "open_points": [
+    "« DiSC » et « Everything DiSC » sont des marques : écrire « DISC » générique et ne reproduire aucun questionnaire propriétaire ; mention à faire relire par un juriste",
+    "Partage entre 3.17 (identifier) et 3.18 (adapter son discours) : à valider par Sébastien Paumier",
+    "Chapitre à adapter depuis l'ancien chap_3.2 (renuméroté 3.17)"
+  ]
+}
