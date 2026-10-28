@@ -1,0 +1,159 @@
+{
+ "id": "2.34",
+ "module": 2,
+ "section": "L · PARCOURS MAISON · Sa valeur vénale : sol + construction, bâti-terrain, capitalisation",
+ "etape": "4 (Éco-staging)",
+ "parcours": "maison",
+ "prio": false,
+ "ia": false,
+ "title": "Maison : bâti-terrain intégré, comparer des maisons vendues",
+ "objective": "Valoriser une maison à partir de ventes de maisons avec terrain (prix au m² habitable terrain compris), ajuster les écarts prouvés et traiter un cas particulier",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Mozi additionne le prix du terrain et celui de la maison comme deux objets séparés. Sébastien Paumier montre la méthode que le marché comprend le mieux : comparer la maison de Mme Garnier à des maisons vendues avec leur terrain, au m² habitable, puis ajuster ce qui est prouvé. Il termine sur trois cas qui échappent au tableau : piscine, grande propriété, maison jumelée."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Dans la méthode bâti-terrain intégré, que contient le prix au m² des références ?",
+    "options": [
+     "Le prix de la construction seule",
+     "Le prix de la maison et de son terrain ensemble, rapporté à la surface habitable",
+     "Le prix du terrain seul"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : ça, c'est la méthode sol + construction, qui sépare les deux (capsules 2.31 à 2.33).",
+     "Juste : le prix de vente global est divisé par la surface habitable ; le terrain est intégré, d'où l'importance de comparer des terrains de taille voisine.",
+     "Faux : le terrain seul se compare avec des ventes de terrains à bâtir (capsule 2.31)."
+    ],
+    "fb_title": "Le terrain est dans le prix",
+    "fb_text": "Un prix au m² habitable terrain compris n'a de sens qu'entre maisons comparables en surface, en terrain, en époque et en classe. C'est pourquoi tu retiens des maisons de 820 à 1 400 m² de terrain pour la parcelle de 1 240 m² de Mme Garnier."
+   },
+   {
+    "question": "La médiane de tes 5 références F-G est 2 750 €/m². La maison fait 112 m², son assainissement est non conforme (devis 11 800 €). Quelle valeur avant les autres arguments ?",
+    "options": [
+     "296 200 € (112 × 2 750 − 11 800)",
+     "308 000 € (112 × 2 750)",
+     "231 000 € (308 000 − 25 %)"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : 308 000 € de base, moins 11 800 € prouvés par le devis M08, que les références n'ont pas (fictif).",
+     "Faux : c'est la base ; elle oublie l'écart prouvé de l'assainissement.",
+     "Faux : c'est la décote de l'agence concurrente ; elle compte la classe G deux fois, puisque les références sont déjà F-G."
+    ],
+    "fb_title": "Base, puis écart prouvé",
+    "fb_text": "308 000 − 11 800 = 296 200 €. Les autres écarts (toiture, fioul, terrain plus grand) n'ont pas encore de preuve chiffrée : ce sont des arguments qui placent la valeur dans la fourchette de 285 000 à 300 000 €."
+   },
+   {
+    "question": "Une vente du secteur concerne une maison de 210 m² avec piscine sur 3 000 m², à 3 500 €/m². Que fais-tu de cette référence pour Mme Garnier ?",
+    "options": [
+     "Tu la retiens, elle est dans la même commune",
+     "Tu ajoutes la valeur de sa piscine à la maison de Mme Garnier",
+     "Tu l'écartes : c'est une grande propriété, hors gabarit, qui relève d'un traitement à part"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : la commune ne suffit pas ; surface, terrain et équipements sont trop différents.",
+     "Faux : Mme Garnier n'a pas de piscine ; et une piscine ne s'ajoute jamais à son coût de construction.",
+     "Juste : une grande propriété se compare à d'autres grandes propriétés, sur une zone et une période plus larges, avec des contrôles (capitalisation)."
+    ],
+    "fb_title": "Hors gabarit, hors tableau",
+    "fb_text": "Le prix au m² baisse quand la surface augmente, et une piscine n'apporte pas toujours sa valeur de construction. Les cas particuliers ont leur fiche."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Tableau des mutations bâti-terrain intégré (prix au m², surface habitable, terrain, pièces, niveaux, époque, distance, DPE, état) + fiche cas particuliers (piscine, grande propriété, maison groupée ou jumelée)",
+  "kind": "fiche",
+  "intro": "La méthode bâti-terrain intégré compare la maison à des maisons vendues avec leur terrain. C'est la méthode que les acheteurs comprennent le mieux et, pour une maison courante, la méthode principale. Le tableau M12 (fictif) reprend les 5 références retenues en capsule 2.30 avec tous les critères de comparaison.",
+  "sections": [
+   {
+    "type": "table",
+    "heading": "Mutations de maisons retenues (M12, FICTIF)",
+    "headers": ["Réf.", "Prix, €/m²", "SH, terrain", "Pièces, niveaux, époque", "Distance, DPE", "État"],
+    "rows": [
+     ["V1 Vaux-le-Pénil 03/2025", "297 000 €, 2 750", "108 m², 1 050 m²", "5 p., plain-pied sur sous-sol, 1970", "0,6 km, F", "D'origine, tout-à-l'égout"],
+     ["V2 Vaux-le-Pénil 09/2025", "318 000 €, 2 650", "120 m², 1 300 m²", "5 p., plain-pied sur sous-sol, 1966", "0,9 km, G (fioul)", "D'origine, tout-à-l'égout"],
+     ["V3 Le Mée-sur-Seine 01/2026", "290 000 €, 2 900", "100 m², 900 m²", "5 p., plain-pied, 1975", "2,8 km, F", "Cuisine refaite, tout-à-l'égout"],
+     ["V4 Dammarie-lès-Lys 06/2025", "310 500 €, 2 700", "115 m², 1 400 m²", "5 p., plain-pied sur sous-sol, 1972", "3,5 km, G", "D'origine, assainissement conforme"],
+     ["V5 Vaux-le-Pénil 02/2026", "291 200 €, 2 800", "104 m², 820 m²", "5 p., deux niveaux, 1978", "1,2 km, F", "Correct, tout-à-l'égout"],
+     ["Bien : Mme Garnier", "?", "112 m², 1 240 m²", "5 p. (séjour + 4 chambres), plain-pied sur sous-sol, 1968", "—, G (fioul)", "Toiture à reprendre, SPANC non conforme"]
+    ]
+   },
+   {
+    "type": "formula",
+    "heading": "Le calcul pour Mme Garnier",
+    "text": "Médiane des références = 2 750 €/m² (moyenne 2 760 €/m²). Base = 112 × 2 750 = 308 000 €. Écart prouvé : assainissement non conforme, devis M08 = −11 800 € → 296 200 €. Arguments sans preuve chiffrée : toiture à reprendre et chaudière fioul avec cuve (vers le bas), terrain de 1 240 m² plus grand que la médiane des références et sous-sol complet (vers le haut). Fourchette : 285 000 € à 300 000 € ; valeur centrale retenue : 292 000 € net vendeuse."
+   },
+   {
+    "type": "table",
+    "heading": "Fiche cas particuliers",
+    "headers": ["Cas", "Le piège", "La bonne pratique"],
+    "rows": [
+     ["Piscine", "Ajouter son coût de construction au prix", "Comparer à des maisons avec piscine du secteur ; selon le marché, elle peut être un atout, neutre ou une charge (entretien, sécurité) ; jamais son coût"],
+     ["Grande propriété (surface ou terrain hors gabarit)", "Appliquer le prix au m² des maisons courantes", "Élargir la zone et la période, raisonner en prix global, tenir compte du prix au m² dégressif, contrôler par la capitalisation (capsule 2.35)"],
+     ["Maison groupée ou jumelée", "La comparer à des maisons isolées", "Comparer à des maisons du même type ; vérifier mitoyenneté, servitudes, vis-à-vis et petite parcelle"],
+     ["Lot détachable", "L'ajouter au prix de la maison", "Le présenter à part, comme une option (capsule 2.31)"]
+    ]
+   },
+   {
+    "type": "text",
+    "heading": "La phrase à dire à Mme Garnier",
+    "text": "« Cinq maisons comparables à la vôtre, classées F ou G comme elle, se sont vendues autour de 2 750 € le m². J'ai retiré seulement ce que je peux prouver, l'assainissement à 11 800 €. Votre maison se situe entre 285 000 € et 300 000 €, autour de 292 000 €. »"
+   }
+  ],
+  "footer": "Sources : Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025), approche par comparaison et prix de convenance ; DVF, data.gouv.fr (mise à jour du 12/10/2026). Mutations, distances, états et arguments : données FICTIVES (bible §11.5 : 2 750 €/m² en l'état, fourchette 285 000 à 300 000 €). Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Valoriser la maison fil rouge par des ventes de maisons, puis traiter un cas particulier",
+  "duration_min": 40,
+  "context": "Tu as retenu 5 références en capsule 2.30 (V1 à V5). Tu complètes le tableau M12 avec tous les critères, tu calcules la valeur de la maison de Mme Garnier, puis tu traites un cas particulier : un voisin du hameau, propriétaire de la grande maison V7 (210 m², piscine, 3 000 m² de terrain, classée D), te demande s'il peut « faire le même calcul » chez lui.",
+  "materials": [
+   "M12 Tableau des mutations de maisons (fictif)",
+   "M04 Plan et descriptif, M05 Reportage photo",
+   "M08 Rapport du SPANC et devis de réhabilitation (11 800 €)",
+   "Fiche cas particuliers (ressource)"
+  ],
+  "steps": [
+   "Complète le tableau M12 pour V1 à V5 : prix au m², surface habitable, terrain, pièces, niveaux, époque, distance, DPE, état.",
+   "Calcule la médiane et la base de la maison de Mme Garnier.",
+   "Applique les écarts prouvés et liste les arguments non chiffrés, avec leur sens (vers le haut ou vers le bas).",
+   "Donne la fourchette et la valeur centrale, avec une phrase de justification.",
+   "Pour la grande maison V7, explique en 4 lignes pourquoi le calcul de Mme Garnier ne s'applique pas et comment tu procèdes."
+  ],
+  "expected": "Prix au m² : V1 2 750 ; V2 2 650 ; V3 2 900 ; V4 2 700 ; V5 2 800. Médiane 2 750 €/m², moyenne 2 760. Base : 112 × 2 750 = 308 000 €. Écart prouvé : assainissement non conforme −11 800 € (devis M08 ; les références sont raccordées ou conformes) → 296 200 €. Arguments : toiture à reprendre, chaudière fioul de 1996 et cuve (vers le bas, en attente d'un devis couvreur) ; terrain de 1 240 m² au-dessus de la médiane des références (1 050 m²) et sous-sol complet (vers le haut) ; la classe G n'est pas déduite, les références sont F-G. Fourchette 285 000 à 300 000 €, valeur centrale 292 000 € net vendeuse. Grande maison V7 : 210 m² et 3 000 m² sont hors gabarit des références ; le prix au m² baisse avec la surface ; la piscine ne s'ajoute pas à son coût. Procédure : chercher des grandes propriétés vendues sur une zone et une période élargies, raisonner en prix global, contrôler par la capitalisation (valeur locative ÷ taux, capsule 2.35), et le dire au voisin avant tout chiffre.",
+  "ia_prompt": null
+ },
+ "deliverable": {
+  "title": "Valeur par comparaison de la maison de Mme Garnier et note sur un cas particulier",
+  "format": "Tableau M12 complété + note PDF d'une page",
+  "criteria": [
+   "Les 5 références ont tous les critères de comparaison renseignés",
+   "La base (308 000 €) et l'écart prouvé (−11 800 €) sont calculés et sourcés",
+   "La classe G n'est pas déduite une seconde fois",
+   "La fourchette (285 000 à 300 000 €) et la valeur centrale sont justifiées",
+   "Le cas particulier est traité sans appliquer le prix au m² des maisons courantes"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : l'approche par comparaison tient compte des transactions d'immeubles aux caractéristiques comparables",
+   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+  },
+  {
+   "label": "DVF, Demandes de valeurs foncières (data.gouv.fr)",
+   "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+  },
+  {
+   "label": "Bible du fil rouge §11.4 et §11.5 : maisons F-G à 2 750 €/m², rénovées C-D à 3 300 €/m², assainissement 11 800 €, fourchette 285 000 à 300 000 € (fictif)"
+  }
+ ],
+ "open_points": [
+  "Valeur centrale de 292 000 € : proposition pédagogique dans la fourchette de la bible (285 000 à 300 000 €), à valider par Sébastien Paumier ; elle est reprise en 2.36.",
+  "Tableau M12 fictif à créer avec exactement ces références (V1 à V10, voir 2.30), y compris états, distances et mode d'assainissement.",
+  "Devis couvreur absent du dossier : la toiture reste un argument non chiffré ; ajouter un devis fictif si Sébastien Paumier souhaite la chiffrer."
+ ]
+}

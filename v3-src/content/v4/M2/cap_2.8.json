@@ -1,0 +1,177 @@
+{
+  "id": "2.8",
+  "module": 2,
+  "section": "C · Le DPE et l'audit énergétique",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Calculer : kWh/m²/an, CO₂, étiquette",
+  "objective": "Recalculer à partir d'un DPE l'énergie finale annuelle, l'énergie primaire avec le coefficient en vigueur, les émissions et la classe retenue par le double seuil, sans annoncer de classe que seul le DPE établit",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "11 400 kWh par an, et pourtant l'étiquette de M. Bernard affiche 345, puis 285, puis 255. Mozi en conclut : « 255 en 2027, vous serez en D. » Le chapitre refait les calculs ligne par ligne : énergie finale, coefficient de l'électricité, seuils, double seuil énergie-climat, puis les applique à la maison au fioul de Mme Garnier, où le climat décide."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi annonce à M. Bernard : « Avec le coefficient 1,7 en 2027, vous aurez 255 : classe D. » Qu'en dis-tu ?",
+        "options": [
+          "C'est juste : 255 est sous 260",
+          "C'est faux : 150 × 1,7 = 255, au-dessus du seuil D (250) : la classe reste E",
+          "C'est faux : le coefficient ne change pas en 2027"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le seuil entre D et E est à 250 kWhEP/m²/an pour les logements de 40 m² et plus, pas 260.",
+          "Juste : 255 > 250 ; et même une classe juste calculée ne s'annonce pas sans DPE ni attestation.",
+          "Faux : l'arrêté du 19/08/2026 fixe le coefficient à 1,7 au 1/01/2027."
+        ],
+        "fb_title": "255, c'est encore E",
+        "fb_text": "150 × 1,7 = 255 kWhEP/m²/an : tranche E (> 250 et ≤ 330), à 5 du seuil D. Ton calcul sert à repérer une piste (des travaux pourraient faire passer sous 250) ; seule une attestation ou un nouveau DPE établit une classe."
+      },
+      {
+        "question": "Quelle est la consommation annuelle en énergie finale de l'appartement de M. Bernard (150 kWhEF/m²/an, 76 m²) ?",
+        "options": [
+          "26 220 kWh",
+          "1 140 kWh",
+          "11 400 kWh"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : 26 220 = 345 × 76, c'est de l'énergie primaire (coefficient 2,3).",
+          "Faux : erreur d'un facteur 10.",
+          "Juste : 150 × 76 = 11 400 kWh d'énergie finale par an."
+        ],
+        "fb_title": "150 × 76 = 11 400",
+        "fb_text": "Consommation annuelle = consommation au m² × surface de référence. 150 × 76 = 11 400 kWhEF/an. En énergie primaire, on multiplie la part électrique par le coefficient : 21 660 kWhEP avec 1,9."
+      },
+      {
+        "question": "En 2023, le DPE de M. Bernard donnait 345 kWhEP/m²/an et 12 kgCO₂/m²/an. Quelle était sa classe ?",
+        "options": [
+          "F, la moins bonne des deux",
+          "C, la meilleure des deux",
+          "E, la moyenne des deux"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : énergie F (331 à 420), climat C (12 à 30) : on retient la moins bonne, F.",
+          "Faux : on ne retient jamais la meilleure des deux classes.",
+          "Faux : il n'y a pas de moyenne dans la règle du double seuil."
+        ],
+        "fb_title": "Double seuil",
+        "fb_text": "La classe du logement est la moins bonne entre l'énergie primaire et les émissions. 2023 : F et C → F. Attestation 2026 : E et C → E. Pour la maison au fioul de Mme Garnier, c'est l'inverse : le climat G l'emporte sur l'énergie F."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche formules + calculateur",
+    "kind": "fiche",
+    "intro": "Les formules pour vérifier les chiffres énergie d'un DPE (énergie finale, énergie primaire, émissions, classe, coût), avec deux corrigés : l'appartement tout électrique de M. Bernard et la maison au fioul de Mme Garnier. Règle d'or : ton calcul sert à repérer et à expliquer ; la classe officielle vient du DPE ou de l'attestation actualisée ADEME. Les surfaces (Carrez, habitable) sont traitées en capsules 2.15 et 2.16.",
+    "sections": [
+      {
+        "heading": "Énergie finale",
+        "type": "formula",
+        "text": "EF annuelle = EF au m² × surface de référence. M. Bernard : 112 + 26 + 4 + 8 = 150 kWhEF/m²/an ; 150 × 76 = 11 400 kWhEF/an ; part du chauffage 112 / 150 ≈ 74,7 %. Mme Garnier : 330 + 35 + 15 = 380 kWhEF/m²/an ; 380 × 112 = 42 560 kWhEF/an."
+      },
+      {
+        "heading": "Énergie primaire",
+        "type": "formula",
+        "text": "EP = part fioul, gaz ou bois × 1 + part électrique × coefficient de l'électricité (2,3 jusqu'au 31/12/2025 ; 1,9 depuis le 1/01/2026 ; 1,7 au 1/01/2027). M. Bernard : 150 × 2,3 = 345 → F ; 150 × 1,9 = 285 → E ; 150 × 1,7 = 255 → E. Mme Garnier : 365 + 15 × 2,3 = 399,5 ≈ 400 → F ; 365 + 15 × 1,9 = 393,5 → F ; 365 + 15 × 1,7 = 390,5 → F."
+      },
+      {
+        "heading": "Émissions et double seuil",
+        "type": "formula",
+        "text": "Émissions annuelles = kgCO₂/m²/an × surface. M. Bernard : 12 × 76 = 912 kgCO₂/an → climat C ; classe retenue : F en 2023, E avec l'attestation. Mme Garnier : ≈ 119 kgCO₂/m²/an (fioul) → climat G ; 119 × 112 ≈ 13 330 kgCO₂/an ; classe retenue G, quel que soit le coefficient de l'électricité. Classe = la moins bonne entre énergie et climat."
+      },
+      {
+        "heading": "Seuils DPE (logements de 40 m² et plus)",
+        "type": "table",
+        "headers": ["Classe", "Énergie primaire (kWhEP/m²/an)", "Émissions (kgCO₂/m²/an)"],
+        "rows": [
+          ["A", "≤ 70", "≤ 6"],
+          ["B", "> 70 et ≤ 110", "> 6 et ≤ 11"],
+          ["C", "> 110 et ≤ 180", "> 11 et ≤ 30"],
+          ["D", "> 180 et ≤ 250", "> 30 et ≤ 50"],
+          ["E", "> 250 et ≤ 330", "> 50 et ≤ 70"],
+          ["F", "> 330 et ≤ 420", "> 70 et ≤ 100"],
+          ["G", "> 420", "> 100"]
+        ]
+      },
+      {
+        "heading": "Coût annuel estimé",
+        "type": "formula",
+        "text": "Le DPE donne une fourchette en euros par an, avec l'année de référence des prix. M. Bernard : 2 330 à 3 190 €/an (prix au 1/01/2021), soit ≈ 194 à 266 € par mois. Mme Garnier : 4 100 à 5 600 €/an, soit ≈ 342 à 467 € par mois. C'est une estimation conventionnelle, pas les factures."
+      },
+      {
+        "heading": "Calculateur à remplir",
+        "type": "table",
+        "headers": ["Ligne", "Formule", "Ton bien", "M. Bernard (corrigé)"],
+        "rows": [
+          ["1. EF / m²", "Somme des usages lue sur le DPE", "……", "150 kWhEF/m²/an"],
+          ["2. EF / an", "Ligne 1 × surface", "……", "11 400 kWhEF/an"],
+          ["3. EP / m² (coefficient en vigueur)", "Non électrique + électrique × 1,9", "……", "285 → E"],
+          ["4. EP / m² (année suivante)", "Non électrique + électrique × 1,7", "……", "255 → E"],
+          ["5. GES / an", "kgCO₂/m² × surface", "……", "912 kgCO₂/an (C)"],
+          ["6. Classe retenue", "La moins bonne (EP, GES)", "……", "E (attestation)"],
+          ["7. Écart au seuil inférieur", "EP − seuil de la classe du dessous", "……", "255 − 250 = 5"],
+          ["8. Coût / mois", "Fourchette DPE ÷ 12", "……", "≈ 194 à 266 € (prix 2021)"]
+        ]
+      }
+    ],
+    "footer": "Sources : arrêté du 31/03/2021 modifié (seuils) ; arrêté du 25/03/2024 ; arrêté du 13/08/2025 (coefficient 1,9) et arrêté du 19/08/2026 (coefficient 1,7) ; service-public.fr F16096. Facteur d'émission du fioul : à vérifier dans la méthode 3CL. Données du fil rouge fictives. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Calculer l'étiquette d'un bien type",
+    "duration_min": 30,
+    "context": "M. Bernard veut comprendre pourquoi son appartement est passé de F à E « sans travaux ». Tu remplis le calculateur à partir de son DPE, puis tu fais le même calcul pour la maison au fioul de Mme Garnier (dossier du parcours maison) pour montrer pourquoi, chez elle, l'attestation ne change rien.",
+    "materials": [
+      "D02 DPE du 14/03/2023 (synthèse) et D03 attestation actualisée (M. Bernard)",
+      "M02 DPE du 06/02/2024 (synthèse) (Mme Garnier)",
+      "Fiche formules + calculateur (ressource de la capsule)"
+    ],
+    "steps": [
+      "Vérifie la somme des usages de chaque DPE et calcule l'énergie finale annuelle.",
+      "Sépare la part électrique et la part non électrique, puis calcule l'énergie primaire avec 2,3, 1,9 et 1,7.",
+      "Calcule les émissions annuelles et applique le double seuil pour chaque coefficient.",
+      "Calcule l'écart au seuil inférieur et le coût mensuel, avec l'année des prix.",
+      "Rédige 3 phrases pour M. Bernard sur le passage de F à E, sans promettre de classe future."
+    ],
+    "expected": "Corrigé. M. Bernard : 112 + 26 + 4 + 8 = 150 ; 150 × 76 = 11 400 kWhEF/an. EP : 345 → F ; 285 → E ; 255 → E (écart 5 au seuil D). GES : 12 × 76 = 912 kgCO₂/an → C. Double seuil : 2023 F ; 2026 E ; 2027 E. Coût ≈ 194 à 266 €/mois (prix 2021). Mme Garnier : 330 + 35 + 15 = 380 ; 380 × 112 = 42 560 kWhEF/an. EP : 365 + 34,5 = 399,5 ≈ 400 → F ; 393,5 → F ; 390,5 → F. GES ≈ 119 → G. Classe : G dans tous les cas : c'est le fioul qui décide. Phrases pour M. Bernard : « Votre consommation n'a pas changé : 150 kWh par m² et par an. Ce qui a changé, c'est le coefficient qui convertit l'électricité en énergie primaire : 2,3 en 2023, 1,9 depuis janvier 2026. 150 × 1,9 = 285, ce qui vous place en E, et l'attestation de l'ADEME le confirme. »"
+  },
+  "deliverable": {
+    "title": "Calculateur rempli pour deux biens",
+    "format": "Tableur (XLSX) ou PDF, 1 page : 8 lignes × 2 biens + 3 phrases",
+    "criteria": [
+      "Les énergies primaires 345 / 285 / 255 (F / E / E) de M. Bernard sont exactes",
+      "La part électrique de Mme Garnier est seule multipliée par le coefficient (≈ 400 / 393,5 / 390,5)",
+      "Le double seuil est appliqué : E pour M. Bernard, G pour Mme Garnier",
+      "Le coût est converti par mois avec l'année des prix",
+      "Les phrases n'annoncent aucune classe future comme acquise"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Service-Public F16096 : DPE (seuils, validité, coefficient de l'électricité)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+    },
+    {
+      "label": "Arrêté du 25 mars 2024 (surface de référence du DPE, seuils petites surfaces)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049446315"
+    },
+    {
+      "label": "INC : abaissement du coefficient de l'électricité à 1,9 au 1/01/2026 (arrêté du 13/08/2025)",
+      "url": "https://www.inc-conso.fr/content/1er-janvier-2026-abaissement-du-coefficient-de-conversion-de-lelectricite-des-dpe"
+    },
+    {
+      "label": "Arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027), NOR VLOL2617030A",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+    }
+  ],
+  "open_points": [
+    "À vérifier : relire les seuils dans l'annexe de l'arrêté du 31/03/2021 modifié (valeurs reprises de la capsule v3, non relues ce jour dans le texte)",
+    "À vérifier : facteur d'émission du fioul (0,324 kgCO₂/kWh) et calcul des ≈ 119 kgCO₂/m²/an de Mme Garnier (BIBLE §11.3)",
+    "Chapitre à adapter depuis chap_2.3 (v3) : retirer la partie Carrez (désormais capsule 2.15), ajouter le cas Garnier"
+  ]
+}

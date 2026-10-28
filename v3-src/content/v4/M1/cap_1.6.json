@@ -1,0 +1,156 @@
+{
+ "id": "1.6",
+ "module": 1,
+ "section": "C · J'affine",
+ "etape": "Avant l'étape 1",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "SWOT de son activité",
+ "objective": "Construire le SWOT de son activité d'éco-consultant (forces, faiblesses, opportunités, menaces) avec des faits datés, et en tirer deux actions prioritaires",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Sébastien Paumier remplit en direct le SWOT de Karim, directeur d'agence indépendante : ce qu'il maîtrise, ce qui lui manque, ce que le marché lui offre (3,9 millions de passoires, un DPE qui change) et ce qui le menace (fin des appels à froid). Il montre l'erreur classique, un SWOT plein d'adjectifs, et la bonne pratique : des faits, puis deux actions."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Karim écrit dans ses opportunités : « Je suis très bon en négociation. » Où cette ligne doit-elle aller ?",
+    "options": [
+     "Dans les forces : c'est une qualité interne, qui dépend de lui.",
+     "Dans les opportunités : c'est une chance pour son activité.",
+     "Nulle part : un SWOT ne parle pas des compétences."
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : forces et faiblesses sont internes (ce que tu maîtrises) ; opportunités et menaces viennent de l'extérieur.",
+     "Faux : une opportunité est un fait extérieur (marché, réglementation), pas une qualité personnelle.",
+     "Faux : les compétences sont le cœur des forces et des faiblesses."
+    ],
+    "fb_title": "Interne ou externe",
+    "fb_text": "Forces et faiblesses : ce qui dépend de toi (compétences, réseau, outils, temps). Opportunités et menaces : ce qui vient du marché et des règles. Et une force se prouve : « 12 ventes en 2025 dont 8 au prix du mandat » vaut mieux que « très bon »."
+   },
+   {
+    "question": "Lequel de ces faits est une opportunité sourcée pour un éco-consultant ?",
+    "options": [
+     "« Les vendeurs adorent les agents sympathiques. »",
+     "« J'ai un bon site internet. »",
+     "« Au 1/01/2025, 12,7 % des résidences principales sont classées F ou G, soit environ 3,9 millions (SDES, 12/11/2025). »"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : c'est une généralité sans source ni chiffre.",
+     "Faux : c'est une force (interne), et elle n'est pas prouvée.",
+     "Juste : fait extérieur, chiffré, sourcé et daté : beaucoup de vendeurs auront besoin d'un conseil énergétique."
+    ],
+    "fb_title": "Une opportunité se source",
+    "fb_text": "Le parc compte environ 3,9 millions de résidences principales F-G au 1/01/2025 (SDES, ONRE) et environ 15 % des ventes de l'ancien portent sur des F-G (Notaires, 7/01/2026). Ce sont des faits extérieurs, datés : de vraies opportunités."
+   },
+   {
+    "question": "Mozi a fini son SWOT : quatre cases pleines, aucune action. Que lui manque-t-il ?",
+    "options": [
+     "Un cinquième cadran pour les idées.",
+     "Les actions : utiliser une force pour saisir une opportunité, corriger une faiblesse face à une menace.",
+     "Un logo et des couleurs."
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : le SWOT a quatre cadrans ; ce qui manque, c'est ce qu'on en tire.",
+     "Juste : un SWOT sert à décider ; sans action, c'est un inventaire.",
+     "Faux : la forme ne remplace pas la décision."
+    ],
+    "fb_title": "Un SWOT finit par des actions",
+    "fb_text": "Croise les cadrans : force × opportunité (ce que tu attaques), faiblesse × menace (ce que tu corriges d'abord). Deux actions datées suffisent. Exemple : la fin des appels à froid (menace) impose de bâtir un fichier de contacts consentants."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Modèle de SWOT",
+  "kind": "fiche",
+  "intro": "Le SWOT (Strengths, Weaknesses, Opportunities, Threats) est une grille d'analyse stratégique simple : deux cadrans internes, deux externes. Ce modèle est adapté à l'activité d'un agent qui devient éco-consultant. Remplis-le avec des faits, pas des adjectifs, puis tires-en deux actions.",
+  "sections": [
+   {
+    "heading": "Les 4 cadrans",
+    "type": "table",
+    "headers": ["Cadran", "Origine", "Question à te poser", "Exemple de preuve"],
+    "rows": [
+     ["Forces", "Interne", "Qu'est-ce que je fais mieux que les autres dans ma zone ?", "Nombre de ventes, avis Google, connaissance d'une copropriété"],
+     ["Faiblesses", "Interne", "Qu'est-ce qui me freine ?", "Pas de fichier consentant, peu de temps, DPE mal maîtrisé"],
+     ["Opportunités", "Externe", "Qu'est-ce que le marché ou la loi m'offre ?", "Part de passoires, nouveau coefficient DPE, audit à la vente"],
+     ["Menaces", "Externe", "Qu'est-ce qui peut me faire perdre des mandats ?", "Fin des appels à froid, concurrents, estimateurs en ligne"]
+    ]
+   },
+   {
+    "heading": "Opportunités et menaces sourcées pour 2026",
+    "type": "list",
+    "items": [
+     "Opportunité : 12,7 % des résidences principales classées F ou G au 1/01/2025, environ 3,9 millions (SDES, ONRE, 12/11/2025).",
+     "Opportunité : environ 15 % des ventes de l'ancien portent sur des F-G début 2025 (Notaires de France, 7/01/2026).",
+     "Opportunité : coefficient électricité 1,9 depuis le 1/01/2026 ; des logements électriques changent de classe, l'attestation actualisée est gratuite (ADEME).",
+     "Opportunité : audit énergétique obligatoire à la vente des maisons classées E, F, G ; les vendeurs ont besoin d'un interprète.",
+     "Menace : depuis le 11/08/2026, plus d'appel de prospection vers un particulier sans son consentement préalable (DGCCRF, 27/07/2026).",
+     "Menace : vendeurs informés et mise en concurrence (51 % y croient, enquête leboncoin Immo 2025, déclaratif)."
+    ]
+   },
+   {
+    "heading": "Du SWOT aux actions",
+    "type": "steps",
+    "items": [
+     "Force × opportunité : quelle force utilises-tu pour saisir quelle opportunité ?",
+     "Faiblesse × opportunité : quelle faiblesse dois-tu combler pour en profiter ?",
+     "Force × menace : quelle force te protège ?",
+     "Faiblesse × menace : quel risque corriges-tu en premier ?",
+     "Garde deux actions, avec une date et un indicateur."
+    ]
+   },
+   {
+    "heading": "Exemple : le SWOT de Karim (personnage de formation, fictif)",
+    "type": "text",
+    "text": "Forces : agence indépendante connue au centre de Melun, 14 ventes en 2025, bonne connaissance des copropriétés des années 70. Faiblesses : ne sait pas lire un DPE au-delà de la lettre, aucun fichier de contacts consentants. Opportunités : nombreux appartements électriques en E-F dans son secteur, attestation actualisée gratuite. Menaces : fin des appels à froid, trois concurrents dans le quartier. Actions : 1. suivre le module 2 et faire 10 démonstrations DPE d'ici fin décembre ; 2. ajouter un formulaire de consentement sur son site et sa fiche Google d'ici le 15 novembre."
+   }
+  ],
+  "footer": "Sources : Bpifrance Création, « Le SWOT : un outil d'analyse stratégique » ; SDES, ONRE (12/11/2025) ; Notaires de France, valeur verte (7/01/2026) ; ADEME, observatoire DPE-Audit ; DGCCRF, démarchage téléphonique (27/07/2026) ; enquête leboncoin Immo (2025, déclaratif). Karim : personnage fictif. Mise à jour : 28/10/2026."
+ },
+ "exercise": {
+  "title": "Construire mon SWOT",
+  "duration_min": 35,
+  "context": "Tu construis le SWOT de ta propre activité, telle qu'elle est aujourd'hui, dans la zone affinée en 1.5. Tu remplis chaque cadran avec des faits, puis tu choisis deux actions.",
+  "materials": [
+   "Ta zone affinée (livrable 1.5)",
+   "Tes chiffres d'activité 2025-2026 (ventes, mandats, avis)",
+   "Modèle de SWOT",
+   "Fiche réglementation et tendances (1.3)"
+  ],
+  "steps": [
+   "Écris 3 à 5 forces, chacune avec une preuve chiffrée ou un exemple.",
+   "Écris 3 à 5 faiblesses, honnêtement.",
+   "Écris 3 à 5 opportunités et 3 à 5 menaces, chacune avec sa source et sa date.",
+   "Croise les cadrans et formule deux actions prioritaires, avec une date et un indicateur.",
+   "Relis : aucune qualité personnelle dans les opportunités, aucun fait de marché dans les forces."
+  ],
+  "expected": "Exemple attendu (mandataire fictif, secteur de Melun). Forces : 9 ventes en 2025 dont 6 en copropriété ; 4,8 sur 5 sur 23 avis Google ; ancienne expérience dans le bâtiment. Faiblesses : pas de fichier consentant ; aucune présence sur LinkedIn ; DPE lu seulement à la lettre. Opportunités : 12,7 % de résidences principales F-G (SDES, 12/11/2025) ; coefficient 1,9 depuis le 1/01/2026 ; audit obligatoire à la vente des maisons E-F-G. Menaces : appel à froid interdit depuis le 11/08/2026 ; estimateurs en ligne ; deux réseaux très présents. Actions : 1. faire 8 démonstrations DPE (capsule 1.1) d'ici le 31/12/2026, indicateur : 3 rendez-vous d'estimation ; 2. mettre en place un formulaire de consentement d'ici le 30/11/2026, indicateur : 20 contacts consentants."
+ },
+ "deliverable": {
+  "title": "Mon SWOT et mes 2 actions",
+  "format": "PDF, 1 page : grille SWOT en 4 cadrans + 2 actions datées avec indicateur",
+  "criteria": [
+   "Chaque cadran contient 3 à 5 éléments",
+   "Forces et faiblesses sont internes, opportunités et menaces externes",
+   "Chaque opportunité et chaque menace a une source et une date",
+   "Au moins deux forces sont prouvées par un chiffre ou un exemple",
+   "Deux actions, chacune avec une date et un indicateur"
+  ]
+ },
+ "sources": [
+  { "label": "Bpifrance Création — Le SWOT : un outil d'analyse stratégique", "url": "https://bpifrance-creation.fr/encyclopedie/letude-marche/outils-danalyse/swot-outil-danalyse-strategique" },
+  { "label": "SDES — Le parc de logements par classe de performance énergétique au 1er janvier 2025 (12/11/2025)", "url": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025" },
+  { "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
+  { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" },
+  { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" }
+ ],
+ "open_points": [
+  "Exemple de Karim : chiffres fictifs, à valider avec Sébastien Paumier pour rester cohérent avec les autres capsules où Karim apparaît.",
+  "Audit énergétique à la vente (maisons E-F-G) : fait marqué « à revérifier » dans la bible ; à confirmer sur service-public.fr avant tournage."
+ ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "2.23",
+  "module": 2,
+  "section": "J · PARCOURS APPARTEMENT · Droit de la copropriété et audit de la copropriété",
+  "etape": "3 (Éco-staging)",
+  "parcours": "appartement",
+  "prio": false,
+  "ia": false,
+  "title": "Appartement : diagnostics et documents des parties communes",
+  "objective": "Repérer dans un dossier de copropriété les diagnostics des parties communes (amiante, plomb, DPE collectif) et les documents de travaux (DTG, plan pluriannuel), et dire lesquels manquent",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Le dossier de diagnostics de M. Bernard parle de son appartement. Mais l'immeuble des Tilleuls a aussi les siens : dossier technique amiante, DPE collectif classé E, projet de plan pluriannuel de travaux. Sébastien Paumier montre comment les retrouver, dater et lire, et pourquoi un acquéreur les lira avant de signer."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "L'immeuble des Tilleuls a un permis de construire de 1970. Quel diagnostic des parties communes doit exister ?",
+        "options": [
+          "Un constat de risque d'exposition au plomb des parties communes",
+          "Un dossier technique amiante (DTA) des parties communes",
+          "Aucun, seuls les lots privatifs sont diagnostiqués"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le plomb vise les immeubles d'habitation construits avant le 1er janvier 1949 ; Les Tilleuls datent de 1972.",
+          "Juste : les parties communes d'un immeuble collectif dont le permis a été délivré avant le 1er juillet 1997 doivent avoir un dossier technique amiante.",
+          "Faux : les parties communes ont leurs propres obligations, distinctes du dossier de diagnostics du lot."
+        ],
+        "fb_title": "Avant juillet 1997 : DTA",
+        "fb_text": "Permis de 1970 : repérage amiante obligatoire des parties communes, rassemblé dans le DTA tenu par le syndic. Tu demandes sa fiche récapitulative. Pas de plomb : l'immeuble est postérieur à 1949."
+      },
+      {
+        "question": "Un acquéreur demande quels gros travaux attendent la copropriété dans les 10 ans. Quel document lui montres-tu ?",
+        "options": [
+          "Le projet de plan pluriannuel de travaux (D09)",
+          "Le carnet d'entretien (D08)",
+          "Le DPE de l'appartement (D02)"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : le PPPT liste les travaux nécessaires, leur coût estimé, leur hiérarchie et un échéancier sur dix ans.",
+          "Faux : le carnet d'entretien retrace les travaux déjà réalisés et les contrats ; il parle du passé.",
+          "Faux : le DPE du lot ne traite pas les travaux de l'immeuble."
+        ],
+        "fb_title": "Le PPPT parle du futur",
+        "fb_text": "Aux Tilleuls, le PPPT adopté le 20/06/2024 prévoit ravalement + ITE (votés depuis), menuiseries des parties communes et toiture-terrasse en 2030. Il fait partie des documents remis à l'acquéreur."
+      },
+      {
+        "question": "Mozi dit à un acquéreur : « Le DPE collectif est en E, donc votre appartement est en E aussi, pas besoin de lire son DPE. » Où est l'erreur ?",
+        "options": [
+          "Le DPE collectif est un document interne au syndic, sans intérêt pour l'acquéreur",
+          "Il aurait dû dire que l'appartement est forcément meilleur que l'immeuble",
+          "Le DPE collectif porte sur le bâtiment entier ; chaque lot a son propre DPE, qui peut différer"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le DPE collectif est utile à l'acquéreur, il éclaire les travaux de l'immeuble.",
+          "Faux : aucune règle ne place un lot au-dessus de la moyenne de l'immeuble ; on lit le DPE du lot.",
+          "Juste : M. Bernard a une attestation classe E pour son lot ; c'est une coïncidence, pas une conséquence du DPE collectif."
+        ],
+        "fb_title": "Collectif et individuel, deux documents",
+        "fb_text": "Le DPE collectif (E, février 2026) sert à programmer les travaux de l'immeuble. Le DPE du lot (D02, attestation actualisée D03 en classe E) reste le document de la vente. Tu présentes les deux, sans les confondre."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Check-list parties communes (amiante, plomb, DPE collectif s'il existe, DTG et plan pluriannuel de travaux selon la copropriété)",
+    "kind": "checklist",
+    "intro": "Ces documents ne sont pas dans le dossier de diagnostics du lot : ils sont détenus par le syndic. Tu les demandes dès le mandat, tu les dates et tu vérifies qu'ils sont cohérents entre eux. Les obligations dépendent de l'âge de l'immeuble et du nombre de lots : vérifie chaque cas.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les diagnostics et documents des parties communes",
+        "headers": ["Document", "Quand il est exigé", "Ce que tu y lis"],
+        "rows": [
+          ["Dossier technique amiante (DTA)", "Immeuble collectif dont le permis a été délivré avant le 1er juillet 1997", "Matériaux repérés, état, mesures ; fiche récapitulative"],
+          ["Constat plomb des parties communes", "Immeuble d'habitation construit avant le 1er janvier 1949", "Revêtements contenant du plomb et leur état"],
+          ["DPE collectif", "Calendrier : plus de 200 lots au 1/01/2024, 50 à 200 lots au 1/01/2025, jusqu'à 50 lots au 1/01/2026", "Classe de l'immeuble, postes de déperdition"],
+          ["Projet de plan pluriannuel de travaux (PPPT)", "Immeuble à usage d'habitation de plus de 15 ans", "Travaux sur 10 ans, coûts estimés, priorités, échéancier"],
+          ["Diagnostic technique global (DTG)", "Décidé par l'AG (art. 24) ; obligatoire dans certains cas (mise en copropriété d'un immeuble de plus de 10 ans)", "État de l'immeuble, travaux à 10 ans ; un DTG sans travaux nécessaires dispense du PPPT"],
+          ["Fiche synthétique", "Établie et mise à jour chaque année par le syndic", "Données financières et techniques ; annexée à la promesse"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "La check-list à cocher pour un appartement",
+        "items": [
+          "Date du permis de construire de l'immeuble (avant 1949 ? avant juillet 1997 ?)",
+          "Nombre de lots de la copropriété et date de construction",
+          "Fiche récapitulative du DTA demandée au syndic",
+          "DPE collectif : date, classe, recommandations",
+          "PPPT ou DTG : date d'adoption, travaux et années prévus",
+          "Plan pluriannuel adopté par l'AG ou seulement présenté",
+          "Cohérence avec le PV d'AG (travaux votés) et le carnet d'entretien (travaux faits)"
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemple rempli : résidence Les Tilleuls (fictif)",
+        "headers": ["Document", "Constat", "Vigilance"],
+        "rows": [
+          ["DTA", "Permis 1970 : DTA obligatoire ; fiche récapitulative à demander", "À obtenir avant la promesse"],
+          ["Plomb parties communes", "Non concerné (construit après 1949)", "Aucune"],
+          ["DPE collectif", "Réalisé en février 2026 : classe E", "L'ITE votée vise à l'améliorer"],
+          ["PPPT", "Adopté en AG le 20/06/2024 : ravalement + ITE, menuiseries des parties communes, toiture-terrasse en 2030", "Toiture : à signaler sans chiffrer"],
+          ["DTG", "Aucun DTG au dossier", "Non bloquant : le PPPT existe"]
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Votre dossier de diagnostics est complet pour l'appartement. Pour l'immeuble, je demande au syndic la fiche du dossier technique amiante, le DPE collectif et le plan de travaux. L'acquéreur les lira : autant que nous les connaissions avant lui, et que nous puissions répondre à chaque question. »"
+      }
+    ],
+    "footer": "Sources : code de la santé publique, art. R. 1334-29-5 (DTA) ; ministère de la Santé, repérage de l'amiante ; ANIL, obligations de diagnostic de l'immeuble (DPE collectif, DTG, PPPT), à jour au 04/11/2025 ; loi n° 65-557 du 10/07/1965, art. 8-2, 14-2, 24 ; Service-Public, fiche synthétique. Données Les Tilleuls fictives. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Repérer les diagnostics communs et le plan de travaux",
+    "duration_min": 25,
+    "context": "M. Bernard t'a transmis ce que le syndic Cabinet Martel Gestion lui a envoyé. Avant de rédiger l'estimation, tu fais l'inventaire des documents des parties communes, tu repères ce qui manque et ce qui pèse sur le prix.",
+    "materials": [
+      "D09 Synthèse du PPPT",
+      "D10 Fiche synthétique de la copropriété",
+      "D08 Carnet d'entretien (extraits)",
+      "D07 PV d'AG du 12/06/2025 (extraits)",
+      "D17 Dossier de diagnostic technique du lot (pour comparer)"
+    ],
+    "steps": [
+      "Relève l'année du permis de construire et le nombre de lots, et déduis les diagnostics communs exigés (amiante, plomb, DPE collectif).",
+      "Coche dans la check-list les documents présents et ceux à demander au syndic.",
+      "Dans D09, liste les travaux prévus avec leur année et leur état (votés, à voter).",
+      "Vérifie la cohérence entre D09 (prévu), D07 (voté) et D08 (réalisé).",
+      "Rédige la liste des pièces à demander au syndic, avec une phrase d'explication pour M. Bernard."
+    ],
+    "expected": "Permis 1970, immeuble de 1972, 48 lots principaux. Amiante : DTA obligatoire (permis avant le 1/07/1997) ; fiche récapitulative absente du dossier, à demander. Plomb parties communes : non concerné (après 1949). DPE collectif : réalisé en février 2026, classe E (copropriété de 50 lots ou moins : obligation depuis le 1/01/2026, décompte des lots à vérifier). PPPT adopté le 20/06/2024 : ravalement + ITE (voté le 12/06/2025 pour 1 150 000 €, démarrage avril 2027, D07), menuiseries des parties communes (à voter), toiture-terrasse en 2030 (étanchéité de 2004, fin de vie, D08 ; à voter, non chiffrée). Pas de DTG : non bloquant. Pièces à demander : fiche récapitulative du DTA, rapport complet du DPE collectif, PPPT complet, fiche synthétique à jour. Phrase : « Il me manque la fiche amiante de l'immeuble : je la demande au syndic pour que l'acquéreur l'ait dès la promesse. »"
+  },
+  "deliverable": {
+    "title": "Inventaire des documents des parties communes des Tilleuls",
+    "format": "PDF, 1 page (check-list cochée + pièces à demander)",
+    "criteria": [
+      "Les diagnostics communs exigés sont déduits de l'année du permis (DTA oui, plomb non)",
+      "Le DPE collectif est daté et classé (E, février 2026)",
+      "Les travaux du PPPT sont listés avec leur année et leur statut (voté, à voter)",
+      "Au moins une pièce manquante est identifiée et demandée au syndic",
+      "Aucun travail futur non voté n'est chiffré"
+    ]
+  },
+  "sources": [
+    { "label": "Code de la santé publique, art. R. 1334-29-5 (dossier technique amiante)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006191045/" },
+    { "label": "Ministère de la Santé : le repérage de l'amiante dans les bâtiments (permis avant le 1er juillet 1997)", "url": "https://sante.gouv.fr/sante-et-environnement/batiments/article/le-reperage-de-l-amiante-dans-les-batiments" },
+    { "label": "ANIL : obligations de diagnostic de l'immeuble, DPE collectif, DTG, PPPT (à jour au 04/11/2025)", "url": "https://www.anil.org/parole-expert-logement/diagnostics-immeuble-dpe-collectif-dtg-pppt-obligatoires/" },
+    { "label": "Loi n° 65-557 du 10 juillet 1965, art. 8-2 (fiche synthétique) et 14-2 (projet de plan pluriannuel de travaux)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068256/" },
+    { "label": "Service-Public : fiche synthétique de la copropriété (F34051)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34051" }
+  ],
+  "open_points": [
+    "À vérifier : obligation du constat plomb des parties communes (immeubles d'habitation d'avant 1949, code de la santé publique, art. L. 1334-8), reprise sans relecture du texte.",
+    "À vérifier (déjà signalé en v3) : décompte des lots des Tilleuls (48 lots principaux + caves et parkings) au regard des seuils du DPE collectif et du PPPT.",
+    "À vérifier : cas d'obligation du DTG (immeuble de plus de 10 ans mis en copropriété, procédure d'insalubrité) au moment de la diffusion.",
+    "La fiche récapitulative du DTA n'existe pas dans le dossier fil rouge : à créer ou à signaler comme pièce manquante (choix pédagogique à valider par Sébastien Paumier)."
+  ]
+}
