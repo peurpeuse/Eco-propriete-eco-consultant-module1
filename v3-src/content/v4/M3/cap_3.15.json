@@ -212,8 +212,8 @@
       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2034"
     },
     {
-      "label": "Légifrance — Code civil, art. 1792 à 1792-7 (responsabilité des constructeurs, réception, garanties)",
-      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006136352/"
+      "label": "Légifrance — Code civil (art. 1792, 1792-1, 1792-3, 1792-4-1, 1792-6 : responsabilité des constructeurs, réception, garanties)",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070721/"
     },
     {
       "label": "ANIL — Vente d'une maison individuelle, vendeur non professionnel, garantie décennale (Cass. 3e civ., 2 octobre 2002)",
@@ -221,7 +221,7 @@
     }
   ],
   "open_points": [
-    "à vérifier : URL de la section Légifrance des art. 1792 et suivants (Légifrance non consultable pendant la rédaction ; contenu vérifié via Service-Public F2958 et F2034)",
+    "à vérifier : texte en vigueur des art. 1792 et suivants du Code civil directement sur Légifrance (non consultable pendant la rédaction ; contenu vérifié via Service-Public F2958 et F2034)",
     "Qualification des fenêtres (ouvrage ou élément d'équipement) au regard des garanties décennale et biennale, et application de l'art. 1792-1 au vendeur : à faire relire par un juriste",
     "à vérifier : obligation d'assurance dommages-ouvrage pour ce type de travaux de rénovation (non mentionnée dans la fiche)",
     "Planning et PV de réception fictifs (variante du scénario B) : à valider par Sébastien Paumier ; remplacer par un PV réel anonymisé si disponible",

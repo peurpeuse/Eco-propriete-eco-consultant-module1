@@ -1,0 +1,166 @@
+{
+  "id": "3.3",
+  "module": 3,
+  "section": "A · Construire les indicateurs du bien",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Les indicateurs de performance : étiquette, kWh/m²/an, CO₂",
+  "objective": "Calculer, pour son bien fil rouge, l'écart de consommation (kWhEF et kWhEP/m²/an), d'émissions (kgCO₂/m²/an) et d'étiquette avant et après travaux, en citant la simulation d'un diagnostiqueur certifié",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Trois indicateurs, trois colonnes : avant, après travaux privatifs, après isolation de la copropriété. Sur l'appartement de M. Bernard, Sébastien Paumier fait passer la consommation de 150 à 110 puis 85 kWhEF/m²/an, l'étiquette de E à D puis C, et rappelle la règle d'or : l'étiquette après travaux est une simulation à faire établir par un diagnostiqueur certifié, jamais un chiffre de l'agent."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Avant travaux, l'appartement de M. Bernard consomme 150 kWhEF/m²/an ; après les travaux privatifs, environ 110 (estimation fictive). Quelle baisse en pourcentage ?",
+        "options": [
+          "Environ −27 %",
+          "−40 %",
+          "Environ −36 %"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : (150 − 110) / 150 = 40 / 150 ≈ 26,7 %, arrondi à −27 %.",
+          "Faux : 40 est l'écart en kWhEF/m²/an, pas en pourcentage.",
+          "Faux : c'est 40 / 110, divisé par la valeur d'arrivée au lieu de la valeur de départ."
+        ],
+        "fb_title": "Toujours diviser par le point de départ",
+        "fb_text": "Écart en % = (avant − après) / avant. Ici (150 − 110) / 150 ≈ 27 %. Diviser par la valeur d'arrivée gonfle le résultat : c'est une erreur fréquente, et un vendeur comme M. Bernard la repérera."
+      },
+      {
+        "question": "Sarah annonce à un acquéreur : « Après les travaux, l'appartement sera classé D, c'est sûr. » Que corriges-tu ?",
+        "options": [
+          "Rien, le calcul est simple",
+          "« Une simulation par un diagnostiqueur certifié estime un passage en D ; seul un nouveau DPE après travaux le confirmera »",
+          "« Il sera classé C »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : l'étiquette dépend de la méthode 3CL et des caractéristiques réelles posées ; l'agent ne la garantit pas.",
+          "Juste : on cite la source (simulation d'un diagnostiqueur certifié), on dit « estimation » et on renvoie au DPE final.",
+          "Faux : C suppose aussi l'isolation de la façade par la copropriété, prévue à partir d'avril 2027."
+        ],
+        "fb_title": "Simulation citée, pas promesse",
+        "fb_text": "La performance après travaux est une estimation tant qu'un nouveau DPE n'a pas été établi. Tu cites qui l'a simulée et avec quelle méthode, tu écris « estimation », et tu ne la garantis jamais."
+      },
+      {
+        "question": "Au 1/01/2027, le coefficient de l'électricité passe de 1,9 à 1,7. Que devient l'indicateur « 209 kWhEP/m²/an » après travaux privatifs ?",
+        "options": [
+          "Il ne change pas",
+          "≈ 187 kWhEP/m²/an, toujours classe D",
+          "≈ 232 kWhEP/m²/an, classe E"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : l'énergie primaire dépend directement du coefficient de conversion.",
+          "Juste : 110 × 1,7 = 187 kWhEP/m²/an ; le seuil de D va de 180 à 250, la classe reste D.",
+          "Faux : le coefficient baisse, l'énergie primaire baisse aussi."
+        ],
+        "fb_title": "Dater l'indicateur",
+        "fb_text": "L'énergie finale (110 kWhEF) ne bouge pas, l'énergie primaire oui : 110 × 1,9 = 209 en 2026 ; 110 × 1,7 = 187 en 2027. Dans les deux cas, classe D. D'où la date sur chaque indicateur."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableur : indicateurs de performance avant et après travaux (simulation d'étiquette fournie par un diagnostiqueur certifié)",
+    "kind": "tableur",
+    "intro": "Ce tableur compare trois états du bien fil rouge : avant, après travaux privatifs, après travaux de la copropriété. Il calcule les écarts de consommation, d'émissions et d'étiquette. Les valeurs « après » viennent d'une simulation à faire établir par un diagnostiqueur certifié : l'éco-consultant ne fabrique pas d'étiquette. Exemple rempli : appartement de M. Bernard (FICTIF). Parcours maison : la maison de Mme Garnier passe de G à D puis C selon l'audit M03.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Seuils des classes (logements de 40 m² et plus, France métropolitaine)",
+        "headers": ["Classe", "Énergie primaire (kWhEP/m²/an)", "Émissions (kgCO₂/m²/an)"],
+        "rows": [
+          ["A", "moins de 70", "moins de 6"],
+          ["B", "70 à 110", "6 à 11"],
+          ["C", "110 à 180", "11 à 30"],
+          ["D", "180 à 250", "30 à 50"],
+          ["E", "250 à 330", "50 à 70"],
+          ["F", "330 à 420", "70 à 100"],
+          ["G", "420 et plus", "100 et plus"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemple rempli : appartement de M. Bernard (FICTIF)",
+        "headers": ["Indicateur", "DPE 2023", "Attestation 2026", "Après travaux privatifs", "Après ITE copropriété"],
+        "rows": [
+          ["Énergie finale (kWhEF/m²/an)", "150", "150", "≈ 110", "≈ 85"],
+          ["Coefficient électricité", "2,3", "1,9", "1,9", "1,9"],
+          ["Énergie primaire (kWhEP/m²/an)", "345", "285", "≈ 209", "≈ 162"],
+          ["Émissions (kgCO₂/m²/an)", "12 (C)", "12 (C)", "≈ 8,8 (B)", "≈ 6,8 (B)"],
+          ["Étiquette retenue", "F", "E", "D (estimation)", "C (estimation)"],
+          ["Consommation totale (kWhEF/an)", "11 400", "11 400", "≈ 8 360", "≈ 6 460"]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Les calculs",
+        "text": "Énergie primaire = énergie finale × coefficient. Écart en % = (avant − après) / avant. Étiquette retenue = la moins bonne des deux classes (énergie, climat). M. Bernard : (150 − 110) / 150 ≈ −27 % ; (150 − 85) / 150 ≈ −43 % ; 285 → 209 kWhEP = −76. Émissions après travaux dérivées en proportion de l'énergie finale (12 × 110 / 150 ≈ 8,8), hypothèse à faire confirmer par le diagnostiqueur. Au 1/01/2027 (coefficient 1,7) : 255 (E), 187 (D), 145 (C)."
+      },
+      {
+        "type": "checklist",
+        "heading": "Avant de présenter ces indicateurs",
+        "items": [
+          "La colonne « avant » cite le DPE et l'attestation actualisée avec leurs dates",
+          "Les colonnes « après » citent la simulation du diagnostiqueur certifié (nom, date, méthode 3CL)",
+          "Le coefficient de conversion utilisé est écrit, avec sa date",
+          "Les écarts sont calculés sur la valeur de départ",
+          "La mention « estimation, à confirmer par un nouveau DPE après travaux » figure sur la fiche"
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Aujourd'hui, votre appartement est en E. Selon la simulation du diagnostiqueur, les travaux privatifs le feraient passer autour de D, et l'isolation de l'immeuble autour de C. Ce sont des estimations : seul un nouveau DPE, après les travaux, le confirmera. »"
+      }
+    ],
+    "footer": "Sources : Ministère de la Transition écologique, guide DPE pour les diagnostiqueurs (seuils) ; arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027) ; ADEME, Observatoire DPE-Audit ; DPE D02 et attestation D03 (FICTIFS). Valeurs après travaux : estimation fictive, simulation à obtenir d'un diagnostiqueur certifié. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Calculer les écarts de performance de son bien fil rouge",
+    "duration_min": 30,
+    "context": "Le vendeur de ton bien fil rouge veut savoir ce que changeraient les travaux sur l'étiquette, la consommation et les émissions. Tu as le DPE, l'attestation ou l'audit, et la simulation d'un diagnostiqueur. Tu remplis le tableur et tu calcules les écarts, sans rien inventer.",
+    "materials": [
+      "Appartement : D02 DPE du 14/03/2023, D03 attestation actualisée, D13 devis, Bible §6 (estimation de performance fictive)",
+      "Maison : M02 DPE du 06/02/2024, M03 audit énergétique du 15/10/2026",
+      "Tableur des indicateurs de performance (ressource)"
+    ],
+    "steps": [
+      "Remplis la colonne « avant » : énergie finale, coefficient, énergie primaire, émissions, étiquette, avec la source et la date.",
+      "Remplis les colonnes « après » à partir de la simulation fournie, en citant qui l'a faite.",
+      "Calcule les écarts en valeur et en pourcentage pour chaque indicateur.",
+      "Recalcule l'énergie primaire avec le coefficient 1,7 (au 1/01/2027) et dis si l'étiquette change.",
+      "Écris deux phrases pour le vendeur, avec le mot « estimation »."
+    ],
+    "expected": "Pour M. Bernard. Avant : 150 kWhEF/m²/an ; DPE 2023 : × 2,3 = 345 kWhEP (F) ; attestation 2026 : × 1,9 = 285 kWhEP (E) ; émissions 12 kgCO₂/m²/an (C) ; étiquette retenue E. Après travaux privatifs (estimation fictive) : ≈ 110 kWhEF, × 1,9 ≈ 209 kWhEP (D), émissions ≈ 12 × 110 / 150 ≈ 8,8 (B) → D. Après ITE : ≈ 85 kWhEF, ≈ 162 kWhEP (C), ≈ 6,8 kgCO₂ (B) → C. Écarts : −40 kWhEF/m²/an (≈ −27 %) puis −65 (≈ −43 %) ; −76 puis −123 kWhEP/m²/an ; total 11 400 → 8 360 → 6 460 kWhEF/an. Coefficient 1,7 : 255 (E), 187 (D), 145 (C) : aucune classe ne change. Pour Mme Garnier (audit M03) : G (400 kWhEP, 119 kgCO₂) → D après l'étape 1 → C (≈ 120 kWhEP, 8 kgCO₂) après rénovation globale. Phrases avec « estimation » et renvoi au DPE après travaux.",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Tableau des indicateurs de performance avant / après de son bien fil rouge",
+    "format": "Tableur ou PDF, 1 page",
+    "criteria": [
+      "Les trois indicateurs (énergie, émissions, étiquette) sont renseignés avant et après, avec source et date",
+      "Les écarts en valeur et en pourcentage sont justes (calculés sur la valeur de départ)",
+      "Le coefficient de conversion utilisé est indiqué, avec le recalcul au 1/01/2027",
+      "Les valeurs « après » sont attribuées à une simulation de diagnostiqueur certifié",
+      "La mention « estimation, à confirmer par un nouveau DPE » figure"
+    ]
+  },
+  "sources": [
+    { "label": "Ministère de la Transition écologique, Guide DPE pour les diagnostiqueurs : seuils des classes A à G (énergie primaire et émissions)", "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_pour_les_diagnostiqueurs_DPE.pdf" },
+    { "label": "Légifrance, arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
+    { "label": "Service-Public, Diagnostic de performance énergétique (F16096, vérifié le 1/01/2026) : validité 10 ans", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096" },
+    { "label": "ADEME, Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+    { "label": "Proposition pédagogique Éco-Propriété : performances après travaux FICTIVES (Bible §6 et §11.3), émissions après travaux dérivées en proportion" }
+  ],
+  "open_points": [
+    "Émissions après travaux (≈ 8,8 et 6,8 kgCO₂/m²/an) : dérivées en proportion de l'énergie finale, absentes de la Bible ; à faire confirmer (ou remplacer) par la simulation d'un diagnostiqueur.",
+    "Prévoir dans le dossier fil rouge un document « simulation d'étiquette après travaux » signé d'un diagnostiqueur fictif (Diag77), cité par le PLAN.",
+    "Seuils pour les logements de moins de 40 m² : non traités ici (seuils ajustés), à mentionner si un apprenant travaille sur un petit logement."
+  ]
+}

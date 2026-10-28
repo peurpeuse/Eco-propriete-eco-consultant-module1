@@ -1,0 +1,186 @@
+{
+  "id": "2.7",
+  "module": 2,
+  "section": "C · Le DPE et l'audit énergétique",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Lire un DPE : les bases de la méthode 3CL",
+  "objective": "Lire un DPE établi selon la méthode 3CL rubrique par rubrique, vérifier sa validité et la classe en vigueur, et en extraire les données clés qui serviront à l'estimation",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Le DPE de M. Bernard fait plusieurs pages ; Mozi n'en a lu qu'une lettre, F, et en a tiré « −15 % ». Le chapitre ouvre le document dans l'ordre : validité, étiquettes, coûts, déperditions, usages, recommandations. La méthode 3CL calcule une consommation conventionnelle sur le bâti et les équipements, pas sur les factures."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi a lu « F » sur le DPE de M. Bernard et annonce « −15 % ». Qu'a-t-il oublié de regarder ?",
+        "options": [
+          "Rien : seule la lettre compte pour le prix",
+          "La date et l'attestation actualisée : la classe en vigueur est E, et le reste du DPE dit où sont les faiblesses",
+          "Le nom du diagnostiqueur"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : la lettre seule ne dit ni si elle est en vigueur, ni pourquoi le logement consomme.",
+          "Juste : avec le coefficient de 2026, l'attestation actualisée donne E ; et le DPE détaille les postes à travailler.",
+          "Faux : utile pour vérifier la certification, mais ce n'est pas ce qui change l'analyse."
+        ],
+        "fb_title": "Une lettre ne suffit pas",
+        "fb_text": "Un DPE se lit en entier : validité, classe en vigueur (ici E par l'attestation actualisée ADEME), consommations par usage, schéma des déperditions, recommandations. C'est avec ces pages que tu parles du bien avec des faits, pas avec un pourcentage tout fait."
+      },
+      {
+        "question": "Dans un DPE établi depuis juillet 2021, quelle rubrique te dit par quelles parois le logement perd le plus de chaleur ?",
+        "options": [
+          "L'étiquette climat",
+          "L'estimation des coûts annuels",
+          "Le schéma des déperditions"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : l'étiquette climat mesure les émissions de gaz à effet de serre.",
+          "Faux : les coûts donnent une fourchette en euros, pas la répartition des pertes.",
+          "Juste : il répartit les pertes (murs, fenêtres, plancher, toit, ponts thermiques, ventilation)."
+        ],
+        "fb_title": "Le schéma des déperditions",
+        "fb_text": "Le DPE 2021 contient un schéma qui répartit les pertes et un indicateur de performance de l'isolation sur quatre niveaux. C'est ta porte d'entrée vers les travaux prioritaires, à croiser avec ta visite."
+      },
+      {
+        "question": "La maison de Mme Garnier consomme 380 kWhEF/m²/an, surtout du fioul. Pourquoi sa classe reste-t-elle G avec le coefficient électricité de 2026 ?",
+        "options": [
+          "Parce que l'étiquette climat (≈ 119 kgCO₂/m²/an) est G, et que la classe retenue est la moins bonne des deux",
+          "Parce que le coefficient ne change qu'en 2027",
+          "Parce que les maisons ne peuvent pas avoir d'attestation actualisée"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : le fioul émet beaucoup ; le climat reste G, quelle que soit l'énergie primaire.",
+          "Faux : le coefficient est à 1,9 depuis le 1/01/2026 ; il ne concerne que la part électrique.",
+          "Faux : l'attestation existe pour tout DPE établi depuis le 1/07/2021 ; elle ne change simplement pas la classe ici."
+        ],
+        "fb_title": "Double seuil : la moins bonne l'emporte",
+        "fb_text": "La classe d'un DPE est la moins bonne entre l'énergie et le climat. Chez Mme Garnier, l'énergie est F (≈ 393 avec 1,9) mais le climat est G (≈ 119) : c'est le fioul qui la classe G. Chez M. Bernard, tout électrique, c'est l'énergie qui décide."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche lecture DPE",
+    "kind": "fiche",
+    "intro": "La grille pour lire un DPE établi selon la méthode 3CL-DPE 2021 en 10 minutes : vérifier sa validité, relever la classe en vigueur, repérer les postes faibles. Rappel : la méthode 3CL calcule une consommation conventionnelle (usage standard) à partir du bâti et des équipements, pas à partir des factures.",
+    "sections": [
+      {
+        "heading": "Les rubriques du DPE, dans l'ordre de lecture",
+        "type": "table",
+        "headers": ["Rubrique", "Ce que tu relèves", "M. Bernard (D02 / D03)"],
+        "rows": [
+          ["En-tête", "N° ADEME (13 caractères), date d'établissement, fin de validité, surface, énergie", "2377E0123456X ; 14/03/2023 ; 13/03/2033 ; 76 m² ; tout électrique"],
+          ["Étiquettes énergie et climat", "kWhEP/m²/an, kgCO₂/m²/an, les deux classes, la classe retenue", "345 (F) et 12 (C) → F en 2023 ; attestation : E"],
+          ["Estimation des coûts annuels", "Fourchette en € et année de référence des prix", "2 330 à 3 190 €/an, prix au 1/01/2021"],
+          ["Schéma des déperditions et isolation", "Postes dominants, indicateur d'isolation (4 niveaux)", "À relever sur le D02"],
+          ["Ventilation, confort d'été", "Type de ventilation, indicateur de confort d'été", "Ventilation naturelle, pas de VMC"],
+          ["Consommations par usage", "Chauffage, eau chaude, éclairage, auxiliaires", "112 / 26 / 4 / 8 = 150 kWhEF/m²/an"],
+          ["Recommandations", "Usage, entretien, deux scénarios de travaux avec fourchettes de coûts", "À comparer aux devis D13 (16 500 €)"],
+          ["Descriptif technique", "Données d'entrée (parois, menuiseries, équipements)", "Simple vitrage des chambres, convecteurs 1998, ballon 2011"]
+        ]
+      },
+      {
+        "heading": "Validité : la vérification en 30 secondes",
+        "type": "checklist",
+        "items": [
+          "DPE établi avant le 1/07/2021 : plus valable aujourd'hui, nouveau DPE avant la mise en vente",
+          "DPE établi depuis le 1/07/2021 : valable 10 ans (M. Bernard : jusqu'au 13/03/2033 ; Mme Garnier : jusqu'au 05/02/2034)",
+          "Logement chauffé à l'électricité, DPE antérieur à 2026 : télécharger l'attestation actualisée gratuite sur l'observatoire DPE-Audit de l'ADEME",
+          "Numéro à 13 caractères absent ou introuvable sur l'observatoire : le DPE n'est pas valable",
+          "Travaux réalisés depuis le DPE : un nouveau DPE est conseillé pour les valoriser",
+          "Annonce : classe en vigueur, classe climat, dépenses annuelles avec l'année des prix ; « consommation énergétique excessive » seulement pour F et G"
+        ]
+      },
+      {
+        "heading": "Les 3 données clés à extraire pour l'estimation",
+        "type": "steps",
+        "items": [
+          "La classe en vigueur et ce qui la décide (énergie ou climat), avec l'écart au seuil voisin.",
+          "L'usage qui pèse le plus (part dans l'énergie finale) : chez M. Bernard, le chauffage, 112 / 150 ≈ 75 %.",
+          "Le poste de déperdition dominant et la recommandation qui le traite, à comparer aux devis."
+        ]
+      },
+      {
+        "heading": "Ce que le DPE n'est pas",
+        "type": "list",
+        "items": [
+          "Pas la facture du vendeur : c'est une consommation conventionnelle (capsule 2.9 pour les écarts).",
+          "Pas un devis : les recommandations sont des fourchettes, à comparer à de vrais devis.",
+          "Pas une expertise du bâti : fissures, humidité et toiture se traitent à l'audit 360° (capsules 2.18 et 2.19)."
+        ]
+      },
+      {
+        "heading": "La phrase à dire au vendeur",
+        "type": "text",
+        "text": "« Votre DPE est valable jusqu'en 2033 et votre classe officielle est E, grâce à l'attestation de l'ADEME. Le chauffage fait les trois quarts de la consommation : c'est là que se trouvent les marges. Je m'appuie sur ces pages, pas sur une lettre. »"
+      }
+    ],
+    "footer": "Sources : ecologie.gouv.fr (DPE) ; ANIL (contenu du DPE 2021) ; service-public.fr F16096 et F32061 ; observatoire DPE-Audit de l'ADEME ; arrêtés du 13/08/2025 et du 19/08/2026 (coefficient électricité). Données du fil rouge fictives. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Retrouver 3 données clés d'un DPE réel",
+    "duration_min": 25,
+    "context": "Avant de lire le DPE d'un client, tu t'entraînes sur un DPE réel public, puis tu compares avec le DPE fictif de M. Bernard. Les DPE sont consultables par leur numéro sur l'observatoire DPE-Audit de l'ADEME : tu n'en tires aucune donnée personnelle (pas de nom, pas d'adresse dans ton rendu).",
+    "materials": [
+      "Observatoire DPE-Audit de l'ADEME (un DPE réel de ton secteur, établi depuis le 1/07/2021)",
+      "D02 DPE du 14/03/2023 (synthèse) et D03 attestation actualisée (M. Bernard)",
+      "Fiche lecture DPE (ressource de la capsule)"
+    ],
+    "steps": [
+      "Ouvre un DPE réel sur l'observatoire et vérifie : date, fin de validité, numéro à 13 caractères.",
+      "Relève les deux étiquettes et dis laquelle décide de la classe.",
+      "Relève les consommations par usage et calcule la part de l'usage principal.",
+      "Relève le poste de déperdition dominant et la recommandation qui le traite.",
+      "Fais le même relevé sur le D02 / D03 de M. Bernard et compare les deux en 3 lignes."
+    ],
+    "expected": "Pour M. Bernard (corrigé) : 1) validité : établi le 14/03/2023, valable jusqu'au 13/03/2033 ; classe en vigueur E (attestation D03), climat C ; l'énergie décide (150 × 1,9 = 285, entre 251 et 330) ; 2) usage principal : chauffage, 112 sur 150 kWhEF/m²/an, soit ≈ 74,7 % ; eau chaude ≈ 17,3 % ; 3) faiblesses attendues au schéma : murs peu isolés et pont thermique du balcon, fenêtres simple vitrage des chambres, ventilation naturelle ; recommandations à comparer aux devis D13 (16 500 €). Pour le DPE réel : même grille, sans nom ni adresse ; par exemple « maison de 1975, gaz, classe D par l'énergie (215), climat D, chauffage 70 %, murs en tête des déperditions »."
+  },
+  "deliverable": {
+    "title": "Relevé de 3 données clés : un DPE réel et le DPE de M. Bernard",
+    "format": "1 page (PDF) : deux colonnes, 3 données clés chacune, + 3 lignes de comparaison",
+    "criteria": [
+      "La validité est vérifiée pour les deux DPE (date, fin de validité, numéro)",
+      "La classe en vigueur et l'étiquette qui la décide sont justes",
+      "La part de l'usage principal est calculée",
+      "Le poste de déperdition dominant est relié à une recommandation",
+      "Aucune donnée personnelle (nom, adresse) ne figure dans le rendu"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Ministère de la Transition écologique : le DPE (indicateurs, recommandations, opposabilité)",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/diagnostic-performance-energetique-dpe"
+    },
+    {
+      "label": "ANIL : DPE, contenu (schéma des déperditions, isolation sur 4 niveaux, deux scénarios de travaux)",
+      "url": "https://www.anil.org/aj-dpe-mentions-obligatoires-annonces-baux-immobiliers/"
+    },
+    {
+      "label": "Service-Public F16096 : DPE (validité 10 ans, coefficient 1,9 puis 1,7, mise à jour gratuite)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+    },
+    {
+      "label": "Service-Public F32061 : mentions DPE dans les annonces",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32061"
+    },
+    {
+      "label": "Observatoire DPE-Audit de l'ADEME (attestation actualisée, consultation par numéro)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "Arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027), NOR VLOL2617030A",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+    }
+  ],
+  "open_points": [
+    "Rédacteur du dossier : le D02 fictif doit contenir un schéma des déperditions, un indicateur d'isolation et deux scénarios de recommandations cohérents avec le D13",
+    "Facteur d'émission du fioul (0,324 kgCO₂/kWh) utilisé pour le DPE de Mme Garnier : à vérifier dans la méthode 3CL",
+    "Chapitre à adapter depuis chap_2.4 (v3) : la séquence IA est retirée (la capsule n'est plus IA) ; écrans 13-14 sur cet exercice"
+  ]
+}

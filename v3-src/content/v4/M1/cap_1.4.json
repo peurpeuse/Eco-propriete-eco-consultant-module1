@@ -149,7 +149,7 @@
  "sources": [
   { "label": "data.gouv.fr — Demandes de valeurs foncières (DVF), mise à jour du 12/10/2026", "url": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/" },
   { "label": "data.gouv.fr — Explorateur des données immobilières (DVF)", "url": "https://explore.data.gouv.fr/immobilier" },
-  { "label": "Insee — Dossier complet d'une commune", "url": "https://www.insee.fr/fr/statistiques/2011101" },
+  { "label": "Insee — Dossier complet d'une commune (exemple : Melun, 77288)", "url": "https://www.insee.fr/fr/statistiques/2011101?geo=COM-77288" },
   { "label": "ADEME — Observatoire DPE-Audit", "url": "https://observatoire-dpe-audit.ademe.fr" },
   { "label": "IGN — Géoportail (cartes et temps de trajet)", "url": "https://www.geoportail.gouv.fr" }
  ],

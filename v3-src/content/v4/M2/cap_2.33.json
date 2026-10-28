@@ -1,0 +1,165 @@
+{
+ "id": "2.33",
+ "module": 2,
+ "section": "L · PARCOURS MAISON · Sa valeur vénale : sol + construction, bâti-terrain, capitalisation",
+ "etape": "4 (Éco-staging)",
+ "parcours": "maison",
+ "prio": false,
+ "ia": false,
+ "title": "Maison : la vétusté, corps d'état par corps d'état",
+ "objective": "Établir la vétusté d'une maison corps d'état par corps d'état, à partir de l'âge, de la durée de vie et de l'état constaté, puis calculer la valeur sol + construction",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Mozi applique « 1 % par an » à toute la maison de Mme Garnier : 58 ans, donc 58 % de vétusté, partout pareil. Sébastien Paumier reprend le coût à neuf poste par poste et montre qu'une toiture de 1968, une salle de bains de 2015 et des murs en parpaing ne vieillissent pas au même rythme, puis assemble sol et construction dépréciée."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "La salle de bains de Mme Garnier date de 2015, la toiture de 1968. Mozi applique 58 % de vétusté à toute la maison. Quelle est son erreur ?",
+    "options": [
+     "Il aurait dû appliquer 68 %",
+     "Il oublie que la vétusté se mesure par corps d'état : chaque poste a son âge, sa durée de vie et son état",
+     "Il n'y a pas d'erreur, la vétusté est la même pour toute la maison"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : le niveau n'est pas le problème ; c'est l'application d'un taux unique à des postes d'âges différents.",
+     "Juste : une plomberie et des sanitaires refaits en 2015 ne sont pas usés comme une couverture d'origine.",
+     "Faux : une rénovation partielle rajeunit certains postes ; un taux unique les ignore."
+    ],
+    "fb_title": "Un taux par poste",
+    "fb_text": "Vétusté du poste = jugement fondé sur l'âge, la durée de vie et l'état constaté. La vétusté globale se déduit ensuite : ici environ 59 % pour la maison, et non 58 % partout."
+   },
+   {
+    "question": "La couverture (coût à neuf 21 280 €) a une vétusté retenue de 85 %. Quelle est sa valeur dépréciée ?",
+    "options": [
+     "3 192 €",
+     "18 088 €",
+     "21 280 €"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : 21 280 × (1 − 0,85) = 21 280 × 0,15 = 3 192 €.",
+     "Faux : 18 088 € correspond à la part usée (85 %), pas à la valeur qui reste.",
+     "Faux : c'est le coût à neuf ; la vétusté n'est pas appliquée."
+    ],
+    "fb_title": "Valeur dépréciée = coût à neuf × (1 − vétusté)",
+    "fb_text": "La vétusté est la part usée. Ce qui reste dans la valeur, c'est le complément. Tuiles de 1968 dont certaines cassées et gouttières à reprendre : 85 % est un jugement, à écrire avec sa justification."
+   }
+   ,
+   {
+    "question": "Tu as déjà appliqué 85 % de vétusté au chauffage fioul de 1996. Faut-il aussi retirer le coût de la pompe à chaleur de l'audit ?",
+    "options": [
+     "Oui, pour être prudent",
+     "Oui, mais seulement la moitié",
+     "Non : la vétusté traduit déjà l'usure ; retirer en plus les travaux compterait le même défaut deux fois"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : la prudence ne justifie pas un double compte ; ta valeur serait trop basse et indéfendable.",
+     "Faux : la moitié reste un double compte partiel, sans preuve.",
+     "Juste : dans la méthode sol + construction, l'usure passe par la vétusté ; les travaux de l'audit servent à la valeur après rénovation."
+    ],
+    "fb_title": "Vétusté ou travaux, pas les deux",
+    "fb_text": "Un défaut, une case, un montant : la règle des 8 familles vaut aussi ici. Le coût des travaux de l'audit (M14) sert à présenter l'après, pas à déprécier une deuxième fois."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Grille de vétusté par corps d'état",
+  "kind": "fiche",
+  "intro": "La vétusté mesure la perte de valeur d'une construction par l'usure, l'âge et l'obsolescence. Elle s'applique poste par poste au coût à neuf (capsule 2.32). Les durées de vie et les taux ci-dessous sont des VALEURS FICTIVES D'EXEMPLE pour le fil rouge : il n'existe pas de grille officielle unique pour l'évaluation. Chaque taux retenu est un jugement écrit, fondé sur l'âge et sur l'état constaté.",
+  "sections": [
+   {
+    "type": "table",
+    "heading": "Grille appliquée à la maison de Mme Garnier (FICTIF)",
+    "headers": ["Poste", "Coût à neuf", "Âge, durée de vie indicative", "État constaté", "Vétusté retenue", "Valeur dépréciée"],
+    "rows": [
+     ["Gros œuvre, fondations, sous-sol", "72 352 €", "58 ans / 120 ans", "Fissures du pignon nord à faire examiner, humidité en pied de mur", "35 %", "47 029 €"],
+     ["Charpente, couverture, zinguerie", "21 280 €", "58 ans / 60 ans", "Tuiles cassées, gouttières à reprendre", "85 %", "3 192 €"],
+     ["Menuiseries extérieures", "19 152 €", "58 ans (9 fenêtres) et 18 ans (séjour) / 30 ans", "Simple vitrage d'origine, condensation", "80 %", "3 830 €"],
+     ["Isolation, plâtrerie, menuiseries intérieures", "25 536 €", "58 ans ; combles 1985 / 40 ans", "Murs non isolés, 5 cm de laine tassée", "70 %", "7 661 €"],
+     ["Chauffage, eau chaude, ventilation", "21 280 €", "Chaudière 30 ans / 25 ans", "Fioul 1996, radiateurs fonte réutilisables, pas de VMC", "85 %", "3 192 €"],
+     ["Plomberie, sanitaires", "12 768 €", "Salle de bains 11 ans / 25 ans", "Bon état, réseaux anciens", "40 %", "7 661 €"],
+     ["Électricité", "14 896 €", "Tableau 21 ans / 30 ans", "3 anomalies au diagnostic", "60 %", "5 958 €"],
+     ["Revêtements, peinture", "17 024 €", "Cuisine 2012, salle de bains 2015, reste ancien", "Correct", "50 %", "8 512 €"],
+     ["Réseaux, assainissement", "8 512 €", "Épandage 1985 / 30 ans", "SPANC non conforme (M08)", "90 %", "851 €"],
+     ["Véranda", "7 200 €", "31 ans (1995)", "Non chauffée, correcte", "50 %", "3 600 €"],
+     ["Total", "220 000 €", "", "", "≈ 58 %", "91 486 €"]
+    ]
+   },
+   {
+    "type": "formula",
+    "heading": "Du coût à neuf à la valeur sol + construction",
+    "text": "Valeur dépréciée d'un poste = coût à neuf × (1 − vétusté). Construction dépréciée = 87 886 € (maison) + 3 600 € (véranda) = 91 486 €, arrondi à 91 500 €. Vétusté globale de la maison = 1 − 87 886 ÷ 212 800 = 58,7 %. Valeur sol + construction = sol 152 000 € (capsule 2.31) + construction 91 500 € = 243 500 €."
+   },
+   {
+    "type": "list",
+    "heading": "Les règles de la grille",
+    "items": [
+     "Un taux par poste, jamais un taux unique pour toute la maison.",
+     "Le taux part de l'âge et de la durée de vie, puis se corrige selon l'état constaté : écris la raison.",
+     "Un poste rénové repart de la date de sa rénovation (salle de bains 2015, cuisine 2012).",
+     "Plafonne la vétusté d'un poste qui fonctionne encore (ici 85 à 90 %) : il garde une valeur d'usage.",
+     "Pas de double compte : la vétusté traduit l'usure, les devis de travaux servent à l'après.",
+     "Une pathologie non diagnostiquée (fissures) se signale et se renvoie vers un professionnel, sans chiffre inventé."
+    ]
+   },
+   {
+    "type": "text",
+    "heading": "La phrase à dire à Mme Garnier",
+    "text": "« J'ai regardé votre maison élément par élément : la salle de bains et la cuisine sont récentes, la toiture, les fenêtres et le chauffage sont en fin de vie. Cette méthode donne environ 243 500 €. C'est un contrôle : la valeur principale vient des ventes de maisons comparables. »"
+   }
+  ],
+  "footer": "Sources : Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : coût de remplacement déprécié, dépréciations (usure, obsolescence) et limite de l'approche sol + construction (un bien est un ensemble indissociable). Durées de vie, taux et état : valeurs FICTIVES d'exemple tirées de la bible §11.2 à §11.4. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Établir la vétusté de la maison fil rouge",
+  "duration_min": 35,
+  "context": "Tu as le coût à neuf par postes de la maison de Mme Garnier (220 000 € avec la véranda, capsule 2.32) et la valeur du sol de la parcelle (152 000 €, capsule 2.31). Tu établis la vétusté poste par poste à partir du dossier, puis la valeur sol + construction.",
+  "materials": [
+   "M04 Plan et descriptif, M05 Reportage photo commenté",
+   "M02 DPE, M03 Audit énergétique",
+   "M08 Rapport du SPANC, M09 Diagnostics amiante et électricité",
+   "Tableau du coût à neuf par postes (capsule 2.32)"
+  ],
+  "steps": [
+   "Pour chaque poste, relève dans le dossier l'année de construction ou de rénovation et l'état constaté.",
+   "Propose un taux de vétusté par poste et écris sa justification en une ligne.",
+   "Calcule la valeur dépréciée de chaque poste et le total de la construction.",
+   "Calcule la vétusté globale et la valeur sol + construction.",
+   "Écris en 2 phrases pourquoi tu ne retires pas en plus le coût des travaux de l'audit."
+  ],
+  "expected": "Taux attendus (avec une tolérance de plus ou moins 10 points si la justification tient) : gros œuvre 35 % (58 ans sur 120, fissures à faire examiner) → 47 029 € ; couverture 85 % (tuiles 1968, tuiles cassées) → 3 192 € ; menuiseries 80 % (9 fenêtres simple vitrage d'origine, séjour 2008) → 3 830 € ; isolation 70 % → 7 661 € ; chauffage 85 % (fioul 1996) → 3 192 € ; plomberie 40 % (salle de bains 2015) → 7 661 € ; électricité 60 % (3 anomalies) → 5 958 € ; revêtements 50 % → 8 512 € ; réseaux 90 % (SPANC non conforme) → 851 € ; véranda 50 % → 3 600 €. Construction dépréciée : 91 486 €, arrondi 91 500 €. Vétusté globale de la maison : 58,7 %. Sol + construction : 152 000 + 91 500 = 243 500 €. Pas de déduction des travaux : la vétusté traduit déjà l'usure du chauffage, des fenêtres et de l'isolation ; retirer en plus les 78 000 € de l'audit compterait ces défauts deux fois. Les travaux servent à présenter la valeur après rénovation.",
+  "ia_prompt": null
+ },
+ "deliverable": {
+  "title": "Grille de vétusté de la maison de Mme Garnier",
+  "format": "Tableau XLSX ou PDF, 1 page",
+  "criteria": [
+   "Chaque poste a un taux de vétusté justifié par l'âge et l'état constaté",
+   "Les valeurs dépréciées sont justes et leur total est calculé",
+   "La vétusté globale et la valeur sol + construction sont calculées",
+   "Aucun coût de travaux n'est retiré en plus de la vétusté",
+   "Les fissures sont signalées comme à faire examiner, sans montant inventé"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : méthode du coût de remplacement déprécié, dépréciations, limites de l'approche sol + construction",
+   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+  },
+  {
+   "label": "Bible du fil rouge §11.2 à §11.4 : âges et états des équipements de la maison de Mme Garnier (fictif)"
+  },
+  {
+   "label": "Capsules 2.31 (sol 152 000 €) et 2.32 (coût à neuf 220 000 €) de ce parcours"
+  }
+ ],
+ "open_points": [
+  "Aucune grille officielle de vétusté pour l'évaluation : durées de vie et taux fictifs à remplacer par la grille choisie par Sébastien Paumier (barème professionnel ou grille interne Éco-Propriété).",
+  "À définir avec Sébastien Paumier : tolérance acceptée sur les taux dans la correction (proposée : plus ou moins 10 points avec justification).",
+  "Fissures du pignon nord : pas de chiffrage sans avis d'un professionnel (bureau d'études ou expert) ; à rappeler dans la vidéo."
+ ]
+}

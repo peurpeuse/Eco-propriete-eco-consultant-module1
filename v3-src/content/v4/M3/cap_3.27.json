@@ -1,0 +1,236 @@
+{
+  "id": "3.27",
+  "module": 3,
+  "section": "E · Être choisi : offre, honoraires, engagements",
+  "etape": "7",
+  "parcours": null,
+  "prio": false,
+  "ia": true,
+  "title": "Obtenir le mandat exclusif",
+  "objective": "Construire et présenter un argumentaire d'exclusivité en 5 temps, fondé sur des engagements écrits et vérifiables, conforme à la loi Hoguet",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "« Plus j'aurai d'agences, plus j'aurai de chances. » Mozi, en blazer violet, répond « en exclusif, je vous garantis 91 jours ». Sébastien Paumier montre comment M. Bernard signe le 5 novembre 2026 : l'exclusivité comme un échange, cinq engagements écrits, la clause lue ensemble, la sortie après trois mois expliquée. Et comment l'IA aide à rédiger l'argumentaire, vérifié ligne par ligne."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "M. Bernard signe un mandat exclusif de 3 mois le 5/11/2026. « Et si je ne suis pas satisfait ? » Que lui réponds-tu ?",
+        "options": [
+          "Il est engagé sans sortie possible jusqu'à la fin",
+          "Passé 3 mois à compter de la signature, chacun peut le dénoncer à tout moment avec 15 jours de préavis par LRAR",
+          "Il peut résilier à tout moment par simple appel"
+        ],
+        "answer": 1,
+        "fb_title": "Article 78 du décret de 1972",
+        "fb_text": "Passé un délai de 3 mois à compter de sa signature, le mandat contenant une clause d'exclusivité peut être dénoncé à tout moment par chacune des parties, avec un préavis d'au moins 15 jours par lettre recommandée avec demande d'avis de réception.",
+        "whys": [
+          "Faux : la loi prévoit une sortie après 3 mois.",
+          "Juste : c'est la règle de l'art. 78 du décret n° 72-678.",
+          "Faux : la dénonciation se fait par LRAR, avec 15 jours de préavis."
+        ]
+      },
+      {
+        "question": "Mozi lance au vendeur : « En exclusif, je vous garantis une vente en 91 jours. » Quelle phrase utilises-tu, toi, avec le chiffre de l'enquête leboncoin Immo ?",
+        "options": [
+          "« En exclusif, je vous garantis une vente en 91 jours. »",
+          "« C'est la moyenne nationale officielle. »",
+          "« Les professionnels interrogés déclarent vendre plus vite en exclusif ; c'est un indicateur, pas une promesse. »"
+        ],
+        "answer": 2,
+        "fb_title": "Déclaratif, à citer comme tel",
+        "fb_text": "Enquête leboncoin Immo auprès de 419 professionnels (sept.-oct. 2025) : des déclarations, pas des mesures sur transactions ni une statistique officielle. Tu la cites avec sa source et ses limites.",
+        "whys": [
+          "Faux : c'est l'erreur de Mozi, une promesse de délai fondée sur un chiffre déclaratif.",
+          "Faux : ce n'est ni une moyenne nationale ni un chiffre officiel.",
+          "Juste : source, nature déclarative et limite annoncées."
+        ]
+      },
+      {
+        "question": "Lequel de ces engagements est rédigé de façon vérifiable ?",
+        "options": [
+          "« Compte rendu écrit toutes les 2 semaines (contacts, visites, retours), premier envoi le 19/11/2026. »",
+          "« Je ferai le maximum pour vendre votre bien. »",
+          "« Une communication de qualité. »"
+        ],
+        "answer": 0,
+        "fb_title": "Un engagement se coche",
+        "fb_text": "Un engagement écrit précise quoi, quand, sous quelle forme. Pour l'exclusivité, la loi impose d'ailleurs que le mandat précise les actions de l'agent et la périodicité de ses comptes rendus (loi n° 70-9, art. 6 I).",
+        "whys": [
+          "Juste : action, fréquence, contenu et date de départ précis.",
+          "Faux : invérifiable.",
+          "Faux : aucun critère mesurable."
+        ]
+      }
+    ]
+  },
+  "resource": {
+    "title": "Argumentaire type",
+    "kind": "argumentaire",
+    "intro": "Cet argumentaire t'aide à proposer l'exclusivité comme un échange : le vendeur te confie seul la vente, tu t'engages par écrit. Il contient la trame en 5 temps, les phrases clés, la charte d'engagements à annexer au mandat et la check-list Hoguet à vérifier avant la signature. À adapter au modèle de mandat de ton agence et à faire valider par son service juridique.",
+    "sections": [
+      {
+        "heading": "La trame en 5 temps",
+        "type": "steps",
+        "items": [
+          "Ce qui est déjà fait : « Votre étiquette est vérifiée (E), la valeur est prouvée par les ventes, la stratégie est chiffrée. »",
+          "Pourquoi l'exclusivité sert son projet : un seul prix affiché, un seul dossier présenté de la même façon, un seul responsable qui rend des comptes.",
+          "Mes engagements écrits, annexés au mandat (charte ci-dessous).",
+          "Le cadre et la sortie : durée, clause lue ensemble, dénonciation possible après 3 mois avec 15 jours de préavis par LRAR.",
+          "L'étape : signature, inscription au registre des mandats, exemplaire numéroté remis avec la charte."
+        ]
+      },
+      {
+        "heading": "Phrases clés",
+        "type": "list",
+        "items": [
+          "« Vous me confiez seul la vente ; je m'engage par écrit sur ce que je fais, et quand. »",
+          "« Un même bien affiché à plusieurs prix fait attendre les acheteurs. Avec moi, un seul prix et un seul dossier. »",
+          "« Les professionnels interrogés par leboncoin Immo en 2025 déclarent 91 jours en exclusif contre 142 en mandat simple : c'est un indicateur, pas une promesse. »",
+          "« Lisons ensemble la clause d'exclusivité : elle est écrite en caractères très apparents. »",
+          "« Si vous n'êtes pas satisfait, passé 3 mois, vous pouvez y mettre fin avec 15 jours de préavis par recommandé. »"
+        ]
+      },
+      {
+        "heading": "Charte d'engagements : exemple rempli (M. Bernard, fil rouge fictif)",
+        "type": "table",
+        "headers": [
+          "Engagement",
+          "Contenu précis",
+          "Quand",
+          "Preuve pour le vendeur"
+        ],
+        "rows": [
+          [
+            "Attestation actualisée jointe",
+            "Attestation ADEME classe E jointe au dossier et mentionnée dans l'annonce",
+            "Dès la mise en ligne",
+            "Copie de l'annonce"
+          ],
+          [
+            "Dossier technique",
+            "DPE, attestation, diagnostics D17, PV d'AG, PPPT, charges remis aux acquéreurs sérieux",
+            "Avant toute offre",
+            "Liste des envois"
+          ],
+          [
+            "Plan Éco-staging",
+            "4 actions, ≈ 450 € à la charge du vendeur, séance photo après la dernière action",
+            "Avant le 13/11/2026",
+            "Photos avant / après"
+          ],
+          [
+            "Compte rendu écrit",
+            "Contacts, visites, retours des acheteurs, prochaines actions",
+            "Toutes les 2 semaines, à partir du 19/11/2026",
+            "E-mail daté"
+          ],
+          [
+            "Chiffrage des travaux",
+            "Devis D13 (16 500 € TTC) et calendrier des appels ITE remis à chaque acquéreur",
+            "À chaque visite",
+            "Liste des remises"
+          ]
+        ]
+      },
+      {
+        "heading": "Check-list Hoguet avant la signature",
+        "type": "checklist",
+        "items": [
+          "Mandat écrit signé avant toute diffusion ou visite (loi n° 70-9, art. 6 ; décret n° 72-678, art. 72)",
+          "Prix, durée, rémunération et partie qui la paie précisés (ici 180 000 € net, 9 000 € TTC à la charge de l'acquéreur, 189 000 € FAI, 3 mois)",
+          "Clause d'exclusivité en caractères très apparents, exemplaire remis au vendeur (art. 78)",
+          "Actions que tu t'engages à réaliser et modalités du compte rendu, avec sa périodicité, écrites dans le mandat exclusif (loi n° 70-9, art. 6 I)",
+          "Mention, en caractères très apparents, de la dénonciation possible après 3 mois avec préavis de 15 jours par LRAR (art. 78 ; loi n° 70-9, art. 7, 2°)",
+          "Inscription au registre des mandats, numéro reporté sur l'exemplaire du vendeur ; mandats et registre conservés 10 ans (art. 72)",
+          "Signature hors établissement : formulaire de rétractation remis, délai de 14 jours (C. consom., art. L. 221-18)",
+          "Clause « vente par le propriétaire lui-même » relue avec le vendeur selon le modèle de l'agence"
+        ]
+      },
+      {
+        "heading": "Ce que tu ne dis jamais",
+        "type": "list",
+        "items": [
+          "« Je vous garantis une vente en 91 jours. »",
+          "« Vous êtes engagé un an, sans possibilité de sortie. »",
+          "« La clause est standard, pas la peine de la lire. »",
+          "« Tous nos vendeurs signent en exclusif, c'est la norme. »",
+          "« Les autres agences ne feront rien pour vous. »"
+        ]
+      }
+    ],
+    "footer": "Sources : loi n° 70-9 du 2 janvier 1970, art. 6 et 7 ; décret n° 72-678 du 20 juillet 1972, art. 72, 73 et 78 ; Code de la consommation, art. L. 221-18 (Légifrance, consultés le 28/10/2026) ; enquête leboncoin Immo auprès de 419 professionnels, 22/09-7/10/2025, déclaratif (MySweetImmo, 6/11/2025). Charte : proposition pédagogique Éco-Propriété, à valider par le service juridique de l'agence. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Construire son argumentaire d'exclusivité",
+    "duration_min": 40,
+    "context": "M. Bernard vient le jeudi 5 novembre 2026 à 9 h à l'agence pour te donner sa réponse. Il a relu le dossier et le modèle de mandat. Tu prépares avec l'IA un argumentaire exclusivité adapté à son profil C et la charte d'engagements à annexer, puis tu vérifies toi-même chaque règle et chaque chiffre.",
+    "materials": [
+      "D18 Modèle de mandat exclusif",
+      "D03 Attestation actualisée ADEME",
+      "D13 Devis des travaux privatifs",
+      "D07 PV d'AG du 12/06/2025",
+      "Plan Éco-staging (capsule 3.10)",
+      "Argumentaire type"
+    ],
+    "steps": [
+      "Copie le prompt ci-dessous dans l'outil IA validé par ton agence, sans aucune donnée réelle de client.",
+      "Lis le premier jet : surligne chaque règle juridique et chaque chiffre.",
+      "Vérifie les règles avec la check-list Hoguet (loi n° 70-9, art. 6 I ; décret n° 72-678, art. 72, 73, 78 ; C. consom., art. L. 221-18) et les chiffres avec le dossier ; corrige.",
+      "Supprime toute promesse de prix, de délai ou de classe, et toute présentation du chiffre leboncoin comme une garantie.",
+      "Finalise la charte : 5 engagements, chacun avec contenu, date ou fréquence et preuve.",
+      "Prépare ta réponse à « Et si je trouve un acheteur moi-même ? » en renvoyant à la clause de ton modèle de mandat."
+    ],
+    "ia_prompt": {
+      "prompt": "RÔLE : Tu es un consultant en communication commerciale pour agents immobiliers en France, rigoureux sur la loi Hoguet. CONTEXTE (cas fictif de formation) : vendeur M. Alain Bernard, 64 ans, profil de communication DISC « C » (factuel, prudent, veut des preuves, décide lentement, déteste l'insistance). Bien : appartement T4 de 76 m² à Melun, copropriété de 1972. Étiquette en vigueur : classe E (attestation actualisée ADEME, valable jusqu'au 13/03/2033). Prix recommandé : 189 000 € FAI = 180 000 € net vendeur + 9 000 € TTC d'honoraires (5 %, à la charge de l'acquéreur). Stratégie : vente en l'état, plan Éco-staging ≈ 450 € à la charge du vendeur, travaux privatifs chiffrés 16 500 € remis aux acquéreurs, ITE votée (35 880 € pour le lot, 4 appels de 8 970 € en 2027). Mandat exclusif de 3 mois, signature prévue le 5/11/2026 à l'agence. Engagements de l'agent : attestation actualisée jointe, dossier technique remis aux acquéreurs, plan Éco-staging daté, compte rendu écrit toutes les 2 semaines (premier le 19/11/2026), chiffrage des travaux remis aux acquéreurs. Le vendeur pense que « plusieurs agences = plus de chances ». Donnée utilisable, à citer comme déclarative : enquête leboncoin Immo auprès de 419 professionnels (sept.-oct. 2025) : 91 jours de délai moyen déclaré en exclusif contre 142 en mandat simple ; 51 % des vendeurs penseraient que la mise en concurrence augmente leurs chances. Règles à respecter : mandat écrit préalable inscrit au registre des mandats, numéro reporté sur l'exemplaire du vendeur ; clause d'exclusivité en caractères très apparents ; passé 3 mois, dénonciation possible à tout moment avec 15 jours de préavis par LRAR ; si signature hors établissement, 14 jours de rétractation avec formulaire.\n\nTÂCHE : rédige 1) un argumentaire oral en 5 temps (ce qui est déjà fait ; pourquoi l'exclusivité sert son projet ; engagements écrits ; cadre légal et sortie ; étape de signature), 2) les réponses à 3 objections probables d'un profil C (« plusieurs agences, c'est plus de chances », « et si je ne suis pas satisfait ? », « et si je trouve un acheteur moi-même ? »), 3) une charte d'engagements en tableau (engagement, contenu précis, quand, preuve).\n\nFORMAT : français, vouvoiement du vendeur, phrases courtes, 1 page maximum pour l'argumentaire, ton factuel et posé. CONTRAINTES : n'invente aucun chiffre ni aucune règle hors de ce contexte ; ne promets jamais un prix de vente, un délai ou une classe DPE ; présente toujours le chiffre leboncoin comme déclaratif ; ne dénigre aucun confrère ; pour la question « acheteur trouvé par le vendeur », écris « [à compléter selon la clause du modèle de mandat de l'agence] » au lieu d'inventer la règle. Termine par la liste des points que l'agent doit vérifier lui-même avant usage.",
+      "guardrails": [
+        "Cas fictif : ne colle jamais le nom, l'adresse, le mandat ou les documents d'un vrai client dans un outil IA non validé par ton agence (RGPD) ; anonymise toujours.",
+        "Vérifie chaque règle citée par l'IA sur Légifrance (décret n° 72-678, art. 72, 73, 78 ; C. consom., art. L. 221-18) et chaque chiffre avec le dossier avant de l'utiliser.",
+        "Supprime toute promesse de délai, de prix ou de classe, même si l'IA en propose.",
+        "Le mandat lui-même ne se rédige pas avec l'IA : tu utilises le modèle validé de ton agence (D18) ; l'argumentaire et la charte sont relus par toi, puis par ton responsable ou le service juridique."
+      ]
+    },
+    "expected": "Argumentaire attendu (extrait). 1) Fait : « Monsieur Bernard, votre étiquette est vérifiée (E, attestation ADEME jusqu'au 13/03/2033), la valeur repose sur les ventes réelles et la stratégie est chiffrée : vente en l'état, Éco-staging d'environ 450 €, travaux chiffrés à 16 500 € pour l'acheteur. » 2) Intérêt : « Un seul prix affiché, 189 000 €, un seul dossier présenté de la même façon, un seul responsable. Un bien affiché à plusieurs prix fait attendre les acheteurs. » 3) Engagements : les 5 engagements de la charte, avec compte rendu toutes les 2 semaines à partir du 19/11/2026. 4) Cadre : « Mandat de 3 mois, 180 000 € net pour vous, 9 000 € TTC d'honoraires à la charge de l'acquéreur. La clause d'exclusivité est en caractères très apparents : lisons-la. Passé 3 mois, chacun peut y mettre fin à tout moment avec 15 jours de préavis par lettre recommandée. » 5) Étape : « Si cela vous convient, nous signons ; j'inscris le mandat au registre et je vous remets votre exemplaire numéroté avec la charte. » Objection « plusieurs agences » : « C'est une vraie question. Les professionnels interrogés par leboncoin Immo déclarent 91 jours en exclusif contre 142 en simple ; c'est un indicateur, pas une promesse. Ce que je vous garantis, ce sont mes engagements écrits. » Objection « pas satisfait » : règle des 3 mois + 15 jours LRAR. Objection « acheteur trouvé moi-même » : renvoi à la clause du modèle D18, lue ensemble, sans l'inventer. Corrections typiques à faire sur le premier jet de l'IA : suppression d'un « vous vendrez plus vite », ajout du caractère déclaratif, précision « LRAR », vérification que la durée et les honoraires correspondent au mandat."
+  },
+  "deliverable": {
+    "title": "Argumentaire exclusivité + charte d'engagements pour M. Bernard",
+    "format": "PDF ou DOCX, 2 pages (argumentaire 1 page + charte 1 page), avec le premier jet de l'IA annoté en annexe",
+    "criteria": [
+      "L'argumentaire suit les 5 temps (fait, intérêt, engagements, cadre et sortie, étape)",
+      "Les règles Hoguet citées sont exactes : clause en caractères très apparents, actions et périodicité du compte rendu écrites au mandat, registre et numéro sur l'exemplaire du vendeur, dénonciation après 3 mois avec 15 jours de préavis par LRAR, 14 jours de rétractation hors établissement",
+      "Les mentions du mandat correspondent au dossier : 180 000 € net, 9 000 € TTC à la charge de l'acquéreur, 189 000 € FAI, 3 mois",
+      "Le chiffre leboncoin (91 j vs 142 j) est présenté comme déclaratif, avec sa source, et aucune promesse de délai, de prix ou de classe ne figure",
+      "La charte contient les 5 engagements du dossier fil rouge, chacun avec contenu, date ou fréquence et preuve",
+      "Le premier jet de l'IA est joint avec au moins 2 corrections ou vérifications annotées"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972, art. 78 (clause d'exclusivité en caractères très apparents, dénonciation après 3 mois, préavis 15 jours LRAR)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000030782471"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 72 (mandat écrit, registre, numéro sur l'exemplaire du vendeur, conservation 10 ans)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033202014"
+    },
+    {
+      "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (art. 6 I : actions et comptes rendus en cas d'exclusivité ; art. 7)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512228"
+    },
+    {
+      "label": "Légifrance — Code de la consommation, art. L. 221-18 (rétractation de 14 jours, contrat hors établissement)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842"
+    },
+    {
+      "label": "MySweetImmo — Enquête leboncoin Immo auprès de 419 professionnels (6/11/2025, déclaratif)",
+      "url": "https://www.mysweetimmo.com/2025/11/06/immobilier-les-biens-vendus-en-exclusivite-partent-51-jours-plus-vite-quen-mandat-simple/"
+    }
+  ],
+  "open_points": [
+    "Relecture juridique obligatoire : formulation des art. 6 I et 7 de la loi n° 70-9, des art. 72, 73 et 78 du décret n° 72-678 et de l'art. L. 221-18 du Code de la consommation ; contenu de la clause « vente par le propriétaire lui-même » selon le modèle de mandat de l'agence.",
+    "Le chiffre leboncoin Immo (91 j contre 142 j, 419 professionnels, sept.-oct. 2025) est déclaratif : à afficher toujours avec sa source ; à actualiser si une étude plus récente est publiée.",
+    "Tester le prompt IA sur l'outil retenu par Éco-Propriété avant diffusion.",
+    "Chapitre interactif à adapter depuis l'ancien chap_3.7 (numéros et renvois à mettre à jour : plan Éco-staging = capsule 3.10)."
+  ]
+}
