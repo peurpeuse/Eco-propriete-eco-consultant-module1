@@ -1,0 +1,233 @@
+{
+  "id": "3.4",
+  "module": 3,
+  "section": "A · Construire les indicateurs du bien",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Les indicateurs de valeur : prix au m², valeur verte, gain",
+  "objective": "Chiffrer la prime ou la décote de valeur verte de son bien fil rouge, avec la source et la date de l'étude des notaires, puis calculer le gain de valeur après travaux sans le présenter comme acquis",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Deux agences ont dit à M. Bernard « −15 % à cause du DPE ». Sébastien Paumier ouvre l'étude des Notaires de France publiée le 7 janvier 2026 : en grande couronne francilienne, un appartement classé G se vend en moyenne 17 % moins cher qu'un D. M. Bernard est en E, pas en G. Il construit ensuite trois indicateurs de valeur : prix au m², écart de valeur verte daté, gain de valeur après travaux."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Une agence a appliqué « −15 % à cause du DPE » à l'appartement de M. Bernard. Que montre l'étude des notaires (transactions 2024, publiée le 7/01/2026) ?",
+        "options": [
+          "Qu'un appartement G se vend en moyenne 17 % moins cher qu'un D en grande couronne : le −15 % correspond à une passoire G, pas à un bien classé E",
+          "Que la décote est de 15 % pour toutes les étiquettes",
+          "Que le DPE n'a aucun effet sur les prix"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : l'écart de 17 % concerne la classe G ; avec son attestation E, M. Bernard est loin de ce niveau.",
+          "Faux : l'étude donne des écarts différents selon chaque classe, la région et le type de bien.",
+          "Faux : l'étude constate bien un effet, croissant avec la mauvaise étiquette."
+        ],
+        "fb_title": "Une étude, une classe, une zone, une date",
+        "fb_text": "Un écart de valeur verte se cite avec sa classe, sa zone, son type de bien et la date de l'étude : « appartements G, −17 % par rapport à D, grande couronne, transactions 2024, Notaires de France, 7/01/2026 ». Appliquer ce chiffre à un bien E est une erreur."
+      },
+      {
+        "question": "Valeur en l'état de M. Bernard : 178 000 – 186 000 € ; valeur après rénovation : 216 600 €. Quel est le gain de valeur, présenté honnêtement ?",
+        "options": [
+          "38 600 €, garanti",
+          "Un écart de valeur de 30 600 à 38 600 €, estimé, à comparer aux 52 380 € de travaux : aucun gain garanti",
+          "216 600 €"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : on ne retient pas le seul haut de fourchette et rien n'est garanti.",
+          "Juste : 216 600 − 186 000 = 30 600 € ; 216 600 − 178 000 = 38 600 € ; le coût des travaux est plus élevé.",
+          "Faux : c'est la valeur après rénovation, pas un gain."
+        ],
+        "fb_title": "Écart de valeur ≠ bénéfice",
+        "fb_text": "L'indicateur de gain est un écart de valeur estimé, donné en fourchette, toujours placé à côté du coût des travaux (capsule 3.5). Ici, 30 600 à 38 600 € d'écart pour 52 380 € de travaux : la rénovation ne se rembourse pas par le prix."
+      },
+      {
+        "question": "Maxime veut citer « la valeur verte » dans son tableau de bord. Quelle formulation est correcte ?",
+        "options": [
+          "« Un bien rénové vaut 20 % de plus »",
+          "« Selon les notaires, la valeur verte est d'environ 10 % »",
+          "« Notaires de France, transactions 2024 (étude du 7/01/2026), appartements, grande couronne : écart de la classe du bien par rapport à D »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : chiffre sans source, sans date, sans zone ni classe.",
+          "Faux : la valeur verte n'est pas un chiffre unique ; elle varie selon la classe, la zone et le type de bien.",
+          "Juste : source, date, type de bien, zone et classe de référence ; c'est vérifiable."
+        ],
+        "fb_title": "Cinq précisions obligatoires",
+        "fb_text": "Source, date de l'étude, type de bien, zone, classe de référence. Sans ces cinq précisions, un pourcentage de valeur verte est inutilisable, et M. Bernard, profil C, le refusera."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableur : prix au m², prime ou décote de valeur verte (études des notaires, datées), gain de valeur après travaux",
+    "kind": "tableur",
+    "intro": "Trois indicateurs de valeur pour le tableau de bord du bien fil rouge : le prix au m² (local, daté), l'écart de valeur verte (étude des notaires, datée et localisée) et le gain de valeur après travaux (écart estimé, jamais garanti). Exemple rempli : appartement de M. Bernard (FICTIF, Melun, grande couronne francilienne). Parcours maison : prendre la ligne « maisons » de l'étude et les chiffres de Mme Garnier (Bible §11.5).",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Repères des notaires (étude « La valeur verte des logements en France », transactions 2024, publiée le 7/01/2026)",
+        "headers": [
+          "Zone, type",
+          "Classe",
+          "Écart par rapport à D",
+          "Statut"
+        ],
+        "rows": [
+          [
+            "France, appartements",
+            "G",
+            "−12 % en moyenne",
+            "Vérifié (texte de l'étude)"
+          ],
+          [
+            "France, maisons",
+            "G",
+            "−25 % en moyenne",
+            "Vérifié (texte de l'étude)"
+          ],
+          [
+            "Grande couronne, appartements",
+            "G",
+            "−17 % en moyenne",
+            "Vérifié (texte de l'étude)"
+          ],
+          [
+            "Grande couronne, appartements",
+            "F",
+            "−8 à −10 %",
+            "À vérifier dans le tableau régional"
+          ],
+          [
+            "Grande couronne, appartements",
+            "E",
+            "−3 à −5 %",
+            "À vérifier dans le tableau régional"
+          ],
+          [
+            "Grande couronne, appartements",
+            "C",
+            "+2 à +4 %",
+            "À vérifier dans le tableau régional"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemple rempli : appartement de M. Bernard (FICTIF)",
+        "headers": [
+          "Indicateur",
+          "Valeur",
+          "Calcul ou source"
+        ],
+        "rows": [
+          [
+            "Prix au m² en l'état",
+            "2 650 €/m²",
+            "Médiane des ventes en l'état (D12, fictif)"
+          ],
+          [
+            "Prix au m² rénové",
+            "2 850 €/m²",
+            "Médiane des ventes rénovées (D12, fictif)"
+          ],
+          [
+            "Écart local rénové / en l'état",
+            "+7,5 %",
+            "(2 850 − 2 650) / 2 650 ; inclut état, immeuble isolé et étiquette"
+          ],
+          [
+            "Décote de l'étiquette E (repère notaires)",
+            "−3 à −5 % par rapport à D (à vérifier)",
+            "Étude du 7/01/2026, grande couronne, appartements"
+          ],
+          [
+            "Valeur en l'état",
+            "178 000 – 186 000 € (181 000 € conclus)",
+            "Capsules 2.40 et 2.43"
+          ],
+          [
+            "Valeur après rénovation",
+            "216 600 €",
+            "76 × 2 850"
+          ],
+          [
+            "Gain de valeur estimé",
+            "30 600 à 38 600 €",
+            "216 600 − 186 000 / − 178 000 ; aucun gain garanti"
+          ]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Les formules",
+        "text": "Prix au m² = médiane des ventes comparables, datées. Écart local = (prix au m² rénové − prix au m² en l'état) / prix au m² en l'état. Valeur verte (repère) = écart de la classe du bien par rapport à D, lu dans l'étude avec sa date, sa zone et son type de bien. Gain de valeur estimé = valeur après travaux − valeur en l'état, en fourchette, toujours à côté du coût des travaux."
+      },
+      {
+        "type": "list",
+        "heading": "Règles de prudence",
+        "items": [
+          "Ne jamais appliquer l'écart d'une autre classe : le −17 % des appartements G ne vaut pas pour un bien E.",
+          "L'étude mesure un effet moyen « toutes choses égales par ailleurs » ; ton écart local, lui, mélange étiquette, état et immeuble : les deux ne s'additionnent pas.",
+          "Toujours dater : une nouvelle étude des notaires remplace l'ancienne.",
+          "Phrase à dire : « Les notaires constatent qu'un appartement classé G se vend en moyenne 17 % moins cher qu'un D dans notre zone. Le vôtre est en E : l'écart constaté pour cette classe est bien plus faible. »"
+        ]
+      }
+    ],
+    "footer": "Sources : Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (publiée le 7/01/2026) ; DVF (data.gouv.fr). Ventes D12 FICTIVES. Écarts E, F, C de grande couronne : à vérifier dans le tableau régional de l'étude. Aucun gain garanti. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Chiffrer la valeur verte de son bien fil rouge",
+    "duration_min": 30,
+    "context": "Le vendeur de ton bien fil rouge a entendu un pourcentage de décote « à cause du DPE ». Tu lui réponds avec l'étude des notaires, datée et localisée, puis tu chiffres le gain de valeur estimé après travaux, sans rien promettre.",
+    "materials": [
+      "Étude des Notaires de France sur la valeur verte (publiée le 7/01/2026)",
+      "Appartement : D03 attestation (classe E), D12 ventes, capsules 2.40 et 2.43 ; maison : M02 (classe G), M12, Bible §11.5",
+      "Tableur des indicateurs de valeur (ressource)"
+    ],
+    "steps": [
+      "Identifie la zone, le type de bien et la classe de ton bien fil rouge.",
+      "Relève dans l'étude l'écart de cette classe par rapport à D, avec la date et la page.",
+      "Calcule le prix au m² en l'état et rénové, et l'écart local entre les deux.",
+      "Calcule le gain de valeur estimé après travaux, en fourchette.",
+      "Rédige trois phrases pour le vendeur : repère des notaires, écart local, gain estimé avec la mention « aucun gain garanti »."
+    ],
+    "expected": "Pour M. Bernard : grande couronne francilienne, appartement, classe E (attestation D03). Repère notaires : G −17 % par rapport à D (vérifié) ; E −3 à −5 % par rapport à D (à vérifier dans le tableau régional) : le « −15 % » des deux agences correspond à une classe G, pas à un bien E. Prix au m² : 2 650 €/m² en l'état, 2 850 €/m² rénové ; écart local (2 850 − 2 650) / 2 650 ≈ +7,5 %, qui mélange état, immeuble isolé et étiquette. Gain de valeur estimé : 216 600 − 186 000 = 30 600 € à 216 600 − 178 000 = 38 600 €, à comparer aux 52 380 € de travaux (capsule 3.5) : aucun gain garanti. Pour Mme Garnier : maison G ; repère France maisons G −25 % par rapport à D (vérifié) ; 2 750 €/m² en l'état, 3 300 €/m² rénovée (+20 %) ; gain estimé 369 600 − 300 000 = 69 600 € à 369 600 − 285 000 = 84 600 €, à comparer au coût de l'audit (78 000 €) et de l'assainissement (11 800 €).",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Indicateurs de valeur de son bien fil rouge",
+    "format": "Tableur ou PDF, 1 page",
+    "criteria": [
+      "Le repère de valeur verte cite l'étude, sa date, la zone, le type de bien et la classe de référence",
+      "L'écart appliqué correspond bien à la classe du bien (pas d'écart d'une autre classe)",
+      "Les prix au m² en l'état et rénové sont sourcés et datés",
+      "Le gain de valeur est donné en fourchette, à côté du coût des travaux",
+      "La mention « aucun gain garanti » figure"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (publiée le 7/01/2026) : appartements G −12 % (France) et −17 % (grande couronne) par rapport à D ; maisons G −25 % (France)",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "label": "DVF, Demandes de valeurs foncières (data.gouv.fr)",
+      "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété : prix au m² et valeurs FICTIFS du dossier fil rouge (Bible §5 et §11.5)"
+    }
+  ],
+  "open_points": [
+    "À vérifier : écarts F (−8 à −10 %), E (−3 à −5 %) et C (+2 à +4 %) des appartements de grande couronne, lus dans un extrait du tableau régional (attribution des lignes appartements / maisons à confirmer dans le PDF officiel des notaires).",
+    "À actualiser dès la publication de l'étude suivante des notaires (transactions 2025).",
+    "Parcours maison : gain estimé 69 600 – 84 600 € calculé à partir de la Bible §11.5 ; à valider par Sébastien Paumier."
+  ]
+}

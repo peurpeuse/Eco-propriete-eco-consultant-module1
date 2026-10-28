@@ -1,0 +1,187 @@
+{
+  "id": "1.22",
+  "module": 1,
+  "section": "H · Je transforme ma visibilité en rendez-vous",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Créer son entonnoir de prospection : contact, relances, suivi",
+  "objective": "Bâtir son entonnoir de prospection (contact, offre d'entrée, 3 relances, qualification, R1 puis R2) et suivre chaque prospect dans un tableau conforme au RGPD avec 3 taux : réponse, rendez-vous, mandats",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi relance M. Bernard huit fois en une semaine et note dans son tableur « veuf, déprimé, à pousser ». Sébastien Paumier construit l'entonnoir inverse : un contact consenti, une offre d'entrée, trois relances espacées, une qualification en 5 questions, le R1 puis le R2, et un tableau de suivi qui mesure et respecte les données."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi a appelé M. Bernard 8 fois en 7 jours et a noté dans son tableau « veuf, déprimé, à pousser ». Qu'est-ce qui pose problème ?",
+        "options": [
+          "Rien, la persévérance paie toujours",
+          "Seulement le nombre d'appels",
+          "Le nombre d'appels dépasse la limite légale, et la note contient des données inutiles et péjoratives sur sa vie privée"
+        ],
+        "answer": 2,
+        "whys": [
+          "Pour un vendeur prudent qui déteste l'insistance, c'est le meilleur moyen d'être bloqué ; et c'est illégal.",
+          "Le nombre d'appels est une faute, mais la note aussi : le RGPD impose des données adéquates, pertinentes et limitées au nécessaire.",
+          "Juste : 4 sollicitations téléphoniques au maximum en 30 jours, et un tableau de suivi qui ne contient que des faits utiles au projet, formulés avec respect."
+        ],
+        "fb_title": "Relancer sans harceler, noter sans juger",
+        "fb_text": "La personne concernée peut demander à voir ses données : écris chaque note comme si M. Bernard la lisait. Projet, délai, documents, prochaine action : oui. Santé, vie familiale, jugements : non. Et au téléphone, 4 tentatives maximum en 30 jours."
+      },
+      {
+        "question": "Sur un mois : 40 contacts consentis, 14 réponses, 6 rendez-vous R1, 2 mandats. Quel est ton taux de réponse ?",
+        "options": [
+          "35 %",
+          "15 %",
+          "43 %"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : 14 réponses ÷ 40 contacts = 0,35, soit 35 %.",
+          "15 % correspond à 6 ÷ 40, c'est-à-dire le taux de rendez-vous R1 par contact, pas le taux de réponse.",
+          "43 % correspond à 6 ÷ 14, la part des réponses qui deviennent un R1, pas le taux de réponse."
+        ],
+        "fb_title": "Trois taux pour piloter",
+        "fb_text": "Exemple fictif : taux de réponse = 14 ÷ 40 = 35 % ; taux de rendez-vous = 6 ÷ 40 = 15 % ; taux de mandats = 2 ÷ 6 R1 = 33 %. Chaque taux pointe une étape à améliorer : l'accroche, la qualification ou la démonstration."
+      },
+      {
+        "question": "Un prospect te répond : « Pas avant un an. » Que fais-tu ?",
+        "options": [
+          "Tu le supprimes immédiatement de ton tableau",
+          "Tu lui demandes s'il accepte que tu le recontactes dans quelques mois, tu notes sa réponse et la date, et tu respectes ton délai de conservation",
+          "Tu continues tes relances téléphoniques chaque semaine"
+        ],
+        "answer": 1,
+        "whys": [
+          "Tu perds un projet réel ; tu peux le garder si tu as une base légale et que tu respectes la durée de conservation.",
+          "Juste : tu demandes son accord pour la suite, tu traces la date et l'objet, et tu programmes une relance unique, dans la limite de son consentement.",
+          "Interdit et contre-productif : relancer contre la volonté exprimée, c'est le perdre et enfreindre les règles."
+        ],
+        "fb_title": "Le « pas maintenant » se cultive avec accord",
+        "fb_text": "Un consentement au démarchage téléphonique vaut un an au maximum. Les données d'un prospect se conservent 3 ans au maximum après son dernier contact (référentiel CNIL), puis se suppriment. Entre-temps : une relance prévue, pas un harcèlement."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de séquence (contact, relances, qualification) et tableau de suivi des prospects : taux de réponse, rendez-vous, mandats ; règles de prospection et de protection des données personnelles (RGPD, à sourcer)",
+    "kind": "modele",
+    "intro": "Ton entonnoir en 6 étapes, la séquence de relances type, les 5 questions de qualification et le tableau de suivi qui calcule tes 3 taux. Les règles de prospection et de données personnelles sont rappelées en fin de fiche, à faire relire par un juriste.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "L'entonnoir en 6 étapes",
+        "items": [
+          "Contact : un propriétaire qui t'a donné son accord (formulaire, rencontre, recommandation) ou qui répond à ton offre.",
+          "Offre d'entrée : ton offre de découverte (capsule 1.21), la préanalyse en 3 vérifications.",
+          "Relances : 3 au maximum, espacées, sur le canal accepté, chacune avec un apport nouveau.",
+          "Qualification : 5 questions pour savoir si et quand le projet existe.",
+          "R1 : rendez-vous de découverte et de préanalyse chez le vendeur (fiche D01).",
+          "R2 : remise de l'avis de valeur écrit et de l'offre de service, puis décision sur le mandat."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Séquence de relances type",
+        "headers": ["Jour", "Canal (si accepté)", "Contenu"],
+        "rows": [
+          ["J0", "Message écrit", "Rappel de sa demande, offre de découverte, deux créneaux"],
+          ["J+3", "E-mail", "Relance 1 : une information utile (comment obtenir l'attestation DPE actualisée)"],
+          ["J+10", "Téléphone (jours et heures autorisés)", "Relance 2 : proposer le R1, écouter, respecter un refus"],
+          ["J+21", "Courrier ou e-mail", "Relance 3 : dernier message, porte ouverte, aucune autre relance sans réponse"]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Les 5 questions de qualification",
+        "items": [
+          "Projet : « Qu'est-ce qui vous amène à envisager la vente ? »",
+          "Délai : « Pour quand souhaitez-vous avoir vendu ? »",
+          "Décision : « Qui décide avec vous ? »",
+          "Situation du bien : « Avez-vous votre DPE, et pour un appartement les derniers PV d'AG ? »",
+          "Ce qu'on lui a dit : « D'autres professionnels vous ont-ils déjà donné un avis ? »"
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Tableau de suivi des prospects (colonnes)",
+        "headers": ["Colonne", "Contenu", "Exemple (fictif)"],
+        "rows": [
+          ["Référence", "Code interne, pas de nom dans les exports", "P-2026-014"],
+          ["Source et preuve du consentement", "Canal, date, texte accepté, fin de validité", "Formulaire site, 02/10/2026, DPE et estimation, jusqu'au 01/10/2027"],
+          ["Canaux autorisés", "Téléphone, e-mail, SMS, courrier", "E-mail et téléphone"],
+          ["Étape", "Contact, offre, relance 1-3, qualifié, R1, R2, mandat, perdu", "R1 fixé"],
+          ["Prochaine action et date", "Une seule, datée", "R1 le 21/10 à 18 h"],
+          ["Notes", "Faits utiles au projet, jamais de jugement ni de vie privée", "Vendre avant l'été 2027, DPE 2023, a reçu 2 avis à −15 %"],
+          ["Date de suppression", "3 ans après le dernier contact venant du prospect", "02/10/2029"]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Les 3 taux",
+        "text": "Taux de réponse = réponses ÷ contacts. Taux de rendez-vous = R1 ÷ contacts. Taux de mandats = mandats ÷ R1. Exemple fictif sur un mois : 40 contacts, 14 réponses, 6 R1, 2 mandats → 35 % de réponse, 15 % de rendez-vous, 33 % de mandats."
+      },
+      {
+        "type": "checklist",
+        "heading": "Règles de prospection et de données personnelles (à faire relire par un juriste)",
+        "items": [
+          "Téléphone : consentement préalable depuis le 11/08/2026, valable un an au maximum, preuve conservée au moins 3 ans ; lundi-vendredi 10 h-13 h et 14 h-20 h ; 4 sollicitations maximum en 30 jours ; arrêt immédiat après un refus.",
+          "E-mail et SMS : consentement préalable du particulier et lien de désinscription dans chaque message.",
+          "Données d'un prospect : conservées 3 ans au maximum après son dernier contact, puis supprimées.",
+          "Minimisation : seulement les données utiles au projet ; aucune donnée de santé, de vie familiale ou de jugement.",
+          "Droits : réponse à une demande d'accès, de rectification ou d'effacement sous un mois.",
+          "Sécurité : tableau protégé par mot de passe, accès limité, aucun export vers un outil d'IA grand public."
+        ]
+      }
+    ],
+    "footer": "Sources : DGCCRF, règles du démarchage téléphonique (27/07/2026) ; loi n° 2025-594 et décret n° 2026-662 ; CNIL, prospection électronique, référentiel gestion des activités commerciales (durées de conservation) et principes du RGPD ; RGPD (UE) 2016/679, art. 5. Séquence, questions et tableau : proposition pédagogique Éco-Propriété. Chiffres de l'exemple : fictifs. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Bâtir son entonnoir et son tableau de suivi",
+    "duration_min": 60,
+    "context": "Tu bâtis ton entonnoir sur ton secteur : script de prise de contact, offre d'entrée, trois relances, qualification, passage au rendez-vous R1 puis R2. Tu crées ton tableau de suivi et tu y inscris tes prospects actuels (référencés par code), ou à défaut M. Bernard (fictif) comme premier exemple.",
+    "materials": [
+      "Ta préparation de contact (1.14) et ton offre de découverte (1.21)",
+      "D01 Fiche découverte vendeur (vierge)",
+      "Modèle de séquence et de tableau de suivi (ressource)",
+      "Un tableur protégé par mot de passe"
+    ],
+    "steps": [
+      "Écris ton script de prise de contact (ouverture, rappel de la demande, deux créneaux) à partir de la capsule 1.14.",
+      "Écris les 3 relances : jour, canal autorisé, apport nouveau de chacune.",
+      "Adapte les 5 questions de qualification à ta cible.",
+      "Décris ce qui se passe au R1 et ce que tu remets au R2.",
+      "Crée ton tableau de suivi avec les colonnes du modèle et les formules des 3 taux.",
+      "Inscris tes prospects (codes, pas de noms dans le livrable) ou M. Bernard comme exemple, et vérifie la conformité de chaque ligne."
+    ],
+    "expected": "Exemple attendu. Script : « Bonjour Monsieur Bernard, [prénom nom], [agence]. Vous avez demandé à être recontacté au sujet de votre DPE et de l'estimation de votre appartement. Je vous propose mardi 18 h ou jeudi 10 h, 45 minutes chez vous. » Relances : J+3 e-mail sur l'attestation actualisée gratuite ; J+10 appel un jour de semaine à 18 h ; J+21 dernier e-mail, porte ouverte. Qualification : projet (se rapprocher de sa fille), délai (avant l'été 2027), décision (seul propriétaire), documents (DPE 2023, PV d'AG 2025), avis reçus (deux à −15 %). R1 : préanalyse, attestation classe E téléchargée ensemble. R2 : avis de valeur écrit et offre de service. Tableau : ligne P-2026-014, consentement du 02/10/2026 valable jusqu'au 01/10/2027, canaux e-mail et téléphone, étape R1, prochaine action datée, notes factuelles, date de suppression. Formules : réponses ÷ contacts, R1 ÷ contacts, mandats ÷ R1."
+  },
+  "deliverable": {
+    "title": "Mon entonnoir de prospection et mon tableau de suivi",
+    "format": "PDF ou DOCX (script, relances, questions, R1-R2) + tableur de suivi anonymisé (codes à la place des noms) avec les formules des 3 taux",
+    "criteria": [
+      "Les 6 étapes de l'entonnoir sont décrites, du contact au R2",
+      "3 relances au maximum, sur des canaux autorisés, chacune avec un apport nouveau",
+      "Le tableau comporte la preuve du consentement, les canaux autorisés et une date de suppression",
+      "Les 3 taux (réponse, rendez-vous, mandats) sont calculés par formule",
+      "Les notes sont factuelles, sans donnée de vie privée ni jugement",
+      "Les règles téléphoniques sont respectées (jours, heures, 4 sollicitations maximum en 30 jours)"
+    ]
+  },
+  "sources": [
+    { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" },
+    { "label": "Légifrance — Loi n° 2025-594 du 30 juin 2025 contre toutes les fraudes aux aides publiques", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051824277" },
+    { "label": "Légifrance — Décret n° 2026-662 du 23 juillet 2026 (consentement à la prospection téléphonique)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054483939" },
+    { "label": "CNIL — La prospection commerciale par courrier électronique, SMS-MMS et automate d'appel", "url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel" },
+    { "label": "CNIL — Référentiel relatif aux traitements de données pour la gestion des activités commerciales (conservation 3 ans pour un prospect)", "url": "https://www.cnil.fr/sites/cnil/files/atoms/files/referentiel_traitements-donnees-caractere-personnel_gestion-activites-commerciales.pdf" },
+    { "label": "RGPD, règlement (UE) 2016/679 (art. 5 : minimisation, limitation de la conservation)", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj" }
+  ],
+  "open_points": [
+    "à faire relire par un juriste : séquence de relances et règles RGPD de la fiche (base légale du suivi des « pas maintenant », durée de conservation).",
+    "à vérifier : mise à jour annoncée par la CNIL de ses fiches prospection après les textes d'application du 11/08/2026.",
+    "Valider avec Sébastien Paumier les taux de l'exemple fictif (40 contacts, 14 réponses, 6 R1, 2 mandats) ou les remplacer par des repères observés chez Éco-Propriété.",
+    "Le chapitre interactif (nouveau) reste à écrire."
+  ]
+}
