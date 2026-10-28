@@ -73,12 +73,37 @@
    {
     "heading": "Les 4 cadrans",
     "type": "table",
-    "headers": ["Cadran", "Origine", "Question à te poser", "Exemple de preuve"],
+    "headers": [
+     "Cadran",
+     "Origine",
+     "Question à te poser",
+     "Exemple de preuve"
+    ],
     "rows": [
-     ["Forces", "Interne", "Qu'est-ce que je fais mieux que les autres dans ma zone ?", "Nombre de ventes, avis Google, connaissance d'une copropriété"],
-     ["Faiblesses", "Interne", "Qu'est-ce qui me freine ?", "Pas de fichier consentant, peu de temps, DPE mal maîtrisé"],
-     ["Opportunités", "Externe", "Qu'est-ce que le marché ou la loi m'offre ?", "Part de passoires, nouveau coefficient DPE, audit à la vente"],
-     ["Menaces", "Externe", "Qu'est-ce qui peut me faire perdre des mandats ?", "Fin des appels à froid, concurrents, estimateurs en ligne"]
+     [
+      "Forces",
+      "Interne",
+      "Qu'est-ce que je fais mieux que les autres dans ma zone ?",
+      "Nombre de ventes, avis Google, connaissance d'une copropriété"
+     ],
+     [
+      "Faiblesses",
+      "Interne",
+      "Qu'est-ce qui me freine ?",
+      "Pas de fichier consentant, peu de temps, DPE mal maîtrisé"
+     ],
+     [
+      "Opportunités",
+      "Externe",
+      "Qu'est-ce que le marché ou la loi m'offre ?",
+      "Part de passoires, nouveau coefficient DPE, audit à la vente"
+     ],
+     [
+      "Menaces",
+      "Externe",
+      "Qu'est-ce qui peut me faire perdre des mandats ?",
+      "Fin des appels à froid, concurrents, estimateurs en ligne"
+     ]
     ]
    },
    {
@@ -143,14 +168,32 @@
   ]
  },
  "sources": [
-  { "label": "Bpifrance Création — Le SWOT : un outil d'analyse stratégique", "url": "https://bpifrance-creation.fr/encyclopedie/letude-marche/outils-danalyse/swot-outil-danalyse-strategique" },
-  { "label": "SDES — Le parc de logements par classe de performance énergétique au 1er janvier 2025 (12/11/2025)", "url": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025" },
-  { "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
-  { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" },
-  { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" }
+  {
+   "label": "Bpifrance Création — Le SWOT : un outil d'analyse stratégique",
+   "url": "https://bpifrance-creation.fr/encyclopedie/letude-marche/outils-danalyse/swot-outil-danalyse-strategique"
+  },
+  {
+   "label": "SDES — Le parc de logements par classe de performance énergétique au 1er janvier 2025 (12/11/2025)",
+   "url": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025"
+  },
+  {
+   "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)",
+   "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+  },
+  {
+   "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)",
+   "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises"
+  },
+  {
+   "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+   "url": "https://observatoire-dpe-audit.ademe.fr"
+  },
+  {
+   "label": "Service-public.fr — Audit énergétique en cas de vente d'un logement, F37110 (vérifié le 14/09/2026)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37110"
+  }
  ],
  "open_points": [
-  "Exemple de Karim : chiffres fictifs, à valider avec Sébastien Paumier pour rester cohérent avec les autres capsules où Karim apparaît.",
-  "Audit énergétique à la vente (maisons E-F-G) : fait marqué « à revérifier » dans la bible ; à confirmer sur service-public.fr avant tournage."
+  "Exemple de Karim : chiffres fictifs, à valider avec Sébastien Paumier pour rester cohérent avec les autres capsules où Karim apparaît."
  ]
 }
