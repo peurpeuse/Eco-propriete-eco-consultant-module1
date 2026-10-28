@@ -1,0 +1,177 @@
+{
+  "id": "3.23",
+  "module": 3,
+  "section": "E · Être choisi : offre, honoraires, engagements",
+  "etape": "7",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Le parcours des acquéreurs, argument de prise de mandat",
+  "objective": "Remplir la fiche de projection d'un futur acquéreur du bien (prix, frais, travaux, aides possibles, points à faire vérifier) et la présenter au vendeur comme preuve de ta stratégie de commercialisation",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi, en blazer violet, écrit dans l'annonce « 1 003 €/mois, financement assuré, aides incluses ». Sébastien Paumier montre la bonne méthode : une fiche de projection qui fait le calcul que fera l'acheteur de l'appartement de M. Bernard, avec une mensualité indicative jamais présentée comme une offre de prêt, des aides jamais présentées comme acquises, et un renvoi au courtier."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi a écrit dans une annonce : « Mensualité 1 003 €, financement assuré. » Quelle est son erreur ?",
+        "options": [
+          "Il présente une mensualité indicative comme une offre de financement, que seul un prêteur peut faire",
+          "Il aurait dû écrire la mensualité assurance comprise",
+          "Il a oublié d'indiquer le taux d'usure"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : une mensualité calculée par l'agent est un ordre de grandeur ; l'offre de prêt vient de la banque, après étude du dossier.",
+          "C'est une précision utile, mais l'erreur de fond reste la promesse « financement assuré ».",
+          "Faux : le problème n'est pas une mention manquante, c'est la promesse de financement."
+        ],
+        "fb_title": "Indicative, jamais une offre",
+        "fb_text": "La fiche donne une mensualité indicative, hors assurance, avec ses hypothèses (montant, durée, taux). Elle sert à montrer que le bien est finançable pour un profil type ; le financement réel se vérifie avec un courtier ou une banque."
+      },
+      {
+        "question": "M. Bernard demande : « L'acheteur aura combien d'aides pour les fenêtres et la VMC ? » Que réponds-tu ?",
+        "options": [
+          "« Environ 5 000 €, c'est le montant habituel. »",
+          "« Aucune, ce n'est pas la peine d'en parler. »",
+          "« Cela dépend de ses revenus et des règles en vigueur au moment des travaux : je l'oriente vers France Rénov' ; je ne chiffre pas d'aide acquise. »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : un montant inventé, présenté comme acquis.",
+          "Faux : des aides peuvent exister (éco-PTZ par exemple) ; tu dois orienter, pas écarter.",
+          "Juste : tu signales des aides possibles, tu dis de quoi elles dépendent et à qui s'adresser."
+        ],
+        "fb_title": "Possible, jamais acquise",
+        "fb_text": "Les aides dépendent des revenus du ménage qui fera les travaux, du type de travaux et de la date. Exemple : depuis le 1/09/2026, MaPrimeRénov' par geste ne finance plus les systèmes de ventilation ni les équipements de chauffage (economie.gouv.fr). Tu orientes vers France Rénov'."
+      },
+      {
+        "question": "Pourquoi présenter la fiche de projection à M. Bernard avant la signature du mandat ?",
+        "options": [
+          "Pour lui montrer qu'il pourra vendre plus cher",
+          "Pour lui prouver que ta stratégie anticipe le calcul de l'acheteur : prix, frais, travaux, appels de fonds",
+          "Pour qu'il choisisse lui-même la banque de l'acheteur"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : la fiche ne promet aucun prix ; elle explique le raisonnement d'un acheteur.",
+          "Juste : un vendeur de style C voit que tu as déjà préparé les réponses aux questions des acheteurs.",
+          "Faux : ni le vendeur ni toi ne choisissez le financement de l'acheteur."
+        ],
+        "fb_title": "Une preuve de méthode",
+        "fb_text": "La fiche montre au vendeur que son prix est pensé du point de vue de l'acheteur : 189 000 € honoraires inclus, frais de notaire estimés, 16 500 € de travaux, appels de fonds de la façade. C'est un argument de prise de mandat, pas une promesse."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche de projection acquéreur (modèle)",
+    "kind": "modele",
+    "intro": "Cette fiche refait le calcul qu'un futur acquéreur fera avant de visiter. Tu la remplis pour un profil type d'acquéreur (hypothèse, pas une personne réelle) et tu la montres au vendeur pour prouver ta stratégie. Règle absolue : la mensualité indicative n'est jamais présentée comme une offre de financement, une aide jamais comme acquise. Exemple : appartement de M. Bernard, dossier fil rouge fictif.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "1. Le coût total du projet (exemple, profil type primo-accédant)",
+        "headers": ["Poste", "Montant", "Source ou hypothèse"],
+        "rows": [
+          ["Prix honoraires inclus", "189 000 €", "Prix de présentation recommandé (180 000 € net + 9 000 € TTC d'honoraires à la charge de l'acquéreur)"],
+          ["Frais de notaire (estimation)", "≈ 13 700 €", "Ratio du dossier : 13 300 / 175 000 ≈ 7,6 % du prix hors honoraires ; 7,6 % × 180 000 € ≈ 13 680 € ; à faire confirmer par le notaire"],
+          ["Travaux privatifs", "16 500 €", "Devis D13 (fenêtres 5 600, VMC 2 900, radiateurs 4 800, chauffe-eau 3 200)"],
+          ["Frais de garantie (estimation)", "≈ 2 000 €", "Ordre de grandeur du dossier, à faire chiffrer par le courtier"],
+          ["Apport (hypothèse)", "− 22 000 €", "Profil type retenu pour l'exemple"],
+          ["Montant à emprunter", "≈ 199 200 €", "189 000 + 13 700 + 16 500 + 2 000 − 22 000"]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "2. La mensualité indicative (jamais une offre de financement)",
+        "text": "Mensualité hors assurance = M × t / (1 − (1 + t)^−n), avec M = 199 200 €, t = 3,55 % / 12, n = 300 mois (25 ans) : ≈ 1 003 €/mois hors assurance. Repère du HCSF : taux d'effort de 35 % au plus, assurance comprise, durée de 25 ans au plus. Revenus nets nécessaires, hors assurance : ≈ 1 003 / 0,35 ≈ 2 865 €/mois (davantage avec l'assurance). Hypothèse de taux : à actualiser le jour de la présentation."
+      },
+      {
+        "type": "table",
+        "heading": "3. Les appels de fonds de la copropriété",
+        "headers": ["Échéance", "Montant", "Qui paie au syndicat"],
+        "rows": [
+          ["1/01/2027", "8 970 €", "Le copropriétaire à la date d'exigibilité (décret n° 67-223, art. 6-2) ; accord différent possible entre vendeur et acquéreur, rédigé par le notaire"],
+          ["1/04, 1/07 et 1/10/2027", "3 × 8 970 €", "Idem : dépend de la date de l'acte"]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "4. Aides possibles, à faire vérifier (jamais acquises)",
+        "items": [
+          "Éco-prêt à taux zéro : jusqu'à 50 000 €, sur 20 ans au plus, pour des travaux de rénovation énergétique d'une résidence principale achevée depuis plus de 2 ans, sans condition de ressources (ministère de la Transition écologique).",
+          "MaPrimeRénov' : dépend des revenus du ménage et des travaux ; depuis le 1/09/2026, le parcours par geste ne finance plus les systèmes de ventilation ni les équipements de chauffage (economie.gouv.fr).",
+          "Interlocuteur : un conseiller France Rénov' pour l'éligibilité, une entreprise RGE pour les travaux."
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "5. Points à faire vérifier par un courtier ou un professionnel",
+        "items": [
+          "Capacité d'emprunt réelle, taux et assurance : courtier ou banque",
+          "Frais de notaire exacts : notaire",
+          "Classe énergétique après travaux : diagnostiqueur certifié",
+          "Éligibilité aux aides : conseiller France Rénov'",
+          "Répartition des appels de fonds entre vendeur et acquéreur : notaire"
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Phrases à dire au vendeur",
+        "items": [
+          "« Voici le calcul que fera un acheteur avant même de visiter. »",
+          "« Cette mensualité est un ordre de grandeur, pas une offre de prêt : c'est le courtier de l'acheteur qui la confirmera. »",
+          "« Je ne chiffre aucune aide comme acquise : je dis lesquelles peuvent exister et à qui l'acheteur doit s'adresser. »"
+        ]
+      }
+    ],
+    "footer": "Sources : HCSF, mesure relative à l'octroi de crédits immobiliers (35 %, 25 ans) ; ministère de la Transition écologique, éco-PTZ ; economie.gouv.fr, aides à la rénovation, changements au 1/09/2026 ; décret n° 67-223, art. 6-2 (Légifrance, en vigueur depuis le 25/12/2025). Taux de 3,55 % : hypothèse du dossier fil rouge (oct. 2026), à actualiser. Chiffres du bien : dossier fil rouge fictif. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Fiche de projection d'un futur acquéreur pour le bien fil rouge",
+    "duration_min": 40,
+    "context": "Avant de proposer le mandat à M. Bernard le 5 novembre 2026, tu veux lui montrer que ta stratégie part du calcul de l'acheteur. Tu remplis la fiche de projection pour un profil type de primo-accédant (hypothèse : apport de 22 000 €, prêt sur 25 ans), puis tu prépares deux minutes de présentation au vendeur.",
+    "materials": [
+      "D07 PV d'AG du 12/06/2025 (appels de fonds ITE)",
+      "D10 Fiche synthétique de la copropriété",
+      "D12 Tableau des comparables",
+      "D13 Devis des travaux privatifs",
+      "Fiche de projection acquéreur (modèle)"
+    ],
+    "steps": [
+      "Calcule le coût total du projet : prix honoraires inclus, frais de notaire estimés, travaux, frais de garantie, apport, montant à emprunter.",
+      "Calcule la mensualité indicative hors assurance et les revenus nets nécessaires au repère de 35 % ; écris tes hypothèses (taux, durée).",
+      "Reporte le calendrier des quatre appels de fonds et la règle de paiement au syndicat.",
+      "Liste les aides possibles sans les chiffrer, avec l'interlocuteur à consulter.",
+      "Liste les points à faire vérifier, chacun avec le professionnel concerné.",
+      "Rédige trois phrases de présentation au vendeur, dont une qui dit clairement que la mensualité n'est pas une offre de financement."
+    ],
+    "expected": "Coût total : 189 000 € + ≈ 13 700 € (7,6 % × 180 000 €, à confirmer par le notaire) + 16 500 € (D13) + ≈ 2 000 € − 22 000 € d'apport = ≈ 199 200 € à emprunter. Mensualité indicative : ≈ 1 003 €/mois hors assurance sur 25 ans à 3,55 % (hypothèse oct. 2026, à actualiser) ; revenus nets nécessaires ≈ 2 865 €/mois hors assurance au repère HCSF de 35 % (plus avec l'assurance). Appels de fonds : 4 × 8 970 € (1/01, 1/04, 1/07, 1/10/2027), payés au syndicat par le copropriétaire à la date d'exigibilité ; répartition différente possible chez le notaire. Aides possibles : éco-PTZ (jusqu'à 50 000 €, 20 ans), MaPrimeRénov' selon revenus et travaux, sans montant ; orientation France Rénov'. À vérifier : courtier (capacité, taux, assurance), notaire (frais, appels de fonds), diagnostiqueur (classe après travaux). Phrase clé : « Cette mensualité est un ordre de grandeur, pas une offre de prêt : le courtier de l'acheteur la confirmera. »"
+  },
+  "deliverable": {
+    "title": "Fiche de projection acquéreur pour l'appartement de M. Bernard",
+    "format": "PDF, 1 page, avec les calculs en annexe",
+    "criteria": [
+      "Le coût total et le montant à emprunter sont calculés et chaque montant a sa source ou son hypothèse écrite",
+      "La mensualité est qualifiée d'« indicative, hors assurance », avec ses hypothèses (montant, taux, durée), et jamais d'offre de financement",
+      "Le calendrier des 4 appels de fonds (4 × 8 970 €) et la règle de paiement au syndicat sont exacts",
+      "Les aides sont citées comme possibles, sans montant acquis, avec l'interlocuteur à consulter",
+      "Chaque point à vérifier est relié à un professionnel (courtier, notaire, diagnostiqueur, France Rénov')"
+    ]
+  },
+  "sources": [
+    { "label": "HCSF — Mesure relative à l'octroi de crédits immobiliers (taux d'effort 35 % au plus, durée 25 ans)", "url": "https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers" },
+    { "label": "Ministère de la Transition écologique — Éco-prêt à taux zéro (jusqu'à 50 000 €, 20 ans au plus)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/eco-pret-taux-zero-eco-ptz" },
+    { "label": "economie.gouv.fr — Rénovation énergétique : les aides (changements au 1er septembre 2026)", "url": "https://www.economie.gouv.fr/particuliers/faire-des-economies-denergie/renovation-energetique-les-aides-auxquelles-vous-pouvez-pretendre" },
+    { "label": "France Rénov' — MaPrimeRénov' par geste (conditions)", "url": "https://france-renov.gouv.fr/aides/mpr" },
+    { "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2 (en vigueur depuis le 25/12/2025)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265" }
+  ],
+  "open_points": [
+    "à vérifier : taux moyen du crédit immobilier sur 25 ans le jour de la diffusion (hypothèse du dossier fil rouge : 3,55 % en oct. 2026) — source à citer (par exemple l'Observatoire Crédit Logement/CSA).",
+    "Frais de notaire (≈ 13 700 €) et frais de garantie (≈ 2 000 €) : ordres de grandeur dérivés du dossier fil rouge, à faire valider par Sébastien Paumier.",
+    "Valider avec Sébastien Paumier que le profil type (apport de 22 000 €) n'anticipe pas trop le dossier des acquéreurs Martin utilisé au module 4.",
+    "Chapitre interactif nouveau à écrire."
+  ]
+}

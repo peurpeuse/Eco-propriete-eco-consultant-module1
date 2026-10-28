@@ -1,0 +1,182 @@
+{
+  "id": "2.43",
+  "module": 2,
+  "section": "O · Travaux et valeur après rénovation",
+  "etape": "4 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": true,
+  "title": "Estimer après rénovation, sans rien promettre",
+  "objective": "Calculer les deux valeurs du bien fil rouge, en l'état (fourchette justifiée) et après rénovation, comparer l'écart au coût des travaux et le présenter au vendeur sans promettre aucun gain",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi promet : « Faites les travaux, vous gagnez 40 000 €. » Sébastien Paumier refait le calcul sur l'appartement de M. Bernard (bien fil rouge de la capsule) : en l'état 178 000 – 186 000 €, après rénovation 216 600 €, soit un écart de 30 600 à 38 600 € pour 52 380 € de travaux. La rénovation améliore le bien ; elle ne se rembourse pas forcément par le prix. On le dit."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi dit à un vendeur : « Faites les travaux, vous gagnez 40 000 € à la revente. » Quelle est son erreur ?",
+        "options": [
+          "Il présente un écart de valeur comme un gain certain, sans le comparer au coût des travaux",
+          "Il chiffre l'écart trop bas",
+          "Il devrait parler en prix au m²"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : chez M. Bernard, l'écart est de 30 600 à 38 600 € pour 52 380 € de travaux ; aucun gain n'est garanti.",
+          "Faux : le niveau n'est pas le problème ; c'est la promesse et l'oubli du coût.",
+          "Faux : l'unité ne change rien à la promesse non tenable."
+        ],
+        "fb_title": "Un écart de valeur n'est pas un gain",
+        "fb_text": "Valeur après rénovation − valeur en l'état = écart de valeur. Gain éventuel = écart − coût des travaux, et ici il est négatif (30 600 à 38 600 € d'écart pour 52 380 € de travaux). On présente les deux chiffres, jamais une promesse."
+      },
+      {
+        "question": "Quelle est la valeur après rénovation de l'appartement de M. Bernard (ventes rénovées M6 2 880, M7 2 820, M8 2 850 €/m²) ?",
+        "options": [
+          "201 400 €",
+          "218 880 €",
+          "216 600 €"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : c'est la valeur de base en l'état (76 × 2 650).",
+          "Faux : 76 × 2 880 prend la vente la plus haute au lieu de la médiane.",
+          "Juste : médiane des ventes rénovées 2 850 €/m² ; 76 × 2 850 = 216 600 €."
+        ],
+        "fb_title": "Surface × médiane des biens rénovés",
+        "fb_text": "Médiane des biens rénovés ou en immeuble isolé : 2 850 €/m². 76 × 2 850 = 216 600 €, dans l'hypothèse où les travaux privatifs sont faits et l'isolation de la copropriété réalisée."
+      },
+      {
+        "question": "L'acte est prévu le 15/03/2027. Sans accord contraire, quelle part de la quote-part d'isolation (4 appels de 8 970 €) l'acquéreur paiera-t-il au syndicat ?",
+        "options": [
+          "35 880 €",
+          "26 910 €",
+          "8 970 €"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : c'est la quote-part totale, dont un appel exigible avant l'acte.",
+          "Juste : appels du 1/04, 1/07 et 1/10/2027 : 3 × 8 970 = 26 910 € (art. 6-2 du décret du 17 mars 1967).",
+          "Faux : c'est l'appel du 1/01/2027, dû par M. Bernard, copropriétaire à cette date."
+        ],
+        "fb_title": "Celui qui est copropriétaire à l'exigibilité paie",
+        "fb_text": "Vis-à-vis du syndicat, l'appel est dû par le copropriétaire à la date d'exigibilité. M. Bernard paie celui du 1/01/2027 ; l'acquéreur les trois suivants : 26 910 €. Un accord différent entre vendeur et acquéreur reste possible, rédigé par le notaire."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle d'estimation",
+    "kind": "modele",
+    "intro": "Modèle à remplir pour chaque estimation : il produit une valeur en l'état (fourchette justifiée) et une valeur après rénovation, puis compare l'écart au coût des travaux. Il se remplit après le retraitement des références (2.38) et le chiffrage des travaux (2.42). Exemple : appartement de M. Bernard, bien fil rouge choisi pour cette capsule (chiffres FICTIFS). Parcours maison : 285 000 – 300 000 € en l'état et 369 600 € après rénovation globale pour Mme Garnier (Bible §11.5).",
+    "sections": [
+      {
+        "type": "formula",
+        "heading": "Les formules",
+        "text": "Valeur de base = surface × médiane des ventes en l'état. Valeur en l'état = valeur de base ± ajustements prouvés (fourchette). Valeur après rénovation = surface × médiane des ventes rénovées. Écart de valeur = après − en l'état. Comparaison honnête = écart de valeur face au coût total des travaux, hors aide non notifiée. M. Bernard : 76 × 2 650 = 201 400 € ; 76 × 2 850 = 216 600 €."
+      },
+      {
+        "type": "table",
+        "heading": "Ajustements : exemple rempli (M. Bernard, FICTIF)",
+        "headers": ["Famille", "Élément", "Ajustement", "Preuve"],
+        "rows": [
+          ["Marché", "Valeur de base 76 × 2 650", "201 400 €", "D12, médiane du groupe en l'état"],
+          ["Énergétique", "4 fenêtres bois simple vitrage", "−5 600 €", "Devis D13"],
+          ["Technique", "Pas de VMC, conduit obstrué", "−2 900 €", "Devis D13"],
+          ["Technique / énergétique", "Convecteurs 1998, ballon 2011", "0 € (neutre)", "Équipements présents dans les ventes en l'état"],
+          ["Copropriété", "Appels ITE : 26 910 € dus par l'acquéreur si acte au 15/03/2027, immeuble isolé en contrepartie", "−6 900 € à −14 900 €", "PV D07 ; jugement documenté"],
+          ["Résultat", "Fourchette en l'état, net vendeur", "178 000 € – 186 000 €", "192 900 − 14 900 / − 6 900"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Avant / après : la comparaison honnête",
+        "headers": ["Indicateur", "Valeur", "Calcul ou source"],
+        "rows": [
+          ["Valeur en l'état", "178 000 – 186 000 €", "Ajustements ci-dessus"],
+          ["Valeur après rénovation", "216 600 €", "76 × 2 850 (médiane M6 à M8)"],
+          ["Écart de valeur", "30 600 – 38 600 €", "216 600 − 186 000 / − 178 000"],
+          ["Coût des travaux", "52 380 €", "16 500 privatifs (D13) + 35 880 quote-part ITE (D07), hors aide non notifiée"],
+          ["Solde indicatif", "−13 780 à −21 780 €", "Écart − coût : aucun gain garanti"],
+          ["Repère régional", "Appartements E : −3 à −5 % ; C : +2 à +4 % par rapport à D", "Notaires de France, valeur verte, transactions 2024, Île-de-France grande couronne (étude publiée le 7/01/2026), à vérifier dans le tableau régional"]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Aides : ce que tu écris (octobre 2026)",
+        "items": [
+          "MaPrimeRénov' par geste : depuis le 1/09/2026, ventilation, équipements de chauffage, pompe à chaleur dédiée à l'eau chaude et isolation n'y sont plus éligibles (Service-Public, 27/08/2026). Pour les travaux privatifs de M. Bernard : aucune aide à chiffrer sans vérification sur france-renov.gouv.fr.",
+          "MaPrimeRénov' Copropriété demandée par le syndic : non notifiée, donc 0 € dans le tableau.",
+          "Primes CEE et éco-prêt à taux zéro : possibles selon les travaux et le ménage qui les fera ; à vérifier, jamais présentés comme acquis.",
+          "Les aides dépendent des revenus et de la situation de celui qui fait les travaux : vendeur ou acquéreur."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Prompt IA prêt à copier",
+        "text": "« Tu es l'assistant d'un agent immobilier. Voici des ventes comparables (prix, surface) en deux groupes, “en l'état” et “rénovés” : [colle le tableau]. Voici mes ajustements prouvés, avec leur source : [colle]. Calcule le prix au m² de chaque vente, la médiane de chaque groupe, la valeur de base et la valeur après rénovation pour [surface] m², applique les ajustements et présente une fourchette. Compare l'écart de valeur au coût des travaux : [montant]. Puis joue un acheteur sceptique. N'ajoute aucune donnée de marché, aucune aide et aucune promesse de gain. » Aucun nom, aucune adresse, aucun numéro de DPE."
+      },
+      {
+        "type": "text",
+        "heading": "Ce que tu dis au vendeur",
+        "text": "« En l'état, votre appartement se situe entre 178 000 et 186 000 € net vendeur. Rénové, dans un immeuble isolé, il vaudrait autour de 216 600 €. L'écart, 30 600 à 38 600 €, ne couvre pas les 52 380 € de travaux : je ne vous promets donc aucun gain. Nous déciderons ensemble s'il vaut mieux faire les travaux ou vendre avec un budget clair remis aux acquéreurs. »"
+      }
+    ],
+    "footer": "Sources : DVF (data.gouv.fr) ; décret n° 67-223 du 17 mars 1967, art. 6-2 ; Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (7/01/2026) ; Service-Public, MaPrimeRénov' (actualité A18332, mise à jour le 27/08/2026). Ventes D12 et devis D13 FICTIFS. Estimation non opposable, aucun gain garanti. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Calculer les deux valeurs du bien fil rouge",
+    "duration_min": 40,
+    "context": "Tu as le tableau des ventes retraité (2.38), le chiffrage des travaux (2.42) et le PV d'AG. M. Bernard attend deux chiffres, chacun justifié : ce que vaut son appartement aujourd'hui et ce qu'il vaudrait rénové. Tu calcules, tu fais contrôler par l'IA, et tu rédiges la note sans promettre de gain. Parcours maison : même exercice sur la maison de Mme Garnier (M12, M14, Bible §11.5).",
+    "materials": [
+      "D12 Tableau des comparables (fictifs, groupes retraités)",
+      "D13 Devis des travaux privatifs",
+      "D07 PV d'AG du 12/06/2025",
+      "D03 Attestation actualisée ADEME (classe E)",
+      "Ton chiffrage (capsule 2.42) et ta grille de retraitement (capsule 2.38)"
+    ],
+    "steps": [
+      "Calcule la valeur de base en l'état (médiane du groupe en l'état × 76 m²) et la valeur après rénovation (médiane du groupe rénové × 76 m²).",
+      "Applique les ajustements prouvés (fenêtres, VMC) et justifie les éléments neutres.",
+      "Calcule ce que l'acquéreur paierait au titre de l'isolation si l'acte est signé le 15/03/2027, puis justifie la décote copropriété ; déduis la fourchette en l'état.",
+      "Compare l'écart de valeur au coût total des travaux, hors aide non notifiée, et écris le solde indicatif.",
+      "Fais vérifier tes calculs par l'IA avec le prompt fourni et demande-lui de jouer l'acheteur sceptique ; note les objections utiles.",
+      "Rédige la note d'une page pour le vendeur, avec la mention « aucun gain garanti »."
+    ],
+    "expected": "Valeur de base : 76 × 2 650 = 201 400 €. Ajustements : −5 600 € (fenêtres, D13) ; −2 900 € (VMC, D13) ; convecteurs et ballon neutres → 192 900 €. Copropriété : acte au 15/03/2027 → M. Bernard paie l'appel du 1/01/2027 (8 970 €), l'acquéreur les 3 suivants : 3 × 8 970 = 26 910 € ; décote partielle de 6 900 à 14 900 € (l'acquéreur obtient un immeuble isolé). Fourchette en l'état : 178 000 – 186 000 € net vendeur (haut soutenu par le 4e avec ascenseur, le balcon sud-ouest, la cuisine 2016, l'attestation E). Valeur après rénovation : 76 × 2 850 = 216 600 €. Écart : 30 600 à 38 600 €. Coût : 16 500 + 35 880 = 52 380 € hors aide non notifiée. Solde indicatif : −13 780 à −21 780 € : la rénovation ne se rembourse pas par le prix ; l'arbitrage se fait au module 3. Repère notaires (grande couronne, appartements, transactions 2024) cité avec sa date, sans l'appliquer mécaniquement. Objection utile de l'IA : « pourquoi pas toute la quote-part ITE ? » → contrepartie d'un immeuble isolé.",
+    "ia_prompt": {
+      "prompt": "Rôle : tu es l'assistant d'un agent immobilier éco-consultant. Tu calcules et tu présentes ; tu ne fournis aucune donnée de marché, aucune aide et aucune promesse que je ne t'ai pas données.\nContexte : appartement T4 de 76 m² (Carrez), 4e étage avec ascenseur, balcon 6 m² sud-ouest, immeuble de 1972 en copropriété, Seine-et-Marne. Attestation DPE actualisée : classe E. Le vendeur, très factuel, veut une preuve pour chaque chiffre.\nDonnées, ventes comparables fictives (prix, surface) :\nGroupe en l'état : M1 204 360 € / 78 m² ; M2 183 600 € / 68 m² ; M3 212 000 € / 80 m² ; M4 192 400 € / 74 m² ; M5 188 300 € / 70 m² ; M9 204 050 € / 77 m².\nGroupe rénovés ou immeuble isolé : M6 216 000 € / 75 m² ; M7 186 120 € / 66 m² ; M8 225 150 € / 79 m².\nAjustements prouvés : fenêtres simple vitrage −5 600 € (devis) ; absence de VMC −2 900 € (devis) ; chauffage et ballon neutres. Copropriété : isolation de façade votée, quote-part du lot 35 880 € en 4 appels de 8 970 € exigibles les 1/01, 1/04, 1/07 et 1/10/2027 ; acte envisagé le 15/03/2027 ; décote retenue entre 6 900 € et 14 900 €. Travaux privatifs : 16 500 €. Aide de la copropriété demandée, non notifiée.\nTâche : 1) calcule le prix au m² de chaque vente et la médiane de chaque groupe ; 2) calcule la valeur de base, la fourchette en l'état et la valeur après rénovation ; 3) calcule le montant dû par l'acquéreur au titre de l'isolation, l'écart de valeur et le solde écart − coût des travaux ; 4) rédige une note de 250 mots maximum pour le vendeur, en le vouvoyant, chaque chiffre suivi de sa source, avec la phrase « aucun gain garanti » ; 5) joue ensuite un acheteur sceptique et conteste chaque ajustement en une phrase.\nContraintes : montre tous les calculs ; arrondis au millier seulement la fourchette finale ; écris « exemple fictif » pour les ventes ; ne chiffre aucune aide ; ne présente pas la valeur après rénovation comme un prix garanti.\nFormat : tableau des calculs, puis la note, puis les objections.",
+      "guardrails": [
+        "Aucune donnée personnelle du client dans l'outil : ni nom, ni adresse, ni numéro de DPE, ni situation familiale (RGPD, minimisation).",
+        "Vérifier chaque chiffre : médianes 2 650 et 2 850 €/m² ; 201 400 € ; 192 900 € ; 178 000 – 186 000 € ; 216 600 € ; 26 910 € ; 52 380 €.",
+        "Refuser toute donnée de marché, tout pourcentage de valeur verte ou toute aide ajoutés par l'IA sans source datée.",
+        "Relire la note : aucune promesse de prix ou de gain, aide non notifiée mentionnée sans montant, renvoi au notaire pour la répartition des appels de fonds."
+      ]
+    }
+  },
+  "deliverable": {
+    "title": "Note d'estimation avant / après rénovation du bien fil rouge",
+    "format": "PDF, 1 page + annexe (tableau des calculs et échange avec l'IA)",
+    "criteria": [
+      "Les médianes (2 650 et 2 850 €/m²) et les valeurs 201 400 € et 216 600 € sont justes",
+      "Chaque ajustement a une preuve (D13, D07), sans double compte ; la décote copropriété est justifiée par écrit",
+      "La fourchette en l'état 178 000 – 186 000 € net vendeur est présentée",
+      "L'écart de valeur (30 600 – 38 600 €) est comparé au coût total des travaux (52 380 €) avec la mention « aucun gain garanti »",
+      "Aucune aide n'est chiffrée et l'annexe IA ne contient aucune donnée personnelle"
+    ]
+  },
+  "sources": [
+    { "label": "DVF, Demandes de valeurs foncières (data.gouv.fr)", "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres" },
+    { "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des provisions en cas de mutation d'un lot)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265" },
+    { "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (publiée le 7/01/2026) : appartements G −17 % en grande couronne francilienne par rapport à D", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
+    { "label": "Service-Public, « MaPrimeRénov' : certains projets de travaux bientôt exclus du dispositif » (A18332, mise à jour le 27/08/2026)", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18332" },
+    { "label": "CNIL, définition : minimisation des données", "url": "https://www.cnil.fr/fr/definition/minimisation" },
+    { "label": "Proposition pédagogique Éco-Propriété : ventes D12 et devis D13 FICTIFS (Bible du fil rouge §4 à §6) ; reprise de l'ancienne capsule 2.10" }
+  ],
+  "open_points": [
+    "À vérifier : écarts régionaux E (−3 à −5 %) et C (+2 à +4 %) des appartements de grande couronne, lus dans une version du tableau régional de l'étude des notaires (attribution des lignes appartements / maisons à confirmer dans le PDF officiel) ; seul le chiffre G −17 % est vérifié dans le texte.",
+    "Décote copropriété 6 900 – 14 900 € : jugement documenté dérivé de la Bible, à présenter comme tel, pas comme règle de marché.",
+    "Chapitre interactif à adapter depuis chap_2.10.json (nouveau numéro 2.43) : non traité dans cette fiche.",
+    "Aides : règles MaPrimeRénov' vérifiées au 27/08/2026 ; à actualiser à chaque session (loi de finances 2027)."
+  ]
+}

@@ -1,0 +1,177 @@
+{
+ "id": "2.30",
+ "module": 2,
+ "section": "K · Cadrer, lire le marché, réunir les références",
+ "etape": "4 (Éco-staging)",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "Trouver ses références : DVF, Patrim, comparaison corrigée",
+ "objective": "Extraire des ventes de DVF, retenir 5 références comparables, écarter les autres en justifiant chaque rejet et dérouler la comparaison corrigée en 6 étapes",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Mozi demande à Mme Garnier ses identifiants impots.gouv « pour aller voir les ventes sur Patrim ». Sébastien Paumier explique pourquoi c'est interdit, montre où trouver les ventes réelles dans DVF, comment filtrer par surface, parcelle, zone du PLU, époque et distance, puis déroule la comparaison corrigée en 6 étapes sur les maisons vendues autour de Vaux-le-Pénil."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Mozi demande à Mme Garnier son numéro fiscal et son mot de passe pour consulter Patrim à sa place. Qu'en penses-tu ?",
+    "options": [
+     "C'est une bonne idée, Patrim est plus complet que DVF",
+     "C'est à proscrire : Patrim est réservé au contribuable, pour son usage personnel ; toi, tu utilises DVF",
+     "C'est possible si elle signe un mandat de vente"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : la richesse de l'outil ne change pas la règle d'accès ; on ne se connecte jamais avec les identifiants fiscaux d'un client.",
+     "Juste : l'accès se fait avec les identifiants impots.gouv du particulier et les informations sont réservées à son usage personnel (LPF, art. L. 107 B).",
+     "Faux : un mandat de vente ne t'autorise pas à utiliser l'espace fiscal personnel de ta cliente."
+    ],
+    "fb_title": "Patrim, c'est le service du particulier",
+    "fb_text": "Mme Garnier peut consulter Patrim elle-même pour sa vente et en tirer ses conclusions. Toi, tu travailles sur DVF, en données ouvertes, et tu cites tes références. Jamais d'identifiants d'un client dans tes mains."
+   },
+   {
+    "question": "Dans DVF, tu trouves une maison de 110 m² vendue 160 000 € en 2025 dans le hameau, soit 1 455 €/m², alors que les autres sont vers 2 750 €/m². Que fais-tu ?",
+    "options": [
+     "Tu l'écartes ou tu la vérifies : un prix aussi bas signale souvent une vente atypique (famille, viager, ruine, lot partiel)",
+     "Tu la gardes, elle fait baisser la moyenne et rassure l'acheteur",
+     "Tu la gardes et tu calcules la moyenne avec elle"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : la Charte cite les ventes entre proches ou parties liées parmi les prix de convenance ; sans explication vérifiée, la référence est écartée et le motif écrit.",
+     "Faux : ton rôle n'est pas de baisser le prix, mais d'estimer juste ; une valeur aberrante fausse la comparaison.",
+     "Faux : une seule valeur aberrante déplace fortement une moyenne ; c'est aussi pour cela qu'on raisonne en médiane."
+    ],
+    "fb_title": "Une référence écartée a un motif écrit",
+    "fb_text": "DVF ne dit ni l'état ni le contexte d'une vente. Un prix hors norme se vérifie (photos, cadastre, notaire, confrère) ou s'écarte, avec le motif noté dans ton tableau."
+   },
+   {
+    "question": "Ta référence V5 est vendue 2 800 €/m², mais elle est raccordée au tout-à-l'égout alors que la maison de Mme Garnier a un assainissement non conforme (devis 11 800 €). Où traites-tu cet écart ?",
+    "options": [
+     "Nulle part, DVF ne parle pas d'assainissement",
+     "En retirant 10 % au prix au m² de toutes les références",
+     "À l'étape « corriger les écarts » : un ajustement chiffré par le devis M08, appliqué une seule fois au bien"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : DVF ne le dit pas, c'est pour cela que tu complètes chaque référence (annonce, photos, cadastre, confrère).",
+     "Faux : un pourcentage forfaitaire n'a aucune preuve et touche aussi les références qui ont le même défaut.",
+     "Juste : l'écart est prouvé (devis M08 de 11 800 €), il se corrige une fois, dans le tableau d'ajustements."
+    ],
+    "fb_title": "Corriger, c'est prouver l'écart",
+    "fb_text": "La comparaison corrigée ne déforme pas les références : elle part de leur médiane et corrige le bien de ce qui le distingue, preuve à l'appui. Un écart, une ligne, un montant."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche références : DVF, Patrim, critères de comparaison (surface, parcelle, zone du PLU, DPE, localisation, époque, état), comparaison corrigée en 6 étapes (prompteur de l'épisode 6)",
+  "kind": "fiche",
+  "intro": "Une estimation vaut ce que valent ses références. Cette fiche te dit où les trouver, qui a le droit d'utiliser quel outil, quels critères vérifier pour chaque vente et comment dérouler la comparaison corrigée. Le texte du prompteur de l'épisode 6 n'a pas été fourni : la méthode en 6 étapes ci-dessous est une proposition à aligner avec lui.",
+  "sections": [
+   {
+    "type": "table",
+    "heading": "DVF et Patrim : qui, quoi, comment",
+    "headers": ["Outil", "Qui peut l'utiliser", "Ce qu'il contient", "Limites"],
+    "rows": [
+     ["DVF (data.gouv.fr, application explore.data.gouv.fr/immobilier)", "Tout le monde, en données ouvertes", "Ventes des 5 dernières années : date, prix, adresse, parcelle, type, surface, pièces, terrain", "Mise à jour en avril et octobre ; pas de DPE ni d'état ; hors Alsace, Moselle et Mayotte ; interdiction de ré-identifier les personnes"],
+     ["Patrim (« Rechercher des transactions immobilières », impots.gouv)", "Le particulier lui-même, avec ses identifiants fiscaux, pour son usage personnel (LPF, art. L. 107 B)", "Ventes du secteur choisi : références cadastrales, adresse, surface, période de construction", "Réservé à des démarches précises : succession, IFI, donation, contrôle fiscal, expropriation, vente ou achat, aides au logement ; hors Haut-Rhin, Bas-Rhin, Moselle et Mayotte"]
+    ]
+   },
+   {
+    "type": "checklist",
+    "heading": "Les 7 critères à vérifier pour chaque référence",
+    "items": [
+     "Surface habitable (écart de plus ou moins 20 % au maximum avec le bien)",
+     "Parcelle : surface du terrain, forme, accès, terrain en drapeau",
+     "Zone du PLU : même zone ou zone équivalente (Géoportail de l'urbanisme)",
+     "DPE : classe de la référence (annonce archivée, confrère, observatoire ADEME quand le numéro est connu)",
+     "Localisation : distance, même marché (hameau, quartier), exposition aux risques (Géorisques)",
+     "Époque de construction et type (plain-pied, étage, sous-sol, mitoyenneté)",
+     "État et date de vente (moins de 2 ans de préférence, sinon actualiser à la date de valeur)"
+    ]
+   },
+   {
+    "type": "steps",
+    "heading": "La comparaison corrigée en 6 étapes (proposition, à aligner sur le prompteur de l'épisode 6)",
+    "items": [
+     "Sélectionner : extraire les ventes DVF du secteur et de la période, puis appliquer les 7 critères.",
+     "Écarter : retirer les ventes atypiques (famille, viager, lot partiel, bien hors gabarit) et écrire le motif de chaque rejet.",
+     "Homogénéiser : ramener chaque référence au prix au m² habitable, hors mobilier et hors frais.",
+     "Actualiser : si une vente est ancienne, la ramener à la date de valeur avec un indice de prix daté.",
+     "Corriger : partir de la médiane des références et ajuster le bien de chaque écart prouvé (devis, rapport), une seule fois.",
+     "Conclure : donner une valeur centrale et une fourchette, puis les contrôler par une autre méthode quand le bien s'y prête."
+    ]
+   },
+   {
+    "type": "text",
+    "heading": "La phrase à dire au client",
+    "text": "« Je travaille sur les ventes réelles publiées par l'État, pas sur les annonces. Vous pouvez aussi consulter vous-même le service des impôts “Rechercher des transactions immobilières” : vos identifiants restent à vous, et nous comparerons nos listes. »"
+   }
+  ],
+  "footer": "Sources : data.gouv.fr, jeu « Demandes de valeurs foncières » (mise à jour du 12/10/2026) ; impots.gouv.fr, « Je dois estimer un bien immobilier dans le cadre d'une démarche fiscale » (page mise à jour le 21/07/2026) ; service-public.gouv.fr, simulateur Patrim R34630 (vérifié le 11/09/2025) ; Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025). Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Retenir 5 références, écarter les autres et justifier",
+  "duration_min": 40,
+  "context": "Tu as extrait de DVF les 10 ventes de maisons ci-dessous autour de la maison de Mme Garnier (112 m², 1968, plain-pied sur sous-sol, 1 240 m², zone UB, classée G). Toutes les données sont fictives (tableau M12). V1 Vaux-le-Pénil, 03/2025, 297 000 €, 108 m², 1 050 m², 1970, F. V2 Vaux-le-Pénil, 09/2025, 318 000 €, 120 m², 1 300 m², 1966, G. V3 Le Mée-sur-Seine, 01/2026, 290 000 €, 100 m², 900 m², 1975, F. V4 Dammarie-lès-Lys, 06/2025, 310 500 €, 115 m², 1 400 m², 1972, G. V5 Vaux-le-Pénil, 02/2026, 291 200 €, 104 m², 820 m², 1978, F. V6 Vaux-le-Pénil, 11/2025, 389 400 €, 118 m², 1 100 m², 1969, rénovée C. V7 Vaux-le-Pénil, 04/2025, 735 000 €, 210 m², 3 000 m², 1985, D, piscine. V8 Dammarie-lès-Lys, 10/2025, 212 500 €, 85 m², 230 m², 1960, E, maison jumelée. V9 Vaux-le-Pénil, 05/2025, 160 000 €, 110 m², 1 000 m², 1967, G. V10 Vaux-le-Pénil, 03/2021, 265 000 €, 110 m², 1 200 m², 1970, F.",
+  "materials": [
+   "M12 Tableau des mutations de maisons (fictif)",
+   "M04 Plan et descriptif, M07 Extrait du PLU, M10 État des risques",
+   "Application DVF : explore.data.gouv.fr/immobilier"
+  ],
+  "steps": [
+   "Calcule le prix au m² habitable de chaque vente.",
+   "Applique les 7 critères et retiens 5 références pour la valeur en l'état.",
+   "Écarte les 5 autres et écris pour chacune le motif en une ligne (et l'usage éventuel ailleurs).",
+   "Calcule la médiane et la moyenne des 5 références retenues.",
+   "Écris en 2 phrases ce que tu réponds à Mme Garnier si elle te demande d'utiliser Patrim à sa place."
+  ],
+  "expected": "Prix au m² : V1 2 750 ; V2 2 650 ; V3 2 900 ; V4 2 700 ; V5 2 800 ; V6 3 300 ; V7 3 500 ; V8 2 500 ; V9 1 455 ; V10 2 409. Retenues pour la valeur en l'état : V1, V2, V3, V4, V5 (maisons 1966-1978, 100 à 120 m², 820 à 1 400 m², classées F-G, même marché, ventes 2025-2026). Écartées : V6, maison rénovée classe C, gardée pour la valeur après rénovation ; V7, grande propriété de 210 m² avec piscine sur 3 000 m², hors gabarit (cas particulier, capsule 2.34) ; V8, maison jumelée de 85 m² sur 230 m², type et terrain non comparables ; V9, prix anormalement bas (1 455 €/m²), vente probablement atypique, à vérifier avant tout usage ; V10, vente de 2021, trop ancienne, utilisable seulement après actualisation. Médiane des 5 retenues : 2 750 €/m² ; moyenne : (2 750 + 2 650 + 2 900 + 2 700 + 2 800) ÷ 5 = 2 760 €/m². Réponse : « Ce service est le vôtre : vous pouvez le consulter vous-même avec vos identifiants, qui doivent rester personnels. De mon côté, je travaille sur les ventes publiques DVF, et nous pourrons comparer nos listes. »",
+  "ia_prompt": null
+ },
+ "deliverable": {
+  "title": "Tableau des références retenues et écartées",
+  "format": "Tableau XLSX ou PDF, 1 page",
+  "criteria": [
+   "Les 10 ventes ont leur prix au m² habitable",
+   "5 références sont retenues, cohérentes en surface, terrain, époque, classe et secteur",
+   "Chaque vente écartée a son motif écrit en une ligne",
+   "La médiane et la moyenne des références retenues sont calculées",
+   "La réponse sur Patrim respecte l'usage personnel du service"
+  ]
+ },
+ "sources": [
+  {
+   "label": "data.gouv.fr, Demandes de valeurs foncières : 5 dernières années, mise à jour semestrielle (avril, octobre ; dernière le 12/10/2026), hors Alsace, Moselle et Mayotte ; réutilisation sans ré-identification des personnes (LPF, art. R. 112 A-3)",
+   "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+  },
+  {
+   "label": "Application de consultation DVF",
+   "url": "https://explore.data.gouv.fr/immobilier"
+  },
+  {
+   "label": "impots.gouv.fr : service « Rechercher des transactions immobilières », usages (succession, IFI, donation, contrôle fiscal, expropriation, vente ou achat, aides au logement) et usage personnel (LPF, art. L. 107 B)",
+   "url": "https://www.impots.gouv.fr/particulier/questions/jai-besoin-devaluer-un-bien-immobilier-dans-le-cadre-dune-demarche-fiscale"
+  },
+  {
+   "label": "service-public.gouv.fr : Patrim, identifiants impots.gouv nécessaires, hors Haut-Rhin, Bas-Rhin, Moselle et Mayotte (vérifié le 11/09/2025)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R34630"
+  },
+  {
+   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : prix de convenance (transactions entre parties liées)",
+   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+  },
+  {
+   "label": "Géoportail de l'urbanisme (zone du PLU) et Géorisques (risques)",
+   "url": "https://www.geoportail-urbanisme.gouv.fr"
+  }
+ ],
+ "open_points": [
+  "Prompteur de l'épisode 6 non fourni : aligner les intitulés de la comparaison corrigée en 6 étapes sur ce texte (Sébastien Paumier).",
+  "À vérifier : possibilité pour le contribuable de se faire assister par un conseil muni d'un mandat pour Patrim (mentionnée par un article d'Actu-Juridique de 2019, non retrouvée sur les pages officielles) ; profondeur d'historique de Patrim.",
+  "Tableau M12 fictif à créer dans le dossier maison avec exactement ces 10 ventes (V1 à V10), réutilisé en 2.34.",
+  "À valider : seuil d'écart de surface de plus ou moins 20 % (règle pratique pédagogique, non normative)."
+ ]
+}

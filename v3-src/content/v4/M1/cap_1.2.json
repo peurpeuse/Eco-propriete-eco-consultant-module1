@@ -1,0 +1,164 @@
+{
+ "id": "1.2",
+ "module": 1,
+ "section": "A · Ma première réussite métier",
+ "etape": "Avant l'étape 1",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "L'argument valeur verte, chiffré et sourcé",
+ "objective": "Rédiger un argumentaire valeur verte de 5 lignes qui cite une source datée, une région, un type de bien et une classe de référence, sans promettre de gain",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Deux agences ont dit à M. Bernard « −15 % à cause du DPE ». Sébastien Paumier montre comment on parle vraiment de valeur verte : une étude datée (Notaires de France, ventes 2024), quatre repères (région, type de bien, année, classe de référence), puis les ventes réelles du secteur et le coût des travaux. Résultat : un argumentaire de 5 lignes que le vendeur peut vérifier."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Laquelle de ces phrases cite correctement la valeur verte à un vendeur ?",
+    "options": [
+     "« Partout en France, une passoire perd environ 25 % de sa valeur. »",
+     "« Votre appartement va gagner 10 % en passant en E. »",
+     "« Selon les Notaires, ventes 2024, pour les appartements de votre région, l'écart entre F-G et D était de… ; voyons votre secteur. »"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : aucune source ne fixe une décote nationale unique ; ce chiffre n'a ni région, ni année, ni source.",
+     "Faux : tu promets un gain de prix que ni l'étude ni l'attestation ne garantissent.",
+     "Juste : source, année, type de bien, région et classe de référence ; puis retour aux ventes du secteur."
+    ],
+    "fb_title": "Quatre repères, une source",
+    "fb_text": "La valeur verte se lit dans une étude, pour une région, un type de bien et une année de ventes, par rapport à une classe de référence. Elle éclaire ton avis de valeur ; ce sont les ventes comparables qui le fondent."
+   },
+   {
+    "question": "Comparables fictifs du dossier (D12) : 2 650 €/m² en l'état (D-E), 2 850 €/m² rénové (C-D). Quel écart pour les 76 m² de M. Bernard ?",
+    "options": [
+     "20 000 €",
+     "15 200 €",
+     "2 850 €"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : 20 000 € correspondrait à 100 m², pas aux 76 m² de M. Bernard.",
+     "Juste : (2 850 − 2 650) × 76 = 200 × 76 = 15 200 €.",
+     "Faux : 2 850 € est un prix au m², pas un écart sur la surface totale."
+    ],
+    "fb_title": "Une valeur verte locale se calcule",
+    "fb_text": "(2 850 − 2 650) × 76 = 15 200 €. Attention : les 2 850 €/m² visent des biens rénovés dans un immeuble isolé (ITE comprise). L'écart ne se compare donc pas directement aux 16 500 € de travaux privatifs (D13) : travaux et plus-value ne sont pas égaux."
+   },
+   {
+    "question": "Quelle part des ventes de logements anciens étaient classées F ou G début 2025, selon les Notaires de France ?",
+    "options": [
+     "Environ 15 %",
+     "Environ 2 %",
+     "Environ 50 %"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : de 11 % en 2021 à 17 % en 2023, puis stabilisée autour de 15 % début 2025 (étude publiée le 7/01/2026).",
+     "Faux : beaucoup trop bas ; les passoires représentent une part importante des ventes.",
+     "Faux : beaucoup trop haut ; F et G réunies ne pèsent qu'environ 12,7 % des résidences principales."
+    ],
+    "fb_title": "Les passoires se vendent",
+    "fb_text": "Environ 15 % des ventes de l'ancien début 2025 portaient sur des F-G (Notaires de France, 7/01/2026). Phrase utile : « Les logements F et G se vendent ; l'écart de prix dépend de la région, du type de bien et des travaux. »"
+   }
+  ]
+ },
+ "resource": {
+  "title": "Argumentaire valeur verte, sources datées",
+  "kind": "fiche",
+  "intro": "Ta fiche pour parler énergie et prix sans inventer de règle. Elle te donne la méthode, les chiffres sourcés, un modèle d'argumentaire en 5 lignes et les phrases interdites. À relire avant chaque estimation d'un logement classé E, F ou G.",
+  "sections": [
+   {
+    "heading": "La valeur verte se cite avec 4 repères",
+    "type": "checklist",
+    "items": [
+     "La région (la valeur verte varie fortement d'une région à l'autre).",
+     "Le type de bien : maison ou appartement.",
+     "L'année des ventes étudiées (dernière étude des Notaires : ventes 2024, publiée le 7/01/2026).",
+     "La classe de référence (en général D) à laquelle on compare."
+    ]
+   },
+   {
+    "heading": "Les chiffres sourcés",
+    "type": "table",
+    "headers": ["Repère", "Valeur", "Source et date"],
+    "rows": [
+     ["Part des F-G dans les ventes de l'ancien", "11 % (2021), 17 % (2023), ≈ 15 % début 2025", "Notaires de France, valeur verte, 7/01/2026"],
+     ["Effet du DPE sur les prix", "En 2024, les logements performants se vendent plus cher, les très énergivores moins cher ; écarts variables selon la région", "Même étude"],
+     ["Part des F-G dans les résidences principales", "12,7 % au 1/01/2025 (≈ 3,9 millions)", "SDES, ONRE, 12/11/2025"],
+     ["Coefficient électricité", "2,3 → 1,9 au 1/01/2026 → 1,7 au 1/01/2027", "Arrêtés du 13/08/2025 et du 19/08/2026"]
+    ]
+   },
+   {
+    "heading": "Modèle d'argumentaire en 5 lignes",
+    "type": "steps",
+    "items": [
+     "L'étiquette en vigueur : « Votre DPE, vérifié à jour, classe votre logement en … »",
+     "La valeur verte de la région : « Selon les Notaires (ventes 2024), pour les [maisons/appartements] de [région], l'écart entre la classe … et la classe D était de … »",
+     "Les ventes du secteur : « Dans votre secteur, les biens comparables se sont vendus … €/m² en l'état, … €/m² rénovés. »",
+     "Le coût des travaux : « L'écart énergétique se chiffre par devis ou par l'audit, pas par un pourcentage. »",
+     "La conclusion sans promesse : « Je fonde votre prix sur ces pièces ; l'acquéreur négociera sur un budget, pas sur une lettre. »"
+    ]
+   },
+   {
+    "heading": "Exemple rempli : M. Bernard (fil rouge, fictif)",
+    "type": "text",
+    "text": "1. Votre DPE de 2023 vous classait F ; avec le coefficient 1,9, l'attestation actualisée vous classe E (150 × 1,9 = 285). 2. Selon les Notaires (ventes 2024), pour les appartements d'Île-de-France, l'écart entre les classes E et D était de … (à relever dans l'étude). 3. Dans votre secteur, les comparables se sont vendus 2 650 €/m² en l'état et 2 850 €/m² rénovés (D12) : 200 €/m², soit 15 200 € sur 76 m², ITE comprise. 4. Vos travaux privatifs sont chiffrés à 16 500 € (D13), hors ravalement voté en copropriété. 5. Je fonde votre prix sur ces pièces, sans pourcentage forfaitaire."
+   },
+   {
+    "heading": "Phrases à ne jamais dire",
+    "type": "list",
+    "items": [
+     "« −15 % » ou « −25 % » partout, sans région ni année.",
+     "« Vous passez en E, c'est sûr » avant d'avoir l'attestation.",
+     "« Les travaux paieront la différence » ou « vous gagnerez 10 % ».",
+     "« Les acheteurs ne regardent pas le DPE. »"
+    ]
+   }
+  ],
+  "footer": "Sources : Notaires de France, La valeur verte des logements en France sur les transactions 2024 (7/01/2026) ; SDES, ONRE, parc au 1/01/2025 (12/11/2025) ; arrêtés du 13/08/2025 et du 19/08/2026 ; ADEME, observatoire DPE-Audit. Chiffres de M. Bernard : fil rouge fictif. Mise à jour : 28/10/2026."
+ },
+ "exercise": {
+  "title": "Mon argumentaire valeur verte en 5 lignes",
+  "duration_min": 30,
+  "context": "Tu rédiges l'argumentaire que tu diras au prochain vendeur d'un logement classé E, F ou G dans ta zone. Tu pars de l'étude des Notaires pour ta région et de tes propres ventes comparables. L'exemple de M. Bernard sert de modèle.",
+  "materials": [
+   "Étude valeur verte des Notaires de France (transactions 2024) : tableau de ta région",
+   "Tes ventes comparables récentes (ou DVF sur explore.data.gouv.fr/immobilier)",
+   "D02, D03, D12, D13 (fil rouge, fictifs)",
+   "Fiche argumentaire valeur verte"
+  ],
+  "steps": [
+   "Choisis un type de bien fréquent dans ta zone (maison ou appartement) et une classe (E, F ou G).",
+   "Relève dans l'étude des Notaires l'écart de ta région pour cette classe par rapport à la classe D, avec l'année des ventes.",
+   "Relève deux ou trois ventes comparables de ton secteur : prix au m² en l'état et, si possible, rénové.",
+   "Rédige tes 5 lignes en suivant le modèle (étiquette, valeur verte régionale, ventes du secteur, coût des travaux, conclusion sans promesse).",
+   "Relis : chaque chiffre a-t-il sa source et sa date ? Aucune ligne ne promet-elle un gain ?"
+  ],
+  "expected": "Exemple attendu (appartement, Melun, fil rouge fictif). 1. « Votre DPE de 2023 vous classait F ; l'attestation actualisée vous classe E (150 × 1,9 = 285 kWhEP/m²/an). » 2. « Selon les Notaires de France (ventes 2024, étude du 7/01/2026), pour les appartements d'Île-de-France, l'écart entre la classe E et la classe D était de [valeur relevée]. » 3. « Dans votre résidence et les immeubles voisins, les T3-T4 se sont vendus 2 650 €/m² en l'état et 2 850 €/m² rénovés (comparables D12). » 4. « Vos travaux privatifs sont chiffrés à 16 500 € par devis (D13) ; le ravalement avec ITE est voté et appelé à part. » 5. « Je fonde votre prix sur ces pièces, pas sur un pourcentage ; l'acquéreur négociera sur un budget connu. »"
+ },
+ "deliverable": {
+  "title": "Argumentaire valeur verte de ma zone",
+  "format": "PDF ou DOCX, une demi-page : 5 lignes numérotées + liste des sources",
+  "criteria": [
+   "5 lignes, dans l'ordre du modèle",
+   "La valeur verte cite la source, l'année des ventes, la région, le type de bien et la classe de référence",
+   "Au moins deux ventes comparables réelles du secteur sont citées",
+   "Le coût des travaux est renvoyé à un devis ou à un audit",
+   "Aucune promesse de gain ni pourcentage national forfaitaire"
+  ]
+ },
+ "sources": [
+  { "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
+  { "label": "SDES — Le parc de logements par classe de performance énergétique au 1er janvier 2025 (12/11/2025)", "url": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025" },
+  { "label": "Légifrance — Arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
+  { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+  { "label": "data.gouv.fr — Demandes de valeurs foncières (DVF), mise à jour du 12/10/2026", "url": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/" }
+ ],
+ "open_points": [
+  "Écarts régionaux de valeur verte (Île-de-France, appartements, classe E et F-G par rapport à D) : à relever dans le PDF des Notaires, non lisible par robot ; à vérifier avant tournage.",
+  "Rappel : l'écart de 15 200 € (comparables fictifs, ITE comprise) ne doit pas être présenté comme la plus-value des 16 500 € de travaux privatifs (point déjà signalé en revue M1)."
+ ]
+}

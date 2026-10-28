@@ -1,0 +1,172 @@
+{
+  "id": "2.18",
+  "module": 2,
+  "section": "G · J'audite le bien à 360°",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Audit 360° : relever les six postes",
+  "objective": "Relever en visite les six postes de la rénovation énergétique (murs, planchers bas, toiture, menuiseries, ventilation, chauffage et eau chaude) avec leur âge, leur état et leur poids dans le DPE",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Six convecteurs de 1998, un ballon de 2011, quatre fenêtres d'origine, pas de VMC : chez M. Bernard, chaque équipement raconte un chiffre du DPE. Sébastien Paumier déroule les six postes que la loi demande d'étudier pour une rénovation performante, et montre comment les relever en dix minutes de visite, photos à l'appui, sans rien promettre."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Dans le DPE de M. Bernard (150 kWhEF/m²/an), quel poste pèse le plus lourd ?",
+        "options": [
+          "L'eau chaude (26 kWhEF/m²/an)",
+          "Le chauffage (112 kWhEF/m²/an), environ les trois quarts",
+          "Les auxiliaires (8 kWhEF/m²/an)"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : 26 sur 150, environ 17 % : c'est le deuxième poste.",
+          "Juste : 112 sur 150, environ 75 % de l'énergie finale ; les convecteurs de 1998 sans programmation sont le premier levier.",
+          "Faux : 8 sur 150, environ 5 %."
+        ],
+        "fb_title": "Le chauffage d'abord",
+        "fb_text": "112 / 150 ≈ 75 %. Le chauffage dépend à la fois des émetteurs (convecteurs de 1998 sans programmation) et de l'enveloppe (murs peu isolés, fenêtres simple vitrage). C'est pour cela qu'on relève les six postes ensemble."
+      },
+      {
+        "question": "Chez M. Bernard, au 4e étage sur 6, comment traites-tu les postes « planchers bas » et « toiture » ?",
+        "options": [
+          "Je les chiffre comme dans une maison",
+          "Je les laisse en blanc, ils n'existent pas en appartement",
+          "Je note « sur et sous des logements chauffés » : peu de pertes, rien à chiffrer au niveau du lot"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le logement n'a ni toiture ni plancher sur l'extérieur ; chiffrer ces postes n'aurait pas de sens.",
+          "Faux : un poste se relève toujours ; une case vide fait croire à un oubli.",
+          "Juste : tu relèves le constat (voisins chauffés dessus et dessous) ; la toiture-terrasse est une partie commune, suivie au PPPT."
+        ],
+        "fb_title": "Six postes, même quand un poste est neutre",
+        "fb_text": "Relever les six postes, c'est aussi écrire quand un poste ne pèse pas. En appartement, toiture et plancher bas relèvent souvent de l'immeuble : ici, toiture-terrasse en fin de vie vers 2030 selon le PPPT, à suivre avec le syndic."
+      },
+      {
+        "question": "Mozi visite un appartement et écrit dans sa fiche : « Équipements récents, DPE à ignorer », après avoir regardé la cuisine refaite. Quelle est son erreur ?",
+        "options": [
+          "Il juge sur un seul élément visible au lieu de relever les six postes",
+          "Il aurait dû regarder aussi la salle de bains",
+          "Il aurait dû demander le prix de la cuisine"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : une cuisine refaite ne dit rien des murs, des fenêtres, de la ventilation ni du chauffage ; seul le relevé complet relie la visite au DPE.",
+          "Faux : ajouter une pièce ne suffit pas ; c'est la méthode des six postes qui manque.",
+          "Faux : le prix de la cuisine n'éclaire pas la performance énergétique du logement."
+        ],
+        "fb_title": "Une cuisine neuve ne fait pas un DPE",
+        "fb_text": "Mozi confond décoration et performance. Tu relèves toujours les six postes, dans le même ordre, avec l'âge, l'état et le lien avec le DPE ; puis tu vérifies que ton constat colle aux chiffres du diagnostic."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Trame de relevé des six postes",
+    "kind": "fiche",
+    "intro": "Le Code de la construction et de l'habitation (art. L. 111-1, 17° bis) définit six postes de travaux à étudier pour une rénovation énergétique performante : isolation des murs, des planchers bas, de la toiture, menuiseries extérieures, ventilation, production de chauffage et d'eau chaude. Cette trame les relève en visite, dans le même ordre à chaque fois.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Où regarder, quoi demander",
+        "headers": ["Poste", "Où regarder", "Indices d'âge et d'état", "Question au vendeur"],
+        "rows": [
+          ["1. Murs", "Façades, tableaux de fenêtres, prises en mur extérieur", "Épaisseur, doublage, paroi froide, traces de condensation", "Isolation faite ou votée en copropriété ?"],
+          ["2. Planchers bas", "Sous-sol, vide sanitaire, logement du dessous", "Isolant visible ou non, sol froid", "Qu'y a-t-il sous le logement ?"],
+          ["3. Toiture", "Combles, dernier étage, toiture-terrasse", "Épaisseur et tassement de l'isolant, traces d'eau", "Date de réfection, isolant posé quand ?"],
+          ["4. Menuiseries", "Chaque fenêtre et porte-fenêtre", "Simple ou double vitrage, date dans l'intercalaire, joints", "Année de remplacement, factures ?"],
+          ["5. Ventilation", "Bouches cuisine, salle de bains, WC ; entrées d'air", "VMC ou ventilation naturelle, grilles bouchées, moisissures", "Conduits entretenus ? Partie commune ?"],
+          ["6. Chauffage et eau chaude", "Émetteurs, chaudière ou ballon, thermostat", "Plaque signalétique (année, litres), programmation", "Entretien, pannes, pièces mal chauffées ?"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemple rempli : appartement de M. Bernard (fictif)",
+        "headers": ["Poste", "Constat", "Poids DPE ou constat", "Solution (devis D13)"],
+        "rows": [
+          ["Murs", "Béton banché 1972, polystyrène 2 cm, pont thermique au balcon", "Pertes par la façade", "ITE votée en AG le 12/06/2025 (quote-part 35 880 €)"],
+          ["Planchers bas", "Sur logement chauffé", "Neutre", "Rien au niveau du lot"],
+          ["Toiture", "Sous logement chauffé ; toiture-terrasse commune de 2004", "Neutre pour le lot", "PPPT : toiture-terrasse en 2030"],
+          ["Menuiseries", "PVC double vitrage 2004 (séjour, cuisine) ; 4 bois simple vitrage (chambres)", "Paroi froide, fuites d'air", "4 fenêtres PVC Uw ≤ 1,3 : 5 600 €"],
+          ["Ventilation", "Naturelle, pas de VMC, conduit salle de bains obstrué", "Moisissures", "VMC hygro B + débouchage : 2 900 €"],
+          ["Chauffage et eau chaude", "6 convecteurs 1998 sans programmation ; ballon 200 L de 2011", "112 et 26 kWhEF/m²/an", "Radiateurs à inertie 4 800 € ; chauffe-eau thermodynamique 3 200 €"]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "L'ordre logique des travaux",
+        "items": [
+          "Ventilation d'abord : une enveloppe plus étanche sans extraction efficace aggrave l'humidité.",
+          "Menuiseries ensuite, avec entrées d'air.",
+          "Enveloppe : en copropriété, laisser l'immeuble traiter la façade quand l'ITE est votée.",
+          "Systèmes en dernier, dimensionnés sur l'enveloppe améliorée.",
+          "Faire confirmer la performance obtenue par un diagnostiqueur."
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Avant de quitter le logement",
+        "items": [
+          "Six postes renseignés, même ceux qui sont neutres",
+          "Une photo datée par poste (plaque signalétique, intercalaire, bouche d'extraction)",
+          "Les points qui dépendent de la copropriété signalés (façade, conduits, toiture, fenêtres selon le règlement)",
+          "Ton constat comparé aux postes du DPE (D02)"
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire à l'acquéreur",
+        "text": "« Les quatre postes privatifs sont identifiés et chiffrés par devis : fenêtres, ventilation, chauffage, eau chaude, soit 16 500 €. La façade est traitée par la copropriété, travaux votés pour 2027. Une estimation, à faire confirmer par un diagnostiqueur, place le logement en D après les travaux privatifs, puis en C avec l'isolation de la façade. » Tu présentes des devis et une estimation, pas une promesse."
+      }
+    ],
+    "footer": "Sources : CCH, art. L. 111-1, 17° bis (six postes de travaux) ; ADEME, Tout savoir sur l'isolation ; loi n° 65-557 du 10/07/1965, art. 25 b. Devis et estimations de performance fictifs (bible du fil rouge), à confirmer par un diagnostiqueur. Reprise de l'ancienne capsule 2.5. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Identifier les équipements sur photos et leur impact",
+    "duration_min": 25,
+    "context": "Avant la restitution de l'estimation, tu fais le point technique sur l'appartement de M. Bernard à partir de son reportage photo. Les acquéreurs poseront les mêmes questions : âge, état, impact, solution, prix. Tu dois répondre pour chacun des six postes avec une donnée et un document.",
+    "materials": [
+      "D05 Reportage photo commenté (12 photos)",
+      "D04 Plan et descriptif de l'appartement",
+      "D02 DPE du 14/03/2023 (synthèse)",
+      "D13 Devis des travaux privatifs",
+      "D07 PV d'AG du 12/06/2025 (extraits)",
+      "D09 Synthèse du PPPT"
+    ],
+    "steps": [
+      "Classe les photos de D05 dans les six postes de la trame.",
+      "Pour chaque poste, note l'équipement ou la paroi, son année et son état, et l'indice visible sur la photo.",
+      "Relie chaque poste au DPE (D02) : usage concerné et poids en kWhEF/m²/an, ou constat « neutre ».",
+      "Associe la solution et le prix du D13, puis vérifie le total.",
+      "Repère ce qui dépend de la copropriété (D07, D09).",
+      "Rédige les 3 phrases que tu diras à un acquéreur, avec la mention « estimation à confirmer par un diagnostiqueur »."
+    ],
+    "expected": "Murs : béton 1972 + 2 cm de polystyrène, pont thermique au balcon ; ITE votée le 12/06/2025, démarrage avril 2027, quote-part 35 880 € : pas d'isolation par l'intérieur. Planchers bas et toiture : logements chauffés dessous et dessus, postes neutres ; toiture-terrasse commune (2004) en fin de vie vers 2030 (PPPT). Menuiseries : PVC 2004 correctes ; 4 fenêtres bois simple vitrage dans les chambres → 5 600 €. Ventilation : naturelle, conduit obstrué, moisissures → VMC hygro B + débouchage 2 900 € (conduit shunt commun : syndic). Chauffage : 6 convecteurs 1998, 112 kWhEF/m²/an (≈ 75 %) → radiateurs à inertie 4 800 € ; eau chaude : ballon 200 L de 2011, 26 kWhEF/m²/an (≈ 17 %) → chauffe-eau thermodynamique 3 200 €. Total D13 : 16 500 €. Estimation fictive à confirmer : ≈ 110 kWhEF → 209 kWhEP (× 1,9) → D ; avec ITE ≈ 85 → 162 → C."
+  },
+  "deliverable": {
+    "title": "Trame des six postes de l'appartement de M. Bernard",
+    "format": "PDF ou tableur, 1 page : trame + 3 phrases acquéreur",
+    "criteria": [
+      "Les six postes sont renseignés, y compris les postes neutres (planchers bas, toiture)",
+      "Chaque poste a une année, un état et une photo D05 de référence",
+      "Les poids du DPE sont justes (112 et 26 kWhEF/m²/an) et le total D13 fait 16 500 €",
+      "Au moins 3 points dépendant de la copropriété sont signalés (façade et ITE, conduit shunt, toiture-terrasse)",
+      "Les classes après travaux (D puis C) sont présentées comme une estimation à confirmer"
+    ]
+  },
+  "sources": [
+    { "label": "Code de la construction et de l'habitation, art. L. 111-1, 17° bis (rénovation énergétique performante, six postes de travaux)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043976954" },
+    { "label": "ADEME, Tout savoir sur l'isolation (isolation et ventilation efficace)", "url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/renover/tout-savoir-isolation" },
+    { "label": "Loi n° 65-557 du 10/07/1965, art. 25 b (travaux affectant les parties communes ou l'aspect extérieur)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068256/" },
+    { "label": "Formation Audit énergétique Éco-Propriété (systèmes, ventilation, menuiseries), contenus internes", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "À valider par un technicien : raccordement d'une VMC individuelle sur un conduit shunt de ventilation naturelle (repris de l'ancienne capsule 2.5).",
+    "À confirmer avec Sébastien Paumier : les « six postes » du titre sont ceux de l'art. L. 111-1, 17° bis du CCH (chauffage et eau chaude regroupés) ; l'ancienne capsule en comptait cinq.",
+    "Chapitre interactif « adapter » (depuis chap_2.5) à produire séparément."
+  ]
+}

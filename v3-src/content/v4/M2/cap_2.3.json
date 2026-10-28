@@ -1,0 +1,198 @@
+{
+  "id": "2.3",
+  "module": 2,
+  "section": "A · Je comprends le vendeur et son bien",
+  "etape": "1",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Du prix de vente au net vendeur : frais, honoraires, solde du prêt, plus-value",
+  "objective": "Passer d'un prix affiché (FAI) au net vendeur puis à la somme réellement disponible, ligne par ligne, et repérer ce qui relève du notaire ou de l'expert-comptable sans donner de conseil fiscal",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi annonce à M. Bernard : « 184 000 €, c'est ce que vous toucherez, et pas d'impôt, je vous le garantis. » Le chapitre déroule la vraie chaîne : prix FAI, honoraires, net vendeur, puis ce qui sort encore (éco-staging, état daté, diagnostics, prêt) et ce qui revient à l'acte (appel de fonds remboursé). Pour la plus-value, on repère les situations et on renvoie au notaire."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi dit à M. Bernard : « Offre à 184 000 € FAI, c'est ce que vous toucherez. » Où est l'erreur ?",
+        "options": [
+          "Aucune : FAI veut dire « frais d'agence inclus » pour le vendeur",
+          "Il confond prix FAI et net vendeur : les 9 000 € d'honoraires sont dans le prix, le net vendeur est 175 000 €",
+          "Il oublie les frais de notaire, payés par le vendeur"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : un prix FAI inclut les honoraires ; ils ne vont pas au vendeur.",
+          "Juste : 184 000 − 9 000 = 175 000 € net vendeur ; et ce n'est pas encore la somme disponible.",
+          "Faux : les frais de notaire (droits de mutation, émoluments) sont en principe payés par l'acquéreur."
+        ],
+        "fb_title": "FAI n'est pas net vendeur",
+        "fb_text": "Prix FAI = net vendeur + honoraires (ici à la charge de l'acquéreur). 184 000 € FAI = 175 000 € net vendeur + 9 000 € d'honoraires. Ensuite, le vendeur paie encore ses propres frais (diagnostics, état daté, éco-staging) avant de connaître la somme disponible."
+      },
+      {
+        "question": "M. Bernard paie l'appel de fonds ITE de 8 970 € le 1/01/2027 ; l'accord prévoit que les Martin le lui remboursent à l'acte. Comment l'écris-tu dans le tableur ?",
+        "options": [
+          "−8 970 € seulement : c'est une charge du vendeur",
+          "Rien du tout : cela ne le concerne pas",
+          "−8 970 € en janvier et +8 970 € à l'acte : effet nul sur la somme finale, mais une avance de trésorerie"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : tu oublies le remboursement convenu entre les parties, rédigé par le notaire.",
+          "Faux : il le paie bien au syndic, copropriétaire à la date d'exigibilité.",
+          "Juste : deux lignes, deux dates ; le vendeur doit pouvoir avancer la somme."
+        ],
+        "fb_title": "Deux lignes, deux dates",
+        "fb_text": "Le vendeur paie au syndic l'appel exigible le 1/01/2027. Le remboursement par l'acquéreur vient d'un accord entre les parties, rédigé par le notaire, qui n'engage pas le syndicat. Dans le tableur : une sortie, une entrée, et une note de trésorerie."
+      },
+      {
+        "question": "Mme Garnier (parcours maison) envisage d'entrer en résidence seniors avant d'avoir vendu. Elle te demande si elle paiera un impôt sur la plus-value. Que réponds-tu ?",
+        "options": [
+          "« Je note la question : votre départ avant la vente peut changer l'analyse. Je la transmets au notaire, qui vous répondra par écrit. »",
+          "« Non, une résidence principale est toujours exonérée. »",
+          "« Oui, dès que vous partez, l'exonération est perdue. »"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : tu repères la situation et tu renvoies ; l'analyse fiscale appartient au notaire ou à l'expert-comptable.",
+          "Faux : l'exonération suppose que le logement soit la résidence principale au jour de la vente ; un départ avant change la question.",
+          "Faux : un départ ne fait pas perdre l'exonération automatiquement (délai normal, cas particuliers) : c'est au notaire de trancher."
+        ],
+        "fb_title": "Repérer, puis renvoyer",
+        "fb_text": "Tu ne fais pas de conseil fiscal. Tu sais que la vente de la résidence principale est exonérée, que des tolérances existent si le vendeur a quitté le logement, et qu'une maison reçue en partie par succession pose d'autres questions. Tu notes, tu renvoies, tu ne promets rien."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableur net vendeur et fiche « ce qu'on repère, ce qu'on renvoie » : plus-value, exonérations, fiscalité (textes à sourcer, aucun conseil fiscal)",
+    "kind": "fiche",
+    "intro": "Deux outils. Le tableur passe du prix affiché au net vendeur, puis à la somme disponible, avec la date de chaque mouvement. La fiche liste ce que tu repères pendant la découverte et ce que tu renvoies au notaire ou à l'expert-comptable. Règle d'or : tu montres un calcul de trésorerie, jamais un calcul d'impôt.",
+    "sections": [
+      {
+        "heading": "Tableur net vendeur : appartement de M. Bernard (offre acceptée)",
+        "type": "table",
+        "headers": ["Ligne", "Montant", "Date", "Origine"],
+        "rows": [
+          ["Prix FAI", "184 000 €", "Offre du 2/12/2026", "D15"],
+          ["− Honoraires (charge acquéreur, dans le prix)", "− 9 000 €", "À l'acte", "Mandat D18"],
+          ["= Net vendeur", "175 000 €", "Acte prévu le 15/03/2027", "Calcul"],
+          ["− Solde du prêt", "0 €", "-", "Prêt soldé (D11 ; inscription à vérifier par le notaire)"],
+          ["− Plan Éco-staging", "≈ − 450 €", "Nov. 2026", "Mandat, BIBLE §7"],
+          ["− État daté (syndic, facturé au vendeur)", "380 € au plus", "Avant l'acte", "Service-Public F37294"],
+          ["− Diagnostics manquants ou à refaire", "Montant du devis", "Avant mise en vente", "Devis du diagnostiqueur"],
+          ["− Appel de fonds ITE payé au syndic", "− 8 970 €", "1/01/2027", "D07"],
+          ["+ Remboursement de l'appel par les acquéreurs", "+ 8 970 €", "À l'acte", "Accord rédigé par le notaire"],
+          ["Fonds de travaux attaché au lot", "1 061 € non remboursés", "-", "D06, sauf accord dans l'acte"],
+          ["= Somme disponible estimée (avant diagnostics)", "≈ 174 170 €", "À l'acte", "175 000 − 450 − 380"]
+        ]
+      },
+      {
+        "heading": "Ce que tu repères pendant la découverte",
+        "type": "checklist",
+        "items": [
+          "Le bien est-il la résidence principale du vendeur au jour de la vente prévue ?",
+          "Le vendeur aura-t-il quitté le logement avant la vente (déménagement, résidence seniors, mutation) ?",
+          "Comment le bien a-t-il été acquis : achat, donation, succession, et à quelle date ?",
+          "Y a-t-il plusieurs propriétaires (indivision, couple séparé, société) ?",
+          "Un crédit est-il en cours, avec une garantie inscrite (hypothèque, privilège) ?",
+          "Le vendeur a-t-il fait des travaux, avec des factures conservées ?",
+          "Le bien a-t-il été loué, ou fait-il partie d'une activité (location meublée, SCI) ?"
+        ]
+      },
+      {
+        "heading": "Repères vérifiés (à ne pas transformer en calcul d'impôt)",
+        "type": "list",
+        "items": [
+          "Vente de la résidence principale : plus-value totalement exonérée si le logement est la résidence principale au moment de la vente (service-public.fr F10864, vérifié le 15/04/2026)",
+          "Logement déjà quitté : exonération possible s'il était occupé jusqu'à sa mise en vente et si la vente intervient dans un délai normal, en principe un an (impots.gouv.fr)",
+          "Autres biens : abattement pour durée de détention ; exonération d'impôt sur le revenu au-delà de 22 ans de détention, de prélèvements sociaux au-delà de 30 ans (F10864)",
+          "Autres exonérations possibles (première cession d'un logement autre que la résidence principale avec remploi, prix ≤ 15 000 €, certains retraités sous conditions de revenus) : le notaire vérifie",
+          "C'est le notaire qui calcule et verse l'impôt sur la plus-value lors de la vente (F10864)"
+        ]
+      },
+      {
+        "heading": "Ce que tu renvoies, et à qui",
+        "type": "table",
+        "headers": ["Situation", "Tu renvoies à"],
+        "rows": [
+          ["Toute question d'impôt sur la plus-value, d'exonération, d'abattement", "Notaire chargé de la vente"],
+          ["Bien loué en meublé, SCI, activité professionnelle", "Expert-comptable du vendeur"],
+          ["Succession, donation, indivision, séparation", "Notaire"],
+          ["Solde exact du prêt et frais de remboursement anticipé", "Banque du vendeur (décompte écrit)"],
+          ["Mainlevée d'une garantie inscrite", "Notaire"],
+          ["Charges et appels de fonds au jour de la vente", "Syndic (état daté) et notaire"]
+        ]
+      },
+      {
+        "heading": "La phrase à dire au vendeur",
+        "type": "text",
+        "text": "« Voici le passage de votre prix de vente à ce qui vous restera, ligne par ligne, avec les dates. Je n'ai pas fait de calcul d'impôt : ce n'est pas mon métier. Votre logement est votre résidence principale ; je transmets la question au notaire, qui vous confirmera par écrit s'il y a un impôt ou non. »"
+      }
+    ],
+    "footer": "Sources : service-public.fr F10864 (plus-value, vérifié le 15/04/2026) ; impots.gouv.fr, plus-values exonérées (logement quitté, délai normal) ; BOFiP BOI-RFPI-PVI-10-40-10 (résidence principale, à relire) ; service-public.fr F37294 (état daté, vérifié le 18/02/2026) ; décret n° 67-223, art. 6-2 et 6-3. Données du fil rouge fictives. Aucun conseil fiscal. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Calculer le net vendeur du bien fil rouge et repérer la plus-value à examiner",
+    "duration_min": 35,
+    "context": "M. Bernard a accepté l'offre des Martin à 184 000 € FAI le 2/12/2026. Il te demande : « Combien me restera-t-il, et quand ? Et est-ce que je paierai un impôt ? » Il veut un tableau, pas une promesse. Variante parcours maison : Mme Garnier, qui envisage d'entrer en résidence seniors à l'été 2027, propriétaire depuis 1979, dont la moitié de la maison vient de la succession de son mari (réglée en 2023).",
+    "materials": [
+      "D11 Extrait du titre de propriété et taxe foncière",
+      "D06 Appels de charges et budget prévisionnel 2026",
+      "D07 PV d'AG du 12/06/2025 (extraits)",
+      "D15 Offres d'achat reçues",
+      "D18 Modèle de mandat exclusif",
+      "M11 Titre de propriété de Mme Garnier (variante maison)"
+    ],
+    "steps": [
+      "Écris le prix FAI, retire les honoraires et obtiens le net vendeur.",
+      "Ajoute chaque sortie et chaque entrée du vendeur avec sa date et sa source (prêt, éco-staging, état daté, diagnostics, appel de fonds et son remboursement).",
+      "Calcule la somme disponible estimée et note ce qui reste à chiffrer (devis de diagnostics).",
+      "Coche dans la fiche « ce qu'on repère » les situations qui concernent le vendeur.",
+      "Rédige la question écrite que tu transmets au notaire sur la plus-value, sans y répondre toi-même.",
+      "Variante maison : liste ce qui rend le cas de Mme Garnier différent (départ avant vente, part reçue par succession)."
+    ],
+    "expected": "Corrigé M. Bernard. 184 000 € FAI − 9 000 € d'honoraires = 175 000 € net vendeur. Prêt : 0 € (soldé ; le notaire vérifie l'absence d'inscription). Éco-staging : ≈ 450 €. État daté : 380 € TTC au plus. Diagnostics : montant du devis à ajouter. Appel ITE : −8 970 € le 1/01/2027, +8 970 € à l'acte (accord rédigé par le notaire) : effet nul, avance de trésorerie. Fonds de travaux : 1 061 € restent attachés au lot. Somme disponible estimée : 175 000 − 450 − 380 = 174 170 € avant diagnostics. Repérage : résidence principale, achat en 1998, propriétaire seul, pas de location. Question au notaire : « M. Bernard vend sa résidence principale, achetée en 1998, et l'occupera jusqu'à la vente prévue le 15/03/2027. Pouvez-vous lui confirmer par écrit le régime de la plus-value ? » Variante maison : départ possible avant la vente (délai normal à apprécier) et moitié reçue par succession (date et valeur d'acquisition différentes) : deux points à renvoyer au notaire, aucune réponse donnée par l'agent."
+  },
+  "deliverable": {
+    "title": "Tableur net vendeur de M. Bernard + question au notaire",
+    "format": "Tableur (XLSX) ou PDF, 1 page : tableau daté + liste de repérage + question écrite",
+    "criteria": [
+      "Le net vendeur est juste : 184 000 − 9 000 = 175 000 €",
+      "Chaque ligne a une date et une source (code du dossier ou texte officiel)",
+      "L'appel de fonds de 8 970 € apparaît en sortie (1/01/2027) et en remboursement (acte)",
+      "La somme disponible estimée (≈ 174 170 € avant diagnostics) est calculée et ce qui reste à chiffrer est signalé",
+      "Aucun montant d'impôt n'est calculé ; la question de la plus-value est rédigée pour le notaire"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Service-Public F10864 : plus-value immobilière (exonération de la résidence principale, abattements pour durée de détention), vérifié le 15/04/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10864"
+    },
+    {
+      "label": "impots.gouv.fr : plus-values exonérées (logement quitté avant la vente, délai normal en principe d'un an)",
+      "url": "https://www.impots.gouv.fr/particulier/plus-values-exonerees"
+    },
+    {
+      "label": "BOFiP, BOI-RFPI-PVI-10-40-10 (exonération de la résidence principale, § 180 à 320 sur le délai normal) : référence citée par le BOI-RFPI-PVI-10-40-30, texte à relire",
+      "url": "https://bofip.impots.gouv.fr/bofip/7284-PGP.html"
+    },
+    {
+      "label": "Service-Public F37294 : état daté, 380 € TTC au maximum, facturé au vendeur (vérifié le 18/02/2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37294"
+    },
+    {
+      "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (provisions exigibles en cas de mutation)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    }
+  ],
+  "open_points": [
+    "Notaire ou juriste fiscaliste : relire la fiche « ce qu'on repère, ce qu'on renvoie » (textes à sourcer, aucun conseil fiscal) avant diffusion",
+    "À vérifier : le BOI-RFPI-PVI-10-40-10 n'a pas pu être relu en ligne ; seules les fiches service-public.fr et impots.gouv.fr ont été vérifiées",
+    "À vérifier : cas de l'entrée en résidence seniors (ce n'est pas forcément un établissement ouvrant droit à l'exonération spécifique des personnes âgées) : à faire trancher par le notaire, ne pas l'enseigner comme règle",
+    "BIBLE : le montant des diagnostics de M. Bernard et la date de décès de M. Garnier ne sont pas fixés ; à définir avec Sébastien Paumier si on veut les chiffrer",
+    "Chapitre nouveau à écrire (2.3) : la réplique de Mozi proposée ici est à valider"
+  ]
+}

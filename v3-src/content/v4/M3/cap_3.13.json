@@ -1,0 +1,153 @@
+{
+  "id": "3.13",
+  "module": 3,
+  "section": "B · L'art de la synthèse",
+  "etape": "5 et 6 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Assembler le Dossier Éco-staging de 8 pages",
+  "objective": "Assembler le Dossier Éco-staging du bien fil rouge en 8 pages, chaque page reprenant un livrable des capsules 3.1 à 3.12, avec des chiffres identiques et sourcés.",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier étale sur la table les livrables des capsules 3.1 à 3.12 : tableau de bord, synthèse, graphique, plan Éco-staging, plan d'action, grille d'arbitrage. Il les assemble en un dossier de 8 pages, dans l'ordre où le vendeur les lit, et montre les trois contrôles finaux : chiffres identiques partout, une source par chiffre, aucune promesse."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Quelle page ouvre le Dossier Éco-staging de M. Bernard ?",
+        "options": [
+          "Le DPE de 2023 en entier",
+          "La synthèse d'une page : la conclusion, trois chiffres prouvés, la prochaine étape",
+          "La liste des diagnostics obligatoires"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : c'est une pièce du dossier technique, en annexe ; et son classement F n'est plus en vigueur.",
+          "Juste : le vendeur lit d'abord la conclusion ; le reste du dossier la prouve.",
+          "Faux : utile au dossier vendeur (capsule 3.16), pas en ouverture du Dossier Éco-staging."
+        ],
+        "fb_title": "La conclusion en page 1",
+        "fb_text": "Page 1 = synthèse (capsule 3.8), page 2 = tableau de bord (capsule 3.7). Un vendeur qui s'arrête après deux pages a déjà l'essentiel."
+      },
+      {
+        "question": "Page 2, le tableau de bord indique 182 000 € ; page 7, la grille d'arbitrage indique 180 000 € comme milieu de fourchette. Que fais-tu ?",
+        "options": [
+          "Rien : 2 000 € d'écart, c'est négligeable",
+          "Tu supprimes la grille",
+          "Tu corriges pour que le même chiffre (182 000 €, milieu de 178 000 – 186 000 €) apparaisse partout, puis tu relis tout le dossier"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : pour un profil C comme M. Bernard, un chiffre qui change d'une page à l'autre détruit la confiance.",
+          "Faux : la grille est indispensable ; c'est le chiffre qu'il faut corriger.",
+          "Juste : un chiffre, une valeur, partout ; le contrôle de cohérence est la dernière étape avant l'envoi."
+        ],
+        "fb_title": "Un chiffre, une seule valeur",
+        "fb_text": "Le milieu de la fourchette 178 000 – 186 000 € est 182 000 €. Dans un dossier de 8 pages, chaque chiffre doit être identique partout : idéalement, tout sort du même tableur (T5.4)."
+      },
+      {
+        "question": "Mozi ajoute en page 4 : « Avec MaPrimeRénov', l'acheteur récupérera 40 % des travaux. » Que dis-tu ?",
+        "options": [
+          "C'est interdit au dossier : une aide dépend des revenus du ménage qui fera les travaux, elle ne se présente jamais comme acquise",
+          "C'est un bon argument de vente, on le garde",
+          "On le garde mais en petits caractères"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : on peut citer l'existence d'aides possibles et renvoyer vers France Rénov', jamais les chiffrer comme acquises.",
+          "Faux : c'est une promesse que personne ne peut tenir à la place de l'acquéreur.",
+          "Faux : une promesse en petits caractères reste une promesse."
+        ],
+        "fb_title": "Aucune aide promise",
+        "fb_text": "La page « coûts » liste le budget des travaux par devis, et mentionne « aides possibles selon les revenus de l'acquéreur, à vérifier auprès de France Rénov' ». MaPrimeRénov' Copropriété demandée par le syndic n'est pas notifiée : on ne la chiffre pas."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de dossier, 8 pages (contenu à fixer)",
+    "kind": "modele",
+    "intro": "Proposition de sommaire du Dossier Éco-staging en 8 pages, à valider par Sébastien Paumier. Chaque page reprend un livrable des capsules 3.1 à 3.12 ; rien n'est réécrit, tout est assemblé. Les pièces du dossier technique (DPE, PV d'AG, devis) vont en annexe et ne comptent pas dans les 8 pages. Le dossier est remis au vendeur 48 h avant le rendez-vous de restitution.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Sommaire proposé (contenu à valider par Sébastien Paumier)",
+        "headers": ["Page", "Contenu", "Vient de", "Exemple M. Bernard"],
+        "rows": [
+          ["1", "Synthèse : conclusion, 3 chiffres, preuves, prochaine étape", "3.8", "Vente en l'état, E, 178 000 – 186 000 € net"],
+          ["2", "Tableau de bord : 6 à 8 indicateurs sourcés et datés", "3.7 (avec 3.2)", "8 cases, de l'étiquette E à l'ITE votée"],
+          ["3", "Performance énergétique : étiquette en vigueur, avant et après, graphique", "3.3 et 3.9", "345 → 285 kWhEP (F → E), D puis C estimés"],
+          ["4", "Valeur et marché local : fourchette, valeur verte, repères de marché", "3.4 et 3.6", "2 650 €/m² en l'état, 2 850 €/m² rénové"],
+          ["5", "Coûts : travaux par devis, copropriété, aides possibles non chiffrées", "3.5", "16 500 € privatifs, 35 880 € ITE, charges 2 652 €/an"],
+          ["6", "Plan Éco-staging : 3 actions à petit budget", "3.10", "≈ 450 €, photos le 13/11/2026"],
+          ["7", "Plan d'action et grille d'arbitrage", "3.11 et 3.12", "Gain net des travaux : −17 780 €"],
+          ["8", "Lecture VERTE, sources, limites et prochaines étapes", "3.1 et 3.2", "Liste des sources datées, RDV du 29/10/2026"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Les 3 contrôles avant l'envoi",
+        "items": [
+          "Cohérence : chaque chiffre a la même valeur sur toutes les pages (même source : tableur T5.4).",
+          "Preuve : chaque chiffre a sa source et sa date ; les estimations sont nommées et disent qui doit les confirmer.",
+          "Limites : aucune promesse de prix, de délai, de classe après travaux ou d'aide ; la décision reste au vendeur.",
+          "Les annexes sont numérotées avec les codes du dossier (D01 à D20 ou M01 à M14).",
+          "Le dossier tient en 8 pages, annexes à part."
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Assembler en 5 étapes",
+        "items": [
+          "Rassemble les livrables des capsules 3.1 à 3.12 et mets-les à jour à la date du jour.",
+          "Place-les dans l'ordre du sommaire, une page chacun ; coupe ce qui dépasse.",
+          "Ajoute la page 8 : sources datées, limites, prochaines étapes.",
+          "Fais les 3 contrôles et corrige toute incohérence.",
+          "Exporte en PDF avec les annexes et envoie le sommaire au vendeur 48 h avant le rendez-vous."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase pour remettre le dossier",
+        "text": "« Monsieur Bernard, voici votre Dossier Éco-staging : huit pages. La première vous dit ce que je vous recommande ; les sept suivantes vous montrent pourquoi, chiffre par chiffre, avec la source de chacun. Lisez-le tranquillement : jeudi, on le parcourt ensemble et c'est vous qui décidez. »"
+      }
+    ],
+    "footer": "Sommaire proposé par la rédaction pédagogique, contenu à valider par Sébastien Paumier. Données du fil rouge fictives (dossier fil rouge Éco-Consultant). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Assembler le dossier de son bien fil rouge",
+    "duration_min": 60,
+    "context": "Le rendez-vous de restitution est fixé au 29/10/2026. Tu as produit les livrables des capsules 3.1 à 3.12 pour ton bien fil rouge. Tu dois les assembler en un Dossier Éco-staging de 8 pages, le contrôler et l'envoyer au vendeur 48 h avant. Corrigé donné pour l'appartement de M. Bernard.",
+    "materials": ["Livrables des capsules 3.1 à 3.12", "Tableur du projet (T5.4)", "Annexes : D02, D03, D06, D07, D09, D12, D13"],
+    "steps": [
+      "Classe tes livrables dans l'ordre du sommaire en 8 pages.",
+      "Mets chaque page à jour (date du jour) et coupe ce qui dépasse une page.",
+      "Rédige la page 8 : sources datées, limites, prochaines étapes.",
+      "Contrôle la cohérence des chiffres sur les 8 pages avec le tableur T5.4.",
+      "Vérifie qu'aucune promesse (prix, délai, classe, aide) ne figure dans le dossier.",
+      "Exporte en PDF avec les annexes numérotées et rédige le mail d'envoi au vendeur."
+    ],
+    "expected": "Corrigé pour M. Bernard. P1 : conclusion « vente en l'état, classe E, 178 000 – 186 000 € net, dossier chiffré pour l'acheteur ». P2 : 8 indicateurs (E 285 kWhEP ; climat C 12 kgCO₂ ; 2 330 – 3 190 €/an ; 178 000 – 186 000 € ; 216 600 € sous conditions ; 16 500 € → D estimée ; charges 2 652 €/an ; ITE 35 880 € en 4 × 8 970 €). P3 : graphique 345 → 285 → 209 → 162 kWhEP avec seuils. P4 : 2 650 et 2 850 €/m² (D12), repères datés. P5 : 16 500 € TTC (D13), 35 880 € (D07), fonds de travaux 1 061 €, aides « possibles, non chiffrées ». P6 : 3 actions ≈ 450 €, photos le 13/11/2026. P7 : plan en 4 colonnes et grille, gain net −17 780 €. P8 : sources (D02 14/03/2023, D03 valable jusqu'au 13/03/2033, D07 12/06/2025, D12 oct. 2026…), limites (estimations à confirmer par un diagnostiqueur, comparables à actualiser), prochaines étapes (RDV du 29/10/2026). Chiffres identiques partout. Mail : « Monsieur Bernard, voici votre dossier en 8 pages et ses annexes, pour notre rendez-vous de jeudi. »"
+  },
+  "deliverable": {
+    "title": "Dossier Éco-staging du bien fil rouge (8 pages + annexes)",
+    "format": "PDF, 8 pages + annexes numérotées",
+    "criteria": [
+      "Les 8 pages suivent le sommaire et chacune reprend le livrable de la capsule indiquée",
+      "Les chiffres sont identiques sur toutes les pages et conformes au dossier fil rouge",
+      "Chaque chiffre a sa source et sa date ; les estimations sont nommées",
+      "Aucune promesse de prix, de délai, de classe ou d'aide",
+      "Les annexes portent les codes du dossier (D ou M)"
+    ]
+  },
+  "sources": [
+    {"label": "Dossier fil rouge Éco-Consultant (BIBLE §1 à §7 ; données fictives) — proposition pédagogique Éco-Propriété", "url": "https://eco-propriete.fr"},
+    {"label": "Service-Public — Diagnostic de performance énergétique (F16096), consulté le 28/10/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"}
+  ],
+  "open_points": [
+    "Contenu du Dossier Éco-staging de 8 pages « à fixer » dans le tableau du client : le sommaire proposé ici est une proposition, contenu à valider par Sébastien Paumier",
+    "Place de la méthode VERTE (capsule 3.1) dans le dossier (page 8 ou page 1) : à valider par Sébastien Paumier",
+    "Mise en page et charte du dossier (modèle à fournir par Éco-propriété) : à confirmer avec Éco-propriété"
+  ]
+}

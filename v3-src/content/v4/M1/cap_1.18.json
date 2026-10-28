@@ -1,0 +1,277 @@
+{
+  "id": "1.18",
+  "module": 1,
+  "section": "G · Je crée mes outils de visibilité web et physique",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Visibilité web (Google, Facebook, LinkedIn)",
+  "objective": "Optimiser sa fiche Google Business Profile selon les consignes de Google, programmer 3 publications Facebook utiles et réécrire le haut de son profil LinkedIn pour les prescripteurs",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "M. Bernard tape « agence immobilière DPE Melun » et tombe sur Mozi : fiche Google bourrée de mots-clés, avis écrits par lui-même, page Facebook muette, LinkedIn sans photo. Sébastien Paumier refait les trois, règle par règle : fiche conforme et avis sans contrepartie, calendrier Facebook, profil LinkedIn pour les prescripteurs."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "La fiche de Mozi s'appelle « Mozi Immo Expert DPE Melun pas cher » et affiche 5 avis 5 étoiles qu'il a écrits lui-même. Que risque-t-il ?",
+        "options": [
+          "Rien, tant que les avis sont positifs",
+          "La suppression des avis et une fiche suspendue ou déclassée : nom bourré de mots-clés et faux avis sont contraires aux règles de Google",
+          "Seulement une baisse de classement temporaire"
+        ],
+        "answer": 1,
+        "whys": [
+          "Les avis rédigés par le propriétaire de la fiche sont des faux avis, interdits par le règlement des contenus Google Maps.",
+          "Juste : le nom doit être le nom réel de l'établissement, et l'engagement artificiel (faux avis) entraîne suppressions et sanctions de la fiche.",
+          "La sanction peut aller au-delà du classement : avis supprimés, restrictions ou suspension de la fiche."
+        ],
+        "fb_title": "Nom réel, avis réels",
+        "fb_text": "Selon les consignes Google : le nom de la fiche est celui de la devanture et des documents, sans mot-clé ajouté. Les avis se demandent à tous les clients, sans contrepartie, sans tri, et ne s'écrivent jamais soi-même ni par des proches."
+      },
+      {
+        "question": "Tu veux publier sur Facebook l'appartement de M. Bernard, une fois le mandat signé. Que doit contenir la publication ?",
+        "options": [
+          "Une belle photo et le prix, le reste se donne en visite",
+          "Uniquement la classe énergie, la classe climat étant facultative",
+          "Les classes énergie (E) et climat (C), les dépenses annuelles estimées avec l'année des prix, les mentions de copropriété et les honoraires"
+        ],
+        "answer": 2,
+        "whys": [
+          "Une publication qui présente un bien en vente fonctionne comme une annonce : les mentions obligatoires s'appliquent.",
+          "Les deux classes sont obligatoires, ainsi que l'estimation des dépenses annuelles d'énergie.",
+          "Juste : E et C, 2 330 € à 3 190 € par an (prix 2021), 48 lots principaux, 2 652 € de quote-part annuelle, aucune procédure, prix et honoraires."
+        ],
+        "fb_title": "Un post de bien à vendre est une annonce",
+        "fb_text": "Mentions DPE (classes énergie et climat, dépenses estimées avec l'année de référence des prix), mentions de copropriété (nombre de lots, quote-part annuelle moyenne, procédures) et affichage des honoraires : tout s'applique aussi sur Facebook."
+      },
+      {
+        "question": "Sur LinkedIn, à qui t'adresses-tu en priorité comme éco-consultant ?",
+        "options": [
+          "Aux prescripteurs : notaires, syndics, courtiers, diagnostiqueurs, artisans",
+          "Aux particuliers, en leur envoyant automatiquement 200 invitations par semaine",
+          "À personne : LinkedIn ne sert à rien dans l'immobilier"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : LinkedIn est le réseau de tes prescripteurs ; un notaire qui recommande un agent tape d'abord son nom.",
+          "LinkedIn interdit les outils d'automatisation, et un particulier reste protégé par le RGPD même si son profil est public.",
+          "Il ne t'apporte pas directement des vendeurs, mais il te rend crédible auprès de ceux qui te les recommandent."
+        ],
+        "fb_title": "LinkedIn, le réseau des prescripteurs",
+        "fb_text": "Titre qui dit où, quoi et pour qui ; section Infos en 4 paragraphes ; formation dans « Licences et certifications » ; 3 recommandations ciblées. Et un post utile tous les 15 jours plutôt que dix en une semaine (rythme conseillé, pas une règle de LinkedIn)."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Check-list fiche Google, calendrier éditorial type, modèle de profil LinkedIn",
+    "kind": "fiche",
+    "intro": "Trois outils en une fiche : la check-list pour une fiche Google conforme et complète, un mois type de publications Facebook, et le modèle du haut de ton profil LinkedIn. À faire une première fois en entier (2 à 3 h), puis 15 minutes par semaine.",
+    "sections": [
+      {
+        "type": "checklist",
+        "heading": "Fiche Google : créer, valider, compléter",
+        "items": [
+          "J'ai cherché si une fiche existait déjà ; si oui, je l'ai revendiquée au lieu d'en créer une seconde.",
+          "Le nom est mon nom réel (devanture, site, documents), sans « DPE », « Melun » ni « estimation gratuite ».",
+          "Catégorie principale la plus précise ; catégories secondaires seulement pour des activités réelles.",
+          "Adresse affichée seulement si je reçois des clients ; sinon adresse masquée et zone desservie (20 villes ou codes postaux maximum).",
+          "Horaires, téléphone et site à jour.",
+          "Description de 750 caractères maximum : qui j'aide, où, comment (dont la vérification du DPE) ; ni lien, ni promotion, ni promesse chiffrée.",
+          "Photos réelles : logo, couverture, agence, moi ; accord des personnes photographiées."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Avis Google : autorisé ou interdit",
+        "headers": [
+          "Autorisé",
+          "Interdit"
+        ],
+        "rows": [
+          [
+            "Envoyer le même lien ou QR code à tous les clients",
+            "Offrir une remise, un cadeau ou un service contre un avis"
+          ],
+          [
+            "Rappeler une fois, poliment",
+            "Ne solliciter que les clients satisfaits"
+          ],
+          [
+            "Répondre à chaque avis, brièvement, signé, sans détail du dossier",
+            "Écrire ses propres avis ou les faire écrire par des proches"
+          ],
+          [
+            "Signaler un avis faux ou injurieux",
+            "Révéler le bien, le prix ou le DPE d'un client dans une réponse"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Calendrier éditorial Facebook type (un mois)",
+        "headers": [
+          "Semaine",
+          "Lundi (pédagogie)",
+          "Mercredi",
+          "Vendredi"
+        ],
+        "rows": [
+          [
+            "S1",
+            "« Votre DPE électrique date d'avant 2026 ? Ce que change le coefficient 1,9 »",
+            "Coulisses : vérifier un DPE",
+            "Groupe local : se présenter après avoir lu ses règles"
+          ],
+          [
+            "S2",
+            "« L'attestation DPE actualisée : gratuite, sans nouvelle visite »",
+            "Avant/après d'un bien accompagné (accord écrit du client)",
+            "Groupe local : répondre à 2 questions, sans lien commercial"
+          ],
+          [
+            "S3",
+            "Avis d'un client, avec son accord",
+            "Coulisses : ton secteur, tes partenaires",
+            "FAQ : « Les 3 questions qu'on me pose sur le DPE »"
+          ],
+          [
+            "S4",
+            "« Copropriété : ce que le syndic peut vous fournir avant de vendre »",
+            "Avant/après n° 2",
+            "Bilan : publications, demandes reçues"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Modèle du haut de profil LinkedIn",
+        "headers": [
+          "Zone",
+          "Modèle",
+          "À éviter"
+        ],
+        "rows": [
+          [
+            "Photo",
+            "Visage net, récent, lumière naturelle, fond simple",
+            "Photo de groupe, logo à la place du visage"
+          ],
+          [
+            "Bannière",
+            "« Melun et alentours · Vendre au juste prix, DPE vérifié »",
+            "Bannière par défaut"
+          ],
+          [
+            "Titre",
+            "« Agent immobilier à [ville] | Éco-Consultant : DPE, valeur verte, logements à rénover et copropriétés »",
+            "« Agent passionné », « Expert DPE certifié »"
+          ],
+          [
+            "Infos",
+            "4 paragraphes : qui j'aide, le problème, ma méthode, me contacter",
+            "Texte vide ou liste de slogans"
+          ],
+          [
+            "Preuves",
+            "Formation dans « Licences et certifications », 3 recommandations ciblées",
+            "Titre réglementé que tu ne détiens pas"
+          ]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Règles communes aux trois réseaux",
+        "items": [
+          "Aucune donnée identifiante d'un client sans son accord écrit (nom, adresse, photo de la résidence, DPE).",
+          "Chaque chiffre cité a sa source et sa date ; les exemples fictifs sont signalés.",
+          "Un bien à vendre publié = mentions obligatoires de l'annonce (DPE, copropriété, honoraires).",
+          "Publicité Facebook pour une estimation ou un bien : catégorie spéciale Logement (audience en France).",
+          "Aucun outil d'automatisation d'invitations ou de messages sur LinkedIn.",
+          "Aucun message privé de prospection non sollicité à des particuliers."
+        ]
+      }
+    ],
+    "footer": "Sources : aide Google Business Profile (consignes, zones desservies, description, avis) et règlement des contenus Google Maps ; aide Meta (programmation, publicités Logement) ; Service-Public F16096 (DPE dans les annonces) ; INC (annonces de lots de copropriété) ; aide LinkedIn (logiciels interdits, activité automatisée) ; CNIL (réutilisation des données publiées sur Internet). Reprise des anciennes capsules 1.3, 1.4 et 1.5. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Fiche Google, 3 posts programmés, profil LinkedIn",
+    "duration_min": 60,
+    "context": "M. Bernard (fictif) cherche « agence immobilière DPE Melun » avant de rappeler qui que ce soit, et un notaire tape ton nom sur LinkedIn avant de te recommander. Tu optimises ta fiche Google réelle (ou celle de ton agence, avec l'accord du responsable), tu programmes 3 posts Facebook et tu refais le haut de ton profil LinkedIn.",
+    "materials": [
+      "D02 DPE du 14/03/2023 et D03 Attestation actualisée (pour l'idée des posts, sans donnée identifiante)",
+      "D06 Appels de charges et D10 Fiche synthétique de la copropriété (post copropriété)",
+      "Check-list, calendrier et modèle LinkedIn (ressource)",
+      "Tes accès Google Business Profile, Meta Business Suite et LinkedIn"
+    ],
+    "steps": [
+      "Fais des captures « avant » de ta fiche Google (vue mobile), de ta page Facebook et du haut de ton profil LinkedIn.",
+      "Passe la check-list Google : nom, catégories, adresse ou zone desservie, horaires, photos ; rédige ta description (750 caractères maximum).",
+      "Rédige 3 posts Facebook relevant d'au moins 2 piliers (pédagogie, coulisses, avant/après, avis), dont un sur l'attestation actualisée présenté comme exemple fictif.",
+      "Programme les 3 posts dans Meta Business Suite sur les 3 prochaines semaines.",
+      "Réécris ton titre LinkedIn et ta section Infos en 4 paragraphes ; ajoute ta formation et envoie 3 demandes de recommandation ciblées.",
+      "Fais les captures « après »."
+    ],
+    "expected": "Exemple de description Google (≈ 560 caractères) : « Agence immobilière à Melun et dans les communes voisines. J'accompagne les propriétaires qui vendent un appartement ou une maison, en particulier les logements anciens à rénover. Avant de parler prix, je vérifie votre DPE et je vous explique ce qu'il change vraiment pour votre vente. Mon estimation s'appuie sur les ventes réelles du secteur et sur le coût chiffré des travaux. Je vous remets tout par écrit. Formé Éco-Consultant. » Post pédagogie : « Chauffage électrique et DPE établi après juillet 2021 ? Depuis le 1er janvier 2026, l'électricité est comptée avec 1,9 au lieu de 2,3. Exemple fictif : un T4 de 76 m² classé F en 2023 (345 kWh/m²/an) est classé E aujourd'hui (285) grâce à l'attestation actualisée gratuite de l'ADEME. On regarde le vôtre ? » Titre LinkedIn : « Agent immobilier à Melun | Éco-Consultant : DPE, valeur verte, logements à rénover et copropriétés ». Aucun nom, aucune adresse, aucune photo de la résidence des Tilleuls."
+  },
+  "deliverable": {
+    "title": "Ma visibilité web refaite",
+    "format": "PDF de 3 à 4 pages : captures avant/après (Google, Facebook, LinkedIn), texte de la description Google, 3 posts programmés, titre et section Infos LinkedIn",
+    "criteria": [
+      "Fiche Google : nom réel sans mot-clé, description de 750 caractères maximum sans lien ni promotion, adresse ou zone desservie conforme",
+      "3 posts Facebook programmés, d'au moins 2 piliers, chiffres sourcés et exemples fictifs signalés",
+      "Titre LinkedIn qui dit où, quoi et pour qui, sans titre réglementé non détenu",
+      "Section Infos LinkedIn en 4 paragraphes à la première personne",
+      "Aucune donnée identifiante d'un client sur les trois réseaux"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Google — Consignes relatives à la représentation de votre établissement sur Google",
+      "url": "https://support.google.com/business/answer/3038177?hl=fr"
+    },
+    {
+      "label": "Google — Gérer vos zones desservies",
+      "url": "https://support.google.com/business/answer/9157481?hl=fr"
+    },
+    {
+      "label": "Google — Modifier votre fiche d'établissement (description : 750 caractères)",
+      "url": "https://support.google.com/business/answer/3039617?hl=fr"
+    },
+    {
+      "label": "Google Maps — Contenus interdits et soumis à des restrictions (engagement artificiel)",
+      "url": "https://support.google.com/contributionpolicy/answer/7400114?hl=fr"
+    },
+    {
+      "label": "Meta — Programmer une publication pour ta Page Facebook",
+      "url": "https://www.facebook.com/help/389849807718635"
+    },
+    {
+      "label": "Meta — About ads for housing (pays concernés, dont la France)",
+      "url": "https://www.facebook.com/business/help/837655677217892"
+    },
+    {
+      "label": "Service-Public — DPE : informations obligatoires dans les annonces immobilières (F16096)",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F16096"
+    },
+    {
+      "label": "INC — Annonces de vente d'un lot de copropriété : mentions obligatoires (art. L. 721-1 CCH)",
+      "url": "https://www.inc-conso.fr/node/15088"
+    },
+    {
+      "label": "LinkedIn Aide — Logiciels et extensions interdits",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions"
+    },
+    {
+      "label": "CNIL — Réutilisation des données publiées sur Internet à des fins commerciales",
+      "url": "https://www.cnil.fr/fr/reutilisation-de-vos-donnees-publiees-sur-internet-des-fins-commerciales-quels-sont-vos-droits"
+    }
+  ],
+  "open_points": [
+    "Les règles des plateformes (Google, Meta, LinkedIn) changent souvent : revérifier chaque consigne avant tournage et à chaque mise à jour de la ressource.",
+    "à vérifier : exigences actuelles de Meta pour les publicités immobilières en France (catégorie Logement, options de ciblage restantes).",
+    "Chapitre à adapter depuis l'ancien chap_1.3 en intégrant Facebook (ancien 1.4) et LinkedIn (ancien 1.5) ; renuméroter."
+  ]
+}
