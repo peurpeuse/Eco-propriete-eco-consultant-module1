@@ -1,0 +1,183 @@
+{
+  "id": "2.4",
+  "module": 2,
+  "section": "B · Les diagnostics obligatoires : ce qui vaut pour tous",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Le dossier de diagnostics : les pièces, qui le remet, quand",
+  "objective": "Dresser, pour un bien donné, la liste des pièces du dossier de diagnostic technique, avec leur durée de validité, qui les commande et à quel moment chacune doit être remise",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier étale le dossier de diagnostic technique sur la table : une pochette, une quinzaine de pièces possibles, mais jamais toutes. La vidéo montre la logique : certaines pièces valent pour tous, d'autres dépendent de l'âge du bien ou de sa zone. Elle insiste sur les dates : validité de chaque pièce, et moments de remise (annonce, première visite, promesse, acte)."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Un vendeur te tend un état des risques établi il y a 8 mois. La promesse est prévue dans 3 semaines. Que fais-tu ?",
+        "options": [
+          "Tu le gardes : il est valable 1 an",
+          "Tu le fais refaire : il doit dater de moins de 6 mois à la signature",
+          "Tu le retires du dossier : il n'est plus obligatoire"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : la durée n'est pas d'un an ; c'est 6 mois.",
+          "Juste : l'état des risques doit dater de moins de 6 mois, et être mis à jour si ses informations ne sont plus exactes.",
+          "Faux : il reste obligatoire dans les zones concernées ; il faut le refaire."
+        ],
+        "fb_title": "État des risques : 6 mois",
+        "fb_text": "L'état des risques doit dater de moins de 6 mois et être actualisé si l'information a changé. Il est remis dès la première visite quand il y en a une, puis annexé à la promesse ou à l'acte (service-public.fr F12239)."
+      },
+      {
+        "question": "Qui commande et paie les diagnostics du dossier de vente ?",
+        "options": [
+          "L'acquéreur, après le compromis",
+          "Le notaire, qui les refacture à l'acquéreur",
+          "Le vendeur, qui fournit le dossier ; l'agent peut l'aider à commander, sans choisir à sa place"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le dossier doit être annexé à la promesse ; il doit exister avant.",
+          "Faux : le notaire contrôle le dossier, il ne le commande pas pour le vendeur.",
+          "Juste : le vendeur fournit le dossier ; tu l'aides à vérifier ce qui manque et à commander auprès d'un diagnostiqueur certifié."
+        ],
+        "fb_title": "Le vendeur fournit le dossier",
+        "fb_text": "Le dossier de diagnostic technique est fourni par le vendeur et annexé à la promesse ou, à défaut, à l'acte. Le diagnostiqueur doit être certifié, assuré et indépendant du vendeur comme de son mandataire : tu ne lui imposes pas un prestataire « maison »."
+      },
+      {
+        "question": "M. Bernard a un DPE du 14/03/2023 et une attestation actualisée (classe E). Faut-il un nouveau DPE pour vendre en 2027 ?",
+        "options": [
+          "Non : le DPE est valable 10 ans, jusqu'au 13/03/2033 ; l'attestation actualisée donne la classe en vigueur",
+          "Oui : tout DPE de plus de 3 ans doit être refait",
+          "Oui : l'attestation actualisée oblige à refaire un DPE"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : un DPE établi depuis le 1/07/2021 est valable 10 ans ; l'attestation suit la même fin de validité.",
+          "Faux : 3 ans, c'est la durée des diagnostics électricité et gaz, pas du DPE.",
+          "Faux : l'attestation est gratuite et ne demande pas de nouvelle visite."
+        ],
+        "fb_title": "DPE : 10 ans",
+        "fb_text": "Un DPE établi depuis le 1/07/2021 est valable 10 ans. Les DPE plus anciens ne sont plus valables aujourd'hui. Un nouveau DPE reste conseillé quand des travaux ont amélioré le logement, pour les valoriser."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableau des diagnostics obligatoires et de leurs durées de validité",
+    "kind": "fiche",
+    "intro": "Le tableau de référence du dossier de diagnostic technique (DDT) en cas de vente d'un logement. Une pièce n'est exigée que si sa condition est remplie. Vérifie toujours la date de chaque pièce par rapport à la date prévue de la promesse, pas seulement à la date de mise en vente.",
+    "sections": [
+      {
+        "heading": "Les pièces du dossier, leur condition, leur validité",
+        "type": "table",
+        "headers": ["Pièce", "Quand elle est exigée", "Validité pour une vente"],
+        "rows": [
+          ["DPE", "Presque tous les logements", "10 ans (DPE établi depuis le 1/07/2021)"],
+          ["Audit énergétique", "Maison ou immeuble hors copropriété classé F ou G (depuis le 1/04/2023), E (depuis le 1/01/2025), D (à partir du 1/01/2034)", "5 ans"],
+          ["Plomb (CREP)", "Logement construit avant le 1/01/1949", "1 an ; illimitée si pas de plomb ou sous les seuils"],
+          ["Amiante", "Permis de construire délivré avant le 1/07/1997", "Illimitée si absence d'amiante (repérage depuis 2013) ; sinon voir le diagnostiqueur"],
+          ["Électricité", "Installation de plus de 15 ans", "3 ans"],
+          ["Gaz", "Installation de plus de 15 ans", "3 ans"],
+          ["État des risques", "Zones à risques (plans de prévention, sismicité 2 à 5, radon 3, recul du trait de côte…)", "6 mois"],
+          ["Termites", "Zone délimitée par arrêté préfectoral", "6 mois"],
+          ["Mérule", "Zone délimitée par arrêté préfectoral (information)", "Pas de durée fixée"],
+          ["Bruit des aérodromes", "Zone d'un plan d'exposition au bruit", "Pas de durée fixée"],
+          ["Assainissement non collectif", "Logement non raccordé au réseau public", "3 ans (contrôle du SPANC)"],
+          ["Carrez", "Lot de copropriété (sauf moins de 8 m²)", "Illimitée sauf travaux modifiant la surface"],
+          ["Carnet d'information du logement", "Construction ou rénovation énergétique engagée depuis le 1/01/2023", "Remis au plus tard à l'acte"]
+        ]
+      },
+      {
+        "heading": "Qui fait quoi",
+        "type": "list",
+        "items": [
+          "Le vendeur fournit le dossier et le paie.",
+          "Le diagnostiqueur réalise les diagnostics : certifié (organisme accrédité par le Cofrac), assuré, sans lien avec le vendeur, son mandataire ou une entreprise de travaux.",
+          "L'état des risques et l'assainissement suivent d'autres règles : le vendeur remplit l'état des risques ; le SPANC contrôle l'assainissement.",
+          "Le notaire vérifie le dossier et l'annexe à la promesse, ou à défaut à l'acte.",
+          "L'agent repère ce qui manque, vérifie les dates et conseille le vendeur ; il ne choisit pas le diagnostiqueur à sa place."
+        ]
+      },
+      {
+        "heading": "Quand chaque information arrive chez l'acquéreur",
+        "type": "steps",
+        "items": [
+          "Annonce : classe énergie et climat, estimation des dépenses annuelles ; renvoi vers Géorisques pour les risques.",
+          "Première visite : état des risques ; audit énergétique pour une maison concernée.",
+          "Promesse : dossier de diagnostic technique complet annexé.",
+          "Acte authentique : dossier à jour (dates de validité vérifiées), carnet d'information du logement s'il existe."
+        ]
+      },
+      {
+        "heading": "La phrase à dire au vendeur",
+        "type": "text",
+        "text": "« Avant de mettre en vente, on vérifie ensemble ce que vous avez déjà et ce qui expire avant la signature. Je vous prépare la liste ; vous choisissez le diagnostiqueur certifié, et je vérifie son certificat sur l'annuaire du ministère. »"
+      }
+    ],
+    "footer": "Sources : service-public.fr F10798 (DDT) ; INC, « Vente immobilière : les diagnostics obligatoires » (vérifié le 25/10/2024, modifié le 10/03/2025) ; service-public.fr F12239 (état des risques, 28/09/2026) ; INC, audit énergétique (16/12/2024) ; ecologie.gouv.fr, diagnostiqueur immobilier (5/08/2025). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Lister les diagnostics à commander pour 3 biens",
+    "duration_min": 30,
+    "context": "Trois vendeurs te demandent quels diagnostics préparer pour une promesse visée en février 2027. Bien 1 : l'appartement de M. Bernard (immeuble de 1972, permis 1970, chauffage électrique, électricité partiellement refaite en 2010, Melun, DPE 2023 + attestation E). Bien 2 : la maison de Mme Garnier (1968, permis 1967, fioul, non raccordée au tout-à-l'égout, SPANC du 12/03/2025, Vaux-le-Pénil, DPE 2024 classe G). Bien 3 (cas d'entraînement fictif) : une maison de 1932 avec chaudière gaz de 2006, dans une commune couverte par un arrêté termites et un plan d'exposition au bruit, DPE classé D établi en mai 2021.",
+    "materials": [
+      "D17 Dossier de diagnostic technique (M. Bernard)",
+      "M02 DPE, M03 audit, M08 rapport du SPANC, M09 amiante et électricité, M10 ERP (Mme Garnier)",
+      "Tableau des diagnostics (ressource de la capsule)"
+    ],
+    "steps": [
+      "Pour chaque bien, passe les 13 lignes du tableau et coche ce qui s'applique, avec la condition remplie.",
+      "Pour chaque pièce existante, calcule si elle sera encore valable en février 2027.",
+      "Liste les pièces à commander ou à refaire, et celles qui sont à vérifier (zone, date).",
+      "Indique pour chaque pièce le moment de remise à l'acquéreur.",
+      "Résume en une phrase par bien ce que tu dis au vendeur."
+    ],
+    "expected": "Bien 1 (M. Bernard) : DPE valable jusqu'au 13/03/2033 + attestation E ; amiante (permis 1970) ; électricité (installation de plus de 15 ans) ; état des risques de moins de 6 mois ; Carrez ; pas de plomb (après 1949), pas de gaz, pas d'audit (lot de copropriété) ; termites, mérule et bruit : zone à vérifier. Bien 2 (Mme Garnier) : DPE valable jusqu'au 05/02/2034 ; audit énergétique (classe G, obligatoire depuis le 1/04/2023, valable 5 ans) ; amiante ; électricité ; état des risques de moins de 6 mois ; assainissement : SPANC du 12/03/2025, valable jusqu'au 11/03/2028 ; pas de plomb, pas de gaz ; termites et mérule à vérifier. Bien 3 : nouveau DPE (mai 2021 : plus valable) ; plomb (avant 1949) ; amiante ; gaz (2006 : plus de 15 ans en 2027) ; électricité si plus de 15 ans ; termites (6 mois) ; document bruit ; état des risques ; audit seulement si le nouveau DPE classe la maison E, F ou G."
+  },
+  "deliverable": {
+    "title": "Tableau des diagnostics de 3 biens",
+    "format": "Tableau (XLSX ou PDF), 1 page : 3 colonnes de biens, 13 lignes de pièces",
+    "criteria": [
+      "Chaque pièce cochée indique la condition qui la rend obligatoire",
+      "La validité de chaque pièce existante est vérifiée à la date de promesse visée",
+      "Les pièces non obligatoires sont justifiées (ex. pas de plomb : construit après 1949)",
+      "Les points de zone non connus sont notés « à vérifier » avec l'outil à consulter",
+      "Le moment de remise est indiqué pour l'état des risques et l'audit"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Service-Public F10798 : diagnostics immobiliers à fournir en cas de vente (DDT)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798"
+    },
+    {
+      "label": "INC : vente immobilière, les diagnostics obligatoires (conditions et durées de validité), vérifié le 25/10/2024",
+      "url": "https://inc-conso.fr/content/logement/vente-immobiliere-les-diagnostics-obligatoires-pour-les-logements-usage-dhabitation"
+    },
+    {
+      "label": "Service-Public F12239 : état des risques (6 mois, remise dès la première visite, renvoi à Géorisques dans l'annonce), 28/09/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239"
+    },
+    {
+      "label": "INC : obligation d'audit énergétique à la vente de certaines maisons (calendrier, validité 5 ans, remise à la première visite), 16/12/2024",
+      "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons"
+    },
+    {
+      "label": "Ministère de la Transition écologique : diagnostiqueur immobilier, profession réglementée (certification, assurance, indépendance), mis à jour le 5/08/2025",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/diagnostiqueur-immobilier-profession-reglementee"
+    },
+    {
+      "label": "INC : carnet d'information du logement (remise au plus tard à l'acte), modifié le 4/06/2026",
+      "url": "https://www.inc-conso.fr/content/le-carnet-dinformation-du-logement"
+    }
+  ],
+  "open_points": [
+    "À vérifier : la page F10798 indique une condition de surface pour le DPE d'une maison (« supérieure ou égale à 50 m² » selon notre lecture) ; à relire sur la page avant tournage",
+    "À vérifier : validité de l'amiante en cas de présence d'amiante et selon la date du repérage (avant ou après le 1/04/2013) ; à faire confirmer par un diagnostiqueur",
+    "Les durées de validité de l'INC datent de 2024-2025 ; à revérifier sur Légifrance (CCH, art. L. 271-4 et R. 271-5) avant diffusion",
+    "Cas d'entraînement du bien 3 : fictif, à valider par Sébastien Paumier"
+  ]
+}

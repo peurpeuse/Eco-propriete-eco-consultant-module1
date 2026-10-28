@@ -1,0 +1,156 @@
+{
+  "id": "3.1",
+  "module": 3,
+  "section": "A · Construire les indicateurs du bien",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "La méthode VERTE",
+  "objective": "Classer toutes les données du dossier de son bien fil rouge dans les 5 cases de la méthode VERTE (Valeur, Énergie, Rénovation, Territoire, Échéances) et repérer les cases vides avant le rendez-vous",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Le module 2 a produit des dizaines de chiffres. Sébastien Paumier les range en cinq cases : V comme Valeur, E comme Énergie, R comme Rénovation, T comme Territoire, E comme Échéances. Il remplit la grille avec l'appartement de M. Bernard, montre une case vide qui aurait coûté le rendez-vous, et annonce la suite du module : un indicateur par case, puis le tableau de bord."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Claire range « appels de fonds de l'isolation de façade exigibles le 1/01, 1/04, 1/07 et 1/10/2027 » dans sa grille VERTE. Dans quelle case ?",
+        "options": [
+          "V, Valeur",
+          "E, Échéances",
+          "T, Territoire"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le montant pèse sur la valeur, mais une suite de dates est d'abord une échéance à suivre.",
+          "Juste : les dates d'exigibilité décident de qui paie ; elles vont dans la case Échéances (le montant total, lui, va dans Rénovation).",
+          "Faux : Territoire regroupe le marché local (prix, délais, négociation)."
+        ],
+        "fb_title": "Une date va dans Échéances",
+        "fb_text": "La grille VERTE sépare le combien (Rénovation : 35 880 € de quote-part) du quand (Échéances : 4 appels de 8 970 € en 2027). C'est le quand qui permet de dire au vendeur et à l'acquéreur qui paiera quoi."
+      },
+      {
+        "question": "Karim arrive au rendez-vous de M. Bernard avec la valeur, l'étiquette et le budget travaux, mais sans aucune donnée sur le marché local. Quelle case est vide ?",
+        "options": [
+          "T, Territoire : prix au m² du secteur, part des biens F et G, délais, négociation",
+          "R, Rénovation",
+          "E, Énergie"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : sans le marché local, la valeur n'est pas reliée aux ventes réelles du secteur, et M. Bernard le verra.",
+          "Faux : le budget travaux est déjà rempli.",
+          "Faux : l'étiquette est déjà renseignée."
+        ],
+        "fb_title": "Une case vide se voit avant le rendez-vous",
+        "fb_text": "La grille sert d'abord de contrôle : chaque case doit contenir au moins un chiffre sourcé et daté. Une case T vide, c'est un vendeur qui demande « et dans mon quartier ? » sans réponse."
+      },
+      {
+        "question": "Mozi résume le dossier de M. Bernard en un mot : « passoire ». Que lui opposes-tu avec la méthode VERTE ?",
+        "options": [
+          "Rien : l'étiquette résume tout",
+          "Le prix espéré par le vendeur",
+          "Cinq cases chiffrées : l'étiquette n'est qu'une case parmi cinq, et elle est passée de F à E avec l'attestation"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : l'étiquette ne dit rien du prix du secteur, du budget ni du calendrier.",
+          "Faux : le prix espéré est une donnée du vendeur, pas un indicateur du bien.",
+          "Juste : Valeur, Énergie, Rénovation, Territoire, Échéances ; et l'attestation ADEME classe le bien en E, pas en passoire."
+        ],
+        "fb_title": "Cinq cases plutôt qu'un mot",
+        "fb_text": "Un mot fait peur, cinq cases chiffrées informent. Chez M. Bernard, la case Énergie dit : F sur le DPE de 2023, E sur l'attestation actualisée. Ce n'est plus une passoire au sens du DPE."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche méthode VERTE",
+    "kind": "fiche",
+    "intro": "VERTE est la grille qui ouvre le module 3 : elle range les données du dossier d'estimation en 5 cases, avant de construire les indicateurs (capsules 3.2 à 3.6) et le tableau de bord d'une page (capsule 3.7). Signification des lettres : proposition à valider par Sébastien Paumier. Exemple rempli : appartement de M. Bernard (chiffres FICTIFS). Parcours maison : même grille pour la maison de Mme Garnier.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les 5 cases (proposition)",
+        "headers": ["Lettre", "Case", "Question à laquelle elle répond", "Capsule"],
+        "rows": [
+          ["V", "Valeur", "Combien vaut le bien aujourd'hui, et après travaux ?", "3.4"],
+          ["E", "Énergie", "Quelle étiquette, quelle consommation, quelles émissions, avant et après ?", "3.3"],
+          ["R", "Rénovation", "Quels travaux, quel budget, quelles aides vérifiées, quel reste à charge ?", "3.5"],
+          ["T", "Territoire", "Que dit le marché local : prix, part des biens F et G, délais, négociation ?", "3.6"],
+          ["E", "Échéances", "Quelles dates comptent : appels de fonds, validité du DPE, calendrier de location, coefficient ?", "3.2 et 3.7"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemple rempli : appartement de M. Bernard (FICTIF)",
+        "headers": ["Case", "Données clés", "Source"],
+        "rows": [
+          ["V", "En l'état 178 000 – 186 000 € (conclusion 181 000 €) ; après rénovation 216 600 €", "Capsules 2.40 et 2.43, D12"],
+          ["E", "DPE 2023 : F (345 kWhEP/m²/an) ; attestation : E (285 kWhEP) ; climat C (12 kgCO₂/m²/an)", "D02, D03"],
+          ["R", "Privatifs 16 500 € TTC ; quote-part ITE 35 880 € ; aides notifiées : 0 €", "D13, D07"],
+          ["T", "Médiane en l'état 2 650 €/m², rénovés 2 850 €/m² ; marge de négociation indicative ≈ 7 %", "D12 (fictif)"],
+          ["E", "Appels ITE 1/01, 1/04, 1/07, 1/10/2027 ; coefficient électricité 1,7 au 1/01/2027 ; attestation valable jusqu'au 13/03/2033 ; classe E interdite en nouvelle location au 1/01/2034", "D07, D03, arrêté du 19/08/2026, ecologie.gouv.fr"]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Placer un bien dans VERTE en 4 gestes",
+        "items": [
+          "Liste toutes les données du dossier, une par ligne, avec leur source et leur date.",
+          "Range chaque donnée dans une seule case ; un montant va dans R ou V, une date dans E (Échéances).",
+          "Vérifie que chaque case contient au moins une donnée sourcée et datée ; une case vide devient une tâche.",
+          "Note pour chaque case la question que le vendeur posera, et la réponse en une phrase."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Je vais vous présenter votre bien en cinq points : sa valeur, son énergie, les travaux possibles, ce que dit le marché de votre quartier et les dates qui comptent. Chaque chiffre aura sa source. »"
+      }
+    ],
+    "footer": "Sources : dossier fil rouge (D02, D03, D07, D12, D13, FICTIFS) ; arrêté du 19 août 2026 (coefficient électricité 1,7 au 1/01/2027) ; Ministère de la Transition écologique, décence énergétique (19/12/2025). Acronyme VERTE : proposition à valider par Sébastien Paumier. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Placer son bien fil rouge dans V-E-R-T-E",
+    "duration_min": 25,
+    "context": "Tu as terminé le dossier d'estimation de ton bien fil rouge au module 2 (appartement de M. Bernard ou maison de Mme Garnier, selon ton parcours). Avant de construire les indicateurs, tu ranges toutes tes données dans la grille VERTE et tu repères ce qui manque.",
+    "materials": [
+      "Ton dossier d'estimation du module 2 (capsules 2.37 à 2.43)",
+      "Appartement : D02, D03, D07, D12, D13 ; maison : M02, M03, M12, M14",
+      "Fiche méthode VERTE (ressource)"
+    ],
+    "steps": [
+      "Liste au moins 15 données de ton dossier, chacune avec sa source et sa date.",
+      "Range chaque donnée dans une case V, E, R, T ou E.",
+      "Repère les cases vides ou faibles et écris ce qu'il faut aller chercher.",
+      "Pour chaque case, écris la question probable du vendeur et ta réponse en une phrase.",
+      "Choisis la case qui sera ton argument principal au rendez-vous et dis pourquoi."
+    ],
+    "expected": "Exemple pour M. Bernard. V : 178 000 – 186 000 € en l'état (181 000 € conclus), 216 600 € après rénovation. E (Énergie) : F sur le DPE du 14/03/2023 (345 kWhEP/m²/an), E sur l'attestation actualisée (285 kWhEP avec le coefficient 1,9), climat C (12 kgCO₂/m²/an). R : 16 500 € TTC de travaux privatifs (D13), 35 880 € de quote-part ITE (D07), aide de la copropriété non notifiée = 0 €. T : médiane 2 650 €/m² en l'état et 2 850 €/m² rénovés (D12, fictif), marge de négociation indicative ≈ 7 %. E (Échéances) : appels de 8 970 € les 1/01, 1/04, 1/07, 1/10/2027 ; coefficient 1,7 au 1/01/2027 ; attestation valable jusqu'au 13/03/2033 ; classe E interdite en nouvelle location au 1/01/2034. Case faible typique : T (part des biens F et G et délais de vente non relevés) → tâche pour la capsule 3.6. Argument principal : E (Énergie), parce que l'attestation contredit le « −15 % à cause du DPE » des deux agences.",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Grille VERTE de son bien fil rouge",
+    "format": "Tableau d'une page (PDF ou tableur)",
+    "criteria": [
+      "Les 5 cases sont remplies, chacune avec au moins 2 données",
+      "Chaque donnée a une source et une date",
+      "Les montants et les dates sont rangés dans la bonne case",
+      "Les cases faibles sont repérées avec une action pour les compléter",
+      "La case argument principal est choisie et justifiée"
+    ]
+  },
+  "sources": [
+    { "label": "Légifrance, arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
+    { "label": "Ministère de la Transition écologique, « Décence énergétique et gel des loyers » (mis à jour le 19/12/2025)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/location-gel-loyers-passoires-energetiques" },
+    { "label": "ADEME, Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+    { "label": "Proposition pédagogique Éco-Propriété : acronyme VERTE (Valeur, Énergie, Rénovation, Territoire, Échéances), données FICTIVES du dossier fil rouge" }
+  ],
+  "open_points": [
+    "Signification de V-E-R-T-E non fournie : proposition « Valeur, Énergie, Rénovation, Territoire, Échéances » à valider par Sébastien Paumier.",
+    "Conclusion 181 000 € et marge de négociation ≈ 7 % : chiffres dérivés des capsules 2.38 et 2.40, à valider.",
+    "Vérifier la cohérence de VERTE avec la méthode ARFE et les autres acronymes déjà utilisés dans la formation."
+  ]
+}

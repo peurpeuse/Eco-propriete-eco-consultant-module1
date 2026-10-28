@@ -1,0 +1,170 @@
+{
+  "id": "1.20",
+  "module": 1,
+  "section": "G · Je crée mes outils de visibilité web et physique",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Visibilité physique (carte, flyer, boîtage, signalétique)",
+  "objective": "Concevoir une carte de visite ou un flyer conforme (mentions professionnelles, message clé, QR code testé vers une page avec consentement) et planifier un boîtage qui respecte le Stop Pub",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Une carte, un flyer, un panneau : ce que le propriétaire garde dans sa main ou voit dans sa rue. Sébastien Paumier montre les mentions obligatoires d'un document d'agent, le message clé repris à l'identique, le QR code qui mène à une page utile et mesurable, et un boîtage ciblé qui respecte l'autocollant Stop Pub."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Quelles mentions doivent figurer sur un document professionnel d'agent immobilier (carte, flyer, courrier) ?",
+        "options": [
+          "Seulement le logo et le numéro de téléphone",
+          "Le numéro et le lieu de délivrance de la carte professionnelle, le nom et l'adresse de l'entreprise, l'activité et, le cas échéant, le garant",
+          "Le chiffre d'affaires de l'agence et le nombre de ventes de l'année"
+        ],
+        "answer": 1,
+        "whys": [
+          "Insuffisant : l'article 92 du décret n° 72-678 impose des mentions professionnelles sur tous les documents à usage professionnel.",
+          "Juste : ce sont les mentions de l'article 92 du décret du 20 juillet 1972, rappelées par la DGCCRF.",
+          "Aucune obligation de ce type ; et un chiffre de ventes affiché doit pouvoir être prouvé."
+        ],
+        "fb_title": "Les mentions professionnelles partout",
+        "fb_text": "Carte professionnelle (numéro et lieu de délivrance), dénomination et adresse, activité exercée, garant le cas échéant : sur la carte de visite, le flyer et le courrier. Si tu es agent commercial ou collaborateur, vérifie aussi les mentions propres à ton statut avec ton réseau."
+      },
+      {
+        "question": "Une boîte aux lettres porte un autocollant « Stop Pub ». Que fais-tu de ton flyer ?",
+        "options": [
+          "Tu ne le déposes pas : le Stop Pub s'applique partout en France depuis la fin de l'expérimentation Oui Pub le 1/05/2025",
+          "Tu le déposes : un flyer d'agent immobilier n'est pas de la publicité",
+          "Tu le déposes plié dans le journal gratuit"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : le refus affiché sur la boîte aux lettres se respecte ; le « Oui Pub » expérimental n'a pas été généralisé et le Stop Pub est à nouveau la règle.",
+          "Ton flyer promeut un service : c'est un imprimé publicitaire non adressé comme un autre.",
+          "Contourner l'autocollant, c'est ignorer un refus clair : mauvais pour ton image et contraire à la règle."
+        ],
+        "fb_title": "Stop Pub = pas de flyer",
+        "fb_text": "Depuis le 1/05/2025, fin de l'expérimentation Oui Pub, le Stop Pub s'applique partout. Ton boîtage cible les rues qui correspondent à ta cible et saute chaque boîte qui affiche un refus. Pour aller plus loin auprès d'une personne précise, tu attends qu'elle te contacte."
+      },
+      {
+        "question": "Ton flyer porte un QR code. Où doit-il mener ?",
+        "options": [
+          "Vers la page d'accueil générique de ton réseau",
+          "Vers un formulaire qui collecte nom et téléphone sans aucune information",
+          "Vers une page dédiée à l'offre du flyer, avec un formulaire qui informe et propose une case de consentement non cochée"
+        ],
+        "answer": 2,
+        "whys": [
+          "Le propriétaire se perd, et tu ne sais pas mesurer ce que rapporte ton flyer.",
+          "Collecter des données sans informer la personne ni recueillir son accord pour être rappelée est contraire au RGPD et aux règles de démarchage.",
+          "Juste : une page qui tient la promesse du flyer, mesurable, et un consentement recueilli proprement pour pouvoir le rappeler."
+        ],
+        "fb_title": "Un QR code, une page, un consentement",
+        "fb_text": "Le QR code mène à une page qui reprend l'offre du flyer. Le formulaire informe (qui collecte, pour quoi, combien de temps, droits) et propose une case non cochée nommant ton agence, l'objet et la durée de l'accord, pour pouvoir rappeler la personne en toute légalité."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèles de carte de visite, flyer, boîtage et QR code",
+    "kind": "modele",
+    "intro": "Les gabarits de tes supports physiques et les règles à vérifier avant impression. Ton message clé (capsule 1.17) est repris mot pour mot ; chaque support renvoie, par un QR code, vers une page mesurable.",
+    "sections": [
+      {
+        "type": "checklist",
+        "heading": "Mentions professionnelles à faire figurer (décret n° 72-678, art. 92)",
+        "items": [
+          "Numéro et lieu de délivrance de la carte professionnelle.",
+          "Nom ou raison sociale et adresse de l'entreprise, activité exercée.",
+          "Le cas échéant, nom et adresse du garant.",
+          "Agent commercial ou collaborateur : mentions propres à ton statut et à ton mandant (à vérifier avec ton réseau).",
+          "Sur un support qui présente un bien à vendre : mentions DPE, copropriété et honoraires de l'annonce."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Les gabarits",
+        "headers": ["Support", "Recto", "Verso ou détail"],
+        "rows": [
+          ["Carte de visite (85 × 55 mm)", "Nom, photo, « Éco-Consultant », message clé", "Téléphone, e-mail, QR code vers ta page, mentions professionnelles"],
+          ["Flyer A5", "Accroche ciblée (« Votre DPE électrique date d'avant 2026 ? »), 3 lignes de bénéfice, QR code", "Ta méthode en 3 verbes, une preuve vérifiable, mentions professionnelles"],
+          ["Boîtage", "Flyer A5 ou carte postale, rues choisies selon ta cible", "Feuille de route : rues, date, nombre déposé, boîtes Stop Pub sautées"],
+          ["Signalétique", "Panneau « À vendre » ou vitrophanie, avec accord écrit du vendeur", "Règlement local de publicité de la commune à vérifier en mairie"]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Créer un QR code utile",
+        "items": [
+          "Crée une page dédiée à l'offre du support (pas ta page d'accueil).",
+          "Ajoute au lien un paramètre de suivi propre au support (exemple : ?source=flyer-oct).",
+          "Génère le QR code, taille minimale lisible à l'impression (environ 2 cm de côté, à tester).",
+          "Teste-le sur deux téléphones différents avant d'imprimer.",
+          "Sur la page : formulaire avec information RGPD et case de consentement non cochée nommant ton agence, l'objet et la durée (12 mois maximum pour le téléphone)."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Exemple de flyer (fictif)",
+        "text": "Recto : « Votre logement est chauffé à l'électricité et votre DPE date d'avant 2026 ? Sa classe a peut-être changé. Je vérifie avec vous l'étiquette à jour, gratuitement et sans engagement, avant de parler prix. » QR code « Vérifions votre DPE ». Verso : « Vendre votre logement ancien au juste prix : DPE vérifié, valeur prouvée par les ventes réelles. Je vérifie, je chiffre, je remets par écrit. » Mentions : carte professionnelle n° [numéro] délivrée par la CCI de [lieu], [raison sociale, adresse], transaction immobilière, garant : [nom, adresse]."
+      },
+      {
+        "type": "checklist",
+        "heading": "Avant d'imprimer et de distribuer",
+        "items": [
+          "Message clé identique à celui de la fiche Google et du profil LinkedIn.",
+          "Aucune promesse de prix, de classe, de délai ou d'aide.",
+          "QR code testé, page en ligne, formulaire conforme.",
+          "Boîtage : aucune boîte portant un Stop Pub ou un refus.",
+          "Mention invitant à ne pas jeter sur la voie publique (à vérifier : caractère obligatoire).",
+          "Quantité, coût et indicateur notés pour le bilan à 30 jours."
+        ]
+      }
+    ],
+    "footer": "Sources : Légifrance, décret n° 72-678 du 20/07/1972, art. 92 ; DGCCRF, l'agent immobilier : les règles qui encadrent la profession ; ministère de la Transition écologique, fin de l'expérimentation Oui Pub (30/04/2025) ; CNIL, information des personnes ; DGCCRF, démarchage téléphonique (consentement, 11/08/2026). Gabarits : proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Concevoir un support physique avec son QR code",
+    "duration_min": 40,
+    "context": "Tu crées la carte de visite ou le flyer A5 qui portera ton message clé dans les rues de ta cible. Le support doit être conforme, sans promesse, et son QR code doit mener à une page mesurable avec un formulaire qui recueille proprement le consentement.",
+    "materials": [
+      "Ton message clé et ton plan de communication (capsule 1.17)",
+      "Modèles de carte, flyer, boîtage et QR code (ressource)",
+      "Un outil de mise en page (Canva ou équivalent) et un générateur de QR code",
+      "Ta carte professionnelle ou ton attestation d'habilitation (pour les mentions)"
+    ],
+    "steps": [
+      "Choisis ton support (carte ou flyer A5) selon ton canal prioritaire.",
+      "Rédige le recto : accroche ciblée et message clé, sans promesse.",
+      "Rédige le verso : méthode en 3 verbes, une preuve vérifiable, mentions professionnelles complètes.",
+      "Crée la page de destination et son formulaire (information RGPD, case non cochée), puis le QR code avec un paramètre de suivi.",
+      "Teste le QR code sur deux téléphones et fais relire le support par une personne extérieure.",
+      "Si tu prévois un boîtage : rédige la feuille de route (rues, date, quantité, Stop Pub sautés)."
+    ],
+    "expected": "Support attendu : un flyer A5 recto verso. Recto : « Votre logement est chauffé à l'électricité et votre DPE date d'avant 2026 ? Sa classe a peut-être changé. » + QR code « Vérifions votre DPE ». Verso : message clé identique à la fiche Google, « Je vérifie, je chiffre, je remets par écrit », mentions professionnelles (numéro et lieu de délivrance de la carte, raison sociale, adresse, activité, garant). Page de destination : rappel de l'offre, formulaire avec mention d'information et case non cochée « J'accepte d'être recontacté par [agence] par téléphone au sujet de mon DPE et de l'estimation de mon bien, pendant 12 mois ». Lien suivi « ?source=flyer-oct ». Feuille de boîtage : 300 flyers, 6 rues de résidences 1960-1980, boîtes Stop Pub sautées et comptées."
+  },
+  "deliverable": {
+    "title": "Mon support physique et son QR code",
+    "format": "PDF du support (recto et verso) + capture de la page de destination + feuille de route de boîtage si prévue",
+    "criteria": [
+      "Mentions professionnelles complètes (carte, raison sociale, adresse, activité, garant le cas échéant)",
+      "Message clé identique aux autres supports, sans promesse de prix, de classe, de délai ou d'aide",
+      "QR code testé, menant à une page dédiée avec un paramètre de suivi",
+      "Formulaire avec information RGPD et case de consentement non cochée (agence, objet, durée)",
+      "Boîtage prévu dans le respect du Stop Pub"
+    ]
+  },
+  "sources": [
+    { "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972, article 92 (mentions sur les documents professionnels)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000023411813" },
+    { "label": "DGCCRF — L'agent immobilier : les règles qui encadrent la profession", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques-et-les-faq/lagent-immobilier-les-regles-qui-encadrent-la-profession" },
+    { "label": "Ministère de la Transition écologique — L'expérimentation Oui Pub (fin le 30/04/2025, Stop Pub à nouveau applicable)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/lexperimentation-oui-pub" },
+    { "label": "CNIL — Conformité RGPD : comment informer les personnes et assurer la transparence ?", "url": "https://www.cnil.fr/fr/conformite-rgpd-information-des-personnes-et-transparence" },
+    { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" }
+  ],
+  "open_points": [
+    "à vérifier : caractère obligatoire de la mention « Ne pas jeter sur la voie publique » et sanction exacte en cas de non-respect du Stop Pub (code de l'environnement).",
+    "à vérifier avec les réseaux de mandataires : mentions propres aux agents commerciaux (RSAC, mandant, attestation d'habilitation) sur les cartes et flyers.",
+    "à vérifier : règlement local de publicité pour la signalétique (panneaux, vitrophanie), propre à chaque commune.",
+    "Une proposition de loi visant à généraliser le Oui Pub a été déposée en septembre 2025 : vérifier son sort avant chaque mise à jour."
+  ]
+}

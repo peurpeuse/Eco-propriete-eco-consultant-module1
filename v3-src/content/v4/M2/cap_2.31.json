@@ -1,0 +1,174 @@
+{
+ "id": "2.31",
+ "module": 2,
+ "section": "L · PARCOURS MAISON · Sa valeur vénale : sol + construction, bâti-terrain, capitalisation",
+ "etape": "4 (Éco-staging)",
+ "parcours": "maison",
+ "prio": false,
+ "ia": false,
+ "title": "Maison : le sol, par les mutations de terrains",
+ "objective": "Valoriser le sol d'une maison et un lot détachable à partir de mutations de terrains, en excluant la bande d'accès et en déduisant les frais de division",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Mozi voit 1 240 m² de terrain chez Mme Garnier et annonce « 1 240 fois 200 €, c'est 248 000 € de terrain en plus ». Sébastien Paumier ouvre le tableau des ventes de terrains, compare au m² utile, retire la bande d'accès, déduit les frais de division et montre ce que vaut vraiment le lot de 420 m² valorisables : une option à étudier, pas un gain promis."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Le lot détachable de Mme Garnier fait 480 m², dont une bande d'accès de 60 m². Les terrains à bâtir se vendent 200 €/m² utile (médiane fictive). Quelle valeur avant frais ?",
+    "options": [
+     "96 000 € (480 × 200)",
+     "84 000 € (420 × 200)",
+     "248 000 € (1 240 × 200)"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : la bande d'accès sert au passage ; on ne la valorise pas comme du terrain constructible.",
+     "Juste : 480 − 60 = 420 m² valorisables, × 200 €/m² = 84 000 € avant frais.",
+     "Faux : c'est l'erreur de Mozi ; la maison occupe déjà sa parcelle et seul le lot détachable peut être vendu comme terrain à bâtir."
+    ],
+    "fb_title": "Passage exclu, surface utile seulement",
+    "fb_text": "On compare au m² utile, comme pour la référence T5 (terrain en drapeau). 84 000 € est une valeur avant frais : géomètre, branchements et étude G1 sont estimés à 15 000 € (fictif)."
+   },
+   {
+    "question": "Une vente de terrain de 1 100 m² à 3 €/m² apparaît dans DVF à 300 m de la maison. Que fais-tu ?",
+    "options": [
+     "Tu la retiens, c'est la plus proche",
+     "Tu fais la moyenne avec les terrains à bâtir",
+     "Tu vérifies la zone du PLU : en zone agricole ou naturelle, ce n'est pas un terrain à bâtir, tu l'écartes"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : la proximité ne suffit pas ; un terrain non constructible n'est pas comparable à un lot en zone UB.",
+     "Faux : mélanger terrain agricole et terrain à bâtir fausse toute la moyenne.",
+     "Juste : la zone du PLU est le premier critère d'un terrain ; tu l'écris comme motif d'exclusion."
+    ],
+    "fb_title": "La zone du PLU d'abord",
+    "fb_text": "Un terrain vaut ce qu'on peut y construire. Zone, emprise, recul, accès et risques font le prix. Vérifie la zone de chaque référence sur le Géoportail de l'urbanisme."
+   },
+   {
+    "question": "Mme Garnier demande : « Donc je gagne 84 000 € en vendant un bout de jardin ? » Que réponds-tu ?",
+    "options": [
+     "« C'est une option à étudier avec un géomètre et votre notaire : frais d'environ 15 000 €, étude de sol obligatoire, fiscalité à voir avec lui »",
+     "« Oui, c'est garanti »",
+     "« Non, ça ne vaut rien »"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : tu donnes l'ordre de grandeur, les frais et les étapes, et tu renvoies la fiscalité et le montage au notaire.",
+     "Faux : aucun prix n'est garanti, et la division dépend de l'accord d'urbanisme, du géomètre et des frais.",
+     "Faux : le lot a une valeur de marché ; la taire priverait ta cliente d'une information utile."
+    ],
+    "fb_title": "Une option, jamais une promesse",
+    "fb_text": "Ordre de grandeur : 84 000 € avant frais, environ 69 000 € après les 15 000 € de frais (fictifs). Zone d'argiles moyenne : l'étude géotechnique préalable est obligatoire à la vente d'un terrain constructible."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Tableau des mutations de terrains (prix au m², zone du PLU, risques) + fiche servitude de passage",
+  "kind": "fiche",
+  "intro": "Le sol se valorise par comparaison avec des ventes de terrains à bâtir du même secteur, au m² utile, en tenant compte de la zone du PLU, de la viabilisation et des risques. Ce tableau (M13, fictif) sert deux fois : pour le lot détachable de Mme Garnier et pour la valeur du sol dans la méthode sol + construction (capsules 2.33 et 2.36).",
+  "sections": [
+   {
+    "type": "table",
+    "heading": "Mutations de terrains autour de Vaux-le-Pénil (M13, FICTIF)",
+    "headers": ["Réf.", "Commune, date", "Surface totale / utile", "Zone, état", "Prix, €/m² utile", "Décision"],
+    "rows": [
+     ["T1", "Vaux-le-Pénil, 03/2025", "450 / 450 m²", "UB, viabilisé, argiles moyen", "94 500 €, 210", "Retenue"],
+     ["T2", "Vaux-le-Pénil, 09/2025", "520 / 520 m²", "UB, viabilisé, argiles moyen", "104 000 €, 200", "Retenue"],
+     ["T3", "Le Mée-sur-Seine, 01/2026", "400 / 400 m²", "UB, viabilisé, argiles faible", "92 000 €, 230", "Retenue"],
+     ["T4", "Dammarie-lès-Lys, 06/2025", "600 / 600 m²", "UC, viabilisé, argiles moyen", "108 000 €, 180", "Retenue"],
+     ["T5", "Vaux-le-Pénil, 02/2026", "480 / 430 m² (accès 50 m²)", "UB, en drapeau, argiles moyen", "86 000 €, 200", "Retenue (179 €/m² sur le total)"],
+     ["T6", "Vaux-le-Pénil, 11/2025", "1 100 / 0 m²", "Zone A, non constructible", "3 300 €, 3", "Écartée : non constructible"],
+     ["T7", "Vaux-le-Pénil, 07/2025", "500 / 500 m²", "UB, viabilisé", "30 000 €, 60", "Écartée : vente atypique, à vérifier"]
+    ]
+   },
+   {
+    "type": "formula",
+    "heading": "Le calcul du lot détachable de Mme Garnier",
+    "text": "Médiane des 5 terrains retenus (210, 200, 230, 180, 200) = 200 €/m² utile ; moyenne = 204 €/m². Surface valorisable = 480 m² − 60 m² de bande d'accès = 420 m². Valeur avant frais = 420 × 200 = 84 000 € (fourchette 420 × 180 = 75 600 € à 420 × 230 = 96 600 €). Frais de division (géomètre, branchements, étude G1) = 15 000 € (fictif). Ordre de grandeur net = 84 000 − 15 000 = 69 000 €, avant fiscalité (à voir avec le notaire)."
+   },
+   {
+    "type": "formula",
+    "heading": "La valeur du sol de toute la parcelle (pour la méthode sol + construction)",
+    "text": "Parcelle AB 214 = 1 240 m². Les terrains de référence font 400 à 600 m² : au-delà, le m² vaut moins. Hypothèse de jugement (fictive, à valider) : 600 premiers m² à 200 €/m² = 120 000 € ; surplus de 640 m² en jardin d'agrément à 25 % du prix médian, soit 50 €/m² = 32 000 €. Valeur du sol = 152 000 €. Ne pas y ajouter en plus les 84 000 € du lot : ce serait compter le même terrain deux fois."
+   },
+   {
+    "type": "list",
+    "heading": "Fiche servitude de passage : ce qu'il faut savoir",
+    "items": [
+     "Accès en pleine propriété : la bande de 60 m² appartient au lot ; elle se paie avec lui, mais ne se valorise pas comme du terrain constructible.",
+     "Servitude conventionnelle : le passage reste sur le terrain conservé ; elle se crée par acte notarié (le passage est une servitude discontinue, établie par titre : Code civil, art. 691).",
+     "Enclave : si une division crée une parcelle sans accès, le passage ne peut être demandé que sur les terrains issus de cette division (Code civil, art. 684).",
+     "Une servitude de passage diminue la valeur du terrain qui la supporte : à intégrer dans le prix de la maison conservée.",
+     "Largeur d'accès minimale : à lire dans le PLU (M07) et à faire confirmer par le géomètre."
+    ]
+   },
+   {
+    "type": "text",
+    "heading": "La phrase à dire à Mme Garnier",
+    "text": "« Votre terrain permet peut-être de détacher un lot à bâtir. Les ventes de terrains autour de chez vous donnent un ordre de grandeur de 84 000 € avant frais. Ce n'est pas un gain garanti : il faut l'avis d'un géomètre, une déclaration préalable, une étude de sol, et l'avis de votre notaire sur la fiscalité. »"
+   }
+  ],
+  "footer": "Sources : Code civil, art. 682 à 685-1 (droit de passage) et art. 691 (Légifrance) ; Géorisques, dossier retrait-gonflement des argiles (étude préalable à la vente d'un terrain constructible en zone d'exposition moyenne ou forte, loi ÉLAN) ; Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : le terrain s'évalue par comparaison avec des transactions de terrains similaires. Mutations et frais fictifs (bible §11.4 et §11.5). Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Valoriser le lot détachable de la maison de Mme Garnier, passage exclu",
+  "duration_min": 35,
+  "context": "Le PLU (zone UB, fictif) permet de détacher un lot de 480 m² à l'arrière de la parcelle AB 214, dont une bande d'accès de 60 m² le long de la limite est. Mme Garnier veut savoir ce que cela représente avant d'en parler à ses fils. Tu disposes du tableau M13 des mutations de terrains.",
+  "materials": [
+   "M06 Extrait cadastral et plan de la parcelle AB 214",
+   "M07 Extrait du PLU (zone UB)",
+   "M10 État des risques (argiles exposition moyenne)",
+   "M13 Tableau des mutations de terrains (fictif)"
+  ],
+  "steps": [
+   "Calcule le prix au m² utile de chaque mutation de M13 (pour T5, retire la bande d'accès de 50 m²).",
+   "Retiens les terrains comparables et écris le motif de chaque exclusion.",
+   "Calcule la médiane et la fourchette, puis la valeur du lot sur 420 m² valorisables.",
+   "Déduis les frais de division et écris l'ordre de grandeur net, avec les conditions (déclaration préalable, géomètre, étude G1, notaire).",
+   "Rédige la note de 5 lignes pour Mme Garnier, en choisissant entre accès en pleine propriété et servitude de passage, avec la conséquence sur la maison conservée."
+  ],
+  "expected": "Prix au m² utile : T1 210, T2 200, T3 230, T4 180, T5 86 000 ÷ 430 = 200 (179 sur le total), T6 3, T7 60. Retenus : T1 à T5 (terrains à bâtir viabilisés, zones UB ou UC, 400 à 600 m², même secteur). Écartés : T6, zone agricole non constructible ; T7, prix anormal (60 €/m²), vente atypique à vérifier. Médiane 200 €/m², fourchette 180 à 230. Valeur du lot : 420 × 200 = 84 000 € (75 600 à 96 600 €). Net de 15 000 € de frais : environ 69 000 €, avant fiscalité. Conditions : déclaration préalable, bornage par un géomètre, étude géotechnique préalable obligatoire à la vente (argiles moyen), avis du notaire. Accès : de préférence en pleine propriété dans le lot (60 m²), ce qui évite une servitude sur le terrain conservé ; avec une servitude, la maison conservée perd en valeur et en intimité. La note présente une option à étudier, sans promesse de prix.",
+  "ia_prompt": null
+ },
+ "deliverable": {
+  "title": "Note de valorisation du lot détachable",
+  "format": "Tableau M13 complété + note PDF d'une page",
+  "criteria": [
+   "Les prix sont calculés au m² utile, bande d'accès exclue",
+   "Les terrains écartés ont un motif écrit (zone du PLU, vente atypique)",
+   "La valeur du lot (84 000 € avant frais) et sa fourchette sont justifiées par la médiane",
+   "Les frais de division et l'étude G1 sont mentionnés, ainsi que le renvoi au notaire",
+   "La note ne présente aucun gain comme acquis"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Code civil, art. 682 à 685-1 : droit de passage, enclave, division d'un fonds (art. 684) (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006150125"
+  },
+  {
+   "label": "Géorisques : retrait-gonflement des argiles, étude préalable obligatoire à la vente d'un terrain constructible en zone d'exposition moyenne ou forte (loi ÉLAN)",
+   "url": "https://www.georisques.gouv.fr/consulter-les-dossiers-thematiques/retrait-gonflement-des-argiles"
+  },
+  {
+   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : évaluation du terrain par comparaison avec des transactions de terrains similaires",
+   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+  },
+  {
+   "label": "Géoportail de l'urbanisme : zone du PLU des références",
+   "url": "https://www.geoportail-urbanisme.gouv.fr"
+  },
+  {
+   "label": "Bible du fil rouge §11.4 et §11.5 : lot de 480 m² dont 60 m² d'accès, 420 m² valorisables, frais 15 000 €, terrains 180 à 230 €/m², médiane 200 €/m² (fictif)"
+  }
+ ],
+ "open_points": [
+  "Tableau M13 fictif à créer dans le dossier maison avec exactement ces 7 mutations (T1 à T7).",
+  "À valider par Sébastien Paumier : hypothèse de jugement du jardin d'agrément à 25 % du prix médian (sol de la parcelle entière = 152 000 €), reprise en 2.33 et 2.36.",
+  "À vérifier : article 691 du Code civil (servitudes discontinues établies par titre) avant citation à l'écran ; formulation de la fiche servitude à faire relire par un juriste ou un notaire.",
+  "À vérifier : obligation d'étude G1 à confirmer dans le Code de la construction (article en vigueur) avant citation de l'article."
+ ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "3.14",
+  "module": 3,
+  "section": "C · Travaux avant la vente : devis, chantier, réception",
+  "etape": "6 (Éco-staging)",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Lire et comparer des devis de travaux, sans les vendre",
+  "objective": "Comparer trois devis de remplacement de fenêtres poste par poste (performances, garanties, délais, prix) et lister ce que le vendeur doit faire vérifier, sans choisir l'entreprise à sa place.",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "M. Bernard a reçu trois devis pour les 4 fenêtres des chambres : 4 200 €, 5 600 € et 7 900 €. Le moins cher n'est pas forcément le moins cher. Sébastien Paumier les remet sur la même grille (postes, performances, garanties, délais, prix) et montre ce qu'il faut faire vérifier. Pendant ce temps, Mozi pousse l'entreprise de son cousin, contre commission."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi dit à un vendeur : « Prenez Fenêtres Express, c'est mon cousin, et je touche 10 % : tout le monde y gagne. » Quelle règle enfreint-il ?",
+        "options": [
+          "Aucune : c'est un service rendu au vendeur",
+          "Il oublie de négocier une remise plus forte",
+          "L'éco-consultant ne vend pas de travaux, ne touche aucune commission et ne choisit pas l'entreprise à la place du vendeur"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : un conseil payé par l'entreprise n'est plus un conseil indépendant ; le vendeur ne peut plus s'y fier.",
+          "Faux : le problème n'est pas le prix mais le conflit d'intérêts.",
+          "Juste : tu compares et tu fais vérifier ; le vendeur choisit, seul, l'entreprise avec qui il signe."
+        ],
+        "fb_title": "Comparer, pas vendre",
+        "fb_text": "La valeur de l'éco-consultant tient à son indépendance : aucune vente de travaux, aucune commission, aucun choix d'entreprise à la place du vendeur. Il remet une grille de comparaison et la liste des points à faire vérifier."
+      },
+      {
+        "question": "Le devis B (4 200 €) n'a pas d'attestation d'assurance décennale jointe. Que conseilles-tu au vendeur ?",
+        "options": [
+          "Demander l'attestation avant de signer : jointe aux devis et à la facture, elle doit couvrir les menuiseries à la date du chantier",
+          "De signer quand même, c'est le moins cher",
+          "D'écarter tous les devis et de faire les travaux lui-même"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : selon Service-Public, l'attestation de responsabilité civile décennale doit être jointe aux devis et à la facture.",
+          "Faux : sans assurance décennale vérifiée, le vendeur prend un risque, d'autant qu'il revendra le bien dans les 10 ans.",
+          "Faux : excessif, et ce n'est pas à toi de décider de la façon de faire les travaux."
+        ],
+        "fb_title": "Pas d'attestation, pas de signature",
+        "fb_text": "L'attestation décennale se vérifie : nom de l'entreprise, activité couverte (menuiseries extérieures), période de validité incluant l'ouverture du chantier. Si elle manque, le vendeur la demande avant de signer."
+      },
+      {
+        "question": "Les devis A (5 600 €, Uw 1,3) et C (7 900 €, Uw 1,1) ne mentionnent pas d'entrées d'air sur les fenêtres. Pourquoi le signaler pour l'appartement de M. Bernard ?",
+        "options": [
+          "Parce qu'une entrée d'air fait baisser le prix",
+          "Sans VMC, des fenêtres plus étanches sans entrée d'air peuvent aggraver la condensation : à faire vérifier par l'entreprise",
+          "Ce n'est pas utile de le signaler"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le sujet n'est pas le prix mais le renouvellement de l'air.",
+          "Juste : ventilation naturelle, moisissures dans la salle de bains : l'étanchéité des nouvelles fenêtres doit être pensée avec l'air neuf.",
+          "Faux : c'est exactement le genre de point technique qu'un devis bien lu fait ressortir."
+        ],
+        "fb_title": "Lire le devis avec le bien",
+        "fb_text": "Un devis se lit avec le bien : chez M. Bernard, ventilation naturelle, pas de VMC, moisissures. Tu ne tranches pas la solution technique ; tu notes la question et le vendeur la pose à l'entreprise."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Grille d'analyse comparée de devis (cas réels anonymisés) ; règle : aucune vente de travaux, aucune commission",
+    "kind": "grille",
+    "intro": "Cette grille remet plusieurs devis sur les mêmes lignes pour que le vendeur compare ce qui est comparable. Règle de l'éco-consultant : il ne vend pas de travaux, ne touche aucune commission, ne choisit pas l'entreprise à la place du vendeur. Il compare, il liste ce qui doit être vérifié, il renvoie vers les professionnels. Les trois devis ci-dessous sont fictifs ; ils seront remplacés par des cas réels anonymisés.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Grille remplie · 4 fenêtres des chambres de M. Bernard (devis fictifs)",
+        "headers": [
+          "Ligne",
+          "Devis A · Menuiseries du Val",
+          "Devis B · Fenêtres Express",
+          "Devis C · Atelier Bois & Verre"
+        ],
+        "rows": [
+          [
+            "Prix TTC (taux de TVA indiqué ?)",
+            "5 600 € (oui) — c'est le devis D13",
+            "4 200 € (non indiqué)",
+            "7 900 € (oui)"
+          ],
+          [
+            "Postes détaillés",
+            "Dépose, pose en rénovation, habillages, évacuation",
+            "« Fourniture et pose » en une ligne",
+            "Dépose totale, pose, habillages, évacuation"
+          ],
+          [
+            "Matériau et performance",
+            "PVC, double vitrage, Uw 1,3",
+            "PVC, Uw 1,6",
+            "Bois-alu, Uw 1,1"
+          ],
+          [
+            "Entrées d'air",
+            "Non mentionnées",
+            "Non mentionnées",
+            "Non mentionnées"
+          ],
+          [
+            "Attestation décennale jointe",
+            "Oui",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Mention RGE (utile pour les aides)",
+            "Oui",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Délai, validité de l'offre, acompte",
+            "6 semaines · 3 mois · 30 %",
+            "3 semaines · non indiquée · 50 %",
+            "10 semaines · 2 mois · 30 %"
+          ]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Les mentions à retrouver sur chaque devis",
+        "items": [
+          "Date, nom et adresse de l'entreprise, nom du client, lieu des travaux.",
+          "Désignation, quantité et prix unitaire de chaque poste ; frais de déplacement le cas échéant.",
+          "Prix total HT et TTC avec le taux de TVA ; durée de validité de l'offre ; devis gratuit ou payant.",
+          "Délai de rétractation de 14 jours si le contrat est signé au domicile (hors établissement).",
+          "Attestation d'assurance décennale jointe, avec l'activité couverte et la période de validité.",
+          "Performances chiffrées (Uw pour une fenêtre) et calendrier d'exécution."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Ce que le vendeur fait vérifier avant de décider",
+        "items": [
+          "Par l'entreprise : entrées d'air ou ventilation compatibles avec un logement sans VMC ; pose en rénovation ou dépose totale.",
+          "Par le syndic : règlement de copropriété et autorisation de l'assemblée générale si l'aspect extérieur change ; cohérence avec l'ITE votée (chantier prévu en avril 2027).",
+          "Par l'assureur de l'entreprise ou l'attestation : activité « menuiseries extérieures » couverte à la date du chantier.",
+          "Par France Rénov' : éligibilité éventuelle aux aides, selon les revenus de celui qui fait les travaux (jamais présentée comme acquise).",
+          "Par le notaire, si les travaux sont faits avant la vente : pièces à conserver pour l'acte (devis, factures, attestations)."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Monsieur Bernard, je ne vends pas de travaux et je ne touche rien des entreprises. Voici les trois devis remis sur les mêmes lignes. Ils ne sont pas comparables tels quels : le moins cher n'a ni attestation décennale ni détail des postes. Voici les questions à leur poser ; c'est vous qui choisirez, si vous décidez de faire les travaux. »"
+      }
+    ],
+    "footer": "Sources : Service-Public F2034 (garantie décennale, attestation jointe aux devis), vérifié le 10/04/2026 ; arrêté du 24 janvier 2017 (devis des prestations de dépannage, réparation et entretien, via INC) ; Bercy Infos Entreprises (label RGE). Devis fictifs. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Comparer trois devis de remplacement de fenêtres",
+    "duration_min": 40,
+    "context": "M. Bernard a choisi la vente en l'état (capsule 3.12), mais il veut remettre aux acquéreurs un chiffrage fiable des fenêtres des chambres. Il a reçu trois devis et te demande « lequel est le bon ? ». Tu compares, tu listes ce qu'il faut vérifier, et tu ne choisis pas l'entreprise à sa place. Corrigé donné pour l'appartement de M. Bernard ; pour la maison de Mme Garnier, la méthode s'applique aux 9 fenêtres bois et au devis M14.",
+    "materials": [
+      "D13 Devis des travaux privatifs (devis A)",
+      "Devis B et C (fictifs, fournis avec la grille)",
+      "D04 Plan et descriptif",
+      "D07 PV d'AG du 12/06/2025 (ITE votée)"
+    ],
+    "steps": [
+      "Remets les trois devis sur la grille : prix et TVA, postes, performance, entrées d'air, décennale, RGE, délai, validité, acompte.",
+      "Repère les mentions manquantes sur chaque devis.",
+      "Relis les devis avec le bien : ventilation, copropriété, ITE votée.",
+      "Liste les points à faire vérifier, avec qui doit les vérifier (entreprise, syndic, assureur, France Rénov', notaire).",
+      "Rédige ta réponse au vendeur (8 lignes maximum) : comparaison, vérifications, décision qui lui revient, rappel de ton indépendance."
+    ],
+    "expected": "Corrigé pour M. Bernard. Comparaison : A 5 600 € TTC (D13), postes détaillés, PVC Uw 1,3, décennale et RGE oui, 6 semaines ; B 4 200 €, une seule ligne, TVA non indiquée, Uw 1,6, pas d'attestation décennale, pas de validité, acompte 50 % ; C 7 900 €, dépose totale, bois-alu Uw 1,1, décennale et RGE oui, 10 semaines. Constats : B n'est pas comparable (postes, TVA, décennale manquants) ; A et C diffèrent par le matériau, la performance et la pose ; aucun ne parle d'entrées d'air alors que le logement n'a pas de VMC et présente des moisissures. À faire vérifier : entrées d'air (entreprises), autorisation d'AG et cohérence avec l'ITE d'avril 2027 (syndic, Cabinet Martel Gestion), attestation décennale de B (entreprise), aides éventuelles selon les revenus de l'acquéreur (France Rénov'), rétractation de 14 jours si signature à domicile. Réponse : « Monsieur Bernard, je ne vends pas de travaux et ne touche aucune commission. Les trois devis ne se comparent pas tels quels ; voici la grille et les questions à poser. Pour le dossier des acquéreurs, le devis A (5 600 €) reste la référence chiffrée. Le choix d'une entreprise vous appartient. »"
+  },
+  "deliverable": {
+    "title": "Grille comparée des trois devis + réponse au vendeur",
+    "format": "Tableur ou PDF, 1 à 2 pages",
+    "criteria": [
+      "Les trois devis sont comparés sur les mêmes lignes (prix et TVA, postes, performance, décennale, délais)",
+      "Les mentions manquantes sont repérées (au moins l'attestation décennale et la TVA du devis B)",
+      "Au moins 3 points à faire vérifier, chacun avec la personne qui doit le vérifier",
+      "La réponse ne recommande aucune entreprise et laisse le choix au vendeur",
+      "La réponse rappelle l'absence de vente de travaux et de commission"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Service-Public — Garantie décennale des constructeurs (F2034) : attestation jointe aux devis et à la facture, vérifié le 10/04/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2034"
+    },
+    {
+      "label": "INC — Prestations de dépannage, de réparation et d'entretien : devis détaillé préalable (arrêté du 24 janvier 2017, en vigueur au 1er avril 2017)",
+      "url": "https://www.inc-conso.fr/content/prestations-de-depannage-de-reparation-et-dentretien-une-meilleure-information-sur-les-prix"
+    },
+    {
+      "label": "Bercy Infos Entreprises — Professionnels du bâtiment : la mention RGE (accès des clients à MaPrimeRénov' et à l'éco-PTZ)",
+      "url": "https://www.economie.gouv.fr/entreprises/batiment-label-rge"
+    },
+    {
+      "label": "Dossier fil rouge Éco-Consultant (BIBLE §2, §4, §6 ; devis B et C fictifs ajoutés pour l'exercice)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Devis B et C fictifs (Fenêtres Express, Atelier Bois & Verre) créés pour l'exercice : à remplacer par des cas réels anonymisés fournis par Éco-propriété",
+    "à vérifier : champ d'application de l'arrêté du 24 janvier 2017 (dépannage, réparation, entretien) pour un remplacement de fenêtres ; formulation à faire relire par un juriste",
+    "à vérifier : autorisation d'AG pour un changement d'aspect des fenêtres (art. 25 b de la loi du 10 juillet 1965) et règlement de copropriété ; relecture juridique",
+    "à vérifier : critères de performance des fenêtres pour les aides en vigueur à la date du devis (France Rénov') ; non chiffrés dans la fiche",
+    "Point technique entrées d'air / logement sans VMC : à valider par un thermicien ou par Sébastien Paumier",
+    "Chapitre nouveau à écrire (15 écrans)"
+  ]
+}

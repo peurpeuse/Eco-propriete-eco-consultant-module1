@@ -1,0 +1,170 @@
+{
+  "id": "2.20",
+  "module": 2,
+  "section": "H · Les règles d'urbanisme",
+  "etape": "3 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Les règles d'urbanisme : PLU, zonage, servitudes, autorisations",
+  "objective": "Lire sur le Géoportail de l'urbanisme le zonage, les prescriptions et les servitudes d'une adresse, puis dire quelle autorisation exigent trois travaux types",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Exemple : la maison de Mme Garnier, zone UB du PLU de Vaux-le-Pénil (fictif). Sébastien Paumier ouvre le Géoportail de l'urbanisme, lit le zonage et les servitudes, puis classe trois projets d'acquéreur : changer les fenêtres, agrandir de 30 m², poser un abri de jardin. Déclaration préalable, permis ou rien : il montre comment trancher et quand demander un certificat d'urbanisme."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Un acquéreur de la maison de Mme Garnier veut remplacer les 9 fenêtres bois par du PVC blanc de dessin différent. Quelle autorisation faut-il ?",
+        "options": [
+          "Aucune, ce sont des travaux d'entretien",
+          "Une déclaration préalable, car les travaux modifient l'aspect extérieur",
+          "Un permis de construire"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : changer le matériau ou le dessin des fenêtres modifie l'aspect extérieur ; ce n'est pas un simple entretien à l'identique.",
+          "Juste : la modification de l'aspect extérieur d'une construction relève de la déclaration préalable (fiche Service-Public F17578).",
+          "Faux : aucune surface n'est créée ; le permis n'est pas exigé pour ce type de travaux."
+        ],
+        "fb_title": "Aspect extérieur = déclaration préalable",
+        "fb_text": "Fenêtres, ravalement selon les communes et secteurs, isolation par l'extérieur : dès que l'aspect change, c'est une déclaration préalable. Délai d'instruction d'un mois, deux en secteur protégé. Le PLU peut aussi imposer des teintes ou des matériaux."
+      },
+      {
+        "question": "Même maison : agrandissement de 30 m² en zone urbaine du PLU. La surface de plancher existante dépasse déjà 150 m². Quelle autorisation ?",
+        "options": [
+          "Une déclaration préalable, puisque l'extension fait moins de 40 m²",
+          "Aucune autorisation en zone urbaine",
+          "Un permis de construire, avec recours obligatoire à un architecte"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : la règle des 40 m² en zone urbaine a une exception : au-delà de 20 m², si le total dépasse 150 m², c'est un permis.",
+          "Faux : toute création de plus de 5 m² demande une autorisation.",
+          "Juste : extension de plus de 20 m² portant le total au-delà de 150 m² : permis de construire, et architecte obligatoire."
+        ],
+        "fb_title": "Le seuil des 150 m²",
+        "fb_text": "En zone urbaine d'un PLU : de 5 à 40 m², déclaration préalable, sauf si l'extension (plus de 20 m²) porte la surface totale au-delà de 150 m² : permis et architecte. D'où l'intérêt de connaître la surface de plancher existante (capsule 2.17)."
+      },
+      {
+        "question": "Mozi affirme à un acquéreur : « Le terrain est constructible, je vous le garantis, je l'ai vu sur le cadastre. » Quelle est la bonne pratique ?",
+        "options": [
+          "Lire le règlement de zone du PLU et les servitudes, et conseiller un certificat d'urbanisme",
+          "Confirmer, puisque le cadastre fait foi",
+          "Demander l'avis du voisin qui a construit récemment"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : le PLU dit ce qu'on peut construire ; le certificat d'urbanisme opérationnel dit si un projet précis est réalisable, et fige les règles 18 mois.",
+          "Faux : le cadastre a une valeur fiscale ; il ne dit rien de la constructibilité.",
+          "Faux : une construction voisine ne prouve rien ; les règles ont pu changer et chaque parcelle a ses contraintes."
+        ],
+        "fb_title": "PLU + certificat, jamais une garantie",
+        "fb_text": "Tu ne garantis jamais une constructibilité. Tu montres le zonage, les règles de la zone et les servitudes, et tu conseilles un certificat d'urbanisme opérationnel (instruit en 2 mois, valable 18 mois)."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Mode d'emploi du Géoportail de l'urbanisme, fiche PLU et servitudes, fiche autorisations de travaux (déclaration préalable, permis), certificat d'urbanisme",
+    "kind": "fiche",
+    "intro": "Avant d'estimer un bien ou de répondre à un acquéreur qui a un projet, tu lis les règles d'urbanisme de l'adresse. Le Géoportail de l'urbanisme publie les plans locaux d'urbanisme (PLU, PLUi), les cartes communales et les servitudes d'utilité publique. La mairie reste l'interlocuteur officiel.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "Mode d'emploi du Géoportail de l'urbanisme",
+        "items": [
+          "Ouvre geoportail-urbanisme.gouv.fr et saisis l'adresse (ou la référence cadastrale).",
+          "Clique sur la parcelle : note la zone du PLU (U, AU, A ou N et son indice, par exemple UB) et la date du document.",
+          "Télécharge le règlement écrit et lis les articles de la zone : implantation, emprise au sol, hauteur, aspect, stationnement.",
+          "Affiche les prescriptions (espaces boisés, éléments de patrimoine, emplacements réservés) et les servitudes d'utilité publique.",
+          "Vérifie si la commune a une procédure en cours (révision, modification) : les règles peuvent changer.",
+          "Garde une capture datée de la parcelle et de la légende pour ton dossier."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Fiche PLU et servitudes",
+        "headers": ["Élément", "Ce qu'il dit", "Exemple"],
+        "rows": [
+          ["Zone U", "Secteur déjà urbanisé, constructible selon le règlement", "UB de Vaux-le-Pénil (fictif) : emprise 40 %, hauteur 9 m au faîtage, recul 5 m"],
+          ["Zone AU", "À urbaniser, souvent sous conditions (équipements, OAP)", "Lotissement futur en lisière de bourg"],
+          ["Zones A et N", "Agricole ou naturelle : constructions très limitées", "Extension mesurée d'une maison existante seulement"],
+          ["Servitude d'utilité publique", "Contrainte d'intérêt général annexée au PLU", "Abords d'un monument historique, plan de prévention des risques"],
+          ["Servitude de droit privé", "Droit entre voisins, absent du PLU, inscrit dans les actes", "Servitude de passage vers un terrain enclavé"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Fiche autorisations de travaux (zone urbaine d'un PLU)",
+        "headers": ["Travaux", "Autorisation", "Délai d'instruction"],
+        "rows": [
+          ["Fenêtres, isolation par l'extérieur, couleur de façade (aspect modifié)", "Déclaration préalable", "1 mois (2 mois en secteur protégé)"],
+          ["Abri de jardin ou annexe de 5 à 20 m²", "Déclaration préalable", "1 mois"],
+          ["Extension de 5 à 40 m²", "Déclaration préalable, sauf extension de plus de 20 m² portant le total au-delà de 150 m² : permis", "1 mois (DP) ; 2 mois (permis pour une maison individuelle)"],
+          ["Extension de plus de 40 m²", "Permis de construire", "2 mois pour une maison individuelle"],
+          ["Total après travaux supérieur à 150 m² de surface de plancher", "Recours obligatoire à un architecte", "—"]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Le certificat d'urbanisme",
+        "items": [
+          "Certificat d'information : règles applicables au terrain, servitudes, taxes ; réponse en 1 mois.",
+          "Certificat opérationnel : dit si un projet précis est réalisable et l'état des équipements ; réponse en 2 mois.",
+          "Validité de 18 mois : les règles d'urbanisme et les taxes sont figées pour une demande déposée pendant cette période.",
+          "Prolongation possible par période d'un an si les règles n'ont pas changé.",
+          "Autorisation accordée : délai de recours des tiers de 2 mois à partir de l'affichage sur le terrain ; validité de 3 ans pour une déclaration préalable."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire à l'acquéreur",
+        "text": "« La maison est en zone UB du PLU. Pour vos fenêtres, il faudra une déclaration préalable. Pour l'agrandissement de 30 m², comme la maison dépasse déjà 150 m² de surface de plancher, ce sera un permis avec un architecte. Je ne peux pas vous garantir l'accord de la mairie : un certificat d'urbanisme opérationnel vous donnera une réponse écrite. »"
+      }
+    ],
+    "footer": "Sources : Service-Public, fiches F17578 (déclaration préalable, vérifiée le 22/10/2026), F36777 (agrandissement), F20568 (architecte), F1633 (certificat d'urbanisme) ; Géoportail de l'urbanisme. Zonage UB de Vaux-le-Pénil et règles chiffrées fictifs (bible §11.4). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Lire le zonage d'une adresse et classer 3 travaux",
+    "duration_min": 30,
+    "context": "Partie 1 : une adresse réelle de ton secteur (un bien que tu as en portefeuille ou ta propre adresse). Partie 2 : la maison de Mme Garnier à Vaux-le-Pénil (zone UB fictive, M07), où un acquéreur envisage trois travaux : remplacer les 9 fenêtres bois par du PVC, agrandir de 30 m² côté jardin, poser un abri de jardin de 12 m².",
+    "materials": [
+      "Géoportail de l'urbanisme",
+      "M07 Extrait du PLU (zone UB)",
+      "M06 Extrait cadastral et plan de la parcelle AB 214",
+      "M10 État des risques (ERP)"
+    ],
+    "steps": [
+      "Partie 1 : relève sur le Géoportail la zone du PLU, la date du document et deux règles de la zone (emprise, hauteur ou implantation).",
+      "Partie 1 : liste les prescriptions et servitudes d'utilité publique affichées sur la parcelle, ou écris « aucune affichée ».",
+      "Partie 2 : à partir de M07, résume les règles de la zone UB en 3 lignes.",
+      "Partie 2 : pour chacun des trois travaux, donne l'autorisation exigée et le délai d'instruction, en justifiant.",
+      "Partie 2 : dis dans quel cas tu conseillerais un certificat d'urbanisme opérationnel."
+    ],
+    "expected": "Partie 1 : zone et date du PLU relevées sur capture datée ; deux règles citées avec l'article du règlement ; servitudes listées (par exemple périmètre de monument historique, plan de prévention des risques) ou « aucune affichée ». Partie 2 : zone UB (fictive) : emprise au sol maximale 40 %, hauteur 9 m au faîtage, recul de 5 m sur rue. Fenêtres PVC : modification de l'aspect extérieur → déclaration préalable, 1 mois. Extension de 30 m² : plus de 20 m² et surface de plancher existante déjà supérieure à 150 m² (au moins 206 m², capsule 2.17) → permis de construire avec architecte, 2 mois. Abri de 12 m² : entre 5 et 20 m² → déclaration préalable, 1 mois. Certificat opérationnel conseillé avant de signer si l'acquéreur fait de l'extension une condition de son achat."
+  },
+  "deliverable": {
+    "title": "Fiche urbanisme d'une adresse + classement de 3 travaux",
+    "format": "PDF, 1 page + capture datée du Géoportail",
+    "criteria": [
+      "La zone du PLU, la date du document et deux règles sont relevées pour l'adresse réelle",
+      "Les servitudes d'utilité publique sont listées ou leur absence est notée",
+      "Les trois travaux de la maison de Mme Garnier sont correctement classés (DP, permis avec architecte, DP)",
+      "Le seuil de 150 m² est expliqué pour l'extension",
+      "Aucune constructibilité ni accord de la mairie n'est garanti"
+    ]
+  },
+  "sources": [
+    { "label": "Géoportail de l'urbanisme (PLU, servitudes d'utilité publique)", "url": "https://www.geoportail-urbanisme.gouv.fr" },
+    { "label": "Service-Public : déclaration préalable (F17578), vérifiée le 22/10/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17578" },
+    { "label": "Service-Public : agrandissement ou surélévation, quelle autorisation (F36777)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36777" },
+    { "label": "Service-Public : recours à un architecte (F20568)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20568" },
+    { "label": "Service-Public : certificat d'urbanisme (F1633)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1633" }
+  ],
+  "open_points": [
+    "À vérifier dans les textes au moment de la diffusion : délai d'instruction du certificat d'urbanisme opérationnel (2 mois) et du permis de construire d'une maison individuelle (2 mois), repris de sources secondaires et de Service-Public.",
+    "À vérifier : cas du ravalement (déclaration préalable seulement dans certains secteurs ou si la commune l'a décidé) ; la ressource le range sous « aspect modifié » sans détailler.",
+    "Règles de la zone UB de Vaux-le-Pénil fictives (bible §11.4) : ne pas les présenter comme le PLU réel de la commune."
+  ]
+}

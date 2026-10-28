@@ -1,0 +1,172 @@
+{
+  "id": "2.19",
+  "module": 2,
+  "section": "G · J'audite le bien à 360°",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Audit 360° : repérer les pathologies",
+  "objective": "Décrire chaque pathologie visible d'un bien (symptôme, cause probable, gravité, action) dans une grille 360° et savoir quand renvoyer vers un expert",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Une auréole jaune au plafond de la cuisine de M. Bernard, des moisissures dans la salle de bains, une fissure fine dans le dégagement. Sébastien Paumier montre l'ordre de visite à 360°, la lecture d'une pathologie en quatre temps, et le moment où l'on s'arrête : la fissure de 0,5 mm du pignon de Mme Garnier, elle, part chez l'expert."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Chez M. Bernard, des moisissures couvrent le plafond de la salle de bains et la grille du conduit est en partie bouchée. Quelle est la cause la plus probable ?",
+        "options": [
+          "Une infiltration par la toiture-terrasse",
+          "Une remontée d'humidité par le sol",
+          "Une ventilation insuffisante : la vapeur condense sur les parois froides"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : l'appartement est au 4e étage sur 6 ; la toiture-terrasse n'est pas au-dessus de la salle de bains.",
+          "Faux : au 4e étage, au-dessus d'un logement chauffé, une remontée par le sol n'a pas de sens.",
+          "Juste : symptôme (moisissures en plafond et dans les angles) et cause visible (conduit obstrué, pas de VMC) concordent."
+        ],
+        "fb_title": "Vapeur + ventilation bloquée",
+        "fb_text": "Pas de VMC, conduit partiellement obstrué : la vapeur ne s'évacue pas et condense sur les surfaces froides. Remède connu : débouchage puis VMC hygroréglable (devis D13, 2 900 €), et traitement anti-moisissures dans le plan Éco-staging."
+      },
+      {
+        "question": "Sur le pignon nord de la maison de Mme Garnier, une fissure en escalier d'environ 0,5 mm ; l'état des risques signale une exposition moyenne aux argiles. Que fais-tu ?",
+        "options": [
+          "Tu la décris, tu la photographies datée avec un réglet et tu recommandes l'avis d'un expert en structure",
+          "Tu la notes « à surveiller » comme une fissure de cloison",
+          "Tu conseilles de la reboucher avant les visites"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : fissure sur un mur extérieur, en escalier, en zone d'argiles : elle sort du simple constat et appelle un avis d'expert.",
+          "Faux : ce n'est pas une cloison intérieure ; le support et le contexte de sol changent le niveau de vigilance.",
+          "Faux : masquer un désordre avant une vente expose la vendeuse, et toi, à un reproche de dissimulation."
+        ],
+        "fb_title": "Façade + argiles = expert",
+        "fb_text": "Tu restes au constat : largeur, forme, support, photo datée. La cause possible (retrait-gonflement des argiles) relève d'un expert. Tu ne rassures pas, tu ne dramatises pas : tu organises l'avis compétent avant la mise en vente."
+      },
+      {
+        "question": "Mozi repeint l'auréole du plafond de cuisine d'un vendeur la veille des visites et dit : « Comme ça, pas de question. » Quelle est la bonne pratique ?",
+        "options": [
+          "Repeindre aussi les autres plafonds pour que ce soit homogène",
+          "Obtenir d'abord la preuve que la cause est réglée (courrier de clôture du sinistre), puis repeindre en informant l'acquéreur",
+          "Faire intervenir un expert en structure"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : uniformiser la peinture ne règle rien ; c'est toujours masquer sans preuve.",
+          "Juste : chez M. Bernard, le dégât des eaux du 5e (2022) est réparé et clos ; la preuve écrite transforme une inquiétude en fait vérifié.",
+          "Faux : une auréole d'eau sèche au plafond n'est pas un signe de désordre structurel."
+        ],
+        "fb_title": "La preuve avant la peinture",
+        "fb_text": "La cause est réglée, le problème est d'image. Tu demandes au syndic le courrier de clôture du sinistre, tu le mets au dossier, puis la reprise de peinture entre dans le plan Éco-staging. L'information reste transparente."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Grille d'audit 360° + pathologies",
+    "kind": "grille",
+    "intro": "Grille à remplir pendant la visite. Elle impose un ordre de visite à 360°, aide à décrire chaque pathologie sans poser de diagnostic et indique quand renvoyer vers un professionnel. Ton rôle est un constat visuel, pas une expertise.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "L'ordre de visite à 360°",
+        "headers": ["Zone", "Ce que tu observes", "Signal d'alerte"],
+        "rows": [
+          ["Abords, façades, toiture", "Fissures, éclats, gouttières, tuiles, plaques de couverture", "Fissure en escalier sur mur extérieur, tuiles cassées, coulures"],
+          ["Parties communes ou sous-sol", "Hall, escalier, caves ; sous-sol d'une maison", "Infiltrations, traces d'humidité en pied de mur"],
+          ["Pièces, du sol au plafond", "Plafonds, angles, cloisons, plinthes", "Auréoles, moisissures, fissures, gonflements"],
+          ["Menuiseries et ventilation", "Joints, vitrages, bouches, entrées d'air", "Condensation, grille bouchée, odeur de renfermé"],
+          ["Équipements", "Chauffage, eau chaude, tableau électrique", "Fuite, odeur de brûlé, appareil très ancien"],
+          ["Documents", "Diagnostics, carnet d'entretien, factures, sinistres", "Écart entre ce qui est vu et ce qui est écrit"]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Lire une pathologie en 4 temps",
+        "items": [
+          "Observer le symptôme : où, quelle taille, quelle forme, depuis quand selon le vendeur.",
+          "Chercher la cause : eau extérieure, fuite, condensation, mouvement, usure.",
+          "Écrire une hypothèse : « cause probable », jamais « certaine ».",
+          "Décider : traitement simple chiffrable, surveillance datée, ou renvoi vers un professionnel."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Quand renvoyer vers un professionnel",
+        "items": [
+          "Structure : fissure qui s'élargit, traverse, touche un mur porteur ou une façade, ou s'accompagne d'une porte qui frotte → expert en structure.",
+          "Sol argileux signalé par l'état des risques + fissures extérieures → expert, avant toute promesse.",
+          "Eau active : tache humide au toucher, qui s'étend → plombier, recherche de fuite, assurance.",
+          "Parties communes (façade, balcon, toiture-terrasse, colonnes) → syndic et carnet d'entretien.",
+          "Matériaux suspects dans un bâtiment dont le permis date d'avant juillet 1997 → ne rien percer ni gratter ; repérage amiante du dossier.",
+          "Doute, quel qu'il soit → tu l'écris et tu proposes l'avis d'un professionnel."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemples remplis (fictifs)",
+        "headers": ["Bien", "Constat", "Cause probable", "Action"],
+        "rows": [
+          ["M. Bernard, salle de bains (P06-P07)", "Moisissures plafond et angles, grille de conduit en partie bouchée", "Ventilation insuffisante, pas de VMC", "Débouchage + VMC (D13, 2 900 €) ; anti-moisissures"],
+          ["M. Bernard, cuisine (P08)", "Auréole jaunie, sèche", "Dégât des eaux du 5e en 2022, réparé, sinistre clos", "Courrier de clôture au syndic, puis peinture"],
+          ["M. Bernard, dégagement (P11)", "Fissure fine (< 0,2 mm) en escalier sur cloison", "Non structurelle", "Photo datée avec réglet, à surveiller"],
+          ["Mme Garnier, pignon nord", "Fissures en escalier ≈ 0,5 mm", "Mouvement du sol possible (argiles, exposition moyenne)", "Avis d'un expert en structure"],
+          ["Mme Garnier, toiture et garage", "Tuiles cassées, gouttières à reprendre ; plaques en fibrociment", "Usure (1968) ; amiante liste B, état correct", "Chiffrer couverture ; ne pas toucher aux plaques ; suivre le diagnostic amiante"]
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Les mots justes dans ton compte rendu",
+        "text": "Écris « constat visuel du [date] », « cause probable », « à surveiller », « à faire confirmer par un professionnel ». Évite « aucun risque », « sain », « conforme » : ce sont des conclusions d'expert. Joins toujours la photo datée. Une grille honnête protège le vendeur, rassure l'acquéreur et te protège en cas de litige."
+      }
+    ],
+    "footer": "Sources : Agence Qualité Construction, fiche pathologie E.09 « Condensations dans les logements » ; Géorisques (retrait-gonflement des argiles) ; formation Audit énergétique Éco-Propriété (module Pathologies). Seuils de largeur de fissure repris de la bible (fictifs, non réglementaires). Reprise de l'ancienne capsule 2.6. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Compléter la grille sur photos (humidité, fissures, toiture)",
+    "duration_min": 30,
+    "context": "Deux biens. L'appartement de M. Bernard (12 photos du reportage D05) pour l'humidité et les fissures intérieures ; la maison de Mme Garnier (photos du pignon nord, du sous-sol et de la toiture dans M05) pour les fissures extérieures et la toiture. Tes vendeurs attendent un compte rendu précis, sans jugement hâtif.",
+    "materials": [
+      "D05 Reportage photo commenté (12 photos)",
+      "D08 Carnet d'entretien (extraits)",
+      "D13 Devis des travaux privatifs",
+      "M05 Reportage photo commenté de la maison (14 photos)",
+      "M09 Diagnostics amiante et électricité",
+      "M10 État des risques (ERP)"
+    ],
+    "steps": [
+      "Classe les photos dans l'ordre de la grille 360°.",
+      "Pour chaque photo, écris le constat visuel en une phrase (où, quoi, quelle taille).",
+      "Indique la cause probable et la gravité : faible, moyenne ou à expertiser.",
+      "Décide l'action : traitement simple, surveillance datée, renvoi (vers qui) ou document à demander (lequel).",
+      "Relie chaque défaut chiffrable à un devis (D13) ou au plan Éco-staging.",
+      "Rédige pour chaque vendeur une synthèse de 3 lignes."
+    ],
+    "expected": "M. Bernard : P06-P07 moisissures de salle de bains, gravité moyenne, cause ventilation → débouchage + VMC hygro B (D13, 2 900 €) et anti-moisissures en Éco-staging ; P08 auréole sèche de la cuisine, dégât des eaux du 5e en 2022 réparé et clos → courrier de clôture à demander au syndic puis peinture ; P11 fissure fine (< 0,2 mm) en escalier sur cloison → photo datée avec réglet, à surveiller ; P04-P05 fenêtres bois simple vitrage, joints dégradés → 5 600 € ; P03 balcon, pont thermique de dalle traversante → partie commune, syndic. Synthèse : « Aucun désordre de structure constaté ; trois points visibles, chacun avec une cause identifiée et un coût. » Mme Garnier : fissures en escalier ≈ 0,5 mm sur le pignon nord, exposition moyenne aux argiles (M10) → à expertiser ; humidité en pied de mur du sous-sol → cause à rechercher ; tuiles cassées et gouttières → chiffrage couverture ; plaques fibrociment (amiante liste B, état correct, M09) → ne pas toucher, évaluation périodique."
+  },
+  "deliverable": {
+    "title": "Grilles d'audit 360° des deux biens fil rouge",
+    "format": "PDF, 2 pages maximum (une grille par bien + synthèses)",
+    "criteria": [
+      "Chaque photo traitée contient un constat, une cause probable, une gravité et une action",
+      "Aucune formule d'expert (« aucun risque », « sain », « conforme »)",
+      "La fissure du pignon de Mme Garnier est renvoyée vers un expert en structure, avec le lien aux argiles",
+      "L'auréole de M. Bernard est reliée à une preuve à demander au syndic",
+      "Au moins 3 défauts sont reliés à un coût chiffré ou au plan Éco-staging"
+    ]
+  },
+  "sources": [
+    { "label": "Agence Qualité Construction, fiche pathologie E.09 « Condensations dans les logements »", "url": "https://qualiteconstruction.com/wp-content/uploads/2024/01/fi-pathologie-batiment-e09-condensations-logements.pdf" },
+    { "label": "Géorisques, retrait-gonflement des argiles", "url": "https://www.georisques.gouv.fr" },
+    { "label": "Formation Audit énergétique Éco-Propriété, journée « Pathologies » (observer, rechercher la cause, renvoyer vers une expertise)" },
+    { "label": "Bible du fil rouge Éco-propriété, §2 et §11 (biens fictifs)" }
+  ],
+  "open_points": [
+    "Les seuils de largeur de fissure (< 0,2 mm, ≈ 0,5 mm) viennent de la bible (fictifs) : ne pas les présenter comme des seuils réglementaires ; à faire valider par un expert bâtiment si un barème est ajouté.",
+    "Visuels à produire : photos D05 (P01 à P12) et M05 (pignon nord, sous-sol, toiture, plaques fibrociment) cohérentes avec la grille.",
+    "Chapitre interactif « adapter » (depuis chap_2.6) à produire séparément."
+  ]
+}

@@ -1,0 +1,161 @@
+{
+ "id": "1.4",
+ "module": 1,
+ "section": "B · J'étudie ma zone de chalandise",
+ "etape": "Avant l'étape 1",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "Étude de marché : sa zone de chalandise",
+ "objective": "Tracer sa zone de chalandise sur une carte et chiffrer les ventes des 12 derniers mois (nombre, type, prix médian au m²) à partir des données DVF",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Sébastien Paumier ouvre l'outil public DVF et trace devant toi une zone de chalandise autour d'une agence de Melun : quelques communes, un temps de trajet raisonnable. Il compte les ventes de l'année, sépare maisons et appartements, calcule un prix médian au m², puis en déduit combien de vendeurs il peut espérer rencontrer. Pas d'intuition : des chiffres publics, datés."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Un collègue de Strasbourg veut chiffrer les ventes de son secteur avec DVF. Que lui dis-tu ?",
+    "options": [
+     "« DVF couvre toute la France, vas-y. »",
+     "« DVF ne contient que les ventes passées par une agence. »",
+     "« DVF ne couvre pas l'Alsace, la Moselle ni Mayotte : il te faut une autre source (notaires, livre foncier). »"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : trois territoires sont exclus de DVF, dont le Bas-Rhin.",
+     "Faux : DVF recense les mutations publiées, quelle que soit la façon dont la vente s'est faite.",
+     "Juste : data.gouv.fr indique que l'Alsace, la Moselle et Mayotte ne sont pas couvertes."
+    ],
+    "fb_title": "Connaître les limites de DVF",
+    "fb_text": "DVF publie les transactions des cinq dernières années, mises à jour en avril et en octobre (dernière : 12/10/2026). L'Alsace, la Moselle et Mayotte en sont exclues. Avant de chiffrer une zone, vérifie que ta source la couvre."
+   },
+   {
+    "question": "Ta zone compte 420 ventes de logements anciens sur 12 mois. Tu vises 3 % de ces ventes. Combien de ventes cela représente-t-il par an ?",
+    "options": [
+     "Environ 13 ventes",
+     "Environ 42 ventes",
+     "Environ 3 ventes"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : 420 × 3 % = 12,6, soit environ 13 ventes par an.",
+     "Faux : 42, c'est 10 % de 420, pas 3 %.",
+     "Faux : tu confonds le pourcentage visé et le nombre de ventes."
+    ],
+    "fb_title": "De la zone à l'objectif",
+    "fb_text": "420 × 0,03 = 12,6 : environ 13 ventes par an, un peu plus d'une par mois. Ce calcul (exemple fictif) transforme ta zone en objectif. Si le résultat ne suffit pas à vivre, élargis la zone ou affine ta cible ; ne gonfle pas le pourcentage."
+   },
+   {
+    "question": "Pour décrire les prix de ta zone, tu as 9 ventes d'appartements dont une à 6 000 €/m² (un loft d'exception). Quel indicateur choisis-tu ?",
+    "options": [
+     "La moyenne, qui tient compte de toutes les ventes.",
+     "La médiane, moins sensible à une vente hors norme.",
+     "Le prix le plus haut, pour rassurer les vendeurs."
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : une seule vente exceptionnelle tire la moyenne vers le haut et déforme l'image du marché.",
+     "Juste : la médiane coupe les ventes en deux moitiés ; un loft à 6 000 €/m² la déplace à peine.",
+     "Faux : citer le prix le plus haut, c'est préparer une surestimation."
+    ],
+    "fb_title": "Médiane plutôt que moyenne",
+    "fb_text": "Sur peu de ventes, une seule valeur extrême fausse la moyenne. La médiane donne le prix « du milieu ». Note toujours le nombre de ventes et la période : « médiane de 9 ventes d'appartements, novembre 2025 à octobre 2026 »."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Trame d'étude de marché et de zone",
+  "kind": "fiche",
+  "intro": "Une trame à remplir en une heure pour savoir où tu travailles et combien de vendeurs ta zone peut te donner. Tu n'utilises que des données publiques et datées. À refaire tous les six mois, après chaque mise à jour de DVF (avril et octobre).",
+  "sections": [
+   {
+    "heading": "Tracer ta zone en 4 étapes",
+    "type": "steps",
+    "items": [
+     "Pars de ton point d'ancrage : agence, domicile si tu es mandataire, ou lieu de tes rendez-vous.",
+     "Fixe une limite simple : un temps de trajet (par exemple 15 à 20 minutes) ou une liste de communes et de quartiers.",
+     "Trace-la sur une carte (Géoportail, carte papier, outil de ton réseau) et liste les communes ou les IRIS couverts.",
+     "Vérifie que ta source de ventes couvre la zone (DVF exclut l'Alsace, la Moselle et Mayotte)."
+    ]
+   },
+   {
+    "heading": "Les chiffres à relever",
+    "type": "table",
+    "headers": ["Donnée", "Où la trouver", "Ce que tu notes"],
+    "rows": [
+     ["Ventes des 12 derniers mois", "DVF (explore.data.gouv.fr/immobilier)", "Nombre de ventes, maisons et appartements séparés"],
+     ["Prix médian au m²", "DVF, ventes de ta zone", "Médiane, nombre de ventes, période"],
+     ["Population, logements, part de propriétaires", "Insee, dossier complet de la commune", "Année du recensement"],
+     ["Étiquettes DPE des logements", "Observatoire DPE-Audit de l'ADEME", "Part des E, F, G parmi les DPE de la commune"],
+     ["Concurrents présents", "Annonces, vitrines, fiches Google", "Nombre d'agences et de mandataires actifs"]
+    ]
+   },
+   {
+    "heading": "Le calcul de ton potentiel",
+    "type": "formula",
+    "text": "Ventes visées par an = ventes de la zone sur 12 mois × part de marché visée. Exemple fictif : 420 ventes × 3 % ≈ 13 ventes par an. Rendez-vous vendeurs nécessaires = ventes visées ÷ taux de transformation (exemple fictif : 13 ÷ 25 % = 52 estimations par an, soit environ une par semaine)."
+   },
+   {
+    "heading": "Les pièges",
+    "type": "list",
+    "items": [
+     "Une zone trop large : tu ne seras visible nulle part.",
+     "Une moyenne tirée par une vente d'exception : préfère la médiane.",
+     "Un chiffre sans date ni période : DVF est mis à jour deux fois par an.",
+     "Mélanger maisons et appartements dans un seul prix au m²."
+    ]
+   },
+   {
+    "heading": "Exemple : secteur de M. Bernard (fil rouge, fictif)",
+    "type": "text",
+    "text": "Zone : Melun et communes limitrophes, 15 minutes autour de l'agence. Cible d'exemple : appartements T3-T4 dans des immeubles de 1965 à 1980. Comparables relevés (D12, fictifs) : 2 650 €/m² en l'état pour des biens D-E, 2 850 €/m² rénovés. Le T4 de 76 m² de M. Bernard est un bien typique de cette zone : c'est ce genre de vendeur que ton étude doit te faire rencontrer."
+   }
+  ],
+  "footer": "Sources : data.gouv.fr, Demandes de valeurs foncières (mise à jour du 12/10/2026 ; cinq dernières années ; hors Alsace, Moselle, Mayotte) ; Insee, dossier complet ; ADEME, observatoire DPE-Audit. Calculs et taux de transformation : exemples fictifs. Mise à jour : 28/10/2026."
+ },
+ "exercise": {
+  "title": "Tracer ma zone et chiffrer ses ventes",
+  "duration_min": 45,
+  "context": "Tu travailles sur ta zone réelle. Tu la traces, tu comptes ses ventes des 12 derniers mois dans DVF et tu en déduis un objectif réaliste. L'exemple de Melun (fil rouge, fictif) montre le niveau de détail attendu.",
+  "materials": [
+   "explore.data.gouv.fr/immobilier (DVF)",
+   "Insee, dossier complet de tes communes",
+   "observatoire-dpe-audit.ademe.fr",
+   "D12 Tableau des comparables (fil rouge, fictif)",
+   "Trame d'étude de marché et de zone"
+  ],
+  "steps": [
+   "Définis ton point d'ancrage et ta limite (temps de trajet ou liste de communes), puis trace ta zone sur une carte.",
+   "Dans DVF, compte les ventes des 12 derniers mois disponibles, en séparant maisons et appartements.",
+   "Calcule le prix médian au m² pour chaque type, avec le nombre de ventes et la période.",
+   "Ajoute deux repères Insee (population, part de propriétaires) et la part de DPE E, F, G de ta commune principale.",
+   "Calcule ton potentiel : ventes de la zone × part de marché visée, puis le nombre d'estimations nécessaires."
+  ],
+  "expected": "Exemple attendu (chiffres fictifs à remplacer par les tiens). Zone : Melun, Dammarie-les-Lys, Le Mée-sur-Seine, Vaux-le-Pénil, Rubelles ; 15 minutes autour de l'agence ; carte jointe. Ventes DVF des 12 derniers mois disponibles : 420 logements anciens, dont 290 appartements et 130 maisons. Prix médians : 2 700 €/m² pour les appartements (290 ventes), 2 900 €/m² pour les maisons (130 ventes), période indiquée. Insee : population et part de propriétaires de Melun, avec l'année du recensement. DPE : part des E-F-G relevée sur l'observatoire, avec la date. Potentiel : 420 × 3 % ≈ 13 ventes par an ; avec 25 % de transformation, environ 52 estimations par an, une par semaine."
+ },
+ "deliverable": {
+  "title": "Étude de ma zone de chalandise",
+  "format": "PDF, 2 pages : carte de la zone + tableau des chiffres (source et date pour chacun) + calcul du potentiel",
+  "criteria": [
+   "La zone est tracée sur une carte et sa limite est expliquée",
+   "Le nombre de ventes sur 12 mois est donné, maisons et appartements séparés, avec la période DVF",
+   "Le prix médian au m² est donné par type, avec le nombre de ventes",
+   "Chaque chiffre a sa source et sa date",
+   "Le potentiel (ventes visées et estimations nécessaires) est calculé et le calcul est écrit"
+  ]
+ },
+ "sources": [
+  { "label": "data.gouv.fr — Demandes de valeurs foncières (DVF), mise à jour du 12/10/2026", "url": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/" },
+  { "label": "data.gouv.fr — Explorateur des données immobilières (DVF)", "url": "https://explore.data.gouv.fr/immobilier" },
+  { "label": "Insee — Dossier complet d'une commune", "url": "https://www.insee.fr/fr/statistiques/2011101" },
+  { "label": "ADEME — Observatoire DPE-Audit", "url": "https://observatoire-dpe-audit.ademe.fr" },
+  { "label": "IGN — Géoportail (cartes et temps de trajet)", "url": "https://www.geoportail.gouv.fr" }
+ ],
+ "open_points": [
+  "Taux de transformation estimation → vente (25 %) et part de marché visée (3 %) : exemples fictifs, à remplacer par des repères validés par Sébastien Paumier.",
+  "Chiffres de l'exemple de Melun (420 ventes, médianes) : fictifs ; à remplacer par un extrait DVF réel daté si Sébastien Paumier le souhaite.",
+  "Interface de l'explorateur DVF : à capturer le jour du tournage."
+ ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "3.24",
+  "module": 3,
+  "section": "E · Être choisi : offre, honoraires, engagements",
+  "etape": "7",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "R1 / R2 : être préféré à deux concurrents",
+  "objective": "Mener un R1 puis un R2 face à deux agences concurrentes, comparer les offres sur des critères objectifs sans les dénigrer, et faire formuler au vendeur ses propres raisons de choix",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "M. Bernard reçoit trois agents : une agence traditionnelle (172 000 € et son réseau), une agence à honoraires réduits, et toi. Mozi, en blazer violet, lance « les autres sont des amateurs ». Sébastien Paumier montre la méthode : un R1 qui écoute le projet et les freins, un R2 qui compare les offres sur une grille neutre, et une question qui laisse le vendeur dire pourquoi il choisit."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi dit à M. Bernard : « L'autre agence ? Des amateurs, ils ne vendront jamais votre bien. » Quelle règle enfreint-il ?",
+        "options": [
+          "Aucune, c'est de la concurrence normale",
+          "Le devoir de confraternité du code de déontologie : ne pas dénigrer ni discréditer un confrère",
+          "Seulement une règle de politesse, sans texte"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : la concurrence doit rester libre, saine et loyale ; le dénigrement en sort.",
+          "Juste : le code de déontologie (décret n° 2015-1090, art. 10) interdit de dénigrer ou discréditer un confrère.",
+          "Faux : c'est une obligation écrite dans le code de déontologie des professionnels de l'immobilier."
+        ],
+        "fb_title": "Comparer, jamais dénigrer",
+        "fb_text": "Le code de déontologie impose des rapports de confraternité et interdit de dénigrer un confrère ou de fournir des éléments d'appréciation erronés pour détourner sa clientèle. Tu compares des offres, tu ne juges pas des personnes."
+      },
+      {
+        "question": "M. Bernard : « L'autre agence prend moins d'honoraires que vous. » Quelle réponse choisis-tu ?",
+        "options": [
+          "« Je m'aligne tout de suite sur leur tarif. »",
+          "« Méfiez-vous, s'ils sont moins chers, c'est qu'ils travaillent mal. »",
+          "« C'est un vrai critère. Comparons les deux offres ligne par ligne, prestation par prestation : vous verrez ce que chacune comprend. »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : tu brades sans savoir ce qui compte pour lui, et tu dévalorises ton propre service.",
+          "Faux : c'est du dénigrement, interdit, et sans aucune preuve.",
+          "Juste : tu reconnais le critère et tu ouvres une comparaison objective qu'il peut vérifier."
+        ],
+        "fb_title": "Une grille, pas un jugement",
+        "fb_text": "La grille de comparaison met côte à côte ce que chaque offre comprend : estimation, dossier, stratégie, diffusion, compte rendu, honoraires et qui les paie. Le vendeur compare lui-même ; tu ne commentes pas les concurrents."
+      },
+      {
+        "question": "En fin de R2, comment obtiens-tu que M. Bernard formule lui-même les raisons de son choix ?",
+        "options": [
+          "Tu poses une question ouverte : « Parmi ces critères, lesquels comptent le plus pour vous, et pourquoi ? », puis tu reformules sa réponse",
+          "Tu lui dis : « Vous voyez bien que je suis le meilleur. »",
+          "Tu lui fais cocher ta colonne sur la grille"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : ses critères, dits avec ses mots, deviennent ses raisons ; tu les reformules sans rien ajouter.",
+          "Faux : c'est ta conclusion, pas la sienne ; un profil C s'en méfie.",
+          "Faux : c'est une pression déguisée ; le choix doit venir de lui."
+        ],
+        "fb_title": "Ses mots, pas les tiens",
+        "fb_text": "Un vendeur qui formule lui-même ses raisons (« l'étiquette vérifiée », « les comptes rendus écrits ») tient à sa décision. Tu reformules, tu vérifies que tu as bien compris, et tu proposes l'étape suivante."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche R1 (projet vendeur, freins techniques, premières hypothèses) et R2 (estimation, scénarios de vente, plan de commercialisation) ; grille de comparaison des offres d'agences",
+    "kind": "fiche",
+    "intro": "Cette fiche structure tes deux rendez-vous quand le vendeur rencontre plusieurs agences. Le R1 sert à comprendre le projet et les freins techniques, le R2 à présenter l'estimation, les scénarios et le plan de commercialisation. La grille t'aide à comparer les offres d'agences sur des critères objectifs, sans jamais dénigrer un confrère. Exemple : M. Bernard, dossier fil rouge fictif.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "R1 : projet vendeur, freins techniques, premières hypothèses (45 min)",
+        "items": [
+          "Projet : pourquoi vendre, pour quand, pour aller où (M. Bernard : se rapprocher de sa fille à Nantes, avoir vendu avant l'été 2027).",
+          "Ce qu'on lui a déjà dit : « −15 % à cause du DPE », 172 000 € ; ce qu'il espère : 205 000 €.",
+          "Freins techniques observés : étiquette (DPE F de 2023), fenêtres simple vitrage, absence de VMC, appels de fonds ITE votés.",
+          "Pièces à réunir : DPE, PV d'AG, appels de charges, devis éventuels (D02, D06, D07).",
+          "Premières hypothèses, sans chiffre de prix : attestation actualisée possible, vente en l'état ou petits travaux.",
+          "Étape : date du R2 et envoi du dossier 48 h avant."
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "R2 : estimation, scénarios de vente, plan de commercialisation (60 min)",
+        "items": [
+          "Étiquette en vigueur : classe E (attestation D03).",
+          "Estimation : 76 × 2 650 = 201 400 € de base, fourchette 178 000 – 186 000 € net (D12, D13, D07).",
+          "Scénarios : vente en l'état avec plan Éco-staging, ou travaux avant la vente ; arbitrage chiffré.",
+          "Plan de commercialisation : prix recommandé 189 000 € honoraires inclus, dossier acquéreurs, diffusion, comptes rendus.",
+          "Comparaison des offres avec la grille, puis question ouverte sur ses critères.",
+          "Étape datée : réponse le 5 novembre."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Grille de comparaison des offres d'agences (à remplir avec le vendeur)",
+        "headers": [
+          "Critère",
+          "Agence traditionnelle",
+          "Agence à honoraires réduits",
+          "Éco-consultant"
+        ],
+        "rows": [
+          [
+            "Prix proposé et méthode",
+            "[ce que le vendeur a reçu]",
+            "[ce que le vendeur a reçu]",
+            "Fourchette 178 000 – 186 000 € net, calcul et pièces"
+          ],
+          [
+            "Étiquette prise en compte",
+            "[à compléter]",
+            "[à compléter]",
+            "Classe E en vigueur (D03)"
+          ],
+          [
+            "Dossier remis aux acheteurs",
+            "[à compléter]",
+            "[à compléter]",
+            "Dossier technique, devis D13, appels de fonds D07"
+          ],
+          [
+            "Diffusion et réseau d'acquéreurs",
+            "[à compléter]",
+            "[à compléter]",
+            "[moyens de diffusion de ton agence]"
+          ],
+          [
+            "Compte rendu au vendeur",
+            "[à compléter]",
+            "[à compléter]",
+            "Écrit, toutes les 2 semaines"
+          ],
+          [
+            "Honoraires TTC et qui les paie",
+            "[à compléter]",
+            "[à compléter]",
+            "9 000 € TTC, à la charge de l'acquéreur"
+          ],
+          [
+            "Type et durée du mandat",
+            "[à compléter]",
+            "[à compléter]",
+            "Exclusif, 3 mois"
+          ]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Phrases pour faire formuler le choix au vendeur",
+        "items": [
+          "« Parmi ces critères, lesquels comptent le plus pour vous ? »",
+          "« Pourquoi celui-là ? »",
+          "« Si je reformule : ce qui compte pour vous, c'est … Est-ce bien cela ? »",
+          "« Que vous manque-t-il pour décider ? »"
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Règles de confraternité (code de déontologie, art. 10)",
+        "items": [
+          "Aucune parole blessante, malveillante ou dénigrante sur un confrère",
+          "Aucun élément d'appréciation erroné pour détourner un client",
+          "Pas d'avis sur les pratiques d'un confrère sans qu'on te le demande ; si on te le demande, prudence et mesure",
+          "Tu ne pousses pas un vendeur à rompre un mandat en cours avec un confrère",
+          "Tu ne commentes que les offres écrites que le vendeur te montre"
+        ]
+      }
+    ],
+    "footer": "Sources : décret n° 2015-1090 du 28 août 2015, code de déontologie, art. 10 « Confraternité » (Légifrance, consulté le 28/10/2026). Trame R1 / R2 et grille : proposition pédagogique Éco-Propriété. Chiffres : dossier fil rouge fictif. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Simulation comparative face à deux concurrents",
+    "duration_min": 45,
+    "context": "Jeu de rôle à trois ou quatre (ou avec ton formateur). M. Bernard a reçu trois agents : un agent traditionnel (estimation à 172 000 € et réseau d'acquéreurs), un agent à honoraires réduits (montant fixé par le formateur pour le jeu), et toi, éco-consultant. Tu dois justifier ton accompagnement, tes services et tes engagements sans dénigrer les deux autres, et obtenir que M. Bernard formule lui-même les raisons objectives de son choix.",
+    "materials": [
+      "D01 Fiche découverte vendeur",
+      "D03 Attestation actualisée ADEME",
+      "D07 PV d'AG du 12/06/2025",
+      "D12 Tableau des comparables",
+      "D13 Devis des travaux privatifs",
+      "Fiche R1 / R2 et grille de comparaison des offres"
+    ],
+    "steps": [
+      "Prépare ton R1 : 5 questions sur le projet et les freins de M. Bernard.",
+      "Prépare ton R2 : étiquette, estimation, scénarios, plan de commercialisation, avec les pièces.",
+      "Pendant la simulation, remplis la grille de comparaison avec M. Bernard à partir des offres qu'il te montre.",
+      "Réponds à l'objection « l'autre agence est moins chère » sans dénigrer et sans brader.",
+      "Pose la question ouverte sur ses critères, puis reformule ses raisons avec ses mots.",
+      "Après la simulation, note les phrases où tu as parlé des concurrents et vérifie qu'aucune ne les juge."
+    ],
+    "expected": "R1 : « Pourquoi vendre maintenant ? Pour quand ? Qu'est-ce qu'on vous a déjà dit sur le prix ? Quels documents avez-vous ? Qu'est-ce qui vous inquiète le plus ? » R2 : classe E (D03), base 201 400 €, fourchette 178 000 – 186 000 € net, recommandation 189 000 € honoraires inclus, plan Éco-staging, comptes rendus toutes les 2 semaines. Objection honoraires : « C'est un vrai critère. Regardons ligne par ligne ce que comprend chaque offre. » Concurrent traditionnel : « Son estimation part d'une décote de 15 % sur l'étiquette F ; la vôtre est aujourd'hui E. Je vous laisse comparer les méthodes. » Question finale : « Parmi ces critères, lesquels comptent le plus pour vous ? » Réponse attendue de M. Bernard, reformulée : « Ce qui compte pour vous, c'est que l'étiquette soit vérifiée, que chaque chiffre ait sa source et que vous receviez un compte rendu écrit. » Aucun jugement sur les personnes ni sur la qualité du travail des confrères."
+  },
+  "deliverable": {
+    "title": "Simulation R2 filmée et grille de comparaison remplie",
+    "format": "Vidéo de 8 minutes maximum (extrait R2) + grille de comparaison (PDF, 1 page)",
+    "criteria": [
+      "Le R2 présente l'étiquette, l'estimation, au moins deux scénarios et le plan de commercialisation, chaque chiffre avec sa pièce",
+      "La grille compare les trois offres sur au moins 6 critères objectifs",
+      "Aucune phrase ne dénigre ou ne discrédite un concurrent",
+      "L'objection « moins cher ailleurs » est traitée sans brader et sans promesse de prix",
+      "Le vendeur formule lui-même ses raisons et tu les reformules sans en ajouter"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Légifrance — Décret n° 2015-1090 du 28 août 2015, code de déontologie des professionnels de l'immobilier, art. 10 (confraternité)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031113441/"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — trames R1 / R2 et grille de comparaison ; dossier fil rouge fictif (BIBLE §1, §5, §7)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier le déroulé du jeu de rôle (rôles, durée) et le montant des honoraires de l'agence à honoraires réduits à fixer pour la simulation (aucun chiffre dans le dossier fil rouge).",
+    "Le terme R1 / R2 et le contenu de chaque rendez-vous sont une proposition à valider par Sébastien Paumier.",
+    "Chapitre interactif nouveau à écrire."
+  ]
+}
