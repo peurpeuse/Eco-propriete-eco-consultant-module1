@@ -1,0 +1,342 @@
+{
+  "id": "3.21",
+  "module": 3,
+  "title": "Objections : répondre par les chiffres, selon le profil DISC",
+  "capsule_title": "Objections : répondre par les chiffres, selon le profil DISC",
+  "duration": "4:30",
+  "objective": "Répondre aux 5 objections de M. Bernard par un chiffre ou une pièce sourcée du dossier, avec la méthode ARFE adaptée à son profil C, puis t'entraîner en jeu de rôle avec une IA",
+  "mozi": {
+    "line": "Vous allez réfléchir ? Parfait, je dors sur votre canapé jusqu'à la signature !",
+    "scene": "Mozi déroule un sac de couchage dans le salon de M. Bernard, gonfle un oreiller et pose le mandat dessus, stylo ouvert. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 3.21 : répondre aux objections par les chiffres",
+      "voice": "Bienvenue. M. Bernard a cinq objections. Dans ce chapitre, tu y réponds par les chiffres, puis tu t'entraînes avec une IA qui joue son rôle.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "la crainte qui se cache derrière chaque objection"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "répondre par un chiffre sourcé avec ARFE, puis t'entraîner avec une IA"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer tes 5 réponses et le débriefing de l'IA en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Vous allez réfléchir ? Parfait, je dors sur votre canapé jusqu'à la signature !",
+      "voice": "Vous allez réfléchir ? Parfait, je dors sur votre canapé jusqu'à la signature !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Vous allez réfléchir ? Parfait, je dors sur votre canapé jusqu'à la signature !",
+      "scene": "Mozi déroule un sac de couchage dans le salon et pose le mandat sur l'oreiller."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "1 objection, 0 écoute, 100 % insistance",
+      "voice": "Une objection. Zéro écoute. Cent pour cent d'insistance.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "1 objection",
+        "0 écoute",
+        "100 % insistance"
+      ],
+      "wrong": 1,
+      "why": "Une objection s'écoute ; l'insistance donne une signature rétractable."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Signature arrachée. 14 jours pour se rétracter.",
+      "voice": "Et même s'il signe, chez lui, à bout de patience ? Contrat signé hors agence : il a quatorze jours pour se rétracter. Et il ne rappellera pas Mozi.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "Signature arrachée à domicile.",
+        "14 jours pour se rétracter."
+      ],
+      "source": "Code de la consommation, art. L. 221-18 (Légifrance) : contrat conclu hors établissement, délai de rétractation de 14 jours"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "2,3 → 1,9 : le F devient E",
+      "voice": "Un fait vaut mieux qu'un argument. Le coefficient de l'électricité est passé de 2,3 à 1,9 au 1er janvier 2026. Résultat : avec l'attestation actualisée, l'étiquette de M. Bernard passe de F à E.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "value": "2,3 → 1,9",
+      "label": "coefficient électricité au 1/01/2026 : avec l'attestation actualisée, le F de 2023 devient E",
+      "source": "Arrêté du 13 août 2025 modifiant le facteur de conversion de l'énergie finale en énergie primaire de l'électricité relatif au DPE (Légifrance, JORFTEXT000052134589 : 2,3 → 1,9 au 1/01/2026) ; calcul du fil rouge 150 × 1,9 = 285 kWhEP/m²/an → E ; attestation actualisée ADEME D03 (classe E, fictif)",
+      "guess": {
+        "q": "Quel est le coefficient de conversion de l'électricité pour le DPE depuis le 1er janvier 2026 ?",
+        "answer": 1.9,
+        "min": 1,
+        "max": 3,
+        "step": 0.1,
+        "unit": ""
+      }
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Accueillir et reformuler → un fait → une étape",
+      "voice": "La méthode tient en quatre lettres : ARFE. D'abord, tu accueilles, et tu reformules la crainte. C'est une vraie question. Derrière chaque objection, il y a une peur. Son profil C, repéré en capsule 3.17, craint l'erreur. Ensuite, le fait. Une pièce de son dossier, ouverte devant lui. Il espérait 205 000 euros ? Divisé par 76, c'est près de 2 700 euros du mètre carré, au-dessus des ventes en l'état. Les appels de façade ? La règle : celui qui est copropriétaire à la date de l'appel paie le syndicat. Enfin, l'étape. Jamais de pression : le récapitulatif écrit le soir même, et un appel le jeudi 5 novembre.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Méthode ARFE : proposition pédagogique Éco-Propriété ; 205 000 / 76 ≈ 2 697 €/m² (bible §5, fictif) ; décret n° 67-223, art. 6-2 (Légifrance) ; profil C : capsule 3.17",
+      "steps": [
+        {
+          "label": "Accueillir, reformuler",
+          "detail": "« C'est une vraie question. Si je comprends bien, vous craignez que… »"
+        },
+        {
+          "label": "Un fait vérifiable",
+          "detail": "Une pièce du dossier, un calcul ou une règle sourcée."
+        },
+        {
+          "label": "Une étape datée",
+          "detail": "Récapitulatif écrit le soir même, appel le jeudi 5 novembre."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? M. Bernard demande à Hugo : 9 000 euros d'honoraires, pour faire quoi ? Réponds avec ARFE.",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Fiche objections de la capsule 3.21 ; honoraires 9 000 € TTC à la charge de l'acquéreur : bible §7 (fictif)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard demande à Hugo : « 9 000 € d'honoraires, pour faire quoi exactement ? » Que répondrais-tu, avec les quatre temps ARFE ?",
+      "model_answer": "« C'est une vraie question. Si je comprends bien, vous craignez de payer sans contrepartie. Les 9 000 € TTC sont à la charge de l'acquéreur : vous recevez 180 000 € net. En échange, cinq engagements écrits annexés au mandat. Je vous les envoie ce soir ; je vous appelle jeudi ? »",
+      "keywords": [
+        "reformuler la crainte",
+        "charge de l'acquéreur",
+        "5 engagements écrits",
+        "étape datée"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Méthode ARFE (proposition pédagogique Éco-Propriété) ; Code de la consommation, art. L. 221-18 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Après « je vais réfléchir », proposer une étape datée, jamais une pression",
+          "Obtenir la signature avant la fin du rendez-vous de restitution",
+          "Aucune : insister prouve sa motivation"
+        ],
+        "answer": 0,
+        "feedback": "Avec un profil C, « je vais réfléchir » veut souvent dire « je veux vérifier ». Le E de ARFE, c'est une étape simple et datée, jamais une pression.",
+        "whys": [
+          "Exact : récapitulatif écrit, date de réponse convenue. Il garde la main, tu gardes sa confiance.",
+          "Faux : forcer la signature d'un vendeur qui veut réfléchir, c'est le perdre. Et une signature arrachée chez lui reste rétractable 14 jours.",
+          "Faux : un profil C se ferme dès qu'on insiste. La motivation se prouve par les pièces, pas par la pression."
+        ]
+      },
+      "card2": {
+        "question": "Si Maxime répétait à un client une règle inventée par l'IA, que se passerait-il ?",
+        "answer": "Il transmettrait une erreur à un vrai vendeur et perdrait sa confiance. D'où la règle : vérifier chaque règle sur une source officielle (Légifrance, Service-Public, ADEME) avant de la réutiliser."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : transformer chaque objection en accord. La fiche objections par profil, et le jeu de rôle avec une IA.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Transformer chaque objection en accord",
+      "tools": [
+        {
+          "name": "Fiche objections par profil",
+          "role": "5 objections, la crainte, la réponse par style"
+        },
+        {
+          "name": "Jeu de rôle avec une IA",
+          "role": "L'IA joue M. Bernard, puis te débriefe"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Fiche : l'objection du DPE",
+      "voice": "Sur la fiche, l'objection deux : mon DPE dit F, l'agent dit E. La crainte : être trompé. Le fait : l'attestation de l'ADEME, valable jusqu'au 13 mars 2033. L'étape : la regarder ensemble, numéro de DPE à l'appui.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Objections / réponses par profil » de la capsule 3.21 ; ADEME, observatoire DPE-Audit ; attestation D03 (fil rouge fictif)",
+      "tool": "Fiche objections par profil",
+      "steps": [
+        "Objection : « Mon DPE dit F, vous dites E : qui croire ? »",
+        "Crainte : être trompé",
+        "Fait : attestation ADEME, classe E, valable jusqu'au 13/03/2033",
+        "Étape : la lire ensemble, numéro de DPE à l'appui"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "IA : jouer, débriefer, rejouer",
+      "voice": "Puis l'IA. Je colle le prompt de l'exercice dans l'outil validé par mon agence. Je réponds aux cinq objections, une par une. Je tape fin du jeu : débriefing et note sur vingt. Je rejoue en profil D. Et je vérifie chaque chiffre cité.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Exercice de la capsule 3.21 (prompt de jeu de rôle et garde-fous) ; CNIL, minimisation des données — prompt à tester sur l'outil retenu",
+      "tool": "Jeu de rôle avec une IA",
+      "steps": [
+        "Coller le prompt de l'exercice dans l'outil validé par ton agence, sans donnée réelle",
+        "Répondre aux 5 objections, une par une",
+        "Taper « FIN DU JEU » : débriefing et note sur 20",
+        "Rejouer avec « PROFIL : D », puis vérifier chaque chiffre et chaque règle cités"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "À toi : lance l'entraînement.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien vers l'exercice de la capsule 3.21 (le prompt y est fourni)",
+      "cta": "Répondre à 5 objections avec l'IA",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi tes réponses et le débriefing de l'IA.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture du débriefing de l'IA, avec tes 5 réponses ARFE (chacune avec son chiffre ou sa pièce sourcée) et ton commentaire.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. M. Bernard et ses cinq objections t'attendent : reviens déposer ton débriefing quand il est prêt."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Mozi a sorti son sac de couchage. Toi, tu as cinq réponses, et chacune s'appuie sur une pièce du dossier.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Tes 5 réponses : chacune avec une pièce. Mozi : un sac de couchage.",
+      "source": "Fait observable : tes réponses ARFE et le débriefing"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Légifrance — Code de la consommation, art. L. 221-18 (rétractation de 14 jours, contrat hors établissement)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842"
+    },
+    {
+      "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "Légifrance — Arrêté du 13 août 2025 modifiant le facteur de conversion de l'énergie finale en énergie primaire de l'électricité relatif au diagnostic de performance énergétique (1,9 au 1/01/2026), vérifié le 26/10/2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052134589"
+    },
+    {
+      "label": "CNIL — Définition : minimisation des données",
+      "url": "https://www.cnil.fr/fr/definition/minimisation"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — méthode ARFE, réponses par profil DISC, prompt de jeu de rôle (fil rouge fictif)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Écran 5 : la rétractation de 14 jours s'applique au contrat conclu hors établissement ; formulation à faire relire (relecture juridique)",
+    "Écran 6 : curseur « guess » ajouté (réponse 1,9, arrêté du 13/08/2025). Le coefficient passe à 1,7 au 1/01/2027 (arrêté du 19/08/2026, bible §3) : actualiser l'écran si le chapitre est diffusé après cette date (le E de l'attestation reste E : 150 × 1,7 = 255)",
+    "Écran 6 : formulation « avec l'attestation actualisée » (le DPE de 2023 n'est pas modifié, c'est l'attestation qui affiche E)",
+    "Écran 8 : l'objection des honoraires est traitée en détail dans la capsule 3.25 ; garder ici une réponse courte et cohérente avec elle",
+    "Écran 12 : tester le prompt sur l'outil IA retenu par Éco-Propriété avant diffusion (ordre des objections, score caché, débriefing) ; outil non nommé à l'écran",
+    "Relecture juridique : formulation de l'art. 6-2 et de l'accord vendeur/acquéreur (héritage capsule)",
+    "Écran 15 : effet statut fondé sur un fait observable, pas sur une statistique"
+  ]
+}

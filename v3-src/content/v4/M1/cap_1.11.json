@@ -1,0 +1,167 @@
+{
+  "id": "1.11",
+  "module": 1,
+  "section": "F · Je crée ma promesse et mon pitch",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Ma promesse : ce que je fais, ce que je ne fais pas",
+  "objective": "Écrire sa promesse d'éco-consultant en 3 phrases vérifiables (je vérifie, je construis la valeur, je remets par écrit) et nommer ses limites et ses renvois aux autres professionnels",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi promet à M. Bernard 205 000 € garantis et « son cousin artisan » pour les travaux. Sébastien Paumier oppose la promesse de l'éco-consultant : vérifier l'étiquette en vigueur, construire la valeur sur les ventes réelles et des devis, tout remettre par écrit. Et les limites : pas de vente de travaux, pas de conseil juridique ou fiscal, pas de prix promis, dans le cadre de la loi Hoguet."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi dit à M. Bernard : « Je vous garantis 205 000 €, et mon cousin fera les fenêtres à prix d'ami. » Combien de limites du métier franchit-il ?",
+        "options": [
+          "Aucune : il rassure le vendeur, c'est son rôle",
+          "Une seule : la recommandation du cousin",
+          "Deux : il promet un prix et il oriente le vendeur vers une entreprise de travaux qu'il a choisie"
+        ],
+        "answer": 2,
+        "whys": [
+          "Rassurer avec une promesse intenable n'est pas rassurer : M. Bernard, ancien ingénieur, te demandera sur quoi repose ce chiffre.",
+          "Le prix garanti est aussi une faute : personne ne peut garantir un prix de vente, il dépend du marché et des acquéreurs.",
+          "Juste : l'éco-consultant ne promet ni prix ni gain, et ne choisit pas l'entreprise à la place du vendeur (ni commission sur les travaux)."
+        ],
+        "fb_title": "Deux limites franchies en une phrase",
+        "fb_text": "Ta promesse porte sur une méthode, pas sur un résultat. Tu ne garantis ni prix, ni classe, ni délai. Tu ne vends pas de travaux, tu ne touches pas de commission et tu ne choisis pas l'artisan : tu aides le vendeur à comparer des devis qu'il demande lui-même."
+      },
+      {
+        "question": "M. Bernard te demande : « Si je vends, est-ce que je paierai l'appel de fonds de janvier 2027 ou l'acheteur ? » Que réponds-tu ?",
+        "options": [
+          "« C'est l'acheteur, toujours. »",
+          "« Je vous montre le PV d'AG et les dates d'appel ; la répartition se règle entre vous et l'acquéreur, et le notaire la rédige. »",
+          "« Je ne peux rien vous dire, voyez un avocat. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux et dangereux : la règle de principe vise le copropriétaire à la date d'exigibilité ; affirmer l'inverse, c'est un conseil juridique erroné.",
+          "Juste : tu montres les pièces (D07, calendrier des appels), tu expliques l'enjeu et tu renvoies la rédaction de l'accord au notaire.",
+          "Trop court : tu peux expliquer les faits du dossier ; c'est la rédaction juridique que tu laisses au notaire."
+        ],
+        "fb_title": "Expliquer les faits, renvoyer le droit",
+        "fb_text": "Tu n'es pas juriste : tu ne tranches pas qui paie. Tu peux montrer le PV d'AG du 12/06/2025 et les 4 échéances de 8 970 €, et dire qu'un accord entre vendeur et acquéreur est possible et se rédige chez le notaire. C'est ce qui a été fait dans le dossier de M. Bernard."
+      },
+      {
+        "question": "Laquelle de ces phrases est une promesse d'éco-consultant conforme ?",
+        "options": [
+          "« Je vérifie l'étiquette en vigueur de votre logement et je vous remets un avis de valeur écrit, fondé sur les ventes réelles du secteur. »",
+          "« Avec moi, votre appartement passe en classe D et se vend en un mois. »",
+          "« Je vous obtiens MaPrimeRénov' pour financer les travaux avant la vente. »"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : des verbes vérifiables, une pièce remise par écrit, aucun résultat promis.",
+          "Double promesse interdite : une classe énergétique et un délai de vente ne se garantissent pas.",
+          "Une aide dépend des revenus et de la situation du ménage qui fait les travaux : elle ne se présente jamais comme acquise."
+        ],
+        "fb_title": "Des moyens, pas des résultats",
+        "fb_text": "Une bonne promesse tient en 3 phrases que le vendeur peut vérifier : ce que tu vérifies, comment tu construis la valeur, ce que tu remets par écrit. Elle ne contient ni classe promise, ni délai, ni aide acquise."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche rôle et limites ; déontologie et obligations professionnelles de l'agent (loi Hoguet, à sourcer)",
+    "kind": "fiche",
+    "intro": "Ce que tu fais, ce que tu ne fais pas, à qui tu renvoies, et les obligations professionnelles qui encadrent ton métier d'agent. À relire avant d'écrire ta promesse et avant chaque premier rendez-vous. La partie obligations est à faire relire par un juriste avant diffusion.",
+    "sections": [
+      {
+        "type": "list",
+        "heading": "Ce que je fais",
+        "items": [
+          "Je vérifie l'étiquette énergie en vigueur (DPE, attestation actualisée) avant de parler prix.",
+          "Je lis les documents du bien et de la copropriété avec le vendeur (PV d'AG, plan pluriannuel de travaux, audit pour une maison).",
+          "Je construis la valeur sur les ventes réelles du secteur et sur des devis, pas sur un pourcentage.",
+          "Je compare des scénarios (vendre en l'état, après travaux) et je les remets par écrit.",
+          "Je prépare les réponses chiffrées aux questions des acquéreurs."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Ce que je ne fais pas, et à qui je renvoie",
+        "headers": ["Je ne fais pas", "Je renvoie à"],
+        "rows": [
+          ["Établir un DPE ou un audit, juger une fissure ou une pathologie", "Le diagnostiqueur certifié, l'auditeur, un bureau d'études ou un expert bâtiment"],
+          ["Vendre des travaux, choisir l'entreprise, toucher une commission", "Le vendeur, qui demande ses devis à des entreprises qualifiées (RGE si aides)"],
+          ["Conseil juridique (succession, répartition des charges, clauses)", "Le notaire"],
+          ["Conseil fiscal (plus-value, revenus fonciers)", "L'expert-comptable ou le notaire"],
+          ["Offre de financement, calcul d'aide présenté comme acquis", "Le courtier, la banque, France Rénov' pour les aides"],
+          ["Promettre un prix, une classe, un délai ou un gain", "Personne : je m'engage sur des moyens écrits"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Mes obligations d'agent immobilier (à faire relire par un juriste)",
+        "items": [
+          "Carte professionnelle (mention transaction) délivrée par la CCI, ou attestation d'habilitation si je suis collaborateur ou agent commercial (loi n° 70-9 du 2 janvier 1970, dite loi Hoguet).",
+          "Garantie financière et assurance de responsabilité civile professionnelle en cours de validité.",
+          "Aucune mission ni rémunération sans mandat écrit préalable, inscrit au registre des mandats (loi Hoguet, art. 6 ; décret n° 72-678).",
+          "Respect du code de déontologie : compétence, transparence, confidentialité, défense des intérêts du client, conflits d'intérêts déclarés (décret n° 2015-1090 du 28 août 2015).",
+          "Formation continue : 14 heures par an ou 42 heures sur 3 ans, dont des heures de déontologie et de non-discrimination (décret n° 2016-173 du 18 février 2016, à vérifier dans sa version en vigueur).",
+          "Lutte contre le blanchiment : obligations de vigilance de l'agent (à vérifier : périmètre exact et procédure interne de ton agence)."
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Ma promesse en 3 phrases",
+        "text": "Phrase 1 = ce que je vérifie (l'étiquette en vigueur, les documents du bien). Phrase 2 = comment je construis la valeur (ventes réelles du secteur + coût des travaux chiffré par devis). Phrase 3 = ce que je remets par écrit (avis de valeur, scénarios, plan de vente). Test : 20 secondes à voix haute, zéro promesse de résultat."
+      },
+      {
+        "type": "text",
+        "heading": "Exemple fil rouge : la promesse dite à M. Bernard (fictif)",
+        "text": "« Avant de parler prix, je vérifie l'étiquette en vigueur de votre appartement : avec l'attestation de l'ADEME, il est classé E, plus F. Je construis la valeur à partir des ventes d'appartements comparables de Melun et des 16 500 € de travaux chiffrés par devis. Je vous remets tout par écrit, pour que vous puissiez vérifier chaque chiffre. »"
+      }
+    ],
+    "footer": "Sources : Légifrance, loi n° 70-9 du 2 janvier 1970 (art. 3 et 6) ; décret n° 72-678 du 20 juillet 1972 ; décret n° 2015-1090 du 28 août 2015 (code de déontologie) ; décret n° 2016-173 du 18 février 2016 (formation continue). Partie « obligations » à faire relire par un juriste. Exemple : fil rouge fictif (BIBLE §1-6). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Écrire sa promesse en 3 phrases",
+    "duration_min": 25,
+    "context": "M. Bernard (fictif) va te demander ce que tu fais de différent des deux agences qui lui ont annoncé −15 %. Tu écris ta promesse : trois phrases, vingt secondes à l'oral, toutes vérifiables par un vendeur prudent. Tu y ajoutes une ligne sur ce que tu ne fais pas.",
+    "materials": [
+      "D02 DPE du 14/03/2023 (synthèse) et D03 Attestation actualisée ADEME (classe E)",
+      "D12 Tableau des comparables (fictifs)",
+      "D13 Devis des travaux privatifs",
+      "Fiche rôle et limites (ressource)"
+    ],
+    "steps": [
+      "Relis la fiche rôle et limites et souligne les 3 renvois que tu fais le plus souvent.",
+      "Phrase 1 : ce que tu vérifies, avant tout prix.",
+      "Phrase 2 : comment tu construis la valeur (ventes réelles, devis).",
+      "Phrase 3 : ce que tu remets par écrit.",
+      "Ajoute une ligne « Ce que je ne fais pas » avec le professionnel vers qui tu renvoies.",
+      "Écris la version M. Bernard avec au moins un chiffre exact du dossier, puis lis-la à voix haute en 20 secondes maximum."
+    ],
+    "expected": "Version générique attendue : « Avant de parler prix, je vérifie l'étiquette énergie en vigueur de votre logement et ses documents. Je construis la valeur à partir des ventes réelles de votre secteur et du coût des travaux chiffré par des devis. Je vous remets tout par écrit, pour que vous puissiez vérifier chaque chiffre. » Ligne limites : « Je ne vends pas de travaux et je ne fais pas de conseil juridique ou fiscal : je vous renvoie au notaire ou à votre expert-comptable. » Version M. Bernard : attestation ADEME classe E (150 × 1,9 = 285), comparables autour de 2 650 €/m² en l'état (fictif), 16 500 € de travaux par devis. À éviter : « je vous vends plus cher », « vous passerez en D », « aide garantie »."
+  },
+  "deliverable": {
+    "title": "Ma promesse d'éco-consultant",
+    "format": "PDF ou DOCX, une demi-page : version générique, ligne « ce que je ne fais pas », version M. Bernard (enregistrement audio de 20 s facultatif)",
+    "criteria": [
+      "Exactement 3 phrases : je vérifie, je construis la valeur, je remets par écrit",
+      "Une ligne de limites qui nomme au moins un professionnel de renvoi (notaire, diagnostiqueur, expert-comptable, courtier)",
+      "Aucune promesse de prix, de classe, de délai ou de gain",
+      "La version M. Bernard cite au moins un chiffre exact du dossier (285 kWhEP classe E, 2 650 €/m² ou 16 500 €)",
+      "Lecture à voix haute en 20 secondes ou moins"
+    ]
+  },
+  "sources": [
+    { "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (loi Hoguet)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068387" },
+    { "label": "Légifrance — Loi Hoguet, article 6 (mandat écrit, rémunération)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032043077" },
+    { "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972 (registre des mandats)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006061974/" },
+    { "label": "Légifrance — Décret n° 2015-1090 du 28 août 2015 (code de déontologie des professionnels de l'immobilier)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031113441" },
+    { "label": "Décret n° 2016-173 du 18 février 2016 relatif à la formation continue des professionnels de l'immobilier (14 h/an ou 42 h sur 3 ans) — à vérifier sur Légifrance", "url": "https://www.legifrance.gouv.fr" },
+    { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" }
+  ],
+  "open_points": [
+    "à faire relire par un juriste : la liste des obligations professionnelles (carte, garantie, RCP, mandat, déontologie, formation continue, lutte contre le blanchiment).",
+    "à vérifier : référence Légifrance exacte et version en vigueur du décret n° 2016-173 (heures de déontologie et de non-discrimination).",
+    "à vérifier : obligations de lutte contre le blanchiment applicables à l'agent (code monétaire et financier) avant de les détailler.",
+    "Chapitre à adapter depuis l'ancien chap_1.2 : recadrer sur la promesse et les limites, renuméroter."
+  ]
+}

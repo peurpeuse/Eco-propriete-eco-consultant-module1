@@ -1,0 +1,208 @@
+{
+  "id": "1.10",
+  "module": 1,
+  "title": "Choisir sa cible selon le problème du vendeur",
+  "capsule_title": "Choisir sa cible selon le problème du vendeur",
+  "duration": "4:30",
+  "objective": "Choisir 3 situations de vendeurs dans la bibliothèque d'angles et écrire pour chacune une offre ciblée : le problème, la proposition, la preuve",
+  "mozi": {
+    "line": "Ma cible ? Tout le monde : les vendeurs, les acheteurs, les locataires, et même les pigeons du parc !",
+    "scene": "Mozi distribue le même flyer « Vendez avec Mozi » à un pigeon, à un enfant sur un toboggan et à une statue du square. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 1.10 : choisir sa cible selon le problème du vendeur",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas choisir à qui tu parles, en partant de son problème.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi un vendeur ne répond qu'à son propre problème" },
+        { "verb": "Appliquer", "text": "choisir 3 situations dans la bibliothèque des 6 angles" },
+        { "verb": "Prouver", "text": "écrire 3 offres ciblées : problème, proposition, preuve" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Ma cible ? Tout le monde, et même les pigeons du parc !",
+      "voice": "Ma cible ? Tout le monde : les vendeurs, les acheteurs, les locataires, et même les pigeons du parc !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Ma cible ? Tout le monde : les vendeurs, les acheteurs, les locataires, et même les pigeons du parc !",
+      "scene": "Mozi tend le même flyer à un pigeon, à un enfant sur un toboggan et à une statue du square."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "Un flyer, pour tous, chacun s'y reconnaît",
+      "voice": "Un seul flyer. Pour tous les vendeurs. Et chacun s'y reconnaît.",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant touche le temps fautif", "source": null,
+      "beats": ["Un seul flyer", "pour tous les vendeurs", "chacun s'y reconnaît"],
+      "wrong": 2,
+      "why": "Un vendeur ne se reconnaît que dans son propre problème : un héritier, un bailleur et Mme Garnier n'ont pas la même question."
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Le bailleur passe son chemin",
+      "voice": "Un bailleur dont le logement est classé G ne peut plus le proposer à un nouveau bail depuis 2025. Le flyer de Mozi lui parle de prix. Il le jette.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Logement G : plus de nouveau bail depuis le 1er janvier 2025.", "Le flyer parle de prix. Le bailleur le jette."],
+      "source": "Caf, « Logements classés G : nouvelle réglementation au 1er janvier 2025 » (https://www.caf.fr/professionnels/actualites/logements-classes-g-nouvelle-reglementation-au-1er-janvier-2025) ; Bible §11.3 (fait vérifié, à revérifier)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "3,9 millions de passoires énergétiques",
+      "voice": "Trois virgule neuf millions. C'est le nombre de résidences principales classées F ou G au 1er janvier 2025. Autant de propriétaires avec un problème précis.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": { "q": "Combien de résidences principales étaient classées F ou G au 1er janvier 2025, en millions ?", "answer": 3.9, "min": 0, "max": 10, "step": 0.1, "unit": " millions" },
+      "value": "3,9 millions",
+      "label": "de résidences principales classées F ou G au 1er janvier 2025, soit 12,7 % du parc",
+      "source": "SDES (ministère de la Transition écologique), « Le parc de logements par classe de performance énergétique au 1er janvier 2025 », publié le 12/11/2025, https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Problème → Proposition → Preuve",
+      "voice": "Une cible, ce n'est pas un âge ou un quartier. C'est un problème. D'abord, nomme le problème du vendeur en une phrase : une maison classée G, des travaux votés en copropriété, un héritage, un bailleur bloqué, un bien qui ne se vend pas. Ensuite, dis ce que tu proposes, toi, éco-consultant : lire ses documents, chiffrer avec des pros, bâtir un plan de vente. Sans vendre de travaux. Enfin, apporte une preuve qu'il peut vérifier : un document, une règle officielle, une observation. Le vendeur doit se dire : il parle de moi.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Méthode du chapitre (bibliothèque des 6 angles du PLAN v4, capsule 1.10) ; limites du métier : REFONTE_V4",
+      "steps": [
+        { "label": "Problème", "detail": "Nomme en une phrase ce qui bloque la vente de ce vendeur." },
+        { "label": "Proposition", "detail": "Dis ce que tu fais pour lui, sans vendre de travaux ni promettre de prix." },
+        { "label": "Preuve", "detail": "Apporte un élément qu'il peut vérifier : document, règle, observation." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Karim reçoit un héritier qui ne connaît pas la maison de sa mère, classée G. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; audit à la vente : Service-Public F37110, vérifié le 14/09/2026",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Un héritier vient voir Karim : il a hérité de la maison de sa mère, classée G, à 400 km de chez lui. Il ne sait ni ce qu'il doit fournir, ni s'il faut faire des travaux. Écris l'offre de Karim en trois lignes : problème, proposition, preuve.",
+      "model_answer": "Problème : vendre à distance une maison G qu'il connaît mal, sans oublier une obligation. Proposition : je fais le point sur le DPE et l'audit énergétique, je fais chiffrer les travaux par des pros, puis on fixe ensemble un prix argumenté. Preuve : pour vendre une maison classée G, l'audit énergétique est obligatoire ; je vous montre la fiche Service-Public.",
+      "keywords": ["problème", "proposition", "preuve", "audit"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle erreur Mozi commet-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Méthode du chapitre ; Caf, logements classés G au 1er janvier 2025",
+      "card1": {
+        "question": "Quelle erreur Mozi commet-il ?",
+        "options": [
+          "Il prospecte trop de quartiers à la fois",
+          "Il parle à tous avec le même message, sans partir du problème du vendeur",
+          "Aucune : plus le message est large, plus il touche de vendeurs"
+        ],
+        "answer": 1,
+        "feedback": "Un message pour tout le monde ne parle à personne. Le vendeur répond quand il reconnaît son problème : une maison G, des travaux votés, un héritage, un bail impossible.",
+        "whys": [
+          "Pas l'essentiel : même sur un seul quartier, un flyer qui parle à tous ne parle à personne.",
+          "Exact : il ne part d'aucun problème, donc aucun vendeur ne se reconnaît.",
+          "Faux : un message large est lu vite et oublié ; c'est le problème précis qui fait appeler."
+        ]
+      },
+      "card2": {
+        "question": "S'il parlait au bailleur d'un logement G de son vrai problème, que se passerait-il ?",
+        "answer": "Le bailleur se reconnaîtrait : il ne peut plus proposer ce logement à un nouveau bail. Il appellerait pour savoir s'il vaut mieux vendre en l'état ou après travaux. Mozi aurait un rendez-vous au lieu d'un flyer jeté."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : parler à chaque vendeur de son problème. La bibliothèque des six angles, et le modèle d'offre ciblée.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource de la capsule 1.10 (PLAN v4)",
+      "goal": "Parler à chaque vendeur de son problème",
+      "tools": [
+        { "name": "Bibliothèque des 6 angles", "role": "Repérer le profil et le problème de chaque vendeur" },
+        { "name": "Modèle d'offre ciblée", "role": "Écrire problème, proposition et preuve en trois lignes" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "La bibliothèque : lire, choisir, noter",
+      "voice": "Dans la bibliothèque, tu lis les six angles : maison F ou G, copropriété, héritier, bailleur, logement D ou C, bien qui ne se vend pas. Tu choisis trois situations de ton secteur. Tu notes le problème de chacune en une phrase.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Liste des 6 angles : PLAN v4, capsule 1.10",
+      "tool": "Bibliothèque des 6 angles",
+      "steps": [
+        "Lire : les 6 angles vendeurs",
+        "Choisir : 3 situations de ton secteur",
+        "Noter : le problème en une phrase"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "L'offre ciblée : Mme Garnier",
+      "voice": "Exemple avec Mme Garnier. Problème : une agence lui a dit que sa maison classée G était invendable. Proposition : lire avec elle l'audit et ses deux parcours de travaux. Preuve : l'audit montre un chemin chiffré vers la classe C.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible §11.1 et §11.3 (fictif) : audit du 15/10/2026, document M03, parcours en deux étapes vers la classe C",
+      "tool": "Modèle d'offre ciblée",
+      "steps": [
+        "Problème : maison G, dite « invendable »",
+        "Proposition : lire l'audit et ses 2 parcours",
+        "Preuve : audit M03, chemin chiffré vers C"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Choisis tes trois situations maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 1.10 (PLAN v4) : pas d'outil en ligne officiel, renvoi vers l'exercice",
+      "cta": "Ouvrir la bibliothèque des angles",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi tes trois offres ciblées.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 1.10 (PLAN v4)",
+      "ask": "Dépose une capture de tes 3 offres ciblées : pour chacune des 3 situations choisies dans la bibliothèque, le problème, la proposition et la preuve.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. La bibliothèque des angles t'attend : reviens déposer tes 3 offres quand elles sont écrites."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Tu ne parles plus à tout le monde : tu parles à trois vendeurs précis, de leur problème.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Tes offres : 3 problèmes précis, 3 preuves. Le flyer de Mozi : un message pour personne.",
+      "source": "Comparaison avec le contre-exemple du chapitre (Mozi, fictif)"
+    }
+  ],
+  "sources": [
+    { "label": "SDES, Le parc de logements par classe de performance énergétique au 1er janvier 2025 (publié le 12/11/2025) : 3,9 millions de résidences principales F ou G, 12,7 %", "url": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025" },
+    { "label": "Caf, Logements classés G : nouvelle réglementation au 1er janvier 2025", "url": "https://www.caf.fr/professionnels/actualites/logements-classes-g-nouvelle-reglementation-au-1er-janvier-2025" },
+    { "label": "Service-Public, Audit énergétique en cas de vente d'un bien dit « passoire thermique » (F37110), vérifié le 14/09/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37110" },
+    { "label": "Bible du fil rouge, §11 (maison de Mme Garnier, fictif)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Écran 5 : la règle « logement G, plus de nouveau bail depuis le 1/01/2025 » est sourcée par la Caf ; à revérifier sur Légifrance le jour du tournage (textes de report ou d'aménagement en discussion possibles)",
+    "Écran 6 : chiffre SDES au 1/01/2025 ; vérifier si une édition au 1/01/2026 est parue avant le tournage",
+    "Contenu détaillé de la bibliothèque des 6 angles (profil, problème, proposition) : à valider avec Sébastien Paumier",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

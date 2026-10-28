@@ -1,0 +1,54 @@
+{
+ "id": 0,
+ "title": "Climat et marché : le contexte de tout le parcours",
+ "color": "bordeaux",
+ "obligatoire": true,
+ "entry": "Comprendre pourquoi le climat change le métier d'agent immobilier",
+ "exit": "Note d'une page : trois effets du changement climatique sur le marché de sa zone, sourcés et datés",
+ "capsules": [
+  "P1",
+  "P2",
+  "P3"
+ ],
+ "case": {
+  "title": "Note de synthèse : le climat et le marché de ma zone",
+  "duration_min": 60,
+  "brief": "Rédiger une note d'une page : trois effets du changement climatique sur le marché de sa zone, chacun avec sa source et sa date. Quiz de prérequis, seuil à fixer.",
+  "documents": [
+   "Fiche climat (P1)",
+   "Fiche risques climatiques du logement (P2)",
+   "Frise réglementaire et fiche impact sur le marché (P3)",
+   "Géorisques pour une adresse de ta zone"
+  ],
+  "tasks": [
+   "Choisis ta zone (commune ou quartiers) et une adresse type",
+   "Relève trois effets du changement climatique sur le marché de cette zone : prix, délais de vente, demande des acquéreurs, assurance, réglementation",
+   "Pour chaque effet : un fait, sa source, sa date, et ce que tu en dis à un vendeur",
+   "Rédige la note en une page, la conclusion en premier"
+  ],
+  "deliverable": "Note d'une page (PDF) : trois effets, chacun avec sa source et sa date",
+  "criteria": [
+   {
+    "label": "Trois effets distincts et propres à la zone",
+    "points": 30,
+    "expected": "Effets observables localement, pas des généralités nationales recopiées"
+   },
+   {
+    "label": "Sources et dates",
+    "points": 30,
+    "expected": "Chaque fait a une source officielle ou reconnue et une date"
+   },
+   {
+    "label": "Lien avec le métier",
+    "points": 25,
+    "expected": "Pour chaque effet, la phrase à dire au vendeur"
+   },
+   {
+    "label": "Clarté",
+    "points": 15,
+    "expected": "Une page, la conclusion d'abord, pas de jargon"
+   }
+  ]
+ },
+ "reminders": "auto"
+}

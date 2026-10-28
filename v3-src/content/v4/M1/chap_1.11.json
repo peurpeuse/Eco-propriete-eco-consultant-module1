@@ -1,0 +1,350 @@
+{
+  "id": "1.11",
+  "module": 1,
+  "title": "Promettre juste",
+  "capsule_title": "Ma promesse : ce que je fais, ce que je ne fais pas",
+  "duration": "4:30",
+  "objective": "Écrire sa promesse d'éco-consultant en trois phrases (je vérifie, je remets par écrit, je renvoie) qui disent ce qu'on fait et ce qu'on ne fait pas, et la décliner pour M. Bernard",
+  "mozi": {
+    "line": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+    "scene": "Mozi, sur le palier de M. Bernard, regarde le DPE à travers la porte vitrée, sans entrer, et colle un autocollant « −15 % » sur la sonnette. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 1.11 : promettre juste",
+      "voice": "Bienvenue. Dans ce chapitre, tu écris ta promesse : ce que tu fais pour un vendeur, et ce que tu ne fais pas.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "pourquoi une promesse crédible dit aussi ce que tu ne fais pas"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "écrire ta promesse en trois phrases : je vérifie, je remets par écrit, je renvoie"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ta promesse et sa version pour M. Bernard en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+      "voice": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+      "scene": "Mozi lit le DPE à travers la porte vitrée et colle un autocollant « −15 % » sur la sonnette."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "1 lettre, −15 %, 0 page lue",
+      "voice": "Une lettre, moins quinze pour cent, zéro page lue.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "1 lettre",
+        "−15 %",
+        "0 page lue"
+      ],
+      "wrong": 2,
+      "why": "Sans lire le DPE, tu rates la vraie classe : c'est E, pas F."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "La lettre a changé. Le −15 % sort de nulle part.",
+      "voice": "Problème : depuis 2026, l'appartement de M. Bernard est classé E, plus F. Et ce moins quinze pour cent n'a ni région, ni année, ni source.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "La lettre a changé : c'est E.",
+        "Le −15 % : ni région, ni année, ni source."
+      ],
+      "source": "Coefficient électricité 1,9 depuis le 1/01/2026 (arrêté du 13/08/2025) : 150 × 1,9 = 285 kWhEP/m²/an, classe E (attestation actualisée ADEME, fil rouge) ; aucune décote nationale unique : l'écart varie selon la région, le type de bien et l'année (Notaires de France, valeur verte, transactions 2024, 7/01/2026)"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "≈ 15 % des ventes sont des F ou G",
+      "voice": "Et pourtant, les logements classés F ou G représentaient environ quinze pour cent des ventes de l'ancien début 2025. Ils se vendent.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Quelle part des ventes de l'ancien concernait des logements F ou G début 2025 ?",
+        "answer": 15,
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "unit": " %"
+      },
+      "value": "≈ 15 %",
+      "label": "des ventes de l'ancien concernaient des logements F ou G début 2025",
+      "source": "Notaires de France, La valeur verte des logements en France sur les transactions 2024 (7 janvier 2026)"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Je vérifie → J'écris → Je renvoie",
+      "voice": "Ta promesse tient en trois phrases. Un, je vérifie. Je lis le DPE, ses deux notes, et je contrôle l'étiquette en vigueur. Chez M. Bernard : coefficient un virgule neuf, deux cent quatre-vingt-cinq, classe E, prouvée par l'attestation de l'ADEME. Deux, je remets par écrit. Une valeur tirée des ventes réelles du secteur, des travaux chiffrés par devis, et le mandat avant toute mission. Le calcul de la valeur verte, tu l'as vu en capsule 1.2. Trois, je renvoie. Je ne vends pas de travaux, je ne touche aucune commission dessus, je ne choisis pas l'artisan à la place du vendeur. Je ne fais ni conseil fiscal ni conseil juridique : c'est le rôle du notaire, de l'expert-comptable, du diagnostiqueur. Et je ne promets ni prix, ni gain, ni classe.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Double seuil et classe retenue (Service-Public F16096) ; coefficient 1,9 (arrêté du 13/08/2025) ; mandat écrit préalable (loi n° 70-9 du 2/01/1970, art. 6) ; transparence et conflits d'intérêts : code de déontologie des professionnels de l'immobilier (décret n° 2015-1090 du 28/08/2015, numéro d'article à vérifier sur Légifrance) ; limites du métier (pas de vente de travaux, pas de commission, pas de conseil fiscal ni juridique) : cahier des charges Éco-Propriété v4",
+      "steps": [
+        {
+          "label": "Je vérifie",
+          "detail": "Deux notes, la moins bonne fixe la classe ; coefficient 1,9 : 285, classe E, prouvée par l'attestation ADEME."
+        },
+        {
+          "label": "J'écris",
+          "detail": "Une valeur tirée des ventes réelles et des devis ; le mandat écrit avant toute mission."
+        },
+        {
+          "label": "Je renvoie",
+          "detail": "Ni travaux vendus, ni commission, ni conseil fiscal ou juridique : notaire, expert-comptable, diagnostiqueur."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard te demande : « Vous me garantissez 205 000 € ? Et vous m'envoyez votre menuisier pour les fenêtres ? » Que lui réponds-tu, en restant dans ta promesse ?",
+      "model_answer": "Je ne garantis aucun prix : je vous remets par écrit une valeur fondée sur les ventes réelles de Melun et sur votre classe vérifiée, E. Pour les fenêtres, je vous indique où trouver des artisans qualifiés, je vous aide à comparer leurs devis, mais c'est vous qui choisissez, et je ne touche rien dessus.",
+      "keywords": [
+        "pas de garantie",
+        "par écrit",
+        "ventes réelles",
+        "vous choisissez"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Notaires de France, valeur verte (transactions 2024, 7/01/2026) ; Service-Public F16096 (double seuil) ; code de déontologie des professionnels de l'immobilier, décret n° 2015-1090 (transparence, conflits d'intérêts ; article à vérifier)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Pas de décote forfaitaire : la valeur verte se cite avec la région, le type de bien, l'année des ventes et la classe de référence",
+          "La loi fixe à 15 % la décote d'un logement classé F",
+          "Aucune : seule la lettre en haut du DPE compte"
+        ],
+        "answer": 0,
+        "feedback": "Il n'existe pas de « −15 % » valable partout. Les Notaires mesurent un écart qui varie selon la région, le type de bien et l'année. Et avant tout chiffre, on vérifie l'étiquette en vigueur.",
+        "whys": [
+          "Exact : sans ses quatre repères, un pourcentage n'est pas une information, c'est une rumeur.",
+          "Faux : aucun texte ne fixe une décote par classe. Le prix se fonde sur les ventes réelles.",
+          "Faux : la lettre peut être dépassée (coefficient 1,9 depuis 2026) et elle ne dit rien du coût des travaux."
+        ]
+      },
+      "card2": {
+        "question": "Un menuisier propose à Sarah 10 % sur chaque chantier qu'elle lui envoie. Si elle acceptait sans rien dire, que se passerait-il ?",
+        "answer": "Son conseil sur les fenêtres deviendrait suspect : elle aurait intérêt à pousser des travaux. Le code de déontologie des agents immobiliers impose la transparence sur les conflits d'intérêts, et la promesse d'éco-consultant exclut toute commission sur les travaux. Elle donne plusieurs noms, le vendeur choisit."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : une promesse vérifiable. L'attestation de l'ADEME prouve ce que tu fais. Ta fiche rôle et limites dit ce que tu ne fais pas.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Une promesse vérifiable, avec ses limites",
+      "tools": [
+        {
+          "name": "Attestation actualisée ADEME",
+          "role": "Prouver l'étiquette en vigueur, gratuitement"
+        },
+        {
+          "name": "Ta fiche rôle et limites",
+          "role": "Dire ce que tu ne fais pas, et à qui tu renvoies"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "ADEME : relever, télécharger, dater",
+      "voice": "Sur l'observatoire de l'ADEME : tu relèves le numéro du DPE, treize caractères en haut de la première page. Tu télécharges l'attestation actualisée, sans nouvelle visite. Classe E, valable jusqu'au treize mars 2033.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "ADEME, observatoire DPE-Audit : attestation actualisée gratuite pour les DPE établis depuis le 1/07/2021, valable jusqu'à la fin du DPE d'origine ; fil rouge D03 (BIBLE.md, § 3) — parcours à vérifier le jour du tournage",
+      "tool": "Attestation actualisée ADEME",
+      "steps": [
+        "Relever le numéro ADEME : 13 caractères en haut du DPE",
+        "Ouvrir l'observatoire DPE-Audit de l'ADEME",
+        "Télécharger l'attestation actualisée : classe E",
+        "Noter la validité : jusqu'au 13/03/2033"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "Promesse : vérifier, écrire, renvoyer, refuser",
+      "voice": "Puis ta fiche rôle et limites. Première phrase : je vérifie l'étiquette, preuve à l'appui. Deuxième : je remets par écrit la valeur, les devis et le mandat. Troisième : je renvoie au notaire, à l'expert-comptable, au diagnostiqueur. Et tu notes ce que tu refuses.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource de la capsule 1.11 (fiche rôle et limites ; déontologie et obligations de l'agent, loi Hoguet, à sourcer) ; limites du métier : cahier des charges Éco-Propriété v4",
+      "tool": "Ta fiche rôle et limites",
+      "steps": [
+        "Je vérifie : l'étiquette en vigueur, preuve à l'appui",
+        "J'écris : valeur, devis et mandat avant toute mission",
+        "Je renvoie : notaire, expert-comptable, diagnostiqueur",
+        "Je refuse : prix garanti, commission, choix de l'artisan"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Écris ta promesse maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "Exercice de la capsule 1.11 : écrire sa promesse en 3 phrases (pas d'outil en ligne officiel)",
+      "cta": "Écrire ma promesse en 3 phrases",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta promesse en trois phrases.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une photo de ta promesse en trois phrases (je vérifie, je remets par écrit, je renvoie), avec sa version pour M. Bernard.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Dis-la d'abord à voix haute, en vingt secondes, puis reviens la déposer."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Ta promesse dit ce que tu fais et ce que tu ne fais pas. Celle de Mozi annonçait moins quinze pour cent, sans avoir lu une page.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta promesse : 3 phrases, des limites claires. Celle de Mozi : −15 %, 0 page lue.",
+      "source": "Fait observable dans le livrable de l'apprenant ; fil rouge fictif (BIBLE.md, § 1) : « −15 % à cause du DPE » annoncé sans source"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "label": "Service-Public — Diagnostic de performance énergétique (DPE), F16096",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+    },
+    {
+      "label": "Légifrance — Arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027 (rappel du 1,9 au 1/01/2026, arrêté du 13/08/2025)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "INC — L'obligation de réaliser un audit énergétique lors de la vente de certaines maisons",
+      "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons"
+    },
+    {
+      "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (loi Hoguet), article 6 (mandat écrit, rémunération)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032043077"
+    },
+    {
+      "label": "Légifrance — Décret n° 2015-1090 du 28 août 2015 fixant les règles du code de déontologie des professionnels de l'immobilier",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031101997"
+    },
+    {
+      "label": "Eurojuris — Agents immobiliers : code de déontologie (transparence, conflits d'intérêts, compétence)",
+      "url": "https://www.eurojuris.fr/articles/agents-immobiliers-code-deontologie-35813.htm"
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier",
+    "Recentrage v4 : le chapitre passe de « vérifier avant de chiffrer » à la promesse (ce que je fais, ce que je ne fais pas) ; le calcul détaillé de la valeur verte (15 200 € d'écart local, D12 et D13) relève désormais de la capsule 1.2, sans chapitre. Écrans 3 à 6 et carte 1 du quiz gardés",
+    "Écrans 7, 9 (carte 2) et 12 : numéro de l'article du code de déontologie (décret n° 2015-1090) sur les conflits d'intérêts non vérifié sur Légifrance (page non lisible automatiquement) ; à faire relire par un juriste avec la fiche « rôle et limites » (loi Hoguet, à sourcer)",
+    "Écran 8 : la réponse modèle renvoie le vendeur vers des artisans qualifiés sans en nommer ; l'annuaire à indiquer (France Rénov', RGE) est à préciser dans la ressource",
+    "Écran 5 : formulation « le −15 % n'a aucune source » à valider (on vise la rumeur d'une décote nationale unique, pas l'étude des Notaires)",
+    "Écran 9, carte 1 : règle sur la décote forfaitaire gardée de l'ancien chapitre 1.2 ; elle illustre « je ne promets pas de chiffre sans preuve »",
+    "Écran 11 : parcours exact sur l'observatoire DPE-Audit à vérifier le jour du tournage",
+    "Non repris faute de place : l'absence d'audit obligatoire pour un lot de copropriété ; le passage à 1,7 au 1/01/2027 (255, toujours E)"
+  ]
+}

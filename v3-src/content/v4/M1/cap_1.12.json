@@ -1,0 +1,217 @@
+{
+  "id": "1.12",
+  "module": 1,
+  "section": "F · Je crée ma promesse et mon pitch",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Prendre des mandats autrement",
+  "objective": "Choisir 2 techniques de prise de mandat adaptées à sa zone et à sa cible, et planifier leur test sur un mois avec un indicateur chacune",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Le vendeur de 2026 compare, vérifie et ne décroche plus aux numéros inconnus. Sébastien Paumier présente huit techniques de prise de mandat qui répondent à ces changements, du contact consenti à l'exclusivité contre services écrits, puis montre comment en choisir deux et les mesurer sur un mois."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "M. Bernard ne décroche plus aux numéros inconnus, mais il a coché sur ton site qu'il acceptait d'être recontacté au sujet de son DPE. Quelle technique utilises-tu ?",
+        "options": [
+          "L'appeler dix fois jusqu'à ce qu'il décroche",
+          "Lui écrire un message qui rappelle sa demande et propose deux créneaux précis",
+          "Passer sonner chez lui sans prévenir"
+        ],
+        "answer": 1,
+        "whys": [
+          "Interdit et contre-productif : au-delà de 4 sollicitations téléphoniques en 30 jours, tu enfreins la règle, et tu perds un vendeur qui déteste l'insistance.",
+          "Juste : c'est le contact consenti. Tu restes dans l'objet de sa demande, sur un canal qu'il accepte, avec une proposition concrète.",
+          "Il n'a rien demandé de tel ; pour un vendeur prudent et factuel, c'est l'inverse de la confiance."
+        ],
+        "fb_title": "Le contact consenti, dans l'objet de la demande",
+        "fb_text": "Son accord porte sur un objet précis (son DPE et l'estimation de son bien) et un professionnel précis (ton agence). Tu y restes : un message écrit, le rappel de sa demande, deux créneaux. C'est plus efficace et c'est conforme."
+      },
+      {
+        "question": "Un vendeur hésite à signer une exclusivité. Quelle contrepartie la rend acceptable pour lui ?",
+        "options": [
+          "Une baisse d'honoraires de 1 % sans autre engagement",
+          "La promesse d'un acquéreur « déjà trouvé »",
+          "Des services écrits : compte rendu toutes les 2 semaines, chiffrage des travaux remis aux acquéreurs, plan de vente daté"
+        ],
+        "answer": 2,
+        "whys": [
+          "La remise seule ne dit rien de ce que tu feras de plus ; le vendeur reste sans visibilité sur ton travail.",
+          "Argument invérifiable et souvent faux : s'il est démenti, tu perds le vendeur et ta crédibilité.",
+          "Juste : l'exclusivité s'échange contre des engagements écrits et vérifiables, repris dans l'offre et le mandat."
+        ],
+        "fb_title": "L'exclusivité contre des services écrits",
+        "fb_text": "Dans le dossier fil rouge, M. Bernard signe un mandat exclusif de 3 mois parce que l'agent s'engage par écrit : attestation jointe, dossier technique, plan Éco-staging, compte rendu toutes les 2 semaines, chiffrage des travaux remis aux acquéreurs."
+      },
+      {
+        "question": "Tu testes la technique « prescripteurs » (notaires, syndics, courtiers) pendant un mois. Quel indicateur choisis-tu ?",
+        "options": [
+          "Le nombre de rendez-vous vendeurs obtenus par recommandation d'un prescripteur",
+          "Le nombre de cartes de visite distribuées",
+          "Le nombre d'abonnés gagnés sur LinkedIn"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : l'indicateur mesure le résultat attendu de la technique, un rendez-vous avec un vendeur.",
+          "C'est une activité, pas un résultat : tu peux distribuer 200 cartes sans obtenir un seul rendez-vous.",
+          "Utile pour la visibilité, mais un abonné n'est pas un vendeur : l'indicateur ne dit rien de la technique testée."
+        ],
+        "fb_title": "Un indicateur de résultat par technique",
+        "fb_text": "Une technique se juge sur ce qu'elle produit : réponses, rendez-vous, mandats. Choisis un indicateur de résultat, fixe-le avant le test et relève-le chaque semaine. Au bout d'un mois, tu gardes, tu ajustes ou tu abandonnes."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche techniques de prise de mandat",
+    "kind": "fiche",
+    "intro": "Huit techniques de prise de mandat qui répondent au marché de 2026 : un vendeur qui compare les agences, un DPE qui a changé de calcul, et un téléphone qui ne s'utilise plus sans consentement préalable depuis le 11 août 2026. Choisis-en deux, teste-les un mois, mesure.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les 8 techniques",
+        "headers": [
+          "Technique",
+          "Ce que tu fais",
+          "Ce que ça demande",
+          "Indicateur"
+        ],
+        "rows": [
+          [
+            "Contact consenti",
+            "Tu ne contactes que des propriétaires qui l'ont accepté (formulaire, rencontre, recommandation)",
+            "Un formulaire avec case de consentement, un tableau de preuves",
+            "Réponses / contacts"
+          ],
+          [
+            "Vérification du DPE",
+            "Tu proposes de vérifier l'étiquette en vigueur et l'attestation actualisée",
+            "Savoir lire un DPE (capsule 1.1)",
+            "Rendez-vous obtenus"
+          ],
+          [
+            "Avis de valeur écrit",
+            "Tu remets un avis fondé sur les ventes réelles (DVF) et des devis",
+            "Un modèle d'avis, l'accès aux données de ventes",
+            "Avis remis / mandats"
+          ],
+          [
+            "Plan de vente daté",
+            "Tu présentes les étapes et les dates de la commercialisation",
+            "Un rétroplanning type",
+            "Mandats signés"
+          ],
+          [
+            "Exclusivité contre services",
+            "Tu échanges l'exclusivité contre des engagements écrits",
+            "Une offre de service (capsule 1.13)",
+            "Part d'exclusifs"
+          ],
+          [
+            "Prescripteurs",
+            "Notaires, syndics, courtiers, diagnostiqueurs te recommandent",
+            "Rencontres, preuves de sérieux, retour systématique",
+            "Rendez-vous recommandés"
+          ],
+          [
+            "Réunion d'information",
+            "Une soirée « DPE et vente » ouverte aux propriétaires du quartier",
+            "Une salle, une invitation, un support sourcé",
+            "Participants / rendez-vous"
+          ],
+          [
+            "Suivi des « pas maintenant »",
+            "Tu gardes le lien avec les vendeurs qui reportent, dans la limite de leur accord",
+            "Un tableau de suivi, un message tous les 2 à 3 mois",
+            "Projets réactivés"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Choisir tes 2 techniques",
+        "items": [
+          "Pars de ta cible (capsule 1.7) : où la rencontres-tu, que vérifie-t-elle avant de choisir une agence ?",
+          "Élimine les techniques que tu ne peux pas tenir chaque semaine.",
+          "Garde une technique « directe » (contact consenti, réunion, vérification du DPE) et une technique « relais » (prescripteurs, suivi des « pas maintenant »).",
+          "Fixe un indicateur de résultat et un objectif chiffré pour le mois.",
+          "Bloque les créneaux dans ton agenda dès aujourd'hui."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Phrases utiles",
+        "items": [
+          "« Vous avez demandé à être recontacté au sujet de votre DPE : je vous propose mardi 18 h ou jeudi 10 h, 45 minutes chez vous. »",
+          "« Je ne retire pas un pourcentage : je pars des ventes réelles de votre rue et je vous remets l'avis par écrit. »",
+          "« L'exclusivité, je vous la demande en échange de ces engagements écrits, ligne par ligne. »"
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Ce que tu ne fais plus",
+        "items": [
+          "Appeler un numéro relevé sur une annonce de particulier sans son consentement préalable (interdit depuis le 11/08/2026).",
+          "Promettre le prix le plus haut pour décrocher le mandat.",
+          "Annoncer une décote « à cause du DPE » sans source ni vérification de l'étiquette.",
+          "Demander l'exclusivité sans contrepartie écrite."
+        ]
+      }
+    ],
+    "footer": "Sources : DGCCRF, règles du démarchage téléphonique (loi n° 2025-594 du 30/06/2025, décret n° 2026-662 du 23/07/2026, 27/07/2026) ; DGFiP, Demandes de valeurs foncières (DVF) ; enquête leboncoin Immo auprès de 419 professionnels (2025, déclaratif). Techniques : proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Deux techniques à tester ce mois-ci",
+    "duration_min": 20,
+    "context": "Tu repars de ta zone et de ta cible (capsules 1.4 à 1.10). Tu choisis deux techniques de la fiche que tu peux réellement tenir ce mois-ci, tu fixes un indicateur et un objectif pour chacune, et tu les inscris dans ton agenda.",
+    "materials": [
+      "Fiche techniques de prise de mandat (ressource)",
+      "Ta fiche cible (capsule 1.7) et tes offres ciblées (capsule 1.10)",
+      "Ton agenda des 4 prochaines semaines"
+    ],
+    "steps": [
+      "Note les 3 lieux ou canaux où ta cible se renseigne avant de choisir une agence.",
+      "Choisis une technique directe et une technique relais ; écris en une phrase pourquoi chacune convient à ta cible.",
+      "Pour chaque technique, fixe un indicateur de résultat et un objectif chiffré sur un mois.",
+      "Inscris les créneaux dans ton agenda (au moins un par semaine et par technique).",
+      "Prévois la date du bilan (J+30) et ce que tu décideras selon le résultat : garder, ajuster, abandonner."
+    ],
+    "expected": "Exemple attendu (agent à Melun, cible : propriétaires d'appartements en copropriété des années 1960-1980). Technique directe : vérification du DPE proposée aux contacts consentis du formulaire du site ; indicateur : rendez-vous obtenus ; objectif : 4 sur le mois ; créneaux : mardis 17 h-19 h. Technique relais : prescripteurs, rencontre de 2 syndics et 1 notaire avec une fiche « ce que le DPE change pour vos copropriétaires vendeurs » ; indicateur : rendez-vous vendeurs recommandés ; objectif : 2. Bilan le 28/11 : si moins de 2 rendez-vous, changer l'accroche ou le canal avant d'abandonner."
+  },
+  "deliverable": {
+    "title": "Mon plan de test de 2 techniques",
+    "format": "Tableau d'une page (PDF, DOCX ou tableur) : technique, raison, actions, créneaux, indicateur, objectif, date de bilan",
+    "criteria": [
+      "2 techniques choisies, dont une directe et une relais, justifiées par la cible",
+      "Un indicateur de résultat par technique (réponses, rendez-vous ou mandats), pas un indicateur d'activité",
+      "Un objectif chiffré sur un mois pour chaque technique",
+      "Au moins un créneau par semaine et par technique inscrit dans l'agenda",
+      "Aucune action de démarchage téléphonique sans consentement préalable"
+    ]
+  },
+  "sources": [
+    {
+      "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises"
+    },
+    {
+      "label": "DGFiP / Etalab — Demandes de valeurs foncières (DVF), application de consultation",
+      "url": "https://app.dvf.etalab.gouv.fr/"
+    },
+    {
+      "label": "MySweetImmo — Enquête leboncoin Immo auprès de 419 professionnels (6/11/2025, déclaratif)",
+      "url": "https://www.mysweetimmo.com/2025/11/06/immobilier-les-biens-vendus-en-exclusivite-partent-51-jours-plus-vite-quen-mandat-simple/"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — techniques de prise de mandat",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier la liste des 8 techniques et l'ordre de présentation.",
+    "à vérifier : couverture et délai de mise à jour de DVF pour la zone de chaque apprenant (certaines zones ne sont pas couvertes, notamment l'Alsace-Moselle)."
+  ]
+}

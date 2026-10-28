@@ -1,0 +1,169 @@
+{
+  "id": "2.37",
+  "module": 2,
+  "section": "M · PARCOURS APPARTEMENT · Sa valeur vénale : comparaison, capitalisation, réconciliation",
+  "etape": "4 (Éco-staging)",
+  "parcours": "appartement",
+  "prio": false,
+  "ia": false,
+  "title": "Appartement : le tableau des mutations et la médiane au m²",
+  "objective": "Dresser le tableau de 10 mutations d'appartements comparables au bien de M. Bernard, calculer le prix au m² de chacune, puis la médiane et la moyenne, et expliquer l'écart entre les deux",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier ouvre le tableau D12 : 10 ventes d'appartements autour de la résidence Les Tilleuls, à Melun. Il calcule le prix au m² ligne par ligne, puis montre qu'une seule vente atypique (un rez-de-chaussée classé G vendu 2 000 €/m²) fait baisser la moyenne, alors que la médiane ne bouge presque pas."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Claire relève une vente : T4 de 80 m² vendu 212 000 € en juin 2026. Quel prix au m² note-t-elle dans le tableau ?",
+        "options": [
+          "2 120 €/m²",
+          "2 650 €/m²",
+          "2 790 €/m²"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : c'est une erreur de virgule ; 212 000 / 80 ne donne pas 2 120.",
+          "Juste : 212 000 / 80 = 2 650 €/m². Toujours le prix divisé par la surface de la vente.",
+          "Faux : ce chiffre ne correspond à aucun calcul sur cette vente."
+        ],
+        "fb_title": "Prix ÷ surface, ligne par ligne",
+        "fb_text": "Chaque ligne du tableau se ramène au m² : prix de vente divisé par la surface. 212 000 / 80 = 2 650 €/m². C'est ce chiffre, et non le prix global, que tu compares au bien de M. Bernard."
+      },
+      {
+        "question": "Sur les 10 ventes, la moyenne est de 2 646 €/m² et la médiane de 2 670 €/m². Pourquoi la moyenne est-elle plus basse ?",
+        "options": [
+          "Une vente atypique très basse (2 000 €/m²) tire la moyenne vers le bas",
+          "La médiane arrondit toujours au-dessus",
+          "Les ventes rénovées font baisser la moyenne"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : le rez-de-chaussée classé G à 2 000 €/m² pèse sur la moyenne, pas sur la médiane.",
+          "Faux : la médiane n'arrondit rien ; c'est la valeur du milieu de la série classée.",
+          "Faux : les ventes rénovées (2 820 à 2 880 €/m²) tirent au contraire les chiffres vers le haut."
+        ],
+        "fb_title": "La médiane résiste aux extrêmes",
+        "fb_text": "La moyenne additionne tout, y compris la vente atypique à 2 000 €/m². La médiane prend la valeur du milieu : avec 10 ventes, la moyenne des 5e et 6e (2 650 et 2 690), soit 2 670 €/m². C'est pour cela qu'on la préfère pour estimer."
+      },
+      {
+        "question": "Mozi propose : « Prends les 3 annonces du moment, c'est plus récent que DVF. » Que réponds-tu ?",
+        "options": [
+          "Il a raison, les annonces sont plus à jour que les ventes",
+          "On mélange annonces et ventes dans la même médiane",
+          "Le tableau des mutations ne contient que des ventes signées ; les annonces se notent à part"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : une annonce est un prix demandé, pas un prix obtenu ; elle n'est pas une référence de valeur.",
+          "Faux : le mélange gonfle la médiane, car les annonces sont avant négociation.",
+          "Juste : les mutations (DVF, références notariales) donnent les prix réellement payés ; les annonces servent au retraitement (2.38)."
+        ],
+        "fb_title": "Une vente, pas une annonce",
+        "fb_text": "Le tableau des mutations ne contient que des ventes réellement signées, avec leur date. Les annonces disent ce que les vendeurs espèrent : tu les gardes dans un onglet à part, pour mesurer la marge de négociation en capsule 2.38."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableur des mutations d'appartements : prix au m², médiane, moyenne, nuage de points",
+    "kind": "tableur",
+    "intro": "Ce tableur range 10 ventes d'appartements comparables, calcule le prix au m² de chacune, la médiane et la moyenne, et trace un nuage de points (surface en abscisse, prix au m² en ordonnée). L'exemple rempli est celui de l'appartement de M. Bernard : T4 de 76 m², 4e étage avec ascenseur, immeuble de 1972 à Melun. Toutes les ventes sont FICTIVES, inspirées de données DVF : à remplacer par tes ventes réelles.",
+    "sections": [
+      {
+        "type": "formula",
+        "heading": "Les trois formules",
+        "text": "Prix au m² d'une vente = prix de vente / surface habitable (ou Carrez). Médiane = valeur du milieu de la série classée du plus bas au plus haut ; avec un nombre pair de ventes, moyenne des deux valeurs du milieu. Moyenne = somme des prix au m² / nombre de ventes. Dans le tableur : =MEDIANE(F2:F11) et =MOYENNE(F2:F11)."
+      },
+      {
+        "type": "table",
+        "heading": "Tableau D12 : 10 mutations d'appartements (exemple FICTIF, secteur Melun, 2025-2026)",
+        "headers": ["Réf.", "Bien (pièces, surface, époque, étage)", "DPE · état", "Date", "Prix", "€/m²"],
+        "rows": [
+          ["M1", "T4 78 m², 1972, 4e asc.", "E · en l'état", "03/2026", "204 360 €", "2 620"],
+          ["M2", "T3 68 m², 1968, 2e sans asc.", "D · en l'état", "11/2025", "183 600 €", "2 700"],
+          ["M3", "T4 80 m², 1975, 5e asc.", "E · en l'état", "06/2026", "212 000 €", "2 650"],
+          ["M4", "T4 74 m², 1970, 1er sans asc.", "E · en l'état", "01/2026", "192 400 €", "2 600"],
+          ["M5", "T3 70 m², 1978, 3e asc.", "D · en l'état", "09/2025", "188 300 €", "2 690"],
+          ["M6", "T4 75 m², 1971, immeuble ITE 2022", "C · rénové", "02/2026", "216 000 €", "2 880"],
+          ["M7", "T3 66 m², 1969, rénové 2024", "D · rénové", "10/2025", "186 120 €", "2 820"],
+          ["M8", "T4 79 m², 1974, immeuble ITE 2021", "C · rénové", "05/2026", "225 150 €", "2 850"],
+          ["M9", "T4 77 m², 1972, 2e asc., résidence Les Tilleuls", "F (DPE 2023) · à rafraîchir", "04/2026", "204 050 €", "2 650"],
+          ["M10", "T4 72 m², 1966, rez-de-chaussée", "G · gros travaux", "12/2025", "144 000 €", "2 000"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Résultat sur les 10 ventes",
+        "headers": ["Indicateur", "Valeur", "Calcul"],
+        "rows": [
+          ["Série classée", "2 000 · 2 600 · 2 620 · 2 650 · 2 650 · 2 690 · 2 700 · 2 820 · 2 850 · 2 880", "Du plus bas au plus haut"],
+          ["Médiane", "2 670 €/m²", "(2 650 + 2 690) / 2"],
+          ["Moyenne", "2 646 €/m²", "26 460 / 10"],
+          ["Moyenne sans M10", "2 718 €/m²", "24 460 / 9"],
+          ["Écart médiane − moyenne", "24 €/m², soit ≈ 1 824 € sur 76 m²", "Effet de la vente atypique M10"]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Méthode en 5 étapes",
+        "items": [
+          "Extrais les ventes de DVF (app.dvf.etalab.gouv.fr) ou des références notariales : même secteur, appartements de 3 à 4 pièces, immeubles de 1965 à 1980, ventes de moins de 24 mois.",
+          "Pour chaque vente, note la surface, l'étage, l'ascenseur, l'époque, le DPE et l'état ; ce que DVF ne donne pas (DPE, état), complète-le par l'annonce archivée ou le confrère, et écris « non connu » sinon.",
+          "Calcule le prix au m² de chaque ligne, puis la médiane et la moyenne.",
+          "Trace le nuage de points : une vente isolée loin des autres est une vente atypique à expliquer (état, étage, vente familiale), jamais à supprimer sans le dire.",
+          "Écris une phrase de lecture : « Médiane 2 670 €/m² sur 10 ventes ; moyenne 2 646 €/m², tirée par une vente atypique. »"
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire à M. Bernard",
+        "text": "« Je suis parti de 10 ventes réelles autour de chez vous, avec leur date. Le prix du milieu est de 2 670 € le m². Je n'ai pas pris la moyenne, parce qu'une seule vente très dégradée la fait baisser. À l'étape suivante, je sépare les biens à rénover des biens rénovés, pour comparer ce qui est comparable. »"
+      }
+    ],
+    "footer": "Sources : DVF, Demandes de valeurs foncières (data.gouv.fr, Etalab) ; Charte de l'expertise en évaluation immobilière (méthode par comparaison). Ventes M1 à M10 FICTIVES (dossier fil rouge D12), inspirées de données DVF. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Le tableau des 10 mutations de M. Bernard",
+    "duration_min": 30,
+    "context": "M. Bernard veut comprendre d'où vient ton prix au m². Tu as extrait 10 ventes d'appartements du secteur (D12). Tu construis le tableau, tu calcules le prix au m² de chaque vente, la médiane et la moyenne, et tu expliques l'écart en une phrase qu'il peut vérifier.",
+    "materials": [
+      "D12 Tableau des comparables (fictifs)",
+      "D04 Plan et descriptif de l'appartement",
+      "D03 Attestation actualisée ADEME (classe E)",
+      "Tableur des mutations (ressource de la capsule)"
+    ],
+    "steps": [
+      "Recopie les 10 ventes de D12 dans le tableur : prix, surface, étage, époque, DPE, état, date.",
+      "Calcule le prix au m² de chaque vente, arrondi à l'euro.",
+      "Classe la série du plus bas au plus haut, puis calcule la médiane et la moyenne.",
+      "Trace le nuage de points et repère la vente atypique ; écris pourquoi elle l'est.",
+      "Recalcule la moyenne sans cette vente et compare les trois chiffres.",
+      "Rédige deux phrases pour M. Bernard : le chiffre retenu à ce stade et pourquoi."
+    ],
+    "expected": "Prix au m² : M1 2 620 ; M2 2 700 ; M3 2 650 ; M4 2 600 ; M5 2 690 ; M6 2 880 ; M7 2 820 ; M8 2 850 ; M9 2 650 ; M10 2 000. Série classée : 2 000, 2 600, 2 620, 2 650, 2 650, 2 690, 2 700, 2 820, 2 850, 2 880. Médiane = (2 650 + 2 690) / 2 = 2 670 €/m². Moyenne = 26 460 / 10 = 2 646 €/m². Sans M10 : 24 460 / 9 ≈ 2 718 €/m². Vente atypique : M10 (rez-de-chaussée, classe G, gros travaux, 1966). Lecture : la médiane résiste à M10, la moyenne non ; mais la médiane des 10 ventes mélange encore biens à rénover et biens rénovés, d'où le retraitement en capsule 2.38 (médiane du groupe en l'état : 2 650 €/m²). Phrase type : « Le prix du milieu des 10 ventes est 2 670 €/m² ; la moyenne, 2 646 €/m², est tirée vers le bas par une vente très dégradée. »",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Tableau des 10 mutations et calcul de la médiane au m²",
+    "format": "Tableur (XLSX ou Google Sheets) + capture du nuage de points",
+    "criteria": [
+      "Les 10 ventes sont saisies avec prix, surface, étage, époque, DPE, état et date",
+      "Chaque prix au m² est juste (prix / surface)",
+      "La médiane (2 670 €/m²) et la moyenne (2 646 €/m²) sont calculées par formule",
+      "La vente atypique est identifiée et expliquée, sans être supprimée en silence",
+      "Le tableau porte la mention « ventes fictives, exemple » (ou la source DVF et la date d'extraction pour des ventes réelles)"
+    ]
+  },
+  "sources": [
+    { "label": "DVF, Demandes de valeurs foncières (data.gouv.fr) : ventes des 5 dernières années, mises à jour semestrielles, hors Alsace-Moselle et Mayotte", "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres" },
+    { "label": "Application DVF d'Etalab (consultation des mutations par parcelle)", "url": "https://app.dvf.etalab.gouv.fr" },
+    { "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : méthode par comparaison ; à vérifier : lien officiel de la 6e édition", "url": "https://charteexpertiseimmo.org" },
+    { "label": "Proposition pédagogique Éco-Propriété : tableau D12 de 10 mutations FICTIVES cohérentes avec la Bible du fil rouge §5" }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier le tableau D12 à 10 ventes (M1 à M8 reprennent C1-C5 et R1-R3 de l'ancienne capsule 2.10 ; M9 et M10 sont ajoutées) et le mettre à jour dans le dossier fil rouge.",
+    "À vérifier : lien officiel de la 6e édition de la Charte de l'expertise en évaluation immobilière (novembre 2025).",
+    "Préciser si le tableur fourni contient déjà le nuage de points ou si l'apprenant le trace lui-même."
+  ]
+}

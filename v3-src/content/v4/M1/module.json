@@ -1,0 +1,111 @@
+{
+ "id": 1,
+ "title": "Se différencier pour attirer les propriétaires",
+ "color": "rouge",
+ "entry": "Se positionner et devenir visible localement",
+ "exit": "Positionnement + plan de visibilité 30 jours + offre de découverte + séquence de prospection",
+ "capsules": [
+  "1.1",
+  "1.2",
+  "1.3",
+  "1.4",
+  "1.5",
+  "1.6",
+  "1.7",
+  "1.8",
+  "1.9",
+  "1.10",
+  "1.11",
+  "1.12",
+  "1.13",
+  "1.14",
+  "1.15",
+  "1.16",
+  "1.17",
+  "1.18",
+  "1.19",
+  "1.20",
+  "1.21",
+  "1.22"
+ ],
+ "case": {
+  "title": "Positionnement, visibilité et prospection",
+  "duration_min": 120,
+  "brief": "Construire son positionnement (zone, cible, spécialité, promesse), son plan de visibilité web et physique sur 30 jours, son offre de découverte et sa séquence de prospection pour obtenir des rendez-vous avec les propriétaires de son secteur.",
+  "documents": [
+   "D02 DPE du 14/03/2023 (synthèse)",
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D04 Plan et descriptif de l'appartement",
+   "D06 Appels de charges et budget prévisionnel 2026",
+   "D07 PV d'AG du 12/06/2025 (extraits)",
+   "D10 Fiche synthétique de la copropriété",
+   "D12 Tableau des comparables (fictifs)",
+   "D13 Devis des travaux privatifs",
+   "D18 Modèle de mandat exclusif"
+  ],
+  "tasks": [
+   "Diagnostic de départ : captures de ta fiche Google, de ta page Facebook et de ton profil LinkedIn ; note pour chacun 3 points faibles (comme Karim) et les statistiques du jour (vues, appels, abonnés, relations).",
+   "Positionnement : ta promesse d'éco-consultant en 3 phrases (capsule 1.2), reprise à l'identique dans la description Google, la section À propos de Facebook et la section Infos LinkedIn.",
+   "Google Business Profile : fiche mise en conformité (nom réel, catégorie, adresse ou zone desservie, description de 750 caractères max), 4 posts planifiés sur 30 jours, demande d'avis envoyée à tous tes clients récents.",
+   "Facebook : calendrier de 4 semaines (3 publications par semaine selon les 4 piliers, 1 action utile par semaine dans un groupe local) programmé dans Meta Business Suite, et une campagne test locale en catégorie Logement avec formulaire de consentement conforme.",
+   "LinkedIn : titre et section Infos réécrits, 3 recommandations demandées, 2 posts sur 30 jours, 10 invitations personnalisées à des prescripteurs (notaires, courtiers, diagnostiqueurs, artisans RGE, syndics).",
+   "Contenus avec l'IA : au moins 2 contenus du plan produits avec un prompt en 5 briques, chacun accompagné de son tableau de vérification (chiffre, source officielle, verdict).",
+   "Offre et pitch : offre de service d'une page (6 rubriques, honoraires identiques au mandat D18) et pitch d'une minute pour M. Bernard, enregistré.",
+   "Tableau de bord : indicateurs à suivre à J+30 (vues de la fiche, recherches « DPE » ou « estimation », demandes reçues, consentements enregistrés, avis obtenus, invitations acceptées) avec leur valeur de départ et ton objectif."
+  ],
+  "deliverable": "Un dossier PDF de 8 à 12 pages : diagnostic avant (captures), promesse en 3 phrases, calendrier 30 jours (Google, Facebook, LinkedIn) sous forme de tableau daté, captures des contenus publiés ou programmés, paramétrage de la campagne et texte du formulaire, 2 tableaux de vérification IA, offre de service d'une page, lien ou fichier du pitch enregistré, tableau de bord J+30.",
+  "criteria": [
+   {
+    "label": "Diagnostic de départ",
+    "points": 2,
+    "expected": "Captures des 3 canaux avec 3 points faibles chacun et des statistiques de départ chiffrées."
+   },
+   {
+    "label": "Promesse cohérente sur les 3 canaux",
+    "points": 2,
+    "expected": "La même promesse en 3 phrases (je vérifie / je construis la valeur / je remets par écrit) apparaît sur Google, Facebook et LinkedIn, sans promesse de prix, de classe ou de délai."
+   },
+   {
+    "label": "Fiche Google conforme",
+    "points": 3,
+    "expected": "Nom réel sans mot-clé, adresse ou zone desservie conforme, description de 750 caractères max sans lien ni promo, 4 posts datés, même demande d'avis envoyée à tous les clients sans contrepartie."
+   },
+   {
+    "label": "Calendrier Facebook et groupes",
+    "points": 3,
+    "expected": "12 publications datées sur 4 semaines couvrant au moins 3 piliers, 4 actions dans des groupes locaux sans message privé non sollicité, publications programmées (captures)."
+   },
+   {
+    "label": "Campagne locale conforme",
+    "points": 3,
+    "expected": "Catégorie Logement, ciblage par zone sans âge ni code postal, objectif Prospects ou Trafic, budget test défini, formulaire avec lien de confidentialité et case non cochée nommant l'agence, l'objet et la durée (12 mois max)."
+   },
+   {
+    "label": "Profil LinkedIn d'expert",
+    "points": 2,
+    "expected": "Titre où/quoi/pour qui, Infos en 4 paragraphes, 3 recommandations demandées, 2 posts datés, 10 invitations personnalisées, aucune automatisation."
+   },
+   {
+    "label": "Exactitude des contenus et usage de l'IA",
+    "points": 3,
+    "expected": "Calculs fil rouge justes (345 F → 285 E), chaque chiffre sourcé et daté, exemples signalés comme fictifs, 2 tableaux de vérification complets, aucune donnée personnelle dans les prompts."
+   },
+   {
+    "label": "Offre de service",
+    "points": 3,
+    "expected": "6 rubriques ; honoraires TTC et partie qui les paie identiques au mandat ; cadre Hoguet exact (mandat écrit, registre, exclusivité très apparente, 3 mois + 15 jours, 14 jours de rétractation hors établissement) ; limites explicites."
+   },
+   {
+    "label": "Pitch d'une minute",
+    "points": 2,
+    "expected": "60 secondes ou moins, 5 temps, accroche sur la situation de M. Bernard, méthode avec l'attestation E et les comparables, appel à l'action unique, daté et réversible."
+   },
+   {
+    "label": "Tableau de bord J+30",
+    "points": 1,
+    "expected": "Au moins 5 indicateurs avec valeur de départ, objectif à J+30 et date de mesure."
+   }
+  ]
+ },
+ "reminders": "auto"
+}

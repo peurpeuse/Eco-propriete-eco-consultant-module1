@@ -1,0 +1,161 @@
+{
+  "id": "2.38",
+  "module": 2,
+  "section": "M · PARCOURS APPARTEMENT · Sa valeur vénale : comparaison, capitalisation, réconciliation",
+  "etape": "4 (Éco-staging)",
+  "parcours": "appartement",
+  "prio": false,
+  "ia": false,
+  "title": "Appartement : retraiter les références et valoriser",
+  "objective": "Retraiter les 10 mutations du tableau D12 (groupes d'état, vente de la résidence, annonces avant négociation, corrections) et arrêter un prix au m² arrondi et justifié pour l'appartement de M. Bernard",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier reprend les 10 ventes de la capsule 2.37 et les trie : il écarte la vente atypique, sépare les biens à rénover des biens rénovés, met en avant la vente de la résidence Les Tilleuls et range les annonces à part. La médiane du bon groupe donne 2 650 €/m², soit 201 400 € de base pour les 76 m² de M. Bernard."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Karim veut garder dans sa médiane la vente M10 (rez-de-chaussée, classe G, gros travaux, 2 000 €/m²). Que lui conseilles-tu ?",
+        "options": [
+          "La garder : plus il y a de ventes, plus la médiane est juste",
+          "L'écarter du groupe de référence et écrire pourquoi dans le dossier",
+          "La remplacer par une annonce récente"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : une vente non comparable (état, étage, classe G) brouille la référence au lieu de la renforcer.",
+          "Juste : on écarte une vente atypique, mais on le dit et on donne la raison ; c'est vérifiable.",
+          "Faux : une annonce n'est pas une vente ; elle ne remplace jamais une mutation."
+        ],
+        "fb_title": "Écarter, oui ; cacher, non",
+        "fb_text": "M10 n'est pas comparable au bien de M. Bernard (4e avec ascenseur, classe E, bon état général). Tu l'écartes du groupe de référence, et tu écris dans le dossier : « M10 écartée : rez-de-chaussée, classe G, gros travaux »."
+      },
+      {
+        "question": "Trois annonces de T3-T4 en l'état sont affichées autour de 2 850 €/m². Les ventes en l'état se sont faites à 2 650 €/m² (médiane). Comment utilises-tu les annonces ?",
+        "options": [
+          "Comme prix de référence, car elles sont plus récentes",
+          "En faisant la moyenne entre annonces et ventes",
+          "Comme repère du prix demandé : l'écart (≈ 7 %) mesure une marge de négociation indicative"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : un prix affiché n'est pas un prix obtenu ; le prendre gonfle l'estimation.",
+          "Faux : on ne mélange pas deux natures de prix dans un même calcul.",
+          "Juste : (2 848 − 2 650) / 2 848 ≈ 7 % ; c'est un repère local, à dater, pas une règle."
+        ],
+        "fb_title": "L'annonce mesure l'espoir, la vente mesure la valeur",
+        "fb_text": "Les annonces disent ce que les vendeurs demandent. Comparées aux ventes du même type, elles donnent une marge de négociation indicative (ici ≈ 7 % sur l'exemple fictif). Elles servent à argumenter un prix de présentation, pas à fixer la valeur."
+      },
+      {
+        "question": "Dans le groupe en l'état, le 4e avec ascenseur (M1, 2 620 €/m²) et le 1er sans ascenseur (M4, 2 600 €/m²) sont presque au même prix. Quelle correction d'étage appliques-tu pour M. Bernard ?",
+        "options": [
+          "Aucune chiffrée : l'échantillon ne montre pas d'écart net ; tu le notes comme un atout qualitatif",
+          "+10 % pour l'étage, c'est la règle",
+          "+5 000 € par étage au-dessus du rez-de-chaussée"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : une correction se prouve par le marché local ; ici, les ventes ne la montrent pas, donc tu ne l'inventes pas.",
+          "Faux : il n'existe pas de pourcentage d'étage universel ; il se mesure secteur par secteur.",
+          "Faux : un montant par étage non mesuré est un chiffre « de tête », indéfendable devant M. Bernard."
+        ],
+        "fb_title": "Pas de correction sans preuve",
+        "fb_text": "Les corrections d'étage, de balcon ou de jardin se fixent par secteur, à partir des ventes. Quand ton échantillon ne montre pas d'écart, tu n'appliques pas de chiffre : tu notes l'atout (4e, ascenseur, balcon sud-ouest) pour situer le bien dans le haut de la fourchette."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Grille de retraitement : groupes d'état, ventes de la résidence, annonces avant négociation, correction étage, balcon, jardin (valeurs à fixer par secteur)",
+    "kind": "grille",
+    "intro": "Cette grille transforme une liste brute de ventes en références défendables. Elle s'applique après le tableau des mutations (capsule 2.37). L'exemple rempli est celui de l'appartement de M. Bernard (T4 de 76 m², 4e avec ascenseur, balcon de 6 m² sud-ouest, attestation classe E). Ventes et annonces FICTIVES. Les valeurs de correction (étage, balcon, jardin) ne sont pas fournies : elles se mesurent dans ton secteur.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "Les 5 retraitements, dans l'ordre",
+        "items": [
+          "Écarte les ventes atypiques en écrivant pourquoi (état, étage, vente familiale ou forcée, lot avec dépendances) : ici M10, rez-de-chaussée classe G à gros travaux.",
+          "Sépare deux groupes d'état : « à rénover / en l'état » (M1 à M5, M9) et « rénovés ou immeuble isolé » (M6 à M8).",
+          "Mets en avant les ventes de la même résidence : M9, T4 de la résidence Les Tilleuls à 2 650 €/m², confirme la médiane du groupe.",
+          "Range les annonces dans un onglet à part : elles mesurent le prix demandé et la marge de négociation, jamais la valeur.",
+          "Applique une correction (étage, balcon, jardin) seulement si les ventes du secteur la montrent ; sinon, note l'atout en qualitatif et arrête un prix au m² arrondi."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemple rempli : groupes retraités (FICTIF)",
+        "headers": ["Groupe", "Ventes retenues", "Prix au m² classés", "Médiane"],
+        "rows": [
+          ["En l'état (D, E, F)", "M1, M2, M3, M4, M5, M9", "2 600 · 2 620 · 2 650 · 2 650 · 2 690 · 2 700", "2 650 €/m²"],
+          ["Rénovés ou immeuble isolé (C, D)", "M6, M7, M8", "2 820 · 2 850 · 2 880", "2 850 €/m²"],
+          ["Écartée", "M10", "2 000", "Non retenue (atypique)"],
+          ["Annonces avant négociation", "A1 T4 75 m² E 214 900 € ; A2 T4 80 m² D 219 000 € ; A3 T3 69 m² E 196 500 €", "2 738 · 2 848 · 2 865", "2 848 €/m² (prix demandé)"]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Valoriser",
+        "text": "Prix au m² retenu (arrondi à 50 €) = médiane du groupe comparable. Valeur de base = surface × prix au m² retenu. M. Bernard : 76 × 2 650 = 201 400 € de base en l'état, avant les ajustements prouvés (fenêtres, VMC, appels de fonds de l'isolation de façade) qui donnent la fourchette 178 000 € – 186 000 € net vendeur (capsule 2.43). Marge de négociation indicative = (médiane des annonces − médiane des ventes) / médiane des annonces = (2 848 − 2 650) / 2 848 ≈ 7 %."
+      },
+      {
+        "type": "table",
+        "heading": "Corrections : à fixer par secteur",
+        "headers": ["Élément", "Comment le mesurer", "Valeur pour ton secteur"],
+        "rows": [
+          ["Étage et ascenseur", "Comparer les médianes rez-de-chaussée / étages bas / étages hauts avec ascenseur", "À fixer (échantillon D12 : pas d'écart net)"],
+          ["Balcon, loggia", "Comparer ventes avec et sans extérieur, même époque", "À fixer"],
+          ["Jardin privatif", "Idem, rez-de-jardin contre étage", "À fixer (non concerné ici)"],
+          ["Parking, cave", "Ventes de lots séparés dans DVF", "À fixer"]
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire à M. Bernard",
+        "text": "« J'ai retiré une vente qui ne ressemblait pas à votre appartement, et je l'écris dans le dossier. Les six ventes de biens dans le même état que le vôtre se situent au milieu à 2 650 € le m², et un appartement de votre résidence s'est vendu exactement à ce prix en avril. Les annonces sont plus hautes, autour de 2 850 € : c'est ce que demandent les vendeurs, pas ce qu'ils obtiennent. »"
+      }
+    ],
+    "footer": "Sources : DVF (data.gouv.fr) ; Charte de l'expertise en évaluation immobilière (méthode par comparaison, homogénéisation des références). Ventes M1 à M10 et annonces A1 à A3 FICTIVES (dossier fil rouge D12). Corrections d'étage, balcon, jardin : valeurs à fixer par secteur. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Retraiter les 10 ventes et arrêter un prix au m²",
+    "duration_min": 30,
+    "context": "Ton tableau des 10 mutations est prêt (capsule 2.37). M. Bernard, très factuel, demandera pourquoi une vente a disparu et pourquoi tu ne prends pas les annonces. Tu retraites les références, tu arrêtes un prix au m² arrondi et tu écris chaque choix.",
+    "materials": [
+      "Ton tableau des 10 mutations (capsule 2.37, D12)",
+      "D04 Plan et descriptif de l'appartement",
+      "D05 Reportage photo commenté",
+      "Les 3 annonces A1 à A3 (onglet de la grille)"
+    ],
+    "steps": [
+      "Repère et écarte la vente atypique, avec une phrase de justification.",
+      "Classe les 9 ventes restantes en deux groupes : en l'état / rénovés ; calcule la médiane de chacun.",
+      "Situe la vente de la résidence Les Tilleuls (M9) par rapport à la médiane du groupe en l'état.",
+      "Calcule le prix au m² des 3 annonces, leur médiane et la marge de négociation indicative.",
+      "Décide des corrections (étage, balcon) : chiffrée si le secteur la prouve, qualitative sinon.",
+      "Arrête le prix au m² arrondi et la valeur de base pour 76 m²."
+    ],
+    "expected": "Vente écartée : M10 (rez-de-chaussée, G, gros travaux, 1966). Groupe en l'état : M1 2 620, M2 2 700, M3 2 650, M4 2 600, M5 2 690, M9 2 650 → classés 2 600, 2 620, 2 650, 2 650, 2 690, 2 700 → médiane (2 650 + 2 650) / 2 = 2 650 €/m². Groupe rénové : M6 2 880, M7 2 820, M8 2 850 → médiane 2 850 €/m². M9, vente de la résidence, est exactement à la médiane : elle la confirme. Annonces : A1 214 900 / 75 ≈ 2 865 ; A2 219 000 / 80 ≈ 2 738 ; A3 196 500 / 69 ≈ 2 848 → médiane 2 848 €/m² ; marge indicative (2 848 − 2 650) / 2 848 ≈ 7 %. Corrections : l'échantillon ne montre pas d'écart net d'étage (M1 4e asc. 2 620, M4 1er sans asc. 2 600) → pas de correction chiffrée ; atouts (4e, ascenseur, balcon sud-ouest) notés pour le haut de fourchette. Prix retenu : 2 650 €/m² ; valeur de base 76 × 2 650 = 201 400 € avant ajustements prouvés.",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Grille de retraitement remplie pour l'appartement de M. Bernard",
+    "format": "Tableur ou PDF, 1 page",
+    "criteria": [
+      "La vente atypique est écartée avec une justification écrite",
+      "Les deux groupes d'état sont séparés et leurs médianes (2 650 et 2 850 €/m²) sont justes",
+      "La vente de la résidence est identifiée et commentée",
+      "Les annonces sont traitées à part, avec la marge de négociation indicative calculée",
+      "Aucune correction n'est chiffrée sans preuve de marché ; le prix au m² retenu et la valeur de base (201 400 €) sont écrits"
+    ]
+  },
+  "sources": [
+    { "label": "DVF, Demandes de valeurs foncières (data.gouv.fr)", "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres" },
+    { "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : méthode par comparaison ; à vérifier : lien officiel de la 6e édition", "url": "https://charteexpertiseimmo.org" },
+    { "label": "Proposition pédagogique Éco-Propriété : ventes D12 et annonces A1 à A3 FICTIVES, médianes 2 650 et 2 850 €/m² (Bible du fil rouge §5)" }
+  ],
+  "open_points": [
+    "Valeurs de correction étage, balcon, jardin, parking : à fixer par secteur (tableau source) ; à définir avec Sébastien Paumier s'il souhaite fournir des valeurs de référence pour Melun.",
+    "Annonces A1 à A3 et marge de négociation ≈ 7 % : exemple fictif à valider par Sébastien Paumier.",
+    "Ajouter les annonces A1 à A3 au dossier fil rouge (D12, onglet annonces)."
+  ]
+}

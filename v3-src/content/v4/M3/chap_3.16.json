@@ -1,0 +1,341 @@
+{
+  "id": "3.16",
+  "module": 3,
+  "title": "Maîtriser le dossier du vendeur",
+  "capsule_title": "Maîtriser le dossier du vendeur",
+  "duration": "4:30",
+  "objective": "Constituer le dossier complet du vendeur fil rouge (D01 à D18) et suivre chaque pièce (source, date, statut) pour arriver au rendez-vous de restitution (capsule 3.19) avec toutes les preuves",
+  "mozi": {
+    "line": "Vos relevés bancaires, oui ! Votre PV d'AG ? On verra chez le notaire !",
+    "scene": "Mozi, une loupe géante à la main, épluche les relevés bancaires de M. Bernard et glisse le PV d'assemblée générale sous le tapis du salon. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 3.16 : maîtriser le dossier du vendeur",
+      "voice": "Bienvenue. Dans ce chapitre, tu prépares le dossier de M. Bernard, pièce par pièce, pour arriver chez lui avec toutes les preuves.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "pourquoi un dossier complet rassure le vendeur et l'acheteur"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "constituer le dossier avec la check-list, puis dater et suivre chaque pièce"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ton dossier et ton tableau de suivi remplis en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Vos relevés bancaires, oui ! Votre PV d'AG ? On verra chez le notaire !",
+      "voice": "Vos relevés bancaires, oui ! Votre PV d'AG ? On verra chez le notaire !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Vos relevés bancaires, oui ! Votre PV d'AG ? On verra chez le notaire !",
+      "scene": "Mozi épluche les relevés bancaires à la loupe et glisse le PV d'AG sous le tapis."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "Tout demander, rien lire, voir chez le notaire",
+      "voice": "Tout demander. Rien lire. Et voir chez le notaire.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "Tout demander",
+        "Rien lire",
+        "Voir chez le notaire"
+      ],
+      "wrong": 2,
+      "why": "Le PV d'AG doit être remis au compromis, sinon la rétractation est repoussée."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "PV d'AG absent. Rétractation repoussée.",
+      "voice": "Résultat : le PV d'AG manque au compromis. Et le délai de rétractation de l'acheteur ne démarre qu'une fois le document remis. La vente attend.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "PV d'AG absent du compromis.",
+        "Rétractation de l'acheteur repoussée."
+      ],
+      "source": "Code de la construction et de l'habitation, art. L. 721-2, II, 1° c (PV des AG des trois dernières années remis au plus tard à la promesse, sauf si le vendeur n'a pas pu les obtenir du syndic) et art. L. 721-3 (sinon, le délai de rétractation de l'art. L. 271-1 ne court qu'à compter du lendemain de leur communication), Légifrance, vérifié le 26/10/2026"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "Plus de 15 ans : diagnostic électricité obligatoire",
+      "voice": "Un exemple de pièce qu'on oublie. Installation électrique de plus de quinze ans ? Le diagnostic électricité est obligatoire pour vendre. Chez M. Bernard, une partie des circuits date de 1972.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Au-delà de combien d'années d'installation l'état de l'électricité devient-il obligatoire ?",
+        "answer": 15,
+        "min": 1,
+        "max": 40,
+        "step": 1,
+        "unit": " ans"
+      },
+      "value": "15 ans",
+      "label": "d'installation électrique : au-delà, l'état de l'électricité est obligatoire à la vente",
+      "source": "Service-Public, Diagnostics immobiliers obligatoires lors de la vente (F10798, mis à jour le 7/03/2025 : installation de plus de 15 ans) ; circuits de 1972 : dossier fil rouge (fictif)"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "4 blocs → source, date, statut → une phrase",
+      "voice": "Un dossier, ce n'est pas une pile de papiers. D'abord, tu ranges tout en quatre blocs : le vendeur et son titre, le bien et son énergie, la copropriété, le marché. Ensuite, chaque pièce reçoit une source, une date et un statut : reçu, demandé, à commander, ou plus tard. Le DPE vient de Diag77, il date du 14 mars 2023. Enfin, tu lis chaque pièce, et tu en tires une phrase. Le PV d'AG du 12 juin 2025 : ravalement avec isolation par l'extérieur voté. Pour le lot de M. Bernard, 35 880 euros, en quatre appels de 8 970 euros en 2027. Ta phrase : « C'est la question que tous les acheteurs poseront. On la prépare ensemble. »",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Dossier fil rouge (D02 DPE du 14/03/2023 ; D07 PV d'AG du 12/06/2025 : 1 150 000 € × 312/10 000 = 35 880 €) ; structure en 4 blocs : proposition pédagogique Éco-Propriété",
+      "steps": [
+        {
+          "label": "4 blocs",
+          "detail": "Vendeur, bien et énergie, copropriété, marché : D01 à D18."
+        },
+        {
+          "label": "Source, date, statut",
+          "detail": "Reçu, demandé, à commander ou plus tard, toujours avec une date."
+        },
+        {
+          "label": "Une phrase par pièce",
+          "detail": "D07 : 35 880 € d'ITE, en 4 appels de 8 970 € en 2027."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Maxime veut aussi les relevés bancaires de M. Bernard, au cas où. Que lui dis-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "CNIL, définition de la minimisation des données",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Maxime, nouvel entrant, reçoit la chemise de documents de M. Bernard. Il veut aussi ses relevés bancaires « au cas où ». Que lui conseilles-tu ?",
+      "model_answer": "Je lui dis de ne demander que ce qui sert à vendre le bien : titre, DPE et attestation, diagnostics, documents de copropriété, comparables. Pas de relevés bancaires : prêt soldé, propriétaire seul, ils ne servent à rien. C'est le principe de minimisation. Et chaque pièce utile reçoit une source, une date et un statut.",
+      "keywords": [
+        "minimisation",
+        "utile à la vente",
+        "4 blocs",
+        "source, date, statut"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "CNIL, définition de la minimisation ; Code de la construction et de l'habitation, art. L. 721-2 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Ne collecter que les données utiles à la vente : c'est le principe de minimisation",
+          "Un agent doit vérifier les finances du vendeur avant tout mandat",
+          "Aucune : si le vendeur accepte, tout peut être demandé"
+        ],
+        "answer": 0,
+        "feedback": "Tu ne collectes que ce qui sert à vendre le bien (CNIL, minimisation). Et le PV d'AG, lui, doit être remis à l'acquéreur au plus tard à la promesse (CCH, art. L. 721-2).",
+        "whys": [
+          "Exact : seules les données nécessaires à la finalité sont collectées. Les relevés bancaires ne servent pas à vendre un appartement.",
+          "Faux : tu vérifies son identité et son titre de propriété, pas ses relevés. Ses finances ne disent rien de son bien.",
+          "Faux : l'accord du vendeur ne rend pas utile une donnée inutile ; la minimisation s'applique quand même."
+        ]
+      },
+      "card2": {
+        "question": "Si Karim imposait le tableau de suivi à toute son agence, que se passerait-il ?",
+        "answer": "Chaque dossier aurait ses 4 blocs, ses pièces datées et ses manques repérés avant le compromis : pas de PV d'AG oublié, pas de donnée inutile, et des vendeurs rassurés dès le premier rendez-vous."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : arriver devant M. Bernard avec toutes les preuves. L'observatoire de l'ADEME, et ta check-list avec son tableau de suivi.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Arriver au rendez-vous avec toutes les preuves",
+      "tools": [
+        {
+          "name": "Observatoire DPE-Audit (ADEME)",
+          "role": "Retrouver le DPE et l'attestation actualisée"
+        },
+        {
+          "name": "Check-list et tableau de suivi",
+          "role": "Lister chaque pièce, puis la suivre : source, date, statut, prochaine action"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "ADEME : retrouver, vérifier, classer",
+      "voice": "Sur l'observatoire de l'ADEME, tu retrouves le DPE de M. Bernard par son numéro. Classe F, en 2023. Puis l'attestation actualisée : classe E, valable jusqu'au 13 mars 2033. Elle passe en tête du bloc deux.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "ADEME, observatoire DPE-Audit (attestation actualisée) ; dossier fil rouge §3 (numéro et dates fictifs) — parcours à vérifier le jour du tournage",
+      "tool": "Observatoire DPE-Audit (ADEME)",
+      "steps": [
+        "Retrouver : le DPE par son numéro ADEME à 13 caractères",
+        "Vérifier : DPE du 14/03/2023, classe F (coefficient 2,3)",
+        "Récupérer : l'attestation actualisée, classe E, valable jusqu'au 13/03/2033",
+        "Classer : l'attestation D03 en tête du bloc « bien et énergie »"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "Tableau : classer, dater, relancer",
+      "voice": "Dans le tableau : bloc un, titre et taxe foncière reçus. Bloc deux, l'état de l'électricité manque : à commander, avant le 13 novembre. Bloc trois, fiche synthétique demandée au syndic. Puis un mail à M. Bernard : ce qui manque, qui, avant quand.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Check-list dossier client + tableau de suivi » de la capsule 3.16 (exemple rempli au 27/10/2026, fil rouge fictif)",
+      "tool": "Check-list et tableau de suivi",
+      "steps": [
+        "Bloc 1 : D11 reçu, taxe foncière 1 412 €/an",
+        "Bloc 2 : état de l'électricité « à commander », avant le 13/11/2026",
+        "Bloc 3 : fiche synthétique D10 demandée à Mme Roy, relance le 03/11/2026",
+        "Mail à M. Bernard : ce que j'ai, ce qui manque, qui s'en charge, avant quand"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "À toi : constitue le dossier.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien officiel ADEME ; l'exercice de la capsule 3.16 fournit la check-list et le tableau de suivi",
+      "cta": "Ouvrir l'observatoire ADEME",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton dossier et ton tableau de suivi.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture du dossier complet de M. Bernard et de ton tableau de suivi : 4 blocs, et pour chaque pièce une source, une date et un statut.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le dossier de M. Bernard t'attend : reviens déposer ton tableau quand il est prêt."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Les autres agences sont venues les mains vides. Toi, tu arrives avec quatre blocs et chaque pièce datée.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton dossier : 4 blocs, chaque pièce datée. Les deux autres agences : les mains vides.",
+      "source": "Fait observable : ton tableau de suivi ; deux agences déjà venues chez M. Bernard (bible §1, fil rouge fictif)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Légifrance — Code de la construction et de l'habitation, art. L. 721-2 (documents remis à l'acquéreur, dont PV des AG des 3 dernières années)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043977384"
+    },
+    {
+      "label": "Légifrance — Code de la construction et de l'habitation, art. L. 721-3 (délai de rétractation reporté si documents non annexés)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031110572"
+    },
+    {
+      "label": "Service-Public — Diagnostics immobiliers obligatoires lors de la vente (F10798)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798"
+    },
+    {
+      "label": "CNIL — Définition : minimisation des données",
+      "url": "https://www.cnil.fr/fr/definition/minimisation"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — dossier en 4 blocs, tableau de suivi (données du fil rouge fictives)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Écran 5 : art. L. 721-2 et L. 721-3 CCH vérifiés sur Légifrance le 26/10/2026 ; la voix simplifie (exception : vendeur n'ayant pas pu obtenir les PV du syndic) — relecture juridique conseillée",
+    "Écran 11 : le numéro ADEME du fil rouge est fictif ; parcours de l'observatoire à filmer sur un DPE réel anonymisé ou en capture simulée, à vérifier le jour du tournage",
+    "Écran 13 : lien vers l'observatoire ADEME à valider (alternative : « #exercice », qui ouvre la check-list de la capsule 3.16)",
+    "Écran 15 : effet statut fondé sur un fait observable et sur la scène du fil rouge, pas sur une statistique",
+    "Héritage capsule v3 : termites selon arrêté préfectoral pour Melun [À VALIDER] ; liste des diagnostics D17 conforme au fil rouge (pas de plomb, pas de gaz)",
+    "Parcours maison : la même check-list doit couvrir les pièces M01 à M14 de Mme Garnier (SPANC, audit) ; exemple non montré dans ce chapitre"
+  ]
+}

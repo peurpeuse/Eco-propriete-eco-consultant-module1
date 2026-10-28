@@ -1,0 +1,141 @@
+{
+ "id": 2,
+ "title": "Estimer et construire la stratégie de vente",
+ "color": "orange",
+ "entry": "Analyser le bien et le bâtiment sous tous les angles",
+ "exit": "Dossier d'estimation complet du bien fil rouge (appartement ou maison)",
+ "capsules": [
+  "2.1",
+  "2.2",
+  "2.3",
+  "2.4",
+  "2.5",
+  "2.6",
+  "2.7",
+  "2.8",
+  "2.9",
+  "2.10",
+  "2.11",
+  "2.12",
+  "2.13",
+  "2.14",
+  "2.15",
+  "2.16",
+  "2.17",
+  "2.18",
+  "2.19",
+  "2.20",
+  "2.21",
+  "2.22",
+  "2.23",
+  "2.24",
+  "2.25",
+  "2.26",
+  "2.27",
+  "2.28",
+  "2.29",
+  "2.30",
+  "2.31",
+  "2.32",
+  "2.33",
+  "2.34",
+  "2.35",
+  "2.36",
+  "2.37",
+  "2.38",
+  "2.39",
+  "2.40",
+  "2.41",
+  "2.42",
+  "2.43"
+ ],
+ "capsule_titles": {
+  "2.1": "Le projet du vendeur",
+  "2.2": "Physique du bâtiment : déperditions",
+  "2.3": "Calculs : surfaces, kWh/m², CO₂",
+  "2.4": "Lire un DPE, bases 3CL [IA]",
+  "2.5": "Techniques du bâtiment",
+  "2.6": "Audit 360° et pathologies",
+  "2.7": "Audit de la copropriété",
+  "2.8": "Les 8 familles de valeur",
+  "2.9": "Chiffrer les travaux [IA]",
+  "2.10": "Estimer avant / après rénovation [IA]"
+ },
+ "case": {
+  "title": "Dossier d'estimation complet",
+  "duration_min": 120,
+  "brief": "Monter le dossier d'estimation complet du bien fil rouge de son parcours (diagnostics, mesures, urbanisme, copropriété ou terrain, valeur vénale, travaux, valeur après travaux). Parcours maison : le même dossier pour la maison de Mme Garnier à Vaux-le-Pénil (classée G, terrain de 1 240 m², assainissement non collectif). Parcours appartement : Octobre 2026. M. Alain Bernard, 64 ans, veuf, veut vendre son T4 de 76 m² (4e étage avec ascenseur, résidence Les Tilleuls, Melun, immeuble de 1972) pour se rapprocher de sa fille à Nantes, et avoir vendu avant l'été 2027. Deux agences lui ont annoncé « −15 % à cause du DPE » et un prix de 172 000 € ; il espère 205 000 €. Profil C : il veut des preuves, des chiffres, des documents, et refuse toute promesse. Il t'a confié son dossier (D01 à D13). Ta mission : construire le dossier d'estimation complet que tu lui remettras au rendez-vous de restitution. Il doit répondre à trois questions, chacune avec ses preuves : que vaut l'appartement aujourd'hui, que vaudrait-il rénové, et que doit savoir un acquéreur sur le bâtiment, l'énergie et la copropriété ? Tu mobilises les 10 capsules du module, tu fais vérifier tes calculs (l'IA est autorisée pour structurer et contrôler, jamais comme source de données de marché ni avec des données personnelles réelles) et tu signes un dossier que M. Bernard pourra refaire ligne par ligne. Les données du cas sont fictives.",
+  "documents": [
+   "D01 Fiche découverte vendeur (vierge)",
+   "D02 DPE du 14/03/2023 (synthèse)",
+   "D03 Attestation actualisée ADEME (classe E)",
+   "D04 Plan et descriptif de l'appartement",
+   "D05 Reportage photo commenté (12 photos)",
+   "D06 Appels de charges et budget prévisionnel 2026",
+   "D07 PV d'AG du 12/06/2025 (extraits)",
+   "D08 Carnet d'entretien (extraits)",
+   "D09 Synthèse du PPPT",
+   "D10 Fiche synthétique de la copropriété",
+   "D11 Extrait du titre de propriété et taxe foncière",
+   "D12 Tableau des comparables (fictifs)",
+   "D13 Devis des travaux privatifs"
+  ],
+  "tasks": [
+   "Projet du vendeur (2.1) : remplis la fiche découverte D01 (motivation, calendrier « vendu avant l'été 2027 », prix espéré, contraintes, profil DISC C et ce que cela implique pour la restitution).",
+   "Bâtiment et calculs (2.2, 2.3) : décris les principales déperditions (menuiseries simple vitrage, murs quasi non isolés, pont thermique du balcon, ventilation) et calcule la consommation annuelle (150 × 76 = 11 400 kWhEF/an), les émissions (12 × 76 = 912 kgCO₂/an) et l'énergie primaire avec les coefficients 2,3, 1,9 et 1,7.",
+   "DPE (2.4) : explique en 5 lignes pourquoi le DPE de 2023 classé F donne une attestation actualisée en E, et relève les points faibles qu'il signale.",
+   "Équipements et audit 360° (2.5, 2.6) : identifie les équipements (chauffage, ECS, ventilation, menuiseries) et remplis la grille d'audit sur les 12 photos de D05, avec les renvois vers un professionnel.",
+   "Copropriété (2.7) : calcule charges du lot, fonds de travaux, quote-part ITE et échéancier 2027 ; applique l'art. 6-2 à un acte au 15/03/2027 ; liste les documents de l'art. L. 721-2 CCH à réunir.",
+   "Familles de valeur (2.8) : classe atouts et défauts dans les 8 familles avec leur effet (neutre, chiffré, argument), sans double compte.",
+   "Travaux (2.9) : chiffre les 4 postes privatifs (quantité × prix unitaire, source D13, total 16 500 € TTC) avec la note de prudence.",
+   "Estimation (2.10) : calcule la fourchette en l'état et la valeur après rénovation à partir de D12, puis compare l'écart de valeur au coût total des travaux.",
+   "Synthèse : rédige la page de synthèse destinée à M. Bernard (deux valeurs, trois points clés du bâtiment, trois de la copropriété) et prépare tes réponses à 3 objections probables (« −15 % pour le DPE », « 205 000 € », « et les travaux de façade ? »)."
+  ],
+  "deliverable": "Dossier d'estimation PDF de 8 à 12 pages : 1 page de synthèse pour le vendeur, puis la fiche découverte, la note énergie (calculs + lecture du DPE), la grille d'audit 360°, la note copropriété, le tableau des 8 familles, le chiffrage des travaux et l'estimation avant / après, avec la liste des sources et documents utilisés et, en annexe, les échanges IA anonymisés.",
+  "criteria": [
+   {
+    "label": "Projet du vendeur",
+    "points": 2,
+    "expected": "Fiche D01 complète : motivation, échéance avant l'été 2027, prix espéré 205 000 €, contexte des 172 000 € annoncés, profil C et adaptation prévue (preuves écrites, pas d'insistance)."
+   },
+   {
+    "label": "Énergie et DPE",
+    "points": 3,
+    "expected": "11 400 kWhEF/an, 912 kgCO₂/an ; 150 × 2,3 = 345 (F), × 1,9 = 285 (E), × 1,7 = 255 (E) ; attestation actualisée E expliquée ; pas d'audit énergétique obligatoire (lot de copropriété) ; déperditions principales identifiées."
+   },
+   {
+    "label": "Audit 360° et pathologies",
+    "points": 3,
+    "expected": "12 photos traitées dans l'ordre de la grille ; moisissures reliées à la ventilation, auréole reliée au sinistre clos avec preuve à demander au syndic, fissure fine décrite et surveillée ; au moins un renvoi justifié vers un professionnel ou le syndic ; aucun vocabulaire de diagnostic d'expert."
+   },
+   {
+    "label": "Copropriété",
+    "points": 3,
+    "expected": "2 652 €/an de charges ; fonds 132,60 €/an, solde 1 061 € non remboursé ; ITE 35 880 € en 4 × 8 970 € ; acte au 15/03/2027 : 8 970 € vendeur, 26 910 € acquéreur, accord contraire possible entre les parties via le notaire ; toiture 2030 signalée sans chiffre ; aide non notifiée non chiffrée ; documents L. 721-2 listés."
+   },
+   {
+    "label": "8 familles de valeur",
+    "points": 2,
+    "expected": "Tableau complet, une famille par élément, effets justifiés ; fenêtres comptées une seule fois ; convecteurs neutres ; défauts perçus renvoyés à l'Éco-staging (≈ 450 €)."
+   },
+   {
+    "label": "Chiffrage des travaux",
+    "points": 3,
+    "expected": "4 postes avec quantité, prix unitaire et source : 5 600 + 2 900 + 4 800 + 3 200 = 16 500 € TTC (≈ 217 €/m²) ; mention « prix indicatifs à valider » ; privatif séparé de la copropriété."
+   },
+   {
+    "label": "Estimation avant / après",
+    "points": 3,
+    "expected": "Médianes 2 650 et 2 850 €/m² ; 201 400 € → 192 900 € → fourchette 178 000-186 000 € net vendeur avec décote copropriété justifiée ; 216 600 € après rénovation ; écart 30 600-38 600 € comparé à 52 380 € de travaux hors aide."
+   },
+   {
+    "label": "Synthèse, sources et conformité",
+    "points": 1,
+    "expected": "Page de synthèse lisible par le vendeur, chaque chiffre sourcé (code document ou texte officiel), données fictives signalées, aucune donnée personnelle dans les échanges IA, renvoi au notaire pour la répartition des appels de fonds."
+   }
+  ],
+  "total_points": 20,
+  "pass_mark": 14
+ },
+ "reminders": "auto"
+}

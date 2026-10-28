@@ -325,7 +325,7 @@ main .wrap{padding-block:16px 110px}
     return e;
   }
   function toast(t) { var x = $("toast"); x.textContent = t; x.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(function () { x.classList.remove("show"); }, 1800); }
-  function label(it) { return it.kind === "module" ? "Module " + it.mod : "Capsule " + it.id; }
+  function label(it) { return it.kind === "module" ? (it.mod === 0 ? "Prérequis" : "Module " + it.mod) : "Capsule " + it.id; }
   function rec(id) { if (!mine.items[id]) mine.items[id] = {}; var r = mine.items[id]; ["parts", "edits", "asks", "answers", "choix", "revert"].forEach(function (k) { r[k] = r[k] || {}; }); return r; }
   function peek(id) { return mine.items[id] || {}; }
   function applied(id) { return (DATA && DATA.applied && DATA.applied[id]) || null; }
@@ -806,7 +806,7 @@ main .wrap{padding-block:16px 110px}
   /* ---------- mise en production de la page ouverte (une capsule, ou un module depuis sa fiche) ---------- */
   // clé de production : numéro de module (fiche module) ou identifiant de capsule (« 1.1 »)
   function pKey(it) { return it.kind === "module" ? it.mod : it.id; }
-  function isCapKey(key) { return typeof key === "string" && key.indexOf(".") > 0; }
+  function isCapKey(key) { return typeof key === "string" && (key.indexOf(".") > 0 || /^P\d+$/.test(key)); }
   function keyName(key) { return isCapKey(key) ? "la capsule " + key : "le module " + key; }
   function modItems(mod) { return ITEMS.filter(function (it) { return it.mod === mod; }); }
   function readiness(key) {
@@ -1024,7 +1024,7 @@ main .wrap{padding-block:16px 110px}
     var mods = [1, 2, 3, 4, 5];
     if (mine.role === "DIR" || mods.some(function (m) { return prodState(m).k; })) kids.push(el("div", { class: "sec" }, [el("h2", { text: "🚀 Production" }), el("ul", { class: "plan" }, mods.map(function (m) {
       var rd = readiness(m), lab = prodLabel(m), mi = ITEMS.findIndex(function (x) { return x.kind === "module" && x.mod === m; });
-      return el("li", null, [el("button", { class: "link", type: "button", style: "text-align:left", text: "Module " + m + " · " + ITEMS[mi].title, onclick: function () { open(mi); } }),
+      return el("li", null, [el("button", { class: "link", type: "button", style: "text-align:left", text: (String(m) === "0" ? "Prérequis" : "Module " + m) + " · " + ITEMS[mi].title, onclick: function () { open(mi); } }),
         el("span", { class: rd.ready || lab ? "st ok" : "muted", text: lab || (rd.ready ? "prêt à envoyer" : (rd.n - rd.notOk.length) + "/" + rd.n + " validés") })]); }))]));
     var revs = ITEMS.filter(function (it) { return isRev(it.id); });
     if (revs.length) kids.push(el("p", { class: "banner", text: "✓ " + revs.length + " élément" + (revs.length > 1 ? "s ont" : " a") + " été corrigé" + (revs.length > 1 ? "s" : "") + " depuis ton dernier passage. Il" + (revs.length > 1 ? "s reviennent" : " revient") + " dans tes séances pour une dernière vérification." }));
@@ -1076,7 +1076,7 @@ main .wrap{padding-block:16px 110px}
       m.appendChild(el("div", { class: "sess" }, [el("span", null, [el("b", { text: "Séance : " + pos + " / " + mine.session.ids.length }), " · reste ≈ " + rest + " min"]),
         el("button", { class: "link", type: "button", text: "Arrêter la séance", onclick: function () { view = "home"; render(); } })]));
     }
-    var head = [el("div", { class: "kicker" }, [el("span", { class: "dpe" }), "Module " + it.mod + " · " + (idx + 1) + " / " + ITEMS.length + " · ≈ " + est(it) + " min",
+    var head = [el("div", { class: "kicker" }, [el("span", { class: "dpe" }), (it.mod === 0 ? "Prérequis" : "Module " + it.mod) + " · " + (idx + 1) + " / " + ITEMS.length + " · ≈ " + est(it) + " min",
       it.kind === "capsule" ? el("span", { class: "tags" }, it.experts.map(function (x) { return el("span", { class: "tag exp", text: "Relecture " + x }); })) : el("span", { class: "tag", text: "Vue d'ensemble du module" })]),
       el("h1", { text: (it.kind === "module" ? "" : it.id + " · ") + it.title })];
     var body = (diffOnly ? diffBody(it) : (it.kind === "module" ? moduleBody(it) : capsuleBody(it)).concat([teamBlock(it)])).concat([historyBlock(it), itemResetBlock(it)]);
@@ -1144,7 +1144,7 @@ main .wrap{padding-block:16px 110px}
     pane.appendChild(el("div", { class: "top" }, [el("b", { class: "brand", text: "🚀 Envoi à la production" }), el("button", { class: "chip", type: "button", text: "Fermer", onclick: close })]));
     if (view === "item" && ITEMS[idx]) {
       var it = ITEMS[idx];
-      pane.appendChild(el("p", { class: "muted", text: "Tu envoies seulement la page ouverte : " + (it.kind === "module" ? "le module " + it.mod + " · " + it.title : "la capsule " + it.id + " · " + it.title) + "." }));
+      pane.appendChild(el("p", { class: "muted", text: "Tu envoies seulement la page ouverte : " + (it.kind === "module" ? (it.mod === 0 ? "le prérequis" : "le module " + it.mod) + " · " + it.title : "la capsule " + it.id + " · " + it.title) + "." }));
       pane.appendChild(prodBlock(pKey(it)));
     } else {
       pane.appendChild(el("p", { class: "banner", text: "Ouvre d'abord la capsule (ou la fiche du module) que tu veux envoyer en production, puis appuie sur 🚀." }));
@@ -1159,7 +1159,7 @@ main .wrap{padding-block:16px 110px}
     pane.appendChild(el("div", { class: "legend" }, [el("span", null, [el("i", { style: "background:var(--green)" }), "validé"]), el("span", null, [el("i", { style: "background:var(--orange)" }), "corrections"]), el("span", null, [el("i", { style: "border:2px solid var(--line)" }), "pas encore vu"])]));
     var cur = 0;
     ITEMS.forEach(function (it, i) {
-      if (it.mod !== cur) { cur = it.mod; pane.appendChild(el("h3", { style: "--c:" + it.color }, [el("span", { class: "dpe" }), "Module " + it.mod, prodState(it.mod).k ? el("span", { class: "tag prod", text: prodState(it.mod).k === "pub" ? "en production" : "🚀" }) : null])); }
+      if (it.mod !== cur) { cur = it.mod; pane.appendChild(el("h3", { style: "--c:" + it.color }, [el("span", { class: "dpe" }), (it.mod === 0 ? "Prérequis" : "Module " + it.mod), prodState(it.mod).k ? el("span", { class: "tag prod", text: prodState(it.mod).k === "pub" ? "en production" : "🚀" }) : null])); }
       var others = Object.keys(team).filter(function (u) { return u !== uid && team[u].items && team[u].items[it.id] && team[u].items[it.id].s; });
       var nfix = others.filter(function (u) { return team[u].items[it.id].s === "fix"; }).length;
       pane.appendChild(el("button", { class: "row", type: "button", onclick: function () { close(); open(i); } }, [

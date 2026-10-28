@@ -1,0 +1,324 @@
+{
+  "id": "3.10",
+  "module": 3,
+  "title": "Le plan Éco-staging : 3 actions à petit budget",
+  "capsule_title": "Le plan Éco-staging : 3 actions à petit budget",
+  "duration": "4:30",
+  "objective": "Proposer pour M. Bernard un plan Éco-staging de 3 actions à petit budget (≈ 450 €), chacune chiffrée et datée, qui traitent les défauts visibles sans rien cacher aux acquéreurs",
+  "mozi": {
+    "line": "Trois couches de blanc sur les moisissures, et la VMC, on n'en parle pas !",
+    "scene": "Mozi repeint au rouleau le plafond moisi de la salle de bains en sifflotant, puis cache la fissure du couloir derrière un poster de coucher de soleil. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 3.10 : le plan Éco-staging",
+      "voice": "Bienvenue. Dans ce chapitre, tu prépares l'appartement de M. Bernard pour les photos. Trois actions, un petit budget, et rien de caché.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "pourquoi un défaut visible fait douter de tout le reste"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "choisir 3 actions à petit budget, chacune chiffrée et datée"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ton plan Éco-staging de M. Bernard en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Trois couches de blanc sur les moisissures, et la VMC, on n'en parle pas !",
+      "voice": "Trois couches de blanc sur les moisissures, et la VMC, on n'en parle pas !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Trois couches de blanc sur les moisissures, et la VMC, on n'en parle pas !",
+      "scene": "Mozi repeint le plafond moisi en sifflotant et cache la fissure derrière un poster."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "1 rouleau, 3 couches, 0 mot",
+      "voice": "Un rouleau. Trois couches. Zéro mot.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "1 rouleau",
+        "3 couches",
+        "0 mot"
+      ],
+      "wrong": 2,
+      "why": "Taire les moisissures, c'est cacher une information déterminante."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Information cachée. Vente annulable.",
+      "voice": "Sauf que la cause est connue : pas de VMC. Cacher une information déterminante engage la responsabilité. Et la vente peut être annulée.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "Information déterminante cachée.",
+        "Responsabilité engagée, vente annulable."
+      ],
+      "source": "Code civil, art. 1112-1 (Légifrance, en vigueur depuis le 1/10/2016, vérifié le 26/10/2026) : le manquement au devoir d'information engage la responsabilité et peut entraîner l'annulation du contrat (art. 1130 et suivants)"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "≈ 450 € pour ce que voit l'acheteur",
+      "voice": "Bonne nouvelle : dans notre dossier d'exemple, traiter ce que l'acheteur voit chez M. Bernard coûte environ 450 euros. Moins d'un quart de pour cent du prix affiché.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Combien coûte le traitement des défauts visibles du dossier d'exemple ?",
+        "answer": 450,
+        "min": 0,
+        "max": 5000,
+        "step": 50,
+        "unit": " €"
+      },
+      "value": "≈ 450 €",
+      "label": "pour traiter les défauts visibles dans le dossier d'exemple (fictif), soit moins de 0,25 % des 189 000 € affichés",
+      "source": "Dossier fil rouge, bible §7 (plan Éco-staging ≈ 450 €, prix indicatifs fictifs) ; calcul : 450 / 189 000 ≈ 0,24 %"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Défauts → trier → 3 actions chiffrées",
+      "voice": "D'abord, tu pars des défauts, pas de la déco. Sur le reportage photo de M. Bernard : moisissures dans la salle de bains, auréole au plafond de la cuisine, fissure fine dans le dégagement, séjour encombré et sombre. Ensuite, pour chaque défaut, un verbe. Traiter, si c'est petit et durable. Documenter, si c'est lourd : l'absence de VMC, devis à 2 900 euros. Expliquer, si c'est sans gravité : la fissure, non structurelle, à surveiller. Enfin, tu retiens trois actions, chacune chiffrée. Salle de bains et conduit : environ 220 euros. Plafond de la cuisine : environ 70 euros. Séjour désencombré et éclairé : environ 160 euros. Total : environ 450 euros.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Dossier fil rouge, bible §2, §6 et §7 (défauts ; devis VMC 2 900 € ; plan Éco-staging ≈ 450 € en trois postes) ; répartition indicative 70 + 150 / 70 / 160 € reprise du chapitre v3 3.4, prix fictifs à vérifier localement",
+      "steps": [
+        {
+          "label": "Partir des défauts",
+          "detail": "Sur D05 : moisissures, auréole, fissure, séjour encombré."
+        },
+        {
+          "label": "Traiter, documenter, expliquer",
+          "detail": "Petit et durable : traiter. Lourd : documenter. Sans gravité : expliquer."
+        },
+        {
+          "label": "Retenir 3 actions chiffrées",
+          "detail": "Salle de bains et conduit ≈ 220 €, plafond ≈ 70 €, séjour ≈ 160 € : ≈ 450 €."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Un mandataire du réseau d'Élodie veut repeindre la salle de bains, sans rien dire. Que doit-il faire ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Code civil, art. 1112-1 (devoir d'information)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Élodie, coach de mandataires, entend un membre de son réseau dire : « Je repeins la salle de bains, l'acheteur n'a pas besoin de savoir. » Que doit-il faire ?",
+      "model_answer": "Traiter la surface et déboucher le conduit, oui. Mais révéler la cause : il n'y a pas de VMC. Le devis de 2 900 € est remis aux acheteurs. « Le défaut est connu, la solution est chiffrée. »",
+      "keywords": [
+        "traiter la surface",
+        "révéler la cause",
+        "devis VMC",
+        "transparence"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Code civil, art. 1112-1 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Informer l'autre partie de ce qui est déterminant pour son consentement",
+          "Refaire à neuf toute pièce abîmée avant les photos",
+          "Aucune : ce qui ne se voit plus n'a pas à être dit"
+        ],
+        "answer": 0,
+        "feedback": "Le Code civil (art. 1112-1) impose de communiquer une information déterminante que l'autre partie ignore légitimement. L'Éco-staging améliore la présentation, il ne supprime jamais une information.",
+        "whys": [
+          "Exact : l'absence de VMC est une information déterminante. On traite la surface, on révèle la cause, devis à l'appui.",
+          "Faux : l'Éco-staging, c'est un petit budget. Les gros travaux relèvent de l'arbitrage de la capsule 3.12.",
+          "Faux : repeindre ne fait pas disparaître la cause. La cacher, c'est manquer au devoir d'information."
+        ]
+      },
+      "card2": {
+        "question": "Si Karim faisait photographier le bien avant la fin du plan, que se passerait-il ?",
+        "answer": "Les premières photos, avec l'auréole et le séjour encombré, resteraient sur les portails. Les acheteurs passeraient leur chemin, ou viendraient visiter pour négocier."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : montrer un bien prêt, sans rien cacher. Le tri des défauts, et la fiche plan Éco-staging.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Montrer un bien prêt, sans rien cacher",
+      "tools": [
+        {
+          "name": "Tri des défauts",
+          "role": "Traiter, documenter ou expliquer chaque défaut visible"
+        },
+        {
+          "name": "Fiche plan Éco-staging",
+          "role": "3 actions : défaut, action, qui, coût, date, preuve"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Trier les quatre défauts",
+      "voice": "Je trie. Moisissures : je traite la surface, je débouche le conduit, et je documente la VMC. Auréole : je traite, preuve du sinistre clos à l'appui. Fissure : je l'explique. Séjour : je désencombre et j'éclaire.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Dossier fil rouge, bible §2 (sinistre de 2022 clos, fissure < 0,2 mm non structurelle) ; tri : capsule 3.10",
+      "tool": "Tri des défauts",
+      "steps": [
+        "Moisissures : traiter la surface, déboucher le conduit, documenter la VMC (2 900 €)",
+        "Auréole : traiter, avec la preuve du sinistre de 2022 clos",
+        "Fissure fine : expliquer, non structurelle, à surveiller",
+        "Séjour : traiter, désencombrer et éclairer"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "La fiche : 3 actions, 3 lignes",
+      "voice": "Puis la fiche. Trois actions, trois lignes. Plafond de la cuisine : sous-couche et peinture, 70 euros, avant le 12 novembre, photos avant et après. Total : environ 450 euros. Séance photo le 13. M. Bernard relit, puis signe.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Modèle de plan Éco-staging » de la capsule 3.10 (plan rempli, dates et prix fictifs)",
+      "tool": "Fiche plan Éco-staging",
+      "steps": [
+        "Trois lignes, une par action : défaut, action, qui, coût, date, preuve",
+        "Plafond cuisine : sous-couche et peinture, ≈ 70 €, avant le 12/11/2026",
+        "Total ≈ 450 €, séance photo le 13/11/2026, après la dernière action",
+        "M. Bernard relit et signe la fiche"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "À toi : propose tes trois actions.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien vers l'exercice de la capsule 3.10",
+      "cta": "Proposer mes 3 actions chiffrées",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton plan, prêt à signer.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture de ton plan Éco-staging pour M. Bernard : 3 actions à petit budget, chacune avec le défaut traité, l'action, qui, le coût, la date et la preuve, et le total.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le plan de M. Bernard t'attend : reviens le déposer quand il est prêt."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Mozi a passé trois couches de blanc. Toi, trois actions, environ 450 euros, chaque ligne datée, et rien de caché.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton plan : 3 actions, ≈ 450 €, chaque ligne datée, rien de caché. Mozi : trois couches de blanc.",
+      "source": "Fait observable : ton plan Éco-staging"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Légifrance — Code civil, art. 1112-1 (devoir d'information ; responsabilité et annulation possible en cas de manquement), consulté le 26/10/2026",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032007138"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — méthode Éco-staging (prix indicatifs fictifs du fil rouge)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Écran 5 : formulation « vente annulable » à faire relire (l'art. 1112-1 renvoie aux conditions des art. 1130 et suivants)",
+    "Trois actions alignées sur la bible §7 : l'action 1 regroupe le traitement anti-moisissures de la salle de bains (≈ 70 €) et le débouchage du conduit (≈ 150 €) ; répartition des 450 € fictive et indicative, prix locaux à valider",
+    "Cohérence : le devis VMC D13 (2 900 €) inclut aussi le débouchage ; préciser aux acquéreurs que le débouchage a été fait sans modifier le chiffrage officiel de 16 500 €",
+    "B-roll avant/après d'un séjour : afficher « illustration » à l'écran",
+    "Écran 15 : effet statut fondé sur un fait observable, pas sur une statistique"
+  ]
+}

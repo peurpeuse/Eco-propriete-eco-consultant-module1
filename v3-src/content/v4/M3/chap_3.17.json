@@ -1,0 +1,327 @@
+{
+  "id": "3.17",
+  "module": 3,
+  "title": "DISC : identifier le profil du vendeur",
+  "capsule_title": "DISC : identifier le profil du vendeur",
+  "duration": "4:30",
+  "objective": "Identifier le style de communication dominant de M. Bernard (D, I, S ou C) à partir d'au moins 5 indices observés, et le noter sur sa fiche profil comme une hypothèse à vérifier",
+  "mozi": {
+    "line": "Oubliez les chiffres, monsieur Bernard : j'ai un super feeling, on signe !",
+    "scene": "Mozi entre chez M. Bernard avec une trompette et des confettis, lui tape dans le dos et range le classeur de comparables sans l'ouvrir. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 3.17 : identifier le profil du vendeur",
+      "voice": "Bienvenue. Avant de parler, on observe. Dans ce chapitre, tu repères le style de M. Bernard, indice après indice.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "les quatre styles de communication D, I, S et C"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "relever les indices du style de M. Bernard et formuler une hypothèse"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer sa fiche profil, indices à l'appui, en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Oubliez les chiffres, monsieur Bernard : j'ai un super feeling, on signe !",
+      "voice": "Oubliez les chiffres, monsieur Bernard : j'ai un super feeling, on signe !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Oubliez les chiffres, monsieur Bernard : j'ai un super feeling, on signe !",
+      "scene": "Mozi arrive avec trompette et confettis, et range le classeur de comparables sans l'ouvrir."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "Même ton, même blague, sans rien observer",
+      "voice": "Même ton. Même blague. Sans rien observer.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "Même ton",
+        "Même blague",
+        "Sans rien observer"
+      ],
+      "wrong": 2,
+      "why": "Sans observer, Mozi ne voit pas que M. Bernard veut des preuves."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Raccompagné à la porte. Troisième agence écartée.",
+      "voice": "Dix minutes plus tard, M. Bernard le raccompagne poliment à la porte. Comme les deux agences d'avant, qui lui avaient promis sans calculer.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "Raccompagné à la porte.",
+        "Troisième agence écartée."
+      ],
+      "source": "Dossier fil rouge, bible §1 (profil C : veut des preuves, déteste l'insistance ; deux agences déjà écartées après un « −15 % » sans calcul) — situation fictive"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "1928 : le modèle de Marston",
+      "voice": "La grille DISC vient d'un modèle proposé en 1928 par le psychologue William Marston. Quatre styles. Attention : c'est un outil de communication, pas un test scientifique ni un diagnostic.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "En quelle année W. M. Marston publie-t-il le modèle à l'origine de la grille DISC ?",
+        "answer": 1928,
+        "min": 1850,
+        "max": 2020,
+        "step": 1,
+        "unit": ""
+      },
+      "value": "1928",
+      "label": "modèle de W. M. Marston, à l'origine de la grille DISC en 4 styles : un outil de communication, pas une science validée",
+      "source": "Everything DiSC, « Our story » : W. M. Marston, Emotions of Normal People (1928)"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "4 styles → 5 indices → une hypothèse",
+      "voice": "Imagine deux questions. La personne va vite, ou prend son temps ? Elle parle des faits, ou des personnes ? Rapide et faits : D, Dominant. Rapide et personnes : I, Influent. Posé et personnes : S, Stable. Posé et faits : C, Conforme. Ensuite, tu relèves des indices dans trois registres : son débit et ses questions, ce qu'il te montre, sa façon de décider. Un seul indice ne suffit pas : vises-en cinq. Enfin, tu écris une hypothèse, pas une étiquette. M. Bernard demande d'où vient chaque chiffre et sort une chemise classée : style C probable, à vérifier au prochain échange. Ton propre style, tu l'as repéré en capsule 1.9.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Ressource « Fiche DISC : profils » de la capsule 3.17 (proposition pédagogique Éco-Propriété) ; profil de M. Bernard : bible §1 ; renvoi : capsule 1.9 « La méthode DISC : se connaître »",
+      "steps": [
+        {
+          "label": "4 styles",
+          "detail": "Rapide ou posé, faits ou personnes : D, I, S, C."
+        },
+        {
+          "label": "5 indices, 3 registres",
+          "detail": "Débit et questions, objets montrés, façon de décider."
+        },
+        {
+          "label": "Une hypothèse",
+          "detail": "« Style C probable », à vérifier au prochain échange, jamais une étiquette."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Après un appel de deux minutes, Claire note : M. Bernard est un D, il a été sec. Que lui conseilles-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; bible §1 (M. Bernard ne décroche plus aux numéros inconnus)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Claire, négociatrice, a eu M. Bernard deux minutes au téléphone. Elle note dans son fichier : « Profil D, il a été sec. » Que lui conseilles-tu ?",
+      "model_answer": "Un seul indice ne suffit pas : un appel court peut tenir au contexte, il ne décroche plus aux numéros inconnus. Je lui conseille de relever au moins cinq indices dans les trois registres (débit et questions, objets montrés, façon de décider), puis d'écrire « hypothèse », pas une étiquette. Ses questions sur l'origine des chiffres et sa chemise classée orientent plutôt vers C.",
+      "keywords": [
+        "un seul indice",
+        "cinq indices",
+        "trois registres",
+        "hypothèse"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Règles d'éthique de la fiche DISC, capsule 3.17 (proposition pédagogique Éco-Propriété)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Observer avant de parler : repérer le style du client à partir de plusieurs indices",
+          "Parler à tous avec son propre style, pour rester authentique",
+          "Classer le client dans un profil dès le premier contact, une fois pour toutes"
+        ],
+        "answer": 0,
+        "feedback": "Le DISC est une grille d'observation de la communication, pas une étiquette ni un levier. On observe, on suppose, on vérifie. Et le fond ne change jamais.",
+        "whys": [
+          "Exact : sans observer, Mozi ne voit pas que M. Bernard veut des preuves. Les indices viennent avant le discours.",
+          "Faux : c'est précisément l'erreur de Mozi. Parler à un C comme à un I, c'est la porte.",
+          "Faux : un style se suppose à partir de plusieurs indices et se vérifie. Une étiquette posée trop tôt fausse toute la relation."
+        ]
+      },
+      "card2": {
+        "question": "Si M. Bernard parlait longuement de sa fille à Nantes, que changerais-tu sur sa fiche ?",
+        "answer": "Je noterais un contre-indice : il y a peut-être aussi une part de S. Mon hypothèse devient « C dominant, part de S possible », à vérifier au prochain échange. Les preuves restent au centre."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : savoir à qui tu parles, avant de parler. La fiche DISC des profils, et la fiche profil de M. Bernard.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Savoir à qui tu parles, avant de parler",
+      "tools": [
+        {
+          "name": "Fiche DISC : profils",
+          "role": "Les 4 styles et leurs indices observables"
+        },
+        {
+          "name": "Fiche profil du vendeur",
+          "role": "5 indices, une hypothèse, une question de vérification"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Fiche DISC : observer, noter, supposer",
+      "voice": "Je relis mes notes de découverte. Débit posé, et cette question : d'où vient ce chiffre ? Une chemise de documents classés. Les moins quinze pour cent refusés, faute de calcul. J'écris sur la fiche : style C, hypothèse à vérifier.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Exercice de la capsule 3.17 (indices attendus) ; bible §1",
+      "tool": "Fiche DISC : profils",
+      "steps": [
+        "Débit et questions : posé, « D'où vient ce chiffre ? »",
+        "Objets montrés : une chemise de documents classés",
+        "Décision : refuse les « −15 % » sans calcul, veut relire",
+        "Hypothèse notée sur D01 : style C, à vérifier au prochain échange"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "La fiche profil : hypothèse, puis vérification",
+      "voice": "Puis je remplis sa fiche profil. Cinq indices, datés et sourcés. Mon hypothèse : C probable. Un contre-indice : il parle de sa fille, une part de S. Une question de vérification. Adapter mon discours, ce sera la capsule 3.18.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Exercice de la capsule 3.17 (réponses attendues) ; bible §1 (fille à Nantes) ; suite : capsule 3.18 « DISC : adapter son discours »",
+      "tool": "Fiche profil du vendeur",
+      "steps": [
+        "Indices : cinq, chacun daté avec sa source (appel, rendez-vous, mail)",
+        "Hypothèse : style C probable, pas une étiquette",
+        "Contre-indice : il parle de sa fille à Nantes, part de S possible",
+        "Vérification : « Préférez-vous recevoir le dossier avant notre rendez-vous ? »"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "À toi : profile M. Bernard.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien vers l'exercice de la capsule 3.17",
+      "cta": "Profiler M. Bernard",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi sa fiche profil, indices à l'appui.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture de la fiche profil DISC de M. Bernard : ton hypothèse, au moins 5 indices observés (datés et sourcés), un contre-indice éventuel et ta question de vérification.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. M. Bernard t'attend : reviens déposer sa fiche profil quand elle est prête."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Mozi parle avant d'écouter. Toi, tu as cinq indices, une hypothèse, et une question pour la vérifier.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta fiche : 5 indices, 1 hypothèse, 1 question de vérification. Mozi : aucun indice relevé.",
+      "source": "Fait observable : ta fiche profil DISC"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Everything DiSC — Histoire du modèle (W. M. Marston, Emotions of Normal People, 1928)",
+      "url": "https://www.everythingdisc.com/our-story"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — grille DISC appliquée à la relation vendeur (fil rouge fictif)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Recentrage v4 : le chapitre s'arrête à l'identification du profil ; la réécriture des phrases (ouverture, prix, conclusion) passe dans la capsule 3.18 « DISC : adapter son discours » (pas de chapitre interactif prévu au PLAN)",
+    "Écran 4 : croyance de Mozi reformulée (« Sans rien observer ») pour viser l'identification",
+    "Écran 5 : la conséquence s'appuie sur le fil rouge (fictif), pas sur une étude ; à valider",
+    "Écran 12 : question de vérification proposée, à valider par Sébastien Paumier",
+    "Mention de marque : écrire « DISC » générique, ne pas reproduire de questionnaire ni de couleurs d'une marque DiSC commerciale [À VALIDER relecture juridique, héritage capsule]",
+    "Le DISC est présenté comme un outil de communication sans validation scientifique (écran 6) ; aucune donnée de profil ne doit être communiquée au client ni à un tiers",
+    "Parcours maison : Mme Garnier (profil S, bible §11.1) peut servir d'exemple de contraste dans la ressource",
+    "Écran 15 : effet statut fondé sur un fait observable, pas sur une statistique"
+  ]
+}

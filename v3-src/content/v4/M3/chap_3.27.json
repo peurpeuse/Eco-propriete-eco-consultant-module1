@@ -1,0 +1,344 @@
+{
+  "id": "3.27",
+  "module": 3,
+  "title": "Obtenir le mandat exclusif",
+  "capsule_title": "Obtenir le mandat exclusif",
+  "duration": "4:30",
+  "objective": "Construire ton argumentaire d'exclusivité : proposer l'exclusivité comme un échange d'engagements écrits, puis vérifier avant la signature un mandat exclusif conforme à la loi Hoguet",
+  "mozi": {
+    "line": "Signez ici ! L'exclusivité, c'est au dos, en tout petit : dix ans, sans sortie !",
+    "scene": "Mozi déplie un mandat de deux mètres ; au dos, la clause d'exclusivité est écrite si petit qu'il tend un microscope à M. Bernard. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 3.27 : obtenir le mandat exclusif",
+      "voice": "Bienvenue. Jeudi 5 novembre, M. Bernard revient avec sa réponse. Dans ce chapitre, tu obtiens l'exclusivité. Sans pression : par un échange.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "pourquoi l'exclusivité sert d'abord le projet du vendeur"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "construire ton argumentaire : engagements écrits, cadre Hoguet, sortie"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ton argumentaire et ta charte d'engagements en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Signez ici ! L'exclusivité, c'est au dos, en tout petit : dix ans, sans sortie !",
+      "voice": "Signez ici ! L'exclusivité, c'est au dos, en tout petit : dix ans, sans sortie !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Signez ici ! L'exclusivité, c'est au dos, en tout petit : dix ans, sans sortie !",
+      "scene": "Mozi tend un microscope pour lire la clause d'exclusivité, au dos d'un mandat géant."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "Clause minuscule, 10 ans, 0 sortie",
+      "voice": "Une clause minuscule. Dix ans. Zéro sortie.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "Clause minuscule",
+        "10 ans",
+        "0 sortie"
+      ],
+      "wrong": 0,
+      "why": "Une clause illisible rend l'exclusivité inapplicable."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Clause illisible : exclusivité inapplicable.",
+      "voice": "La loi est claire. Une clause d'exclusivité qui n'est pas en caractères très apparents ne s'applique pas. Et passé trois mois, le vendeur peut sortir, avec quinze jours de préavis.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "Clause illisible : exclusivité inapplicable.",
+        "Sortie possible après 3 mois, préavis de 15 jours."
+      ],
+      "source": "Décret n° 72-678 du 20 juillet 1972, art. 78 (Légifrance) : clause en caractères très apparents dans un mandat dont un exemplaire est remis au mandant ; dénonciation possible après 3 mois avec 15 jours de préavis par LRAR"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "91 jours en exclusif, 142 en mandat simple",
+      "voice": "Selon une enquête de leboncoin Immo auprès de 419 professionnels, en 2025 : 91 jours de délai en exclusif, contre 142 en mandat simple. Un indicateur déclaratif. Jamais une promesse.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Quel délai moyen de vente déclaré en mandat exclusif, en jours ?",
+        "answer": 91,
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "unit": " jours"
+      },
+      "value": "91 j",
+      "label": "de délai moyen déclaré en exclusif, contre 142 j en mandat simple (déclaratif)",
+      "source": "Enquête leboncoin Immo auprès de 419 professionnels (22/09 – 7/10/2025), relayée par MySweetImmo le 6/11/2025 : déclarations de professionnels, pas une statistique officielle"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Un échange → le cadre Hoguet → la sortie",
+      "voice": "D'abord, l'exclusivité est un échange. M. Bernard te confie seul la vente. Toi, tu t'engages par écrit : attestation jointe, dossier technique, plan Éco-staging, compte rendu toutes les deux semaines, chiffrage des travaux. Un profil C signe pour une liste qu'il peut cocher. Ensuite, le cadre : la loi Hoguet. Un mandat écrit : 180 000 euros net, 9 000 euros d'honoraires à la charge de l'acquéreur, trois mois. Inscrit au registre, numéro reporté sur son exemplaire. Clause d'exclusivité en caractères très apparents. Enfin, la sortie, dite clairement. Passé trois mois, chacun peut dénoncer le mandat, avec quinze jours de préavis par recommandé. Et si tu fais signer chez lui : quatorze jours de rétractation.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Loi n° 70-9 du 2/01/1970 ; décret n° 72-678, art. 72, 73 et 78 ; Code de la consommation, art. L. 221-18 (Légifrance) ; engagements et prix : bible §7 (fictif) ; types de mandat comparés : capsule 3.26",
+      "steps": [
+        {
+          "label": "Un échange",
+          "detail": "Il te confie seul la vente ; tu t'engages par écrit sur 5 services."
+        },
+        {
+          "label": "Le cadre Hoguet",
+          "detail": "Mandat écrit, registre, clause en caractères très apparents, exemplaire remis."
+        },
+        {
+          "label": "La sortie, dite clairement",
+          "detail": "Après 3 mois : préavis de 15 jours par LRAR. Signé hors agence : 14 jours."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Karim veut écrire dans son argumentaire : en exclusif, vendu en 91 jours. Que lui conseilles-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Enquête leboncoin Immo (MySweetImmo, 6/11/2025, déclaratif)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Karim, directeur d'agence, veut écrire dans son argumentaire : « En exclusif, votre bien sera vendu en 91 jours. » Que lui conseilles-tu ?",
+      "model_answer": "Supprimer la promesse. Écrire : « Les professionnels interrogés par leboncoin Immo en 2025 déclarent 91 jours en exclusif contre 142 en mandat simple : c'est un indicateur, pas une promesse. Ce que je garantis, ce sont mes engagements écrits. »",
+      "keywords": [
+        "déclaratif",
+        "source",
+        "pas une promesse",
+        "engagements écrits"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Décret n° 72-678 du 20 juillet 1972, art. 78 ; Code de la consommation, art. L. 221-18 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "La clause d'exclusivité doit être en caractères très apparents, dans un mandat remis au vendeur",
+          "Un mandat exclusif engage le vendeur sans sortie jusqu'à son terme",
+          "La clause d'exclusivité peut figurer n'importe où, dès lors que le vendeur signe"
+        ],
+        "answer": 0,
+        "feedback": "Art. 78 du décret n° 72-678 : la clause ne s'applique que si elle figure dans un mandat dont un exemplaire est remis au vendeur, en caractères très apparents. Et passé 3 mois, chacun peut dénoncer le mandat avec 15 jours de préavis par LRAR.",
+        "whys": [
+          "Exact : clause visible, lue ensemble, exemplaire numéroté remis à M. Bernard.",
+          "Faux : passé 3 mois, le mandat exclusif peut être dénoncé à tout moment avec 15 jours de préavis par LRAR.",
+          "Faux : cachée au dos ou en petit, la clause ne peut pas recevoir application."
+        ]
+      },
+      "card2": {
+        "question": "Si Sarah faisait signer le mandat au domicile d'un vendeur, que faudrait-il ajouter ?",
+        "answer": "L'information sur le droit de rétractation, avec son formulaire : un contrat conclu hors établissement ouvre au vendeur un délai de 14 jours pour se rétracter (Code de la consommation, art. L. 221-18)."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : une exclusivité acceptée, pas arrachée. La charte d'engagements, et la check-list Hoguet.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Une exclusivité acceptée, pas arrachée",
+      "tools": [
+        {
+          "name": "Charte d'engagements",
+          "role": "5 engagements : quoi, quand, avec quelle preuve"
+        },
+        {
+          "name": "Check-list Hoguet",
+          "role": "Vérifier le mandat avant la signature"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "La charte : cinq engagements à cocher",
+      "voice": "La charte de M. Bernard : l'attestation E jointe à l'annonce. Le dossier technique, remis aux acheteurs sérieux. Le plan Éco-staging, avant le 13 novembre. Un compte rendu toutes les deux semaines, dès le 19. Et les 16 500 euros de travaux, chiffrés pour chaque acquéreur.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Argumentaire type » de la capsule 3.27 (charte remplie, fil rouge fictif) ; bible §7",
+      "tool": "Charte d'engagements",
+      "steps": [
+        "Attestation E jointe au dossier et à l'annonce, dès la mise en ligne",
+        "Dossier technique remis aux acquéreurs sérieux, avant toute offre",
+        "Plan Éco-staging ≈ 450 €, avant le 13/11/2026",
+        "Compte rendu écrit toutes les 2 semaines, premier le 19/11/2026",
+        "Chiffrage des travaux (16 500 €) remis à chaque acquéreur"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "La check-list : avant le stylo",
+      "voice": "Avant le stylo, la check-list. Prix, durée, honoraires, et qui les paie. La clause, en caractères très apparents, lue ensemble. La sortie après trois mois. Puis le registre, et son exemplaire numéroté, remis avec la charte.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Décret n° 72-678, art. 72, 73 et 78 (Légifrance) ; check-list Hoguet de la capsule 3.27",
+      "tool": "Check-list Hoguet",
+      "steps": [
+        "Prix, durée, honoraires et qui les paie : 180 000 € net, 9 000 € TTC acquéreur, 3 mois",
+        "Clause d'exclusivité en caractères très apparents, lue ensemble",
+        "Sortie : après 3 mois, préavis de 15 jours par LRAR",
+        "Inscription au registre, numéro sur l'exemplaire remis à M. Bernard avec la charte"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "À toi : construis ton argumentaire.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien vers l'exercice de la capsule 3.27 (prompt IA et garde-fous fournis)",
+      "cta": "Construire mon argumentaire d'exclusivité",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton argumentaire et ta charte.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture de ton argumentaire d'exclusivité pour M. Bernard : l'échange proposé, ta charte de 5 engagements (contenu, date, preuve), le cadre Hoguet vérifié et la sortie dite clairement.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. M. Bernard revient jeudi : reviens déposer ton argumentaire quand il est prêt."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Mozi cache sa clause au microscope. Toi, ta clause se lit à l'œil nu, et tes cinq engagements se cochent.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton mandat : clause lisible, 5 engagements datés. Mozi : dix ans au microscope.",
+      "source": "Fait observable : ta charte d'engagements et ta check-list Hoguet"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972, art. 72 (mandat écrit, registre, numéro reporté sur l'exemplaire du mandant), vérifié le 26/10/2026",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033202014"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 73 (rémunération précisée dans le mandat, partie qui en a la charge), vérifié le 26/10/2026",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033261932"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 78 (clause d'exclusivité en caractères très apparents, exemplaire remis ; dénonciation après 3 mois, préavis 15 jours LRAR), vérifié le 26/10/2026",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000030782471"
+    },
+    {
+      "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (loi Hoguet)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068387"
+    },
+    {
+      "label": "Légifrance — Code de la consommation, art. L. 221-18 (rétractation de 14 jours, contrat hors établissement)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842"
+    },
+    {
+      "label": "MySweetImmo — Enquête leboncoin Immo auprès de 419 professionnels (6/11/2025, déclaratif)",
+      "url": "https://www.mysweetimmo.com/2025/11/06/immobilier-les-biens-vendus-en-exclusivite-partent-51-jours-plus-vite-quen-mandat-simple/"
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Renvois v4 : types de mandat comparés en capsule 3.26, honoraires défendus en capsule 3.25 (chapitres nouveaux) : vérifier la cohérence des formulations une fois ces chapitres écrits",
+    "Relecture juridique obligatoire : formulation des art. 72, 73 et 78 du décret n° 72-678 et de l'art. L. 221-18 C. consom. (écrans 5, 7, 9, 12)",
+    "Clause « vente par le propriétaire lui-même » : ne pas l'énoncer à l'écran, renvoyer au modèle de mandat de l'agence [À VALIDER]",
+    "Écran 9, carte 2 : le formulaire type de rétractation relève des obligations d'information précontractuelle (à vérifier : C. consom. art. L. 221-5) ; seul l'art. L. 221-18 a été vérifié",
+    "Chiffre leboncoin (91 j / 142 j) : toujours affiché avec sa source et la mention « déclaratif »",
+    "Numéro de registre fictif à afficher en démonstration (ex. « n° 2026-118, fictif »)",
+    "Écran 13 : alternative possible, lien vers le décret n° 72-678 sur Légifrance plutôt que « #exercice »",
+    "Écran 15 : effet statut fondé sur un fait observable, pas sur une statistique"
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "id": "3.12",
+  "module": 3,
+  "title": "Travaux ou vente en l'état : arbitrer sur les chiffres",
+  "capsule_title": "Travaux ou vente en l'état : arbitrer sur les chiffres",
+  "duration": "4:30",
+  "objective": "Choisir et justifier pour M. Bernard, indicateurs à l'appui (prix net, coût, délai, appels de fonds), entre travaux avant la vente et vente en l'état avec un chiffrage remis aux acquéreurs",
+  "mozi": {
+    "line": "Changez tout, même la façade ! Rénové, c'est 216 600 €, c'est mathématique !",
+    "scene": "Mozi, une calculatrice géante sous le bras, colle des fenêtres neuves sur la photo de l'immeuble et raye au feutre la ligne « appels de fonds ». Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 3.12 : travaux ou vente en l'état",
+      "voice": "Bienvenue. Dans ce chapitre, tu aides M. Bernard à choisir entre faire les travaux et vendre en l'état. Pas au feeling : avec ses indicateurs.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "pourquoi une valeur après travaux ne suffit pas à décider"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "remplir la grille d'arbitrage avec les indicateurs du dossier"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ta grille et ton choix justifié en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Changez tout, même la façade ! Rénové, c'est 216 600 €, c'est mathématique !",
+      "voice": "Changez tout, même la façade ! Rénové, c'est 216 600 €, c'est mathématique !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Changez tout, même la façade ! Rénové, c'est 216 600 €, c'est mathématique !",
+      "scene": "Mozi colle des fenêtres neuves sur la photo de l'immeuble et raye la ligne « appels de fonds »."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "216 600 €, 0 coût, 0 délai",
+      "voice": "Deux cent seize mille six cents euros. Zéro coût. Zéro délai.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "216 600 €",
+        "0 coût",
+        "0 délai"
+      ],
+      "wrong": 1,
+      "why": "Rénover coûterait 52 380 € pour 34 600 € d'écart de prix : le compte n'y est pas."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "52 380 € dépensés. Vente repoussée après le chantier.",
+      "voice": "En vrai : 16 500 euros de travaux, plus 35 880 euros d'appels de façade. 52 380 euros dépensés, pour 34 600 euros d'écart. Et une vente repoussée après le chantier, qui ne démarre qu'en avril 2027.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "52 380 € dépensés pour 34 600 € d'écart.",
+        "Vente repoussée après le chantier (début avril 2027)."
+      ],
+      "source": "Dossier fil rouge (fictif) : devis D13 = 16 500 € ; PV d'AG D07 = 35 880 € pour le lot ; 216 600 − 182 000 = 34 600 € ; appels payés par le copropriétaire à la date d'exigibilité (décret n° 67-223 du 17/03/1967, art. 6-2, Légifrance)"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "35 880 € : la ligne qui manque",
+      "voice": "Dans notre dossier d'exemple, la ligne qui manque à Mozi : 35 880 euros. C'est la part du lot de M. Bernard dans l'isolation de façade votée. Quatre appels de 8 970 euros, en 2027.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Combien coûte l'isolation de façade votée pour le lot de M. Bernard ?",
+        "answer": 35880,
+        "min": 0,
+        "max": 80000,
+        "step": 500,
+        "unit": " €"
+      },
+      "value": "35 880 €",
+      "label": "d'isolation de façade votée pour le lot (dossier d'exemple fictif) : 4 appels de 8 970 € en 2027",
+      "source": "PV d'AG du 12/06/2025 (D07) : 1 150 000 € × 312/10 000 = 35 880 €, appels aux 1/01, 1/04, 1/07 et 1/10/2027 — dossier fil rouge fictif"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Deux scénarios, quatre indicateurs → retirer les coûts → il décide",
+      "voice": "D'abord, tu compares deux scénarios avec quatre indicateurs de ton tableau de bord : prix net, coût, délai, risque. En l'état : 178 000 à 186 000 euros net, environ 450 euros d'Éco-staging, mise en vente en novembre. Ensuite, tu retires les coûts. Les 216 600 euros supposent les travaux privatifs et la façade isolée. Écart avec le milieu de la fourchette : 34 600 euros. Coût : 52 380 euros. Bilan : moins 17 780 euros. Enfin, tu conseilles, et lui décide. Tu poses la grille, M. Bernard refait le calcul lui-même. Et la plus-value ? Sur une résidence principale, elle est en principe exonérée. Le notaire le confirme.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Dossier fil rouge (bible §5-§7, fictif) : (216 600 − 182 000) − 16 500 − 35 880 = −17 780 € ; Service-Public F10864 (exonération de la plus-value sur la résidence principale) ; tableau de bord du bien : capsule 3.7",
+      "steps": [
+        {
+          "label": "Deux scénarios, quatre indicateurs",
+          "detail": "Prix net, coût, délai, risque : en l'état ou travaux."
+        },
+        {
+          "label": "Retirer les coûts",
+          "detail": "34 600 € d'écart − 16 500 € − 35 880 € = −17 780 €."
+        },
+        {
+          "label": "Il décide",
+          "detail": "Tu poses la grille, il refait le calcul, il signe l'arbitrage."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ? Hugo reçoit le mail de M. Bernard : un rénové se vend 216 600 euros, je fais les travaux ? Que répond Hugo ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Hugo, mandataire, reçoit un mail de M. Bernard : « Un rénové se vend 216 600 €. Ne vaudrait-il pas mieux que je fasse les travaux ? » Que lui répond-il ?",
+      "model_answer": "Pour viser 216 600 €, il faut 16 500 € de travaux privatifs et la façade isolée, soit 35 880 € d'appels pour le lot : 52 380 € pour 34 600 € d'écart, et une vente repoussée après le chantier, qui démarre en avril 2027. Je recommande la vente en l'état avec un dossier chiffré pour l'acheteur. La grille est jointe ; la décision vous appartient.",
+      "keywords": [
+        "52 380 €",
+        "34 600 €",
+        "appels de fonds",
+        "il décide"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi oublie-t-il ?",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Décret n° 67-223 du 17 mars 1967, art. 6-2, 2° (Légifrance, version en vigueur depuis le 25/12/2025, vérifiée le 26/10/2026)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Les appels de fonds votés sont payés par le copropriétaire à la date d'exigibilité",
+          "Les travaux votés sont toujours payés par l'acquéreur, qui en profitera",
+          "Aucune : le prix rénové s'applique dès que les travaux sont votés"
+        ],
+        "answer": 0,
+        "feedback": "Art. 6-2, 2°, du décret du 17 mars 1967 : vis-à-vis du syndicat, c'est le copropriétaire à la date d'exigibilité qui paie. Plus M. Bernard vend tard, plus il paie d'appels.",
+        "whys": [
+          "Exact : chaque appel de 8 970 € est payé par celui qui est copropriétaire à sa date. Un autre partage peut se convenir chez le notaire, sans engager le syndicat.",
+          "Faux : rien ne met automatiquement les appels à la charge de l'acquéreur ; tout dépend de la date d'exigibilité.",
+          "Faux : le prix rénové suppose les travaux réalisés, pas seulement votés. Le chantier démarre en avril 2027."
+        ]
+      },
+      "card2": {
+        "question": "Si Claire conseillait seulement les travaux privatifs, que se passerait-il ?",
+        "answer": "Valeur non documentée (les comparables à 2 850 €/m² sont dans des immeubles isolés), plusieurs mois de délai, et probablement 2 ou 3 appels de 8 970 € de plus payés par M. Bernard."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : aider M. Bernard à décider, chiffres à l'appui. La grille d'arbitrage, et ton choix justifié par écrit.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Aider M. Bernard à décider, chiffres à l'appui",
+      "tools": [
+        {
+          "name": "Grille d'arbitrage",
+          "role": "Comparer 3 scénarios : prix, coût, délai, appels payés"
+        },
+        {
+          "name": "Choix justifié",
+          "role": "Dix lignes : les indicateurs, ta recommandation, sa décision"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Grille : trois colonnes, une dernière ligne",
+      "voice": "Je pose la grille. Colonne A, en l'état. Colonne B, travaux privatifs d'abord. Colonne C, attendre la façade isolée. Dernière ligne : compatible avec avant l'été 2027 ? A, oui. B, risqué. C, non.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Grille d'arbitrage » de la capsule 3.12 (grille remplie, fil rouge fictif)",
+      "tool": "Grille d'arbitrage",
+      "steps": [
+        "A, en l'état : 178 000 – 186 000 € net, ≈ 450 €, novembre 2026",
+        "B, travaux privatifs : 16 500 €, valeur non documentée, plusieurs mois",
+        "C, après l'ITE : 16 500 € + 35 880 € = 52 380 €, après le chantier",
+        "Objectif « avant l'été 2027 » : A compatible, B risqué, C incompatible"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "Choix justifié : dix lignes, sa décision",
+      "voice": "Puis j'écris dix lignes. Son objectif. Le calcul : 52 380 euros pour 34 600 d'écart. Ma recommandation : vendre en l'état, avec les devis remis aux acheteurs. Et la phrase clé : la décision lui appartient.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Exercice et livrable de la capsule 3.12 ; Service-Public F10864 pour le renvoi au notaire",
+      "tool": "Choix justifié",
+      "steps": [
+        "Rappeler l'objectif : vendu avant l'été 2027",
+        "Donner le calcul : 52 380 € dépensés pour 34 600 € d'écart",
+        "Recommander la vente en l'état, devis D13 et calendrier des appels remis aux acheteurs",
+        "Laisser la décision au vendeur, renvoyer la plus-value au notaire"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "À toi : choisis, et justifie.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "lien vers l'exercice de la capsule 3.12",
+      "cta": "Remplir la grille d'arbitrage",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta grille et ton choix justifié.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une capture de ta grille d'arbitrage remplie pour M. Bernard (3 scénarios, chaque indicateur avec sa pièce) et de ton choix justifié en dix lignes.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. La grille de M. Bernard t'attend : reviens la déposer quand elle est prête."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Tu as démontré, chiffres à l'appui, ce que Mozi n'a jamais calculé : moins 17 780 euros.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta grille : 3 scénarios, −17 780 € démontrés. Mozi : une calculatrice sans ligne de coûts.",
+      "source": "Fait observable : ta grille d'arbitrage ; calcul du fil rouge (fictif)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des provisions lors de la vente d'un lot)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    },
+    {
+      "label": "Service-Public — Plus-value immobilière : exonération de la résidence principale (F10864)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10864"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — grille d'arbitrage (chiffres du fil rouge fictifs)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Renvoi à la capsule 3.7 (tableau de bord du bien) : vérifier que ses indicateurs reprennent prix net, coût, délai et appels de fonds",
+    "Relecture juridique : art. 6-2 du décret de 1967 et accord vendeur/acquéreur qui n'engage pas le syndicat (héritage capsule)",
+    "Durée du chantier ITE non connue : ne pas la chiffrer à l'écran",
+    "Fiscalité limitée au principe d'exonération de la résidence principale, renvoi au notaire",
+    "Écran 15 : effet statut fondé sur un fait observable, pas sur une statistique"
+  ]
+}

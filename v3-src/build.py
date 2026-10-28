@@ -12,9 +12,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 CON, ENG, OUT = (os.path.join(ROOT, d) for d in ("content", "engine", "build"))
 VERSION = "3.0"
 META = {
-    "key": "v3", "program": "Formation Éco-Consultant", "title": "Parcours e-learning : 5 modules, 34 chapitres interactifs de 4 min 30",
+    "key": "v3", "program": "Formation Éco-Consultant", "title": "Parcours e-learning : un prérequis et 5 modules, des capsules de 4 min 30 maximum",
     "subtitle": "Code couleur DPE : tu progresses du rouge (module 1) au vert (module 5), comme un logement rénové.",
-    "duration": "≈ 35 à 45 heures de formation à distance (34 chapitres interactifs de 4 min 30, 34 exercices et 5 cas pratiques)",
+    "duration": "Formation à distance : capsules de 4 min 30 maximum (vidéo, quiz flash, ressource, exercice, livrable), cas pratiques",
     "bands": {
         "ia": "Dans chaque module, des prompts métier prêts à l'emploi : contenus marketing, analyse DPE, plan de travaux, estimation, argumentaires, négociation.",
         "neuro": "Chapitres de 4 min 30 en 15 écrans (attention), question ouverte et cartes de quiz dans chaque chapitre (récupération active), rappels J+1, J+7, J+30 (répétition espacée), cas réels et fil rouge (émotion, récit).",
@@ -23,38 +23,59 @@ META = {
     "pitch": "Deviens l'agent de référence sur la performance énergétique : attire les propriétaires, estime avec le DPE, signe en exclusivité, sécurise le compromis et la vente. 34 chapitres interactifs avec Mozi, le méchant qui fait tout de travers, des exercices sur un vrai dossier (fictif) et l'IA comme assistant à chaque étape.",
     "hours": "≈ 40 heures",
     "objectives": {
+        "0": "Comprendre ce que le changement climatique change pour les logements et pour le marché de ta zone, sources à l'appui.",
         "1": "Te positionner comme expert local de la performance énergétique et construire ta visibilité (offre, pitch, contenus).",
         "2": "Estimer un bien en intégrant le DPE, la décote ou la valeur verte et le coût réel des travaux.",
         "3": "Transformer un rendez-vous d'estimation en mandat exclusif grâce à un argumentaire énergétique solide.",
         "4": "Négocier et rédiger un compromis qui intègre les travaux, le financement et les obligations du vendeur.",
         "5": "Sécuriser la vente jusqu'à l'acte : conditions suspensives, copropriété, diagnostics et suivi client."},
     "skills": ["DPE et audit énergétique", "Estimation immobilière", "Valeur verte", "Prise de mandat exclusif", "Négociation", "Compromis de vente", "Copropriété", "Financement des travaux", "Prompts IA métier", "Marketing local"]}
-COLORS = {1: ("#E2231A", "Rouge"), 2: ("#F08A00", "Orange"), 3: ("#E8B900", "Jaune"), 4: ("#8CC63F", "Vert clair"), 5: ("#2FA84F", "Vert")}
-SLUG = {1: "Se-differencier", 2: "Estimer", 3: "Exclusivite", 4: "Compromis", 5: "Securiser"}
+COLORS = {0: ("#8E1B3A", "Bordeaux"), 1: ("#E2231A", "Rouge"), 2: ("#F08A00", "Orange"), 3: ("#E8B900", "Jaune"), 4: ("#8CC63F", "Vert clair"), 5: ("#2FA84F", "Vert")}
+SLUG = {0: "Prerequis", 1: "Se-differencier", 2: "Estimer", 3: "Exclusivite", 4: "Compromis", 5: "Securiser"}
 
 def capkey(f):
+    m = re.search(r"cap_P(\d+)\.json$", f)
+    if m: return (0, int(m.group(1)))
     m = re.search(r"cap_(\d+)\.(\d+)\.json$", f); return (int(m.group(1)), int(m.group(2)))
+
+V4 = {0: "P", 1: "M1", 2: "M2", 3: "M3"}  # nouveau plan (tableau revu) : content/v4/
+
+def mlabel(m): return "Prérequis" if m["id"] == 0 else f"Module {m['id']}"
+
+def auto_reminders(m):
+    """Rappels J+1, J+7, J+30 tirés des quiz flash des capsules : la 1re question de chaque capsule à J+1, la 2e à J+7, la 3e à J+30 (10 questions au plus, réparties sur le module)."""
+    qs = [c["quiz"]["questions"] for c in m["capsules"] if c.get("quiz", {}).get("questions")]
+    out, names = {}, {"J1": "J+1 · Ce que tu as vu hier", "J7": "J+7 · Une semaine après", "J30": "J+30 · Ce qui doit rester"}
+    for k, t in enumerate(("J1", "J7", "J30")):
+        n = len(qs); idx = sorted({round(i * (n - 1) / 9) for i in range(10)}) if n > 10 else range(n)
+        out[t] = {"subject": f"{names[t]} ({mlabel(m)})", "questions": [dict(qs[i][min(k, len(qs[i]) - 1)]) for i in idx]}
+    return out
 
 def load():
     mods = []
-    for n in range(1, 6):
-        mf = os.path.join(CON, f"M{n}", "module.json")
+    for n in range(0, 6):
+        d = os.path.join(CON, "v4", V4[n]) if n in V4 else os.path.join(CON, f"M{n}")
+        mf = os.path.join(d, "module.json")
         if not os.path.exists(mf): sys.exit(f"manquant : {mf}")
         m = json.load(open(mf))
-        caps = sorted(glob.glob(os.path.join(CON, f"M{n}", "cap_*.json")), key=capkey)
+        caps = sorted(glob.glob(os.path.join(d, "cap_*.json")), key=capkey)
+        want = m.get("capsules") if n in V4 else None
         m["capsules"] = [json.load(open(f)) for f in caps]
+        if want: m["capsules"] = [c for c in m["capsules"] if c["id"] in want]  # seules les fiches écrites du plan
         for c in m["capsules"]:  # chapitre interactif (gabarit 15 écrans) quand il existe
-            cf = os.path.join(CON, f"M{n}", f"chap_{c['id']}.json")
+            if n in V4: c["v4"] = True
+            cf = os.path.join(d, f"chap_{c['id']}.json")
             if os.path.exists(cf): c["chapter"] = json.load(open(cf))
         m["id"] = n
+        if m.get("reminders") == "auto": m["reminders"] = auto_reminders(m)
         mods.append(m)
     g = json.load(open(os.path.join(CON, "global.json")))
     return mods, g
 
 def downloads(mods):
     """Paquets SCORM proposés au téléchargement sur le site (servis depuis v3/scorm/)."""
-    d = [{"file": f"scorm/ECO-CONSULTANT_Parcours-complet_SCORM12_v{VERSION}.zip", "label": "Parcours complet · 5 modules, 34 capsules", "full": True}]
-    d += [{"file": f"scorm/ECO-CONSULTANT_M{m['id']}_{SLUG[m['id']]}_SCORM12_v{VERSION}.zip", "label": f"Module {m['id']} · {m['title']}"} for m in mods]
+    d = [{"file": f"scorm/ECO-CONSULTANT_Parcours-complet_SCORM12_v{VERSION}.zip", "label": f"Parcours complet · prérequis et 5 modules, {sum(len(m['capsules']) for m in mods)} capsules", "full": True}]
+    d += [{"file": f"scorm/ECO-CONSULTANT_{'P' if m['id'] == 0 else 'M' + str(m['id'])}_{SLUG[m['id']]}_SCORM12_v{VERSION}.zip", "label": f"{mlabel(m)} · {m['title']}"} for m in mods]
     return d
 
 def course(mods, g, scope, preview, pdf=True):
@@ -141,33 +162,34 @@ def pdf_jobs(mods, g):
         mc = COLORS[m["id"]][0]
         for c in m["capsules"]:
             r = c["resource"]
-            body = f"<h1>{e(r['title'])}</h1>" + (f"<div class='intro'>{e(r.get('intro'))}</div>" if r.get("intro") else "") + sections(r.get("sections")) + (f"<div class='foot'>{e(r.get('footer'))}</div>" if r.get("footer") else "") + "<div class='foot'>Éco-Consultant · Module " + str(m["id"]) + " · Capsule " + c["id"] + " — " + e(c["title"]) + " · Document pédagogique : vérifie toujours la réglementation en vigueur.</div>"
-            jobs.append((f"RES_{c['id'].replace('.', '-')}.pdf", page(body, mc, f"Ressource · Module {m['id']} · Capsule {c['id']}", "LOGO")))
-        k = m["case"]
+            body = f"<h1>{e(r['title'])}</h1>" + (f"<div class='intro'>{e(r.get('intro'))}</div>" if r.get("intro") else "") + sections(r.get("sections")) + (f"<div class='foot'>{e(r.get('footer'))}</div>" if r.get("footer") else "") + "<div class='foot'>Éco-Consultant · " + mlabel(m) + " · Capsule " + c["id"] + " — " + e(c["title"]) + " · Document pédagogique : vérifie toujours la réglementation en vigueur.</div>"
+            jobs.append((f"RES_{c['id'].replace('.', '-')}.pdf", page(body, mc, f"Ressource · {mlabel(m)} · Capsule {c['id']}", "LOGO")))
+        k = m.get("case")
+        if not k: continue
         crit = "<table><thead><tr><th>Critère</th><th>Points</th><th>Attendu</th></tr></thead><tbody>" + "".join(f"<tr><td>{e(x.get('label'))}</td><td>{e(x.get('points'))}</td><td>{e(x.get('expected'))}</td></tr>" for x in k.get("criteria", [])) + "</tbody></table>"
         body = f"<h1>{e(k['title'])}</h1><p><b>Durée :</b> {k.get('duration_min')} min · <b>Sortie du module :</b> {e(m['exit'])}</p><div class='intro'>{e(k['brief'])}</div><h2>Documents</h2><ul>" + "".join(f"<li>{e(d)}</li>" for d in k.get("documents", [])) + "</ul><h2>Ce que tu dois faire</h2><ol>" + "".join(f"<li>{e(t)}</li>" for t in k.get("tasks", [])) + f"</ol><h2>Livrable</h2><p>{e(k.get('deliverable'))}</p>"
         if k.get("variants"): body += "<h2>Variantes</h2><ul>" + "".join(f"<li>{e(v if isinstance(v, str) else (v.get('title', '') + ' — ' + (v.get('text') or v.get('description') or '')))}</li>" for v in k["variants"]) + "</ul>"
         body += "<h2>Grille d'évaluation</h2>" + crit
-        jobs.append((f"CAS_M{m['id']}.pdf", page(body, mc, f"Cas pratique · Module {m['id']}", "LOGO")))
+        jobs.append((f"CAS_M{m['id']}.pdf", page(body, mc, f"Cas pratique · {mlabel(m)}", "LOGO")))
     docs = g["dossier"]["documents"]
     body = "<h1>Dossier fil rouge — l'appartement de M. Bernard</h1><p><span class='fict'>Documents fictifs à usage pédagogique</span></p><p>" + e(g.get("start", {}).get("dossier_intro", "")) + "</p><h2>Sommaire</h2><ol>" + "".join(f"<li>{d['id']} · {e(d['title'])}</li>" for d in docs) + "</ol>"
     for d in docs: body += f"<div class='pb'></div><h1>{d['id']} · {e(d['title'])}</h1><p><span class='fict'>Document fictif à usage pédagogique</span></p>" + sections(d.get("sections"))
     jobs.append(("DOSSIER_fil-rouge.pdf", page(body, "#1A7A44", "Dossier fil rouge", "LOGO")))
     # Storyboards des chapitres (pour Sébastien Paumier et le montage)
-    body = "<h1>Storyboards — 34 chapitres de 4 min 30</h1><p>Pour chaque chapitre : les 15 écrans du gabarit (6 briques), la voix de Sébastien Paumier (ou la réplique de Mozi), l'interaction et la source. Voix marquées « proposition » : à valider avant production.</p>"
+    body = f"<h1>Storyboards — {sum(1 for m in mods for c in m['capsules'] if c.get('chapter'))} chapitres de 4 min 30</h1><p>Pour chaque chapitre : les 15 écrans du gabarit (6 briques), la voix de Sébastien Paumier (ou la réplique de Mozi), l'interaction et la source. Voix marquées « proposition » : à valider avant production.</p>"
     for m in mods:
         for c in m["capsules"]:
             ch = c.get("chapter")
             if not ch: continue
             w = sum(len(re.findall(r"\w+", s["voice"])) for s in ch["screens"])
-            body += f"<div class='pb'></div><h1>Chapitre {c['id']} · {e(ch['title'])}</h1><p><b>Module {m['id']}</b> · capsule « {e(c['title'])} » · {w} mots · Mozi : « {e(ch['mozi']['line'])} »</p>"
+            body += f"<div class='pb'></div><h1>Chapitre {c['id']} · {e(ch['title'])}</h1><p><b>{mlabel(m)}</b> · capsule « {e(c['title'])} » · {w} mots · Mozi : « {e(ch['mozi']['line'])} »</p>"
             body += "".join(f"<div class='seg'><span class='tc'>{e(s['tc'])}</span><span><b>{s['n']}. {e(s['title'])}</b><br>{'Mozi : ' if s['kind'] == 'mozi' else ''}{e(s['voice'])} <i>({e(s.get('voice_status'))})</i><br><span class='sc'>Interaction : {e(s.get('interaction'))}{(' · Source : ' + e(s.get('source'))) if s.get('source') else ''}</span></span></div>" for s in ch["screens"])
             if ch.get("open_points"): body += "<p class='sc'><b>À valider :</b> " + e(" · ".join(ch["open_points"])) + "</p>"
     jobs.append(("SCRIPTS_videos.pdf", page(body, "#E56618", "Storyboards · Sébastien Paumier", "LOGO")))
     # Guide formateur (corrigés + grilles) — NE PAS diffuser aux apprenants
     body = "<h1>Guide formateur — corrigés et grilles de validation</h1><p><b>Document réservé au formateur.</b> Pour chaque capsule : objectif, corrigé de l'exercice, critères de validation du livrable, réponses du quiz flash.</p>"
     for m in mods:
-        body += f"<div class='pb'></div><h1>Module {m['id']} · {e(m['title'])}</h1>"
+        body += f"<div class='pb'></div><h1>{mlabel(m)} · {e(m['title'])}</h1>"
         for c in m["capsules"]:
             x = c["exercise"]; d = c["deliverable"]
             body += f"<h2>{c['id']} · {e(c['title'])}</h2><p><b>Objectif :</b> {e(c['objective'])}</p><h3>Exercice : {e(x['title'])}</h3><p>{e(x['context'])}</p><h3>Corrigé</h3><p>{e(x['expected'])}</p>"
@@ -197,7 +219,7 @@ def heygen(mods):
         w = csv.writer(f, delimiter=";"); w.writerow(["capsule", "module", "titre", "mots", "duree_estimee_min", "script"])
         for m in mods:
             for c in m["capsules"]:
-                segs = c["chapter"]["screens"] if c.get("chapter") else c["video"]["segments"]
+                segs = c["chapter"]["screens"] if c.get("chapter") else c["video"].get("segments") or [{"voice": c["video"].get("pitch", "")}]
                 txt = "\n\n".join(s["voice"] for s in segs); n = len(re.findall(r"\w+", txt))
                 w.writerow([c["id"], m["id"], c["title"], n, round(n / 140, 1), txt])
                 open(os.path.join(d, f"script_{c['id'].replace('.', '-')}.txt"), "w").write(f"{c['id']} — {c['title']}\n\n{txt}\n")
@@ -229,20 +251,20 @@ def main():
         shutil.rmtree(pdfdir, ignore_errors=True); os.makedirs(pdfdir)
         jobs = pdf_jobs(mods, g); asyncio.run(render_pdfs(jobs, pdfdir)); print(f"PDF : {len(jobs)}")
     heygen(mods)
-    full = {"modules": [1, 2, 3, 4, 5], "start": True, "end": True}
+    full = {"modules": [0, 1, 2, 3, 4, 5], "start": True, "end": True}
     write_pkg(os.path.join(OUT, "site"), course(mods, g, full, True), False, "", "")
     sd = os.path.join(OUT, "scorm"); shutil.rmtree(sd, ignore_errors=True); os.makedirs(sd)
     tmp = os.path.join(OUT, "_pkg")
-    write_pkg(tmp, course(mods, g, full, False), True, "Éco-Consultant — Parcours complet (5 modules, 34 capsules)", "ECO-CONSULTANT-PARCOURS-v3")
+    write_pkg(tmp, course(mods, g, full, False), True, f"Éco-Consultant — Parcours complet (prérequis et 5 modules, {sum(len(m['capsules']) for m in mods)} capsules)", "ECO-CONSULTANT-PARCOURS-v3")
     zipdir(tmp, os.path.join(sd, f"ECO-CONSULTANT_Parcours-complet_SCORM12_v{VERSION}.zip"))
     for m in mods:
         sc = {"modules": [m["id"]], "start": False, "end": False}
-        write_pkg(tmp, course(mods, g, sc, False), True, f"Éco-Consultant — Module {m['id']} · {m['title']}", f"ECO-CONSULTANT-M{m['id']}-v3")
-        zipdir(tmp, os.path.join(sd, f"ECO-CONSULTANT_M{m['id']}_{SLUG[m['id']]}_SCORM12_v{VERSION}.zip"))
+        write_pkg(tmp, course(mods, g, sc, False), True, f"Éco-Consultant — {mlabel(m)} · {m['title']}", f"ECO-CONSULTANT-{'P' if m['id'] == 0 else 'M' + str(m['id'])}-v3")
+        zipdir(tmp, os.path.join(sd, f"ECO-CONSULTANT_{'P' if m['id'] == 0 else 'M' + str(m['id'])}_{SLUG[m['id']]}_SCORM12_v{VERSION}.zip"))
     shutil.rmtree(tmp)
     preview_file(course(mods, g, full, True))
     n = sum(len(m["capsules"]) for m in mods)
-    words = sum(len(re.findall(r"\w+", s["voice"])) for m in mods for c in m["capsules"] for s in (c["chapter"]["screens"] if c.get("chapter") else c["video"]["segments"]))
+    words = sum(len(re.findall(r"\w+", s["voice"])) for m in mods for c in m["capsules"] for s in (c["chapter"]["screens"] if c.get("chapter") else c["video"].get("segments") or []))
     print(f"chapitres au gabarit : {sum(1 for m in mods for c in m['capsules'] if c.get('chapter'))}/{n}")
     print(f"OK : {n} capsules, {words} mots de voix (≈ {round(words / 140)} min) ; paquets : {', '.join(sorted(os.listdir(sd)))}")
 

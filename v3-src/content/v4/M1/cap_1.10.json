@@ -1,0 +1,218 @@
+{
+  "id": "1.10",
+  "module": 1,
+  "section": "E · Je me spécialise",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Choisir sa cible selon le problème du vendeur",
+  "objective": "Choisir 3 profils de vendeurs dans la bibliothèque d'angles et rédiger pour chacun une offre ciblée en trois temps (problème, proposition, preuve), sans promesse de prix ni de gain",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi envoie le même prospectus « Estimation gratuite » à tout le quartier et s'étonne que personne ne rappelle. Sébastien Paumier montre l'inverse : partir du problème du vendeur. Six situations types (maison F ou G, lot de copropriété, héritier, bailleur, logement D ou C, bien qui ne se vend pas), démontrées sur M. Bernard et Mme Garnier, et une offre écrite en trois temps."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi distribue 2 000 prospectus « Estimation gratuite, meilleur prix garanti » dans tout Melun. Quelle est son erreur principale ?",
+        "options": [
+          "Il n'a pas imprimé assez de prospectus pour couvrir la ville",
+          "Il parle de lui et de son service, pas d'un problème précis qu'un vendeur reconnaît",
+          "Il aurait dû proposer l'estimation payante pour paraître sérieux"
+        ],
+        "answer": 1,
+        "whys": [
+          "Le volume ne compense pas un message que personne ne reconnaît comme le sien : plus de prospectus, c'est surtout plus de papier jeté.",
+          "Juste : une offre ciblée part d'une situation (maison classée G, travaux votés en copropriété…) et d'un problème que le vendeur vit, pas du service de l'agent.",
+          "Le prix de l'estimation n'est pas le sujet ; et « meilleur prix garanti » est une promesse qu'aucun agent ne peut tenir."
+        ],
+        "fb_title": "Une offre ciblée part du problème du vendeur",
+        "fb_text": "Le vendeur ne cherche pas une estimation : il cherche la réponse à son problème. Mme Garnier a entendu « invendable, −25 % » ; M. Bernard veut un prix qu'il peut vérifier malgré son DPE et les travaux votés. Une offre qui nomme ce problème est lue ; une offre générique est jetée."
+      },
+      {
+        "question": "Mme Garnier (maison de 1968 classée G, fioul) a entendu « invendable, comptez −25 % ». Quelle proposition correspond à son angle ?",
+        "options": [
+          "« Votre maison va gagner 25 % si vous installez une pompe à chaleur avant la vente. »",
+          "« Je vous trouve l'artisan et je m'occupe des travaux, vous vendrez plus cher. »",
+          "« Je lis avec vous l'audit obligatoire et je chiffre les deux options : vendre en l'état ou après une première étape de travaux. »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Promesse de gain interdite : aucune étude ne garantit +25 %, et c'est une décision de travaux que tu n'as pas à prendre à sa place.",
+          "L'éco-consultant ne vend pas de travaux et ne choisit pas l'entreprise à la place du vendeur ; il éclaire la décision.",
+          "Juste : l'audit (obligatoire pour une maison classée F ou G) fournit des parcours chiffrés ; tu compares les scénarios sans rien promettre."
+        ],
+        "fb_title": "Maison F ou G : comparer, pas promettre",
+        "fb_text": "Pour une maison classée G, l'audit énergétique est obligatoire à la vente. L'audit de Mme Garnier propose une étape 1 à 42 500 € TTC (classe D) et un parcours complet à 78 000 € TTC (classe C). Ton rôle : mettre ces chiffres à côté des ventes du secteur, sans chiffrer d'aide comme acquise."
+      },
+      {
+        "question": "Un bailleur te dit : « Mon studio est classé G, mon locataire part. Je le reloue ou je vends ? » Quel est le bon angle ?",
+        "options": [
+          "Rappeler qu'un G ne peut plus être proposé à une nouvelle location, puis chiffrer vendre en l'état ou rénover",
+          "Lui conseiller de relouer vite avant que la règle ne soit contrôlée",
+          "Lui dire que la règle ne concerne que les maisons"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : depuis le 1/01/2025, un logement G ne répond plus au critère de décence pour une nouvelle location ; tu poses le problème et tu compares les options.",
+          "Conseil fautif : tu exposes ton client à un litige avec son locataire et tu engages ta responsabilité professionnelle.",
+          "Faux : le critère de décence énergétique vise les logements loués, maisons comme appartements."
+        ],
+        "fb_title": "Le bailleur énergivore : un problème daté",
+        "fb_text": "Calendrier du critère de décence (à revérifier avant chaque citation) : G exclu des nouvelles locations depuis le 1/01/2025, F en 2028, E en 2034. Le bailleur a un problème précis et daté : c'est ce qui rend ton offre utile. Pour la fiscalité, tu le renvoies à son expert-comptable."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Bibliothèque de 6 angles vendeurs (profil, problème à résoudre, proposition Éco-Consultant) et modèle d'offre ciblée",
+    "kind": "fiche",
+    "intro": "Six situations de vendeurs que tu rencontreras chaque mois, avec le problème qu'ils vivent et ce que tu peux leur proposer sans sortir de ton rôle. Choisis tes angles, puis rédige une offre ciblée par angle avec le modèle en trois temps.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "La bibliothèque des 6 angles",
+        "headers": [
+          "Profil",
+          "Problème à résoudre",
+          "Proposition Éco-Consultant",
+          "Preuve à montrer"
+        ],
+        "rows": [
+          [
+            "Maison classée F ou G",
+            "« Invendable, −25 % » ; audit obligatoire à la vente ; peur de devoir financer des travaux",
+            "Lire l'audit avec le vendeur, comparer vendre en l'état et après une première étape de travaux",
+            "Audit et devis, ventes de maisons comparables du secteur"
+          ],
+          [
+            "Appartement en copropriété",
+            "Travaux votés ou à venir (PPPT), DPE ancien, quote-part à expliquer aux acquéreurs",
+            "Vérifier l'étiquette en vigueur, lire PV d'AG et plan de travaux, préparer les réponses chiffrées",
+            "Attestation actualisée, PV d'AG, appels de fonds datés"
+          ],
+          [
+            "Héritier d'un logement ancien",
+            "Logement vide, décisions à plusieurs, aucune connaissance du bien",
+            "Faire l'inventaire technique et documentaire du bien, poser les options pour la décision des héritiers",
+            "Dossier de diagnostics, liste des documents, renvoi au notaire pour la succession"
+          ],
+          [
+            "Bailleur d'un logement énergivore",
+            "Logement G exclu des nouvelles locations depuis 2025, F en 2028 : relouer devient impossible ou risqué",
+            "Comparer vendre en l'état, rénover puis louer, rénover puis vendre",
+            "DPE ou attestation, devis, ventes comparables ; fiscalité renvoyée à l'expert-comptable"
+          ],
+          [
+            "Logement classé D ou C",
+            "Sa qualité énergétique ne se voit pas dans les annonces concurrentes",
+            "Faire de la performance un argument vérifiable dans l'annonce et en visite",
+            "DPE en vigueur, factures, travaux réalisés avec justificatifs"
+          ],
+          [
+            "Bien qui ne se vend pas",
+            "En vente depuis des mois, baisses de prix sans effet",
+            "Diagnostiquer l'annonce : prix face aux ventes réelles, DPE affiché, photos, réponses aux objections",
+            "Ventes DVF du secteur, annonce actuelle, nombre de contacts et de visites"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Le modèle d'offre ciblée en 3 temps",
+        "items": [
+          "Le problème : une phrase avec les mots du vendeur (« On vous a dit que votre maison classée G était invendable ? »).",
+          "La proposition : ce que tu fais, en verbes vérifiables (je lis, je vérifie, je chiffre, je remets par écrit), et ce que tu ne fais pas.",
+          "La preuve : la pièce que tu montreras (audit, attestation, ventes du secteur, PV d'AG), jamais un pourcentage ni un gain promis."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Exemple rempli : maison classée G (parcours maison, Mme Garnier, fictif)",
+        "text": "Problème : « On vous a dit que votre maison classée G était invendable et qu'il fallait compter −25 % ? » Proposition : « Je lis avec vous l'audit énergétique obligatoire, je compare deux options chiffrées, vendre en l'état ou après une première étape de travaux, et je les confronte aux ventes réelles de maisons du secteur. Je ne vends pas de travaux et je ne choisis pas l'entreprise à votre place. » Preuve : « Votre audit du 15/10/2026 chiffre une première étape à 42 500 € TTC pour atteindre la classe D : on la met à côté des ventes de maisons comparables, à 2 750 €/m² en l'état et 3 300 €/m² rénovées (exemple fictif). »"
+      },
+      {
+        "type": "text",
+        "heading": "Exemple rempli : appartement en copropriété (M. Bernard, fictif)",
+        "text": "Problème : « Deux agences vous ont annoncé −15 % à cause de votre DPE, et la copropriété a voté une isolation des façades. » Proposition : « Je vérifie l'étiquette en vigueur, je lis avec vous le PV d'AG et le calendrier des appels de fonds, et je prépare les réponses chiffrées que les acquéreurs attendront. » Preuve : « Avec l'attestation actualisée de l'ADEME, votre appartement est classé E (150 × 1,9 = 285 kWhEP/m²/an). »"
+      },
+      {
+        "type": "checklist",
+        "heading": "Avant d'envoyer une offre ciblée",
+        "items": [
+          "Le problème est nommé avec les mots du vendeur, pas avec le jargon du métier.",
+          "Aucune promesse de prix, de classe, de délai ou de gain ; aucune aide présentée comme acquise.",
+          "Les questions juridiques, fiscales ou de succession sont renvoyées au notaire ou à l'expert-comptable.",
+          "La preuve annoncée existe et tu sais où la trouver.",
+          "Le canal d'envoi respecte les règles de prospection (consentement pour le téléphone, l'e-mail et le SMS : voir capsules 1.21 et 1.22)."
+        ]
+      }
+    ],
+    "footer": "Sources : INC, audit énergétique obligatoire à la vente ; Légifrance, loi n° 2021-1104 du 22 août 2021 (Climat et résilience) et critère de décence énergétique ; ADEME, observatoire DPE-Audit ; Notaires de France, valeur verte (transactions 2024). Exemples : fils rouges fictifs (BIBLE §1-11). Bibliothèque d'angles : proposition pédagogique Éco-Propriété, à valider par Sébastien Paumier. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Trois offres ciblées tirées de la bibliothèque d'angles",
+    "duration_min": 40,
+    "context": "Tu ne peux pas parler à tout le monde. Tu choisis 3 situations de la bibliothèque (maison F ou G, appartement en copropriété, héritier d'un logement ancien, bailleur d'un logement énergivore, logement D ou C, bien qui ne se vend pas) qui existent vraiment dans ta zone, et tu écris pour chacune une offre ciblée. Tu peux t'appuyer sur les fils rouges : M. Bernard (copropriété) et Mme Garnier (maison G, parcours maison).",
+    "materials": [
+      "Bibliothèque de 6 angles vendeurs (ressource)",
+      "D03 Attestation actualisée ADEME (classe E) et D07 PV d'AG du 12/06/2025",
+      "M02 DPE et M03 Audit énergétique de Mme Garnier (parcours maison)",
+      "Ta fiche zone et ta fiche cible (capsules 1.4 à 1.7)"
+    ],
+    "steps": [
+      "Relis ta fiche zone : note les 3 situations de la bibliothèque les plus fréquentes dans ton secteur, avec un indice concret (type de biens, âge du parc, part de bailleurs).",
+      "Pour chaque situation, écris le problème en une phrase, avec les mots qu'un vendeur emploierait.",
+      "Écris la proposition : 2 ou 3 verbes vérifiables, plus une phrase sur ce que tu ne fais pas.",
+      "Écris la preuve : la pièce que tu montreras, et où tu la trouves.",
+      "Relis avec la check-list : aucune promesse, aucun conseil juridique ou fiscal, renvois au bon professionnel.",
+      "Lis chaque offre à voix haute : 20 secondes maximum chacune."
+    ],
+    "expected": "Exemple attendu pour l'angle « bailleur d'un logement énergivore ». Problème : « Votre logement est classé G et votre locataire s'en va : vous ne savez pas si vous pouvez le relouer. » Proposition : « Je vérifie l'étiquette en vigueur et je compare avec vous trois options chiffrées : vendre en l'état, rénover puis louer, rénover puis vendre. Pour la fiscalité, je vous renvoie à votre expert-comptable. » Preuve : « Le DPE ou l'attestation actualisée, des devis et les ventes réelles de votre secteur. » Les deux autres offres suivent la même structure, avec un problème nommé, des verbes vérifiables et une pièce identifiée. Aucune ne contient « garanti », « vous gagnerez », un pourcentage national ou une aide présentée comme acquise."
+  },
+  "deliverable": {
+    "title": "Mes 3 offres ciblées",
+    "format": "PDF ou DOCX, 1 page : 3 offres en 3 temps (problème, proposition, preuve), avec l'angle choisi et la raison du choix dans ta zone",
+    "criteria": [
+      "3 angles différents de la bibliothèque, chacun justifié par un indice de ta zone",
+      "Chaque offre suit les 3 temps : problème, proposition, preuve",
+      "Le problème est formulé avec les mots du vendeur",
+      "Aucune promesse de prix, de classe, de délai ou de gain, aucune aide présentée comme acquise",
+      "Les sujets juridiques, fiscaux ou de succession sont renvoyés au notaire ou à l'expert-comptable",
+      "Chaque offre se lit en 20 secondes ou moins"
+    ]
+  },
+  "sources": [
+    {
+      "label": "INC — L'obligation de réaliser un audit énergétique lors de la vente de certaines maisons",
+      "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons"
+    },
+    {
+      "label": "Légifrance — Loi n° 2021-1104 du 22 août 2021 (Climat et résilience), critère de décence énergétique",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924"
+    },
+    {
+      "label": "Service-Public — Diagnostic de performance énergétique (DPE), F16096",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — bibliothèque de 6 angles vendeurs",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier la liste des 6 angles et leur formulation.",
+    "à vérifier : calendrier du critère de décence énergétique en vigueur au moment de la diffusion (G depuis le 1/01/2025, F en 2028, E en 2034) et URL de la page officielle de référence (Service-Public ou ministère).",
+    "Le parcours maison (Mme Garnier, BIBLE §11) reste une proposition à valider par Sébastien Paumier.",
+    "Le chapitre interactif (nouveau) reste à écrire."
+  ]
+}

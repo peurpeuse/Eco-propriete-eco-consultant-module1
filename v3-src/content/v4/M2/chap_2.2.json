@@ -1,0 +1,341 @@
+{
+  "id": "2.2",
+  "module": 2,
+  "title": "La fiche découverte vendeur",
+  "capsule_title": "La fiche découverte vendeur",
+  "duration": "4:30",
+  "objective": "Remplir la fiche découverte du vendeur fil rouge à partir de son dossier et de l'entretien fourni : projet et délai, prix attendu et son origine, contraintes, critères de choix, puis synthèse validée par écrit",
+  "mozi": {
+    "line": "Pas besoin de questions : je sens le prix rien qu'au paillasson !",
+    "scene": "Mozi, à quatre pattes sur le palier de M. Bernard, renifle le paillasson, puis colle sur la porte un post-it « Prix : beaucoup » avant même d'avoir sonné. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 2.2 : la fiche découverte vendeur",
+      "voice": "Bienvenue. Avant d'estimer un bien, tu écris noir sur blanc ce que veut son vendeur : c'est la fiche découverte.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "pourquoi la fiche découverte passe avant le prix"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "remplir la fiche de M. Bernard à partir de son dossier et de l'entretien"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ta fiche découverte remplie en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Pas besoin de questions : je sens le prix rien qu'au paillasson !",
+      "voice": "Pas besoin de questions : je sens le prix rien qu'au paillasson !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Pas besoin de questions : je sens le prix rien qu'au paillasson !",
+      "scene": "Mozi renifle le paillasson de M. Bernard et colle un post-it « Prix : beaucoup » sur la porte, sans avoir sonné."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "0 question, 1 paillasson, 1 prix",
+      "voice": "Zéro question. Un paillasson. Un prix.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "0 question",
+        "1 paillasson",
+        "1 prix"
+      ],
+      "wrong": 0,
+      "why": "Sans questions, personne ne voit venir l'appel de fonds de 8 970 €."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "8 970 € au 1er janvier 2027. Personne ne l'a vu venir.",
+      "voice": "Sans question, personne ne voit l'appel de fonds du ravalement : 8 970 euros au 1er janvier 2027. En principe, c'est le vendeur, encore copropriétaire à cette date, qui le paie.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "1er janvier 2027 : appel de fonds de 8 970 €.",
+        "Personne ne l'avait demandé. Personne ne l'a prévu."
+      ],
+      "source": "Dossier fil rouge fictif (PV d'AG D07 : 1 150 000 € × 312 / 10 000 = 35 880 €, 4 appels de 8 970 €) ; règle : un appel de fonds hors budget prévisionnel est payé par le copropriétaire à la date d'exigibilité, décret n° 67-223 du 17 mars 1967, art. 6-2, 2° ; un accord contraire vendeur-acquéreur n'engage pas le syndicat (art. 6-3)"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "33 000 € d'écart",
+      "voice": "Trente-trois mille euros. C'est l'écart entre ce qu'espère M. Bernard et ce qu'on lui a annoncé. Ton travail commence par une question : d'où vient chacun de ces chiffres ?",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Quel écart entre le prix espéré par M. Bernard (205 000 €) et celui annoncé par deux agences ?",
+        "answer": 33000,
+        "min": 0,
+        "max": 80000,
+        "step": 1000,
+        "unit": " €"
+      },
+      "value": "33 000 €",
+      "label": "d'écart entre le prix espéré (205 000 €) et le prix annoncé par deux agences (172 000 €) : calcul du dossier de M. Bernard",
+      "source": "Calcul sur le dossier fil rouge (données fictives, pas une statistique) : 205 000 − 172 000 = 33 000 €"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Motif et délai → Prix → Contraintes",
+      "voice": "Trois blocs, dans cet ordre. D'abord, le motif et le délai, avant le prix. M. Bernard veut se rapprocher de sa fille à Nantes et avoir vendu avant l'été 2027. Creuse : « Et en septembre 2027, ce serait un problème ? » « À trois mois près, non. » Pas d'urgence, donc aucune raison de brader. Ensuite, le prix et son origine. Tu ne commentes pas. Tu lui demandes sur quoi il se base pour 205 000, et ce qu'on lui a montré pour justifier 172 000. Tu notes l'écart, tu ne tranches pas. Enfin, les contraintes. Qui décide ? Il est seul propriétaire. La copropriété ? Le ravalement est voté : 35 880 euros pour son lot, en quatre appels de 8 970 euros. La fiscalité ? C'est sa résidence principale : plus-value exonérée en principe, le notaire confirmera. On y revient en 2.3.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Bible du fil rouge (fictif) ; Service-Public F10864 et impots.gouv.fr (exonération de la plus-value de la résidence principale) ; décret du 17 mars 1967, art. 6-2, 2°",
+      "steps": [
+        {
+          "label": "Motif et délai",
+          "detail": "Nantes, avant l'été 2027, souple à trois mois : pas d'urgence."
+        },
+        {
+          "label": "Prix et origine",
+          "detail": "205 000 € espérés, 172 000 € annoncés : on demande les preuves, on ne tranche pas."
+        },
+        {
+          "label": "Contraintes",
+          "detail": "Seul propriétaire ; ITE votée, 4 appels de 8 970 € ; plus-value à confirmer par le notaire (voir 2.3)."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Maxime a M. Bernard au bout du fil. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Maxime débute. Au téléphone, M. Bernard lui dit : « Deux agences m'ont annoncé 172 000 €. » Quelles sont ses premières questions ?",
+      "model_answer": "Je ne commente pas le chiffre. Je demande d'abord son projet et son délai : pourquoi il vend, pour quand. Puis : « Qu'est-ce qu'on vous a montré pour justifier 172 000 ? » et « Sur quoi vous basez-vous pour 205 000 ? » Je note l'écart, sans trancher.",
+      "keywords": [
+        "projet",
+        "délai",
+        "origine du chiffre",
+        "sans trancher"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Proposition pédagogique Éco-Propriété (étape 1 : le projet du vendeur) ; capsules 2.1 et 2.2",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "On découvre le projet, le délai et les contraintes du vendeur avant de parler prix",
+          "Il faut annoncer un prix dès la première minute pour garder la main",
+          "Aucune : un agent expérimenté peut estimer sans poser de questions"
+        ],
+        "answer": 0,
+        "feedback": "Une estimation sans projet, c'est un chiffre hors-sol. Le prix de mise en vente, le délai, la stratégie et la question des travaux dépendent de ce que veut le vendeur.",
+        "whys": [
+          "Exact : le projet passe avant le prix. Sans lui, Mozi rate le délai, l'appel de fonds et les attentes de M. Bernard.",
+          "Faux : un prix lancé tôt fait de toi la troisième agence, et un profil C rejette les chiffres sans preuve.",
+          "Faux : l'expérience ne remplace pas les faits. Ni le paillasson ni le flair ne disent qu'un appel de 8 970 € arrive en janvier."
+        ]
+      },
+      "card2": {
+        "question": "Si Claire envoyait à M. Bernard une synthèse de cinq lignes sous 48 heures, que se passerait-il ?",
+        "answer": "M. Bernard confirmerait ou corrigerait par écrit son projet, son délai, son prix espéré, l'appel de fonds de janvier et ses attentes. Pour un profil C, c'est la preuve qu'elle a écouté, et la base écrite de l'estimation, de la stratégie et du mandat."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : un projet clair, validé par écrit. Le questionnaire projet, vu en 2.1, et la fiche découverte.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource de la capsule 2.1 (questionnaire projet vendeur) et ressource de la capsule 2.2 (fiche découverte vendeur, trame D01 du dossier fil rouge)",
+      "goal": "Un projet clair, validé par écrit",
+      "tools": [
+        {
+          "name": "Questionnaire projet (2.1)",
+          "role": "Préparer et conduire l'entretien, dans le bon ordre"
+        },
+        {
+          "name": "Fiche découverte D01",
+          "role": "Écrire, faire valider et garder la trace"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Questionnaire : envoyer, ouvrir, reformuler",
+      "voice": "La veille, tu envoies le questionnaire : M. Bernard aime préparer. Le jour J, tu ouvres par le projet, jamais par le prix. Une question à la fois, tu notes ses mots. Puis tu reformules : « Avant l'été 2027, souple à trois mois, c'est bien ça ? »",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Questionnaire projet vendeur » de la capsule 2.1 (proposition pédagogique Éco-Propriété)",
+      "tool": "Questionnaire projet",
+      "steps": [
+        "La veille : l'envoyer par e-mail (un profil C aime préparer)",
+        "Ouvrir par le projet : « Parlez-moi de votre projet »",
+        "Une question à la fois : noter ses mots exacts",
+        "Reformuler et faire valider : « Si je résume… c'est bien ça ? »"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "Fiche D01 : remplir, trier, synthétiser",
+      "voice": "Sur la fiche, six rubriques, avec ses mots. Son prix plancher ? Il le donnera après ton estimation : tu le notes tel quel. Sa pension, son médecin : tu ne les gardes pas. Et sous quarante-huit heures, cinq lignes de synthèse à lui faire confirmer.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Fiche découverte vendeur » de la capsule 2.2 ; CNIL, principes du RGPD (minimisation, art. 5) ; dossier fil rouge (D01, 6 rubriques, fictif)",
+      "tool": "Fiche découverte D01",
+      "steps": [
+        "Remplir les 6 rubriques avec au moins une citation du vendeur",
+        "Prix plancher : « après votre estimation », noté tel quel",
+        "Barrer pension et médecin : minimisation des données",
+        "Sous 48 h : synthèse de 5 lignes à faire confirmer"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Remplis la fiche de M. Bernard : son dossier et l'entretien t'attendent.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 2.2 : remplir la fiche découverte du vendeur fil rouge à partir de son dossier et de l'entretien fourni",
+      "cta": "Ouvrir l'exercice : dossier et entretien",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta fiche découverte.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.2 : fiche découverte de M. Bernard (1 page, trame D01)",
+      "ask": "Dépose une capture ou une photo de la fiche découverte de M. Bernard remplie à partir de son dossier et de l'entretien : les 6 rubriques, au moins une citation par rubrique, et la synthèse de 5 lignes.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le dossier et l'entretien de M. Bernard t'attendent : reviens déposer ta fiche quand elle est prête."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Là où deux agences ont lancé un chiffre, toi, tu as posé les bonnes questions.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta fiche : 6 rubriques et une synthèse à valider. Les deux autres agences : un chiffre, sans calcul montré.",
+      "source": "Bible du fil rouge (fictif) : deux agences ont annoncé 172 000 € (« −15 % à cause du DPE ») ; entretien de l'exercice 2.2 : « personne ne m'a montré de calcul »"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Service-Public, F10864 : plus-value immobilière, exonération de la résidence principale",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10864"
+    },
+    {
+      "label": "impots.gouv.fr : plus-values exonérées (logement quitté avant la vente, délai normal)",
+      "url": "https://www.impots.gouv.fr/particulier/plus-values-exonerees"
+    },
+    {
+      "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (2° : provisions hors budget payées par le copropriétaire au moment de l'exigibilité) et 6-3 (convention contraire inopposable au syndicat), texte cité par BJ Avocat, 29/09/2025",
+      "url": "https://www.bjavocat.com/2025/09/29/qui-doit-payer-les-charges-lors-de-la-vente-dun-lot-de-copropriete/"
+    },
+    {
+      "label": "Cour de cassation, 3e civ., 20 mai 2021, n° 20-15.633 (application de l'art. 6-2 lors d'une adjudication)",
+      "url": "https://www.lemondedudroit.fr/droit-civil/280-immobilier-construction/76903-adjudication-d-un-lot-de-copropriete-a-qui-incombe-le-paiement-de-la-provision.html"
+    },
+    {
+      "label": "CNIL : principes du RGPD (minimisation des données)",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété (13 étapes Éco-Consultant, données fil rouge fictives : BIBLE.md, D01, D07)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Plan v4 : le pourquoi de la vente (motif) est la capsule 2.1, sans chapitre ; ce chapitre 2.2 se centre sur la fiche découverte. Le questionnaire projet est cité comme ressource de 2.1 : à harmoniser avec la fiche capsule 2.1",
+    "Plan v4 : le net vendeur et la plus-value sont traités en 2.3 (chapitre nouveau) ; ici, seulement « exonérée en principe, le notaire confirmera », avec renvoi à 2.3",
+    "Écran 6 : le chiffre clé (33 000 € d'écart) est tiré du fil rouge fictif ; à remplacer par une statistique réelle sourcée si Sébastien Paumier le souhaite",
+    "Écran 5 et carte 2 : règle de l'appel de fonds vérifiée (art. 6-2, 2° et 6-3 du décret de 1967, texte cité par un cabinet d'avocats) ; relecture d'un juriste sur le texte consolidé Légifrance conseillée avant tournage",
+    "Écran 13 : pas d'outil en ligne officiel, lien vers l'exercice (#exercice) ; l'entretien fourni (transcription) doit exister dans l'exercice 2.2 ; écran 14 : fin sobre à valider",
+    "Cohérence à vérifier avec le D01 produit par le rédacteur du dossier (6 rubriques)"
+  ]
+}
