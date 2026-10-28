@@ -1,0 +1,178 @@
+{
+  "id": "2.11",
+  "module": 2,
+  "section": "D · PARCOURS MAISON · Ses diagnostics",
+  "etape": "2 (Éco-staging)",
+  "parcours": "maison",
+  "prio": false,
+  "ia": false,
+  "title": "Maison : quand l'audit énergétique est obligatoire",
+  "objective": "Dire, pour une maison donnée et une date de vente, si l'audit énergétique réglementaire est obligatoire, jusqu'à quand il est valable, quand le remettre, et lire ses deux parcours de travaux",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Une agence a dit à Mme Garnier : « Classée G, c'est invendable. » Sébastien Paumier ouvre son audit du 15/10/2026 : obligatoire depuis le 1/04/2023 pour une maison F ou G, depuis 2025 pour E, valable 5 ans, remis dès la première visite. Puis il lit les deux parcours de travaux, en une étape (78 000 €) ou en deux (42 500 € puis 35 500 €), sans jamais chiffrer d'aide comme acquise."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Une maison individuelle classée E est mise en vente en février 2027. L'audit énergétique est-il obligatoire ?",
+        "options": [
+          "Non, l'audit ne vise que les classes F et G",
+          "Oui, depuis le 1/01/2025 pour les maisons classées E",
+          "Seulement à partir de 2034"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : F et G sont concernées depuis le 1/04/2023, mais E l'est aussi depuis le 1/01/2025.",
+          "Juste : le calendrier vise F et G depuis le 1/04/2023, E depuis le 1/01/2025, D à partir du 1/01/2034.",
+          "Faux : 2034 est la date pour la classe D."
+        ],
+        "fb_title": "E, F, G : audit obligatoire",
+        "fb_text": "Calendrier de l'audit réglementaire à la vente d'une maison ou d'un immeuble hors copropriété : F et G depuis le 1/04/2023, E depuis le 1/01/2025, D à partir du 1/01/2034. Il est valable 5 ans."
+      },
+      {
+        "question": "Mme Garnier a reçu son audit le 15/10/2026. Quand doit-il être remis à un acquéreur potentiel ?",
+        "options": [
+          "Dès la première visite, par tout moyen",
+          "À la signature de la promesse seulement",
+          "Après l'acte, pour préparer les travaux"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : le vendeur ou son mandataire le remet lors de la première visite ; il est ensuite annexé à la promesse.",
+          "Faux : la promesse arrive trop tard ; l'acquéreur doit l'avoir dès la première visite.",
+          "Faux : l'audit sert à éclairer la décision d'achat, donc avant."
+        ],
+        "fb_title": "Première visite",
+        "fb_text": "L'audit est remis par le vendeur ou son mandataire dès la première visite, y compris par voie électronique, puis il entre dans le dossier de diagnostic technique annexé à la promesse ou à l'acte. Celui de Mme Garnier vaut jusqu'au 14/10/2031."
+      },
+      {
+        "question": "Un acquéreur te demande : « Avec les aides, la rénovation me coûtera combien ? » Que réponds-tu ?",
+        "options": [
+          "« Comptez la moitié de 78 000 €, les aides couvrent 50 %. »",
+          "« Rien, MaPrimeRénov' prend tout en charge. »",
+          "« L'audit chiffre les travaux ; les aides dépendent de vos revenus et du projet. France Rénov' peut vous les simuler. »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : tu présentes une aide comme acquise, avec un taux inventé.",
+          "Faux : aucune aide n'est automatique ni totale ; c'est une promesse.",
+          "Juste : tu donnes le coût de l'audit et tu renvoies vers le service public pour les aides."
+        ],
+        "fb_title": "Jamais d'aide acquise",
+        "fb_text": "L'audit indique des coûts et mentionne les aides possibles, mais leur montant dépend des revenus du ménage qui fera les travaux. Tu ne chiffres jamais une aide comme acquise : tu renvoies vers France Rénov' (conseiller public)."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche audit énergétique : maison individuelle ou monopropriété classée E, F ou G, calendrier daté et sourcé, contenu (scénarios de travaux)",
+    "kind": "fiche",
+    "intro": "Tout ce qu'il faut savoir sur l'audit énergétique réglementaire à la vente d'une maison : qui est concerné, depuis quand, sa validité, quand le remettre, ce qu'il contient. Avec l'exemple de la maison de Mme Garnier (audit fictif M03 du 15/10/2026).",
+    "sections": [
+      {
+        "heading": "Qui est concerné, depuis quand",
+        "type": "table",
+        "headers": ["Classe du DPE", "Audit obligatoire à la vente", "Biens visés"],
+        "rows": [
+          ["F ou G", "Depuis le 1/04/2023", "Maison individuelle ou immeuble de logements hors copropriété (monopropriété)"],
+          ["E", "Depuis le 1/01/2025", "Mêmes biens"],
+          ["D", "À partir du 1/01/2034", "Mêmes biens"],
+          ["A, B, C", "Non", "-"],
+          ["Lot de copropriété", "Non (quelle que soit la classe)", "Les copropriétés ont leurs propres outils (DPE collectif, PPPT)"]
+        ]
+      },
+      {
+        "heading": "Les règles pratiques",
+        "type": "checklist",
+        "items": [
+          "Valable 5 ans à partir de sa date",
+          "Remis par le vendeur ou son mandataire dès la première visite, par tout moyen",
+          "Intégré au dossier de diagnostic technique annexé à la promesse ou, à défaut, à l'acte",
+          "Réalisé par un professionnel qualifié, impartial, assuré, qui ne sous-traite pas l'audit",
+          "Commandé et payé par le vendeur"
+        ]
+      },
+      {
+        "heading": "Ce que contient l'audit",
+        "type": "list",
+        "items": [
+          "Un état des lieux : performance avant travaux selon la méthode du DPE, schéma des déperditions, équipements.",
+          "Deux propositions de parcours de travaux : une rénovation en une étape, et une rénovation par étapes.",
+          "Par étapes : la première étape doit faire gagner au moins deux classes (au moins la classe E) ; la dernière vise une rénovation performante (classe B, ou une classe inférieure justifiée par des contraintes techniques, architecturales ou de coût).",
+          "Pour chaque étape : consommations, émissions, classe après travaux, coûts TTC, économies estimées, aides possibles, ventilation et traitement des jonctions.",
+          "Un rapport de synthèse remis dans le mois qui suit la visite."
+        ]
+      },
+      {
+        "heading": "Exemple : l'audit de Mme Garnier (M03, fictif)",
+        "type": "table",
+        "headers": ["Parcours", "Travaux", "Coût TTC", "Classe visée"],
+        "rows": [
+          ["En une étape", "Combles (30 cm), murs par l'extérieur, plancher sur sous-sol, fenêtres, pompe à chaleur air/eau, VMC", "78 000 €", "C (≈ 120 kWhEP, 8 kgCO₂)"],
+          ["Étape 1", "Combles, pompe à chaleur air/eau, fenêtres", "42 500 €", "D"],
+          ["Étape 2", "Murs par l'extérieur, plancher bas, VMC", "35 500 €", "C"]
+        ]
+      },
+      {
+        "heading": "La phrase à dire à la vendeuse",
+        "type": "text",
+        "text": "« Votre maison n'est pas invendable : elle est classée G et l'audit le dit clairement, avec deux façons de la rénover et leur coût. Je le remettrai à chaque acquéreur dès la première visite. C'est une information qui rassure : l'acheteur sait où il va. Les aides, elles, dépendront de ses revenus ; je ne les chiffrerai pas à sa place. »"
+      }
+    ],
+    "footer": "Sources : INC, audit énergétique à la vente (16/12/2024) ; arrêté du 4/05/2022 modifié (contenu de l'audit, via AIDA-INERIS) ; ministère de la Transition écologique, « Vente immobilière » (calendrier E, F, G, D ; validité 5 ans) ; CCH, art. L. 126-28-1 et L. 271-4. Données du fil rouge fictives (BIBLE §11.3). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Dire si l'audit s'impose pour 3 maisons d'étiquettes différentes",
+    "duration_min": 20,
+    "context": "Trois vendeurs de ton secteur prévoient une promesse en mars 2027. Maison 1 : la maison de Mme Garnier, classée G (DPE du 06/02/2024), audit du 15/10/2026. Maison 2 (fictive) : maison de 1985 classée E, DPE de septembre 2022, pas d'audit. Maison 3 (fictive) : maison de 2005 classée D, DPE de 2024. Piège en bonus : un appartement en copropriété classé F.",
+    "materials": [
+      "M02 DPE du 06/02/2024 (synthèse)",
+      "M03 Audit énergétique du 15/10/2026",
+      "M14 Devis des travaux de l'audit",
+      "Fiche audit énergétique (ressource de la capsule)"
+    ],
+    "steps": [
+      "Pour chaque bien, vérifie d'abord le type (maison, monopropriété ou lot de copropriété) et la validité du DPE.",
+      "Applique le calendrier : l'audit est-il obligatoire en mars 2027 ?",
+      "Si un audit existe, calcule sa date de fin de validité.",
+      "Indique à quel moment il doit être remis et à qui.",
+      "Pour Mme Garnier, résume les deux parcours de l'audit en 3 lignes, sans chiffrer d'aide."
+    ],
+    "expected": "Maison 1 (Mme Garnier) : G, audit obligatoire depuis le 1/04/2023 ; audit du 15/10/2026 valable jusqu'au 14/10/2031 ; DPE valable jusqu'au 05/02/2034 ; audit remis dès la première visite, annexé à la promesse. Maison 2 : E, audit obligatoire depuis le 1/01/2025 : à commander avant la mise en vente. Maison 3 : D, pas d'audit obligatoire avant le 1/01/2034. Appartement F : pas d'audit réglementaire (lot de copropriété). Résumé Garnier : « En une étape : 78 000 € TTC pour atteindre la classe C. En deux étapes : 42 500 € pour passer en D (combles, pompe à chaleur, fenêtres), puis 35 500 € pour atteindre C (murs, plancher, VMC). Les aides dépendront des revenus de l'acquéreur. »"
+  },
+  "deliverable": {
+    "title": "Tableau « audit obligatoire ou non » pour 3 maisons",
+    "format": "1 page (PDF ou tableur)",
+    "criteria": [
+      "Le calendrier E, F, G (et D en 2034) est appliqué sans erreur",
+      "Le lot de copropriété est écarté de l'obligation",
+      "La validité de l'audit de Mme Garnier (14/10/2031) est juste",
+      "Le moment de remise (première visite) est indiqué",
+      "Le résumé des parcours ne chiffre aucune aide"
+    ]
+  },
+  "sources": [
+    {
+      "label": "INC : l'obligation de réaliser un audit énergétique lors de la vente de certaines maisons (calendrier, validité 5 ans, première visite, auditeurs), 16/12/2024",
+      "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons"
+    },
+    {
+      "label": "Arrêté du 4 mai 2022 modifié (9/08/2022 et 29/12/2023) définissant le contenu de l'audit énergétique (AIDA-INERIS)",
+      "url": "https://aida.ineris.fr/reglementation/arrete-040522-definissant-france-metropolitaine-contenu-laudit-energetique"
+    },
+    {
+      "label": "Ministère de la Transition écologique : fiche « Vente immobilière » (audit : F et G au 1/04/2023, E au 1/01/2025, D au 1/01/2034 ; 5 ans)",
+      "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Vente%20immobili%C3%A8re%202025.pdf"
+    },
+    {
+      "label": "France Rénov' (service public de la rénovation de l'habitat)",
+      "url": "https://france-renov.gouv.fr"
+    }
+  ],
+  "open_points": [
+    "À vérifier sur Légifrance : règle de la première étape du parcours (gain de deux classes, au moins E) et cible finale (B, ou dérogation justifiée) dans l'arrêté du 4/05/2022 modifié",
+    "BIBLE §11.3 : l'audit de Mme Garnier s'arrête en classe C ; un audit réglementaire vise la classe B sauf dérogation justifiée : ajouter la justification dans le M03 ou viser B",
+    "À vérifier : calendrier d'interdiction de mise en location (G depuis 2025, F en 2028, E en 2034) avant de l'utiliser avec un acquéreur investisseur"
+  ]
+}
