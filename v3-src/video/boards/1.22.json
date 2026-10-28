@@ -1,0 +1,199 @@
+{
+ "id": "1.22",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Créer son entonnoir de prospection : contact, relances, suivi",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 1.22 : créer son entonnoir de prospection",
+   "caption": "Bienvenue. Dans ce chapitre, tu construis ton entonnoir : du premier contact au rendez-vous, sans jamais forcer.",
+   "cta": "Commencer",
+   "dur": 7.7
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi un accord prouvé vaut mieux que cent appels"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "bâtir ta séquence : contact, trois relances, qualification, R1 puis R2"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton script et ton tableau de suivi en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Il ne décroche pas ? Je rappelle. Onze fois.",
+   "caption": "Il ne décroche pas ? Je rappelle. Onze fois. Il finira par m'adorer !",
+   "line": "Il ne décroche pas ? Je rappelle. Onze fois. Il finira par m'adorer !",
+   "scene": "Mozi rappelle le même numéro en boucle, un téléphone à chaque oreille, sous un compteur « appel n° 11 ».",
+   "pose": "sur-de-lui",
+   "dur": 6.21
+  },
+  {
+   "kind": "belief",
+   "title": "Un script, une offre, onze rappels",
+   "caption": "Un script rodé. Une offre claire. Et onze rappels, sans aucun accord.",
+   "beats": [
+    "Un script rodé",
+    "Une offre claire",
+    "Onze rappels sans accord"
+   ],
+   "wrong": 2,
+   "why": "Sans accord préalable, l'appel est interdit depuis le 11 août 2026 ; et même avec accord, c'est 4 appels au plus en 30 jours.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Appel interdit. Amende par appel.",
+   "caption": "Résultat : sans accord préalable, l'appel est interdit. L'amende peut atteindre 75 000 euros pour une personne, 375 000 pour une société. Et la DGCCRF publie les sanctions.",
+   "lines": [
+    "Sans accord préalable : appel interdit depuis le 11 août 2026.",
+    "Jusqu'à 75 000 € d'amende par appel, 375 000 € pour une société."
+   ],
+   "dur": 12.14
+  },
+  {
+   "kind": "stat",
+   "title": "4 appels maximum en 30 jours",
+   "caption": "Quatre. C'est le maximum d'appels au même particulier en trente jours, même quand il a dit oui. Et seulement en semaine, de 10 h à 13 h et de 14 h à 20 h.",
+   "value": 4,
+   "label": "appels maximum au même particulier sur 30 jours, même avec son accord (du lundi au vendredi, 10 h-13 h et 14 h-20 h, hors jours fériés)",
+   "dur": 14.73
+  },
+  {
+   "kind": "steps",
+   "title": "Contact → Relances → Suivi",
+   "caption": "Ton entonnoir tient en trois étages. Un : le contact. Tu ne contactes que des personnes qui ont dit oui, à ton agence, pour un objet précis : la vente ou l'estimation, jamais des travaux de rénovation énergétique. L'accord vaut un an au plus, et tu en gardes la preuve trois ans. Ton premier message rappelle sa demande, présente ton offre d'entrée et propose deux créneaux. Deux : les relances. Trois, pas plus, datées, chacune utile. Au premier non, tu arrêtes. Trois : le suivi. Chaque prospect a sa ligne : accord, relances, qualification, rendez-vous de découverte R1, présentation de l'estimation R2, mandat. Et sans contact venant de lui pendant trois ans, tu supprimes ses données.",
+   "steps": [
+    {
+     "label": "Contact",
+     "detail": "Seulement avec un accord préalable : ton agence, un objet précis, 1 an au plus, preuve gardée 3 ans."
+    },
+    {
+     "label": "Relances",
+     "detail": "Trois relances datées et utiles, 4 appels au plus en 30 jours ; au premier non, stop."
+    },
+    {
+     "label": "Suivi",
+     "detail": "Une ligne par prospect : accord, relances, qualification, R1, R2, mandat ; données effacées après 3 ans sans contact."
+    }
+   ],
+   "dur": 44.36
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "M. Bernard a coché la case sur le site de ton agence, mais il ne décroche pas. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard a coché sur le site de ton agence : « J'accepte d'être recontacté au sujet de mon DPE et de l'estimation de mon bien ». Il ne décroche pas aux numéros inconnus. Que fais-tu, sans le harceler ?",
+   "model_answer": "Je ne rappelle pas en boucle. Je lui écris un message court, avec mon nom et celui de l'agence, qui rappelle sa demande sur le site et propose deux créneaux d'appel. J'appelle au créneau qu'il choisit. Sans réponse après trois relances, je clos la ligne dans mon tableau et je garde la preuve de son accord.",
+   "dur": 39.04
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Il devait d'abord vérifier que le numéro n'était pas inscrit sur Bloctel",
+     "Sans accord préalable, il ne peut pas appeler, et jamais plus de 4 fois en 30 jours",
+     "Aucune : un agent immobilier propose un service, pas un produit, il n'est pas concerné"
+    ],
+    "answer": 1,
+    "feedback": "Depuis le 11 août 2026, démarcher un particulier par téléphone exige son accord préalable. Et même avec cet accord : 4 appels au plus en 30 jours, en semaine, aux heures prévues.",
+    "whys": [
+     "Faux : Bloctel a pris fin le 11 août 2026. On est passé d'une liste d'opposition à un accord préalable.",
+     "Exact : consentement préalable obligatoire, puis 4 appels au plus sur 30 jours, même avec accord.",
+     "Faux : le démarchage vise la vente d'un bien ou la fourniture d'un service ; l'estimation et le mandat en font partie."
+    ]
+   },
+   "card2": {
+    "question": "Si M. Bernard répondait « non merci » dès le premier appel, que se passerait-il ?",
+    "answer": "Tu mets fin à l'appel tout de suite et tu ne le recontactes plus : c'est la règle en cas d'opposition. Tu notes le retrait de son accord dans ton tableau, avec la date, pour que personne à l'agence ne le rappelle."
+   },
+   "fb": "Depuis le 11 août 2026, démarcher un particulier par téléphone exige son accord préalable. Et même avec cet accord : 4 appels au plus en 30 jours, en semaine, aux heures prévues.",
+   "dur": 18.73
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : transformer un accord en rendez-vous. La séquence de contact, et le tableau de suivi.",
+   "goal": "Transformer un accord en rendez-vous",
+   "tools": [
+    {
+     "name": "Séquence de contact",
+     "role": "Un premier message, puis trois relances datées et utiles"
+    },
+    {
+     "name": "Tableau de suivi",
+     "role": "Une ligne par prospect, de l'accord au mandat"
+    }
+   ],
+   "dur": 8.81
+  },
+  {
+   "kind": "demo",
+   "title": "La séquence de M. Bernard",
+   "caption": "La séquence de M. Bernard. Jour zéro : un message écrit qui rappelle sa demande et propose deux créneaux. Jour trois : l'appel, au créneau qu'il a choisi. Jour sept : une relance utile, son attestation expliquée. Jour quatorze : un dernier message, porte ouverte. Puis stop.",
+   "steps": [
+    "Jour 0 : message écrit, sa demande rappelée, deux créneaux",
+    "Jour 3 : appel au créneau choisi, en semaine",
+    "Jour 7 : relance utile, son attestation E expliquée",
+    "Jour 14 : dernier message, porte ouverte, puis stop"
+   ],
+   "tool": "Séquence de contact",
+   "dur": 18.07
+  },
+  {
+   "kind": "demo",
+   "title": "Le tableau de suivi",
+   "caption": "Le tableau de suivi. Une ligne par prospect : la date et le texte de son accord. Chaque relance et sa réponse. Un statut : à qualifier, qualifié, R1, R2, mandat. En bas, trois taux : réponse, rendez-vous, mandats.",
+   "steps": [
+    "Accord : date, canal et texte exact de son accord",
+    "Relances : date et réponse de chaque relance",
+    "Statut : à qualifier, qualifié, R1, R2, mandat",
+    "Bilan : taux de réponse, de rendez-vous, de mandats"
+   ],
+   "tool": "Tableau de suivi",
+   "dur": 15.1
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Bâtis ton entonnoir sur ton secteur, maintenant.",
+   "cta": "Ouvrir l'exercice",
+   "dur": 3.99
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton script, tes trois relances et ton tableau de suivi.",
+   "ask": "Dépose une capture de ton entonnoir : ton script de contact avec ton offre d'entrée, tes trois relances datées, et ton tableau de suivi (noms masqués) avec les colonnes accord, relances, statut, R1, R2, mandat.",
+   "dur": 5.84
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Chaque prospect de ton tableau a dit oui. Mozi, lui, en est à son onzième appel.",
+   "status": "Ton entonnoir : des accords prouvés, trois relances, un tableau. Mozi : onze appels, aucun accord.",
+   "dur": 7.7
+  }
+ ],
+ "total": 214.04
+}

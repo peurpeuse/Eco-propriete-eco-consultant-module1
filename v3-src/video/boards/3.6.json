@@ -1,0 +1,217 @@
+{
+ "id": "3.6",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Les indicateurs du marché local : biens F et G, délais, négociation",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Les indicateurs du marché local : biens F et G, délais, négociation",
+   "caption": "Capsule 3.6. Les indicateurs du marché local : biens F et G, délais, négociation",
+   "dur": 6.5851851851851855
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Relever dans sa zone, à une date donnée, la part des biens F et G à vendre, les délais de vente et la marge de négociation, avec la source et la méthode de chaque indicateur",
+   "caption": "À la fin de cette capsule : Relever dans sa zone, à une date donnée, la part des biens F et G à vendre, les délais de vente et la marge de négociation, avec la source et la méthode de chaque indicateur",
+   "dur": 14.362962962962962
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "DVF, qui donne l'étiquette de chaque vente",
+   "pose": "presse",
+   "scene": "Élodie veut connaître la part des biens F et G à vendre dans sa zone. Quelle source utilise-t-elle ?",
+   "caption": "Élodie veut connaître la part des biens F et G à vendre dans sa zone. Quelle source utilise-t-elle ? Mozi, lui, répondrait : « DVF, qui donne l'étiquette de chaque vente »",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : DVF donne le prix, la date et la surface des ventes, pas l'étiquette DPE."
+   ],
+   "caption": "Faux : DVF donne le prix, la date et la surface des ventes, pas l'étiquette DPE.",
+   "dur": 7.325925925925926
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "M. Bernard demande : « Dans mon quartier, les biens comme le mien partent-ils ?",
+    "» Sébastien Paumier construit trois indicateurs du marché local à partir de sources nommées : part des biens F et G dans les annonces, délai de vente, marge de négociation.",
+    "Chaque chiffre a sa date, son échantillon et sa limite ; le repère national des notaires (environ 15 % de ventes F ou G début 2025) reste à part."
+   ],
+   "caption": "M. Bernard demande : « Dans mon quartier, les biens comme le mien partent-ils ? » Sébastien Paumier construit trois indicateurs du marché local à partir de sources nommées : part des biens F et G dans les annonces, délai de vente, marge de négociation. Chaque chiffre a sa date, son échantillon et sa limite ; le repère national des notaires (environ 15 % de ventes F ou G début 2025) reste à part.",
+   "dur": 26.585185185185182
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 3 indicateurs : formule et source",
+   "table": {
+    "headers": [
+     "Indicateur",
+     "Formule",
+     "Source",
+     "Limite"
+    ],
+    "rows": [
+     [
+      "Part des biens F et G à vendre",
+      "Annonces F + G / annonces avec étiquette, même zone et même…",
+      "Relevé daté des portails d'annonces",
+      "Annonces en double, étiquettes non actualisées"
+     ],
+     [
+      "Délai de vente",
+      "Date de compromis − date de mise en vente ; médiane",
+      "Tes dossiers, ton agence, ton réseau ; à défaut, durée de mise…",
+      "Une annonce retirée n'est pas forcément vendue"
+     ],
+     [
+      "Marge de négociation",
+      "(dernier prix affiché − prix signé) / dernier prix affiché ; médiane",
+      "Tes dossiers et ton réseau ; à défaut, médiane des annonces face…",
+      "Petits échantillons, biens non identiques"
+     ]
+    ]
+   },
+   "caption": "Les 3 indicateurs : formule et source. Part des biens F et G à vendre : Annonces F + G / annonces avec étiquette, même zone et même type ; Délai de vente : Date de compromis − date de mise en vente ; médiane ; Marge de négociation : (dernier prix affiché − prix signé) / dernier prix affiché ; médiane",
+   "dur": 19.548148148148144
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemple rempli : T3-T4 en copropriété, Melun (FICTIF, relevé du 20/10/2026)",
+   "table": {
+    "headers": [
+     "Indicateur",
+     "Valeur",
+     "Échantillon et méthode"
+    ],
+    "rows": [
+     [
+      "Part des biens F et G à vendre",
+      "≈ 21 %",
+      "9 annonces F ou G sur 42 annonces avec étiquette"
+     ],
+     [
+      "Délai de vente médian",
+      "74 jours",
+      "11 ventes de l'agence et du réseau, de 10/2025 à 09/2026"
+     ],
+     [
+      "Marge de négociation",
+      "≈ 7 %",
+      "Médiane des annonces 2 848 €/m² face à la médiane des ventes…"
+     ],
+     [
+      "Repère national",
+      "≈ 15 % des ventes de logements anciens classées F ou G…",
+      "Notaires de France, étude du 7/01/2026"
+     ]
+    ]
+   },
+   "caption": "Exemple rempli : T3-T4 en copropriété, Melun (FICTIF, relevé du 20/10/2026). Part des biens F et G à vendre : ≈ 21 % ; Délai de vente médian : 74 jours ; Marge de négociation : ≈ 7 %",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Liste des sources, de la plus solide à la plus fragile",
+   "items": [
+    "DVF (data.gouv.fr) : prix, surfaces, dates des ventes signées ; pas d'étiquette DPE ; mises à jour semestrielles.",
+    "Notaires de France : études datées (valeur verte, part des ventes F et G), indices Notaires-Insee des prix.",
+    "ADEME, Observatoire DPE-Audit : DPE réalisés, à croiser avec les annonces.",
+    "Tes dossiers et ceux de ton réseau : délais et marges réels, à anonymiser.",
+    "Annonces en ligne : stock à vendre et prix affichés ; relevé à dater et à archiver (capture)."
+   ],
+   "caption": "Liste des sources, de la plus solide à la plus fragile. DVF (data.gouv.fr) : prix, surfaces, dates des ventes signées ; pas d'étiquette DPE ; mises à jour semestrielles. Notaires de France : études datées (valeur verte, part des ventes F et G), indices Notaires-Insee des prix. ADEME, Observatoire DPE-Audit : DPE réalisés, à croiser avec les annonces. Tes dossiers et ceux de ton réseau : délais et marges réels…",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Avant de mettre un indicateur dans le tableau de bord",
+   "items": [
+    "Zone, type de bien et période sont écrits",
+    "La taille de l'échantillon est indiquée",
+    "La date du relevé est indiquée et la capture est archivée",
+    "La formule est écrite",
+    "Le repère national est cité à part, avec sa date"
+   ],
+   "caption": "Avant de mettre un indicateur dans le tableau de bord. Zone, type de bien et période sont écrits La taille de l'échantillon est indiquée La date du relevé est indiquée et la capture est archivée La formule est écrite Le repère national est cité à part, avec sa date",
+   "dur": 19.918518518518518
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Sur 42 annonces de T3-T4 à Melun relevées le 20/10/2026 (exemple fictif), 9 sont classées F ou G. Quelle part notes-tu ?",
+    "options": [
+     "9 %",
+     "Environ 21 %, avec la date, la zone et l'échantillon (42 annonces)",
+     "42 %"
+    ],
+    "answer": 1
+   },
+   "fb": "9 / 42 ≈ 21 %. Tu écris : « 21 % des 42 annonces de T3-T4 relevées à Melun le 20/10/2026 sont classées F ou G ». Comparé au repère national (environ 15 % des ventes début 2025), cela…",
+   "caption": "Sur 42 annonces de T3-T4 à Melun relevées le 20/10/2026 (exemple fictif), 9 sont classées F ou G. Quelle part notes-tu ?",
+   "dur": 25.022222222222222
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Relever les indicateurs du marché de sa zone",
+   "steps": [
+    {
+     "label": "Définis ta zone, le type de bien (comme ton bien fil rouge) et la date du relevé.",
+     "detail": ""
+    },
+    {
+     "label": "Compte les annonces avec étiquette et celles classées F ou G ; calcule la part et capture le…",
+     "detail": ""
+    },
+    {
+     "label": "Calcule le délai de vente médian sur au moins 5 ventes connues (date de mise en vente, date…",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la marge de négociation médiane sur les mêmes ventes, ou à défaut par la comparaison annonces /…",
+     "detail": ""
+    },
+    {
+     "label": "Écris chaque indicateur avec sa formule, son échantillon, sa source, sa date et sa limite ; ajoute le…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Relever les indicateurs du marché de sa zone. 45 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Fiche des indicateurs du marché local de sa zone",
+   "items": [
+    "Les 3 indicateurs sont calculés avec leur formule",
+    "Chaque indicateur indique zone, type de bien, période et taille d'échantillon",
+    "Chaque source est nommée et datée, avec capture du relevé d'annonces",
+    "Le repère national est séparé de la mesure locale",
+    "Aucune donnée personnelle de client dans les ventes utilisées"
+   ],
+   "caption": "Ton livrable : Fiche des indicateurs du marché local de sa zone. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche indicateurs de marché et liste des sources (DVF, notaires, annonces), données datées",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 203.33
+}

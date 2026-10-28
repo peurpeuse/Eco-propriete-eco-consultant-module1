@@ -1,0 +1,189 @@
+{
+ "id": "1.2",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "L'argument valeur verte, chiffré et sourcé",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "L'argument valeur verte, chiffré et sourcé",
+   "caption": "Capsule 1.2. L'argument valeur verte, chiffré et sourcé",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Rédiger un argumentaire valeur verte de 5 lignes qui cite une source datée, une région, un type de bien et une classe de référence, sans promettre de gain",
+   "caption": "À la fin de cette capsule : Rédiger un argumentaire valeur verte de 5 lignes qui cite une source datée, une région, un type de bien et une classe de référence, sans promettre de gain",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Partout en France, une passoire perd environ 25 % de sa valeur.",
+   "pose": "clin-oeil",
+   "scene": "Laquelle de ces phrases cite correctement la valeur verte à un vendeur ?",
+   "caption": "Laquelle de ces phrases cite correctement la valeur verte à un vendeur ? Mozi, lui, répondrait : « Partout en France, une passoire perd environ 25 % de sa valeur. »",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : aucune source ne fixe une décote nationale unique ; ce chiffre n'a ni région, ni année, ni source."
+   ],
+   "caption": "Faux : aucune source ne fixe une décote nationale unique ; ce chiffre n'a ni région, ni année, ni source.",
+   "dur": 8.437037037037037
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Deux agences ont dit à M. Bernard « −15 % à cause du DPE ».",
+    "Sébastien Paumier montre comment on parle vraiment de valeur verte : une étude datée (Notaires de France, ventes 2024), quatre repères (région, type de bien, année, classe de référence), puis les ventes réelles du…",
+    "Résultat : un argumentaire de 5 lignes que le vendeur peut vérifier."
+   ],
+   "caption": "Deux agences ont dit à M. Bernard « −15 % à cause du DPE ». Sébastien Paumier montre comment on parle vraiment de valeur verte : une étude datée (Notaires de France, ventes 2024), quatre repères (région, type de bien, année, classe de référence), puis les ventes réelles du secteur et le coût des travaux. Résultat : un argumentaire de 5 lignes que le vendeur peut vérifier.",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "La valeur verte se cite avec 4 repères",
+   "items": [
+    "La région (la valeur verte varie fortement d'une région à l'autre).",
+    "Le type de bien : maison ou appartement.",
+    "L'année des ventes étudiées (dernière étude des Notaires : ventes 2024, publiée le 7/01/2026).",
+    "La classe de référence (en général D) à laquelle on compare."
+   ],
+   "caption": "La valeur verte se cite avec 4 repères. La région (la valeur verte varie fortement d'une région à l'autre). Le type de bien : maison ou appartement. L'année des ventes étudiées (dernière étude des Notaires : ventes 2024, publiée le 7/01/2026). La classe de référence (en général D) à laquelle on compare.",
+   "dur": 21.77037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les chiffres sourcés",
+   "table": {
+    "headers": [
+     "Repère",
+     "Valeur",
+     "Source et date"
+    ],
+    "rows": [
+     [
+      "Part des F-G dans les ventes de l'ancien",
+      "11 % (2021), 17 % (2023), ≈ 15 % début 2025",
+      "Notaires de France, valeur verte, 7/01/2026"
+     ],
+     [
+      "Effet du DPE sur les prix",
+      "En 2024, les logements performants se vendent plus cher, les très énergivores…",
+      "Même étude"
+     ],
+     [
+      "Part des F-G dans les résidences principales",
+      "12,7 % au 1/01/2025 (≈ 3,9 millions)",
+      "SDES, ONRE, 12/11/2025"
+     ],
+     [
+      "Coefficient électricité",
+      "2,3 → 1,9 au 1/01/2026 → 1,7 au 1/01/2027",
+      "Arrêtés du 13/08/2025 et du 19/08/2026"
+     ]
+    ]
+   },
+   "caption": "Les chiffres sourcés. Part des F-G dans les ventes de l'ancien : 11 % (2021), 17 % (2023), ≈ 15 % début 2025 ; Effet du DPE sur les prix : En 2024, les logements performants se vendent plus cher, les très énergivores moins cher ; écarts variables selon la région ; Part des F-G dans les résidences principales : 12,7 % au 1/01/2025 (≈ 3,9 millions)",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Modèle d'argumentaire en 5 lignes",
+   "items": [
+    "L'étiquette en vigueur : « Votre DPE, vérifié à jour, classe votre logement en … »",
+    "La valeur verte de la région : « Selon les Notaires (ventes 2024), pour les [maisons/appartements] de [région], l'écart entre la classe…",
+    "Les ventes du secteur : « Dans votre secteur, les biens comparables se sont vendus … €/m² en l'état, … €/m² rénovés.…",
+    "Le coût des travaux : « L'écart énergétique se chiffre par devis ou par l'audit, pas par un pourcentage. »",
+    "La conclusion sans promesse : « Je fonde votre prix sur ces pièces ; l'acquéreur négociera sur un budget, pas sur une…"
+   ],
+   "caption": "Modèle d'argumentaire en 5 lignes. L'étiquette en vigueur : « Votre DPE, vérifié à jour, classe votre logement en … » La valeur verte de la région : « Selon les Notaires (ventes 2024), pour les [maisons/appartements] de [région], l'écart entre la classe… Les ventes du secteur : « Dans votre secteur, les biens comparables se sont vendus … €/m² en l'état, … €/m² rénovés.… Le coût des travaux …",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple rempli : M. Bernard (fil rouge, fictif)",
+   "text": "1. Votre DPE de 2023 vous classait F ; avec le coefficient 1,9, l'attestation actualisée vous classe E (150 × 1,9 = 285). 2. Selon les Notaires (ventes 2024), pour les appartements d'Île-de-France, l'écart entre les classes E et D était de … (à relever dans l'étude). 3. Dans votre secteur, les comparables se sont…",
+   "caption": "Exemple rempli : M. Bernard (fil rouge, fictif). 1. Votre DPE de 2023 vous classait F ; avec le coefficient 1,9, l'attestation actualisée vous classe E (150 × 1,9 = 285). 2. Selon les Notaires (ventes 2024), pour les appartements d'Île-de-France, l'écart entre les classes E et D était de … (à relever dans l'étude). 3. Dans votre secteur, les comparables se sont…",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Comparables fictifs du dossier (D12) : 2 650 €/m² en l'état (D-E), 2 850 €/m² rénové (C-D). Quel écart pour les 76 m² de M. Bernard ?",
+    "options": [
+     "20 000 €",
+     "15 200 €",
+     "2 850 €"
+    ],
+    "answer": 1
+   },
+   "fb": "(2 850 − 2 650) × 76 = 15 200 €. Attention : les 2 850 €/m² visent des biens rénovés dans un immeuble isolé (ITE comprise). L'écart ne se compare donc pas directement aux 16 500 € de travaux…",
+   "caption": "Comparables fictifs du dossier (D12) : 2 650 €/m² en l'état (D-E), 2 850 €/m² rénové (C-D). Quel écart pour les 76 m² de M. Bernard ?",
+   "dur": 26.133333333333333
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Mon argumentaire valeur verte en 5 lignes",
+   "steps": [
+    {
+     "label": "Choisis un type de bien fréquent dans ta zone (maison ou appartement) et une classe (E, F ou…",
+     "detail": ""
+    },
+    {
+     "label": "Relève dans l'étude des Notaires l'écart de ta région pour cette classe par rapport à la classe D…",
+     "detail": ""
+    },
+    {
+     "label": "Relève deux ou trois ventes comparables de ton secteur : prix au m² en l'état et, si possible…",
+     "detail": ""
+    },
+    {
+     "label": "Rédige tes 5 lignes en suivant le modèle (étiquette, valeur verte régionale, ventes du secteur, coût des travaux…",
+     "detail": ""
+    },
+    {
+     "label": "Relis : chaque chiffre a-t-il sa source et sa date ? Aucune ligne ne promet-elle un gain ?",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Mon argumentaire valeur verte en 5 lignes. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Argumentaire valeur verte de ma zone",
+   "items": [
+    "5 lignes, dans l'ordre du modèle",
+    "La valeur verte cite la source, l'année des ventes, la région, le type de bien et…",
+    "Au moins deux ventes comparables réelles du secteur sont citées",
+    "Le coût des travaux est renvoyé à un devis ou à un audit",
+    "Aucune promesse de gain ni pourcentage national forfaitaire"
+   ],
+   "caption": "Ton livrable : Argumentaire valeur verte de ma zone. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Argumentaire valeur verte, sources datées",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 214.81
+}

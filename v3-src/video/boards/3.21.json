@@ -1,0 +1,199 @@
+{
+ "id": "3.21",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Objections : répondre par les chiffres, selon le profil DISC",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.21 : répondre aux objections par les chiffres",
+   "caption": "Bienvenue. M. Bernard a cinq objections. Dans ce chapitre, tu y réponds par les chiffres, puis tu t'entraînes avec une IA qui joue son rôle.",
+   "cta": "Commencer",
+   "dur": 11.03
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "la crainte qui se cache derrière chaque objection"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "répondre par un chiffre sourcé avec ARFE, puis t'entraîner avec une IA"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer tes 5 réponses et le débriefing de l'IA en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Vous allez réfléchir ? Parfait, je dors sur votre canapé jusqu'à la signature !",
+   "caption": "Vous allez réfléchir ? Parfait, je dors sur votre canapé jusqu'à la signature !",
+   "line": "Vous allez réfléchir ? Parfait, je dors sur votre canapé jusqu'à la signature !",
+   "scene": "Mozi déroule un sac de couchage dans le salon et pose le mandat sur l'oreiller.",
+   "pose": "pointe",
+   "dur": 6.21
+  },
+  {
+   "kind": "belief",
+   "title": "1 objection, 0 écoute, 100 % insistance",
+   "caption": "Une objection. Zéro écoute. Cent pour cent d'insistance.",
+   "beats": [
+    "1 objection",
+    "0 écoute",
+    "100 % insistance"
+   ],
+   "wrong": 1,
+   "why": "Une objection s'écoute ; l'insistance donne une signature rétractable.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Signature arrachée. 14 jours pour se rétracter.",
+   "caption": "Et même s'il signe, chez lui, à bout de patience ? Contrat signé hors agence : il a quatorze jours pour se rétracter. Et il ne rappellera pas Mozi.",
+   "lines": [
+    "Signature arrachée à domicile.",
+    "14 jours pour se rétracter."
+   ],
+   "dur": 11.77
+  },
+  {
+   "kind": "stat",
+   "title": "2,3 → 1,9 : le F devient E",
+   "caption": "Un fait vaut mieux qu'un argument. Le coefficient de l'électricité est passé de 2,3 à 1,9 au 1er janvier 2026. Résultat : avec l'attestation actualisée, l'étiquette de M. Bernard passe de F à E.",
+   "value": "2,3 → 1,9",
+   "label": "coefficient électricité au 1/01/2026 : avec l'attestation actualisée, le F de 2023 devient E",
+   "dur": 15.84
+  },
+  {
+   "kind": "steps",
+   "title": "Accueillir et reformuler → un fait → une étape",
+   "caption": "La méthode tient en quatre lettres : ARFE. D'abord, tu accueilles, et tu reformules la crainte. C'est une vraie question. Derrière chaque objection, il y a une peur. Son profil C, repéré en capsule 3.17, craint l'erreur. Ensuite, le fait. Une pièce de son dossier, ouverte devant lui. Il espérait 205 000 euros ? Divisé par 76, c'est près de 2 700 euros du mètre carré, au-dessus des ventes en l'état. Les appels de façade ? La règle : celui qui est copropriétaire à la date de l'appel paie le syndicat. Enfin, l'étape. Jamais de pression : le récapitulatif écrit le soir même, et un appel le jeudi 5 novembre.",
+   "steps": [
+    {
+     "label": "Accueillir, reformuler",
+     "detail": "« C'est une vraie question. Si je comprends bien, vous craignez que… »"
+    },
+    {
+     "label": "Un fait vérifiable",
+     "detail": "Une pièce du dossier, un calcul ou une règle sourcée."
+    },
+    {
+     "label": "Une étape datée",
+     "detail": "Récapitulatif écrit le soir même, appel le jeudi 5 novembre."
+    }
+   ],
+   "dur": 43.62
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? M. Bernard demande à Hugo : 9 000 euros d'honoraires, pour faire quoi ? Réponds avec ARFE.",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard demande à Hugo : « 9 000 € d'honoraires, pour faire quoi exactement ? » Que répondrais-tu, avec les quatre temps ARFE ?",
+   "model_answer": "« C'est une vraie question. Si je comprends bien, vous craignez de payer sans contrepartie. Les 9 000 € TTC sont à la charge de l'acquéreur : vous recevez 180 000 € net. En échange, cinq engagements écrits annexés au mandat. Je vous les envoie ce soir ; je vous appelle jeudi ? »",
+   "dur": 27.93
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ? Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Après « je vais réfléchir », proposer une étape datée, jamais une pression",
+     "Obtenir la signature avant la fin du rendez-vous de restitution",
+     "Aucune : insister prouve sa motivation"
+    ],
+    "answer": 0,
+    "feedback": "Avec un profil C, « je vais réfléchir » veut souvent dire « je veux vérifier ». Le E de ARFE, c'est une étape simple et datée, jamais une pression.",
+    "whys": [
+     "Exact : récapitulatif écrit, date de réponse convenue. Il garde la main, tu gardes sa confiance.",
+     "Faux : forcer la signature d'un vendeur qui veut réfléchir, c'est le perdre. Et une signature arrachée chez lui reste rétractable 14 jours.",
+     "Faux : un profil C se ferme dès qu'on insiste. La motivation se prouve par les pièces, pas par la pression."
+    ]
+   },
+   "card2": {
+    "question": "Si Maxime répétait à un client une règle inventée par l'IA, que se passerait-il ?",
+    "answer": "Il transmettrait une erreur à un vrai vendeur et perdrait sa confiance. D'où la règle : vérifier chaque règle sur une source officielle (Légifrance, Service-Public, ADEME) avant de la réutiliser."
+   },
+   "fb": "Avec un profil C, « je vais réfléchir » veut souvent dire « je veux vérifier ». Le E de ARFE, c'est une étape simple et datée, jamais une pression.",
+   "dur": 19.1
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : transformer chaque objection en accord. La fiche objections par profil, et le jeu de rôle avec une IA.",
+   "goal": "Transformer chaque objection en accord",
+   "tools": [
+    {
+     "name": "Fiche objections par profil",
+     "role": "5 objections, la crainte, la réponse par style"
+    },
+    {
+     "name": "Jeu de rôle avec une IA",
+     "role": "L'IA joue M. Bernard, puis te débriefe"
+    }
+   ],
+   "dur": 9.92
+  },
+  {
+   "kind": "demo",
+   "title": "Fiche : l'objection du DPE",
+   "caption": "Sur la fiche, l'objection deux : mon DPE dit F, l'agent dit E. La crainte : être trompé. Le fait : l'attestation de l'ADEME, valable jusqu'au 13 mars 2033. L'étape : la regarder ensemble, numéro de DPE à l'appui.",
+   "steps": [
+    "Objection : « Mon DPE dit F, vous dites E : qui croire ? »",
+    "Crainte : être trompé",
+    "Fait : attestation ADEME, classe E, valable jusqu'au 13/03/2033",
+    "Étape : la lire ensemble, numéro de DPE à l'appui"
+   ],
+   "tool": "Fiche objections par profil",
+   "dur": 16.96
+  },
+  {
+   "kind": "demo",
+   "title": "IA : jouer, débriefer, rejouer",
+   "caption": "Puis l'IA. Je colle le prompt de l'exercice dans l'outil validé par mon agence. Je réponds aux cinq objections, une par une. Je tape fin du jeu : débriefing et note sur vingt. Je rejoue en profil D. Et je vérifie chaque chiffre cité.",
+   "steps": [
+    "Coller le prompt de l'exercice dans l'outil validé par ton agence, sans donnée réelle",
+    "Répondre aux 5 objections, une par une",
+    "Taper « FIN DU JEU » : débriefing et note sur 20",
+    "Rejouer avec « PROFIL : D », puis vérifier chaque chiffre et chaque règle cités"
+   ],
+   "tool": "Jeu de rôle avec une IA",
+   "dur": 18.44
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "À toi : lance l'entraînement.",
+   "cta": "Répondre à 5 objections avec l'IA",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi tes réponses et le débriefing de l'IA.",
+   "ask": "Dépose une capture du débriefing de l'IA, avec tes 5 réponses ARFE (chacune avec son chiffre ou sa pièce sourcée) et ton commentaire.",
+   "dur": 5.1
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Mozi a sorti son sac de couchage. Toi, tu as cinq réponses, et chacune s'appuie sur une pièce du dossier.",
+   "status": "Tes 5 réponses : chacune avec une pièce. Mozi : un sac de couchage.",
+   "dur": 9.55
+  }
+ ],
+ "total": 210.59
+}

@@ -1,0 +1,239 @@
+{
+ "id": "2.39",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Appartement : capitalisation, loyer au m² et taux retenu",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Appartement : capitalisation, loyer au m² et taux retenu",
+   "caption": "Capsule 2.39. Appartement : capitalisation, loyer au m² et taux retenu",
+   "dur": 5.474074074074073
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Calculer la valeur de l'appartement de M. Bernard par capitalisation (loyer annuel ÷ taux observé), choisir le taux selon l'étiquette DPE et l'état, et distinguer valeur libre et valeur occupée",
+   "caption": "À la fin de cette capsule : Calculer la valeur de l'appartement de M. Bernard par capitalisation (loyer annuel ÷ taux observé), choisir le taux selon l'étiquette DPE et l'état, et distinguer valeur libre et valeur occupée",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "15 049 €",
+   "pose": "pointe",
+   "scene": "Loyer de marché de l'appartement de M. Bernard : 12,80 €/m² par mois hors charges, 76 m². Taux brut observé pour un bien classé E : 6,5 %. Quelle valeur par capitalisation ?",
+   "caption": "Loyer de marché de l'appartement de M. Bernard : 12,80 €/m² par mois hors charges, 76 m². Taux brut observé pour un bien classé E : 6,5 %. Quelle valeur par capitalisation ? Mozi, lui, répondrait : « 15 049 € »",
+   "dur": 13.992592592592592
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : c'est le loyer mensuel divisé par le taux, sans passer au loyer annuel."
+   ],
+   "caption": "Faux : c'est le loyer mensuel divisé par le taux, sans passer au loyer annuel.",
+   "dur": 6.955555555555556
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier se met dans la peau de M. Petit, l'investisseur : combien vaut l'appartement s'il le loue ?",
+    "Loyer de 12,80 €/m² par mois, taux observé de 6,5 % pour un bien classé E : 179 600 €.",
+    "Puis il montre ce que change l'étiquette : avec l'ancien DPE F et le calendrier d'interdiction de louer, le taux monte et la valeur chute."
+   ],
+   "caption": "Sébastien Paumier se met dans la peau de M. Petit, l'investisseur : combien vaut l'appartement s'il le loue ? Loyer de 12,80 €/m² par mois, taux observé de 6,5 % pour un bien classé E : 179 600 €. Puis il montre ce que change l'étiquette : avec l'ancien DPE F et le calendrier d'interdiction de louer, le taux monte et la valeur chute.",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "La formule",
+   "text": "Loyer annuel = surface × loyer au m² mensuel × 12. Valeur par capitalisation = loyer annuel / taux. Taux observé d'une vente louée = loyer annuel / prix de vente. Règle : loyer et taux sur la même base (brut hors charges avec un taux brut ; net de charges non récupérables et de…",
+   "caption": "La formule. Loyer annuel = surface × loyer au m² mensuel × 12. Valeur par capitalisation = loyer annuel / taux. Taux observé d'une vente louée = loyer annuel / prix de vente. Règle : loyer et taux sur la même base (brut hors charges avec un taux brut ; net de charges non récupérables et de…",
+   "dur": 19.548148148148144
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Taux observés (exemple FICTIF, ventes de biens loués, secteur Melun 2025-2026)",
+   "table": {
+    "headers": [
+     "Réf.",
+     "Bien",
+     "Loyer mensuel HC",
+     "Prix de vente"
+    ],
+    "rows": [
+     [
+      "L1",
+      "T4 78 m², 1974, classe D, bon état",
+      "1 050 €",
+      "215 000 €"
+     ],
+     [
+      "L2",
+      "T3 68 m², 1970, classe E, en l'état",
+      "900 €",
+      "168 000 €"
+     ],
+     [
+      "L3",
+      "T3 65 m², 1968, classe F, à rénover",
+      "820 €",
+      "132 000 €"
+     ],
+     [
+      "Repère retenu",
+      "C-D rénové 5,8 % · E en l'état 6,5 % · F-G…",
+      "",
+      ""
+     ]
+    ]
+   },
+   "caption": "Taux observés (exemple FICTIF, ventes de biens loués, secteur Melun 2025-2026). L1 : T4 78 m², 1974, classe D, bon état ; L2 : T3 68 m², 1970, classe E, en l'état ; L3 : T3 65 m², 1968, classe F, à rénover",
+   "dur": 16.21481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Sensibilité au taux (M. Bernard, loyer annuel 11 673,60 €)",
+   "table": {
+    "headers": [
+     "Taux",
+     "Valeur",
+     "Lecture"
+    ],
+    "rows": [
+     [
+      "6,0 %",
+      "194 560 €",
+      "Bien sans risque particulier"
+     ],
+     [
+      "6,5 %",
+      "179 594 € ≈ 179 600 €",
+      "Retenu : attestation classe E, en l'état"
+     ],
+     [
+      "7,0 %",
+      "166 766 €",
+      "Investisseur prudent"
+     ],
+     [
+      "7,5 %",
+      "155 648 €",
+      "Si l'on lisait encore l'ancien DPE F (2023)"
+     ]
+    ]
+   },
+   "caption": "Sensibilité au taux (M. Bernard, loyer annuel 11 673,60 €). 6,0 % : 194 560 € ; 6,5 % : 179 594 € ≈ 179 600 € ; 7,0 % : 166 766 €",
+   "dur": 10.288888888888888
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Calendrier de décence énergétique (location, France métropolitaine)",
+   "table": {
+    "headers": [
+     "Date",
+     "Règle",
+     "Effet sur le taux"
+    ],
+    "rows": [
+     [
+      "24/08/2022",
+      "Gel des loyers des logements F et G (pas de hausse)",
+      "Loyer bloqué : taux exigé plus haut"
+     ],
+     [
+      "1/01/2025",
+      "Classe G interdite en nouveau bail, renouvellement ou reconduction tacite",
+      "G : bien à rénover avant de louer"
+     ],
+     [
+      "1/01/2028",
+      "Classe F interdite à son tour",
+      "F : risque fort"
+     ],
+     [
+      "1/01/2034",
+      "Classe E interdite à son tour",
+      "E (M. Bernard) : louable jusqu'au 31/12/2033, puis D minimum"
+     ]
+    ]
+   },
+   "caption": "Calendrier de décence énergétique (location, France métropolitaine). 24/08/2022 : Gel des loyers des logements F et G (pas de hausse) ; 1/01/2025 : Classe G interdite en nouveau bail, renouvellement ou reconduction tacite ; 1/01/2028 : Classe F interdite à son tour",
+   "dur": 17.325925925925926
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Hugo capitalise un T3 classé F avec le même taux qu'un bien classé D. Qu'oublie-t-il ?",
+    "options": [
+     "Rien : le taux dépend seulement du quartier",
+     "Que le taux se choisit selon le loyer, pas selon l'étiquette",
+     "Qu'un bien F ne pourra plus être proposé à une nouvelle location au 1er janvier 2028 sans travaux : le risque relève le taux"
+    ],
+    "answer": 2
+   },
+   "fb": "Depuis le 1/01/2025, un logement G ne peut plus être loué en nouveau bail ; les F suivront au 1/01/2028 et les E au 1/01/2034. Les loyers des F et G sont gelés depuis le 24/08/2022. Un investisseur intègre ce…",
+   "caption": "Hugo capitalise un T3 classé F avec le même taux qu'un bien classé D. Qu'oublie-t-il ?",
+   "dur": 27.24444444444444
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Capitaliser l'appartement de M. Bernard",
+   "steps": [
+    {
+     "label": "Calcule le loyer annuel de marché : 76 m² × 12,80 € × 12.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule le taux brut des 3 ventes louées L1 à L3 et classe-les selon l'étiquette.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis le taux pour M. Bernard en t'appuyant sur l'attestation E et l'état ; écris ta justification.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la valeur par capitalisation, puis la sensibilité à ± 0,5 point.",
+     "detail": ""
+    },
+    {
+     "label": "Indique si la valeur est libre ou occupée, et la date à laquelle un bien classé E ne…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Capitaliser l'appartement de M. Bernard. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Fiche de capitalisation de l'appartement de M. Bernard",
+   "items": [
+    "Le loyer annuel (11 673,60 €) et la valeur capitalisée (≈ 179 600 €) sont justes",
+    "Le taux retenu est justifié par l'étiquette (attestation E), l'état et des ventes louées datées",
+    "La sensibilité au taux (± 0,5 point) est calculée",
+    "La valeur est qualifiée de libre, avec la raison",
+    "Le calendrier de décence (G 2025, F 2028, E 2034) est cité avec sa source"
+   ],
+   "caption": "Ton livrable : Fiche de capitalisation de l'appartement de M. Bernard. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableur loyers et taux de capitalisation observés ; fiche : loyer annuel ÷ taux, bien libre ou occupé, calendrier d'interdiction de louer (F, G) à sourcer",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 188.14
+}

@@ -1,0 +1,162 @@
+{
+ "id": "2.10",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Commander un DPE ou un audit",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Commander un DPE ou un audit",
+   "caption": "Capsule 2.10. Commander un DPE ou un audit",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Rédiger une commande claire à un diagnostiqueur ou un auditeur certifié, pièces à fournir comprises, et lire une simulation d'étiquette sans la présenter comme une classe officielle",
+   "caption": "À la fin de cette capsule : Rédiger une commande claire à un diagnostiqueur ou un auditeur certifié, pièces à fournir comprises, et lire une simulation d'étiquette sans la présenter comme une classe officielle",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Tu regardes ses avis en ligne",
+   "pose": "clin-oeil",
+   "scene": "Comment vérifies-tu qu'un diagnostiqueur peut réaliser le DPE de ton vendeur ?",
+   "caption": "Comment vérifies-tu qu'un diagnostiqueur peut réaliser le DPE de ton vendeur ? Mozi, lui, répondrait : « Tu regardes ses avis en ligne »",
+   "dur": 8.437037037037037
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : les avis ne prouvent ni la certification ni sa validité."
+   ],
+   "caption": "Faux : les avis ne prouvent ni la certification ni sa validité.",
+   "dur": 5.474074074074073
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Un DPE juste commence par une bonne commande.",
+    "Sébastien Paumier vérifie un certificat dans l'annuaire du ministère, rappelle les règles d'indépendance, puis rédige la commande : pièces à fournir (factures, plans, descriptif), délai, questions précises.",
+    "Il lit enfin une simulation d'étiquette après travaux : utile pour décider, jamais à afficher dans une annonce."
+   ],
+   "caption": "Un DPE juste commence par une bonne commande. Sébastien Paumier vérifie un certificat dans l'annuaire du ministère, rappelle les règles d'indépendance, puis rédige la commande : pièces à fournir (factures, plans, descriptif), délai, questions précises. Il lit enfin une simulation d'étiquette après travaux : utile pour décider, jamais à afficher dans une annonce.",
+   "dur": 21.4
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Avant de commander",
+   "items": [
+    "Certificat vérifié sur l'annuaire officiel (domaine DPE, amiante, électricité…), en cours de validité",
+    "Pour un audit : qualification de l'auditeur vérifiée (signe de qualité, architecte formé, diagnostiqueur certifié avec compétence audit)",
+    "Attestation d'assurance de responsabilité professionnelle demandée",
+    "Aucun lien avec le vendeur, ton agence ou une entreprise de travaux",
+    "Deux devis au moins, choisis par le vendeur"
+   ],
+   "caption": "Avant de commander. Certificat vérifié sur l'annuaire officiel (domaine DPE, amiante, électricité…), en cours de validité Pour un audit : qualification de l'auditeur vérifiée (signe de qualité, architecte formé, diagnostiqueur certifié avec compétence audit) Attestation d'assurance de responsabilité professionnelle demandée Aucun lien avec le vendeur, ton agence ou une entreprise de travaux Deux devis au moins, choisis par le vendeur",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Modèle de commande (à adapter)",
+   "text": "« Objet : commande de [DPE / audit énergétique réglementaire / diagnostics électricité, amiante…] pour la vente de [type de bien, surface, année] situé à [commune]. Je vous confie : [liste des diagnostics]. Pièces jointes : plan et descriptif, factures des travaux réalisés (menuiseries, chauffage, isolation, ventilation), DPE précédent et son numéro, diagnostics existants. Points…",
+   "caption": "Modèle de commande (à adapter). « Objet : commande de [DPE / audit énergétique réglementaire / diagnostics électricité, amiante…] pour la vente de [type de bien, surface, année] situé à [commune]. Je vous confie : [liste des diagnostics]. Pièces jointes : plan et descriptif, factures des travaux réalisés (menuiseries, chauffage, isolation, ventilation), DPE précédent et son numéro, diagnostics existants. Points…",
+   "dur": 21.4
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Lire une simulation d'étiquette",
+   "items": [
+    "Repère les hypothèses : quels travaux, quelles performances (Uw des fenêtres, type de VMC, rendement du chauffage) ?",
+    "Vérifie le coefficient de l'électricité utilisé (1,9 en 2026, 1,7 au 1/01/2027).",
+    "Compare le résultat aux seuils et note l'écart au seuil : une simulation à 5 près ne garantit rien.",
+    "Compare les travaux simulés aux devis réels (D13 ou M14).",
+    "Écris la conclusion au conditionnel, avec la mention « estimation, à confirmer par un DPE après travaux »."
+   ],
+   "caption": "Lire une simulation d'étiquette. Repère les hypothèses : quels travaux, quelles performances (Uw des fenêtres, type de VMC, rendement du chauffage) ? Vérifie le coefficient de l'électricité utilisé (1,9 en 2026, 1,7 au 1/01/2027). Compare le résultat aux seuils et note l'écart au seuil : une simulation à 5 près ne garantit rien. Compare les travaux simulés aux devis réels (D13 ou M14). Écris la conclusion au conditionnel, avec la…",
+   "dur": 28.807407407407403
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple : la simulation de M. Bernard",
+   "text": "Hypothèse : les 4 travaux du D13 (fenêtres, VMC, radiateurs à inertie, chauffe-eau thermodynamique : 16 500 €). Résultat estimé : ≈ 110 kWhEF/m²/an ; 110 × 1,9 = 209 kWhEP/m²/an → D (seuil D : > 180 et ≤ 250). Avec l'isolation par l'extérieur de la copropriété en plus : ≈ 85 kWhEF …",
+   "caption": "Exemple : la simulation de M. Bernard. Hypothèse : les 4 travaux du D13 (fenêtres, VMC, radiateurs à inertie, chauffe-eau thermodynamique : 16 500 €). Résultat estimé : ≈ 110 kWhEF/m²/an ; 110 × 1,9 = 209 kWhEP/m²/an → D (seuil D : > 180 et ≤ 250). Avec l'isolation par l'extérieur de la copropriété en plus : ≈ 85 kWhEF …",
+   "dur": 21.4
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Après sa simulation, le diagnostiqueur estime l'appartement de M. Bernard « vers D » une fois les travaux privatifs faits. Que peux-tu écrire dans l'annonce ?",
+    "options": [
+     "« Classe D après travaux »",
+     "« Bientôt classe D »",
+     "La classe en vigueur (E) ; la simulation se présente à part, comme une estimation à confirmer"
+    ],
+    "answer": 2
+   },
+   "fb": "Seuls le DPE et l'attestation actualisée établissent une classe. Une simulation après travaux (ici ≈ 110 kWhEF → ≈ 209 kWhEP avec 1,9 → D, à confirmer) aide à décider des travaux ; elle se présente comme une estimation, avec…",
+   "caption": "Après sa simulation, le diagnostiqueur estime l'appartement de M. Bernard « vers D » une fois les travaux privatifs faits. Que peux-tu écrire dans l'annonce ?",
+   "dur": 26.133333333333333
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Rédiger la commande à un diagnostiqueur certifié",
+   "steps": [
+    {
+     "label": "Vérifie dans l'annuaire le certificat de deux diagnostiqueurs de ton secteur (sans les recommander au vendeur : il…",
+     "detail": ""
+    },
+    {
+     "label": "Relève dans le D17 la date de chaque diagnostic et ce qui expire avant le 15/03/2027.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige la commande avec le modèle : objet, pièces jointes, points à examiner, accès, délai.",
+     "detail": ""
+    },
+    {
+     "label": "Écris les hypothèses de la simulation à partir du D13.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige la phrase qui présentera le résultat de la simulation au vendeur.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Rédiger la commande à un diagnostiqueur certifié. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Commande au diagnostiqueur pour M. Bernard",
+   "items": [
+    "La certification d'au moins un diagnostiqueur est vérifiée sur l'annuaire officiel",
+    "La commande liste les pièces jointes et les points à examiner",
+    "Les hypothèses de la simulation reprennent exactement le D13",
+    "Les validités du D17 sont comparées à la date d'acte prévue",
+    "La simulation est présentée comme une estimation à confirmer, jamais comme une classe"
+   ],
+   "caption": "Ton livrable : Commande au diagnostiqueur pour M. Bernard. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèle de commande + lecture de la simulation d'étiquette",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 206.19
+}

@@ -1,0 +1,199 @@
+{
+ "id": "1.18",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Visibilité web (Google, Facebook, LinkedIn)",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 1.18 : être trouvé sur le web",
+   "caption": "Bienvenue. Dans ce chapitre, tu soignes tes trois vitrines en ligne : Google, Facebook et LinkedIn.",
+   "cta": "Commencer",
+   "dur": 6.96
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "comment un vendeur choisit l'agent qu'il appelle, et ce que chaque réseau y apporte"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "optimiser ta fiche Google, programmer 3 posts, refaire ton profil LinkedIn"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer tes trois vitrines en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Cinq étoiles pour moi, personne ne verra rien !",
+   "caption": "Cinq étoiles pour moi, personne ne verra rien !",
+   "line": "Cinq étoiles pour moi, personne ne verra rien !",
+   "scene": "Mozi tape des avis cinq étoiles sur sa propre fiche, trois téléphones en main.",
+   "pose": "base",
+   "dur": 4.36
+  },
+  {
+   "kind": "belief",
+   "title": "20 avis, 5 étoiles, 1 seul auteur",
+   "caption": "Vingt avis, cinq étoiles, un seul auteur.",
+   "beats": [
+    "20 avis",
+    "5 étoiles",
+    "1 seul auteur"
+   ],
+   "wrong": 2,
+   "why": "Des avis écrits par soi-même sont supprimés, et la fiche est signalée.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Avis supprimés. Fiche signalée.",
+   "caption": "Et là, ça ne rate pas : les avis disparaissent, la fiche est signalée.",
+   "lines": [
+    "Avis supprimés.",
+    "Fiche signalée."
+   ],
+   "dur": 6.21
+  },
+  {
+   "kind": "stat",
+   "title": "75 % lisent les avis avant d'acheter",
+   "caption": "Avant d'acheter, trois personnes sur quatre lisent d'abord les avis.",
+   "value": "75 %",
+   "label": "des consommateurs lisent les avis avant d'acheter",
+   "dur": 5.84
+  },
+  {
+   "kind": "steps",
+   "title": "Google → Facebook → LinkedIn",
+   "caption": "Regarde comment M. Bernard choisit. Un, Google. Il tape agence immobilière Melun et compare les fiches : photos, horaires, avis, et tes réponses aux avis. Ta fiche complète, avec de vrais avis, c'est ta première poignée de main. Deux, Facebook. Il veut voir que tu es actif dans son quartier. Même nom que ta fiche, une vraie photo, des posts réguliers : pédagogie, coulisses, avis, avec l'accord écrit de tes clients. Et une pub d'estimation se fait en catégorie Logement : une zone, jamais un âge. Trois, LinkedIn. C'est là que son notaire te découvre. Ton titre dit où, quoi, pour qui, sans titre que tu n'as pas. Tes Infos tiennent en quatre paragraphes. Et tu invites à la main, jamais avec un robot.",
+   "steps": [
+    {
+     "label": "Google",
+     "detail": "Fiche complète, vrais avis, une réponse à chaque avis."
+    },
+    {
+     "label": "Facebook",
+     "detail": "Même nom, vraie photo, posts réguliers sur 3 piliers ; pub en catégorie Logement."
+    },
+    {
+     "label": "LinkedIn",
+     "detail": "Titre où, quoi, pour qui ; Infos en 4 paragraphes ; invitations à la main."
+    }
+   ],
+   "dur": 48.07
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Mozi a vingt faux avis. Toi, tu démarres avec zéro. Que fais-tu pour que M. Bernard te choisisse ?",
+   "model_answer": "Je demande un avis à chacun de mes vrais clients satisfaits, avec le lien direct de ma fiche, et je réponds à tous les avis, même aux moins bons. Peu d'avis au début, mais tous vrais.",
+   "dur": 22.74
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Diffuser de faux avis est une pratique commerciale trompeuse, en toutes circonstances",
+     "Une fiche Google ne peut pas dépasser 20 avis",
+     "Aucune : c'est sa fiche, il y écrit ce qu'il veut"
+    ],
+    "answer": 0,
+    "feedback": "Les faux avis de consommateurs font partie des pratiques réputées trompeuses en toutes circonstances (code de la consommation, art. L. 121-4). Et Google les supprime.",
+    "whys": [
+     "Exact : la loi les classe parmi les pratiques trompeuses en toutes circonstances, sans qu'il faille prouver un préjudice.",
+     "Faux : il n'existe aucun plafond d'avis. Le problème, c'est l'auteur, pas le nombre.",
+     "Faux : la fiche est publique et s'adresse à des consommateurs ; la loi s'applique."
+    ]
+   },
+   "card2": {
+    "question": "Maxime, nouvel entrant, veut écrire « Expert DPE certifié » dans son titre LinkedIn. S'il le faisait, que se passerait-il ?",
+    "answer": "Il laisserait croire qu'il est diagnostiqueur certifié. Le premier notaire ou vendeur qui vérifie perd confiance, comme M. Bernard qui vérifie tout. C'est le même piège que les faux avis : une vitrine qui ment. Son titre doit dire ce qu'il fait vraiment : où, quoi, pour qui."
+   },
+   "fb": "Les faux avis de consommateurs font partie des pratiques réputées trompeuses en toutes circonstances (code de la consommation, art. L. 121-4). Et Google les supprime.",
+   "dur": 16.87
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : qu'un vendeur te trouve, et qu'un notaire te recommande. Ta fiche Google, puis ton duo Facebook et LinkedIn.",
+   "goal": "Être trouvé, choisi et recommandé",
+   "tools": [
+    {
+     "name": "Fiche Google",
+     "role": "Être trouvé en recherche locale, avec de vrais avis"
+    },
+    {
+     "name": "Facebook et LinkedIn",
+     "role": "Programmer tes posts et refaire ton profil d'expert"
+    }
+   ],
+   "dur": 10.66
+  },
+  {
+   "kind": "demo",
+   "title": "Google : compléter, décrire, demander, répondre",
+   "caption": "Sur Google, tu complètes ta fiche : catégorie, zone desservie, horaires, photos. Une description de sept cent cinquante caractères maximum, sans lien ni promotion. Tu envoies ton lien d'avis à tes vrais clients. Et tu réponds à chaque avis.",
+   "steps": [
+    "Compléter : catégorie, zone desservie, horaires, photos",
+    "Décrire : 750 caractères max, sans lien ni promo",
+    "Demander : ton lien d'avis à tes vrais clients",
+    "Répondre : à chaque avis, même au moins bon"
+   ],
+   "tool": "Fiche Google",
+   "dur": 15.84
+  },
+  {
+   "kind": "demo",
+   "title": "Facebook et LinkedIn : programmer, réécrire",
+   "caption": "Dans le planificateur de Meta, tu prépares trois posts, une source par chiffre, et tu les programmes, jusqu'à vingt-neuf jours à l'avance. Sur LinkedIn, tu fais une capture avant, puis tu réécris ton titre : ville, spécialité, type de biens. Et tes Infos, en quatre paragraphes.",
+   "steps": [
+    "Préparer : 3 posts, pédagogie, coulisses, avis",
+    "Programmer : jusqu'à 29 jours à l'avance",
+    "Titre LinkedIn : ville, spécialité, type de biens",
+    "Infos LinkedIn : 4 paragraphes, à la première personne"
+   ],
+   "tool": "Facebook et LinkedIn",
+   "dur": 19.18
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Fais-le maintenant.",
+   "cta": "Faire mes trois chantiers web",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ce que tu as fait.",
+   "ask": "Dépose une image en trois parties : ta fiche Google vue sur téléphone, tes 3 posts programmés, le haut de ton profil LinkedIn après modification.",
+   "dur": 3.99
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Tes trois vitrines disent la même chose, avec de vrais avis. Celles de Mozi : de faux avis, une page vide, un robot.",
+   "status": "Tes 3 vitrines : complètes et vraies. Celles de Mozi : faux avis, page vide, robot.",
+   "dur": 9.55
+  }
+ ],
+ "total": 185.39
+}

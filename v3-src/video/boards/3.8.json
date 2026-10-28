@@ -1,0 +1,167 @@
+{
+ "id": "3.8",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Synthétiser : une page, une idée, trois chiffres",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Synthétiser : une page, une idée, trois chiffres",
+   "caption": "Capsule 3.8. Synthétiser : une page, une idée, trois chiffres",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Rédiger la synthèse d'une page du bien fil rouge : la conclusion en premier, trois chiffres, une preuve datée pour chacun et une prochaine étape.",
+   "caption": "À la fin de cette capsule : Rédiger la synthèse d'une page du bien fil rouge : la conclusion en premier, trois chiffres, une preuve datée pour chacun et une prochaine étape.",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "À la fin, après avoir tout expliqué",
+   "pose": "clin-oeil",
+   "scene": "Claire commence sa synthèse par « Le bien a été construit en 1972, le DPE date de 2023… ». Où doit-elle placer sa conclusion ?",
+   "caption": "Claire commence sa synthèse par « Le bien a été construit en 1972, le DPE date de 2023… ». Où doit-elle placer sa conclusion ? Mozi, lui, répondrait : « À la fin, après avoir tout expliqué »",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : un lecteur pressé ou méfiant s'arrête avant d'arriver à la conclusion."
+   ],
+   "caption": "Faux : un lecteur pressé ou méfiant s'arrête avant d'arriver à la conclusion.",
+   "dur": 6.5851851851851855
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier lit à voix haute deux synthèses du même bien.",
+    "La première raconte tout dans l'ordre chronologique et arrive à la conclusion en bas de page.",
+    "La seconde commence par la conclusion, donne trois chiffres et une preuve pour chacun.",
+    "Il montre la méthode en quatre blocs (conclusion, trois chiffres, preuves, prochaine étape) sur l'appartement de M. Bernard."
+   ],
+   "caption": "Sébastien Paumier lit à voix haute deux synthèses du même bien. La première raconte tout dans l'ordre chronologique et arrive à la conclusion en bas de page. La seconde commence par la conclusion, donne trois chiffres et une preuve pour chacun. Il montre la méthode en quatre blocs (conclusion, trois chiffres, preuves, prochaine étape) sur l'appartement de M. Bernard.",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Les 4 blocs, dans cet ordre",
+   "items": [
+    "Conclusion : une phrase de 25 mots maximum, ce que le vendeur doit retenir et faire.",
+    "Trois chiffres : ceux qui portent la décision (énergie, valeur, coût de l'alternative), en gros caractères.",
+    "Une preuve par chiffre : pièce du dossier, méthode de calcul, date, et la limite en une ligne.",
+    "Prochaine étape : qui fait quoi, avant quelle date ; la décision reste au vendeur."
+   ],
+   "caption": "Les 4 blocs, dans cet ordre. Conclusion : une phrase de 25 mots maximum, ce que le vendeur doit retenir et faire. Trois chiffres : ceux qui portent la décision (énergie, valeur, coût de l'alternative), en gros caractères. Une preuve par chiffre : pièce du dossier, méthode de calcul, date, et la limite en une ligne. Prochaine étape : qui fait quoi, avant quelle date ; la décision reste au…",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple rempli · M. Bernard (fil rouge, fictif)",
+   "text": "Conclusion : votre appartement se vend en l'état, classé E, entre 178 000 et 186 000 € net, avec un dossier qui chiffre tout pour l'acheteur. Chiffre 1 : classe E, 285 kWhEP/m²/an (preuve : attestation actualisée ADEME D03, valable jusqu'au 13/03/2033 ; limite : calcul conventionnel). Chiffre 2 : 178 000 à 186 000…",
+   "caption": "Exemple rempli · M. Bernard (fil rouge, fictif). Conclusion : votre appartement se vend en l'état, classé E, entre 178 000 et 186 000 € net, avec un dossier qui chiffre tout pour l'acheteur. Chiffre 1 : classe E, 285 kWhEP/m²/an (preuve : attestation actualisée ADEME D03, valable jusqu'au 13/03/2033 ; limite : calcul conventionnel). Chiffre 2 : 178 000 à 186 000…",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Les 6 contrôles avant d'envoyer",
+   "items": [
+    "La conclusion tient en une phrase et ne promet ni prix ni délai.",
+    "Il y a exactement trois chiffres mis en avant, pas cinq.",
+    "Chaque chiffre a sa pièce, sa date et sa limite.",
+    "Les chiffres sont identiques à ceux du tableau de bord (capsule 3.7).",
+    "La décision est laissée au vendeur, avec une date proposée et non imposée."
+   ],
+   "caption": "Les 6 contrôles avant d'envoyer. La conclusion tient en une phrase et ne promet ni prix ni délai. Il y a exactement trois chiffres mis en avant, pas cinq. Chaque chiffre a sa pièce, sa date et sa limite. Les chiffres sont identiques à ceux du tableau de bord (capsule 3.7). La décision est laissée au vendeur, avec une date proposée et non imposée.",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Les erreurs qui tuent une synthèse",
+   "items": [
+    "Raconter dans l'ordre chronologique au lieu de conclure d'abord.",
+    "Empiler les chiffres : le lecteur ne sait plus lequel compte.",
+    "Écrire « environ » ou « à peu près » sans source ni date.",
+    "Glisser une promesse (« vous vendrez en un mois ») dans la conclusion."
+   ],
+   "caption": "Les erreurs qui tuent une synthèse. Raconter dans l'ordre chronologique au lieu de conclure d'abord. Empiler les chiffres : le lecteur ne sait plus lequel compte. Écrire « environ » ou « à peu près » sans source ni date. Glisser une promesse (« vous vendrez en un mois ») dans la conclusion.",
+   "dur": 19.177777777777774
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Pour M. Bernard, quel trio de chiffres soutient le mieux la conclusion « vendre en l'état, avec un dossier complet » ?",
+    "options": [
+     "Classe E (D03) · 178 000 à 186 000 € net en l'état (D12) · 52 380 € à dépenser pour viser 216 600 € (D13 + D07)",
+     "1972 · 76 m² · 4e étage",
+     "Classe F · −15 % · 172 000 €"
+    ],
+    "answer": 0
+   },
+   "fb": "On choisit les trois chiffres qui portent la décision : l'étiquette en vigueur (E), la valeur en l'état (178 000 à 186 000 €) et ce que coûterait l'autre option (16 500 + 35 880 = 52 380 € pour…",
+   "caption": "Pour M. Bernard, quel trio de chiffres soutient le mieux la conclusion « vendre en l'état, avec un dossier complet » ?",
+   "dur": 24.281481481481478
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Résumer le bien fil rouge en une page",
+   "steps": [
+    {
+     "label": "Écris ta conclusion en une phrase de 25 mots maximum, sans promesse de prix ni de délai.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis dans ton tableau de bord les trois chiffres qui portent cette conclusion.",
+     "detail": ""
+    },
+    {
+     "label": "Sous chaque chiffre, écris sa preuve : pièce, méthode, date, limite.",
+     "detail": ""
+    },
+    {
+     "label": "Écris la prochaine étape : qui fait quoi, avant quelle date, en laissant la décision au vendeur.",
+     "detail": ""
+    },
+    {
+     "label": "Relis à voix haute et coupe jusqu'à tenir en une minute de lecture.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Résumer le bien fil rouge en une page. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Synthèse d'une page du bien fil rouge",
+   "items": [
+    "La conclusion est en première ligne, en une phrase de 25 mots maximum",
+    "Exactement trois chiffres mis en avant, identiques au tableau de bord",
+    "Chaque chiffre a sa preuve : pièce du dossier, date et limite",
+    "Aucune promesse de prix, de délai ou d'aide",
+    "Une prochaine étape datée, qui laisse la décision au vendeur"
+   ],
+   "caption": "Ton livrable : Synthèse d'une page du bien fil rouge. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèle de synthèse d'une page : conclusion, trois chiffres, preuves, prochaine étape",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 210.36
+}

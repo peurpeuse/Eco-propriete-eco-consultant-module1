@@ -1,0 +1,194 @@
+{
+ "id": "3.9",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Faire parler les chiffres : comparer, situer, visualiser",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Faire parler les chiffres : comparer, situer, visualiser",
+   "caption": "Capsule 3.9. Faire parler les chiffres : comparer, situer, visualiser",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Transformer un tableau de chiffres du bien fil rouge en un graphique qui dit une seule chose, avec un repère de comparaison sourcé et daté.",
+   "caption": "À la fin de cette capsule : Transformer un tableau de chiffres du bien fil rouge en un graphique qui dit une seule chose, avec un repère de comparaison sourcé et daté.",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Un camembert de la consommation par usage (chauffage, eau chaude, éclairage)",
+   "pose": "telephone",
+   "scene": "Hugo veut montrer à M. Bernard que son appartement passe de F à E sans travaux. Quel graphique choisit-il ?",
+   "caption": "Hugo veut montrer à M. Bernard que son appartement passe de F à E sans travaux. Quel graphique choisit-il ? Mozi, lui, répondrait : « Un camembert de la consommation par usage (chauffage, eau chaude, éclairage) »",
+   "dur": 12.881481481481481
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : il montre la répartition des usages, pas le changement de classe."
+   ],
+   "caption": "Faux : il montre la répartition des usages, pas le changement de classe.",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Un tableau de quatre lignes de kWh ne dit rien à M. Bernard.",
+    "Le même chiffre, posé sur l'échelle des classes A à G avec les seuils officiels, devient évident.",
+    "Sébastien Paumier montre trois gestes : comparer (avant et après), situer (par rapport à un repère sourcé) et visualiser (un graphique, un message), puis choisit le bon graphique pour chaque cas."
+   ],
+   "caption": "Un tableau de quatre lignes de kWh ne dit rien à M. Bernard. Le même chiffre, posé sur l'échelle des classes A à G avec les seuils officiels, devient évident. Sébastien Paumier montre trois gestes : comparer (avant et après), situer (par rapport à un repère sourcé) et visualiser (un graphique, un message), puis choisit le bon graphique pour chaque cas.",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Quel graphique pour quel message ?",
+   "table": {
+    "headers": [
+     "Ce que tu veux dire",
+     "Graphique",
+     "Exemple fil rouge"
+    ],
+    "rows": [
+     [
+      "Avant et après, ou A contre B",
+      "Barres côte à côte, axe à zéro",
+      "345 → 285 kWhEP/m²/an (F → E)"
+     ],
+     [
+      "Situer sur une échelle",
+      "Barre sur l'échelle A à G avec les seuils",
+      "285 dans la bande E (251 à 330)"
+     ],
+     [
+      "Ce qu'on dépense contre ce qu'on gagne",
+      "Deux barres ou une balance",
+      "52 380 € dépensés pour 34 600 € d'écart"
+     ],
+     [
+      "Un calendrier de paiements",
+      "Frise datée",
+      "4 appels ITE de 8 970 € en 2027"
+     ],
+     [
+      "Une fourchette",
+      "Segment de valeur min-max",
+      "178 000 à 186 000 € net vendeur"
+     ]
+    ]
+   },
+   "caption": "Quel graphique pour quel message ?. Avant et après, ou A contre B : Barres côte à côte, axe à zéro ; Situer sur une échelle : Barre sur l'échelle A à G avec les seuils ; Ce qu'on dépense contre ce qu'on gagne : Deux barres ou une balance",
+   "dur": 18.807407407407403
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Repères de comparaison utilisables (sourcés, datés)",
+   "items": [
+    "Seuils des classes énergie (logements ≥ 40 m²) : A < 70, B 70-110, C 110-180, D 180-250, E 250-330, F 330-420…",
+    "Parc national au 1er janvier 2025 : 12,7 % des résidences principales classées F ou G, environ 3,9 millions (SDES / ONRE…",
+    "Répartition nationale au 1er janvier 2025 : C 27,2 %, D 33,7 %, E 17,8 %, F 7,9 %, G 4,8 %…",
+    "Repères locaux : prix au m² des ventes comparables (DVF, notaires), datés, de la capsule 3.6."
+   ],
+   "caption": "Repères de comparaison utilisables (sourcés, datés). Seuils des classes énergie (logements ≥ 40 m²) : A < 70, B 70-110, C 110-180, D 180-250, E 250-330, F 330-420… Parc national au 1er janvier 2025 : 12,7 % des résidences principales classées F ou G, environ 3,9 millions (SDES / ONRE… Répartition nationale au 1er janvier 2025 : C 27,2 %, D 33,7 %, E 17,8 %, F 7,9 %, G…",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Les 7 règles d'un graphique honnête",
+   "items": [
+    "Le titre est une phrase qui dit le message (« Sans travaux, l'appartement passe de F à E »).",
+    "Un seul message par graphique.",
+    "Pour des barres, l'axe commence à zéro.",
+    "Les estimations sont en couleur atténuée ou en pointillé, avec le mot « estimation ».",
+    "Pas de 3D, pas d'effets, pas de couleur qui ne veut rien dire."
+   ],
+   "caption": "Les 7 règles d'un graphique honnête. Le titre est une phrase qui dit le message (« Sans travaux, l'appartement passe de F à E »). Un seul message par graphique. Pour des barres, l'axe commence à zéro. Les estimations sont en couleur atténuée ou en pointillé, avec le mot « estimation ». Pas de 3D, pas d'effets, pas de couleur qui ne veut rien dire.",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase pour commenter le graphique",
+   "text": "« Monsieur Bernard, cette barre, c'est votre appartement en 2023 : 345, classe F. Celle-ci, c'est aujourd'hui, avec la nouvelle règle de calcul de l'électricité : 285, classe E. Rien n'a changé dans l'appartement ; la règle de calcul a changé, et c'est l'attestation de l'ADEME qui le prouve. »",
+   "caption": "La phrase pour commenter le graphique. « Monsieur Bernard, cette barre, c'est votre appartement en 2023 : 345, classe F. Celle-ci, c'est aujourd'hui, avec la nouvelle règle de calcul de l'électricité : 285, classe E. Rien n'a changé dans l'appartement ; la règle de calcul a changé, et c'est l'attestation de l'ADEME qui le prouve. »",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Sarah publie « 12,7 % des résidences principales sont des passoires » sans autre mention. Que manque-t-il ?",
+    "options": [
+     "Un emoji pour attirer l'œil",
+     "Un arrondi à 13 % pour simplifier",
+     "La source et la date : SDES / ONRE, données au 1er janvier 2025, publiées le 12/11/2025"
+    ],
+    "answer": 2
+   },
+   "fb": "Le repère national (12,7 % de passoires F et G, soit environ 3,9 millions de résidences principales) vient du SDES, données au 1er janvier 2025. On l'écrit sous le graphique, avec la date.",
+   "caption": "Sarah publie « 12,7 % des résidences principales sont des passoires » sans autre mention. Que manque-t-il ?",
+   "dur": 22.059259259259257
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Un tableau, un graphique, un message",
+   "steps": [
+    {
+     "label": "Recopie depuis le dossier les quatre valeurs de performance du bien (avant, aujourd'hui, après travaux privatifs, après ITE).",
+     "detail": ""
+    },
+    {
+     "label": "Écris en une phrase le message que le graphique doit faire passer.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis le type de graphique dans le tableau de la fiche et ajoute un repère (seuils des classes…",
+     "detail": ""
+    },
+    {
+     "label": "Construis le graphique dans le tableur : axe à zéro, estimations en pointillé, titre = message.",
+     "detail": ""
+    },
+    {
+     "label": "Ajoute sous le graphique la source et la date de chaque valeur et du repère.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Un tableau, un graphique, un message. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Graphique commenté du bien fil rouge",
+   "items": [
+    "Le titre du graphique est une phrase qui dit le message",
+    "Un seul message, un seul type de graphique, axe à zéro pour des barres",
+    "Au moins un repère de comparaison sourcé et daté (seuils des classes ou donnée nationale)",
+    "Les estimations sont visuellement distinctes et nommées comme telles",
+    "Source et date de chaque valeur sous le graphique"
+   ],
+   "caption": "Ton livrable : Graphique commenté du bien fil rouge. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche mise en forme des chiffres : repères de comparaison, avant et après, choix du graphique",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 208.14
+}

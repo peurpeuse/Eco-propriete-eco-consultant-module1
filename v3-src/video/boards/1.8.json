@@ -1,0 +1,187 @@
+{
+ "id": "1.8",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Se spécialiser : sa niche et ses preuves",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Se spécialiser : sa niche et ses preuves",
+   "caption": "Capsule 1.8. Se spécialiser : sa niche et ses preuves",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Choisir une spécialité d'éco-consultant cohérente avec sa cible et sa zone, et la justifier par trois preuves vérifiables (marché, compétence, résultat)",
+   "caption": "À la fin de cette capsule : Choisir une spécialité d'éco-consultant cohérente avec sa cible et sa zone, et la justifier par trois preuves vérifiables (marché, compétence, résultat)",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Spécialiste de l'immobilier.",
+   "pose": "presse",
+   "scene": "Laquelle de ces spécialités est la plus utile pour un éco-consultant de Melun dont la cible est le retraité en copropriété ancienne ?",
+   "caption": "Laquelle de ces spécialités est la plus utile pour un éco-consultant de Melun dont la cible est le retraité en copropriété ancienne ? Mozi, lui, répondrait : « Spécialiste de l'immobilier. »",
+   "dur": 11.4
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : trop large, cela ne distingue de personne."
+   ],
+   "caption": "Faux : trop large, cela ne distingue de personne.",
+   "dur": 5
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier montre la différence entre se dire « spécialiste » et le prouver.",
+    "Il part de la cible de l'appartement (M. Bernard) et construit une niche, les copropriétés des années 60-70 classées E ou F, puis la justifie par trois preuves : un chiffre de marché daté…",
+    "Mozi, lui, se déclare « expert de tout »."
+   ],
+   "caption": "Sébastien Paumier montre la différence entre se dire « spécialiste » et le prouver. Il part de la cible de l'appartement (M. Bernard) et construit une niche, les copropriétés des années 60-70 classées E ou F, puis la justifie par trois preuves : un chiffre de marché daté, une compétence démontrable, un résultat obtenu. Mozi, lui, se déclare « expert de tout ».",
+   "dur": 23.62222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Des niches d'éco-consultant",
+   "table": {
+    "headers": [
+     "Niche",
+     "Besoin du vendeur",
+     "Exemple fil rouge (fictif)"
+    ],
+    "rows": [
+     [
+      "Copropriétés des années 1960-1980 classées E ou F",
+      "Comprendre DPE, PPPT, travaux votés, appels de fonds",
+      "M. Bernard, résidence « Les Tilleuls », ITE votée"
+     ],
+     [
+      "Logements chauffés à l'électricité",
+      "Vérifier la classe avec le coefficient 1,9 (2026) puis 1,7 (2027)",
+      "M. Bernard : F → E avec l'attestation actualisée"
+     ],
+     [
+      "Maisons chauffées au fioul classées F ou G",
+      "Lire l'audit, chiffrer un parcours de travaux, vendre en l'état ou rénover",
+      "Mme Garnier : G à cause du fioul, audit en deux parcours"
+     ],
+     [
+      "Maisons sur grand terrain",
+      "Repérer une option de division à étudier avec géomètre et notaire",
+      "Mme Garnier : 1 240 m², lot de 480 m² à étudier"
+     ]
+    ]
+   },
+   "caption": "Des niches d'éco-consultant. Copropriétés des années 1960-1980 classées E ou F : Comprendre DPE, PPPT, travaux votés, appels de fonds ; Logements chauffés à l'électricité : Vérifier la classe avec le coefficient 1,9 (2026) puis 1,7 (2027) ; Maisons chauffées au fioul classées F ou G : Lire l'audit, chiffrer un parcours de travaux, vendre en l'état ou rénover",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Les 3 preuves",
+   "items": [
+    "Preuve de marché : un chiffre daté qui montre que le besoin existe dans ta zone (part de DPE E-F-G sur l'observatoire…",
+    "Preuve de compétence : ce que tu sais faire et peux montrer (formation suivie avec attestation, fiche démo DPE de 1.1, méthode…",
+    "Preuve de résultat : ce que tu as déjà obtenu (ventes de ce type, dossiers remis, témoignage écrit d'un client avec son…"
+   ],
+   "caption": "Les 3 preuves. Preuve de marché : un chiffre daté qui montre que le besoin existe dans ta zone (part de DPE E-F-G sur l'observatoire… Preuve de compétence : ce que tu sais faire et peux montrer (formation suivie avec attestation, fiche démo DPE de 1.1, méthode… Preuve de résultat : ce que tu as déjà obtenu (ventes de ce type, dossiers remis, témoignage écrit d'un client avec son…",
+   "dur": 27.696296296296293
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Ta phrase de spécialité",
+   "text": "« J'aide [cible] de [zone] à [résultat] grâce à [méthode]. » Exemple fictif : « J'aide les retraités propriétaires d'un appartement des années 70 à Melun à vendre au juste prix grâce à un DPE vérifié et à des travaux de copropriété expliqués. »",
+   "caption": "Ta phrase de spécialité. « J'aide [cible] de [zone] à [résultat] grâce à [méthode]. » Exemple fictif : « J'aide les retraités propriétaires d'un appartement des années 70 à Melun à vendre au juste prix grâce à un DPE vérifié et à des travaux de copropriété expliqués. »",
+   "dur": 18.437037037037033
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Ce que tu n'écris jamais",
+   "items": [
+    "Un titre réglementé que tu n'as pas : diagnostiqueur, auditeur énergétique, expert agréé.",
+    "« Je vous garantis un meilleur prix » ou un gain chiffré.",
+    "« Travaux financés à 100 % » : une aide n'est jamais acquise d'avance.",
+    "Un témoignage client sans son accord écrit."
+   ],
+   "caption": "Ce que tu n'écris jamais. Un titre réglementé que tu n'as pas : diagnostiqueur, auditeur énergétique, expert agréé. « Je vous garantis un meilleur prix » ou un gain chiffré. « Travaux financés à 100 % » : une aide n'est jamais acquise d'avance. Un témoignage client sans son accord écrit.",
+   "dur": 19.177777777777774
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Mozi écrit sur sa carte de visite : « Expert DPE certifié ». Il n'a aucune certification de diagnostiqueur. Quel est le problème ?",
+    "options": [
+     "Aucun : c'est du marketing, tout le monde le fait.",
+     "Il devrait plutôt écrire « auditeur énergétique ».",
+     "Il laisse croire à une certification qu'il n'a pas : c'est trompeur, et le DPE est réservé à un diagnostiqueur certifié."
+    ],
+    "answer": 2
+   },
+   "fb": "Le DPE est établi par un diagnostiqueur certifié (service-public.fr, F16096). Tes preuves sont ailleurs : une formation suivie, des dossiers traités, des résultats. Écris ce que tu fais (« je vérifie et j'explique votre DPE »), pas un titre que…",
+   "caption": "Mozi écrit sur sa carte de visite : « Expert DPE certifié ». Il n'a aucune certification de diagnostiqueur. Quel est le problème ?",
+   "dur": 25.39259259259259
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Ma spécialité et mes 3 preuves",
+   "steps": [
+    {
+     "label": "Choisis une niche dans la liste de la fiche ou formule la tienne ; vérifie qu'elle rejoint ta…",
+     "detail": ""
+    },
+    {
+     "label": "Écris ta phrase de spécialité avec le modèle « J'aide [cible] de [zone] à [résultat] grâce à [méthode]…",
+     "detail": ""
+    },
+    {
+     "label": "Trouve une preuve de marché chiffrée et datée.",
+     "detail": ""
+    },
+    {
+     "label": "Trouve une preuve de compétence et une preuve de résultat ; si tu n'as pas encore de résultat…",
+     "detail": ""
+    },
+    {
+     "label": "Relis : aucun titre réglementé, aucune promesse de gain.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Ma spécialité et mes 3 preuves. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Ma fiche spécialisation",
+   "items": [
+    "La spécialité rejoint la cible (1.7) et la zone (1.5)",
+    "La phrase suit le modèle « J'aide … de … à … grâce à … »",
+    "Trois preuves de natures différentes : marché, compétence, résultat",
+    "Chaque preuve est vérifiable (source, pièce ou date)",
+    "Aucun titre réglementé usurpé, aucune promesse de gain"
+   ],
+   "caption": "Ton livrable : Ma fiche spécialisation. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche spécialisation",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 202.11
+}

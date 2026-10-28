@@ -1,0 +1,202 @@
+{
+ "id": "1.19",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Créer ses contenus avec l'IA",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 1.19 : écrire avec l'IA",
+   "caption": "Bienvenue. Dans ce chapitre, tu vas faire travailler l'IA pour toi, sans jamais lui laisser le volant.",
+   "cta": "Commencer",
+   "dur": 8.07
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi une IA peut inventer un chiffre avec aplomb"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "produire un post et un script vidéo courte avec un prompt métier, puis vérifier chaque fait"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton post, ton script et leur tableau de vérification en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "L'IA l'a écrit avec une virgule, donc c'est vrai : je publie !",
+   "caption": "L'IA l'a écrit avec une virgule, donc c'est vrai : je publie !",
+   "line": "L'IA l'a écrit avec une virgule, donc c'est vrai : je publie !",
+   "scene": "Mozi applaudit son écran, où un chatbot affiche « coefficient : 2,58 », et clique sur « Publier ».",
+   "pose": "clin-oeil",
+   "dur": 6.59
+  },
+  {
+   "kind": "belief",
+   "title": "1 prompt, 10 secondes, 0 vérification",
+   "caption": "Un prompt, dix secondes, zéro vérification.",
+   "beats": [
+    "1 prompt",
+    "10 secondes",
+    "0 vérification"
+   ],
+   "wrong": 2,
+   "why": "Le texte de l'IA reste sous ta responsabilité : chaque chiffre se vérifie.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Chiffre faux. Ton nom dessous.",
+   "caption": "Résultat : deux virgule cinquante-huit, publié. C'est l'ancienne valeur, abandonnée avec le nouveau DPE de juillet 2021. Le vrai coefficient est un virgule neuf. Et c'est ton nom sous le post.",
+   "lines": [
+    "2,58 publié : une valeur abandonnée en 2021.",
+    "Le texte reste sous ta responsabilité."
+   ],
+   "dur": 13.99
+  },
+  {
+   "kind": "stat",
+   "title": "1,9 : le vrai coefficient",
+   "caption": "Le vrai chiffre : un virgule neuf depuis le premier janvier 2026, puis un virgule sept en 2027. Plus une règle est récente, plus tu vérifies.",
+   "value": [
+    1,
+    9
+   ],
+   "label": "coefficient de l'électricité depuis le 1er janvier 2026 (1,7 au 1er janvier 2027)",
+   "dur": 10.66
+  },
+  {
+   "kind": "steps",
+   "title": "Prompter → Vérifier → Protéger",
+   "caption": "Un, tu écris un prompt en cinq briques. Le rôle : éco-consultant à Melun. Le contexte : le bien, jamais la personne. La tâche. Le format. Et les contraintes : aucun chiffre absent du prompt, et « à vérifier » entre crochets en cas de doute. Deux, tu vérifies en quatre gestes. Tu surlignes chaque chiffre, date ou règle. Tu remontes à la source officielle : Légifrance, ADEME, Insee, Notaires. Tu contrôles la date et le périmètre. Puis tu corriges, ou tu supprimes. Trois, tu protèges. Pas de nom, pas d'adresse, pas de numéro de DPE dans un outil grand public. Et une image retouchée par IA porte la mention : image retouchée par IA.",
+   "steps": [
+    {
+     "label": "Prompter",
+     "detail": "Rôle, contexte, tâche, format, contraintes : le bien, jamais la personne."
+    },
+    {
+     "label": "Vérifier",
+     "detail": "Surligner, remonter à la source, contrôler date et périmètre, corriger ou supprimer."
+    },
+    {
+     "label": "Protéger",
+     "detail": "Ni nom, ni adresse, ni numéro de DPE ; image IA signalée comme telle."
+    }
+   ],
+   "dur": 42.14
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Maxime veut un post sur le DPE des logements électriques. Son prompt : « Écris un post sur le DPE. » Comment l'améliores-tu ?",
+   "model_answer": "Cinq briques. Rôle : éco-consultant à Melun. Contexte : T4 de 76 m², électrique, classé F en 2023, E avec l'attestation actualisée. Tâche : expliquer ce que le nouveau calcul change. Format : 800 caractères, une accroche, un exemple fictif, une question. Contraintes : aucun chiffre absent du prompt, aucun nom ni adresse.",
+   "dur": 28.67
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Ce que tu publies reste sous ta responsabilité : chaque chiffre se vérifie sur une source officielle avant publication",
+     "Un texte écrit par une IA engage l'éditeur de l'outil, pas celui qui le publie",
+     "Aucune : une IA ne se trompe pas quand elle cite une valeur précise"
+    ],
+    "answer": 0,
+    "feedback": "Une IA générative prédit le texte le plus probable : elle peut inventer un chiffre avec aplomb. C'est toi qui publies, donc c'est toi qui vérifies et qui réponds de chaque chiffre.",
+    "whys": [
+     "Exact : l'IA prépare, tu vérifies, tu signes.",
+     "Faux : le post est publié sous ton nom ; c'est toi qui en réponds devant tes lecteurs.",
+     "Faux : une décimale précise ne prouve rien. Le 2,58 en est l'exemple parfait."
+    ]
+   },
+   "card2": {
+    "question": "Sarah ajoute des meubles par IA sur la photo d'un séjour à vendre. Si elle la publiait sans le dire, que se passerait-il ?",
+    "answer": "Elle montrerait un état qui n'existe pas : l'acheteur qui visite se sentirait trompé. Depuis le 2 août 2026, l'article 50 de l'AI Act oblige celui qui diffuse une image réaliste générée ou modifiée par IA, qui pourrait passer pour vraie, à le signaler. La bonne pratique : mention « image retouchée par IA », et la photo réelle à côté."
+   },
+   "fb": "Une IA générative prédit le texte le plus probable : elle peut inventer un chiffre avec aplomb. C'est toi qui publies, donc c'est toi qui vérifies et qui réponds de chaque chiffre.",
+   "dur": 19.47
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : publier vite, sans jamais publier faux. Le prompt en cinq briques, et le tableau de vérification.",
+   "goal": "Publier vite, sans publier faux",
+   "tools": [
+    {
+     "name": "Le prompt en 5 briques",
+     "role": "Obtenir un premier jet exploitable, sans donnée personnelle"
+    },
+    {
+     "name": "Le tableau de vérification",
+     "role": "Prouver que chaque chiffre a une source"
+    }
+   ],
+   "dur": 9.18
+  },
+  {
+   "kind": "demo",
+   "title": "Prompt : rôle, contexte, tâche, contraintes",
+   "caption": "Le prompt. Rôle : éco-consultant immobilier à Melun. Contexte : un T4 de soixante-seize mètres carrés, électrique, F en 2023, E avec l'attestation. Tâche et format : un post de huit cents caractères, puis un script vidéo de quarante-cinq secondes. Contraintes : aucun chiffre ajouté.",
+   "steps": [
+    "Rôle : éco-consultant immobilier à Melun",
+    "Contexte : T4 76 m², électrique, F en 2023, E avec l'attestation",
+    "Tâche et format : post de 800 caractères, puis script de 45 secondes",
+    "Contraintes : aucun chiffre ajouté, [À VÉRIFIER] en cas de doute"
+   ],
+   "tool": "Le prompt en 5 briques",
+   "dur": 18.07
+  },
+  {
+   "kind": "demo",
+   "title": "Tableau : affirmation, source, verdict",
+   "caption": "Le tableau, en trois colonnes. Chaque affirmation chiffrée du texte. La source officielle que tu as consultée. Ton verdict : juste, corrigé ou supprimé. Puis une dernière question : est-ce que je signerais ce texte ?",
+   "steps": [
+    "Affirmation : chaque chiffre, date ou règle du texte",
+    "Source : Légifrance, ADEME, Insee, Notaires",
+    "Verdict : juste, corrigé ou supprimé",
+    "Dernière question : est-ce que je signerais ?"
+   ],
+   "tool": "Le tableau de vérification",
+   "dur": 13.99
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Écris ton prompt maintenant.",
+   "cta": "Faire mon post et mon script avec l'IA",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton post, ton script et leur tableau.",
+   "ask": "Dépose une capture de ton post final et de ton script vidéo courte, avec leur tableau de vérification à côté.",
+   "dur": 4.73
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Chaque chiffre de ton post et de ton script a sa source. Le post de Mozi affichait deux virgule cinquante-huit.",
+   "status": "Ton post et ton script : chaque chiffre sourcé. Celui de Mozi : 2,58.",
+   "dur": 9.18
+  }
+ ],
+ "total": 199.86
+}

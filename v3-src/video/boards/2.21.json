@@ -1,0 +1,212 @@
+{
+ "id": "2.21",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Maison : cadastre, droits à construire, division parcellaire",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Maison : cadastre, droits à construire, division parcellaire",
+   "caption": "Capsule 2.21. Maison : cadastre, droits à construire, division parcellaire",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Lire l'extrait cadastral de la maison de Mme Garnier, calculer l'emprise au sol encore possible et décrire, sans rien promettre, les étapes d'une division parcellaire",
+   "caption": "À la fin de cette capsule : Lire l'extrait cadastral de la maison de Mme Garnier, calculer l'emprise au sol encore possible et décrire, sans rien promettre, les étapes d'une division parcellaire",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Exact, le cadastre fixe les limites de propriété.",
+   "pose": "sur-de-lui",
+   "scene": "Un fils de Mme Garnier dit : « D'après le cadastre, la limite est au ras de la haie, donc la parcelle fait 1 240 m² pile. » Que lui réponds-tu ?",
+   "caption": "Un fils de Mme Garnier dit : « D'après le cadastre, la limite est au ras de la haie, donc la parcelle fait 1 240 m² pile. » Que lui réponds-tu ? Mozi, lui, répondrait : « Exact, le cadastre fixe les limites de propriété. »",
+   "dur": 15.474074074074073
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : le plan cadastral ne fixe pas les limites de propriété ; il sert à l'impôt foncier."
+   ],
+   "caption": "Faux : le plan cadastral ne fixe pas les limites de propriété ; il sert à l'impôt foncier.",
+   "dur": 7.696296296296296
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Parcelle AB 214 : 1 240 m², 24 m de façade, une maison de 1968 au milieu.",
+    "Sébastien Paumier lit l'extrait cadastral de Mme Garnier, croise le plan avec le règlement de la zone UB et montre qu'un lot de 480 m² pourrait être détaché à l'arrière.",
+    "Une option à étudier avec un géomètre et le notaire, jamais un gain promis."
+   ],
+   "caption": "Parcelle AB 214 : 1 240 m², 24 m de façade, une maison de 1968 au milieu. Sébastien Paumier lit l'extrait cadastral de Mme Garnier, croise le plan avec le règlement de la zone UB et montre qu'un lot de 480 m² pourrait être détaché à l'arrière. Une option à étudier avec un géomètre et le notaire, jamais un gain promis.",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Le cadastre : quoi, où, à quoi ça sert",
+   "table": {
+    "headers": [
+     "Document",
+     "Contenu",
+     "Où l'obtenir"
+    ],
+    "rows": [
+     [
+      "Plan cadastral",
+      "Sections, numéros de parcelles, emprise des bâtiments ; pas de nom de…",
+      "cadastre.gouv.fr (consultation et extraits), mairie, centre des impôts fonciers"
+     ],
+     [
+      "Matrice cadastrale (relevé de propriété)",
+      "Parcelles et bâtiments d'un propriétaire dans la commune, contenance",
+      "Centre des impôts fonciers, formulaire 6815-EM-SD"
+     ],
+     [
+      "Bornage",
+      "Limites juridiques de la propriété",
+      "Géomètre-expert"
+     ]
+    ]
+   },
+   "caption": "Le cadastre : quoi, où, à quoi ça sert. Plan cadastral : Sections, numéros de parcelles, emprise des bâtiments ; pas de nom de propriétaire ; Matrice cadastrale (relevé de propriété) : Parcelles et bâtiments d'un propriétaire dans la commune, contenance ; Bornage : Limites juridiques de la propriété",
+   "dur": 17.325925925925926
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Droits à construire : le calcul de l'emprise",
+   "text": "Emprise maximale = surface du terrain × coefficient d'emprise de la zone. Parcelle AB 214 : 1 240 × 40 % = 496 m². Emprise existante (hypothèse à mesurer) : maison ≈ 128 m² + véranda 12 m² ≈ 140 m². Reste avant division ≈ 356 m². Après division : maison sur 760 m² →…",
+   "caption": "Droits à construire : le calcul de l'emprise. Emprise maximale = surface du terrain × coefficient d'emprise de la zone. Parcelle AB 214 : 1 240 × 40 % = 496 m². Emprise existante (hypothèse à mesurer) : maison ≈ 128 m² + véranda 12 m² ≈ 140 m². Reste avant division ≈ 356 m². Après division : maison sur 760 m² →…",
+   "dur": 20.288888888888888
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Les étapes d'une division parcellaire",
+   "items": [
+    "Lire le règlement de zone (M07) : emprise, hauteur 9 m, reculs, accès, assainissement.",
+    "Vérifier l'emplacement de l'épandage de l'assainissement non collectif (M08) : il ne doit pas se retrouver sur le lot vendu.",
+    "Consulter un géomètre-expert : bornage, plan de division, accès de 60 m² (bande en pleine propriété ou servitude de passage).",
+    "Déposer l'autorisation : déclaration préalable si aucune voie ni aucun espace commun n'est créé, permis d'aménager sinon (Service-Public F37932).",
+    "Faire réaliser l'étude géotechnique préalable (G1), exigée pour la vente d'un terrain à bâtir en zone d'argiles moyenne ou forte."
+   ],
+   "caption": "Les étapes d'une division parcellaire. Lire le règlement de zone (M07) : emprise, hauteur 9 m, reculs, accès, assainissement. Vérifier l'emplacement de l'épandage de l'assainissement non collectif (M08) : il ne doit pas se retrouver sur le lot vendu. Consulter un géomètre-expert : bornage, plan de division, accès de 60 m² (bande en pleine propriété ou servitude de passage). Déposer l'autorisation : déclaration préalable si aucune voie ni aucun espace…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Le lot de Mme Garnier en chiffres (fictifs)",
+   "table": {
+    "headers": [
+     "Élément",
+     "Valeur",
+     "Statut"
+    ],
+    "rows": [
+     [
+      "Lot détaché à l'arrière",
+      "480 m² dont bande d'accès 60 m²",
+      "Hypothèse de géomètre"
+     ],
+     [
+      "Surface valorisable",
+      "420 m²",
+      "Dérivée"
+     ],
+     [
+      "Prix des terrains à bâtir viabilisés",
+      "180 à 230 €/m², médiane 200 €/m²",
+      "Tableau M13 (fictif)"
+     ],
+     [
+      "Valeur brute",
+      "420 × 200 = 84 000 €",
+      "Avant frais"
+     ],
+     [
+      "Frais estimés (géomètre, branchements, G1)",
+      "15 000 €",
+      "Fictif, à faire chiffrer"
+     ]
+    ]
+   },
+   "caption": "Le lot de Mme Garnier en chiffres (fictifs). Lot détaché à l'arrière : 480 m² dont bande d'accès 60 m² ; Surface valorisable : 420 m² ; Prix des terrains à bâtir viabilisés : 180 à 230 €/m², médiane 200 €/m²",
+   "dur": 15.474074074074073
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Zone UB fictive : emprise au sol maximale 40 %. Après détachement d'un lot de 480 m², quelle emprise maximale resterait sur le terrain de la maison, si la règle s'applique lot par lot ?",
+    "options": [
+     "496 m²",
+     "192 m²",
+     "304 m²"
+    ],
+    "answer": 2
+   },
+   "fb": "Le terrain restant fait 760 m², soit 304 m² d'emprise maximale. La maison en occupe environ 140 m² avec la véranda (hypothèse à mesurer) : la règle reste respectée. À vérifier : le règlement peut s'appliquer à chaque lot ou…",
+   "caption": "Zone UB fictive : emprise au sol maximale 40 %. Après détachement d'un lot de 480 m², quelle emprise maximale resterait sur le terrain de la maison, si la règle s'applique lot par lot ?",
+   "dur": 30.207407407407402
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Lire l'extrait cadastral et estimer les droits à construire",
+   "steps": [
+    {
+     "label": "Dans M06, relève la section, le numéro, la contenance, la façade sur rue et l'emprise des bâtiments.",
+     "detail": ""
+    },
+    {
+     "label": "Dans M07, relève les trois règles chiffrées de la zone UB et calcule l'emprise maximale de la parcelle…",
+     "detail": ""
+    },
+    {
+     "label": "Estime l'emprise existante (maison et véranda) à partir de M04, en écrivant ton hypothèse.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule l'emprise maximale de chaque terrain après détachement d'un lot de 480 m².",
+     "detail": ""
+    },
+    {
+     "label": "Liste les points bloquants à vérifier : accès, assainissement (M08), argiles (M10), autorisation, application des règles lot par…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Lire l'extrait cadastral et estimer les droits à construire. 35 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Note cadastre et droits à construire de la parcelle AB 214",
+   "items": [
+    "Les données cadastrales sont relevées et le statut fiscal du cadastre est rappelé",
+    "Les emprises maximales sont justes (496, 304 et 192 m²) et l'hypothèse d'emprise existante est écrite",
+    "Au moins quatre points à vérifier sont listés, dont l'assainissement et l'étude G1",
+    "La valeur du lot est présentée brute puis nette de frais, comme une option non promise",
+    "La note renvoie au géomètre-expert, à la mairie et au notaire"
+   ],
+   "caption": "Ton livrable : Note cadastre et droits à construire de la parcelle AB 214. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche cadastre (plan, matrice), droits à construire et division parcellaire (proposition à valider)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 208.14
+}

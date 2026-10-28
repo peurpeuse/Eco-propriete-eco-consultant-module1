@@ -1,0 +1,216 @@
+{
+ "id": "3.18",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "DISC : adapter son discours",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "DISC : adapter son discours",
+   "caption": "Capsule 3.18. DISC : adapter son discours",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Réécrire l'ouverture, l'annonce du prix et la conclusion de ton rendez-vous pour le style DISC observé, sans changer un seul chiffre ni une seule règle",
+   "caption": "À la fin de cette capsule : Réécrire l'ouverture, l'annonce du prix et la conclusion de ton rendez-vous pour le style DISC observé, sans changer un seul chiffre ni une seule règle",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Avant tout, je vous raconte la superbe vente qu'on a faite la semaine dernière dans votre rue.",
+   "pose": "telephone",
+   "scene": "Rendez-vous de restitution du 29/10/2026 chez M. Bernard (style C observé). Quelle ouverture choisis-tu ?",
+   "caption": "Rendez-vous de restitution du 29/10/2026 chez M. Bernard (style C observé). Quelle ouverture choisis-tu ? Mozi, lui, répondrait : « Avant tout, je vous raconte la superbe vente qu'on a faite la semaine dernière dans votre rue. »",
+   "dur": 14.733333333333333
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Adapté à un style I, qui aime le récit ; pour un C, c'est du bruit sans preuve."
+   ],
+   "caption": "Adapté à un style I, qui aime le récit ; pour un C, c'est du bruit sans preuve.",
+   "dur": 8.066666666666666
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier prend la même annonce de prix (180 000 € net vendeur, 189 000 € honoraires inclus) et la dit quatre fois : pour un style D, I, S et C.",
+    "Le fond ne bouge pas, seuls la longueur, le support, le rythme et la place de la décision changent.",
+    "Démonstration sur M. Bernard (C) puis, en contrepoint, sur Mme Garnier (S, maison fil rouge)."
+   ],
+   "caption": "Sébastien Paumier prend la même annonce de prix (180 000 € net vendeur, 189 000 € honoraires inclus) et la dit quatre fois : pour un style D, I, S et C. Le fond ne bouge pas, seuls la longueur, le support, le rythme et la place de la décision changent. Démonstration sur M. Bernard (C) puis, en contrepoint, sur Mme Garnier (S, maison fil rouge).",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Les 4 réglages à faire avant le rendez-vous",
+   "items": [
+    "Longueur : une page pour un D, un récit court pour un I, un plan étape par étape pour un S, un…",
+    "Support : chiffres clés (D), visuels et photos (I), calendrier et « qui fait quoi » (S), tableau de calcul et pièces…",
+    "Rythme : rapide et direct (D, I), calme et sans urgence (S), posé avec des silences pour vérifier (C).",
+    "Décision : tu proposes des options (D), tu écris le récapitulatif (I), tu laisses consulter les proches (S), tu fixes une date…"
+   ],
+   "caption": "Les 4 réglages à faire avant le rendez-vous. Longueur : une page pour un D, un récit court pour un I, un plan étape par étape pour un S, un… Support : chiffres clés (D), visuels et photos (I), calendrier et « qui fait quoi » (S), tableau de calcul et pièces… Rythme : rapide et direct (D, I), calme et sans urgence (S), posé avec des silences pour vérifier…",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Le même prix, dit de quatre façons (M. Bernard, 180 000 € net, 189 000 € honoraires inclus)",
+   "table": {
+    "headers": [
+     "Style",
+     "Ouverture",
+     "Annonce du prix",
+     "Conclusion"
+    ],
+    "rows": [
+     [
+      "D",
+      "« 30 minutes, trois points, une recommandation. »",
+      "« 189 000 € affichés, 180 000 € net pour vous. Deux…",
+      "« Que décidez-vous, et pour quand ? »"
+     ],
+     [
+      "I",
+      "« Je vous montre d'abord à quoi ressemblera votre annonce. »",
+      "« À 189 000 €, votre appartement se place juste par rapport…",
+      "« Je vous envoie le récapitulatif ce soir et je vous appelle…"
+     ],
+     [
+      "S",
+      "« On avance à votre rythme, voici les trois étapes. »",
+      "« 180 000 € net pour vous ; voici ce qui se…",
+      "« Voulez-vous en parler à votre fille avant ? Jeudi vous irait…"
+     ],
+     [
+      "C",
+      "« Dossier envoyé mardi ; 45 minutes ; chaque chiffre a sa…",
+      "« 76 m² × 2 650 €/m² (tableau D12) = 201 400…",
+      "« Prenez le temps de vérifier. Réponse le jeudi 5 novembre ?…"
+     ]
+    ]
+   },
+   "caption": "Le même prix, dit de quatre façons (M. Bernard, 180 000 € net, 189 000 € honoraires inclus). D : « 30 minutes, trois points, une recommandation. » ; I : « Je vous montre d'abord à quoi ressemblera votre annonce. » ; S : « On avance à votre rythme, voici les trois étapes. »",
+   "dur": 17.696296296296293
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Mots qui passent, mots qui bloquent",
+   "table": {
+    "headers": [
+     "Style",
+     "Ce qui passe",
+     "Ce qui bloque"
+    ],
+    "rows": [
+     [
+      "D",
+      "« Résultat », « options », « vous décidez »",
+      "Les détails sans fin, l'hésitation"
+     ],
+     [
+      "I",
+      "Les images, l'enthousiasme mesuré, les personnes",
+      "La froideur, les tableaux sans récit"
+     ],
+     [
+      "S",
+      "« Étape par étape », « sans surprise », « à votre…",
+      "L'urgence, les changements imprévus"
+     ],
+     [
+      "C",
+      "« Voici la source », « vérifions ensemble », « je ne…",
+      "« Faites-moi confiance », les arrondis, les promesses"
+     ]
+    ]
+   },
+   "caption": "Mots qui passent, mots qui bloquent. D : « Résultat », « options », « vous décidez » ; I : Les images, l'enthousiasme mesuré, les personnes ; S : « Étape par étape », « sans surprise », « à votre rythme »",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Contrepoint : Mme Garnier, style S (maison fil rouge, fictif)",
+   "text": "Mme Garnier, 71 ans, consulte ses deux fils avant de décider et déteste la pression. Pour elle, tu remplaces le tableau de calcul par un calendrier simple (estimation, mandat, visites, résidence seniors à l'été 2027), tu proposes un point à trois avec ses fils et tu laisses une date de réponse. Les chiffres de sa…",
+   "caption": "Contrepoint : Mme Garnier, style S (maison fil rouge, fictif). Mme Garnier, 71 ans, consulte ses deux fils avant de décider et déteste la pression. Pour elle, tu remplaces le tableau de calcul par un calendrier simple (estimation, mandat, visites, résidence seniors à l'été 2027), tu proposes un point à trois avec ses fils et tu laisses une date de réponse. Les chiffres de sa…",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Mme Garnier (maison fil rouge, style S observé) te dit : « Je dois d'abord en parler à mes fils. » Que réponds-tu ?",
+    "options": [
+     "« Bien sûr. Voulez-vous que je leur envoie le récapitulatif, ou que nous fassions un point à trois en visio la semaine prochaine ? »",
+     "« Vos fils ne vivent pas ici, c'est à vous de décider. »",
+     "« Si vous attendez, votre maison classée G perdra encore de la valeur. »"
+    ],
+    "answer": 0
+   },
+   "fb": "Un style S a besoin de sécurité et consulte ses proches. Tu facilites cette consultation (récapitulatif, point à trois) et tu fixes une date. Tu n'exploites jamais une crainte pour accélérer la décision.",
+   "caption": "Mme Garnier (maison fil rouge, style S observé) te dit : « Je dois d'abord en parler à mes fils. » Que réponds-tu ?",
+   "dur": 23.540740740740738
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Adapter son discours au profil identifié",
+   "steps": [
+    {
+     "label": "Recopie ton hypothèse de style et les 3 indices qui la fondent (D01).",
+     "detail": ""
+    },
+    {
+     "label": "Règle les 4 curseurs pour ce style : longueur, support, rythme, place de la décision.",
+     "detail": ""
+    },
+    {
+     "label": "Écris ta phrase d'ouverture (ordre du jour, durée, documents envoyés).",
+     "detail": ""
+    },
+    {
+     "label": "Écris ton annonce du prix en citant au moins deux pièces du dossier (D12, D07 ou D13) et…",
+     "detail": ""
+    },
+    {
+     "label": "Écris ta conclusion : une étape datée, sans pression ni promesse.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Adapter son discours au profil identifié. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Trois phrases adaptées au profil de M. Bernard, et leur version pour un second style",
+   "items": [
+    "L'hypothèse de style est rappelée avec au moins 3 indices observables",
+    "Les 4 réglages (longueur, support, rythme, décision) sont explicités pour chaque style",
+    "L'annonce du prix cite au moins deux pièces (D12, D07 ou D13) et les montants exacts…",
+    "La conclusion propose une étape datée, sans pression ni promesse de prix, de délai ou de…",
+    "La version pour le second style change la forme sans changer un seul chiffre ni une…"
+   ],
+   "caption": "Ton livrable : Trois phrases adaptées au profil de M. Bernard, et leur version pour un second style. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche DISC : discours",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 200.63
+}

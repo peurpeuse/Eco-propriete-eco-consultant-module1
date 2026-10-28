@@ -1,0 +1,228 @@
+{
+ "id": "2.20",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Les règles d'urbanisme : PLU, zonage, servitudes, autorisations",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Les règles d'urbanisme : PLU, zonage, servitudes, autorisations",
+   "caption": "Capsule 2.20. Les règles d'urbanisme : PLU, zonage, servitudes, autorisations",
+   "dur": 5.474074074074073
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Lire sur le Géoportail de l'urbanisme le zonage, les prescriptions et les servitudes d'une adresse, puis dire quelle autorisation exigent trois travaux types",
+   "caption": "À la fin de cette capsule : Lire sur le Géoportail de l'urbanisme le zonage, les prescriptions et les servitudes d'une adresse, puis dire quelle autorisation exigent trois travaux types",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Aucune, ce sont des travaux d'entretien",
+   "pose": "telephone",
+   "scene": "Un acquéreur de la maison de Mme Garnier veut remplacer les 9 fenêtres bois par du PVC blanc de dessin différent. Quelle autorisation faut-il ?",
+   "caption": "Un acquéreur de la maison de Mme Garnier veut remplacer les 9 fenêtres bois par du PVC blanc de dessin différent. Quelle autorisation faut-il ? Mozi, lui, répondrait : « Aucune, ce sont des travaux d'entretien »",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : changer le matériau ou le dessin des fenêtres modifie l'aspect extérieur ; ce n'est pas un simple entretien à l'identique."
+   ],
+   "caption": "Faux : changer le matériau ou le dessin des fenêtres modifie l'aspect extérieur ; ce n'est pas un simple entretien à l'identique.",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Exemple : la maison de Mme Garnier, zone UB du PLU de Vaux-le-Pénil (fictif).",
+    "Sébastien Paumier ouvre le Géoportail de l'urbanisme, lit le zonage et les servitudes, puis classe trois projets d'acquéreur : changer les fenêtres, agrandir de 30 m², poser un abri de jardin.",
+    "Déclaration préalable, permis ou rien : il montre comment trancher et quand demander un certificat d'urbanisme."
+   ],
+   "caption": "Exemple : la maison de Mme Garnier, zone UB du PLU de Vaux-le-Pénil (fictif). Sébastien Paumier ouvre le Géoportail de l'urbanisme, lit le zonage et les servitudes, puis classe trois projets d'acquéreur : changer les fenêtres, agrandir de 30 m², poser un abri de jardin. Déclaration préalable, permis ou rien : il montre comment trancher et quand demander un certificat d'urbanisme.",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Mode d'emploi du Géoportail de l'urbanisme",
+   "items": [
+    "Ouvre geoportail-urbanisme.gouv.fr et saisis l'adresse (ou la référence cadastrale).",
+    "Clique sur la parcelle : note la zone du PLU (U, AU, A ou N et son indice, par exemple UB) et…",
+    "Télécharge le règlement écrit et lis les articles de la zone : implantation, emprise au sol, hauteur, aspect, stationnement.",
+    "Affiche les prescriptions (espaces boisés, éléments de patrimoine, emplacements réservés) et les servitudes d'utilité publique.",
+    "Vérifie si la commune a une procédure en cours (révision, modification) : les règles peuvent changer."
+   ],
+   "caption": "Mode d'emploi du Géoportail de l'urbanisme. Ouvre geoportail-urbanisme.gouv.fr et saisis l'adresse (ou la référence cadastrale). Clique sur la parcelle : note la zone du PLU (U, AU, A ou N et son indice, par exemple UB) et… Télécharge le règlement écrit et lis les articles de la zone : implantation, emprise au sol, hauteur, aspect, stationnement. Affiche les prescriptions (espaces boisés, éléments de patrimoine, emplacements réservés) et les servitudes d'utilité…",
+   "dur": 29.177777777777774
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Fiche PLU et servitudes",
+   "table": {
+    "headers": [
+     "Élément",
+     "Ce qu'il dit",
+     "Exemple"
+    ],
+    "rows": [
+     [
+      "Zone U",
+      "Secteur déjà urbanisé, constructible selon le règlement",
+      "UB de Vaux-le-Pénil (fictif) : emprise 40 %, hauteur 9 m au…"
+     ],
+     [
+      "Zone AU",
+      "À urbaniser, souvent sous conditions (équipements, OAP)",
+      "Lotissement futur en lisière de bourg"
+     ],
+     [
+      "Zones A et N",
+      "Agricole ou naturelle : constructions très limitées",
+      "Extension mesurée d'une maison existante seulement"
+     ],
+     [
+      "Servitude d'utilité publique",
+      "Contrainte d'intérêt général annexée au PLU",
+      "Abords d'un monument historique, plan de prévention des risques"
+     ],
+     [
+      "Servitude de droit privé",
+      "Droit entre voisins, absent du PLU, inscrit dans les actes",
+      "Servitude de passage vers un terrain enclavé"
+     ]
+    ]
+   },
+   "caption": "Fiche PLU et servitudes. Zone U : Secteur déjà urbanisé, constructible selon le règlement ; Zone AU : À urbaniser, souvent sous conditions (équipements, OAP) ; Zones A et N : Agricole ou naturelle : constructions très limitées",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Fiche autorisations de travaux (zone urbaine d'un PLU)",
+   "table": {
+    "headers": [
+     "Travaux",
+     "Autorisation",
+     "Délai d'instruction"
+    ],
+    "rows": [
+     [
+      "Fenêtres, isolation par l'extérieur, couleur de façade (aspect modifié)",
+      "Déclaration préalable",
+      "1 mois (2 mois en secteur protégé)"
+     ],
+     [
+      "Abri de jardin ou annexe de 5 à 20 m²",
+      "Déclaration préalable",
+      "1 mois"
+     ],
+     [
+      "Extension de 5 à 40 m²",
+      "Déclaration préalable, sauf extension de plus de 20 m² portant le total…",
+      "1 mois (DP) ; 2 mois (permis pour une maison individuelle)"
+     ],
+     [
+      "Extension de plus de 40 m²",
+      "Permis de construire",
+      "2 mois pour une maison individuelle"
+     ],
+     [
+      "Total après travaux supérieur à 150 m² de surface de plancher",
+      "Recours obligatoire à un architecte",
+      "—"
+     ]
+    ]
+   },
+   "caption": "Fiche autorisations de travaux (zone urbaine d'un PLU). Fenêtres, isolation par l'extérieur, couleur de façade (aspect modifié) : Déclaration préalable ; Abri de jardin ou annexe de 5 à 20 m² : Déclaration préalable ; Extension de 5 à 40 m² : Déclaration préalable, sauf extension de plus de 20 m² portant le total au-delà de 150 m² : permis",
+   "dur": 22.51111111111111
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Le certificat d'urbanisme",
+   "items": [
+    "Certificat d'information : règles applicables au terrain, servitudes, taxes ; réponse en 1 mois.",
+    "Certificat opérationnel : dit si un projet précis est réalisable et l'état des équipements ; réponse en 2 mois.",
+    "Validité de 18 mois : les règles d'urbanisme et les taxes sont figées pour une demande déposée pendant cette période.",
+    "Prolongation possible par période d'un an si les règles n'ont pas changé.",
+    "Autorisation accordée : délai de recours des tiers de 2 mois à partir de l'affichage sur le terrain ; validité de 3…"
+   ],
+   "caption": "Le certificat d'urbanisme. Certificat d'information : règles applicables au terrain, servitudes, taxes ; réponse en 1 mois. Certificat opérationnel : dit si un projet précis est réalisable et l'état des équipements ; réponse en 2 mois. Validité de 18 mois : les règles d'urbanisme et les taxes sont figées pour une demande déposée pendant cette période. Prolongation possible par période d'un an si les règles n'ont pas changé. Autorisation accordée…",
+   "dur": 27.696296296296293
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Même maison : agrandissement de 30 m² en zone urbaine du PLU. La surface de plancher existante dépasse déjà 150 m². Quelle autorisation ?",
+    "options": [
+     "Une déclaration préalable, puisque l'extension fait moins de 40 m²",
+     "Aucune autorisation en zone urbaine",
+     "Un permis de construire, avec recours obligatoire à un architecte"
+    ],
+    "answer": 2
+   },
+   "fb": "En zone urbaine d'un PLU : de 5 à 40 m², déclaration préalable, sauf si l'extension (plus de 20 m²) porte la surface totale au-delà de 150 m² : permis et architecte. D'où l'intérêt de connaître la surface de plancher…",
+   "caption": "Même maison : agrandissement de 30 m² en zone urbaine du PLU. La surface de plancher existante dépasse déjà 150 m². Quelle autorisation ?",
+   "dur": 26.874074074074073
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Lire le zonage d'une adresse et classer 3 travaux",
+   "steps": [
+    {
+     "label": "Partie 1 : relève sur le Géoportail la zone du PLU, la date du document et deux règles…",
+     "detail": ""
+    },
+    {
+     "label": "Partie 1 : liste les prescriptions et servitudes d'utilité publique affichées sur la parcelle, ou écris « aucune…",
+     "detail": ""
+    },
+    {
+     "label": "Partie 2 : à partir de M07, résume les règles de la zone UB en 3 lignes.",
+     "detail": ""
+    },
+    {
+     "label": "Partie 2 : pour chacun des trois travaux, donne l'autorisation exigée et le délai d'instruction, en justifiant.",
+     "detail": ""
+    },
+    {
+     "label": "Partie 2 : dis dans quel cas tu conseillerais un certificat d'urbanisme opérationnel.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Lire le zonage d'une adresse et classer 3 travaux. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Fiche urbanisme d'une adresse + classement de 3 travaux",
+   "items": [
+    "La zone du PLU, la date du document et deux règles sont relevées pour l'adresse réelle",
+    "Les servitudes d'utilité publique sont listées ou leur absence est notée",
+    "Les trois travaux de la maison de Mme Garnier sont correctement classés (DP, permis avec architecte…",
+    "Le seuil de 150 m² est expliqué pour l'extension",
+    "Aucune constructibilité ni accord de la mairie n'est garanti"
+   ],
+   "caption": "Ton livrable : Fiche urbanisme d'une adresse + classement de 3 travaux. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Mode d'emploi du Géoportail de l'urbanisme, fiche PLU et servitudes, fiche autorisations de travaux (déclaration préalable, permis), certificat d'urbanisme",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 215.55
+}

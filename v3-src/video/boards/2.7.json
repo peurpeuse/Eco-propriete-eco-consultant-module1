@@ -1,0 +1,199 @@
+{
+ "id": "2.7",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Lire un DPE : les bases de la méthode 3CL",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 2.7 : lire un DPE",
+   "caption": "Bienvenue. Un DPE, ce n'est pas une lettre. Dans ce chapitre, tu apprends à le lire en entier, rubrique par rubrique.",
+   "cta": "Commencer",
+   "dur": 9.55
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce que disent l'en-tête, les pages du milieu et les recommandations"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "retrouver 3 données clés sur un DPE réel"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ta fiche lecture remplie en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "150 fois 1,7 : 255, presque 250. Classe D, j'imprime !",
+   "caption": "150 fois 1,7 : 255, presque 250. Classe D, j'imprime !",
+   "line": "150 fois 1,7 : 255, presque 250. Classe D, j'imprime !",
+   "scene": "Mozi lit en diagonale le DPE de M. Bernard, griffonne « 255 ≈ D » au dos d'une enveloppe, puis scotche sur la vitrine une affiche « Bientôt classe D ! ».",
+   "pose": "presse",
+   "dur": 5.47
+  },
+  {
+   "kind": "belief",
+   "title": "Lu en diagonale, « 255 = D », imprimé sans relire",
+   "caption": "Un DPE lu en diagonale. Deux cent cinquante-cinq égale D. Imprimé sans relire.",
+   "beats": [
+    "Lu en diagonale",
+    "« 255 = D »",
+    "Imprimé sans relire"
+   ],
+   "wrong": 1,
+   "why": "255 reste en E : le seuil de la classe D est à 250.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "255, c'est E. Et c'est en vitrine.",
+   "caption": "Deux cent cinquante-cinq, c'est encore E : le seuil de D est à 250. Et cette classe fausse est maintenant en vitrine, devant tous les acquéreurs du quartier.",
+   "lines": [
+    "255 reste en E : le seuil de D est à 250.",
+    "Une classe fausse, affichée en vitrine."
+   ],
+   "dur": 12.14
+  },
+  {
+   "kind": "stat",
+   "title": "10 ans de validité",
+   "caption": "Dix ans. C'est la validité d'un DPE établi depuis le 1er juillet 2021. Celui de M. Bernard, du 14 mars 2023, vaut jusqu'au 13 mars 2033.",
+   "value": "10 ans",
+   "label": "de validité pour un DPE établi depuis le 1er juillet 2021",
+   "dur": 12.14
+  },
+  {
+   "kind": "steps",
+   "title": "En-tête → Pages du milieu → Recommandations",
+   "caption": "Trois zones, dans l'ordre. Un : l'en-tête, avant la lettre. Le numéro ADEME à 13 caractères, la date, 14 mars 2023, la fin de validité, 13 mars 2033, la surface, 76, et l'énergie : tout électrique. Donc ancien coefficient. M. Bernard a téléchargé gratuitement son attestation actualisée sur l'observatoire de l'ADEME : classe E, jusqu'en 2033. La mention « consommation excessive » ne s'applique plus. Deux : les pages du milieu, que personne ne lit. Le schéma des déperditions, l'indicateur d'isolation, et les consommations par usage : 112 pour le chauffage, sur 150. Les trois quarts. Trois : les recommandations. Deux scénarios de travaux, avec des fourchettes de coûts. Ce ne sont pas des devis. Tu les compares aux vrais devis du D13 : 16 500 euros au total.",
+   "steps": [
+    {
+     "label": "En-tête et attestation",
+     "detail": "N° à 13 caractères, 14/03/2023 → 13/03/2033, 76 m², tout électrique. Attestation : E."
+    },
+    {
+     "label": "Pages du milieu",
+     "detail": "Déperditions, isolation, usages : chauffage 112 sur 150, environ 75 %."
+    },
+    {
+     "label": "Recommandations",
+     "detail": "Deux scénarios en fourchettes, pas des devis : à comparer au D13 (16 500 €)."
+    }
+   ],
+   "dur": 49.55
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Un vendeur demande à Sarah si sa classe, c'est la lettre en gros. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Un vendeur tend son DPE à Sarah : « Ma classe, c'est la lettre en gros, non ? » Quelles trois données lui montre-t-elle d'abord ?",
+   "model_answer": "D'abord l'en-tête : le numéro à 13 caractères, la date et la fin de validité. Puis les consommations par usage, pour voir ce qui pèse : souvent le chauffage. Enfin les deux étiquettes, énergie et climat : la classe retenue est la moins bonne des deux. Et elle vérifie l'attestation actualisée sur l'observatoire de l'ADEME.",
+   "dur": 32.74
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Seuls le DPE ou l'attestation actualisée établissent une classe : un calcul se vérifie sur le document",
+     "Un calcul fait par l'agent suffit si l'écart avec le seuil est faible",
+     "Aucune : une classe annoncée « bientôt » n'engage pas l'agent"
+    ],
+    "answer": 0,
+    "feedback": "La classe officielle vient du DPE ou de l'attestation actualisée de l'ADEME. Et 255 est en E : le seuil de D est 250, aucun arrondi ne change de classe.",
+    "whys": [
+     "Exact : on lit le document, on vérifie l'attestation, et seul un document officiel établit une classe.",
+     "Faux : 5 points au-dessus du seuil, c'est toujours E. Un seuil ne s'arrondit pas.",
+     "Faux : une classe affichée devant des acquéreurs engage l'agent, « bientôt » ou pas."
+    ]
+   },
+   "card2": {
+    "question": "Si Karim laissait « classe F » dans son annonce après l'attestation, que se passerait-il ?",
+    "answer": "Il afficherait une classe qui n'est plus en vigueur, avec la mention « consommation énergétique excessive » qui ne s'applique plus. Les acquéreurs négocieraient sur un défaut qui n'existe plus : de l'argent perdu pour M. Bernard."
+   },
+   "fb": "La classe officielle vient du DPE ou de l'attestation actualisée de l'ADEME. Et 255 est en E : le seuil de D est 250, aucun arrondi ne change de classe.",
+   "dur": 18.73
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : trois données clés, justes et vérifiées. L'observatoire de l'ADEME, et la fiche lecture DPE.",
+   "goal": "Trois données clés, justes et vérifiées",
+   "tools": [
+    {
+     "name": "Observatoire DPE-Audit (ADEME)",
+     "role": "Vérifier le DPE et télécharger l'attestation actualisée"
+    },
+    {
+     "name": "Fiche lecture DPE",
+     "role": "Retrouver les données clés dans le bon ordre, rubrique par rubrique"
+    }
+   ],
+   "dur": 9.18
+  },
+  {
+   "kind": "demo",
+   "title": "L'observatoire : numéro, attestation, validité",
+   "caption": "Sur l'observatoire de l'ADEME, tu saisis le numéro du DPE, à 13 caractères. Tu télécharges l'attestation actualisée, gratuite, sans nouvelle visite. Puis tu vérifies deux choses : la classe, E, et la fin de validité, 13 mars 2033.",
+   "steps": [
+    "Ouvrir l'observatoire DPE-Audit de l'ADEME",
+    "Saisir le numéro du DPE à 13 caractères",
+    "Télécharger l'attestation actualisée : classe E",
+    "Vérifier la fin de validité : 13/03/2033"
+   ],
+   "tool": "Observatoire DPE-Audit (ADEME)",
+   "dur": 16.21
+  },
+  {
+   "kind": "demo",
+   "title": "La fiche lecture : trois données clés",
+   "caption": "Puis la fiche lecture. Première donnée : le numéro, la date, la fin de validité. Deuxième : les consommations par usage, chauffage 112 sur 150. Troisième : les deux étiquettes, énergie et climat. Tu notes chaque donnée avec sa page.",
+   "steps": [
+    "Donnée 1 : numéro à 13 caractères, date, fin de validité",
+    "Donnée 2 : consommations par usage, chauffage 112 sur 150 kWhEF/m²/an",
+    "Donnée 3 : étiquettes énergie et climat, la moins bonne l'emporte",
+    "Noter : chaque donnée avec sa page, sans nom ni adresse"
+   ],
+   "tool": "Fiche lecture DPE",
+   "dur": 15.1
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Ouvre l'observatoire de l'ADEME et prends un DPE réel.",
+   "cta": "Ouvrir l'observatoire DPE-Audit",
+   "dur": 5.47
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi tes trois données clés.",
+   "ask": "Dépose une capture de ta fiche lecture d'un DPE réel (le tien, ou celui d'un vendeur qui t'a donné son accord) : numéro et validité, consommations par usage, étiquettes énergie et climat, chacune avec sa page, puis le même relevé sur le DPE de M. Bernard (D02, D03) et tes 3 lignes de comparaison. Nom et adresse masqués.",
+   "dur": 3.62
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Là où d'autres ont lu une lettre, toi, tu as lu tout le document.",
+   "status": "Ta fiche : 3 données clés, chacune avec sa page. Les deux autres agences : une lettre, F.",
+   "dur": 7.33
+  }
+ ],
+ "total": 208.85
+}

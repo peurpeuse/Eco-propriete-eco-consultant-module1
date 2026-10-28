@@ -1,0 +1,223 @@
+{
+ "id": "3.11",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Le plan d'action : faire, arbitrer, projeter, éviter",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Le plan d'action : faire, arbitrer, projeter, éviter",
+   "caption": "Capsule 3.11. Le plan d'action : faire, arbitrer, projeter, éviter",
+   "dur": 5.474074074074073
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Classer chaque action possible sur le bien fil rouge en quatre colonnes (faire, arbitrer, projeter, éviter), avec un coût, un responsable et une date.",
+   "caption": "À la fin de cette capsule : Classer chaque action possible sur le bien fil rouge en quatre colonnes (faire, arbitrer, projeter, éviter), avec un coût, un responsable et une date.",
+   "dur": 10.288888888888888
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Faire : avant les photos",
+   "pose": "sur-de-lui",
+   "scene": "Dans quelle colonne ranges-tu l'installation d'une VMC (2 900 €, D13) chez M. Bernard ?",
+   "caption": "Dans quelle colonne ranges-tu l'installation d'une VMC (2 900 €, D13) chez M. Bernard ? Mozi, lui, répondrait : « Faire : avant les photos »",
+   "dur": 8.807407407407407
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : ce sont des travaux, pas une action à petit budget ; ils retarderaient la mise en vente."
+   ],
+   "caption": "Faux : ce sont des travaux, pas une action à petit budget ; ils retarderaient la mise en vente.",
+   "dur": 7.696296296296296
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "M. Bernard a une liste de vingt idées : repeindre, changer les fenêtres, attendre l'isolation de l'immeuble, baisser le prix.",
+    "Sébastien Paumier les range en quatre colonnes : faire maintenant, arbitrer avec le vendeur, projeter pour l'acquéreur, éviter.",
+    "Chaque action reçoit un coût, un responsable, une date et la pièce qui la justifie."
+   ],
+   "caption": "M. Bernard a une liste de vingt idées : repeindre, changer les fenêtres, attendre l'isolation de l'immeuble, baisser le prix. Sébastien Paumier les range en quatre colonnes : faire maintenant, arbitrer avec le vendeur, projeter pour l'acquéreur, éviter. Chaque action reçoit un coût, un responsable, une date et la pièce qui la justifie.",
+   "dur": 21.4
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 4 colonnes",
+   "table": {
+    "headers": [
+     "Colonne",
+     "Ce qu'on y met",
+     "Qui décide"
+    ],
+    "rows": [
+     [
+      "Faire",
+      "Actions utiles, petites, avant la mise en vente (Éco-staging, pièces à commander)",
+      "Le vendeur valide, l'éco-consultant organise"
+     ],
+     [
+      "Arbitrer",
+      "Choix qui engagent argent ou délai (travaux avant vente, prix, répartition des…",
+      "Le vendeur, sur les chiffres"
+     ],
+     [
+      "Projeter",
+      "Travaux que fera l'acquéreur, chiffrés par devis, avec la performance estimée",
+      "L'acquéreur, plus tard"
+     ],
+     [
+      "Éviter",
+      "Ce qui ferait perdre argent ou confiance",
+      "Personne : on l'écarte"
+     ]
+    ]
+   },
+   "caption": "Les 4 colonnes. Faire : Actions utiles, petites, avant la mise en vente (Éco-staging, pièces à commander) ; Arbitrer : Choix qui engagent argent ou délai (travaux avant vente, prix, répartition des appels de fonds) ; Projeter : Travaux que fera l'acquéreur, chiffrés par devis, avec la performance estimée",
+   "dur": 18.437037037037033
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Plan rempli · M. Bernard (fil rouge, fictif)",
+   "table": {
+    "headers": [
+     "Colonne",
+     "Action",
+     "Coût",
+     "Qui · quand"
+    ],
+    "rows": [
+     [
+      "Faire",
+      "Plan Éco-staging en 3 actions",
+      "≈ 450 €",
+      "Vendeur · avant le 12/11/2026"
+     ],
+     [
+      "Faire",
+      "Commander l'état de l'installation électrique (plus de 15 ans)",
+      "Prix du diagnostiqueur",
+      "Vendeur · avant le 13/11/2026"
+     ],
+     [
+      "Faire",
+      "Demander la fiche synthétique au syndic",
+      "0 €",
+      "Éco-consultant · relance le 03/11/2026"
+     ],
+     [
+      "Arbitrer",
+      "Travaux privatifs avant vente ou vente en l'état",
+      "16 500 € ou 0 €",
+      "Vendeur · au RDV du 29/10/2026"
+     ],
+     [
+      "Arbitrer",
+      "Répartition des appels ITE avec l'acquéreur",
+      "4 × 8 970 €",
+      "Vendeur et acquéreur · rédigée par le notaire"
+     ]
+    ]
+   },
+   "caption": "Plan rempli · M. Bernard (fil rouge, fictif). Faire : Plan Éco-staging en 3 actions ; Faire : Commander l'état de l'installation électrique (plus de 15 ans) ; Faire : Demander la fiche synthétique au syndic",
+   "dur": 13.622222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Contrôle du plan",
+   "items": [
+    "Chaque ligne a un coût, un responsable, une date et une pièce.",
+    "La colonne « Faire » reste à petit budget et se termine avant les photos.",
+    "La colonne « Arbitrer » ne contient aucune décision prise à la place du vendeur.",
+    "La colonne « Projeter » ne promet ni classe ni aide : estimations à confirmer.",
+    "Les montants sont identiques au tableau de bord et aux devis."
+   ],
+   "caption": "Contrôle du plan. Chaque ligne a un coût, un responsable, une date et une pièce. La colonne « Faire » reste à petit budget et se termine avant les photos. La colonne « Arbitrer » ne contient aucune décision prise à la place du vendeur. La colonne « Projeter » ne promet ni classe ni aide : estimations à confirmer. Les montants sont identiques au tableau de bord et aux…",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase pour présenter le plan",
+   "text": "« Monsieur Bernard, voici tout ce qu'on peut faire, rangé en quatre colonnes. À gauche, ce que je vous propose de faire tout de suite, pour environ 450 €. Ensuite, deux décisions qui vous reviennent. Puis ce que l'acheteur fera, chiffré pour lui. Et à droite, ce que je vous déconseille, avec la raison. »",
+   "caption": "La phrase pour présenter le plan. « Monsieur Bernard, voici tout ce qu'on peut faire, rangé en quatre colonnes. À gauche, ce que je vous propose de faire tout de suite, pour environ 450 €. Ensuite, deux décisions qui vous reviennent. Puis ce que l'acheteur fera, chiffré pour lui. Et à droite, ce que je vous déconseille, avec la raison. »",
+   "dur": 23.62222222222222
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Faire les travaux privatifs avant la vente ou vendre en l'état : dans quelle colonne ?",
+    "options": [
+     "Faire",
+     "Éviter",
+     "Arbitrer : c'est une décision du vendeur, préparée avec la grille de la capsule 3.12"
+    ],
+    "answer": 2
+   },
+   "fb": "La colonne « Arbitrer » contient les choix qui reviennent au vendeur : travaux ou vente en l'état, prix d'annonce, répartition des appels de fonds avec l'acquéreur (rédigée par le notaire). Tu prépares les chiffres, il décide.",
+   "caption": "Faire les travaux privatifs avant la vente ou vendre en l'état : dans quelle colonne ?",
+   "dur": 22.059259259259257
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Classer les actions de son bien fil rouge",
+   "steps": [
+    {
+     "label": "Liste au moins 10 actions possibles sur le bien (travaux, documents, prix, présentation).",
+     "detail": ""
+    },
+    {
+     "label": "Range chacune dans une colonne : faire, arbitrer, projeter, éviter.",
+     "detail": ""
+    },
+    {
+     "label": "Donne à chaque ligne un coût, un responsable, une date et la pièce qui la justifie.",
+     "detail": ""
+    },
+    {
+     "label": "Vérifie qu'aucune décision n'est prise à la place du vendeur et qu'aucune classe ni aide n'est promise.",
+     "detail": ""
+    },
+    {
+     "label": "Écris la phrase qui présente le plan au vendeur.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Classer les actions de son bien fil rouge. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Plan d'action du bien fil rouge en 4 colonnes",
+   "items": [
+    "Au moins 10 actions réparties dans les 4 colonnes",
+    "Chaque ligne a un coût, un responsable, une date et une pièce justificative",
+    "Les choix qui engagent argent ou délai sont dans « Arbitrer », pas décidés à la…",
+    "Aucune classe après travaux ni aide n'est présentée comme acquise",
+    "Les montants sont identiques au dossier fil rouge"
+   ],
+   "caption": "Ton livrable : Plan d'action du bien fil rouge en 4 colonnes. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèle de plan d'action",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 188.14
+}

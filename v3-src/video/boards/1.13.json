@@ -1,0 +1,199 @@
+{
+ "id": "1.13",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Son offre de service, rédigée avec l'IA",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 1.13 : écrire son offre avec l'IA",
+   "caption": "Bienvenue. Dans ce chapitre, tu rédiges ton offre de service avec l'IA. Puis tu la vérifies, ligne par ligne.",
+   "cta": "Commencer",
+   "dur": 8.81
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi un vendeur prudent signe sur des pièces, pas sur une impression"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "rédiger avec l'IA ton offre d'une page en six rubriques, puis la vérifier"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton offre vérifiée en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Je promets le prix, on se tope dans la main, et le mandat écrit, on verra plus tard !",
+   "caption": "Je promets le prix, on se tope dans la main, et le mandat écrit, on verra plus tard !",
+   "line": "Je promets le prix, on se tope dans la main, et le mandat écrit, on verra plus tard !",
+   "scene": "Mozi tend la main au-dessus d'une table vide, sans un papier, un stylo violet derrière l'oreille.",
+   "pose": "sur-de-lui",
+   "dur": 8.07
+  },
+  {
+   "kind": "belief",
+   "title": "1 prix promis, 1 poignée de main, 0 mandat écrit",
+   "caption": "Un prix promis, une poignée de main, zéro mandat écrit.",
+   "beats": [
+    "1 prix promis",
+    "1 poignée de main",
+    "0 mandat écrit"
+   ],
+   "wrong": 2,
+   "why": "Sans mandat écrit, pas de mission et pas d'honoraires.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Sans mandat écrit : ni mission, ni honoraires.",
+   "caption": "Sauf que la loi Hoguet est claire : sans mandat écrit préalable, ni mission, ni rémunération. Et le prix promis, personne ne peut le garantir.",
+   "lines": [
+    "Sans mandat écrit : aucune mission.",
+    "Et aucun honoraire."
+   ],
+   "dur": 10.29
+  },
+  {
+   "kind": "stat",
+   "title": "51 % misent sur la concurrence",
+   "caption": "Selon quatre cent dix-neuf professionnels interrogés par leboncoin Immo, la moitié des vendeurs pensent que la mise en concurrence augmente leurs chances. C'est déclaratif, mais tu l'entends tous les jours.",
+   "value": "51 %",
+   "label": "des vendeurs misent sur la mise en concurrence, selon 419 professionnels interrogés (déclaratif)",
+   "dur": 13.62
+  },
+  {
+   "kind": "steps",
+   "title": "Promesse → Offre → Vérification",
+   "caption": "Un, ta promesse, vue en capsule 1.11 : une méthode, pas un prix. Tu t'engages sur des moyens : tu ne garantis ni un prix, ni une classe, ni un délai. Deux, ton offre écrite tient sur une page, en six rubriques : périmètre, livrables, engagements, honoraires, cadre légal, limites. Les honoraires sont exactement ceux du mandat. Et le mandat est écrit avant toute mission, inscrit au registre. Trois, l'IA rédige, toi tu vérifies. Tu lui donnes le dossier sans nom ni adresse. Puis tu relis chaque ligne : chaque mention légale sur Légifrance, chaque montant dans ton barème. Et tu supprimes toute garantie. Ton pitch d'une minute, tu le prépares en capsule 1.15.",
+   "steps": [
+    {
+     "label": "Promesse",
+     "detail": "Une méthode (vérifier, prouver, engager), jamais un prix, une classe ou un délai garantis."
+    },
+    {
+     "label": "Offre",
+     "detail": "Une page, 6 rubriques ; honoraires identiques au mandat écrit préalable."
+    },
+    {
+     "label": "Vérification",
+     "detail": "L'IA rédige sans nom ni adresse ; tu vérifies chaque mention légale et chaque montant."
+    }
+   ],
+   "dur": 43.99
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Pour ton offre, l'IA te propose cette phrase : « Nous garantissons la vente de votre bien au meilleur prix en moins de trois mois. » Que fais-tu ?",
+   "model_answer": "Je la supprime : je ne garantis ni prix ni délai. Je la remplace par un engagement de moyens : « Je vérifie votre étiquette énergie, je fonde la valeur sur les ventes réelles de votre secteur, et je vous remets un compte rendu écrit toutes les deux semaines. »",
+   "dur": 29.04
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Pas de mission ni de rémunération sans mandat écrit préalable, inscrit au registre des mandats",
+     "Un accord oral vaut mandat s'il y a un témoin",
+     "Le mandat se signe au moment de la vente, quand le prix est connu"
+    ],
+    "answer": 0,
+    "feedback": "La loi Hoguet impose un mandat écrit avant toute mission, inscrit au registre avec un numéro d'ordre. Il précise le prix, la durée, la rémunération et la partie qui la paie.",
+    "whys": [
+     "Exact : c'est la règle de base de la loi Hoguet, et ton offre doit reprendre les mêmes honoraires.",
+     "Faux : la loi exige un écrit ; un témoin ne remplace pas le mandat.",
+     "Faux : le mandat est préalable. Signé après, il ne fonde aucune rémunération pour la mission déjà faite."
+    ]
+   },
+   "card2": {
+    "question": "Karim fait signer un mandat exclusif dans le salon du vendeur. S'il le faisait sans rien ajouter, que se passerait-il ?",
+    "answer": "Il oublierait que, signé hors de l'agence, le mandat ouvre au vendeur 14 jours de rétractation, avec un formulaire à lui remettre. La clause d'exclusivité doit figurer en caractères très apparents, et le mandat exclusif reste résiliable après trois mois, avec un préavis de quinze jours par lettre recommandée."
+   },
+   "fb": "La loi Hoguet impose un mandat écrit avant toute mission, inscrit au registre avec un numéro d'ordre. Il précise le prix, la durée, la rémunération et la partie qui la paie.",
+   "dur": 19.1
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : une offre que M. Bernard peut vérifier ligne par ligne. L'IA qui rédige, et l'IA qui relit à sa place.",
+   "goal": "Une offre que M. Bernard peut vérifier ligne par ligne",
+   "tools": [
+    {
+     "name": "L'offre rédigée avec l'IA",
+     "role": "Une page, 6 rubriques, sans donnée personnelle"
+    },
+    {
+     "name": "L'IA qui relit en vendeur",
+     "role": "Repérer les promesses floues avant M. Bernard"
+    }
+   ],
+   "dur": 11.4
+  },
+  {
+   "kind": "demo",
+   "title": "Offre : cadrer, imposer, interdire, vérifier",
+   "caption": "L'offre. Tu donnes à l'IA le dossier anonymisé et les six rubriques. Tu imposes tes vrais honoraires : cinq pour cent, à la charge de l'acquéreur. Tu interdis toute garantie. Puis tu vérifies chaque mention légale sur Légifrance.",
+   "steps": [
+    "Prompt : rôle, dossier anonymisé, 6 rubriques",
+    "Honoraires exacts : 5 % TTC, à la charge de l'acquéreur",
+    "Interdit : garantie de prix, de classe ou de délai",
+    "Vérifier chaque mention légale sur Légifrance"
+   ],
+   "tool": "L'offre rédigée avec l'IA",
+   "dur": 16.21
+  },
+  {
+   "kind": "demo",
+   "title": "Relecture : jouer, questionner, corriger",
+   "caption": "Ensuite, l'IA joue M. Bernard : soixante-quatre ans, factuel, prudent. Elle lit ton offre et pose trois questions sur ce qui reste flou. Tu réponds avec une pièce, pas une promesse. Puis tu corriges l'offre là où elle a hésité.",
+   "steps": [
+    "Demander : joue un vendeur de 64 ans, factuel et prudent",
+    "Faire lire l'offre : 3 questions sur ce qui reste flou",
+    "Répondre : avec une pièce, jamais une promesse",
+    "Corriger : chaque question devient une ligne plus claire"
+   ],
+   "tool": "L'IA qui relit en vendeur",
+   "dur": 16.96
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Rédige ton offre maintenant.",
+   "cta": "Rédiger mon offre avec l'IA",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton offre.",
+   "ask": "Dépose une photo de ton offre d'une page : les six rubriques visibles, les honoraires identiques à ton mandat, aucune garantie de prix ni de délai.",
+   "dur": 3.5
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Ton offre est écrite, en six rubriques, avec les honoraires du mandat. Celle de Mozi tenait dans une poignée de main.",
+   "status": "Ton offre : écrite, 6 rubriques. Celle de Mozi : une poignée de main.",
+   "dur": 9.18
+  }
+ ],
+ "total": 205.29
+}

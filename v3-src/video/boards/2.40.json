@@ -1,0 +1,199 @@
+{
+ "id": "2.40",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Appartement : réconcilier les méthodes et conclure",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Appartement : réconcilier les méthodes et conclure",
+   "caption": "Capsule 2.40. Appartement : réconcilier les méthodes et conclure",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Conclure en valeur vénale pour l'appartement de M. Bernard en pondérant la comparaison et la capitalisation, avec des coefficients justifiés par écrit et un contrôle de l'écart entre méthodes",
+   "caption": "À la fin de cette capsule : Conclure en valeur vénale pour l'appartement de M. Bernard en pondérant la comparaison et la capitalisation, avec des coefficients justifiés par écrit et un contrôle de l'écart entre méthodes",
+   "dur": 12.881481481481481
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "180 800 €",
+   "pose": "pointe",
+   "scene": "Comparaison : 182 000 €. Capitalisation : 179 600 €. Poids retenus : 70 % et 30 %. Quelle valeur pondérée ?",
+   "caption": "Comparaison : 182 000 €. Capitalisation : 179 600 €. Poids retenus : 70 % et 30 %. Quelle valeur pondérée ? Mozi, lui, répondrait : « 180 800 € »",
+   "dur": 7.325925925925926
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : c'est la moyenne simple (50/50), pas la pondération retenue."
+   ],
+   "caption": "Faux : c'est la moyenne simple (50/50), pas la pondération retenue.",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Deux méthodes, deux chiffres : 182 000 € par comparaison (milieu de la fourchette 178 000 – 186 000 €), 179 600 € par capitalisation.",
+    "Sébastien Paumier montre comment contrôler l'écart, choisir les poids (70 % et 30 %) en les justifiant, puis conclure sur une valeur arrondie : 181 000 €, valeur libre, net vendeur."
+   ],
+   "caption": "Deux méthodes, deux chiffres : 182 000 € par comparaison (milieu de la fourchette 178 000 – 186 000 €), 179 600 € par capitalisation. Sébastien Paumier montre comment contrôler l'écart, choisir les poids (70 % et 30 %) en les justifiant, puis conclure sur une valeur arrondie : 181 000 €, valeur libre, net vendeur.",
+   "dur": 19.177777777777774
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Pondération : exemple rempli",
+   "table": {
+    "headers": [
+     "Méthode",
+     "Résultat",
+     "Poids",
+     "Justification"
+    ],
+    "rows": [
+     [
+      "Comparaison (après ajustements prouvés)",
+      "182 000 € (milieu de 178 000 – 186 000 €)",
+      "70 %",
+      "6 ventes en l'état retenues, dont 1 dans la résidence ; marché…"
+     ],
+     [
+      "Capitalisation",
+      "179 600 € (11 673,60 / 6,5 %)",
+      "30 %",
+      "Contrôle investisseur ; loyers et taux moins nombreux ; ne voit pas…"
+     ],
+     [
+      "Méthode écartée : coût de remplacement",
+      "Non calculée",
+      "0 %",
+      "Lot de copropriété : la méthode sol + construction ne s'applique pas…"
+     ],
+     [
+      "Valeur pondérée",
+      "",
+      "100 %",
+      ""
+     ],
+     [
+      "Conclusion arrondie",
+      "181 000 €",
+      "",
+      "Valeur vénale libre, net vendeur, octobre 2026"
+     ]
+    ]
+   },
+   "caption": "Pondération : exemple rempli. Comparaison (après ajustements prouvés) : 182 000 € (milieu de 178 000 – 186 000 €) ; Capitalisation : 179 600 € (11 673,60 / 6,5 %) ; Méthode écartée : coût de remplacement : Non calculée",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Les calculs",
+   "text": "Valeur pondérée = Σ (résultat × poids). Écart entre méthodes = (résultat le plus haut − résultat le plus bas) / résultat le plus haut. M. Bernard : 0,7 × 182 000 + 0,3 × 179 600 = 181 280 € → 181 000 €. Écart : (182 000 − 179 600) / 182 000…",
+   "caption": "Les calculs. Valeur pondérée = Σ (résultat × poids). Écart entre méthodes = (résultat le plus haut − résultat le plus bas) / résultat le plus haut. M. Bernard : 0,7 × 182 000 + 0,3 × 179 600 = 181 280 € → 181 000 €. Écart : (182 000 − 179 600) / 182 000…",
+   "dur": 17.325925925925926
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Contrôles avant de conclure",
+   "items": [
+    "Les poids sont écrits et justifiés avant le calcul",
+    "L'écart entre méthodes est calculé ; au-delà de 10 % (seuil proposé), la cause est cherchée et corrigée",
+    "Loyer et taux de la capitalisation sont sur la même base (brut ou net)",
+    "Toute méthode écartée l'est par écrit, avec la raison",
+    "La conclusion est arrondie (au millier) et reste dans la fourchette de la comparaison"
+   ],
+   "caption": "Contrôles avant de conclure. Les poids sont écrits et justifiés avant le calcul L'écart entre méthodes est calculé ; au-delà de 10 % (seuil proposé), la cause est cherchée et corrigée Loyer et taux de la capitalisation sont sur la même base (brut ou net) Toute méthode écartée l'est par écrit, avec la raison La conclusion est arrondie (au millier) et reste dans la fourchette de la comparaison",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Repères de poids (proposition à adapter)",
+   "items": [
+    "Appartement de résidence principale, ventes nombreuses : comparaison 70 à 80 %, capitalisation 20 à 30 %.",
+    "Studio ou T2 très recherché par les investisseurs : capitalisation jusqu'à 40 à 50 %.",
+    "Peu de ventes comparables (bien atypique) : poids de la comparaison réduit, à expliquer.",
+    "Un poids de 100 % sur une seule méthode est possible, si l'autre est écartée par écrit."
+   ],
+   "caption": "Repères de poids (proposition à adapter). Appartement de résidence principale, ventes nombreuses : comparaison 70 à 80 %, capitalisation 20 à 30 %. Studio ou T2 très recherché par les investisseurs : capitalisation jusqu'à 40 à 50 %. Peu de ventes comparables (bien atypique) : poids de la comparaison réduit, à expliquer. Un poids de 100 % sur une seule méthode est possible, si l'autre est écartée par écrit.",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Pourquoi donner plus de poids à la comparaison qu'à la capitalisation pour ce T4 ?",
+    "options": [
+     "Parce que la comparaison donne toujours le chiffre le plus haut",
+     "Parce que les acquéreurs de ce type de bien sont surtout des occupants et que les ventes comparables sont nombreuses et récentes",
+     "Parce que la capitalisation est interdite pour un appartement"
+    ],
+    "answer": 1
+   },
+   "fb": "Le poids d'une méthode se justifie par la qualité des données et par le marché réel du bien : ici, des occupants et beaucoup de ventes comparables. On écrit cette justification avant de calculer, pas après.",
+   "caption": "Pourquoi donner plus de poids à la comparaison qu'à la capitalisation pour ce T4 ?",
+   "dur": 21.68888888888889
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Conclure en valeur vénale",
+   "steps": [
+    {
+     "label": "Reporte les deux résultats : milieu de la fourchette par comparaison et valeur capitalisée.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule l'écart entre les méthodes et dis s'il est sous le seuil de contrôle.",
+     "detail": ""
+    },
+    {
+     "label": "Écris le poids de chaque méthode et sa justification en une phrase.",
+     "detail": ""
+    },
+    {
+     "label": "Indique la méthode écartée (coût de remplacement) et pourquoi.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la valeur pondérée et arrondis-la au millier.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Conclure en valeur vénale. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tableau de pondération et conclusion de valeur vénale de l'appartement de M. Bernard",
+   "items": [
+    "Les deux résultats sont reportés et l'écart entre méthodes est calculé",
+    "Chaque poids est justifié par écrit ; la méthode écartée l'est aussi",
+    "La valeur pondérée est juste et arrondie au millier",
+    "La conclusion précise : libre, net vendeur, fourchette, date",
+    "Aucun chiffre n'est présenté comme un prix de vente garanti"
+   ],
+   "caption": "Ton livrable : Tableau de pondération et conclusion de valeur vénale de l'appartement de M. Bernard. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableau de pondération des méthodes pour un appartement",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 185.81
+}

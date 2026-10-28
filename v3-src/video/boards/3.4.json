@@ -1,0 +1,228 @@
+{
+ "id": "3.4",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Les indicateurs de valeur : prix au m², valeur verte, gain",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Les indicateurs de valeur : prix au m², valeur verte, gain",
+   "caption": "Capsule 3.4. Les indicateurs de valeur : prix au m², valeur verte, gain",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Chiffrer la prime ou la décote de valeur verte de son bien fil rouge, avec la source et la date de l'étude des notaires, puis calculer le gain de valeur après travaux sans le présenter comme acquis",
+   "caption": "À la fin de cette capsule : Chiffrer la prime ou la décote de valeur verte de son bien fil rouge, avec la source et la date de l'étude des notaires, puis calculer le gain de valeur après travaux sans le présenter comme acquis",
+   "dur": 15.474074074074073
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Que la décote est de 15 % pour toutes les étiquettes",
+   "pose": "bof",
+   "scene": "Une agence a appliqué « −15 % à cause du DPE » à l'appartement de M. Bernard. Que montre l'étude des notaires (transactions 2024, publiée le 7/01/2026) ?",
+   "caption": "Une agence a appliqué « −15 % à cause du DPE » à l'appartement de M. Bernard. Que montre l'étude des notaires (transactions 2024, publiée le 7/01/2026) ? Mozi, lui, répondrait : « Que la décote est de 15 % pour toutes les étiquettes »",
+   "dur": 15.474074074074073
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : l'étude donne des écarts différents selon chaque classe, la région et le type de bien."
+   ],
+   "caption": "Faux : l'étude donne des écarts différents selon chaque classe, la région et le type de bien.",
+   "dur": 7.696296296296296
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Deux agences ont dit à M. Bernard « −15 % à cause du DPE ».",
+    "Sébastien Paumier ouvre l'étude des Notaires de France publiée le 7 janvier 2026 : en grande couronne francilienne, un appartement classé G se vend en moyenne 17 % moins cher qu'un D.",
+    "M. Bernard est en E, pas en G.",
+    "Il construit ensuite trois indicateurs de valeur : prix au m², écart de valeur verte daté, gain de valeur après travaux."
+   ],
+   "caption": "Deux agences ont dit à M. Bernard « −15 % à cause du DPE ». Sébastien Paumier ouvre l'étude des Notaires de France publiée le 7 janvier 2026 : en grande couronne francilienne, un appartement classé G se vend en moyenne 17 % moins cher qu'un D. M. Bernard est en E, pas en G. Il construit ensuite trois indicateurs de valeur : prix au m², écart de valeur verte daté, gain de valeur après travaux.",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Repères des notaires (étude « La valeur verte des logements en France », transactions 2024, publiée le 7/01/2026)",
+   "table": {
+    "headers": [
+     "Zone, type",
+     "Classe",
+     "Écart par rapport à D",
+     "Statut"
+    ],
+    "rows": [
+     [
+      "France, appartements",
+      "G",
+      "−12 % en moyenne",
+      "Vérifié (texte de l'étude)"
+     ],
+     [
+      "France, maisons",
+      "G",
+      "−25 % en moyenne",
+      "Vérifié (texte de l'étude)"
+     ],
+     [
+      "Grande couronne, appartements",
+      "G",
+      "−17 % en moyenne",
+      "Vérifié (texte de l'étude)"
+     ],
+     [
+      "Grande couronne, appartements",
+      "F",
+      "−8 à −10 %",
+      "À vérifier dans le tableau régional"
+     ],
+     [
+      "Grande couronne, appartements",
+      "E",
+      "−3 à −5 %",
+      "À vérifier dans le tableau régional"
+     ]
+    ]
+   },
+   "caption": "Repères des notaires (étude « La valeur verte des logements en France », transactions 2024, publiée le 7/01/2026). France, appartements : G ; France, maisons : G ; Grande couronne, appartements : G",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemple rempli : appartement de M. Bernard (FICTIF)",
+   "table": {
+    "headers": [
+     "Indicateur",
+     "Valeur",
+     "Calcul ou source"
+    ],
+    "rows": [
+     [
+      "Prix au m² en l'état",
+      "2 650 €/m²",
+      "Médiane des ventes en l'état (D12, fictif)"
+     ],
+     [
+      "Prix au m² rénové",
+      "2 850 €/m²",
+      "Médiane des ventes rénovées (D12, fictif)"
+     ],
+     [
+      "Écart local rénové / en l'état",
+      "+7,5 %",
+      "(2 850 − 2 650) / 2 650 ; inclut état, immeuble…"
+     ],
+     [
+      "Décote de l'étiquette E (repère notaires)",
+      "−3 à −5 % par rapport à D (à vérifier)",
+      "Étude du 7/01/2026, grande couronne, appartements"
+     ],
+     [
+      "Valeur en l'état",
+      "178 000 – 186 000 € (181 000 € conclus)",
+      "Capsules 2.40 et 2.43"
+     ]
+    ]
+   },
+   "caption": "Exemple rempli : appartement de M. Bernard (FICTIF). Prix au m² en l'état : 2 650 €/m² ; Prix au m² rénové : 2 850 €/m² ; Écart local rénové / en l'état : +7,5 %",
+   "dur": 12.881481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Les formules",
+   "text": "Prix au m² = médiane des ventes comparables, datées. Écart local = (prix au m² rénové − prix au m² en l'état) / prix au m² en l'état. Valeur verte (repère) = écart de la classe du bien par rapport à D, lu dans l'étude avec sa date, sa zone et son type de bien.…",
+   "caption": "Les formules. Prix au m² = médiane des ventes comparables, datées. Écart local = (prix au m² rénové − prix au m² en l'état) / prix au m² en l'état. Valeur verte (repère) = écart de la classe du bien par rapport à D, lu dans l'étude avec sa date, sa zone et son type de bien.…",
+   "dur": 21.77037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Règles de prudence",
+   "items": [
+    "Ne jamais appliquer l'écart d'une autre classe : le −17 % des appartements G ne vaut pas pour un bien E.",
+    "L'étude mesure un effet moyen « toutes choses égales par ailleurs » ; ton écart local, lui, mélange étiquette, état et immeuble…",
+    "Toujours dater : une nouvelle étude des notaires remplace l'ancienne.",
+    "Phrase à dire : « Les notaires constatent qu'un appartement classé G se vend en moyenne 17 % moins cher qu'un D…"
+   ],
+   "caption": "Règles de prudence. Ne jamais appliquer l'écart d'une autre classe : le −17 % des appartements G ne vaut pas pour un bien E. L'étude mesure un effet moyen « toutes choses égales par ailleurs » ; ton écart local, lui, mélange étiquette, état et immeuble… Toujours dater : une nouvelle étude des notaires remplace l'ancienne. Phrase à dire : « Les notaires constatent qu'un appartement classé G se vend…",
+   "dur": 26.21481481481481
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Valeur en l'état de M. Bernard : 178 000 – 186 000 € ; valeur après rénovation : 216 600 €. Quel est le gain de valeur, présenté honnêtement ?",
+    "options": [
+     "38 600 €, garanti",
+     "Un écart de valeur de 30 600 à 38 600 €, estimé, à comparer aux 52 380 € de travaux : aucun gain garanti",
+     "216 600 €"
+    ],
+    "answer": 1
+   },
+   "fb": "L'indicateur de gain est un écart de valeur estimé, donné en fourchette, toujours placé à côté du coût des travaux (capsule 3.5). Ici, 30 600 à 38 600 € d'écart pour 52 380 € de travaux : la rénovation ne…",
+   "caption": "Valeur en l'état de M. Bernard : 178 000 – 186 000 € ; valeur après rénovation : 216 600 €. Quel est le gain de valeur, présenté honnêtement ?",
+   "dur": 26.5037037037037
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Chiffrer la valeur verte de son bien fil rouge",
+   "steps": [
+    {
+     "label": "Identifie la zone, le type de bien et la classe de ton bien fil rouge.",
+     "detail": ""
+    },
+    {
+     "label": "Relève dans l'étude l'écart de cette classe par rapport à D, avec la date et la page.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule le prix au m² en l'état et rénové, et l'écart local entre les deux.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule le gain de valeur estimé après travaux, en fourchette.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige trois phrases pour le vendeur : repère des notaires, écart local, gain estimé avec la mention «…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Chiffrer la valeur verte de son bien fil rouge. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Indicateurs de valeur de son bien fil rouge",
+   "items": [
+    "Le repère de valeur verte cite l'étude, sa date, la zone, le type de bien et…",
+    "L'écart appliqué correspond bien à la classe du bien (pas d'écart d'une autre classe)",
+    "Les prix au m² en l'état et rénové sont sourcés et datés",
+    "Le gain de valeur est donné en fourchette, à côté du coût des travaux",
+    "La mention « aucun gain garanti » figure"
+   ],
+   "caption": "Ton livrable : Indicateurs de valeur de son bien fil rouge. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableur : prix au m², prime ou décote de valeur verte (études des notaires, datées), gain de valeur après travaux",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 204.07
+}

@@ -1,0 +1,187 @@
+{
+ "id": "P2",
+ "module": 0,
+ "modlabel": "Prérequis",
+ "modtitle": "Climat et marché : le contexte de tout le parcours",
+ "color": "#8E1B3A",
+ "title": "Ce que le climat change pour un logement : argiles, inondations, surchauffe",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Ce que le climat change pour un logement : argiles, inondations, surchauffe",
+   "caption": "Capsule P2. Ce que le climat change pour un logement : argiles, inondations, surchauffe",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Relever sur Géorisques trois risques climatiques pour une adresse de sa zone et expliquer en une phrase chacun ce qu'ils changent pour le bâti et le confort d'été",
+   "caption": "À la fin de cette capsule : Relever sur Géorisques trois risques climatiques pour une adresse de sa zone et expliquer en une phrase chacun ce qu'ils changent pour le bâti et le confort d'été",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Tu la rassures : « C'est normal sur une maison de cet âge, rien à faire.",
+   "pose": "telephone",
+   "scene": "Mme Garnier te montre des fissures en escalier de 0,5 mm sur le pignon nord de sa maison de 1968. Que fais-tu ?",
+   "caption": "Mme Garnier te montre des fissures en escalier de 0,5 mm sur le pignon nord de sa maison de 1968. Que fais-tu ? Mozi, lui, répondrait : « Tu la rassures : « C'est normal sur une maison de cet âge, rien à faire. »",
+   "dur": 15.844444444444443
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : tu n'es pas expert en structure ; minimiser un désordre peut te coûter ta crédibilité et nuire à l'acquéreur."
+   ],
+   "caption": "Faux : tu n'es pas expert en structure ; minimiser un désordre peut te coûter ta crédibilité et nuire à l'acquéreur.",
+   "dur": 9.177777777777777
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier ouvre Géorisques avec l'adresse de la maison de Mme Garnier (fictive) : fissures en escalier sur le pignon, sol argileux possible.",
+    "Il montre les trois risques climatiques qui touchent un logement (argiles, inondation, surchauffe), où les lire, et ce qu'un agent dit ou ne dit pas à un vendeur."
+   ],
+   "caption": "Sébastien Paumier ouvre Géorisques avec l'adresse de la maison de Mme Garnier (fictive) : fissures en escalier sur le pignon, sol argileux possible. Il montre les trois risques climatiques qui touchent un logement (argiles, inondation, surchauffe), où les lire, et ce qu'un agent dit ou ne dit pas à un vendeur.",
+   "dur": 20.659259259259258
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 3 risques en un coup d'œil",
+   "table": {
+    "headers": [
+     "Risque",
+     "Repère national",
+     "Ce que ça change pour le bâti",
+     "Où le lire"
+    ],
+    "rows": [
+     [
+      "Retrait-gonflement des argiles",
+      "55 % du territoire hexagonal et 12,1 millions de maisons (61,5 %)…",
+      "Fissures en escalier, portes qui frottent, surtout maisons sur fondations peu profondes",
+      "Géorisques (adresse) ; état des risques"
+     ],
+     [
+      "Inondation",
+      "17,1 millions d'habitants exposés au débordement de cours d'eau, 1,4 million à…",
+      "Dégâts sur sous-sols et rez-de-chaussée, humidité, coût d'assurance",
+      "Géorisques ; plan de prévention des risques ; état des risques"
+     ],
+     [
+      "Surchauffe",
+      "Confort d'été « insuffisant » pour 48,2 % des logements d'une base…",
+      "Inconfort, santé des occupants fragiles, besoin de protections solaires et de ventilation",
+      "DPE page 2 (indicateur confort d'été) ; visite : exposition, volets, dernier…"
+     ]
+    ]
+   },
+   "caption": "Les 3 risques en un coup d'œil. Retrait-gonflement des argiles : 55 % du territoire hexagonal et 12,1 millions de maisons (61,5 %) en exposition moyenne ou forte (carte applicable au 1/07/2026) ; Inondation : 17,1 millions d'habitants exposés au débordement de cours d'eau, 1,4 million à la submersion marine (ministère, 6/04/2023) ; Surchauffe : Confort d'été « insuffisant » pour 48,2 % des logements d'une base de 8,9 millions…",
+   "dur": 29.548148148148144
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Mode d'emploi Géorisques en 5 gestes",
+   "items": [
+    "Ouvre georisques.gouv.fr et saisis l'adresse exacte du bien (ou clique sur la parcelle).",
+    "Lis la liste des risques de l'adresse : argiles (niveau d'exposition), inondation, autres risques naturels et technologiques.",
+    "Note les arrêtés de catastrophe naturelle de la commune (type et année).",
+    "Repère s'il existe un plan de prévention des risques (PPR) qui couvre la parcelle.",
+    "Fais une capture datée : elle entre dans ton dossier, et le vendeur établit l'état des risques à remettre dès la première…"
+   ],
+   "caption": "Mode d'emploi Géorisques en 5 gestes. Ouvre georisques.gouv.fr et saisis l'adresse exacte du bien (ou clique sur la parcelle). Lis la liste des risques de l'adresse : argiles (niveau d'exposition), inondation, autres risques naturels et technologiques. Note les arrêtés de catastrophe naturelle de la commune (type et année). Repère s'il existe un plan de prévention des risques (PPR) qui couvre la parcelle. Fais une capture datée : elle entre dans…",
+   "dur": 29.177777777777774
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Les règles à connaître",
+   "items": [
+    "État des risques : remis à l'acquéreur dès la première visite, établi depuis moins de 6 mois, annexé à la promesse puis…",
+    "Toute annonce de vente concernée indique que les informations sur les risques sont disponibles sur georisques.gouv.fr.",
+    "Argiles : en zone d'exposition moyenne ou forte, une étude géotechnique préalable est exigée pour la vente d'un terrain à bâtir (loi…",
+    "Fonds de prévention argile : aide sous conditions de revenus, expérimentée depuis octobre 2025 dans 11 départements pilotes, conditions élargies au 1/05/2026…"
+   ],
+   "caption": "Les règles à connaître. État des risques : remis à l'acquéreur dès la première visite, établi depuis moins de 6 mois, annexé à la promesse puis… Toute annonce de vente concernée indique que les informations sur les risques sont disponibles sur georisques.gouv.fr. Argiles : en zone d'exposition moyenne ou forte, une étude géotechnique préalable est exigée pour la vente d'un terrain à bâtir (loi… Fonds de prévention argile : aide…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple : la maison de Mme Garnier (fil rouge, fictif)",
+   "text": "Maison de 1968 à Vaux-le-Pénil sur sous-sol complet. L'état des risques (M10) indique une exposition moyenne aux argiles (fictif, à vérifier sur Géorisques) et un arrêté de catastrophe naturelle « sécheresse » en 2019 sur la commune (fictif) ; pas de plan de prévention inondation. Pathologies vues (M05) : fissures en escalier de 0,5 mm…",
+   "caption": "Exemple : la maison de Mme Garnier (fil rouge, fictif). Maison de 1968 à Vaux-le-Pénil sur sous-sol complet. L'état des risques (M10) indique une exposition moyenne aux argiles (fictif, à vérifier sur Géorisques) et un arrêté de catastrophe naturelle « sécheresse » en 2019 sur la commune (fictif) ; pas de plan de prévention inondation. Pathologies vues (M05) : fissures en escalier de 0,5 mm…",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Depuis le 1er juillet 2026, quelle part des maisons individuelles existantes se trouve en zone d'exposition moyenne ou forte au retrait-gonflement des argiles ?",
+    "options": [
+     "Environ 1 sur 10",
+     "Environ 1 sur 4",
+     "Environ 6 sur 10"
+    ],
+    "answer": 2
+   },
+   "fb": "La carte mise à jour (arrêté du 9/01/2026, publié au JO du 31/01/2026, applicable au 1/07/2026) place 55 % du territoire hexagonal en exposition moyenne ou forte, contre 48 % en 2020 : 12,1 millions de maisons (61,5 %). Le…",
+   "caption": "Depuis le 1er juillet 2026, quelle part des maisons individuelles existantes se trouve en zone d'exposition moyenne ou forte au retrait-gonflement des argiles ?",
+   "dur": 28.355555555555554
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Trois risques pour une adresse de ma zone",
+   "steps": [
+    {
+     "label": "Saisis l'adresse sur Géorisques et fais une capture datée de la liste des risques.",
+     "detail": ""
+    },
+    {
+     "label": "Relève le niveau d'exposition aux argiles, le risque inondation (PPR ou zone inondable) et les arrêtés de catastrophe…",
+     "detail": ""
+    },
+    {
+     "label": "Évalue la surchauffe : indicateur de confort d'été du DPE s'il existe, sinon trois observations (exposition, dernier étage…",
+     "detail": ""
+    },
+    {
+     "label": "Pour chacun des trois risques, écris en une phrase ce qu'il change pour le bâti ou pour le…",
+     "detail": ""
+    },
+    {
+     "label": "Écris la phrase que tu dirais au vendeur, avec le professionnel vers qui tu le renvoies si besoin.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Trois risques pour une adresse de ma zone. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Fiche 3 risques de mon adresse",
+   "items": [
+    "La capture Géorisques est datée et correspond à l'adresse choisie",
+    "Les trois risques (argiles, inondation, surchauffe) sont relevés, chacun avec son niveau ou son constat",
+    "Chaque risque a son effet sur le bâti ou le confort d'été, en une phrase",
+    "La phrase au vendeur renvoie au bon professionnel et ne pose aucun diagnostic",
+    "Aucune donnée personnelle du propriétaire n'apparaît"
+   ],
+   "caption": "Ton livrable : Fiche 3 risques de mon adresse. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche risques climatiques du logement et mode d'emploi Géorisques",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 237.03
+}

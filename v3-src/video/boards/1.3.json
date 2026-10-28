@@ -1,0 +1,199 @@
+{
+ "id": "1.3",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Le marché 2026 : ce qui change",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 1.3 : lire le marché 2026",
+   "caption": "Bienvenue. Dans ce chapitre, tu vas voir ce qui a changé en 2026, et ce que ça change chez tes propres clients.",
+   "cta": "Commencer",
+   "dur": 9.55
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "les trois changements de 2026 : marché, DPE, prospection"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "repérer trois changements chez tes clients, chacun avec un fait sourcé et ta réponse"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton tableau des 3 changements clients en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "J'appelle tout l'annuaire : les gens adorent les surprises !",
+   "caption": "J'appelle tout l'annuaire : les gens adorent les surprises !",
+   "line": "J'appelle tout l'annuaire : les gens adorent les surprises !",
+   "scene": "Mozi compose à la chaîne des numéros relevés sur des annonces, un vieil annuaire ouvert sur les genoux.",
+   "pose": "telephone",
+   "dur": 5.1
+  },
+  {
+   "kind": "belief",
+   "title": "500 numéros, 0 accord, 1 seul script",
+   "caption": "Cinq cents numéros, zéro accord, un seul script.",
+   "beats": [
+    "500 numéros",
+    "0 accord",
+    "1 seul script"
+   ],
+   "wrong": 1,
+   "why": "Appeler sans accord préalable est interdit depuis le 11 août 2026.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Appel interdit. Contrat contestable.",
+   "caption": "Sauf que depuis le onze août 2026, appeler un particulier sans son accord préalable est interdit. Et un contrat signé après un tel appel peut être remis en cause.",
+   "lines": [
+    "Appel sans accord : interdit depuis le 11 août 2026.",
+    "Contrat signé ensuite : contestable."
+   ],
+   "dur": 12.14
+  },
+  {
+   "kind": "stat",
+   "title": "958 000 ventes en un an",
+   "caption": "Bonne nouvelle quand même : neuf cent cinquante-huit mille logements anciens vendus en un an, à fin juin 2026. Les acheteurs sont revenus.",
+   "value": "958 000",
+   "label": "ventes de logements anciens sur 12 mois, à fin juin 2026",
+   "dur": 9.92
+  },
+  {
+   "kind": "steps",
+   "title": "Marché → DPE → Prospection",
+   "caption": "Trois changements, trois réponses. Un, le marché. Les prix reculent de zéro virgule huit pour cent sur un an, les appartements de zéro virgule un seulement. C'est une moyenne nationale : le national donne la tendance, le local donne la valeur. Deux, le DPE. Depuis le premier janvier 2026, l'électricité compte avec un coefficient de un virgule neuf. Chez M. Bernard : cent cinquante fois un virgule neuf, deux cent quatre-vingt-cinq. Classe E, plus F. Trois, la prospection. Tu n'appelles que ceux qui ont dit oui à ton agence, pour un objet précis. M. Bernard a coché ta case : tu peux le recontacter, sur son DPE et son estimation. Rien d'autre.",
+   "steps": [
+    {
+     "label": "Marché",
+     "detail": "Le national donne la tendance (appartements −0,1 % sur un an), le local donne la valeur."
+    },
+    {
+     "label": "DPE",
+     "detail": "Coefficient électricité 1,9 depuis le 1/01/2026 : 150 × 1,9 = 285, classe E."
+    },
+    {
+     "label": "Prospection",
+     "detail": "Depuis le 11/08/2026, tu n'appelles que ceux qui ont dit oui à ton agence."
+    }
+   ],
+   "dur": 43.99
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard ne décroche plus aux numéros inconnus. Deux agences lui ont annoncé « −15 % à cause du DPE ». Il a coché la case de consentement de ton agence. Comment obtiens-tu un rendez-vous ?",
+   "model_answer": "Je lui écris d'abord un message qui rappelle sa demande et je lui propose un créneau. Au rendez-vous, je vérifie son DPE avec l'attestation actualisée (classe E), puis je pars des ventes comparables de son secteur, pas d'un pourcentage national.",
+   "dur": 30.89
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Depuis le 11 août 2026, pas d'appel de prospection à un particulier sans son consentement préalable",
+     "Il doit consulter la liste Bloctel avant chaque appel",
+     "Aucune : un numéro publié sur une annonce est libre d'usage"
+    ],
+    "answer": 0,
+    "feedback": "Depuis le 11 août 2026, démarcher un particulier par téléphone exige son consentement préalable : donné à ton agence, pour un objet précis, un an maximum, et prouvable pendant trois ans.",
+    "whys": [
+     "Exact : sans accord préalable du particulier, l'appel de prospection est interdit.",
+     "Faux : Bloctel n'existe plus. On est passé d'une liste d'opposition à un accord préalable.",
+     "Faux : un numéro visible en ligne ne vaut pas accord. Sans consentement, l'appel est interdit."
+    ]
+   },
+   "card2": {
+    "question": "Hugo récupère la liste des consentements d'une autre agence. S'il appelait ces propriétaires, que se passerait-il ?",
+    "answer": "Il serait hors la loi : le consentement est nominatif, il ne vaut que pour l'agence qui l'a recueilli. Hugo doit recueillir ses propres accords, par exemple avec un formulaire sur son site, case non cochée."
+   },
+   "fb": "Depuis le 11 août 2026, démarcher un particulier par téléphone exige son consentement préalable : donné à ton agence, pour un objet précis, un an maximum, et prouvable pendant trois ans.",
+   "dur": 18.36
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : obtenir ta première rencontre avec M. Bernard. Le message consenti, et le tableau des trois changements.",
+   "goal": "Décrocher le premier rendez-vous",
+   "tools": [
+    {
+     "name": "Le message consenti",
+     "role": "Recontacter M. Bernard dans le cadre exact de son accord"
+    },
+    {
+     "name": "Le tableau des 3 changements",
+     "role": "Relier chaque changement à un fait sourcé et à ta réponse"
+    }
+   ],
+   "dur": 9.18
+  },
+  {
+   "kind": "demo",
+   "title": "Le message : rappeler, apporter, proposer",
+   "caption": "Le message. Tu rappelles sa demande : son DPE et son estimation. Tu apportes une information utile : son étiquette a peut-être changé. Tu proposes un créneau précis. Et tu gardes la preuve de son accord pendant trois ans.",
+   "steps": [
+    "Rappeler sa demande : son DPE et son estimation",
+    "Apporter une info utile : son étiquette a peut-être changé",
+    "Proposer un créneau précis, qu'il peut refuser",
+    "Garder la preuve de l'accord : date, texte, canal"
+   ],
+   "tool": "Le message consenti",
+   "dur": 15.47
+  },
+  {
+   "kind": "demo",
+   "title": "Le tableau : 4 colonnes",
+   "caption": "Le tableau, en quatre colonnes. Le changement que tu observes chez tes clients. Le fait chiffré, avec sa source et sa date. Ta réponse concrète. Et son application à M. Bernard : cent cinquante fois un virgule neuf, classe E.",
+   "steps": [
+    "Changement : ce que tu observes chez tes clients",
+    "Fait : un chiffre, sa source, sa date",
+    "Réponse : un geste, un document ou une phrase",
+    "M. Bernard : 150 × 1,9 = 285, classe E"
+   ],
+   "tool": "Le tableau des 3 changements",
+   "dur": 15.84
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Remplis ton tableau maintenant.",
+   "cta": "Remplir mon tableau des 3 changements",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton tableau.",
+   "ask": "Dépose une photo ou une capture de ton tableau « Mes 3 changements clients 2026 », les quatre colonnes remplies.",
+   "dur": 3.5
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Tes trois réponses ont une source et une date. Le moins quinze pour cent des deux agences n'en avait aucune.",
+   "status": "Tes 3 réponses : sourcées et datées. Le « −15 % » des deux agences : aucune source.",
+   "dur": 9.18
+  }
+ ],
+ "total": 198.24
+}

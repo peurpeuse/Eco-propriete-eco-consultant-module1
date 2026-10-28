@@ -1,0 +1,199 @@
+{
+ "id": "1.14",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Méthode 5C : les cinq C, et le premier, Contacter",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Méthode 5C : les cinq C, et le premier, Contacter",
+   "caption": "Capsule 1.14. Méthode 5C : les cinq C, et le premier, Contacter",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Situer chaque étape de la relation vendeur dans les 5C (Contacter, Connaître, Convaincre, Conclure, Conforter) et préparer par écrit une prise de contact conforme avec un propriétaire",
+   "caption": "À la fin de cette capsule : Situer chaque étape de la relation vendeur dans les 5C (Contacter, Connaître, Convaincre, Conclure, Conforter) et préparer par écrit une prise de contact conforme avec un propriétaire",
+   "dur": 11.4
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Conforter",
+   "pose": "pointe",
+   "scene": "Tu rappelles M. Bernard et tu lui présentes aussitôt ton mandat exclusif. À quel C es-tu passé trop vite ?",
+   "caption": "Tu rappelles M. Bernard et tu lui présentes aussitôt ton mandat exclusif. À quel C es-tu passé trop vite ? Mozi, lui, répondrait : « Conforter »",
+   "dur": 9.177777777777777
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Conforter vient après la conclusion, une fois le travail fait ; ici, tu n'as encore rien construit."
+   ],
+   "caption": "Conforter vient après la conclusion, une fois le travail fait ; ici, tu n'as encore rien construit.",
+   "dur": 7.696296296296296
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier présente la méthode des 5C, de la première prise de contact au suivi après la vente : Contacter, Connaître, Convaincre, Conclure, Conforter.",
+    "Puis il détaille le premier C sur le cas de M. Bernard : pourquoi j'ai le droit de le contacter, par quel canal, avec quelle première phrase et quel objectif."
+   ],
+   "caption": "Sébastien Paumier présente la méthode des 5C, de la première prise de contact au suivi après la vente : Contacter, Connaître, Convaincre, Conclure, Conforter. Puis il détaille le premier C sur le cas de M. Bernard : pourquoi j'ai le droit de le contacter, par quel canal, avec quelle première phrase et quel objectif.",
+   "dur": 21.02962962962963
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 5C en un coup d'œil (version générique)",
+   "table": {
+    "headers": [
+     "C",
+     "Objectif",
+     "Ce que tu produis",
+     "Capsules liées"
+    ],
+    "rows": [
+     [
+      "Contacter",
+      "Ouvrir un échange légitime et obtenir un premier rendez-vous",
+      "Une prise de contact préparée, la preuve du consentement",
+      "1.14, 1.21, 1.22"
+     ],
+     [
+      "Connaître",
+      "Comprendre le projet, le bien, le calendrier et les craintes du vendeur",
+      "Une fiche découverte remplie (D01)",
+      "Module 2"
+     ],
+     [
+      "Convaincre",
+      "Montrer, pièces à l'appui, ce que ta méthode change",
+      "Une démonstration, un avis de valeur écrit",
+      "1.16, module 2"
+     ],
+     [
+      "Conclure",
+      "Formaliser l'accord par un mandat écrit conforme",
+      "Le mandat signé et inscrit au registre",
+      "Module 3"
+     ],
+     [
+      "Conforter",
+      "Tenir les engagements et entretenir la relation jusqu'à l'acte et après",
+      "Comptes rendus, suivi, demande d'avis et de recommandation",
+      "Modules 4 et 5"
+     ]
+    ]
+   },
+   "caption": "Les 5C en un coup d'œil (version générique). Contacter : Ouvrir un échange légitime et obtenir un premier rendez-vous ; Connaître : Comprendre le projet, le bien, le calendrier et les craintes du vendeur ; Convaincre : Montrer, pièces à l'appui, ce que ta méthode change",
+   "dur": 17.696296296296293
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Le 1er C détaillé : préparer un contact",
+   "items": [
+    "Source : d'où vient ce contact (formulaire, recommandation, rencontre) ? Note-la.",
+    "Droit : quel accord a été donné, à qui, pour quel objet, jusqu'à quand ? Sans consentement préalable, pas d'appel de prospection.",
+    "Canal : celui que la personne a accepté (téléphone, e-mail, SMS) ; en jours et heures autorisés pour le téléphone (lundi-vendredi, 10…",
+    "Objectif unique : obtenir le rendez-vous R1, pas un mandat.",
+    "Ouverture : ton identité, ton agence, l'objet de sa demande, la permission de poursuivre."
+   ],
+   "caption": "Le 1er C détaillé : préparer un contact. Source : d'où vient ce contact (formulaire, recommandation, rencontre) ? Note-la. Droit : quel accord a été donné, à qui, pour quel objet, jusqu'à quand ? Sans consentement préalable, pas d'appel de prospection. Canal : celui que la personne a accepté (téléphone, e-mail, SMS) ; en jours et heures autorisés pour le téléphone (lundi-vendredi, 10… Objectif unique : obtenir le rendez-vous R1…",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple : le premier contact avec M. Bernard (fictif)",
+   "text": "Source : formulaire du site de ton agence, case cochée « J'accepte d'être recontacté par [ton agence] au sujet de mon DPE et de l'estimation de mon bien ». Il ne décroche plus aux numéros inconnus : tu commences par un message écrit. « Bonjour Monsieur Bernard, [prénom nom], [agence]. Vous avez demandé à être…",
+   "caption": "Exemple : le premier contact avec M. Bernard (fictif). Source : formulaire du site de ton agence, case cochée « J'accepte d'être recontacté par [ton agence] au sujet de mon DPE et de l'estimation de mon bien ». Il ne décroche plus aux numéros inconnus : tu commences par un message écrit. « Bonjour Monsieur Bernard, [prénom nom], [agence]. Vous avez demandé à être…",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "À ne pas faire au premier C",
+   "items": [
+    "Appeler un numéro relevé sur une annonce de particulier sans consentement préalable.",
+    "Masquer l'objet commercial de l'appel (fausse enquête, faux organisme).",
+    "Annoncer un prix ou une décote avant d'avoir vu le bien et les documents.",
+    "Relancer plus de 4 fois par téléphone en 30 jours, ou après un refus."
+   ],
+   "caption": "À ne pas faire au premier C. Appeler un numéro relevé sur une annonce de particulier sans consentement préalable. Masquer l'objet commercial de l'appel (fausse enquête, faux organisme). Annoncer un prix ou une décote avant d'avoir vu le bien et les documents. Relancer plus de 4 fois par téléphone en 30 jours, ou après un refus.",
+   "dur": 23.25185185185185
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Pour le premier C, quelle est la bonne question à te poser avant tout contact ?",
+    "options": [
+     "« Ai-je le droit de le contacter, sur quel objet et par quel canal ? »",
+     "« Combien de fois puis-je l'appeler cette semaine ? »",
+     "« Quel est le prix que je vais lui annoncer ? »"
+    ],
+    "answer": 0
+   },
+   "fb": "Avant de composer un numéro : d'où vient le contact, quel accord a été donné, pour quel objet, jusqu'à quand. M. Bernard a accepté d'être recontacté par ton agence sur son DPE et l'estimation : c'est ton cadre, et ta…",
+   "caption": "Pour le premier C, quelle est la bonne question à te poser avant tout contact ?",
+   "dur": 24.28148148148148
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Préparer sa prise de contact avec un propriétaire",
+   "steps": [
+    {
+     "label": "Remplis les 3 premières lignes de la préparation : source, droit (accord, objet, durée), canal autorisé.",
+     "detail": ""
+    },
+    {
+     "label": "Fixe l'objectif unique du contact : le rendez-vous R1, avec deux créneaux.",
+     "detail": ""
+    },
+    {
+     "label": "Écris le message écrit d'ouverture (SMS ou e-mail) puis la phrase d'ouverture si tu l'as au téléphone.",
+     "detail": ""
+    },
+    {
+     "label": "Prépare 3 questions de découverte courtes (projet, calendrier, ce qu'on lui a déjà dit).",
+     "detail": ""
+    },
+    {
+     "label": "Prévois la réponse à « Je ne suis pas intéressé » et la façon de clore l'échange.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Préparer sa prise de contact avec un propriétaire. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Ma préparation de prise de contact",
+   "items": [
+    "La source et la preuve du consentement sont identifiées (objet, professionnel, durée)",
+    "Le canal et les horaires respectent les règles de démarchage",
+    "L'objectif est unique : obtenir le rendez-vous R1",
+    "L'ouverture donne l'identité, l'agence et l'objet de la demande, sans prétexte",
+    "Le refus est respecté et tracé"
+   ],
+   "caption": "Ton livrable : Ma préparation de prise de contact. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche 5C : Contacter, Connaître, Convaincre, Conclure, Conforter ; 1er C détaillé (à reprendre du support de formation Éco- courtier de 2020)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 203.33
+}

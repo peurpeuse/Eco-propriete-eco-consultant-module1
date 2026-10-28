@@ -1,0 +1,189 @@
+{
+ "id": "1.5",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Affiner sa zone : quartiers, biens, concurrents",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Affiner sa zone : quartiers, biens, concurrents",
+   "caption": "Capsule 1.5. Affiner sa zone : quartiers, biens, concurrents",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Réduire sa zone de chalandise en deux passes (quartiers et types de biens, puis concurrents) et désigner deux secteurs prioritaires justifiés par des chiffres datés",
+   "caption": "À la fin de cette capsule : Réduire sa zone de chalandise en deux passes (quartiers et types de biens, puis concurrents) et désigner deux secteurs prioritaires justifiés par des chiffres datés",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Le quartier neuf de 2018, où tous les DPE sont en A ou B.",
+   "pose": "pointe",
+   "scene": "Ta zone compte trois quartiers. Lequel choisis-tu en priorité pour une offre d'éco-consultant ?",
+   "caption": "Ta zone compte trois quartiers. Lequel choisis-tu en priorité pour une offre d'éco-consultant ? Mozi, lui, répondrait : « Le quartier neuf de 2018, où tous les DPE sont en A ou B. »",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : des logements récents et performants ont peu besoin de ton expertise énergétique."
+   ],
+   "caption": "Faux : des logements récents et performants ont peu besoin de ton expertise énergétique.",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Une zone de 420 ventes, c'est trop large pour être connu partout.",
+    "Sébastien Paumier montre deux passes : d'abord les quartiers et les types de biens où se concentrent les ventes et les logements énergivores (comme la résidence de M. Bernard), puis les concurrents qui y…",
+    "Il garde deux secteurs prioritaires, pas dix."
+   ],
+   "caption": "Une zone de 420 ventes, c'est trop large pour être connu partout. Sébastien Paumier montre deux passes : d'abord les quartiers et les types de biens où se concentrent les ventes et les logements énergivores (comme la résidence de M. Bernard), puis les concurrents qui y sont déjà. Il garde deux secteurs prioritaires, pas dix.",
+   "dur": 22.14074074074074
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Passe 1 : quartiers et types de biens",
+   "items": [
+    "Découpe ta zone en 4 à 8 secteurs (quartiers, hameaux, IRIS de l'Insee).",
+    "Pour chaque secteur, compte les ventes des 12 derniers mois dans DVF, maisons et appartements séparés.",
+    "Repère le type de bien dominant : immeubles des années 1960-1980, pavillons, maisons anciennes, copropriétés récentes.",
+    "Relève sur l'observatoire DPE-Audit de l'ADEME la part des DPE en E, F, G du secteur.",
+    "Garde les secteurs qui réunissent du volume et un sujet énergétique."
+   ],
+   "caption": "Passe 1 : quartiers et types de biens. Découpe ta zone en 4 à 8 secteurs (quartiers, hameaux, IRIS de l'Insee). Pour chaque secteur, compte les ventes des 12 derniers mois dans DVF, maisons et appartements séparés. Repère le type de bien dominant : immeubles des années 1960-1980, pavillons, maisons anciennes, copropriétés récentes. Relève sur l'observatoire DPE-Audit de l'ADEME la part des DPE en E, F, G du secteur. Garde…",
+   "dur": 28.437037037037033
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Passe 2 : concurrents",
+   "items": [
+    "Je liste les agences et mandataires actifs dans chaque secteur retenu (annonces, vitrines, fiches Google).",
+    "Je compte leurs annonces et note leur part approximative.",
+    "Je regarde comment ils traitent le DPE dans leurs annonces : simple lettre, décote annoncée, ou chiffrage.",
+    "Je relève leur note et le nombre d'avis Google.",
+    "J'écris ce qu'aucun d'eux ne propose : c'est mon angle."
+   ],
+   "caption": "Passe 2 : concurrents. Je liste les agences et mandataires actifs dans chaque secteur retenu (annonces, vitrines, fiches Google). Je compte leurs annonces et note leur part approximative. Je regarde comment ils traitent le DPE dans leurs annonces : simple lettre, décote annoncée, ou chiffrage. Je relève leur note et le nombre d'avis Google. J'écris ce qu'aucun d'eux ne propose : c'est mon angle.",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Tableau de décision",
+   "table": {
+    "headers": [
+     "Secteur",
+     "Ventes 12 mois (DVF)",
+     "Type dominant",
+     "Part DPE E-F-G"
+    ],
+    "rows": [
+     [
+      "Exemple : quartier des Tilleuls (fictif)",
+      "85",
+      "Copropriétés 1965-1980",
+      "Forte"
+     ],
+     [
+      "Exemple : lotissement 2015 (fictif)",
+      "20",
+      "Maisons récentes",
+      "Faible"
+     ],
+     [
+      "Secteur 3",
+      "…",
+      "…",
+      "…"
+     ]
+    ]
+   },
+   "caption": "Tableau de décision. Exemple : quartier des Tilleuls (fictif) : 85 ; Exemple : lotissement 2015 (fictif) : 20 ; Secteur 3 : …",
+   "dur": 7.325925925925926
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase qui résume ton choix",
+   "text": "« Je travaille en priorité [secteur 1] et [secteur 2] : [nombre] ventes par an, surtout des [type de bien], avec beaucoup de logements classés E, F ou G ; aucun concurrent n'y propose [ton angle]. » Cette phrase servira dans ta fiche cible (1.7), ta spécialisation (1.8) et ta fiche Google.",
+   "caption": "La phrase qui résume ton choix. « Je travaille en priorité [secteur 1] et [secteur 2] : [nombre] ventes par an, surtout des [type de bien], avec beaucoup de logements classés E, F ou G ; aucun concurrent n'y propose [ton angle]. » Cette phrase servira dans ta fiche cible (1.7), ta spécialisation (1.8) et ta fiche Google.",
+   "dur": 22.51111111111111
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Dans ta deuxième passe, tu repères qu'une agence détient 40 % des annonces d'un quartier. Que fais-tu ?",
+    "options": [
+     "Tu abandonnes le quartier : il est pris.",
+     "Tu notes sa position et cherches ce qu'elle ne fait pas (DPE vérifié, chiffrage des travaux), pour te différencier.",
+     "Tu baisses tes honoraires sous les siens."
+    ],
+    "answer": 1
+   },
+   "fb": "Relève ce que font les concurrents (annonces, mentions DPE, avis) et ce qu'ils ne font pas. Si leurs annonces affichent des F « −15 % » sans chiffrage, ton angle est tout trouvé : le DPE vérifié et le budget…",
+   "caption": "Dans ta deuxième passe, tu repères qu'une agence détient 40 % des annonces d'un quartier. Que fais-tu ?",
+   "dur": 23.540740740740738
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Affiner ma zone en deux passes",
+   "steps": [
+    {
+     "label": "Découpe ta zone en 4 à 8 secteurs et remplis pour chacun : ventes sur 12 mois, type…",
+     "detail": ""
+    },
+    {
+     "label": "Garde les 3 ou 4 secteurs qui combinent volume et sujet énergétique.",
+     "detail": ""
+    },
+    {
+     "label": "Pour ces secteurs, liste les concurrents actifs, leur part d'annonces approximative et leur traitement du DPE.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis 2 secteurs prioritaires et écris l'angle que tu y apportes.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige ta phrase de synthèse.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Affiner ma zone en deux passes. 40 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Ma zone affinée",
+   "items": [
+    "Au moins 4 secteurs analysés avec ventes, type dominant et part de DPE E-F-G",
+    "Les concurrents des secteurs retenus sont listés avec leur traitement du DPE",
+    "Exactement 2 secteurs prioritaires, chacun justifié par des chiffres datés",
+    "L'angle de différenciation est écrit en une phrase",
+    "Aucun dénigrement nominatif d'un concurrent"
+   ],
+   "caption": "Ton livrable : Ma zone affinée. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche d'affinage de zone",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 196.19
+}

@@ -1,0 +1,227 @@
+{
+ "id": "3.3",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Les indicateurs de performance : étiquette, kWh/m²/an, CO₂",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Les indicateurs de performance : étiquette, kWh/m²/an, CO₂",
+   "caption": "Capsule 3.3. Les indicateurs de performance : étiquette, kWh/m²/an, CO₂",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Calculer, pour son bien fil rouge, l'écart de consommation (kWhEF et kWhEP/m²/an), d'émissions (kgCO₂/m²/an) et d'étiquette avant et après travaux, en citant la simulation d'un diagnostiqueur certifié",
+   "caption": "À la fin de cette capsule : Calculer, pour son bien fil rouge, l'écart de consommation (kWhEF et kWhEP/m²/an), d'émissions (kgCO₂/m²/an) et d'étiquette avant et après travaux, en citant la simulation d'un diagnostiqueur certifié",
+   "dur": 14.362962962962962
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "−40 %",
+   "pose": "pointe",
+   "scene": "Avant travaux, l'appartement de M. Bernard consomme 150 kWhEF/m²/an ; après les travaux privatifs, environ 110 (estimation fictive). Quelle baisse en pourcentage ?",
+   "caption": "Avant travaux, l'appartement de M. Bernard consomme 150 kWhEF/m²/an ; après les travaux privatifs, environ 110 (estimation fictive). Quelle baisse en pourcentage ? Mozi, lui, répondrait : « −40 % »",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : 40 est l'écart en kWhEF/m²/an, pas en pourcentage."
+   ],
+   "caption": "Faux : 40 est l'écart en kWhEF/m²/an, pas en pourcentage.",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Trois indicateurs, trois colonnes : avant, après travaux privatifs, après isolation de la copropriété.",
+    "Sur l'appartement de M. Bernard, Sébastien Paumier fait passer la consommation de 150 à 110 puis 85 kWhEF/m²/an, l'étiquette de E à D puis C, et rappelle la règle d'or : l'étiquette après travaux…"
+   ],
+   "caption": "Trois indicateurs, trois colonnes : avant, après travaux privatifs, après isolation de la copropriété. Sur l'appartement de M. Bernard, Sébastien Paumier fait passer la consommation de 150 à 110 puis 85 kWhEF/m²/an, l'étiquette de E à D puis C, et rappelle la règle d'or : l'étiquette après travaux est une simulation à faire établir par un diagnostiqueur certifié, jamais un chiffre de l'agent.",
+   "dur": 26.585185185185182
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Seuils des classes (logements de 40 m² et plus, France métropolitaine)",
+   "table": {
+    "headers": [
+     "Classe",
+     "Énergie primaire (kWhEP/m²/an)",
+     "Émissions (kgCO₂/m²/an)"
+    ],
+    "rows": [
+     [
+      "A",
+      "moins de 70",
+      "moins de 6"
+     ],
+     [
+      "B",
+      "70 à 110",
+      "6 à 11"
+     ],
+     [
+      "C",
+      "110 à 180",
+      "11 à 30"
+     ],
+     [
+      "D",
+      "180 à 250",
+      "30 à 50"
+     ],
+     [
+      "E",
+      "250 à 330",
+      "50 à 70"
+     ]
+    ]
+   },
+   "caption": "Seuils des classes (logements de 40 m² et plus, France métropolitaine). A : moins de 70 ; B : 70 à 110 ; C : 110 à 180",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemple rempli : appartement de M. Bernard (FICTIF)",
+   "table": {
+    "headers": [
+     "Indicateur",
+     "DPE 2023",
+     "Attestation 2026",
+     "Après travaux privatifs"
+    ],
+    "rows": [
+     [
+      "Énergie finale (kWhEF/m²/an)",
+      "150",
+      "150",
+      "≈ 110"
+     ],
+     [
+      "Coefficient électricité",
+      "2,3",
+      "1,9",
+      "1,9"
+     ],
+     [
+      "Énergie primaire (kWhEP/m²/an)",
+      "345",
+      "285",
+      "≈ 209"
+     ],
+     [
+      "Émissions (kgCO₂/m²/an)",
+      "12 (C)",
+      "12 (C)",
+      "≈ 8,8 (B)"
+     ],
+     [
+      "Étiquette retenue",
+      "F",
+      "E",
+      "D (estimation)"
+     ]
+    ]
+   },
+   "caption": "Exemple rempli : appartement de M. Bernard (FICTIF). Énergie finale (kWhEF/m²/an) : 150 ; Coefficient électricité : 2,3 ; Énergie primaire (kWhEP/m²/an) : 345",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Les calculs",
+   "text": "Énergie primaire = énergie finale × coefficient. Écart en % = (avant − après) / avant. Étiquette retenue = la moins bonne des deux classes (énergie, climat). M. Bernard : (150 − 110) / 150 ≈ −27 % ; (150 − 85) / 150 ≈ −43 % ; 285 → 209 kWhEP = −76. Émissions…",
+   "caption": "Les calculs. Énergie primaire = énergie finale × coefficient. Écart en % = (avant − après) / avant. Étiquette retenue = la moins bonne des deux classes (énergie, climat). M. Bernard : (150 − 110) / 150 ≈ −27 % ; (150 − 85) / 150 ≈ −43 % ; 285 → 209 kWhEP = −76. Émissions…",
+   "dur": 15.103703703703703
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Avant de présenter ces indicateurs",
+   "items": [
+    "La colonne « avant » cite le DPE et l'attestation actualisée avec leurs dates",
+    "Les colonnes « après » citent la simulation du diagnostiqueur certifié (nom, date, méthode 3CL)",
+    "Le coefficient de conversion utilisé est écrit, avec sa date",
+    "Les écarts sont calculés sur la valeur de départ",
+    "La mention « estimation, à confirmer par un nouveau DPE après travaux » figure sur la fiche"
+   ],
+   "caption": "Avant de présenter ces indicateurs. La colonne « avant » cite le DPE et l'attestation actualisée avec leurs dates Les colonnes « après » citent la simulation du diagnostiqueur certifié (nom, date, méthode 3CL) Le coefficient de conversion utilisé est écrit, avec sa date Les écarts sont calculés sur la valeur de départ La mention « estimation, à confirmer par un nouveau DPE après travaux » figure sur la fiche",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Sarah annonce à un acquéreur : « Après les travaux, l'appartement sera classé D, c'est sûr. » Que corriges-tu ?",
+    "options": [
+     "Rien, le calcul est simple",
+     "« Une simulation par un diagnostiqueur certifié estime un passage en D ; seul un nouveau DPE après travaux le confirmera »",
+     "« Il sera classé C »"
+    ],
+    "answer": 1
+   },
+   "fb": "La performance après travaux est une estimation tant qu'un nouveau DPE n'a pas été établi. Tu cites qui l'a simulée et avec quelle méthode, tu écris « estimation », et tu ne la garantis jamais.",
+   "caption": "Sarah annonce à un acquéreur : « Après les travaux, l'appartement sera classé D, c'est sûr. » Que corriges-tu ?",
+   "dur": 23.17037037037037
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Calculer les écarts de performance de son bien fil rouge",
+   "steps": [
+    {
+     "label": "Remplis la colonne « avant » : énergie finale, coefficient, énergie primaire, émissions, étiquette, avec la source et…",
+     "detail": ""
+    },
+    {
+     "label": "Remplis les colonnes « après » à partir de la simulation fournie, en citant qui l'a faite.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule les écarts en valeur et en pourcentage pour chaque indicateur.",
+     "detail": ""
+    },
+    {
+     "label": "Recalcule l'énergie primaire avec le coefficient 1,7 (au 1/01/2027) et dis si l'étiquette change.",
+     "detail": ""
+    },
+    {
+     "label": "Écris deux phrases pour le vendeur, avec le mot « estimation ».",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Calculer les écarts de performance de son bien fil rouge. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tableau des indicateurs de performance avant / après de son bien fil rouge",
+   "items": [
+    "Les trois indicateurs (énergie, émissions, étiquette) sont renseignés avant et après, avec source et date",
+    "Les écarts en valeur et en pourcentage sont justes (calculés sur la valeur de départ)",
+    "Le coefficient de conversion utilisé est indiqué, avec le recalcul au 1/01/2027",
+    "Les valeurs « après » sont attribuées à une simulation de diagnostiqueur certifié",
+    "La mention « estimation, à confirmer par un nouveau DPE » figure"
+   ],
+   "caption": "Ton livrable : Tableau des indicateurs de performance avant / après de son bien fil rouge. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableur : indicateurs de performance avant et après travaux (simulation d'étiquette fournie par un diagnostiqueur certifié)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 178.88
+}

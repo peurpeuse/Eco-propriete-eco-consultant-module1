@@ -1,0 +1,215 @@
+{
+ "id": "P1",
+ "module": 0,
+ "modlabel": "Prérequis",
+ "modtitle": "Climat et marché : le contexte de tout le parcours",
+ "color": "#8E1B3A",
+ "title": "Le réchauffement climatique : causes, poids du bâtiment, atténuation et adaptation",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Le réchauffement climatique : causes, poids du bâtiment, atténuation et adaptation",
+   "caption": "Capsule P1. Le réchauffement climatique : causes, poids du bâtiment, atténuation et adaptation",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Classer un fait climatique en cause, effet, atténuation ou adaptation, et citer la part du bâtiment dans les émissions françaises avec sa source et sa date",
+   "caption": "À la fin de cette capsule : Classer un fait climatique en cause, effet, atténuation ou adaptation, et citer la part du bâtiment dans les émissions françaises avec sa source et sa date",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Que la part humaine est encore incertaine et qu'il faut attendre le prochain rapport.",
+   "pose": "clin-oeil",
+   "scene": "Un vendeur te dit : « Le réchauffement, c'est naturel, ça a toujours existé. » Que dit le dernier rapport de synthèse du GIEC (2023) ?",
+   "caption": "Un vendeur te dit : « Le réchauffement, c'est naturel, ça a toujours existé. » Que dit le dernier rapport de synthèse du GIEC (2023) ? Mozi, lui, répondrait : « Que la part humaine est encore incertaine et qu'il faut attendre le prochain rapport. »",
+   "dur": 15.474074074074073
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : le GIEC ne parle plus d'incertitude sur la cause ; il conclut que l'influence humaine est sans équivoque."
+   ],
+   "caption": "Faux : le GIEC ne parle plus d'incertitude sur la cause ; il conclut que l'influence humaine est sans équivoque.",
+   "dur": 8.807407407407407
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier part d'une question de M. Bernard : « Pourquoi tout le monde me parle de mon DPE ?",
+    "» Il remonte la chaîne en trois temps : les gaz à effet de serre réchauffent le climat (GIEC), le bâtiment pèse 15 % des émissions françaises (Citepa), et la France agit sur deux…"
+   ],
+   "caption": "Sébastien Paumier part d'une question de M. Bernard : « Pourquoi tout le monde me parle de mon DPE ? » Il remonte la chaîne en trois temps : les gaz à effet de serre réchauffent le climat (GIEC), le bâtiment pèse 15 % des émissions françaises (Citepa), et la France agit sur deux leviers, réduire les émissions (atténuation) et se préparer à +4 °C (adaptation).",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "La chaîne en 4 maillons",
+   "items": [
+    "Cause : les activités humaines émettent des gaz à effet de serre (CO₂ du fioul, du gaz, du charbon ; méthane …",
+    "Mécanisme : ces gaz retiennent la chaleur ; le climat mondial s'est réchauffé d'environ 1,1 °C par rapport à l'ère préindustrielle, et…",
+    "Effets en France : +2,2 °C en moyenne annuelle et +2,9 °C en été entre 1900-1930 et 2016-2025 en France métropolitaine (Haut…",
+    "Réponses : atténuation (moins d'émissions) et adaptation (moins de dégâts)."
+   ],
+   "caption": "La chaîne en 4 maillons. Cause : les activités humaines émettent des gaz à effet de serre (CO₂ du fioul, du gaz, du charbon ; méthane … Mécanisme : ces gaz retiennent la chaleur ; le climat mondial s'est réchauffé d'environ 1,1 °C par rapport à l'ère préindustrielle, et… Effets en France : +2,2 °C en moyenne annuelle et +2,9 °C en été entre 1900-1930 et 2016-2025 en France métropolitaine…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Le poids du bâtiment",
+   "table": {
+    "headers": [
+     "Repère",
+     "Valeur",
+     "Source et date"
+    ],
+    "rows": [
+     [
+      "Part des bâtiments (usages résidentiels et tertiaires) dans les émissions nationales",
+      "15 % en 2024",
+      "Citepa, analyse résidentiel, juin 2026 (Secten 2026)"
+     ],
+     [
+      "Évolution des émissions des bâtiments depuis 1990",
+      "−40 % (−36,9 Mt CO₂e)",
+      "Citepa, juin 2026"
+     ],
+     [
+      "Résidentiel : chauffage, eau chaude, cuisson",
+      "31,9 Mt CO₂e en 2024 ; 31,3 Mt en 2025 (provisoire)",
+      "Citepa, juin 2026"
+     ],
+     [
+      "Énergie qui pèse le plus dans ces émissions",
+      "Gaz naturel 61 %, fioul 25 % (2024)",
+      "Citepa, juin 2026"
+     ],
+     [
+      "Émissions totales de la France",
+      "−22 % entre 2015 et 2025, −34 % depuis 1990",
+      "Haut Conseil pour le climat, 9/07/2026"
+     ]
+    ]
+   },
+   "caption": "Le poids du bâtiment. Part des bâtiments (usages résidentiels et tertiaires) dans les émissions nationales : 15 % en 2024 ; Évolution des émissions des bâtiments depuis 1990 : −40 % (−36,9 Mt CO₂e) ; Résidentiel : chauffage, eau chaude, cuisson : 31,9 Mt CO₂e en 2024 ; 31,3 Mt en 2025 (provisoire)",
+   "dur": 18.807407407407403
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Atténuation et adaptation : la différence",
+   "table": {
+    "headers": [
+     "",
+     "Atténuation",
+     "Adaptation"
+    ],
+    "rows": [
+     [
+      "But",
+      "Réduire les émissions qui réchauffent le climat",
+      "Réduire les dégâts d'un climat qui change"
+     ],
+     [
+      "Cadre national",
+      "Stratégie nationale bas-carbone, neutralité carbone en 2050 (loi énergie-climat du 8/11/2019)",
+      "PNACC-3 lancé le 10/03/2025 (52 mesures), préparé pour +4 °C en France…"
+     ],
+     [
+      "Exemple appartement (M. Bernard)",
+      "Remplacer les convecteurs, isolation par l'extérieur votée en copropriété",
+      "Protéger les fenêtres du séjour sud-ouest du soleil d'été"
+     ],
+     [
+      "Exemple maison (Mme Garnier)",
+      "Remplacer la chaudière fioul de 1996",
+      "Surveiller les fissures du pignon (sol argileux possible), volets, ombrage"
+     ]
+    ]
+   },
+   "caption": "Atténuation et adaptation : la différence. But : Réduire les émissions qui réchauffent le climat ; Cadre national : Stratégie nationale bas-carbone, neutralité carbone en 2050 (loi énergie-climat du 8/11/2019) ; Exemple appartement (M. Bernard) : Remplacer les convecteurs, isolation par l'extérieur votée en copropriété",
+   "dur": 17.696296296296293
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La trajectoire de référence pour l'adaptation (TRACC)",
+   "text": "L'État demande de se préparer à un réchauffement de la France hexagonale de +2,7 °C en 2050 et d'environ +4 °C en 2100, par rapport à l'ère préindustrielle (ministère de la Transition écologique, page TRACC mise à jour le 28/01/2026). Le réchauffement observé en France était de +1,7 °C en 2023 selon la même page…",
+   "caption": "La trajectoire de référence pour l'adaptation (TRACC). L'État demande de se préparer à un réchauffement de la France hexagonale de +2,7 °C en 2050 et d'environ +4 °C en 2100, par rapport à l'ère préindustrielle (ministère de la Transition écologique, page TRACC mise à jour le 28/01/2026). Le réchauffement observé en France était de +1,7 °C en 2023 selon la même page…",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Quelle est la part des bâtiments (usages résidentiels et tertiaires) dans les émissions de gaz à effet de serre de la France en 2024, selon le Citepa ?",
+    "options": [
+     "Environ 15 %",
+     "Environ 45 %",
+     "Environ 3 %"
+    ],
+    "answer": 0
+   },
+   "fb": "Le Citepa (juin 2026, rapport Secten 2026) chiffre les usages des bâtiments résidentiels et tertiaires à 15 % des émissions nationales en 2024, en baisse de 40 % depuis 1990. C'est un chiffre d'émissions directes : dis-le comme ça, avec…",
+   "caption": "Quelle est la part des bâtiments (usages résidentiels et tertiaires) dans les émissions de gaz à effet de serre de la France en 2024, selon le Citepa ?",
+   "dur": 27.614814814814814
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Classer 8 faits et situer le bâtiment",
+   "steps": [
+    {
+     "label": "Trace un tableau à 4 colonnes : causes, effets, atténuation, adaptation.",
+     "detail": ""
+    },
+    {
+     "label": "Place chacun des 8 faits dans une colonne et justifie en une ligne (un fait peut relever de…",
+     "detail": ""
+    },
+    {
+     "label": "Écris la part des bâtiments dans les émissions françaises, avec sa source, son année et son périmètre.",
+     "detail": ""
+    },
+    {
+     "label": "Relis M02 : dis pourquoi la maison de Mme Garnier est classée G pour le climat (énergie de…",
+     "detail": ""
+    },
+    {
+     "label": "Écris en deux phrases ce que tu dirais à un vendeur sceptique, sans le culpabiliser.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Classer 8 faits et situer le bâtiment. 20 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Mon tableau climat en 4 colonnes",
+   "items": [
+    "Les 8 faits sont classés, chacun avec une justification d'une ligne",
+    "Les faits qui relèvent de deux colonnes sont signalés et expliqués",
+    "La part des bâtiments est citée avec sa valeur, sa source, son année et son périmètre",
+    "La cause du classement G climat de Mme Garnier (le fioul) est identifiée",
+    "La phrase au vendeur ne culpabilise pas et cite une source"
+   ],
+   "caption": "Ton livrable : Mon tableau climat en 4 colonnes. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche climat : causes, part de l'immobilier, atténuation et adaptation",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 216.66
+}

@@ -1,0 +1,182 @@
+{
+ "id": "2.30",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Trouver ses références : DVF, Patrim, comparaison corrigée",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Trouver ses références : DVF, Patrim, comparaison corrigée",
+   "caption": "Capsule 2.30. Trouver ses références : DVF, Patrim, comparaison corrigée",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Extraire des ventes de DVF, retenir 5 références comparables, écarter les autres en justifiant chaque rejet et dérouler la comparaison corrigée en 6 étapes",
+   "caption": "À la fin de cette capsule : Extraire des ventes de DVF, retenir 5 références comparables, écarter les autres en justifiant chaque rejet et dérouler la comparaison corrigée en 6 étapes",
+   "dur": 10.288888888888888
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "C'est une bonne idée, Patrim est plus complet que DVF",
+   "pose": "sur-de-lui",
+   "scene": "Mozi demande à Mme Garnier son numéro fiscal et son mot de passe pour consulter Patrim à sa place. Qu'en penses-tu ?",
+   "caption": "Mozi demande à Mme Garnier son numéro fiscal et son mot de passe pour consulter Patrim à sa place. Qu'en penses-tu ? Mozi, lui, répondrait : « C'est une bonne idée, Patrim est plus complet que DVF »",
+   "dur": 13.992592592592592
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : la richesse de l'outil ne change pas la règle d'accès ; on ne se connecte jamais avec les identifiants fiscaux d'un client."
+   ],
+   "caption": "Faux : la richesse de l'outil ne change pas la règle d'accès ; on ne se connecte jamais avec les identifiants fiscaux d'un client.",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi demande à Mme Garnier ses identifiants impots.gouv « pour aller voir les ventes sur Patrim ».",
+    "Sébastien Paumier explique pourquoi c'est interdit, montre où trouver les ventes réelles dans DVF, comment filtrer par surface, parcelle, zone du PLU, époque et distance, puis déroule la comparaison corrigée en 6 étapes sur…"
+   ],
+   "caption": "Mozi demande à Mme Garnier ses identifiants impots.gouv « pour aller voir les ventes sur Patrim ». Sébastien Paumier explique pourquoi c'est interdit, montre où trouver les ventes réelles dans DVF, comment filtrer par surface, parcelle, zone du PLU, époque et distance, puis déroule la comparaison corrigée en 6 étapes sur les maisons vendues autour de Vaux-le-Pénil.",
+   "dur": 23.25185185185185
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "DVF et Patrim : qui, quoi, comment",
+   "table": {
+    "headers": [
+     "Outil",
+     "Qui peut l'utiliser",
+     "Ce qu'il contient",
+     "Limites"
+    ],
+    "rows": [
+     [
+      "DVF (data.gouv.fr, application explore.data.gouv.fr/immobilier)",
+      "Tout le monde, en données ouvertes",
+      "Ventes des 5 dernières années : date, prix, adresse, parcelle, type, surface…",
+      "Mise à jour en avril et octobre ; pas de DPE ni…"
+     ],
+     [
+      "Patrim (« Rechercher des transactions immobilières », impots.gouv)",
+      "Le particulier lui-même, avec ses identifiants fiscaux, pour son usage personnel (LPF…",
+      "Ventes du secteur choisi : références cadastrales, adresse, surface, période de construction",
+      "Réservé à des démarches précises : succession, IFI, donation, contrôle fiscal, expropriation…"
+     ]
+    ]
+   },
+   "caption": "DVF et Patrim : qui, quoi, comment. DVF (data.gouv.fr, application explore.data.gouv.fr/immobilier) : Tout le monde, en données ouvertes ; Patrim (« Rechercher des transactions immobilières », impots.gouv) : Le particulier lui-même, avec ses identifiants fiscaux, pour son usage personnel (LPF, art. L. 107 B)",
+   "dur": 18.437037037037033
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Les 7 critères à vérifier pour chaque référence",
+   "items": [
+    "Surface habitable (écart de plus ou moins 20 % au maximum avec le bien)",
+    "Parcelle : surface du terrain, forme, accès, terrain en drapeau",
+    "Zone du PLU : même zone ou zone équivalente (Géoportail de l'urbanisme)",
+    "DPE : classe de la référence (annonce archivée, confrère, observatoire ADEME quand le numéro est connu)",
+    "Localisation : distance, même marché (hameau, quartier), exposition aux risques (Géorisques)"
+   ],
+   "caption": "Les 7 critères à vérifier pour chaque référence. Surface habitable (écart de plus ou moins 20 % au maximum avec le bien) Parcelle : surface du terrain, forme, accès, terrain en drapeau Zone du PLU : même zone ou zone équivalente (Géoportail de l'urbanisme) DPE : classe de la référence (annonce archivée, confrère, observatoire ADEME quand le numéro est connu) Localisation : distance, même marché (hameau, quartier), exposition aux risques…",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "La comparaison corrigée en 6 étapes (proposition, à aligner sur le prompteur de l'épisode 6)",
+   "items": [
+    "Sélectionner : extraire les ventes DVF du secteur et de la période, puis appliquer les 7 critères.",
+    "Écarter : retirer les ventes atypiques (famille, viager, lot partiel, bien hors gabarit) et écrire le motif de chaque rejet.",
+    "Homogénéiser : ramener chaque référence au prix au m² habitable, hors mobilier et hors frais.",
+    "Actualiser : si une vente est ancienne, la ramener à la date de valeur avec un indice de prix daté.",
+    "Corriger : partir de la médiane des références et ajuster le bien de chaque écart prouvé (devis, rapport), une seule fois."
+   ],
+   "caption": "La comparaison corrigée en 6 étapes (proposition, à aligner sur le prompteur de l'épisode 6). Sélectionner : extraire les ventes DVF du secteur et de la période, puis appliquer les 7 critères. Écarter : retirer les ventes atypiques (famille, viager, lot partiel, bien hors gabarit) et écrire le motif de chaque rejet. Homogénéiser : ramener chaque référence au prix au m² habitable, hors mobilier et hors frais. Actualiser : si…",
+   "dur": 26.21481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire au client",
+   "text": "« Je travaille sur les ventes réelles publiées par l'État, pas sur les annonces. Vous pouvez aussi consulter vous-même le service des impôts “Rechercher des transactions immobilières” : vos identifiants restent à vous, et nous comparerons nos listes. »",
+   "caption": "La phrase à dire au client. « Je travaille sur les ventes réelles publiées par l'État, pas sur les annonces. Vous pouvez aussi consulter vous-même le service des impôts “Rechercher des transactions immobilières” : vos identifiants restent à vous, et nous comparerons nos listes. »",
+   "dur": 17.696296296296293
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Dans DVF, tu trouves une maison de 110 m² vendue 160 000 € en 2025 dans le hameau, soit 1 455 €/m², alors que les autres sont vers 2 750 €/m². Que fais-tu ?",
+    "options": [
+     "Tu l'écartes ou tu la vérifies : un prix aussi bas signale souvent une vente atypique (famille, viager, ruine, lot partiel)",
+     "Tu la gardes, elle fait baisser la moyenne et rassure l'acheteur",
+     "Tu la gardes et tu calcules la moyenne avec elle"
+    ],
+    "answer": 0
+   },
+   "fb": "DVF ne dit ni l'état ni le contexte d'une vente. Un prix hors norme se vérifie (photos, cadastre, notaire, confrère) ou s'écarte, avec le motif noté dans ton tableau.",
+   "caption": "Dans DVF, tu trouves une maison de 110 m² vendue 160 000 € en 2025 dans le hameau, soit 1 455 €/m², alors que les autres sont vers 2 750 €/m². Que fais-tu ?",
+   "dur": 26.874074074074073
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Retenir 5 références, écarter les autres et justifier",
+   "steps": [
+    {
+     "label": "Calcule le prix au m² habitable de chaque vente.",
+     "detail": ""
+    },
+    {
+     "label": "Applique les 7 critères et retiens 5 références pour la valeur en l'état.",
+     "detail": ""
+    },
+    {
+     "label": "Écarte les 5 autres et écris pour chacune le motif en une ligne (et l'usage éventuel ailleurs).",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la médiane et la moyenne des 5 références retenues.",
+     "detail": ""
+    },
+    {
+     "label": "Écris en 2 phrases ce que tu réponds à Mme Garnier si elle te demande d'utiliser Patrim à…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Retenir 5 références, écarter les autres et justifier. 40 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tableau des références retenues et écartées",
+   "items": [
+    "Les 10 ventes ont leur prix au m² habitable",
+    "5 références sont retenues, cohérentes en surface, terrain, époque, classe et secteur",
+    "Chaque vente écartée a son motif écrit en une ligne",
+    "La médiane et la moyenne des références retenues sont calculées",
+    "La réponse sur Patrim respecte l'usage personnel du service"
+   ],
+   "caption": "Ton livrable : Tableau des références retenues et écartées. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche références : DVF, Patrim, critères de comparaison (surface, parcelle, zone du PLU, DPE, localisation, époque, état), comparaison corrigée en 6 étapes (prompteur de l'épisode 6)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 210.36
+}

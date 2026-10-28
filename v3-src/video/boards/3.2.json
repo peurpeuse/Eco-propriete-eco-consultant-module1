@@ -1,0 +1,206 @@
+{
+ "id": "3.2",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "De la donnée à l'indicateur : définition, formule, source, date",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "De la donnée à l'indicateur : définition, formule, source, date",
+   "caption": "Capsule 3.2. De la donnée à l'indicateur : définition, formule, source, date",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Trier les données du dossier de son bien fil rouge en données brutes, indicateurs et repères, puis rédiger la fiche d'identité complète d'un indicateur (définition, formule, unité, source, date, limites)",
+   "caption": "À la fin de cette capsule : Trier les données du dossier de son bien fil rouge en données brutes, indicateurs et repères, puis rédiger la fiche d'identité complète d'un indicateur (définition, formule, unité, source, date, limites)",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Un repère",
+   "pose": "sur-de-lui",
+   "scene": "Dans le dossier de M. Bernard, « 2 652 € de charges par an » est :",
+   "caption": "Dans le dossier de M. Bernard, « 2 652 € de charges par an » est : Mozi, lui, répondrait : « Un repère »",
+   "dur": 7
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : un repère est une référence extérieure au bien (seuil, médiane du secteur, étude)."
+   ],
+   "caption": "Faux : un repère est une référence extérieure au bien (seuil, médiane du secteur, étude).",
+   "dur": 6.5851851851851855
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "« 11 400 kWh par an », ça ne dit rien à M. Bernard.",
+    "Divisé par 76 m², ça devient 150 kWh/m²/an ; multiplié par le bon coefficient, 285 kWhEP/m²/an ; comparé au seuil, une classe E.",
+    "Sébastien Paumier montre la différence entre une donnée brute, un indicateur et un repère, puis remplit la fiche d'identité d'un indicateur, ligne par ligne."
+   ],
+   "caption": "« 11 400 kWh par an », ça ne dit rien à M. Bernard. Divisé par 76 m², ça devient 150 kWh/m²/an ; multiplié par le bon coefficient, 285 kWhEP/m²/an ; comparé au seuil, une classe E. Sébastien Paumier montre la différence entre une donnée brute, un indicateur et un repère, puis remplit la fiche d'identité d'un indicateur, ligne par ligne.",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Trier : donnée brute, indicateur, repère (exemple M. Bernard)",
+   "table": {
+    "headers": [
+     "Type",
+     "Exemple",
+     "Source"
+    ],
+    "rows": [
+     [
+      "Donnée brute",
+      "11 400 kWhEF/an ; 76 m² ; 2 652 €/an de charges…",
+      "D02, D04, D06, D13, D11"
+     ],
+     [
+      "Indicateur",
+      "150 kWhEF/m²/an ; 285 kWhEP/m²/an ; 34,9 €/m²/an de charges ; 217…",
+      "Calculés à partir des données brutes"
+     ],
+     [
+      "Repère",
+      "Seuils de classe DPE (E : 250 à 330 kWhEP/m²/an) ; médiane…",
+      "Guide DPE du ministère ; D12 ; Notaires de France (7/01/2026)"
+     ]
+    ]
+   },
+   "caption": "Trier : donnée brute, indicateur, repère (exemple M. Bernard). Donnée brute : 11 400 kWhEF/an ; 76 m² ; 2 652 €/an de charges ; 16 500 € de travaux ; taxe foncière 1 412 €/an ; Indicateur : 150 kWhEF/m²/an ; 285 kWhEP/m²/an ; 34,9 €/m²/an de charges ; 217 €/m² de travaux ; 2 650 €/m² (médiane) ; Repère : Seuils de classe DPE (E : 250 à…",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Fiche d'identité : exemple rempli",
+   "table": {
+    "headers": [
+     "Rubrique",
+     "Contenu"
+    ],
+    "rows": [
+     [
+      "Nom",
+      "Consommation d'énergie primaire"
+     ],
+     [
+      "Définition",
+      "Énergie nécessaire pour chauffer, produire l'eau chaude, éclairer et faire fonctionner les…"
+     ],
+     [
+      "Formule",
+      "Énergie finale par m² × coefficient de conversion (électricité : 1,9 depuis…"
+     ],
+     [
+      "Valeur",
+      "150 × 1,9 = 285 kWhEP/m²/an (classe E) ; 150 × 1,7…"
+     ],
+     [
+      "Unité",
+      "kWhEP/m²/an"
+     ]
+    ]
+   },
+   "caption": "Fiche d'identité : exemple rempli. Nom : Consommation d'énergie primaire ; Définition : Énergie nécessaire pour chauffer, produire l'eau chaude, éclairer et faire fonctionner les auxiliaires, ramenée à l'énergie primaire ; Formule : Énergie finale par m² × coefficient de conversion (électricité : 1,9 depuis le 1/01/2026, 1,7 au 1/01/2027)",
+   "dur": 20.659259259259258
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Un indicateur est prêt quand",
+   "items": [
+    "Il a un nom compris par un vendeur non spécialiste",
+    "Sa formule est écrite et recalculable",
+    "Son unité est précisée",
+    "Sa source est un document identifié (code du dossier ou référence publique)",
+    "Sa date est écrite, et la date d'actualisation si une règle change"
+   ],
+   "caption": "Un indicateur est prêt quand. Il a un nom compris par un vendeur non spécialiste Sa formule est écrite et recalculable Son unité est précisée Sa source est un document identifié (code du dossier ou référence publique) Sa date est écrite, et la date d'actualisation si une règle change",
+   "dur": 19.918518518518518
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire au vendeur",
+   "text": "« Chaque chiffre que je vous montre a une petite fiche : d'où il vient, comment je le calcule et ce qu'il ne dit pas. Vous pouvez tout refaire avec votre calculatrice. »",
+   "caption": "La phrase à dire au vendeur. « Chaque chiffre que je vous montre a une petite fiche : d'où il vient, comment je le calcule et ce qu'il ne dit pas. Vous pouvez tout refaire avec votre calculatrice. »",
+   "dur": 15.474074074074073
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Hugo écrit : « Consommation : 285 ». Que manque-t-il pour que ce soit un indicateur utilisable ?",
+    "options": [
+     "Rien, le chiffre suffit",
+     "Un arrondi à 300",
+     "L'unité (kWhEP/m²/an), la formule (150 kWhEF × 1,9), la source (attestation D03) et la date"
+    ],
+    "answer": 2
+   },
+   "fb": "285 kWhEP/m²/an = 150 kWhEF/m²/an × 1,9 (coefficient de l'électricité depuis le 1/01/2026). Au 1/01/2027, le coefficient passe à 1,7 : 255 kWhEP/m²/an, toujours classe E. Sans la date, on ne sait pas quel chiffre est le bon.",
+   "caption": "Hugo écrit : « Consommation : 285 ». Que manque-t-il pour que ce soit un indicateur utilisable ?",
+   "dur": 26.13333333333333
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Trier ses données et écrire la fiche d'un indicateur",
+   "steps": [
+    {
+     "label": "Classe au moins 12 données de ta grille en trois colonnes : brute, indicateur, repère.",
+     "detail": ""
+    },
+    {
+     "label": "Pour 3 données brutes, écris la formule qui en fait un indicateur et calcule-le.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis un indicateur et remplis sa fiche d'identité complète (8 rubriques).",
+     "detail": ""
+    },
+    {
+     "label": "Vérifie qu'une autre personne peut recalculer le chiffre avec ta fiche seule.",
+     "detail": ""
+    },
+    {
+     "label": "Écris la phrase qui présente cet indicateur au vendeur, avec sa limite.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Trier ses données et écrire la fiche d'un indicateur. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tri des données et fiche d'identité d'un indicateur",
+   "items": [
+    "Au moins 12 données sont triées sans erreur entre brute, indicateur et repère",
+    "Trois formules de passage brute → indicateur sont écrites et justes",
+    "La fiche d'identité comporte les 8 rubriques (nom, définition, formule, valeur, unité, source, date, limites)",
+    "La date d'actualisation est signalée quand une règle change (coefficient au 1/01/2027)",
+    "La phrase au vendeur cite la limite de l'indicateur"
+   ],
+   "caption": "Ton livrable : Tri des données et fiche d'identité d'un indicateur. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche d'identité d'un indicateur (modèle) : définition, formule, unité, source, date, limites",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 195.96
+}

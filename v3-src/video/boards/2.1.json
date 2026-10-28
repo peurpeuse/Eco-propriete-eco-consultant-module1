@@ -1,0 +1,169 @@
+{
+ "id": "2.1",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Pourquoi il vend : le projet du vendeur",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Pourquoi il vend : le projet du vendeur",
+   "caption": "Capsule 2.1. Pourquoi il vend : le projet du vendeur",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Faire dire au vendeur son motif, son projet d'après et son échéance, puis reformuler ce projet en 2 phrases validées par lui, avant toute question de prix",
+   "caption": "À la fin de cette capsule : Faire dire au vendeur son motif, son projet d'après et son échéance, puis reformuler ce projet en 2 phrases validées par lui, avant toute question de prix",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Vous le voyez à combien, votre appartement ?",
+   "pose": "clin-oeil",
+   "scene": "Premier rendez-vous avec M. Bernard. Quelle est ta première vraie question ?",
+   "caption": "Premier rendez-vous avec M. Bernard. Quelle est ta première vraie question ? Mozi, lui, répondrait : « Vous le voyez à combien, votre appartement ? »",
+   "dur": 8.437037037037037
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : en ouvrant par le prix, tu deviens la troisième agence qui parle d'un chiffre sans savoir à quoi il sert."
+   ],
+   "caption": "Faux : en ouvrant par le prix, tu deviens la troisième agence qui parle d'un chiffre sans savoir à quoi il sert.",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier écoute M. Bernard au téléphone : « Deux agences m'ont dit 172 000 €.",
+    "» La vidéo montre pourquoi on ne commence pas par le prix, les trois questions qui font parler du projet (pourquoi, pour aller où, pour quand), et la reformulation en deux phrases que le…",
+    "Contre-exemple : la question « Vous le voyez à combien ?",
+    "» posée en premier."
+   ],
+   "caption": "Sébastien Paumier écoute M. Bernard au téléphone : « Deux agences m'ont dit 172 000 €. » La vidéo montre pourquoi on ne commence pas par le prix, les trois questions qui font parler du projet (pourquoi, pour aller où, pour quand), et la reformulation en deux phrases que le vendeur valide. Contre-exemple : la question « Vous le voyez à combien ? » posée en premier.",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Mode d'emploi",
+   "items": [
+    "Ouvre par le projet, jamais par le prix : « Avant de parler de votre bien, parlez-moi de votre projet. »",
+    "Pose une question à la fois, laisse le silence, note les mots exacts du vendeur.",
+    "Creuse le délai : « Et si c'était trois mois plus tard, que se passerait-il ? »",
+    "Reformule en deux phrases (motif et projet ; échéance et marge) et fais valider : « C'est bien ça ? »",
+    "Ne collecte que ce qui sert à la vente : pas de revenus, d'épargne ni de santé (minimisation, RGPD)."
+   ],
+   "caption": "Mode d'emploi. Ouvre par le projet, jamais par le prix : « Avant de parler de votre bien, parlez-moi de votre projet. » Pose une question à la fois, laisse le silence, note les mots exacts du vendeur. Creuse le délai : « Et si c'était trois mois plus tard, que se passerait-il ? » Reformule en deux phrases (motif et projet ; échéance et marge) et fais valider …",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Les questions du projet",
+   "items": [
+    "Qu'est-ce qui vous amène à vendre, et pourquoi maintenant ?",
+    "Où et comment voulez-vous vivre ensuite (achat, location, résidence seniors, rapprochement familial) ?",
+    "Pour quand voulez-vous avoir signé ? Qu'est-ce qui fixe cette date ?",
+    "Avez-vous besoin du prix de vente pour votre projet suivant ? Vendre avant d'acheter, ou l'inverse ?",
+    "Qui d'autre doit être consulté ou d'accord (enfants, conjoint, coindivisaires, notaire) ?"
+   ],
+   "caption": "Les questions du projet. Qu'est-ce qui vous amène à vendre, et pourquoi maintenant ? Où et comment voulez-vous vivre ensuite (achat, location, résidence seniors, rapprochement familial) ? Pour quand voulez-vous avoir signé ? Qu'est-ce qui fixe cette date ? Avez-vous besoin du prix de vente pour votre projet suivant ? Vendre avant d'acheter, ou l'inverse ? Qui d'autre doit être consulté ou d'accord (enfants, conjoint, coindivisaires, notaire) ?",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "La reformulation en deux phrases",
+   "text": "Phrase 1 = motif + projet d'après, avec les mots du vendeur. Phrase 2 = échéance + marge (+ contrainte s'il y en a une). Puis : « C'est bien ça ? » Exemple appartement : « Vous vendez pour vous rapprocher de votre fille à Nantes et acheter plus petit. Vous visez une signature…",
+   "caption": "La reformulation en deux phrases. Phrase 1 = motif + projet d'après, avec les mots du vendeur. Phrase 2 = échéance + marge (+ contrainte s'il y en a une). Puis : « C'est bien ça ? » Exemple appartement : « Vous vendez pour vous rapprocher de votre fille à Nantes et acheter plus petit. Vous visez une signature…",
+   "dur": 20.659259259259258
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Ce que tu ne fais pas à ce stade",
+   "items": [
+    "Tu ne donnes aucun prix, même « pour avoir une idée »",
+    "Tu ne commentes pas les avis de valeur reçus : tu notes leur montant et leur justification",
+    "Tu ne déduis pas une baisse de prix d'une échéance",
+    "Tu ne proposes pas de montage (viager, vente à terme) à la place du vendeur",
+    "Tu ne notes pas les informations personnelles inutiles évoquées spontanément"
+   ],
+   "caption": "Ce que tu ne fais pas à ce stade. Tu ne donnes aucun prix, même « pour avoir une idée » Tu ne commentes pas les avis de valeur reçus : tu notes leur montant et leur justification Tu ne déduis pas une baisse de prix d'une échéance Tu ne proposes pas de montage (viager, vente à terme) à la place du vendeur Tu ne notes pas les informations personnelles…",
+   "dur": 26.585185185185182
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Mme Garnier (parcours maison) te dit : « Je rentre en résidence seniors à Melun l'été prochain, il me faut le prix de la maison pour l'entrée. » Que retiens-tu d'abord ?",
+    "options": [
+     "Une échéance (été 2027) et une dépendance : la vente finance son projet",
+     "Qu'elle est pressée, donc prête à baisser son prix",
+     "Qu'il faut lui proposer un viager"
+    ],
+    "answer": 0
+   },
+   "fb": "Le projet de Mme Garnier tient en deux faits : une date (l'été 2027) et un besoin (le prix de vente paie l'entrée en résidence). Profil S : elle consultera ses fils. Tu notes aussi qui doit être consulté avant…",
+   "caption": "Mme Garnier (parcours maison) te dit : « Je rentre en résidence seniors à Melun l'été prochain, il me faut le prix de la maison pour l'entrée. » Que retiens-tu d'abord ?",
+   "dur": 29.46666666666666
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Reformuler le projet d'un vendeur en 2 phrases",
+   "steps": [
+    {
+     "label": "Dans chaque extrait, souligne le motif, le projet d'après, l'échéance, la marge et la contrainte.",
+     "detail": ""
+    },
+    {
+     "label": "Barre ce qui n'est pas le projet (prix espéré, avis des agences, étiquette DPE) : tu le traiteras…",
+     "detail": ""
+    },
+    {
+     "label": "Écris la reformulation de chaque vendeur en 2 phrases, avec ses mots.",
+     "detail": ""
+    },
+    {
+     "label": "Ajoute la question de validation et la question de délai que tu poserais pour vérifier la marge.",
+     "detail": ""
+    },
+    {
+     "label": "Note en une ligne qui doit être consulté avant la décision.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Reformuler le projet d'un vendeur en 2 phrases. 20 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Deux reformulations de projet vendeur",
+   "items": [
+    "Chaque reformulation tient en 2 phrases et reprend au moins un mot exact du vendeur",
+    "Le motif, le projet d'après et l'échéance avec sa marge apparaissent",
+    "Aucun prix ni jugement sur le bien ne figure dans les reformulations",
+    "Une question de validation et une question de délai sont rédigées pour chaque vendeur",
+    "Les personnes à consulter avant la décision sont notées"
+   ],
+   "caption": "Ton livrable : Deux reformulations de projet vendeur. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Questionnaire projet vendeur",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 221.1
+}

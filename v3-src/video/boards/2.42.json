@@ -1,0 +1,200 @@
+{
+ "id": "2.42",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Chiffrer les travaux poste par poste",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 2.42 : chiffrer les travaux poste par poste",
+   "caption": "Bienvenue. Dans ce chapitre, tu transformes chaque défaut en un chiffre précis, sourcé et daté.",
+   "cta": "Commencer",
+   "dur": 6.96
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi un montant global ne protège ni le vendeur ni l'acheteur"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "chiffrer 3 postes avec la base de prix : quantité × prix unitaire, source et date"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton modèle de chiffrage rempli, contrôlé avec l'IA"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Je le sens d'ici : trente mille euros de travaux !",
+   "caption": "Je le sens d'ici : trente mille euros de travaux !",
+   "line": "Je le sens d'ici : trente mille euros de travaux !",
+   "scene": "Mozi renifle l'air comme un sommelier, ferme les yeux et annonce un montant sans ouvrir une fenêtre.",
+   "pose": "presente",
+   "dur": 5.1
+  },
+  {
+   "kind": "belief",
+   "title": "0 quantité, 0 devis, 30 000 € au flair",
+   "caption": "Zéro quantité, zéro devis, trente mille euros au flair.",
+   "beats": [
+    "0 quantité",
+    "0 devis",
+    "30 000 € au flair"
+   ],
+   "wrong": 1,
+   "why": "Sans quantités ni devis, on invente : le devis D13 dit 16 500 €.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "30 000 € annoncés. 16 500 € au devis.",
+   "caption": "Et si l'acheteur le croit, il retire trente mille euros de son offre. Or le devis dit seize mille cinq cents. La différence, c'est ton vendeur qui la perd.",
+   "lines": [
+    "S'il le croit, l'acheteur retire 30 000 € de son offre.",
+    "Le devis D13 dit 16 500 € TTC."
+   ],
+   "dur": 12.88
+  },
+  {
+   "kind": "stat",
+   "title": "TVA : 5,5 % ou 10 %, à lire sur le devis",
+   "caption": "Un détail qui change tout : la TVA. Dans un logement de plus de deux ans, une rénovation énergétique éligible peut être à cinq et demi pour cent, d'autres travaux à dix. Tu lis le taux sur le devis.",
+   "value": "5,5 %",
+   "label": "de TVA possible pour une rénovation énergétique éligible, logement de plus de 2 ans (10 % pour d'autres travaux)",
+   "dur": 15.84
+  },
+  {
+   "kind": "steps",
+   "title": "Quantité × prix → Source datée → Prudence écrite",
+   "caption": "Trois idées. Un : un poste, c'est une quantité fois un prix unitaire. Jamais un montant global. Chez M. Bernard, tu recomptes sur le plan : quatre fenêtres, deux dans la grande chambre, une dans chacune des autres. Six convecteurs. Une ventilation. Un ballon. Deux : chaque prix a une source et une date. D'abord un devis, idéalement deux, d'une entreprise RGE si on vise des aides. Sinon, la base de prix de la formation, datée 2026, à adapter à ta région. Un prix proposé par une IA n'est jamais une source. Trois : la prudence s'écrit. Tu sépares les travaux privatifs de ceux de la copropriété. Tu ne chiffres pas une aide non notifiée. Et tu notes : prix indicatifs à valider.",
+   "steps": [
+    {
+     "label": "Quantité × prix",
+     "detail": "4 fenêtres, 6 convecteurs, 1 ventilation, 1 ballon : recomptés sur le plan."
+    },
+    {
+     "label": "Source datée",
+     "detail": "Un devis d'abord ; sinon la base de prix 2026, à adapter ; jamais un prix d'IA."
+    },
+    {
+     "label": "Prudence écrite",
+     "detail": "Privatif à part de la copropriété ; aide non notifiée = 0."
+    }
+   ],
+   "dur": 46.96
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "En visite chez M. Bernard, un acheteur dit à Hugo : « Il y a au moins 30 000 € de travaux. » Hugo a le devis D13 en main. Que lui répond-il ?",
+   "model_answer": "Il montre le détail poste par poste : 4 fenêtres à 1 400 €, la ventilation à 2 900 €, 6 radiateurs pour 4 800 €, le chauffe-eau à 3 200 €. Total 16 500 € TTC, devis daté, prix indicatifs à valider. Les travaux de la copropriété sont présentés à part.",
+   "dur": 30.52
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Un montant se construit : quantité × prix unitaire, avec une source datée",
+     "Un montant rond rassure davantage l'acheteur",
+     "Aucune : un agent peut estimer des travaux à l'œil"
+    ],
+    "answer": 0,
+    "feedback": "Un chiffre global sans quantité ni source ne se vérifie pas. Chez M. Bernard, le devis D13 détaille quatre postes : 16 500 € TTC.",
+    "whys": [
+     "Exact : chaque ligne se vérifie, et l'acheteur peut refaire le calcul.",
+     "Faux : un chiffre rond sans détail se conteste, dans un sens comme dans l'autre.",
+     "Faux : tu n'es pas l'entreprise ; tu présentes des prix sourcés, à faire valider."
+    ]
+   },
+   "card2": {
+    "question": "Si Élodie demandait à une IA « combien coûte une VMC ? », que se passerait-il ?",
+    "answer": "L'IA donnerait un ordre de grandeur sans source, par exemple « autour de 1 500 € » : une simple hypothèse. Le bon usage : lui donner tes quantités et tes devis, puis lui faire vérifier les calculs et lister les oublis."
+   },
+   "fb": "Un chiffre global sans quantité ni source ne se vérifie pas. Chez M. Bernard, le devis D13 détaille quatre postes : 16 500 € TTC.",
+   "dur": 15.76
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : un chiffrage juste et vérifiable. Le modèle de chiffrage et sa base de prix, et l'assistant IA, utilisé comme contrôleur.",
+   "goal": "Un chiffrage juste et vérifiable",
+   "tools": [
+    {
+     "name": "Le modèle de chiffrage et sa base de prix",
+     "role": "Poser chaque poste : quantité, prix unitaire, total, source et date"
+    },
+    {
+     "name": "L'assistant IA",
+     "role": "Mettre en forme, vérifier les calculs, lister les oublis"
+    }
+   ],
+   "dur": 11.03
+  },
+  {
+   "kind": "demo",
+   "title": "Le modèle, ligne par ligne",
+   "caption": "Dans le modèle : quatre fenêtres à 1 400 euros, soit 5 600. La ventilation au forfait, 2 900. Six radiateurs, 4 800. Le chauffe-eau, 3 200. Total : 16 500 euros TTC, environ 217 euros le mètre carré.",
+   "steps": [
+    "Fenêtres PVC double vitrage : 4 × 1 400 € = 5 600 €",
+    "VMC hygroréglable + débouchage : forfait 2 900 €",
+    "Radiateurs à inertie : 6 × 800 € = 4 800 €, thermostat compris",
+    "Chauffe-eau thermodynamique 200 L : 3 200 €",
+    "Total 16 500 € TTC ; 16 500 / 76 ≈ 217 €/m²"
+   ],
+   "tool": "Modèle de chiffrage",
+   "dur": 15.47
+  },
+  {
+   "kind": "demo",
+   "title": "L'IA en contrôleur",
+   "caption": "Avec l'IA : tu colles le prompt, sans nom ni adresse. Tu contrôles chaque calcul. Tu gardes la bonne idée, la reprise d'enduit autour des fenêtres, à vérifier avec le menuisier. Et tu barres le prix qu'elle invente. C'est toi qui signes.",
+   "steps": [
+    "Coller le prompt de la ressource, sans nom, adresse ni numéro de DPE",
+    "Contrôler : 4 × 1 400 = 5 600 ; total 16 500 €",
+    "Garder la suggestion utile : reprise d'enduit, à vérifier avec le menuisier",
+    "Barrer le prix inventé : VMC « autour de 1 500 € »"
+   ],
+   "tool": "Assistant IA",
+   "dur": 18.07
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Chiffre tes trois postes avec la base de prix maintenant.",
+   "cta": "Ouvrir le modèle de chiffrage",
+   "dur": 5.1
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton chiffrage.",
+   "ask": "Dépose une capture de ton modèle de chiffrage : 3 postes, chacun avec quantité, prix unitaire, total, source de la base de prix et date, et la vérification par l'IA, sans aucune donnée personnelle.",
+   "dur": 3.5
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Face aux trente mille euros de la peur, tu as seize mille cinq cents euros, prouvés poste par poste.",
+   "status": "La peur de l'acheteur : 30 000 €. Ton chiffre : 16 500 €, poste par poste.",
+   "dur": 8.81
+  }
+ ],
+ "total": 207.62
+}

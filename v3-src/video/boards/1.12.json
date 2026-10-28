@@ -1,0 +1,203 @@
+{
+ "id": "1.12",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Prendre des mandats autrement",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Prendre des mandats autrement",
+   "caption": "Capsule 1.12. Prendre des mandats autrement",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Choisir 2 techniques de prise de mandat adaptées à sa zone et à sa cible, et planifier leur test sur un mois avec un indicateur chacune",
+   "caption": "À la fin de cette capsule : Choisir 2 techniques de prise de mandat adaptées à sa zone et à sa cible, et planifier leur test sur un mois avec un indicateur chacune",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "L'appeler dix fois jusqu'à ce qu'il décroche",
+   "pose": "telephone",
+   "scene": "M. Bernard ne décroche plus aux numéros inconnus, mais il a coché sur ton site qu'il acceptait d'être recontacté au sujet de son DPE. Quelle technique utilises-tu ?",
+   "caption": "M. Bernard ne décroche plus aux numéros inconnus, mais il a coché sur ton site qu'il acceptait d'être recontacté au sujet de son DPE. Quelle technique utilises-tu ? Mozi, lui, répondrait : « L'appeler dix fois jusqu'à ce qu'il décroche »",
+   "dur": 16.21481481481481
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Interdit et contre-productif : au-delà de 4 sollicitations téléphoniques en 30 jours, tu enfreins la règle, et tu perds un vendeur qui déteste l'insistance."
+   ],
+   "caption": "Interdit et contre-productif : au-delà de 4 sollicitations téléphoniques en 30 jours, tu enfreins la règle, et tu perds un vendeur qui déteste l'insistance.",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Le vendeur de 2026 compare, vérifie et ne décroche plus aux numéros inconnus.",
+    "Sébastien Paumier présente huit techniques de prise de mandat qui répondent à ces changements, du contact consenti à l'exclusivité contre services écrits, puis montre comment en choisir deux et les mesurer sur un mois."
+   ],
+   "caption": "Le vendeur de 2026 compare, vérifie et ne décroche plus aux numéros inconnus. Sébastien Paumier présente huit techniques de prise de mandat qui répondent à ces changements, du contact consenti à l'exclusivité contre services écrits, puis montre comment en choisir deux et les mesurer sur un mois.",
+   "dur": 19.177777777777774
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 8 techniques",
+   "table": {
+    "headers": [
+     "Technique",
+     "Ce que tu fais",
+     "Ce que ça demande",
+     "Indicateur"
+    ],
+    "rows": [
+     [
+      "Contact consenti",
+      "Tu ne contactes que des propriétaires qui l'ont accepté (formulaire, rencontre, recommandation)",
+      "Un formulaire avec case de consentement, un tableau de preuves",
+      "Réponses / contacts"
+     ],
+     [
+      "Vérification du DPE",
+      "Tu proposes de vérifier l'étiquette en vigueur et l'attestation actualisée",
+      "Savoir lire un DPE (capsule 1.1)",
+      "Rendez-vous obtenus"
+     ],
+     [
+      "Avis de valeur écrit",
+      "Tu remets un avis fondé sur les ventes réelles (DVF) et des…",
+      "Un modèle d'avis, l'accès aux données de ventes",
+      "Avis remis / mandats"
+     ],
+     [
+      "Plan de vente daté",
+      "Tu présentes les étapes et les dates de la commercialisation",
+      "Un rétroplanning type",
+      "Mandats signés"
+     ],
+     [
+      "Exclusivité contre services",
+      "Tu échanges l'exclusivité contre des engagements écrits",
+      "Une offre de service (capsule 1.13)",
+      "Part d'exclusifs"
+     ]
+    ]
+   },
+   "caption": "Les 8 techniques. Contact consenti : Tu ne contactes que des propriétaires qui l'ont accepté (formulaire, rencontre, recommandation) ; Vérification du DPE : Tu proposes de vérifier l'étiquette en vigueur et l'attestation actualisée ; Avis de valeur écrit : Tu remets un avis fondé sur les ventes réelles (DVF) et des devis",
+   "dur": 19.918518518518518
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Choisir tes 2 techniques",
+   "items": [
+    "Pars de ta cible (capsule 1.7) : où la rencontres-tu, que vérifie-t-elle avant de choisir une agence ?",
+    "Élimine les techniques que tu ne peux pas tenir chaque semaine.",
+    "Garde une technique « directe » (contact consenti, réunion, vérification du DPE) et une technique « relais » (prescripteurs, suivi des «…",
+    "Fixe un indicateur de résultat et un objectif chiffré pour le mois.",
+    "Bloque les créneaux dans ton agenda dès aujourd'hui."
+   ],
+   "caption": "Choisir tes 2 techniques. Pars de ta cible (capsule 1.7) : où la rencontres-tu, que vérifie-t-elle avant de choisir une agence ? Élimine les techniques que tu ne peux pas tenir chaque semaine. Garde une technique « directe » (contact consenti, réunion, vérification du DPE) et une technique « relais » (prescripteurs, suivi des «… Fixe un indicateur de résultat et un objectif chiffré pour le mois. Bloque les créneaux…",
+   "dur": 26.21481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Phrases utiles",
+   "items": [
+    "« Vous avez demandé à être recontacté au sujet de votre DPE : je vous propose mardi 18 h ou jeudi 10…",
+    "« Je ne retire pas un pourcentage : je pars des ventes réelles de votre rue et je vous remets l'avis par…",
+    "« L'exclusivité, je vous la demande en échange de ces engagements écrits, ligne par ligne. »"
+   ],
+   "caption": "Phrases utiles. « Vous avez demandé à être recontacté au sujet de votre DPE : je vous propose mardi 18 h ou jeudi 10… « Je ne retire pas un pourcentage : je pars des ventes réelles de votre rue et je vous remets l'avis par… « L'exclusivité, je vous la demande en échange de ces engagements écrits, ligne par ligne. »",
+   "dur": 22.88148148148148
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Ce que tu ne fais plus",
+   "items": [
+    "Appeler un numéro relevé sur une annonce de particulier sans son consentement préalable (interdit depuis le 11/08/2026).",
+    "Promettre le prix le plus haut pour décrocher le mandat.",
+    "Annoncer une décote « à cause du DPE » sans source ni vérification de l'étiquette.",
+    "Demander l'exclusivité sans contrepartie écrite."
+   ],
+   "caption": "Ce que tu ne fais plus. Appeler un numéro relevé sur une annonce de particulier sans son consentement préalable (interdit depuis le 11/08/2026). Promettre le prix le plus haut pour décrocher le mandat. Annoncer une décote « à cause du DPE » sans source ni vérification de l'étiquette. Demander l'exclusivité sans contrepartie écrite.",
+   "dur": 21.77037037037037
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Un vendeur hésite à signer une exclusivité. Quelle contrepartie la rend acceptable pour lui ?",
+    "options": [
+     "Une baisse d'honoraires de 1 % sans autre engagement",
+     "La promesse d'un acquéreur « déjà trouvé »",
+     "Des services écrits : compte rendu toutes les 2 semaines, chiffrage des travaux remis aux acquéreurs, plan de vente daté"
+    ],
+    "answer": 2
+   },
+   "fb": "Dans le dossier fil rouge, M. Bernard signe un mandat exclusif de 3 mois parce que l'agent s'engage par écrit : attestation jointe, dossier technique, plan Éco-staging, compte rendu toutes les 2 semaines, chiffrage des travaux remis aux acquéreurs.",
+   "caption": "Un vendeur hésite à signer une exclusivité. Quelle contrepartie la rend acceptable pour lui ?",
+   "dur": 23.170370370370367
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Deux techniques à tester ce mois-ci",
+   "steps": [
+    {
+     "label": "Note les 3 lieux ou canaux où ta cible se renseigne avant de choisir une agence.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis une technique directe et une technique relais ; écris en une phrase pourquoi chacune convient à ta…",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque technique, fixe un indicateur de résultat et un objectif chiffré sur un mois.",
+     "detail": ""
+    },
+    {
+     "label": "Inscris les créneaux dans ton agenda (au moins un par semaine et par technique).",
+     "detail": ""
+    },
+    {
+     "label": "Prévois la date du bilan (J+30) et ce que tu décideras selon le résultat : garder, ajuster, abandonner.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Deux techniques à tester ce mois-ci. 20 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Mon plan de test de 2 techniques",
+   "items": [
+    "2 techniques choisies, dont une directe et une relais, justifiées par la cible",
+    "Un indicateur de résultat par technique (réponses, rendez-vous ou mandats), pas un indicateur d'activité",
+    "Un objectif chiffré sur un mois pour chaque technique",
+    "Au moins un créneau par semaine et par technique inscrit dans l'agenda",
+    "Aucune action de démarchage téléphonique sans consentement préalable"
+   ],
+   "caption": "Ton livrable : Mon plan de test de 2 techniques. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche techniques de prise de mandat",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 208.41
+}

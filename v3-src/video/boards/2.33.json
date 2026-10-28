@@ -1,0 +1,194 @@
+{
+ "id": "2.33",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Maison : la vétusté, corps d'état par corps d'état",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Maison : la vétusté, corps d'état par corps d'état",
+   "caption": "Capsule 2.33. Maison : la vétusté, corps d'état par corps d'état",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Établir la vétusté d'une maison corps d'état par corps d'état, à partir de l'âge, de la durée de vie et de l'état constaté, puis calculer la valeur sol + construction",
+   "caption": "À la fin de cette capsule : Établir la vétusté d'une maison corps d'état par corps d'état, à partir de l'âge, de la durée de vie et de l'état constaté, puis calculer la valeur sol + construction",
+   "dur": 13.992592592592592
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Il aurait dû appliquer 68 %",
+   "pose": "presente",
+   "scene": "La salle de bains de Mme Garnier date de 2015, la toiture de 1968. Mozi applique 58 % de vétusté à toute la maison. Quelle est son erreur ?",
+   "caption": "La salle de bains de Mme Garnier date de 2015, la toiture de 1968. Mozi applique 58 % de vétusté à toute la maison. Quelle est son erreur ? Mozi, lui, répondrait : « Il aurait dû appliquer 68 % »",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : le niveau n'est pas le problème ; c'est l'application d'un taux unique à des postes d'âges différents."
+   ],
+   "caption": "Faux : le niveau n'est pas le problème ; c'est l'application d'un taux unique à des postes d'âges différents.",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi applique « 1 % par an » à toute la maison de Mme Garnier : 58 ans, donc 58 % de vétusté, partout pareil.",
+    "Sébastien Paumier reprend le coût à neuf poste par poste et montre qu'une toiture de 1968, une salle de bains de 2015 et des murs en parpaing ne vieillissent pas au même rythme, puis…"
+   ],
+   "caption": "Mozi applique « 1 % par an » à toute la maison de Mme Garnier : 58 ans, donc 58 % de vétusté, partout pareil. Sébastien Paumier reprend le coût à neuf poste par poste et montre qu'une toiture de 1968, une salle de bains de 2015 et des murs en parpaing ne vieillissent pas au même rythme, puis assemble sol et construction dépréciée.",
+   "dur": 23.62222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Grille appliquée à la maison de Mme Garnier (FICTIF)",
+   "table": {
+    "headers": [
+     "Poste",
+     "Coût à neuf",
+     "Âge, durée de vie indicative",
+     "État constaté"
+    ],
+    "rows": [
+     [
+      "Gros œuvre, fondations, sous-sol",
+      "72 352 €",
+      "58 ans / 120 ans",
+      "Fissures du pignon nord à faire examiner, humidité en pied de mur"
+     ],
+     [
+      "Charpente, couverture, zinguerie",
+      "21 280 €",
+      "58 ans / 60 ans",
+      "Tuiles cassées, gouttières à reprendre"
+     ],
+     [
+      "Menuiseries extérieures",
+      "19 152 €",
+      "58 ans (9 fenêtres) et 18 ans (séjour) / 30 ans",
+      "Simple vitrage d'origine, condensation"
+     ],
+     [
+      "Isolation, plâtrerie, menuiseries intérieures",
+      "25 536 €",
+      "58 ans ; combles 1985 / 40 ans",
+      "Murs non isolés, 5 cm de laine tassée"
+     ],
+     [
+      "Chauffage, eau chaude, ventilation",
+      "21 280 €",
+      "Chaudière 30 ans / 25 ans",
+      "Fioul 1996, radiateurs fonte réutilisables, pas de VMC"
+     ]
+    ]
+   },
+   "caption": "Grille appliquée à la maison de Mme Garnier (FICTIF). Gros œuvre, fondations, sous-sol : 72 352 € ; Charpente, couverture, zinguerie : 21 280 € ; Menuiseries extérieures : 19 152 €",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Du coût à neuf à la valeur sol + construction",
+   "text": "Valeur dépréciée d'un poste = coût à neuf × (1 − vétusté). Construction dépréciée = 87 886 € (maison) + 3 600 € (véranda) = 91 486 €, arrondi à 91 500 €. Vétusté globale de la maison = 1 − 87 886 ÷ 212 800 = 58,7 %. Valeur sol + construction = sol…",
+   "caption": "Du coût à neuf à la valeur sol + construction. Valeur dépréciée d'un poste = coût à neuf × (1 − vétusté). Construction dépréciée = 87 886 € (maison) + 3 600 € (véranda) = 91 486 €, arrondi à 91 500 €. Vétusté globale de la maison = 1 − 87 886 ÷ 212 800 = 58,7 %. Valeur sol + construction = sol…",
+   "dur": 19.548148148148144
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Les règles de la grille",
+   "items": [
+    "Un taux par poste, jamais un taux unique pour toute la maison.",
+    "Le taux part de l'âge et de la durée de vie, puis se corrige selon l'état constaté : écris la raison.",
+    "Un poste rénové repart de la date de sa rénovation (salle de bains 2015, cuisine 2012).",
+    "Plafonne la vétusté d'un poste qui fonctionne encore (ici 85 à 90 %) : il garde une valeur d'usage.",
+    "Pas de double compte : la vétusté traduit l'usure, les devis de travaux servent à l'après."
+   ],
+   "caption": "Les règles de la grille. Un taux par poste, jamais un taux unique pour toute la maison. Le taux part de l'âge et de la durée de vie, puis se corrige selon l'état constaté : écris la raison. Un poste rénové repart de la date de sa rénovation (salle de bains 2015, cuisine 2012). Plafonne la vétusté d'un poste qui fonctionne encore (ici 85 à 90 %) : il garde…",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire à Mme Garnier",
+   "text": "« J'ai regardé votre maison élément par élément : la salle de bains et la cuisine sont récentes, la toiture, les fenêtres et le chauffage sont en fin de vie. Cette méthode donne environ 243 500 €. C'est un contrôle : la valeur principale vient des ventes de maisons comparables. »",
+   "caption": "La phrase à dire à Mme Garnier. « J'ai regardé votre maison élément par élément : la salle de bains et la cuisine sont récentes, la toiture, les fenêtres et le chauffage sont en fin de vie. Cette méthode donne environ 243 500 €. C'est un contrôle : la valeur principale vient des ventes de maisons comparables. »",
+   "dur": 21.77037037037037
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "La couverture (coût à neuf 21 280 €) a une vétusté retenue de 85 %. Quelle est sa valeur dépréciée ?",
+    "options": [
+     "3 192 €",
+     "18 088 €",
+     "21 280 €"
+    ],
+    "answer": 0
+   },
+   "fb": "La vétusté est la part usée. Ce qui reste dans la valeur, c'est le complément. Tuiles de 1968 dont certaines cassées et gouttières à reprendre : 85 % est un jugement, à écrire avec sa justification.",
+   "caption": "La couverture (coût à neuf 21 280 €) a une vétusté retenue de 85 %. Quelle est sa valeur dépréciée ?",
+   "dur": 22.42962962962963
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Établir la vétusté de la maison fil rouge",
+   "steps": [
+    {
+     "label": "Pour chaque poste, relève dans le dossier l'année de construction ou de rénovation et l'état constaté.",
+     "detail": ""
+    },
+    {
+     "label": "Propose un taux de vétusté par poste et écris sa justification en une ligne.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la valeur dépréciée de chaque poste et le total de la construction.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la vétusté globale et la valeur sol + construction.",
+     "detail": ""
+    },
+    {
+     "label": "Écris en 2 phrases pourquoi tu ne retires pas en plus le coût des travaux de l'audit.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Établir la vétusté de la maison fil rouge. 35 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Grille de vétusté de la maison de Mme Garnier",
+   "items": [
+    "Chaque poste a un taux de vétusté justifié par l'âge et l'état constaté",
+    "Les valeurs dépréciées sont justes et leur total est calculé",
+    "La vétusté globale et la valeur sol + construction sont calculées",
+    "Aucun coût de travaux n'est retiré en plus de la vétusté",
+    "Les fissures sont signalées comme à faire examiner, sans montant inventé"
+   ],
+   "caption": "Ton livrable : Grille de vétusté de la maison de Mme Garnier. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Grille de vétusté par corps d'état",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 200.36
+}

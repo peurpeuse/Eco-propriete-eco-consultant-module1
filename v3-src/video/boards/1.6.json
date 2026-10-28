@@ -1,0 +1,194 @@
+{
+ "id": "1.6",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "SWOT de son activité",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "SWOT de son activité",
+   "caption": "Capsule 1.6. SWOT de son activité",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Construire le SWOT de son activité d'éco-consultant (forces, faiblesses, opportunités, menaces) avec des faits datés, et en tirer deux actions prioritaires",
+   "caption": "À la fin de cette capsule : Construire le SWOT de son activité d'éco-consultant (forces, faiblesses, opportunités, menaces) avec des faits datés, et en tirer deux actions prioritaires",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Dans les opportunités : c'est une chance pour son activité.",
+   "pose": "bof",
+   "scene": "Karim écrit dans ses opportunités : « Je suis très bon en négociation. » Où cette ligne doit-elle aller ?",
+   "caption": "Karim écrit dans ses opportunités : « Je suis très bon en négociation. » Où cette ligne doit-elle aller ? Mozi, lui, répondrait : « Dans les opportunités : c'est une chance pour son activité. »",
+   "dur": 11.4
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : une opportunité est un fait extérieur (marché, réglementation), pas une qualité personnelle."
+   ],
+   "caption": "Faux : une opportunité est un fait extérieur (marché, réglementation), pas une qualité personnelle.",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier remplit en direct le SWOT de Karim, directeur d'agence indépendante : ce qu'il maîtrise, ce qui lui manque, ce que le marché lui offre (3,9 millions de passoires, un DPE qui change)…",
+    "Il montre l'erreur classique, un SWOT plein d'adjectifs, et la bonne pratique : des faits, puis deux actions."
+   ],
+   "caption": "Sébastien Paumier remplit en direct le SWOT de Karim, directeur d'agence indépendante : ce qu'il maîtrise, ce qui lui manque, ce que le marché lui offre (3,9 millions de passoires, un DPE qui change) et ce qui le menace (fin des appels à froid). Il montre l'erreur classique, un SWOT plein d'adjectifs, et la bonne pratique : des faits, puis deux actions.",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 4 cadrans",
+   "table": {
+    "headers": [
+     "Cadran",
+     "Origine",
+     "Question à te poser",
+     "Exemple de preuve"
+    ],
+    "rows": [
+     [
+      "Forces",
+      "Interne",
+      "Qu'est-ce que je fais mieux que les autres dans ma zone ?",
+      "Nombre de ventes, avis Google, connaissance d'une copropriété"
+     ],
+     [
+      "Faiblesses",
+      "Interne",
+      "Qu'est-ce qui me freine ?",
+      "Pas de fichier consentant, peu de temps, DPE mal maîtrisé"
+     ],
+     [
+      "Opportunités",
+      "Externe",
+      "Qu'est-ce que le marché ou la loi m'offre ?",
+      "Part de passoires, nouveau coefficient DPE, audit à la vente"
+     ],
+     [
+      "Menaces",
+      "Externe",
+      "Qu'est-ce qui peut me faire perdre des mandats ?",
+      "Fin des appels à froid, concurrents, estimateurs en ligne"
+     ]
+    ]
+   },
+   "caption": "Les 4 cadrans. Forces : Interne ; Faiblesses : Interne ; Opportunités : Externe",
+   "dur": 4.7333333333333325
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Opportunités et menaces sourcées pour 2026",
+   "items": [
+    "Opportunité : 12,7 % des résidences principales classées F ou G au 1/01/2025, environ 3,9 millions (SDES, ONRE, 12/11/2025).",
+    "Opportunité : environ 15 % des ventes de l'ancien portent sur des F-G début 2025 (Notaires de France, 7/01/2026).",
+    "Opportunité : coefficient électricité 1,9 depuis le 1/01/2026 ; des logements électriques changent de classe, l'attestation actualisée est gratuite (ADEME).",
+    "Opportunité : audit énergétique obligatoire à la vente des maisons classées E, F, G ; les vendeurs ont besoin d'un interprète.",
+    "Menace : depuis le 11/08/2026, plus d'appel de prospection vers un particulier sans son consentement préalable (DGCCRF, 27/07/2026)."
+   ],
+   "caption": "Opportunités et menaces sourcées pour 2026. Opportunité : 12,7 % des résidences principales classées F ou G au 1/01/2025, environ 3,9 millions (SDES, ONRE, 12/11/2025). Opportunité : environ 15 % des ventes de l'ancien portent sur des F-G début 2025 (Notaires de France, 7/01/2026). Opportunité : coefficient électricité 1,9 depuis le 1/01/2026 ; des logements électriques changent de classe, l'attestation actualisée est gratuite (ADEME). Opportunité : audit énergétique obligatoire à…",
+   "dur": 29.918518518518514
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Du SWOT aux actions",
+   "items": [
+    "Force × opportunité : quelle force utilises-tu pour saisir quelle opportunité ?",
+    "Faiblesse × opportunité : quelle faiblesse dois-tu combler pour en profiter ?",
+    "Force × menace : quelle force te protège ?",
+    "Faiblesse × menace : quel risque corriges-tu en premier ?",
+    "Garde deux actions, avec une date et un indicateur."
+   ],
+   "caption": "Du SWOT aux actions. Force × opportunité : quelle force utilises-tu pour saisir quelle opportunité ? Faiblesse × opportunité : quelle faiblesse dois-tu combler pour en profiter ? Force × menace : quelle force te protège ? Faiblesse × menace : quel risque corriges-tu en premier ? Garde deux actions, avec une date et un indicateur.",
+   "dur": 18.807407407407403
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple : le SWOT de Karim (personnage de formation, fictif)",
+   "text": "Forces : agence indépendante connue au centre de Melun, 14 ventes en 2025, bonne connaissance des copropriétés des années 70. Faiblesses : ne sait pas lire un DPE au-delà de la lettre, aucun fichier de contacts consentants. Opportunités : nombreux appartements électriques en E-F dans son secteur, attestation actualisée gratuite. Menaces : fin des appels…",
+   "caption": "Exemple : le SWOT de Karim (personnage de formation, fictif). Forces : agence indépendante connue au centre de Melun, 14 ventes en 2025, bonne connaissance des copropriétés des années 70. Faiblesses : ne sait pas lire un DPE au-delà de la lettre, aucun fichier de contacts consentants. Opportunités : nombreux appartements électriques en E-F dans son secteur, attestation actualisée gratuite. Menaces : fin des appels…",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Lequel de ces faits est une opportunité sourcée pour un éco-consultant ?",
+    "options": [
+     "« Les vendeurs adorent les agents sympathiques. »",
+     "« J'ai un bon site internet. »",
+     "« Au 1/01/2025, 12,7 % des résidences principales sont classées F ou G, soit environ 3,9 millions (SDES, 12/11/2025). »"
+    ],
+    "answer": 2
+   },
+   "fb": "Le parc compte environ 3,9 millions de résidences principales F-G au 1/01/2025 (SDES, ONRE) et environ 15 % des ventes de l'ancien portent sur des F-G (Notaires, 7/01/2026). Ce sont des faits extérieurs, datés : de vraies opportunités.",
+   "caption": "Lequel de ces faits est une opportunité sourcée pour un éco-consultant ?",
+   "dur": 23.540740740740738
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Construire mon SWOT",
+   "steps": [
+    {
+     "label": "Écris 3 à 5 forces, chacune avec une preuve chiffrée ou un exemple.",
+     "detail": ""
+    },
+    {
+     "label": "Écris 3 à 5 faiblesses, honnêtement.",
+     "detail": ""
+    },
+    {
+     "label": "Écris 3 à 5 opportunités et 3 à 5 menaces, chacune avec sa source et sa date.",
+     "detail": ""
+    },
+    {
+     "label": "Croise les cadrans et formule deux actions prioritaires, avec une date et un indicateur.",
+     "detail": ""
+    },
+    {
+     "label": "Relis : aucune qualité personnelle dans les opportunités, aucun fait de marché dans les forces.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Construire mon SWOT. 35 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Mon SWOT et mes 2 actions",
+   "items": [
+    "Chaque cadran contient 3 à 5 éléments",
+    "Forces et faiblesses sont internes, opportunités et menaces externes",
+    "Chaque opportunité et chaque menace a une source et une date",
+    "Au moins deux forces sont prouvées par un chiffre ou un exemple",
+    "Deux actions, chacune avec une date et un indicateur"
+   ],
+   "caption": "Ton livrable : Mon SWOT et mes 2 actions. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèle de SWOT",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 191.37
+}

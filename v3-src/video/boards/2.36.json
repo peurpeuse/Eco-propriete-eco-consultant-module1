@@ -1,0 +1,194 @@
+{
+ "id": "2.36",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Maison : justifier ses méthodes, pondérer et conclure",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Maison : justifier ses méthodes, pondérer et conclure",
+   "caption": "Capsule 2.36. Maison : justifier ses méthodes, pondérer et conclure",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Conclure en valeur vénale d'une maison en justifiant les méthodes retenues et écartées, en les pondérant et en contrôlant l'écart entre leurs résultats",
+   "caption": "À la fin de cette capsule : Conclure en valeur vénale d'une maison en justifiant les méthodes retenues et écartées, en les pondérant et en contrôlant l'écart entre leurs résultats",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "267 750 € (moyenne simple)",
+   "pose": "clin-oeil",
+   "scene": "Comparaison : 292 000 € ; sol + construction : 243 500 €. Avec une pondération de 90 % et 10 %, quelle valeur pondérée ?",
+   "caption": "Comparaison : 292 000 € ; sol + construction : 243 500 €. Avec une pondération de 90 % et 10 %, quelle valeur pondérée ? Mozi, lui, répondrait : « 267 750 € (moyenne simple) »",
+   "dur": 9.177777777777777
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : la moyenne simple donne le même poids à une méthode de contrôle qu'à la méthode principale."
+   ],
+   "caption": "Faux : la moyenne simple donne le même poids à une méthode de contrôle qu'à la méthode principale.",
+   "dur": 8.066666666666666
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi fait la moyenne de tous les chiffres qu'il a trouvés, y compris ceux qu'il aurait dû écarter, et appelle ça « l'estimation ».",
+    "Sébastien Paumier rassemble les trois méthodes appliquées à la maison de Mme Garnier, dit lesquelles il retient et pourquoi, contrôle l'écart entre elles, pondère, puis écrit la conclusion : une valeur, une fourchette, et…"
+   ],
+   "caption": "Mozi fait la moyenne de tous les chiffres qu'il a trouvés, y compris ceux qu'il aurait dû écarter, et appelle ça « l'estimation ». Sébastien Paumier rassemble les trois méthodes appliquées à la maison de Mme Garnier, dit lesquelles il retient et pourquoi, contrôle l'écart entre elles, pondère, puis écrit la conclusion : une valeur, une fourchette, et à part, l'après-rénovation et le lot à bâtir.",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Pondération pour la maison de Mme Garnier (FICTIF)",
+   "table": {
+    "headers": [
+     "Méthode",
+     "Résultat",
+     "Décision",
+     "Justification"
+    ],
+    "rows": [
+     [
+      "Bâti-terrain intégré (2.34)",
+      "292 000 €",
+      "Retenue, principale",
+      "5 références F-G proches, même gabarit ; méthode du marché d'occupants"
+     ],
+     [
+      "Sol + construction (2.31 à 2.33)",
+      "243 500 €",
+      "Retenue, contrôle",
+      "Ne capte pas la valeur d'ensemble ; vétusté par jugement"
+     ],
+     [
+      "Capitalisation (2.35)",
+      "294 545 € rénovée louée ; 204 745 € en l'état",
+      "Écartée",
+      "Classée G, non louable en l'état ; acheteurs occupants"
+     ],
+     [
+      "Indiciaire (prix de 1979 × indice)",
+      "—",
+      "Écartée",
+      "Coefficient mécanique qui ignore l'état et le marché local (Charte)"
+     ],
+     [
+      "Total",
+      "",
+      "",
+      ""
+     ]
+    ]
+   },
+   "caption": "Pondération pour la maison de Mme Garnier (FICTIF). Bâti-terrain intégré (2.34) : 292 000 € ; Sol + construction (2.31 à 2.33) : 243 500 € ; Capitalisation (2.35) : 294 545 € rénovée louée ; 204 745 € en l'état",
+   "dur": 14.733333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Le contrôle de l'écart",
+   "text": "Écart = (résultat le plus haut − résultat le plus bas) ÷ résultat de la méthode principale, entre méthodes retenues. Ici : (292 000 − 243 500) ÷ 292 000 = 16,6 %. Seuil d'alerte proposé : 15 % (à valider). Au-delà : écrire la cause de l'écart, revoir une fois les hypothèses (sol, vétusté…",
+   "caption": "Le contrôle de l'écart. Écart = (résultat le plus haut − résultat le plus bas) ÷ résultat de la méthode principale, entre méthodes retenues. Ici : (292 000 − 243 500) ÷ 292 000 = 16,6 %. Seuil d'alerte proposé : 15 % (à valider). Au-delà : écrire la cause de l'écart, revoir une fois les hypothèses (sol, vétusté…",
+   "dur": 21.02962962962963
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Conclure en 5 étapes",
+   "items": [
+    "Liste toutes les méthodes possibles et écris pour chacune : retenue ou écartée, et pourquoi.",
+    "Reporte les résultats des méthodes retenues et contrôle l'écart entre eux.",
+    "Attribue les coefficients selon la fiabilité de chaque méthode pour ce bien, en justifiant.",
+    "Calcule la valeur pondérée, arrondis-la et vérifie qu'elle tombe dans la fourchette de la méthode principale.",
+    "Écris la conclusion : valeur vénale en l'état, fourchette, date de valeur ; puis, à part, la valeur après rénovation et les…"
+   ],
+   "caption": "Conclure en 5 étapes. Liste toutes les méthodes possibles et écris pour chacune : retenue ou écartée, et pourquoi. Reporte les résultats des méthodes retenues et contrôle l'écart entre eux. Attribue les coefficients selon la fiabilité de chaque méthode pour ce bien, en justifiant. Calcule la valeur pondérée, arrondis-la et vérifie qu'elle tombe dans la fourchette de la méthode principale. Écris la conclusion : valeur vénale en l'état, fourchette, date…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple de conclusion à écrire (FICTIF)",
+   "text": "« Valeur vénale en l'état, libre d'occupation, au 28 octobre 2026 : 287 000 € net vendeuse, dans une fourchette de 285 000 € à 300 000 €. Méthode principale : comparaison avec 5 maisons vendues (90 %) ; contrôle : sol + construction (10 %). À titre d'information : valeur après rénovation globale (classe…",
+   "caption": "Exemple de conclusion à écrire (FICTIF). « Valeur vénale en l'état, libre d'occupation, au 28 octobre 2026 : 287 000 € net vendeuse, dans une fourchette de 285 000 € à 300 000 €. Méthode principale : comparaison avec 5 maisons vendues (90 %) ; contrôle : sol + construction (10 %). À titre d'information : valeur après rénovation globale (classe…",
+   "dur": 20.659259259259258
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "L'écart entre comparaison (292 000 €) et sol + construction (243 500 €) est de 16,6 %. Que fais-tu ?",
+    "options": [
+     "Tu l'expliques : la méthode sol + construction ne capte pas la valeur d'ensemble (jardin, emplacement) et tu lui donnes un poids faible",
+     "Tu l'ignores, l'acheteur ne le verra pas",
+     "Tu modifies la vétusté jusqu'à ce que les deux résultats coïncident"
+    ],
+    "answer": 0
+   },
+   "fb": "Fixe-toi un seuil de contrôle (proposition : 15 %). Au-delà, tu écris la raison de l'écart, tu vérifies tes hypothèses une fois, puis tu pondères en conséquence.",
+   "caption": "L'écart entre comparaison (292 000 €) et sol + construction (243 500 €) est de 16,6 %. Que fais-tu ?",
+   "dur": 19.837037037037035
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Conclure en valeur vénale la maison de Mme Garnier",
+   "steps": [
+    {
+     "label": "Remplis le tableau : méthodes retenues et écartées, avec une justification d'une ligne chacune.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule l'écart entre les méthodes retenues et compare-le au seuil d'alerte ; écris la cause de l'écart.",
+     "detail": ""
+    },
+    {
+     "label": "Attribue les coefficients et calcule la valeur pondérée ; arrondis-la.",
+     "detail": ""
+    },
+    {
+     "label": "Vérifie que la valeur tombe dans la fourchette de la méthode principale.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige la conclusion de l'avis : valeur en l'état, fourchette, date de valeur, puis à part la valeur…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Conclure en valeur vénale la maison de Mme Garnier. 40 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Conclusion de l'avis de valeur de la maison de Mme Garnier",
+   "items": [
+    "Chaque méthode est retenue ou écartée avec une justification écrite",
+    "L'écart entre méthodes retenues est calculé et sa cause expliquée",
+    "Les coefficients sont justifiés et la valeur pondérée est juste et arrondie",
+    "La conclusion donne une valeur, une fourchette et une date de valeur",
+    "La valeur après rénovation et le lot à bâtir sont présentés à part, sans promesse ni…"
+   ],
+   "caption": "Ton livrable : Conclusion de l'avis de valeur de la maison de Mme Garnier. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableau de pondération des méthodes pour une maison (méthodes retenues, écartées, coefficients)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 196.29
+}

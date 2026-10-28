@@ -1,0 +1,201 @@
+{
+ "id": "3.5",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Les indicateurs de coût : budget, aides, reste à charge, retour",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Les indicateurs de coût : budget, aides, reste à charge, retour",
+   "caption": "Capsule 3.5. Les indicateurs de coût : budget, aides, reste à charge, retour",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Calculer pour son bien fil rouge le budget de travaux par poste, les aides vérifiées (datées et sourcées), le reste à charge et un retour indicatif, avec la mention « aucun gain garanti »",
+   "caption": "À la fin de cette capsule : Calculer pour son bien fil rouge le budget de travaux par poste, les aides vérifiées (datées et sourcées), le reste à charge et un retour indicatif, avec la mention « aucun gain garanti »",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Il oublie les primes CEE",
+   "pose": "presente",
+   "scene": "Mozi annonce à un vendeur : « Vos travaux seront remboursés par MaPrimeRénov' et les économies. » Quelle est son erreur ?",
+   "caption": "Mozi annonce à un vendeur : « Vos travaux seront remboursés par MaPrimeRénov' et les économies. » Quelle est son erreur ? Mozi, lui, répondrait : « Il oublie les primes CEE »",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : ajouter une aide non vérifiée aggraverait l'erreur."
+   ],
+   "caption": "Faux : ajouter une aide non vérifiée aggraverait l'erreur.",
+   "dur": 5
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi affiche : « Travaux remboursés par les aides et les économies !",
+    "» Sébastien Paumier refait les comptes de l'appartement de M. Bernard : 16 500 € de travaux privatifs, 0 € d'aide notifiée, un retour indicatif de 19 à 27 ans sur les économies d'énergie.",
+    "Pas de promesse : des chiffres datés, sourcés, et la mention « aucun gain garanti »."
+   ],
+   "caption": "Mozi affiche : « Travaux remboursés par les aides et les économies ! » Sébastien Paumier refait les comptes de l'appartement de M. Bernard : 16 500 € de travaux privatifs, 0 € d'aide notifiée, un retour indicatif de 19 à 27 ans sur les économies d'énergie. Pas de promesse : des chiffres datés, sourcés, et la mention « aucun gain garanti ».",
+   "dur": 22.14074074074074
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Budget et aides : exemple rempli (M. Bernard, FICTIF, octobre 2026)",
+   "table": {
+    "headers": [
+     "Poste",
+     "Budget TTC",
+     "Aide possible (statut au 28/10/2026)",
+     "Aide retenue"
+    ],
+    "rows": [
+     [
+      "Fenêtres PVC (4)",
+      "5 600 €",
+      "À vérifier sur france-renov.gouv.fr ; CEE possibles",
+      "0 €"
+     ],
+     [
+      "VMC + débouchage",
+      "2 900 €",
+      "MaPrimeRénov' par geste : ventilation exclue depuis le 1/09/2026",
+      "0 €"
+     ],
+     [
+      "Radiateurs à inertie + thermostat",
+      "4 800 €",
+      "Équipement de chauffage exclu depuis le 1/09/2026",
+      "0 €"
+     ],
+     [
+      "Chauffe-eau thermodynamique",
+      "3 200 €",
+      "Pompe à chaleur dédiée à l'eau chaude exclue depuis le 1/09/2026",
+      "0 €"
+     ],
+     [
+      "Total privatifs",
+      "16 500 €",
+      "",
+      "0 €"
+     ]
+    ]
+   },
+   "caption": "Budget et aides : exemple rempli (M. Bernard, FICTIF, octobre 2026). Fenêtres PVC (4) : 5 600 € ; VMC + débouchage : 2 900 € ; Radiateurs à inertie + thermostat : 4 800 €",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Les formules",
+   "text": "Reste à charge = budget TTC − aides notifiées. Économie annuelle indicative = coût annuel d'énergie du DPE × (énergie finale avant − après) / énergie finale avant. Retour simple = reste à charge / économie annuelle. M. Bernard : coût DPE 2 330 à 3 190 €/an ; (150 − 110) / 150 =…",
+   "caption": "Les formules. Reste à charge = budget TTC − aides notifiées. Économie annuelle indicative = coût annuel d'énergie du DPE × (énergie finale avant − après) / énergie finale avant. Retour simple = reste à charge / économie annuelle. M. Bernard : coût DPE 2 330 à 3 190 €/an ; (150 − 110) / 150 =…",
+   "dur": 18.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Aides et financements : ce qu'il faut savoir (vérifié en octobre 2026)",
+   "items": [
+    "MaPrimeRénov' par geste : depuis le 1/09/2026, ventilation, équipements de chauffage, pompes à chaleur dédiées à l'eau chaude, chauffage et eau chaude…",
+    "MaPrimeRénov' rénovation d'ampleur : réservée aux projets avec gain d'au moins deux classes, accompagnement obligatoire ; conditions de revenus du ménage qui…",
+    "Primes CEE : versées par des fournisseurs d'énergie selon les opérations ; montant à vérifier au cas par cas, jamais chiffré avant…",
+    "Éco-prêt à taux zéro : prêt sans intérêts, jusqu'à 50 000 € selon les travaux ; c'est un financement, pas une aide…",
+    "TVA à 5,5 % : déjà intégrée dans le devis TTC quand les travaux y sont éligibles ; ne pas la compter…"
+   ],
+   "caption": "Aides et financements : ce qu'il faut savoir (vérifié en octobre 2026). MaPrimeRénov' par geste : depuis le 1/09/2026, ventilation, équipements de chauffage, pompes à chaleur dédiées à l'eau chaude, chauffage et eau chaude… MaPrimeRénov' rénovation d'ampleur : réservée aux projets avec gain d'au moins deux classes, accompagnement obligatoire ; conditions de revenus du ménage qui… Primes CEE : versées par des fournisseurs d'énergie selon les opérations ; montant à…",
+   "dur": 27.696296296296293
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Avant de présenter les coûts",
+   "items": [
+    "Chaque aide citée a sa source et sa date de vérification",
+    "Seules les aides notifiées sont déduites du budget",
+    "Aides et financements sont dans deux colonnes différentes",
+    "Le retour est écrit « indicatif », avec sa formule",
+    "La mention « aucun gain garanti » figure en bas de la fiche"
+   ],
+   "caption": "Avant de présenter les coûts. Chaque aide citée a sa source et sa date de vérification Seules les aides notifiées sont déduites du budget Aides et financements sont dans deux colonnes différentes Le retour est écrit « indicatif », avec sa formule La mention « aucun gain garanti » figure en bas de la fiche",
+   "dur": 20.288888888888888
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Économie d'énergie estimée après travaux privatifs chez M. Bernard : 621 à 851 € par an. Budget : 16 500 €. Quel retour indicatif ?",
+    "options": [
+     "Environ 2 ans",
+     "Environ 8 ans",
+     "Environ 19 à 27 ans, sans garantie"
+    ],
+    "answer": 2
+   },
+   "fb": "16 500 / 851 ≈ 19,4 ans ; 16 500 / 621 ≈ 26,6 ans. Ce retour est indicatif : il repose sur les coûts conventionnels du DPE, pas sur les factures. Les travaux améliorent aussi le confort et la…",
+   "caption": "Économie d'énergie estimée après travaux privatifs chez M. Bernard : 621 à 851 € par an. Budget : 16 500 €. Quel retour indicatif ?",
+   "dur": 23.91111111111111
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Calculer les indicateurs de coût de son bien fil rouge",
+   "steps": [
+    {
+     "label": "Reporte le budget TTC par poste et le total, en séparant privatif et copropriété (ou étape 1 et…",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque poste, vérifie les aides possibles à la date du jour et note la source et la…",
+     "detail": ""
+    },
+    {
+     "label": "Calcule le reste à charge en ne déduisant que les aides notifiées.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule l'économie annuelle indicative à partir des coûts du DPE et de l'écart d'énergie finale.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule le retour simple, en fourchette, et écris la mention « aucun gain garanti ».",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Calculer les indicateurs de coût de son bien fil rouge. 35 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tableau des indicateurs de coût de son bien fil rouge",
+   "items": [
+    "Le budget par poste et le total sont justes, privatif et copropriété séparés",
+    "Chaque aide citée a sa source et sa date ; seules les aides notifiées sont déduites",
+    "Le reste à charge et le retour indicatif (en fourchette) sont calculés avec leur formule",
+    "Les financements sont séparés des aides",
+    "La mention « aucun gain garanti » figure"
+   ],
+   "caption": "Ton livrable : Tableau des indicateurs de coût de son bien fil rouge. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableur : budget par poste, aides (datées et sourcées), reste à charge, retour indicatif ; mention « aucun gain garanti »",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 189.15
+}

@@ -1,0 +1,199 @@
+{
+ "id": "3.19",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Présenter et défendre son prix avec ses chiffres",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.19 : présenter et défendre ton prix",
+   "caption": "Bienvenue. Trois prix sont sur la table de M. Bernard. Dans ce chapitre, tu défends le tien avec tes chiffres : une fourchette, et une preuve pour chacun.",
+   "cta": "Commencer",
+   "dur": 11.4
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi un prix se défend deux fois : vendeur, puis acheteur"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "annoncer une fourchette, chaque chiffre avec sa source et sa limite"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton support de restitution en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Vous espérez 205 000 € ? J'affiche 230 000 €, et vous signez tout de suite !",
+   "caption": "Vous espérez 205 000 € ? J'affiche 230 000 €, et vous signez tout de suite !",
+   "line": "Vous espérez 205 000 € ? J'affiche 230 000 €, et vous signez tout de suite !",
+   "scene": "Mozi colle un post-it « 230 000 € » sur le frigo et tend un stylo doré.",
+   "pose": "sur-de-lui",
+   "dur": 6.59
+  },
+  {
+   "kind": "belief",
+   "title": "Le prix du vendeur, plus 25 000 €, mandat signé",
+   "caption": "Le prix du vendeur. Plus vingt-cinq mille euros. Mandat signé.",
+   "beats": [
+    "Le prix du vendeur",
+    "+ 25 000 €",
+    "Mandat signé"
+   ],
+   "wrong": 1,
+   "why": "Surévaluer pour signer : peu de visites, et le bien perd de la valeur.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Peu de visites. Le bien perd de la valeur.",
+   "caption": "Et ensuite ? Peu ou pas de visites. Et plus le bien reste en ligne, plus il perd de valeur. Le mandat est signé, la vente, non.",
+   "lines": [
+    "Peu ou pas de visites.",
+    "Plus il reste en ligne, plus il perd de valeur."
+   ],
+   "dur": 11.03
+  },
+  {
+   "kind": "stat",
+   "title": "201 400 € : la base du calcul",
+   "caption": "Dans notre dossier d'exemple, ton point de départ : 201 400 euros. Soixante-seize mètres carrés, fois 2 650 euros, le prix moyen des ventes comparables en l'état. Des ventes, pas des annonces.",
+   "value": "201 400 €",
+   "label": "de base (exemple fictif) : 76 m² × 2 650 €/m², ventes comparables en l'état",
+   "dur": 13.99
+  },
+  {
+   "kind": "steps",
+   "title": "Les preuves d'abord → une fourchette sourcée → du net au FAI",
+   "caption": "D'abord, tu ne commences jamais par le prix. Projet, étiquette en vigueur, valeur, stratégie : le prix arrive en cinquième, quand les preuves sont sur la table. Ensuite, tu annonces une fourchette, pas un chiffre. 2 650 euros du mètre carré, fois 76 : 201 400 euros de base. Source : les ventes du tableau D12. Limite : DVF ne dit rien de l'étiquette. Tu ajustes pour les fenêtres, la VMC et les appels de façade, chaque fois avec une pièce. Fourchette : 178 000 à 186 000 euros net vendeur. Enfin, tu passes du net au prix affiché. 180 000 euros net, plus 9 000 euros d'honoraires à la charge de l'acquéreur : 189 000 euros.",
+   "steps": [
+    {
+     "label": "Les preuves d'abord",
+     "detail": "Projet, étiquette, valeur, stratégie, puis le prix en 5e position."
+    },
+    {
+     "label": "Une fourchette sourcée",
+     "detail": "Chaque chiffre avec sa source, sa date et sa limite : 178 000 – 186 000 € net."
+    },
+    {
+     "label": "Du net au prix affiché",
+     "detail": "180 000 € net + 9 000 € TTC (charge acquéreur) = 189 000 € FAI."
+    }
+   ],
+   "dur": 43.99
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? M. Bernard dit à Claire : deux agences m'ont annoncé 172 000 euros. Que répond-elle, sans dénigrer personne ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard dit à Claire, négociatrice : « Deux agences m'ont dit 172 000 €. » Que répond-elle, sans dénigrer personne ?",
+   "model_answer": "« 201 400 € moins 15 %, c'est 171 190 € : une décote forfaitaire liée au F de 2023. Votre étiquette en vigueur est E. Je préfère ajuster poste par poste, pièce à l'appui. Voici d'où vient chaque chiffre. »",
+   "dur": 23.11
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ? Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Un prix se justifie par des ventes réelles : une fourchette, chaque chiffre avec sa source et sa limite",
+     "Le prix du mandat est celui que souhaite le vendeur",
+     "Plus le prix affiché est haut, plus les visites viennent"
+    ],
+    "answer": 0,
+    "feedback": "Un prix acheté, c'est une vente perdue. Tu justifies avec des ventes, pas des annonces, et tu laisses le vendeur décider.",
+    "whys": [
+     "Exact : un prix se défend deux fois, devant le vendeur puis devant l'acheteur. Sans calcul, c'est un pari.",
+     "Faux : tu recommandes un prix fondé sur des preuves. Le vendeur décide, mais en connaissant le calcul.",
+     "Faux : c'est l'inverse. Un bien surestimé attire peu de visites et perd de la valeur en restant en ligne."
+    ]
+   },
+   "card2": {
+    "question": "Si M. Bernard voulait 186 000 € net, que lui dirais-tu ?",
+    "answer": "C'est sa décision. Le prix affiché passe à 195 000 €, avec les mêmes 9 000 € d'honoraires. Je recommande 180 000 € pour avoir des visites dès les premières semaines, et on refait le point sur des faits, à une date fixée ensemble."
+   },
+   "fb": "Un prix acheté, c'est une vente perdue. Tu justifies avec des ventes, pas des annonces, et tu laisses le vendeur décider.",
+   "dur": 17.24
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : un prix défendable devant le vendeur, puis devant l'acheteur. L'explorateur DVF, et la trame de restitution.",
+   "goal": "Un prix défendable devant le vendeur, puis devant l'acheteur",
+   "tools": [
+    {
+     "name": "Explorateur DVF",
+     "role": "Retrouver des ventes réelles, pas des annonces"
+    },
+    {
+     "name": "Trame de restitution",
+     "role": "La fourchette, puis la source, la date et la limite de chaque chiffre"
+    }
+   ],
+   "dur": 9.92
+  },
+  {
+   "kind": "demo",
+   "title": "DVF : des ventes, pas des annonces",
+   "caption": "Sur l'explorateur DVF, je choisis la commune, puis le secteur du bien. Je relève les ventes d'appartements récentes : date, surface, prix. Je note la limite : ni époque, ni étiquette. Je complète, puis je calcule le prix moyen au mètre carré.",
+   "steps": [
+    "Choisir la commune, puis le secteur du bien",
+    "Relever les ventes d'appartements récentes : date, surface, prix",
+    "Noter la limite : ni époque ni étiquette dans DVF, à compléter toi-même",
+    "Calculer la moyenne : 2 650 €/m² dans le tableau D12 (exemple fictif)"
+   ],
+   "tool": "Explorateur DVF",
+   "dur": 16.96
+  },
+  {
+   "kind": "demo",
+   "title": "La trame : la fourchette en cinquième",
+   "caption": "Puis la trame. Projet, étiquette E, valeur, stratégie. Ensuite la fourchette : 178 000 à 186 000 euros net, chaque chiffre avec sa source et sa limite. Puis ma recommandation : 189 000 euros affichés. Et pour finir, une date de réponse.",
+   "steps": [
+    "Temps 1 à 4 : projet, étiquette E, valeur, stratégie",
+    "Temps 5 : fourchette 178 000 – 186 000 € net, source D12, limite notée",
+    "Recommandation : 180 000 € net + 9 000 € TTC = 189 000 € FAI",
+    "Temps 6 et 7 : engagements, questions, date de réponse sans forcer"
+   ],
+   "tool": "Trame de restitution",
+   "dur": 16.21
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "À toi : prépare ton support.",
+   "cta": "Préparer mon support de restitution",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton support, slide du prix visible.",
+   "ask": "Dépose une capture de ton support de restitution pour M. Bernard (7 slides maximum), avec la slide du prix : la fourchette nette, la source, la date et la limite de chaque chiffre, puis le prix affiché recommandé.",
+   "dur": 4.36
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Mozi a collé un post-it. Toi, tu annonces une fourchette, et chaque chiffre a sa source et sa limite.",
+   "status": "Ton prix : une fourchette, chaque chiffre avec sa source et sa limite. Mozi : un post-it à 230 000 €.",
+   "dur": 9.18
+  }
+ ],
+ "total": 199.1
+}

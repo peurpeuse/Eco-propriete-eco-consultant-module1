@@ -1,0 +1,199 @@
+{
+ "id": "2.3",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Du prix de vente au net vendeur : frais, honoraires, solde du prêt, plus-value",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 2.3 : du prix de vente au net vendeur",
+   "caption": "Bienvenue. Prends ta calculatrice : dans ce chapitre, tu passes du prix affiché à ce qui reste vraiment à M. Bernard.",
+   "cta": "Commencer",
+   "dur": 8.81
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce qui sépare le prix affiché du net vendeur"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "calculer le net de M. Bernard ligne par ligne et repérer la plus-value"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton tableur net vendeur rempli en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "189 000 € affichés ? Alors 189 000 € dans votre poche !",
+   "caption": "189 000 euros affichés, Monsieur Bernard ? Alors 189 000 euros dans votre poche !",
+   "line": "189 000 € affichés, Monsieur Bernard ? Alors 189 000 € dans votre poche !",
+   "scene": "Mozi tend à M. Bernard un chèque géant en carton de 189 000 €, sous une pluie de confettis qu'il lance lui-même.",
+   "pose": "sur-de-lui",
+   "dur": 6.21
+  },
+  {
+   "kind": "belief",
+   "title": "189 000 € affichés, 9 000 € d'honoraires, 189 000 € pour lui",
+   "caption": "189 000 euros affichés. Dont 9 000 euros d'honoraires. Et 189 000 euros pour M. Bernard.",
+   "beats": [
+    "189 000 € affichés",
+    "dont 9 000 € d'honoraires",
+    "189 000 € pour M. Bernard"
+   ],
+   "wrong": 2,
+   "why": "Les 9 000 € d'honoraires sont inclus dans le prix affiché : son net vendeur est de 180 000 €, avant ses propres frais.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Promis : 189 000 €. Reste : environ 170 200 €.",
+   "caption": "Chez le notaire, M. Bernard découvre le vrai chiffre : 180 000 euros net, puis environ 170 200 après ses frais et l'appel de façade. Près de 19 000 euros d'écart avec la promesse.",
+   "lines": [
+    "Promis : 189 000 €. Net vendeur : 180 000 €.",
+    "Après ses frais et l'appel de façade : environ 170 200 €."
+   ],
+   "dur": 14.36
+  },
+  {
+   "kind": "stat",
+   "title": "22 ans",
+   "caption": "Vingt-deux ans. Au-delà, la plus-value d'un bien n'est plus soumise à l'impôt sur le revenu. Trente ans pour les prélèvements sociaux. Et la résidence principale est exonérée. Ce n'est pas toi qui tranches : c'est le notaire.",
+   "value": "22 ans",
+   "label": "de détention : au-delà, la plus-value est exonérée d'impôt sur le revenu (30 ans pour les prélèvements sociaux ; la résidence principale est exonérée, sous conditions)",
+   "dur": 17.7
+  },
+  {
+   "kind": "steps",
+   "title": "Prix affiché → Sorties → Plus-value",
+   "caption": "Trois étages, dans cet ordre. Un : du prix affiché au net. 189 000 euros, moins 9 000 euros d'honoraires à la charge de l'acquéreur, inclus dans le prix : 180 000 euros net vendeur. Deux : les sorties du vendeur. L'Éco-staging, 450 euros. L'état daté du syndic, 380 euros au plus. Le prêt : soldé, donc zéro ; sinon, le capital restant dû et des indemnités plafonnées. Travaux : zéro, il vend en l'état. Et l'appel de façade du 1er janvier 2027 : 8 970 euros, car il sera encore copropriétaire. Reste environ 170 200 euros, avant la facture des diagnostics. Trois : la plus-value. Tu repères : résidence principale ? Achat en 1998 ? Puis tu renvoies au notaire, qui calcule et prélève l'éventuel impôt sur le prix.",
+   "steps": [
+    {
+     "label": "Prix affiché",
+     "detail": "189 000 € − 9 000 € d'honoraires (à la charge de l'acquéreur) = 180 000 € net vendeur."
+    },
+    {
+     "label": "Sorties",
+     "detail": "Éco-staging 450 € ; état daté ≤ 380 € ; prêt soldé 0 € ; travaux 0 € ; appel ITE 8 970 € → ≈ 170 200 €, avant diagnostics."
+    },
+    {
+     "label": "Plus-value",
+     "detail": "Résidence principale ? Date d'achat ? Tu repères, le notaire calcule : aucun chiffre d'impôt de ta part."
+    }
+   ],
+   "dur": 48.81
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "M. Bernard demande à Claire : sur 189 000 euros, combien me restera-t-il vraiment ? Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard, profil C, demande à Claire : « Sur 189 000 €, combien me restera-t-il vraiment ? » Que répond Claire, en trois phrases, sans conseil fiscal ?",
+   "model_answer": "« 180 000 € net vendeur : les 9 000 € d'honoraires sont payés par l'acquéreur, dans le prix. Après l'Éco-staging (450 €), l'état daté (380 € au plus) et l'appel de façade du 1er janvier (8 970 €), il reste environ 170 200 €, avant la facture des diagnostics. Pour la plus-value : si c'est bien votre résidence principale, la loi prévoit une exonération ; votre notaire vérifiera et fera le calcul. »",
+   "dur": 37.56
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Les honoraires sont toujours à la charge du vendeur, en plus du prix affiché",
+     "Le prix affiché inclut les honoraires à la charge de l'acquéreur : le vendeur ne touche que le net vendeur",
+     "Aucune : annoncer le prix affiché suffit, le notaire fera les comptes"
+    ],
+    "answer": 1,
+    "feedback": "Quand les honoraires sont à la charge de l'acquéreur, ils sont compris dans le prix affiché. M. Bernard touche le net vendeur, 180 000 €, puis il paie ses propres frais.",
+    "whys": [
+     "Faux : le mandat précise qui paie la rémunération ; ici, c'est l'acquéreur (décret du 20/07/1972, art. 73).",
+     "Exact : 189 000 − 9 000 = 180 000 € net vendeur, avant les frais du vendeur.",
+     "Faux : le vendeur décide sur un chiffre ; lui donner le prix affiché, c'est lui promettre 9 000 € qu'il ne touchera pas."
+    ]
+   },
+   "card2": {
+    "question": "Si l'offre retenue était à 184 000 € FAI, que se passerait-il pour M. Bernard ?",
+    "answer": "184 000 − 9 000 = 175 000 € net vendeur : c'est son prix plancher, à condition que l'acquéreur lui rembourse à l'acte l'appel du 1er janvier 2027. Il resterait alors 175 000 − 450 − 380 = 174 170 €, avant diagnostics, et sous réserve de ce que le notaire dira de la plus-value."
+   },
+   "fb": "Quand les honoraires sont à la charge de l'acquéreur, ils sont compris dans le prix affiché. M. Bernard touche le net vendeur, 180 000 €, puis il paie ses propres frais.",
+   "dur": 18.73
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : un chiffre que M. Bernard peut vérifier ligne par ligne. Le tableur net vendeur, et la fiche « ce qu'on repère, ce qu'on renvoie ».",
+   "goal": "Un chiffre que le vendeur peut vérifier",
+   "tools": [
+    {
+     "name": "Tableur net vendeur",
+     "role": "Passer du prix affiché à ce qui reste, ligne par ligne"
+    },
+    {
+     "name": "Fiche « ce qu'on repère, ce qu'on renvoie »",
+     "role": "Repérer la plus-value à examiner, sans la calculer"
+    }
+   ],
+   "dur": 12.51
+  },
+  {
+   "kind": "demo",
+   "title": "Le tableur, ligne par ligne",
+   "caption": "Le tableur, ligne par ligne. Prix affiché : 189 000. Moins les honoraires : 180 000 net. Moins l'Éco-staging, l'état daté, le prêt soldé et les travaux, à zéro. Moins l'appel de façade : 8 970. Reste : environ 170 200 euros, avant diagnostics.",
+   "steps": [
+    "Ligne 1 : prix affiché 189 000 €",
+    "Ligne 2 : honoraires 9 000 €, net vendeur 180 000 €",
+    "Lignes 3-5 : Éco-staging 450 €, état daté 380 €, prêt et travaux 0 €",
+    "Ligne 6 : appel ITE 8 970 €, reste ≈ 170 200 €"
+   ],
+   "tool": "Tableur net vendeur",
+   "dur": 17.7
+  },
+  {
+   "kind": "demo",
+   "title": "La fiche : repérer, renvoyer",
+   "caption": "Puis la fiche. Résidence principale : à confirmer. Détention : plus de 28 ans à l'acte. Prêt : soldé, le notaire vérifie qu'aucune garantie ne reste inscrite. Et une question écrite au notaire, sans aucun chiffre d'impôt.",
+   "steps": [
+    "Résidence principale : à confirmer par le notaire",
+    "Détention : achat en 1998, plus de 28 ans à l'acte",
+    "Prêt : soldé, inscription éventuelle vérifiée par le notaire",
+    "Question écrite au notaire : aucun chiffre d'impôt"
+   ],
+   "tool": "Fiche « ce qu'on repère, ce qu'on renvoie »",
+   "dur": 15.1
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Remplis le tableur de M. Bernard, maintenant.",
+   "cta": "Ouvrir le tableur net vendeur",
+   "dur": 3.99
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton tableur rempli et ta question au notaire.",
+   "ask": "Dépose une capture de ton tableur net vendeur rempli pour M. Bernard (du prix affiché au reste estimé, chaque ligne sourcée) et de ta question écrite au notaire sur la plus-value.",
+   "dur": 5.1
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. M. Bernard connaît son vrai chiffre avant de signer. Mozi, lui, a promis 189 000 euros.",
+   "status": "Ton chiffre : environ 170 200 €, chaque ligne justifiée. Celui de Mozi : 189 000 €, une seule ligne.",
+   "dur": 7.7
+  }
+ ],
+ "total": 225.9
+}

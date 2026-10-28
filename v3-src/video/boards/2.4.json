@@ -1,0 +1,194 @@
+{
+ "id": "2.4",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Le dossier de diagnostics : les pièces, qui le remet, quand",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Le dossier de diagnostics : les pièces, qui le remet, quand",
+   "caption": "Capsule 2.4. Le dossier de diagnostics : les pièces, qui le remet, quand",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Dresser, pour un bien donné, la liste des pièces du dossier de diagnostic technique, avec leur durée de validité, qui les commande et à quel moment chacune doit être remise",
+   "caption": "À la fin de cette capsule : Dresser, pour un bien donné, la liste des pièces du dossier de diagnostic technique, avec leur durée de validité, qui les commande et à quel moment chacune doit être remise",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Tu le gardes : il est valable 1 an",
+   "pose": "pointe",
+   "scene": "Un vendeur te tend un état des risques établi il y a 8 mois. La promesse est prévue dans 3 semaines. Que fais-tu ?",
+   "caption": "Un vendeur te tend un état des risques établi il y a 8 mois. La promesse est prévue dans 3 semaines. Que fais-tu ? Mozi, lui, répondrait : « Tu le gardes : il est valable 1 an »",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : la durée n'est pas d'un an ; c'est 6 mois."
+   ],
+   "caption": "Faux : la durée n'est pas d'un an ; c'est 6 mois.",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier étale le dossier de diagnostic technique sur la table : une pochette, une quinzaine de pièces possibles, mais jamais toutes.",
+    "La vidéo montre la logique : certaines pièces valent pour tous, d'autres dépendent de l'âge du bien ou de sa zone.",
+    "Elle insiste sur les dates : validité de chaque pièce, et moments de remise (annonce, première visite, promesse, acte)."
+   ],
+   "caption": "Sébastien Paumier étale le dossier de diagnostic technique sur la table : une pochette, une quinzaine de pièces possibles, mais jamais toutes. La vidéo montre la logique : certaines pièces valent pour tous, d'autres dépendent de l'âge du bien ou de sa zone. Elle insiste sur les dates : validité de chaque pièce, et moments de remise (annonce, première visite, promesse, acte).",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les pièces du dossier, leur condition, leur validité",
+   "table": {
+    "headers": [
+     "Pièce",
+     "Quand elle est exigée",
+     "Validité pour une vente"
+    ],
+    "rows": [
+     [
+      "DPE",
+      "Presque tous les logements",
+      "10 ans (DPE établi depuis le 1/07/2021)"
+     ],
+     [
+      "Audit énergétique",
+      "Maison ou immeuble hors copropriété classé F ou G (depuis le 1/04/2023)…",
+      "5 ans"
+     ],
+     [
+      "Plomb (CREP)",
+      "Logement construit avant le 1/01/1949",
+      "1 an ; illimitée si pas de plomb ou sous les seuils"
+     ],
+     [
+      "Amiante",
+      "Permis de construire délivré avant le 1/07/1997",
+      "Illimitée si absence d'amiante (repérage depuis 2013) ; sinon voir le diagnostiqueur"
+     ],
+     [
+      "Électricité",
+      "Installation de plus de 15 ans",
+      "3 ans"
+     ]
+    ]
+   },
+   "caption": "Les pièces du dossier, leur condition, leur validité. DPE : Presque tous les logements ; Audit énergétique : Maison ou immeuble hors copropriété classé F ou G (depuis le 1/04/2023), E (depuis le 1/01/2025), D (à partir du 1/01/2034) ; Plomb (CREP) : Logement construit avant le 1/01/1949",
+   "dur": 20.288888888888888
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Qui fait quoi",
+   "items": [
+    "Le vendeur fournit le dossier et le paie.",
+    "Le diagnostiqueur réalise les diagnostics : certifié (organisme accrédité par le Cofrac), assuré, sans lien avec le vendeur, son mandataire ou une…",
+    "L'état des risques et l'assainissement suivent d'autres règles : le vendeur remplit l'état des risques ; le SPANC contrôle l'assainissement.",
+    "Le notaire vérifie le dossier et l'annexe à la promesse, ou à défaut à l'acte.",
+    "L'agent repère ce qui manque, vérifie les dates et conseille le vendeur ; il ne choisit pas le diagnostiqueur à sa place."
+   ],
+   "caption": "Qui fait quoi. Le vendeur fournit le dossier et le paie. Le diagnostiqueur réalise les diagnostics : certifié (organisme accrédité par le Cofrac), assuré, sans lien avec le vendeur, son mandataire ou une… L'état des risques et l'assainissement suivent d'autres règles : le vendeur remplit l'état des risques ; le SPANC contrôle l'assainissement. Le notaire vérifie le dossier et l'annexe à la promesse, ou à défaut à l'acte. L'agent repère…",
+   "dur": 29.177777777777774
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Quand chaque information arrive chez l'acquéreur",
+   "items": [
+    "Annonce : classe énergie et climat, estimation des dépenses annuelles ; renvoi vers Géorisques pour les risques.",
+    "Première visite : état des risques ; audit énergétique pour une maison concernée.",
+    "Promesse : dossier de diagnostic technique complet annexé.",
+    "Acte authentique : dossier à jour (dates de validité vérifiées), carnet d'information du logement s'il existe."
+   ],
+   "caption": "Quand chaque information arrive chez l'acquéreur. Annonce : classe énergie et climat, estimation des dépenses annuelles ; renvoi vers Géorisques pour les risques. Première visite : état des risques ; audit énergétique pour une maison concernée. Promesse : dossier de diagnostic technique complet annexé. Acte authentique : dossier à jour (dates de validité vérifiées), carnet d'information du logement s'il existe.",
+   "dur": 22.51111111111111
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire au vendeur",
+   "text": "« Avant de mettre en vente, on vérifie ensemble ce que vous avez déjà et ce qui expire avant la signature. Je vous prépare la liste ; vous choisissez le diagnostiqueur certifié, et je vérifie son certificat sur l'annuaire du ministère. »",
+   "caption": "La phrase à dire au vendeur. « Avant de mettre en vente, on vérifie ensemble ce que vous avez déjà et ce qui expire avant la signature. Je vous prépare la liste ; vous choisissez le diagnostiqueur certifié, et je vérifie son certificat sur l'annuaire du ministère. »",
+   "dur": 18.437037037037033
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Qui commande et paie les diagnostics du dossier de vente ?",
+    "options": [
+     "L'acquéreur, après le compromis",
+     "Le notaire, qui les refacture à l'acquéreur",
+     "Le vendeur, qui fournit le dossier ; l'agent peut l'aider à commander, sans choisir à sa place"
+    ],
+    "answer": 2
+   },
+   "fb": "Le dossier de diagnostic technique est fourni par le vendeur et annexé à la promesse ou, à défaut, à l'acte. Le diagnostiqueur doit être certifié, assuré et indépendant du vendeur comme de son mandataire : tu ne lui imposes pas…",
+   "caption": "Qui commande et paie les diagnostics du dossier de vente ?",
+   "dur": 21.318518518518516
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Lister les diagnostics à commander pour 3 biens",
+   "steps": [
+    {
+     "label": "Pour chaque bien, passe les 13 lignes du tableau et coche ce qui s'applique, avec la condition remplie.",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque pièce existante, calcule si elle sera encore valable en février 2027.",
+     "detail": ""
+    },
+    {
+     "label": "Liste les pièces à commander ou à refaire, et celles qui sont à vérifier (zone, date).",
+     "detail": ""
+    },
+    {
+     "label": "Indique pour chaque pièce le moment de remise à l'acquéreur.",
+     "detail": ""
+    },
+    {
+     "label": "Résume en une phrase par bien ce que tu dis au vendeur.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Lister les diagnostics à commander pour 3 biens. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tableau des diagnostics de 3 biens",
+   "items": [
+    "Chaque pièce cochée indique la condition qui la rend obligatoire",
+    "La validité de chaque pièce existante est vérifiée à la date de promesse visée",
+    "Les pièces non obligatoires sont justifiées (ex. pas de plomb : construit après 1949)",
+    "Les points de zone non connus sont notés « à vérifier » avec l'outil à consulter",
+    "Le moment de remise est indiqué pour l'état des risques et l'audit"
+   ],
+   "caption": "Ton livrable : Tableau des diagnostics de 3 biens. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableau des diagnostics obligatoires et de leurs durées de validité",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 205.92
+}

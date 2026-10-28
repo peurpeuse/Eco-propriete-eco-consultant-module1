@@ -1,0 +1,216 @@
+{
+ "id": "2.38",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Appartement : retraiter les références et valoriser",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Appartement : retraiter les références et valoriser",
+   "caption": "Capsule 2.38. Appartement : retraiter les références et valoriser",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Retraiter les 10 mutations du tableau D12 (groupes d'état, vente de la résidence, annonces avant négociation, corrections) et arrêter un prix au m² arrondi et justifié pour l'appartement de M. Bernard",
+   "caption": "À la fin de cette capsule : Retraiter les 10 mutations du tableau D12 (groupes d'état, vente de la résidence, annonces avant négociation, corrections) et arrêter un prix au m² arrondi et justifié pour l'appartement de M. Bernard",
+   "dur": 13.622222222222222
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "La garder : plus il y a de ventes, plus la médiane est juste",
+   "pose": "sur-de-lui",
+   "scene": "Karim veut garder dans sa médiane la vente M10 (rez-de-chaussée, classe G, gros travaux, 2 000 €/m²). Que lui conseilles-tu ?",
+   "caption": "Karim veut garder dans sa médiane la vente M10 (rez-de-chaussée, classe G, gros travaux, 2 000 €/m²). Que lui conseilles-tu ? Mozi, lui, répondrait : « La garder : plus il y a de ventes, plus la médiane est juste »",
+   "dur": 14.733333333333333
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : une vente non comparable (état, étage, classe G) brouille la référence au lieu de la renforcer."
+   ],
+   "caption": "Faux : une vente non comparable (état, étage, classe G) brouille la référence au lieu de la renforcer.",
+   "dur": 7.696296296296296
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier reprend les 10 ventes de la capsule 2.37 et les trie : il écarte la vente atypique, sépare les biens à rénover des biens rénovés, met en avant la vente de la…",
+    "La médiane du bon groupe donne 2 650 €/m², soit 201 400 € de base pour les 76 m² de M. Bernard."
+   ],
+   "caption": "Sébastien Paumier reprend les 10 ventes de la capsule 2.37 et les trie : il écarte la vente atypique, sépare les biens à rénover des biens rénovés, met en avant la vente de la résidence Les Tilleuls et range les annonces à part. La médiane du bon groupe donne 2 650 €/m², soit 201 400 € de base pour les 76 m² de M. Bernard.",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Les 5 retraitements, dans l'ordre",
+   "items": [
+    "Écarte les ventes atypiques en écrivant pourquoi (état, étage, vente familiale ou forcée, lot avec dépendances) : ici M10, rez-de-chaussée classe G…",
+    "Sépare deux groupes d'état : « à rénover / en l'état » (M1 à M5, M9) et « rénovés ou immeuble isolé…",
+    "Mets en avant les ventes de la même résidence : M9, T4 de la résidence Les Tilleuls à 2 650 €/m², confirme…",
+    "Range les annonces dans un onglet à part : elles mesurent le prix demandé et la marge de négociation, jamais la valeur.",
+    "Applique une correction (étage, balcon, jardin) seulement si les ventes du secteur la montrent ; sinon, note l'atout en qualitatif et arrête…"
+   ],
+   "caption": "Les 5 retraitements, dans l'ordre. Écarte les ventes atypiques en écrivant pourquoi (état, étage, vente familiale ou forcée, lot avec dépendances) : ici M10, rez-de-chaussée classe G… Sépare deux groupes d'état : « à rénover / en l'état » (M1 à M5, M9) et « rénovés ou immeuble isolé… Mets en avant les ventes de la même résidence : M9, T4 de la résidence Les Tilleuls à 2 650 €/m²…",
+   "dur": 26.585185185185182
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemple rempli : groupes retraités (FICTIF)",
+   "table": {
+    "headers": [
+     "Groupe",
+     "Ventes retenues",
+     "Prix au m² classés",
+     "Médiane"
+    ],
+    "rows": [
+     [
+      "En l'état (D, E, F)",
+      "M1, M2, M3, M4, M5, M9",
+      "2 600 · 2 620 · 2 650 · 2 650 ·…",
+      "2 650 €/m²"
+     ],
+     [
+      "Rénovés ou immeuble isolé (C, D)",
+      "M6, M7, M8",
+      "2 820 · 2 850 · 2 880",
+      "2 850 €/m²"
+     ],
+     [
+      "Écartée",
+      "M10",
+      "2 000",
+      "Non retenue (atypique)"
+     ],
+     [
+      "Annonces avant négociation",
+      "A1 T4 75 m² E 214 900 € ; A2 T4 80…",
+      "2 738 · 2 848 · 2 865",
+      "2 848 €/m² (prix demandé)"
+     ]
+    ]
+   },
+   "caption": "Exemple rempli : groupes retraités (FICTIF). En l'état (D, E, F) : M1, M2, M3, M4, M5, M9 ; Rénovés ou immeuble isolé (C, D) : M6, M7, M8 ; Écartée : M10",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Valoriser",
+   "text": "Prix au m² retenu (arrondi à 50 €) = médiane du groupe comparable. Valeur de base = surface × prix au m² retenu. M. Bernard : 76 × 2 650 = 201 400 € de base en l'état, avant les ajustements prouvés (fenêtres, VMC, appels de fonds de l'isolation de façade) qui donnent la fourchette…",
+   "caption": "Valoriser. Prix au m² retenu (arrondi à 50 €) = médiane du groupe comparable. Valeur de base = surface × prix au m² retenu. M. Bernard : 76 × 2 650 = 201 400 € de base en l'état, avant les ajustements prouvés (fenêtres, VMC, appels de fonds de l'isolation de façade) qui donnent la fourchette…",
+   "dur": 19.918518518518518
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Corrections : à fixer par secteur",
+   "table": {
+    "headers": [
+     "Élément",
+     "Comment le mesurer",
+     "Valeur pour ton secteur"
+    ],
+    "rows": [
+     [
+      "Étage et ascenseur",
+      "Comparer les médianes rez-de-chaussée / étages bas / étages hauts avec ascenseur",
+      "À fixer (échantillon D12 : pas d'écart net)"
+     ],
+     [
+      "Balcon, loggia",
+      "Comparer ventes avec et sans extérieur, même époque",
+      "À fixer"
+     ],
+     [
+      "Jardin privatif",
+      "Idem, rez-de-jardin contre étage",
+      "À fixer (non concerné ici)"
+     ],
+     [
+      "Parking, cave",
+      "Ventes de lots séparés dans DVF",
+      "À fixer"
+     ]
+    ]
+   },
+   "caption": "Corrections : à fixer par secteur. Étage et ascenseur : Comparer les médianes rez-de-chaussée / étages bas / étages hauts avec ascenseur ; Balcon, loggia : Comparer ventes avec et sans extérieur, même époque ; Jardin privatif : Idem, rez-de-jardin contre étage",
+   "dur": 15.474074074074073
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Trois annonces de T3-T4 en l'état sont affichées autour de 2 850 €/m². Les ventes en l'état se sont faites à 2 650 €/m² (médiane). Comment utilises-tu les annonces ?",
+    "options": [
+     "Comme prix de référence, car elles sont plus récentes",
+     "En faisant la moyenne entre annonces et ventes",
+     "Comme repère du prix demandé : l'écart (≈ 7 %) mesure une marge de négociation indicative"
+    ],
+    "answer": 2
+   },
+   "fb": "Les annonces disent ce que les vendeurs demandent. Comparées aux ventes du même type, elles donnent une marge de négociation indicative (ici ≈ 7 % sur l'exemple fictif). Elles servent à argumenter un prix de présentation, pas à fixer la…",
+   "caption": "Trois annonces de T3-T4 en l'état sont affichées autour de 2 850 €/m². Les ventes en l'état se sont faites à 2 650 €/m² (médiane). Comment utilises-tu les annonces ?",
+   "dur": 29.466666666666665
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Retraiter les 10 ventes et arrêter un prix au m²",
+   "steps": [
+    {
+     "label": "Repère et écarte la vente atypique, avec une phrase de justification.",
+     "detail": ""
+    },
+    {
+     "label": "Classe les 9 ventes restantes en deux groupes : en l'état / rénovés ; calcule la médiane de…",
+     "detail": ""
+    },
+    {
+     "label": "Situe la vente de la résidence Les Tilleuls (M9) par rapport à la médiane du groupe en l'état.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule le prix au m² des 3 annonces, leur médiane et la marge de négociation indicative.",
+     "detail": ""
+    },
+    {
+     "label": "Décide des corrections (étage, balcon) : chiffrée si le secteur la prouve, qualitative sinon.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Retraiter les 10 ventes et arrêter un prix au m². 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Grille de retraitement remplie pour l'appartement de M. Bernard",
+   "items": [
+    "La vente atypique est écartée avec une justification écrite",
+    "Les deux groupes d'état sont séparés et leurs médianes (2 650 et 2 850 €/m²) sont…",
+    "La vente de la résidence est identifiée et commentée",
+    "Les annonces sont traitées à part, avec la marge de négociation indicative calculée",
+    "Aucune correction n'est chiffrée sans preuve de marché ; le prix au m² retenu et la…"
+   ],
+   "caption": "Ton livrable : Grille de retraitement remplie pour l'appartement de M. Bernard. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Grille de retraitement : groupes d'état, ventes de la résidence, annonces avant négociation, correction étage, balcon, jardin (valeurs à fixer par secteur)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 201.37
+}

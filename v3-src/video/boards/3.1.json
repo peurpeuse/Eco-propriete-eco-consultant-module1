@@ -1,0 +1,227 @@
+{
+ "id": "3.1",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "La méthode VERTE",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "La méthode VERTE",
+   "caption": "Capsule 3.1. La méthode VERTE",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Classer toutes les données du dossier de son bien fil rouge dans les 5 cases de la méthode VERTE (Valeur, Énergie, Rénovation, Territoire, Échéances) et repérer les cases vides avant le rendez-vous",
+   "caption": "À la fin de cette capsule : Classer toutes les données du dossier de son bien fil rouge dans les 5 cases de la méthode VERTE (Valeur, Énergie, Rénovation, Territoire, Échéances) et repérer les cases vides avant le rendez-vous",
+   "dur": 13.622222222222222
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "V, Valeur",
+   "pose": "telephone",
+   "scene": "Claire range « appels de fonds de l'isolation de façade exigibles le 1/01, 1/04, 1/07 et 1/10/2027 » dans sa grille VERTE. Dans quelle case ?",
+   "caption": "Claire range « appels de fonds de l'isolation de façade exigibles le 1/01, 1/04, 1/07 et 1/10/2027 » dans sa grille VERTE. Dans quelle case ? Mozi, lui, répondrait : « V, Valeur »",
+   "dur": 12.881481481481481
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : le montant pèse sur la valeur, mais une suite de dates est d'abord une échéance à suivre."
+   ],
+   "caption": "Faux : le montant pèse sur la valeur, mais une suite de dates est d'abord une échéance à suivre.",
+   "dur": 8.437037037037037
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Le module 2 a produit des dizaines de chiffres.",
+    "Sébastien Paumier les range en cinq cases : V comme Valeur, E comme Énergie, R comme Rénovation, T comme Territoire, E comme Échéances.",
+    "Il remplit la grille avec l'appartement de M. Bernard, montre une case vide qui aurait coûté le rendez-vous, et annonce la suite du module : un indicateur par case, puis le tableau de bord."
+   ],
+   "caption": "Le module 2 a produit des dizaines de chiffres. Sébastien Paumier les range en cinq cases : V comme Valeur, E comme Énergie, R comme Rénovation, T comme Territoire, E comme Échéances. Il remplit la grille avec l'appartement de M. Bernard, montre une case vide qui aurait coûté le rendez-vous, et annonce la suite du module : un indicateur par case, puis le tableau de bord.",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 5 cases (proposition)",
+   "table": {
+    "headers": [
+     "Lettre",
+     "Case",
+     "Question à laquelle elle répond",
+     "Capsule"
+    ],
+    "rows": [
+     [
+      "V",
+      "Valeur",
+      "Combien vaut le bien aujourd'hui, et après travaux ?",
+      "3.4"
+     ],
+     [
+      "E",
+      "Énergie",
+      "Quelle étiquette, quelle consommation, quelles émissions, avant et après ?",
+      "3.3"
+     ],
+     [
+      "R",
+      "Rénovation",
+      "Quels travaux, quel budget, quelles aides vérifiées, quel reste à charge ?",
+      "3.5"
+     ],
+     [
+      "T",
+      "Territoire",
+      "Que dit le marché local : prix, part des biens F et…",
+      "3.6"
+     ],
+     [
+      "E",
+      "Échéances",
+      "Quelles dates comptent : appels de fonds, validité du DPE, calendrier de…",
+      "3.2 et 3.7"
+     ]
+    ]
+   },
+   "caption": "Les 5 cases (proposition). V : Valeur ; E : Énergie ; R : Rénovation",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemple rempli : appartement de M. Bernard (FICTIF)",
+   "table": {
+    "headers": [
+     "Case",
+     "Données clés",
+     "Source"
+    ],
+    "rows": [
+     [
+      "V",
+      "En l'état 178 000 – 186 000 € (conclusion 181 000 €)…",
+      "Capsules 2.40 et 2.43, D12"
+     ],
+     [
+      "E",
+      "DPE 2023 : F (345 kWhEP/m²/an) ; attestation : E (285 kWhEP)…",
+      "D02, D03"
+     ],
+     [
+      "R",
+      "Privatifs 16 500 € TTC ; quote-part ITE 35 880 € …",
+      "D13, D07"
+     ],
+     [
+      "T",
+      "Médiane en l'état 2 650 €/m², rénovés 2 850 €/m² ; marge…",
+      "D12 (fictif)"
+     ],
+     [
+      "E",
+      "Appels ITE 1/01, 1/04, 1/07, 1/10/2027 ; coefficient électricité 1,7 au 1/01/2027…",
+      "D07, D03, arrêté du 19/08/2026, ecologie.gouv.fr"
+     ]
+    ]
+   },
+   "caption": "Exemple rempli : appartement de M. Bernard (FICTIF). V : En l'état 178 000 – 186 000 € (conclusion 181 000 €) ; après rénovation 216 600 € ; E : DPE 2023 : F (345 kWhEP/m²/an) ; attestation : E (285 kWhEP) ; climat C (12 kgCO₂/m²/an) ; R : Privatifs 16 500 € TTC ; quote-part ITE 35 880 € ; aides notifiées : 0 €",
+   "dur": 21.02962962962963
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Placer un bien dans VERTE en 4 gestes",
+   "items": [
+    "Liste toutes les données du dossier, une par ligne, avec leur source et leur date.",
+    "Range chaque donnée dans une seule case ; un montant va dans R ou V, une date dans E (Échéances).",
+    "Vérifie que chaque case contient au moins une donnée sourcée et datée ; une case vide devient une tâche.",
+    "Note pour chaque case la question que le vendeur posera, et la réponse en une phrase."
+   ],
+   "caption": "Placer un bien dans VERTE en 4 gestes. Liste toutes les données du dossier, une par ligne, avec leur source et leur date. Range chaque donnée dans une seule case ; un montant va dans R ou V, une date dans E (Échéances). Vérifie que chaque case contient au moins une donnée sourcée et datée ; une case vide devient une tâche. Note pour chaque case la question que le…",
+   "dur": 26.585185185185182
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire au vendeur",
+   "text": "« Je vais vous présenter votre bien en cinq points : sa valeur, son énergie, les travaux possibles, ce que dit le marché de votre quartier et les dates qui comptent. Chaque chiffre aura sa source. »",
+   "caption": "La phrase à dire au vendeur. « Je vais vous présenter votre bien en cinq points : sa valeur, son énergie, les travaux possibles, ce que dit le marché de votre quartier et les dates qui comptent. Chaque chiffre aura sa source. »",
+   "dur": 16.21481481481481
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Karim arrive au rendez-vous de M. Bernard avec la valeur, l'étiquette et le budget travaux, mais sans aucune donnée sur le marché local. Quelle case est vide ?",
+    "options": [
+     "T, Territoire : prix au m² du secteur, part des biens F et G, délais, négociation",
+     "R, Rénovation",
+     "E, Énergie"
+    ],
+    "answer": 0
+   },
+   "fb": "La grille sert d'abord de contrôle : chaque case doit contenir au moins un chiffre sourcé et daté. Une case T vide, c'est un vendeur qui demande « et dans mon quartier ? » sans réponse.",
+   "caption": "Karim arrive au rendez-vous de M. Bernard avec la valeur, l'étiquette et le budget travaux, mais sans aucune donnée sur le marché local. Quelle case est vide ?",
+   "dur": 26.133333333333333
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Placer son bien fil rouge dans V-E-R-T-E",
+   "steps": [
+    {
+     "label": "Liste au moins 15 données de ton dossier, chacune avec sa source et sa date.",
+     "detail": ""
+    },
+    {
+     "label": "Range chaque donnée dans une case V, E, R, T ou E.",
+     "detail": ""
+    },
+    {
+     "label": "Repère les cases vides ou faibles et écris ce qu'il faut aller chercher.",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque case, écris la question probable du vendeur et ta réponse en une phrase.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis la case qui sera ton argument principal au rendez-vous et dis pourquoi.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Placer son bien fil rouge dans V-E-R-T-E. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Grille VERTE de son bien fil rouge",
+   "items": [
+    "Les 5 cases sont remplies, chacune avec au moins 2 données",
+    "Chaque donnée a une source et une date",
+    "Les montants et les dates sont rangés dans la bonne case",
+    "Les cases faibles sont repérées avec une action pour les compléter",
+    "La case argument principal est choisie et justifiée"
+   ],
+   "caption": "Ton livrable : Grille VERTE de son bien fil rouge. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche méthode VERTE",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 192.85
+}

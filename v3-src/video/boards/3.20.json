@@ -1,0 +1,193 @@
+{
+ "id": "3.20",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Les quatre phrases avec preuve",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Les quatre phrases avec preuve",
+   "caption": "Capsule 3.20. Les quatre phrases avec preuve",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Écrire quatre phrases courtes sur le bien, chacune avec un chiffre, la pièce qui le prouve et sa limite, et les dire au vendeur sans notes",
+   "caption": "À la fin de cette capsule : Écrire quatre phrases courtes sur le bien, chacune avec un chiffre, la pièce qui le prouve et sa limite, et les dire au vendeur sans notes",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Votre appartement est très bien placé, il partira vite.",
+   "pose": "sur-de-lui",
+   "scene": "Laquelle de ces phrases respecte le modèle « affirmation, chiffre, preuve, limite » ?",
+   "caption": "Laquelle de ces phrases respecte le modèle « affirmation, chiffre, preuve, limite » ? Mozi, lui, répondrait : « Votre appartement est très bien placé, il partira vite. »",
+   "dur": 8.807407407407407
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : aucun chiffre, aucune pièce, et une promesse de délai."
+   ],
+   "caption": "Faux : aucun chiffre, aucune pièce, et une promesse de délai.",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier résume tout le dossier de M. Bernard en quatre phrases : l'étiquette, la valeur, le coût pour l'acheteur, la copropriété.",
+    "Chaque phrase suit la même règle : une affirmation, un chiffre, une pièce posée sur la table, une limite.",
+    "Il montre comment les dire en moins d'une minute, et comment répondre quand le vendeur demande « d'où ça sort ?",
+    "»."
+   ],
+   "caption": "Sébastien Paumier résume tout le dossier de M. Bernard en quatre phrases : l'étiquette, la valeur, le coût pour l'acheteur, la copropriété. Chaque phrase suit la même règle : une affirmation, un chiffre, une pièce posée sur la table, une limite. Il montre comment les dire en moins d'une minute, et comment répondre quand le vendeur demande « d'où ça sort ? ».",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "La structure d'une phrase avec preuve",
+   "text": "Phrase = affirmation courte + un chiffre + la pièce qui le prouve (code du dossier) + sa limite. Exemple de gabarit : « [Affirmation] : [chiffre] — voici [pièce], [date] ; [ce que ce chiffre ne dit pas]. » Une phrase dépasse rarement 30 mots à l'oral.",
+   "caption": "La structure d'une phrase avec preuve. Phrase = affirmation courte + un chiffre + la pièce qui le prouve (code du dossier) + sa limite. Exemple de gabarit : « [Affirmation] : [chiffre] — voici [pièce], [date] ; [ce que ce chiffre ne dit pas]. » Une phrase dépasse rarement 30 mots à l'oral.",
+   "dur": 18.437037037037033
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les quatre phrases proposées (M. Bernard)",
+   "table": {
+    "headers": [
+     "Thème",
+     "Phrase à dire",
+     "Preuve",
+     "Limite"
+    ],
+    "rows": [
+     [
+      "1. L'étiquette",
+      "« Votre logement est classé E, pas F. »",
+      "D03 Attestation ADEME, valable jusqu'au 13/03/2033",
+      "Étiquette conventionnelle, pas votre facture"
+     ],
+     [
+      "2. La valeur",
+      "« Les ventes comparables en l'état sont à 2 650 €/m² …",
+      "D12 Comparables 2025-2026",
+      "Ventes passées : pas une garantie de prix"
+     ],
+     [
+      "3. Le coût pour l'acheteur",
+      "« Un acheteur saura exactement ce qu'il dépense : 16 500 €…",
+      "D13 Devis des travaux privatifs",
+      "Prix indicatifs, à valider localement"
+     ],
+     [
+      "4. La copropriété",
+      "« La façade est votée et chiffrée : 35 880 € pour…",
+      "D07 PV d'AG du 12/06/2025",
+      "Aide de la copropriété non notifiée, non chiffrée"
+     ]
+    ]
+   },
+   "caption": "Les quatre phrases proposées (M. Bernard). 1. L'étiquette : « Votre logement est classé E, pas F. » ; 2. La valeur : « Les ventes comparables en l'état sont à 2 650 €/m² : votre fourchette va de 178 000 à 186 000 € net. » ; 3. Le coût pour l'acheteur : « Un acheteur saura exactement ce qu'il dépense : 16 500 € de travaux chiffrés. »",
+   "dur": 23.25185185185185
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Écrire tes quatre phrases en 4 étapes",
+   "items": [
+    "Repère dans le dossier les quatre sujets qui inquiètent le vendeur ou l'acheteur.",
+    "Pour chacun, choisis un seul chiffre, celui qui répond à l'inquiétude.",
+    "Note la pièce qui le prouve et sa date ; si tu n'as pas de pièce, tu n'as pas de phrase.",
+    "Ajoute la limite en quelques mots, puis lis la phrase à voix haute : moins de 30 mots, sans jargon."
+   ],
+   "caption": "Écrire tes quatre phrases en 4 étapes. Repère dans le dossier les quatre sujets qui inquiètent le vendeur ou l'acheteur. Pour chacun, choisis un seul chiffre, celui qui répond à l'inquiétude. Note la pièce qui le prouve et sa date ; si tu n'as pas de pièce, tu n'as pas de phrase. Ajoute la limite en quelques mots, puis lis la phrase à voix haute : moins de 30 mots…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Quand le vendeur demande « d'où ça sort ? »",
+   "items": [
+    "« Voici la pièce. Prenez le temps de la lire. »",
+    "« Je ne sais pas encore : je vérifie et je vous écris demain. »",
+    "« Ce chiffre a une limite, je préfère vous la dire : … »"
+   ],
+   "caption": "Quand le vendeur demande « d'où ça sort ? ». « Voici la pièce. Prenez le temps de la lire. » « Je ne sais pas encore : je vérifie et je vous écris demain. » « Ce chiffre a une limite, je préfère vous la dire : … »",
+   "dur": 15.844444444444443
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "M. Bernard t'interrompt : « Et vos 2 650 €/m², ça sort d'où ? » Que fais-tu ?",
+    "options": [
+     "Tu poses le tableau D12 sur la table et tu lui montres les ventes comparables, leur date et leur état",
+     "Tu réponds : « De mon expérience du secteur, croyez-moi. »",
+     "Tu passes à la phrase suivante pour ne pas perdre le fil"
+    ],
+    "answer": 0
+   },
+   "fb": "Pour chaque phrase, tu sais quelle pièce sortir : D03 pour l'étiquette, D12 pour la valeur, D13 pour les travaux, D07 pour la copropriété. Une preuve se montre, elle ne se raconte pas.",
+   "caption": "M. Bernard t'interrompt : « Et vos 2 650 €/m², ça sort d'où ? » Que fais-tu ?",
+   "dur": 20.94814814814815
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Écrire ses 4 phrases, une preuve pour chacune",
+   "steps": [
+    {
+     "label": "Choisis les quatre thèmes de tes phrases (le modèle propose : étiquette, valeur, coût pour l'acheteur, copropriété).",
+     "detail": ""
+    },
+    {
+     "label": "Écris chaque phrase : affirmation, un chiffre exact du dossier, la pièce, sa date.",
+     "detail": ""
+    },
+    {
+     "label": "Ajoute à chaque phrase sa limite en quelques mots.",
+     "detail": ""
+    },
+    {
+     "label": "Relis : supprime toute promesse de prix, de délai ou de classe, et tout mot de jargon.",
+     "detail": ""
+    },
+    {
+     "label": "Enregistre-toi en disant les quatre phrases d'affilée, en moins d'une minute.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Écrire ses 4 phrases, une preuve pour chacune. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Mes 4 phrases avec preuve pour M. Bernard",
+   "items": [
+    "Les quatre phrases suivent la structure affirmation, chiffre, preuve, limite",
+    "Chaque chiffre est identique au dossier (classe E, 2 650 €/m², 178 000 – 186 000…",
+    "Chaque phrase cite une pièce par son code (D03, D07, D12, D13) et sa date quand…",
+    "Aucune phrase ne promet un prix, un délai ou une classe, ni ne parle des autres…",
+    "L'enregistrement dure moins d'une minute, sans lecture"
+   ],
+   "caption": "Ton livrable : Mes 4 phrases avec preuve pour M. Bernard. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèle des phrases",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 192.85
+}

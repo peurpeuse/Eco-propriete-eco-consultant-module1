@@ -1,0 +1,197 @@
+{
+ "id": "1.10",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Choisir sa cible selon le problème du vendeur",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 1.10 : choisir sa cible selon le problème du vendeur",
+   "caption": "Bienvenue. Dans ce chapitre, tu vas choisir à qui tu parles, en partant de son problème.",
+   "cta": "Commencer",
+   "dur": 7.33
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi un vendeur ne répond qu'à son propre problème"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "choisir 3 situations dans la bibliothèque des 6 angles"
+    },
+    {
+     "verb": "Prouver",
+     "text": "écrire 3 offres ciblées : problème, proposition, preuve"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Ma cible ? Tout le monde, et même les pigeons du parc !",
+   "caption": "Ma cible ? Tout le monde : les vendeurs, les acheteurs, les locataires, et même les pigeons du parc !",
+   "line": "Ma cible ? Tout le monde : les vendeurs, les acheteurs, les locataires, et même les pigeons du parc !",
+   "scene": "Mozi tend le même flyer à un pigeon, à un enfant sur un toboggan et à une statue du square.",
+   "pose": "base",
+   "dur": 7.7
+  },
+  {
+   "kind": "belief",
+   "title": "Un flyer, pour tous, chacun s'y reconnaît",
+   "caption": "Un seul flyer. Pour tous les vendeurs. Et chacun s'y reconnaît.",
+   "beats": [
+    "Un seul flyer",
+    "pour tous les vendeurs",
+    "chacun s'y reconnaît"
+   ],
+   "wrong": 2,
+   "why": "Un vendeur ne se reconnaît que dans son propre problème : un héritier, un bailleur et Mme Garnier n'ont pas la même question.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Le bailleur passe son chemin",
+   "caption": "Un bailleur dont le logement est classé G ne peut plus le proposer à un nouveau bail depuis 2025. Le flyer de Mozi lui parle de prix. Il le jette.",
+   "lines": [
+    "Logement G : plus de nouveau bail depuis le 1er janvier 2025.",
+    "Le flyer parle de prix. Le bailleur le jette."
+   ],
+   "dur": 12.51
+  },
+  {
+   "kind": "stat",
+   "title": "3,9 millions de passoires énergétiques",
+   "caption": "Trois virgule neuf millions. C'est le nombre de résidences principales classées F ou G au 1er janvier 2025. Autant de propriétaires avec un problème précis.",
+   "value": "3,9 millions",
+   "label": "de résidences principales classées F ou G au 1er janvier 2025, soit 12,7 % du parc",
+   "dur": 11.03
+  },
+  {
+   "kind": "steps",
+   "title": "Problème → Proposition → Preuve",
+   "caption": "Une cible, ce n'est pas un âge ou un quartier. C'est un problème. D'abord, nomme le problème du vendeur en une phrase : une maison classée G, des travaux votés en copropriété, un héritage, un bailleur bloqué, un bien qui ne se vend pas. Ensuite, dis ce que tu proposes, toi, éco-consultant : lire ses documents, chiffrer avec des pros, bâtir un plan de vente. Sans vendre de travaux. Enfin, apporte une preuve qu'il peut vérifier : un document, une règle officielle, une observation. Le vendeur doit se dire : il parle de moi.",
+   "steps": [
+    {
+     "label": "Problème",
+     "detail": "Nomme en une phrase ce qui bloque la vente de ce vendeur."
+    },
+    {
+     "label": "Proposition",
+     "detail": "Dis ce que tu fais pour lui, sans vendre de travaux ni promettre de prix."
+    },
+    {
+     "label": "Preuve",
+     "detail": "Apporte un élément qu'il peut vérifier : document, règle, observation."
+    }
+   ],
+   "dur": 36.59
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Karim reçoit un héritier qui ne connaît pas la maison de sa mère, classée G. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Un héritier vient voir Karim : il a hérité de la maison de sa mère, classée G, à 400 km de chez lui. Il ne sait ni ce qu'il doit fournir, ni s'il faut faire des travaux. Écris l'offre de Karim en trois lignes : problème, proposition, preuve.",
+   "model_answer": "Problème : vendre à distance une maison G qu'il connaît mal, sans oublier une obligation. Proposition : je fais le point sur le DPE et l'audit énergétique, je fais chiffrer les travaux par des pros, puis on fixe ensemble un prix argumenté. Preuve : pour vendre une maison classée G, l'audit énergétique est obligatoire ; je vous montre la fiche Service-Public.",
+   "dur": 42.74
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle erreur Mozi commet-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle erreur Mozi commet-il ?",
+   "card1": {
+    "question": "Quelle erreur Mozi commet-il ?",
+    "options": [
+     "Il prospecte trop de quartiers à la fois",
+     "Il parle à tous avec le même message, sans partir du problème du vendeur",
+     "Aucune : plus le message est large, plus il touche de vendeurs"
+    ],
+    "answer": 1,
+    "feedback": "Un message pour tout le monde ne parle à personne. Le vendeur répond quand il reconnaît son problème : une maison G, des travaux votés, un héritage, un bail impossible.",
+    "whys": [
+     "Pas l'essentiel : même sur un seul quartier, un flyer qui parle à tous ne parle à personne.",
+     "Exact : il ne part d'aucun problème, donc aucun vendeur ne se reconnaît.",
+     "Faux : un message large est lu vite et oublié ; c'est le problème précis qui fait appeler."
+    ]
+   },
+   "card2": {
+    "question": "S'il parlait au bailleur d'un logement G de son vrai problème, que se passerait-il ?",
+    "answer": "Le bailleur se reconnaîtrait : il ne peut plus proposer ce logement à un nouveau bail. Il appellerait pour savoir s'il vaut mieux vendre en l'état ou après travaux. Mozi aurait un rendez-vous au lieu d'un flyer jeté."
+   },
+   "fb": "Un message pour tout le monde ne parle à personne. Le vendeur répond quand il reconnaît son problème : une maison G, des travaux votés, un héritage, un bail impossible.",
+   "dur": 17.99
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : parler à chaque vendeur de son problème. La bibliothèque des six angles, et le modèle d'offre ciblée.",
+   "goal": "Parler à chaque vendeur de son problème",
+   "tools": [
+    {
+     "name": "Bibliothèque des 6 angles",
+     "role": "Repérer le profil et le problème de chaque vendeur"
+    },
+    {
+     "name": "Modèle d'offre ciblée",
+     "role": "Écrire problème, proposition et preuve en trois lignes"
+    }
+   ],
+   "dur": 9.92
+  },
+  {
+   "kind": "demo",
+   "title": "La bibliothèque : lire, choisir, noter",
+   "caption": "Dans la bibliothèque, tu lis les six angles : maison F ou G, copropriété, héritier, bailleur, logement D ou C, bien qui ne se vend pas. Tu choisis trois situations de ton secteur. Tu notes le problème de chacune en une phrase.",
+   "steps": [
+    "Lire : les 6 angles vendeurs",
+    "Choisir : 3 situations de ton secteur",
+    "Noter : le problème en une phrase"
+   ],
+   "tool": "Bibliothèque des 6 angles",
+   "dur": 16.59
+  },
+  {
+   "kind": "demo",
+   "title": "L'offre ciblée : Mme Garnier",
+   "caption": "Exemple avec Mme Garnier. Problème : une agence lui a dit que sa maison classée G était invendable. Proposition : lire avec elle l'audit et ses deux parcours de travaux. Preuve : l'audit montre un chemin chiffré vers la classe C.",
+   "steps": [
+    "Problème : maison G, dite « invendable »",
+    "Proposition : lire l'audit et ses 2 parcours",
+    "Preuve : audit M03, chemin chiffré vers C"
+   ],
+   "tool": "Modèle d'offre ciblée",
+   "dur": 16.21
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Choisis tes trois situations maintenant.",
+   "cta": "Ouvrir la bibliothèque des angles",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi tes trois offres ciblées.",
+   "ask": "Dépose une capture de tes 3 offres ciblées : pour chacune des 3 situations choisies dans la bibliothèque, le problème, la proposition et la preuve.",
+   "dur": 3.62
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Tu ne parles plus à tout le monde : tu parles à trois vendeurs précis, de leur problème.",
+   "status": "Tes offres : 3 problèmes précis, 3 preuves. Le flyer de Mozi : un message pour personne.",
+   "dur": 8.07
+  }
+ ],
+ "total": 205.42
+}

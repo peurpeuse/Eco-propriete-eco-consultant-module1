@@ -1,0 +1,221 @@
+{
+ "id": "1.17",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Communiquer : message clé et plan de communication",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Communiquer : message clé et plan de communication",
+   "caption": "Capsule 1.17. Communiquer : message clé et plan de communication",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Écrire son message clé en 20 mots maximum (cible, problème, promesse) et choisir 2 canaux prioritaires justifiés par sa cible, avec un rythme et un indicateur pour chacun",
+   "caption": "À la fin de cette capsule : Écrire son message clé en 20 mots maximum (cible, problème, promesse) et choisir 2 canaux prioritaires justifiés par sa cible, avec un rythme et un indicateur pour chacun",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Agence dynamique et à votre écoute depuis 20 ans, nous vendons tous types de biens.",
+   "pose": "presse",
+   "scene": "Lequel de ces textes est un message clé utilisable ?",
+   "caption": "Lequel de ces textes est un message clé utilisable ? Mozi, lui, répondrait : « Agence dynamique et à votre écoute depuis 20 ans, nous vendons tous types de biens. »",
+   "dur": 10.288888888888888
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Il parle de l'agence et de tous les biens : aucune cible, aucun problème, rien qu'un vendeur puisse retenir."
+   ],
+   "caption": "Il parle de l'agence et de tous les biens : aucune cible, aucun problème, rien qu'un vendeur puisse retenir.",
+   "dur": 8.807407407407407
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Être partout, c'est n'être nulle part.",
+    "Sébastien Paumier montre comment passer de la promesse (capsule 1.11) à un message clé de 20 mots, répété à l'identique partout, puis comment choisir deux canaux seulement selon l'endroit où se renseigne ta cible…"
+   ],
+   "caption": "Être partout, c'est n'être nulle part. Sébastien Paumier montre comment passer de la promesse (capsule 1.11) à un message clé de 20 mots, répété à l'identique partout, puis comment choisir deux canaux seulement selon l'endroit où se renseigne ta cible : fiche Google, Facebook local, LinkedIn pour les prescripteurs, boîtage, partenaires.",
+   "dur": 21.77037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Le message clé",
+   "text": "Message clé = cible + problème (ou bénéfice) + promesse vérifiable, en 20 mots maximum. Exemple : « Vendre votre logement ancien au juste prix : DPE vérifié, valeur prouvée par les ventes réelles. » (15 mots)",
+   "caption": "Le message clé. Message clé = cible + problème (ou bénéfice) + promesse vérifiable, en 20 mots maximum. Exemple : « Vendre votre logement ancien au juste prix : DPE vérifié, valeur prouvée par les ventes réelles. » (15 mots)",
+   "dur": 13.622222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Le plan sur une page",
+   "table": {
+    "headers": [
+     "Rubrique",
+     "Ce que tu écris",
+     "Exemple (agent à Melun, fictif)"
+    ],
+    "rows": [
+     [
+      "Objectif",
+      "Un résultat chiffré sur 30 jours",
+      "10 demandes de propriétaires, 4 rendez-vous R1"
+     ],
+     [
+      "Cible",
+      "Repris de ta fiche cible (1.7) et de tes angles (1.10)",
+      "Propriétaires d'appartements en copropriété des années 1960-1980"
+     ],
+     [
+      "Message clé",
+      "20 mots maximum, identique partout",
+      "« Vendre votre logement ancien au juste prix : DPE vérifié, valeur…"
+     ],
+     [
+      "Canal 1",
+      "Où ta cible se renseigne, rythme, responsable",
+      "Fiche Google : 1 post par semaine, réponse à chaque avis"
+     ],
+     [
+      "Canal 2",
+      "Deuxième canal, rythme",
+      "Boîtage ciblé de 300 flyers par mois avec QR code, rues de…"
+     ]
+    ]
+   },
+   "caption": "Le plan sur une page. Objectif : Un résultat chiffré sur 30 jours ; Cible : Repris de ta fiche cible (1.7) et de tes angles (1.10) ; Message clé : 20 mots maximum, identique partout",
+   "dur": 13.622222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Quel canal pour quelle cible",
+   "table": {
+    "headers": [
+     "Canal",
+     "Pour qui",
+     "Règle à connaître"
+    ],
+    "rows": [
+     [
+      "Fiche Google",
+      "Tout propriétaire qui cherche une agence près de chez lui",
+      "Nom réel, avis sans contrepartie (capsule 1.18)"
+     ],
+     [
+      "Facebook local",
+      "Habitants actifs dans les groupes de ville",
+      "Règles des groupes, catégorie Logement pour la publicité (1.18)"
+     ],
+     [
+      "LinkedIn",
+      "Prescripteurs : notaires, syndics, courtiers, artisans",
+      "Aucune automatisation (1.18)"
+     ],
+     [
+      "Boîtage et flyer",
+      "Rues ciblées, publics moins connectés",
+      "Respect du « Stop Pub » (1.20)"
+     ],
+     [
+      "E-mail ou SMS",
+      "Contacts qui ont donné leur consentement",
+      "Consentement préalable envers les particuliers (1.22)"
+     ]
+    ]
+   },
+   "caption": "Quel canal pour quelle cible. Fiche Google : Tout propriétaire qui cherche une agence près de chez lui ; Facebook local : Habitants actifs dans les groupes de ville ; LinkedIn : Prescripteurs : notaires, syndics, courtiers, artisans",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Avant de lancer",
+   "items": [
+    "Le message clé est identique sur tous tes supports.",
+    "Chaque canal a un rythme que tu peux tenir 30 jours.",
+    "Chaque canal a son propre lien ou QR code pour mesurer.",
+    "Aucun canal ne repose sur un contact non consenti.",
+    "La date du bilan est dans ton agenda."
+   ],
+   "caption": "Avant de lancer. Le message clé est identique sur tous tes supports. Chaque canal a un rythme que tu peux tenir 30 jours. Chaque canal a son propre lien ou QR code pour mesurer. Aucun canal ne repose sur un contact non consenti. La date du bilan est dans ton agenda.",
+   "dur": 20.288888888888888
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Ta cible : des propriétaires de maisons des années 1960-1980, plutôt âgés, dans trois communes. Quels 2 canaux prioritaires choisis-tu ?",
+    "options": [
+     "TikTok et LinkedIn",
+     "Une campagne d'e-mails achetés et des appels à froid",
+     "Ta fiche Google et un boîtage ciblé dans les rues de maisons, avec un QR code"
+    ],
+    "answer": 2
+   },
+   "fb": "Pars de l'endroit où ta cible se renseigne avant de choisir une agence. Deux canaux tenus chaque semaine valent mieux que six abandonnés au bout d'un mois. Les règles de chaque canal sont détaillées en 1.18, 1.20 et 1.22.",
+   "caption": "Ta cible : des propriétaires de maisons des années 1960-1980, plutôt âgés, dans trois communes. Quels 2 canaux prioritaires choisis-tu ?",
+   "dur": 26.87407407407407
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Mon message clé et mes 2 canaux prioritaires",
+   "steps": [
+    {
+     "label": "Écris trois versions de ton message clé, puis garde la plus claire (20 mots maximum).",
+     "detail": ""
+    },
+    {
+     "label": "Teste-la sur une personne extérieure : peut-elle redire qui tu aides et ce que tu promets ?",
+     "detail": ""
+    },
+    {
+     "label": "Liste 3 endroits où ta cible se renseigne avant de choisir une agence.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis 2 canaux parmi eux et justifie chacun en une phrase.",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque canal : rythme, responsable, indicateur, objectif à 30 jours.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Mon message clé et mes 2 canaux prioritaires. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Mon message clé et mon plan de communication",
+   "items": [
+    "Le message clé fait 20 mots maximum et contient une cible et une promesse vérifiable",
+    "Exactement 2 canaux prioritaires, chacun justifié par la cible",
+    "Un rythme tenable et un indicateur de résultat (demandes ou rendez-vous) par canal",
+    "Aucun canal fondé sur un contact sans consentement",
+    "Une date de bilan à 30 jours"
+   ],
+   "caption": "Ton livrable : Mon message clé et mon plan de communication. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèle de plan de communication",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 177.4
+}

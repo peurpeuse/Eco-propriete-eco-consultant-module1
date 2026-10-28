@@ -1,0 +1,199 @@
+{
+ "id": "1.11",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Ma promesse : ce que je fais, ce que je ne fais pas",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 1.11 : promettre juste",
+   "caption": "Bienvenue. Dans ce chapitre, tu écris ta promesse : ce que tu fais pour un vendeur, et ce que tu ne fais pas.",
+   "cta": "Commencer",
+   "dur": 9.55
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi une promesse crédible dit aussi ce que tu ne fais pas"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "écrire ta promesse en trois phrases : je vérifie, je remets par écrit, je renvoie"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ta promesse et sa version pour M. Bernard en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+   "caption": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+   "line": "Une lettre F ? Moins quinze pour cent, et je n'ouvre même pas le DPE !",
+   "scene": "Mozi lit le DPE à travers la porte vitrée et colle un autocollant « −15 % » sur la sonnette.",
+   "pose": "clin-oeil",
+   "dur": 6.96
+  },
+  {
+   "kind": "belief",
+   "title": "1 lettre, −15 %, 0 page lue",
+   "caption": "Une lettre, moins quinze pour cent, zéro page lue.",
+   "beats": [
+    "1 lettre",
+    "−15 %",
+    "0 page lue"
+   ],
+   "wrong": 2,
+   "why": "Sans lire le DPE, tu rates la vraie classe : c'est E, pas F.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "La lettre a changé. Le −15 % sort de nulle part.",
+   "caption": "Problème : depuis 2026, l'appartement de M. Bernard est classé E, plus F. Et ce moins quinze pour cent n'a ni région, ni année, ni source.",
+   "lines": [
+    "La lettre a changé : c'est E.",
+    "Le −15 % : ni région, ni année, ni source."
+   ],
+   "dur": 11.4
+  },
+  {
+   "kind": "stat",
+   "title": "≈ 15 % des ventes sont des F ou G",
+   "caption": "Et pourtant, les logements classés F ou G représentaient environ quinze pour cent des ventes de l'ancien début 2025. Ils se vendent.",
+   "value": "≈ 15 %",
+   "label": "des ventes de l'ancien concernaient des logements F ou G début 2025",
+   "dur": 9.92
+  },
+  {
+   "kind": "steps",
+   "title": "Je vérifie → J'écris → Je renvoie",
+   "caption": "Ta promesse tient en trois phrases. Un, je vérifie. Je lis le DPE, ses deux notes, et je contrôle l'étiquette en vigueur. Chez M. Bernard : coefficient un virgule neuf, deux cent quatre-vingt-cinq, classe E, prouvée par l'attestation de l'ADEME. Deux, je remets par écrit. Une valeur tirée des ventes réelles du secteur, des travaux chiffrés par devis, et le mandat avant toute mission. Le calcul de la valeur verte, tu l'as vu en capsule 1.2. Trois, je renvoie. Je ne vends pas de travaux, je ne touche aucune commission dessus, je ne choisis pas l'artisan à la place du vendeur. Je ne fais ni conseil fiscal ni conseil juridique : c'est le rôle du notaire, de l'expert-comptable, du diagnostiqueur. Et je ne promets ni prix, ni gain, ni classe.",
+   "steps": [
+    {
+     "label": "Je vérifie",
+     "detail": "Deux notes, la moins bonne fixe la classe ; coefficient 1,9 : 285, classe E, prouvée par l'attestation ADEME."
+    },
+    {
+     "label": "J'écris",
+     "detail": "Une valeur tirée des ventes réelles et des devis ; le mandat écrit avant toute mission."
+    },
+    {
+     "label": "Je renvoie",
+     "detail": "Ni travaux vendus, ni commission, ni conseil fiscal ou juridique : notaire, expert-comptable, diagnostiqueur."
+    }
+   ],
+   "dur": 52.88
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? Écris ou dicte ta réponse.",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard te demande : « Vous me garantissez 205 000 € ? Et vous m'envoyez votre menuisier pour les fenêtres ? » Que lui réponds-tu, en restant dans ta promesse ?",
+   "model_answer": "Je ne garantis aucun prix : je vous remets par écrit une valeur fondée sur les ventes réelles de Melun et sur votre classe vérifiée, E. Pour les fenêtres, je vous indique où trouver des artisans qualifiés, je vous aide à comparer leurs devis, mais c'est vous qui choisissez, et je ne touche rien dessus.",
+   "dur": 32.37
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Pas de décote forfaitaire : la valeur verte se cite avec la région, le type de bien, l'année des ventes et la classe de référence",
+     "La loi fixe à 15 % la décote d'un logement classé F",
+     "Aucune : seule la lettre en haut du DPE compte"
+    ],
+    "answer": 0,
+    "feedback": "Il n'existe pas de « −15 % » valable partout. Les Notaires mesurent un écart qui varie selon la région, le type de bien et l'année. Et avant tout chiffre, on vérifie l'étiquette en vigueur.",
+    "whys": [
+     "Exact : sans ses quatre repères, un pourcentage n'est pas une information, c'est une rumeur.",
+     "Faux : aucun texte ne fixe une décote par classe. Le prix se fonde sur les ventes réelles.",
+     "Faux : la lettre peut être dépassée (coefficient 1,9 depuis 2026) et elle ne dit rien du coût des travaux."
+    ]
+   },
+   "card2": {
+    "question": "Un menuisier propose à Sarah 10 % sur chaque chantier qu'elle lui envoie. Si elle acceptait sans rien dire, que se passerait-il ?",
+    "answer": "Son conseil sur les fenêtres deviendrait suspect : elle aurait intérêt à pousser des travaux. Le code de déontologie des agents immobiliers impose la transparence sur les conflits d'intérêts, et la promesse d'éco-consultant exclut toute commission sur les travaux. Elle donne plusieurs noms, le vendeur choisit."
+   },
+   "fb": "Il n'existe pas de « −15 % » valable partout. Les Notaires mesurent un écart qui varie selon la région, le type de bien et l'année. Et avant tout chiffre, on vérifie l'étiquette en vigueur.",
+   "dur": 20.21
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : une promesse vérifiable. L'attestation de l'ADEME prouve ce que tu fais. Ta fiche rôle et limites dit ce que tu ne fais pas.",
+   "goal": "Une promesse vérifiable, avec ses limites",
+   "tools": [
+    {
+     "name": "Attestation actualisée ADEME",
+     "role": "Prouver l'étiquette en vigueur, gratuitement"
+    },
+    {
+     "name": "Ta fiche rôle et limites",
+     "role": "Dire ce que tu ne fais pas, et à qui tu renvoies"
+    }
+   ],
+   "dur": 12.51
+  },
+  {
+   "kind": "demo",
+   "title": "ADEME : relever, télécharger, dater",
+   "caption": "Sur l'observatoire de l'ADEME : tu relèves le numéro du DPE, treize caractères en haut de la première page. Tu télécharges l'attestation actualisée, sans nouvelle visite. Classe E, valable jusqu'au treize mars 2033.",
+   "steps": [
+    "Relever le numéro ADEME : 13 caractères en haut du DPE",
+    "Ouvrir l'observatoire DPE-Audit de l'ADEME",
+    "Télécharger l'attestation actualisée : classe E",
+    "Noter la validité : jusqu'au 13/03/2033"
+   ],
+   "tool": "Attestation actualisée ADEME",
+   "dur": 14.73
+  },
+  {
+   "kind": "demo",
+   "title": "Promesse : vérifier, écrire, renvoyer, refuser",
+   "caption": "Puis ta fiche rôle et limites. Première phrase : je vérifie l'étiquette, preuve à l'appui. Deuxième : je remets par écrit la valeur, les devis et le mandat. Troisième : je renvoie au notaire, à l'expert-comptable, au diagnostiqueur. Et tu notes ce que tu refuses.",
+   "steps": [
+    "Je vérifie : l'étiquette en vigueur, preuve à l'appui",
+    "J'écris : valeur, devis et mandat avant toute mission",
+    "Je renvoie : notaire, expert-comptable, diagnostiqueur",
+    "Je refuse : prix garanti, commission, choix de l'artisan"
+   ],
+   "tool": "Ta fiche rôle et limites",
+   "dur": 18.44
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Écris ta promesse maintenant.",
+   "cta": "Écrire ma promesse en 3 phrases",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ta promesse en trois phrases.",
+   "ask": "Dépose une photo de ta promesse en trois phrases (je vérifie, je remets par écrit, je renvoie), avec sa version pour M. Bernard.",
+   "dur": 3.99
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Ta promesse dit ce que tu fais et ce que tu ne fais pas. Celle de Mozi annonçait moins quinze pour cent, sans avoir lu une page.",
+   "status": "Ta promesse : 3 phrases, des limites claires. Celle de Mozi : −15 %, 0 page lue.",
+   "dur": 11.4
+  }
+ ],
+ "total": 219.48
+}

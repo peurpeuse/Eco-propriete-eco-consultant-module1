@@ -1,0 +1,206 @@
+{
+ "id": "2.5",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Selon l'âge du bien : plomb, amiante, électricité, gaz",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Selon l'âge du bien : plomb, amiante, électricité, gaz",
+   "caption": "Capsule 2.5. Selon l'âge du bien : plomb, amiante, électricité, gaz",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Dater un bien (construction, permis de construire, installations) et en déduire sans erreur les diagnostics plomb, amiante, électricité et gaz exigés, avec leur validité",
+   "caption": "À la fin de cette capsule : Dater un bien (construction, permis de construire, installations) et en déduire sans erreur les diagnostics plomb, amiante, électricité et gaz exigés, avec leur validité",
+   "dur": 10.288888888888888
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "L'amiante",
+   "pose": "bof",
+   "scene": "La maison de Mme Garnier a été construite en 1968 (permis de 1967). Quel diagnostic lié à l'âge ne lui faut-il PAS ?",
+   "caption": "La maison de Mme Garnier a été construite en 1968 (permis de 1967). Quel diagnostic lié à l'âge ne lui faut-il PAS ? Mozi, lui, répondrait : « L'amiante »",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : permis délivré avant le 1/07/1997, l'amiante est exigé (et des plaques en fibrociment ont été repérées)."
+   ],
+   "caption": "Faux : permis délivré avant le 1/07/1997, l'amiante est exigé (et des plaques en fibrociment ont été repérées).",
+   "dur": 8.807407407407407
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Quatre diagnostics dépendent de dates : 1949 pour le plomb, le 1er juillet 1997 pour l'amiante, 15 ans pour les installations électriques et gaz.",
+    "Sébastien Paumier montre où trouver chaque date (titre de propriété, permis, factures, tableau électrique) et applique l'arbre de décision à l'appartement de M. Bernard, puis à la maison de Mme Garnier."
+   ],
+   "caption": "Quatre diagnostics dépendent de dates : 1949 pour le plomb, le 1er juillet 1997 pour l'amiante, 15 ans pour les installations électriques et gaz. Sébastien Paumier montre où trouver chaque date (titre de propriété, permis, factures, tableau électrique) et applique l'arbre de décision à l'appartement de M. Bernard, puis à la maison de Mme Garnier.",
+   "dur": 22.51111111111111
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "L'arbre en 4 questions",
+   "items": [
+    "Le logement a-t-il été construit avant le 1/01/1949 ? Oui : constat de risque d'exposition au plomb (CREP), valable 1 an, illimité…",
+    "Le permis de construire a-t-il été délivré avant le 1/07/1997 ? Oui : état amiante, illimité si aucune trace d'amiante (repérage depuis…",
+    "L'installation intérieure d'électricité a-t-elle plus de 15 ans ? Oui : diagnostic électricité, valable 3 ans. Non : pas de diagnostic (garde…",
+    "Y a-t-il une installation intérieure de gaz de plus de 15 ans ? Oui : diagnostic gaz, valable 3 ans. Non ou…"
+   ],
+   "caption": "L'arbre en 4 questions. Le logement a-t-il été construit avant le 1/01/1949 ? Oui : constat de risque d'exposition au plomb (CREP), valable 1 an, illimité… Le permis de construire a-t-il été délivré avant le 1/07/1997 ? Oui : état amiante, illimité si aucune trace d'amiante (repérage depuis… L'installation intérieure d'électricité a-t-elle plus de 15 ans ? Oui : diagnostic électricité, valable 3 ans. Non : pas de diagnostic (garde……",
+   "dur": 30.288888888888884
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Où trouver chaque date",
+   "table": {
+    "headers": [
+     "Date cherchée",
+     "Document"
+    ],
+    "rows": [
+     [
+      "Année de construction",
+      "Titre de propriété, règlement de copropriété, cadastre, permis"
+     ],
+     [
+      "Date du permis de construire",
+      "Titre de propriété, mairie (archives), fiche synthétique de la copropriété"
+     ],
+     [
+      "Âge de l'installation électrique",
+      "Factures, attestation de conformité (Consuel), date du tableau"
+     ],
+     [
+      "Âge de l'installation gaz",
+      "Factures, certificat de conformité, date de la chaudière et des canalisations"
+     ]
+    ]
+   },
+   "caption": "Où trouver chaque date. Année de construction : Titre de propriété, règlement de copropriété, cadastre, permis ; Date du permis de construire : Titre de propriété, mairie (archives), fiche synthétique de la copropriété ; Âge de l'installation électrique : Factures, attestation de conformité (Consuel), date du tableau",
+   "dur": 17.325925925925926
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les deux biens fil rouge",
+   "table": {
+    "headers": [
+     "Question",
+     "Appartement de M. Bernard",
+     "Maison de Mme Garnier"
+    ],
+    "rows": [
+     [
+      "Construit avant 1949 ?",
+      "Non (1972) : pas de plomb",
+      "Non (1968) : pas de plomb"
+     ],
+     [
+      "Permis avant le 1/07/1997 ?",
+      "Oui (1970) : amiante",
+      "Oui (1967) : amiante (fibrociment du garage repéré)"
+     ],
+     [
+      "Électricité de plus de 15 ans ?",
+      "Oui (partiellement refaite en 2010) : diagnostic",
+      "Oui (tableau partiellement refait en 2005) : diagnostic"
+     ],
+     [
+      "Gaz de plus de 15 ans ?",
+      "Pas de gaz",
+      "Pas de gaz (chaudière fioul)"
+     ]
+    ]
+   },
+   "caption": "Les deux biens fil rouge. Construit avant 1949 ? : Non (1972) : pas de plomb ; Permis avant le 1/07/1997 ? : Oui (1970) : amiante ; Électricité de plus de 15 ans ? : Oui (partiellement refaite en 2010) : diagnostic",
+   "dur": 13.992592592592592
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Pièges fréquents",
+   "items": [
+    "Une rénovation partielle ne rajeunit pas toute l'installation : en cas de doute, on fait le diagnostic",
+    "Une citerne de propane alimentant une cuisinière est une installation gaz à vérifier",
+    "Pour un lot de copropriété, les diagnostics de la vente portent sur les parties privatives ; les parties communes ont leurs propres…",
+    "Un diagnostic valable 3 ans à la mise en vente peut expirer avant l'acte : vérifie la date de l'acte prévu"
+   ],
+   "caption": "Pièges fréquents. Une rénovation partielle ne rajeunit pas toute l'installation : en cas de doute, on fait le diagnostic Une citerne de propane alimentant une cuisinière est une installation gaz à vérifier Pour un lot de copropriété, les diagnostics de la vente portent sur les parties privatives ; les parties communes ont leurs propres… Un diagnostic valable 3 ans à la mise en vente peut expirer avant l'acte : vérifie…",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Pour l'amiante, quelle date regardes-tu ?",
+    "options": [
+     "La date d'achat du bien par le vendeur",
+     "La date d'achèvement des travaux",
+     "La date de délivrance du permis de construire : avant le 1/07/1997, le repérage est exigé"
+    ],
+    "answer": 2
+   },
+   "fb": "L'état amiante est exigé pour un immeuble dont le permis de construire a été délivré avant le 1er juillet 1997. Un immeuble achevé en 1998 mais autorisé en 1996 est donc concerné : vérifie la date du permis, pas celle…",
+   "caption": "Pour l'amiante, quelle date regardes-tu ?",
+   "dur": 20.207407407407405
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Dater 3 biens et en déduire les diagnostics exigés",
+   "steps": [
+    {
+     "label": "Pour chaque bien, écris les 4 dates : construction, permis, électricité, gaz, avec le document qui les prouve.",
+     "detail": ""
+    },
+    {
+     "label": "Passe l'arbre de décision et coche les diagnostics exigés.",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque diagnostic, écris sa validité et vérifie qu'il couvrira la date d'acte d'avril 2027.",
+     "detail": ""
+    },
+    {
+     "label": "Repère le piège du bien C et explique-le en une phrase.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Dater 3 biens et en déduire les diagnostics exigés. 25 minutes.",
+   "dur": 10.8
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Fiche de datation de 3 biens",
+   "items": [
+    "Chaque date est justifiée par un document",
+    "Les seuils sont appliqués sans erreur (1/01/1949, 1/07/1997, 15 ans)",
+    "Le bien C est traité sur la date du permis (amiante exigé)",
+    "La validité de chaque diagnostic est comparée à la date d'acte prévue",
+    "Les diagnostics non exigés sont justifiés"
+   ],
+   "caption": "Ton livrable : Fiche de datation de 3 biens. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Arbre de décision par date de construction et d'installation",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 197.05
+}

@@ -1,0 +1,194 @@
+{
+ "id": "2.41",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Le dossier d'estimation : conclusion, réserves, annexes",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Le dossier d'estimation : conclusion, réserves, annexes",
+   "caption": "Capsule 2.41. Le dossier d'estimation : conclusion, réserves, annexes",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Rédiger la conclusion (valeur libre, hors frais et droits, arrondie, datée) et les réserves du dossier d'estimation du bien fil rouge, puis lister les annexes qui prouvent chaque chiffre",
+   "caption": "À la fin de cette capsule : Rédiger la conclusion (valeur libre, hors frais et droits, arrondie, datée) et les réserves du dossier d'estimation du bien fil rouge, puis lister les annexes qui prouvent chaque chiffre",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Un prix de présentation plus haut pour garder une marge",
+   "pose": "bof",
+   "scene": "Sarah termine son dossier par : « Votre bien vaut 181 000 €. » Que manque-t-il pour que la conclusion soit complète ?",
+   "caption": "Sarah termine son dossier par : « Votre bien vaut 181 000 €. » Que manque-t-il pour que la conclusion soit complète ? Mozi, lui, répondrait : « Un prix de présentation plus haut pour garder une marge »",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : le prix de présentation se décide avec le vendeur au module 3, il n'est pas la conclusion de l'estimation."
+   ],
+   "caption": "Faux : le prix de présentation se décide avec le vendeur au module 3, il n'est pas la conclusion de l'estimation.",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier ouvre le dossier d'estimation de l'appartement de M. Bernard, le bien fil rouge choisi pour cette capsule.",
+    "Il montre la trame en sept parties, puis s'arrête sur les trois qui protègent l'agent : une conclusion précise (181 000 €, valeur libre, hors frais et droits, octobre 2026), des réserves honnêtes et…"
+   ],
+   "caption": "Sébastien Paumier ouvre le dossier d'estimation de l'appartement de M. Bernard, le bien fil rouge choisi pour cette capsule. Il montre la trame en sept parties, puis s'arrête sur les trois qui protègent l'agent : une conclusion précise (181 000 €, valeur libre, hors frais et droits, octobre 2026), des réserves honnêtes et des annexes qui prouvent chaque chiffre.",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Les 7 parties du dossier",
+   "items": [
+    "Cadre : demandeur, objet (estimation en vue de la vente), date de visite, date de valeur, documents remis, limites de la mission.",
+    "Analyse du bien : situation, immeuble et copropriété, description, surfaces (Carrez, D17), état, performance (attestation ADEME classe E, D03).",
+    "Marché : tableau des mutations, groupes retraités, annonces à part, tendance locale datée.",
+    "Méthodes : comparaison (médiane 2 650 €/m², ajustements prouvés), capitalisation (179 600 €), méthode écartée et raison.",
+    "Conclusion : valeur, nature, date, fourchette ; valeur après rénovation à part, sans promesse."
+   ],
+   "caption": "Les 7 parties du dossier. Cadre : demandeur, objet (estimation en vue de la vente), date de visite, date de valeur, documents remis, limites de la mission. Analyse du bien : situation, immeuble et copropriété, description, surfaces (Carrez, D17), état, performance (attestation ADEME classe E, D03). Marché : tableau des mutations, groupes retraités, annonces à part, tendance locale datée. Méthodes : comparaison (médiane 2 650 €/m², ajustements prouvés), capitalisation (179…",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Conclusion : exemple rédigé (M. Bernard, FICTIF)",
+   "text": "« Au vu des éléments analysés, la valeur vénale de l'appartement (lot de copropriété, T4 de 76,0 m² Carrez, 4e étage avec ascenseur, cave et parking) est estimée, libre de toute occupation, hors frais et droits de mutation et hors honoraires de négociation, à 181 000 € (cent quatre-vingt-un mille euros), dans une fourchette de…",
+   "caption": "Conclusion : exemple rédigé (M. Bernard, FICTIF). « Au vu des éléments analysés, la valeur vénale de l'appartement (lot de copropriété, T4 de 76,0 m² Carrez, 4e étage avec ascenseur, cave et parking) est estimée, libre de toute occupation, hors frais et droits de mutation et hors honoraires de négociation, à 181 000 € (cent quatre-vingt-un mille euros), dans une fourchette de…",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Réserves à écrire (à adapter au bien)",
+   "items": [
+    "Estimation fondée sur les documents remis et une visite visuelle ; aucun sondage, aucun examen technique de la structure ou des réseaux.",
+    "Fissure fine de la cloison du dégagement observée, non examinée par un professionnel.",
+    "Surfaces reprises du mesurage Carrez du dossier de diagnostic technique (D17), non remesurées.",
+    "Étiquette reprise de l'attestation actualisée ADEME (D03) ; performances après travaux estimées, à confirmer par un diagnostiqueur certifié.",
+    "Appels de fonds et charges repris des documents du syndic (D06, D07) ; aide demandée par le syndic non notifiée, non chiffrée."
+   ],
+   "caption": "Réserves à écrire (à adapter au bien). Estimation fondée sur les documents remis et une visite visuelle ; aucun sondage, aucun examen technique de la structure ou des réseaux. Fissure fine de la cloison du dégagement observée, non examinée par un professionnel. Surfaces reprises du mesurage Carrez du dossier de diagnostic technique (D17), non remesurées. Étiquette reprise de l'attestation actualisée ADEME (D03) ; performances après travaux estimées, à confirmer par…",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Annexes : une preuve par chiffre",
+   "table": {
+    "headers": [
+     "Annexe",
+     "Prouve",
+     "Code dossier"
+    ],
+    "rows": [
+     [
+      "Reportage photo commenté",
+      "État, défauts visibles, atouts",
+      "D05"
+     ],
+     [
+      "Plan et descriptif",
+      "Pièces, surfaces, exposition",
+      "D04"
+     ],
+     [
+      "Tableau des mutations et retraitement",
+      "Prix au m² retenu (2 650 €/m²)",
+      "D12"
+     ],
+     [
+      "Attestation actualisée ADEME",
+      "Classe E",
+      "D03"
+     ],
+     [
+      "Extraits PV d'AG, PPPT, fiche synthétique",
+      "Appels de fonds 35 880 €, travaux à venir",
+      "D07, D09, D10"
+     ]
+    ]
+   },
+   "caption": "Annexes : une preuve par chiffre. Reportage photo commenté : État, défauts visibles, atouts ; Plan et descriptif : Pièces, surfaces, exposition ; Tableau des mutations et retraitement : Prix au m² retenu (2 650 €/m²)",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "La cloison du dégagement de M. Bernard présente une fissure fine (moins de 0,2 mm). Que mets-tu dans les réserves ?",
+    "options": [
+     "Rien, c'est sans importance",
+     "« Fissure structurelle, prévoir 10 000 € »",
+     "« Fissure fine observée, non structurelle en apparence ; aucun examen technique réalisé ; à faire examiner par un professionnel si elle évolue »"
+    ],
+    "answer": 2
+   },
+   "fb": "Une réserve n'est pas une excuse : elle délimite ta mission. Tu décris le constat (fissure fine, en escalier, cloison du dégagement), tu précises l'absence d'examen technique et tu renvoies au professionnel compétent.",
+   "caption": "La cloison du dégagement de M. Bernard présente une fissure fine (moins de 0,2 mm). Que mets-tu dans les réserves ?",
+   "dur": 23.91111111111111
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Rédiger la conclusion et les réserves",
+   "steps": [
+    {
+     "label": "Écris la conclusion en une phrase : valeur, nature (libre, hors frais et droits, net vendeur), fourchette, date.",
+     "detail": ""
+    },
+    {
+     "label": "Ajoute une phrase sur la valeur après rénovation, à part et sans promesse.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige 5 à 7 réserves : constats non vérifiés, données de tiers, étiquette, validité.",
+     "detail": ""
+    },
+    {
+     "label": "Liste les annexes et relie chaque chiffre de la conclusion à sa pièce.",
+     "detail": ""
+    },
+    {
+     "label": "Relis : aucun conseil juridique ou fiscal, aucune aide chiffrée, aucun prix garanti.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Rédiger la conclusion et les réserves. 40 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Conclusion, réserves et liste d'annexes du dossier d'estimation",
+   "items": [
+    "La conclusion donne une valeur arrondie, sa nature (libre, hors frais et droits), une fourchette et…",
+    "La valeur après rénovation est séparée et présentée sans promesse",
+    "Au moins 5 réserves précises, dont l'absence d'examen technique et l'origine de l'étiquette",
+    "Chaque chiffre de la conclusion renvoie à une annexe codée",
+    "Aucun conseil juridique ou fiscal, aucune aide chiffrée"
+   ],
+   "caption": "Ton livrable : Conclusion, réserves et liste d'annexes du dossier d'estimation. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Trame du dossier d'estimation : cadre, analyse du bien, marché, méthodes, conclusion, réserves, annexes (photos, extraits PLU et PPRN, cadastre, récapitulatif des travaux)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 209.62
+}

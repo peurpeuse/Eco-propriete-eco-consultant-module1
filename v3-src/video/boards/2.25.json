@@ -1,0 +1,201 @@
+{
+ "id": "2.25",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Audit de la copropriété : carnet d'entretien et charges",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Audit de la copropriété : carnet d'entretien et charges",
+   "caption": "Capsule 2.25. Audit de la copropriété : carnet d'entretien et charges",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Lire un carnet d'entretien pour dater les gros travaux faits et à venir, calculer les charges annuelles d'un lot et les présenter à un acquéreur dans une grille",
+   "caption": "À la fin de cette capsule : Lire un carnet d'entretien pour dater les gros travaux faits et à venir, calculer les charges annuelles d'un lot et les présenter à un acquéreur dans une grille",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Le montant des travaux à voter dans les dix ans",
+   "pose": "presse",
+   "scene": "Dans le carnet d'entretien des Tilleuls (D08), quelle information un acquéreur trouvera-t-il obligatoirement ?",
+   "caption": "Dans le carnet d'entretien des Tilleuls (D08), quelle information un acquéreur trouvera-t-il obligatoirement ? Mozi, lui, répondrait : « Le montant des travaux à voter dans les dix ans »",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : les travaux à venir et leur coût estimé sont dans le projet de plan pluriannuel de travaux, pas dans le carnet."
+   ],
+   "caption": "Faux : les travaux à venir et leur coût estimé sont dans le projet de plan pluriannuel de travaux, pas dans le carnet.",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Ascenseurs remplacés en 2019, colonnes d'eau refaites en 2015, étanchéité de la toiture-terrasse de 2004 en fin de vie.",
+    "Sébastien Paumier ouvre le carnet d'entretien des Tilleuls, puis les appels de charges : 2 652 € par an pour le lot de M. Bernard.",
+    "Il montre comment transformer ces deux documents en arguments clairs pour un acquéreur."
+   ],
+   "caption": "Ascenseurs remplacés en 2019, colonnes d'eau refaites en 2015, étanchéité de la toiture-terrasse de 2004 en fin de vie. Sébastien Paumier ouvre le carnet d'entretien des Tilleuls, puis les appels de charges : 2 652 € par an pour le lot de M. Bernard. Il montre comment transformer ces deux documents en arguments clairs pour un acquéreur.",
+   "dur": 22.88148148148148
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Ce que contient le carnet d'entretien (décret n° 2001-477 du 30 mai 2001)",
+   "items": [
+    "L'adresse de l'immeuble et l'identité du syndic en exercice.",
+    "Les références des contrats d'assurance de l'immeuble et leur date d'échéance.",
+    "L'année des travaux importants (ravalement, toiture, ascenseur, chaudière, canalisations) et les entreprises qui les ont réalisés.",
+    "Les références des assurances dommages-ouvrage en cours.",
+    "Selon les cas : contrats d'entretien et de maintenance des équipements communs, échéancier du programme de travaux décidé par l'AG (à vérifier…"
+   ],
+   "caption": "Ce que contient le carnet d'entretien (décret n° 2001-477 du 30 mai 2001). L'adresse de l'immeuble et l'identité du syndic en exercice. Les références des contrats d'assurance de l'immeuble et leur date d'échéance. L'année des travaux importants (ravalement, toiture, ascenseur, chaudière, canalisations) et les entreprises qui les ont réalisés. Les références des assurances dommages-ouvrage en cours. Selon les cas : contrats d'entretien et de maintenance des équipements communs, échéancier du…",
+   "dur": 31.029629629629625
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Grille travaux : fait, voté, prévu (Les Tilleuls, fictif)",
+   "table": {
+    "headers": [
+     "Poste",
+     "Statut",
+     "Date",
+     "Source"
+    ],
+    "rows": [
+     [
+      "Colonnes d'eau",
+      "Fait",
+      "2015",
+      "D08"
+     ],
+     [
+      "Ascenseurs",
+      "Fait",
+      "2019",
+      "D08"
+     ],
+     [
+      "Ravalement + ITE",
+      "Voté le 12/06/2025",
+      "Avril 2027",
+      "D07"
+     ],
+     [
+      "Menuiseries des parties communes",
+      "Prévu",
+      "Non daté",
+      "D09"
+     ],
+     [
+      "Toiture-terrasse (étanchéité 2004)",
+      "Prévu",
+      "Vers 2030",
+      "D08, D09"
+     ]
+    ]
+   },
+   "caption": "Grille travaux : fait, voté, prévu (Les Tilleuls, fictif). Colonnes d'eau : Fait ; Ascenseurs : Fait ; Ravalement + ITE : Voté le 12/06/2025",
+   "dur": 9.177777777777777
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Les charges du lot de M. Bernard (fictif)",
+   "text": "Charges courantes = budget × tantièmes ÷ total : 85 000 × 312 ÷ 10 000 = 2 652 €/an (≈ 663 €/trimestre). Fonds de travaux : 4 250 × 312 ÷ 10 000 = 132,60 €/an. Total annuel = 2 784,60 €. Charges courantes au m² : 2 652 ÷ 76 ≈ 34,9 €/m²/an…",
+   "caption": "Les charges du lot de M. Bernard (fictif). Charges courantes = budget × tantièmes ÷ total : 85 000 × 312 ÷ 10 000 = 2 652 €/an (≈ 663 €/trimestre). Fonds de travaux : 4 250 × 312 ÷ 10 000 = 132,60 €/an. Total annuel = 2 784,60 €. Charges courantes au m² : 2 652 ÷ 76 ≈ 34,9 €/m²/an…",
+   "dur": 19.918518518518518
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Les points de contrôle sur les charges",
+   "items": [
+    "Les appels de charges des 2 derniers exercices (D06) correspondent au budget voté",
+    "Charges générales et charges spéciales (ascenseur selon l'étage) sont distinguées",
+    "Le fonds de travaux atteint au moins 5 % du budget prévisionnel ; avec un plan pluriannuel adopté, au moins 2,5 %…",
+    "Le taux d'impayés de l'immeuble est connu (6 % aux Tilleuls : modéré, à suivre)",
+    "Les travaux votés hors budget sont présentés à part des charges courantes"
+   ],
+   "caption": "Les points de contrôle sur les charges. Les appels de charges des 2 derniers exercices (D06) correspondent au budget voté Charges générales et charges spéciales (ascenseur selon l'étage) sont distinguées Le fonds de travaux atteint au moins 5 % du budget prévisionnel ; avec un plan pluriannuel adopté, au moins 2,5 %… Le taux d'impayés de l'immeuble est connu (6 % aux Tilleuls : modéré, à suivre) Les travaux votés…",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Budget prévisionnel 2026 des Tilleuls : 85 000 €. Lot de M. Bernard : 312 / 10 000. Quelles sont ses charges courantes annuelles ?",
+    "options": [
+     "2 652 €",
+     "265,20 €",
+     "26 520 €"
+    ],
+    "answer": 0
+   },
+   "fb": "2 652 € par an de charges courantes, plus 132,60 € de fonds de travaux (5 % du budget), soit 2 784,60 € par an. Rapporté à la surface : 2 652 / 76 ≈ 34,9 € par m² et…",
+   "caption": "Budget prévisionnel 2026 des Tilleuls : 85 000 €. Lot de M. Bernard : 312 / 10 000. Quelles sont ses charges courantes annuelles ?",
+   "dur": 23.17037037037037
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Lire un carnet d'entretien",
+   "steps": [
+    {
+     "label": "Dans D08, relève les travaux importants réalisés, leur année et l'entreprise, ainsi que les contrats d'assurance.",
+     "detail": ""
+    },
+    {
+     "label": "Repère les postes en fin de vie et vérifie s'ils figurent dans D09 ou ont été votés dans…",
+     "detail": ""
+    },
+    {
+     "label": "Remplis la grille « fait, voté, prévu » avec la source de chaque ligne.",
+     "detail": ""
+    },
+    {
+     "label": "Dans D06 et D10, calcule les charges courantes, le fonds de travaux et le total annuel du lot…",
+     "detail": ""
+    },
+    {
+     "label": "Rédige la réponse aux Martin en 5 lignes maximum, sans chiffrer ce qui n'est pas voté.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Lire un carnet d'entretien. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Grille travaux votés et charges du lot de M. Bernard",
+   "items": [
+    "La grille distingue fait, voté et prévu, avec une source par ligne",
+    "Les années des travaux importants sont exactes (colonnes 2015, ascenseurs 2019, étanchéité 2004)",
+    "Les charges annuelles (2 652 €), le fonds de travaux (132,60 €) et le total (2…",
+    "La toiture est signalée sans montant inventé",
+    "La réponse aux acquéreurs tient en 5 lignes et ne promet rien"
+   ],
+   "caption": "Ton livrable : Grille travaux votés et charges du lot de M. Bernard. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Grille travaux votés et charges",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 204.07
+}

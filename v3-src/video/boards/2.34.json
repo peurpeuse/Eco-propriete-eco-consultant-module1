@@ -1,0 +1,217 @@
+{
+ "id": "2.34",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Maison : bâti-terrain intégré, comparer des maisons vendues",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Maison : bâti-terrain intégré, comparer des maisons vendues",
+   "caption": "Capsule 2.34. Maison : bâti-terrain intégré, comparer des maisons vendues",
+   "dur": 5.474074074074073
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Valoriser une maison à partir de ventes de maisons avec terrain (prix au m² habitable terrain compris), ajuster les écarts prouvés et traiter un cas particulier",
+   "caption": "À la fin de cette capsule : Valoriser une maison à partir de ventes de maisons avec terrain (prix au m² habitable terrain compris), ajuster les écarts prouvés et traiter un cas particulier",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Le prix de la construction seule",
+   "pose": "presse",
+   "scene": "Dans la méthode bâti-terrain intégré, que contient le prix au m² des références ?",
+   "caption": "Dans la méthode bâti-terrain intégré, que contient le prix au m² des références ? Mozi, lui, répondrait : « Le prix de la construction seule »",
+   "dur": 8.807407407407407
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : ça, c'est la méthode sol + construction, qui sépare les deux (capsules 2.31 à 2.33)."
+   ],
+   "caption": "Faux : ça, c'est la méthode sol + construction, qui sépare les deux (capsules 2.31 à 2.33).",
+   "dur": 8.066666666666666
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi additionne le prix du terrain et celui de la maison comme deux objets séparés.",
+    "Sébastien Paumier montre la méthode que le marché comprend le mieux : comparer la maison de Mme Garnier à des maisons vendues avec leur terrain, au m² habitable, puis ajuster ce qui est prouvé.",
+    "Il termine sur trois cas qui échappent au tableau : piscine, grande propriété, maison jumelée."
+   ],
+   "caption": "Mozi additionne le prix du terrain et celui de la maison comme deux objets séparés. Sébastien Paumier montre la méthode que le marché comprend le mieux : comparer la maison de Mme Garnier à des maisons vendues avec leur terrain, au m² habitable, puis ajuster ce qui est prouvé. Il termine sur trois cas qui échappent au tableau : piscine, grande propriété, maison jumelée.",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Mutations de maisons retenues (M12, FICTIF)",
+   "table": {
+    "headers": [
+     "Réf.",
+     "Prix, €/m²",
+     "SH, terrain",
+     "Pièces, niveaux, époque"
+    ],
+    "rows": [
+     [
+      "V1 Vaux-le-Pénil 03/2025",
+      "297 000 €, 2 750",
+      "108 m², 1 050 m²",
+      "5 p., plain-pied sur sous-sol, 1970"
+     ],
+     [
+      "V2 Vaux-le-Pénil 09/2025",
+      "318 000 €, 2 650",
+      "120 m², 1 300 m²",
+      "5 p., plain-pied sur sous-sol, 1966"
+     ],
+     [
+      "V3 Le Mée-sur-Seine 01/2026",
+      "290 000 €, 2 900",
+      "100 m², 900 m²",
+      "5 p., plain-pied, 1975"
+     ],
+     [
+      "V4 Dammarie-lès-Lys 06/2025",
+      "310 500 €, 2 700",
+      "115 m², 1 400 m²",
+      "5 p., plain-pied sur sous-sol, 1972"
+     ],
+     [
+      "V5 Vaux-le-Pénil 02/2026",
+      "291 200 €, 2 800",
+      "104 m², 820 m²",
+      "5 p., deux niveaux, 1978"
+     ]
+    ]
+   },
+   "caption": "Mutations de maisons retenues (M12, FICTIF). V1 Vaux-le-Pénil 03/2025 : 297 000 €, 2 750 ; V2 Vaux-le-Pénil 09/2025 : 318 000 €, 2 650 ; V3 Le Mée-sur-Seine 01/2026 : 290 000 €, 2 900",
+   "dur": 15.103703703703703
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Le calcul pour Mme Garnier",
+   "text": "Médiane des références = 2 750 €/m² (moyenne 2 760 €/m²). Base = 112 × 2 750 = 308 000 €. Écart prouvé : assainissement non conforme, devis M08 = −11 800 € → 296 200 €. Arguments sans preuve chiffrée : toiture à reprendre et chaudière fioul avec cuve (vers le bas), terrain de…",
+   "caption": "Le calcul pour Mme Garnier. Médiane des références = 2 750 €/m² (moyenne 2 760 €/m²). Base = 112 × 2 750 = 308 000 €. Écart prouvé : assainissement non conforme, devis M08 = −11 800 € → 296 200 €. Arguments sans preuve chiffrée : toiture à reprendre et chaudière fioul avec cuve (vers le bas), terrain de…",
+   "dur": 19.548148148148144
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Fiche cas particuliers",
+   "table": {
+    "headers": [
+     "Cas",
+     "Le piège",
+     "La bonne pratique"
+    ],
+    "rows": [
+     [
+      "Piscine",
+      "Ajouter son coût de construction au prix",
+      "Comparer à des maisons avec piscine du secteur ; selon le marché…"
+     ],
+     [
+      "Grande propriété (surface ou terrain hors gabarit)",
+      "Appliquer le prix au m² des maisons courantes",
+      "Élargir la zone et la période, raisonner en prix global, tenir compte…"
+     ],
+     [
+      "Maison groupée ou jumelée",
+      "La comparer à des maisons isolées",
+      "Comparer à des maisons du même type ; vérifier mitoyenneté, servitudes, vis-à-vis…"
+     ],
+     [
+      "Lot détachable",
+      "L'ajouter au prix de la maison",
+      "Le présenter à part, comme une option (capsule 2.31)"
+     ]
+    ]
+   },
+   "caption": "Fiche cas particuliers. Piscine : Ajouter son coût de construction au prix ; Grande propriété (surface ou terrain hors gabarit) : Appliquer le prix au m² des maisons courantes ; Maison groupée ou jumelée : La comparer à des maisons isolées",
+   "dur": 14.733333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire à Mme Garnier",
+   "text": "« Cinq maisons comparables à la vôtre, classées F ou G comme elle, se sont vendues autour de 2 750 € le m². J'ai retiré seulement ce que je peux prouver, l'assainissement à 11 800 €. Votre maison se situe entre 285 000 € et 300 000 €, autour de 292 000 €. »",
+   "caption": "La phrase à dire à Mme Garnier. « Cinq maisons comparables à la vôtre, classées F ou G comme elle, se sont vendues autour de 2 750 € le m². J'ai retiré seulement ce que je peux prouver, l'assainissement à 11 800 €. Votre maison se situe entre 285 000 € et 300 000 €, autour de 292 000 €. »",
+   "dur": 22.14074074074074
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "La médiane de tes 5 références F-G est 2 750 €/m². La maison fait 112 m², son assainissement est non conforme (devis 11 800 €). Quelle valeur avant les autres arguments ?",
+    "options": [
+     "296 200 € (112 × 2 750 − 11 800)",
+     "308 000 € (112 × 2 750)",
+     "231 000 € (308 000 − 25 %)"
+    ],
+    "answer": 0
+   },
+   "fb": "308 000 − 11 800 = 296 200 €. Les autres écarts (toiture, fioul, terrain plus grand) n'ont pas encore de preuve chiffrée : ce sont des arguments qui placent la valeur dans la fourchette de 285 000 à 300…",
+   "caption": "La médiane de tes 5 références F-G est 2 750 €/m². La maison fait 112 m², son assainissement est non conforme (devis 11 800 €). Quelle valeur avant les autres arguments ?",
+   "dur": 27.985185185185184
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Valoriser la maison fil rouge par des ventes de maisons, puis traiter un cas particulier",
+   "steps": [
+    {
+     "label": "Complète le tableau M12 pour V1 à V5 : prix au m², surface habitable, terrain, pièces, niveaux, époque…",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la médiane et la base de la maison de Mme Garnier.",
+     "detail": ""
+    },
+    {
+     "label": "Applique les écarts prouvés et liste les arguments non chiffrés, avec leur sens (vers le haut ou vers…",
+     "detail": ""
+    },
+    {
+     "label": "Donne la fourchette et la valeur centrale, avec une phrase de justification.",
+     "detail": ""
+    },
+    {
+     "label": "Pour la grande maison V7, explique en 4 lignes pourquoi le calcul de Mme Garnier ne s'applique pas…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Valoriser la maison fil rouge par des ventes de maisons, puis traiter un cas particulier. 40 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Valeur par comparaison de la maison de Mme Garnier et note sur un cas particulier",
+   "items": [
+    "Les 5 références ont tous les critères de comparaison renseignés",
+    "La base (308 000 €) et l'écart prouvé (−11 800 €) sont calculés et sourcés",
+    "La classe G n'est pas déduite une seconde fois",
+    "La fourchette (285 000 à 300 000 €) et la valeur centrale sont justifiées",
+    "Le cas particulier est traité sans appliquer le prix au m² des maisons courantes"
+   ],
+   "caption": "Ton livrable : Valeur par comparaison de la maison de Mme Garnier et note sur un cas particulier. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableau des mutations bâti-terrain intégré (prix au m², surface habitable, terrain, pièces, niveaux, époque, distance, DPE, état) + fiche cas particuliers (piscine, grande propriété, maison groupée ou jumelée)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 189.25
+}

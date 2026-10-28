@@ -1,0 +1,201 @@
+{
+ "id": "3.25",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Défendre les honoraires et négocier l'exclusivité",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.25 : défendre tes honoraires",
+   "caption": "Bienvenue. M. Bernard pose la question qui fâche : une autre agence prend moins cher. Dans ce chapitre, tu défends tes honoraires, ligne par ligne, et tu négocies l'exclusivité.",
+   "cta": "Commencer",
+   "dur": 12.14
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce que paient vraiment des honoraires, et les règles de leur affichage"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "traiter la remise et le mandat simple, sans promettre de prix"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton jeu de rôle filmé et ta fiche honoraires"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Moins cher ailleurs ? Je coupe mes honoraires en deux et je vous garantis 30 000 € de plus à la vente !",
+   "caption": "Moins cher ailleurs ? Je coupe mes honoraires en deux et je vous garantis 30 000 € de plus à la vente !",
+   "line": "Moins cher ailleurs ? Je coupe mes honoraires en deux et je vous garantis 30 000 € de plus à la vente !",
+   "scene": "Mozi coupe sa carte de visite en deux avec des ciseaux géants et écrit « +30 000 € garantis » au feutre sur la vitre.",
+   "pose": "base",
+   "dur": 8.81
+  },
+  {
+   "kind": "belief",
+   "title": "Moins cher ailleurs, je brade, je promets plus",
+   "caption": "Moins cher ailleurs. Je brade. Je promets plus.",
+   "beats": [
+    "Moins cher ailleurs",
+    "Je brade",
+    "Je promets plus"
+   ],
+   "wrong": 2,
+   "why": "Promettre un prix de vente plus haut, c'est promettre ce qui dépend du marché, pas de toi.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Le barème est un plafond, la promesse un piège",
+   "caption": "Ce qui arrive vraiment ? Ton barème affiché est un plafond : jamais d'honoraires au-dessus. Et si ta promesse de prix ne tient pas, passé trois mois, le vendeur peut dénoncer l'exclusivité, avec quinze jours de préavis.",
+   "lines": [
+    "Barème affiché = prix maximums : jamais au-dessus.",
+    "Promesse non tenue : après 3 mois, l'exclusivité se dénonce."
+   ],
+   "dur": 15.47
+  },
+  {
+   "kind": "stat",
+   "title": "5,78 % : le taux moyen de commission en France",
+   "caption": "Cinq virgule soixante-dix-huit pour cent. C'est le taux moyen de commission en France en 2022, selon l'Autorité de la concurrence. Environ quatre pour cent ailleurs en Europe. Tes vendeurs comparent : explique ce que tu fais.",
+   "value": "5,78 %",
+   "label": "de commission moyenne TTC en France en 2022, contre environ 4 % dans l'Union européenne",
+   "dur": 15.84
+  },
+  {
+   "kind": "steps",
+   "title": "Prestation par prestation → la remise, cadrée → le mandat simple, comparé",
+   "caption": "D'abord, prestation par prestation. Les 9 000 euros de M. Bernard ne sont pas un pourcentage abstrait. C'est l'expertise locale, la préparation du dossier, la stratégie de vente, la qualification des acquéreurs, la négociation, la coordination avec le syndic et le notaire, le suivi jusqu'à l'acte. Chaque ligne a sa preuve. Ensuite, la remise. Ton barème affiche des prix maximums : tu peux négocier en dessous, jamais au-dessus. Si tu acceptes une remise, c'est contre un engagement clair, et c'est écrit au mandat. Enfin, le mandat simple. C'est son droit. Tu montres ce que l'exclusivité ajoute : tes engagements écrits, un compte rendu toutes les deux semaines. Et jamais de promesse de prix.",
+   "steps": [
+    {
+     "label": "Prestation par prestation",
+     "detail": "Expertise, dossier, stratégie, qualification, négociation, coordination, suivi : chaque ligne, une preuve."
+    },
+    {
+     "label": "La remise, cadrée",
+     "detail": "Barème = prix maximums : en dessous si tu veux, contre un engagement, écrit au mandat."
+    },
+    {
+     "label": "Le mandat simple, comparé",
+     "detail": "Son droit ; tu montres ce que l'exclusif ajoute, sans promesse de prix."
+    }
+   ],
+   "dur": 46.21
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "M. Bernard dit à Karim : l'autre agence prend trois pour cent, pourquoi payer cinq ? Toi, que proposerais-tu, sans promettre de prix ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard dit à Karim : « L'autre agence prend 3 %, vous 5 %. Pourquoi payer plus ? » (exemple fictif : 5 400 € contre 9 000 €, à la charge de l'acquéreur dans les deux cas). Que répond Karim, sans dénigrer et sans promettre de prix ?",
+   "model_answer": "« C'est une vraie question. Vos 180 000 € net vendeur sont écrits au mandat ; les honoraires sont à la charge de l'acquéreur, et à 3 % le prix affiché serait plus bas : c'est un vrai point. Voici ce que couvrent mes 9 000 € : expertise locale, dossier technique avec l'attestation E et le chiffrage des travaux, plan Éco-staging, qualification des acquéreurs, négociation, coordination avec le syndic et le notaire, compte rendu toutes les deux semaines. Comparons ligne par ligne. Je ne vous promets pas un prix plus haut : je vous promets ces engagements, par écrit. »",
+   "dur": 53.48
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ? Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Aucune : un agent peut garantir un prix de vente s'il connaît bien son marché",
+     "Aucune : une remise d'honoraires oblige à promettre un résultat en échange",
+     "Il doit une information exacte : il promet un prix qu'il ne maîtrise pas"
+    ],
+    "answer": 2,
+    "feedback": "Le code de déontologie (décret n° 2015-1090) impose une information exacte, intelligible et complète, y compris sur les honoraires. L'arrêté du 26/01/2022 fait du barème un prix maximum, négociable à la baisse. On défend ses honoraires par les prestations, jamais par une promesse de prix.",
+    "whys": [
+     "Faux : le prix final dépend du marché et des acquéreurs ; une garantie de prix n'a aucune base.",
+     "Faux : la remise se négocie sous le barème affiché ; elle n'oblige à aucune promesse de résultat.",
+     "Exact : promettre 30 000 € de plus n'est pas une information exacte, c'est un pari sur le marché."
+    ]
+   },
+   "card2": {
+    "question": "Si Sarah accordait une remise à l'oral, sans la reporter au mandat, que se passerait-il ?",
+    "answer": "La remise elle-même est permise : le barème affiche des prix maximums. Mais les honoraires doivent figurer au mandat, avec la partie qui les paie, et l'annonce doit être cohérente avec le mandat. Une remise orale crée un écart entre ce qui est dit et ce qui est écrit : source de litige."
+   },
+   "fb": "Le code de déontologie (décret n° 2015-1090) impose une information exacte, intelligible et complète, y compris sur les honoraires. L'arrêté du 26/01/2022 fait du barème un prix maximum, négociable à la baisse. On défend ses honoraires par les prestations, jamais…",
+   "dur": 25.39
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : des honoraires compris, pas bradés. La fiche honoraires, prestation par prestation, et le tableau simple ou exclusif.",
+   "goal": "Des honoraires compris, pas bradés",
+   "tools": [
+    {
+     "name": "Fiche honoraires",
+     "role": "7 prestations, chacune avec sa preuve"
+    },
+    {
+     "name": "Tableau simple / exclusif",
+     "role": "Ce qui change pour le vendeur, sans promesse de prix"
+    }
+   ],
+   "dur": 9.55
+  },
+  {
+   "kind": "demo",
+   "title": "La fiche honoraires de M. Bernard",
+   "caption": "La fiche de M. Bernard. Expertise locale : les comparables. Le dossier : DPE, attestation, plan de travaux, devis. Stratégie et qualification des acquéreurs. Négociation, coordination avec le syndic et le notaire. Et le suivi, jusqu'à l'acte. Sept prestations, une preuve pour chacune.",
+   "steps": [
+    "Expertise locale : comparables D12, fourchette 178 000 – 186 000 € en l'état",
+    "Dossier : DPE, attestation E, PPPT, devis de 16 500 €",
+    "Stratégie et qualification : plan Éco-staging, acquéreurs avec plan de financement",
+    "Négociation et coordination : offres écrites, syndic, notaire",
+    "Suivi : compte rendu toutes les 2 semaines jusqu'à l'acte"
+   ],
+   "tool": "Fiche honoraires",
+   "dur": 17.33
+  },
+  {
+   "kind": "demo",
+   "title": "Le tableau : simple ou exclusif",
+   "caption": "Le tableau, maintenant. Mandat simple : plusieurs agences, il peut vendre seul. Exclusif : une seule agence, mais tes engagements et tes comptes rendus écrits. Dans les deux cas, les honoraires sont écrits au mandat. Sortie de l'exclusif après trois mois. Il choisit. Toi, tu ne promets aucun prix.",
+   "steps": [
+    "Simple : plusieurs agences, il peut vendre seul",
+    "Exclusif : une seule agence, engagements et comptes rendus écrits",
+    "Les deux : honoraires écrits au mandat, sous le barème",
+    "Sortie de l'exclusif : après 3 mois, préavis de 15 jours",
+    "Conclusion : il choisit, aucun prix promis"
+   ],
+   "tool": "Tableau simple / exclusif",
+   "dur": 19.18
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "À toi : filme ton jeu de rôle.",
+   "cta": "Ouvrir le jeu de rôle",
+   "dur": 3.99
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton jeu de rôle filmé et ta fiche honoraires.",
+   "ask": "Dépose une capture de ton jeu de rôle filmé (première image ou lien) et de ta fiche honoraires : les 7 prestations, chacune avec sa preuve, ta réponse à la remise et ta réponse au mandat simple, sans aucune promesse de prix.",
+   "dur": 5.47
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Mozi coupe ses honoraires en deux et promet la lune. Toi, tu as expliqué sept prestations, sans promettre un euro de plus.",
+   "status": "Tes honoraires : 7 prestations, 7 preuves. Mozi : moitié prix et promesse au feutre.",
+   "dur": 9.92
+  }
+ ],
+ "total": 254.4
+}

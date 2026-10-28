@@ -1,0 +1,179 @@
+{
+ "id": "1.7",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Choisir sa cible : le propriétaire à servir",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Choisir sa cible : le propriétaire à servir",
+   "caption": "Capsule 1.7. Choisir sa cible : le propriétaire à servir",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Décrire en une fiche le propriétaire qu'on veut servir (qui il est, pourquoi il vend, où il vit) à partir de ses secteurs prioritaires et de ses ventes réelles",
+   "caption": "À la fin de cette capsule : Décrire en une fiche le propriétaire qu'on veut servir (qui il est, pourquoi il vend, où il vit) à partir de ses secteurs prioritaires et de ses ventes réelles",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "De garder cette cible : il ne faut fermer aucune porte.",
+   "pose": "presente",
+   "scene": "Hugo, mandataire, écrit sa cible : « Tous les propriétaires qui veulent vendre. » Que lui conseilles-tu ?",
+   "caption": "Hugo, mandataire, écrit sa cible : « Tous les propriétaires qui veulent vendre. » Que lui conseilles-tu ? Mozi, lui, répondrait : « De garder cette cible : il ne faut fermer aucune porte. »",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : une cible qui vise tout le monde ne guide aucun message ni aucune action."
+   ],
+   "caption": "Faux : une cible qui vise tout le monde ne guide aucun message ni aucune action.",
+   "dur": 6.955555555555556
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier compare deux vendeurs du fil rouge : M. Bernard, retraité qui veut se rapprocher de sa fille, et Mme Garnier, qui entre en résidence seniors.",
+    "Même région, mêmes peurs du DPE, mais pas les mêmes besoins.",
+    "Il montre comment passer de « tous les vendeurs » à un propriétaire précis, décrit en trois questions : qui est-il, pourquoi vend-il, où vit-il."
+   ],
+   "caption": "Sébastien Paumier compare deux vendeurs du fil rouge : M. Bernard, retraité qui veut se rapprocher de sa fille, et Mme Garnier, qui entre en résidence seniors. Même région, mêmes peurs du DPE, mais pas les mêmes besoins. Il montre comment passer de « tous les vendeurs » à un propriétaire précis, décrit en trois questions : qui est-il, pourquoi vend-il, où vit-il.",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 3 questions",
+   "table": {
+    "headers": [
+     "Question",
+     "Ce que tu décris",
+     "Où trouver l'information"
+    ],
+    "rows": [
+     [
+      "Qui est-il ?",
+      "Âge, situation familiale, statut (propriétaire occupant, bailleur, héritier), rapport aux chiffres",
+      "Tes ventes passées, tes rendez-vous, Insee (structure par âge de la commune)"
+     ],
+     [
+      "Pourquoi vend-il ?",
+      "Projet de vie (rapprochement familial, résidence seniors, mutation, succession, divorce, investissement), échéance…",
+      "Tes notes de découverte"
+     ],
+     [
+      "Où vit-il ?",
+      "Secteur, type de bien, année de construction, étiquette DPE probable, copropriété ou…",
+      "DVF, observatoire DPE-Audit, ta zone affinée"
+     ]
+    ]
+   },
+   "caption": "Les 3 questions. Qui est-il ? : Âge, situation familiale, statut (propriétaire occupant, bailleur, héritier), rapport aux chiffres ; Pourquoi vend-il ? : Projet de vie (rapprochement familial, résidence seniors, mutation, succession, divorce, investissement), échéance, craintes ; Où vit-il ? : Secteur, type de bien, année de construction, étiquette DPE probable, copropriété ou maison",
+   "dur": 19.548148148148144
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Compléter le portrait",
+   "items": [
+    "Ce qui l'inquiète (DPE, prix, délai, travaux, démarches).",
+    "Ce qu'il attend d'un agent (preuves, disponibilité, accompagnement, rapidité).",
+    "Comment il s'informe (bouche-à-oreille, Google, réseaux, presse locale).",
+    "Comment il accepte d'être contacté (formulaire, recommandation, rencontre en agence) : jamais par un appel non consenti.",
+    "La phrase qu'il dit souvent en rendez-vous."
+   ],
+   "caption": "Compléter le portrait. Ce qui l'inquiète (DPE, prix, délai, travaux, démarches). Ce qu'il attend d'un agent (preuves, disponibilité, accompagnement, rapidité). Comment il s'informe (bouche-à-oreille, Google, réseaux, presse locale). Comment il accepte d'être contacté (formulaire, recommandation, rencontre en agence) : jamais par un appel non consenti. La phrase qu'il dit souvent en rendez-vous.",
+   "dur": 23.62222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple rempli : la cible de l'appartement (fil rouge, fictif)",
+   "text": "Qui : retraité de 60 à 75 ans, propriétaire occupant depuis plus de 20 ans, souvent seul, à l'aise avec les documents, méfiant envers les promesses (comme M. Bernard, profil C). Pourquoi : se rapprocher de sa famille ou réduire la surface ; échéance à 6-12 mois ; peur d'une décote « à cause du…",
+   "caption": "Exemple rempli : la cible de l'appartement (fil rouge, fictif). Qui : retraité de 60 à 75 ans, propriétaire occupant depuis plus de 20 ans, souvent seul, à l'aise avec les documents, méfiant envers les promesses (comme M. Bernard, profil C). Pourquoi : se rapprocher de sa famille ou réduire la surface ; échéance à 6-12 mois ; peur d'une décote « à cause du…",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Deuxième exemple : la cible de la maison (fil rouge, fictif)",
+   "text": "Qui : propriétaire de plus de 70 ans, veuve ou veuf, attaché à sa maison, consulte ses enfants avant de décider (comme Mme Garnier, profil S). Pourquoi : entrée en résidence seniors, besoin du prix de vente ; peur d'une maison « invendable » classée G. Où : maison des années 1960-1980 sur grand terrain…",
+   "caption": "Deuxième exemple : la cible de la maison (fil rouge, fictif). Qui : propriétaire de plus de 70 ans, veuve ou veuf, attaché à sa maison, consulte ses enfants avant de décider (comme Mme Garnier, profil S). Pourquoi : entrée en résidence seniors, besoin du prix de vente ; peur d'une maison « invendable » classée G. Où : maison des années 1960-1980 sur grand terrain…",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Mme Garnier, 71 ans, vend sa maison de 1968 pour entrer en résidence seniors. Quel besoin principal ta fiche cible doit-elle noter ?",
+    "options": [
+     "Être rassurée et accompagnée pas à pas, avec un calendrier compatible avec son entrée en résidence à l'été 2027.",
+     "Obtenir un rendement locatif.",
+     "Vendre en une semaine, quel que soit le prix."
+    ],
+    "answer": 0
+   },
+   "fb": "Pourquoi il vend est la question clé. Mme Garnier (fictive) vend pour entrer en résidence seniors à Melun à l'été 2027 et a besoin du prix pour l'entrée : sécurité, calendrier, accompagnement. Ton offre et ton discours en découlent.",
+   "caption": "Mme Garnier, 71 ans, vend sa maison de 1968 pour entrer en résidence seniors. Quel besoin principal ta fiche cible doit-elle noter ?",
+   "dur": 26.13333333333333
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Ma fiche cible",
+   "steps": [
+    {
+     "label": "Classe tes 10 dernières ventes ou estimations par raison de vendre et par type de bien.",
+     "detail": ""
+    },
+    {
+     "label": "Repère le profil qui revient le plus, ou celui que tu veux développer dans tes secteurs prioritaires.",
+     "detail": ""
+    },
+    {
+     "label": "Réponds aux trois questions : qui est-il, pourquoi vend-il, où vit-il.",
+     "detail": ""
+    },
+    {
+     "label": "Complète le portrait : craintes, attentes, sources d'information, façon d'accepter d'être contacté.",
+     "detail": ""
+    },
+    {
+     "label": "Écris la phrase qu'il dit souvent et la réponse que tu veux lui apporter.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Ma fiche cible. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Ma fiche cible",
+   "items": [
+    "La cible est un propriétaire précis (âge, statut, type de bien, secteur), pas « tous les…",
+    "La raison de vendre et l'échéance sont décrites",
+    "Le lieu de vie est relié aux secteurs prioritaires de 1.5",
+    "La façon d'entrer en contact respecte le consentement (aucun appel à froid)",
+    "Aucune donnée personnelle (nom, téléphone, adresse exacte)"
+   ],
+   "caption": "Ton livrable : Ma fiche cible. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche cible",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 209.62
+}

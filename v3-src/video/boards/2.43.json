@@ -1,0 +1,199 @@
+{
+ "id": "2.43",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Estimer après rénovation, sans rien promettre",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 2.43 : estimer après rénovation",
+   "caption": "Bienvenue. Dans ce chapitre, tu calcules deux valeurs pour M. Bernard : en l'état, et après rénovation. Chacune avec ses preuves, sans rien promettre.",
+   "cta": "Commencer",
+   "dur": 10.29
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi on part de ventes, et pourquoi une valeur après travaux n'est pas une promesse"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "calculer les deux valeurs du bien, avant et après travaux"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ta note d'estimation et ses deux valeurs"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Trois annonces, une moyenne sur mes doigts : voilà ton prix !",
+   "caption": "Trois annonces, une moyenne sur mes doigts : voilà ton prix !",
+   "line": "Trois annonces, une moyenne sur mes doigts : voilà ton prix !",
+   "scene": "Mozi fait défiler des annonces sur son téléphone, compte sur ses doigts, se trompe et recommence.",
+   "pose": "presse",
+   "dur": 5.1
+  },
+  {
+   "kind": "belief",
+   "title": "3 annonces, 1 moyenne, 0 vente réelle",
+   "caption": "Trois annonces, une moyenne, zéro vente réelle.",
+   "beats": [
+    "3 annonces",
+    "1 moyenne",
+    "0 vente réelle"
+   ],
+   "wrong": 2,
+   "why": "Une annonce donne un prix demandé ; seule une vente donne le prix payé.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Prix demandé ≠ prix payé",
+   "caption": "Sauf qu'une annonce, c'est un prix demandé. Pas un prix payé. Une estimation bâtie sur des annonces ne tient pas devant un vendeur qui vérifie.",
+   "lines": [
+    "Une annonce, c'est un prix demandé.",
+    "Seule une vente dit le prix payé."
+   ],
+   "dur": 11.4
+  },
+  {
+   "kind": "stat",
+   "title": "5 ans de ventes réelles, en accès libre",
+   "caption": "Ta matière première est publique : cinq ans de ventes réelles, mises à jour deux fois par an. C'est la base DVF. Seules l'Alsace, la Moselle et Mayotte n'y figurent pas.",
+   "value": "5 ans",
+   "label": "de ventes immobilières réelles en open data, mises à jour en avril et en octobre",
+   "dur": 13.62
+  },
+  {
+   "kind": "steps",
+   "title": "Ventes et médiane → Ajustements prouvés → Écart et coût",
+   "caption": "Trois idées. Un : tu pars des ventes. Tu calcules le prix au mètre carré de chacune, puis la médiane, qui résiste aux ventes atypiques. Chez M. Bernard : 2 650 euros, fois 76 mètres carrés, 201 400 euros. Deux : tu n'ajustes que ce qui est prouvé. Les fenêtres, moins 5 600. La ventilation, moins 2 900. Le chauffage est neutre. Puis les appels de fonds : une décote de 6 900 à 14 900 euros, un jugement que tu écris. Fourchette : 178 000 à 186 000 euros net vendeur. Trois : tu compares honnêtement. Rénové, dans un immeuble isolé : 216 600 euros. L'écart ne couvre pas les 52 380 euros de travaux. Tu le dis, et tu ne promets ni ce prix, ni la classe C.",
+   "steps": [
+    {
+     "label": "Ventes et médiane",
+     "detail": "Médiane en l'état 2 650 €/m² × 76 m² = 201 400 €."
+    },
+    {
+     "label": "Ajustements prouvés",
+     "detail": "−5 600 € fenêtres, −2 900 € VMC, −6 900 à −14 900 € copropriété : 178 000 à 186 000 €."
+    },
+    {
+     "label": "Écart et coût",
+     "detail": "Après rénovation 216 600 € ; écart 30 600 à 38 600 € ; coût 52 380 €."
+    }
+   ],
+   "dur": 47.7
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Karim veut annoncer 205 000 € à M. Bernard, « pour lui faire plaisir ». Que lui présentes-tu à la place ?",
+   "model_answer": "Les deux valeurs prouvées : 178 000 à 186 000 € net vendeur en l'état, à partir de la médiane des ventes et des devis ; 216 600 € après rénovation. Même la vente en l'état la plus chère, 2 700 €/m², donne 205 200 € avant les retraits prouvés : 205 000 € ne tient pas. Et je n'annonce aucune de ces valeurs comme un prix garanti.",
+   "dur": 32.74
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "On estime à partir de ventes réelles, pas d'annonces",
+     "La moyenne des annonces suffit si on en prend au moins trois",
+     "Aucune : le prix demandé fait le marché"
+    ],
+    "answer": 0,
+    "feedback": "Une annonce est un prix demandé ; une vente est un prix payé. DVF publie les ventes réelles des cinq dernières années.",
+    "whys": [
+     "Exact : seules les ventes disent ce que les acheteurs ont vraiment payé.",
+     "Faux : dix annonces restent dix prix demandés ; le nombre ne change pas leur nature.",
+     "Faux : un prix demandé n'est qu'une intention ; c'est la vente qui fait la référence."
+    ]
+   },
+   "card2": {
+    "question": "Si Hugo demandait à une IA « combien vaut un T4 de 76 m² à Melun ? », que se passerait-il ?",
+    "answer": "L'IA n'a pas les ventes du quartier : elle inventerait un chiffre. Le bon usage : lui donner tes comparables et tes ajustements, la laisser calculer, puis lui faire jouer un acheteur sceptique. Tu vérifies tout, sans nom ni adresse."
+   },
+   "fb": "Une annonce est un prix demandé ; une vente est un prix payé. DVF publie les ventes réelles des cinq dernières années.",
+   "dur": 15.02
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : deux valeurs que M. Bernard peut refaire seul. La base DVF, et l'assistant IA.",
+   "goal": "Deux valeurs que M. Bernard peut refaire seul",
+   "tools": [
+    {
+     "name": "DVF",
+     "role": "Trouver les ventes réelles du secteur"
+    },
+    {
+     "name": "L'assistant IA",
+     "role": "Calculer, présenter, jouer l'acheteur sceptique"
+    }
+   ],
+   "dur": 8.81
+  },
+  {
+   "kind": "demo",
+   "title": "DVF : la valeur en l'état",
+   "caption": "Dans DVF, tu choisis des ventes proches. Ici, l'exemple fictif D12. En l'état, la médiane est à 2 650 euros. Fois 76 : 201 400. Moins les fenêtres et la ventilation : 192 900. Avec la décote copropriété : de 178 000 à 186 000 euros.",
+   "steps": [
+    "Ventes 2025-2026, immeubles de la même époque, surfaces proches (exemple fictif D12)",
+    "En l'état : 2 600 · 2 620 · 2 650 · 2 690 · 2 700 €/m² → médiane 2 650",
+    "76 × 2 650 = 201 400 € ; − 5 600 − 2 900 = 192 900 €",
+    "Copropriété : − 14 900 à − 6 900 € → 178 000 à 186 000 € net vendeur"
+   ],
+   "tool": "DVF",
+   "dur": 18.07
+  },
+  {
+   "kind": "demo",
+   "title": "L'IA : calculer et contredire",
+   "caption": "Puis l'IA. Tu colles tes comparables, sans nom ni adresse. Elle calcule la valeur après rénovation : médiane 2 850, soit 216 600 euros. Tu vérifies l'écart face aux 52 380 euros de travaux. Puis elle joue l'acheteur sceptique.",
+   "steps": [
+    "Coller comparables et ajustements, sans nom, adresse ni numéro de DPE",
+    "Rénovés : 2 820 · 2 850 · 2 880 €/m² → médiane 2 850 ; 76 × 2 850 = 216 600 €",
+    "Vérifier : écart 30 600 à 38 600 € face à 16 500 + 35 880 = 52 380 €",
+    "Lui faire jouer l'acheteur sceptique, ajustement par ajustement"
+   ],
+   "tool": "Assistant IA",
+   "dur": 16.59
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Calcule les deux valeurs de M. Bernard maintenant.",
+   "cta": "Ouvrir le modèle d'estimation",
+   "dur": 4.36
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ta note d'estimation.",
+   "ask": "Dépose une capture de ta note d'estimation : fourchette en l'état 178 000 – 186 000 € net vendeur et valeur après travaux 216 600 €, chaque chiffre avec sa preuve, et la mention « estimation, pas une promesse de prix ».",
+   "dur": 3.62
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Les deux agences avaient un chiffre sans preuve. Toi, deux valeurs, et chaque ligne se vérifie.",
+   "status": "Les deux agences : 1 chiffre, 0 preuve. Toi : 2 valeurs, chaque ligne prouvée.",
+   "dur": 7.7
+  }
+ ],
+ "total": 206.64
+}

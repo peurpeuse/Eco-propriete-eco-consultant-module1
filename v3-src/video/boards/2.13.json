@@ -1,0 +1,201 @@
+{
+ "id": "2.13",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Appartement : les diagnostics des parties privatives",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Appartement : les diagnostics des parties privatives",
+   "caption": "Capsule 2.13. Appartement : les diagnostics des parties privatives",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Constituer le dossier de diagnostics des parties privatives d'un lot de copropriété (DPE seul, pas d'audit individuel), vérifier chaque validité et distinguer ce qui relève des parties communes",
+   "caption": "À la fin de cette capsule : Constituer le dossier de diagnostics des parties privatives d'un lot de copropriété (DPE seul, pas d'audit individuel), vérifier chaque validité et distinguer ce qui relève des parties communes",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Oui : depuis 2025, tout logement classé E doit avoir un audit",
+   "pose": "pointe",
+   "scene": "L'appartement de M. Bernard est classé E (attestation). Faut-il un audit énergétique pour le vendre ?",
+   "caption": "L'appartement de M. Bernard est classé E (attestation). Faut-il un audit énergétique pour le vendre ? Mozi, lui, répondrait : « Oui : depuis 2025, tout logement classé E doit avoir un audit »",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : l'obligation vise les maisons et immeubles hors copropriété classés E, F ou G."
+   ],
+   "caption": "Faux : l'obligation vise les maisons et immeubles hors copropriété classés E, F ou G.",
+   "dur": 6.955555555555556
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Pour un appartement, le dossier porte sur le lot : DPE, Carrez, amiante et plomb selon la date, électricité et gaz de plus de 15 ans, état des risques, termites selon la zone.",
+    "Sébastien Paumier ouvre le D17 de M. Bernard : ni plomb, ni gaz, ni audit individuel.",
+    "Et ce qui change si les travaux privatifs sont faits avant la vente."
+   ],
+   "caption": "Pour un appartement, le dossier porte sur le lot : DPE, Carrez, amiante et plomb selon la date, électricité et gaz de plus de 15 ans, état des risques, termites selon la zone. Sébastien Paumier ouvre le D17 de M. Bernard : ni plomb, ni gaz, ni audit individuel. Et ce qui change si les travaux privatifs sont faits avant la vente.",
+   "dur": 23.62222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Check-list de l'appartement",
+   "table": {
+    "headers": [
+     "Pièce",
+     "Condition",
+     "Validité",
+     "M. Bernard (D17)"
+    ],
+    "rows": [
+     [
+      "DPE du lot",
+      "Toujours",
+      "10 ans",
+      "D02 du 14/03/2023, jusqu'au 13/03/2033 ; attestation E (D03)"
+     ],
+     [
+      "Audit énergétique",
+      "Jamais pour un lot de copropriété",
+      "-",
+      "Non concerné"
+     ],
+     [
+      "Carrez",
+      "Lot de 8 m² et plus",
+      "Illimitée sauf travaux",
+      "76,0 m²"
+     ],
+     [
+      "Plomb (parties privatives)",
+      "Avant le 1/01/1949",
+      "1 an ou illimité",
+      "Non concerné (1972)"
+     ],
+     [
+      "Amiante (parties privatives)",
+      "Permis avant le 1/07/1997",
+      "Selon résultat",
+      "Concerné (permis 1970)"
+     ]
+    ]
+   },
+   "caption": "Check-list de l'appartement. DPE du lot : Toujours ; Audit énergétique : Jamais pour un lot de copropriété ; Carrez : Lot de 8 m² et plus",
+   "dur": 10.288888888888888
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Ce qui est propre à l'appartement",
+   "items": [
+    "Les diagnostics de vente portent sur les parties privatives du lot ; cave et parking n'entrent pas dans la surface Carrez.",
+    "Pas d'audit énergétique individuel : l'obligation vise les maisons et la monopropriété.",
+    "Les documents de l'immeuble (DTA, DPE collectif, PPPT, PV d'AG) viennent du syndic, pas du diagnostiqueur du vendeur.",
+    "L'état des risques porte sur la parcelle de l'immeuble : il est le même pour tous les lots, mais il reste à…",
+    "Termites : si la commune est en zone, l'état termites porte sur le lot vendu."
+   ],
+   "caption": "Ce qui est propre à l'appartement. Les diagnostics de vente portent sur les parties privatives du lot ; cave et parking n'entrent pas dans la surface Carrez. Pas d'audit énergétique individuel : l'obligation vise les maisons et la monopropriété. Les documents de l'immeuble (DTA, DPE collectif, PPPT, PV d'AG) viennent du syndic, pas du diagnostiqueur du vendeur. L'état des risques porte sur la parcelle de l'immeuble : il est le…",
+   "dur": 29.177777777777774
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Vérifier un dossier en 5 gestes",
+   "items": [
+    "Liste les pièces du D17 avec leur date.",
+    "Calcule la fin de validité de chacune et compare à la date de promesse et à la date d'acte.",
+    "Vérifie la zone (termites, mérule, bruit) sur la carte du Cerema, en mairie et sur le Géoportail.",
+    "Vérifie la cohérence entre le DPE, le mesurage Carrez et le plan (76 m² partout).",
+    "Note ce qui change si le vendeur fait des travaux avant la vente (nouveau DPE conseillé, carnet d'information)."
+   ],
+   "caption": "Vérifier un dossier en 5 gestes. Liste les pièces du D17 avec leur date. Calcule la fin de validité de chacune et compare à la date de promesse et à la date d'acte. Vérifie la zone (termites, mérule, bruit) sur la carte du Cerema, en mairie et sur le Géoportail. Vérifie la cohérence entre le DPE, le mesurage Carrez et le plan (76 m² partout). Note ce qui change si…",
+   "dur": 27.696296296296293
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire au vendeur",
+   "text": "« Pour votre appartement, pas d'audit énergétique : c'est un lot de copropriété, votre DPE suffit, et votre classe officielle est E. Il faudra refaire l'état des risques juste avant la promesse, et je vérifie que le diagnostic électricité couvrira la date de l'acte. Le reste est en ordre. »",
+   "caption": "La phrase à dire au vendeur. « Pour votre appartement, pas d'audit énergétique : c'est un lot de copropriété, votre DPE suffit, et votre classe officielle est E. Il faudra refaire l'état des risques juste avant la promesse, et je vérifie que le diagnostic électricité couvrira la date de l'acte. Le reste est en ordre. »",
+   "dur": 22.51111111111111
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "L'immeuble des Tilleuls date de 1972 (permis de 1970). Quels diagnostics liés à l'âge faut-il pour le lot ?",
+    "options": [
+     "Plomb et amiante",
+     "Plomb seulement",
+     "Amiante (permis avant juillet 1997) et électricité (installation de plus de 15 ans) ; pas de plomb"
+    ],
+    "answer": 2
+   },
+   "fb": "Pour M. Bernard : amiante des parties privatives (permis de 1970) ; électricité (installation de plus de 15 ans, valable 3 ans) ; pas de plomb (construit après 1949) ; pas de gaz (chauffage et eau chaude électriques).",
+   "caption": "L'immeuble des Tilleuls date de 1972 (permis de 1970). Quels diagnostics liés à l'âge faut-il pour le lot ?",
+   "dur": 23.17037037037037
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Constituer le dossier de diagnostics de l'appartement fil rouge",
+   "steps": [
+    {
+     "label": "Remplis la check-list pour le lot de M. Bernard, avec les dates du D17.",
+     "detail": ""
+    },
+    {
+     "label": "Compare chaque validité au 15/12/2026 (compromis) et au 15/03/2027 (acte).",
+     "detail": ""
+    },
+    {
+     "label": "Explique en une phrase pourquoi il n'y a ni audit, ni plomb, ni gaz.",
+     "detail": ""
+    },
+    {
+     "label": "Liste les vérifications de zone à faire et la source de chacune.",
+     "detail": ""
+    },
+    {
+     "label": "Indique ce qui changerait si les travaux du D13 étaient faits avant la vente.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Constituer le dossier de diagnostics de l'appartement fil rouge. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Dossier de diagnostics de l'appartement de M. Bernard",
+   "items": [
+    "Les 12 lignes de la check-list sont traitées avec date et fin de validité",
+    "L'absence d'audit, de plomb et de gaz est justifiée",
+    "Les validités sont comparées aux dates du compromis et de l'acte",
+    "Les vérifications de zone sont listées avec leur source",
+    "Le cas des travaux faits avant la vente (DPE, carnet) est traité"
+   ],
+   "caption": "Ton livrable : Dossier de diagnostics de l'appartement de M. Bernard. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Check-list diagnostics d'un appartement (plomb, amiante, termites, électricité, gaz)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 204.7
+}

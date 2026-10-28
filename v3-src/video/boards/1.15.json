@@ -1,0 +1,185 @@
+{
+ "id": "1.15",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Son elevator pitch",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Son elevator pitch",
+   "caption": "Capsule 1.15. Son elevator pitch",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Enregistrer un elevator pitch de 30 secondes en 5 temps, centré sur le problème du vendeur et terminé par une seule proposition datée",
+   "caption": "À la fin de cette capsule : Enregistrer un elevator pitch de 30 secondes en 5 temps, centré sur le problème du vendeur et terminé par une seule proposition datée",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Environ 30 mots",
+   "pose": "bof",
+   "scene": "À voix haute, on parle à environ 150 mots par minute. Combien de mots pour un pitch de 30 secondes ?",
+   "caption": "À voix haute, on parle à environ 150 mots par minute. Combien de mots pour un pitch de 30 secondes ? Mozi, lui, répondrait : « Environ 30 mots »",
+   "dur": 9.918518518518518
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Trop court : 30 mots tiennent en 12 secondes environ ; tu n'aurais pas le temps de donner une preuve et une invitation."
+   ],
+   "caption": "Trop court : 30 mots tiennent en 12 secondes environ ; tu n'aurais pas le temps de donner une preuve et une invitation.",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Un voisin demande à l'apprenant, devant l'ascenseur : « Et toi, tu fais quoi exactement ?",
+    "» Trente secondes, environ 75 mots.",
+    "Sébastien Paumier donne une trame en 5 temps (qui j'aide, leur problème, ce que je fais, une preuve, une invitation), la démontre en version agent de Melun, puis montre comment la raccourcir et la…"
+   ],
+   "caption": "Un voisin demande à l'apprenant, devant l'ascenseur : « Et toi, tu fais quoi exactement ? » Trente secondes, environ 75 mots. Sébastien Paumier donne une trame en 5 temps (qui j'aide, leur problème, ce que je fais, une preuve, une invitation), la démontre en version agent de Melun, puis montre comment la raccourcir et la tester chronomètre en main.",
+   "dur": 23.25185185185185
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Les 5 temps (≈ 75 mots)",
+   "items": [
+    "Qui j'aide (≈ 5 s) : la cible, en mots simples.",
+    "Leur problème (≈ 7 s) : ce qu'ils vivent, avec leurs mots.",
+    "Ce que je fais (≈ 8 s) : deux ou trois verbes vérifiables tirés de ta promesse (capsule 1.11).",
+    "Une preuve (≈ 5 s) : un exemple concret ou une pièce, jamais un chiffre promis.",
+    "Une invitation (≈ 5 s) : une seule étape simple, que la personne peut aussi relayer."
+   ],
+   "caption": "Les 5 temps (≈ 75 mots). Qui j'aide (≈ 5 s) : la cible, en mots simples. Leur problème (≈ 7 s) : ce qu'ils vivent, avec leurs mots. Ce que je fais (≈ 8 s) : deux ou trois verbes vérifiables tirés de ta promesse (capsule 1.11). Une preuve (≈ 5 s) : un exemple concret ou une pièce, jamais un chiffre promis. Une invitation (≈ 5 s) …",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple rempli : agent à Melun (≈ 70 mots)",
+   "text": "« J'aide les propriétaires de Melun qui vendent un logement ancien. Beaucoup ont entendu qu'ils perdraient 15 ou 25 % à cause de leur DPE. Moi, je vérifie d'abord l'étiquette à jour, je pars des ventes réelles du quartier et je chiffre les travaux par devis. Le mois dernier, un appartement classé F est passé…",
+   "caption": "Exemple rempli : agent à Melun (≈ 70 mots). « J'aide les propriétaires de Melun qui vendent un logement ancien. Beaucoup ont entendu qu'ils perdraient 15 ou 25 % à cause de leur DPE. Moi, je vérifie d'abord l'étiquette à jour, je pars des ventes réelles du quartier et je chiffre les travaux par devis. Le mois dernier, un appartement classé F est passé…",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Version floue ou version claire",
+   "table": {
+    "headers": [
+     "À éviter",
+     "À dire"
+    ],
+    "rows": [
+     [
+      "« Je suis agent immobilier passionné. »",
+      "« J'aide les propriétaires qui vendent un logement ancien. »"
+     ],
+     [
+      "« On a le meilleur réseau. »",
+      "« Je vérifie l'étiquette à jour avant de parler prix. »"
+     ],
+     [
+      "« Je vous la vends plus cher. »",
+      "« Je pars des ventes réelles et je chiffre les travaux. »"
+     ],
+     [
+      "« N'hésitez pas. »",
+      "« Je lui propose trente minutes pour vérifier son DPE. »"
+     ]
+    ]
+   },
+   "caption": "Version floue ou version claire. « Je suis agent immobilier passionné. » : « J'aide les propriétaires qui vendent un logement ancien. » ; « On a le meilleur réseau. » : « Je vérifie l'étiquette à jour avant de parler prix. » ; « Je vous la vends plus cher. » : « Je pars des ventes réelles et je chiffre les travaux. »",
+   "dur": 19.918518518518518
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Tester son pitch",
+   "items": [
+    "Compter les mots : 75 au maximum.",
+    "Se chronométrer : 30 secondes au maximum, sans accélérer.",
+    "Le dire à 3 personnes et leur demander : « Qu'est-ce que je fais ? » Leur réponse doit ressembler à ta…",
+    "Vérifier qu'il ne contient ni promesse de prix, ni classe garantie, ni aide acquise.",
+    "S'enregistrer en vidéo, se réécouter, couper ce qui ne sert pas."
+   ],
+   "caption": "Tester son pitch. Compter les mots : 75 au maximum. Se chronométrer : 30 secondes au maximum, sans accélérer. Le dire à 3 personnes et leur demander : « Qu'est-ce que je fais ? » Leur réponse doit ressembler à ta… Vérifier qu'il ne contient ni promesse de prix, ni classe garantie, ni aide acquise. S'enregistrer en vidéo, se réécouter, couper ce qui ne sert pas.",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Par quoi commence un bon elevator pitch d'éco-consultant ?",
+    "options": [
+     "Par les personnes que tu aides et leur problème",
+     "Par l'ancienneté et la taille de ton agence",
+     "Par ton taux d'honoraires"
+    ],
+    "answer": 0
+   },
+   "fb": "« J'aide les propriétaires qui vendent un logement ancien et à qui on a annoncé une décote à cause de leur DPE » : en une phrase, la cible et son problème. Ta méthode et ta preuve viennent ensuite.",
+   "caption": "Par quoi commence un bon elevator pitch d'éco-consultant ?",
+   "dur": 20.207407407407405
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Enregistrer son elevator pitch de 30 secondes",
+   "steps": [
+    {
+     "label": "Écris une phrase par temps (qui j'aide, problème, ce que je fais, preuve, invitation).",
+     "detail": ""
+    },
+    {
+     "label": "Compte les mots et coupe jusqu'à 75 au maximum.",
+     "detail": ""
+    },
+    {
+     "label": "Dis-le à voix haute trois fois, sans le lire, chronomètre en main.",
+     "detail": ""
+    },
+    {
+     "label": "Teste-le sur une personne et note ce qu'elle a retenu.",
+     "detail": ""
+    },
+    {
+     "label": "Ajuste, puis enregistre-toi en vidéo, face caméra, en une seule prise de 30 secondes maximum.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Enregistrer son elevator pitch de 30 secondes. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Mon elevator pitch filmé",
+   "items": [
+    "Les 5 temps sont présents dans l'ordre",
+    "75 mots au maximum et 30 secondes au maximum",
+    "Le pitch commence par la cible et son problème, pas par l'agence",
+    "Aucune promesse de prix, de classe, de délai ou d'aide",
+    "Une seule invitation concrète à la fin"
+   ],
+   "caption": "Ton livrable : Mon elevator pitch filmé. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Trame d'elevator pitch",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 204.33
+}

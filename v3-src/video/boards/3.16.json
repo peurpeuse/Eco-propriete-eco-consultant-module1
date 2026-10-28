@@ -1,0 +1,199 @@
+{
+ "id": "3.16",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Maîtriser le dossier du vendeur",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.16 : maîtriser le dossier du vendeur",
+   "caption": "Bienvenue. Dans ce chapitre, tu prépares le dossier de M. Bernard, pièce par pièce, pour arriver chez lui avec toutes les preuves.",
+   "cta": "Commencer",
+   "dur": 9.55
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi un dossier complet rassure le vendeur et l'acheteur"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "constituer le dossier avec la check-list, puis dater et suivre chaque pièce"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton dossier et ton tableau de suivi remplis en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Vos relevés bancaires, oui ! Votre PV d'AG ? On verra chez le notaire !",
+   "caption": "Vos relevés bancaires, oui ! Votre PV d'AG ? On verra chez le notaire !",
+   "line": "Vos relevés bancaires, oui ! Votre PV d'AG ? On verra chez le notaire !",
+   "scene": "Mozi épluche les relevés bancaires à la loupe et glisse le PV d'AG sous le tapis.",
+   "pose": "base",
+   "dur": 6.21
+  },
+  {
+   "kind": "belief",
+   "title": "Tout demander, rien lire, voir chez le notaire",
+   "caption": "Tout demander. Rien lire. Et voir chez le notaire.",
+   "beats": [
+    "Tout demander",
+    "Rien lire",
+    "Voir chez le notaire"
+   ],
+   "wrong": 2,
+   "why": "Le PV d'AG doit être remis au compromis, sinon la rétractation est repoussée.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "PV d'AG absent. Rétractation repoussée.",
+   "caption": "Résultat : le PV d'AG manque au compromis. Et le délai de rétractation de l'acheteur ne démarre qu'une fois le document remis. La vente attend.",
+   "lines": [
+    "PV d'AG absent du compromis.",
+    "Rétractation de l'acheteur repoussée."
+   ],
+   "dur": 11.4
+  },
+  {
+   "kind": "stat",
+   "title": "Plus de 15 ans : diagnostic électricité obligatoire",
+   "caption": "Un exemple de pièce qu'on oublie. Installation électrique de plus de quinze ans ? Le diagnostic électricité est obligatoire pour vendre. Chez M. Bernard, une partie des circuits date de 1972.",
+   "value": "15 ans",
+   "label": "d'installation électrique : au-delà, l'état de l'électricité est obligatoire à la vente",
+   "dur": 12.88
+  },
+  {
+   "kind": "steps",
+   "title": "4 blocs → source, date, statut → une phrase",
+   "caption": "Un dossier, ce n'est pas une pile de papiers. D'abord, tu ranges tout en quatre blocs : le vendeur et son titre, le bien et son énergie, la copropriété, le marché. Ensuite, chaque pièce reçoit une source, une date et un statut : reçu, demandé, à commander, ou plus tard. Le DPE vient de Diag77, il date du 14 mars 2023. Enfin, tu lis chaque pièce, et tu en tires une phrase. Le PV d'AG du 12 juin 2025 : ravalement avec isolation par l'extérieur voté. Pour le lot de M. Bernard, 35 880 euros, en quatre appels de 8 970 euros en 2027. Ta phrase : « C'est la question que tous les acheteurs poseront. On la prépare ensemble. »",
+   "steps": [
+    {
+     "label": "4 blocs",
+     "detail": "Vendeur, bien et énergie, copropriété, marché : D01 à D18."
+    },
+    {
+     "label": "Source, date, statut",
+     "detail": "Reçu, demandé, à commander ou plus tard, toujours avec une date."
+    },
+    {
+     "label": "Une phrase par pièce",
+     "detail": "D07 : 35 880 € d'ITE, en 4 appels de 8 970 € en 2027."
+    }
+   ],
+   "dur": 45.84
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? Maxime veut aussi les relevés bancaires de M. Bernard, au cas où. Que lui dis-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Maxime, nouvel entrant, reçoit la chemise de documents de M. Bernard. Il veut aussi ses relevés bancaires « au cas où ». Que lui conseilles-tu ?",
+   "model_answer": "Je lui dis de ne demander que ce qui sert à vendre le bien : titre, DPE et attestation, diagnostics, documents de copropriété, comparables. Pas de relevés bancaires : prêt soldé, propriétaire seul, ils ne servent à rien. C'est le principe de minimisation. Et chaque pièce utile reçoit une source, une date et un statut.",
+   "dur": 30.89
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ? Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Ne collecter que les données utiles à la vente : c'est le principe de minimisation",
+     "Un agent doit vérifier les finances du vendeur avant tout mandat",
+     "Aucune : si le vendeur accepte, tout peut être demandé"
+    ],
+    "answer": 0,
+    "feedback": "Tu ne collectes que ce qui sert à vendre le bien (CNIL, minimisation). Et le PV d'AG, lui, doit être remis à l'acquéreur au plus tard à la promesse (CCH, art. L. 721-2).",
+    "whys": [
+     "Exact : seules les données nécessaires à la finalité sont collectées. Les relevés bancaires ne servent pas à vendre un appartement.",
+     "Faux : tu vérifies son identité et son titre de propriété, pas ses relevés. Ses finances ne disent rien de son bien.",
+     "Faux : l'accord du vendeur ne rend pas utile une donnée inutile ; la minimisation s'applique quand même."
+    ]
+   },
+   "card2": {
+    "question": "Si Karim imposait le tableau de suivi à toute son agence, que se passerait-il ?",
+    "answer": "Chaque dossier aurait ses 4 blocs, ses pièces datées et ses manques repérés avant le compromis : pas de PV d'AG oublié, pas de donnée inutile, et des vendeurs rassurés dès le premier rendez-vous."
+   },
+   "fb": "Tu ne collectes que ce qui sert à vendre le bien (CNIL, minimisation). Et le PV d'AG, lui, doit être remis à l'acquéreur au plus tard à la promesse (CCH, art. L. 721-2).",
+   "dur": 22.43
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : arriver devant M. Bernard avec toutes les preuves. L'observatoire de l'ADEME, et ta check-list avec son tableau de suivi.",
+   "goal": "Arriver au rendez-vous avec toutes les preuves",
+   "tools": [
+    {
+     "name": "Observatoire DPE-Audit (ADEME)",
+     "role": "Retrouver le DPE et l'attestation actualisée"
+    },
+    {
+     "name": "Check-list et tableau de suivi",
+     "role": "Lister chaque pièce, puis la suivre : source, date, statut, prochaine action"
+    }
+   ],
+   "dur": 11.4
+  },
+  {
+   "kind": "demo",
+   "title": "ADEME : retrouver, vérifier, classer",
+   "caption": "Sur l'observatoire de l'ADEME, tu retrouves le DPE de M. Bernard par son numéro. Classe F, en 2023. Puis l'attestation actualisée : classe E, valable jusqu'au 13 mars 2033. Elle passe en tête du bloc deux.",
+   "steps": [
+    "Retrouver : le DPE par son numéro ADEME à 13 caractères",
+    "Vérifier : DPE du 14/03/2023, classe F (coefficient 2,3)",
+    "Récupérer : l'attestation actualisée, classe E, valable jusqu'au 13/03/2033",
+    "Classer : l'attestation D03 en tête du bloc « bien et énergie »"
+   ],
+   "tool": "Observatoire DPE-Audit (ADEME)",
+   "dur": 15.84
+  },
+  {
+   "kind": "demo",
+   "title": "Tableau : classer, dater, relancer",
+   "caption": "Dans le tableau : bloc un, titre et taxe foncière reçus. Bloc deux, l'état de l'électricité manque : à commander, avant le 13 novembre. Bloc trois, fiche synthétique demandée au syndic. Puis un mail à M. Bernard : ce qui manque, qui, avant quand.",
+   "steps": [
+    "Bloc 1 : D11 reçu, taxe foncière 1 412 €/an",
+    "Bloc 2 : état de l'électricité « à commander », avant le 13/11/2026",
+    "Bloc 3 : fiche synthétique D10 demandée à Mme Roy, relance le 03/11/2026",
+    "Mail à M. Bernard : ce que j'ai, ce qui manque, qui s'en charge, avant quand"
+   ],
+   "tool": "Check-list et tableau de suivi",
+   "dur": 17.33
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "À toi : constitue le dossier.",
+   "cta": "Ouvrir l'observatoire ADEME",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton dossier et ton tableau de suivi.",
+   "ask": "Dépose une capture du dossier complet de M. Bernard, de ton tableau de suivi (4 blocs, et pour chaque pièce une source, une date et un statut) et de ton mail récapitulatif.",
+   "dur": 4.73
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Les autres agences sont venues les mains vides. Toi, tu arrives avec quatre blocs et chaque pièce datée.",
+   "status": "Ton dossier : 4 blocs, chaque pièce datée. Les deux autres agences : les mains vides.",
+   "dur": 8.44
+  }
+ ],
+ "total": 212.06
+}

@@ -1,0 +1,201 @@
+{
+ "id": "3.24",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "R1 / R2 : être préféré à deux concurrents",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.24 : être préféré à deux concurrents",
+   "caption": "Bienvenue. Deux agences ont déjà vu M. Bernard. Tu es la troisième. Dans ce chapitre, tu prépares ton R1 et ton R2, pour être choisi sans jamais critiquer les autres.",
+   "cta": "Commencer",
+   "dur": 12.51
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce que ton R1 et ton R2 doivent produire face à deux concurrents"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "faire comparer les offres sur les critères du vendeur, sans dénigrer"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer la grille remplie et ses raisons, dans ses mots"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "L'agence d'en face ? Ils estiment au pendule. Et l'autre, à prix cassés : ils cassent aussi les fenêtres !",
+   "caption": "L'agence d'en face ? Ils estiment au pendule. Et l'autre, à prix cassés : ils cassent aussi les fenêtres !",
+   "line": "L'agence d'en face ? Ils estiment au pendule. Et l'autre, à prix cassés : ils cassent aussi les fenêtres !",
+   "scene": "Mozi brandit deux pancartes caricaturant les agences concurrentes devant M. Bernard, qui tient trois propositions à comparer.",
+   "pose": "presse",
+   "dur": 8.81
+  },
+  {
+   "kind": "belief",
+   "title": "Deux concurrents, je les démolis, il me choisit",
+   "caption": "Deux concurrents. Je les démolis. Il me choisit.",
+   "beats": [
+    "Deux concurrents",
+    "Je les démolis",
+    "Il me choisit"
+   ],
+   "wrong": 1,
+   "why": "Dénigrer un confrère est interdit par le code de déontologie, et un vendeur prudent n'y voit aucune preuve.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Dénigrer : un manquement, pas un argument",
+   "caption": "Le code de déontologie est clair : ni paroles malveillantes, ni dénigrement d'un confrère. Et M. Bernard, profil C, compare des preuves. Une attaque ne prouve rien sur ton offre.",
+   "lines": [
+    "Dénigrer un confrère : manquement au code de déontologie.",
+    "Le vendeur compare des preuves, pas des attaques."
+   ],
+   "dur": 12.51
+  },
+  {
+   "kind": "stat",
+   "title": "16 % : des anomalies sont des pratiques trompeuses",
+   "caption": "Seize pour cent. En 2023, la DGCCRF a contrôlé 1 739 professionnels de l'immobilier. Seize pour cent des anomalies relevées étaient des pratiques commerciales trompeuses, souvent pour décrocher des mandats avant les concurrents.",
+   "value": "16 %",
+   "label": "des anomalies relevées par la DGCCRF en 2023 étaient des pratiques commerciales trompeuses, souvent pour obtenir des mandats avant les concurrents",
+   "dur": 13.99
+  },
+  {
+   "kind": "steps",
+   "title": "R1 : écouter → R2 : restituer → la grille : il conclut",
+   "caption": "D'abord, le R1 : tu écoutes. Le projet de M. Bernard : se rapprocher de sa fille, avoir vendu avant l'été 2027. Ses freins techniques : le DPE, les fenêtres, l'appel de fonds de l'isolation de façade. Tes premières hypothèses, sans chiffre définitif. Et une question clé : quels critères compteront pour choisir une agence ? Ensuite, le R2 : tu restitues. L'estimation justifiée par les comparables, 178 000 à 186 000 euros en l'état. Deux scénarios de vente. Ton plan de commercialisation et tes engagements écrits. Enfin, la grille. Trois offres, les mêmes critères : les siens. Tu ne commentes jamais les autres. Il remplit, il compare, et c'est lui qui dit pourquoi.",
+   "steps": [
+    {
+     "label": "R1 : écouter",
+     "detail": "Projet, freins techniques, premières hypothèses, et ses critères de choix."
+    },
+    {
+     "label": "R2 : restituer",
+     "detail": "Estimation justifiée, deux scénarios, plan de commercialisation, engagements écrits."
+    },
+    {
+     "label": "La grille : il conclut",
+     "detail": "Trois offres, ses critères ; il note et formule lui-même ses raisons."
+    }
+   ],
+   "dur": 43.62
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Au R2, M. Bernard dit à Claire : l'une des agences prend moins cher, l'autre a un fichier d'acheteurs. Toi, que proposerais-tu, sans dénigrer personne ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Pendant le R2, M. Bernard dit à Claire : « La première agence a un fichier d'acheteurs, la deuxième prend moins cher. Pourquoi vous ? » Comment Claire l'amène-t-elle à comparer, sans dénigrer, et à formuler lui-même ses raisons ?",
+   "model_answer": "« Je ne commente pas leurs offres : elles ont sûrement leurs atouts. Reprenons vos critères du premier rendez-vous : la preuve de l'estimation, le plan pour le DPE et l'appel de fonds de la façade, les comptes rendus écrits, les honoraires et qui les paie. Remplissons la grille ensemble, ligne par ligne. Sur ces critères, laquelle des trois offres vous paraît la plus solide, et pourquoi ? » Puis Claire reformule ses raisons et les écrit.",
+   "dur": 44.59
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ? Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Aucune : tant que le mandat n'est pas signé, la critique des concurrents est libre",
+     "Le code de déontologie interdit de dénigrer ou de discréditer un confrère",
+     "Aucune : un agent n'a de toute façon jamais le droit de parler de ses concurrents"
+    ],
+    "answer": 1,
+    "feedback": "Décret n° 2015-1090, art. 10 : les professionnels s'abstiennent de toutes paroles blessantes ou malveillantes et de toute manœuvre visant à dénigrer ou discréditer leurs confrères ; ils ne fournissent pas d'éléments d'appréciation erronés pour détourner la clientèle. Comparer sur des critères objectifs, oui ; attaquer, non.",
+    "whys": [
+     "Faux : le code de déontologie s'applique à tout moment, mandat signé ou non.",
+     "Exact : art. 10, confraternité : ni dénigrement, ni discrédit, ni éléments erronés pour détourner un client.",
+     "Faux : tu peux comparer des offres sur des critères objectifs ; c'est le dénigrement qui est proscrit."
+    ]
+   },
+   "card2": {
+    "question": "Si Hugo laissait M. Bernard remplir seul la grille, sans rien dire des concurrents, que se passerait-il ?",
+    "answer": "M. Bernard, profil C, déciderait sur ses propres critères et avec ses propres mots. Une raison qu'il a formulée lui-même, il la défendra plus volontiers devant sa fille, et Hugo n'aura enfreint aucune règle de confraternité."
+   },
+   "fb": "Décret n° 2015-1090, art. 10 : les professionnels s'abstiennent de toutes paroles blessantes ou malveillantes et de toute manœuvre visant à dénigrer ou discréditer leurs confrères ; ils ne fournissent pas d'éléments d'appréciation erronés pour détourner la clientèle. Comparer sur…",
+   "dur": 24.65
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : être choisi sur des critères, pas sur des attaques. La fiche R1 R2, et la grille de comparaison des offres.",
+   "goal": "Être choisi sur des critères, pas sur des attaques",
+   "tools": [
+    {
+     "name": "Fiche R1 / R2",
+     "role": "Découvrir, puis restituer : projet, freins, estimation, scénarios, plan"
+    },
+    {
+     "name": "Grille de comparaison des offres",
+     "role": "Trois offres, ses critères : il note et conclut"
+    }
+   ],
+   "dur": 10.66
+  },
+  {
+   "kind": "demo",
+   "title": "La fiche R1 / R2 de M. Bernard",
+   "caption": "Au R1, tu notes son projet : vendre avant l'été 2027. Ses freins : le DPE, les fenêtres, l'appel de fonds de la façade. Ses critères : des preuves, des comptes rendus écrits, des honoraires clairs. Au R2, tu restitues : 178 000 à 186 000 euros en l'état, deux scénarios, et ton plan.",
+   "steps": [
+    "R1, le projet : avoir vendu avant l'été 2027, pour se rapprocher de Nantes",
+    "R1, les freins : DPE F d'origine, attestation E, fenêtres bois, appel de fonds ITE",
+    "R1, les critères : preuves, comptes rendus écrits, honoraires clairs",
+    "R2, l'estimation : 178 000 à 186 000 € en l'état, comparables à l'appui",
+    "R2, les scénarios et le plan : en l'état avec travaux chiffrés (16 500 €), plan Éco-staging"
+   ],
+   "tool": "Fiche R1 / R2",
+   "dur": 21.03
+  },
+  {
+   "kind": "demo",
+   "title": "La grille : c'est lui qui conclut",
+   "caption": "La grille, maintenant. En lignes, ses critères, dans ses mots. En colonnes, les trois offres, sans commentaire. Il note lui-même. Puis une seule question : sur ces critères, laquelle retenir, et pourquoi ? Tu reformules ses raisons, et tu les écris.",
+   "steps": [
+    "Les lignes : ses critères du R1, dans ses mots",
+    "Les colonnes : offre A, offre B, ton offre, sans commentaire",
+    "La notation : il note chaque ligne lui-même, de 1 à 3",
+    "La question : sur ces critères, laquelle retenir, et pourquoi ?",
+    "La trace : tu reformules ses raisons et tu les écris"
+   ],
+   "tool": "Grille de comparaison des offres",
+   "dur": 16.21
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "À toi : joue la simulation à trois.",
+   "cta": "Jouer la simulation comparative",
+   "dur": 3.99
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi la grille remplie par ton vendeur, et ses raisons, dans ses mots.",
+   "ask": "Dépose une capture de la grille de comparaison remplie par le « vendeur » de ta simulation (trois offres, ses critères, ses notes) et des raisons de son choix qu'il a formulées lui-même, écrites entre guillemets.",
+   "dur": 6.59
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Mozi brandit des pancartes contre ses confrères. Toi, tu as laissé le vendeur choisir, avec ses propres raisons.",
+   "status": "Ton R2 : une grille, ses critères, ses mots. Mozi : deux pancartes et aucun argument.",
+   "dur": 8.44
+  }
+ ],
+ "total": 239.22
+}

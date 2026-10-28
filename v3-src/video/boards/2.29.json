@@ -1,0 +1,221 @@
+{
+ "id": "2.29",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "L'étude de marché : tendance, offres en cours, négociation",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "L'étude de marché : tendance, offres en cours, négociation",
+   "caption": "Capsule 2.29. L'étude de marché : tendance, offres en cours, négociation",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Rédiger l'analyse de marché d'une commune en trois mesures sourcées et datées : tendance des prix sur un an, prix affichés des biens en vente, marge de négociation",
+   "caption": "À la fin de cette capsule : Rédiger l'analyse de marché d'une commune en trois mesures sourcées et datées : tendance des prix sur un an, prix affichés des biens en vente, marge de négociation",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Environ 2 %",
+   "pose": "sur-de-lui",
+   "scene": "Sur Vaux-le-Pénil, les maisons comparables sont affichées en médiane à 2 950 €/m² et vendues à 2 750 €/m² (exemple fictif). Quelle marge de négociation observes-tu ?",
+   "caption": "Sur Vaux-le-Pénil, les maisons comparables sont affichées en médiane à 2 950 €/m² et vendues à 2 750 €/m² (exemple fictif). Quelle marge de négociation observes-tu ? Mozi, lui, répondrait : « Environ 2 % »",
+   "dur": 12.881481481481481
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : 2 % ne correspond pas au calcul ; vérifie la formule (affiché − vendu) ÷ affiché."
+   ],
+   "caption": "Faux : 2 % ne correspond pas au calcul ; vérifie la formule (affiché − vendu) ÷ affiché.",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi prend le prix le plus haut des annonces du quartier et l'appelle « le prix du marché ».",
+    "Sébastien Paumier montre la différence entre un prix affiché et un prix vendu, lit la tendance sur un an dans les indices Insee-Notaires et sur DVF, puis calcule la marge de négociation sur Vaux-le-Pénil…"
+   ],
+   "caption": "Mozi prend le prix le plus haut des annonces du quartier et l'appelle « le prix du marché ». Sébastien Paumier montre la différence entre un prix affiché et un prix vendu, lit la tendance sur un an dans les indices Insee-Notaires et sur DVF, puis calcule la marge de négociation sur Vaux-le-Pénil, exemple fictif de la maison de Mme Garnier.",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "La trame en 5 blocs",
+   "items": [
+    "Périmètre : commune, type de bien (maison ou appartement), gabarit (surface, époque, terrain), période étudiée.",
+    "Tendance sur un an : indice Insee-Notaires le plus récent (national et Île-de-France), puis médiane DVF de la commune sur les 12…",
+    "Offres en cours : nombre de biens comparables en vente, prix affichés (médiane au m²), ancienneté des annonces, baisses de prix observées.",
+    "Négociation : (prix affiché médian − prix vendu médian) ÷ prix affiché médian, avec ses limites.",
+    "Conclusion en 3 phrases : marché porteur, stable ou difficile ; position conseillée dans la fourchette ; délai attendu."
+   ],
+   "caption": "La trame en 5 blocs. Périmètre : commune, type de bien (maison ou appartement), gabarit (surface, époque, terrain), période étudiée. Tendance sur un an : indice Insee-Notaires le plus récent (national et Île-de-France), puis médiane DVF de la commune sur les 12… Offres en cours : nombre de biens comparables en vente, prix affichés (médiane au m²), ancienneté des annonces, baisses de prix observées. Négociation : (prix affiché médian −…",
+   "dur": 26.585185185185182
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les sources et ce qu'elles disent",
+   "table": {
+    "headers": [
+     "Source",
+     "Ce qu'elle mesure",
+     "Limite"
+    ],
+    "rows": [
+     [
+      "Insee, indices des prix des logements anciens (avec les notaires)",
+      "Tendance trimestrielle et sur un an, France et régions",
+      "Pas de détail par commune"
+     ],
+     [
+      "DVF (data.gouv.fr, application explore.data.gouv.fr)",
+      "Ventes réelles des 5 dernières années, mise à jour en avril et…",
+      "Pas de DPE ni d'état ; hors Alsace, Moselle, Mayotte"
+     ],
+     [
+      "Notaires : immobilier.notaires.fr, Notaires du Grand Paris",
+      "Prix médians et cartes des prix",
+      "Décalage de quelques mois"
+     ],
+     [
+      "Annonces en ligne",
+      "Prix affichés, stock, durée de mise en vente",
+      "Souhait du vendeur, pas prix accepté"
+     ],
+     [
+      "Agences et confrères",
+      "Délai, nombre de visites, profil des acheteurs",
+      "Ressenti : à recouper"
+     ]
+    ]
+   },
+   "caption": "Les sources et ce qu'elles disent. Insee, indices des prix des logements anciens (avec les notaires) : Tendance trimestrielle et sur un an, France et régions ; DVF (data.gouv.fr, application explore.data.gouv.fr) : Ventes réelles des 5 dernières années, mise à jour en avril et octobre ; Notaires : immobilier.notaires.fr, Notaires du Grand Paris : Prix médians et cartes des prix",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemple : maisons 1960-1980 à Vaux-le-Pénil (FICTIF sauf Insee)",
+   "table": {
+    "headers": [
+     "Mesure",
+     "Valeur",
+     "Source et date"
+    ],
+    "rows": [
+     [
+      "Tendance maisons, France, un an",
+      "−1,3 %",
+      "Insee, Informations rapides n° 216, 8/09/2026 (T2 2026)"
+     ],
+     [
+      "Tendance Île-de-France, un an",
+      "−0,3 %",
+      "Insee, même publication"
+     ],
+     [
+      "Médiane vendue commune, 12 derniers mois",
+      "2 750 €/m² (contre 2 790 un an avant : −1,4 %)",
+      "DVF, exemple fictif"
+     ],
+     [
+      "Offres en cours comparables",
+      "6 maisons, médiane affichée 2 950 €/m²",
+      "Annonces relevées en octobre 2026, fictif"
+     ],
+     [
+      "Marge de négociation",
+      "(2 950 − 2 750) ÷ 2 950 = 6,8 %",
+      "Calcul, fictif"
+     ]
+    ]
+   },
+   "caption": "Exemple : maisons 1960-1980 à Vaux-le-Pénil (FICTIF sauf Insee). Tendance maisons, France, un an : −1,3 % ; Tendance Île-de-France, un an : −0,3 % ; Médiane vendue commune, 12 derniers mois : 2 750 €/m² (contre 2 790 un an avant : −1,4 %)",
+   "dur": 17.325925925925926
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire au client",
+   "text": "« Les prix des maisons sont stables à légèrement en baisse sur un an. Six maisons comparables sont en vente autour de 2 950 € le m², mais les ventes réelles se font autour de 2 750 €. C'est ce chiffre-là, et non celui des annonces, qui va nous servir de base. »",
+   "caption": "La phrase à dire au client. « Les prix des maisons sont stables à légèrement en baisse sur un an. Six maisons comparables sont en vente autour de 2 950 € le m², mais les ventes réelles se font autour de 2 750 €. C'est ce chiffre-là, et non celui des annonces, qui va nous servir de base. »",
+   "dur": 22.51111111111111
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Mozi présente à Mme Garnier l'annonce la plus chère du hameau comme « le prix du marché ». Quelle est son erreur ?",
+    "options": [
+     "Une annonce n'est pas une vente : c'est le souhait d'un vendeur, pas un prix accepté par un acheteur",
+     "Il aurait dû prendre l'annonce la moins chère",
+     "Il aurait dû prendre la moyenne de toutes les annonces de Seine-et-Marne"
+    ],
+    "answer": 0
+   },
+   "fb": "Les prix affichés montrent contre qui Mme Garnier sera en concurrence. Les prix vendus (DVF, notaires) disent ce que les acheteurs ont payé. Ton étude présente les deux, et l'écart entre eux.",
+   "caption": "Mozi présente à Mme Garnier l'annonce la plus chère du hameau comme « le prix du marché ». Quelle est son erreur ?",
+   "dur": 22.799999999999997
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Rédiger l'analyse de marché d'une commune",
+   "steps": [
+    {
+     "label": "Écris le périmètre : commune, type de bien, gabarit, période.",
+     "detail": ""
+    },
+    {
+     "label": "Relève la tendance sur un an : indice Insee le plus récent (France et Île-de-France) et médiane locale…",
+     "detail": ""
+    },
+    {
+     "label": "Relève sur les sites d'annonces 5 à 8 biens comparables en vente : prix, surface, prix affiché au…",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la marge de négociation et écris ses limites en une phrase.",
+     "detail": ""
+    },
+    {
+     "label": "Conclus en 3 phrases : état du marché, position conseillée dans la fourchette, délai attendu.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Rédiger l'analyse de marché d'une commune. 40 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Analyse de marché d'une page de la commune du bien fil rouge",
+   "items": [
+    "La tendance sur un an cite l'indice Insee le plus récent avec sa date",
+    "Au moins 5 annonces comparables sont relevées, avec la médiane affichée au m²",
+    "La marge de négociation est calculée sur le prix affiché, avec sa limite",
+    "Les données fictives du dossier sont signalées comme telles",
+    "La conclusion tient en 3 phrases et ne promet aucun prix"
+   ],
+   "caption": "Ton livrable : Analyse de marché d'une page de la commune du bien fil rouge. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Trame d'étude de marché et liste des sources (indices de prix, notaires, annonces, agences)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 207.4
+}

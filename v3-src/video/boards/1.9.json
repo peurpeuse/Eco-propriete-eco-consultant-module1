@@ -1,0 +1,222 @@
+{
+ "id": "1.9",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "La méthode DISC : se connaître",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "La méthode DISC : se connaître",
+   "caption": "Capsule 1.9. La méthode DISC : se connaître",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Identifier son style de communication dominant (D, I, S ou C) avec l'auto-test, et décrire son effet probable sur deux types de clients avec un ajustement concret",
+   "caption": "À la fin de cette capsule : Identifier son style de communication dominant (D, I, S ou C) avec l'auto-test, et décrire son effet probable sur deux types de clients avec un ajustement concret",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Un test de personnalité qui te classe définitivement.",
+   "pose": "base",
+   "scene": "Qu'est-ce que la méthode DISC dans ta pratique d'éco-consultant ?",
+   "caption": "Qu'est-ce que la méthode DISC dans ta pratique d'éco-consultant ? Mozi, lui, répondrait : « Un test de personnalité qui te classe définitivement. »",
+   "dur": 9.177777777777777
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : chacun a un peu des quatre styles ; le résultat est une tendance, pas une étiquette."
+   ],
+   "caption": "Faux : chacun a un peu des quatre styles ; le résultat est une tendance, pas une étiquette.",
+   "dur": 7.325925925925926
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Avant de lire le style des vendeurs (module 3), Sébastien Paumier te fait lire le tien.",
+    "Il présente les quatre styles DISC (Dominant, Influent, Stable, Conforme), puis montre ce qui se passe quand un agent très rapide et enthousiaste rencontre M. Bernard, ancien ingénieur qui veut des preuves.",
+    "Le DISC n'est pas une étiquette : c'est un miroir pour ajuster ta façon de parler."
+   ],
+   "caption": "Avant de lire le style des vendeurs (module 3), Sébastien Paumier te fait lire le tien. Il présente les quatre styles DISC (Dominant, Influent, Stable, Conforme), puis montre ce qui se passe quand un agent très rapide et enthousiaste rencontre M. Bernard, ancien ingénieur qui veut des preuves. Le DISC n'est pas une étiquette : c'est un miroir pour ajuster ta façon de parler.",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Auto-test : pour chaque situation, coche la réponse qui te ressemble le plus",
+   "table": {
+    "headers": [
+     "Situation",
+     "D",
+     "I",
+     "S"
+    ],
+    "rows": [
+     [
+      "Un vendeur hésite",
+      "Je propose une décision",
+      "Je le rassure par une histoire",
+      "Je lui laisse du temps"
+     ],
+     [
+      "Je prépare un rendez-vous",
+      "3 points clés",
+      "Le premier contact, l'ambiance",
+      "Le déroulé pas à pas"
+     ],
+     [
+      "On me pose une question piège",
+      "Je réponds net",
+      "Je détends l'atmosphère",
+      "Je reformule"
+     ],
+     [
+      "Un collègue me critique",
+      "Je défends ma position",
+      "J'en parle pour dénouer",
+      "J'évite le conflit"
+     ],
+     [
+      "Ma journée idéale",
+      "Des objectifs atteints",
+      "Des rencontres",
+      "Un rythme stable"
+     ]
+    ]
+   },
+   "caption": "Auto-test : pour chaque situation, coche la réponse qui te ressemble le plus. Un vendeur hésite : Je propose une décision ; Je prépare un rendez-vous : 3 points clés ; On me pose une question piège : Je réponds net",
+   "dur": 15.103703703703703
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Calcul et lecture du résultat",
+   "text": "Compte tes réponses par colonne (total = 8). Score le plus élevé = style dominant ; deuxième score = style d'appui. Exemple : D 4, I 1, S 0, C 3 → D dominant, C en appui. Si deux scores sont égaux, garde les deux et observe-toi en rendez-vous pendant deux semaines.",
+   "caption": "Calcul et lecture du résultat. Compte tes réponses par colonne (total = 8). Score le plus élevé = style dominant ; deuxième score = style d'appui. Exemple : D 4, I 1, S 0, C 3 → D dominant, C en appui. Si deux scores sont égaux, garde les deux et observe-toi en rendez-vous pendant deux semaines.",
+   "dur": 21.4
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Fiche de lecture : ton style et ses effets",
+   "table": {
+    "headers": [
+     "Style",
+     "Tes forces",
+     "Ton risque avec un client",
+     "Ton ajustement"
+    ],
+    "rows": [
+     [
+      "D · Dominant",
+      "Décision, efficacité, cap clair",
+      "Brusquer un S, survoler les preuves d'un C",
+      "Ralentir, laisser le temps, montrer les sources"
+     ],
+     [
+      "I · Influent",
+      "Contact, énergie, récit",
+      "Paraître léger à un C, promettre trop vite",
+      "Écrire un récapitulatif sourcé après chaque échange"
+     ],
+     [
+      "S · Stable",
+      "Écoute, fiabilité, patience",
+      "Paraître lent à un D, ne pas oser conclure",
+      "Préparer une recommandation claire et la dire"
+     ],
+     [
+      "C · Conforme",
+      "Rigueur, exactitude, dossier solide",
+      "Noyer un D ou un I sous les détails",
+      "Commencer par une page de synthèse, détails en annexe"
+     ]
+    ]
+   },
+   "caption": "Fiche de lecture : ton style et ses effets. D · Dominant : Décision, efficacité, cap clair ; I · Influent : Contact, énergie, récit ; S · Stable : Écoute, fiabilité, patience",
+   "dur": 10.288888888888888
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple : face aux deux vendeurs du fil rouge (fictifs)",
+   "text": "M. Bernard est C : il veut des preuves, décide lentement, déteste l'insistance. Mme Garnier est S : elle a besoin d'être rassurée et consulte ses fils. Un agent D dominant devra, avec M. Bernard, envoyer le dossier avant et citer chaque source ; avec Mme Garnier, ralentir, présenter les étapes et proposer d'associer ses…",
+   "caption": "Exemple : face aux deux vendeurs du fil rouge (fictifs). M. Bernard est C : il veut des preuves, décide lentement, déteste l'insistance. Mme Garnier est S : elle a besoin d'être rassurée et consulte ses fils. Un agent D dominant devra, avec M. Bernard, envoyer le dossier avant et citer chaque source ; avec Mme Garnier, ralentir, présenter les étapes et proposer d'associer ses…",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Sarah obtient un profil I dominant (rapide, tournée vers les personnes). Quel risque court-elle avec M. Bernard, profil C ?",
+    "options": [
+     "Aucun : l'enthousiasme convainc tout le monde.",
+     "Qu'il la trouve trop lente et trop détaillée.",
+     "Qu'il la trouve peu fiable si elle avance des chiffres approximatifs sans source et parle plus qu'elle ne prouve."
+    ],
+    "answer": 2
+   },
+   "fb": "Le style I crée vite la relation, mais un C comme M. Bernard (fictif) décroche devant les approximations. Sarah garde sa chaleur et ajoute ce qu'il attend : dossier envoyé 48 h avant, source de chaque chiffre, temps de réflexion.",
+   "caption": "Sarah obtient un profil I dominant (rapide, tournée vers les personnes). Quel risque court-elle avec M. Bernard, profil C ?",
+   "dur": 25.02222222222222
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Mon profil DISC et son effet sur mes clients",
+   "steps": [
+    {
+     "label": "Passe l'auto-test et calcule tes scores D, I, S, C.",
+     "detail": ""
+    },
+    {
+     "label": "Identifie ton style dominant et ton style d'appui ; recopie tes forces et ton risque dans la fiche…",
+     "detail": ""
+    },
+    {
+     "label": "Choisis deux rendez-vous récents : décris en une phrase comment ton style a aidé ou gêné l'échange.",
+     "detail": ""
+    },
+    {
+     "label": "Applique-toi à M. Bernard (C) ou à Mme Garnier (S) : quel est ton risque principal avec ce…",
+     "detail": ""
+    },
+    {
+     "label": "Écris deux ajustements concrets (un geste, une phrase) que tu appliqueras dès ton prochain rendez-vous.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Mon profil DISC et son effet sur mes clients. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Mon profil DISC et mes ajustements",
+   "items": [
+    "Les scores sont calculés et le style dominant et d'appui identifiés",
+    "Deux rendez-vous réels sont analysés, sans donnée personnelle",
+    "Le risque avec un vendeur du fil rouge est décrit en lien avec son style (C…",
+    "Deux ajustements concrets et applicables (geste ou phrase)",
+    "Aucun jugement sur une personne, aucune technique de pression"
+   ],
+   "caption": "Ton livrable : Mon profil DISC et mes ajustements. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Auto-test DISC et fiche de lecture",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 188.04
+}

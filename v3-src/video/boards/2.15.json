@@ -1,0 +1,179 @@
+{
+ "id": "2.15",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Surface Loi Carrez : la vente d'un lot de copropriété",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Surface Loi Carrez : la vente d'un lot de copropriété",
+   "caption": "Capsule 2.15. Surface Loi Carrez : la vente d'un lot de copropriété",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Calculer la surface Carrez d'un lot sur plan en écartant balcons, caves et parties sous 1,80 m, puis dire si un écart ouvre une action en diminution du prix",
+   "caption": "À la fin de cette capsule : Calculer la surface Carrez d'un lot sur plan en écartant balcons, caves et parties sous 1,80 m, puis dire si un écart ouvre une action en diminution du prix",
+   "dur": 12.881481481481481
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Le balcon compte pour moitié, soit 79 m².",
+   "pose": "presente",
+   "scene": "M. Bernard demande pourquoi sa surface Carrez reste à 76,0 m² alors qu'il a un balcon de 6 m², une cave et un parking. Que lui réponds-tu ?",
+   "caption": "M. Bernard demande pourquoi sa surface Carrez reste à 76,0 m² alors qu'il a un balcon de 6 m², une cave et un parking. Que lui réponds-tu ? Mozi, lui, répondrait : « Le balcon compte pour moitié, soit 79 m². »",
+   "dur": 15.474074074074073
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : la pondération des annexes n'existe pas en Carrez ; c'est un outil d'évaluation (surface pondérée), pas une surface légale."
+   ],
+   "caption": "Faux : la pondération des annexes n'existe pas en Carrez ; c'est un outil d'évaluation (surface pondérée), pas une surface légale.",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier part de l'appartement de M. Bernard : 76,0 m² Carrez, mais ni le balcon de 6 m², ni la cave n° 22, ni la place de parking.",
+    "Il montre ce que la loi du 18 décembre 1996 a ajouté à la loi de 1965, ce qui se déduit, et ce qui arrive quand la surface réelle est inférieure de plus de…"
+   ],
+   "caption": "Sébastien Paumier part de l'appartement de M. Bernard : 76,0 m² Carrez, mais ni le balcon de 6 m², ni la cave n° 22, ni la place de parking. Il montre ce que la loi du 18 décembre 1996 a ajouté à la loi de 1965, ce qui se déduit, et ce qui arrive quand la surface réelle est inférieure de plus de 5 % à celle de l'acte.",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Ce qui compte, ce qui se déduit",
+   "items": [
+    "On compte : la superficie des planchers des locaux clos et couverts du lot (art. 4-1 du décret).",
+    "On déduit : les surfaces occupées par les murs, cloisons, marches et cages d'escalier, gaines, embrasures de portes et de fenêtres.",
+    "On ne compte pas : les planchers des parties de hauteur inférieure à 1,80 m.",
+    "On ne compte pas : les lots ou fractions de lots de moins de 8 m² (art. 4-2 du décret).",
+    "La mention n'est pas exigée pour les caves, garages et emplacements de stationnement (art. 46 de la loi)."
+   ],
+   "caption": "Ce qui compte, ce qui se déduit. On compte : la superficie des planchers des locaux clos et couverts du lot (art. 4-1 du décret). On déduit : les surfaces occupées par les murs, cloisons, marches et cages d'escalier, gaines, embrasures de portes et de fenêtres. On ne compte pas : les planchers des parties de hauteur inférieure à 1,80 m. On ne compte pas : les lots ou fractions…",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les deux sanctions à connaître (art. 46 de la loi du 10 juillet 1965)",
+   "table": {
+    "headers": [
+     "Situation",
+     "Ce que peut faire l'acquéreur",
+     "Délai"
+    ],
+    "rows": [
+     [
+      "Aucune mention de superficie dans la promesse ou l'acte",
+      "Demander la nullité de l'acte",
+      "Au plus tard un mois après l'acte authentique"
+     ],
+     [
+      "Superficie réelle inférieure de plus d'un vingtième (5 %) à celle de…",
+      "Obtenir une diminution du prix proportionnelle à la moindre mesure",
+      "Un an à compter de l'acte authentique, à peine de déchéance"
+     ]
+    ]
+   },
+   "caption": "Les deux sanctions à connaître (art. 46 de la loi du 10 juillet 1965). Aucune mention de superficie dans la promesse ou l'acte : Demander la nullité de l'acte ; Superficie réelle inférieure de plus d'un vingtième (5 %) à celle de l'acte : Obtenir une diminution du prix proportionnelle à la moindre mesure",
+   "dur": 21.4
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Le calcul de l'écart et de la baisse de prix",
+   "text": "Seuil = surface de l'acte ÷ 20. Si (surface de l'acte − surface réelle) > seuil : baisse = prix × (surface de l'acte − surface réelle) ÷ surface de l'acte. Exemple : acte 49,0 m², mesure 46,2 m², prix 196 000 €. Seuil 2,45 m² ; écart 2,8 m² (5,7 %) ; baisse =…",
+   "caption": "Le calcul de l'écart et de la baisse de prix. Seuil = surface de l'acte ÷ 20. Si (surface de l'acte − surface réelle) > seuil : baisse = prix × (surface de l'acte − surface réelle) ÷ surface de l'acte. Exemple : acte 49,0 m², mesure 46,2 m², prix 196 000 €. Seuil 2,45 m² ; écart 2,8 m² (5,7 %) ; baisse =…",
+   "dur": 23.62222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Ce que tu vérifies avant de publier l'annonce",
+   "items": [
+    "Le mesurage Carrez du dossier de diagnostics (D17 pour M. Bernard : 76,0 m²) est daté et concerne bien le lot vendu",
+    "Le nombre et le nom des pièces correspondent au plan (D04) et à ta visite",
+    "Aucun aménagement récent n'a modifié la surface (cloison ajoutée, véranda fermée, combles aménagés)",
+    "Les annexes (balcon, cave, parking) sont indiquées à part, sans être additionnées",
+    "L'annonce dit « surface Carrez » et donne le chiffre du mesurage, sans arrondi au-dessus"
+   ],
+   "caption": "Ce que tu vérifies avant de publier l'annonce. Le mesurage Carrez du dossier de diagnostics (D17 pour M. Bernard : 76,0 m²) est daté et concerne bien le lot vendu Le nombre et le nom des pièces correspondent au plan (D04) et à ta visite Aucun aménagement récent n'a modifié la surface (cloison ajoutée, véranda fermée, combles aménagés) Les annexes (balcon, cave, parking) sont indiquées à part, sans être additionnées…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Un acte mentionne 50,0 m² Carrez. Un mesurage après la vente trouve 47,0 m². Que peut faire l'acquéreur ?",
+    "options": [
+     "Rien : l'écart est inférieur à 10 %",
+     "Demander l'annulation de la vente à tout moment",
+     "Demander une diminution du prix proportionnelle, dans l'année qui suit l'acte authentique"
+    ],
+    "answer": 2
+   },
+   "fb": "50,0 / 20 = 2,5 m². Il manque 3,0 m² : c'est plus d'un vingtième. Le vendeur supporte une baisse proportionnelle : prix × 3,0 / 50,0. L'acquéreur doit agir dans l'année qui suit l'acte authentique, à peine de déchéance.",
+   "caption": "Un acte mentionne 50,0 m² Carrez. Un mesurage après la vente trouve 47,0 m². Que peut faire l'acquéreur ?",
+   "dur": 26.87407407407407
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Calculer la surface Carrez d'un lot sur plan",
+   "steps": [
+    {
+     "label": "Additionne les surfaces des pièces closes et couvertes.",
+     "detail": ""
+    },
+    {
+     "label": "Déduis les parties de hauteur inférieure à 1,80 m.",
+     "detail": ""
+    },
+    {
+     "label": "Écarte le balcon et la cave en disant pourquoi.",
+     "detail": ""
+    },
+    {
+     "label": "Compare ta surface Carrez avec les 49 m² de l'ancienne annonce : calcule l'écart et le seuil d'un…",
+     "detail": ""
+    },
+    {
+     "label": "Si le bien avait été vendu 196 000 € avec 49 m² dans l'acte, calcule la baisse de…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Calculer la surface Carrez d'un lot sur plan. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Calcul Carrez du T3 mansardé",
+   "items": [
+    "Le total des pièces (54,00 m²) et la déduction des parties sous 1,80 m (7,80 m²)…",
+    "La surface Carrez est juste : 46,20 m²",
+    "Le balcon et la cave sont écartés avec la bonne raison",
+    "L'écart (2,80 m²) est comparé au vingtième (2,45 m²) et la baisse de 11 200 €…",
+    "Le délai d'un an à compter de l'acte authentique est indiqué"
+   ],
+   "caption": "Ton livrable : Calcul Carrez du T3 mansardé. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche Carrez : superficie privative, exclusions, mention obligatoire dans la promesse et l'acte",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 230.36
+}

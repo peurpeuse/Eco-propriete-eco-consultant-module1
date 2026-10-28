@@ -1,0 +1,199 @@
+{
+ "id": "3.22",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Présenter l'offre Éco-Consultant et ses services",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.22 : présenter l'offre Éco-Consultant",
+   "caption": "Bienvenue. M. Bernard a vu ton analyse. Maintenant, il veut savoir ce que tu lui proposes, précisément. Une page suffit.",
+   "cta": "Commencer",
+   "dur": 8.81
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre ce qu'une offre doit promettre, appliquer la méthode, puis prouver avec ta proposition d'une page.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "les quatre résultats que le vendeur achète, et pourquoi on ne promet jamais un prix"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "ranger tes services en trois niveaux : ce que tu fais, ce que fait un spécialiste, ce qui est en plus"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ta proposition commerciale d'une page pour M. Bernard"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 8.81
+  },
+  {
+   "kind": "mozi",
+   "title": "Formule Diamant : 205 000 € garantis, et je refais votre isolation moi-même ce week-end !",
+   "caption": "Formule Diamant : 205 000 euros garantis, et je refais votre isolation moi-même ce week-end !",
+   "line": "Formule Diamant : 205 000 € garantis, et je refais votre isolation moi-même ce week-end !",
+   "scene": "Mozi déroule une brochure de douze pages et brandit un pistolet à mousse isolante qu'il n'a jamais utilisé.",
+   "pose": "bof",
+   "dur": 7.33
+  },
+  {
+   "kind": "belief",
+   "title": "Une page, trois formules, 205 000 € garantis",
+   "caption": "Une offre sur une page. Trois formules au choix. Deux cent cinq mille euros garantis. Où est l'erreur ?",
+   "beats": [
+    "Une offre sur une page",
+    "Trois formules au choix",
+    "205 000 € garantis"
+   ],
+   "wrong": 2,
+   "why": "Personne ne garantit un prix : une offre promet des livrables datés et des engagements, pas un résultat de vente.",
+   "dur": 8.44
+  },
+  {
+   "kind": "consequence",
+   "title": "Promesse sans preuve, confiance perdue",
+   "caption": "Le marché, lui, ne lit pas la brochure. En l'état, le bien vaut 178 000 à 186 000 euros net. Au premier compte rendu, la promesse tombe. Et M. Bernard, qui veut des preuves, ne signe plus rien.",
+   "lines": [
+    "Promis : 205 000 €. Marché en l'état : 178 000 à 186 000 € net.",
+    "Premier compte rendu : la promesse tombe, la confiance aussi."
+   ],
+   "dur": 15.84
+  },
+  {
+   "kind": "stat",
+   "title": "51 % des vendeurs misent sur la concurrence",
+   "caption": "Cinquante et un pour cent. Selon les professionnels interrogés par leboncoin Immo, c'est la part des vendeurs qui pensent vendre mieux en mettant plusieurs agences en concurrence. Une offre floue te range dans le lot.",
+   "value": "51 %",
+   "label": "des vendeurs pensent augmenter leurs chances en mettant plusieurs agences en concurrence (déclaratif, selon les professionnels interrogés)",
+   "dur": 14.73
+  },
+  {
+   "kind": "steps",
+   "title": "Quatre résultats → Trois niveaux → Qui fait quoi",
+   "caption": "Trois blocs, sur une seule page. Un : les quatre résultats que le vendeur achète. Comprendre la valeur de son bien. Repérer les freins. Choisir la stratégie avant de commercialiser. Informer les acquéreurs. Chez M. Bernard, chaque résultat a sa pièce : l'attestation, les comparables, les devis, le procès-verbal d'assemblée. Deux : trois niveaux d'offre. La découverte, le plan Éco-staging, la formule complète. Les tarifs, tu ne les inventes pas : ils sont à confirmer avec Éco-propriété. Trois : qui fait quoi. Ce que tu réalises toi-même. Ce qui demande un spécialiste : diagnostiqueur, artisan, notaire, courtier. Et ce qui est facturé en plus, écrit noir sur blanc.",
+   "steps": [
+    {
+     "label": "Quatre résultats",
+     "detail": "Comprendre la valeur, repérer les freins, choisir la stratégie avant commercialisation, informer les acquéreurs ; une pièce par résultat (D03, D12, D13, D07)."
+    },
+    {
+     "label": "Trois niveaux",
+     "detail": "Découverte, plan Éco-staging, formule complète ; tarifs et répartition à confirmer avec Éco-propriété, jamais inventés."
+    },
+    {
+     "label": "Qui fait quoi",
+     "detail": "Toi : analyse, dossier, comptes rendus. Un spécialiste : diagnostics, devis, acte, financement. En plus : ce qui est facturé à part, écrit."
+    }
+   ],
+   "dur": 41.77
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "M. Bernard demande à Hugo : qu'est-ce que je paie, et pour quoi exactement ? Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard, ancien ingénieur prudent, lit la proposition de Hugo et demande : « Qu'est-ce que je paie, et pour quoi exactement ? » Que répond Hugo, en deux ou trois phrases ?",
+   "model_answer": "Vous payez des livrables, pas une promesse de prix : avis de valeur fondé sur les ventes comparables, liste des freins, plan avant mise en vente et dossier remis aux acquéreurs. Les diagnostics et les petits travaux du plan Éco-staging sont réalisés et facturés par des professionnels, à part. Le tarif de chaque niveau est écrit sur la proposition, une fois confirmé avec Éco-propriété.",
+   "dur": 37.19
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Une offre doit être plus longue qu'une page pour être sérieuse",
+     "L'offre promet des livrables et des engagements écrits, jamais un prix de vente, et ne vend pas de travaux",
+     "Aucune : un prix garanti rassure le vendeur, c'est donc un bon argument"
+    ],
+    "answer": 1,
+    "feedback": "L'éco-consultant vend une méthode et des livrables datés. Il ne garantit ni prix ni gain, et il ne réalise pas les travaux : il les fait chiffrer par des professionnels.",
+    "whys": [
+     "Faux : une page lisible vaut mieux qu'une brochure ; un vendeur prudent veut voir l'essentiel d'un coup d'œil.",
+     "Exact : on promet ce qu'on maîtrise (analyse, dossier, comptes rendus), pas le résultat du marché ni des travaux qu'on ne fait pas.",
+     "Faux : un prix garanti que le marché dément détruit la confiance au premier compte rendu."
+    ]
+   },
+   "card2": {
+    "question": "Si Karim inscrivait « audit énergétique inclus, fait par moi » dans sa formule complète, que se passerait-il ?",
+    "answer": "Il promettrait un service qu'il ne peut pas réaliser : l'audit est fait par un professionnel qualifié et facturé à part. Dans l'offre, il va dans la colonne « spécialiste », coût « à confirmer ». Et pour un lot de copropriété comme celui de M. Bernard, l'audit réglementaire à la vente n'est pas exigé."
+   },
+   "fb": "L'éco-consultant vend une méthode et des livrables datés. Il ne garantit ni prix ni gain, et il ne réalise pas les travaux : il les fait chiffrer par des professionnels.",
+   "dur": 18.73
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : que M. Bernard sache, sur une page, ce qu'il obtient et ce qu'il paie. La proposition, puis le tableau qui fait quoi.",
+   "goal": "Que le vendeur sache, sur une page, ce qu'il obtient et ce qu'il paie",
+   "tools": [
+    {
+     "name": "Proposition commerciale d'une page",
+     "role": "Quatre résultats, trois niveaux, engagements et limites"
+    },
+    {
+     "name": "Tableau « qui fait quoi »",
+     "role": "Toi, le spécialiste, ce qui est facturé en plus"
+    }
+   ],
+   "dur": 12.14
+  },
+  {
+   "kind": "demo",
+   "title": "La page de M. Bernard",
+   "caption": "La page de M. Bernard. En haut, son projet : vendre avant l'été 2027. Puis les quatre résultats, chacun avec sa pièce. Puis les trois niveaux, tarifs à confirmer. En bas, tes engagements et tes limites.",
+   "steps": [
+    "En-tête : projet de M. Bernard, vendre avant l'été 2027",
+    "Résultats : valeur, freins, stratégie, information, une pièce chacun",
+    "Niveaux : découverte, plan Éco-staging, formule complète, tarifs à confirmer",
+    "Pied de page : engagements écrits, et « aucun prix garanti »"
+   ],
+   "tool": "Proposition commerciale d'une page",
+   "dur": 14.73
+  },
+  {
+   "kind": "demo",
+   "title": "Le tableau « qui fait quoi »",
+   "caption": "Puis le tableau. Toi : avis de valeur, freins, plan, dossier, compte rendu toutes les deux semaines. Les spécialistes : diagnostiqueur, artisans, notaire, courtier. En plus : les petits travaux du plan Éco-staging, payés par M. Bernard aux entreprises.",
+   "steps": [
+    "Toi : avis de valeur, freins, plan, dossier, compte rendu tous les 15 jours",
+    "Spécialiste : diagnostiqueur, artisans, notaire, courtier",
+    "En plus : travaux Éco-staging payés par le vendeur aux entreprises",
+    "Chaque ligne : qui, quoi, quand, coût ou « à confirmer »"
+   ],
+   "tool": "Tableau « qui fait quoi »",
+   "dur": 15.1
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Écris ta proposition d'une page pour M. Bernard.",
+   "cta": "Ouvrir l'exercice",
+   "dur": 4.73
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ta proposition commerciale d'une page.",
+   "ask": "Dépose une capture de ta proposition d'une page : les quatre résultats avec leur pièce, les trois niveaux, le tableau « qui fait quoi » et la mention « tarifs à confirmer avec Éco-propriété ».",
+   "dur": 4.36
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. M. Bernard sait maintenant ce qu'il obtient, qui le fait, et ce qu'il paie. Sans une seule promesse en l'air.",
+   "status": "Ton offre : 4 résultats, 3 niveaux, 1 page, 0 prix promis. Celle de Mozi : 12 pages et 205 000 € « garantis ».",
+   "dur": 10.29
+  }
+ ],
+ "total": 223.0
+}

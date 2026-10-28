@@ -1,0 +1,167 @@
+{
+ "id": "2.9",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Les limites d'un DPE : anomalies à faire vérifier",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Les limites d'un DPE : anomalies à faire vérifier",
+   "caption": "Capsule 2.9. Les limites d'un DPE : anomalies à faire vérifier",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Repérer, avec l'aide d'une IA puis par soi-même, les incohérences d'un DPE et ses limites, et rédiger la liste des points à faire vérifier par le diagnostiqueur, sans contester soi-même le diagnostic",
+   "caption": "À la fin de cette capsule : Repérer, avec l'aide d'une IA puis par soi-même, les incohérences d'un DPE et ses limites, et rédiger la liste des points à faire vérifier par le diagnostiqueur, sans contester soi-même le diagnostic",
+   "dur": 15.103703703703703
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Tu corriges toi-même la classe dans l'annonce",
+   "pose": "clin-oeil",
+   "scene": "Le DPE de M. Bernard indique « VMC simple flux ». Lors de ta visite, tu constates une ventilation naturelle, sans VMC. Que fais-tu ?",
+   "caption": "Le DPE de M. Bernard indique « VMC simple flux ». Lors de ta visite, tu constates une ventilation naturelle, sans VMC. Que fais-tu ? Mozi, lui, répondrait : « Tu corriges toi-même la classe dans l'annonce »",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : tu ne modifies jamais une classe : seul un DPE ou une attestation l'établit."
+   ],
+   "caption": "Faux : tu ne modifies jamais une classe : seul un DPE ou une attestation l'établit.",
+   "dur": 6.955555555555556
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Un DPE est opposable, mais il peut contenir des erreurs de saisie, et il calcule une consommation conventionnelle, pas la facture.",
+    "Sébastien Paumier montre les incohérences typiques (surface, année, équipements) et l'étude du CAE de 2024 sur l'écart avec les consommations réelles.",
+    "Puis il fait relire un DPE anonymisé par une IA et corrige ce qu'elle invente."
+   ],
+   "caption": "Un DPE est opposable, mais il peut contenir des erreurs de saisie, et il calcule une consommation conventionnelle, pas la facture. Sébastien Paumier montre les incohérences typiques (surface, année, équipements) et l'étude du CAE de 2024 sur l'écart avec les consommations réelles. Puis il fait relire un DPE anonymisé par une IA et corrige ce qu'elle invente.",
+   "dur": 23.62222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Ce que le DPE mesure, et ses limites",
+   "items": [
+    "Une consommation conventionnelle (méthode 3CL) : usage standard, températures de consigne et prix de référence fixés, pas le comportement des occupants.",
+    "Des prix de l'énergie datés : la fourchette de coûts indique son année de référence (1/01/2021 pour M. Bernard).",
+    "Un résultat sensible aux données d'entrée : surface, année, isolation, équipements ; une valeur par défaut remplace une donnée non justifiée.",
+    "Un écart avec le réel documenté : selon le CAE (Focus n° 103, janvier 2024), la consommation réelle augmente d'environ 86 %…",
+    "Le DPE reste opposable : il engage le vendeur ; ses limites ne justifient pas de l'ignorer."
+   ],
+   "caption": "Ce que le DPE mesure, et ses limites. Une consommation conventionnelle (méthode 3CL) : usage standard, températures de consigne et prix de référence fixés, pas le comportement des occupants. Des prix de l'énergie datés : la fourchette de coûts indique son année de référence (1/01/2021 pour M. Bernard). Un résultat sensible aux données d'entrée : surface, année, isolation, équipements ; une valeur par défaut remplace une donnée non justifiée. Un…",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Anomalies à repérer",
+   "items": [
+    "Numéro ADEME à 13 caractères introuvable sur l'observatoire, ou DPE établi avant le 1/07/2021",
+    "Surface différente du mesurage (Carrez, habitable) ou de la surface du plan",
+    "Année de construction ou période incohérente avec le titre ou le permis",
+    "Équipement absent ou inventé (VMC, pompe à chaleur, chauffe-eau) par rapport à ta visite et aux factures",
+    "Fenêtres, isolation ou travaux récents non pris en compte (factures à l'appui)"
+   ],
+   "caption": "Anomalies à repérer. Numéro ADEME à 13 caractères introuvable sur l'observatoire, ou DPE établi avant le 1/07/2021 Surface différente du mesurage (Carrez, habitable) ou de la surface du plan Année de construction ou période incohérente avec le titre ou le permis Équipement absent ou inventé (VMC, pompe à chaleur, chauffe-eau) par rapport à ta visite et aux factures Fenêtres, isolation ou travaux récents non pris en compte (factures à l'appui)",
+   "dur": 29.177777777777774
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Prompt prêt à copier (données techniques uniquement)",
+   "text": "« Tu es un expert du DPE (méthode 3CL-DPE 2021) qui assiste un agent immobilier. Données anonymisées d'un logement : [type, surface, étage, année de construction, murs, menuiseries, ventilation, chauffage, eau chaude, consommations par usage en kWhEF/m²/an, énergie primaire, émissions, classe, équipements relevés lors de la visite]. Tâches : 1) vérifie la somme des usages…",
+   "caption": "Prompt prêt à copier (données techniques uniquement). « Tu es un expert du DPE (méthode 3CL-DPE 2021) qui assiste un agent immobilier. Données anonymisées d'un logement : [type, surface, étage, année de construction, murs, menuiseries, ventilation, chauffage, eau chaude, consommations par usage en kWhEF/m²/an, énergie primaire, émissions, classe, équipements relevés lors de la visite]. Tâches : 1) vérifie la somme des usages…",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Contrôler la réponse de l'IA",
+   "items": [
+    "Chaque calcul refait à la main (150 × 1,9 = 285 ; 150 × 1,7 = 255, toujours E)",
+    "Chaque incohérence relevée existe vraiment dans le DPE ou dans ta visite",
+    "Aucune classe annoncée, aucune règle ni aide citée sans source officielle",
+    "Les questions au diagnostiqueur sont factuelles et documentées (photo, facture, plan)"
+   ],
+   "caption": "Contrôler la réponse de l'IA. Chaque calcul refait à la main (150 × 1,9 = 285 ; 150 × 1,7 = 255, toujours E) Chaque incohérence relevée existe vraiment dans le DPE ou dans ta visite Aucune classe annoncée, aucune règle ni aide citée sans source officielle Les questions au diagnostiqueur sont factuelles et documentées (photo, facture, plan)",
+   "dur": 22.14074074074074
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Un acquéreur dit : « Le DPE annonce 2 330 à 3 190 € par an, mais le vendeur paie moins. Le DPE est faux ! » Que réponds-tu ?",
+    "options": [
+     "« Oui, le DPE est faux, on n'en tient pas compte. »",
+     "« Le DPE calcule une consommation pour un usage standard ; les factures dépendent de l'occupant. Les deux se complètent. »",
+     "« Les factures sont toujours fausses. »"
+    ],
+    "answer": 1
+   },
+   "fb": "Le DPE estime une consommation pour un usage standard, avec des prix de référence datés. L'étude du CAE (janvier 2024) montre que les consommations réelles varient beaucoup moins d'une classe à l'autre que ce que prévoit le DPE, notamment parce…",
+   "caption": "Un acquéreur dit : « Le DPE annonce 2 330 à 3 190 € par an, mais le vendeur paie moins. Le DPE est faux ! » Que réponds-tu ?",
+   "dur": 27.985185185185188
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Repérer avec l'IA les anomalies d'un DPE et lister ce qu'on fait vérifier",
+   "steps": [
+    {
+     "label": "Extrais les données techniques du D02 et du DPE réel, sans nom, adresse ni numéro ADEME.",
+     "detail": ""
+    },
+    {
+     "label": "Lance le prompt dans l'outil validé par ton agence.",
+     "detail": ""
+    },
+    {
+     "label": "Contrôle la réponse : refais chaque calcul et barre les incohérences inventées par l'IA.",
+     "detail": ""
+    },
+    {
+     "label": "Ajoute les incohérences que l'IA n'a pas vues, en comparant avec le plan (D04) et les photos (D05).",
+     "detail": ""
+    },
+    {
+     "label": "Rédige la liste des questions au diagnostiqueur, chacune avec sa preuve.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Repérer avec l'IA les anomalies d'un DPE et lister ce qu'on fait vérifier. 40 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Liste des anomalies à faire vérifier par le diagnostiqueur",
+   "items": [
+    "Le prompt annexé ne contient ni nom, ni adresse, ni numéro ADEME",
+    "Chaque calcul de l'IA est vérifié, avec au moins 2 corrections ou confirmations explicites",
+    "Chaque anomalie listée est appuyée par une preuve (photo, plan, facture)",
+    "Les questions au diagnostiqueur sont factuelles et ne concluent à aucune classe",
+    "L'écart entre DPE et factures est expliqué sans dire que le DPE est faux"
+   ],
+   "caption": "Ton livrable : Liste des anomalies à faire vérifier par le diagnostiqueur. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Prompt d'analyse DPE et fiche des limites du DPE : écarts avec les consommations réelles, anomalies à faire vérifier (textes à sourcer)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 228.14
+}

@@ -1,0 +1,199 @@
+{
+ "id": "3.17",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "DISC : identifier le profil du vendeur",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.17 : identifier le profil du vendeur",
+   "caption": "Bienvenue. Avant de parler, on observe. Dans ce chapitre, tu repères le style de M. Bernard, indice après indice.",
+   "cta": "Commencer",
+   "dur": 8.44
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "les quatre styles de communication D, I, S et C"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "relever les indices du style de M. Bernard et formuler une hypothèse"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer sa fiche profil, indices à l'appui, en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Oubliez les chiffres, monsieur Bernard : j'ai un super feeling, on signe !",
+   "caption": "Oubliez les chiffres, monsieur Bernard : j'ai un super feeling, on signe !",
+   "line": "Oubliez les chiffres, monsieur Bernard : j'ai un super feeling, on signe !",
+   "scene": "Mozi arrive avec trompette et confettis, et range le classeur de comparables sans l'ouvrir.",
+   "pose": "clin-oeil",
+   "dur": 5.84
+  },
+  {
+   "kind": "belief",
+   "title": "Même ton, même blague, sans rien observer",
+   "caption": "Même ton. Même blague. Sans rien observer.",
+   "beats": [
+    "Même ton",
+    "Même blague",
+    "Sans rien observer"
+   ],
+   "wrong": 2,
+   "why": "Sans observer, Mozi ne voit pas que M. Bernard veut des preuves.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Raccompagné à la porte. Troisième agence écartée.",
+   "caption": "Dix minutes plus tard, M. Bernard le raccompagne poliment à la porte. Comme les deux agences d'avant, qui lui avaient promis sans calculer.",
+   "lines": [
+    "Raccompagné à la porte.",
+    "Troisième agence écartée."
+   ],
+   "dur": 10.29
+  },
+  {
+   "kind": "stat",
+   "title": "1928 : le modèle de Marston",
+   "caption": "La grille DISC vient d'un modèle proposé en 1928 par le psychologue William Marston. Quatre styles. Attention : c'est un outil de communication, pas un test scientifique ni un diagnostic.",
+   "value": 1928,
+   "label": "modèle de W. M. Marston, à l'origine de la grille DISC en 4 styles : un outil de communication, pas une science validée",
+   "dur": 12.88
+  },
+  {
+   "kind": "steps",
+   "title": "4 styles → 5 indices → une hypothèse",
+   "caption": "Imagine deux questions. La personne va vite, ou prend son temps ? Elle parle des faits, ou des personnes ? Rapide et faits : D, Dominant. Rapide et personnes : I, Influent. Posé et personnes : S, Stable. Posé et faits : C, Conforme. Ensuite, tu relèves des indices dans trois registres : son débit et ses questions, ce qu'il te montre, sa façon de décider. Un seul indice ne suffit pas : vises-en cinq. Enfin, tu écris une hypothèse, pas une étiquette. M. Bernard demande d'où vient chaque chiffre et sort une chemise classée : style C probable, à vérifier au prochain échange. Ton propre style, tu l'as repéré en capsule 1.9.",
+   "steps": [
+    {
+     "label": "4 styles",
+     "detail": "Rapide ou posé, faits ou personnes : D, I, S, C."
+    },
+    {
+     "label": "5 indices, 3 registres",
+     "detail": "Débit et questions, objets montrés, façon de décider."
+    },
+    {
+     "label": "Une hypothèse",
+     "detail": "« Style C probable », à vérifier au prochain échange, jamais une étiquette."
+    }
+   ],
+   "dur": 41.77
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? Après un appel de deux minutes, Claire note : M. Bernard est un D, il a été sec. Que lui conseilles-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Claire, négociatrice, a eu M. Bernard deux minutes au téléphone. Elle note dans son fichier : « Profil D, il a été sec. » Que lui conseilles-tu ?",
+   "model_answer": "Un seul indice ne suffit pas : un appel court peut tenir au contexte, il ne décroche plus aux numéros inconnus. Je lui conseille de relever au moins cinq indices dans les trois registres (débit et questions, objets montrés, façon de décider), puis d'écrire « hypothèse », pas une étiquette. Ses questions sur l'origine des chiffres et sa chemise classée orientent plutôt vers C.",
+   "dur": 34.59
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ? Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Observer avant de parler : repérer le style du client à partir de plusieurs indices",
+     "Parler à tous avec son propre style, pour rester authentique",
+     "Classer le client dans un profil dès le premier contact, une fois pour toutes"
+    ],
+    "answer": 0,
+    "feedback": "Le DISC est une grille d'observation de la communication, pas une étiquette ni un levier. On observe, on suppose, on vérifie. Et le fond ne change jamais.",
+    "whys": [
+     "Exact : sans observer, Mozi ne voit pas que M. Bernard veut des preuves. Les indices viennent avant le discours.",
+     "Faux : c'est précisément l'erreur de Mozi. Parler à un C comme à un I, c'est la porte.",
+     "Faux : un style se suppose à partir de plusieurs indices et se vérifie. Une étiquette posée trop tôt fausse toute la relation."
+    ]
+   },
+   "card2": {
+    "question": "Si M. Bernard parlait longuement de sa fille à Nantes, que changerais-tu sur sa fiche ?",
+    "answer": "Je noterais un contre-indice : il y a peut-être aussi une part de S. Mon hypothèse devient « C dominant, part de S possible », à vérifier au prochain échange. Les preuves restent au centre."
+   },
+   "fb": "Le DISC est une grille d'observation de la communication, pas une étiquette ni un levier. On observe, on suppose, on vérifie. Et le fond ne change jamais.",
+   "dur": 19.47
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : savoir à qui tu parles, avant de parler. La fiche DISC des profils, et la fiche profil de M. Bernard.",
+   "goal": "Savoir à qui tu parles, avant de parler",
+   "tools": [
+    {
+     "name": "Fiche DISC : profils",
+     "role": "Les 4 styles et leurs indices observables"
+    },
+    {
+     "name": "Fiche profil du vendeur",
+     "role": "5 indices, une hypothèse, une question de vérification"
+    }
+   ],
+   "dur": 10.66
+  },
+  {
+   "kind": "demo",
+   "title": "Fiche DISC : observer, noter, supposer",
+   "caption": "Je relis mes notes de découverte. Débit posé, et cette question : d'où vient ce chiffre ? Une chemise de documents classés. Les moins quinze pour cent refusés, faute de calcul. J'écris sur la fiche : style C, hypothèse à vérifier.",
+   "steps": [
+    "Débit et questions : posé, « D'où vient ce chiffre ? »",
+    "Objets montrés : une chemise de documents classés",
+    "Décision : refuse les « −15 % » sans calcul, veut relire",
+    "Hypothèse notée sur D01 : style C, à vérifier au prochain échange"
+   ],
+   "tool": "Fiche DISC : profils",
+   "dur": 16.21
+  },
+  {
+   "kind": "demo",
+   "title": "La fiche profil : hypothèse, puis vérification",
+   "caption": "Puis je remplis sa fiche profil. Cinq indices, datés et sourcés. Mon hypothèse : C probable. Un contre-indice : il parle de sa fille, une part de S. Une question de vérification. Adapter mon discours, ce sera la capsule 3.18.",
+   "steps": [
+    "Indices : cinq, chacun daté avec sa source (appel, rendez-vous, mail)",
+    "Hypothèse : style C probable, pas une étiquette",
+    "Contre-indice : il parle de sa fille à Nantes, part de S possible",
+    "Vérification : « Préférez-vous recevoir le dossier avant notre rendez-vous ? »"
+   ],
+   "tool": "Fiche profil du vendeur",
+   "dur": 16.21
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "À toi : profile M. Bernard.",
+   "cta": "Profiler M. Bernard",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi sa fiche profil, indices à l'appui.",
+   "ask": "Dépose une capture de la fiche profil DISC de M. Bernard : ton hypothèse, au moins 5 indices observés (datés et sourcés), un contre-indice éventuel et ta question de vérification.",
+   "dur": 4.73
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Mozi parle avant d'écouter. Toi, tu as cinq indices, une hypothèse, et une question pour la vérifier.",
+   "status": "Ta fiche : 5 indices, 1 hypothèse, 1 question de vérification. Mozi : aucun indice relevé.",
+   "dur": 8.44
+  }
+ ],
+ "total": 204.65
+}

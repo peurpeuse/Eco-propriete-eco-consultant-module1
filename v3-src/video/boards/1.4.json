@@ -1,0 +1,193 @@
+{
+ "id": "1.4",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Étude de marché : sa zone de chalandise",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Étude de marché : sa zone de chalandise",
+   "caption": "Capsule 1.4. Étude de marché : sa zone de chalandise",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Tracer sa zone de chalandise sur une carte et chiffrer les ventes des 12 derniers mois (nombre, type, prix médian au m²) à partir des données DVF",
+   "caption": "À la fin de cette capsule : Tracer sa zone de chalandise sur une carte et chiffrer les ventes des 12 derniers mois (nombre, type, prix médian au m²) à partir des données DVF",
+   "dur": 11.4
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "DVF couvre toute la France, vas-y.",
+   "pose": "sur-de-lui",
+   "scene": "Un collègue de Strasbourg veut chiffrer les ventes de son secteur avec DVF. Que lui dis-tu ?",
+   "caption": "Un collègue de Strasbourg veut chiffrer les ventes de son secteur avec DVF. Que lui dis-tu ? Mozi, lui, répondrait : « DVF couvre toute la France, vas-y. »",
+   "dur": 10.288888888888888
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : trois territoires sont exclus de DVF, dont le Bas-Rhin."
+   ],
+   "caption": "Faux : trois territoires sont exclus de DVF, dont le Bas-Rhin.",
+   "dur": 5.474074074074073
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier ouvre l'outil public DVF et trace devant toi une zone de chalandise autour d'une agence de Melun : quelques communes, un temps de trajet raisonnable.",
+    "Il compte les ventes de l'année, sépare maisons et appartements, calcule un prix médian au m², puis en déduit combien de vendeurs il peut espérer rencontrer.",
+    "Pas d'intuition : des chiffres publics, datés."
+   ],
+   "caption": "Sébastien Paumier ouvre l'outil public DVF et trace devant toi une zone de chalandise autour d'une agence de Melun : quelques communes, un temps de trajet raisonnable. Il compte les ventes de l'année, sépare maisons et appartements, calcule un prix médian au m², puis en déduit combien de vendeurs il peut espérer rencontrer. Pas d'intuition : des chiffres publics, datés.",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Tracer ta zone en 4 étapes",
+   "items": [
+    "Pars de ton point d'ancrage : agence, domicile si tu es mandataire, ou lieu de tes rendez-vous.",
+    "Fixe une limite simple : un temps de trajet (par exemple 15 à 20 minutes) ou une liste de communes et de…",
+    "Trace-la sur une carte (Géoportail, carte papier, outil de ton réseau) et liste les communes ou les IRIS couverts.",
+    "Vérifie que ta source de ventes couvre la zone (DVF exclut l'Alsace, la Moselle et Mayotte)."
+   ],
+   "caption": "Tracer ta zone en 4 étapes. Pars de ton point d'ancrage : agence, domicile si tu es mandataire, ou lieu de tes rendez-vous. Fixe une limite simple : un temps de trajet (par exemple 15 à 20 minutes) ou une liste de communes et de… Trace-la sur une carte (Géoportail, carte papier, outil de ton réseau) et liste les communes ou les IRIS couverts. Vérifie que ta source de ventes…",
+   "dur": 27.696296296296293
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les chiffres à relever",
+   "table": {
+    "headers": [
+     "Donnée",
+     "Où la trouver",
+     "Ce que tu notes"
+    ],
+    "rows": [
+     [
+      "Ventes des 12 derniers mois",
+      "DVF (explore.data.gouv.fr/immobilier)",
+      "Nombre de ventes, maisons et appartements séparés"
+     ],
+     [
+      "Prix médian au m²",
+      "DVF, ventes de ta zone",
+      "Médiane, nombre de ventes, période"
+     ],
+     [
+      "Population, logements, part de propriétaires",
+      "Insee, dossier complet de la commune",
+      "Année du recensement"
+     ],
+     [
+      "Étiquettes DPE des logements",
+      "Observatoire DPE-Audit de l'ADEME",
+      "Part des E, F, G parmi les DPE de la commune"
+     ],
+     [
+      "Concurrents présents",
+      "Annonces, vitrines, fiches Google",
+      "Nombre d'agences et de mandataires actifs"
+     ]
+    ]
+   },
+   "caption": "Les chiffres à relever. Ventes des 12 derniers mois : DVF (explore.data.gouv.fr/immobilier) ; Prix médian au m² : DVF, ventes de ta zone ; Population, logements, part de propriétaires : Insee, dossier complet de la commune",
+   "dur": 14.362962962962962
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Le calcul de ton potentiel",
+   "text": "Ventes visées par an = ventes de la zone sur 12 mois × part de marché visée. Exemple fictif : 420 ventes × 3 % ≈ 13 ventes par an. Rendez-vous vendeurs nécessaires = ventes visées ÷ taux de transformation (exemple fictif : 13 ÷ 25 % = 52 estimations par an, soit environ une…",
+   "caption": "Le calcul de ton potentiel. Ventes visées par an = ventes de la zone sur 12 mois × part de marché visée. Exemple fictif : 420 ventes × 3 % ≈ 13 ventes par an. Rendez-vous vendeurs nécessaires = ventes visées ÷ taux de transformation (exemple fictif : 13 ÷ 25 % = 52 estimations par an, soit environ une…",
+   "dur": 19.548148148148144
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Les pièges",
+   "items": [
+    "Une zone trop large : tu ne seras visible nulle part.",
+    "Une moyenne tirée par une vente d'exception : préfère la médiane.",
+    "Un chiffre sans date ni période : DVF est mis à jour deux fois par an.",
+    "Mélanger maisons et appartements dans un seul prix au m²."
+   ],
+   "caption": "Les pièges. Une zone trop large : tu ne seras visible nulle part. Une moyenne tirée par une vente d'exception : préfère la médiane. Un chiffre sans date ni période : DVF est mis à jour deux fois par an. Mélanger maisons et appartements dans un seul prix au m².",
+   "dur": 19.177777777777774
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Ta zone compte 420 ventes de logements anciens sur 12 mois. Tu vises 3 % de ces ventes. Combien de ventes cela représente-t-il par an ?",
+    "options": [
+     "Environ 13 ventes",
+     "Environ 42 ventes",
+     "Environ 3 ventes"
+    ],
+    "answer": 0
+   },
+   "fb": "420 × 0,03 = 12,6 : environ 13 ventes par an, un peu plus d'une par mois. Ce calcul (exemple fictif) transforme ta zone en objectif. Si le résultat ne suffit pas à vivre, élargis la zone ou affine ta…",
+   "caption": "Ta zone compte 420 ventes de logements anciens sur 12 mois. Tu vises 3 % de ces ventes. Combien de ventes cela représente-t-il par an ?",
+   "dur": 27.24444444444444
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Tracer ma zone et chiffrer ses ventes",
+   "steps": [
+    {
+     "label": "Définis ton point d'ancrage et ta limite (temps de trajet ou liste de communes), puis trace ta zone…",
+     "detail": ""
+    },
+    {
+     "label": "Dans DVF, compte les ventes des 12 derniers mois disponibles, en séparant maisons et appartements.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule le prix médian au m² pour chaque type, avec le nombre de ventes et la période.",
+     "detail": ""
+    },
+    {
+     "label": "Ajoute deux repères Insee (population, part de propriétaires) et la part de DPE E, F, G de ta…",
+     "detail": ""
+    },
+    {
+     "label": "Calcule ton potentiel : ventes de la zone × part de marché visée, puis le nombre d'estimations nécessaires.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Tracer ma zone et chiffrer ses ventes. 45 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Étude de ma zone de chalandise",
+   "items": [
+    "La zone est tracée sur une carte et sa limite est expliquée",
+    "Le nombre de ventes sur 12 mois est donné, maisons et appartements séparés, avec la période…",
+    "Le prix médian au m² est donné par type, avec le nombre de ventes",
+    "Chaque chiffre a sa source et sa date",
+    "Le potentiel (ventes visées et estimations nécessaires) est calculé et le calcul est écrit"
+   ],
+   "caption": "Ton livrable : Étude de ma zone de chalandise. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Trame d'étude de marché et de zone",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 196.66
+}

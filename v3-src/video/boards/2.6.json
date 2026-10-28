@@ -1,0 +1,191 @@
+{
+ "id": "2.6",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Selon la zone : risques naturels (argiles, inondation), termites, mérule, bruit",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Selon la zone : risques naturels (argiles, inondation), termites, mérule, bruit",
+   "caption": "Capsule 2.6. Selon la zone : risques naturels (argiles, inondation), termites, mérule, bruit",
+   "dur": 6.214814814814815
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Interroger Géorisques et les arrêtés préfectoraux pour une adresse, puis lister les obligations de zone qui s'appliquent (état des risques, termites, mérule, bruit) et les informations à donner à l'acquéreur",
+   "caption": "À la fin de cette capsule : Interroger Géorisques et les arrêtés préfectoraux pour une adresse, puis lister les obligations de zone qui s'appliquent (état des risques, termites, mérule, bruit) et les informations à donner à l'acquéreur",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Non, les risques ne se donnent qu'au notaire",
+   "pose": "presente",
+   "scene": "L'annonce de la maison de Mme Garnier doit-elle parler des risques ?",
+   "caption": "L'annonce de la maison de Mme Garnier doit-elle parler des risques ? Mozi, lui, répondrait : « Non, les risques ne se donnent qu'au notaire »",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : l'état des risques est remis dès la première visite, et l'annonce doit déjà renvoyer à Géorisques."
+   ],
+   "caption": "Faux : l'état des risques est remis dès la première visite, et l'annonce doit déjà renvoyer à Géorisques.",
+   "dur": 8.437037037037037
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Même maison, autre adresse, autre dossier.",
+    "Sébastien Paumier saisit une adresse dans Géorisques et lit l'écran : prévention, inondation, argiles, catastrophes naturelles.",
+    "Puis il cherche ce que Géorisques ne dit pas seul : termites, mérule, bruit.",
+    "Exemple : l'état des risques de Mme Garnier, exposée aux argiles."
+   ],
+   "caption": "Même maison, autre adresse, autre dossier. Sébastien Paumier saisit une adresse dans Géorisques et lit l'écran : prévention, inondation, argiles, catastrophes naturelles. Puis il cherche ce que Géorisques ne dit pas seul : termites, mérule, bruit. Exemple : l'état des risques de Mme Garnier, exposée aux argiles.",
+   "dur": 18.437037037037033
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Géorisques en 6 gestes",
+   "items": [
+    "Ouvre georisques.gouv.fr et saisis l'adresse exacte (ou la parcelle cadastrale).",
+    "Relève les plans de prévention : inondation, mouvements de terrain, technologiques, miniers ; prescrit, approuvé ou en projet.",
+    "Relève la zone de sismicité (1 à 5) et le potentiel radon (1 à 3).",
+    "Relève l'exposition au retrait-gonflement des argiles (faible, moyenne, forte).",
+    "Liste les arrêtés de catastrophe naturelle de la commune (type, date)."
+   ],
+   "caption": "Géorisques en 6 gestes. Ouvre georisques.gouv.fr et saisis l'adresse exacte (ou la parcelle cadastrale). Relève les plans de prévention : inondation, mouvements de terrain, technologiques, miniers ; prescrit, approuvé ou en projet. Relève la zone de sismicité (1 à 5) et le potentiel radon (1 à 3). Relève l'exposition au retrait-gonflement des argiles (faible, moyenne, forte). Liste les arrêtés de catastrophe naturelle de la commune (type, date).",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Ce que Géorisques ne suffit pas à dire",
+   "table": {
+    "headers": [
+     "Sujet",
+     "Où vérifier",
+     "Conséquence pour la vente"
+    ],
+    "rows": [
+     [
+      "Termites",
+      "Arrêté préfectoral ; carte nationale du Cerema ; mairie",
+      "État termites de moins de 6 mois"
+     ],
+     [
+      "Mérule",
+      "Arrêté préfectoral ; carte du Cerema ; mairie",
+      "Information mérule dans la promesse ou l'acte"
+     ],
+     [
+      "Bruit des aérodromes",
+      "Plan d'exposition au bruit (zones A à D), Géoportail, mairie",
+      "Document d'information bruit dans le dossier"
+     ],
+     [
+      "Sinistres indemnisés",
+      "Vendeur, assureur, rapport d'expertise",
+      "Liste des sinistres ; travaux non réalisés pour un sinistre sécheresse"
+     ]
+    ]
+   },
+   "caption": "Ce que Géorisques ne suffit pas à dire. Termites : Arrêté préfectoral ; carte nationale du Cerema ; mairie ; Mérule : Arrêté préfectoral ; carte du Cerema ; mairie ; Bruit des aérodromes : Plan d'exposition au bruit (zones A à D), Géoportail, mairie",
+   "dur": 15.103703703703703
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Retrait-gonflement des argiles, inondation, catastrophe naturelle",
+   "items": [
+    "Argiles : les sols argileux gonflent avec l'eau et se rétractent à la sécheresse ; les maisons sur fondations peu profondes sont…",
+    "Exposition moyenne ou forte : une étude géotechnique préalable est exigée pour la vente d'un terrain à bâtir (loi ÉLAN) ; à…",
+    "Inondation : un plan de prévention prescrit ou approuvé déclenche l'état des risques et peut limiter les travaux.",
+    "Catastrophe naturelle : l'arrêté ouvre l'indemnisation ; le vendeur informe l'acquéreur des sinistres indemnisés pendant sa détention.",
+    "Tu ne qualifies jamais une fissure : tu la signales et tu renvoies vers un expert (capsule 2.19)."
+   ],
+   "caption": "Retrait-gonflement des argiles, inondation, catastrophe naturelle. Argiles : les sols argileux gonflent avec l'eau et se rétractent à la sécheresse ; les maisons sur fondations peu profondes sont… Exposition moyenne ou forte : une étude géotechnique préalable est exigée pour la vente d'un terrain à bâtir (loi ÉLAN) ; à… Inondation : un plan de prévention prescrit ou approuvé déclenche l'état des risques et peut limiter les travaux. Catastrophe naturelle…",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple : la maison de Mme Garnier (dossier fictif M10)",
+   "text": "Exposition moyenne au retrait-gonflement des argiles ; pas de plan de prévention inondation ; un arrêté « sécheresse » en 2019 sur la commune ; fissures en escalier sur le pignon nord à faire examiner. Termites : commune non couverte par un arrêté (fictif, à vérifier) ; mérule : pas de zone. Ce que tu…",
+   "caption": "Exemple : la maison de Mme Garnier (dossier fictif M10). Exposition moyenne au retrait-gonflement des argiles ; pas de plan de prévention inondation ; un arrêté « sécheresse » en 2019 sur la commune ; fissures en escalier sur le pignon nord à faire examiner. Termites : commune non couverte par un arrêté (fictif, à vérifier) ; mérule : pas de zone. Ce que tu…",
+   "dur": 22.51111111111111
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "La commune a eu un arrêté de catastrophe naturelle « sécheresse » et le vendeur a été indemnisé pour des fissures. Que vérifies-tu ?",
+    "options": [
+     "S'il reste des travaux de réparation non réalisés : ils doivent être listés et annexés à l'état des risques",
+     "Rien : le sinistre est indemnisé, il n'a plus à en parler",
+     "Que le vendeur rembourse l'indemnité avant de vendre"
+    ],
+    "answer": 0
+   },
+   "fb": "Après un arrêté de catastrophe naturelle, le vendeur informe l'acquéreur des sinistres indemnisés. Pour les dommages liés à la sécheresse et à la réhydratation des sols, il joint la liste des travaux de réparation non réalisés (service-public.fr F12239, à jour…",
+   "caption": "La commune a eu un arrêté de catastrophe naturelle « sécheresse » et le vendeur a été indemnisé pour des fissures. Que vérifies-tu ?",
+   "dur": 26.874074074074073
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Lister les obligations de zone d'une adresse",
+   "steps": [
+    {
+     "label": "Saisis l'adresse sur Géorisques et relève les 5 informations (plans de prévention, sismicité, radon, argiles, arrêtés de catastrophe…",
+     "detail": ""
+    },
+    {
+     "label": "Vérifie les arrêtés termites et mérule de la commune et note ta source.",
+     "detail": ""
+    },
+    {
+     "label": "Vérifie si l'adresse est dans un plan d'exposition au bruit.",
+     "detail": ""
+    },
+    {
+     "label": "Liste les pièces et informations à prévoir avec leur moment de remise (annonce, première visite, promesse).",
+     "detail": ""
+    },
+    {
+     "label": "Compare avec le M10 de Mme Garnier et rédige la phrase pour le vendeur.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Lister les obligations de zone d'une adresse. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Fiche zone d'une adresse",
+   "items": [
+    "Les 5 informations de Géorisques sont relevées et datées",
+    "Termites, mérule et bruit sont vérifiés avec une source nommée",
+    "Les pièces à prévoir et leur moment de remise sont listés",
+    "Les sinistres et arrêtés de catastrophe naturelle sont traités",
+    "Aucune adresse ou donnée d'un client réel n'apparaît"
+   ],
+   "caption": "Ton livrable : Fiche zone d'une adresse. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Mode d'emploi Géorisques, liste des arrêtés préfectoraux à consulter, fiche retrait-gonflement des argiles, inondation et catastrophe naturelle (textes à sourcer)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 206.66
+}

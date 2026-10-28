@@ -1,0 +1,202 @@
+{
+ "id": "2.28",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "La valeur verte : l'intégrer à la valeur, sans l'isoler",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "La valeur verte : l'intégrer à la valeur, sans l'isoler",
+   "caption": "Capsule 2.28. La valeur verte : l'intégrer à la valeur, sans l'isoler",
+   "dur": 6.5851851851851855
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Situer un bien par rapport à une référence de meilleure classe énergétique en chiffrant les écarts prouvés, et expliquer pourquoi on n'applique pas un pourcentage de valeur verte",
+   "caption": "À la fin de cette capsule : Situer un bien par rapport à une référence de meilleure classe énergétique en chiffrant les écarts prouvés, et expliquer pourquoi on n'applique pas un pourcentage de valeur verte",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "D'accord, c'est la moyenne nationale",
+   "pose": "telephone",
+   "scene": "Tes comparables d'appartements en l'état sont classés D et E et se vendent 2 650 €/m². L'attestation de M. Bernard est en E. Mozi veut retirer en plus « −8 % de valeur verte ». Que réponds-tu ?",
+   "caption": "Tes comparables d'appartements en l'état sont classés D et E et se vendent 2 650 €/m². L'attestation de M. Bernard est en E. Mozi veut retirer en plus « −8 % de valeur verte ». Que réponds-tu ? Mozi, lui, répondrait : « D'accord, c'est la moyenne nationale »",
+   "dur": 18.066666666666663
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : un écart moyen national ne s'applique pas à un bien précis, et ici les références ont la même classe."
+   ],
+   "caption": "Faux : un écart moyen national ne s'applique pas à un bien précis, et ici les références ont la même classe.",
+   "dur": 9.177777777777777
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi a lu un titre de presse : « une passoire vaut 15 % de moins ».",
+    "Il retire 15 % à tout ce qui est classé F ou G.",
+    "Sébastien Paumier ouvre l'étude des notaires sur la valeur verte, montre ce qu'elle mesure vraiment (des écarts moyens, par région, à caractéristiques égales) et pourquoi la performance s'intègre dans la comparaison au lieu de…"
+   ],
+   "caption": "Mozi a lu un titre de presse : « une passoire vaut 15 % de moins ». Il retire 15 % à tout ce qui est classé F ou G. Sébastien Paumier ouvre l'étude des notaires sur la valeur verte, montre ce qu'elle mesure vraiment (des écarts moyens, par région, à caractéristiques égales) et pourquoi la performance s'intègre dans la comparaison au lieu de s'ajouter en pourcentage.",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "L'étude des Notaires de France : ce qu'il faut savoir",
+   "table": {
+    "headers": [
+     "Point",
+     "Ce que dit la source"
+    ],
+    "rows": [
+     [
+      "Édition la plus récente",
+      "« La valeur verte des logements en France sur les transactions 2024…"
+     ],
+     [
+      "Part des ventes F-G",
+      "De 11 % à 17 % des ventes de logements anciens entre…"
+     ],
+     [
+      "Effet sur les prix",
+      "En 2024, les logements performants se vendent plus cher et les logements…"
+     ],
+     [
+      "Lecture",
+      "Dynamiques territoriales contrastées : les écarts se lisent par région, par type…"
+     ]
+    ]
+   },
+   "caption": "L'étude des Notaires de France : ce qu'il faut savoir. Édition la plus récente : « La valeur verte des logements en France sur les transactions 2024 et tendances 2025 » : étude de décembre 2025, mise en ligne le 7/01/2026 (à actualiser à chaque nouvelle édition) ; Part des ventes F-G : De 11 % à 17 % des ventes de logements anciens entre 2021 et 2023, puis recul…",
+   "dur": 25.84444444444444
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Pourquoi on n'ajoute pas un pourcentage mécaniquement",
+   "items": [
+    "Les références de même classe ont déjà la performance dans leur prix : l'ajouter serait un double compte.",
+    "Une moyenne régionale ne dit rien d'un bien précis : son plan, son terrain, son état comptent autant.",
+    "Le pourcentage mélange des biens qui diffèrent aussi par l'âge, la localisation et l'état.",
+    "La Charte de l'expertise (6e édition, 2025) rappelle qu'il n'existe pas de valeur verte distincte qu'on valoriserait séparément des autres facteurs.",
+    "Les méthodes indiciaires, qui appliquent un coefficient mécanique, ne captent pas les réalités locales (Charte)."
+   ],
+   "caption": "Pourquoi on n'ajoute pas un pourcentage mécaniquement. Les références de même classe ont déjà la performance dans leur prix : l'ajouter serait un double compte. Une moyenne régionale ne dit rien d'un bien précis : son plan, son terrain, son état comptent autant. Le pourcentage mélange des biens qui diffèrent aussi par l'âge, la localisation et l'état. La Charte de l'expertise (6e édition, 2025) rappelle qu'il n'existe pas de valeur…",
+   "dur": 29.548148148148144
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Intégrer la performance en 4 gestes",
+   "items": [
+    "Choisis tes références dans la même classe que le bien, ou note la classe de chacune.",
+    "S'il ne reste que des références de meilleure classe, liste ce qui explique l'écart : fenêtres, ventilation, chauffage, isolation.",
+    "Chiffre l'écart par des preuves (devis, audit) et compare-le à l'écart de prix observé entre références.",
+    "Présente à part la valeur après travaux, à côté du coût des travaux, sans compter d'aide non notifiée."
+   ],
+   "caption": "Intégrer la performance en 4 gestes. Choisis tes références dans la même classe que le bien, ou note la classe de chacune. S'il ne reste que des références de meilleure classe, liste ce qui explique l'écart : fenêtres, ventilation, chauffage, isolation. Chiffre l'écart par des preuves (devis, audit) et compare-le à l'écart de prix observé entre références. Présente à part la valeur après travaux, à côté du coût des travaux…",
+   "dur": 28.807407407407403
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemples fil rouge (données fictives)",
+   "table": {
+    "headers": [
+     "Bien",
+     "Références",
+     "Ce que tu fais"
+    ],
+    "rows": [
+     [
+      "Appartement de M. Bernard, attestation E",
+      "D-E en l'état à 2 650 €/m² ; rénovés C-D à 2…",
+      "Base 2 650 €/m², ajustements au devis D13 ; pas de pourcentage…"
+     ],
+     [
+      "Maison de Mme Garnier, classée G (fioul)",
+      "F-G en l'état à 2 750 €/m² ; rénovées C-D à 3…",
+      "Base 2 750 €/m² ; valeur rénovée 369 600 € montrée à…"
+     ]
+    ]
+   },
+   "caption": "Exemples fil rouge (données fictives). Appartement de M. Bernard, attestation E : D-E en l'état à 2 650 €/m² ; rénovés C-D à 2 850 €/m² ; Maison de Mme Garnier, classée G (fioul) : F-G en l'état à 2 750 €/m² ; rénovées C-D à 3 300 €/m²",
+   "dur": 19.918518518518518
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Que mesure l'étude statistique des Notaires de France sur la valeur verte ?",
+    "options": [
+     "Des écarts de prix moyens entre classes DPE, par région, à caractéristiques comparables par ailleurs",
+     "Le pourcentage à retirer à chaque logement classé F ou G",
+     "Le coût des travaux pour gagner une classe"
+    ],
+    "answer": 0
+   },
+   "fb": "L'étude (transactions 2024, mise en ligne le 7/01/2026) éclaire ton discours et ta lecture du marché. La Charte de l'expertise le dit aussi : il n'existe pas de valeur verte distincte qu'on valoriserait à part des autres facteurs.",
+   "caption": "Que mesure l'étude statistique des Notaires de France sur la valeur verte ?",
+   "dur": 23.54074074074074
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Situer un bien par rapport à une référence classée D",
+   "steps": [
+    {
+     "label": "Calcule l'écart de prix au m² entre la référence R4 (2 800 €/m²) et la base des comparables…",
+     "detail": ""
+    },
+    {
+     "label": "Liste ce qui distingue R4 de l'appartement de M. Bernard (fenêtres, ventilation, chauffage, eau chaude).",
+     "detail": ""
+    },
+    {
+     "label": "Chiffre ces différences avec le devis D13 et compare le total à l'écart de prix.",
+     "detail": ""
+    },
+    {
+     "label": "Situe l'appartement de M. Bernard par rapport à R4 en une phrase.",
+     "detail": ""
+    },
+    {
+     "label": "Écris en 3 phrases pourquoi tu n'appliques pas un pourcentage de valeur verte, en citant l'étude des notaires.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Situer un bien par rapport à une référence classée D. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Note de positionnement du bien face à une référence classée D",
+   "items": [
+    "L'écart de prix est calculé au m² et en euros sur la surface du bien",
+    "Chaque différence avec la référence est chiffrée par une preuve (devis, audit)",
+    "La conclusion situe le bien sans appliquer de pourcentage",
+    "L'étude des notaires est citée avec son édition et sa date",
+    "Aucune aide n'est chiffrée comme acquise"
+   ],
+   "caption": "Ton livrable : Note de positionnement du bien face à une référence classée D. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche valeur verte : étude statistique des notaires (à actualiser) et principe d'intégration sans isolement",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 231.47
+}

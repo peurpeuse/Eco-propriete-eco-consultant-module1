@@ -1,0 +1,200 @@
+{
+ "id": "3.13",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Assembler le Dossier Éco-staging de 8 pages",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Assembler le Dossier Éco-staging de 8 pages",
+   "caption": "Capsule 3.13. Assembler le Dossier Éco-staging de 8 pages",
+   "dur": 5.474074074074073
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Assembler le Dossier Éco-staging du bien fil rouge en 8 pages, chaque page reprenant un livrable des capsules 3.1 à 3.12, avec des chiffres identiques et sourcés.",
+   "caption": "À la fin de cette capsule : Assembler le Dossier Éco-staging du bien fil rouge en 8 pages, chaque page reprenant un livrable des capsules 3.1 à 3.12, avec des chiffres identiques et sourcés.",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Le DPE de 2023 en entier",
+   "pose": "bof",
+   "scene": "Quelle page ouvre le Dossier Éco-staging de M. Bernard ?",
+   "caption": "Quelle page ouvre le Dossier Éco-staging de M. Bernard ? Mozi, lui, répondrait : « Le DPE de 2023 en entier »",
+   "dur": 7.325925925925926
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : c'est une pièce du dossier technique, en annexe ; et son classement F n'est plus en vigueur."
+   ],
+   "caption": "Faux : c'est une pièce du dossier technique, en annexe ; et son classement F n'est plus en vigueur.",
+   "dur": 8.437037037037037
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier étale sur la table les livrables des capsules 3.1 à 3.12 : tableau de bord, synthèse, graphique, plan Éco-staging, plan d'action, grille d'arbitrage.",
+    "Il les assemble en un dossier de 8 pages, dans l'ordre où le vendeur les lit, et montre les trois contrôles finaux : chiffres identiques partout, une source par chiffre, aucune promesse."
+   ],
+   "caption": "Sébastien Paumier étale sur la table les livrables des capsules 3.1 à 3.12 : tableau de bord, synthèse, graphique, plan Éco-staging, plan d'action, grille d'arbitrage. Il les assemble en un dossier de 8 pages, dans l'ordre où le vendeur les lit, et montre les trois contrôles finaux : chiffres identiques partout, une source par chiffre, aucune promesse.",
+   "dur": 23.99259259259259
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Sommaire proposé (contenu à valider par Sébastien Paumier)",
+   "table": {
+    "headers": [
+     "Page",
+     "Contenu",
+     "Vient de",
+     "Exemple M. Bernard"
+    ],
+    "rows": [
+     [
+      "1",
+      "Synthèse : conclusion, 3 chiffres, preuves, prochaine étape",
+      "3.8",
+      "Vente en l'état, E, 178 000 – 186 000 € net"
+     ],
+     [
+      "2",
+      "Tableau de bord : 6 à 8 indicateurs sourcés et datés",
+      "3.7 (avec 3.2)",
+      "8 cases, de l'étiquette E à l'ITE votée"
+     ],
+     [
+      "3",
+      "Performance énergétique : étiquette en vigueur, avant et après, graphique",
+      "3.3 et 3.9",
+      "345 → 285 kWhEP (F → E), D puis C estimés"
+     ],
+     [
+      "4",
+      "Valeur et marché local : fourchette, valeur verte, repères de marché",
+      "3.4 et 3.6",
+      "2 650 €/m² en l'état, 2 850 €/m² rénové"
+     ],
+     [
+      "5",
+      "Coûts : travaux par devis, copropriété, aides possibles non chiffrées",
+      "3.5",
+      "16 500 € privatifs, 35 880 € ITE, charges 2 652 €/an"
+     ]
+    ]
+   },
+   "caption": "Sommaire proposé (contenu à valider par Sébastien Paumier). 1 : Synthèse : conclusion, 3 chiffres, preuves, prochaine étape ; 2 : Tableau de bord : 6 à 8 indicateurs sourcés et datés ; 3 : Performance énergétique : étiquette en vigueur, avant et après, graphique",
+   "dur": 15.103703703703703
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Les 3 contrôles avant l'envoi",
+   "items": [
+    "Cohérence : chaque chiffre a la même valeur sur toutes les pages (même source : tableur T5.4).",
+    "Preuve : chaque chiffre a sa source et sa date ; les estimations sont nommées et disent qui doit les confirmer.",
+    "Limites : aucune promesse de prix, de délai, de classe après travaux ou d'aide ; la décision reste au vendeur.",
+    "Les annexes sont numérotées avec les codes du dossier (D01 à D20 ou M01 à M14).",
+    "Le dossier tient en 8 pages, annexes à part."
+   ],
+   "caption": "Les 3 contrôles avant l'envoi. Cohérence : chaque chiffre a la même valeur sur toutes les pages (même source : tableur T5.4). Preuve : chaque chiffre a sa source et sa date ; les estimations sont nommées et disent qui doit les confirmer. Limites : aucune promesse de prix, de délai, de classe après travaux ou d'aide ; la décision reste au vendeur. Les annexes sont numérotées avec les codes…",
+   "dur": 26.21481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Assembler en 5 étapes",
+   "items": [
+    "Rassemble les livrables des capsules 3.1 à 3.12 et mets-les à jour à la date du jour.",
+    "Place-les dans l'ordre du sommaire, une page chacun ; coupe ce qui dépasse.",
+    "Ajoute la page 8 : sources datées, limites, prochaines étapes.",
+    "Fais les 3 contrôles et corrige toute incohérence.",
+    "Exporte en PDF avec les annexes et envoie le sommaire au vendeur 48 h avant le rendez-vous."
+   ],
+   "caption": "Assembler en 5 étapes. Rassemble les livrables des capsules 3.1 à 3.12 et mets-les à jour à la date du jour. Place-les dans l'ordre du sommaire, une page chacun ; coupe ce qui dépasse. Ajoute la page 8 : sources datées, limites, prochaines étapes. Fais les 3 contrôles et corrige toute incohérence. Exporte en PDF avec les annexes et envoie le sommaire au vendeur 48 h avant le rendez-vous.",
+   "dur": 28.437037037037033
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase pour remettre le dossier",
+   "text": "« Monsieur Bernard, voici votre Dossier Éco-staging : huit pages. La première vous dit ce que je vous recommande ; les sept suivantes vous montrent pourquoi, chiffre par chiffre, avec la source de chacun. Lisez-le tranquillement : jeudi, on le parcourt ensemble et c'est vous qui décidez. »",
+   "caption": "La phrase pour remettre le dossier. « Monsieur Bernard, voici votre Dossier Éco-staging : huit pages. La première vous dit ce que je vous recommande ; les sept suivantes vous montrent pourquoi, chiffre par chiffre, avec la source de chacun. Lisez-le tranquillement : jeudi, on le parcourt ensemble et c'est vous qui décidez. »",
+   "dur": 20.659259259259258
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Page 2, le tableau de bord indique 181 000 € ; page 7, la grille d'arbitrage indique 180 000 € comme milieu de fourchette. Que fais-tu ?",
+    "options": [
+     "Rien : 2 000 € d'écart, c'est négligeable",
+     "Tu supprimes la grille",
+     "Tu corriges pour que le même chiffre (181 000 €, valeur conclue de l'estimation) apparaisse partout, puis tu relis tout le dossier"
+    ],
+    "answer": 2
+   },
+   "fb": "La valeur en l'état conclue à l'estimation est 181 000 €. Dans un dossier de 8 pages, chaque chiffre doit être identique partout : idéalement, tout sort du même tableur (T5.4).",
+   "caption": "Page 2, le tableau de bord indique 181 000 € ; page 7, la grille d'arbitrage indique 180 000 € comme milieu de fourchette. Que fais-tu ?",
+   "dur": 23.91111111111111
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Assembler le dossier de son bien fil rouge",
+   "steps": [
+    {
+     "label": "Classe tes livrables dans l'ordre du sommaire en 8 pages.",
+     "detail": ""
+    },
+    {
+     "label": "Mets chaque page à jour (date du jour) et coupe ce qui dépasse une page.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige la page 8 : sources datées, limites, prochaines étapes.",
+     "detail": ""
+    },
+    {
+     "label": "Contrôle la cohérence des chiffres sur les 8 pages avec le tableur T5.4.",
+     "detail": ""
+    },
+    {
+     "label": "Vérifie qu'aucune promesse (prix, délai, classe, aide) ne figure dans le dossier.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Assembler le dossier de son bien fil rouge. 60 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Dossier Éco-staging du bien fil rouge (8 pages + annexes)",
+   "items": [
+    "Les 8 pages suivent le sommaire et chacune reprend le livrable de la capsule indiquée",
+    "Les chiffres sont identiques sur toutes les pages et conformes au dossier fil rouge",
+    "Chaque chiffre a sa source et sa date ; les estimations sont nommées",
+    "Aucune promesse de prix, de délai, de classe ou d'aide",
+    "Les annexes portent les codes du dossier (D ou M)"
+   ],
+   "caption": "Ton livrable : Dossier Éco-staging du bien fil rouge (8 pages + annexes). Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèle de dossier, 8 pages (contenu à fixer)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 204.07
+}

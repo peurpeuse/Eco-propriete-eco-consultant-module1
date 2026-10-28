@@ -1,0 +1,201 @@
+{
+ "id": "2.27",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Les 8 familles de valeur",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 2.27 : les 8 familles de valeur",
+   "caption": "Bienvenue. Dans ce chapitre, tu regardes un bien avec huit paires de lunettes, pas une seule.",
+   "cta": "Commencer",
+   "dur": 7.33
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi un écart de prix sans famille ni preuve n'est qu'une opinion"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "classer chaque atout et défaut du bien dans une famille, avec son effet sur le prix"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton tableau des 8 familles pour M. Bernard"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Avec mes lunettes DPE, je vois tout : moins 15 % !",
+   "caption": "Avec mes lunettes DPE, je vois tout : moins 15 % !",
+   "line": "Avec mes lunettes DPE, je vois tout : moins 15 % !",
+   "scene": "Mozi, d'énormes lunettes « DPE » sur le nez, passe devant le balcon sans le voir et se cogne dans la porte.",
+   "pose": "clin-oeil",
+   "dur": 4.73
+  },
+  {
+   "kind": "belief",
+   "title": "1 étiquette, 1 pourcentage, 0 preuve",
+   "caption": "Une étiquette, un pourcentage, zéro preuve.",
+   "beats": [
+    "1 étiquette",
+    "1 pourcentage",
+    "0 preuve"
+   ],
+   "wrong": 1,
+   "why": "Un pourcentage général n'est pas une preuve : l'effet du DPE varie selon le territoire.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "172 000 €. Sans une preuve.",
+   "caption": "Résultat : 172 000 euros, sans une seule preuve. Or les notaires le constatent : l'effet du DPE sur les prix varie selon les territoires. Un pourcentage unique ne tient pas.",
+   "lines": [
+    "172 000 € : un pourcentage, pas une preuve.",
+    "L'effet du DPE varie selon les territoires."
+   ],
+   "dur": 12.51
+  },
+  {
+   "kind": "stat",
+   "title": "≈ 15 % des logements vendus sont F ou G",
+   "caption": "Début 2025, environ quinze pour cent des logements anciens vendus étaient classés F ou G. Ils se vendent. L'étiquette pèse, mais elle n'est qu'une famille parmi huit.",
+   "value": "≈ 15 %",
+   "label": "des logements anciens vendus début 2025 étaient classés F ou G",
+   "dur": 12.51
+  },
+  {
+   "kind": "steps",
+   "title": "8 familles → 3 effets → 1 case par défaut",
+   "caption": "Trois idées. Un : huit familles, chacune avec sa question. Intrinsèque : surface, étage, exposition. Marché : que disent les ventes comparables ? Technique : l'état du bâti. Énergétique : la classe et les travaux, sans pourcentage plaqué, on le verra en 2.28. Copropriété : charges et travaux votés. Perçue : ce que ressent l'acheteur. Financière : ce que ça lui coûte par mois. Transactionnelle : délai, documents, mandat. Deux : chaque élément a un effet. Neutre, si les comparables l'ont aussi. Chiffré, si une preuve donne un montant. Ou argument, sans montant. Trois : une famille par défaut, jamais deux. Sinon, tu retires deux fois le même montant.",
+   "steps": [
+    {
+     "label": "8 familles",
+     "detail": "Intrinsèque, marché, technique, énergétique, copropriété, perçue, financière, transactionnelle."
+    },
+    {
+     "label": "3 effets",
+     "detail": "Neutre, chiffré par une preuve, ou simple argument."
+    },
+    {
+     "label": "1 case",
+     "detail": "Un défaut, une famille, un montant : jamais de double compte."
+    }
+   ],
+   "dur": 38.81
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Chez un vendeur de Sarah, la salle de bains « fait vieillot ». Un collègue propose « moins 10 000 € » sur le prix. Que fait Sarah ?",
+   "model_answer": "Sans devis ni comparable, pas de montant : c'est un argument de la famille perçue. Elle vérifie si les ventes comparables ont le même type de salle de bains, et propose un petit plan Éco-staging plutôt qu'une décote.",
+   "dur": 25.33
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Un écart de prix doit avoir une famille et une preuve",
+     "Le DPE compte pour 15 % de la valeur, ni plus ni moins",
+     "Aucune : le DPE suffit pour estimer un appartement"
+    ],
+    "answer": 0,
+    "feedback": "Mozi réduit le bien à une seule famille, l'énergie, et applique un pourcentage sans preuve. Or l'effet du DPE sur les prix varie selon les territoires (Notaires de France, janvier 2026).",
+    "whys": [
+     "Exact : famille plus preuve, c'est un argument. Sans preuve, c'est une opinion.",
+     "Faux : aucune règle ne fixe ce pourcentage ; l'effet du DPE varie selon les territoires.",
+     "Faux : en appartement, la copropriété pèse souvent lourd. Ici, 35 880 € de travaux votés pour le lot."
+    ]
+   },
+   "card2": {
+    "question": "Si Claire rangeait les fenêtres de M. Bernard à la fois en technique et en énergétique, que se passerait-il ?",
+    "answer": "Elle retirerait deux fois 5 600 € : le bien serait sous-estimé de 5 600 €, et M. Bernard, qui refait les calculs, le verrait. Une seule famille, l'énergétique, avec le devis ; en technique, « voir énergétique »."
+   },
+   "fb": "Mozi réduit le bien à une seule famille, l'énergie, et applique un pourcentage sans preuve. Or l'effet du DPE sur les prix varie selon les territoires (Notaires de France, janvier 2026).",
+   "dur": 19.47
+  },
+  {
+   "kind": "tools",
+   "title": "Deux gestes, un seul but",
+   "caption": "Deux gestes, un seul but : un prix que l'acheteur ne peut pas casser. Le tableau des huit familles, et le test des comparables.",
+   "goal": "Un prix que l'acheteur ne peut pas casser",
+   "tools": [
+    {
+     "name": "Le tableau des 8 familles",
+     "role": "Ranger chaque atout et chaque défaut dans une seule case"
+    },
+    {
+     "name": "Le test des comparables",
+     "role": "Décider : neutre, chiffré ou argument"
+    }
+   ],
+   "dur": 10.29
+  },
+  {
+   "kind": "demo",
+   "title": "Le tableau de M. Bernard",
+   "caption": "Chez M. Bernard. Intrinsèque : 76 mètres carrés, quatrième avec ascenseur, balcon au sud-ouest. Technique : pas de VMC, mais une cuisine refaite. Énergétique : attestation en E, quatre fenêtres d'origine. Copropriété : l'isolation votée. Perçue : moisissures, auréole, fissure fine.",
+   "steps": [
+    "Intrinsèque : 76 m², 4e avec ascenseur, balcon 6 m² sud-ouest, cave, parking",
+    "Technique : pas de VMC, conduit obstrué ; cuisine refaite en 2016",
+    "Énergétique : attestation actualisée classe E ; 4 fenêtres bois simple vitrage",
+    "Copropriété : ITE votée, 35 880 € pour le lot en 2027",
+    "Perçue : moisissures, auréole, fissure fine"
+   ],
+   "tool": "Tableau des 8 familles",
+   "dur": 15.84
+  },
+  {
+   "kind": "demo",
+   "title": "Neutre, chiffré ou argument ?",
+   "caption": "Puis le test. Les convecteurs ? Les comparables en l'état en ont aussi : neutre. Les fenêtres : devis, moins 5 600 euros, une seule fois. La ventilation : moins 2 900. Le balcon : un argument. Les défauts visibles : un Éco-staging d'environ 450 euros, pas une décote.",
+   "steps": [
+    "Convecteurs de 1998 : aussi dans les comparables en l'état → neutre",
+    "Fenêtres : devis D13 → chiffré, −5 600 €, une seule fois",
+    "Ventilation : devis D13 → chiffré, −2 900 €",
+    "Balcon sud-ouest : pas de montant → argument, haut de fourchette",
+    "Défauts visibles : Éco-staging ≈ 450 €, pas de décote"
+   ],
+   "tool": "Test des comparables",
+   "dur": 18.44
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Classe les atouts et défauts du bien maintenant.",
+   "cta": "Ouvrir l'exercice : 16 éléments",
+   "dur": 4.36
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton tableau.",
+   "ask": "Dépose une capture de ton tableau des 8 familles : 16 éléments, chacun dans une seule famille, avec son effet et sa preuve.",
+   "dur": 3.5
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Les deux agences ont regardé une famille. Toi, les huit, avec une preuve pour chaque écart.",
+   "status": "Les deux agences : 1 famille. Toi : 8, et une preuve par écart.",
+   "dur": 7.7
+  }
+ ],
+ "total": 192.44
+}

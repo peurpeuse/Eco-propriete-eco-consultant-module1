@@ -1,0 +1,190 @@
+{
+ "id": "2.14",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Mesurer avec Magic Plan : plan et surfaces au téléphone",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Mesurer avec Magic Plan : plan et surfaces au téléphone",
+   "caption": "Capsule 2.14. Mesurer avec Magic Plan : plan et surfaces au téléphone",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Relever deux pièces avec Magic Plan selon un protocole fixe (pièces, hauteurs, ouvertures), contrôler une cote au mètre et exporter un plan coté avec ses surfaces",
+   "caption": "À la fin de cette capsule : Relever deux pièces avec Magic Plan selon un protocole fixe (pièces, hauteurs, ouvertures), contrôler une cote au mètre et exporter un plan coté avec ses surfaces",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Rien : la surface affichée par l'application vaut mesurage officiel",
+   "pose": "bof",
+   "scene": "Hugo relève le séjour de 24 m² de M. Bernard avec Magic Plan. Avant d'exporter le plan, que doit-il faire en priorité ?",
+   "caption": "Hugo relève le séjour de 24 m² de M. Bernard avec Magic Plan. Avant d'exporter le plan, que doit-il faire en priorité ? Mozi, lui, répondrait : « Rien : la surface affichée par l'application vaut mesurage officiel »",
+   "dur": 13.992592592592592
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : l'application dessine et additionne ; elle ne remplace pas un mesurage contrôlé, et sa précision dépend du téléphone et des conditions."
+   ],
+   "caption": "Faux : l'application dessine et additionne ; elle ne remplace pas un mesurage contrôlé, et sa précision dépend du téléphone et des conditions.",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier relève en direct le séjour et la cuisine d'un appartement avec Magic Plan : coins de pièce, ouvertures, hauteur sous plafond, puis contrôle d'une longueur au mètre laser.",
+    "Il montre l'export du plan et rappelle ce que l'application ne fait pas : elle dessine et additionne, elle ne décide pas ce qui entre dans une surface Carrez ou habitable."
+   ],
+   "caption": "Sébastien Paumier relève en direct le séjour et la cuisine d'un appartement avec Magic Plan : coins de pièce, ouvertures, hauteur sous plafond, puis contrôle d'une longueur au mètre laser. Il montre l'export du plan et rappelle ce que l'application ne fait pas : elle dessine et additionne, elle ne décide pas ce qui entre dans une surface Carrez ou habitable.",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Avant la visite",
+   "items": [
+    "Téléphone chargé, application installée, projet créé au nom du bien (pas de nom du client dans le titre du fichier partagé)",
+    "Mètre laser (idéalement connectable en Bluetooth à l'application) et ruban de 5 m",
+    "Plan existant s'il y en a un (plan de vente, plan de la copropriété), pour comparer",
+    "Liste des pièces annoncées par le vendeur et des annexes (balcon, cave, parking, véranda, sous-sol)",
+    "Bonne lumière : ouvre les volets, allume toutes les pièces"
+   ],
+   "caption": "Avant la visite. Téléphone chargé, application installée, projet créé au nom du bien (pas de nom du client dans le titre du fichier partagé) Mètre laser (idéalement connectable en Bluetooth à l'application) et ruban de 5 m Plan existant s'il y en a un (plan de vente, plan de la copropriété), pour comparer Liste des pièces annoncées par le vendeur et des annexes (balcon, cave, parking, véranda, sous-sol) Bonne lumière…",
+   "dur": 28.437037037037033
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Le protocole de relevé, pièce par pièce",
+   "items": [
+    "Toujours le même sens : entrée, pièces de vie, chambres, pièces d'eau, annexes.",
+    "Nomme la pièce dans l'application avant de la relever (séjour, chambre 1…).",
+    "Relève les coins au sol (caméra, ou capteur LiDAR si le téléphone en a un), en évitant les meubles.",
+    "Place les ouvertures : portes, fenêtres, portes-fenêtres, avec leur largeur.",
+    "Saisis la hauteur sous plafond ; sous pente, note la hauteur basse et trace au sol la limite des 1,80 m."
+   ],
+   "caption": "Le protocole de relevé, pièce par pièce. Toujours le même sens : entrée, pièces de vie, chambres, pièces d'eau, annexes. Nomme la pièce dans l'application avant de la relever (séjour, chambre 1…). Relève les coins au sol (caméra, ou capteur LiDAR si le téléphone en a un), en évitant les meubles. Place les ouvertures : portes, fenêtres, portes-fenêtres, avec leur largeur. Saisis la hauteur sous plafond ; sous pente, note…",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Ce que fait Magic Plan, ce qu'il ne fait pas",
+   "table": {
+    "headers": [
+     "L'application fait",
+     "Tu fais toi-même"
+    ],
+    "rows": [
+     [
+      "Dessine le plan pièce par pièce et assemble l'étage",
+      "Vérifier que l'assemblage correspond à la réalité (cloisons, dégagements)"
+     ],
+     [
+      "Calcule la surface au sol de chaque pièce dessinée",
+      "Décider ce qui entre dans la surface Carrez, habitable ou pondérée"
+     ],
+     [
+      "Accepte des cotes saisies ou envoyées par un mètre laser",
+      "Contrôler au moins une cote par pièce"
+     ],
+     [
+      "Exporte le plan (PDF, image, DXF selon l'abonnement)",
+      "Indiquer sur l'export : date, « prémesurage, non contractuel »"
+     ]
+    ]
+   },
+   "caption": "Ce que fait Magic Plan, ce qu'il ne fait pas. Dessine le plan pièce par pièce et assemble l'étage : Vérifier que l'assemblage correspond à la réalité (cloisons, dégagements) ; Calcule la surface au sol de chaque pièce dessinée : Décider ce qui entre dans la surface Carrez, habitable ou pondérée ; Accepte des cotes saisies ou envoyées par un mètre laser : Contrôler au moins une cote par pièce",
+   "dur": 26.585185185185182
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Les pièges fréquents",
+   "items": [
+    "Pointer un coin derrière un meuble : la pièce rétrécit ou s'allonge.",
+    "Oublier un placard ou un dégagement : la somme des pièces ne colle plus au total.",
+    "Laisser les parties sous 1,80 m dans la surface d'une pièce mansardée.",
+    "Mélanger balcon, cave ou véranda avec les pièces principales.",
+    "Annoncer une surface « garantie » à partir du seul relevé du téléphone."
+   ],
+   "caption": "Les pièges fréquents. Pointer un coin derrière un meuble : la pièce rétrécit ou s'allonge. Oublier un placard ou un dégagement : la somme des pièces ne colle plus au total. Laisser les parties sous 1,80 m dans la surface d'une pièce mansardée. Mélanger balcon, cave ou véranda avec les pièces principales. Annoncer une surface « garantie » à partir du seul relevé du téléphone.",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Dans une chambre mansardée, Sarah relève la pièce entière sans noter les hauteurs. Quel est le problème pour la suite ?",
+    "options": [
+     "Aucun, Magic Plan exclut seul les parties basses",
+     "Le plan sera moins joli à l'export",
+     "Sans la ligne des 1,80 m, elle ne peut pas déduire les parties basses des surfaces Carrez ou habitable"
+    ],
+    "answer": 2
+   },
+   "fb": "Sous pente, tu notes la hauteur et tu traces au sol la limite des 1,80 m. La surface sous cette ligne est relevée à part, puis déduite (art. 4-1 du décret du 17 mars 1967 pour Carrez, art. R. 156-1…",
+   "caption": "Dans une chambre mansardée, Sarah relève la pièce entière sans noter les hauteurs. Quel est le problème pour la suite ?",
+   "dur": 26.133333333333333
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Relever 2 pièces et exporter le plan",
+   "steps": [
+    {
+     "label": "Crée un projet et nomme les deux pièces avant de commencer.",
+     "detail": ""
+    },
+    {
+     "label": "Relève chaque pièce en suivant le protocole : coins, ouvertures, hauteur sous plafond.",
+     "detail": ""
+    },
+    {
+     "label": "Mesure une longueur par pièce au mètre et note l'écart avec la cote de l'application.",
+     "detail": ""
+    },
+    {
+     "label": "Corrige les cotes si l'écart dépasse quelques centimètres.",
+     "detail": ""
+    },
+    {
+     "label": "Exporte le plan avec les surfaces de chaque pièce et ajoute la mention « prémesurage du [date], non…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Relever 2 pièces et exporter le plan. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Plan coté de 2 pièces relevé avec Magic Plan",
+   "items": [
+    "Les deux pièces sont nommées et leurs ouvertures (portes, fenêtres) sont placées",
+    "La hauteur sous plafond est indiquée pour chaque pièce",
+    "Une cote de contrôle au mètre est notée pour chaque pièce, avec l'écart constaté",
+    "Les annexes éventuelles (balcon, placard extérieur) sont séparées des pièces",
+    "L'export porte la date et la mention « prémesurage, non contractuel »"
+   ],
+   "caption": "Ton livrable : Plan coté de 2 pièces relevé avec Magic Plan. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Protocole de relevé (pièces, hauteurs, ouvertures) et mode d'emploi Magic Plan",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 230.73
+}

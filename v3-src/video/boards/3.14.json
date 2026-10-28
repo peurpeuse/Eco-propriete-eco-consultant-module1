@@ -1,0 +1,199 @@
+{
+ "id": "3.14",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Lire et comparer des devis de travaux, sans les vendre",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.14 : lire et comparer des devis, sans les vendre",
+   "caption": "Bienvenue. Trois devis de fenêtres sur la table : dans ce chapitre, tu apprends à les lire, sans jamais les vendre.",
+   "cta": "Commencer",
+   "dur": 8.81
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce qui rend trois devis comparables, ou pas"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "comparer les trois devis de fenêtres de M. Bernard et dire ce qu'on fait vérifier"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ta grille comparée en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Trois devis ? J'ai gardé celui de mon cousin.",
+   "caption": "Trois devis ? J'ai gardé celui de mon cousin. Il me reverse 10 %, c'est cadeau !",
+   "line": "Trois devis ? J'ai gardé celui de mon cousin. Il me reverse 10 %, c'est cadeau !",
+   "scene": "Mozi fait des confettis avec deux devis, tamponne le troisième « Approuvé par Mozi » et le tend à M. Bernard.",
+   "pose": "presente",
+   "dur": 7.33
+  },
+  {
+   "kind": "belief",
+   "title": "Trois devis, un tableau, Mozi choisit",
+   "caption": "Trois devis reçus. Un tableau pour comparer. Et Mozi qui choisit, et touche dix pour cent.",
+   "beats": [
+    "Trois devis reçus",
+    "Un tableau pour comparer",
+    "Mozi choisit et touche 10 %"
+   ],
+   "wrong": 2,
+   "why": "L'éco-consultant ne vend pas de travaux, ne touche aucune commission et ne choisit pas l'entreprise à la place du vendeur.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Aucune assurance indiquée. Conseil plus neutre.",
+   "caption": "Le devis du cousin n'indique aucune assurance, alors que la loi l'exige sur chaque devis d'artisan. Et un conseil payé par l'entreprise n'est plus un conseil : tout le dossier devient suspect.",
+   "lines": [
+    "Le devis du cousin : aucune assurance indiquée.",
+    "Un conseil payé par l'entreprise : tout le dossier devient suspect."
+   ],
+   "dur": 14.73
+  },
+  {
+   "kind": "stat",
+   "title": "34 % en manquement grave",
+   "caption": "Trente-quatre pour cent. Sur près de mille professionnels de la rénovation énergétique contrôlés en 2024, un tiers présentait des manquements graves : faux label RGE, bons de commande flous, aides inventées.",
+   "value": "34 %",
+   "label": "des professionnels de la rénovation énergétique contrôlés en 2024 (près de 1 000) présentaient des manquements graves",
+   "dur": 12.88
+  },
+  {
+   "kind": "steps",
+   "title": "Aligner → Lire → Faire vérifier",
+   "caption": "Trois gestes, dans cet ordre. Un : aligner les postes. Même nombre de fenêtres, quatre. Dépose des anciens cadres, pose, évacuation des déchets. Une option, comme des volets, se met à part : sinon, tu compares des choses différentes. Deux : lire performances et garanties. Le Uw : plus il est bas, plus la fenêtre isole ; les aides exigent souvent 1,3 au plus. Puis l'assurance indiquée sur le devis, la mention RGE, le délai, la durée de validité, l'acompte. Trois : faire vérifier, et laisser choisir. Le RGE sur l'annuaire France Rénov'. L'attestation d'assurance, demandée à l'entreprise. Les mentions obligatoires du devis. Puis tu remets la grille à M. Bernard. Il choisit. Toi, tu ne touches rien.",
+   "steps": [
+    {
+     "label": "Aligner",
+     "detail": "4 fenêtres, dépose, pose, déchets ; options (volets) à part ; TTC et taux de TVA lus sur le devis."
+    },
+    {
+     "label": "Lire",
+     "detail": "Uw (plus bas = plus isolant) et Sw, assurance indiquée, RGE, délai, validité, acompte."
+    },
+    {
+     "label": "Faire vérifier",
+     "detail": "RGE sur France Rénov', attestation d'assurance, mentions obligatoires ; le vendeur choisit, toi tu ne touches rien."
+    }
+   ],
+   "dur": 45.47
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "M. Bernard demande à Karim de choisir l'entreprise à sa place. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard, profil C, tend ses trois devis à Karim : « Lequel je prends ? C'est vous le professionnel. » Que répond Karim ?",
+   "model_answer": "« Je ne choisis pas à votre place, et je ne touche rien d'aucune entreprise. Voici la grille : A et C sont comparables une fois les volets mis à part ; B n'indique ni assurance, ni dépose, ni durée de validité. Demandez ces pièces à B, vérifions ensemble les RGE sur l'annuaire France Rénov', puis vous décidez. »",
+   "dur": 31.26
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Il aurait dû garder le devis le moins cher, c'est l'intérêt du vendeur",
+     "Il peut toucher une commission, à condition de la dire au vendeur",
+     "Il choisit à la place du vendeur et touche une commission : l'éco-consultant ne vend pas de travaux"
+    ],
+    "answer": 2,
+    "feedback": "L'éco-consultant éclaire la décision : il compare, il fait vérifier, il explique. Il ne vend pas de travaux, ne touche aucune commission et ne choisit pas l'entreprise.",
+    "whys": [
+     "Faux : le moins cher peut oublier la dépose, l'assurance ou la validité ; et choisir reste au vendeur.",
+     "Faux : la règle du métier est simple, aucune commission, annoncée ou non.",
+     "Exact : il éclaire, il ne vend pas, ne touche rien et laisse M. Bernard choisir."
+    ]
+   },
+   "card2": {
+    "question": "Si M. Bernard signait le devis B tel quel, que se passerait-il ?",
+    "answer": "Il s'engagerait sur un devis sans assurance indiquée, sans dépose ni durée de validité, avec un Uw de 1,6, au-dessus du seuil souvent exigé par les aides. Avant de signer, il demande l'attestation d'assurance et le détail de la pose. S'il a signé chez lui, il dispose de 14 jours pour se rétracter."
+   },
+   "fb": "L'éco-consultant éclaire la décision : il compare, il fait vérifier, il explique. Il ne vend pas de travaux, ne touche aucune commission et ne choisit pas l'entreprise.",
+   "dur": 17.99
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : que M. Bernard choisisse en connaissance de cause. La grille comparée, et les trois vérifications.",
+   "goal": "Que le vendeur choisisse en connaissance de cause",
+   "tools": [
+    {
+     "name": "Grille comparée",
+     "role": "Mettre les trois devis sur les mêmes lignes"
+    },
+    {
+     "name": "Les trois vérifications",
+     "role": "RGE, assurance, mentions du devis"
+    }
+   ],
+   "dur": 8.81
+  },
+  {
+   "kind": "demo",
+   "title": "La grille, devis par devis",
+   "caption": "La grille, devis par devis. A : 5 600 euros, Uw 1,3, RGE, assurance indiquée, six semaines. B : 3 900 euros, Uw 1,6, ni assurance, ni dépose, ni validité. C : 8 200 euros, Uw 1,4, mais volets inclus : 6 100 euros sans eux.",
+   "steps": [
+    "Devis A : 5 600 €, Uw 1,3, RGE, assurance, 6 semaines",
+    "Devis B : 3 900 €, Uw 1,6, ni assurance, ni dépose, ni validité",
+    "Devis C : 8 200 € dont volets 2 100 €, soit 6 100 € à comparer",
+    "Écarts : ce qui manque, surligné, sans classement"
+   ],
+   "tool": "Grille comparée",
+   "dur": 18.07
+  },
+  {
+   "kind": "demo",
+   "title": "Les trois vérifications",
+   "caption": "Puis les trois vérifications. Le RGE de chaque entreprise, sur l'annuaire France Rénov'. L'attestation d'assurance décennale en cours, pour la menuiserie. Les mentions du devis : date, validité, détail, TVA, déchets. Enfin, tu remets la grille. M. Bernard choisit.",
+   "steps": [
+    "RGE : chercher l'entreprise sur l'annuaire France Rénov'",
+    "Assurance : demander l'attestation décennale en cours",
+    "Mentions : date, validité, détail, TVA, déchets",
+    "Restitution : la grille à M. Bernard, il choisit"
+   ],
+   "tool": "Les trois vérifications",
+   "dur": 16.59
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Compare les trois devis de M. Bernard, maintenant.",
+   "cta": "Ouvrir les trois devis",
+   "dur": 4.36
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ta grille comparée et ta liste de vérifications.",
+   "ask": "Dépose une capture de ta grille comparée des trois devis (postes, Uw, garanties, délais, prix), avec ta liste de ce que tu fais vérifier et la phrase qui laisse le choix à M. Bernard.",
+   "dur": 5.1
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Ta grille éclaire M. Bernard, et personne ne te paie pour pencher d'un côté.",
+   "status": "Ta grille : 3 devis, les mêmes lignes, 0 € de commission. Mozi : 1 devis, 10 % pour lui.",
+   "dur": 7.33
+  }
+ ],
+ "total": 210.35
+}

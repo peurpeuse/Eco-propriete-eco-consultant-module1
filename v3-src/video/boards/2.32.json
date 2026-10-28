@@ -1,0 +1,195 @@
+{
+ "id": "2.32",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Maison : la construction, poste par poste, au coût actuel",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Maison : la construction, poste par poste, au coût actuel",
+   "caption": "Capsule 2.32. Maison : la construction, poste par poste, au coût actuel",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Chiffrer le coût à neuf d'une maison par postes de construction, au prix de l'année, en actualisant un barème daté avec l'indice BT01",
+   "caption": "À la fin de cette capsule : Chiffrer le coût à neuf d'une maison par postes de construction, au prix de l'année, en actualisant un barème daté avec l'indice BT01",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "1 836 €/m², un barème ne s'actualise pas",
+   "pose": "bof",
+   "scene": "Un barème de coût de construction daté de janvier 2026 (BT01 = 134,7) donne 1 836 €/m². Le dernier BT01 publié est celui d'août 2026 (139,4). Quel coût actualisé ?",
+   "caption": "Un barème de coût de construction daté de janvier 2026 (BT01 = 134,7) donne 1 836 €/m². Le dernier BT01 publié est celui d'août 2026 (139,4). Quel coût actualisé ? Mozi, lui, répondrait : « 1 836 €/m², un barème ne s'actualise pas »",
+   "dur": 16.21481481481481
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : les coûts de construction bougent d'un mois à l'autre ; un barème daté se ramène à la date de valeur."
+   ],
+   "caption": "Faux : les coûts de construction bougent d'un mois à l'autre ; un barème daté se ramène à la date de valeur.",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi reprend le prix d'achat de 1979 de Mme Garnier et ajoute « l'inflation, à peu près ».",
+    "Sébastien Paumier montre ce que coûterait aujourd'hui la même maison, poste par poste : gros œuvre, couverture, menuiseries, chauffage…",
+    "puis comment actualiser un barème de janvier avec l'indice BT01 de l'Insee, pour obtenir le coût à neuf qui servira à la vétusté."
+   ],
+   "caption": "Mozi reprend le prix d'achat de 1979 de Mme Garnier et ajoute « l'inflation, à peu près ». Sébastien Paumier montre ce que coûterait aujourd'hui la même maison, poste par poste : gros œuvre, couverture, menuiseries, chauffage… puis comment actualiser un barème de janvier avec l'indice BT01 de l'Insee, pour obtenir le coût à neuf qui servira à la vétusté.",
+   "dur": 24.36296296296296
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Coût à neuf de la maison de Mme Garnier par postes (FICTIF)",
+   "table": {
+    "headers": [
+     "Poste",
+     "Part",
+     "Coût à neuf (112 m² × 1 900 €)"
+    ],
+    "rows": [
+     [
+      "Terrassement, fondations, sous-sol, gros œuvre",
+      "34 %",
+      "72 352 €"
+     ],
+     [
+      "Charpente, couverture, zinguerie",
+      "10 %",
+      "21 280 €"
+     ],
+     [
+      "Menuiseries extérieures et fermetures",
+      "9 %",
+      "19 152 €"
+     ],
+     [
+      "Isolation, plâtrerie, cloisons, menuiseries intérieures",
+      "12 %",
+      "25 536 €"
+     ],
+     [
+      "Chauffage, eau chaude, ventilation",
+      "10 %",
+      "21 280 €"
+     ]
+    ]
+   },
+   "caption": "Coût à neuf de la maison de Mme Garnier par postes (FICTIF). Terrassement, fondations, sous-sol, gros œuvre : 34 % ; Charpente, couverture, zinguerie : 10 % ; Menuiseries extérieures et fermetures : 9 %",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Actualiser un barème avec l'indice BT01",
+   "text": "Coût actualisé = coût du barème × (BT01 du mois de référence le plus récent ÷ BT01 du mois du barème). Exemple : barème fictif de janvier 2026 à 1 836 €/m² ; BT01 janvier 2026 = 134,7 ; BT01 août 2026 = 139,4 (paru au JO le 16/10/2026). Coefficient = 139,4 ÷ 134,7 =…",
+   "caption": "Actualiser un barème avec l'indice BT01. Coût actualisé = coût du barème × (BT01 du mois de référence le plus récent ÷ BT01 du mois du barème). Exemple : barème fictif de janvier 2026 à 1 836 €/m² ; BT01 janvier 2026 = 134,7 ; BT01 août 2026 = 139,4 (paru au JO le 16/10/2026). Coefficient = 139,4 ÷ 134,7 =…",
+   "dur": 22.51111111111111
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Ce qu'il faut savoir sur le BT01",
+   "items": [
+    "Index national du bâtiment « tous corps d'état », publié chaque mois par l'Insee, en base 100 en 2010.",
+    "Il mesure l'évolution des coûts des facteurs de production du bâtiment (matériaux, salaires, énergie…), pas les prix de vente des maisons.",
+    "Il paraît avec environ deux mois et demi de décalage : en octobre 2026, le dernier connu est celui d'août 2026.",
+    "Ne mélange jamais deux bases : un indice en base 2010 ne se compare pas à une ancienne base.",
+    "Il sert aussi à réviser les prix des contrats de construction : ne l'utilise que pour actualiser un coût."
+   ],
+   "caption": "Ce qu'il faut savoir sur le BT01. Index national du bâtiment « tous corps d'état », publié chaque mois par l'Insee, en base 100 en 2010. Il mesure l'évolution des coûts des facteurs de production du bâtiment (matériaux, salaires, énergie…), pas les prix de vente des maisons. Il paraît avec environ deux mois et demi de décalage : en octobre 2026, le dernier connu est celui d'août 2026. Ne mélange…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Chiffrer une maison poste par poste en 5 gestes",
+   "items": [
+    "Mesure la surface habitable et liste les annexes (sous-sol, véranda, garage) : dis lesquelles sont comprises dans ton ratio.",
+    "Choisis un barème daté et sourcé pour une construction équivalente (même gabarit, même niveau de prestation actuel), hors terrain.",
+    "Actualise le barème à la date de valeur avec le BT01.",
+    "Répartis le coût par postes et vérifie que la somme redonne le total.",
+    "Ajoute à part les annexes non comprises et écris tes hypothèses (TVA, honoraires, prestation)."
+   ],
+   "caption": "Chiffrer une maison poste par poste en 5 gestes. Mesure la surface habitable et liste les annexes (sous-sol, véranda, garage) : dis lesquelles sont comprises dans ton ratio. Choisis un barème daté et sourcé pour une construction équivalente (même gabarit, même niveau de prestation actuel), hors terrain. Actualise le barème à la date de valeur avec le BT01. Répartis le coût par postes et vérifie que la somme redonne le…",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Pourquoi chiffrer la maison de Mme Garnier poste par poste plutôt qu'avec un seul prix au m² ?",
+    "options": [
+     "Parce que la vétusté se mesure ensuite poste par poste : la toiture de 1968 n'a pas le même âge que la salle de bains de 2015",
+     "Parce qu'un seul prix au m² est interdit",
+     "Pour obtenir un coût plus élevé"
+    ],
+    "answer": 0
+   },
+   "fb": "La somme des postes redonne le coût total (ici 212 800 € pour la maison). Le découpage permet de déprécier chaque poste selon son âge et son état réels.",
+   "caption": "Pourquoi chiffrer la maison de Mme Garnier poste par poste plutôt qu'avec un seul prix au m² ?",
+   "dur": 19.837037037037035
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Chiffrer le coût à neuf de la maison fil rouge par postes",
+   "steps": [
+    {
+     "label": "Relève sur le site de l'Insee le BT01 de janvier 2026 et le dernier BT01 publié ; calcule…",
+     "detail": ""
+    },
+    {
+     "label": "Actualise le barème de 1 836 €/m² et calcule le coût à neuf de la maison sur 112…",
+     "detail": ""
+    },
+    {
+     "label": "Répartis ce coût entre les 9 postes avec les parts du barème et vérifie le total.",
+     "detail": ""
+    },
+    {
+     "label": "Ajoute la véranda à part (600 €/m², fictif) et donne le coût à neuf total.",
+     "detail": ""
+    },
+    {
+     "label": "Écris en 3 lignes tes hypothèses : ce qui est compris (sous-sol), ce qui ne l'est pas (terrain)…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Chiffrer le coût à neuf de la maison fil rouge par postes. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tableau du coût à neuf par postes de la maison de Mme Garnier",
+   "items": [
+    "Les deux valeurs du BT01 sont citées avec leur mois et leur date de parution",
+    "Le coefficient et le coût actualisé au m² sont justes",
+    "Les 9 postes sont chiffrés et leur somme redonne 212 800 €",
+    "La véranda est ajoutée à part et le total atteint 220 000 €",
+    "Les hypothèses et les valeurs fictives sont signalées"
+   ],
+   "caption": "Ton livrable : Tableau du coût à neuf par postes de la maison de Mme Garnier. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Barème de coût de construction 2026 par postes (part de chaque poste), actualisation par l'indice BT01",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 208.51
+}

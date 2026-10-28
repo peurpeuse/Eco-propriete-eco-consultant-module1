@@ -1,0 +1,200 @@
+{
+ "id": "2.12",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Maison : assainissement, carnet d'information, dossier complet",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Maison : assainissement, carnet d'information, dossier complet",
+   "caption": "Capsule 2.12. Maison : assainissement, carnet d'information, dossier complet",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Constituer le dossier de diagnostics complet d'une maison, en traitant l'assainissement non collectif (contrôle de moins de 3 ans, travaux dans l'année) et le carnet d'information du logement",
+   "caption": "À la fin de cette capsule : Constituer le dossier de diagnostics complet d'une maison, en traitant l'assainissement non collectif (contrôle de moins de 3 ans, travaux dans l'année) et le carnet d'information du logement",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Non : il faut un rapport de moins d'un an",
+   "pose": "sur-de-lui",
+   "scene": "Le rapport du SPANC de Mme Garnier date du 12/03/2025. L'acte est prévu en juin 2027. Est-il encore valable ?",
+   "caption": "Le rapport du SPANC de Mme Garnier date du 12/03/2025. L'acte est prévu en juin 2027. Est-il encore valable ? Mozi, lui, répondrait : « Non : il faut un rapport de moins d'un an »",
+   "dur": 13.622222222222222
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : la durée exigée est de 3 ans, pas d'un an."
+   ],
+   "caption": "Faux : la durée exigée est de 3 ans, pas d'un an.",
+   "dur": 5.844444444444443
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "La maison de Mme Garnier n'est pas raccordée au tout-à-l'égout.",
+    "Sébastien Paumier ouvre le rapport du SPANC du 12/03/2025 : non conforme, sans danger.",
+    "Règle : rapport de moins de 3 ans, travaux dans l'année qui suit la vente ; devis de 11 800 €.",
+    "Puis il assemble le dossier complet et dit quand le carnet d'information du logement est exigé."
+   ],
+   "caption": "La maison de Mme Garnier n'est pas raccordée au tout-à-l'égout. Sébastien Paumier ouvre le rapport du SPANC du 12/03/2025 : non conforme, sans danger. Règle : rapport de moins de 3 ans, travaux dans l'année qui suit la vente ; devis de 11 800 €. Puis il assemble le dossier complet et dit quand le carnet d'information du logement est exigé.",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Check-list de la maison",
+   "table": {
+    "headers": [
+     "Pièce",
+     "Condition",
+     "Validité",
+     "Mme Garnier"
+    ],
+    "rows": [
+     [
+      "DPE",
+      "Toujours",
+      "10 ans",
+      "M02 du 06/02/2024, jusqu'au 05/02/2034, classe G"
+     ],
+     [
+      "Audit énergétique",
+      "Classe E, F ou G",
+      "5 ans",
+      "M03 du 15/10/2026, jusqu'au 14/10/2031"
+     ],
+     [
+      "Amiante",
+      "Permis avant le 1/07/1997",
+      "Selon résultat",
+      "M09 : fibrociment du garage, liste B, état correct"
+     ],
+     [
+      "Électricité",
+      "Installation de plus de 15 ans",
+      "3 ans",
+      "M09 : 3 anomalies (dont 30 mA au sous-sol)"
+     ],
+     [
+      "Plomb",
+      "Avant le 1/01/1949",
+      "1 an ou illimité",
+      "Non concernée (1968)"
+     ]
+    ]
+   },
+   "caption": "Check-list de la maison. DPE : Toujours ; Audit énergétique : Classe E, F ou G ; Amiante : Permis avant le 1/07/1997",
+   "dur": 9.177777777777777
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Assainissement non collectif : la règle en 4 points",
+   "items": [
+    "Le vendeur fournit le rapport de contrôle du SPANC daté de moins de 3 ans, annexé à la promesse ; sinon il…",
+    "Non-conformité : les travaux sont faits par le vendeur avant la vente, ou par l'acquéreur au plus tard un an après l'acte.",
+    "L'acquéreur soumet son projet au SPANC avant les travaux ; le SPANC contrôle ensuite leur bonne exécution.",
+    "Le notaire adresse au SPANC, dans le mois qui suit l'acte, une attestation de la vente."
+   ],
+   "caption": "Assainissement non collectif : la règle en 4 points. Le vendeur fournit le rapport de contrôle du SPANC daté de moins de 3 ans, annexé à la promesse ; sinon il… Non-conformité : les travaux sont faits par le vendeur avant la vente, ou par l'acquéreur au plus tard un an après l'acte. L'acquéreur soumet son projet au SPANC avant les travaux ; le SPANC contrôle ensuite leur bonne exécution.…",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Carnet d'information du logement",
+   "items": [
+    "Concerne les logements construits (permis ou déclaration déposés depuis le 1/01/2023) ou rénovés avec des travaux ayant un effet sur la performance…",
+    "Travaux visés : isolation des toitures, murs, fenêtres, planchers ; installation ou remplacement du chauffage, du refroidissement, de l'eau chaude, de la…",
+    "Contenu : matériaux et équipements, notices, DPE et documents de performance, dates et descriptif des travaux.",
+    "Remis à l'acquéreur au plus tard à la signature de l'acte, qui en fait mention."
+   ],
+   "caption": "Carnet d'information du logement. Concerne les logements construits (permis ou déclaration déposés depuis le 1/01/2023) ou rénovés avec des travaux ayant un effet sur la performance… Travaux visés : isolation des toitures, murs, fenêtres, planchers ; installation ou remplacement du chauffage, du refroidissement, de l'eau chaude, de la… Contenu : matériaux et équipements, notices, DPE et documents de performance, dates et descriptif des travaux. Remis à l'acquéreur au plus tard…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire à la vendeuse",
+   "text": "« Votre rapport d'assainissement est valable jusqu'en mars 2028 : pas besoin de le refaire. Il dit que l'épandage doit être refait ; vous pouvez faire les travaux ou les laisser à l'acquéreur, qui aura un an après l'acte. Le devis de 11 800 € sera dans le dossier : c'est plus serein pour tout…",
+   "caption": "La phrase à dire à la vendeuse. « Votre rapport d'assainissement est valable jusqu'en mars 2028 : pas besoin de le refaire. Il dit que l'épandage doit être refait ; vous pouvez faire les travaux ou les laisser à l'acquéreur, qui aura un an après l'acte. Le devis de 11 800 € sera dans le dossier : c'est plus serein pour tout…",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "L'installation est « non conforme, sans danger pour la santé ». Qui fait les travaux, et quand ?",
+    "options": [
+     "Le vendeur, obligatoirement avant de signer",
+     "Personne : sans danger, il n'y a rien à faire",
+     "L'acquéreur, dans l'année qui suit l'acte, sauf si le vendeur les fait avant ; le prix peut en tenir compte"
+    ],
+    "answer": 2
+   },
+   "fb": "En cas de non-conformité, les travaux doivent être réalisés au plus tard un an après la signature de l'acte. Le vendeur peut les faire avant, ou les laisser à l'acquéreur, qui en tient compte dans son prix. Le notaire informe…",
+   "caption": "L'installation est « non conforme, sans danger pour la santé ». Qui fait les travaux, et quand ?",
+   "dur": 24.651851851851852
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Constituer le dossier de diagnostics de la maison fil rouge",
+   "steps": [
+    {
+     "label": "Remplis la check-list pièce par pièce avec la date de chaque document.",
+     "detail": ""
+    },
+    {
+     "label": "Compare chaque validité aux dates de promesse (mars 2027) et d'acte (juin 2027).",
+     "detail": ""
+    },
+    {
+     "label": "Liste ce qu'il faut refaire ou vérifier, avec la source à consulter.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige le paragraphe « assainissement » du dossier remis aux acquéreurs.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige pour Mme Garnier un message de 5 lignes, sans jargon.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Constituer le dossier de diagnostics de la maison fil rouge. 35 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Dossier de diagnostics de la maison de Mme Garnier",
+   "items": [
+    "Les 12 lignes de la check-list sont traitées avec date et fin de validité",
+    "La validité du SPANC (jusqu'au 11/03/2028) et la règle des travaux dans l'année sont justes",
+    "L'état des risques est prévu à moins de 6 mois de la promesse",
+    "Les points de zone non connus sont notés « à vérifier » avec la source",
+    "Le carnet d'information du logement est traité (non concerné, avec la raison)"
+   ],
+   "caption": "Ton livrable : Dossier de diagnostics de la maison de Mme Garnier. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Check-list diagnostics d'une maison (assainissement, termites, mérule, carnet d'information du logement)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 209.25
+}

@@ -1,0 +1,192 @@
+{
+ "id": "2.16",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Surface habitable, loi Boutin : la location",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Surface habitable, loi Boutin : la location",
+   "caption": "Capsule 2.16. Surface habitable, loi Boutin : la location",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Calculer la surface habitable d'un logement selon l'article R. 156-1 du CCH, la comparer à sa surface Carrez et expliquer l'écart à un vendeur ou à un bailleur",
+   "caption": "À la fin de cette capsule : Calculer la surface habitable d'un logement selon l'article R. 156-1 du CCH, la comparer à sa surface Carrez et expliquer l'écart à un vendeur ou à un bailleur",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Elle l'ajoute à la surface habitable du bail",
+   "pose": "presse",
+   "scene": "Claire prépare la mise en location d'un appartement doté d'une véranda fermée de 7 m², incluse dans le lot. Que fait-elle de la véranda ?",
+   "caption": "Claire prépare la mise en location d'un appartement doté d'une véranda fermée de 7 m², incluse dans le lot. Que fait-elle de la véranda ? Mozi, lui, répondrait : « Elle l'ajoute à la surface habitable du bail »",
+   "dur": 14.733333333333333
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : l'article R. 156-1 du CCH exclut expressément les vérandas de la surface habitable."
+   ],
+   "caption": "Faux : l'article R. 156-1 du CCH exclut expressément les vérandas de la surface habitable.",
+   "dur": 7.325925925925926
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier compare deux surfaces qui se ressemblent : la Carrez, qui sert à vendre un lot de copropriété, et la surface habitable, que la loi Boutin de 2009 impose dans le bail.",
+    "Même base de calcul, mais la véranda, les combles non aménagés ou le sous-sol changent tout.",
+    "Exemple : un rez-de-jardin à Melun avec véranda fermée."
+   ],
+   "caption": "Sébastien Paumier compare deux surfaces qui se ressemblent : la Carrez, qui sert à vendre un lot de copropriété, et la surface habitable, que la loi Boutin de 2009 impose dans le bail. Même base de calcul, mais la véranda, les combles non aménagés ou le sous-sol changent tout. Exemple : un rez-de-jardin à Melun avec véranda fermée.",
+   "dur": 23.25185185185185
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "La définition (art. R. 156-1 du CCH)",
+   "items": [
+    "Surface de plancher construite, après déduction des surfaces occupées par les murs, cloisons, marches et cages d'escaliers, gaines, embrasures de portes et…",
+    "Ne comptent pas : combles non aménagés, caves, sous-sols, remises, garages, terrasses, loggias, balcons, séchoirs extérieurs, vérandas, locaux communs et autres dépendances.",
+    "Ne comptent pas non plus : les parties de locaux d'une hauteur inférieure à 1,80 m."
+   ],
+   "caption": "La définition (art. R. 156-1 du CCH). Surface de plancher construite, après déduction des surfaces occupées par les murs, cloisons, marches et cages d'escaliers, gaines, embrasures de portes et… Ne comptent pas : combles non aménagés, caves, sous-sols, remises, garages, terrasses, loggias, balcons, séchoirs extérieurs, vérandas, locaux communs et autres dépendances. Ne comptent pas non plus : les parties de locaux d'une hauteur inférieure à 1,80 m.",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Carrez ou habitable : les différences utiles",
+   "table": {
+    "headers": [
+     "Point",
+     "Surface Carrez",
+     "Surface habitable"
+    ],
+    "rows": [
+     [
+      "Texte",
+      "Art. 46 loi 10/07/1965 ; art. 4-1 décret 17/03/1967",
+      "Art. R. 156-1 CCH ; art. 3 et 3-1 loi 06/07/1989"
+     ],
+     [
+      "À quoi elle sert",
+      "Vente d'un lot de copropriété",
+      "Bail d'habitation ; usage courant pour une maison"
+     ],
+     [
+      "Véranda close et couverte",
+      "Comptée",
+      "Exclue"
+     ],
+     [
+      "Combles, sous-sol clos de plus de 1,80 m",
+      "Comptés s'ils font partie du lot",
+      "Exclus s'ils ne sont pas aménagés en pièces"
+     ],
+     [
+      "Balcon, terrasse, loggia ouverte",
+      "Exclus",
+      "Exclus"
+     ]
+    ]
+   },
+   "caption": "Carrez ou habitable : les différences utiles. Texte : Art. 46 loi 10/07/1965 ; art. 4-1 décret 17/03/1967 ; À quoi elle sert : Vente d'un lot de copropriété ; Véranda close et couverte : Comptée",
+   "dur": 14.362962962962962
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Si le locataire conteste la surface (art. 3-1 de la loi du 6 juillet 1989)",
+   "items": [
+    "Le locataire fait mesurer et adresse une demande de diminution au bailleur.",
+    "Si l'écart dépasse un vingtième, le loyer baisse en proportion de l'écart.",
+    "Demande faite plus de six mois après la prise d'effet du bail : la baisse court à partir de la demande.",
+    "Pas d'accord ou pas de réponse du bailleur dans les deux mois : le juge peut être saisi dans les quatre mois…"
+   ],
+   "caption": "Si le locataire conteste la surface (art. 3-1 de la loi du 6 juillet 1989). Le locataire fait mesurer et adresse une demande de diminution au bailleur. Si l'écart dépasse un vingtième, le loyer baisse en proportion de l'écart. Demande faite plus de six mois après la prise d'effet du bail : la baisse court à partir de la demande. Pas d'accord ou pas de réponse du bailleur dans les…",
+   "dur": 28.807407407407403
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Exemple : rez-de-jardin à Melun (fictif)",
+   "text": "Séjour 23 + cuisine 8 + chambre 11 + chambre 10 + salle de bains 5 + WC 1,5 + entrée 4,5 = 63,0 m² habitables. Véranda fermée de 7 m² comprise dans le lot : Carrez = 63,0 + 7,0 = 70,0 m². Cave de 6 m² : exclue des deux. Écart Carrez −…",
+   "caption": "Exemple : rez-de-jardin à Melun (fictif). Séjour 23 + cuisine 8 + chambre 11 + chambre 10 + salle de bains 5 + WC 1,5 + entrée 4,5 = 63,0 m² habitables. Véranda fermée de 7 m² comprise dans le lot : Carrez = 63,0 + 7,0 = 70,0 m². Cave de 6 m² : exclue des deux. Écart Carrez −…",
+   "dur": 21.77037037037037
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Un bail indique 63 m². Le locataire fait mesurer 59 m². Que prévoit l'article 3-1 de la loi du 6 juillet 1989 ?",
+    "options": [
+     "Une diminution du loyer proportionnelle à l'écart, car la surface est inférieure de plus d'un vingtième",
+     "Rien, l'écart est inférieur à 10 %",
+     "La résiliation immédiate du bail"
+    ],
+    "answer": 0
+   },
+   "fb": "Écart 4 m² sur 63 m² (6,3 %). Le loyer baisse de 4 ÷ 63. Si le locataire le demande plus de six mois après la prise d'effet du bail, la baisse s'applique à partir de sa demande. Faute d'accord…",
+   "caption": "Un bail indique 63 m². Le locataire fait mesurer 59 m². Que prévoit l'article 3-1 de la loi du 6 juillet 1989 ?",
+   "dur": 27.244444444444444
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Surface habitable et surface Carrez d'un même logement",
+   "steps": [
+    {
+     "label": "Cas 1 : additionne les pièces de M. Bernard et vérifie que tu retrouves 76,0 m².",
+     "detail": ""
+    },
+    {
+     "label": "Cas 1 : dis ce qui est exclu des deux surfaces (balcon, cave, parking) et pourquoi les deux…",
+     "detail": ""
+    },
+    {
+     "label": "Cas 2 : calcule la surface habitable puis la surface Carrez.",
+     "detail": ""
+    },
+    {
+     "label": "Cas 2 : explique l'écart en une phrase en citant l'article R. 156-1 du CCH.",
+     "detail": ""
+    },
+    {
+     "label": "Cas 2 : calcule l'écart en % si le bail indiquait la surface Carrez, et dis ce que…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Surface habitable et surface Carrez d'un même logement. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tableau comparatif surface habitable / Carrez",
+   "items": [
+    "Les 76,0 m² de M. Bernard sont retrouvés par l'addition des pièces",
+    "Les exclusions (balcon, cave, parking, véranda) sont justifiées par le bon texte",
+    "Le cas 2 donne 63,0 m² habitables et 70,0 m² Carrez",
+    "Le risque d'un bail à 70 m² est chiffré (écart de 10 %, au-delà du vingtième)",
+    "La réponse à l'investisseur nomme chaque surface sans les confondre"
+   ],
+   "caption": "Ton livrable : Tableau comparatif surface habitable / Carrez. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche surface habitable (loi Boutin) : définition, exclusions, mention dans le bail",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 215.07
+}

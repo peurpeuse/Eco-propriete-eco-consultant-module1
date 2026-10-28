@@ -1,0 +1,199 @@
+{
+ "id": "2.2",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "La fiche découverte vendeur",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 2.2 : la fiche découverte vendeur",
+   "caption": "Bienvenue. Avant d'estimer un bien, tu écris noir sur blanc ce que veut son vendeur : c'est la fiche découverte.",
+   "cta": "Commencer",
+   "dur": 9.18
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi la fiche découverte passe avant le prix"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "remplir la fiche de M. Bernard à partir de son dossier et de l'entretien"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ta fiche découverte remplie en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Pas besoin de questions : je sens le prix rien qu'au paillasson !",
+   "caption": "Pas besoin de questions : je sens le prix rien qu'au paillasson !",
+   "line": "Pas besoin de questions : je sens le prix rien qu'au paillasson !",
+   "scene": "Mozi renifle le paillasson de M. Bernard et colle un post-it « Prix : beaucoup » sur la porte, sans avoir sonné.",
+   "pose": "telephone",
+   "dur": 5.84
+  },
+  {
+   "kind": "belief",
+   "title": "0 question, 1 paillasson, 1 prix",
+   "caption": "Zéro question. Un paillasson. Un prix.",
+   "beats": [
+    "0 question",
+    "1 paillasson",
+    "1 prix"
+   ],
+   "wrong": 0,
+   "why": "Sans questions, personne ne voit venir l'appel de fonds de 8 970 €.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "8 970 € au 1er janvier 2027. Personne ne l'a vu venir.",
+   "caption": "Sans question, personne ne voit l'appel de fonds du ravalement : 8 970 euros au 1er janvier 2027. En principe, c'est le vendeur, encore copropriétaire à cette date, qui le paie.",
+   "lines": [
+    "1er janvier 2027 : appel de fonds de 8 970 €.",
+    "Personne ne l'avait demandé. Personne ne l'a prévu."
+   ],
+   "dur": 13.25
+  },
+  {
+   "kind": "stat",
+   "title": "33 000 € d'écart",
+   "caption": "Trente-trois mille euros. C'est l'écart entre ce qu'espère M. Bernard et ce qu'on lui a annoncé. Ton travail commence par une question : d'où vient chacun de ces chiffres ?",
+   "value": "33 000 €",
+   "label": "d'écart entre le prix espéré (205 000 €) et le prix annoncé par deux agences (172 000 €) : calcul du dossier de M. Bernard",
+   "dur": 13.99
+  },
+  {
+   "kind": "steps",
+   "title": "Motif et délai → Prix → Contraintes",
+   "caption": "Trois blocs, dans cet ordre. D'abord, le motif et le délai, avant le prix. M. Bernard veut se rapprocher de sa fille à Nantes et avoir vendu avant l'été 2027. Creuse : « Et en septembre 2027, ce serait un problème ? » « À trois mois près, non. » Pas d'urgence, donc aucune raison de brader. Ensuite, le prix et son origine. Tu ne commentes pas. Tu lui demandes sur quoi il se base pour 205 000, et ce qu'on lui a montré pour justifier 172 000. Tu notes l'écart, tu ne tranches pas. Enfin, les contraintes. Qui décide ? Il est seul propriétaire. La copropriété ? Le ravalement est voté : 35 880 euros pour son lot, en quatre appels de 8 970 euros. La fiscalité ? C'est sa résidence principale : plus-value exonérée en principe, le notaire confirmera. On y revient en 2.3.",
+   "steps": [
+    {
+     "label": "Motif et délai",
+     "detail": "Nantes, avant l'été 2027, souple à trois mois : pas d'urgence."
+    },
+    {
+     "label": "Prix et origine",
+     "detail": "205 000 € espérés, 172 000 € annoncés : on demande les preuves, on ne tranche pas."
+    },
+    {
+     "label": "Contraintes",
+     "detail": "Seul propriétaire ; ITE votée, 4 appels de 8 970 € ; plus-value à confirmer par le notaire (voir 2.3)."
+    }
+   ],
+   "dur": 54.36
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Maxime a M. Bernard au bout du fil. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Maxime débute. Au téléphone, M. Bernard lui dit : « Deux agences m'ont annoncé 172 000 €. » Quelles sont ses premières questions ?",
+   "model_answer": "Je ne commente pas le chiffre. Je demande d'abord son projet et son délai : pourquoi il vend, pour quand. Puis : « Qu'est-ce qu'on vous a montré pour justifier 172 000 ? » et « Sur quoi vous basez-vous pour 205 000 ? » Je note l'écart, sans trancher.",
+   "dur": 27.19
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "On découvre le projet, le délai et les contraintes du vendeur avant de parler prix",
+     "Il faut annoncer un prix dès la première minute pour garder la main",
+     "Aucune : un agent expérimenté peut estimer sans poser de questions"
+    ],
+    "answer": 0,
+    "feedback": "Une estimation sans projet, c'est un chiffre hors-sol. Le prix de mise en vente, le délai, la stratégie et la question des travaux dépendent de ce que veut le vendeur.",
+    "whys": [
+     "Exact : le projet passe avant le prix. Sans lui, Mozi rate le délai, l'appel de fonds et les attentes de M. Bernard.",
+     "Faux : un prix lancé tôt fait de toi la troisième agence, et un profil C rejette les chiffres sans preuve.",
+     "Faux : l'expérience ne remplace pas les faits. Ni le paillasson ni le flair ne disent qu'un appel de 8 970 € arrive en janvier."
+    ]
+   },
+   "card2": {
+    "question": "Si Claire envoyait à M. Bernard une synthèse de cinq lignes sous 48 heures, que se passerait-il ?",
+    "answer": "M. Bernard confirmerait ou corrigerait par écrit son projet, son délai, son prix espéré, l'appel de fonds de janvier et ses attentes. Pour un profil C, c'est la preuve qu'elle a écouté, et la base écrite de l'estimation, de la stratégie et du mandat."
+   },
+   "fb": "Une estimation sans projet, c'est un chiffre hors-sol. Le prix de mise en vente, le délai, la stratégie et la question des travaux dépendent de ce que veut le vendeur.",
+   "dur": 19.1
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : un projet clair, validé par écrit. Le questionnaire projet, vu en 2.1, et la fiche découverte.",
+   "goal": "Un projet clair, validé par écrit",
+   "tools": [
+    {
+     "name": "Questionnaire projet (2.1)",
+     "role": "Préparer et conduire l'entretien, dans le bon ordre"
+    },
+    {
+     "name": "Fiche découverte D01",
+     "role": "Écrire, faire valider et garder la trace"
+    }
+   ],
+   "dur": 9.55
+  },
+  {
+   "kind": "demo",
+   "title": "Questionnaire : envoyer, ouvrir, reformuler",
+   "caption": "La veille, tu envoies le questionnaire : M. Bernard aime préparer. Le jour J, tu ouvres par le projet, jamais par le prix. Une question à la fois, tu notes ses mots. Puis tu reformules : « Avant l'été 2027, souple à trois mois, c'est bien ça ? »",
+   "steps": [
+    "La veille : l'envoyer par e-mail (un profil C aime préparer)",
+    "Ouvrir par le projet : « Parlez-moi de votre projet »",
+    "Une question à la fois : noter ses mots exacts",
+    "Reformuler et faire valider : « Si je résume… c'est bien ça ? »"
+   ],
+   "tool": "Questionnaire projet",
+   "dur": 18.44
+  },
+  {
+   "kind": "demo",
+   "title": "Fiche D01 : remplir, trier, synthétiser",
+   "caption": "Sur la fiche, six rubriques, avec ses mots. Son prix plancher ? Il le donnera après ton estimation : tu le notes tel quel. Sa pension, son médecin : tu ne les gardes pas. Et sous quarante-huit heures, cinq lignes de synthèse à lui faire confirmer.",
+   "steps": [
+    "Remplir les 6 rubriques avec au moins une citation du vendeur",
+    "Prix plancher : « après votre estimation », noté tel quel",
+    "Barrer pension et médecin : minimisation des données",
+    "Sous 48 h : synthèse de 5 lignes à faire confirmer"
+   ],
+   "tool": "Fiche découverte D01",
+   "dur": 17.7
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Remplis la fiche de M. Bernard : son dossier et l'entretien t'attendent.",
+   "cta": "Ouvrir l'exercice : dossier et entretien",
+   "dur": 6.21
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ta fiche découverte.",
+   "ask": "Dépose une capture ou une photo de la fiche découverte de M. Bernard remplie à partir de son dossier et de l'entretien : les 6 rubriques, au moins une citation par rubrique, et la synthèse de 5 lignes.",
+   "dur": 3.5
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Là où deux agences ont lancé un chiffre, toi, tu as posé les bonnes questions.",
+   "status": "Ta fiche : 6 rubriques et une synthèse à valider. Les deux autres agences : un chiffre, sans calcul montré.",
+   "dur": 7.33
+  }
+ ],
+ "total": 217.26
+}

@@ -1,0 +1,200 @@
+{
+ "id": "3.23",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Le parcours des acquéreurs, argument de prise de mandat",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.23 : le parcours des acquéreurs",
+   "caption": "Bienvenue. Pour convaincre M. Bernard, tu vas lui montrer son futur acquéreur : ce qu'il paiera, et ce qu'il faudra vérifier.",
+   "cta": "Commencer",
+   "dur": 9.55
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre le parcours de l'acquéreur, appliquer la fiche de projection, puis prouver avec ta fiche remplie.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce qu'un acquéreur paiera vraiment, et la règle des 35 % qui filtre les dossiers"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "remplir la fiche de projection de l'appartement de M. Bernard, sans jamais promettre un prêt ni une aide"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ta fiche remplie et la phrase que tu dis au vendeur"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 8.44
+  },
+  {
+   "kind": "mozi",
+   "title": "Votre futur acheteur ? 600 € par mois, aides comprises, prêt déjà accordé : je l'ai lu dans le marc de café !",
+   "caption": "Votre futur acheteur ? 600 euros par mois, aides comprises, prêt déjà accordé : je l'ai lu dans le marc de café !",
+   "line": "Votre futur acheteur ? 600 € par mois, aides comprises, prêt déjà accordé : je l'ai lu dans le marc de café !",
+   "scene": "Mozi fixe le fond d'une tasse de café vide dans la cuisine de M. Bernard ; sur la nappe, un calcul griffonné puis barré.",
+   "pose": "presente",
+   "dur": 9.18
+  },
+  {
+   "kind": "belief",
+   "title": "189 000 €, 16 500 € de travaux, prêt accordé et aides acquises",
+   "caption": "Prix : 189 000 euros. Travaux chiffrés : 16 500 euros. Prêt accordé, aides acquises. Où est l'erreur ?",
+   "beats": [
+    "Prix : 189 000 € FAI",
+    "Travaux chiffrés : 16 500 €",
+    "Prêt accordé, aides acquises"
+   ],
+   "wrong": 2,
+   "why": "Une mensualité calculée par l'agent n'est pas une offre de prêt, et une aide n'est acquise qu'après décision de l'organisme.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Mensualité rêvée, vente tombée",
+   "caption": "L'acquéreur signe sur une mensualité rêvée. La banque refuse le prêt. La condition suspensive joue : le compromis tombe, le dépôt est rendu. Et M. Bernard a perdu des semaines.",
+   "lines": [
+    "Prêt refusé : la condition suspensive joue, la vente tombe.",
+    "Sommes versées rendues, semaines perdues pour le vendeur."
+   ],
+   "dur": 12.51
+  },
+  {
+   "kind": "stat",
+   "title": "35 % : le plafond du taux d'effort",
+   "caption": "Trente-cinq pour cent. C'est le plafond du taux d'effort fixé par le Haut Conseil de stabilité financière, assurance comprise, sur 25 ans au plus. Au-delà, la plupart des dossiers ne passent pas.",
+   "value": "35 %",
+   "label": "taux d'effort maximal, assurance emprunteur comprise, avec une durée de crédit de 25 ans au plus (marge de flexibilité de 20 % de la production trimestrielle)",
+   "dur": 14.73
+  },
+  {
+   "kind": "steps",
+   "title": "Coût complet → Aides possibles → Mensualité indicative",
+   "caption": "Trois lignes sur la fiche. Un : le coût complet. Prix : 189 000 euros. Frais de notaire : environ 13 700. Travaux privatifs : 16 500. Garantie : environ 2 000. Total : environ 221 200 euros. À part, la quote-part des travaux de façade votés : 35 880 euros, répartition à régler chez le notaire. Deux : les aides possibles. Éco-prêt à taux zéro, MaPrimeRénov', certificats d'économies d'énergie : selon les revenus et les conditions. Possibles, jamais acquises. Trois : la mensualité indicative. Avec 22 000 euros d'apport, sur 25 ans à 3,55 % : environ 1 050 euros par mois, assurance comprise. Il faut donc environ 3 000 euros de revenus nets pour rester sous 35 %. C'est une hypothèse, pas une offre de prêt : le courtier vérifie.",
+   "steps": [
+    {
+     "label": "Coût complet",
+     "detail": "189 000 € FAI + ≈ 13 700 € de notaire + 16 500 € de travaux + ≈ 2 000 € de garantie ≈ 221 200 € ; à part : quote-part ITE de 35 880 €."
+    },
+    {
+     "label": "Aides possibles",
+     "detail": "Éco-PTZ, MaPrimeRénov', CEE : selon revenus et conditions, à vérifier sur France Rénov' ; jamais présentées comme acquises."
+    },
+    {
+     "label": "Mensualité indicative",
+     "detail": "Apport 22 000 €, prêt ≈ 199 200 € sur 25 ans à 3,55 % : ≈ 1 053 €/mois assurance comprise, soit ≈ 3 010 € de revenus nets pour 35 %. Hypothèse, pas une offre."
+    }
+   ],
+   "dur": 47.7
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "M. Bernard demande à Sarah pourquoi elle lui parle des acquéreurs, alors que c'est lui qui vend. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Rendez-vous de mandat. M. Bernard, factuel, s'étonne : « Pourquoi me parler de mes acheteurs ? C'est moi qui vends. » Que lui répond Sarah, en deux ou trois phrases ?",
+   "model_answer": "Parce qu'un acheteur qui ne peut pas financer fait perdre des semaines. Cette fiche montre ce que votre acquéreur paiera vraiment, environ 221 000 € avec les travaux, et le revenu qu'il lui faut pour rester sous 35 %. Je ne fais visiter qu'après vérification du financement par un courtier ou sa banque : c'est ma stratégie de commercialisation, et c'est écrit.",
+   "dur": 36.44
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Une mensualité calculée par l'agent engage la banque dès qu'elle reste sous 35 %",
+     "Les aides à la rénovation sont automatiques pour les primo-accédants : on peut les déduire du prix",
+     "Une mensualité indicative n'est jamais une offre de financement, et une aide n'est acquise qu'après décision écrite"
+    ],
+    "answer": 2,
+    "feedback": "L'agent projette, il ne finance pas. La mensualité est une hypothèse que le courtier ou la banque vérifie ; les aides dépendent des revenus et des conditions de chaque ménage, et ne sont acquises qu'après décision.",
+    "whys": [
+     "Faux : seule la banque émet une offre de prêt ; le seuil de 35 % est un plafond, pas une garantie d'accord.",
+     "Faux : les aides dépendent des revenus et des travaux de chaque ménage ; on ne les déduit jamais du prix.",
+     "Exact : sur la fiche, on écrit « mensualité indicative » et « aides possibles, à vérifier », jamais « accordé »."
+    ]
+   },
+   "card2": {
+    "question": "Si l'acquéreur empruntait aussi la quote-part des travaux de façade, 35 880 €, dans le même prêt, que se passerait-il ?",
+    "answer": "Le prêt passerait à environ 235 100 € : ≈ 1 240 € par mois assurance comprise, donc environ 3 550 € de revenus nets pour rester sous 35 %. Le courtier dira quelle solution tient : un seul prêt, un prêt travaux à part, ou un éco-prêt à taux zéro si le ménage y est éligible."
+   },
+   "fb": "L'agent projette, il ne finance pas. La mensualité est une hypothèse que le courtier ou la banque vérifie ; les aides dépendent des revenus et des conditions de chaque ménage, et ne sont acquises qu'après décision.",
+   "dur": 20.95
+  },
+  {
+   "kind": "tools",
+   "title": "Deux gestes, un seul but",
+   "caption": "Deux gestes, un seul but : prouver à M. Bernard que tu sais à qui vendre. La fiche de projection, puis sa présentation au vendeur.",
+   "goal": "Prouver au vendeur que tu sais à qui vendre, et à quelles conditions",
+   "tools": [
+    {
+     "name": "Fiche de projection acquéreur",
+     "role": "Coût complet, aides possibles, mensualité indicative, points à vérifier"
+    },
+    {
+     "name": "Présentation au vendeur",
+     "role": "Relier la fiche à la stratégie de commercialisation"
+    }
+   ],
+   "dur": 10.29
+  },
+  {
+   "kind": "demo",
+   "title": "La fiche, ligne par ligne",
+   "caption": "La fiche, ligne par ligne. Prix et frais : environ 202 700 euros. Travaux : 16 500, devis à l'appui. Façade : 35 880, en quatre appels en 2027. Aides : possibles, à vérifier. Mensualité : environ 1 053 euros, indicative.",
+   "steps": [
+    "Prix et frais : 189 000 € + ≈ 13 700 € de notaire",
+    "Travaux privatifs : 16 500 €, devis D13 à l'appui",
+    "Façade votée : 35 880 €, 4 appels de 8 970 € en 2027",
+    "Aides : possibles, à vérifier, jamais acquises",
+    "Mensualité : ≈ 1 053 €, indicative, à faire vérifier"
+   ],
+   "tool": "Fiche de projection acquéreur",
+   "dur": 15.1
+  },
+  {
+   "kind": "demo",
+   "title": "La présentation à M. Bernard",
+   "caption": "Puis tu la présentes à M. Bernard. Le coût complet de son acquéreur. Le revenu nécessaire. Ce que vérifie le courtier : apport, revenus, crédits en cours, financement de la façade. Et ton engagement : visites après vérification du financement.",
+   "steps": [
+    "Coût complet : ≈ 221 200 €, façade à part",
+    "Revenu nécessaire : ≈ 3 010 € nets pour 35 %",
+    "Courtier : apport, revenus, crédits en cours, façade",
+    "Engagement : visites après vérification du financement"
+   ],
+   "tool": "Présentation au vendeur",
+   "dur": 15.47
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Remplis la fiche de projection de M. Bernard.",
+   "cta": "Ouvrir l'exercice",
+   "dur": 4.36
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ta fiche de projection remplie.",
+   "ask": "Dépose une capture de ta fiche remplie : prix et frais, travaux et ordre de grandeur, aides possibles, mensualité indicative, points à faire vérifier par un courtier, et la phrase que tu dis à M. Bernard.",
+   "dur": 3.99
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. M. Bernard sait qui peut acheter son appartement, et à quelles conditions. Ça, c'est un argument de mandat.",
+   "status": "Ta fiche : coût complet, revenu nécessaire, 4 points pour le courtier. Celle de Mozi : 600 € lus dans une tasse.",
+   "dur": 8.81
+  }
+ ],
+ "total": 225.52
+}

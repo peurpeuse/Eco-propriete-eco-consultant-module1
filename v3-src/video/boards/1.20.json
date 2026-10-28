@@ -1,0 +1,189 @@
+{
+ "id": "1.20",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Visibilité physique (carte, flyer, boîtage, signalétique)",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Visibilité physique (carte, flyer, boîtage, signalétique)",
+   "caption": "Capsule 1.20. Visibilité physique (carte, flyer, boîtage, signalétique)",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Concevoir une carte de visite ou un flyer conforme (mentions professionnelles, message clé, QR code testé vers une page avec consentement) et planifier un boîtage qui respecte le Stop Pub",
+   "caption": "À la fin de cette capsule : Concevoir une carte de visite ou un flyer conforme (mentions professionnelles, message clé, QR code testé vers une page avec consentement) et planifier un boîtage qui respecte le Stop Pub",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Seulement le logo et le numéro de téléphone",
+   "pose": "clin-oeil",
+   "scene": "Quelles mentions doivent figurer sur un document professionnel d'agent immobilier (carte, flyer, courrier) ?",
+   "caption": "Quelles mentions doivent figurer sur un document professionnel d'agent immobilier (carte, flyer, courrier) ? Mozi, lui, répondrait : « Seulement le logo et le numéro de téléphone »",
+   "dur": 9.548148148148147
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Insuffisant : l'article 92 du décret n° 72-678 impose des mentions professionnelles sur tous les documents à usage professionnel."
+   ],
+   "caption": "Insuffisant : l'article 92 du décret n° 72-678 impose des mentions professionnelles sur tous les documents à usage professionnel.",
+   "dur": 8.807407407407407
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Une carte, un flyer, un panneau : ce que le propriétaire garde dans sa main ou voit dans sa rue.",
+    "Sébastien Paumier montre les mentions obligatoires d'un document d'agent, le message clé repris à l'identique, le QR code qui mène à une page utile et mesurable, et un boîtage ciblé qui respecte l'autocollant Stop…"
+   ],
+   "caption": "Une carte, un flyer, un panneau : ce que le propriétaire garde dans sa main ou voit dans sa rue. Sébastien Paumier montre les mentions obligatoires d'un document d'agent, le message clé repris à l'identique, le QR code qui mène à une page utile et mesurable, et un boîtage ciblé qui respecte l'autocollant Stop Pub.",
+   "dur": 22.88148148148148
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Mentions professionnelles à faire figurer (décret n° 72-678, art. 92)",
+   "items": [
+    "Numéro et lieu de délivrance de la carte professionnelle.",
+    "Nom ou raison sociale et adresse de l'entreprise, activité exercée.",
+    "Le cas échéant, nom et adresse du garant.",
+    "Agent commercial ou collaborateur : mentions propres à ton statut et à ton mandant (à vérifier avec ton réseau).",
+    "Sur un support qui présente un bien à vendre : mentions DPE, copropriété et honoraires de l'annonce."
+   ],
+   "caption": "Mentions professionnelles à faire figurer (décret n° 72-678, art. 92). Numéro et lieu de délivrance de la carte professionnelle. Nom ou raison sociale et adresse de l'entreprise, activité exercée. Le cas échéant, nom et adresse du garant. Agent commercial ou collaborateur : mentions propres à ton statut et à ton mandant (à vérifier avec ton réseau). Sur un support qui présente un bien à vendre : mentions DPE, copropriété et…",
+   "dur": 27.325925925925922
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les gabarits",
+   "table": {
+    "headers": [
+     "Support",
+     "Recto",
+     "Verso ou détail"
+    ],
+    "rows": [
+     [
+      "Carte de visite (85 × 55 mm)",
+      "Nom, photo, « Éco-Consultant », message clé",
+      "Téléphone, e-mail, QR code vers ta page, mentions professionnelles"
+     ],
+     [
+      "Flyer A5",
+      "Accroche ciblée (« Votre DPE électrique date d'avant 2026 ? »), 3…",
+      "Ta méthode en 3 verbes, une preuve vérifiable, mentions professionnelles"
+     ],
+     [
+      "Boîtage",
+      "Flyer A5 ou carte postale, rues choisies selon ta cible",
+      "Feuille de route : rues, date, nombre déposé, boîtes Stop Pub sautées"
+     ],
+     [
+      "Signalétique",
+      "Panneau « À vendre » ou vitrophanie, avec accord écrit du vendeur",
+      "Règlement local de publicité de la commune à vérifier en mairie"
+     ]
+    ]
+   },
+   "caption": "Les gabarits. Carte de visite (85 × 55 mm) : Nom, photo, « Éco-Consultant », message clé ; Flyer A5 : Accroche ciblée (« Votre DPE électrique date d'avant 2026 ? »), 3 lignes de bénéfice, QR code ; Boîtage : Flyer A5 ou carte postale, rues choisies selon ta cible",
+   "dur": 16.955555555555556
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Créer un QR code utile",
+   "items": [
+    "Crée une page dédiée à l'offre du support (pas ta page d'accueil).",
+    "Ajoute au lien un paramètre de suivi propre au support (exemple : ?source=flyer-oct).",
+    "Génère le QR code, taille minimale lisible à l'impression (environ 2 cm de côté, à tester).",
+    "Teste-le sur deux téléphones différents avant d'imprimer.",
+    "Sur la page : formulaire avec information RGPD et case de consentement non cochée nommant ton agence, l'objet et la durée (12…"
+   ],
+   "caption": "Créer un QR code utile. Crée une page dédiée à l'offre du support (pas ta page d'accueil). Ajoute au lien un paramètre de suivi propre au support (exemple : ?source=flyer-oct). Génère le QR code, taille minimale lisible à l'impression (environ 2 cm de côté, à tester). Teste-le sur deux téléphones différents avant d'imprimer. Sur la page : formulaire avec information RGPD et case de consentement non cochée nommant ton agence…",
+   "dur": 29.177777777777774
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "Exemple de flyer (fictif)",
+   "text": "Recto : « Votre logement est chauffé à l'électricité et votre DPE date d'avant 2026 ? Sa classe a peut-être changé. Je vérifie avec vous l'étiquette à jour, gratuitement et sans engagement, avant de parler prix. » QR code « Vérifions votre DPE ». Verso : « Vendre votre logement ancien au juste prix …",
+   "caption": "Exemple de flyer (fictif). Recto : « Votre logement est chauffé à l'électricité et votre DPE date d'avant 2026 ? Sa classe a peut-être changé. Je vérifie avec vous l'étiquette à jour, gratuitement et sans engagement, avant de parler prix. » QR code « Vérifions votre DPE ». Verso : « Vendre votre logement ancien au juste prix …",
+   "dur": 21.4
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Une boîte aux lettres porte un autocollant « Stop Pub ». Que fais-tu de ton flyer ?",
+    "options": [
+     "Tu ne le déposes pas : le Stop Pub s'applique partout en France depuis la fin de l'expérimentation Oui Pub le 1/05/2025",
+     "Tu le déposes : un flyer d'agent immobilier n'est pas de la publicité",
+     "Tu le déposes plié dans le journal gratuit"
+    ],
+    "answer": 0
+   },
+   "fb": "Depuis le 1/05/2025, fin de l'expérimentation Oui Pub, le Stop Pub s'applique partout. Ton boîtage cible les rues qui correspondent à ta cible et saute chaque boîte qui affiche un refus. Pour aller plus loin auprès d'une personne précise, tu…",
+   "caption": "Une boîte aux lettres porte un autocollant « Stop Pub ». Que fais-tu de ton flyer ?",
+   "dur": 25.02222222222222
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Concevoir un support physique avec son QR code",
+   "steps": [
+    {
+     "label": "Choisis ton support (carte ou flyer A5) selon ton canal prioritaire.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige le recto : accroche ciblée et message clé, sans promesse.",
+     "detail": ""
+    },
+    {
+     "label": "Rédige le verso : méthode en 3 verbes, une preuve vérifiable, mentions professionnelles complètes.",
+     "detail": ""
+    },
+    {
+     "label": "Crée la page de destination et son formulaire (information RGPD, case non cochée), puis le QR code avec…",
+     "detail": ""
+    },
+    {
+     "label": "Teste le QR code sur deux téléphones et fais relire le support par une personne extérieure.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Concevoir un support physique avec son QR code. 40 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Mon support physique et son QR code",
+   "items": [
+    "Mentions professionnelles complètes (carte, raison sociale, adresse, activité, garant le cas échéant)",
+    "Message clé identique aux autres supports, sans promesse de prix, de classe, de délai ou d'aide",
+    "QR code testé, menant à une page dédiée avec un paramètre de suivi",
+    "Formulaire avec information RGPD et case de consentement non cochée (agence, objet, durée)",
+    "Boîtage prévu dans le respect du Stop Pub"
+   ],
+   "caption": "Ton livrable : Mon support physique et son QR code. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèles de carte de visite, flyer, boîtage et QR code",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 210.63
+}

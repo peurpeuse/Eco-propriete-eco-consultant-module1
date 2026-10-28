@@ -1,0 +1,199 @@
+{
+ "id": "2.19",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Audit 360° : repérer les pathologies",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 2.19 : repérer les pathologies",
+   "caption": "Bienvenue. Dans ce chapitre, tu repères les pathologies d'un logement, et tu les vois avant l'acheteur.",
+   "cta": "Commencer",
+   "dur": 8.07
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi un défaut caché expose, et un défaut expliqué rassure"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "lire chaque pathologie en 4 temps : humidité, fissures, toiture"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ta grille d'audit remplie sur photos"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Un coup de rouleau, et l'auréole n'a jamais existé !",
+   "caption": "Un coup de rouleau, et l'auréole n'a jamais existé !",
+   "line": "Un coup de rouleau, et l'auréole n'a jamais existé !",
+   "scene": "Mozi repeint le plafond de la cuisine en pleine visite, l'acheteur juste derrière lui.",
+   "pose": "telephone",
+   "dur": 5.47
+  },
+  {
+   "kind": "belief",
+   "title": "1 auréole, 1 coup de rouleau, 0 question",
+   "caption": "Une auréole, un coup de rouleau, zéro question.",
+   "beats": [
+    "1 auréole",
+    "1 coup de rouleau",
+    "0 question"
+   ],
+   "wrong": 1,
+   "why": "Cacher l'auréole exprès, c'est un dol : la vente devient annulable.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Défaut caché. Vente attaquable.",
+   "caption": "Sauf que repeindre pour cacher, c'est dissimuler. Si l'information était déterminante pour l'acheteur, c'est un dol. Et la vente peut être annulée.",
+   "lines": [
+    "Cacher exprès une information déterminante : c'est un dol.",
+    "Un dol rend la vente annulable."
+   ],
+   "dur": 11.03
+  },
+  {
+   "kind": "stat",
+   "title": "Permis avant juillet 1997 : on ne gratte rien",
+   "caption": "Un repère à retenir : 1997. Si le permis de construire date d'avant juillet 1997, la vente exige un repérage amiante. Les Tilleuls datent de 1972 : tu ne perces rien, tu ne grattes rien.",
+   "value": 1997,
+   "label": "permis de construire délivré avant le 1er juillet 1997 : état amiante obligatoire à la vente",
+   "dur": 13.99
+  },
+  {
+   "kind": "steps",
+   "title": "Ordre 360° → Lecture en 4 temps → Renvoi",
+   "caption": "Trois idées. D'abord, un ordre de visite, toujours le même. Dehors, les parties communes, puis chaque pièce, du sol au plafond. Ensuite les fenêtres, la ventilation, le chauffage, l'eau chaude, l'électricité. Et enfin les documents. Deuxième idée : une pathologie se lit en quatre temps. Le symptôme, la cause, une hypothèse écrite, et une décision. Tu fais un constat visuel, pas un diagnostic. Tu écris « cause probable », jamais « aucun risque ». Troisième idée : savoir t'arrêter. Une fissure qui s'élargit ou touche un mur porteur : expert bâtiment. Une tache humide qui s'étend : plombier et assurance. La façade, le balcon, la toiture : le syndic. Si tu ne sais pas, tu renvoies.",
+   "steps": [
+    {
+     "label": "Ordre 360°",
+     "detail": "Dehors, parties communes, pièces du sol au plafond, équipements, documents."
+    },
+    {
+     "label": "4 temps",
+     "detail": "Symptôme, cause, hypothèse écrite, décision : traiter, surveiller ou renvoyer."
+    },
+    {
+     "label": "Renvoi",
+     "detail": "Structure : expert. Eau active : plombier. Parties communes : syndic."
+    }
+   ],
+   "dur": 43.25
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Claire visite un T3. Traces noires au plafond de la salle de bains, grille d'aération à moitié bouchée. Le vendeur lui dit : « Ce n'est rien. » Que note-t-elle dans sa grille ?",
+   "model_answer": "Constat visuel du jour : traces noires au plafond et dans les angles, grille d'extraction en partie obstruée. Cause probable : ventilation insuffisante. Gravité moyenne. Action : débouchage, chiffrage d'une ventilation, photo datée. Jamais « ce n'est rien ».",
+   "dur": 28.3
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Un désordre visible se décrit et se prouve, il ne se cache pas",
+     "Repeindre un plafond est interdit avant une vente",
+     "Aucune : une auréole sèche n'a pas à être mentionnée"
+    ],
+    "answer": 0,
+    "feedback": "Cacher exprès une information déterminante peut constituer un dol (Code civil, art. 1137). Pour l'auréole de M. Bernard, la bonne réponse est une preuve : le courrier de clôture du sinistre, puis la peinture.",
+    "whys": [
+     "Exact : constat écrit, cause, preuve. C'est ce qui protège le vendeur, l'acheteur et toi.",
+     "Faux : repeindre est permis, c'est même dans le plan Éco-staging. Ce qui pose problème, c'est de cacher sans informer ni prouver.",
+     "Faux : sèche ou non, elle se voit et inquiète. La preuve que le sinistre est clos répond avant la question."
+    ]
+   },
+   "card2": {
+    "question": "Si Mme Garnier rebouchait les fissures en escalier de son pignon nord avant les visites, que se passerait-il ?",
+    "answer": "Elle masquerait peut-être un mouvement lié au sol : sa maison est exposée au retrait-gonflement des argiles. Plus personne ne pourrait suivre l'évolution, et l'acheteur pourrait reprocher une dissimulation. La bonne voie : photo datée avec réglet, environ 0,5 mm, et renvoi vers un expert bâtiment."
+   },
+   "fb": "Cacher exprès une information déterminante peut constituer un dol (Code civil, art. 1137). Pour l'auréole de M. Bernard, la bonne réponse est une preuve : le courrier de clôture du sinistre, puis la peinture.",
+   "dur": 19.84
+  },
+  {
+   "kind": "tools",
+   "title": "Deux gestes, un seul but",
+   "caption": "Deux gestes, un seul but : que chaque défaut ait une cause et une preuve. La grille à 360°, et la photo datée avec sa preuve écrite.",
+   "goal": "Une cause et une preuve pour chaque défaut",
+   "tools": [
+    {
+     "name": "La grille 360°",
+     "role": "Ne rien oublier, dans le même ordre à chaque visite"
+    },
+    {
+     "name": "La photo datée et la preuve écrite",
+     "role": "Rendre chaque constat vérifiable"
+    }
+   ],
+   "dur": 11.03
+  },
+  {
+   "kind": "demo",
+   "title": "La grille chez M. Bernard",
+   "caption": "Chez M. Bernard, tu suis la grille. Dehors : le balcon, une dalle traversante, et la toiture-terrasse, en fin de vie vers 2030 : c'est pour le syndic. Dans les pièces : moisissures, auréole, fissure fine. Côté équipements : pas de VMC, un conduit obstrué. Et tu finis par les documents.",
+   "steps": [
+    "Dehors : balcon, dalle traversante ; toiture-terrasse 2004, fin de vie 2030 → syndic",
+    "Pièces : moisissures en salle de bains, auréole en cuisine, fissure du dégagement",
+    "Équipements : pas de VMC, conduit obstrué, 6 convecteurs de 1998",
+    "Documents : carnet d'entretien, diagnostics, devis D13"
+   ],
+   "tool": "Grille 360°",
+   "dur": 19.55
+  },
+  {
+   "kind": "demo",
+   "title": "Une preuve par défaut",
+   "caption": "Ensuite, une preuve par défaut. La fissure : photo datée avec un réglet, moins de deux dixièmes de millimètre, à surveiller. L'auréole : le courrier de clôture du sinistre, demandé au syndic. Les moisissures et les fenêtres : les lignes chiffrées du devis.",
+   "steps": [
+    "Fissure P11 : photo datée avec réglet, < 0,2 mm, « à surveiller »",
+    "Auréole P08 : courrier de clôture du sinistre demandé au syndic",
+    "Moisissures P06-P07 : débouchage + VMC, devis D13, 2 900 €",
+    "Fenêtres P04-P05 : 4 fenêtres à remplacer, devis D13, 5 600 €"
+   ],
+   "tool": "Photo datée et preuve écrite",
+   "dur": 16.59
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Remplis ta grille sur photos maintenant.",
+   "cta": "Ouvrir l'exercice : photos",
+   "dur": 3.62
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ta grille.",
+   "ask": "Dépose une capture de tes grilles d'audit 360° remplies sur photos, une par bien fil rouge (appartement de M. Bernard, maison de Mme Garnier) : humidité, fissures et toiture, chaque photo avec constat, cause probable, gravité et décision (traiter, surveiller ou renvoyer).",
+   "dur": 3.5
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Chaque constat a sa cause, et pas un seul « aucun risque ». Un défaut expliqué ne fait plus peur.",
+   "status": "Ta grille : un constat, une cause et une décision par photo, 0 « aucun risque ».",
+   "dur": 8.44
+  }
+ ],
+ "total": 204.3
+}

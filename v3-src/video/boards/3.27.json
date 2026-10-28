@@ -1,0 +1,200 @@
+{
+ "id": "3.27",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Obtenir le mandat exclusif",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.27 : obtenir le mandat exclusif",
+   "caption": "Bienvenue. Jeudi 5 novembre, M. Bernard revient avec sa réponse. Dans ce chapitre, tu obtiens l'exclusivité. Sans pression : par un échange.",
+   "cta": "Commencer",
+   "dur": 9.55
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi l'exclusivité sert d'abord le projet du vendeur"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "construire ton argumentaire : engagements écrits, cadre Hoguet, sortie"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton argumentaire et ta charte d'engagements en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Signez ici ! L'exclusivité, c'est au dos, en tout petit : dix ans, sans sortie !",
+   "caption": "Signez ici ! L'exclusivité, c'est au dos, en tout petit : dix ans, sans sortie !",
+   "line": "Signez ici ! L'exclusivité, c'est au dos, en tout petit : dix ans, sans sortie !",
+   "scene": "Mozi tend un microscope pour lire la clause d'exclusivité, au dos d'un mandat géant.",
+   "pose": "telephone",
+   "dur": 6.96
+  },
+  {
+   "kind": "belief",
+   "title": "Clause minuscule, 10 ans, 0 sortie",
+   "caption": "Une clause minuscule. Dix ans. Zéro sortie.",
+   "beats": [
+    "Clause minuscule",
+    "10 ans",
+    "0 sortie"
+   ],
+   "wrong": 0,
+   "why": "Une clause illisible rend l'exclusivité inapplicable.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Clause illisible : exclusivité inapplicable.",
+   "caption": "La loi est claire. Une clause d'exclusivité qui n'est pas en caractères très apparents ne s'applique pas. Et passé trois mois, le vendeur peut sortir, avec quinze jours de préavis.",
+   "lines": [
+    "Clause illisible : exclusivité inapplicable.",
+    "Sortie possible après 3 mois, préavis de 15 jours."
+   ],
+   "dur": 13.62
+  },
+  {
+   "kind": "stat",
+   "title": "91 jours en exclusif, 142 en mandat simple",
+   "caption": "Selon une enquête de leboncoin Immo auprès de 419 professionnels, en 2025 : 91 jours de délai en exclusif, contre 142 en mandat simple. Un indicateur déclaratif. Jamais une promesse.",
+   "value": "91 j",
+   "label": "de délai moyen déclaré en exclusif, contre 142 j en mandat simple (déclaratif)",
+   "dur": 12.14
+  },
+  {
+   "kind": "steps",
+   "title": "Un échange → le cadre Hoguet → la sortie",
+   "caption": "D'abord, l'exclusivité est un échange. M. Bernard te confie seul la vente. Toi, tu t'engages par écrit : attestation jointe, dossier technique, plan Éco-staging, compte rendu toutes les deux semaines, chiffrage des travaux. Un profil C signe pour une liste qu'il peut cocher. Ensuite, le cadre : la loi Hoguet. Un mandat écrit : 180 000 euros net, 9 000 euros d'honoraires à la charge de l'acquéreur, trois mois. Inscrit au registre, numéro reporté sur son exemplaire. Clause d'exclusivité en caractères très apparents. Enfin, la sortie, dite clairement. Passé trois mois, chacun peut dénoncer le mandat, avec quinze jours de préavis par recommandé. Et si tu fais signer chez lui : quatorze jours de rétractation.",
+   "steps": [
+    {
+     "label": "Un échange",
+     "detail": "Il te confie seul la vente ; tu t'engages par écrit sur 5 services."
+    },
+    {
+     "label": "Le cadre Hoguet",
+     "detail": "Mandat écrit, registre, clause en caractères très apparents, exemplaire remis."
+    },
+    {
+     "label": "La sortie, dite clairement",
+     "detail": "Après 3 mois : préavis de 15 jours par LRAR. Signé hors agence : 14 jours."
+    }
+   ],
+   "dur": 45.47
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ? Karim veut écrire dans son argumentaire : en exclusif, vendu en 91 jours. Que lui conseilles-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Karim, directeur d'agence, veut écrire dans son argumentaire : « En exclusif, votre bien sera vendu en 91 jours. » Que lui conseilles-tu ?",
+   "model_answer": "Supprimer la promesse. Écrire : « Les professionnels interrogés par leboncoin Immo en 2025 déclarent 91 jours en exclusif contre 142 en mandat simple : c'est un indicateur, pas une promesse. Ce que je garantis, ce sont mes engagements écrits. »",
+   "dur": 24.22
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ? Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "La clause d'exclusivité doit être en caractères très apparents, dans un mandat remis au vendeur",
+     "Un mandat exclusif engage le vendeur sans sortie jusqu'à son terme",
+     "La clause d'exclusivité peut figurer n'importe où, dès lors que le vendeur signe"
+    ],
+    "answer": 0,
+    "feedback": "Art. 78 du décret n° 72-678 : la clause ne s'applique que si elle figure dans un mandat dont un exemplaire est remis au vendeur, en caractères très apparents. Et passé 3 mois, chacun peut dénoncer le mandat avec 15 jours de préavis par LRAR.",
+    "whys": [
+     "Exact : clause visible, lue ensemble, exemplaire numéroté remis à M. Bernard.",
+     "Faux : passé 3 mois, le mandat exclusif peut être dénoncé à tout moment avec 15 jours de préavis par LRAR.",
+     "Faux : cachée au dos ou en petit, la clause ne peut pas recevoir application."
+    ]
+   },
+   "card2": {
+    "question": "Si Sarah faisait signer le mandat au domicile d'un vendeur, que faudrait-il ajouter ?",
+    "answer": "L'information sur le droit de rétractation, avec son formulaire : un contrat conclu hors établissement ouvre au vendeur un délai de 14 jours pour se rétracter (Code de la consommation, art. L. 221-18)."
+   },
+   "fb": "Art. 78 du décret n° 72-678 : la clause ne s'applique que si elle figure dans un mandat dont un exemplaire est remis au vendeur, en caractères très apparents. Et passé 3 mois, chacun peut dénoncer le mandat avec 15…",
+   "dur": 24.28
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : une exclusivité acceptée, pas arrachée. La charte d'engagements, et la check-list Hoguet.",
+   "goal": "Une exclusivité acceptée, pas arrachée",
+   "tools": [
+    {
+     "name": "Charte d'engagements",
+     "role": "5 engagements : quoi, quand, avec quelle preuve"
+    },
+    {
+     "name": "Check-list Hoguet",
+     "role": "Vérifier le mandat avant la signature"
+    }
+   ],
+   "dur": 8.44
+  },
+  {
+   "kind": "demo",
+   "title": "La charte : cinq engagements à cocher",
+   "caption": "La charte de M. Bernard : l'attestation E jointe à l'annonce. Le dossier technique, remis aux acheteurs sérieux. Le plan Éco-staging, avant le 13 novembre. Un compte rendu toutes les deux semaines, dès le 19. Et les 16 500 euros de travaux, chiffrés pour chaque acquéreur.",
+   "steps": [
+    "Attestation E jointe au dossier et à l'annonce, dès la mise en ligne",
+    "Dossier technique remis aux acquéreurs sérieux, avant toute offre",
+    "Plan Éco-staging ≈ 450 €, avant le 13/11/2026",
+    "Compte rendu écrit toutes les 2 semaines, premier le 19/11/2026",
+    "Chiffrage des travaux (16 500 €) remis à chaque acquéreur"
+   ],
+   "tool": "Charte d'engagements",
+   "dur": 19.18
+  },
+  {
+   "kind": "demo",
+   "title": "La check-list : avant le stylo",
+   "caption": "Avant le stylo, la check-list. Prix, durée, honoraires, et qui les paie. La clause, en caractères très apparents, lue ensemble. La sortie après trois mois. Puis le registre, et son exemplaire numéroté, remis avec la charte.",
+   "steps": [
+    "Prix, durée, honoraires et qui les paie : 180 000 € net, 9 000 € TTC acquéreur, 3 mois",
+    "Clause d'exclusivité en caractères très apparents, lue ensemble",
+    "Sortie : après 3 mois, préavis de 15 jours par LRAR",
+    "Inscription au registre, numéro sur l'exemplaire remis à M. Bernard avec la charte"
+   ],
+   "tool": "Check-list Hoguet",
+   "dur": 15.1
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "À toi : construis ton argumentaire.",
+   "cta": "Construire mon argumentaire d'exclusivité",
+   "dur": 3.5
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton argumentaire et ta charte.",
+   "ask": "Dépose une capture de ton argumentaire d'exclusivité pour M. Bernard : l'échange proposé, ta charte de 5 engagements (contenu, date, preuve), le cadre Hoguet vérifié et la sortie dite clairement.",
+   "dur": 3.99
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Mozi cache sa clause au microscope. Toi, ta clause se lit à l'œil nu, et tes cinq engagements se cochent.",
+   "status": "Ton mandat : clause lisible, 5 engagements datés. Mozi : dix ans au microscope.",
+   "dur": 9.55
+  }
+ ],
+ "total": 207.62
+}

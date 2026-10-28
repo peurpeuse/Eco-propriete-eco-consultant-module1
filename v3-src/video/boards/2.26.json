@@ -1,0 +1,222 @@
+{
+ "id": "2.26",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Cadrer la mission : finalité, date de valeur, type de valeur, pièces",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Cadrer la mission : finalité, date de valeur, type de valeur, pièces",
+   "caption": "Capsule 2.26. Cadrer la mission : finalité, date de valeur, type de valeur, pièces",
+   "dur": 6.5851851851851855
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Rédiger le cadrage écrit d'une demande d'estimation (finalité, date de valeur, type de valeur, pièces) et décider de l'accepter, de la recadrer ou de la refuser",
+   "caption": "À la fin de cette capsule : Rédiger le cadrage écrit d'une demande d'estimation (finalité, date de valeur, type de valeur, pièces) et décider de l'accepter, de la recadrer ou de la refuser",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "La date de ta visite, en octobre 2026",
+   "pose": "base",
+   "scene": "Un fils te demande d'estimer la maison de sa mère, décédée en mars 2026, pour la déclaration de succession. Quelle date de valeur retiens-tu ?",
+   "caption": "Un fils te demande d'estimer la maison de sa mère, décédée en mars 2026, pour la déclaration de succession. Quelle date de valeur retiens-tu ? Mozi, lui, répondrait : « La date de ta visite, en octobre 2026 »",
+   "dur": 13.992592592592592
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : la visite sert à constater l'état du bien, mais la valeur fiscale d'une succession se fixe à la date de la transmission."
+   ],
+   "caption": "Faux : la visite sert à constater l'état du bien, mais la valeur fiscale d'une succession se fixe à la date de la transmission.",
+   "dur": 10.65925925925926
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Avant de chercher une seule référence, Sébastien Paumier pose quatre questions : pour quoi faire, à quelle date, quelle valeur, avec quelles pièces.",
+    "Il les applique à la maison de Mme Garnier et à l'appartement de M. Bernard, puis montre une demande qu'on refuse : « estimez-la le plus bas possible, c'est pour une donation »."
+   ],
+   "caption": "Avant de chercher une seule référence, Sébastien Paumier pose quatre questions : pour quoi faire, à quelle date, quelle valeur, avec quelles pièces. Il les applique à la maison de Mme Garnier et à l'appartement de M. Bernard, puis montre une demande qu'on refuse : « estimez-la le plus bas possible, c'est pour une donation ».",
+   "dur": 22.14074074074074
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les 6 rubriques du cadrage",
+   "table": {
+    "headers": [
+     "Rubrique",
+     "La question",
+     "Exemple : maison de Mme Garnier"
+    ],
+    "rows": [
+     [
+      "Demandeur et propriétaire",
+      "Qui demande, qui est propriétaire, qui décide ?",
+      "Mme Garnier, seule propriétaire depuis la succession de 2023 ; ses fils…"
+     ],
+     [
+      "Finalité",
+      "À quoi servira la valeur ?",
+      "Mise en vente pour financer l'entrée en résidence seniors (été 2027)"
+     ],
+     [
+      "Date de valeur",
+      "À quelle date la valeur se rapporte-t-elle ?",
+      "Date de l'avis : octobre 2026"
+     ],
+     [
+      "Type de valeur",
+      "Quelle valeur, dans quelle situation ?",
+      "Valeur vénale en l'état, libre ; valeur après rénovation à part …"
+     ],
+     [
+      "Bien et périmètre",
+      "Qu'est-ce qui est estimé, qu'est-ce qui ne l'est pas ?",
+      "Maison 112 m², sous-sol, véranda, parcelle AB 214 de 1 240 m²…"
+     ]
+    ]
+   },
+   "caption": "Les 6 rubriques du cadrage. Demandeur et propriétaire : Qui demande, qui est propriétaire, qui décide ? ; Finalité : À quoi servira la valeur ? ; Date de valeur : À quelle date la valeur se rapporte-t-elle ?",
+   "dur": 13.622222222222222
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Finalité, date de valeur et réflexe",
+   "table": {
+    "headers": [
+     "Finalité",
+     "Date de valeur",
+     "Ton réflexe"
+    ],
+    "rows": [
+     [
+      "Vente",
+      "Date de ton avis",
+      "Valeur vénale en l'état ; actualiser si la vente tarde"
+     ],
+     [
+      "Succession",
+      "Date du décès (CGI, art. 761)",
+      "Avis de valeur ; le notaire et les héritiers arrêtent la valeur…"
+     ],
+     [
+      "Donation",
+      "Date de l'acte (CGI, art. 761)",
+      "Valeur vénale réelle ; aucune consigne « le plus bas possible »"
+     ],
+     [
+      "Litige, divorce contentieux, expropriation",
+      "Fixée par la procédure",
+      "Renvoyer vers un expert en évaluation ou un expert judiciaire"
+     ]
+    ]
+   },
+   "caption": "Finalité, date de valeur et réflexe. Vente : Date de ton avis ; Succession : Date du décès (CGI, art. 761) ; Donation : Date de l'acte (CGI, art. 761)",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Pièces à réunir · version maison (dossier de Mme Garnier)",
+   "items": [
+    "Titre de propriété et taxe foncière (M11)",
+    "Extrait cadastral et plan de la parcelle (M06), extrait du PLU (M07)",
+    "Plan et descriptif de la maison (M04), reportage photo (M05)",
+    "DPE (M02) et audit énergétique réglementaire (M03), devis de l'audit (M14)",
+    "Rapport du SPANC et devis de réhabilitation (M08)"
+   ],
+   "caption": "Pièces à réunir · version maison (dossier de Mme Garnier). Titre de propriété et taxe foncière (M11) Extrait cadastral et plan de la parcelle (M06), extrait du PLU (M07) Plan et descriptif de la maison (M04), reportage photo (M05) DPE (M02) et audit énergétique réglementaire (M03), devis de l'audit (M14) Rapport du SPANC et devis de réhabilitation (M08)",
+   "dur": 22.88148148148148
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Pièces à réunir · version appartement (dossier de M. Bernard)",
+   "items": [
+    "Titre de propriété et taxe foncière (D11), plan et descriptif (D04)",
+    "DPE (D02) et attestation actualisée (D03), dossier de diagnostic technique (D17)",
+    "Appels de charges et budget (D06), fiche synthétique de la copropriété (D10)",
+    "PV d'AG des 3 dernières années (D07), carnet d'entretien (D08), PPPT (D09)",
+    "Pré-état daté (D16) et devis des travaux privatifs (D13)"
+   ],
+   "caption": "Pièces à réunir · version appartement (dossier de M. Bernard). Titre de propriété et taxe foncière (D11), plan et descriptif (D04) DPE (D02) et attestation actualisée (D03), dossier de diagnostic technique (D17) Appels de charges et budget (D06), fiche synthétique de la copropriété (D10) PV d'AG des 3 dernières années (D07), carnet d'entretien (D08), PPPT (D09) Pré-état daté (D16) et devis des travaux privatifs (D13)",
+   "dur": 26.21481481481481
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Un client te dit : « Pour la donation à mon fils, estimez-la le plus bas possible, qu'on paie moins de droits. » Que fais-tu ?",
+    "options": [
+     "Tu acceptes et tu retiens le bas de la fourchette",
+     "Tu acceptes, mais sans rien écrire",
+     "Tu refuses cette consigne : tu ne donnes qu'une valeur vénale honnête et tu le renvoies vers son notaire"
+    ],
+    "answer": 2
+   },
+   "fb": "La finalité change la date et la forme de ton avis, jamais le résultat. Tu peux accepter une mission de donation si on te demande la valeur vénale ; tu refuses une mission dont la consigne est de sous-estimer.",
+   "caption": "Un client te dit : « Pour la donation à mon fils, estimez-la le plus bas possible, qu'on paie moins de droits. » Que fais-tu ?",
+   "dur": 26.503703703703703
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Accepter, recadrer ou refuser trois demandes, puis cadrer la mission",
+   "steps": [
+    {
+     "label": "Pour chaque demande, écris ta décision : accepter, accepter en recadrant, ou refuser la consigne, avec une phrase…",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque demande, indique la finalité et la date de valeur.",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque demande, indique le type de valeur et ce que ton avis ne sera pas.",
+     "detail": ""
+    },
+    {
+     "label": "Remplis la trame de cadrage complète pour la demande 3 (Mme Garnier).",
+     "detail": ""
+    },
+    {
+     "label": "Liste les pièces de la version maison qui te manquent encore pour Mme Garnier et la personne qui…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Accepter, recadrer ou refuser trois demandes, puis cadrer la mission. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Trois décisions motivées et la trame de cadrage de la maison de Mme Garnier",
+   "items": [
+    "Chaque demande a une décision (accepter, recadrer, refuser) justifiée en une phrase",
+    "Les dates de valeur sont exactes : date du décès, date de l'acte, date de l'avis",
+    "La consigne « le plus bas possible » est refusée et le renvoi au notaire est…",
+    "La trame Garnier remplit les 6 rubriques, dont le type de valeur et les limites",
+    "La liste des pièces manquantes cite les codes M et la personne à solliciter"
+   ],
+   "caption": "Ton livrable : Trois décisions motivées et la trame de cadrage de la maison de Mme Garnier. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Trame de cadrage de la mission + liste des pièces à réunir (version maison, version appartement)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 197.77
+}

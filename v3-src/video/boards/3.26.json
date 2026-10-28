@@ -1,0 +1,201 @@
+{
+ "id": "3.26",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Les mandats : simple, exclusif, semi-exclusif",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.26 : simple, exclusif, semi-exclusif",
+   "caption": "Bienvenue. Avant le 5 novembre, M. Bernard veut comprendre ce qu'il signe. Dans ce chapitre, tu compares les trois mandats, et tu choisis le bon.",
+   "cta": "Commencer",
+   "dur": 11.03
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce qui distingue les mandats simple, exclusif et semi-exclusif"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "vérifier les mentions obligatoires et le registre avant la signature"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton tableau comparatif et ta recommandation"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "180 000 net, 9 000 d'honoraires, exclusif… La durée ? On verra bien : jusqu'à ce que ça se vende !",
+   "caption": "180 000 net, 9 000 d'honoraires, exclusif… La durée ? On verra bien : jusqu'à ce que ça se vende !",
+   "line": "180 000 net, 9 000 d'honoraires, exclusif… La durée ? On verra bien : jusqu'à ce que ça se vende !",
+   "scene": "Mozi écrit le mandat sur une serviette en papier, note « durée : ∞ », puis la plie en avion.",
+   "pose": "clin-oeil",
+   "dur": 8.81
+  },
+  {
+   "kind": "belief",
+   "title": "180 000 € net, 9 000 € TTC, durée : on verra",
+   "caption": "Cent quatre-vingt mille euros net. Neuf mille euros d'honoraires. La durée ? On verra.",
+   "beats": [
+    "Prix : 180 000 € net",
+    "Honoraires : 9 000 € TTC",
+    "Durée : on verra"
+   ],
+   "wrong": 2,
+   "why": "La durée limitée est une mention obligatoire : sans elle, le mandat n'est pas régulier.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Sans durée, pas de mandat régulier",
+   "caption": "Le droit à commission suppose un mandat écrit et régulier, avec une durée limitée. Et une clause d'exclusivité qui n'est pas en caractères très apparents ne s'applique pas.",
+   "lines": [
+    "Durée absente : mandat irrégulier, commission menacée.",
+    "Clause d'exclusivité peu apparente : inapplicable."
+   ],
+   "dur": 12.88
+  },
+  {
+   "kind": "stat",
+   "title": "65,1 % des professionnels contrôlés en anomalie",
+   "caption": "Soixante-cinq virgule un pour cent. En 2023, la DGCCRF a contrôlé 1 739 professionnels de l'immobilier : près de deux sur trois avaient au moins une anomalie. Parmi elles, des biens présentés à tort comme exclusifs.",
+   "value": "65,1 %",
+   "label": "des professionnels de l'immobilier contrôlés par la DGCCRF en 2023 avaient au moins une anomalie (1 132 sur 1 739)",
+   "dur": 15.1
+  },
+  {
+   "kind": "steps",
+   "title": "Simple → exclusif → semi-exclusif",
+   "caption": "D'abord, le mandat simple. Plusieurs agences, et le vendeur peut vendre lui-même. Seul l'agent qui conclut la vente est payé. Ensuite, l'exclusif. Une seule agence. La clause d'exclusivité, en caractères très apparents, précise tes actions et tes comptes rendus. Trois mois, puis chacun peut le dénoncer, avec quinze jours de préavis par recommandé. Enfin, le semi-exclusif. Une seule agence, mais le vendeur garde le droit de trouver lui-même un acheteur, sans honoraires ou avec des honoraires réduits, selon le mandat. Et pour les trois : un écrit, une durée limitée, le prix, les honoraires et qui les paie, et un numéro au registre des mandats.",
+   "steps": [
+    {
+     "label": "Simple",
+     "detail": "Plusieurs agences, il peut vendre lui-même ; seul l'agent qui conclut est payé."
+    },
+    {
+     "label": "Exclusif",
+     "detail": "Une seule agence ; clause très apparente ; 3 mois, puis préavis de 15 jours."
+    },
+    {
+     "label": "Semi-exclusif",
+     "detail": "Une seule agence, mais il peut trouver lui-même un acheteur ; honoraires selon le mandat."
+    }
+   ],
+   "dur": 42.51
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Exemple du parcours maison. Mme Garnier veut une seule agence, mais garder le droit de vendre à un voisin intéressé. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Exemple du parcours maison : Mme Garnier veut confier la vente à une seule agence, mais garder la possibilité de vendre elle-même à un voisin qui s'est dit intéressé. Quel mandat Élodie lui propose-t-elle, et que vérifie-t-elle dans le texte ?",
+   "model_answer": "Un mandat semi-exclusif : une seule agence, et Mme Garnier garde le droit de vendre elle-même. Élodie vérifie que le mandat dit clairement ce qui se passe si Mme Garnier trouve l'acheteur (pas d'honoraires, ou honoraires réduits), sa durée limitée, le prix, les honoraires et qui les paie, la clause en caractères très apparents, et le numéro du registre sur son exemplaire.",
+   "dur": 42.74
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ? Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Aucune : une durée « jusqu'à la vente » suffit si le vendeur est d'accord",
+     "Aucune : la durée n'est obligatoire que dans le mandat simple",
+     "Tout mandat est écrit et limité dans le temps : la durée est une mention obligatoire"
+    ],
+    "answer": 2,
+    "feedback": "Le mandat est écrit, daté, signé, et comporte notamment sa durée, le prix, la rémunération et la partie qui la paie, et le numéro d'inscription au registre des mandats. Pour l'exclusif : 3 mois, puis dénonciation possible avec 15 jours de préavis par LRAR (décret n° 72-678, art. 78).",
+    "whys": [
+     "Faux : le mandat doit avoir une durée limitée, quel que soit l'accord du vendeur.",
+     "Faux : simple, exclusif ou semi-exclusif, la durée figure toujours au mandat.",
+     "Exact : écrit, durée limitée, prix, honoraires et qui les paie, numéro au registre."
+    ]
+   },
+   "card2": {
+    "question": "Si M. Bernard voulait sortir de son mandat exclusif signé le 5/11/2026, que se passerait-il ?",
+    "answer": "Pendant trois mois, jusqu'au 5/02/2027, il reste engagé. Ensuite, chacun peut dénoncer le mandat à tout moment, par lettre recommandée avec avis de réception, au moins quinze jours à l'avance (décret n° 72-678, art. 78). Signé hors agence, il aurait aussi eu 14 jours pour se rétracter."
+   },
+   "fb": "Le mandat est écrit, daté, signé, et comporte notamment sa durée, le prix, la rémunération et la partie qui la paie, et le numéro d'inscription au registre des mandats. Pour l'exclusif : 3 mois, puis dénonciation possible avec 15 jours…",
+   "dur": 24.28
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : proposer le bon mandat, et le rédiger juste. Le tableau des trois mandats, et la check-list des mentions.",
+   "goal": "Proposer le bon mandat, et le rédiger juste",
+   "tools": [
+    {
+     "name": "Tableau des trois mandats",
+     "role": "Durée, exclusivité, honoraires, résiliation, côte à côte"
+    },
+    {
+     "name": "Check-list des mentions",
+     "role": "Mentions obligatoires et registre, avant la signature"
+    }
+   ],
+   "dur": 10.29
+  },
+  {
+   "kind": "demo",
+   "title": "Le tableau : trois mandats côte à côte",
+   "caption": "Le tableau. Simple : plusieurs agences, reconduction possible si le vendeur en est informé. Exclusif : une agence, une clause très apparente, pas de reconduction tacite. Semi-exclusif : une agence, mais il peut vendre seul. Pour M. Bernard, profil C : l'exclusif, trois mois, avec tes engagements écrits.",
+   "steps": [
+    "Simple : plusieurs agences, il peut vendre seul, reconduction avec information préalable",
+    "Exclusif : une agence, clause très apparente, pas de reconduction tacite",
+    "Semi-exclusif : une agence, il peut vendre seul, honoraires prévus au mandat",
+    "Résiliation de l'exclusif : après 3 mois, préavis de 15 jours par LRAR",
+    "Pour M. Bernard : exclusif, 3 mois, 9 000 € TTC à la charge de l'acquéreur"
+   ],
+   "tool": "Tableau des trois mandats",
+   "dur": 18.44
+  },
+  {
+   "kind": "demo",
+   "title": "La check-list : avant la signature",
+   "caption": "La check-list avant signature. Un écrit, daté, signé, en deux exemplaires. Le prix, la durée, les honoraires et qui les paie. La clause, très apparente, avec tes actions et tes comptes rendus. Les moyens de diffusion des annonces. Et le numéro du registre, sur son exemplaire.",
+   "steps": [
+    "Forme : écrit, daté, signé, en 2 exemplaires originaux",
+    "Chiffres : 180 000 € net, 3 mois, 9 000 € TTC à la charge de l'acquéreur",
+    "Clause : exclusivité très apparente, actions et comptes rendus prévus",
+    "Diffusion : moyens employés pour les annonces",
+    "Registre : numéro reporté sur l'exemplaire de M. Bernard"
+   ],
+   "tool": "Check-list des mentions",
+   "dur": 18.81
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "À toi : compare les trois mandats sur ton cas.",
+   "cta": "Ouvrir le cas à comparer",
+   "dur": 4.73
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton tableau des trois mandats et ta recommandation.",
+   "ask": "Dépose une capture de ton tableau comparatif rempli pour le cas du vendeur (durée, exclusivité, honoraires, mentions obligatoires, résiliation, pour les trois mandats) et de ta recommandation en deux phrases : lequel proposer, et pourquoi.",
+   "dur": 5.1
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Mozi signe des mandats sans fin sur une serviette. Toi, tu sais lequel proposer, et tu sais le rédiger juste.",
+   "status": "Ton mandat : une durée, un numéro, une clause lisible. Mozi : une serviette et « on verra ».",
+   "dur": 9.18
+  }
+ ],
+ "total": 235.52
+}

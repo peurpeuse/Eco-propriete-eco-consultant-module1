@@ -1,0 +1,199 @@
+{
+ "id": "3.15",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Suivre le chantier avant la vente : planning, réception, réserves",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 3.15 : suivre le chantier avant la vente",
+   "caption": "Bienvenue. Avant les photos et les visites, il y a un petit chantier chez M. Bernard. Tu vas apprendre à le suivre jusqu'au bout.",
+   "cta": "Commencer",
+   "dur": 10.66
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre la réception, appliquer un planning, puis prouver que tu sais lire un procès-verbal.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce que change la réception : réserves, délai de levée, garanties de 1, 2 et 10 ans"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "planifier trois corps de métier dans le bon ordre, puis lire un PV de réception"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton planning et ta lecture du PV en une image"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 7.7
+  },
+  {
+   "kind": "mozi",
+   "title": "Le PV ? Je l'ai signé dans l'ascenseur, sans entrer : zéro réserve, zéro souci !",
+   "caption": "Le PV ? Je l'ai signé dans l'ascenseur, sans entrer : zéro réserve, zéro souci !",
+   "line": "Le PV ? Je l'ai signé dans l'ascenseur, sans entrer : zéro réserve, zéro souci !",
+   "scene": "Mozi signe le procès-verbal contre la paroi de l'ascenseur ; derrière la porte, une trace de reprise barre le plafond de la cuisine.",
+   "pose": "presse",
+   "dur": 6.96
+  },
+  {
+   "kind": "belief",
+   "title": "Chantier fini, PV signé sans regarder, visites demain",
+   "caption": "Chantier fini. Procès-verbal signé sans regarder. Visites dès demain. Où est l'erreur ?",
+   "beats": [
+    "Chantier fini",
+    "PV signé sans regarder",
+    "Visites dès demain"
+   ],
+   "wrong": 1,
+   "why": "Un défaut visible que personne ne note au PV est considéré comme accepté : les garanties ne le couvrent plus.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Défaut non signalé = défaut accepté",
+   "caption": "Et la trace du plafond ? Elle n'est pas notée au procès-verbal. Elle est donc considérée comme acceptée. Le peintre n'a plus à la reprendre au titre des garanties. Et c'est elle que les acquéreurs verront en premier.",
+   "lines": [
+    "Défaut visible non noté au PV : considéré comme accepté.",
+    "Plus de réparation au titre des garanties."
+   ],
+   "dur": 16.59
+  },
+  {
+   "kind": "stat",
+   "title": "12 mois de garantie de parfait achèvement",
+   "caption": "Douze mois. C'est la garantie de parfait achèvement : pendant un an après la réception, l'entreprise répare les désordres signalés. À condition qu'ils soient signalés.",
+   "value": "12 mois",
+   "label": "de garantie de parfait achèvement à compter de la réception, pour les désordres réservés au PV ou notifiés par écrit ensuite",
+   "dur": 11.4
+  },
+  {
+   "kind": "steps",
+   "title": "Planning → Réception → Garanties",
+   "caption": "Trois temps. Un : le planning. Chez M. Bernard, trois corps de métier pour le plan Éco-staging. D'abord le ventiliste, qui débouche le conduit de la salle de bains : on traite la cause de l'humidité. Puis l'électricien, pour l'éclairage du séjour. Le peintre passe en dernier, pour ne rien abîmer. Deux : la réception. C'est M. Bernard, le maître de l'ouvrage, qui réceptionne, avec chaque entreprise. Toi, tu prépares la liste de contrôle et tu l'accompagnes. Chaque défaut visible devient une réserve, avec une photo et un délai de levée fixé d'un commun accord. Trois : les garanties. Un an de parfait achèvement. Deux ans de bon fonctionnement pour les équipements qu'on peut enlever sans abîmer le bâti. Dix ans pour les dommages graves. Tu ranges factures et attestations d'assurance dans le dossier de vente.",
+   "steps": [
+    {
+     "label": "Planning",
+     "detail": "La cause d'abord, les finitions ensuite : ventiliste (conduit de la salle de bains), électricien (éclairage du séjour), peintre (traitement anti-moisissures et plafond de cuisine)."
+    },
+    {
+     "label": "Réception",
+     "detail": "Le vendeur réceptionne avec chaque entreprise ; chaque défaut visible devient une réserve écrite, avec photo et délai de levée fixé d'un commun accord."
+    },
+    {
+     "label": "Garanties",
+     "detail": "1 an de parfait achèvement, 2 ans de bon fonctionnement (équipements dissociables), 10 ans pour les dommages graves ; factures et attestations au dossier."
+    }
+   ],
+   "dur": 54.36
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Le peintre a laissé une trace au plafond de la cuisine. M. Bernard demande à Claire s'il doit signer quand même. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Vendredi, réception du lot peinture. M. Bernard, très factuel, montre une trace de reprise au plafond de la cuisine et demande à Claire : « Je signe quand même ? » Que lui répond Claire, en deux phrases ?",
+   "model_answer": "Oui, vous pouvez signer la réception, mais avec une réserve écrite : « trace de reprise au plafond de la cuisine », avec une photo. On fixe avec le peintre un délai de levée avant les premières visites, et la garantie de parfait achèvement couvre ce défaut puisqu'il est noté au PV.",
+   "dur": 33.11
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "La réception est un acte contradictoire du maître de l'ouvrage : on visite, et chaque défaut visible est noté en réserve",
+     "Une réception sans réserve est toujours préférable, car elle accélère la levée des garanties",
+     "Aucune : l'agent peut réceptionner seul les travaux à la place du vendeur, s'il le fait vite"
+    ],
+    "answer": 0,
+    "feedback": "La réception est l'acte par lequel le maître de l'ouvrage, ici M. Bernard, accepte l'ouvrage avec ou sans réserves, de façon contradictoire. Un défaut visible non réservé est considéré comme accepté.",
+    "whys": [
+     "Exact : on visite avec l'entreprise et chaque défaut visible devient une réserve écrite au PV (art. 1792-6).",
+     "Faux : sans réserve, les défauts visibles sont considérés comme acceptés ; la réception ne « lève » aucune garantie, elle les fait démarrer.",
+     "Faux : c'est le maître de l'ouvrage qui réceptionne ; l'agent prépare et accompagne, il ne signe pas à la place du vendeur."
+    ]
+   },
+   "card2": {
+    "question": "Si M. Bernard faisait aussi remplacer ses 4 fenêtres avant la vente, que se passerait-il ?",
+    "answer": "En vendant un ouvrage qu'il a fait construire, il serait réputé constructeur (art. 1792-1, 2°). Pour une vente dans les dix ans, l'acte mentionne les assurances et l'attestation est annexée (art. L. 243-2 du Code des assurances) : il faudrait garder factures et attestation d'assurance de l'entreprise. Le notaire le confirmera."
+   },
+   "fb": "La réception est l'acte par lequel le maître de l'ouvrage, ici M. Bernard, accepte l'ouvrage avec ou sans réserves, de façon contradictoire. Un défaut visible non réservé est considéré comme accepté.",
+   "dur": 19.84
+  },
+  {
+   "kind": "tools",
+   "title": "Deux documents, un seul but",
+   "caption": "Deux documents, un seul but : des travaux finis, réceptionnés et prouvés avant la première visite. Le planning, puis la fiche de réception.",
+   "goal": "Des travaux finis, réceptionnés et prouvés avant la première visite",
+   "tools": [
+    {
+     "name": "Modèle de planning de chantier",
+     "role": "Ordonner trois corps de métier, avec dates et réception"
+    },
+    {
+     "name": "Fiche PV de réception et réserves",
+     "role": "Noter chaque réserve, son délai de levée et les garanties"
+    }
+   ],
+   "dur": 9.55
+  },
+  {
+   "kind": "demo",
+   "title": "Le planning de M. Bernard",
+   "caption": "Le planning, semaine du 9 novembre. Lundi, le ventiliste. Mardi, l'électricien. Mercredi 11, férié. Jeudi et vendredi matin, le peintre. Vendredi après-midi, la réception, lot par lot. Tout est fini avant le 13 novembre au soir.",
+   "steps": [
+    "Lundi 9/11 : ventiliste, débouchage du conduit de la salle de bains",
+    "Mardi 10/11 : électricien, éclairage du séjour",
+    "Jeudi 12 et vendredi 13/11 matin : peintre, traitement et plafond",
+    "Vendredi 13/11 après-midi : réception, un PV par entreprise"
+   ],
+   "tool": "Modèle de planning de chantier",
+   "dur": 15.47
+  },
+  {
+   "kind": "demo",
+   "title": "Lire le PV : réserve, délai, garanties",
+   "caption": "Puis la fiche de réception du peintre. Réserve : trace de reprise au plafond de la cuisine, avec photo. Délai de levée convenu : huit jours. Levée constatée par écrit. Et les garanties démarrent le 13 novembre : un an, deux ans, dix ans selon les ouvrages.",
+   "steps": [
+    "Réserve : trace de reprise au plafond de la cuisine, photo jointe",
+    "Délai de levée : 8 jours, fixé d'un commun accord",
+    "Levée : constatée par écrit, signée par les deux parties",
+    "Garanties : départ le 13/11/2026, factures et attestations au dossier"
+   ],
+   "tool": "Fiche PV de réception et réserves",
+   "dur": 17.7
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Fais le planning, puis lis le PV de réception.",
+   "cta": "Ouvrir l'exercice",
+   "dur": 4.73
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton planning et ta lecture du procès-verbal.",
+   "ask": "Dépose une capture de ton planning des trois corps de métier et de ta fiche PV remplie : chaque réserve, son délai de levée, et les garanties qui en découlent (1, 2 ou 10 ans).",
+   "dur": 5.1
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Chez M. Bernard, chaque défaut est noté, daté, réparé. Les acquéreurs visiteront un chantier fini, pas une promesse.",
+   "status": "Ton chantier : 3 entreprises, 3 PV, 1 réserve levée, garanties datées. Celui de Mozi : 1 signature dans l'ascenseur.",
+   "dur": 8.44
+  }
+ ],
+ "total": 229.61
+}

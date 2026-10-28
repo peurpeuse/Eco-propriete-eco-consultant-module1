@@ -1,0 +1,201 @@
+{
+ "id": "3.7",
+ "module": 3,
+ "modlabel": "Module 3",
+ "modtitle": "Gagner l'exclusivité par les chiffres et la synthèse",
+ "color": "#D9AD00",
+ "title": "Le tableau de bord du bien : 6 à 8 indicateurs sur une page",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Le tableau de bord du bien : 6 à 8 indicateurs sur une page",
+   "caption": "Capsule 3.7. Le tableau de bord du bien : 6 à 8 indicateurs sur une page",
+   "dur": 7.325925925925926
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Monter sur une seule page le tableau de bord du bien fil rouge : 6 à 8 indicateurs, chacun avec sa valeur, sa source, sa date et sa limite.",
+   "caption": "À la fin de cette capsule : Monter sur une seule page le tableau de bord du bien fil rouge : 6 à 8 indicateurs, chacun avec sa valeur, sa source, sa date et sa limite.",
+   "dur": 11.77037037037037
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Garder les 15 : plus il y a de chiffres, plus le vendeur est rassuré",
+   "pose": "base",
+   "scene": "Karim veut mettre 15 indicateurs dans le tableau de bord de son vendeur « pour montrer le travail fait ». Que lui conseilles-tu ?",
+   "caption": "Karim veut mettre 15 indicateurs dans le tableau de bord de son vendeur « pour montrer le travail fait ». Que lui conseilles-tu ? Mozi, lui, répondrait : « Garder les 15 : plus il y a de chiffres, plus le vendeur est rassuré »",
+   "dur": 14.733333333333333
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : au-delà de 8 cases, le vendeur ne retient plus rien et ne sait pas quoi regarder en premier."
+   ],
+   "caption": "Faux : au-delà de 8 cases, le vendeur ne retient plus rien et ne sait pas quoi regarder en premier.",
+   "dur": 8.807407407407407
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier pose sur la table deux documents : quinze pages de chiffres en vrac, et une page avec huit cases.",
+    "Il montre comment choisir 6 à 8 indicateurs parmi ceux des capsules 3.3 à 3.6 (énergie, valeur, coût, copropriété), les ranger en quatre familles et donner à chacun sa source, sa date et sa…",
+    "Démonstration sur l'appartement de M. Bernard."
+   ],
+   "caption": "Sébastien Paumier pose sur la table deux documents : quinze pages de chiffres en vrac, et une page avec huit cases. Il montre comment choisir 6 à 8 indicateurs parmi ceux des capsules 3.3 à 3.6 (énergie, valeur, coût, copropriété), les ranger en quatre familles et donner à chacun sa source, sa date et sa limite. Démonstration sur l'appartement de M. Bernard.",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Les 4 familles, 6 à 8 cases au total",
+   "items": [
+    "Performance (1 à 2 cases) : étiquette énergie en vigueur, étiquette climat, coût annuel d'énergie indiqué sur le DPE.",
+    "Valeur (1 à 2 cases) : fourchette de valeur en l'état, valeur après rénovation sous conditions.",
+    "Coût (1 à 2 cases) : budget travaux chiffré par devis, classe estimée après travaux (estimation à confirmer).",
+    "Copropriété ou terrain (1 à 2 cases) : charges annuelles, travaux votés et appels de fonds ; pour une maison : assainissement…",
+    "Option marché (1 case) : un repère local de la capsule 3.6 (part des biens F et G, délai, marge de négociation)…"
+   ],
+   "caption": "Les 4 familles, 6 à 8 cases au total. Performance (1 à 2 cases) : étiquette énergie en vigueur, étiquette climat, coût annuel d'énergie indiqué sur le DPE. Valeur (1 à 2 cases) : fourchette de valeur en l'état, valeur après rénovation sous conditions. Coût (1 à 2 cases) : budget travaux chiffré par devis, classe estimée après travaux (estimation à confirmer). Copropriété ou terrain (1 à 2 cases) …",
+   "dur": 26.585185185185182
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Tableau de bord rempli · appartement de M. Bernard (fil rouge, fictif)",
+   "table": {
+    "headers": [
+     "Indicateur",
+     "Valeur",
+     "Source et date",
+     "Limite"
+    ],
+    "rows": [
+     [
+      "Étiquette énergie en vigueur",
+      "E · 285 kWhEP/m²/an (150 × 1,9)",
+      "D03 attestation actualisée ADEME, valable jusqu'au 13/03/2033",
+      "DPE d'origine F (345) du 14/03/2023"
+     ],
+     [
+      "Étiquette climat",
+      "C · 12 kgCO₂/m²/an",
+      "D02 DPE du 14/03/2023",
+      "Calcul conventionnel, pas une mesure"
+     ],
+     [
+      "Coût annuel d'énergie",
+      "2 330 à 3 190 €/an",
+      "D02, prix des énergies au 1/01/2021",
+      "Usage conventionnel, pas la facture réelle"
+     ],
+     [
+      "Valeur en l'état",
+      "178 000 à 186 000 € net vendeur",
+      "D12 comparables 2025-2026 (2 650 €/m²), oct. 2026",
+      "Comparables fictifs du fil rouge"
+     ],
+     [
+      "Valeur après rénovation",
+      "≈ 216 600 € (76 × 2 850 €/m²)",
+      "D12, oct. 2026",
+      "Suppose travaux privatifs ET ITE réalisés"
+     ]
+    ]
+   },
+   "caption": "Tableau de bord rempli · appartement de M. Bernard (fil rouge, fictif). Étiquette énergie en vigueur : E · 285 kWhEP/m²/an (150 × 1,9) ; Étiquette climat : C · 12 kgCO₂/m²/an ; Coût annuel d'énergie : 2 330 à 3 190 €/an",
+   "dur": 16.21481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Contrôle avant d'imprimer",
+   "items": [
+    "Chaque case a une valeur, une unité, une source (code du dossier ou organisme) et une date.",
+    "Chaque estimation porte le mot « estimation » et dit qui doit la confirmer.",
+    "L'étiquette en vigueur est en tête ; l'ancienne figure en petit, comme point de départ.",
+    "Aucune aide n'est chiffrée comme acquise, aucun prix n'est promis.",
+    "Les chiffres sont identiques à ceux du dossier et du tableur (aucune recopie à la main)."
+   ],
+   "caption": "Contrôle avant d'imprimer. Chaque case a une valeur, une unité, une source (code du dossier ou organisme) et une date. Chaque estimation porte le mot « estimation » et dit qui doit la confirmer. L'étiquette en vigueur est en tête ; l'ancienne figure en petit, comme point de départ. Aucune aide n'est chiffrée comme acquise, aucun prix n'est promis. Les chiffres sont identiques à ceux du dossier et du tableur…",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase pour présenter la page au vendeur",
+   "text": "« Monsieur Bernard, voici votre bien sur une seule page : huit chiffres, chacun avec sa source et sa date. En haut, ce qui est acquis ; en bas, ce qui dépend de travaux ou de décisions de la copropriété. Prenez le temps de vérifier chaque case avec les documents que je vous ai envoyés.…",
+   "caption": "La phrase pour présenter la page au vendeur. « Monsieur Bernard, voici votre bien sur une seule page : huit chiffres, chacun avec sa source et sa date. En haut, ce qui est acquis ; en bas, ce qui dépend de travaux ou de décisions de la copropriété. Prenez le temps de vérifier chaque case avec les documents que je vous ai envoyés.…",
+   "dur": 23.62222222222222
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Dans le tableau de bord de M. Bernard, quelle étiquette énergie affiches-tu dans la case « Performance » ?",
+    "options": [
+     "F, 345 kWhEP/m²/an : c'est le DPE du 14/03/2023",
+     "D : c'est la classe estimée après les travaux privatifs",
+     "E, 285 kWhEP/m²/an : attestation actualisée ADEME (coefficient électricité 1,9 en 2026), valable jusqu'au 13/03/2033"
+    ],
+    "answer": 2
+   },
+   "fb": "La case « Performance » montre l'étiquette en vigueur : E (attestation actualisée ADEME, D03). Le F de 2023 peut figurer en petit comme point de départ, et le D estimé après travaux dans la case « Travaux », avec…",
+   "caption": "Dans le tableau de bord de M. Bernard, quelle étiquette énergie affiches-tu dans la case « Performance » ?",
+   "dur": 22.42962962962963
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Monter le tableau de bord du bien fil rouge",
+   "steps": [
+    {
+     "label": "Liste tous les indicateurs déjà calculés dans les capsules 3.3 à 3.6 et range-les dans les 4 familles.",
+     "detail": ""
+    },
+    {
+     "label": "Choisis 6 à 8 indicateurs : un ou deux par famille, ceux qui changent la décision du vendeur.",
+     "detail": ""
+    },
+    {
+     "label": "Pour chacun, écris la valeur, l'unité, la source (code du dossier), la date et la limite.",
+     "detail": ""
+    },
+    {
+     "label": "Marque « estimation » chaque valeur qui n'est pas acquise et indique qui doit la confirmer.",
+     "detail": ""
+    },
+    {
+     "label": "Remplis l'onglet « Tableau de bord » du tableur T5.4 et vérifie que la page tient sur une…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Monter le tableau de bord du bien fil rouge. 35 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Tableau de bord du bien fil rouge (1 page)",
+   "items": [
+    "6 à 8 indicateurs, répartis sur au moins 3 des 4 familles",
+    "Chaque indicateur a une valeur avec son unité, une source (code du dossier ou organisme) et…",
+    "L'étiquette en vigueur est celle de l'attestation actualisée (E pour M. Bernard), l'ancienne est signalée comme…",
+    "Chaque estimation est marquée comme telle, avec la personne qui doit la confirmer",
+    "Aucune aide n'est présentée comme acquise et aucun prix n'est promis"
+   ],
+   "caption": "Ton livrable : Tableau de bord du bien fil rouge (1 page). Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Modèle de tableau de bord, 1 page, à remplir dans le tableur du projet (T5.4)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 216.66
+}

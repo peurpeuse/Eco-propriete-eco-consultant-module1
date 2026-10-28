@@ -1,0 +1,200 @@
+{
+ "id": "1.21",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Construire une offre de découverte qui obtient un rendez-vous",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 1.21 : construire une offre de découverte qui obtient un rendez-vous",
+   "caption": "Bienvenue. Dans ce chapitre, tu vas transformer une question de vendeur en rendez-vous.",
+   "cta": "Commencer",
+   "dur": 6.59
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "pourquoi une question utile, posée avec accord, ouvre la porte"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "écrire ton accroche, tes 3 vérifications et ton appel à l'action"
+    },
+    {
+     "verb": "Prouver",
+     "text": "déposer ton offre de découverte qui mène au rendez-vous R1"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Votre numéro, dans l'annuaire de 1987 !",
+   "caption": "J'ai trouvé votre numéro dans l'annuaire de 1987 : vendez-moi votre maison avant le dîner !",
+   "line": "J'ai trouvé votre numéro dans l'annuaire de 1987 : vendez-moi votre maison avant le dîner !",
+   "scene": "Mozi, casque sur la tête, appelle les numéros d'un vieil annuaire jauni, à 21 h, en lisant le même texte.",
+   "pose": "telephone",
+   "dur": 7.7
+  },
+  {
+   "kind": "belief",
+   "title": "J'ai son numéro, donc j'appelle",
+   "caption": "J'ai son numéro. Donc je peux l'appeler. Et lui vendre ma visite.",
+   "beats": [
+    "J'ai son numéro",
+    "donc je peux l'appeler",
+    "et lui vendre ma visite"
+   ],
+   "wrong": 1,
+   "why": "Avoir un numéro ne donne pas le droit d'appeler : depuis le 11 août 2026, il faut l'accord préalable du particulier.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "Jusqu'à 75 000 € d'amende",
+   "caption": "Appeler un particulier sans son accord, c'est jusqu'à soixante-quinze mille euros d'amende pour une personne. Trois cent soixante-quinze mille pour une société.",
+   "lines": [
+    "Jusqu'à 75 000 € d'amende pour une personne physique.",
+    "Jusqu'à 375 000 € pour une société."
+   ],
+   "dur": 11.4
+  },
+  {
+   "kind": "stat",
+   "title": "15 % des ventes : des logements F ou G",
+   "caption": "Quinze pour cent. Début 2025, environ une vente de logement ancien sur sept concernait un logement classé F ou G. Ces vendeurs se posent tous la même question.",
+   "value": "15 %",
+   "label": "des ventes de logements anciens concernent des logements classés F ou G (début 2025 ; 11 % en 2021, 17 % en 2023)",
+   "dur": 11.77
+  },
+  {
+   "kind": "steps",
+   "title": "Accroche → Préanalyse → Rendez-vous",
+   "caption": "Ton offre de découverte tient en trois temps. D'abord, l'accroche : la question que le vendeur se pose déjà. « Faut-il rénover votre logement avant de le vendre ? » Ensuite, la préanalyse, en trois vérifications : la classe et la date du DPE ; les obligations à la vente, comme l'audit pour une maison ou les travaux votés en copropriété ; les ventes récentes du secteur. Enfin, l'appel à l'action : trente minutes chez lui pour présenter les résultats. C'est le rendez-vous R1. Et toujours avec son accord.",
+   "steps": [
+    {
+     "label": "Accroche",
+     "detail": "« Faut-il rénover votre logement avant de le vendre ? »"
+    },
+    {
+     "label": "Préanalyse",
+     "detail": "Trois vérifications : DPE, obligations à la vente, ventes récentes."
+    },
+    {
+     "label": "Rendez-vous",
+     "detail": "Trente minutes chez le vendeur pour présenter les résultats : le R1."
+    }
+   ],
+   "dur": 34.36
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "M. Bernard a coché la case du site de l'agence de Claire. Écris l'appel à l'action de son offre. Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "M. Bernard a coché sur le site de l'agence de Claire : « J'accepte d'être recontacté au sujet de mon DPE et de l'estimation de mon bien ». Écris en deux phrases l'appel à l'action de l'offre de découverte de Claire.",
+   "model_answer": "Je vous propose un rendez-vous de trente minutes chez vous pour vous présenter mes trois vérifications : votre DPE et son attestation actualisée, les travaux votés par la copropriété, et les ventes récentes de la résidence. Vous décidez ensuite, sans engagement.",
+   "dur": 33.85
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Depuis le 11 août 2026, démarcher un particulier par téléphone exige son accord préalable",
+     "On peut appeler tout numéro qui n'est pas inscrit sur Bloctel",
+     "Aucune : un agent immobilier n'est pas concerné par ces règles"
+    ],
+    "answer": 0,
+    "feedback": "Depuis le 11 août 2026, le démarchage téléphonique d'un particulier est interdit sans son accord préalable, libre, spécifique et révocable. C'est au professionnel de prouver cet accord.",
+    "whys": [
+     "Exact : l'accord doit venir avant l'appel, d'un geste actif, et tu dois pouvoir le prouver.",
+     "Faux : c'était l'ancienne logique. Depuis le 11 août 2026, ne pas être inscrit ne vaut plus accord.",
+     "Faux : la règle vise tout professionnel qui démarche un consommateur, agent immobilier compris."
+    ]
+   },
+   "card2": {
+    "question": "Si M. Bernard avait coché la case de l'agence, que se passerait-il ?",
+    "answer": "L'agence pourrait l'appeler au sujet de son DPE et de son estimation, dans les créneaux autorisés : l'accord est préalable, précis et prouvé. Elle garde la preuve, et elle cesse tout appel s'il retire son accord."
+   },
+   "fb": "Depuis le 11 août 2026, le démarchage téléphonique d'un particulier est interdit sans son accord préalable, libre, spécifique et révocable. C'est au professionnel de prouver cet accord.",
+   "dur": 17.99
+  },
+  {
+   "kind": "tools",
+   "title": "Deux outils, un seul but",
+   "caption": "Deux outils, un seul but : obtenir le rendez-vous R1, avec l'accord du vendeur. L'offre de découverte, et le formulaire d'accord.",
+   "goal": "Obtenir le rendez-vous R1, avec l'accord du vendeur",
+   "tools": [
+    {
+     "name": "Offre de découverte",
+     "role": "Accroche, 3 vérifications, appel à l'action vers le R1"
+    },
+    {
+     "name": "Formulaire d'accord",
+     "role": "Recueillir et prouver l'accord avant tout appel"
+    }
+   ],
+   "dur": 10.29
+  },
+  {
+   "kind": "demo",
+   "title": "L'offre de M. Bernard",
+   "caption": "Pour M. Bernard : l'accroche, faut-il rénover avant de vendre ? Première vérification, son DPE de 2023 et l'attestation, classe E. Deuxième, le ravalement voté en assemblée générale. Troisième, les ventes récentes du secteur. Puis trente minutes chez lui.",
+   "steps": [
+    "Accrocher : faut-il rénover avant de vendre ?",
+    "Vérifier 1 : DPE 2023, attestation classe E",
+    "Vérifier 2 : ravalement voté en AG",
+    "Vérifier 3 : ventes récentes du secteur",
+    "Proposer : 30 minutes, rendez-vous R1"
+   ],
+   "tool": "Offre de découverte",
+   "dur": 16.21
+  },
+  {
+   "kind": "demo",
+   "title": "Le formulaire d'accord",
+   "caption": "Sur ton formulaire, tu écris pourquoi tu rappelleras : le DPE et l'estimation. Tu laisses la case décochée. Tu gardes la date de l'accord. Et tu appelles seulement dans les créneaux autorisés.",
+   "steps": [
+    "Écrire : le motif, DPE et estimation",
+    "Laisser : la case décochée",
+    "Garder : la date de l'accord",
+    "Appeler : dans les créneaux autorisés"
+   ],
+   "tool": "Formulaire d'accord",
+   "dur": 13.62
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Écris ton offre de découverte maintenant.",
+   "cta": "Ouvrir le modèle d'offre",
+   "dur": 3.62
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton offre de découverte.",
+   "ask": "Dépose une capture de ton offre de découverte : l'accroche « Faut-il rénover votre logement avant de le vendre ? », ta préanalyse du bien en 3 vérifications et ton appel à l'action qui mène au rendez-vous R1.",
+   "dur": 3.62
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Ton offre répond à la question du vendeur, et elle demande le rendez-vous avec son accord.",
+   "status": "Ton offre : 1 question, 3 vérifications, 1 rendez-vous avec accord. Mozi : un annuaire de 1987, aucun accord.",
+   "dur": 8.07
+  }
+ ],
+ "total": 190.71
+}

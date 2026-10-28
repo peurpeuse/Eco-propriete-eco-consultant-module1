@@ -1,0 +1,224 @@
+{
+ "id": "P3",
+ "module": 0,
+ "modlabel": "Prérequis",
+ "modtitle": "Climat et marché : le contexte de tout le parcours",
+ "color": "#8E1B3A",
+ "title": "Ce que le climat change pour le marché : réglementation, valeur, assurance, acquéreurs",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Ce que le climat change pour le marché : réglementation, valeur, assurance, acquéreurs",
+   "caption": "Capsule P3. Ce que le climat change pour le marché : réglementation, valeur, assurance, acquéreurs",
+   "dur": 6.5851851851851855
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Placer dans l'ordre six dates réglementaires de 2015 à 2026 et relever pour sa zone trois effets du climat sur le marché, chacun avec sa source et sa date",
+   "caption": "À la fin de cette capsule : Placer dans l'ordre six dates réglementaires de 2015 à 2026 et relever pour sa zone trois effets du climat sur le marché, chacun avec sa source et sa date",
+   "dur": 12.511111111111111
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Pas de souci, l'interdiction ne commence qu'en 2028.",
+   "pose": "sur-de-lui",
+   "scene": "Un investisseur veut acheter un studio classé G pour le mettre en location en novembre 2026, sans travaux. Que lui dis-tu ?",
+   "caption": "Un investisseur veut acheter un studio classé G pour le mettre en location en novembre 2026, sans travaux. Que lui dis-tu ? Mozi, lui, répondrait : « Pas de souci, l'interdiction ne commence qu'en 2028. »",
+   "dur": 13.251851851851852
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : 2028, c'est l'échéance des logements F ; les G sont visés depuis le 1/01/2025."
+   ],
+   "caption": "Faux : 2028, c'est l'échéance des logements F ; les G sont visés depuis le 1/01/2025.",
+   "dur": 8.066666666666666
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier déroule une frise : accord de Paris, loi énergie-climat, nouveau DPE, loi Climat et résilience, audit à la vente, interdiction de louer les G.",
+    "Puis il montre ce que ces règles ont changé pour le marché : 3,9 millions de passoires parmi les résidences principales, 15 % des ventes en F-G, une assurance plus chère et des acquéreurs…"
+   ],
+   "caption": "Sébastien Paumier déroule une frise : accord de Paris, loi énergie-climat, nouveau DPE, loi Climat et résilience, audit à la vente, interdiction de louer les G. Puis il montre ce que ces règles ont changé pour le marché : 3,9 millions de passoires parmi les résidences principales, 15 % des ventes en F-G, une assurance plus chère et des acquéreurs qui lisent le DPE.",
+   "dur": 25.1037037037037
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "La frise : 10 dates clés",
+   "table": {
+    "headers": [
+     "Date",
+     "Texte ou événement",
+     "Ce que ça change pour un logement"
+    ],
+    "rows": [
+     [
+      "12/12/2015",
+      "Accord de Paris (COP21)",
+      "Objectif mondial : rester bien en dessous de +2 °C"
+     ],
+     [
+      "8/11/2019",
+      "Loi énergie-climat n° 2019-1147",
+      "Neutralité carbone en 2050 ; premières mesures sur les passoires"
+     ],
+     [
+      "11/01/2021",
+      "Décret décence n° 2021-19",
+      "Au 1/01/2023 : plus de nouveau bail au-delà de 450 kWh d'énergie…"
+     ],
+     [
+      "1/07/2021",
+      "Nouveau DPE (méthode 3CL-DPE 2021)",
+      "DPE opposable, double seuil énergie et climat, indicateur de confort d'été"
+     ],
+     [
+      "22/08/2021",
+      "Loi Climat et résilience n° 2021-1104",
+      "Performance énergétique dans la décence : G (2025), F (2028), E (2034)"
+     ]
+    ]
+   },
+   "caption": "La frise : 10 dates clés. 12/12/2015 : Accord de Paris (COP21) ; 8/11/2019 : Loi énergie-climat n° 2019-1147 ; 11/01/2021 : Décret décence n° 2021-19",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Le parc par étiquette au 1/01/2025 (résidences principales)",
+   "table": {
+    "headers": [
+     "Classe",
+     "Part",
+     "Lecture"
+    ],
+    "rows": [
+     [
+      "A et B",
+      "3,3 % et 5,3 %",
+      "Logements très performants, rares"
+     ],
+     [
+      "C et D",
+      "27,2 % et 33,7 %",
+      "Le cœur du parc"
+     ],
+     [
+      "E",
+      "17,8 %",
+      "Concernée par l'audit à la vente (maisons) et par 2034 en location"
+     ],
+     [
+      "F",
+      "7,9 %",
+      "Location interdite à partir de 2028"
+     ],
+     [
+      "G",
+      "4,8 %",
+      "Location interdite depuis 2025"
+     ]
+    ]
+   },
+   "caption": "Le parc par étiquette au 1/01/2025 (résidences principales). A et B : 3,3 % et 5,3 % ; C et D : 27,2 % et 33,7 % ; E : 17,8 %",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Quatre effets sur le marché",
+   "items": [
+    "Ventes : la part des F-G dans les ventes de l'ancien est passée de 11 % en 2021 à 17 % en…",
+    "Valeur : en 2024, les logements performants se vendent plus cher et les très énergivores moins cher, avec des écarts qui varient…",
+    "Assurance : surprime « cat nat » de 12 % à 20 % au 1/01/2025 (arrêté du 22/12/2023) ; 5,2 milliards d'euros…",
+    "Acquéreurs : le DPE est affiché dans l'annonce, l'audit est remis dès la première visite pour une maison F, G ou E…"
+   ],
+   "caption": "Quatre effets sur le marché. Ventes : la part des F-G dans les ventes de l'ancien est passée de 11 % en 2021 à 17 % en… Valeur : en 2024, les logements performants se vendent plus cher et les très énergivores moins cher, avec des écarts qui varient… Assurance : surprime « cat nat » de 12 % à 20 % au 1/01/2025 (arrêté du 22/12/2023) ; 5,2 milliards…",
+   "dur": 26.21481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Phrases à dire",
+   "items": [
+    "« Votre logement est classé F : il se vend, comme 15 % des ventes de l'ancien. Ce qui compte, c'est l'écart…",
+    "« Pour la location, la règle en vigueur aujourd'hui est celle-ci ; un texte est en discussion, je vous dirai s'il est…",
+    "« Je vous donne la source et la date de chaque chiffre. »"
+   ],
+   "caption": "Phrases à dire. « Votre logement est classé F : il se vend, comme 15 % des ventes de l'ancien. Ce qui compte, c'est l'écart… « Pour la location, la règle en vigueur aujourd'hui est celle-ci ; un texte est en discussion, je vous dirai s'il est… « Je vous donne la source et la date de chaque chiffre. »",
+   "dur": 23.25185185185185
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Au 1er janvier 2025, quelle part des résidences principales est classée F ou G selon l'Observatoire national de la rénovation énergétique ?",
+    "options": [
+     "12,7 %, soit environ 3,9 millions de logements",
+     "40 %, soit environ 12 millions de logements",
+     "2 %, soit environ 600 000 logements"
+    ],
+    "answer": 0
+   },
+   "fb": "Au 1/01/2025 : 12,7 % des résidences principales en F-G (7,9 % F, 4,8 % G), environ 327 000 de moins qu'un an plus tôt (SDES, ONRE, 12/11/2025). Sur tout le parc (y compris résidences secondaires et vacantes) : 5,4…",
+   "caption": "Au 1er janvier 2025, quelle part des résidences principales est classée F ou G selon l'Observatoire national de la rénovation énergétique ?",
+   "dur": 27.61481481481481
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Ma frise et trois effets sur ma zone",
+   "steps": [
+    {
+     "label": "Place les six cartes dans l'ordre, avec la date, puis corrige-toi avec la fiche.",
+     "detail": ""
+    },
+    {
+     "label": "Pour chaque date, écris en quelques mots ce qu'elle change pour un vendeur ou un bailleur.",
+     "detail": ""
+    },
+    {
+     "label": "Relève dans l'étude des Notaires l'écart de prix de ta région pour une classe F-G par rapport à…",
+     "detail": ""
+    },
+    {
+     "label": "Relève deux autres effets dans ton activité : délai de vente de tes biens F-G comparé aux autres…",
+     "detail": ""
+    },
+    {
+     "label": "Pour chacun des trois effets, note la source et la date ; si l'effet vient de ton expérience…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Ma frise et trois effets sur ma zone. 35 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Note climat et marché de ma zone",
+   "items": [
+    "Les six dates sont dans le bon ordre, chacune avec ce qu'elle change",
+    "Trois effets distincts sur le marché de la zone de l'apprenant",
+    "Chaque effet a une source et une date, ou la mention « observation personnelle » avec…",
+    "L'écart de valeur verte cité précise la région, le type de bien, l'année et la classe…",
+    "Les règles en discussion (projet de loi Relance du logement) sont présentées comme non votées"
+   ],
+   "caption": "Ton livrable : Note climat et marché de ma zone. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Frise réglementaire (Paris 2015 → Climat et résilience) et fiche impact sur le marché",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 198.88
+}

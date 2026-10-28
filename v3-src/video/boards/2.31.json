@@ -1,0 +1,194 @@
+{
+ "id": "2.31",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Maison : le sol, par les mutations de terrains",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Maison : le sol, par les mutations de terrains",
+   "caption": "Capsule 2.31. Maison : le sol, par les mutations de terrains",
+   "dur": 5.474074074074073
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Valoriser le sol d'une maison et un lot détachable à partir de mutations de terrains, en excluant la bande d'accès et en déduisant les frais de division",
+   "caption": "À la fin de cette capsule : Valoriser le sol d'une maison et un lot détachable à partir de mutations de terrains, en excluant la bande d'accès et en déduisant les frais de division",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "96 000 € (480 × 200)",
+   "pose": "pointe",
+   "scene": "Le lot détachable de Mme Garnier fait 480 m², dont une bande d'accès de 60 m². Les terrains à bâtir se vendent 200 €/m² utile (médiane fictive). Quelle valeur avant frais ?",
+   "caption": "Le lot détachable de Mme Garnier fait 480 m², dont une bande d'accès de 60 m². Les terrains à bâtir se vendent 200 €/m² utile (médiane fictive). Quelle valeur avant frais ? Mozi, lui, répondrait : « 96 000 € (480 × 200) »",
+   "dur": 14.733333333333333
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : la bande d'accès sert au passage ; on ne la valorise pas comme du terrain constructible."
+   ],
+   "caption": "Faux : la bande d'accès sert au passage ; on ne la valorise pas comme du terrain constructible.",
+   "dur": 7.696296296296296
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi voit 1 240 m² de terrain chez Mme Garnier et annonce « 1 240 fois 200 €, c'est 248 000 € de terrain en plus ».",
+    "Sébastien Paumier ouvre le tableau des ventes de terrains, compare au m² utile, retire la bande d'accès, déduit les frais de division et montre ce que vaut vraiment le lot de 420 m² valorisables…"
+   ],
+   "caption": "Mozi voit 1 240 m² de terrain chez Mme Garnier et annonce « 1 240 fois 200 €, c'est 248 000 € de terrain en plus ». Sébastien Paumier ouvre le tableau des ventes de terrains, compare au m² utile, retire la bande d'accès, déduit les frais de division et montre ce que vaut vraiment le lot de 420 m² valorisables : une option à étudier, pas un gain promis.",
+   "dur": 26.21481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Mutations de terrains autour de Vaux-le-Pénil (M13, FICTIF)",
+   "table": {
+    "headers": [
+     "Réf.",
+     "Commune, date",
+     "Surface totale / utile",
+     "Zone, état"
+    ],
+    "rows": [
+     [
+      "T1",
+      "Vaux-le-Pénil, 03/2025",
+      "450 / 450 m²",
+      "UB, viabilisé, argiles moyen"
+     ],
+     [
+      "T2",
+      "Vaux-le-Pénil, 09/2025",
+      "520 / 520 m²",
+      "UB, viabilisé, argiles moyen"
+     ],
+     [
+      "T3",
+      "Le Mée-sur-Seine, 01/2026",
+      "400 / 400 m²",
+      "UB, viabilisé, argiles faible"
+     ],
+     [
+      "T4",
+      "Dammarie-lès-Lys, 06/2025",
+      "600 / 600 m²",
+      "UC, viabilisé, argiles moyen"
+     ],
+     [
+      "T5",
+      "Vaux-le-Pénil, 02/2026",
+      "480 / 430 m² (accès 50 m²)",
+      "UB, en drapeau, argiles moyen"
+     ]
+    ]
+   },
+   "caption": "Mutations de terrains autour de Vaux-le-Pénil (M13, FICTIF). T1 : Vaux-le-Pénil, 03/2025 ; T2 : Vaux-le-Pénil, 09/2025 ; T3 : Le Mée-sur-Seine, 01/2026",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "Le calcul du lot détachable de Mme Garnier",
+   "text": "Médiane des 5 terrains retenus (210, 200, 230, 180, 200) = 200 €/m² utile ; moyenne = 204 €/m². Surface valorisable = 480 m² − 60 m² de bande d'accès = 420 m². Valeur avant frais = 420 × 200 = 84 000 € (fourchette 420 × 180 = 75 600 € à 420 ×…",
+   "caption": "Le calcul du lot détachable de Mme Garnier. Médiane des 5 terrains retenus (210, 200, 230, 180, 200) = 200 €/m² utile ; moyenne = 204 €/m². Surface valorisable = 480 m² − 60 m² de bande d'accès = 420 m². Valeur avant frais = 420 × 200 = 84 000 € (fourchette 420 × 180 = 75 600 € à 420 ×…",
+   "dur": 19.918518518518518
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "La valeur du sol de toute la parcelle (pour la méthode sol + construction)",
+   "text": "Parcelle AB 214 = 1 240 m². Les terrains de référence font 400 à 600 m² : au-delà, le m² vaut moins. Hypothèse de jugement (fictive, à valider) : 600 premiers m² à 200 €/m² = 120 000 € ; surplus de 640 m² en jardin d'agrément à 25 % du prix médian, soit 50…",
+   "caption": "La valeur du sol de toute la parcelle (pour la méthode sol + construction). Parcelle AB 214 = 1 240 m². Les terrains de référence font 400 à 600 m² : au-delà, le m² vaut moins. Hypothèse de jugement (fictive, à valider) : 600 premiers m² à 200 €/m² = 120 000 € ; surplus de 640 m² en jardin d'agrément à 25 % du prix médian, soit 50…",
+   "dur": 24.73333333333333
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Fiche servitude de passage : ce qu'il faut savoir",
+   "items": [
+    "Accès en pleine propriété : la bande de 60 m² appartient au lot ; elle se paie avec lui, mais ne se…",
+    "Servitude conventionnelle : le passage reste sur le terrain conservé ; elle se crée par acte notarié (le passage est une servitude…",
+    "Enclave : si une division crée une parcelle sans accès, le passage ne peut être demandé que sur les terrains issus de…",
+    "Une servitude de passage diminue la valeur du terrain qui la supporte : à intégrer dans le prix de la maison conservée.",
+    "Largeur d'accès minimale : à lire dans le PLU (M07) et à faire confirmer par le géomètre."
+   ],
+   "caption": "Fiche servitude de passage : ce qu'il faut savoir. Accès en pleine propriété : la bande de 60 m² appartient au lot ; elle se paie avec lui, mais ne se… Servitude conventionnelle : le passage reste sur le terrain conservé ; elle se crée par acte notarié (le passage est une servitude… Enclave : si une division crée une parcelle sans accès, le passage ne peut être demandé que…",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Une vente de terrain de 1 100 m² à 3 €/m² apparaît dans DVF à 300 m de la maison. Que fais-tu ?",
+    "options": [
+     "Tu la retiens, c'est la plus proche",
+     "Tu fais la moyenne avec les terrains à bâtir",
+     "Tu vérifies la zone du PLU : en zone agricole ou naturelle, ce n'est pas un terrain à bâtir, tu l'écartes"
+    ],
+    "answer": 2
+   },
+   "fb": "Un terrain vaut ce qu'on peut y construire. Zone, emprise, recul, accès et risques font le prix. Vérifie la zone de chaque référence sur le Géoportail de l'urbanisme.",
+   "caption": "Une vente de terrain de 1 100 m² à 3 €/m² apparaît dans DVF à 300 m de la maison. Que fais-tu ?",
+   "dur": 22.42962962962963
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Valoriser le lot détachable de la maison de Mme Garnier, passage exclu",
+   "steps": [
+    {
+     "label": "Calcule le prix au m² utile de chaque mutation de M13 (pour T5, retire la bande d'accès de…",
+     "detail": ""
+    },
+    {
+     "label": "Retiens les terrains comparables et écris le motif de chaque exclusion.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la médiane et la fourchette, puis la valeur du lot sur 420 m² valorisables.",
+     "detail": ""
+    },
+    {
+     "label": "Déduis les frais de division et écris l'ordre de grandeur net, avec les conditions (déclaration préalable, géomètre, étude…",
+     "detail": ""
+    },
+    {
+     "label": "Rédige la note de 5 lignes pour Mme Garnier, en choisissant entre accès en pleine propriété et servitude…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Valoriser le lot détachable de la maison de Mme Garnier, passage exclu. 35 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Note de valorisation du lot détachable",
+   "items": [
+    "Les prix sont calculés au m² utile, bande d'accès exclue",
+    "Les terrains écartés ont un motif écrit (zone du PLU, vente atypique)",
+    "La valeur du lot (84 000 € avant frais) et sa fourchette sont justifiées par la…",
+    "Les frais de division et l'étude G1 sont mentionnés, ainsi que le renvoi au notaire",
+    "La note ne présente aucun gain comme acquis"
+   ],
+   "caption": "Ton livrable : Note de valorisation du lot détachable. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Tableau des mutations de terrains (prix au m², zone du PLU, risques) + fiche servitude de passage",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 202.96
+}

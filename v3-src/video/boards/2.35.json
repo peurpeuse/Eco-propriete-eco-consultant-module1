@@ -1,0 +1,209 @@
+{
+ "id": "2.35",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Maison : la méthode par capitalisation",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Maison : la méthode par capitalisation",
+   "caption": "Capsule 2.35. Maison : la méthode par capitalisation",
+   "dur": 5
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Calculer la valeur d'une maison par capitalisation (valeur locative annuelle ÷ taux observé), tester la sensibilité au taux et dire quand la méthode sert de contrôle",
+   "caption": "À la fin de cette capsule : Calculer la valeur d'une maison par capitalisation (valeur locative annuelle ÷ taux observé), tester la sensibilité au taux et dire quand la méthode sert de contrôle",
+   "dur": 11.02962962962963
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "57 778 € (2 600 ÷ 4,5 %)",
+   "pose": "base",
+   "scene": "Une grande maison se louerait 2 600 € par mois. Le taux observé pour ce type de bien est 4,5 % (fictif). Quelle valeur par capitalisation ?",
+   "caption": "Une grande maison se louerait 2 600 € par mois. Le taux observé pour ce type de bien est 4,5 % (fictif). Quelle valeur par capitalisation ? Mozi, lui, répondrait : « 57 778 € (2 600 ÷ 4,5 %) »",
+   "dur": 12.881481481481481
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : c'est l'erreur de Mozi ; le taux est annuel, il s'applique au loyer annuel."
+   ],
+   "caption": "Faux : c'est l'erreur de Mozi ; le taux est annuel, il s'applique au loyer annuel.",
+   "dur": 7.696296296296296
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Mozi divise le loyer mensuel par 5 % et annonce une valeur de 27 000 € pour une grande maison.",
+    "Sébastien Paumier pose la formule juste (loyer annuel ÷ taux), montre d'où vient un taux observé, l'applique à une grande propriété du hameau puis à la maison de Mme Garnier, et explique pourquoi, pour…"
+   ],
+   "caption": "Mozi divise le loyer mensuel par 5 % et annonce une valeur de 27 000 € pour une grande maison. Sébastien Paumier pose la formule juste (loyer annuel ÷ taux), montre d'où vient un taux observé, l'applique à une grande propriété du hameau puis à la maison de Mme Garnier, et explique pourquoi, pour elle, la capitalisation n'est qu'un contrôle : classée G, elle ne peut pas être louée en l'état.",
+   "dur": 28.066666666666663
+  },
+  {
+   "kind": "section",
+   "stype": "formula",
+   "title": "La formule",
+   "text": "Valeur = valeur locative annuelle ÷ taux de capitalisation. Taux observé = loyer annuel d'un bien comparable ÷ son prix de vente. Cohérence obligatoire : taux brut avec loyer brut ; taux net avec loyer net des charges non récupérables (taxe foncière, assurance, entretien, gestion).",
+   "caption": "La formule. Valeur = valeur locative annuelle ÷ taux de capitalisation. Taux observé = loyer annuel d'un bien comparable ÷ son prix de vente. Cohérence obligatoire : taux brut avec loyer brut ; taux net avec loyer net des charges non récupérables (taxe foncière, assurance, entretien, gestion).",
+   "dur": 16.955555555555556
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Observer un taux : grandes maisons louées puis vendues (FICTIF)",
+   "table": {
+    "headers": [
+     "Réf.",
+     "Loyer annuel",
+     "Prix de vente",
+     "Taux brut"
+    ],
+    "rows": [
+     [
+      "G1",
+      "29 250 €",
+      "650 000 €",
+      "4,50 %"
+     ],
+     [
+      "G2",
+      "27 600 €",
+      "600 000 €",
+      "4,60 %"
+     ],
+     [
+      "G3",
+      "33 300 €",
+      "760 000 €",
+      "4,38 %"
+     ],
+     [
+      "Médiane",
+      "",
+      "",
+      "4,50 %"
+     ]
+    ]
+   },
+   "caption": "Observer un taux : grandes maisons louées puis vendues (FICTIF). G1 : 29 250 € ; G2 : 27 600 € ; G3 : 33 300 €",
+   "dur": 8.066666666666666
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Deux applications et leur sensibilité (FICTIF)",
+   "table": {
+    "headers": [
+     "Bien",
+     "Loyer annuel",
+     "Taux bas",
+     "Taux observé"
+    ],
+    "rows": [
+     [
+      "Grande maison V7 (210 m², piscine)",
+      "2 600 × 12 = 31 200 €",
+      "4 % : 780 000 €",
+      "4,5 % : 693 333 €"
+     ],
+     [
+      "Maison de Mme Garnier, rénovée et louée",
+      "1 350 × 12 = 16 200 €",
+      "5 % : 324 000 €",
+      "5,5 % : 294 545 €"
+     ]
+    ]
+   },
+   "caption": "Deux applications et leur sensibilité (FICTIF). Grande maison V7 (210 m², piscine) : 2 600 × 12 = 31 200 € ; Maison de Mme Garnier, rénovée et louée : 1 350 × 12 = 16 200 €",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Quand l'utiliser, quand l'écarter",
+   "items": [
+    "Utile : grande propriété avec peu de ventes comparables ; bien loué ou destiné à la location ; contrôle de la cohérence…",
+    "À écarter comme méthode principale : maison familiale achetée par des occupants.",
+    "Impossible en l'état : logement classé G, qui ne peut plus être loué depuis le 1/01/2025 (F à partir de 2028, E…",
+    "Toujours dater et sourcer le loyer et le taux ; toujours montrer la sensibilité à plus ou moins 0,5 point.",
+    "Un bien non performant appelle un loyer plus bas, une vacance plus longue ou une prime de risque sur le taux (Charte)."
+   ],
+   "caption": "Quand l'utiliser, quand l'écarter. Utile : grande propriété avec peu de ventes comparables ; bien loué ou destiné à la location ; contrôle de la cohérence… À écarter comme méthode principale : maison familiale achetée par des occupants. Impossible en l'état : logement classé G, qui ne peut plus être loué depuis le 1/01/2025 (F à partir de 2028, E… Toujours dater et sourcer le loyer et le taux …",
+   "dur": 26.955555555555552
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Pour la maison de Mme Garnier, la capitalisation donne 294 545 € (16 200 € ÷ 5,5 %) pour une maison rénovée louée. Pourquoi ne la prends-tu pas comme méthode principale ?",
+    "options": [
+     "Parce que la formule est fausse",
+     "Parce que le loyer est trop bas",
+     "Parce que la maison, classée G, ne peut pas être louée en l'état, et que ses acheteurs sont des occupants, pas des investisseurs"
+    ],
+    "answer": 2
+   },
+   "fb": "La capitalisation dit ce que paierait un investisseur. Pour une maison familiale, elle sert de contrôle. Rénovée et louée, la maison vaudrait 294 545 € pour un investisseur, contre 369 600 € par comparaison avec des maisons rénovées : le…",
+   "caption": "Pour la maison de Mme Garnier, la capitalisation donne 294 545 € (16 200 € ÷ 5,5 %) pour une maison rénovée louée. Pourquoi ne la prends-tu pas comme méthode principale ?",
+   "dur": 27.244444444444444
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Calculer la valeur d'une grande maison par capitalisation",
+   "steps": [
+    {
+     "label": "Calcule le taux brut de G1, G2 et G3, puis le taux médian.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la valeur de V7 par capitalisation et compare-la à son prix de vente réel.",
+     "detail": ""
+    },
+    {
+     "label": "Teste la sensibilité de V7 à plus ou moins 0,5 point de taux.",
+     "detail": ""
+    },
+    {
+     "label": "Calcule la valeur de la maison de Mme Garnier rénovée et louée (1 350 €/mois, 5,5 %), puis…",
+     "detail": ""
+    },
+    {
+     "label": "Écris en 3 phrases si tu retiens cette méthode pour Mme Garnier et pourquoi.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Calculer la valeur d'une grande maison par capitalisation. 30 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Note de capitalisation : grande maison et contrôle pour Mme Garnier",
+   "items": [
+    "Le taux médian est calculé à partir des références G1 à G3",
+    "La valeur de V7 utilise le loyer annuel, pas mensuel",
+    "La sensibilité à plus ou moins 0,5 point est chiffrée",
+    "Le calcul pour Mme Garnier distingue la valeur rénovée louée et la valeur investisseur en l'état",
+    "La note justifie le rôle de contrôle de la méthode pour une maison classée G"
+   ],
+   "caption": "Ton livrable : Note de capitalisation : grande maison et contrôle pour Mme Garnier. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche capitalisation : valeur locative ÷ taux",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 188.04
+}

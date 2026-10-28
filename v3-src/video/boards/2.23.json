@@ -1,0 +1,222 @@
+{
+ "id": "2.23",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Appartement : diagnostics et documents des parties communes",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Appartement : diagnostics et documents des parties communes",
+   "caption": "Capsule 2.23. Appartement : diagnostics et documents des parties communes",
+   "dur": 5.103703703703703
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Repérer dans un dossier de copropriété les diagnostics des parties communes (amiante, plomb, DPE collectif) et les documents de travaux (DTG, plan pluriannuel), et dire lesquels manquent",
+   "caption": "À la fin de cette capsule : Repérer dans un dossier de copropriété les diagnostics des parties communes (amiante, plomb, DPE collectif) et les documents de travaux (DTG, plan pluriannuel), et dire lesquels manquent",
+   "dur": 11.4
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "Un constat de risque d'exposition au plomb des parties communes",
+   "pose": "bof",
+   "scene": "L'immeuble des Tilleuls a un permis de construire de 1970. Quel diagnostic des parties communes doit exister ?",
+   "caption": "L'immeuble des Tilleuls a un permis de construire de 1970. Quel diagnostic des parties communes doit exister ? Mozi, lui, répondrait : « Un constat de risque d'exposition au plomb des parties communes »",
+   "dur": 12.14074074074074
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : le plomb vise les immeubles d'habitation construits avant le 1er janvier 1949 ; Les Tilleuls datent de 1972."
+   ],
+   "caption": "Faux : le plomb vise les immeubles d'habitation construits avant le 1er janvier 1949 ; Les Tilleuls datent de 1972.",
+   "dur": 8.437037037037037
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Le dossier de diagnostics de M. Bernard parle de son appartement.",
+    "Mais l'immeuble des Tilleuls a aussi les siens : dossier technique amiante, DPE collectif classé E, projet de plan pluriannuel de travaux.",
+    "Sébastien Paumier montre comment les retrouver, dater et lire, et pourquoi un acquéreur les lira avant de signer."
+   ],
+   "caption": "Le dossier de diagnostics de M. Bernard parle de son appartement. Mais l'immeuble des Tilleuls a aussi les siens : dossier technique amiante, DPE collectif classé E, projet de plan pluriannuel de travaux. Sébastien Paumier montre comment les retrouver, dater et lire, et pourquoi un acquéreur les lira avant de signer.",
+   "dur": 20.288888888888888
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Les diagnostics et documents des parties communes",
+   "table": {
+    "headers": [
+     "Document",
+     "Quand il est exigé",
+     "Ce que tu y lis"
+    ],
+    "rows": [
+     [
+      "Dossier technique amiante (DTA)",
+      "Immeuble collectif dont le permis a été délivré avant le 1er juillet…",
+      "Matériaux repérés, état, mesures ; fiche récapitulative"
+     ],
+     [
+      "Constat plomb des parties communes",
+      "Immeuble d'habitation construit avant le 1er janvier 1949",
+      "Revêtements contenant du plomb et leur état"
+     ],
+     [
+      "DPE collectif",
+      "Calendrier : plus de 200 lots au 1/01/2024, 50 à 200 lots…",
+      "Classe de l'immeuble, postes de déperdition"
+     ],
+     [
+      "Projet de plan pluriannuel de travaux (PPPT)",
+      "Immeuble à usage d'habitation de plus de 15 ans",
+      "Travaux sur 10 ans, coûts estimés, priorités, échéancier"
+     ],
+     [
+      "Diagnostic technique global (DTG)",
+      "Décidé par l'AG (art. 24) ; obligatoire dans certains cas (mise en…",
+      "État de l'immeuble, travaux à 10 ans ; un DTG sans travaux…"
+     ]
+    ]
+   },
+   "caption": "Les diagnostics et documents des parties communes. Dossier technique amiante (DTA) : Immeuble collectif dont le permis a été délivré avant le 1er juillet 1997 ; Constat plomb des parties communes : Immeuble d'habitation construit avant le 1er janvier 1949 ; DPE collectif : Calendrier : plus de 200 lots au 1/01/2024, 50 à 200 lots au 1/01/2025, jusqu'à 50 lots au 1/01/2026",
+   "dur": 25.47407407407407
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "La check-list à cocher pour un appartement",
+   "items": [
+    "Date du permis de construire de l'immeuble (avant 1949 ? avant juillet 1997 ?)",
+    "Nombre de lots de la copropriété et date de construction",
+    "Fiche récapitulative du DTA demandée au syndic",
+    "DPE collectif : date, classe, recommandations",
+    "PPPT ou DTG : date d'adoption, travaux et années prévus"
+   ],
+   "caption": "La check-list à cocher pour un appartement. Date du permis de construire de l'immeuble (avant 1949 ? avant juillet 1997 ?) Nombre de lots de la copropriété et date de construction Fiche récapitulative du DTA demandée au syndic DPE collectif : date, classe, recommandations PPPT ou DTG : date d'adoption, travaux et années prévus",
+   "dur": 21.02962962962963
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemple rempli : résidence Les Tilleuls (fictif)",
+   "table": {
+    "headers": [
+     "Document",
+     "Constat",
+     "Vigilance"
+    ],
+    "rows": [
+     [
+      "DTA",
+      "Permis 1970 : DTA obligatoire ; fiche récapitulative à demander",
+      "À obtenir avant la promesse"
+     ],
+     [
+      "Plomb parties communes",
+      "Non concerné (construit après 1949)",
+      "Aucune"
+     ],
+     [
+      "DPE collectif",
+      "Réalisé en février 2026 : classe E",
+      "L'ITE votée vise à l'améliorer"
+     ],
+     [
+      "PPPT",
+      "Adopté en AG le 20/06/2024 : ravalement + ITE, menuiseries des parties…",
+      "Toiture : à signaler sans chiffrer"
+     ],
+     [
+      "DTG",
+      "Aucun DTG au dossier",
+      "Non bloquant : le PPPT existe"
+     ]
+    ]
+   },
+   "caption": "Exemple rempli : résidence Les Tilleuls (fictif). DTA : Permis 1970 : DTA obligatoire ; fiche récapitulative à demander ; Plomb parties communes : Non concerné (construit après 1949) ; DPE collectif : Réalisé en février 2026 : classe E",
+   "dur": 12.881481481481481
+  },
+  {
+   "kind": "section",
+   "stype": "text",
+   "title": "La phrase à dire au vendeur",
+   "text": "« Votre dossier de diagnostics est complet pour l'appartement. Pour l'immeuble, je demande au syndic la fiche du dossier technique amiante, le DPE collectif et le plan de travaux. L'acquéreur les lira : autant que nous les connaissions avant lui, et que nous puissions répondre à chaque question. »",
+   "caption": "La phrase à dire au vendeur. « Votre dossier de diagnostics est complet pour l'appartement. Pour l'immeuble, je demande au syndic la fiche du dossier technique amiante, le DPE collectif et le plan de travaux. L'acquéreur les lira : autant que nous les connaissions avant lui, et que nous puissions répondre à chaque question. »",
+   "dur": 21.77037037037037
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "Un acquéreur demande quels gros travaux attendent la copropriété dans les 10 ans. Quel document lui montres-tu ?",
+    "options": [
+     "Le projet de plan pluriannuel de travaux (D09)",
+     "Le carnet d'entretien (D08)",
+     "Le DPE de l'appartement (D02)"
+    ],
+    "answer": 0
+   },
+   "fb": "Aux Tilleuls, le PPPT adopté le 20/06/2024 prévoit ravalement + ITE (votés depuis), menuiseries des parties communes et toiture-terrasse en 2030. Il fait partie des documents remis à l'acquéreur.",
+   "caption": "Un acquéreur demande quels gros travaux attendent la copropriété dans les 10 ans. Quel document lui montres-tu ?",
+   "dur": 21.318518518518516
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Repérer les diagnostics communs et le plan de travaux",
+   "steps": [
+    {
+     "label": "Relève l'année du permis de construire et le nombre de lots, et déduis les diagnostics communs exigés (amiante…",
+     "detail": ""
+    },
+    {
+     "label": "Coche dans la check-list les documents présents et ceux à demander au syndic.",
+     "detail": ""
+    },
+    {
+     "label": "Dans D09, liste les travaux prévus avec leur année et leur état (votés, à voter).",
+     "detail": ""
+    },
+    {
+     "label": "Vérifie la cohérence entre D09 (prévu), D07 (voté) et D08 (réalisé).",
+     "detail": ""
+    },
+    {
+     "label": "Rédige la liste des pièces à demander au syndic, avec une phrase d'explication pour M. Bernard.",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Repérer les diagnostics communs et le plan de travaux. 25 minutes.",
+   "dur": 13.0
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Inventaire des documents des parties communes des Tilleuls",
+   "items": [
+    "Les diagnostics communs exigés sont déduits de l'année du permis (DTA oui, plomb non)",
+    "Le DPE collectif est daté et classé (E, février 2026)",
+    "Les travaux du PPPT sont listés avec leur année et leur statut (voté, à voter)",
+    "Au moins une pièce manquante est identifiée et demandée au syndic",
+    "Aucun travail futur non voté n'est chiffré"
+   ],
+   "caption": "Ton livrable : Inventaire des documents des parties communes des Tilleuls. Il sera validé sur ces critères.",
+   "dur": 13
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Check-list parties communes (amiante, plomb, DPE collectif s'il existe, DTG et plan pluriannuel de travaux selon la copropriété)",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 6
+  }
+ ],
+ "total": 191.84
+}

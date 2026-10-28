@@ -1,0 +1,199 @@
+{
+ "id": "2.24",
+ "module": 2,
+ "modlabel": "Module 2",
+ "modtitle": "Estimer et construire la stratégie de vente",
+ "color": "#F08A00",
+ "title": "Audit de la copropriété : le PV d'AG",
+ "chapter": true,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Chapitre 2.24 : le PV d'AG",
+   "caption": "Bienvenue. Dans ce chapitre, tu lis le PV d'assemblée générale. Et tu trouves ce que l'acheteur découvrirait seul.",
+   "cta": "Commencer",
+   "dur": 8.81
+  },
+  {
+   "kind": "goals",
+   "title": "Ce que tu vas faire",
+   "caption": "Tu vas comprendre, appliquer, puis prouver.",
+   "items": [
+    {
+     "verb": "Comprendre",
+     "text": "ce que raconte un PV d'AG, résolution par résolution"
+    },
+    {
+     "verb": "Appliquer",
+     "text": "calculer la part du lot et dire qui paie chaque appel de fonds"
+    },
+    {
+     "verb": "Prouver",
+     "text": "montrer ton analyse du PV d'AG des Tilleuls"
+    }
+   ],
+   "cta": "Suivant",
+   "dur": 3.62
+  },
+  {
+   "kind": "mozi",
+   "title": "Le PV d'AG ? Parfait pour caler la table !",
+   "caption": "Le PV d'AG ? Parfait pour caler la table !",
+   "line": "Le PV d'AG ? Parfait pour caler la table !",
+   "scene": "Mozi glisse le PV d'assemblée générale plié sous le pied bancal de la table, puis signe son estimation dessus.",
+   "pose": "presente",
+   "dur": 4.73
+  },
+  {
+   "kind": "belief",
+   "title": "3 PV, 0 lu, 35 880 € oubliés",
+   "caption": "Trois procès-verbaux, zéro lu, trente-cinq mille huit cent quatre-vingts euros oubliés.",
+   "beats": [
+    "3 PV",
+    "0 lu",
+    "35 880 € oubliés"
+   ],
+   "wrong": 1,
+   "why": "Les PV d'AG se lisent : les 35 880 € de travaux votés y sont écrits.",
+   "dur": 8
+  },
+  {
+   "kind": "consequence",
+   "title": "L'acheteur le lit. Avant de signer.",
+   "caption": "Sauf que la loi impose de remettre à l'acheteur les PV d'assemblée des trois dernières années, au plus tard à la promesse. Il découvrira les travaux. Seul. Juste avant de signer.",
+   "lines": [
+    "Les PV d'AG des 3 dernières années sont remis à l'acheteur.",
+    "Il découvre les 35 880 € seul, juste avant de signer."
+   ],
+   "dur": 13.62
+  },
+  {
+   "kind": "stat",
+   "title": "5 % du budget, chaque année, au fonds de travaux",
+   "caption": "Un chiffre à connaître : chaque année, au moins cinq pour cent du budget de la copropriété vont au fonds de travaux. Et cet argent reste attaché au lot. Le syndic ne le rembourse pas au vendeur.",
+   "value": "5 %",
+   "label": "du budget prévisionnel : cotisation annuelle minimale au fonds de travaux",
+   "dur": 14.73
+  },
+  {
+   "kind": "steps",
+   "title": "3 ans de PV → Part du lot → Qui paie",
+   "caption": "Trois idées. Un : tu lis les PV des trois dernières années, pas seulement le dernier. Pour chaque résolution de travaux : l'objet, la majorité, le vote, le montant, le calendrier. Le carnet d'entretien et les charges, ce sera en 2.25. Deux : tu calcules la part du lot. Le montant voté, fois les tantièmes du lot, divisé par dix mille. Pour l'isolation des Tilleuls : un million cent cinquante mille euros, fois 312, divisé par dix mille. Trente-cinq mille huit cent quatre-vingts euros. Trois : qui paie quand on vend ? Pour des travaux hors budget, celui qui est copropriétaire le jour où l'appel est exigible. Un autre partage reste possible entre vendeur et acheteur, mais c'est le notaire qui l'écrit.",
+   "steps": [
+    {
+     "label": "3 ans de PV",
+     "detail": "Chaque résolution de travaux : objet, majorité, vote, montant, calendrier."
+    },
+    {
+     "label": "Part du lot",
+     "detail": "Montant voté × tantièmes du lot / 10 000 : ici 35 880 €."
+    },
+    {
+     "label": "Qui paie",
+     "detail": "Travaux hors budget : le copropriétaire à la date d'exigibilité de l'appel."
+    }
+   ],
+   "dur": 47.7
+  },
+  {
+   "kind": "retrieval",
+   "title": "Toi, que proposerais-tu ?",
+   "caption": "Toi, que proposerais-tu ?",
+   "prompt": "Toi, que proposerais-tu ?",
+   "context": "Maxime prépare l'estimation d'un appartement. Le vendeur lui donne seulement le dernier PV d'AG : aucun travaux voté dedans. Que doit-il faire avant d'estimer ?",
+   "model_answer": "Demander au syndic tout le dossier : fiche synthétique, PV d'AG des trois dernières années, carnet d'entretien, PPPT, impayés et fonds de travaux. Des travaux votés il y a deux ans peuvent encore être appelés.",
+   "dur": 25.7
+  },
+  {
+   "kind": "quiz",
+   "title": "Quelle règle Mozi enfreint-il ?",
+   "caption": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+   "card1": {
+    "question": "Quelle règle Mozi enfreint-il ?",
+    "options": [
+     "Lire les PV d'AG et chiffrer les travaux votés avant d'estimer",
+     "Seul le dernier PV compte, les anciens sont périmés",
+     "Les travaux de copropriété ne regardent que le syndic"
+    ],
+    "answer": 0,
+    "feedback": "L'acheteur recevra les PV d'AG des trois dernières années au plus tard à la promesse (CCH, art. L. 721-2). L'agent qui ne les lit pas découvre les 35 880 € après lui.",
+    "whys": [
+     "Exact : les travaux votés pèsent sur le lot, et l'acheteur lira ces PV. Tu dois les avoir lus avant lui.",
+     "Faux : des travaux votés il y a deux ans peuvent encore être appelés. On lit les PV des trois dernières années.",
+     "Faux : la quote-part est appelée sur chaque lot, donc sur le vendeur ou sur l'acquéreur."
+    ]
+   },
+   "card2": {
+    "question": "Si l'acte de M. Bernard était signé le 15 mars 2027, qui paierait chaque appel de 8 970 € au syndicat ?",
+    "answer": "M. Bernard, copropriétaire au 1er janvier 2027, paie le premier appel. L'acquéreur paie les trois suivants : 3 × 8 970 = 26 910 €. Un autre partage reste possible entre eux, rédigé par le notaire, sans effet pour le syndicat (art. 6-3)."
+   },
+   "fb": "L'acheteur recevra les PV d'AG des trois dernières années au plus tard à la promesse (CCH, art. L. 721-2). L'agent qui ne les lit pas découvre les 35 880 € après lui.",
+   "dur": 20.21
+  },
+  {
+   "kind": "tools",
+   "title": "Deux gestes, un seul but",
+   "caption": "Deux gestes, un seul but : savoir ce que l'immeuble coûtera au lot. La lecture du PV, résolution par résolution, puis le tableau des appels de fonds.",
+   "goal": "Savoir ce que l'immeuble coûtera au lot",
+   "tools": [
+    {
+     "name": "PV d'AG (D07)",
+     "role": "Repérer les travaux votés : majorité, montant, calendrier"
+    },
+    {
+     "name": "Tableau des appels de fonds",
+     "role": "Part du lot, dates d'exigibilité, qui paie"
+    }
+   ],
+   "dur": 11.4
+  },
+  {
+   "kind": "demo",
+   "title": "Le PV du 12 juin 2025, résolution par résolution",
+   "caption": "Dans le PV du 12 juin 2025, tu cherches les résolutions de travaux. Ravalement et isolation par l'extérieur : votés à la majorité de l'article 25. Un million cent cinquante mille euros, démarrage en avril 2027. L'aide demandée par le syndic n'est pas notifiée : tu la cites, tu ne la chiffres pas.",
+   "steps": [
+    "Ordre du jour : repérer les résolutions de travaux",
+    "Ravalement + ITE : voté, majorité de l'article 25",
+    "Montant : 1 150 000 € TTC, démarrage en avril 2027",
+    "Aide MaPrimeRénov' Copropriété demandée : citée, pas chiffrée"
+   ],
+   "tool": "PV d'AG (D07)",
+   "dur": 21.77
+  },
+  {
+   "kind": "demo",
+   "title": "Le tableau des appels : part, dates, qui paie",
+   "caption": "Puis le tableau des appels. Part du lot : 35 880 euros, en quatre appels de 8 970 euros, le premier de chaque trimestre 2027. Pour chaque date, une question : qui est copropriétaire ce jour-là ? Et tout accord différent, c'est le notaire qui l'écrit.",
+   "steps": [
+    "Part du lot : 1 150 000 × 312 / 10 000 = 35 880 €",
+    "Échéancier : 4 × 8 970 € les 1/01, 1/04, 1/07 et 1/10/2027",
+    "Pour chaque date : qui est copropriétaire ce jour-là ?",
+    "Accord différent : écrit par le notaire (art. 6-3)"
+   ],
+   "tool": "Tableau des appels de fonds",
+   "dur": 18.44
+  },
+  {
+   "kind": "action",
+   "title": "À toi de jouer",
+   "caption": "Analyse le PV d'AG maintenant.",
+   "cta": "Ouvrir l'exercice : PV d'AG",
+   "dur": 3.62
+  },
+  {
+   "kind": "proof",
+   "title": "Ta preuve en une image",
+   "caption": "Montre-moi ton analyse du PV.",
+   "ask": "Dépose une capture de ton analyse du PV d'AG : résolutions de travaux, majorité, quote-part du lot, échéancier 2027 et qui paie chaque appel.",
+   "dur": 3.62
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "caption": "Bravo. Les deux agences n'ont pas parlé des 35 880 euros. Toi, tu as le montant, les dates, et qui paie.",
+   "status": "Les deux agences : 0 mention des 35 880 €. Toi : le montant, les dates et qui paie.",
+   "dur": 9.55
+  }
+ ],
+ "total": 215.52
+}
