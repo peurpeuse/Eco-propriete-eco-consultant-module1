@@ -1,0 +1,162 @@
+{
+  "id": "2.25",
+  "module": 2,
+  "section": "J · PARCOURS APPARTEMENT · Droit de la copropriété et audit de la copropriété",
+  "etape": "3 (Éco-staging)",
+  "parcours": "appartement",
+  "prio": false,
+  "ia": false,
+  "title": "Audit de la copropriété : carnet d'entretien et charges",
+  "objective": "Lire un carnet d'entretien pour dater les gros travaux faits et à venir, calculer les charges annuelles d'un lot et les présenter à un acquéreur dans une grille",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Ascenseurs remplacés en 2019, colonnes d'eau refaites en 2015, étanchéité de la toiture-terrasse de 2004 en fin de vie. Sébastien Paumier ouvre le carnet d'entretien des Tilleuls, puis les appels de charges : 2 652 € par an pour le lot de M. Bernard. Il montre comment transformer ces deux documents en arguments clairs pour un acquéreur."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Dans le carnet d'entretien des Tilleuls (D08), quelle information un acquéreur trouvera-t-il obligatoirement ?",
+        "options": [
+          "Le montant des travaux à voter dans les dix ans",
+          "Le détail des impayés de chaque copropriétaire",
+          "L'année des travaux importants (ascenseur, canalisations, toiture) et les entreprises qui les ont réalisés"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : les travaux à venir et leur coût estimé sont dans le projet de plan pluriannuel de travaux, pas dans le carnet.",
+          "Faux : les impayés apparaissent de façon globale dans les documents financiers, jamais par copropriétaire dans le carnet.",
+          "Juste : le décret du 30 mai 2001 impose l'année des travaux importants et l'identité des entreprises, ainsi que les contrats d'assurance."
+        ],
+        "fb_title": "Le carnet raconte le passé",
+        "fb_text": "Le carnet d'entretien, tenu par le syndic (art. 18 de la loi de 1965, décret du 30 mai 2001), dit ce qui a été fait, quand et par qui, et quels contrats couvrent l'immeuble. Pour le futur, tu lis le PPPT et les PV d'AG."
+      },
+      {
+        "question": "Budget prévisionnel 2026 des Tilleuls : 85 000 €. Lot de M. Bernard : 312 / 10 000. Quelles sont ses charges courantes annuelles ?",
+        "options": [
+          "2 652 €",
+          "265,20 €",
+          "26 520 €"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : 85 000 × 312 / 10 000 = 2 652 € par an, soit environ 663 € par trimestre.",
+          "Faux : erreur d'un facteur 10 ; le résultat ne correspond pas aux appels trimestriels de D06.",
+          "Faux : erreur d'un facteur 10 dans l'autre sens."
+        ],
+        "fb_title": "85 000 × 312 / 10 000",
+        "fb_text": "2 652 € par an de charges courantes, plus 132,60 € de fonds de travaux (5 % du budget), soit 2 784,60 € par an. Rapporté à la surface : 2 652 / 76 ≈ 34,9 € par m² et par an, utile pour comparer avec d'autres immeubles."
+      },
+      {
+        "question": "Mozi rassure un acquéreur : « Les charges sont faibles, la toiture n'a jamais posé de problème. » Le carnet montre une étanchéité de 2004 en fin de vie vers 2030. Que dis-tu ?",
+        "options": [
+          "« Les charges sont faibles, c'est l'essentiel. »",
+          "« L'étanchéité du toit date de 2004 ; le plan de travaux prévoit sa réfection vers 2030, ni chiffrée ni votée à ce jour. »",
+          "« Prévoyez 20 000 € pour la toiture. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : taire un poste en fin de vie connu expose ton vendeur, et toi, à un reproche de manque d'information.",
+          "Juste : tu donnes le fait daté et sa source, sans chiffrer ce qui n'est ni chiffré ni voté.",
+          "Faux : ce montant n'est sourcé nulle part ; tu n'inventes pas un coût."
+        ],
+        "fb_title": "Signaler sans chiffrer",
+        "fb_text": "Un poste en fin de vie se signale avec sa date et sa source (D08, D09). Tant qu'il n'est ni chiffré ni voté, tu ne donnes pas de montant : tu indiques que l'acquéreur suivra la décision en AG."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Grille travaux votés et charges",
+    "kind": "grille",
+    "intro": "Cette grille rassemble sur une page ce qu'un acquéreur veut savoir de l'immeuble : ce qui a été fait (carnet d'entretien), ce qui est voté (PV d'AG), ce qui est prévu (plan de travaux) et ce que coûte le lot chaque année (charges et fonds de travaux). Chaque ligne cite son document source.",
+    "sections": [
+      {
+        "type": "list",
+        "heading": "Ce que contient le carnet d'entretien (décret n° 2001-477 du 30 mai 2001)",
+        "items": [
+          "L'adresse de l'immeuble et l'identité du syndic en exercice.",
+          "Les références des contrats d'assurance de l'immeuble et leur date d'échéance.",
+          "L'année des travaux importants (ravalement, toiture, ascenseur, chaudière, canalisations) et les entreprises qui les ont réalisés.",
+          "Les références des assurances dommages-ouvrage en cours.",
+          "Selon les cas : contrats d'entretien et de maintenance des équipements communs, échéancier du programme de travaux décidé par l'AG (à vérifier dans le texte en vigueur)."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Grille travaux : fait, voté, prévu (Les Tilleuls, fictif)",
+        "headers": ["Poste", "Statut", "Date", "Source", "Ce que tu dis"],
+        "rows": [
+          ["Colonnes d'eau", "Fait", "2015", "D08", "Poste récent, pas de dépense attendue à court terme"],
+          ["Ascenseurs", "Fait", "2019", "D08", "Poste récent, contrat d'entretien à vérifier"],
+          ["Ravalement + ITE", "Voté le 12/06/2025", "Avril 2027", "D07", "35 880 € pour le lot, 4 appels de 8 970 €"],
+          ["Menuiseries des parties communes", "Prévu", "Non daté", "D09", "Inscrit au plan, à voter"],
+          ["Toiture-terrasse (étanchéité 2004)", "Prévu", "Vers 2030", "D08, D09", "Fin de vie connue, non chiffrée, à voter"]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Les charges du lot de M. Bernard (fictif)",
+        "text": "Charges courantes = budget × tantièmes ÷ total : 85 000 × 312 ÷ 10 000 = 2 652 €/an (≈ 663 €/trimestre). Fonds de travaux : 4 250 × 312 ÷ 10 000 = 132,60 €/an. Total annuel = 2 784,60 €. Charges courantes au m² : 2 652 ÷ 76 ≈ 34,9 €/m²/an, soit ≈ 2,91 €/m²/mois. Pas de chauffage collectif : le chauffage n'est pas dans les charges."
+      },
+      {
+        "type": "checklist",
+        "heading": "Les points de contrôle sur les charges",
+        "items": [
+          "Les appels de charges des 2 derniers exercices (D06) correspondent au budget voté",
+          "Charges générales et charges spéciales (ascenseur selon l'étage) sont distinguées",
+          "Le fonds de travaux atteint au moins 5 % du budget prévisionnel ; avec un plan pluriannuel adopté, au moins 2,5 % du montant des travaux prévus (à vérifier avec le syndic)",
+          "Le taux d'impayés de l'immeuble est connu (6 % aux Tilleuls : modéré, à suivre)",
+          "Les travaux votés hors budget sont présentés à part des charges courantes"
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire à l'acquéreur",
+        "text": "« Les charges courantes sont de 2 652 € par an, environ 663 € par trimestre, sans chauffage collectif. S'y ajoutent 132,60 € par an de fonds de travaux. Les colonnes d'eau et les ascenseurs sont récents. L'isolation de la façade est votée pour 2027, et l'étanchéité du toit, qui date de 2004, sera à refaire vers 2030 : ce n'est pas encore chiffré, l'assemblée en décidera. »"
+      }
+    ],
+    "footer": "Sources : décret n° 2001-477 du 30 mai 2001, art. 3 (contenu du carnet d'entretien) ; loi n° 65-557 du 10 juillet 1965, art. 10, 14-2-1 et 18 ; décret n° 67-223 du 17 mars 1967, art. 33 (archives du syndic, copie du carnet d'entretien). Données Les Tilleuls fictives (bible §4). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Lire un carnet d'entretien",
+    "duration_min": 25,
+    "context": "Un couple d'acquéreurs, Julie et Thomas Martin, primo-accédants, visite l'appartement de M. Bernard. Ils demandent : « L'immeuble est-il bien entretenu ? Combien coûtent les charges ? » Tu prépares une grille d'une page à partir du carnet d'entretien et des appels de charges.",
+    "materials": [
+      "D08 Carnet d'entretien (extraits)",
+      "D06 Appels de charges et budget prévisionnel 2026",
+      "D09 Synthèse du PPPT",
+      "D07 PV d'AG du 12/06/2025 (extraits)",
+      "D10 Fiche synthétique de la copropriété"
+    ],
+    "steps": [
+      "Dans D08, relève les travaux importants réalisés, leur année et l'entreprise, ainsi que les contrats d'assurance.",
+      "Repère les postes en fin de vie et vérifie s'ils figurent dans D09 ou ont été votés dans D07.",
+      "Remplis la grille « fait, voté, prévu » avec la source de chaque ligne.",
+      "Dans D06 et D10, calcule les charges courantes, le fonds de travaux et le total annuel du lot, puis les charges au m².",
+      "Rédige la réponse aux Martin en 5 lignes maximum, sans chiffrer ce qui n'est pas voté."
+    ],
+    "expected": "Fait : colonnes d'eau 2015, ascenseurs 2019 (D08), avec entreprises et contrats d'assurance relevés. Voté : ravalement + ITE le 12/06/2025, démarrage avril 2027, 35 880 € pour le lot en 4 appels de 8 970 € (D07). Prévu : menuiseries des parties communes ; toiture-terrasse dont l'étanchéité date de 2004, fin de vie vers 2030 (D08, D09), non chiffrée, à voter. Charges : 85 000 × 312 / 10 000 = 2 652 €/an (≈ 663 €/trimestre) ; fonds de travaux 132,60 €/an ; total 2 784,60 €/an ; 2 652 / 76 ≈ 34,9 €/m²/an. Impayés 6 % du budget : modéré. Réponse : « Immeuble entretenu : colonnes et ascenseurs récents. Charges de 2 652 € par an, sans chauffage collectif, plus 132,60 € de fonds de travaux. Façade isolée en 2027, votée ; toiture à refaire vers 2030, pas encore chiffrée. »"
+  },
+  "deliverable": {
+    "title": "Grille travaux votés et charges du lot de M. Bernard",
+    "format": "PDF ou tableur, 1 page",
+    "criteria": [
+      "La grille distingue fait, voté et prévu, avec une source par ligne",
+      "Les années des travaux importants sont exactes (colonnes 2015, ascenseurs 2019, étanchéité 2004)",
+      "Les charges annuelles (2 652 €), le fonds de travaux (132,60 €) et le total (2 784,60 €) sont justes",
+      "La toiture est signalée sans montant inventé",
+      "La réponse aux acquéreurs tient en 5 lignes et ne promet rien"
+    ]
+  },
+  "sources": [
+    { "label": "Décret n° 2001-477 du 30 mai 2001 fixant le contenu du carnet d'entretien de l'immeuble", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000005631026" },
+    { "label": "Loi n° 65-557 du 10 juillet 1965 (art. 10 répartition des charges, art. 14-2-1 fonds de travaux, art. 18 carnet d'entretien)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068256/" },
+    { "label": "Décret n° 67-223 du 17 mars 1967, art. 33 (archives et carnet d'entretien détenus par le syndic)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006061423/" },
+    { "label": "Service-Public : fonds de travaux dans les copropriétés", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34026" }
+  ],
+  "open_points": [
+    "À vérifier : liste complète des mentions obligatoires et facultatives du carnet d'entretien (art. 3 et 4 du décret du 30 mai 2001) ; seules les mentions relues sont présentées comme obligatoires.",
+    "À vérifier avec le syndic (cohérence avec la capsule 2.24 v3) : plancher du fonds de travaux de 2,5 % du montant des travaux prévus si le plan pluriannuel est adopté, alors que la bible ne donne que les 5 % du budget.",
+    "Les entreprises et contrats d'assurance du carnet D08 ne sont pas décrits dans la bible : à ajouter au document D08 pour que l'exercice soit faisable."
+  ]
+}

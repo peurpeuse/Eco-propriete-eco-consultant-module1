@@ -1,0 +1,147 @@
+{
+ "id": "1.7",
+ "module": 1,
+ "section": "D · Je choisis une cible",
+ "etape": "Avant l'étape 1",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "Choisir sa cible : le propriétaire à servir",
+ "objective": "Décrire en une fiche le propriétaire qu'on veut servir (qui il est, pourquoi il vend, où il vit) à partir de ses secteurs prioritaires et de ses ventes réelles",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Sébastien Paumier compare deux vendeurs du fil rouge : M. Bernard, retraité qui veut se rapprocher de sa fille, et Mme Garnier, qui entre en résidence seniors. Même région, mêmes peurs du DPE, mais pas les mêmes besoins. Il montre comment passer de « tous les vendeurs » à un propriétaire précis, décrit en trois questions : qui est-il, pourquoi vend-il, où vit-il."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Hugo, mandataire, écrit sa cible : « Tous les propriétaires qui veulent vendre. » Que lui conseilles-tu ?",
+    "options": [
+     "De garder cette cible : il ne faut fermer aucune porte.",
+     "D'ajouter « au meilleur prix » pour être plus vendeur.",
+     "De décrire un propriétaire précis : son âge, sa raison de vendre, son type de bien, son secteur."
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : une cible qui vise tout le monde ne guide aucun message ni aucune action.",
+     "Faux : c'est une promesse, pas une cible ; et le prix ne se promet pas.",
+     "Juste : une cible précise te dit où aller, quoi dire et quelle preuve apporter."
+    ],
+    "fb_title": "Tout le monde, c'est personne",
+    "fb_text": "Choisir une cible ne t'interdit pas les autres vendeurs : cela te dit à qui parler en premier. Exemple : « retraités propriétaires d'un appartement des années 70 classé E ou F, qui vendent pour se rapprocher de leur famille »."
+   },
+   {
+    "question": "Mme Garnier, 71 ans, vend sa maison de 1968 pour entrer en résidence seniors. Quel besoin principal ta fiche cible doit-elle noter ?",
+    "options": [
+     "Être rassurée et accompagnée pas à pas, avec un calendrier compatible avec son entrée en résidence à l'été 2027.",
+     "Obtenir un rendement locatif.",
+     "Vendre en une semaine, quel que soit le prix."
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : son projet (résidence seniors) et son profil (besoin d'être rassurée) fixent son vrai besoin.",
+     "Faux : c'est le besoin d'un investisseur, pas d'une vendeuse qui finance son entrée en résidence.",
+     "Faux : elle a besoin du prix de vente et d'un calendrier tenu, pas d'une vente bradée."
+    ],
+    "fb_title": "Le projet dit le besoin",
+    "fb_text": "Pourquoi il vend est la question clé. Mme Garnier (fictive) vend pour entrer en résidence seniors à Melun à l'été 2027 et a besoin du prix pour l'entrée : sécurité, calendrier, accompagnement. Ton offre et ton discours en découlent."
+   },
+   {
+    "question": "Pour construire ta fiche cible, tu veux noter des informations sur des vendeurs réels. Que fais-tu ?",
+    "options": [
+     "Tu copies noms et numéros relevés sur des annonces de particuliers pour les appeler.",
+     "Tu décris un profil type à partir de tes ventes passées, sans nom ni coordonnée.",
+     "Tu achètes un fichier de numéros de propriétaires de ta zone."
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : depuis le 11/08/2026, appeler un particulier sans consentement préalable est interdit ; et ces données n'ont pas été collectées pour cela.",
+     "Juste : une fiche cible décrit un type de propriétaire ; elle n'a besoin d'aucune donnée personnelle.",
+     "Faux : un fichier sans consentement préalable ne permet pas de démarcher par téléphone."
+    ],
+    "fb_title": "Un profil, pas un fichier",
+    "fb_text": "La fiche cible décrit un type de vendeur, à partir de tes ventes et des données publiques (Insee, DVF). Elle ne contient aucun nom. Les contacts viendront plus tard, par des propriétaires qui t'ont donné leur accord."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche cible",
+  "kind": "fiche",
+  "intro": "Une page pour décrire le propriétaire que tu veux servir en priorité. Tu la remplis à partir de tes secteurs prioritaires (1.5), de tes ventes passées et de données publiques. Elle guide tout le reste du module : ta spécialité, tes messages, ta prospection.",
+  "sections": [
+   {
+    "heading": "Les 3 questions",
+    "type": "table",
+    "headers": ["Question", "Ce que tu décris", "Où trouver l'information"],
+    "rows": [
+     ["Qui est-il ?", "Âge, situation familiale, statut (propriétaire occupant, bailleur, héritier), rapport aux chiffres", "Tes ventes passées, tes rendez-vous, Insee (structure par âge de la commune)"],
+     ["Pourquoi vend-il ?", "Projet de vie (rapprochement familial, résidence seniors, mutation, succession, divorce, investissement), échéance, craintes", "Tes notes de découverte"],
+     ["Où vit-il ?", "Secteur, type de bien, année de construction, étiquette DPE probable, copropriété ou maison", "DVF, observatoire DPE-Audit, ta zone affinée"]
+    ]
+   },
+   {
+    "heading": "Compléter le portrait",
+    "type": "checklist",
+    "items": [
+     "Ce qui l'inquiète (DPE, prix, délai, travaux, démarches).",
+     "Ce qu'il attend d'un agent (preuves, disponibilité, accompagnement, rapidité).",
+     "Comment il s'informe (bouche-à-oreille, Google, réseaux, presse locale).",
+     "Comment il accepte d'être contacté (formulaire, recommandation, rencontre en agence) : jamais par un appel non consenti.",
+     "La phrase qu'il dit souvent en rendez-vous."
+    ]
+   },
+   {
+    "heading": "Exemple rempli : la cible de l'appartement (fil rouge, fictif)",
+    "type": "text",
+    "text": "Qui : retraité de 60 à 75 ans, propriétaire occupant depuis plus de 20 ans, souvent seul, à l'aise avec les documents, méfiant envers les promesses (comme M. Bernard, profil C). Pourquoi : se rapprocher de sa famille ou réduire la surface ; échéance à 6-12 mois ; peur d'une décote « à cause du DPE ». Où : appartement T3-T4 dans une copropriété des années 1965-1980 à Melun, chauffage électrique, DPE en E ou F, travaux de façade votés ou à venir. Il s'informe par le bouche-à-oreille et Google ; il a rempli un formulaire en ligne."
+   },
+   {
+    "heading": "Deuxième exemple : la cible de la maison (fil rouge, fictif)",
+    "type": "text",
+    "text": "Qui : propriétaire de plus de 70 ans, veuve ou veuf, attaché à sa maison, consulte ses enfants avant de décider (comme Mme Garnier, profil S). Pourquoi : entrée en résidence seniors, besoin du prix de vente ; peur d'une maison « invendable » classée G. Où : maison des années 1960-1980 sur grand terrain à Vaux-le-Pénil ou dans les communes voisines, chauffage fioul, assainissement individuel possible."
+   }
+  ],
+  "footer": "Sources : Insee, dossier complet des communes ; data.gouv.fr, DVF (12/10/2026) ; ADEME, observatoire DPE-Audit ; DGCCRF, démarchage téléphonique (27/07/2026) ; CNIL, principes du RGPD (minimisation). Exemples : fil rouge fictif. Mise à jour : 28/10/2026."
+ },
+ "exercise": {
+  "title": "Ma fiche cible",
+  "duration_min": 30,
+  "context": "Tu décris le propriétaire que tu veux servir en priorité dans tes deux secteurs (1.5). Tu pars de tes 10 dernières ventes ou estimations réelles : qui étaient ces vendeurs, pourquoi vendaient-ils, où vivaient-ils ? Aucune donnée personnelle dans ta fiche.",
+  "materials": [
+   "Tes 10 dernières ventes ou estimations (notes anonymisées)",
+   "Ta zone affinée (livrable 1.5)",
+   "Insee, dossier complet de ta commune principale",
+   "Fiche cible et exemples M. Bernard (D01) et Mme Garnier (M01), fictifs"
+  ],
+  "steps": [
+   "Classe tes 10 dernières ventes ou estimations par raison de vendre et par type de bien.",
+   "Repère le profil qui revient le plus, ou celui que tu veux développer dans tes secteurs prioritaires.",
+   "Réponds aux trois questions : qui est-il, pourquoi vend-il, où vit-il.",
+   "Complète le portrait : craintes, attentes, sources d'information, façon d'accepter d'être contacté.",
+   "Écris la phrase qu'il dit souvent et la réponse que tu veux lui apporter."
+  ],
+  "expected": "Exemple attendu (mandataire fictif, secteur de Melun). Analyse : sur 10 dossiers, 4 retraités vendant un appartement des années 70, 3 successions, 2 mutations, 1 divorce. Cible retenue : retraités de 60 à 75 ans, propriétaires occupants d'un T3-T4 en copropriété des années 1965-1980 (quartier des Tilleuls et centre), chauffage électrique, DPE E ou F. Pourquoi : rapprochement familial ou logement plus petit, échéance 6 à 12 mois. Craintes : décote « à cause du DPE », travaux de façade votés. Attentes : des preuves, un interlocuteur unique, pas d'insistance. Contact : formulaire en ligne, recommandation de voisins, permanence dans la résidence. Phrase : « On m'a dit que mon DPE faisait perdre 15 %. » Réponse : « Vérifions votre étiquette à jour et regardons les ventes de votre résidence. »"
+ },
+ "deliverable": {
+  "title": "Ma fiche cible",
+  "format": "PDF, 1 page : les 3 questions remplies + portrait complété + phrase et réponse",
+  "criteria": [
+   "La cible est un propriétaire précis (âge, statut, type de bien, secteur), pas « tous les vendeurs »",
+   "La raison de vendre et l'échéance sont décrites",
+   "Le lieu de vie est relié aux secteurs prioritaires de 1.5",
+   "La façon d'entrer en contact respecte le consentement (aucun appel à froid)",
+   "Aucune donnée personnelle (nom, téléphone, adresse exacte)"
+  ]
+ },
+ "sources": [
+  { "label": "Insee — Dossier complet d'une commune (exemple : Melun, 77288)", "url": "https://www.insee.fr/fr/statistiques/2011101?geo=COM-77288" },
+  { "label": "data.gouv.fr — Demandes de valeurs foncières (DVF), mise à jour du 12/10/2026", "url": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/" },
+  { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" },
+  { "label": "CNIL — Les grands principes du RGPD (minimisation des données)", "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2" }
+ ],
+ "open_points": [
+  "Cible « par défaut » proposée aux apprenants sans historique (nouveaux entrants comme Maxime) : à définir avec Sébastien Paumier.",
+  "Lien avec la capsule DISC (1.9) : le profil de communication de la cible est esquissé ici (C pour M. Bernard, S pour Mme Garnier) ; à garder cohérent."
+ ]
+}

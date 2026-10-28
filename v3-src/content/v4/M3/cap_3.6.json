@@ -1,0 +1,221 @@
+{
+  "id": "3.6",
+  "module": 3,
+  "section": "A · Construire les indicateurs du bien",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Les indicateurs du marché local : biens F et G, délais, négociation",
+  "objective": "Relever dans sa zone, à une date donnée, la part des biens F et G à vendre, les délais de vente et la marge de négociation, avec la source et la méthode de chaque indicateur",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "M. Bernard demande : « Dans mon quartier, les biens comme le mien partent-ils ? » Sébastien Paumier construit trois indicateurs du marché local à partir de sources nommées : part des biens F et G dans les annonces, délai de vente, marge de négociation. Chaque chiffre a sa date, son échantillon et sa limite ; le repère national des notaires (environ 15 % de ventes F ou G début 2025) reste à part."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Élodie veut connaître la part des biens F et G à vendre dans sa zone. Quelle source utilise-t-elle ?",
+        "options": [
+          "DVF, qui donne l'étiquette de chaque vente",
+          "Un relevé daté des annonces en ligne de sa zone, avec le nombre total d'annonces et le nombre de F et G",
+          "Le pourcentage national des notaires, appliqué tel quel"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : DVF donne le prix, la date et la surface des ventes, pas l'étiquette DPE.",
+          "Juste : le stock à vendre se mesure sur les annonces ; tu notes la date, la zone, le type de bien et la taille de l'échantillon.",
+          "Faux : un chiffre national est un repère, pas une mesure de ta zone."
+        ],
+        "fb_title": "Le stock se lit dans les annonces",
+        "fb_text": "La part des F et G « à vendre » se relève sur les annonces : nombre de F et G / nombre total d'annonces du même type, dans la même zone, à une date. Les annonces sans étiquette se comptent à part. Le chiffre national des notaires sert seulement de repère."
+      },
+      {
+        "question": "Sur 42 annonces de T3-T4 à Melun relevées le 20/10/2026 (exemple fictif), 9 sont classées F ou G. Quelle part notes-tu ?",
+        "options": [
+          "9 %",
+          "Environ 21 %, avec la date, la zone et l'échantillon (42 annonces)",
+          "42 %"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : 9 est le nombre de biens, pas un pourcentage.",
+          "Juste : 9 / 42 ≈ 21,4 % ; sans l'échantillon et la date, le chiffre ne vaut rien.",
+          "Faux : 42 est la taille de l'échantillon."
+        ],
+        "fb_title": "Un pourcentage se donne avec son échantillon",
+        "fb_text": "9 / 42 ≈ 21 %. Tu écris : « 21 % des 42 annonces de T3-T4 relevées à Melun le 20/10/2026 sont classées F ou G ». Comparé au repère national (environ 15 % des ventes début 2025), cela suggère un stock énergivore plus important, à confirmer."
+      },
+      {
+        "question": "Mozi affirme : « Les biens F et G se vendent avec 20 % de négociation, tout le monde le sait. » Que lui demandes-tu ?",
+        "options": [
+          "Rien, c'est connu",
+          "D'appliquer 20 % à tous les biens du secteur",
+          "Sa source, sa date et sa méthode : marge = (prix affiché − prix de vente) / prix affiché, calculée sur des ventes réelles de la zone"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : un chiffre « que tout le monde connaît » sans source est une rumeur.",
+          "Faux : on n'applique pas un chiffre non vérifié à des biens différents.",
+          "Juste : la marge se mesure sur des ventes où l'on connaît le prix affiché et le prix signé (tes dossiers, ton réseau)."
+        ],
+        "fb_title": "Pas de source, pas d'indicateur",
+        "fb_text": "La marge de négociation se calcule sur des ventes dont tu connais le dernier prix affiché et le prix signé : tes mandats, ceux de ton agence, ton réseau. Tu donnes l'échantillon et la période. Sans cela, le chiffre de Mozi ne va pas dans le tableau de bord."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche indicateurs de marché et liste des sources (DVF, notaires, annonces), données datées",
+    "kind": "fiche",
+    "intro": "Trois indicateurs du marché local complètent la case T (Territoire) de la méthode VERTE : part des biens F et G à vendre, délai de vente, marge de négociation. Chacun se mesure sur une zone, un type de bien et une période précis, avec un échantillon donné. Exemple rempli : secteur de l'appartement de M. Bernard (chiffres FICTIFS). Parcours maison : mêmes indicateurs pour les maisons du secteur de Mme Garnier.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les 3 indicateurs : formule et source",
+        "headers": [
+          "Indicateur",
+          "Formule",
+          "Source",
+          "Limite"
+        ],
+        "rows": [
+          [
+            "Part des biens F et G à vendre",
+            "Annonces F + G / annonces avec étiquette, même zone et même type",
+            "Relevé daté des portails d'annonces",
+            "Annonces en double, étiquettes non actualisées"
+          ],
+          [
+            "Délai de vente",
+            "Date de compromis − date de mise en vente ; médiane",
+            "Tes dossiers, ton agence, ton réseau ; à défaut, durée de mise en ligne des annonces",
+            "Une annonce retirée n'est pas forcément vendue"
+          ],
+          [
+            "Marge de négociation",
+            "(dernier prix affiché − prix signé) / dernier prix affiché ; médiane",
+            "Tes dossiers et ton réseau ; à défaut, médiane des annonces face à la médiane DVF",
+            "Petits échantillons, biens non identiques"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemple rempli : T3-T4 en copropriété, Melun (FICTIF, relevé du 20/10/2026)",
+        "headers": [
+          "Indicateur",
+          "Valeur",
+          "Échantillon et méthode"
+        ],
+        "rows": [
+          [
+            "Part des biens F et G à vendre",
+            "≈ 21 %",
+            "9 annonces F ou G sur 42 annonces avec étiquette"
+          ],
+          [
+            "Délai de vente médian",
+            "74 jours",
+            "11 ventes de l'agence et du réseau, de 10/2025 à 09/2026"
+          ],
+          [
+            "Marge de négociation",
+            "≈ 7 %",
+            "Médiane des annonces 2 848 €/m² face à la médiane des ventes en l'état 2 650 €/m² (capsule 2.38)"
+          ],
+          [
+            "Repère national",
+            "≈ 15 % des ventes de logements anciens classées F ou G début 2025",
+            "Notaires de France, étude du 7/01/2026"
+          ]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Liste des sources, de la plus solide à la plus fragile",
+        "items": [
+          "DVF (data.gouv.fr) : prix, surfaces, dates des ventes signées ; pas d'étiquette DPE ; mises à jour semestrielles.",
+          "Notaires de France : études datées (valeur verte, part des ventes F et G), indices Notaires-Insee des prix.",
+          "ADEME, Observatoire DPE-Audit : DPE réalisés, à croiser avec les annonces.",
+          "Tes dossiers et ceux de ton réseau : délais et marges réels, à anonymiser.",
+          "Annonces en ligne : stock à vendre et prix affichés ; relevé à dater et à archiver (capture)."
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Avant de mettre un indicateur dans le tableau de bord",
+        "items": [
+          "Zone, type de bien et période sont écrits",
+          "La taille de l'échantillon est indiquée",
+          "La date du relevé est indiquée et la capture est archivée",
+          "La formule est écrite",
+          "Le repère national est cité à part, avec sa date"
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Dans votre secteur, sur les 42 appartements comparables en vente ce mois-ci, environ un sur cinq est classé F ou G. Avec votre attestation en E, vous n'êtes pas dans ce lot. Les biens se vendent en 74 jours en médiane, avec environ 7 % de négociation : c'est ce que je vois dans les ventes réelles, pas une promesse. »"
+      }
+    ],
+    "footer": "Sources : DVF (data.gouv.fr) ; Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (7/01/2026) ; ADEME, Observatoire DPE-Audit. Relevé d'annonces, délais et marge de l'exemple : FICTIFS. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Relever les indicateurs du marché de sa zone",
+    "duration_min": 45,
+    "context": "Pour compléter la case T de la grille VERTE de ton bien fil rouge, tu relèves dans ta zone réelle (ou celle du bien fil rouge) trois indicateurs du marché, à une date précise, avec la source et l'échantillon de chacun.",
+    "materials": [
+      "Portails d'annonces de ta zone (relevé à capturer et à dater)",
+      "DVF (app.dvf.etalab.gouv.fr) et étude des Notaires de France du 7/01/2026",
+      "Tes dossiers ou ceux de ton agence (délais, prix affichés et signés), anonymisés",
+      "Fiche indicateurs de marché (ressource)"
+    ],
+    "steps": [
+      "Définis ta zone, le type de bien (comme ton bien fil rouge) et la date du relevé.",
+      "Compte les annonces avec étiquette et celles classées F ou G ; calcule la part et capture le relevé.",
+      "Calcule le délai de vente médian sur au moins 5 ventes connues (date de mise en vente, date de compromis).",
+      "Calcule la marge de négociation médiane sur les mêmes ventes, ou à défaut par la comparaison annonces / DVF.",
+      "Écris chaque indicateur avec sa formule, son échantillon, sa source, sa date et sa limite ; ajoute le repère national des notaires à part."
+    ],
+    "expected": "Exemple attendu (secteur de M. Bernard, chiffres fictifs) : « Relevé du 20/10/2026, T3-T4 en copropriété, Melun : 42 annonces avec étiquette, dont 9 classées F ou G, soit ≈ 21 % (capture archivée). Délai de vente médian : 74 jours sur 11 ventes de l'agence et du réseau entre 10/2025 et 09/2026. Marge de négociation : ≈ 7 % ((2 848 − 2 650) / 2 848, annonces face aux ventes DVF en l'état), à confirmer sur les ventes de l'agence. Repère national : environ 15 % des ventes de logements anciens classées F ou G début 2025 (Notaires de France, 7/01/2026). Limites : annonces en double, étiquettes non actualisées, petits échantillons. » L'apprenant donne ses propres chiffres réels avec la même rigueur ; aucun chiffre sans échantillon ni date.",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Fiche des indicateurs du marché local de sa zone",
+    "format": "PDF ou tableur, 1 page + captures datées en annexe",
+    "criteria": [
+      "Les 3 indicateurs sont calculés avec leur formule",
+      "Chaque indicateur indique zone, type de bien, période et taille d'échantillon",
+      "Chaque source est nommée et datée, avec capture du relevé d'annonces",
+      "Le repère national est séparé de la mesure locale",
+      "Aucune donnée personnelle de client dans les ventes utilisées"
+    ]
+  },
+  "sources": [
+    {
+      "label": "DVF, Demandes de valeurs foncières (data.gouv.fr)",
+      "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+    },
+    {
+      "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (7/01/2026) : part des ventes de logements anciens F-G stabilisée autour de 15 % début 2025",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "label": "ADEME, Observatoire DPE-Audit",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "CNIL, définition : minimisation des données",
+      "url": "https://www.cnil.fr/fr/definition/minimisation"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété : relevé d'annonces, délai et marge FICTIFS (secteur de M. Bernard, Bible §5)"
+    }
+  ],
+  "open_points": [
+    "Exemple fictif (42 annonces, 9 F-G, délai médian 74 jours, marge ≈ 7 %) à valider par Sébastien Paumier et à ajouter au dossier fil rouge.",
+    "À vérifier : jeu de données open data de l'ADEME à recommander pour compter les DPE par commune (nom et lien exacts).",
+    "Préciser avec Éco-Propriété si l'apprenant peut utiliser les données de délais et de négociation de son réseau (confidentialité)."
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "2.9",
+  "module": 2,
+  "section": "C · Le DPE et l'audit énergétique",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": true,
+  "title": "Les limites d'un DPE : anomalies à faire vérifier",
+  "objective": "Repérer, avec l'aide d'une IA puis par soi-même, les incohérences d'un DPE et ses limites, et rédiger la liste des points à faire vérifier par le diagnostiqueur, sans contester soi-même le diagnostic",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Un DPE est opposable, mais il peut contenir des erreurs de saisie, et il calcule une consommation conventionnelle, pas la facture. Sébastien Paumier montre les incohérences typiques (surface, année, équipements) et l'étude du CAE de 2024 sur l'écart avec les consommations réelles. Puis il fait relire un DPE anonymisé par une IA et corrige ce qu'elle invente."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Le DPE de M. Bernard indique « VMC simple flux ». Lors de ta visite, tu constates une ventilation naturelle, sans VMC. Que fais-tu ?",
+        "options": [
+          "Tu le notes comme incohérence et tu demandes au diagnostiqueur de vérifier, preuves à l'appui (photos, descriptif)",
+          "Tu corriges toi-même la classe dans l'annonce",
+          "Tu n'en parles pas : le DPE est opposable"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : tu signales, tu documentes, le diagnostiqueur vérifie et, s'il y a lieu, corrige son DPE.",
+          "Faux : tu ne modifies jamais une classe : seul un DPE ou une attestation l'établit.",
+          "Faux : justement parce qu'il est opposable, une erreur doit être corrigée avant la vente."
+        ],
+        "fb_title": "Signaler, documenter, renvoyer",
+        "fb_text": "Une donnée d'entrée fausse (équipement, surface, année) peut changer la classe. Tu ne contestes pas le diagnostic toi-même : tu documentes l'écart et tu demandes au diagnostiqueur de le vérifier. En cas de désaccord, le vendeur peut saisir l'organisme qui a certifié le diagnostiqueur (à vérifier)."
+      },
+      {
+        "question": "Un acquéreur dit : « Le DPE annonce 2 330 à 3 190 € par an, mais le vendeur paie moins. Le DPE est faux ! » Que réponds-tu ?",
+        "options": [
+          "« Oui, le DPE est faux, on n'en tient pas compte. »",
+          "« Le DPE calcule une consommation pour un usage standard ; les factures dépendent de l'occupant. Les deux se complètent. »",
+          "« Les factures sont toujours fausses. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : un écart avec les factures ne rend pas le DPE faux ; il mesure autre chose.",
+          "Juste : la méthode 3CL estime une consommation standard ; l'occupant réel chauffe plus ou moins.",
+          "Faux : les factures sont réelles ; elles reflètent l'usage d'un occupant particulier."
+        ],
+        "fb_title": "Conventionnel n'est pas réel",
+        "fb_text": "Le DPE estime une consommation pour un usage standard, avec des prix de référence datés. L'étude du CAE (janvier 2024) montre que les consommations réelles varient beaucoup moins d'une classe à l'autre que ce que prévoit le DPE, notamment parce que les occupants des logements énergivores se restreignent."
+      },
+      {
+        "question": "Tu veux faire analyser un DPE par une IA grand public. Que peux-tu y coller ?",
+        "options": [
+          "Le PDF complet, c'est plus rapide",
+          "Le numéro ADEME seulement, l'IA retrouvera le reste",
+          "Les données techniques (surface, année, équipements, consommations, classes), sans nom, adresse ni numéro ADEME"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le PDF contient nom, adresse et numéro qui identifient le logement et son propriétaire.",
+          "Faux : le numéro ADEME permet de retrouver le logement ; c'est une donnée à protéger.",
+          "Juste : c'est tout ce dont l'analyse a besoin, sans donnée identifiante (minimisation)."
+        ],
+        "fb_title": "Minimiser avant de coller",
+        "fb_text": "Le RGPD impose la minimisation : pour une analyse technique, les données techniques suffisent. Utilise l'outil validé par ton agence, relis tout, et refais chaque calcul à la main."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Prompt d'analyse DPE et fiche des limites du DPE : écarts avec les consommations réelles, anomalies à faire vérifier (textes à sourcer)",
+    "kind": "fiche",
+    "intro": "Deux usages. La fiche des limites t'aide à expliquer ce qu'un DPE mesure et ce qu'il ne mesure pas. La liste des anomalies t'aide à repérer les incohérences à faire vérifier par le diagnostiqueur. Le prompt prépare le travail ; c'est toi qui contrôles et c'est le diagnostiqueur qui corrige.",
+    "sections": [
+      {
+        "heading": "Ce que le DPE mesure, et ses limites",
+        "type": "list",
+        "items": [
+          "Une consommation conventionnelle (méthode 3CL) : usage standard, températures de consigne et prix de référence fixés, pas le comportement des occupants.",
+          "Des prix de l'énergie datés : la fourchette de coûts indique son année de référence (1/01/2021 pour M. Bernard).",
+          "Un résultat sensible aux données d'entrée : surface, année, isolation, équipements ; une valeur par défaut remplace une donnée non justifiée.",
+          "Un écart avec le réel documenté : selon le CAE (Focus n° 103, janvier 2024), la consommation réelle augmente d'environ 86 % de la classe A-B à la classe G, quand le DPE prévoit + 560 % ; l'écart vient pour environ deux tiers du comportement des ménages.",
+          "Le DPE reste opposable : il engage le vendeur ; ses limites ne justifient pas de l'ignorer."
+        ]
+      },
+      {
+        "heading": "Anomalies à repérer",
+        "type": "checklist",
+        "items": [
+          "Numéro ADEME à 13 caractères introuvable sur l'observatoire, ou DPE établi avant le 1/07/2021",
+          "Surface différente du mesurage (Carrez, habitable) ou de la surface du plan",
+          "Année de construction ou période incohérente avec le titre ou le permis",
+          "Équipement absent ou inventé (VMC, pompe à chaleur, chauffe-eau) par rapport à ta visite et aux factures",
+          "Fenêtres, isolation ou travaux récents non pris en compte (factures à l'appui)",
+          "Somme des usages différente de la consommation totale ; énergie primaire non cohérente avec le coefficient",
+          "Recommandations sans lien avec les déperditions dominantes du schéma"
+        ]
+      },
+      {
+        "heading": "Prompt prêt à copier (données techniques uniquement)",
+        "type": "text",
+        "text": "« Tu es un expert du DPE (méthode 3CL-DPE 2021) qui assiste un agent immobilier. Données anonymisées d'un logement : [type, surface, étage, année de construction, murs, menuiseries, ventilation, chauffage, eau chaude, consommations par usage en kWhEF/m²/an, énergie primaire, émissions, classe, équipements relevés lors de la visite]. Tâches : 1) vérifie la somme des usages et le calcul de l'énergie primaire avec le coefficient indiqué ; 2) liste les incohérences possibles entre les données du DPE et la visite ; 3) classe-les par impact probable sur la classe ; 4) rédige pour chacune la question à poser au diagnostiqueur. Contraintes : n'invente aucune donnée ; écris [à vérifier] dès que tu n'es pas sûr ; ne conclus à aucune classe ; réponds en français. »"
+      },
+      {
+        "heading": "Contrôler la réponse de l'IA",
+        "type": "checklist",
+        "items": [
+          "Chaque calcul refait à la main (150 × 1,9 = 285 ; 150 × 1,7 = 255, toujours E)",
+          "Chaque incohérence relevée existe vraiment dans le DPE ou dans ta visite",
+          "Aucune classe annoncée, aucune règle ni aide citée sans source officielle",
+          "Les questions au diagnostiqueur sont factuelles et documentées (photo, facture, plan)"
+        ]
+      },
+      {
+        "heading": "La phrase à dire au vendeur",
+        "type": "text",
+        "text": "« J'ai relevé deux points du DPE qui ne correspondent pas à ce que j'ai vu. Je ne peux pas corriger un DPE moi-même ; je vous propose d'envoyer ces deux questions, avec les photos, au diagnostiqueur. S'il confirme une erreur, il corrigera son diagnostic. »"
+      }
+    ],
+    "footer": "Sources : CAE, Focus n° 103 (janvier 2024) ; service-public.fr F16096 ; observatoire DPE-Audit de l'ADEME ; CNIL (minimisation). Recours contre un DPE erroné : à sourcer. Données du fil rouge fictives. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Repérer avec l'IA les anomalies d'un DPE et lister ce qu'on fait vérifier",
+    "duration_min": 40,
+    "context": "Tu t'entraînes sur deux DPE : un DPE réel public de ton secteur (observatoire de l'ADEME, établi depuis le 1/07/2021) et le DPE fictif de M. Bernard (D02), dans lequel le rédacteur du dossier a glissé une incohérence avec ta visite (le D02 mentionne une VMC alors que le logement est en ventilation naturelle). Tu utilises une IA pour préparer l'analyse, puis tu contrôles tout.",
+    "materials": [
+      "D02 DPE du 14/03/2023 (synthèse) et D05 reportage photo commenté",
+      "D04 Plan et descriptif de l'appartement",
+      "Un DPE réel public (observatoire DPE-Audit de l'ADEME)",
+      "Prompt d'analyse (ressource de la capsule)"
+    ],
+    "steps": [
+      "Extrais les données techniques du D02 et du DPE réel, sans nom, adresse ni numéro ADEME.",
+      "Lance le prompt dans l'outil validé par ton agence.",
+      "Contrôle la réponse : refais chaque calcul et barre les incohérences inventées par l'IA.",
+      "Ajoute les incohérences que l'IA n'a pas vues, en comparant avec le plan (D04) et les photos (D05).",
+      "Rédige la liste des questions au diagnostiqueur, chacune avec sa preuve.",
+      "Rédige 2 phrases pour expliquer à un acquéreur l'écart entre DPE et factures."
+    ],
+    "expected": "Pour M. Bernard (exemple attendu) : calculs justes (112 + 26 + 4 + 8 = 150 ; 150 × 2,3 = 345 ; attestation 150 × 1,9 = 285 → E). Incohérence documentée : le D02 mentionne une VMC, la visite et les photos montrent une ventilation naturelle (grilles et conduits shunt, conduit de salle de bains obstrué) ; question au diagnostiqueur : « Le DPE retient une VMC ; le logement est en ventilation naturelle (photos 7 et 8). Pouvez-vous vérifier cette donnée et son effet sur le calcul ? » Surface 76 m² cohérente avec le plan. Corrections typiques de l'IA : une classe D annoncée pour 255 supprimée ; une aide financière citée sans source retirée. Phrases acquéreur : « Le DPE estime une consommation pour un usage standard ; vos factures dépendront de votre façon de chauffer. Le DPE sert surtout à comparer les logements entre eux et à cibler les travaux. »",
+    "ia_prompt": {
+      "prompt": "Rôle : tu es un expert du diagnostic de performance énergétique (méthode 3CL-DPE 2021) qui assiste un agent immobilier ; tu es rigoureux et tu signales tes incertitudes.\nContexte (données techniques anonymisées) : appartement T4 de 76 m², 4e étage sur 6, logements chauffés dessus et dessous, immeuble de 1972. Murs béton, doublage polystyrène 2 cm. Menuiseries : séjour et cuisine PVC double vitrage 2004 ; 4 fenêtres bois simple vitrage dans les chambres. Constat de visite : ventilation naturelle (grilles et conduits shunt), pas de VMC, conduit de salle de bains obstrué. Chauffage : 6 convecteurs électriques de 1998 sans programmation. Eau chaude : ballon électrique 200 L de 2011. DPE de mars 2023 : ventilation saisie « VMC simple flux » ; consommations 112 (chauffage), 26 (eau chaude), 4 (éclairage), 8 (auxiliaires) kWhEF/m²/an ; énergie primaire 345 kWhEP/m²/an (coefficient 2,3) ; 12 kgCO₂/m²/an ; classe F ; attestation actualisée : classe E.\nTâches : 1) vérifie la somme des usages et le calcul de l'énergie primaire ; 2) liste les incohérences possibles entre les données du DPE et le constat de visite ; 3) classe-les par effet probable sur le calcul, sans conclure à une classe ; 4) rédige pour chacune la question factuelle à poser au diagnostiqueur et la preuve à joindre ; 5) rédige 2 phrases pour expliquer à un acquéreur la différence entre consommation conventionnelle et factures.\nFormat : un tableau (incohérence, effet probable, question, preuve), puis les phrases.\nContraintes : n'invente aucune donnée ; écris [à vérifier] dès que tu n'es pas sûr ; ne cite aucune règle ni aide sans dire qu'elle est à vérifier sur une source officielle ; réponds en français.",
+      "guardrails": [
+        "RGPD : jamais de nom, d'adresse, de numéro ADEME ni de PDF complet dans un outil d'IA non validé par ton agence ; les données techniques suffisent.",
+        "Vérifie chaque calcul à la main avec la fiche formules (capsule 2.8) : 255 reste en E.",
+        "L'IA ne remplace pas le diagnostiqueur : seuls le DPE et l'attestation actualisée établissent une classe ; tu signales, il corrige.",
+        "Toute règle, recours ou aide cité par l'IA se vérifie sur une source officielle avant usage.",
+        "Relis et réécris toute phrase destinée au vendeur ou à un acquéreur : aucune promesse de classe, de prix ou d'économie."
+      ]
+    }
+  },
+  "deliverable": {
+    "title": "Liste des anomalies à faire vérifier par le diagnostiqueur",
+    "format": "1 page (PDF) + annexe : prompt utilisé et réponse de l'IA annotée",
+    "criteria": [
+      "Le prompt annexé ne contient ni nom, ni adresse, ni numéro ADEME",
+      "Chaque calcul de l'IA est vérifié, avec au moins 2 corrections ou confirmations explicites",
+      "Chaque anomalie listée est appuyée par une preuve (photo, plan, facture)",
+      "Les questions au diagnostiqueur sont factuelles et ne concluent à aucune classe",
+      "L'écart entre DPE et factures est expliqué sans dire que le DPE est faux"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Conseil d'analyse économique, Focus n° 103 (janvier 2024) : performance énergétique du logement et consommation d'énergie, données bancaires",
+      "url": "https://www.cae-eco.fr/staticfiles/pdf/focus-103-dpe-230110.pdf"
+    },
+    {
+      "label": "Service-Public F16096 : DPE (méthode, opposabilité, validité)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+    },
+    {
+      "label": "Observatoire DPE-Audit de l'ADEME",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "Ministère de la Transition écologique : diagnostiqueur immobilier (numéro à 13 caractères, certification, annuaire)",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/diagnostiqueur-immobilier-profession-reglementee"
+    },
+    {
+      "label": "CNIL : principes du RGPD (minimisation)",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2"
+    }
+  ],
+  "open_points": [
+    "À vérifier : procédure de recours contre un DPE erroné (diagnostiqueur, organisme certificateur, responsabilité) : non sourcée ce jour",
+    "À vérifier : les chiffres du CAE (+ 86 % réel contre + 560 % théorique) ; l'annexe du Focus semble donner des valeurs différentes, à relire dans le texte complet avant tournage",
+    "BIBLE / rédacteur du dossier : l'incohérence « VMC » dans le D02 est une proposition d'exercice ; elle n'existe pas dans la BIBLE et doit être validée par Sébastien Paumier (sinon choisir une autre anomalie)"
+  ]
+}
