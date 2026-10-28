@@ -79,3 +79,56 @@ D01 Fiche découverte vendeur (vierge) · D02 DPE du 14/03/2023 (synthèse) · D
 
 ## 10. Calendrier fictif de référence
 Oct. 2026 premier contact (M1) → oct. 2026 estimation (M2) → 5/11/2026 mandat exclusif (M3) → nov. 2026 commercialisation, visites (M4) → 2/12/2026 offre acceptée → 15/12/2026 compromis (M5) → 15/03/2027 acte.
+
+## 11. Le parcours MAISON : la maison de Mme Garnier (PROPOSITION À VALIDER par Sébastien Paumier)
+Le parcours propose deux fils rouges : **l'appartement de M. Bernard** (sections 1 à 10) et **la maison de Mme Garnier** (cette section). Les capsules marquées « PARCOURS MAISON » utilisent uniquement cette maison ; les capsules communes peuvent citer l'un ou l'autre bien. Tout est **FICTIF**, sauf les règles marquées « fait vérifié » (à revérifier avant citation, comme partout).
+
+### 11.1 La vendeuse
+- **Mme Hélène Garnier**, 71 ans, veuve, ancienne secrétaire de mairie. A acheté la maison neuve en **1979** avec son mari (bien de communauté, succession réglée en 2023 : elle en est seule propriétaire). Deux fils (Lyon et Toulouse).
+- Projet : entrer dans une **résidence seniors à Melun** à l'été 2027 ; a besoin du prix de vente pour l'entrée. Pas de prêt en cours.
+- **Profil DISC : S (Stable)** : attachée à sa maison, a besoin d'être rassurée, déteste la pression, consulte ses fils avant de décider, fidèle une fois en confiance.
+- Situation de départ (octobre 2026) : une agence lui a dit « classée G, c'est invendable, comptez −25 % ». Elle a rempli le formulaire de **ton agence** : « J'accepte d'être recontactée au sujet de mon DPE et de la vente de ma maison ».
+
+### 11.2 Le bien
+- **Maison individuelle de 1968** (permis de construire **1967**), plain-pied sur **sous-sol complet**, **8 chemin des Prés-Hauts, hameau des Prés-Hauts, 77000 Vaux-le-Pénil** (adresse fictive).
+- **Surface habitable : 112 m²** (séjour-salon 32, cuisine 12, 4 chambres 12 · 11 · 10 · 10, salle de bains 7, WC 2, entrée et dégagement 16). **Sous-sol 112 m² non habitable** : garage 30 m², chaufferie-buanderie 20 m², cave et atelier 62 m² (hauteur 2,10 m). **Véranda** non chauffée de **12 m²** (1995) côté jardin. **Combles perdus** non aménageables.
+- **Terrain : 1 240 m²**, parcelle cadastrée **section AB n° 214** (fictive), clos, jardin arboré, façade sur rue de 24 m.
+- **Chauffage** : chaudière **fioul** de **1996** (radiateurs en fonte), cuve de 2 000 L au sous-sol ; **eau chaude** produite par la chaudière.
+- **Menuiseries** : séjour en PVC double vitrage (2008) ; **toutes les autres fenêtres en bois simple vitrage d'origine** (9 fenêtres) ; volets roulants manuels.
+- **Isolation** : murs en parpaing de 20 cm **non isolés** ; **combles** : 5 cm de laine de verre tassée (1985) ; **plancher bas sur sous-sol non isolé**. **Ventilation naturelle**, pas de VMC.
+- **Toiture** : tuiles mécaniques de 1968, quelques tuiles cassées, gouttières zinc à reprendre.
+- **Pathologies visibles** : **fissures en escalier** sur le pignon nord (largeur ≈ 0,5 mm, à faire examiner : sol argileux possible) ; traces d'humidité en bas des murs du sous-sol ; **plaques en fibrociment** sur le toit du garage (voir amiante) ; condensation sur les simples vitrages en hiver.
+- Bon état : cuisine refaite en 2012, salle de bains 2015, tableau électrique partiellement refait en 2005.
+
+### 11.3 Le DPE et l'audit (fictifs, méthode 3CL-DPE 2021)
+- **DPE du 06/02/2024**, numéro ADEME **2477E0456789Y**, diagnostiqueur fictif « Diag77 ». Valable jusqu'au 05/02/2034.
+- Énergie finale : **380 kWhEF/m²/an** (chauffage fioul 330, eau chaude fioul 35, électricité éclairage et auxiliaires 15).
+- Énergie primaire (2024, coefficient électricité 2,3) : 365 + 15 × 2,3 = **400 kWhEP/m²/an → F pour l'énergie** (seuil F : 331 à 420).
+- Émissions : 365 × 0,324 (facteur fioul, méthode 3CL, à vérifier) + électricité ≈ **119 kgCO₂/m²/an → G pour le climat** (G au-delà de 100). **Classe retenue (la moins bonne des deux) : G.**
+- Point pédagogique : avec le coefficient électricité à 1,9 (2026), l'énergie primaire passe à ≈ 393, **toujours F, et le climat reste G** : contrairement à l'appartement de M. Bernard, **l'attestation actualisée ne change pas la classe**. C'est le fioul qui classe la maison G.
+- Coût annuel d'énergie indiqué : **entre 4 100 € et 5 600 € par an** (fictif).
+- **Fait vérifié (à revérifier)** : audit énergétique réglementaire obligatoire à la vente des maisons individuelles et monopropriétés classées **F ou G depuis le 1/04/2023**, **E depuis le 1/01/2025**, D à partir du 1/01/2034 ; valable 5 ans ; remis dès la première visite. Un logement **G** ne peut plus être proposé à une **nouvelle location** depuis le 1/01/2025 (critère de décence), **F** à partir de 2028, **E** à partir de 2034.
+- **Audit énergétique du 15/10/2026** (D21, fictif, « Diag77 ») : deux parcours.
+  - **Parcours en une étape** (rénovation globale) : isolation des combles (30 cm), isolation des murs par l'extérieur, isolation du plancher sur sous-sol, fenêtres double vitrage, pompe à chaleur air/eau, VMC hygroréglable → ≈ 120 kWhEP/m²/an et 8 kgCO₂ → **classe C**. Coût estimé : **78 000 € TTC**.
+  - **Parcours en deux étapes** : étape 1 = combles + pompe à chaleur air/eau + fenêtres (**42 500 € TTC**) → **classe D** ; étape 2 = murs par l'extérieur + plancher bas + VMC (**35 500 € TTC**) → **classe C**.
+  - Les aides (MaPrimeRénov', CEE, éco-PTZ) dépendent des revenus du ménage qui fera les travaux : **ne jamais les chiffrer comme acquises**.
+
+### 11.4 Diagnostics, risques et urbanisme (fictifs)
+- **Amiante** (permis avant juillet 1997) : plaques en fibrociment sur le toit du garage, **matériau de liste B, état de conservation correct** (évaluation périodique conseillée) ; rien d'autre repéré.
+- **Plomb** : non concerné (construite après 1949). **Gaz** : non concerné (pas d'installation gaz). **Électricité** : installation de plus de 15 ans → diagnostic : 3 anomalies (dont absence de dispositif différentiel 30 mA sur un circuit du sous-sol).
+- **Termites** : commune non couverte par un arrêté préfectoral termites (fictif, à vérifier). **Mérule** : pas de zone délimitée.
+- **Assainissement non collectif** (le hameau n'est pas raccordé au tout-à-l'égout) : fosse toutes eaux et épandage de 1985 ; **contrôle du SPANC du 12/03/2025 : non conforme, sans danger pour la santé** (épandage colmaté). **Fait vérifié (à revérifier)** : le rapport du SPANC doit dater de **moins de 3 ans** à la vente ; en cas de non-conformité, l'acquéreur doit faire les travaux **dans l'année qui suit la vente**. Devis de réhabilitation (fictif) : **11 800 € TTC**.
+- **État des risques (ERP)** : exposition **moyenne au retrait-gonflement des argiles** (fictif, à vérifier sur Géorisques) ; pas de plan de prévention inondation ; un arrêté de catastrophe naturelle « sécheresse » en 2019 sur la commune (fictif). **Fait vérifié (à revérifier)** : en zone d'exposition moyenne ou forte, une **étude géotechnique préalable (G1)** est exigée à la vente d'un **terrain à bâtir** (loi ÉLAN).
+- **Urbanisme** : zone **UB** du PLU (fictif) : emprise au sol maximale 40 %, hauteur 9 m au faîtage, recul de 5 m sur rue. **Division possible** : un lot de **480 m²** à l'arrière, dont une **bande d'accès de 60 m²** le long de la limite est (surface valorisable : **420 m²**). Division par **déclaration préalable** (fictif) ; frais de géomètre, branchements et G1 estimés à **15 000 €** (fictif).
+
+### 11.5 Le marché local des maisons (FICTIF, inspiré de données DVF)
+- Maisons 1960-1980, 4-5 pièces, terrain 800 à 1 500 m², secteur Vaux-le-Pénil / Le Mée / Dammarie, 2025-2026 : **2 750 €/m² habitable** en l'état (classes F-G) ; **3 300 €/m²** rénovées (classes C-D).
+- **Terrains à bâtir** viabilisés (400 à 600 m²) : **180 à 230 €/m²** ; médiane 200 €/m².
+- **Coût de construction neuve** d'une maison équivalente (2026, fictif) : **1 900 €/m²** de surface habitable, hors terrain.
+- **Loyer de marché** d'une maison équivalente rénovée : **1 350 €/mois** (fictif) ; taux de capitalisation observé pour ce type de bien : **5,5 %** (fictif).
+- Valeur **en l'état** (comparaison) : 112 × 2 750 = 308 000 € de base, ajustée pour l'assainissement non conforme (11 800 €), le chauffage fioul et la toiture → fourchette **285 000 € – 300 000 €** net vendeuse.
+- Valeur **après rénovation globale** (classe C, assainissement refait) : 112 × 3 300 = **369 600 €**.
+- La détection de la valeur du **lot à bâtir** (≈ 420 × 200 = 84 000 € avant frais) fait partie des capsules du parcours maison : à présenter comme une **option à étudier** avec un géomètre et le notaire, jamais comme un gain promis.
+
+### 11.6 Documents du dossier maison (à citer par leur code)
+M01 Fiche découverte de Mme Garnier · M02 DPE du 06/02/2024 (synthèse) · M03 Audit énergétique du 15/10/2026 (D21) · M04 Plan et descriptif de la maison · M05 Reportage photo commenté (14 photos) · M06 Extrait cadastral et plan de la parcelle AB 214 · M07 Extrait du PLU (zone UB) · M08 Rapport du SPANC du 12/03/2025 + devis de réhabilitation · M09 Diagnostics amiante et électricité · M10 État des risques (ERP) · M11 Titre de propriété et taxe foncière (1 980 €/an) · M12 Tableau des mutations de maisons (fictif) · M13 Tableau des mutations de terrains (fictif) · M14 Devis des travaux de l'audit.

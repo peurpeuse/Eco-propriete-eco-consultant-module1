@@ -24,6 +24,10 @@
   function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
 
   // Mozi : personnage original, violet. Agent caricatural, lunettes noires, sourire trop large.
+  /* Nouveau Mozi : personnage illustré (assets/mozi/*.webp). Une pose par chapitre sur l'écran 3. */
+  var MZ = ['telephone', 'clin-oeil', 'sur-de-lui', 'pointe', 'presente', 'presse', 'bof'];
+  function mzPose(ch, s) { if (s && s.mozi_pose) return s.mozi_pose; var h = 0; String(ch.id).split('').forEach(function (c) { h = (h * 31 + c.charCodeAt(0)) % 997; }); var m = MZ[h % MZ.length]; return m === 'sur-de-lui' ? 'pointe' : m; }
+  function mzImg(ch, pose, extra) { return '<img class="pose mzp' + (extra ? ' ' + extra : '') + '" src="' + esc((ch._assets || 'assets/') + 'mozi/' + pose + '.webp') + '" alt="Mozi">'; }
   function mozi(cls) {
     return '<svg class="mozi ' + (cls || '') + '" viewBox="0 0 200 240" role="img" aria-label="Mozi">' +
       '<path d="M40 240c0-52 26-86 60-86s60 34 60 86z" fill="#5B2BB5"/>' +
@@ -84,7 +88,8 @@
     '.ch .wl{justify-content:center}.ch .wl h2.t{font-size:9cqmin;max-width:80%}' +
     '.ch .goals{display:flex;flex-direction:column;gap:1.6cqmin;max-width:74%}' +
     '.ch .goals div{background:#fff;border-radius:1.4cqmin;padding:1.6cqmin 2.4cqmin;font-size:max(15px,3.1cqmin);border:2px solid var(--line)}.ch .goals b{font-family:"IBM Plex Mono",monospace;margin-right:1.4cqmin}.ch .goals strong{font-weight:900}' +
-    '.ch .mz{flex-direction:row;align-items:center;gap:5cqmin;padding-bottom:12cqmin}.ch .mz .mozi{width:34cqmin;height:auto;flex:none}' +
+    '.ch .mz{flex-direction:column;justify-content:center;gap:1cqmin;padding-bottom:12cqmin}.ch .mz>div:not(.mzfx){position:relative;z-index:1}.ch .mzp{filter:drop-shadow(0 1.2cqmin 2cqmin rgba(59,22,140,.25))}'+
+    '.ch .mz .mozi{width:34cqmin;height:auto;flex:none}' +
     '.ch .bub{position:relative;background:#fff;border:.5cqmin solid var(--vi);border-radius:3cqmin;padding:3cqmin 3.6cqmin;font-weight:900;font-size:5.6cqmin;line-height:1.08;letter-spacing:-.02em;color:var(--vi2)}' +
     '.ch .bub:before{content:"";position:absolute;left:-3.4cqmin;top:40%;border:1.6cqmin solid transparent;border-right:2.4cqmin solid var(--vi)}' +
     '.ch .mz .kick{display:inline-block}.ch .scene{font-size:max(12px,2.2cqmin);color:var(--mute);margin-top:2cqmin}' +
@@ -238,12 +243,12 @@
         (s.items || []).map(function (x, i) { return '<div class="a" style="--d:' + (0.3 + i * 0.35) + 's"><b>0' + (i + 1) + '</b><strong>' + esc(x.verb) + '</strong> · ' + esc(x.text) + '</div>'; }).join('') +
         '</div><button class="go a" style="--d:1.4s" data-act="next">' + esc(s.cta || 'Suivant') + '</button></div>';
     } else if (k === 'mozi') {
-      h = '<div class="sc vio mz" data-k="mozi"><div class="mzfx" aria-hidden="true">' + [12, 22, 30, 18, 26].map(function (x, j) { return STAR.replace('<svg ', '<svg style="left:' + x + '%;top:' + (40 + (j % 2) * 12) + '%;--d:' + (j * 0.45).toFixed(2) + 's" '); }).join('') + '</div><div class="pop" style="--d:.05s">' + mozi() + '</div><div><div class="kick a" style="background:var(--vi);color:#fff">Mozi</div>' +
+      h = '<div class="sc vio mz hp" data-k="mozi"><div class="mzfx" aria-hidden="true">' + [12, 22, 30, 18, 26].map(function (x, j) { return STAR.replace('<svg ', '<svg style="left:' + x + '%;top:' + (40 + (j % 2) * 12) + '%;--d:' + (j * 0.45).toFixed(2) + 's" '); }).join('') + '</div><div><div class="kick a" style="background:var(--vi);color:#fff">Mozi</div>' +
         '<div class="bub pop" style="--d:.35s;margin-top:2cqmin">« ' + esc(s.line || s.voice) + ' »</div><div class="scene a" style="--d:.8s">' + esc(s.scene || '') + '</div>' +
-        '<div class="vote" data-vote><p>As-tu déjà vu un agent faire comme Mozi ?</p><div class="vb"><button data-vote-v="1">Oui, déjà vu</button><button data-vote-v="0">Non, jamais</button></div><div class="vres" data-out="vote" hidden></div></div></div></div>';
+        '<div class="vote" data-vote><p>As-tu déjà vu un agent faire comme Mozi ?</p><div class="vb"><button data-vote-v="1">Oui, déjà vu</button><button data-vote-v="0">Non, jamais</button></div><div class="vres" data-out="vote" hidden></div></div></div>' + mzImg(ch, mzPose(ch, s)) + '</div>';
     } else if (k === 'belief') {
-      h = '<div class="sc vio" data-k="belief">' + kick(s).replace('class="kick a"', 'class="kick a" style="background:var(--vi);color:#fff"') + '<div class="mini">' + mozi() + '</div>' +
-        '<div class="beats" style="margin-top:6cqmin">' + (s.beats || []).map(function (b, i) { var tap = s.wrong != null; return '<span style="--d:' + (0.3 + i * 1.2) + 's"' + (tap ? ' class="bt" data-beat="' + i + '" role="button" tabindex="0"' : '') + '>' + esc(b) + (i < 2 ? ',' : '') + '</span>'; }).join('') + '<i class="uline" style="--d:' + (0.4 + (s.beats || []).length * 1.2) + 's"></i></div>' + (s.wrong != null ? '<div class="bwhy" data-out="beat" hidden></div>' : '') + '</div>';
+      h = '<div class="sc vio hp" data-k="belief">' + kick(s).replace('class="kick a"', 'class="kick a" style="background:var(--vi);color:#fff"') +
+        '<div class="beats" style="margin-top:6cqmin">' + (s.beats || []).map(function (b, i) { var tap = s.wrong != null; return '<span style="--d:' + (0.3 + i * 1.2) + 's"' + (tap ? ' class="bt" data-beat="' + i + '" role="button" tabindex="0"' : '') + '>' + esc(b) + (i < 2 ? ',' : '') + '</span>'; }).join('') + '<i class="uline" style="--d:' + (0.4 + (s.beats || []).length * 1.2) + 's"></i></div>' + (s.wrong != null ? '<div class="bwhy" data-out="beat" hidden></div>' : '') + mzImg(ch, 'sur-de-lui', 'mzb') + '</div>';
     } else if (k === 'consequence') {
       h = '<div class="sc dark" data-k="consequence">' + kick(s) + '<div class="lines">' + (s.lines || [s.title]).map(function (l, i) { return '<span style="--d:' + (0.4 + i * 1.4) + 's">' + esc(l) + '</span>'; }).join('') + '</div>' + srcHtml(s) + '</div>';
     } else if (k === 'stat') {
@@ -327,7 +332,7 @@
     var GTX = { m: 'Ton avis compte', g: 'Fais ton estimation', d: 'À toi : refais la démo', s: 'Remets les étapes dans l’ordre', b: 'Touche ce qui cloche chez Mozi', r: 'À toi : écris ta réponse ou dicte-la', q: 'À toi : choisis une réponse' };
     function gate(on, txt) { gated = on; root.classList.toggle('gated', on); var g = root.querySelector('[data-gt]'); if (g && txt) g.textContent = txt; }
     function answered(k, go) { gt[k] = 1; hk.save && hk.save(); var was = gated; gate(false); if (was && go) { clearTimeout(gTimer); gTimer = setTimeout(function () { if (!playing) next(); }, go); } }
-    function beatWin() { var s = ch.screens[i], sc = scs[i], bt = sc.querySelectorAll('[data-beat]'), w = bt[s.wrong]; if (!w) return; w.classList.add('ok'); var o = sc.querySelector('[data-out=beat]'); o.hidden = false; o.innerHTML = '<b>Bien vu.</b> ' + esc(s.why || ''); }
+    function beatWin() { var s = ch.screens[i], sc = scs[i], bt = sc.querySelectorAll('[data-beat]'), w = bt[s.wrong]; if (!w) return; w.classList.add('ok'); var o = sc.querySelector('[data-out=beat]'); o.hidden = false; o.innerHTML = '<b>Bien vu.</b> ' + esc(s.why || ''); var mb = sc.querySelector('.mzb'); if (mb) mb.src = mb.src.replace(/[^/]+\.webp$/, 'pris.webp'); }
     var dur = chDurs(ch), rate = 1, cdT = 0, endc = root.querySelector('.endcard');
     try { rate = +localStorage.getItem('ecoRate') || 1; } catch (e) {}
     var starts = []; dur.reduce(function (a, d, k) { starts[k] = a; return a + d; }, 0);
@@ -365,7 +370,7 @@
       [].forEach.call(scs, function (x, k) { x.classList.toggle('on', k === i); x.setAttribute('aria-hidden', String(k !== i)); if (k !== i) x.setAttribute('inert', ''); else x.removeAttribute('inert'); });
       var s = ch.screens[i]; words = String(s.voice || '').split(/\s+/).filter(Boolean); chunks = []; var cur = [];
       words.forEach(function (w, k) { cur.push(k); if (cur.length >= 14 || (cur.length >= 6 && /[.!?;:]$/.test(w))) { chunks.push(cur); cur = []; } }); if (cur.length) chunks.push(cur);
-      seb.classList.toggle('off', s.kind === 'mozi' || s.kind === 'belief'); stage.classList.toggle('hp', !!poseOf(s));
+      seb.classList.toggle('off', s.kind === 'mozi' || s.kind === 'belief'); stage.classList.toggle('hp', !!poseOf(s) || s.kind === 'mozi' || s.kind === 'belief');
       [].forEach.call(scs[i].querySelectorAll('.rv'), function (r) { r.classList.remove('in'); }); scs[i].classList.remove('try', 'ordering'); tryN = -1;
       var bc = scs[i].querySelector('[data-count]'); if (bc && bc.getAttribute('data-count')) bc.textContent = JSON.parse(bc.getAttribute('data-count')).pre + '0';
       st.i = i; if (s.kind === 'bravo') { st.done = 1; hk.onDone && hk.onDone(); } hk.save && hk.save();
@@ -378,7 +383,7 @@
       if (s.kind === 'retrieval' && st.ret) { sc.querySelector('[data-in=ret]').value = st.ret; }
       if (s.kind === 'quiz' && st.qz != null) back(st.qz, true);
       if (s.kind === 'mozi' && !hk.render) { var vt = sc.querySelector('[data-vote]'); if (vt) vt.classList.toggle('done', st.vote != null); }
-      if (s.kind === 'belief') { [].forEach.call(sc.querySelectorAll('[data-beat]'), function (x) { x.classList.remove('ok', 'ko'); }); var ob = sc.querySelector('[data-out=beat]'); if (ob) ob.hidden = true; if (gt.b && !hk.render) beatWin(); }
+      if (s.kind === 'belief') { var mb0 = sc.querySelector('.mzb'); if (mb0) mb0.src = mb0.src.replace(/[^/]+\.webp$/, 'sur-de-lui.webp'); [].forEach.call(sc.querySelectorAll('[data-beat]'), function (x) { x.classList.remove('ok', 'ko'); }); var ob = sc.querySelector('[data-out=beat]'); if (ob) ob.hidden = true; if (gt.b && !hk.render) beatWin(); }
       if (s.kind === 'proof' && hk.proof) { var im = sc.querySelector('[data-out=proof]'); im.src = hk.proof; im.hidden = false; }
     }
     function paint() {
