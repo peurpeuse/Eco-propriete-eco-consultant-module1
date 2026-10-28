@@ -1,0 +1,178 @@
+{
+ "id": "2.29",
+ "module": 2,
+ "section": "K · Cadrer, lire le marché, réunir les références",
+ "etape": "4 (Éco-staging)",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "L'étude de marché : tendance, offres en cours, négociation",
+ "objective": "Rédiger l'analyse de marché d'une commune en trois mesures sourcées et datées : tendance des prix sur un an, prix affichés des biens en vente, marge de négociation",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Mozi prend le prix le plus haut des annonces du quartier et l'appelle « le prix du marché ». Sébastien Paumier montre la différence entre un prix affiché et un prix vendu, lit la tendance sur un an dans les indices Insee-Notaires et sur DVF, puis calcule la marge de négociation sur Vaux-le-Pénil, exemple fictif de la maison de Mme Garnier."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Sur Vaux-le-Pénil, les maisons comparables sont affichées en médiane à 2 950 €/m² et vendues à 2 750 €/m² (exemple fictif). Quelle marge de négociation observes-tu ?",
+    "options": [
+     "Environ 2 %",
+     "Environ 7 %",
+     "Environ 20 %"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : 2 % ne correspond pas au calcul ; vérifie la formule (affiché − vendu) ÷ affiché.",
+     "Juste : (2 950 − 2 750) ÷ 2 950 = 6,8 %, soit environ 7 %.",
+     "Faux : 20 % confondrait l'écart avec un autre chiffre ; l'écart réel est de 200 €/m² sur 2 950."
+    ],
+    "fb_title": "Affiché moins vendu, sur affiché",
+    "fb_text": "La marge se calcule sur le prix affiché : (affiché − vendu) ÷ affiché. Attention : les annonces et les ventes ne portent pas sur les mêmes biens ni sur la même période ; c'est un ordre de grandeur à dater et à sourcer."
+   },
+   {
+    "question": "Mozi présente à Mme Garnier l'annonce la plus chère du hameau comme « le prix du marché ». Quelle est son erreur ?",
+    "options": [
+     "Une annonce n'est pas une vente : c'est le souhait d'un vendeur, pas un prix accepté par un acheteur",
+     "Il aurait dû prendre l'annonce la moins chère",
+     "Il aurait dû prendre la moyenne de toutes les annonces de Seine-et-Marne"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : la Charte de l'expertise le rappelle, les prix d'offre ne reflètent que les attentes des vendeurs ; ils s'utilisent avec l'écart vers les prix de vente.",
+     "Faux : la moins chère reste une offre ; le problème est de confondre offre et vente.",
+     "Faux : une moyenne départementale d'annonces mélange des biens et des secteurs sans rapport."
+    ],
+    "fb_title": "Les annonces disent la concurrence",
+    "fb_text": "Les prix affichés montrent contre qui Mme Garnier sera en concurrence. Les prix vendus (DVF, notaires) disent ce que les acheteurs ont payé. Ton étude présente les deux, et l'écart entre eux."
+   },
+   {
+    "question": "Pour la tendance sur un an d'un marché de maisons en Seine-et-Marne, quelle source cites-tu en premier ?",
+    "options": [
+     "Un article de blog d'agence sans date",
+     "Le ressenti des agences du secteur",
+     "Les indices Insee-Notaires (dernière publication datée), complétés par les ventes DVF de la commune"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : sans date ni méthode, un article ne prouve rien.",
+     "Faux : le ressenti des agences est utile en complément, mais il ne remplace pas une donnée mesurée.",
+     "Juste : par exemple, au T2 2026, l'Insee mesure −1,3 % sur un an pour les maisons en France et −0,3 % en Île-de-France (publication du 8/09/2026)."
+    ],
+    "fb_title": "Une tendance a une source et une date",
+    "fb_text": "Tu cites l'indice officiel le plus récent avec sa date, puis tu le confrontes aux ventes de la commune. Si les deux divergent, tu le dis : un petit marché local bouge plus que l'indice régional."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Trame d'étude de marché et liste des sources (indices de prix, notaires, annonces, agences)",
+  "kind": "fiche",
+  "intro": "L'étude de marché tient sur une page et répond à trois questions : les prix montent-ils ou baissent-ils ici, contre quels biens le mien sera-t-il en concurrence, et combien les acheteurs négocient-ils ? Chaque chiffre porte sa source et sa date. Elle précède le choix des références (capsule 2.30).",
+  "sections": [
+   {
+    "type": "steps",
+    "heading": "La trame en 5 blocs",
+    "items": [
+     "Périmètre : commune, type de bien (maison ou appartement), gabarit (surface, époque, terrain), période étudiée.",
+     "Tendance sur un an : indice Insee-Notaires le plus récent (national et Île-de-France), puis médiane DVF de la commune sur les 12 derniers mois contre les 12 mois précédents.",
+     "Offres en cours : nombre de biens comparables en vente, prix affichés (médiane au m²), ancienneté des annonces, baisses de prix observées.",
+     "Négociation : (prix affiché médian − prix vendu médian) ÷ prix affiché médian, avec ses limites.",
+     "Conclusion en 3 phrases : marché porteur, stable ou difficile ; position conseillée dans la fourchette ; délai attendu."
+    ]
+   },
+   {
+    "type": "table",
+    "heading": "Les sources et ce qu'elles disent",
+    "headers": ["Source", "Ce qu'elle mesure", "Limite"],
+    "rows": [
+     ["Insee, indices des prix des logements anciens (avec les notaires)", "Tendance trimestrielle et sur un an, France et régions", "Pas de détail par commune"],
+     ["DVF (data.gouv.fr, application explore.data.gouv.fr)", "Ventes réelles des 5 dernières années, mise à jour en avril et octobre", "Pas de DPE ni d'état ; hors Alsace, Moselle, Mayotte"],
+     ["Notaires : immobilier.notaires.fr, Notaires du Grand Paris", "Prix médians et cartes des prix", "Décalage de quelques mois"],
+     ["Annonces en ligne", "Prix affichés, stock, durée de mise en vente", "Souhait du vendeur, pas prix accepté"],
+     ["Agences et confrères", "Délai, nombre de visites, profil des acheteurs", "Ressenti : à recouper"]
+    ]
+   },
+   {
+    "type": "table",
+    "heading": "Exemple : maisons 1960-1980 à Vaux-le-Pénil (FICTIF sauf Insee)",
+    "headers": ["Mesure", "Valeur", "Source et date"],
+    "rows": [
+     ["Tendance maisons, France, un an", "−1,3 %", "Insee, Informations rapides n° 216, 8/09/2026 (T2 2026)"],
+     ["Tendance Île-de-France, un an", "−0,3 %", "Insee, même publication"],
+     ["Médiane vendue commune, 12 derniers mois", "2 750 €/m² (contre 2 790 un an avant : −1,4 %)", "DVF, exemple fictif"],
+     ["Offres en cours comparables", "6 maisons, médiane affichée 2 950 €/m²", "Annonces relevées en octobre 2026, fictif"],
+     ["Marge de négociation", "(2 950 − 2 750) ÷ 2 950 = 6,8 %", "Calcul, fictif"]
+    ]
+   },
+   {
+    "type": "text",
+    "heading": "La phrase à dire au client",
+    "text": "« Les prix des maisons sont stables à légèrement en baisse sur un an. Six maisons comparables sont en vente autour de 2 950 € le m², mais les ventes réelles se font autour de 2 750 €. C'est ce chiffre-là, et non celui des annonces, qui va nous servir de base. »"
+   }
+  ],
+  "footer": "Sources : Insee, Informations rapides n° 216 du 8/09/2026 (T2 2026 : −0,8 % sur un an en France, −1,3 % pour les maisons, −0,3 % en Île-de-France) ; DVF, data.gouv.fr (mise à jour du 12/10/2026) ; immobilier.notaires.fr ; Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025), prix d'offre. Données locales fictives. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Rédiger l'analyse de marché d'une commune",
+  "duration_min": 40,
+  "context": "Avant de choisir tes références, tu rédiges l'étude de marché de la commune de ton bien fil rouge : Vaux-le-Pénil pour la maison de Mme Garnier (maisons 1960-1980, 4-5 pièces, terrain 800 à 1 500 m²) ou Melun pour l'appartement de M. Bernard (T3-T4, immeubles 1965-1980). Tu utilises les vraies sources pour la tendance et le relevé d'annonces, et les données fictives du dossier pour les ventes locales.",
+  "materials": [
+   "Insee, Informations rapides n° 216 (8/09/2026)",
+   "Application DVF : explore.data.gouv.fr/immobilier",
+   "M12 Tableau des mutations de maisons (fictif) ou D12 Tableau des comparables (fictifs)",
+   "Trame d'étude de marché (ressource)"
+  ],
+  "steps": [
+   "Écris le périmètre : commune, type de bien, gabarit, période.",
+   "Relève la tendance sur un an : indice Insee le plus récent (France et Île-de-France) et médiane locale du dossier.",
+   "Relève sur les sites d'annonces 5 à 8 biens comparables en vente : prix, surface, prix affiché au m², ancienneté de l'annonce ; calcule la médiane.",
+   "Calcule la marge de négociation et écris ses limites en une phrase.",
+   "Conclus en 3 phrases : état du marché, position conseillée dans la fourchette, délai attendu."
+  ],
+  "expected": "Exemple pour Vaux-le-Pénil (maison) : périmètre maisons 1960-1980, 4-5 pièces, terrain 800 à 1 500 m², ventes 2025-2026. Tendance : −1,3 % sur un an pour les maisons en France et −0,3 % en Île-de-France (Insee, IR n° 216, 8/09/2026) ; médiane locale 2 750 €/m² contre 2 790 un an avant (−1,4 %, fictif). Offres : 6 maisons comparables, médiane affichée 2 950 €/m², deux annonces de plus de 4 mois avec baisse de prix (fictif). Négociation : (2 950 − 2 750) ÷ 2 950 = 6,8 % ; limite : annonces et ventes ne portent pas sur les mêmes biens ni sur la même période. Conclusion : marché stable à légèrement baissier, acheteurs attentifs au DPE et aux travaux ; présenter la maison au cœur de la fourchette, dossier complet (audit, SPANC) pour limiter la négociation ; délai attendu de 3 à 5 mois (à confirmer par les agences du secteur).",
+  "ia_prompt": null
+ },
+ "deliverable": {
+  "title": "Analyse de marché d'une page de la commune du bien fil rouge",
+  "format": "Note PDF d'une page",
+  "criteria": [
+   "La tendance sur un an cite l'indice Insee le plus récent avec sa date",
+   "Au moins 5 annonces comparables sont relevées, avec la médiane affichée au m²",
+   "La marge de négociation est calculée sur le prix affiché, avec sa limite",
+   "Les données fictives du dossier sont signalées comme telles",
+   "La conclusion tient en 3 phrases et ne promet aucun prix"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Insee, Informations rapides n° 216 (8/09/2026) : prix des logements anciens au T2 2026, −0,8 % sur un an en France, −1,3 % pour les maisons, −0,1 % pour les appartements, −0,3 % en Île-de-France",
+   "url": "https://insee.fr/fr/statistiques/9040119"
+  },
+  {
+   "label": "DVF, Demandes de valeurs foncières (data.gouv.fr) : dernière mise à jour 12/10/2026",
+   "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+  },
+  {
+   "label": "Application de consultation DVF",
+   "url": "https://explore.data.gouv.fr/immobilier"
+  },
+  {
+   "label": "Notaires de France, carte des prix immobiliers",
+   "url": "https://www.immobilier.notaires.fr/fr/prix-immobilier"
+  },
+  {
+   "label": "Notaires du Grand Paris, carte des prix de l'immobilier en Île-de-France",
+   "url": "https://paris.notaires.fr/fr/carte-des-prix"
+  },
+  {
+   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : les prix d'offre ne reflètent que les attentes des vendeurs",
+   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+  }
+ ],
+ "open_points": [
+  "Données locales (médiane 2 750 €/m², 2 790 un an avant, 6 annonces à 2 950 €/m², délai de 3 à 5 mois) fictives : à ajouter au dossier M12 ou à remplacer par un relevé réel.",
+  "À actualiser : indice Insee à chaque nouvelle publication trimestrielle (prochaine après le T3 2026).",
+  "À définir avec Sébastien Paumier : liste des sites d'annonces recommandés pour le relevé des prix affichés."
+ ]
+}

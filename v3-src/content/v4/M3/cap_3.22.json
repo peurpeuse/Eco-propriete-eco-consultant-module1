@@ -11,7 +11,7 @@
   "video": {
     "duration": "4:30",
     "chapter": true,
-    "pitch": "Mozi, en blazer violet, promet à un vendeur « je m'occupe de tout, travaux compris, et je prends juste 10 % sur l'artisan ». Sébastien Paumier présente l'inverse : une page, quatre résultats attendus pour le vendeur, trois niveaux d'offre, et une ligne claire entre ce que l'agent fait lui-même, ce qui demande un spécialiste et ce qui est facturé en plus. Exemple : la proposition remise à M. Bernard."
+    "pitch": "Mozi, en blazer violet, promet « je m'occupe de tout, travaux compris, et je prends 10 % sur l'artisan ». Sébastien Paumier montre l'inverse : une page, quatre résultats attendus, trois niveaux d'offre, et une ligne claire entre ce que l'agent fait lui-même, ce qui demande un spécialiste et ce qui est facturé en plus. Exemple : la proposition remise à M. Bernard."
   },
   "quiz": {
     "questions": [
@@ -85,31 +85,78 @@
       {
         "type": "table",
         "heading": "Les quatre résultats attendus pour le vendeur",
-        "headers": ["Résultat", "Ce que le vendeur reçoit (exemple M. Bernard)"],
+        "headers": [
+          "Résultat",
+          "Ce que le vendeur reçoit (exemple M. Bernard)"
+        ],
         "rows": [
-          ["Comprendre la valeur du bien", "Fourchette 178 000 – 186 000 € net, comparables D12, étiquette en vigueur E (D03)"],
-          ["Repérer les freins", "Fenêtres simple vitrage, absence de VMC, appels de fonds ITE (D07, D13)"],
-          ["Choisir la stratégie avant la commercialisation", "Grille d'arbitrage travaux ou vente en l'état, plan Éco-staging"],
-          ["Informer les acquéreurs", "Dossier technique, devis chiffrés, calendrier des appels de fonds remis aux acheteurs sérieux"]
+          [
+            "Comprendre la valeur du bien",
+            "Fourchette 178 000 – 186 000 € net, comparables D12, étiquette en vigueur E (D03)"
+          ],
+          [
+            "Repérer les freins",
+            "Fenêtres simple vitrage, absence de VMC, appels de fonds ITE (D07, D13)"
+          ],
+          [
+            "Choisir la stratégie avant la commercialisation",
+            "Grille d'arbitrage travaux ou vente en l'état, plan Éco-staging"
+          ],
+          [
+            "Informer les acquéreurs",
+            "Dossier technique, devis chiffrés, calendrier des appels de fonds remis aux acheteurs sérieux"
+          ]
         ]
       },
       {
         "type": "table",
         "heading": "Trois niveaux d'offre (contenu proposé, tarifs à confirmer avec Éco-propriété)",
-        "headers": ["Niveau", "Contenu proposé", "Tarif", "À la charge de"],
+        "headers": [
+          "Niveau",
+          "Contenu proposé",
+          "Tarif",
+          "À la charge de"
+        ],
         "rows": [
-          ["1. Lecture du bien", "Estimation, lecture du DPE et de l'attestation, liste des freins", "[à compléter : tarif confirmé par Éco-propriété]", "[à compléter]"],
-          ["2. Plan Éco-staging", "Niveau 1 + plan Éco-staging (3 actions à petit budget, chiffrées)", "[à compléter : tarif confirmé par Éco-propriété]", "[à compléter]"],
-          ["3. Formule complète", "Niveau 2 + dossier Éco-staging de 8 pages, dossier acquéreurs, suivi de la commercialisation", "[à compléter : tarif et répartition confirmés par Éco-propriété]", "[à compléter]"]
+          [
+            "1. Lecture du bien",
+            "Estimation, lecture du DPE et de l'attestation, liste des freins",
+            "[à compléter : tarif confirmé par Éco-propriété]",
+            "[à compléter]"
+          ],
+          [
+            "2. Plan Éco-staging",
+            "Niveau 1 + plan Éco-staging (3 actions à petit budget, chiffrées)",
+            "[à compléter : tarif confirmé par Éco-propriété]",
+            "[à compléter]"
+          ],
+          [
+            "3. Formule complète",
+            "Niveau 2 + dossier Éco-staging de 8 pages, dossier acquéreurs, suivi de la commercialisation",
+            "[à compléter : tarif et répartition confirmés par Éco-propriété]",
+            "[à compléter]"
+          ]
         ]
       },
       {
         "type": "table",
         "heading": "Qui fait quoi",
-        "headers": ["Je réalise moi-même", "Demande un spécialiste", "Facturé en plus"],
+        "headers": [
+          "Je réalise moi-même",
+          "Demande un spécialiste",
+          "Facturé en plus"
+        ],
         "rows": [
-          ["Estimation, synthèse des indicateurs, plan Éco-staging, lecture comparée des devis", "Diagnostiqueur certifié (DPE, simulation d'étiquette), notaire (fiscalité, acte), courtier (financement), géomètre", "[à compléter selon la grille Éco-propriété]"],
-          ["Dossier acquéreurs, comptes rendus, coordination des visites", "Entreprises de travaux choisies et payées directement par le vendeur", "Petites dépenses Éco-staging (≈ 450 € dans l'exemple de M. Bernard), payées par le vendeur à ses fournisseurs"]
+          [
+            "Estimation, synthèse des indicateurs, plan Éco-staging, lecture comparée des devis",
+            "Diagnostiqueur certifié (DPE, simulation d'étiquette), notaire (fiscalité, acte), courtier (financement), géomètre",
+            "[à compléter selon la grille Éco-propriété]"
+          ],
+          [
+            "Dossier acquéreurs, comptes rendus, coordination des visites",
+            "Entreprises de travaux choisies et payées directement par le vendeur",
+            "Petites dépenses Éco-staging (≈ 450 € dans l'exemple de M. Bernard), payées par le vendeur à ses fournisseurs"
+          ]
         ]
       },
       {
@@ -161,8 +208,14 @@
     ]
   },
   "sources": [
-    { "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970, art. 6 (convention écrite, rémunération et partie qui en a la charge ; aucune rémunération avant l'opération conclue)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032043077" },
-    { "label": "Éco-Propriété — cahier des charges de la formation Éco-Consultant (limites du métier) ; dossier fil rouge fictif", "url": "https://eco-propriete.fr" }
+    {
+      "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970, art. 6 (convention écrite, rémunération et partie qui en a la charge ; aucune rémunération avant l'opération conclue)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032043077"
+    },
+    {
+      "label": "Éco-Propriété — cahier des charges de la formation Éco-Consultant (limites du métier) ; dossier fil rouge fictif",
+      "url": "https://eco-propriete.fr"
+    }
   ],
   "open_points": [
     "Tarifs du plan Éco-staging et de la formule complète, et répartition des services entre les trois niveaux : à confirmer avec Éco-propriété (champs laissés à compléter).",
