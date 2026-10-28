@@ -1,0 +1,178 @@
+{
+  "id": "2.12",
+  "module": 2,
+  "section": "D · PARCOURS MAISON · Ses diagnostics",
+  "etape": "2 (Éco-staging)",
+  "parcours": "maison",
+  "prio": false,
+  "ia": false,
+  "title": "Maison : assainissement, carnet d'information, dossier complet",
+  "objective": "Constituer le dossier de diagnostics complet d'une maison, en traitant l'assainissement non collectif (contrôle de moins de 3 ans, travaux dans l'année) et le carnet d'information du logement",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "La maison de Mme Garnier n'est pas raccordée au tout-à-l'égout. Sébastien Paumier ouvre le rapport du SPANC du 12/03/2025 : non conforme, sans danger. Règle : rapport de moins de 3 ans, travaux dans l'année qui suit la vente ; devis de 11 800 €. Puis il assemble le dossier complet et dit quand le carnet d'information du logement est exigé."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Le rapport du SPANC de Mme Garnier date du 12/03/2025. L'acte est prévu en juin 2027. Est-il encore valable ?",
+        "options": [
+          "Non : il faut un rapport de moins d'un an",
+          "Oui : il doit dater de moins de 3 ans, il vaut jusqu'au 11/03/2028",
+          "Il n'a pas de durée : un rapport suffit"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : la durée exigée est de 3 ans, pas d'un an.",
+          "Juste : le rapport de contrôle du SPANC doit dater de moins de 3 ans au moment de la vente.",
+          "Faux : un rapport trop ancien oblige le vendeur à demander un nouveau contrôle, à ses frais."
+        ],
+        "fb_title": "SPANC : moins de 3 ans",
+        "fb_text": "Le vendeur fournit un rapport de contrôle du SPANC daté de moins de 3 ans, annexé à la promesse. S'il n'y en a pas ou s'il est périmé, le vendeur demande un nouveau contrôle et le paie."
+      },
+      {
+        "question": "L'installation est « non conforme, sans danger pour la santé ». Qui fait les travaux, et quand ?",
+        "options": [
+          "Le vendeur, obligatoirement avant de signer",
+          "Personne : sans danger, il n'y a rien à faire",
+          "L'acquéreur, dans l'année qui suit l'acte, sauf si le vendeur les fait avant ; le prix peut en tenir compte"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le vendeur peut les faire, mais il n'y est pas obligé ; il doit informer l'acquéreur.",
+          "Faux : la non-conformité constatée à la vente impose des travaux dans l'année.",
+          "Juste : l'acquéreur réalise les travaux au plus tard un an après l'acte ; le devis (11 800 €) se discute dans la négociation."
+        ],
+        "fb_title": "Travaux dans l'année",
+        "fb_text": "En cas de non-conformité, les travaux doivent être réalisés au plus tard un an après la signature de l'acte. Le vendeur peut les faire avant, ou les laisser à l'acquéreur, qui en tient compte dans son prix. Le notaire informe ensuite le SPANC de la vente."
+      },
+      {
+        "question": "Mme Garnier a refait sa salle de bains en 2015 et n'a fait aucuns travaux depuis. Faut-il un carnet d'information du logement ?",
+        "options": [
+          "Non : il vise les constructions et les rénovations énergétiques engagées depuis le 1/01/2023",
+          "Oui : toute maison vendue doit en avoir un",
+          "Oui, mais seulement pour la salle de bains"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : pas de construction ni de rénovation énergétique depuis 2023 : pas de carnet exigé.",
+          "Faux : le carnet ne concerne que certains logements, selon la date des travaux.",
+          "Faux : une salle de bains n'est pas un travail de performance énergétique, et elle date de 2015."
+        ],
+        "fb_title": "Carnet : depuis 2023",
+        "fb_text": "Le carnet d'information du logement est exigé pour les logements construits ou rénovés (travaux ayant un effet sur la performance énergétique) à partir du 1/01/2023. Il est remis à l'acquéreur au plus tard à l'acte. Si l'acquéreur rénove, il ouvrira le sien."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Check-list diagnostics d'une maison (assainissement, termites, mérule, carnet d'information du logement)",
+    "kind": "checklist",
+    "intro": "La check-list pour constituer le dossier de diagnostics d'une maison, en plus du DPE et de l'audit (capsule 2.11). Chaque ligne se coche avec la pièce, sa date et sa date de fin de validité, comparée à la date de promesse prévue. Exemple rempli : la maison de Mme Garnier (dossier fictif M01 à M14).",
+    "sections": [
+      {
+        "heading": "Check-list de la maison",
+        "type": "table",
+        "headers": ["Pièce", "Condition", "Validité", "Mme Garnier"],
+        "rows": [
+          ["DPE", "Toujours", "10 ans", "M02 du 06/02/2024, jusqu'au 05/02/2034, classe G"],
+          ["Audit énergétique", "Classe E, F ou G", "5 ans", "M03 du 15/10/2026, jusqu'au 14/10/2031"],
+          ["Amiante", "Permis avant le 1/07/1997", "Selon résultat", "M09 : fibrociment du garage, liste B, état correct"],
+          ["Électricité", "Installation de plus de 15 ans", "3 ans", "M09 : 3 anomalies (dont 30 mA au sous-sol)"],
+          ["Plomb", "Avant le 1/01/1949", "1 an ou illimité", "Non concernée (1968)"],
+          ["Gaz", "Installation de plus de 15 ans", "3 ans", "Non concernée (fioul)"],
+          ["Assainissement non collectif", "Pas de raccordement au réseau", "3 ans", "M08 du 12/03/2025 : non conforme, sans danger ; jusqu'au 11/03/2028"],
+          ["État des risques", "Zone à risques", "6 mois", "M10 : argiles moyenne ; à refaire moins de 6 mois avant la promesse"],
+          ["Termites", "Arrêté préfectoral", "6 mois", "Commune non couverte (fictif, à vérifier)"],
+          ["Mérule", "Arrêté préfectoral", "Information", "Pas de zone (à vérifier)"],
+          ["Bruit des aérodromes", "Plan d'exposition au bruit", "Information", "À vérifier"],
+          ["Carnet d'information du logement", "Construction ou rénovation énergétique depuis le 1/01/2023", "Remis au plus tard à l'acte", "Non concernée (aucuns travaux depuis 2015)"]
+        ]
+      },
+      {
+        "heading": "Assainissement non collectif : la règle en 4 points",
+        "type": "steps",
+        "items": [
+          "Le vendeur fournit le rapport de contrôle du SPANC daté de moins de 3 ans, annexé à la promesse ; sinon il demande un contrôle, à ses frais.",
+          "Non-conformité : les travaux sont faits par le vendeur avant la vente, ou par l'acquéreur au plus tard un an après l'acte.",
+          "L'acquéreur soumet son projet au SPANC avant les travaux ; le SPANC contrôle ensuite leur bonne exécution.",
+          "Le notaire adresse au SPANC, dans le mois qui suit l'acte, une attestation de la vente."
+        ]
+      },
+      {
+        "heading": "Carnet d'information du logement",
+        "type": "list",
+        "items": [
+          "Concerne les logements construits (permis ou déclaration déposés depuis le 1/01/2023) ou rénovés avec des travaux ayant un effet sur la performance énergétique engagés depuis cette date.",
+          "Travaux visés : isolation des toitures, murs, fenêtres, planchers ; installation ou remplacement du chauffage, du refroidissement, de l'eau chaude, de la ventilation (liste du décret, à vérifier).",
+          "Contenu : matériaux et équipements, notices, DPE et documents de performance, dates et descriptif des travaux.",
+          "Remis à l'acquéreur au plus tard à la signature de l'acte, qui en fait mention."
+        ]
+      },
+      {
+        "heading": "La phrase à dire à la vendeuse",
+        "type": "text",
+        "text": "« Votre rapport d'assainissement est valable jusqu'en mars 2028 : pas besoin de le refaire. Il dit que l'épandage doit être refait ; vous pouvez faire les travaux ou les laisser à l'acquéreur, qui aura un an après l'acte. Le devis de 11 800 € sera dans le dossier : c'est plus serein pour tout le monde. »"
+      }
+    ],
+    "footer": "Sources : ministère de la Transition écologique, plaquette assainissement non collectif « acheteurs-vendeurs » ; CSP, art. L. 1331-11-1 ; CCH, art. L. 271-4 ; INC, carnet d'information du logement (modifié le 4/06/2026) ; INC, diagnostics obligatoires (2024-2025). Données du fil rouge fictives (BIBLE §11.4). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Constituer le dossier de diagnostics de la maison fil rouge",
+    "duration_min": 35,
+    "context": "Mme Garnier signe un mandat ; la promesse est visée pour mars 2027 et l'acte pour juin 2027. Elle te remet ses documents et te demande : « Qu'est-ce qui manque, et qu'est-ce que je dois refaire ? » Elle veut une réponse simple, qu'elle montrera à ses fils.",
+    "materials": [
+      "M02 DPE, M03 audit énergétique, M08 rapport du SPANC et devis, M09 amiante et électricité, M10 état des risques",
+      "M04 Plan et descriptif de la maison",
+      "M14 Devis des travaux de l'audit",
+      "Check-list de la ressource"
+    ],
+    "steps": [
+      "Remplis la check-list pièce par pièce avec la date de chaque document.",
+      "Compare chaque validité aux dates de promesse (mars 2027) et d'acte (juin 2027).",
+      "Liste ce qu'il faut refaire ou vérifier, avec la source à consulter.",
+      "Rédige le paragraphe « assainissement » du dossier remis aux acquéreurs.",
+      "Rédige pour Mme Garnier un message de 5 lignes, sans jargon."
+    ],
+    "expected": "Dossier : DPE valable jusqu'au 05/02/2034 (G) ; audit valable jusqu'au 14/10/2031 ; amiante (fibrociment du garage, liste B, état correct, évaluation périodique conseillée) ; électricité : 3 anomalies, à vérifier que le diagnostic aura moins de 3 ans en juin 2027 (date du M09 à relever) ; pas de plomb, pas de gaz ; SPANC du 12/03/2025 valable jusqu'au 11/03/2028 ; état des risques à refaire dans les 6 mois avant la promesse ; termites, mérule et bruit : à vérifier (arrêtés et plan d'exposition au bruit) ; pas de carnet d'information (aucuns travaux depuis 2023). Paragraphe assainissement : « Installation non conforme sans danger (épandage colmaté), contrôle du SPANC du 12/03/2025 ; devis de réhabilitation de 11 800 € TTC joint ; travaux à réaliser dans l'année suivant l'acte s'ils ne sont pas faits avant. » Message : « Madame Garnier, votre dossier est presque complet. Votre DPE, votre audit et le contrôle d'assainissement sont valables. Il faudra refaire l'état des risques peu avant la promesse, et peut-être le diagnostic électricité selon sa date. Je vérifie les termites et le bruit auprès de la mairie. Rien à refaire pour l'assainissement : le devis sera dans le dossier. »"
+  },
+  "deliverable": {
+    "title": "Dossier de diagnostics de la maison de Mme Garnier",
+    "format": "Check-list remplie (PDF ou tableur) + paragraphe assainissement + message à la vendeuse",
+    "criteria": [
+      "Les 12 lignes de la check-list sont traitées avec date et fin de validité",
+      "La validité du SPANC (jusqu'au 11/03/2028) et la règle des travaux dans l'année sont justes",
+      "L'état des risques est prévu à moins de 6 mois de la promesse",
+      "Les points de zone non connus sont notés « à vérifier » avec la source",
+      "Le carnet d'information du logement est traité (non concerné, avec la raison)",
+      "Le message à Mme Garnier est simple et ne promet rien"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Ministère de la Transition écologique : assainissement non collectif, plaquette acheteurs-vendeurs (rapport de moins de 3 ans, travaux dans l'année)",
+      "url": "https://www.assainissement-non-collectif.developpement-durable.gouv.fr/IMG/pdf/plaquette_acheteurs-vendeurs_vf-2.pdf"
+    },
+    {
+      "label": "INC : le carnet d'information du logement (champ, contenu, remise au plus tard à l'acte), modifié le 4/06/2026",
+      "url": "https://www.inc-conso.fr/content/le-carnet-dinformation-du-logement"
+    },
+    {
+      "label": "INC : vente immobilière, les diagnostics obligatoires (conditions et validités)",
+      "url": "https://inc-conso.fr/content/logement/vente-immobiliere-les-diagnostics-obligatoires-pour-les-logements-usage-dhabitation"
+    },
+    {
+      "label": "Ministère de la Transition écologique : termites et mérule (état termites 6 mois, carte Cerema), mis à jour le 10/04/2026",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/termites-insectes-xylophages-champignons-lignivores"
+    },
+    {
+      "label": "Service-Public F12239 : état des risques (6 mois), 28/09/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239"
+    }
+  ],
+  "open_points": [
+    "À vérifier : liste exacte des travaux qui déclenchent le carnet d'information du logement (décret de décembre 2022 : date à confirmer, l'INC cite le 17 et le 27 décembre 2022)",
+    "À vérifier : situation réelle de Vaux-le-Pénil (termites, mérule, plan d'exposition au bruit de l'aérodrome de Melun-Villaroche)",
+    "BIBLE : les dates des diagnostics amiante et électricité (M09) ne sont pas fixées ; à définir pour un corrigé unique"
+  ]
+}
