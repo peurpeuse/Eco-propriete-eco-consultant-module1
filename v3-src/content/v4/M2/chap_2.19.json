@@ -285,7 +285,7 @@
       "voice_status": "proposition",
       "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
       "source": "Livrable de la capsule 2.19 : grille d'audit 360° remplie sur photos",
-      "ask": "Dépose une capture de ta grille d'audit 360° remplie sur photos : humidité, fissures et toiture, chaque photo avec constat, cause probable, gravité et décision (traiter, surveiller ou renvoyer).",
+      "ask": "Dépose une capture de tes grilles d'audit 360° remplies sur photos, une par bien fil rouge (appartement de M. Bernard, maison de Mme Garnier) : humidité, fissures et toiture, chaque photo avec constat, cause probable, gravité et décision (traiter, surveiller ou renvoyer).",
       "later": "Je le ferai plus tard",
       "later_text": "D'accord. Les photos t'attendent : reviens déposer ta grille quand elle est prête."
     },

@@ -8,7 +8,7 @@
 
 1. **Toujours « Sébastien Paumier »**, jamais « Seb » (ni dans la voix, ni à l'écran, ni dans les notes). Il parle à la première personne (« je ») et tutoie l'apprenant.
 2. **Tout en français, tutoiement partout.** Phrases courtes, une idée par écran.
-3. **Mozi** = le méchant récurrent (couleur violette). Un agent immobilier caricatural qui fait exactement la mauvaise pratique du chapitre. Écran 3 : une seule réplique entre guillemets, absurde, **sans morale** (on ne commente pas, on montre). Mozi n'est jamais méchant envers une personne réelle ; il triche, bâcle, promet n'importe quoi.
+3. **Mozi** = le contre-exemple récurrent : un agent immobilier humain en blazer violet (poses dans `engine/assets/mozi/`), caricatural, qui fait exactement la mauvaise pratique du chapitre. Écran 3 : une seule réplique entre guillemets, absurde, **sans morale** (on ne commente pas, on montre). Mozi n'est jamais méchant envers une personne réelle ; il triche, bâcle, promet n'importe quoi.
 4. **Fil rouge** : M. Bernard, T4 de 76 m² à Melun (voir `BIBLE.md`). Chiffres repris **à l'identique** de la bible et de la capsule d'origine.
 5. **Les six agents** (avatars d'apprenants, réutilisés dans les questions et les exemples) :
    - **Hugo** · mandataire en réseau, travaille depuis chez lui

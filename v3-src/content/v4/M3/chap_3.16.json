@@ -285,7 +285,7 @@
       "voice_status": "proposition",
       "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
       "source": "fin sobre : proposition à valider",
-      "ask": "Dépose une capture du dossier complet de M. Bernard et de ton tableau de suivi : 4 blocs, et pour chaque pièce une source, une date et un statut.",
+      "ask": "Dépose une capture du dossier complet de M. Bernard, de ton tableau de suivi (4 blocs, et pour chaque pièce une source, une date et un statut) et de ton mail récapitulatif.",
       "later": "Je le ferai plus tard",
       "later_text": "D'accord. Le dossier de M. Bernard t'attend : reviens déposer ton tableau quand il est prêt."
     },

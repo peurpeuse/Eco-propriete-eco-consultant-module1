@@ -150,6 +150,7 @@
   "open_points": [
     "Relecture juridique : art. 6-2 du décret de 1967 et accord vendeur/acquéreur qui n'engage pas le syndicat (à faire relire par un juriste)",
     "Durée du chantier ITE non connue dans le dossier : ne pas la chiffrer",
-    "Chapitre à adapter depuis l'ancien chap_3.3 (renuméroté 3.12)"
+    "Chapitre à adapter depuis l'ancien chap_3.3 (renuméroté 3.12)",
+    "À valider par Sébastien Paumier : la grille (fiche et chapitre 3.12) prend 182 000 € (milieu de la fourchette 178 000 – 186 000 €) comme valeur en l'état, alors que la valeur conclue en 2.40 et 2.41 (reprise en 3.1 et 3.4) est 181 000 €. Choisir un seul chiffre et l'aligner partout (avec 181 000 € : écart 35 600 €, solde −16 780 €)."
   ]
 }

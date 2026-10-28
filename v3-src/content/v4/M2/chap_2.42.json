@@ -2,7 +2,7 @@
   "id": "2.42",
   "module": 2,
   "title": "Chiffrer les travaux poste par poste",
-  "capsule_title": "Chiffrer les travaux poste par poste [IA]",
+  "capsule_title": "Chiffrer les travaux poste par poste",
   "duration": "4:30",
   "objective": "Chiffrer des postes de travaux par quantité × prix unitaire, avec une source datée (devis d'abord, sinon la base de prix 2026), et utiliser l'IA pour structurer et contrôler le chiffrage",
   "mozi": {

@@ -20,7 +20,7 @@ META = {
         "neuro": "Chapitres de 4 min 30 en 15 écrans (attention), question ouverte et cartes de quiz dans chaque chapitre (récupération active), rappels J+1, J+7, J+30 (répétition espacée), cas réels et fil rouge (émotion, récit).",
         "fr": "Un bien fictif réaliste : l'appartement de M. Bernard à Melun, son DPE, sa copropriété. Tu le fais avancer à chaque module."},
     "courseTitle": "Éco-Consultant : de la valeur verte à la vente sécurisée",
-    "pitch": "Deviens l'agent de référence sur la performance énergétique : attire les propriétaires, estime avec le DPE, signe en exclusivité, sécurise le compromis et la vente. 34 chapitres interactifs avec Mozi, le méchant qui fait tout de travers, des exercices sur un vrai dossier (fictif) et l'IA comme assistant à chaque étape.",
+    "pitch": "Deviens l'agent de référence sur la performance énergétique : attire les propriétaires, estime avec le DPE, signe en exclusivité, sécurise le compromis et la vente. Des capsules de 4 min 30 maximum, 43 chapitres interactifs avec Mozi, l'agent qui fait tout de travers, deux dossiers fil rouge au choix (un appartement ou une maison, fictifs) et l'IA comme assistant à chaque étape.",
     "hours": "≈ 40 heures",
     "objectives": {
         "0": "Comprendre ce que le changement climatique change pour les logements et pour le marché de ta zone, sources à l'appui.",

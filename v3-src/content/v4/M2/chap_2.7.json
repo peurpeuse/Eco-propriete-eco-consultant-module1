@@ -285,7 +285,7 @@
       "voice_status": "proposition",
       "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
       "source": "Livrable de la capsule 2.7 : fiche lecture d'un DPE réel (3 données clés)",
-      "ask": "Dépose une capture de ta fiche lecture d'un DPE réel (le tien, ou celui d'un vendeur qui t'a donné son accord) : numéro et validité, consommations par usage, étiquettes énergie et climat, chacune avec sa page. Nom et adresse masqués.",
+      "ask": "Dépose une capture de ta fiche lecture d'un DPE réel (le tien, ou celui d'un vendeur qui t'a donné son accord) : numéro et validité, consommations par usage, étiquettes énergie et climat, chacune avec sa page, puis le même relevé sur le DPE de M. Bernard (D02, D03) et tes 3 lignes de comparaison. Nom et adresse masqués.",
       "later": "Je le ferai plus tard",
       "later_text": "D'accord. Ton DPE réel t'attend : reviens déposer ta fiche quand elle est prête."
     },

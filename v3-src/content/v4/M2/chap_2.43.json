@@ -2,7 +2,7 @@
   "id": "2.43",
   "module": 2,
   "title": "Estimer après rénovation, sans rien promettre",
-  "capsule_title": "Estimer après rénovation, sans rien promettre [IA]",
+  "capsule_title": "Estimer après rénovation, sans rien promettre",
   "duration": "4:30",
   "objective": "Calculer les deux valeurs du bien fil rouge, en l'état (fourchette justifiée) et après travaux, en intégrant travaux et appels de fonds, sans promettre ni prix, ni classe, ni aide, avec l'aide de l'IA",
   "mozi": {
@@ -252,7 +252,7 @@
       "voice": "Puis l'IA. Tu colles tes comparables, sans nom ni adresse. Elle calcule la valeur après rénovation : médiane 2 850, soit 216 600 euros. Tu vérifies l'écart face aux 52 380 euros de travaux. Puis elle joue l'acheteur sceptique.",
       "voice_status": "proposition",
       "interaction": "Étapes qui s'enchaînent",
-      "source": "Prompt IA et garde-fous de la capsule 2.43 ; comparables R1-R3 fictifs ; art. 6-2 du décret du 17 mars 1967 pour les appels de fonds",
+      "source": "Prompt IA et garde-fous de la capsule 2.43 ; comparables du tableau D12 (M1 à M9, fictifs) ; art. 6-2 du décret du 17 mars 1967 pour les appels de fonds",
       "tool": "Assistant IA",
       "steps": [
         "Coller comparables et ajustements, sans nom, adresse ni numéro de DPE",
@@ -332,9 +332,9 @@
     "Écran 7 et 11 : la décote copropriété « 6 900 à 14 900 € » est une proposition pédagogique dérivée de la fourchette de la bible, à présenter comme jugement documenté, pas comme règle de marché",
     "Écran 12 : performances après travaux (D puis C) non affichées dans ce chapitre ; elles restent fictives, à confirmer par un diagnostiqueur",
     "Écran 13 : le bouton mène désormais à l'exercice (#exercice), qui porte sur le fil rouge ; l'application DVF (https://explore.data.gouv.fr/immobilier) reste citée en démonstration et en source, à tester le jour du tournage",
-    "Écran 8 (revue) : la phrase « aucune vente comparable ne soutient 205 000 € » était inexacte (C5 à 2 700 €/m² × 76 = 205 200 € avant ajustements) ; reformulée",
+    "Écran 8 (revue) : la phrase « aucune vente comparable ne soutient 205 000 € » était inexacte (M2 à 2 700 €/m² × 76 = 205 200 € avant ajustements) ; reformulée",
     "Écran 7 : sept montants en 55 s ; charge cognitive élevée, compensée par l'affichage des étapes. À tester sur un apprenant ; sinon déplacer le détail des retraits vers l'écran 11",
-    "Tableau D12 (C1-C5, R1-R3) à créer à l'identique dans le dossier fil rouge ; toujours afficher « exemple fictif »",
+    "Tableau D12 (M1 à M10, capsule 2.37) à créer à l'identique dans le dossier fil rouge ; toujours afficher « exemple fictif »",
     "Le prix de présentation et le mandat (189 000 € FAI) relèvent du module 3 et ne sont pas annoncés ici ; ne citer aucun pourcentage national de valeur verte",
     "Contrepoint possible (non affiché, pour ne pas alourdir) : maison de Mme Garnier, 285 000 – 300 000 € en l'état contre 369 600 € après rénovation, pour 78 000 € de travaux de l'audit + 11 800 € d'assainissement (bible §11.3 à §11.5, fictif)"
   ]

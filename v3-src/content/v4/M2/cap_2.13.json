@@ -1,0 +1,180 @@
+{
+  "id": "2.13",
+  "module": 2,
+  "section": "E · PARCOURS APPARTEMENT · Ses diagnostics",
+  "etape": "2 (Éco-staging)",
+  "parcours": "appartement",
+  "prio": false,
+  "ia": false,
+  "title": "Appartement : les diagnostics des parties privatives",
+  "objective": "Constituer le dossier de diagnostics des parties privatives d'un lot de copropriété (DPE seul, pas d'audit individuel), vérifier chaque validité et distinguer ce qui relève des parties communes",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Pour un appartement, le dossier porte sur le lot : DPE, Carrez, amiante et plomb selon la date, électricité et gaz de plus de 15 ans, état des risques, termites selon la zone. Sébastien Paumier ouvre le D17 de M. Bernard : ni plomb, ni gaz, ni audit individuel. Et ce qui change si les travaux privatifs sont faits avant la vente."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "L'appartement de M. Bernard est classé E (attestation). Faut-il un audit énergétique pour le vendre ?",
+        "options": [
+          "Oui : depuis 2025, tout logement classé E doit avoir un audit",
+          "Non : l'audit réglementaire à la vente ne vise pas les lots de copropriété ; le DPE suffit",
+          "Oui, mais c'est le syndic qui le commande"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : l'obligation vise les maisons et immeubles hors copropriété classés E, F ou G.",
+          "Juste : pour un lot de copropriété, la vente demande le DPE du lot, pas d'audit individuel.",
+          "Faux : le syndic gère les documents de l'immeuble (DPE collectif, PPPT), pas un audit du lot."
+        ],
+        "fb_title": "Lot de copropriété : DPE, pas d'audit",
+        "fb_text": "L'audit énergétique réglementaire concerne les maisons individuelles et les immeubles en monopropriété. Pour un appartement en copropriété, on fournit le DPE du lot ; l'immeuble a ses propres documents (DPE collectif, plan pluriannuel de travaux), traités en capsule 2.23."
+      },
+      {
+        "question": "L'immeuble des Tilleuls date de 1972 (permis de 1970). Quels diagnostics liés à l'âge faut-il pour le lot ?",
+        "options": [
+          "Plomb et amiante",
+          "Plomb seulement",
+          "Amiante (permis avant juillet 1997) et électricité (installation de plus de 15 ans) ; pas de plomb"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le plomb vise les logements construits avant le 1/01/1949.",
+          "Faux : le plomb ne s'applique pas à un immeuble de 1972.",
+          "Juste : permis de 1970, installation électrique de plus de 15 ans ; pas de gaz dans le logement."
+        ],
+        "fb_title": "1972 : amiante, pas de plomb",
+        "fb_text": "Pour M. Bernard : amiante des parties privatives (permis de 1970) ; électricité (installation de plus de 15 ans, valable 3 ans) ; pas de plomb (construit après 1949) ; pas de gaz (chauffage et eau chaude électriques)."
+      },
+      {
+        "question": "M. Bernard décide de faire remplacer ses 4 fenêtres et d'installer une VMC avant la vente (travaux engagés en 2026). Qu'est-ce que cela change au dossier ?",
+        "options": [
+          "Rien, les diagnostics restent les mêmes",
+          "Il faut refaire l'amiante",
+          "Un nouveau DPE est conseillé pour valoriser les travaux, et un carnet d'information du logement est à remettre à l'acquéreur"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : des travaux de performance énergétique engagés depuis 2023 entrent dans le carnet d'information du logement.",
+          "Faux : le remplacement des fenêtres ne déclenche pas à lui seul un nouvel état amiante de vente ; le diagnostiqueur peut cependant être consulté avant travaux.",
+          "Juste : le DPE actuel ne verra pas les travaux ; le carnet regroupe factures, notices et descriptif des travaux."
+        ],
+        "fb_title": "Travaux faits : DPE et carnet",
+        "fb_text": "Un nouveau DPE après travaux permet d'afficher la nouvelle classe, si elle change. Et des travaux ayant un effet sur la performance énergétique engagés depuis le 1/01/2023 entrent dans le carnet d'information du logement, remis à l'acquéreur au plus tard à l'acte."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Check-list diagnostics d'un appartement (plomb, amiante, termites, électricité, gaz)",
+    "kind": "checklist",
+    "intro": "La check-list des diagnostics des parties privatives pour la vente d'un lot de copropriété. Chaque ligne se coche avec la pièce, sa date et sa fin de validité, comparée à la date de promesse prévue. Les documents des parties communes (DTA, DPE collectif, PPPT, fiche synthétique) sont traités en capsule 2.23. Exemple rempli : l'appartement de M. Bernard (D17).",
+    "sections": [
+      {
+        "heading": "Check-list de l'appartement",
+        "type": "table",
+        "headers": ["Pièce", "Condition", "Validité", "M. Bernard (D17)"],
+        "rows": [
+          ["DPE du lot", "Toujours", "10 ans", "D02 du 14/03/2023, jusqu'au 13/03/2033 ; attestation E (D03)"],
+          ["Audit énergétique", "Jamais pour un lot de copropriété", "-", "Non concerné"],
+          ["Carrez", "Lot de 8 m² et plus", "Illimitée sauf travaux", "76,0 m²"],
+          ["Plomb (parties privatives)", "Avant le 1/01/1949", "1 an ou illimité", "Non concerné (1972)"],
+          ["Amiante (parties privatives)", "Permis avant le 1/07/1997", "Selon résultat", "Concerné (permis 1970)"],
+          ["Électricité", "Installation de plus de 15 ans", "3 ans", "Concerné (partiellement refaite en 2010)"],
+          ["Gaz", "Installation de plus de 15 ans", "3 ans", "Non concerné (pas de gaz)"],
+          ["État des risques", "Zone à risques", "6 mois", "À refaire moins de 6 mois avant la promesse"],
+          ["Termites", "Arrêté préfectoral", "6 mois", "À vérifier (absent du D17)"],
+          ["Mérule", "Arrêté préfectoral", "Information", "À vérifier"],
+          ["Bruit des aérodromes", "Plan d'exposition au bruit", "Information", "À vérifier"],
+          ["Carnet d'information du logement", "Rénovation énergétique depuis le 1/01/2023", "Au plus tard à l'acte", "Non concerné, sauf si les travaux D13 sont faits avant la vente"]
+        ]
+      },
+      {
+        "heading": "Ce qui est propre à l'appartement",
+        "type": "list",
+        "items": [
+          "Les diagnostics de vente portent sur les parties privatives du lot ; cave et parking n'entrent pas dans la surface Carrez.",
+          "Pas d'audit énergétique individuel : l'obligation vise les maisons et la monopropriété.",
+          "Les documents de l'immeuble (DTA, DPE collectif, PPPT, PV d'AG) viennent du syndic, pas du diagnostiqueur du vendeur.",
+          "L'état des risques porte sur la parcelle de l'immeuble : il est le même pour tous les lots, mais il reste à fournir par chaque vendeur.",
+          "Termites : si la commune est en zone, l'état termites porte sur le lot vendu."
+        ]
+      },
+      {
+        "heading": "Vérifier un dossier en 5 gestes",
+        "type": "steps",
+        "items": [
+          "Liste les pièces du D17 avec leur date.",
+          "Calcule la fin de validité de chacune et compare à la date de promesse et à la date d'acte.",
+          "Vérifie la zone (termites, mérule, bruit) sur la carte du Cerema, en mairie et sur le Géoportail.",
+          "Vérifie la cohérence entre le DPE, le mesurage Carrez et le plan (76 m² partout).",
+          "Note ce qui change si le vendeur fait des travaux avant la vente (nouveau DPE conseillé, carnet d'information)."
+        ]
+      },
+      {
+        "heading": "La phrase à dire au vendeur",
+        "type": "text",
+        "text": "« Pour votre appartement, pas d'audit énergétique : c'est un lot de copropriété, votre DPE suffit, et votre classe officielle est E. Il faudra refaire l'état des risques juste avant la promesse, et je vérifie que le diagnostic électricité couvrira la date de l'acte. Le reste est en ordre. »"
+      }
+    ],
+    "footer": "Sources : service-public.fr F10798 (DDT, liste appartement) ; INC, diagnostics obligatoires (2024-2025) ; INC, audit énergétique (16/12/2024) ; INC, carnet d'information du logement (4/06/2026) ; service-public.fr F12239 (état des risques, 28/09/2026). Données du fil rouge fictives (BIBLE §2, §3, §9). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Constituer le dossier de diagnostics de l'appartement fil rouge",
+    "duration_min": 30,
+    "context": "M. Bernard a signé le mandat exclusif le 5/11/2026. Le compromis est visé pour le 15/12/2026 et l'acte pour le 15/03/2027. Il te remet son dossier de diagnostics (D17) et te demande ce qui manque. Il hésite aussi à faire les travaux privatifs (D13) avant la vente.",
+    "materials": [
+      "D17 Dossier de diagnostic technique",
+      "D02 DPE et D03 attestation actualisée",
+      "D04 Plan et descriptif de l'appartement",
+      "D13 Devis des travaux privatifs",
+      "Check-list de la ressource"
+    ],
+    "steps": [
+      "Remplis la check-list pour le lot de M. Bernard, avec les dates du D17.",
+      "Compare chaque validité au 15/12/2026 (compromis) et au 15/03/2027 (acte).",
+      "Explique en une phrase pourquoi il n'y a ni audit, ni plomb, ni gaz.",
+      "Liste les vérifications de zone à faire et la source de chacune.",
+      "Indique ce qui changerait si les travaux du D13 étaient faits avant la vente."
+    ],
+    "expected": "Dossier : DPE du 14/03/2023 valable jusqu'au 13/03/2033, attestation E (D03) ; Carrez 76,0 m², cohérent avec le plan (D04) ; amiante des parties privatives (permis 1970) ; électricité (installation de plus de 15 ans) : vérifier qu'elle aura moins de 3 ans au 15/03/2027 ; état des risques à établir moins de 6 mois avant le 15/12/2026 et à mettre à jour si besoin à l'acte. Non concernés : audit (lot de copropriété), plomb (1972), gaz (tout électrique). À vérifier : termites, mérule (arrêtés, carte Cerema, mairie de Melun), bruit (plan d'exposition au bruit). Documents des parties communes demandés au syndic (capsule 2.23). Si les travaux D13 (16 500 €) sont faits avant : nouveau DPE conseillé (estimation ≈ 209 kWhEP → D, à confirmer) et carnet d'information du logement à remettre à l'acquéreur au plus tard à l'acte (factures, notices, descriptif)."
+  },
+  "deliverable": {
+    "title": "Dossier de diagnostics de l'appartement de M. Bernard",
+    "format": "Check-list remplie (PDF ou tableur) + 5 lignes de conclusion",
+    "criteria": [
+      "Les 12 lignes de la check-list sont traitées avec date et fin de validité",
+      "L'absence d'audit, de plomb et de gaz est justifiée",
+      "Les validités sont comparées aux dates du compromis et de l'acte",
+      "Les vérifications de zone sont listées avec leur source",
+      "Le cas des travaux faits avant la vente (DPE, carnet) est traité"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Service-Public F10798 : diagnostics immobiliers à fournir en cas de vente (appartement)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798"
+    },
+    {
+      "label": "INC : vente immobilière, les diagnostics obligatoires (conditions et validités)",
+      "url": "https://inc-conso.fr/content/logement/vente-immobiliere-les-diagnostics-obligatoires-pour-les-logements-usage-dhabitation"
+    },
+    {
+      "label": "INC : audit énergétique (bâtiments hors régime de la copropriété), 16/12/2024",
+      "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons"
+    },
+    {
+      "label": "INC : le carnet d'information du logement, modifié le 4/06/2026",
+      "url": "https://www.inc-conso.fr/content/le-carnet-dinformation-du-logement"
+    },
+    {
+      "label": "Service-Public F12239 : état des risques, 28/09/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239"
+    }
+  ],
+  "open_points": [
+    "BIBLE §9 : le D17 ne dit rien des termites, de la mérule ni du bruit ; préciser « non concerné » (à vérifier pour Melun) ou ajouter la pièce",
+    "BIBLE : les dates des diagnostics amiante, électricité et état des risques du D17 ne sont pas fixées ; à définir pour un corrigé unique",
+    "À vérifier : effet d'un remplacement de fenêtres sur l'obligation de repérage amiante avant travaux (repérage avant travaux distinct du diagnostic de vente)"
+  ]
+}
