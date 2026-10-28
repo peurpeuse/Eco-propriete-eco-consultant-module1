@@ -107,9 +107,9 @@ function apply(e,lt){
 }
 function fmt(v,dec){var t=v.toFixed(dec).replace('.',',');var parts=t.split(',');parts[0]=parts[0].replace(/\B(?=(\d{3})+(?!\d))/g,' ');return parts.join(',');}
 function chunks(text,dur){
-  var ss=String(text||'').split(/(?<=[.!?…:;])(?<!(?:^|[\s(])(?:M|Mme|MM|Dr|art|n°|St|[A-Z])\.)\s+/),out=[];
-  ss.forEach(function(s){var w=s.split(/\s+/).filter(Boolean);while(w.length){var n=w.length>18?Math.min(14,Math.ceil(w.length/Math.ceil(w.length/14))):w.length;out.push(w.splice(0,n).join(' '));}});
-  var tw=out.reduce(function(a,c){return a+c.split(' ').length+2;},0),t=0.3,avail=Math.max(1,dur-0.6),r=[];
+  var ss=String(text||'').replace(/ ([%:;!?»€)])/g,'\u00a0$1').replace(/([«(]) /g,'$1\u00a0').replace(/(\d) (?=\d{3}\b)/g,'$1\u00a0').split(/(?<=[.!?…:;])(?<!(?:^|[\s(])(?:M|Mme|MM|Dr|art|n°|St|[A-Z])\.)\s+/),out=[];
+  ss.forEach(function(s){var w=s.split(/[ \t\n]+/).filter(Boolean);while(w.length){var n=w.length>18?Math.min(14,Math.ceil(w.length/Math.ceil(w.length/14))):w.length;out.push(w.splice(0,n).join(' '));}});
+  var tw=out.reduce(function(a,c){return a+c.split(/[ ]+/).length+2;},0),t=0.3,avail=Math.max(1,dur-0.6),r=[];
   out.forEach(function(c){var d=avail*(c.split(' ').length+2)/tw;r.push({t:t,txt:c});t+=d;});
   return r;
 }
