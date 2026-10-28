@@ -1,0 +1,342 @@
+{
+  "id": "2.42",
+  "module": 2,
+  "title": "Chiffrer les travaux poste par poste",
+  "capsule_title": "Chiffrer les travaux poste par poste [IA]",
+  "duration": "4:30",
+  "objective": "Chiffrer des postes de travaux par quantité × prix unitaire, avec une source datée (devis d'abord, sinon la base de prix 2026), et utiliser l'IA pour structurer et contrôler le chiffrage",
+  "mozi": {
+    "line": "Je le sens d'ici : trente mille euros de travaux !",
+    "scene": "Mozi entre dans l'appartement, renifle l'air comme un sommelier, ferme les yeux et annonce un montant à l'acheteur sans avoir ouvert une seule fenêtre. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 2.42 : chiffrer les travaux poste par poste",
+      "voice": "Bienvenue. Dans ce chapitre, tu transformes chaque défaut en un chiffre précis, sourcé et daté.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "pourquoi un montant global ne protège ni le vendeur ni l'acheteur"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "chiffrer 3 postes avec la base de prix : quantité × prix unitaire, source et date"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ton modèle de chiffrage rempli, contrôlé avec l'IA"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Je le sens d'ici : trente mille euros de travaux !",
+      "voice": "Je le sens d'ici : trente mille euros de travaux !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Je le sens d'ici : trente mille euros de travaux !",
+      "scene": "Mozi renifle l'air comme un sommelier, ferme les yeux et annonce un montant sans ouvrir une fenêtre."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "0 quantité, 0 devis, 30 000 € au flair",
+      "voice": "Zéro quantité, zéro devis, trente mille euros au flair.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "0 quantité",
+        "0 devis",
+        "30 000 € au flair"
+      ],
+      "wrong": 1,
+      "why": "Sans quantités ni devis, on invente : le devis D13 dit 16 500 €."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "30 000 € annoncés. 16 500 € au devis.",
+      "voice": "Et si l'acheteur le croit, il retire trente mille euros de son offre. Or le devis dit seize mille cinq cents. La différence, c'est ton vendeur qui la perd.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "S'il le croit, l'acheteur retire 30 000 € de son offre.",
+        "Le devis D13 dit 16 500 € TTC."
+      ],
+      "source": "Bible du fil rouge : devis D13 des travaux privatifs, 16 500 € TTC (fictif) ; capsule 2.42 (« au moins 30 000 € de travaux », phrase type d'acheteur : situation type, pas un fait observé)"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "TVA : 5,5 % ou 10 %, à lire sur le devis",
+      "voice": "Un détail qui change tout : la TVA. Dans un logement de plus de deux ans, une rénovation énergétique éligible peut être à cinq et demi pour cent, d'autres travaux à dix. Tu lis le taux sur le devis.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Quel taux de TVA pour une rénovation énergétique éligible, logement de plus de 2 ans ?",
+        "answer": 5.5,
+        "min": 0,
+        "max": 20,
+        "step": 0.5,
+        "unit": " %"
+      },
+      "value": "5,5 %",
+      "label": "de TVA possible pour une rénovation énergétique éligible, logement de plus de 2 ans (10 % pour d'autres travaux)",
+      "source": "economie.gouv.fr, « TVA à taux réduit : pour quels travaux ? », publié le 11/12/2025 (fourniture et pose de chaudières au gaz ou au fioul : 20 % depuis le 1/03/2025)"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Quantité × prix → Source datée → Prudence écrite",
+      "voice": "Trois idées. Un : un poste, c'est une quantité fois un prix unitaire. Jamais un montant global. Chez M. Bernard, tu recomptes sur le plan : quatre fenêtres, deux dans la grande chambre, une dans chacune des autres. Six convecteurs. Une ventilation. Un ballon. Deux : chaque prix a une source et une date. D'abord un devis, idéalement deux, d'une entreprise RGE si on vise des aides. Sinon, la base de prix de la formation, datée 2026, à adapter à ta région. Un prix proposé par une IA n'est jamais une source. Trois : la prudence s'écrit. Tu sépares les travaux privatifs de ceux de la copropriété. Tu ne chiffres pas une aide non notifiée. Et tu notes : prix indicatifs à valider.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Proposition pédagogique Éco-Propriété : méthode quantité × prix unitaire et barème de coûts de rénovation 2026 (ressource de la capsule 2.42) ; ADEME, étude des prix de la rénovation énergétique (2019, à actualiser)",
+      "steps": [
+        {
+          "label": "Quantité × prix",
+          "detail": "4 fenêtres, 6 convecteurs, 1 ventilation, 1 ballon : recomptés sur le plan."
+        },
+        {
+          "label": "Source datée",
+          "detail": "Un devis d'abord ; sinon la base de prix 2026, à adapter ; jamais un prix d'IA."
+        },
+        {
+          "label": "Prudence écrite",
+          "detail": "Privatif à part de la copropriété ; aide non notifiée = 0."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; devis D13 (fictif)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "En visite chez M. Bernard, un acheteur dit à Hugo : « Il y a au moins 30 000 € de travaux. » Hugo a le devis D13 en main. Que lui répond-il ?",
+      "model_answer": "Il montre le détail poste par poste : 4 fenêtres à 1 400 €, la ventilation à 2 900 €, 6 radiateurs pour 4 800 €, le chauffe-eau à 3 200 €. Total 16 500 € TTC, devis daté, prix indicatifs à valider. Les travaux de la copropriété sont présentés à part.",
+      "keywords": [
+        "poste par poste",
+        "16 500 €",
+        "devis daté",
+        "à part"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Modèle de chiffrage (ressource de la capsule 2.42) ; devis D13 (fictif)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Un montant se construit : quantité × prix unitaire, avec une source datée",
+          "Un montant rond rassure davantage l'acheteur",
+          "Aucune : un agent peut estimer des travaux à l'œil"
+        ],
+        "answer": 0,
+        "feedback": "Un chiffre global sans quantité ni source ne se vérifie pas. Chez M. Bernard, le devis D13 détaille quatre postes : 16 500 € TTC.",
+        "whys": [
+          "Exact : chaque ligne se vérifie, et l'acheteur peut refaire le calcul.",
+          "Faux : un chiffre rond sans détail se conteste, dans un sens comme dans l'autre.",
+          "Faux : tu n'es pas l'entreprise ; tu présentes des prix sourcés, à faire valider."
+        ]
+      },
+      "card2": {
+        "question": "Si Élodie demandait à une IA « combien coûte une VMC ? », que se passerait-il ?",
+        "answer": "L'IA donnerait un ordre de grandeur sans source, par exemple « autour de 1 500 € » : une simple hypothèse. Le bon usage : lui donner tes quantités et tes devis, puis lui faire vérifier les calculs et lister les oublis."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : un chiffrage juste et vérifiable. Le modèle de chiffrage et sa base de prix, et l'assistant IA, utilisé comme contrôleur.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Modèle de chiffrage, barème de coûts 2026 et prompt IA (ressource de la capsule 2.42)",
+      "goal": "Un chiffrage juste et vérifiable",
+      "tools": [
+        {
+          "name": "Le modèle de chiffrage et sa base de prix",
+          "role": "Poser chaque poste : quantité, prix unitaire, total, source et date"
+        },
+        {
+          "name": "L'assistant IA",
+          "role": "Mettre en forme, vérifier les calculs, lister les oublis"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Le modèle, ligne par ligne",
+      "voice": "Dans le modèle : quatre fenêtres à 1 400 euros, soit 5 600. La ventilation au forfait, 2 900. Six radiateurs, 4 800. Le chauffe-eau, 3 200. Total : 16 500 euros TTC, environ 217 euros le mètre carré.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge : devis D13 (fictif) ; 800 € par radiateur = moyenne dérivée (4 800 / 6, thermostat compris), pas une ligne du devis",
+      "tool": "Modèle de chiffrage",
+      "steps": [
+        "Fenêtres PVC double vitrage : 4 × 1 400 € = 5 600 €",
+        "VMC hygroréglable + débouchage : forfait 2 900 €",
+        "Radiateurs à inertie : 6 × 800 € = 4 800 €, thermostat compris",
+        "Chauffe-eau thermodynamique 200 L : 3 200 €",
+        "Total 16 500 € TTC ; 16 500 / 76 ≈ 217 €/m²"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "L'IA en contrôleur",
+      "voice": "Avec l'IA : tu colles le prompt, sans nom ni adresse. Tu contrôles chaque calcul. Tu gardes la bonne idée, la reprise d'enduit autour des fenêtres, à vérifier avec le menuisier. Et tu barres le prix qu'elle invente. C'est toi qui signes.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Prompt IA et garde-fous de la capsule 2.42 (RGPD : aucune donnée personnelle dans un outil non maîtrisé)",
+      "tool": "Assistant IA",
+      "steps": [
+        "Coller le prompt de la ressource, sans nom, adresse ni numéro de DPE",
+        "Contrôler : 4 × 1 400 = 5 600 ; total 16 500 €",
+        "Garder la suggestion utile : reprise d'enduit, à vérifier avec le menuisier",
+        "Barrer le prix inventé : VMC « autour de 1 500 € »"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Chiffre tes trois postes avec la base de prix maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice dans un nouvel onglet",
+      "source": "Exercice de la capsule 2.42 : chiffrer 3 postes avec la base de prix, contrôle par l'IA ; pas d'outil en ligne officiel",
+      "cta": "Ouvrir le modèle de chiffrage",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton chiffrage.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.42 : modèle de chiffrage de 3 postes + annexe de l'échange avec l'IA",
+      "ask": "Dépose une capture de ton modèle de chiffrage : 3 postes, chacun avec quantité, prix unitaire, total, source de la base de prix et date, et la vérification par l'IA, sans aucune donnée personnelle.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. La base de prix t'attend : reviens déposer ton chiffrage quand il est prêt."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Face aux trente mille euros de la peur, tu as seize mille cinq cents euros, prouvés poste par poste.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "La peur de l'acheteur : 30 000 €. Ton chiffre : 16 500 €, poste par poste.",
+      "source": "Bible du fil rouge : devis D13 (fictif) ; capsule 2.42"
+    }
+  ],
+  "sources": [
+    {
+      "label": "economie.gouv.fr : TVA à taux réduit, pour quels travaux (5,5 % amélioration énergétique, 10 % autres travaux, logements achevés depuis plus de 2 ans ; chaudières fossiles à 20 % depuis le 1/03/2025), publié le 11/12/2025",
+      "url": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-taux-reduit-pour-quels-travaux"
+    },
+    {
+      "label": "Service-Public Entreprendre : taux de TVA pour les travaux de rénovation d'un logement",
+      "url": "https://entreprendre.service-public.fr/vosdroits/F23568"
+    },
+    {
+      "label": "CAPEB Centre-Val de Loire, fiche pratique TVA 5,5 % (décembre 2025) : liste des équipements et seuils de performance",
+      "url": "https://www.capeb.fr/www/capeb/media//centrevaldeloire/document/fiche-pratique-tva-5.5-decembre-2025.pdf"
+    },
+    {
+      "label": "ADEME, Rénovation énergétique des logements : étude des prix (2019)",
+      "url": "https://www.precarite-energie.org/wp-content/uploads/2019/11/renovation-energetique-logements-etude-prix-2019.pdf"
+    },
+    {
+      "label": "Barème de coûts de rénovation 2026 (exemple Poitou-Charentes, à adapter) : ressource de la capsule 2.42, à fournir par Éco-Propriété ; à vérifier : source, date et zone de chaque prix",
+      "url": null
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété : méthode quantité × prix unitaire, devis D13 fictif (Bible du fil rouge)",
+      "url": null
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Plan v4 : la base de prix est le « barème de coûts de rénovation 2026 (exemple Poitou-Charentes, à adapter) » ; à vérifier : ce barème n'existe pas encore dans le dossier, aucun de ses prix n'est affiché dans ce chapitre. Les trois postes de l'exercice sont à définir dans la fiche capsule 2.42",
+    "Écran 5 : la conséquence (« l'acheteur retire 30 000 € ») est une situation type de la capsule, pas un fait sourcé ; le seul chiffre sourcé est le devis D13 fictif",
+    "Écran 6 : taux de TVA par poste (5,5 % / 10 %) à faire valider avant tournage (art. 278-0 bis A et 279-0 bis CGI, annexe IV art. 18 bis). Lecture de la revue (fiche CAPEB de décembre 2025) : fenêtres 5,5 % si Uw ≤ 1,3 et Sw ≥ 0,3 (le Sw n'est pas dans la bible) ; VMC simple flux hygroréglable 5,5 % ; chauffe-eau thermodynamique 5,5 % sous seuil d'efficacité ; radiateurs à inertie non listés, donc a priori 10 % (seule la régulation peut relever du 5,5 %). Ne rien afficher par poste tant qu'un expert-comptable ou le fournisseur du devis ne l'a pas confirmé",
+    "Écran 11 : 800 € par radiateur = moyenne dérivée du devis (4 800 / 6), pas une ligne du devis",
+    "Écran 12 : capture d'un assistant IA générique (aucune marque, aucune donnée personnelle) ; le prix VMC « 1 500 € » est volontairement un prix inventé par l'IA, à barrer à l'écran",
+    "Écran 13 : pas d'outil officiel, le bouton mène à l'exercice (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

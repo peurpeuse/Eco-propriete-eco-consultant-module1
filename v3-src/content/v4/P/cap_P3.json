@@ -1,0 +1,173 @@
+{
+ "id": "P3",
+ "module": 0,
+ "section": "Prérequis · Climat et marché",
+ "etape": "Prérequis",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "Ce que le climat change pour le marché : réglementation, valeur, assurance, acquéreurs",
+ "objective": "Placer dans l'ordre six dates réglementaires de 2015 à 2026 et relever pour sa zone trois effets du climat sur le marché, chacun avec sa source et sa date",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Sébastien Paumier déroule une frise : accord de Paris, loi énergie-climat, nouveau DPE, loi Climat et résilience, audit à la vente, interdiction de louer les G. Puis il montre ce que ces règles ont changé pour le marché : 3,9 millions de passoires parmi les résidences principales, 15 % des ventes en F-G, une assurance plus chère et des acquéreurs qui lisent le DPE."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Un investisseur veut acheter un studio classé G pour le mettre en location en novembre 2026, sans travaux. Que lui dis-tu ?",
+    "options": [
+     "« Pas de souci, l'interdiction ne commence qu'en 2028. »",
+     "« Seuls les logements de plus de 50 m² sont concernés. »",
+     "« Depuis le 1/01/2025, un G n'est plus décent pour un nouveau bail. Un assouplissement est en discussion, rien n'est voté. »"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : 2028, c'est l'échéance des logements F ; les G sont visés depuis le 1/01/2025.",
+     "Faux : la règle ne dépend pas de la surface du logement.",
+     "Juste : c'est la règle en vigueur (loi Climat et résilience) ; le projet de loi Relance du logement, adopté au Sénat le 8/07/2026, n'est pas définitif."
+    ],
+    "fb_title": "G en 2025, F en 2028, E en 2034",
+    "fb_text": "La loi Climat et résilience du 22/08/2021 fait entrer la performance énergétique dans la décence : G interdit à la nouvelle location depuis le 1/01/2025, F en 2028, E en 2034. Un assouplissement est en navette parlementaire : tu dis ce qui est en vigueur et tu signales ce qui est en discussion."
+   },
+   {
+    "question": "Au 1er janvier 2025, quelle part des résidences principales est classée F ou G selon l'Observatoire national de la rénovation énergétique ?",
+    "options": [
+     "12,7 %, soit environ 3,9 millions de logements",
+     "40 %, soit environ 12 millions de logements",
+     "2 %, soit environ 600 000 logements"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : 3,9 millions de résidences principales sur 30,9 millions (SDES, publication du 12/11/2025).",
+     "Faux : c'est très au-dessus ; même en ajoutant les classes E, on n'atteint pas ce niveau pour les seules F-G.",
+     "Faux : c'est très en dessous de la réalité mesurée."
+    ],
+    "fb_title": "3,9 millions de passoires",
+    "fb_text": "Au 1/01/2025 : 12,7 % des résidences principales en F-G (7,9 % F, 4,8 % G), environ 327 000 de moins qu'un an plus tôt (SDES, ONRE, 12/11/2025). Sur tout le parc (y compris résidences secondaires et vacantes) : 5,4 millions, 14,4 %."
+   },
+   {
+    "question": "Un vendeur te dit : « Mon assurance habitation a augmenté, c'est l'assureur qui abuse. » Quel fait réglementaire peux-tu lui citer ?",
+    "options": [
+     "Aucun : les tarifs d'assurance n'ont rien à voir avec le climat.",
+     "La surprime « catastrophes naturelles » des contrats habitation est passée de 12 % à 20 % au 1/01/2025.",
+     "L'État a plafonné toutes les primes d'assurance habitation en 2025."
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : le coût des catastrophes naturelles pèse sur le régime d'assurance et sur les primes.",
+     "Juste : arrêté du 22/12/2023, effet au 1/01/2025 (12 % → 20 % pour l'habitation, 6 % → 9 % pour l'auto).",
+     "Faux : aucun plafonnement général des primes n'a été décidé."
+    ],
+    "fb_title": "La surprime cat nat a augmenté",
+    "fb_text": "La surprime « cat nat » finance le régime des catastrophes naturelles. Elle est passée de 12 % à 20 % au 1/01/2025 pour l'habitation. Les événements climatiques ont coûté 5,2 milliards d'euros aux assureurs en 2025, dont environ 1 milliard pour la sécheresse (France Assureurs, 26/03/2026)."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Frise réglementaire (Paris 2015 → Climat et résilience) et fiche impact sur le marché",
+  "kind": "fiche",
+  "intro": "La frise des textes qui ont fait du DPE un critère de vente et de location, puis les chiffres qui montrent l'effet sur le marché : parc par étiquette, ventes de passoires, valeur, assurance. Chaque ligne a sa source et sa date. À actualiser à chaque nouvelle publication (ONRE en fin d'année, Notaires en janvier, France Assureurs au printemps).",
+  "sections": [
+   {
+    "heading": "La frise : 10 dates clés",
+    "type": "table",
+    "headers": ["Date", "Texte ou événement", "Ce que ça change pour un logement"],
+    "rows": [
+     ["12/12/2015", "Accord de Paris (COP21)", "Objectif mondial : rester bien en dessous de +2 °C"],
+     ["8/11/2019", "Loi énergie-climat n° 2019-1147", "Neutralité carbone en 2050 ; premières mesures sur les passoires"],
+     ["11/01/2021", "Décret décence n° 2021-19", "Au 1/01/2023 : plus de nouveau bail au-delà de 450 kWh d'énergie finale/m²/an (métropole)"],
+     ["1/07/2021", "Nouveau DPE (méthode 3CL-DPE 2021)", "DPE opposable, double seuil énergie et climat, indicateur de confort d'été"],
+     ["22/08/2021", "Loi Climat et résilience n° 2021-1104", "Performance énergétique dans la décence : G (2025), F (2028), E (2034)"],
+     ["24/08/2022", "Gel des loyers des F et G", "Plus de hausse de loyer pour les passoires"],
+     ["1/04/2023", "Audit énergétique à la vente", "Maisons et monopropriétés F-G ; E depuis le 1/01/2025"],
+     ["1/01/2025", "G non décent", "Plus de nouveau bail pour un logement G"],
+     ["1/01/2026", "Coefficient électricité 1,9 (arrêté du 13/08/2025)", "Des logements électriques changent de classe ; attestation actualisée gratuite"],
+     ["8/07/2026", "Projet de loi Relance du logement adopté au Sénat (1re lecture)", "Assouplissement possible de la relocation des F-G : non définitif"]
+    ]
+   },
+   {
+    "heading": "Le parc par étiquette au 1/01/2025 (résidences principales)",
+    "type": "table",
+    "headers": ["Classe", "Part", "Lecture"],
+    "rows": [
+     ["A et B", "3,3 % et 5,3 %", "Logements très performants, rares"],
+     ["C et D", "27,2 % et 33,7 %", "Le cœur du parc"],
+     ["E", "17,8 %", "Concernée par l'audit à la vente (maisons) et par 2034 en location"],
+     ["F", "7,9 %", "Location interdite à partir de 2028"],
+     ["G", "4,8 %", "Location interdite depuis 2025"],
+     ["Total F-G", "12,7 % (≈ 3,9 millions)", "−327 000 en un an (SDES, ONRE, 12/11/2025)"]
+    ]
+   },
+   {
+    "heading": "Quatre effets sur le marché",
+    "type": "list",
+    "items": [
+     "Ventes : la part des F-G dans les ventes de l'ancien est passée de 11 % en 2021 à 17 % en 2023, puis s'est stabilisée autour de 15 % début 2025 (Notaires de France, valeur verte, transactions 2024, 7/01/2026). Les passoires se vendent.",
+     "Valeur : en 2024, les logements performants se vendent plus cher et les très énergivores moins cher, avec des écarts qui varient selon la région et le type de bien (même étude). Tu cites l'écart de ta région, jamais un pourcentage national.",
+     "Assurance : surprime « cat nat » de 12 % à 20 % au 1/01/2025 (arrêté du 22/12/2023) ; 5,2 milliards d'euros de sinistres climatiques en 2025, dont environ 1 milliard pour la sécheresse (France Assureurs, 26/03/2026).",
+     "Acquéreurs : le DPE est affiché dans l'annonce, l'audit est remis dès la première visite pour une maison F, G ou E, l'état des risques aussi. L'acquéreur arrive informé : il négocie sur un budget de travaux."
+    ]
+   },
+   {
+    "heading": "Phrases à dire",
+    "type": "list",
+    "items": [
+     "« Votre logement est classé F : il se vend, comme 15 % des ventes de l'ancien. Ce qui compte, c'est l'écart dans votre secteur et le coût des travaux. »",
+     "« Pour la location, la règle en vigueur aujourd'hui est celle-ci ; un texte est en discussion, je vous dirai s'il est voté. »",
+     "« Je vous donne la source et la date de chaque chiffre. »"
+    ]
+   }
+  ],
+  "footer": "Sources : Légifrance (loi n° 2019-1147, loi n° 2021-1104) ; SDES, ONRE, parc de logements par classe de DPE au 1/01/2025 (12/11/2025) ; Notaires de France, valeur verte (transactions 2024, 7/01/2026) ; Macif, surprime cat nat (arrêté du 22/12/2023) ; France Assureurs via L'info durable (26/03/2026) ; Selectra, vote du Sénat sur la loi Relance du logement (13/07/2026). Mise à jour : 28/10/2026."
+ },
+ "exercise": {
+  "title": "Ma frise et trois effets sur ma zone",
+  "duration_min": 35,
+  "context": "Tu travailles sur ta zone réelle (ta ville ou ton secteur). D'abord tu remets dans l'ordre six dates de la frise, sans regarder la fiche. Ensuite tu relèves trois effets concrets du climat et des règles sur ton marché local : prix, délais de vente, demande des acquéreurs, assurance.",
+  "materials": [
+   "Six cartes à ordonner : accord de Paris, loi énergie-climat, nouveau DPE, loi Climat et résilience, audit énergétique à la vente, G interdit à la nouvelle location",
+   "Étude valeur verte des Notaires de France (transactions 2024) : tableau de ta région",
+   "Observatoire DPE-Audit de l'ADEME (DPE de ta commune)",
+   "Tes propres données : délais de vente de tes mandats 2025-2026, remarques d'acquéreurs, retours d'assureurs ou de courtiers",
+   "Exemple : appartement de M. Bernard (D02, D03) ou maison de Mme Garnier (M02, M03), fictifs"
+  ],
+  "steps": [
+   "Place les six cartes dans l'ordre, avec la date, puis corrige-toi avec la fiche.",
+   "Pour chaque date, écris en quelques mots ce qu'elle change pour un vendeur ou un bailleur.",
+   "Relève dans l'étude des Notaires l'écart de prix de ta région pour une classe F-G par rapport à la classe D (type de bien, année des ventes).",
+   "Relève deux autres effets dans ton activité : délai de vente de tes biens F-G comparé aux autres, questions des acquéreurs, hausse d'assurance signalée par un client.",
+   "Pour chacun des trois effets, note la source et la date ; si l'effet vient de ton expérience, écris « observation personnelle » et le nombre de cas."
+  ],
+  "expected": "Ordre attendu : accord de Paris (12/12/2015) → loi énergie-climat (8/11/2019) → nouveau DPE (1/07/2021) → loi Climat et résilience (22/08/2021) → audit énergétique à la vente (1/04/2023) → G interdit à la nouvelle location (1/01/2025). Exemple d'effets (secteur de Melun, à adapter) : 1. Valeur : écart de prix F-G / D pour les appartements de la région, lu dans l'étude des Notaires (transactions 2024), cité avec la région, le type de bien et l'année. 2. Délais : « mes 3 ventes F-G de 2026 ont pris 30 jours de plus que la moyenne de mes ventes » (observation personnelle, 3 cas, à présenter comme telle). 3. Acquéreurs et assurance : les acheteurs de maisons demandent l'audit dès la première visite ; un client a vu sa prime habitation monter en 2025, en partie par la surprime cat nat passée de 12 % à 20 %. Pour M. Bernard (fictif) : son classement est passé de F à E avec l'attestation actualisée (D03) : l'effet DPE se vérifie avant d'être chiffré."
+ },
+ "deliverable": {
+  "title": "Note climat et marché de ma zone",
+  "format": "PDF, 1 page : la frise des six dates + un tableau de 3 effets (effet, chiffre ou constat, source et date)",
+  "criteria": [
+   "Les six dates sont dans le bon ordre, chacune avec ce qu'elle change",
+   "Trois effets distincts sur le marché de la zone de l'apprenant",
+   "Chaque effet a une source et une date, ou la mention « observation personnelle » avec le nombre de cas",
+   "L'écart de valeur verte cité précise la région, le type de bien, l'année et la classe de référence",
+   "Les règles en discussion (projet de loi Relance du logement) sont présentées comme non votées"
+  ]
+ },
+ "sources": [
+  { "label": "Légifrance — Loi n° 2021-1104 du 22 août 2021 (Climat et résilience)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924" },
+  { "label": "Légifrance — Loi n° 2019-1147 du 8 novembre 2019 (énergie-climat)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039355955" },
+  { "label": "SDES — Le parc de logements par classe de performance énergétique au 1er janvier 2025 (12/11/2025)", "url": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025" },
+  { "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
+  { "label": "Macif — Augmentation de la cotisation catastrophes naturelles au 1/01/2025 (arrêté du 22/12/2023)", "url": "https://www.macif.fr/assurance/la-macif/actualites/cotisation-catastrophe-naturelle" },
+  { "label": "L'info durable (AFP) — Le coût des sinistres climatiques en France en 2025 : 5,2 milliards (France Assureurs, 26/03/2026)", "url": "https://www.linfodurable.fr/climat/le-cout-des-sinistres-climatiques-en-france-en-hausse-en-2025-52-milliards-55669" },
+  { "label": "Selectra — Relouer une passoire : ce que le Sénat a voté (13/07/2026)", "url": "https://selectra.info/energie/actualites/renovation-energetique/loi-relance-logement-senat-vote-passoires-relocation-2026" },
+  { "label": "ADEME — Observatoire DPE-Audit", "url": "https://observatoire-dpe-audit.ademe.fr" }
+ ],
+ "open_points": [
+  "Chiffres régionaux de valeur verte : l'étude PDF des Notaires n'a pas pu être lue (accès refusé aux robots) ; seuls les chiffres nationaux de la page sont repris. À vérifier : écarts régionaux avant tournage.",
+  "Projet de loi Relance du logement (assouplissement de la relocation des F-G) : en navette à l'Assemblée nationale ; statut à vérifier à la date de tournage.",
+  "Décret n° 2021-19 (seuil de 450 kWhEF/m²/an) et gel des loyers au 24/08/2022 : à vérifier sur Légifrance avant citation à l'écran.",
+  "Délais de vente des passoires : aucune statistique nationale officielle retenue ; l'exercice s'appuie sur l'observation de l'apprenant.",
+  "Quiz de prérequis du module P : seuil à fixer avec Sébastien Paumier."
+ ]
+}

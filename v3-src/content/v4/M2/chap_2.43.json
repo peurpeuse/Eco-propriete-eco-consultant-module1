@@ -1,0 +1,341 @@
+{
+  "id": "2.43",
+  "module": 2,
+  "title": "Estimer après rénovation, sans rien promettre",
+  "capsule_title": "Estimer après rénovation, sans rien promettre [IA]",
+  "duration": "4:30",
+  "objective": "Calculer les deux valeurs du bien fil rouge, en l'état (fourchette justifiée) et après travaux, en intégrant travaux et appels de fonds, sans promettre ni prix, ni classe, ni aide, avec l'aide de l'IA",
+  "mozi": {
+    "line": "Trois annonces, une moyenne sur mes doigts : voilà ton prix !",
+    "scene": "Mozi fait défiler des annonces sur son téléphone, compte sur ses doigts, se trompe, recommence, puis annonce un prix au vendeur sans avoir regardé une seule vente. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 2.43 : estimer après rénovation",
+      "voice": "Bienvenue. Dans ce chapitre, tu calcules deux valeurs pour M. Bernard : en l'état, et après rénovation. Chacune avec ses preuves, sans rien promettre.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "pourquoi on part de ventes, et pourquoi une valeur après travaux n'est pas une promesse"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "calculer les deux valeurs du bien, avant et après travaux"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ta note d'estimation et ses deux valeurs"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Trois annonces, une moyenne sur mes doigts : voilà ton prix !",
+      "voice": "Trois annonces, une moyenne sur mes doigts : voilà ton prix !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Trois annonces, une moyenne sur mes doigts : voilà ton prix !",
+      "scene": "Mozi fait défiler des annonces sur son téléphone, compte sur ses doigts, se trompe et recommence."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "3 annonces, 1 moyenne, 0 vente réelle",
+      "voice": "Trois annonces, une moyenne, zéro vente réelle.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "3 annonces",
+        "1 moyenne",
+        "0 vente réelle"
+      ],
+      "wrong": 2,
+      "why": "Une annonce donne un prix demandé ; seule une vente donne le prix payé."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Prix demandé ≠ prix payé",
+      "voice": "Sauf qu'une annonce, c'est un prix demandé. Pas un prix payé. Une estimation bâtie sur des annonces ne tient pas devant un vendeur qui vérifie.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "Une annonce, c'est un prix demandé.",
+        "Seule une vente dit le prix payé."
+      ],
+      "source": "DVF, Demandes de valeurs foncières (data.gouv.fr) : base publique des ventes immobilières réellement conclues, consultée le 26/10/2026"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "5 ans de ventes réelles, en accès libre",
+      "voice": "Ta matière première est publique : cinq ans de ventes réelles, mises à jour deux fois par an. C'est la base DVF. Seules l'Alsace, la Moselle et Mayotte n'y figurent pas.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Combien d'années de ventes immobilières réelles sont publiées en open data ?",
+        "answer": 5,
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "unit": " ans"
+      },
+      "value": "5 ans",
+      "label": "de ventes immobilières réelles en open data, mises à jour en avril et en octobre",
+      "source": "data.gouv.fr, jeu de données « Demandes de valeurs foncières » (DVF), consulté le 26/10/2026 : « transactions immobilières intervenues au cours des cinq dernières années », mise à jour semestrielle en avril et en octobre, « à l'exception de l'Alsace, de la Moselle et de Mayotte »"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Ventes et médiane → Ajustements prouvés → Écart et coût",
+      "voice": "Trois idées. Un : tu pars des ventes. Tu calcules le prix au mètre carré de chacune, puis la médiane, qui résiste aux ventes atypiques. Chez M. Bernard : 2 650 euros, fois 76 mètres carrés, 201 400 euros. Deux : tu n'ajustes que ce qui est prouvé. Les fenêtres, moins 5 600. La ventilation, moins 2 900. Le chauffage est neutre. Puis les appels de fonds : une décote de 6 900 à 14 900 euros, un jugement que tu écris. Fourchette : 178 000 à 186 000 euros net vendeur. Trois : tu compares honnêtement. Rénové, dans un immeuble isolé : 216 600 euros. L'écart ne couvre pas les 52 380 euros de travaux. Tu le dis, et tu ne promets ni ce prix, ni la classe C.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Méthode par comparaison (capsules 2.37 à 2.40 et 2.43) ; comparables D12 et devis D13 fictifs (Bible du fil rouge) ; décote copropriété 6 900 à 14 900 € = jugement documenté, pas une règle de marché",
+      "steps": [
+        {
+          "label": "Ventes et médiane",
+          "detail": "Médiane en l'état 2 650 €/m² × 76 m² = 201 400 €."
+        },
+        {
+          "label": "Ajustements prouvés",
+          "detail": "−5 600 € fenêtres, −2 900 € VMC, −6 900 à −14 900 € copropriété : 178 000 à 186 000 €."
+        },
+        {
+          "label": "Écart et coût",
+          "detail": "Après rénovation 216 600 € ; écart 30 600 à 38 600 € ; coût 52 380 €."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; modèle d'estimation de la capsule 2.43",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Karim veut annoncer 205 000 € à M. Bernard, « pour lui faire plaisir ». Que lui présentes-tu à la place ?",
+      "model_answer": "Les deux valeurs prouvées : 178 000 à 186 000 € net vendeur en l'état, à partir de la médiane des ventes et des devis ; 216 600 € après rénovation. Même la vente en l'état la plus chère, 2 700 €/m², donne 205 200 € avant les retraits prouvés : 205 000 € ne tient pas. Et je n'annonce aucune de ces valeurs comme un prix garanti.",
+      "keywords": [
+        "ventes",
+        "médiane",
+        "fourchette",
+        "après rénovation",
+        "pas de promesse"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "DVF (data.gouv.fr) ; modèle d'estimation de la capsule 2.43",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "On estime à partir de ventes réelles, pas d'annonces",
+          "La moyenne des annonces suffit si on en prend au moins trois",
+          "Aucune : le prix demandé fait le marché"
+        ],
+        "answer": 0,
+        "feedback": "Une annonce est un prix demandé ; une vente est un prix payé. DVF publie les ventes réelles des cinq dernières années.",
+        "whys": [
+          "Exact : seules les ventes disent ce que les acheteurs ont vraiment payé.",
+          "Faux : dix annonces restent dix prix demandés ; le nombre ne change pas leur nature.",
+          "Faux : un prix demandé n'est qu'une intention ; c'est la vente qui fait la référence."
+        ]
+      },
+      "card2": {
+        "question": "Si Hugo demandait à une IA « combien vaut un T4 de 76 m² à Melun ? », que se passerait-il ?",
+        "answer": "L'IA n'a pas les ventes du quartier : elle inventerait un chiffre. Le bon usage : lui donner tes comparables et tes ajustements, la laisser calculer, puis lui faire jouer un acheteur sceptique. Tu vérifies tout, sans nom ni adresse."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : deux valeurs que M. Bernard peut refaire seul. La base DVF, et l'assistant IA.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Modèle d'estimation et prompt IA (ressource de la capsule 2.43)",
+      "goal": "Deux valeurs que M. Bernard peut refaire seul",
+      "tools": [
+        {
+          "name": "DVF",
+          "role": "Trouver les ventes réelles du secteur"
+        },
+        {
+          "name": "L'assistant IA",
+          "role": "Calculer, présenter, jouer l'acheteur sceptique"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "DVF : la valeur en l'état",
+      "voice": "Dans DVF, tu choisis des ventes proches. Ici, l'exemple fictif D12. En l'état, la médiane est à 2 650 euros. Fois 76 : 201 400. Moins les fenêtres et la ventilation : 192 900. Avec la décote copropriété : de 178 000 à 186 000 euros.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Comparables D12 (exemple fictif inspiré de DVF) ; devis D13 (fictif)",
+      "tool": "DVF",
+      "steps": [
+        "Ventes 2025-2026, immeubles de la même époque, surfaces proches (exemple fictif D12)",
+        "En l'état : 2 600 · 2 620 · 2 650 · 2 690 · 2 700 €/m² → médiane 2 650",
+        "76 × 2 650 = 201 400 € ; − 5 600 − 2 900 = 192 900 €",
+        "Copropriété : − 14 900 à − 6 900 € → 178 000 à 186 000 € net vendeur"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "L'IA : calculer et contredire",
+      "voice": "Puis l'IA. Tu colles tes comparables, sans nom ni adresse. Elle calcule la valeur après rénovation : médiane 2 850, soit 216 600 euros. Tu vérifies l'écart face aux 52 380 euros de travaux. Puis elle joue l'acheteur sceptique.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Prompt IA et garde-fous de la capsule 2.43 ; comparables R1-R3 fictifs ; art. 6-2 du décret du 17 mars 1967 pour les appels de fonds",
+      "tool": "Assistant IA",
+      "steps": [
+        "Coller comparables et ajustements, sans nom, adresse ni numéro de DPE",
+        "Rénovés : 2 820 · 2 850 · 2 880 €/m² → médiane 2 850 ; 76 × 2 850 = 216 600 €",
+        "Vérifier : écart 30 600 à 38 600 € face à 16 500 + 35 880 = 52 380 €",
+        "Lui faire jouer l'acheteur sceptique, ajustement par ajustement"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Calcule les deux valeurs de M. Bernard maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 2.43 : calculer les deux valeurs du bien fil rouge, avant et après travaux (comparables D12, devis D13, PV D07) ; DVF reste l'outil réel pour tes propres biens",
+      "cta": "Ouvrir le modèle d'estimation",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta note d'estimation.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.43 : note d'estimation avant / après travaux pour M. Bernard",
+      "ask": "Dépose une capture de ta note d'estimation : fourchette en l'état 178 000 – 186 000 € net vendeur et valeur après travaux 216 600 €, chaque chiffre avec sa preuve, et la mention « estimation, pas une promesse de prix ».",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Les comparables t'attendent : reviens déposer ta note quand elle est prête."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Les deux agences avaient un chiffre sans preuve. Toi, deux valeurs, et chaque ligne se vérifie.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Les deux agences : 1 chiffre, 0 preuve. Toi : 2 valeurs, chaque ligne prouvée.",
+      "source": "Bible du fil rouge (172 000 € des deux agences = 201 400 × 0,85 ≈ 171 190 €, fictif) ; capsule 2.43"
+    }
+  ],
+  "sources": [
+    {
+      "label": "DVF, Demandes de valeurs foncières (data.gouv.fr) : ventes des 5 dernières années, mises à jour en avril et octobre, hors Alsace, Moselle et Mayotte",
+      "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+    },
+    {
+      "label": "Application de consultation DVF (data.gouv.fr)",
+      "url": "https://explore.data.gouv.fr/immobilier"
+    },
+    {
+      "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des provisions en cas de mutation d'un lot)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    },
+    {
+      "label": "Notaires de France, étude « valeur verte » (transactions 2024, publiée en janvier 2026) : écarts de prix selon la classe DPE à lire par région et par année",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété : méthode par comparaison, comparables D12 et devis D13 fictifs (Bible du fil rouge)",
+      "url": null
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier (y compris la réplique de Mozi)",
+    "Plan v4 : la valeur en l'état est construite en détail dans le parcours appartement (2.37 à 2.40) et la conclusion en 2.41 ; ce chapitre 2.43 la reprend en synthèse pour la comparer à la valeur après travaux. Chiffrage des travaux : 2.42",
+    "Écran 7 et 11 : la décote copropriété « 6 900 à 14 900 € » est une proposition pédagogique dérivée de la fourchette de la bible, à présenter comme jugement documenté, pas comme règle de marché",
+    "Écran 12 : performances après travaux (D puis C) non affichées dans ce chapitre ; elles restent fictives, à confirmer par un diagnostiqueur",
+    "Écran 13 : le bouton mène désormais à l'exercice (#exercice), qui porte sur le fil rouge ; l'application DVF (https://explore.data.gouv.fr/immobilier) reste citée en démonstration et en source, à tester le jour du tournage",
+    "Écran 8 (revue) : la phrase « aucune vente comparable ne soutient 205 000 € » était inexacte (C5 à 2 700 €/m² × 76 = 205 200 € avant ajustements) ; reformulée",
+    "Écran 7 : sept montants en 55 s ; charge cognitive élevée, compensée par l'affichage des étapes. À tester sur un apprenant ; sinon déplacer le détail des retraits vers l'écran 11",
+    "Tableau D12 (C1-C5, R1-R3) à créer à l'identique dans le dossier fil rouge ; toujours afficher « exemple fictif »",
+    "Le prix de présentation et le mandat (189 000 € FAI) relèvent du module 3 et ne sont pas annoncés ici ; ne citer aucun pourcentage national de valeur verte",
+    "Contrepoint possible (non affiché, pour ne pas alourdir) : maison de Mme Garnier, 285 000 – 300 000 € en l'état contre 369 600 € après rénovation, pour 78 000 € de travaux de l'audit + 11 800 € d'assainissement (bible §11.3 à §11.5, fictif)"
+  ]
+}

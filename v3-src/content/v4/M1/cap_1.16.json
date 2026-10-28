@@ -1,0 +1,201 @@
+{
+  "id": "1.16",
+  "module": 1,
+  "section": "F · Je crée ma promesse et mon pitch",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Démontrer sa différence en 3 minutes",
+  "objective": "Filmer une démonstration de valeur de 3 minutes devant un propriétaire fictif : une observation simple et vérifiable, le renvoi au bon professionnel, sans devis, sans promesse de gain ni expertise improvisée",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi entre chez Mme Garnier, regarde la fissure du pignon et lance : « Rien de grave. Une pompe à chaleur et vous gagnez 30 % ! » Sébastien Paumier montre l'inverse en 3 minutes chrono : poser le cadre, faire une seule observation vérifiable sur le DPE, dire qui vérifiera le reste, ce qu'on ne dit pas, et proposer l'étape suivante. Démonstration sur M. Bernard, puis sur la maison de Mme Garnier."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi, devant la fissure du pignon de Mme Garnier : « Rien de grave, et avec une pompe à chaleur vous gagnez 30 %. » Quelle est la bonne réaction d'un éco-consultant ?",
+        "options": [
+          "« Je note la fissure : elle doit être examinée par un professionnel du bâtiment. Je ne peux pas vous dire si elle est grave. »",
+          "« Elle fait moins d'un millimètre, ce n'est rien. »",
+          "« Avec une pompe à chaleur, vous gagnerez au moins 20 %, pas 30 %. »"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : tu observes, tu notes et tu renvoies à un professionnel (sol argileux possible selon l'ERP) ; tu n'improvises pas d'expertise.",
+          "Expertise improvisée : juger une fissure n'est pas ton métier, et une erreur engagerait ta responsabilité.",
+          "Tu corriges le chiffre mais tu gardes la faute : aucune promesse de gain de valeur ne se fait, quel que soit le pourcentage."
+        ],
+        "fb_title": "Observer, noter, renvoyer",
+        "fb_text": "La fissure en escalier du pignon nord (≈ 0,5 mm) se signale et se fait examiner ; l'ERP indique une exposition moyenne au retrait-gonflement des argiles (fictif). Ta valeur ajoutée, c'est de le repérer et de dire qui vérifiera, pas de trancher."
+      },
+      {
+        "question": "Chez M. Bernard, quelle observation simple et vérifiable choisis-tu pour ta démonstration ?",
+        "options": [
+          "« Vos fenêtres simple vitrage vous font perdre 8 000 € de valeur. »",
+          "« Votre DPE de 2023 a été calculé avec l'ancien coefficient de l'électricité : téléchargeons ensemble l'attestation actualisée gratuite. »",
+          "« Votre ventilation est dangereuse, il faut une VMC dès cette année. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Chiffre inventé : aucune source ne fixe une perte de valeur pour des fenêtres ; c'est une promesse inversée.",
+          "Juste : le fait est vérifiable sur place (date du DPE, chauffage électrique, observatoire ADEME), et le résultat se voit (classe E).",
+          "Diagnostic improvisé et injonction de travaux : tu peux signaler les moisissures, pas prescrire des travaux."
+        ],
+        "fb_title": "Une observation que le vendeur vérifie lui-même",
+        "fb_text": "150 kWhEF/m²/an × 1,9 = 285 kWhEP/m²/an : classe E, confirmée par l'attestation actualisée de l'ADEME, gratuite et sans nouvelle visite. M. Bernard voit le résultat de ses propres yeux : c'est la meilleure démonstration pour un vendeur factuel."
+      },
+      {
+        "question": "Ta démonstration dure 3 minutes. Comment la termines-tu ?",
+        "options": [
+          "Par une estimation de prix « à la louche » pour lui donner une idée",
+          "Par un devis de travaux que tu as préparé",
+          "Par une proposition d'étape suivante : rendez-vous pour l'avis de valeur écrit, avec les documents à préparer"
+        ],
+        "answer": 2,
+        "whys": [
+          "Un prix sans étude des ventes ni des documents, c'est refaire l'erreur des deux agences du −15 %.",
+          "Interdit : l'éco-consultant ne vend pas de travaux et ne remet pas de devis ; c'est le vendeur qui les demande aux entreprises.",
+          "Juste : une seule étape suivante, utile et datée, et la liste des documents à réunir (PV d'AG, appels de charges, devis)."
+        ],
+        "fb_title": "Finir par la suite, pas par un chiffre",
+        "fb_text": "La démonstration ouvre la porte ; l'avis de valeur se construit ensuite, sur les ventes du secteur et les documents. Tu termines par un rendez-vous daté et une liste courte de pièces à préparer."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Trame de démonstration en 3 minutes et grille d'auto-observation de la vidéo",
+    "kind": "trame",
+    "intro": "Une démonstration de valeur ne prouve pas que tu sais tout : elle prouve que tu vérifies. Une seule observation, simple et vérifiable, le renvoi au bon professionnel, et une étape suivante. Sans devis, sans promesse de gain, sans expertise improvisée.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "La trame en 5 temps (3 minutes)",
+        "items": [
+          "0:00-0:20 · Le cadre : « Je vous montre une chose que je vérifie avant de parler prix. Vous pourrez la contrôler vous-même. »",
+          "0:20-1:30 · L'observation : un seul fait, lu sur un document (DPE, attestation, audit, PV d'AG), montré du doigt.",
+          "1:30-2:10 · Qui vérifie le reste : le diagnostiqueur, l'auditeur, le syndic, le notaire, selon le sujet.",
+          "2:10-2:40 · Ce que je ne dis pas : pas de prix, pas de gain, pas de diagnostic du bâti.",
+          "2:40-3:00 · L'étape suivante : un rendez-vous daté et 3 documents à préparer."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Deux démonstrations types (fils rouges fictifs)",
+        "headers": [
+          "",
+          "Appartement de M. Bernard",
+          "Maison de Mme Garnier (parcours maison)"
+        ],
+        "rows": [
+          [
+            "Observation",
+            "DPE de 2023, chauffage électrique : 150 × 1,9 = 285 kWhEP/m²/an, classe E avec l'attestation actualisée",
+            "Chauffage fioul : classe climat G ; l'attestation actualisée ne change pas la classe"
+          ],
+          [
+            "Preuve montrée",
+            "Attestation téléchargée ensemble sur l'observatoire ADEME (D03)",
+            "DPE du 06/02/2024 (M02) : les deux notes, 400 kWhEP et ≈ 119 kgCO₂"
+          ],
+          [
+            "Renvoi",
+            "Diagnostiqueur pour tout nouveau DPE après travaux",
+            "Auditeur : l'audit énergétique est obligatoire à la vente d'une maison classée G"
+          ],
+          [
+            "Étape suivante",
+            "Avis de valeur écrit, avec PV d'AG et appels de charges",
+            "Lecture de l'audit et comparaison vendre en l'état ou après une première étape"
+          ]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Grille d'auto-observation de ta vidéo",
+        "items": [
+          "Durée : 3 minutes ou moins.",
+          "Une seule observation, lue sur un document montré à l'écran.",
+          "Le propriétaire fictif pourrait la vérifier seul (source nommée).",
+          "Au moins un renvoi explicite à un professionnel.",
+          "Aucun prix, aucun pourcentage, aucun gain, aucun devis.",
+          "Aucun avis improvisé sur le bâti (fissure, humidité, structure).",
+          "Fin : une étape suivante datée et des documents à préparer.",
+          "Ton calme, regard vers l'interlocuteur, phrases courtes."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Phrases utiles",
+        "items": [
+          "« Regardez la date de votre DPE et votre mode de chauffage : c'est ce qui m'intéresse d'abord. »",
+          "« Ça, je ne sais pas le juger : c'est le travail d'un professionnel du bâtiment, je vous le note. »",
+          "« Je ne vous donnerai pas de prix aujourd'hui : je veux d'abord regarder les ventes réelles et vos documents. »"
+        ]
+      }
+    ],
+    "footer": "Sources : arrêté du 13/08/2025 (coefficient électricité 1,9 au 1/01/2026) ; ADEME, observatoire DPE-Audit ; INC, audit énergétique obligatoire à la vente ; Géorisques (retrait-gonflement des argiles). Exemples : fils rouges fictifs (BIBLE §2-3 et §11). Trame et grille : proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Filmer sa démonstration de valeur de 3 minutes",
+    "duration_min": 45,
+    "context": "Tu filmes une démonstration de valeur de 3 minutes devant un propriétaire fictif joué par un collègue ou un proche : une observation simple et vérifiable, sans devis, sans promesse de gain, sans expertise technique improvisée. Tu choisis l'appartement de M. Bernard ou la maison de Mme Garnier (parcours maison), et tu envoies la vidéo au formateur.",
+    "materials": [
+      "D02 DPE du 14/03/2023 et D03 Attestation actualisée (appartement)",
+      "M02 DPE du 06/02/2024 et M03 Audit énergétique (maison, parcours maison)",
+      "Trame de démonstration et grille d'auto-observation (ressource)",
+      "Un téléphone sur pied, un partenaire qui joue le propriétaire"
+    ],
+    "steps": [
+      "Choisis ton bien fil rouge et ton observation unique ; écris-la en une phrase avec sa source.",
+      "Prépare le document à montrer (imprimé ou à l'écran) et la phrase de renvoi au professionnel.",
+      "Répète une fois avec ton partenaire en suivant les 5 temps, chronomètre en main.",
+      "Filme en une prise de 3 minutes maximum ; demande à ton partenaire de poser une question piège (« Et ça vaut combien ? »).",
+      "Revois la vidéo avec la grille d'auto-observation et coche chaque ligne.",
+      "Envoie la vidéo et la grille remplie au formateur."
+    ],
+    "expected": "Démonstration attendue sur M. Bernard. Cadre : « Je vous montre une chose que je vérifie avant de parler prix. » Observation : « Votre DPE date de mars 2023 et votre chauffage est électrique ; depuis le 1er janvier 2026, le coefficient est passé de 2,3 à 1,9. 150 × 1,9 = 285 : on télécharge l'attestation ensemble. Classe E. » Renvoi : « Si vous faites des travaux, c'est un diagnostiqueur qui établira un nouveau DPE. » Ce que je ne dis pas : « Je ne vous donne pas de prix aujourd'hui. » Question piège : « Je vous répondrai par écrit, à partir des ventes réelles de votre secteur. » Étape suivante : « Jeudi 18 h, avec le PV d'AG de 2025, vos appels de charges et votre taxe foncière. » Grille : toutes les lignes cochées, durée 2 min 50."
+  },
+  "deliverable": {
+    "title": "Ma démonstration de valeur filmée",
+    "format": "Vidéo MP4 de 3 minutes maximum + grille d'auto-observation remplie (PDF)",
+    "criteria": [
+      "Durée de 3 minutes ou moins, les 5 temps reconnaissables",
+      "Une seule observation, vérifiable, avec sa source montrée",
+      "Au moins un renvoi explicite au bon professionnel",
+      "Aucun prix, pourcentage, gain promis ni devis",
+      "Aucune expertise technique improvisée, y compris face à la question piège",
+      "Fin par une étape suivante datée et des documents à préparer"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Légifrance — Arrêté du 13 août 2025 (coefficient électricité 1,9 au 1/01/2026), cité dans la fiche capsule 1.3 v3",
+      "url": "https://www.legifrance.gouv.fr"
+    },
+    {
+      "label": "Légifrance — Arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "INC — L'obligation de réaliser un audit énergétique lors de la vente de certaines maisons",
+      "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons"
+    },
+    {
+      "label": "Géorisques — Retrait-gonflement des argiles",
+      "url": "https://www.georisques.gouv.fr"
+    }
+  ],
+  "open_points": [
+    "à vérifier : URL Légifrance exacte de l'arrêté du 13 août 2025 (coefficient 1,9).",
+    "Valider avec Sébastien Paumier les modalités d'envoi et de correction des vidéos (plateforme, délai de retour).",
+    "Le parcours maison (Mme Garnier) reste une proposition à valider (BIBLE §11).",
+    "Le chapitre interactif (nouveau) reste à écrire."
+  ]
+}

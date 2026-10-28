@@ -1,0 +1,171 @@
+{
+  "id": "2.41",
+  "module": 2,
+  "section": "N · Conclure et rédiger le dossier d'estimation",
+  "etape": "4 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Le dossier d'estimation : conclusion, réserves, annexes",
+  "objective": "Rédiger la conclusion (valeur libre, hors frais et droits, arrondie, datée) et les réserves du dossier d'estimation du bien fil rouge, puis lister les annexes qui prouvent chaque chiffre",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier ouvre le dossier d'estimation de l'appartement de M. Bernard, le bien fil rouge choisi pour cette capsule. Il montre la trame en sept parties, puis s'arrête sur les trois qui protègent l'agent : une conclusion précise (181 000 €, valeur libre, hors frais et droits, octobre 2026), des réserves honnêtes et des annexes qui prouvent chaque chiffre."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Sarah termine son dossier par : « Votre bien vaut 181 000 €. » Que manque-t-il pour que la conclusion soit complète ?",
+        "options": [
+          "Un prix de présentation plus haut pour garder une marge",
+          "La nature de la valeur (libre, hors frais et droits, net vendeur), la date et la fourchette",
+          "Le nom de l'acquéreur probable"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le prix de présentation se décide avec le vendeur au module 3, il n'est pas la conclusion de l'estimation.",
+          "Juste : une valeur sans nature ni date ne se vérifie pas ; « libre, hors frais et droits, octobre 2026, fourchette 178 000 – 186 000 € ».",
+          "Faux : l'estimation porte sur le bien, pas sur un acquéreur."
+        ],
+        "fb_title": "Une valeur se qualifie et se date",
+        "fb_text": "La conclusion dit quoi (valeur vénale libre), sur quelle base (hors frais et droits, net vendeur), quand (octobre 2026) et avec quelle marge (fourchette). Sans ces quatre éléments, le chiffre ne veut rien dire et il te sera reproché."
+      },
+      {
+        "question": "La cloison du dégagement de M. Bernard présente une fissure fine (moins de 0,2 mm). Que mets-tu dans les réserves ?",
+        "options": [
+          "Rien, c'est sans importance",
+          "« Fissure structurelle, prévoir 10 000 € »",
+          "« Fissure fine observée, non structurelle en apparence ; aucun examen technique réalisé ; à faire examiner par un professionnel si elle évolue »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : un défaut visible non mentionné peut te être reproché ensuite.",
+          "Faux : tu n'es ni expert en structure ni entreprise ; tu n'as ni diagnostic ni devis.",
+          "Juste : tu décris ce que tu as vu, tu dis ce que tu n'as pas fait et tu renvoies au bon professionnel."
+        ],
+        "fb_title": "Dire ce qu'on a vu, et ce qu'on n'a pas fait",
+        "fb_text": "Une réserve n'est pas une excuse : elle délimite ta mission. Tu décris le constat (fissure fine, en escalier, cloison du dégagement), tu précises l'absence d'examen technique et tu renvoies au professionnel compétent."
+      },
+      {
+        "question": "Quel document mets-tu en annexe pour prouver le prix au m² retenu ?",
+        "options": [
+          "Le tableau des mutations, avec la source (DVF ou références notariales) et la date d'extraction",
+          "Trois annonces du moment",
+          "Une capture d'un estimateur en ligne"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : c'est la preuve directe ; chaque vente a sa date, sa surface et son prix.",
+          "Faux : les annonces sont des prix demandés ; elles complètent l'analyse, elles ne la prouvent pas.",
+          "Faux : un estimateur en ligne ne montre ni ses ventes ni sa méthode : ce n'est pas une preuve."
+        ],
+        "fb_title": "L'annexe prouve, le texte explique",
+        "fb_text": "Chaque chiffre du dossier renvoie à une annexe : le tableau des mutations pour le prix au m², le devis pour les travaux, le PV d'AG pour les appels de fonds, l'attestation ADEME pour l'étiquette. M. Bernard pourra tout vérifier."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Trame du dossier d'estimation : cadre, analyse du bien, marché, méthodes, conclusion, réserves, annexes (photos, extraits PLU et PPRN, cadastre, récapitulatif des travaux)",
+    "kind": "trame",
+    "intro": "Trame à suivre pour chaque dossier d'estimation. Elle est remplie ici pour l'appartement de M. Bernard (bien fil rouge choisi pour cette capsule, chiffres FICTIFS). Pour le parcours maison, la même trame s'applique à la maison de Mme Garnier (dossier M01 à M14), avec en plus le terrain, l'assainissement et l'urbanisme. Le dossier d'estimation n'est pas une expertise opposable : il le dit.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "Les 7 parties du dossier",
+        "items": [
+          "Cadre : demandeur, objet (estimation en vue de la vente), date de visite, date de valeur, documents remis, limites de la mission.",
+          "Analyse du bien : situation, immeuble et copropriété, description, surfaces (Carrez, D17), état, performance (attestation ADEME classe E, D03).",
+          "Marché : tableau des mutations, groupes retraités, annonces à part, tendance locale datée.",
+          "Méthodes : comparaison (médiane 2 650 €/m², ajustements prouvés), capitalisation (179 600 €), méthode écartée et raison.",
+          "Conclusion : valeur, nature, date, fourchette ; valeur après rénovation à part, sans promesse.",
+          "Réserves : ce qui n'a pas été vérifié, ce qui dépend de tiers, durée de validité.",
+          "Annexes : une preuve par chiffre."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Conclusion : exemple rédigé (M. Bernard, FICTIF)",
+        "text": "« Au vu des éléments analysés, la valeur vénale de l'appartement (lot de copropriété, T4 de 76,0 m² Carrez, 4e étage avec ascenseur, cave et parking) est estimée, libre de toute occupation, hors frais et droits de mutation et hors honoraires de négociation, à 181 000 € (cent quatre-vingt-un mille euros), dans une fourchette de 178 000 € à 186 000 €, à la date d'octobre 2026. Cette valeur tient compte des appels de fonds votés pour l'isolation de la façade. À titre d'information, la valeur après rénovation, travaux privatifs et isolation réalisés, est estimée à 216 600 € : ce n'est ni un prix garanti, ni une promesse de gain. »"
+      },
+      {
+        "type": "checklist",
+        "heading": "Réserves à écrire (à adapter au bien)",
+        "items": [
+          "Estimation fondée sur les documents remis et une visite visuelle ; aucun sondage, aucun examen technique de la structure ou des réseaux.",
+          "Fissure fine de la cloison du dégagement observée, non examinée par un professionnel.",
+          "Surfaces reprises du mesurage Carrez du dossier de diagnostic technique (D17), non remesurées.",
+          "Étiquette reprise de l'attestation actualisée ADEME (D03) ; performances après travaux estimées, à confirmer par un diagnostiqueur certifié.",
+          "Appels de fonds et charges repris des documents du syndic (D06, D07) ; aide demandée par le syndic non notifiée, non chiffrée.",
+          "Ventes de référence datées ; valeur valable à la date indiquée, à actualiser si le marché ou la réglementation évoluent.",
+          "Document d'aide à la décision : ni expertise opposable, ni conseil juridique ou fiscal (renvoi au notaire)."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Annexes : une preuve par chiffre",
+        "headers": ["Annexe", "Prouve", "Code dossier"],
+        "rows": [
+          ["Reportage photo commenté", "État, défauts visibles, atouts", "D05"],
+          ["Plan et descriptif", "Pièces, surfaces, exposition", "D04"],
+          ["Tableau des mutations et retraitement", "Prix au m² retenu (2 650 €/m²)", "D12"],
+          ["Attestation actualisée ADEME", "Classe E", "D03"],
+          ["Extraits PV d'AG, PPPT, fiche synthétique", "Appels de fonds 35 880 €, travaux à venir", "D07, D09, D10"],
+          ["Récapitulatif des travaux chiffrés", "16 500 € TTC privatifs (devis)", "D13"],
+          ["Extrait cadastral, extraits PLU et plan de prévention des risques (PPRN), état des risques", "Situation, règles d'urbanisme, exposition aux risques", "D11, D17 (ERP) ; PLU et PPRN à extraire (Géoportail de l'urbanisme, Géorisques)"]
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur en remettant le dossier",
+        "text": "« Tout ce que j'écris est prouvé par une pièce en annexe, et j'ai écrit aussi ce que je n'ai pas vérifié. Vous pouvez relire chaque chiffre, et le montrer à votre notaire ou à votre fille. »"
+      }
+    ],
+    "footer": "Sources : Charte de l'expertise en évaluation immobilière (définition de la valeur vénale, contenu du rapport, réserves) ; Géorisques (état des risques) ; Géoportail de l'urbanisme (PLU). Chiffres FICTIFS du dossier fil rouge. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Rédiger la conclusion et les réserves",
+    "duration_min": 40,
+    "context": "Ton estimation de l'appartement de M. Bernard est terminée : comparaison, capitalisation et pondération donnent 181 000 € (fourchette 178 000 – 186 000 €). Tu rédiges la conclusion et les réserves de ton dossier, puis tu listes les annexes. Si tu suis le parcours maison, fais le même exercice pour la maison de Mme Garnier avec le dossier M01 à M14.",
+    "materials": [
+      "Tes résultats des capsules 2.37 à 2.40",
+      "D03 Attestation actualisée ADEME (classe E)",
+      "D05 Reportage photo commenté",
+      "D07 PV d'AG du 12/06/2025 et D10 Fiche synthétique de la copropriété",
+      "D13 Devis des travaux privatifs ; D17 Dossier de diagnostic technique"
+    ],
+    "steps": [
+      "Écris la conclusion en une phrase : valeur, nature (libre, hors frais et droits, net vendeur), fourchette, date.",
+      "Ajoute une phrase sur la valeur après rénovation, à part et sans promesse.",
+      "Rédige 5 à 7 réserves : constats non vérifiés, données de tiers, étiquette, validité.",
+      "Liste les annexes et relie chaque chiffre de la conclusion à sa pièce.",
+      "Relis : aucun conseil juridique ou fiscal, aucune aide chiffrée, aucun prix garanti."
+    ],
+    "expected": "Conclusion : « Valeur vénale de l'appartement (T4 de 76,0 m² Carrez, 4e avec ascenseur, cave et parking), libre de toute occupation, hors frais et droits de mutation et hors honoraires : 181 000 €, fourchette 178 000 – 186 000 €, à la date d'octobre 2026, appels de fonds votés pour l'isolation pris en compte. » Valeur après rénovation : 216 600 € (76 × 2 850), indiquée « à titre d'information, ni prix garanti ni promesse de gain ». Réserves attendues : visite visuelle sans examen technique ; fissure fine de la cloison non examinée ; surfaces reprises du Carrez (D17) ; étiquette E reprise de l'attestation ADEME (D03), performances après travaux à confirmer par un diagnostiqueur ; appels de fonds (35 880 €) et charges repris du syndic (D06, D07), aide non notifiée non chiffrée ; validité limitée à la date ; pas d'expertise opposable, renvoi au notaire pour la répartition des appels de fonds. Annexes : D05, D04, D12, D03, D07-D09-D10, D13, D11-D17 et extraits PLU et Géorisques.",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Conclusion, réserves et liste d'annexes du dossier d'estimation",
+    "format": "PDF ou document texte, 1 à 2 pages",
+    "criteria": [
+      "La conclusion donne une valeur arrondie, sa nature (libre, hors frais et droits), une fourchette et une date",
+      "La valeur après rénovation est séparée et présentée sans promesse",
+      "Au moins 5 réserves précises, dont l'absence d'examen technique et l'origine de l'étiquette",
+      "Chaque chiffre de la conclusion renvoie à une annexe codée",
+      "Aucun conseil juridique ou fiscal, aucune aide chiffrée"
+    ]
+  },
+  "sources": [
+    { "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : définition de la valeur vénale, rapport, réserves ; à vérifier : lien officiel de la 6e édition", "url": "https://charteexpertiseimmo.org" },
+    { "label": "Géorisques : état des risques et informations sur les risques d'une adresse", "url": "https://www.georisques.gouv.fr" },
+    { "label": "Géoportail de l'urbanisme : documents d'urbanisme (PLU) et servitudes", "url": "https://www.geoportail-urbanisme.gouv.fr" },
+    { "label": "ADEME, Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+    { "label": "Proposition pédagogique Éco-Propriété : trame en 7 parties, conclusion et réserves sur le dossier FICTIF de M. Bernard (Bible §2 à §6)" }
+  ],
+  "open_points": [
+    "Bien fil rouge choisi pour cette capsule commune : l'appartement de M. Bernard (variante maison de Mme Garnier signalée dans l'exercice).",
+    "Formulation type de la conclusion et des réserves : à faire relire par un juriste (responsabilité de l'agent qui remet un avis de valeur).",
+    "À vérifier : exposition de l'adresse fictive aux risques (PPRN, inondation) : rien n'est affirmé dans la fiche ; préciser dans D17 ce que contient l'ERP de M. Bernard.",
+    "Valeur conclue de 181 000 € : dérivée en capsule 2.40, à valider par Sébastien Paumier."
+  ]
+}

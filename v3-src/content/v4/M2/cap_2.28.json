@@ -1,0 +1,170 @@
+{
+ "id": "2.28",
+ "module": 2,
+ "section": "K · Cadrer, lire le marché, réunir les références",
+ "etape": "4 (Éco-staging)",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "La valeur verte : l'intégrer à la valeur, sans l'isoler",
+ "objective": "Situer un bien par rapport à une référence de meilleure classe énergétique en chiffrant les écarts prouvés, et expliquer pourquoi on n'applique pas un pourcentage de valeur verte",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Mozi a lu un titre de presse : « une passoire vaut 15 % de moins ». Il retire 15 % à tout ce qui est classé F ou G. Sébastien Paumier ouvre l'étude des notaires sur la valeur verte, montre ce qu'elle mesure vraiment (des écarts moyens, par région, à caractéristiques égales) et pourquoi la performance s'intègre dans la comparaison au lieu de s'ajouter en pourcentage."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Tes comparables d'appartements en l'état sont classés D et E et se vendent 2 650 €/m². L'attestation de M. Bernard est en E. Mozi veut retirer en plus « −8 % de valeur verte ». Que réponds-tu ?",
+    "options": [
+     "D'accord, c'est la moyenne nationale",
+     "Non : les comparables ont déjà la même performance, la retirer en plus serait un double compte",
+     "Non, il faut retirer 15 %"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : un écart moyen national ne s'applique pas à un bien précis, et ici les références ont la même classe.",
+     "Juste : la performance est déjà dans le prix des références de même classe ; on n'ajuste que l'écart réel avec elles.",
+     "Faux : le niveau du pourcentage ne change rien ; c'est l'ajout mécanique qui est faux."
+    ],
+    "fb_title": "La performance est dans les références",
+    "fb_text": "Quand tu choisis des comparables de même classe, la valeur verte est déjà dans leur prix au m². Tu ne l'ajoutes ni ne la retires une seconde fois. Tu n'ajustes que ce qui diffère, preuve à l'appui."
+   },
+   {
+    "question": "Que mesure l'étude statistique des Notaires de France sur la valeur verte ?",
+    "options": [
+     "Des écarts de prix moyens entre classes DPE, par région, à caractéristiques comparables par ailleurs",
+     "Le pourcentage à retirer à chaque logement classé F ou G",
+     "Le coût des travaux pour gagner une classe"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : c'est une mesure statistique, territoire par territoire, qui sert à comprendre le marché, pas à corriger un bien précis.",
+     "Faux : l'étude ne fixe aucune décote à appliquer ; elle observe des moyennes, et les dynamiques sont contrastées selon les territoires.",
+     "Faux : le coût des travaux vient d'un audit ou de devis, pas de l'étude notariale."
+    ],
+    "fb_title": "Une moyenne observée, pas une règle",
+    "fb_text": "L'étude (transactions 2024, mise en ligne le 7/01/2026) éclaire ton discours et ta lecture du marché. La Charte de l'expertise le dit aussi : il n'existe pas de valeur verte distincte qu'on valoriserait à part des autres facteurs."
+   },
+   {
+    "question": "Une agence a dit à Mme Garnier : « Classée G, comptez −25 %. » Ses comparables sont des maisons F-G vendues 2 750 €/m². Comment tiens-tu compte de la classe G ?",
+    "options": [
+     "Tu retires 25 % de 308 000 €",
+     "Tu ignores le DPE, il ne compte pas",
+     "Tu pars de références F-G, déjà décotées par le marché, et tu présentes à part la valeur après rénovation avec le coût de l'audit"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : 112 × 2 750 = 308 000 € vient déjà de maisons F-G ; retirer 25 % compterait la passoire deux fois.",
+     "Faux : la performance pèse sur le prix ; c'est justement pour cela que tu choisis des références de même classe.",
+     "Juste : la classe est intégrée dans le choix des références, et l'écart avec la valeur rénovée (369 600 €) se lit à côté du coût des travaux (78 000 €)."
+    ],
+    "fb_title": "Intégrer, puis montrer l'après",
+    "fb_text": "La classe G est dans le prix des références F-G. Ce que tu ajoutes, c'est la lecture de l'après : maisons rénovées C-D à 3 300 €/m² (fictif) et parcours de l'audit. Aucune aide ne se chiffre comme acquise."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche valeur verte : étude statistique des notaires (à actualiser) et principe d'intégration sans isolement",
+  "kind": "fiche",
+  "intro": "La valeur verte est l'écart de prix observé entre des logements qui ne diffèrent que par leur performance énergétique. C'est une mesure statistique utile pour lire le marché et rassurer un vendeur. Ce n'est pas un coefficient à appliquer. Dans ton estimation, la performance s'intègre dans la comparaison : par le choix des références, puis par les écarts que tu prouves.",
+  "sections": [
+   {
+    "type": "table",
+    "heading": "L'étude des Notaires de France : ce qu'il faut savoir",
+    "headers": ["Point", "Ce que dit la source"],
+    "rows": [
+     ["Édition la plus récente", "« La valeur verte des logements en France sur les transactions 2024 et tendances 2025 » : étude de décembre 2025, mise en ligne le 7/01/2026 (à actualiser à chaque nouvelle édition)"],
+     ["Part des ventes F-G", "De 11 % à 17 % des ventes de logements anciens entre 2021 et 2023, puis recul en 2024 et stabilisation autour de 15 % début 2025"],
+     ["Effet sur les prix", "En 2024, les logements performants se vendent plus cher et les logements très énergivores moins cher"],
+     ["Lecture", "Dynamiques territoriales contrastées : les écarts se lisent par région, par type de bien et par année"]
+    ]
+   },
+   {
+    "type": "list",
+    "heading": "Pourquoi on n'ajoute pas un pourcentage mécaniquement",
+    "items": [
+     "Les références de même classe ont déjà la performance dans leur prix : l'ajouter serait un double compte.",
+     "Une moyenne régionale ne dit rien d'un bien précis : son plan, son terrain, son état comptent autant.",
+     "Le pourcentage mélange des biens qui diffèrent aussi par l'âge, la localisation et l'état.",
+     "La Charte de l'expertise (6e édition, 2025) rappelle qu'il n'existe pas de valeur verte distincte qu'on valoriserait séparément des autres facteurs.",
+     "Les méthodes indiciaires, qui appliquent un coefficient mécanique, ne captent pas les réalités locales (Charte)."
+    ]
+   },
+   {
+    "type": "steps",
+    "heading": "Intégrer la performance en 4 gestes",
+    "items": [
+     "Choisis tes références dans la même classe que le bien, ou note la classe de chacune.",
+     "S'il ne reste que des références de meilleure classe, liste ce qui explique l'écart : fenêtres, ventilation, chauffage, isolation.",
+     "Chiffre l'écart par des preuves (devis, audit) et compare-le à l'écart de prix observé entre références.",
+     "Présente à part la valeur après travaux, à côté du coût des travaux, sans compter d'aide non notifiée."
+    ]
+   },
+   {
+    "type": "table",
+    "heading": "Exemples fil rouge (données fictives)",
+    "headers": ["Bien", "Références", "Ce que tu fais"],
+    "rows": [
+     ["Appartement de M. Bernard, attestation E", "D-E en l'état à 2 650 €/m² ; rénovés C-D à 2 850 €/m²", "Base 2 650 €/m², ajustements au devis D13 ; pas de pourcentage en plus"],
+     ["Maison de Mme Garnier, classée G (fioul)", "F-G en l'état à 2 750 €/m² ; rénovées C-D à 3 300 €/m²", "Base 2 750 €/m² ; valeur rénovée 369 600 € montrée à côté de l'audit (78 000 €)"]
+    ]
+   },
+   {
+    "type": "text",
+    "heading": "La phrase à dire au client",
+    "text": "« Les notaires mesurent bien un écart de prix lié au DPE, mais c'est une moyenne par région. Je ne retire pas un pourcentage : je compare votre bien à des ventes de même classe, et je chiffre seulement ce qui le distingue, devis à l'appui. »"
+   }
+  ],
+  "footer": "Sources : Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (notaires.fr, 7/01/2026, page relue le 28/10/2026) ; Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025), passage ESG et valeur verte, méthodes indiciaires. Exemples Bernard et Garnier fictifs. Mise à jour : octobre 2026, à actualiser à la prochaine édition de l'étude."
+ },
+ "exercise": {
+  "title": "Situer un bien par rapport à une référence classée D",
+  "duration_min": 25,
+  "context": "Tu as trouvé, à 800 m de la résidence « Les Tilleuls », la vente d'un T4 de 74 m² dans un immeuble de 1970, classé D, vendu 207 200 € en 2026, soit 2 800 €/m² (référence fictive R4). Son vendeur avait changé les fenêtres et posé une VMC. M. Bernard, attestation E, te demande : « Alors je vaux 2 800 € le m² moins un pourcentage pour la classe ? »",
+  "materials": [
+   "D03 Attestation actualisée (classe E), D13 Devis des travaux privatifs",
+   "D12 Tableau des comparables (fictifs)",
+   "Notaires de France, étude valeur verte (7/01/2026)"
+  ],
+  "steps": [
+   "Calcule l'écart de prix au m² entre la référence R4 (2 800 €/m²) et la base des comparables en l'état (2 650 €/m²), puis rapporte-le aux 76 m² de M. Bernard.",
+   "Liste ce qui distingue R4 de l'appartement de M. Bernard (fenêtres, ventilation, chauffage, eau chaude).",
+   "Chiffre ces différences avec le devis D13 et compare le total à l'écart de prix.",
+   "Situe l'appartement de M. Bernard par rapport à R4 en une phrase.",
+   "Écris en 3 phrases pourquoi tu n'appliques pas un pourcentage de valeur verte, en citant l'étude des notaires."
+  ],
+  "expected": "Écart : 2 800 − 2 650 = 150 €/m², soit 150 × 76 = 11 400 € sur la surface de M. Bernard. Ce qui distingue R4 : fenêtres remplacées (5 600 € au devis D13) et VMC (2 900 €), soit 8 500 € de travaux prouvés ; le chauffage et l'eau chaude sont comparables. L'écart de prix (11 400 €) est du même ordre que ces travaux, augmenté du confort et de l'absence de chantier pour l'acheteur. Conclusion : l'appartement se situe sous R4, dans la base des comparables D-E à 2 650 €/m², ajusté au devis ; il ne vaut pas « 2 800 € moins un pourcentage ». Pourquoi pas de pourcentage : l'étude des notaires mesure des écarts moyens par région, à caractéristiques égales ; appliquée sur des références qui ont déjà la même classe, elle compterait la performance deux fois ; la bonne méthode est de comparer à des ventes de même classe et de chiffrer les écarts par des preuves.",
+  "ia_prompt": null
+ },
+ "deliverable": {
+  "title": "Note de positionnement du bien face à une référence classée D",
+  "format": "Note PDF d'une page",
+  "criteria": [
+   "L'écart de prix est calculé au m² et en euros sur la surface du bien",
+   "Chaque différence avec la référence est chiffrée par une preuve (devis, audit)",
+   "La conclusion situe le bien sans appliquer de pourcentage",
+   "L'étude des notaires est citée avec son édition et sa date",
+   "Aucune aide n'est chiffrée comme acquise"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » et tendances 2025 (mise en ligne le 7/01/2026) : part des ventes F-G de 11 % à 17 % entre 2021 et 2023, puis ≈ 15 % début 2025 ; dynamiques territoriales contrastées",
+   "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+  },
+  {
+   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : « il n'existe pas de “Valeur Verte” distincte qui puisse être simplement valorisée séparément de tous les autres facteurs » (citant les normes européennes EVS) ; limites des méthodes indiciaires",
+   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+  },
+  {
+   "label": "Bible du fil rouge : marchés fictifs §5 (appartements) et §11.5 (maisons)"
+  }
+ ],
+ "open_points": [
+  "À actualiser : vérifier à chaque session s'il existe une édition de l'étude valeur verte plus récente que celle mise en ligne le 7/01/2026 (transactions 2024), et reprendre les chiffres de la région Île-de-France le cas échéant.",
+  "À vérifier : écarts régionaux Île-de-France de l'étude (non repris ici : PDF de l'étude non accessible lors de la rédaction).",
+  "La référence R4 (T4 classé D à 2 800 €/m²) est créée pour cet exercice : l'ajouter au tableau D12 ou la marquer comme hors dossier."
+ ]
+}

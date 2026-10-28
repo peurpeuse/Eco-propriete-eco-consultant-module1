@@ -1,0 +1,213 @@
+{
+  "id": "3.22",
+  "module": 3,
+  "title": "Présenter l'offre Éco-Consultant et ses services",
+  "capsule_title": "Présenter l'offre Éco-Consultant et ses services",
+  "duration": "4:30",
+  "objective": "Rédiger une proposition commerciale d'une page qui annonce quatre résultats, trois niveaux d'offre et, pour chaque service, qui le réalise et ce qui est facturé en plus, sans promettre de prix",
+  "mozi": {
+    "line": "Formule Diamant : 205 000 € garantis, et je refais votre isolation moi-même ce week-end !",
+    "scene": "Mozi, blazer violet, déroule devant M. Bernard une brochure brillante de douze pages ; il brandit un pistolet à mousse isolante qu'il n'a jamais utilisé et une étiquette « 205 000 € » collée sur le mot « garantis »."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 3.22 : présenter l'offre Éco-Consultant",
+      "voice": "Bienvenue. M. Bernard a vu ton analyse. Maintenant, il veut savoir ce que tu lui proposes, précisément. Une page suffit.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre ce qu'une offre doit promettre, appliquer la méthode, puis prouver avec ta proposition d'une page.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "les quatre résultats que le vendeur achète, et pourquoi on ne promet jamais un prix" },
+        { "verb": "Appliquer", "text": "ranger tes services en trois niveaux : ce que tu fais, ce que fait un spécialiste, ce qui est en plus" },
+        { "verb": "Prouver", "text": "montrer ta proposition commerciale d'une page pour M. Bernard" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Formule Diamant : 205 000 € garantis, et je refais votre isolation moi-même ce week-end !",
+      "voice": "Formule Diamant : 205 000 euros garantis, et je refais votre isolation moi-même ce week-end !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Formule Diamant : 205 000 € garantis, et je refais votre isolation moi-même ce week-end !",
+      "scene": "Mozi déroule une brochure de douze pages et brandit un pistolet à mousse isolante qu'il n'a jamais utilisé."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "Une page, trois formules, 205 000 € garantis",
+      "voice": "Une offre sur une page. Trois formules au choix. Deux cent cinq mille euros garantis. Où est l'erreur ?",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant touche le temps fautif ; pause jusqu'à la réponse",
+      "source": null,
+      "beats": ["Une offre sur une page", "Trois formules au choix", "205 000 € garantis"],
+      "wrong": 2,
+      "why": "Personne ne garantit un prix : une offre promet des livrables datés et des engagements, pas un résultat de vente."
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Promesse sans preuve, confiance perdue",
+      "voice": "Le marché, lui, ne lit pas la brochure. En l'état, le bien vaut 178 000 à 186 000 euros net. Au premier compte rendu, la promesse tombe. Et M. Bernard, qui veut des preuves, ne signe plus rien.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Promis : 205 000 €. Marché en l'état : 178 000 à 186 000 € net.", "Premier compte rendu : la promesse tombe, la confiance aussi."],
+      "source": "Bible du fil rouge, §1 et §5 (données fictives : prix espéré 205 000 €, fourchette en l'état 178 000 – 186 000 € net vendeur) ; REFONTE_V4, limites du métier : l'éco-consultant ne promet ni gain ni prix"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "51 % des vendeurs misent sur la concurrence",
+      "voice": "Cinquante et un pour cent. Selon les professionnels interrogés par leboncoin Immo, c'est la part des vendeurs qui pensent vendre mieux en mettant plusieurs agences en concurrence. Une offre floue te range dans le lot.",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant estime au curseur, puis le vrai chiffre s'affiche",
+      "guess": { "q": "D'après les professionnels interrogés par leboncoin Immo, quelle part des vendeurs pense augmenter ses chances en mettant plusieurs agences en concurrence ?", "answer": 51, "min": 0, "max": 100, "step": 1, "unit": " %" },
+      "value": "51 %",
+      "label": "des vendeurs pensent augmenter leurs chances en mettant plusieurs agences en concurrence (déclaratif, selon les professionnels interrogés)",
+      "source": "Étude leboncoin Immo auprès de 419 professionnels de l'immobilier, du 22/09 au 7/10/2025, relayée par MySweetImmo le 6/11/2025 (chiffre déclaratif)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Quatre résultats → Trois niveaux → Qui fait quoi",
+      "voice": "Trois blocs, sur une seule page. Un : les quatre résultats que le vendeur achète. Comprendre la valeur de son bien. Repérer les freins. Choisir la stratégie avant de commercialiser. Informer les acquéreurs. Chez M. Bernard, chaque résultat a sa pièce : l'attestation, les comparables, les devis, le procès-verbal d'assemblée. Deux : trois niveaux d'offre. La découverte, le plan Éco-staging, la formule complète. Les tarifs, tu ne les inventes pas : ils sont à confirmer avec Éco-propriété. Trois : qui fait quoi. Ce que tu réalises toi-même. Ce qui demande un spécialiste : diagnostiqueur, artisan, notaire, courtier. Et ce qui est facturé en plus, écrit noir sur blanc.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "PLAN.json, capsule 3.22 (quatre résultats, trois niveaux, répartition) ; bible du fil rouge, §3 à §7 et §9 (D03, D07, D12, D13, fictifs) ; tarifs : à confirmer avec Éco-propriété",
+      "steps": [
+        { "label": "Quatre résultats", "detail": "Comprendre la valeur, repérer les freins, choisir la stratégie avant commercialisation, informer les acquéreurs ; une pièce par résultat (D03, D12, D13, D07)." },
+        { "label": "Trois niveaux", "detail": "Découverte, plan Éco-staging, formule complète ; tarifs et répartition à confirmer avec Éco-propriété, jamais inventés." },
+        { "label": "Qui fait quoi", "detail": "Toi : analyse, dossier, comptes rendus. Un spécialiste : diagnostics, devis, acte, financement. En plus : ce qui est facturé à part, écrit." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "M. Bernard demande à Hugo : qu'est-ce que je paie, et pour quoi exactement ? Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard, ancien ingénieur prudent, lit la proposition de Hugo et demande : « Qu'est-ce que je paie, et pour quoi exactement ? » Que répond Hugo, en deux ou trois phrases ?",
+      "model_answer": "Vous payez des livrables, pas une promesse de prix : avis de valeur fondé sur les ventes comparables, liste des freins, plan avant mise en vente et dossier remis aux acquéreurs. Les diagnostics et les petits travaux du plan Éco-staging sont réalisés et facturés par des professionnels, à part. Le tarif de chaque niveau est écrit sur la proposition, une fois confirmé avec Éco-propriété.",
+      "keywords": ["livrables", "pas de prix garanti", "spécialiste", "facturé à part", "écrit"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "REFONTE_V4, limites du métier (pas de vente de travaux, pas de promesse de prix ni de gain, renvoi aux spécialistes) ; bible du fil rouge, §3 (pas d'audit obligatoire pour un lot de copropriété)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Une offre doit être plus longue qu'une page pour être sérieuse",
+          "L'offre promet des livrables et des engagements écrits, jamais un prix de vente, et ne vend pas de travaux",
+          "Aucune : un prix garanti rassure le vendeur, c'est donc un bon argument"
+        ],
+        "answer": 1,
+        "feedback": "L'éco-consultant vend une méthode et des livrables datés. Il ne garantit ni prix ni gain, et il ne réalise pas les travaux : il les fait chiffrer par des professionnels.",
+        "whys": [
+          "Faux : une page lisible vaut mieux qu'une brochure ; un vendeur prudent veut voir l'essentiel d'un coup d'œil.",
+          "Exact : on promet ce qu'on maîtrise (analyse, dossier, comptes rendus), pas le résultat du marché ni des travaux qu'on ne fait pas.",
+          "Faux : un prix garanti que le marché dément détruit la confiance au premier compte rendu."
+        ]
+      },
+      "card2": {
+        "question": "Si Karim inscrivait « audit énergétique inclus, fait par moi » dans sa formule complète, que se passerait-il ?",
+        "answer": "Il promettrait un service qu'il ne peut pas réaliser : l'audit est fait par un professionnel qualifié et facturé à part. Dans l'offre, il va dans la colonne « spécialiste », coût « à confirmer ». Et pour un lot de copropriété comme celui de M. Bernard, l'audit réglementaire à la vente n'est pas exigé."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : que M. Bernard sache, sur une page, ce qu'il obtient et ce qu'il paie. La proposition, puis le tableau qui fait quoi.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource de la capsule 3.22 : modèle de proposition commerciale d'une page, avec engagements et limites",
+      "goal": "Que le vendeur sache, sur une page, ce qu'il obtient et ce qu'il paie",
+      "tools": [
+        { "name": "Proposition commerciale d'une page", "role": "Quatre résultats, trois niveaux, engagements et limites" },
+        { "name": "Tableau « qui fait quoi »", "role": "Toi, le spécialiste, ce qui est facturé en plus" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "La page de M. Bernard",
+      "voice": "La page de M. Bernard. En haut, son projet : vendre avant l'été 2027. Puis les quatre résultats, chacun avec sa pièce. Puis les trois niveaux, tarifs à confirmer. En bas, tes engagements et tes limites.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge, §1 et §7 (projet du vendeur, engagements écrits de l'agent, fictifs) ; tarifs : à confirmer avec Éco-propriété",
+      "tool": "Proposition commerciale d'une page",
+      "steps": [
+        "En-tête : projet de M. Bernard, vendre avant l'été 2027",
+        "Résultats : valeur, freins, stratégie, information, une pièce chacun",
+        "Niveaux : découverte, plan Éco-staging, formule complète, tarifs à confirmer",
+        "Pied de page : engagements écrits, et « aucun prix garanti »"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le tableau « qui fait quoi »",
+      "voice": "Puis le tableau. Toi : avis de valeur, freins, plan, dossier, compte rendu toutes les deux semaines. Les spécialistes : diagnostiqueur, artisans, notaire, courtier. En plus : les petits travaux du plan Éco-staging, payés par M. Bernard aux entreprises.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge, §7 (engagements de l'agent, plan Éco-staging à la charge du vendeur, fictifs) ; répartition et tarifs à confirmer avec Éco-propriété",
+      "tool": "Tableau « qui fait quoi »",
+      "steps": [
+        "Toi : avis de valeur, freins, plan, dossier, compte rendu tous les 15 jours",
+        "Spécialiste : diagnostiqueur, artisans, notaire, courtier",
+        "En plus : travaux Éco-staging payés par le vendeur aux entreprises",
+        "Chaque ligne : qui, quoi, quand, coût ou « à confirmer »"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Écris ta proposition d'une page pour M. Bernard.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 3.22 (PLAN.json) : proposition commerciale d'une page à partir du dossier Éco-staging, quatre résultats, trois niveaux, répartition des services",
+      "cta": "Ouvrir l'exercice",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta proposition commerciale d'une page.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 3.22 : proposition commerciale d'une page (quatre résultats, trois niveaux, ce que l'agent fait, ce qui demande un spécialiste, ce qui est facturé en plus)",
+      "ask": "Dépose une capture de ta proposition d'une page : les quatre résultats avec leur pièce, les trois niveaux, le tableau « qui fait quoi » et la mention « tarifs à confirmer avec Éco-propriété ».",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Ta page t'attend : reviens la déposer quand elle tient sur une seule feuille."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. M. Bernard sait maintenant ce qu'il obtient, qui le fait, et ce qu'il paie. Sans une seule promesse en l'air.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton offre : 4 résultats, 3 niveaux, 1 page, 0 prix promis. Celle de Mozi : 12 pages et 205 000 € « garantis ».",
+      "source": "Fait observable de l'exercice (proposition de l'apprenant) ; bible du fil rouge (fictif)"
+    }
+  ],
+  "sources": [
+    { "label": "MySweetImmo, « Les biens vendus en exclusivité partent 51 jours plus vite qu'en mandat simple », 6/11/2025 : étude leboncoin Immo auprès de 419 professionnels, 22/09 – 7/10/2025 (déclaratif)", "url": "https://www.mysweetimmo.com/2025/11/06/immobilier-les-biens-vendus-en-exclusivite-partent-51-jours-plus-vite-quen-mandat-simple/" },
+    { "label": "PLAN.json v4, capsule 3.22 (exercice et ressource : tarifs et répartition à confirmer avec Éco-propriété)", "url": null },
+    { "label": "REFONTE_V4.md, limites du métier de l'éco-consultant", "url": null },
+    { "label": "Bible du fil rouge (données fictives : §1 vendeur, §5 marché, §7 engagements et plan Éco-staging, §9 D03, D07, D12, D13)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Tarifs des trois niveaux et répartition (inclus dans les honoraires ou facturé à part) : à confirmer avec Éco-propriété ; aucun montant n'est donné dans le chapitre",
+    "Noms des trois niveaux (Découverte, Plan Éco-staging, Formule complète) : proposition à valider par Sébastien Paumier et Éco-propriété",
+    "À faire relire par un juriste : conditions dans lesquelles un agent soumis à la loi Hoguet peut facturer des prestations distinctes de sa commission (loi n° 70-9 du 2/01/1970, art. 6) ; à vérifier avant toute mention de tarif",
+    "Chiffre de 51 % : déclaratif (professionnels interrogés sur l'opinion des vendeurs), à présenter comme tel ; à actualiser si une étude plus récente paraît",
+    "Carte 2 du quiz : qualification des auditeurs à préciser dans la ressource (à vérifier : liste des professionnels habilités à réaliser l'audit énergétique réglementaire)",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

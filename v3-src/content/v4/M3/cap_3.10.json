@@ -1,0 +1,157 @@
+{
+  "id": "3.10",
+  "module": 3,
+  "section": "B · L'art de la synthèse",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Le plan Éco-staging : 3 actions à petit budget",
+  "objective": "Proposer au vendeur 3 actions Éco-staging à petit budget, chiffrées, datées et attribuées, qui traitent les défauts visibles sans rien cacher aux acquéreurs.",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Une auréole jaune au plafond de la cuisine, des points noirs dans la salle de bains : sur les photos, l'acheteur ne verra que ça. Sébastien Paumier montre comment trier chaque défaut (traiter, documenter, expliquer), puis bâtir trois actions à environ 450 € pour l'appartement de M. Bernard, pendant que Mozi repeint des moisissures sans rien dire."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi conseille à un vendeur : « Un coup de peinture sur les moisissures, personne ne verra rien. » Quelle règle enfreint-il ?",
+        "options": [
+          "Aucune : c'est du home staging classique",
+          "La règle du petit budget : la peinture coûte trop cher",
+          "Le devoir d'information (art. 1112-1 du Code civil) : on traite la surface, mais on révèle la cause (absence de VMC) et on la chiffre"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : masquer la cause d'un défaut n'est pas présenter un bien, c'est cacher une information.",
+          "Faux : le coût n'est pas le problème ; le problème, c'est de cacher la cause.",
+          "Juste : celui qui connaît une information déterminante pour l'autre partie doit la lui donner ; ici, la ventilation insuffisante."
+        ],
+        "fb_title": "Traiter, pas cacher",
+        "fb_text": "L'Éco-staging traite la surface et documente la cause. Pour M. Bernard : nettoyage et débouchage du conduit, et devis VMC de 2 900 € (D13) remis aux acquéreurs. « Le défaut est connu, la solution est chiffrée. »"
+      },
+      {
+        "question": "M. Bernard propose de changer les 4 fenêtres des chambres (5 600 €) « dans le cadre du staging ». Que lui réponds-tu ?",
+        "options": [
+          "Ce n'est pas de l'Éco-staging mais un arbitrage travaux : on l'étudie avec la grille de la capsule 3.12, le devis est remis aux acquéreurs",
+          "Oui, c'est l'action la plus visible",
+          "Oui, et on augmente le prix de 5 600 €"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : l'Éco-staging, ce sont des actions à petit budget ; 5 600 € de fenêtres relèvent de l'arbitrage travaux ou vente en l'état.",
+          "Faux : le coût et le délai sortent du cadre d'un plan à petit budget avant les photos.",
+          "Faux : rien ne garantit que 5 600 € de travaux se retrouvent dans le prix ; aucune hausse ne se promet."
+        ],
+        "fb_title": "Petit budget, pas petits travaux",
+        "fb_text": "Le plan Éco-staging de M. Bernard tient en environ 450 €. Les fenêtres (5 600 €), la VMC (2 900 €), les radiateurs (4 800 €) et le chauffe-eau (3 200 €) sont chiffrés par devis (D13, 16 500 €) et remis aux acquéreurs."
+      },
+      {
+        "question": "Le plan est prêt. Quand programmes-tu la séance photo de l'annonce ?",
+        "options": [
+          "Tout de suite, pour gagner du temps",
+          "Juste après la dernière action du plan, par exemple le 13/11/2026 si tout est fait le 12/11",
+          "Après la première visite"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : les premières photos restent sur les portails ; photographier avant le plan annule son effet.",
+          "Juste : la séance photo suit la dernière action ; dans le fil rouge, actions avant le 12/11/2026, photos le 13/11/2026.",
+          "Faux : l'annonce a besoin des photos avant la première visite."
+        ],
+        "fb_title": "Les photos après le plan",
+        "fb_text": "Chaque action a une date limite et un responsable. La séance photo est fixée juste après la dernière : actions avant le 12/11/2026, photos le 13/11/2026, annonce en ligne ensuite."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de plan Éco-staging",
+    "kind": "modele",
+    "intro": "Ce modèle te sert à construire, chiffrer et faire valider par le vendeur un plan Éco-staging : 3 actions à petit budget qui traitent les défauts visibles avant les photos, sans rien cacher aux acquéreurs. Remplis-le après l'audit du bien, présente-le au rendez-vous de restitution et annexe-le à tes engagements écrits. Il devient une page du Dossier Éco-staging (capsule 3.13).",
+    "sections": [
+      {
+        "type": "list",
+        "heading": "Les 3 principes de l'Éco-staging",
+        "items": [
+          "Petit budget : quelques centaines d'euros, chaque euro relié à un défaut visible sur les photos ou en visite.",
+          "Utile et durable : réparer, nettoyer, désencombrer, éclairer plutôt qu'acheter du décor jetable.",
+          "Transparence : on traite la surface, on révèle la cause et on remet aux acquéreurs les devis des vrais travaux."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Trier chaque défaut : traiter, documenter ou expliquer",
+        "headers": ["Verbe", "Quand", "Exemple (M. Bernard)"],
+        "rows": [
+          ["Traiter", "Petit coût, effet visible, durable", "Plafond taché après sinistre clos, séjour encombré et sombre"],
+          ["Documenter", "Vrai sujet technique, travaux lourds", "Absence de VMC (devis 2 900 €), fenêtres simple vitrage (5 600 €)"],
+          ["Laisser et expliquer", "Sans gravité, à surveiller", "Fissure fine (< 0,2 mm) non structurelle du dégagement"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Plan rempli · 3 actions pour M. Bernard (fil rouge, prix indicatifs fictifs)",
+        "headers": ["Action", "Défaut traité", "Qui", "Coût", "Avant le", "Preuve"],
+        "rows": [
+          ["1. Salle de bains : nettoyage, traitement anti-moisissures, joints + débouchage du conduit", "Moisissures (ventilation insuffisante)", "Vendeur + artisan", "≈ 70 € + ≈ 150 €", "12/11/2026", "Photos avant/après + facture du débouchage"],
+          ["2. Plafond cuisine : sous-couche anti-taches + peinture", "Auréole (sinistre 2022 clos)", "Vendeur ou artisan", "≈ 70 €", "12/11/2026", "Photos + preuve de clôture du sinistre"],
+          ["3. Séjour : désencombrement + LED couleur chaude et lampadaire", "Séjour encombré et sombre", "Vendeur", "0 € + ≈ 160 €", "10/11/2026", "Photos + ticket de caisse"],
+          ["Total", "", "", "≈ 450 €", "", "Séance photo le 13/11/2026"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Ce que tu remets aux acquéreurs (rien n'est caché)",
+        "items": [
+          "Devis VMC (cause des moisissures) : 2 900 €.",
+          "Devis fenêtres des chambres : 5 600 €.",
+          "Preuve de clôture du sinistre de 2022 (auréole).",
+          "Mention de la fissure fine, non structurelle, à surveiller.",
+          "Chiffrage total des travaux privatifs : 16 500 € TTC (D13)."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La règle de transparence et la phrase à dire",
+        "text": "Le Code civil (art. 1112-1) impose à la partie qui connaît une information déterminante pour l'autre de la lui communiquer. L'Éco-staging améliore la présentation, il ne supprime jamais une information. Phrase au vendeur : « Monsieur Bernard, avec environ 450 €, on règle ce qui fait peur sur les photos. Et on dit tout à l'acheteur : le défaut est connu, la solution est chiffrée. »"
+      }
+    ],
+    "footer": "Sources : Code civil, art. 1112-1 (Légifrance) ; dossier fil rouge Éco-Consultant (D05, D13 ; données fictives), prix indicatifs à vérifier localement. Proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Proposer 3 actions à petit budget, chiffrées",
+    "duration_min": 25,
+    "context": "Ton vendeur fil rouge accepte de « faire un petit quelque chose » avant les photos, mais pas plus de 500 €. Tu dois choisir 3 actions, les chiffrer, les dater, et dire ce que tu remettras aux acheteurs pour le reste. Corrigé donné pour l'appartement de M. Bernard ; pour la maison de Mme Garnier, pars du reportage photo M05.",
+    "materials": ["D05 Reportage photo commenté", "D04 Plan et descriptif", "D13 Devis des travaux privatifs"],
+    "steps": [
+      "Liste les défauts visibles sur le reportage photo et trie-les : traiter, documenter, laisser et expliquer.",
+      "Choisis 3 actions « traiter » et justifie leur effet sur les photos ou la visite.",
+      "Chiffre chaque action avec un prix indicatif sourcé (enseigne, devis, tarif horaire) et vérifie que le total reste sous 500 €.",
+      "Attribue un responsable et une date limite à chaque action, puis fixe la date de la séance photo.",
+      "Liste ce que tu remettras aux acquéreurs pour les défauts documentés.",
+      "Écris en 2 phrases l'explication de la cause des moisissures pour un acheteur."
+    ],
+    "expected": "Corrigé pour M. Bernard. Défauts : moisissures de la salle de bains (ventilation insuffisante, conduit obstrué, pas de VMC), auréole au plafond de la cuisine (sinistre 2022 clos), fissure fine du dégagement (non structurelle), séjour encombré et sombre, joints de fenêtres bois dégradés. Tri : traiter = salle de bains, plafond, séjour ; documenter = VMC (2 900 €), fenêtres (5 600 €) ; expliquer = fissure. Actions : 1) salle de bains ≈ 70 € + débouchage ≈ 150 € ; 2) plafond cuisine ≈ 70 € ; 3) séjour 0 € + éclairage ≈ 160 €. Total ≈ 450 €, sous 500 €. Dates : avant le 12/11/2026, séance photo le 13/11/2026. Remis aux acquéreurs : devis VMC 2 900 €, fenêtres 5 600 €, total travaux privatifs 16 500 €, preuve de clôture du sinistre, mention de la fissure. Phrase : « Les traces d'humidité venaient d'un conduit obstrué, débouché en novembre 2026. Il n'y a pas de VMC : voici le devis d'installation, 2 900 €. »"
+  },
+  "deliverable": {
+    "title": "Plan Éco-staging du bien fil rouge (3 actions)",
+    "format": "PDF ou tableur, 1 page, validé par le vendeur (simulation)",
+    "criteria": [
+      "3 actions, chacune reliée à un défaut visible repéré sur le reportage photo",
+      "Chaque action a un coût indicatif sourcé, un responsable et une date limite",
+      "Le total reste sous 500 € (≈ 450 € attendu pour M. Bernard)",
+      "Aucune action ne masque un défaut : la cause est documentée avec son devis",
+      "Une date de séance photo est fixée après la dernière action"
+    ]
+  },
+  "sources": [
+    {"label": "Légifrance — Code civil, art. 1112-1 (devoir d'information)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032007138"},
+    {"label": "Dossier fil rouge Éco-Consultant (BIBLE §2, §6, §7 ; prix indicatifs fictifs) — proposition pédagogique Éco-Propriété", "url": "https://eco-propriete.fr"}
+  ],
+  "open_points": [
+    "Répartition indicative des 450 € (débouchage, peinture, éclairage) : prix locaux à valider par Sébastien Paumier",
+    "Formulation sur l'art. 1112-1 du Code civil et le risque de dissimulation : à faire relire par un juriste",
+    "Chapitre à adapter depuis l'ancien chap_3.4 (renuméroté 3.10)"
+  ]
+}

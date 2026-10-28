@@ -1,0 +1,251 @@
+{
+  "id": "3.21",
+  "module": 3,
+  "section": "D · Les chiffres devant le vendeur",
+  "etape": "7",
+  "parcours": null,
+  "prio": false,
+  "ia": true,
+  "title": "Objections : répondre par les chiffres, selon le profil DISC",
+  "objective": "Répondre aux 5 objections de M. Bernard avec la méthode ARFE, un chiffre et une pièce par réponse, dans la forme adaptée à son profil C, puis t'entraîner avec une IA",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "« Je vais réfléchir, envoyez-moi tout par écrit. » Mozi, en blazer violet, répond « Faites-moi confiance » et perd M. Bernard. Sébastien Paumier déroule la méthode ARFE (accueillir, reformuler, fait, étape) sur les objections du prix, du DPE, de la façade et des honoraires, et montre comment la même réponse change de forme pour un style D, I, S ou C."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Que signifie le F de la méthode ARFE, et pourquoi est-il central avec M. Bernard ?",
+        "options": [
+          "Fermeté : il faut tenir tête à un profil C",
+          "Fait : une preuve vérifiable, car un profil C a besoin de vérifier pour faire confiance",
+          "Flatterie : valoriser son bien pour qu'il signe"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : la fermeté sans preuve braque un style C.",
+          "Juste : un document, un calcul ou une règle sourcée, c'est ce qu'il attend.",
+          "Faux : la flatterie éveille sa méfiance."
+        ],
+        "fb_title": "Un fait, une pièce",
+        "fb_text": "Accueillir, Reformuler, Fait, Étape. Avec un style C, le fait (attestation D03, tableau D12, PV D07, calcul écrit) est ce qui transforme l'objection en accord."
+      },
+      {
+        "question": "M. Bernard : « Mon DPE dit F, vous dites E. Qui dois-je croire ? » Mozi répond : « Moi, je connais le sujet. » Quelle réponse choisis-tu ?",
+        "options": [
+          "« Le F, c'est du passé, n'en parlons plus. »",
+          "« Avec le nouveau calcul, vous passerez en C l'an prochain. »",
+          "« Ni vous ni moi : l'attestation officielle de l'ADEME, avec votre numéro de DPE. Regardons-la ensemble. »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : tu esquives sa question au lieu d'y répondre.",
+          "Faux : promesse de classe, interdite et non fondée.",
+          "Juste : tu remplaces l'argument d'autorité de Mozi par une source officielle vérifiable devant lui."
+        ],
+        "fb_title": "Le document fait foi",
+        "fb_text": "Le coefficient électricité est passé de 2,3 à 1,9 au 1/01/2026 ; l'attestation actualisée (classe E) vaut jusqu'au 13/03/2033. Mozi met en avant son autorité ; toi, tu renvoies à la pièce."
+      },
+      {
+        "question": "Un vendeur au style D te dit : « Vos honoraires sont trop chers. » Quelle réponse est la mieux adaptée ?",
+        "options": [
+          "« 9 000 € pour 5 services écrits, à la charge de l'acquéreur. Vous recevez 180 000 € net. Je vous montre le résultat attendu sur une page. »",
+          "« Je comprends, c'est stressant. Prenons le temps d'en parler avec votre famille. »",
+          "« Voici le détail ligne par ligne sur trois pages, avec les sources de chaque coût. »",
+          "« Je vous fais une remise si vous signez ce soir. »"
+        ],
+        "answer": 0,
+        "fb_title": "D : court et orienté résultat",
+        "fb_text": "Avec un style D, tu vas droit au résultat et à l'essentiel, en une page. Le fond reste identique pour tous : 9 000 € TTC, à la charge de l'acquéreur, contre des engagements écrits.",
+        "whys": [
+          "Juste : court, chiffré, orienté résultat.",
+          "Adapté à un style S, pas à un D.",
+          "Adapté à un style C : trop long pour un D.",
+          "Faux : brader sous pression dévalorise ton service et n'apporte aucun fait."
+        ]
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche objections / réponses par profil",
+    "kind": "fiche",
+    "intro": "Cette fiche te donne, pour les 5 objections les plus fréquentes au rendez-vous de restitution, la crainte qu'elles cachent et une réponse adaptée à chacun des 4 styles DISC. Utilise-la pour préparer ton rendez-vous et pour t'entraîner avec l'IA. Le fond ne change jamais (mêmes chiffres, mêmes règles) : seule la forme s'adapte.",
+    "sections": [
+      {
+        "heading": "La méthode ARFE",
+        "type": "steps",
+        "items": [
+          "Accueillir : « C'est une vraie question. »",
+          "Reformuler la crainte : « Si je comprends bien, vous craignez que… »",
+          "Fait : une preuve vérifiable (pièce du dossier, calcul, règle sourcée).",
+          "Étape : une suite simple et datée, jamais une pression."
+        ]
+      },
+      {
+        "heading": "Les 5 objections et la crainte qu'elles cachent",
+        "type": "table",
+        "headers": [
+          "Objection",
+          "Crainte",
+          "Fait à apporter (dossier M. Bernard)"
+        ],
+        "rows": [
+          [
+            "« J'espérais 205 000 €, vous sous-estimez mon bien. »",
+            "Perdre de l'argent",
+            "205 000 / 76 ≈ 2 697 €/m², au-dessus des comparables en l'état (2 650 €/m², D12) ; fourchette 178 000 – 186 000 € net"
+          ],
+          [
+            "« Mon DPE dit F, vous dites E : qui croire ? »",
+            "Être trompé",
+            "Attestation actualisée ADEME, classe E, valable jusqu'au 13/03/2033 (D03)"
+          ],
+          [
+            "« Les appels de façade, c'est moi qui les paie ? »",
+            "Payer pour l'acheteur",
+            "Copropriétaire à la date d'exigibilité (art. 6-2 décret 1967) ; 4 × 8 970 € en 2027 (D07) ; accord possible chez le notaire"
+          ],
+          [
+            "« 9 000 € d'honoraires, pour quoi faire ? »",
+            "Payer sans contrepartie",
+            "5 engagements écrits ; honoraires à la charge de l'acquéreur ; 180 000 € net pour lui"
+          ],
+          [
+            "« Je vais réfléchir, envoyez-moi tout par écrit. »",
+            "Décider trop vite",
+            "Dossier déjà envoyé ; récapitulatif écrit le soir même ; date de réponse convenue"
+          ]
+        ]
+      },
+      {
+        "heading": "Réponses adaptées aux 4 styles",
+        "type": "table",
+        "headers": [
+          "Objection",
+          "Style D",
+          "Style I",
+          "Style S",
+          "Style C"
+        ],
+        "rows": [
+          [
+            "Prix",
+            "« 3 ventes, 1 fourchette, ma recommandation. Vous tranchez. »",
+            "« Imaginez l'annonce : un prix juste, ce sont des visites dès la 1re semaine. »",
+            "« On avance à votre rythme : si les visites ne viennent pas, on en reparle à une date fixée. »",
+            "« Voici les ventes, le calcul et la source. Refaites-le avec moi. »"
+          ],
+          [
+            "DPE",
+            "« E, document officiel. On passe à la suite ? »",
+            "« Bonne nouvelle à annoncer : E, c'est officiel. »",
+            "« Rien à refaire, pas de nouvelle visite : l'attestation suffit. »",
+            "« Numéro ADEME, coefficient 1,9 depuis le 1/01/2026, validité jusqu'au 13/03/2033. »"
+          ],
+          [
+            "Appels de façade",
+            "« La règle est claire, le prix en tient compte, le notaire rédigera l'accord. »",
+            "« L'immeuble sera isolé : c'est aussi un atout pour l'acheteur. »",
+            "« Pas de surprise : voici les 4 dates, et ce qui se passe selon la date de l'acte. »",
+            "« Art. 6-2 du décret de 1967 : voici le texte et le calendrier des appels. »"
+          ],
+          [
+            "Honoraires",
+            "« 9 000 € à la charge de l'acquéreur, 180 000 € net pour vous. »",
+            "« Je m'occupe de tout et je vous tiens au courant toutes les 2 semaines. »",
+            "« Tout est écrit : vous savez ce que je fais et quand. »",
+            "« Voici les 5 engagements, ligne par ligne, annexés au mandat. »"
+          ],
+          [
+            "« Je vais réfléchir »",
+            "« Quelle information vous manque pour décider ? »",
+            "« Bien sûr. Je vous rappelle jeudi pour en parler. »",
+            "« Prenez le temps d'en parler à votre fille. Jeudi vous irait ? »",
+            "« Récapitulatif écrit ce soir, modèle de mandat joint. Réponse jeudi 5 novembre ? »"
+          ]
+        ]
+      },
+      {
+        "heading": "Les interdits, quel que soit le profil",
+        "type": "checklist",
+        "items": [
+          "Promettre un prix de vente, une classe DPE ou un délai",
+          "Présenter un chiffre déclaratif comme une garantie",
+          "Dénigrer un confrère",
+          "Brader les honoraires sous pression",
+          "Insister après un « je vais réfléchir »",
+          "Coller des données réelles de client dans une IA non maîtrisée"
+        ]
+      }
+    ],
+    "footer": "Sources : décret n° 67-223 du 17 mars 1967, art. 6-2, version en vigueur depuis le 25/12/2025 (Légifrance) ; ADEME, observatoire DPE-Audit ; arrêté du 13/08/2025 (coefficient 1,9, fait vérifié de la bible du fil rouge). Méthode ARFE et grille DISC : proposition pédagogique Éco-Propriété. Fil rouge fictif. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Répondre à 5 objections (entraînement avec l'IA)",
+    "duration_min": 45,
+    "context": "Fin du rendez-vous de restitution du 29/10/2026. M. Bernard (profil C) a écouté ta présentation et formule ses objections. Tu rédiges d'abord tes 5 réponses ARFE, puis tu t'entraînes à l'oral (ou à l'écrit) avec une IA qui joue M. Bernard, avant de rejouer une partie avec un autre profil DISC.",
+    "materials": [
+      "D03 Attestation actualisée ADEME",
+      "D07 PV d'AG du 12/06/2025",
+      "D12 Tableau des comparables",
+      "D13 Devis des travaux privatifs",
+      "D18 Modèle de mandat exclusif",
+      "Fiche objections / réponses par profil"
+    ],
+    "steps": [
+      "Rédige ta réponse ARFE aux 5 objections de M. Bernard, en citant pour chacune une pièce du dossier.",
+      "Copie le prompt ci-dessous dans ton assistant IA (outil validé par ton agence) et joue la partie en profil C jusqu'au bout.",
+      "Tape « FIN DU JEU » et récupère le débriefing de l'IA (grille sur 20).",
+      "Vérifie chaque chiffre et chaque règle cités par l'IA à partir du dossier et des sources officielles ; note les erreurs éventuelles.",
+      "Rejoue une partie en remplaçant « PROFIL : C » par D, I ou S, et note ce que tu as changé dans la forme de tes réponses.",
+      "Réécris la réponse que le débriefing jugeait la plus faible."
+    ],
+    "expected": "Exemples de réponses attendues. 1) Prix : « C'est une vraie question. Si je comprends bien, vous craignez de laisser de l'argent sur la table. Les ventes en l'état du secteur sont à 2 650 €/m² (tableau D12) ; 205 000 €, c'est près de 2 700 €/m², sans tenir compte des fenêtres, de la VMC ni de la façade. Je vous laisse refaire le calcul ; on en reparle jeudi. » 2) DPE : « Ni vous ni moi : c'est l'attestation ADEME, établie avec votre numéro de DPE, qui fait foi. Le coefficient de l'électricité est passé de 2,3 à 1,9 au 1er janvier 2026 ; elle vaut jusqu'au 13/03/2033. » 3) Façade : « Vis-à-vis du syndicat, c'est le copropriétaire à la date de chaque appel qui paie (art. 6-2 du décret de 1967) : 8 970 € le 1/01, le 1/04, le 1/07 et le 1/10/2027. Avec l'acheteur, une autre répartition peut se négocier ; le notaire la rédigera. Je ne peux pas vous promettre l'issue, mais je la préparerai. » 4) Honoraires : « 9 000 € TTC, à la charge de l'acquéreur : vous recevez 180 000 € net. En échange, 5 engagements écrits annexés au mandat : attestation jointe, dossier technique, plan Éco-staging, compte rendu toutes les 2 semaines, chiffrage des travaux remis aux acheteurs. » 5) « Je vais réfléchir » : « Bien sûr, c'est une décision importante. Je vous envoie ce soir le récapitulatif et le modèle de mandat. Puis-je vous appeler jeudi 5 novembre ? » Débriefing attendu : score ≥ 70, note ≥ 14/20 ; version D : réponses raccourcies, centrées sur le résultat ; version S : accent sur le calendrier, la sécurité et l'implication de sa fille.",
+    "ia_prompt": {
+      "prompt": "RÔLE : Tu joues M. Alain Bernard, 64 ans, retraité (ancien ingénieur des services techniques d'une mairie), veuf, qui veut vendre son appartement pour se rapprocher de sa fille à Nantes. Personnage FICTIF utilisé pour un entraînement d'agent immobilier. PROFIL DE COMMUNICATION : C (DISC, outil de communication) : factuel, prudent, veut des preuves, des chiffres et des documents, se méfie des promesses, décide lentement, déteste l'insistance. Tu vouvoies l'agent.\n\nCONTEXTE (à respecter, ne rien inventer d'autre) : appartement T4 de 76 m² au 4e étage avec ascenseur, résidence « Les Tilleuls » à Melun (1972, 48 lots). DPE du 14/03/2023 classe F ; attestation actualisée ADEME classe E (coefficient électricité 1,9 depuis le 1/01/2026), valable jusqu'au 13/03/2033. Deux agences t'ont annoncé 172 000 € « à cause du DPE ». Tu espérais 205 000 €. L'agent recommande 189 000 € FAI = 180 000 € net vendeur + 9 000 € TTC d'honoraires (5 %, à la charge de l'acquéreur), fourchette en l'état 178 000 – 186 000 € net, comparables en l'état 2 650 €/m². Travaux privatifs chiffrés : 16 500 € (fenêtres 5 600, VMC 2 900, radiateurs 4 800, chauffe-eau 3 200). Ravalement avec ITE voté le 12/06/2025 : 35 880 € pour ton lot, 4 appels de 8 970 € (1/01, 1/04, 1/07, 1/10/2027). Règle : l'appel est payé au syndicat par le copropriétaire à la date d'exigibilité ; un accord différent entre vendeur et acquéreur est possible chez le notaire. Tu veux avoir vendu avant l'été 2027.\n\nTÂCHE : Tu formules, UNE PAR UNE et dans cet ordre, ces 5 objections, avec tes propres mots : 1) « J'espérais 205 000 €, vous sous-estimez mon bien. » 2) « Mon DPE dit F, vous dites E : qui dois-je croire ? » 3) « Les appels de fonds de la façade, c'est moi qui vais les payer ? » 4) « 9 000 € d'honoraires, pour faire quoi exactement ? » 5) « Je vais réfléchir. Envoyez-moi tout par écrit. » Après chaque objection, ATTENDS la réponse de l'agent. Réagis comme M. Bernard : si l'agent cite une pièce, un calcul ou une règle vérifiable, tu t'ouvres un peu et tu poses éventuellement UNE question de précision ; s'il promet un prix, une classe ou un délai, s'il insiste, s'il dénigre un confrère ou s'il dit « faites-moi confiance », tu te fermes et tu le dis sèchement. Tiens un score de confiance caché de 0 à 100 (départ 40). Ne passe à l'objection suivante qu'après une réponse complète ou deux relances.\n\nFORMAT : répliques courtes (2 à 4 phrases), en français, sans jamais sortir du rôle tant que l'agent n'a pas écrit « FIN DU JEU ». Si l'agent écrit « PROFIL : D », « PROFIL : I » ou « PROFIL : S », rejoue les mêmes objections avec ce style de communication.\n\nDÉBRIEFING (seulement après « FIN DU JEU ») : sors du rôle et donne : a) le score de confiance final et l'issue (≥ 70 : il accepte de recevoir le mandat et de répondre à une date convenue ; 50-69 : il demande à réfléchir sans date ; < 50 : il choisit une autre agence) ; b) une note sur 20 selon cette grille : méthode ARFE appliquée (6 pts), faits et pièces cités exacts (6 pts), aucune promesse de prix, de classe ou de délai et aucune pression (4 pts), adaptation au profil (4 pts) ; c) 2 points forts, 2 points à améliorer, et la réponse la plus faible réécrite. Signale tout chiffre ou règle cité par l'agent qui contredit le contexte ci-dessus. CONTRAINTES : n'invente aucun chiffre ni aucune règle hors du contexte ; si l'agent te pose une question dont la réponse n'est pas dans le contexte, réponds « Je ne sais pas, c'est à vous de me le dire. »",
+      "guardrails": [
+        "Personnage et données fictifs : ne colle jamais les nom, adresse, documents ou données d'un vrai client dans un outil IA non validé par ton agence (RGPD) ; pour un vrai cas, anonymise tout.",
+        "L'IA peut se tromper ou inventer : vérifie chaque chiffre avec le dossier (D03, D07, D12, D13) et chaque règle sur une source officielle (Légifrance, ADEME, Service-Public) avant de la réutiliser.",
+        "Le débriefing de l'IA est une aide, pas une évaluation : ton formateur valide le livrable.",
+        "N'utilise pas l'entraînement pour fabriquer des réponses qui promettent un prix, une classe ou un délai : elles restent interdites en rendez-vous réel."
+      ]
+    }
+  },
+  "deliverable": {
+    "title": "5 réponses ARFE + débriefing IA commenté",
+    "format": "PDF ou DOCX, 2 pages maximum (réponses + copie du débriefing + ton commentaire)",
+    "criteria": [
+      "Les 5 objections ont une réponse qui contient les 4 temps ARFE, repérables",
+      "Chaque réponse cite au moins un fait exact du dossier (205 000 / 76 ≈ 2 697 €/m², attestation E jusqu'au 13/03/2033, 4 × 8 970 €, 9 000 € TTC à la charge de l'acquéreur…)",
+      "Aucune réponse ne promet un prix, une classe DPE ou un délai, ni ne dénigre un confrère",
+      "La réponse à « je vais réfléchir » propose une étape datée sans pression",
+      "Le débriefing de l'IA est joint pour 2 parties (profil C + un autre profil) et tu as signalé au moins une vérification faite sur ses affirmations",
+      "La réponse la plus faible est réécrite et améliorée"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2 (provisions hors budget : copropriétaire au moment de l'exigibilité), en vigueur depuis le 25/12/2025",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "CNIL — Définition : minimisation des données",
+      "url": "https://www.cnil.fr/fr/definition/minimisation"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — méthode ARFE, réponses par profil DISC, prompt de jeu de rôle (fil rouge fictif)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Tester le prompt de jeu de rôle sur l'outil IA retenu par Éco-Propriété avant diffusion (ordre des objections, score caché, débriefing).",
+    "Relecture juridique de la formulation de l'art. 6-2 du décret de 1967 et de l'accord vendeur / acquéreur sur les appels de fonds.",
+    "Valider avec Sébastien Paumier la méthode ARFE et le tableau des réponses par style DISC.",
+    "Chapitre interactif à adapter depuis l'ancien chap_3.6 (numéros et renvois à mettre à jour ; engagements identiques à la capsule 3.27)."
+  ]
+}

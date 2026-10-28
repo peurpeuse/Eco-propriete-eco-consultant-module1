@@ -1,0 +1,164 @@
+{
+  "id": "2.1",
+  "module": 2,
+  "section": "A · Je comprends le vendeur et son bien",
+  "etape": "1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Pourquoi il vend : le projet du vendeur",
+  "objective": "Faire dire au vendeur son motif, son projet d'après et son échéance, puis reformuler ce projet en 2 phrases validées par lui, avant toute question de prix",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier écoute M. Bernard au téléphone : « Deux agences m'ont dit 172 000 €. » La vidéo montre pourquoi on ne commence pas par le prix, les trois questions qui font parler du projet (pourquoi, pour aller où, pour quand), et la reformulation en deux phrases que le vendeur valide. Contre-exemple : la question « Vous le voyez à combien ? » posée en premier."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Premier rendez-vous avec M. Bernard. Quelle est ta première vraie question ?",
+        "options": [
+          "« Vous le voyez à combien, votre appartement ? »",
+          "« Avant de parler de l'appartement, parlez-moi de votre projet : qu'est-ce qui vous amène à vendre ? »",
+          "« Vous avez déjà signé avec une agence ? »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : en ouvrant par le prix, tu deviens la troisième agence qui parle d'un chiffre sans savoir à quoi il sert.",
+          "Juste : le projet dit ce que la vente doit permettre ; le prix et le délai en découlent.",
+          "Faux : utile plus tard, mais en ouverture la question met le vendeur sur la défensive."
+        ],
+        "fb_title": "Le projet avant le prix",
+        "fb_text": "On ouvre par le projet : pourquoi vendre, pour aller où, pour quand. Le prix espéré vient ensuite, avec la question « sur quoi vous basez-vous ? ». Un profil C comme M. Bernard apprécie qu'on prenne le temps de comprendre avant de chiffrer."
+      },
+      {
+        "question": "Mme Garnier (parcours maison) te dit : « Je rentre en résidence seniors à Melun l'été prochain, il me faut le prix de la maison pour l'entrée. » Que retiens-tu d'abord ?",
+        "options": [
+          "Une échéance (été 2027) et une dépendance : la vente finance son projet",
+          "Qu'elle est pressée, donc prête à baisser son prix",
+          "Qu'il faut lui proposer un viager"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : tu notes l'échéance et le lien entre la vente et l'entrée en résidence ; c'est ce qui organise le calendrier.",
+          "Faux : une échéance n'est pas une urgence à brader ; tu ne déduis pas un prix d'un délai.",
+          "Faux : tu ne proposes pas de montage à sa place ; tu notes son projet tel qu'elle le dit."
+        ],
+        "fb_title": "Échéance et dépendance",
+        "fb_text": "Le projet de Mme Garnier tient en deux faits : une date (l'été 2027) et un besoin (le prix de vente paie l'entrée en résidence). Profil S : elle consultera ses fils. Tu notes aussi qui doit être consulté avant de décider."
+      },
+      {
+        "question": "Quelle reformulation de M. Bernard est la bonne, à lui faire valider ?",
+        "options": [
+          "« Vous vendez à 205 000 € avant l'été 2027, sinon vous baisserez. »",
+          "« Vous voulez vendre vite parce que votre DPE est mauvais. »",
+          "« Vous vendez pour vous rapprocher de votre fille à Nantes et acheter plus petit. Vous visez une signature avant l'été 2027, à trois mois près. »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : tu ajoutes un engagement de baisse qu'il n'a jamais pris, et tu mélanges projet et prix.",
+          "Faux : le DPE n'est pas son motif ; c'est l'argument des autres agences.",
+          "Juste : deux phrases, ses mots, motif + projet + échéance avec sa marge."
+        ],
+        "fb_title": "Deux phrases, ses mots",
+        "fb_text": "Une bonne reformulation tient en deux phrases : le motif et le projet d'après, puis l'échéance avec sa marge. Tu n'y mets ni prix, ni jugement. Tu termines par « C'est bien ça ? » et tu corriges si besoin."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Questionnaire projet vendeur",
+    "kind": "questionnaire",
+    "intro": "Le questionnaire de la première partie de l'entretien de découverte (étape 1). Il sert à comprendre pourquoi le vendeur vend et ce que la vente doit lui permettre, avant de parler du bien ou du prix. Envoie-le la veille à un vendeur qui aime préparer, ou garde-le sous les yeux pendant l'entretien.",
+    "sections": [
+      {
+        "heading": "Mode d'emploi",
+        "type": "steps",
+        "items": [
+          "Ouvre par le projet, jamais par le prix : « Avant de parler de votre bien, parlez-moi de votre projet. »",
+          "Pose une question à la fois, laisse le silence, note les mots exacts du vendeur.",
+          "Creuse le délai : « Et si c'était trois mois plus tard, que se passerait-il ? »",
+          "Reformule en deux phrases (motif et projet ; échéance et marge) et fais valider : « C'est bien ça ? »",
+          "Ne collecte que ce qui sert à la vente : pas de revenus, d'épargne ni de santé (minimisation, RGPD)."
+        ]
+      },
+      {
+        "heading": "Les questions du projet",
+        "type": "list",
+        "items": [
+          "Qu'est-ce qui vous amène à vendre, et pourquoi maintenant ?",
+          "Où et comment voulez-vous vivre ensuite (achat, location, résidence seniors, rapprochement familial) ?",
+          "Pour quand voulez-vous avoir signé ? Qu'est-ce qui fixe cette date ?",
+          "Avez-vous besoin du prix de vente pour votre projet suivant ? Vendre avant d'acheter, ou l'inverse ?",
+          "Qui d'autre doit être consulté ou d'accord (enfants, conjoint, coindivisaires, notaire) ?",
+          "Le bien est-il votre résidence principale ? (à noter, la fiscalité se traite avec le notaire, capsule 2.3)",
+          "Qu'est-ce qui serait, pour vous, une vente réussie ?"
+        ]
+      },
+      {
+        "heading": "La reformulation en deux phrases",
+        "type": "formula",
+        "text": "Phrase 1 = motif + projet d'après, avec les mots du vendeur. Phrase 2 = échéance + marge (+ contrainte s'il y en a une). Puis : « C'est bien ça ? » Exemple appartement : « Vous vendez pour vous rapprocher de votre fille à Nantes et acheter plus petit. Vous visez une signature avant l'été 2027, à trois mois près. » Exemple maison : « Vous vendez pour entrer en résidence seniors à Melun, et le prix de la maison finance cette entrée. Vous visez l'été 2027 et vous en parlerez avec vos fils avant de décider. »"
+      },
+      {
+        "heading": "Ce que tu ne fais pas à ce stade",
+        "type": "checklist",
+        "items": [
+          "Tu ne donnes aucun prix, même « pour avoir une idée »",
+          "Tu ne commentes pas les avis de valeur reçus : tu notes leur montant et leur justification",
+          "Tu ne déduis pas une baisse de prix d'une échéance",
+          "Tu ne proposes pas de montage (viager, vente à terme) à la place du vendeur",
+          "Tu ne notes pas les informations personnelles inutiles évoquées spontanément"
+        ]
+      },
+      {
+        "heading": "Phrase de clôture à dire au vendeur",
+        "type": "text",
+        "text": "« Merci, j'ai bien compris ce que cette vente doit vous permettre. Je vous envoie ces deux phrases par écrit ; corrigez-les si un mot ne vous ressemble pas. C'est à partir de votre projet que je construirai l'estimation et le calendrier. »"
+      }
+    ],
+    "footer": "Sources : CNIL, principe de minimisation (RGPD, art. 5) ; données du fil rouge fictives (BIBLE §1 et §11.1). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Reformuler le projet d'un vendeur en 2 phrases",
+    "duration_min": 20,
+    "context": "Deux extraits d'entretien (fictifs). M. Bernard : « Ma fille vit à Nantes, je veux me rapprocher d'elle et prendre plus petit. Avant l'été 2027, mais à trois mois près, ce n'est pas grave. Deux agences m'ont dit 172 000 €, moi j'espère 205 000. » Mme Garnier (parcours maison) : « Je vais entrer dans une résidence seniors à Melun l'été prochain. J'ai besoin de l'argent de la maison pour l'entrée. Je ne veux pas qu'on me bouscule, j'en parlerai à mes fils. On m'a dit que classée G, c'était invendable. »",
+    "materials": [
+      "D01 Fiche découverte vendeur (vierge)",
+      "M01 Fiche découverte de Mme Garnier (parcours maison)",
+      "Questionnaire projet vendeur (ressource de la capsule)"
+    ],
+    "steps": [
+      "Dans chaque extrait, souligne le motif, le projet d'après, l'échéance, la marge et la contrainte.",
+      "Barre ce qui n'est pas le projet (prix espéré, avis des agences, étiquette DPE) : tu le traiteras plus tard.",
+      "Écris la reformulation de chaque vendeur en 2 phrases, avec ses mots.",
+      "Ajoute la question de validation et la question de délai que tu poserais pour vérifier la marge.",
+      "Note en une ligne qui doit être consulté avant la décision."
+    ],
+    "expected": "Exemple attendu. M. Bernard : « Vous vendez pour vous rapprocher de votre fille à Nantes et acheter plus petit. Vous visez une signature avant l'été 2027, avec une marge de trois mois. C'est bien ça ? » Hors projet : 205 000 € espérés et 172 000 € annoncés (à traiter à l'estimation). Consulté : personne d'autre (propriétaire seul). Mme Garnier : « Vous vendez pour entrer en résidence seniors à Melun, et le prix de la maison finance cette entrée. Vous visez l'été 2027 et vous voulez en parler avec vos fils avant de décider. C'est bien ça ? » Hors projet : « classée G, invendable » (à traiter avec le DPE et l'audit). Question de délai : « Si l'entrée en résidence se faisait à l'automne, que se passerait-il ? »"
+  },
+  "deliverable": {
+    "title": "Deux reformulations de projet vendeur",
+    "format": "1 page (PDF ou DOCX) : 2 reformulations de 2 phrases + questions de validation",
+    "criteria": [
+      "Chaque reformulation tient en 2 phrases et reprend au moins un mot exact du vendeur",
+      "Le motif, le projet d'après et l'échéance avec sa marge apparaissent",
+      "Aucun prix ni jugement sur le bien ne figure dans les reformulations",
+      "Une question de validation et une question de délai sont rédigées pour chaque vendeur",
+      "Les personnes à consulter avant la décision sont notées"
+    ]
+  },
+  "sources": [
+    {
+      "label": "CNIL : principes du RGPD, minimisation des données (art. 5)",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété : projets de M. Bernard et de Mme Garnier (BIBLE §1 et §11.1, données fictives)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Sébastien Paumier : valider la formule de reformulation en deux phrases (motif + projet ; échéance + marge) comme standard de la formation",
+    "Profil DISC des vendeurs : vérifier que la grille DISC est bien introduite avant la capsule 2.1 dans le nouveau plan"
+  ]
+}

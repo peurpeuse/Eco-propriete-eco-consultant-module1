@@ -1,0 +1,192 @@
+{
+  "id": "3.20",
+  "module": 3,
+  "section": "D · Les chiffres devant le vendeur",
+  "etape": "7",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Les quatre phrases avec preuve",
+  "objective": "Écrire quatre phrases courtes sur le bien, chacune avec un chiffre, la pièce qui le prouve et sa limite, et les dire au vendeur sans notes",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier résume tout le dossier de M. Bernard en quatre phrases : l'étiquette, la valeur, le coût pour l'acheteur, la copropriété. Chaque phrase suit la même règle : une affirmation, un chiffre, une pièce posée sur la table, une limite. Il montre comment les dire en moins d'une minute, et comment répondre quand le vendeur demande « d'où ça sort ? »."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Laquelle de ces phrases respecte le modèle « affirmation, chiffre, preuve, limite » ?",
+        "options": [
+          "« Votre appartement est très bien placé, il partira vite. »",
+          "« Votre DPE n'est pas un problème, faites-moi confiance. »",
+          "« Classé E, pas F : voici l'attestation ADEME (D03), valable jusqu'au 13/03/2033 ; une étiquette conventionnelle, pas votre facture. »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : aucun chiffre, aucune pièce, et une promesse de délai.",
+          "Faux : un argument d'autorité, sans chiffre ni preuve ; l'inverse de ce qu'attend M. Bernard.",
+          "Juste : affirmation (E), preuve (D03), date de validité et limite (méthode conventionnelle)."
+        ],
+        "fb_title": "Quatre éléments, une phrase",
+        "fb_text": "Une phrase avec preuve dit ce qui est vrai, le chiffre qui le montre, la pièce qui le prouve et ce que ce chiffre ne dit pas. Avec un vendeur de style C comme M. Bernard, la limite rend la phrase plus crédible."
+      },
+      {
+        "question": "M. Bernard t'interrompt : « Et vos 2 650 €/m², ça sort d'où ? » Que fais-tu ?",
+        "options": [
+          "Tu poses le tableau D12 sur la table et tu lui montres les ventes comparables, leur date et leur état",
+          "Tu réponds : « De mon expérience du secteur, croyez-moi. »",
+          "Tu passes à la phrase suivante pour ne pas perdre le fil"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : la preuve est une pièce qu'il peut lire et vérifier lui-même.",
+          "Faux : l'expérience n'est pas une preuve vérifiable pour lui.",
+          "Faux : esquiver une question de source détruit la confiance d'un profil C."
+        ],
+        "fb_title": "La pièce sur la table",
+        "fb_text": "Pour chaque phrase, tu sais quelle pièce sortir : D03 pour l'étiquette, D12 pour la valeur, D13 pour les travaux, D07 pour la copropriété. Une preuve se montre, elle ne se raconte pas."
+      },
+      {
+        "question": "Ta collègue Claire veut ajouter : « Après les travaux, votre bien sera classé C. » Que lui conseilles-tu ?",
+        "options": [
+          "De la garder, c'est un argument fort",
+          "De la remplacer par : « Selon une estimation à faire confirmer par un diagnostiqueur, les travaux privatifs pourraient viser la classe D. »",
+          "De dire « classe B » pour être plus convaincante"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : c'est une promesse de classe, et la classe C suppose aussi l'ITE de la copropriété.",
+          "Juste : estimation présentée comme telle, avec la personne qui doit la confirmer.",
+          "Faux : un chiffre inventé, contraire au dossier et à la règle de ne jamais promettre une classe."
+        ],
+        "fb_title": "Une estimation reste une estimation",
+        "fb_text": "Le dossier donne une estimation fictive : classe D après les travaux privatifs, C avec l'ITE en plus, à faire confirmer par un diagnostiqueur. Tu peux la citer, jamais la promettre."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle des phrases (à définir avec Sébastien)",
+    "kind": "fiche",
+    "intro": "Ce modèle est une proposition, à valider avec Sébastien Paumier. Il t'aide à résumer un dossier en quatre phrases que tu peux dire sans notes, en moins d'une minute, et que le vendeur peut vérifier pièce par pièce. Chaque phrase suit la même structure. Exemple rempli : M. Bernard, dossier fil rouge fictif.",
+    "sections": [
+      {
+        "type": "formula",
+        "heading": "La structure d'une phrase avec preuve",
+        "text": "Phrase = affirmation courte + un chiffre + la pièce qui le prouve (code du dossier) + sa limite. Exemple de gabarit : « [Affirmation] : [chiffre] — voici [pièce], [date] ; [ce que ce chiffre ne dit pas]. » Une phrase dépasse rarement 30 mots à l'oral."
+      },
+      {
+        "type": "table",
+        "heading": "Les quatre phrases proposées (M. Bernard)",
+        "headers": [
+          "Thème",
+          "Phrase à dire",
+          "Preuve",
+          "Limite"
+        ],
+        "rows": [
+          [
+            "1. L'étiquette",
+            "« Votre logement est classé E, pas F. »",
+            "D03 Attestation ADEME, valable jusqu'au 13/03/2033",
+            "Étiquette conventionnelle, pas votre facture"
+          ],
+          [
+            "2. La valeur",
+            "« Les ventes comparables en l'état sont à 2 650 €/m² : votre fourchette va de 178 000 à 186 000 € net. »",
+            "D12 Comparables 2025-2026",
+            "Ventes passées : pas une garantie de prix"
+          ],
+          [
+            "3. Le coût pour l'acheteur",
+            "« Un acheteur saura exactement ce qu'il dépense : 16 500 € de travaux chiffrés. »",
+            "D13 Devis des travaux privatifs",
+            "Prix indicatifs, à valider localement"
+          ],
+          [
+            "4. La copropriété",
+            "« La façade est votée et chiffrée : 35 880 € pour le lot, en 4 appels en 2027 ; le prix en tient compte. »",
+            "D07 PV d'AG du 12/06/2025",
+            "Aide de la copropriété non notifiée, non chiffrée"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Écrire tes quatre phrases en 4 étapes",
+        "items": [
+          "Repère dans le dossier les quatre sujets qui inquiètent le vendeur ou l'acheteur.",
+          "Pour chacun, choisis un seul chiffre, celui qui répond à l'inquiétude.",
+          "Note la pièce qui le prouve et sa date ; si tu n'as pas de pièce, tu n'as pas de phrase.",
+          "Ajoute la limite en quelques mots, puis lis la phrase à voix haute : moins de 30 mots, sans jargon."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Quand le vendeur demande « d'où ça sort ? »",
+        "items": [
+          "« Voici la pièce. Prenez le temps de la lire. »",
+          "« Je ne sais pas encore : je vérifie et je vous écris demain. »",
+          "« Ce chiffre a une limite, je préfère vous la dire : … »"
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Avant de dire une phrase",
+        "items": [
+          "Le chiffre est identique à celui du dossier, sans arrondi",
+          "La pièce est dans ta pochette, prête à être posée sur la table",
+          "La date de la pièce est connue",
+          "La phrase ne promet ni prix, ni délai, ni classe",
+          "La phrase ne parle pas des autres agences"
+        ]
+      }
+    ],
+    "footer": "Modèle à définir avec Sébastien Paumier (proposition de rédaction Éco-Propriété). Chiffres : dossier fil rouge fictif (BIBLE §3, §4, §5, §6). Attestation actualisée : observatoire DPE-Audit de l'ADEME. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Écrire ses 4 phrases, une preuve pour chacune",
+    "duration_min": 25,
+    "context": "Avant le rendez-vous de restitution du 29 octobre 2026, tu veux pouvoir résumer le dossier de M. Bernard en moins d'une minute, sans notes, et répondre à chaque « d'où ça sort ? » en posant une pièce sur la table. Tu écris tes quatre phrases selon le modèle, puis tu les enregistres à l'oral.",
+    "materials": [
+      "D03 Attestation actualisée ADEME",
+      "D07 PV d'AG du 12/06/2025",
+      "D12 Tableau des comparables",
+      "D13 Devis des travaux privatifs",
+      "Modèle des phrases (proposition)"
+    ],
+    "steps": [
+      "Choisis les quatre thèmes de tes phrases (le modèle propose : étiquette, valeur, coût pour l'acheteur, copropriété).",
+      "Écris chaque phrase : affirmation, un chiffre exact du dossier, la pièce, sa date.",
+      "Ajoute à chaque phrase sa limite en quelques mots.",
+      "Relis : supprime toute promesse de prix, de délai ou de classe, et tout mot de jargon.",
+      "Enregistre-toi en disant les quatre phrases d'affilée, en moins d'une minute."
+    ],
+    "expected": "1) « Votre logement est classé E, pas F : voici l'attestation ADEME (D03), valable jusqu'au 13/03/2033. C'est une étiquette conventionnelle, pas votre facture. » 2) « Les ventes comparables en l'état sont à 2 650 €/m² (D12, 2025-2026) : votre fourchette va de 178 000 à 186 000 € net. Ce sont des ventes passées, pas une garantie. » 3) « Un acheteur saura exactement ce qu'il dépense : 16 500 € de travaux chiffrés (D13). Ce sont des prix indicatifs. » 4) « La façade est votée et chiffrée : 35 880 € pour votre lot, en 4 appels de 8 970 € en 2027 (PV D07 du 12/06/2025) ; le prix en tient compte. L'aide de la copropriété n'est pas encore notifiée. » Enregistrement : environ 50 secondes, sans lecture."
+  },
+  "deliverable": {
+    "title": "Mes 4 phrases avec preuve pour M. Bernard",
+    "format": "1 page (tableau thème / phrase / preuve / limite) et un enregistrement audio ou vidéo de moins d'une minute",
+    "criteria": [
+      "Les quatre phrases suivent la structure affirmation, chiffre, preuve, limite",
+      "Chaque chiffre est identique au dossier (classe E, 2 650 €/m², 178 000 – 186 000 € net, 16 500 €, 35 880 €)",
+      "Chaque phrase cite une pièce par son code (D03, D07, D12, D13) et sa date quand elle existe",
+      "Aucune phrase ne promet un prix, un délai ou une classe, ni ne parle des autres agences",
+      "L'enregistrement dure moins d'une minute, sans lecture"
+    ]
+  },
+  "sources": [
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — modèle des quatre phrases avec preuve (à valider) ; chiffres du fil rouge fictifs (BIBLE §3 à §6)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Modèle des phrases à définir avec Sébastien Paumier (tableau : « à définir avec Sébastien ») : les quatre thèmes proposés (étiquette, valeur, coût pour l'acheteur, copropriété) et la structure « affirmation, chiffre, preuve, limite » sont une proposition.",
+    "Décider avec Sébastien Paumier si la 4e phrase doit porter sur la copropriété (cas appartement) ou sur un thème commun aux deux parcours (par exemple la stratégie de vente), pour que le modèle serve aussi à la maison de Mme Garnier."
+  ]
+}
