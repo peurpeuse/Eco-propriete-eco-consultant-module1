@@ -1,0 +1,354 @@
+{
+  "id": "3.25",
+  "module": 3,
+  "title": "Défendre les honoraires et négocier l'exclusivité",
+  "capsule_title": "Défendre les honoraires et négocier l'exclusivité",
+  "duration": "4:30",
+  "objective": "Répondre à l'objection « votre concurrent prend moins cher » en expliquant les honoraires prestation par prestation, traiter la remise et le mandat simple, sans jamais promettre un prix supérieur",
+  "mozi": {
+    "line": "Moins cher ailleurs ? Je coupe mes honoraires en deux et je vous garantis 30 000 € de plus à la vente !",
+    "scene": "Mozi coupe sa carte de visite en deux avec des ciseaux géants, puis écrit « +30 000 € garantis » au feutre sur la vitre de l'agence. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 3.25 : défendre tes honoraires",
+      "voice": "Bienvenue. M. Bernard pose la question qui fâche : une autre agence prend moins cher. Dans ce chapitre, tu défends tes honoraires, ligne par ligne, et tu négocies l'exclusivité.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "source": null,
+      "cta": "Commencer",
+      "pose": "salut"
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "source": null,
+      "cta": "Suivant",
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "ce que paient vraiment des honoraires, et les règles de leur affichage"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "traiter la remise et le mandat simple, sans promettre de prix"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ton jeu de rôle filmé et ta fiche honoraires"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Moins cher ailleurs ? Je coupe mes honoraires en deux et je vous garantis 30 000 € de plus à la vente !",
+      "voice": "Moins cher ailleurs ? Je coupe mes honoraires en deux et je vous garantis 30 000 € de plus à la vente !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Moins cher ailleurs ? Je coupe mes honoraires en deux et je vous garantis 30 000 € de plus à la vente !",
+      "scene": "Mozi coupe sa carte de visite en deux avec des ciseaux géants et écrit « +30 000 € garantis » au feutre sur la vitre."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "Moins cher ailleurs, je brade, je promets plus",
+      "voice": "Moins cher ailleurs. Je brade. Je promets plus.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "Moins cher ailleurs",
+        "Je brade",
+        "Je promets plus"
+      ],
+      "wrong": 2,
+      "why": "Promettre un prix de vente plus haut, c'est promettre ce qui dépend du marché, pas de toi."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Le barème est un plafond, la promesse un piège",
+      "voice": "Ce qui arrive vraiment ? Ton barème affiché est un plafond : jamais d'honoraires au-dessus. Et si ta promesse de prix ne tient pas, passé trois mois, le vendeur peut dénoncer l'exclusivité, avec quinze jours de préavis.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Arrêté du 26/01/2022 (barème en tarifs maximums, en vigueur au 1/04/2022) ; DGCCRF, fiche « L'agent immobilier » (04/08/2023) ; décret n° 72-678, art. 78 (Légifrance, consultés le 28/10/2026)",
+      "lines": [
+        "Barème affiché = prix maximums : jamais au-dessus.",
+        "Promesse non tenue : après 3 mois, l'exclusivité se dénonce."
+      ]
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "5,78 % : le taux moyen de commission en France",
+      "voice": "Cinq virgule soixante-dix-huit pour cent. C'est le taux moyen de commission en France en 2022, selon l'Autorité de la concurrence. Environ quatre pour cent ailleurs en Europe. Tes vendeurs comparent : explique ce que tu fais.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Autorité de la concurrence, avis n° 23-A-07 du 2/06/2023 sur l'entremise immobilière (communiqué), consulté le 28/10/2026 : moyenne 2022 citée par l'Autorité, à actualiser",
+      "guess": {
+        "q": "Quel était le taux moyen de commission des agents immobiliers en France en 2022, TTC, en pourcentage du prix ?",
+        "answer": 5.78,
+        "min": 0,
+        "max": 10,
+        "step": 0.01,
+        "unit": " %"
+      },
+      "value": "5,78 %",
+      "label": "de commission moyenne TTC en France en 2022, contre environ 4 % dans l'Union européenne"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Prestation par prestation → la remise, cadrée → le mandat simple, comparé",
+      "voice": "D'abord, prestation par prestation. Les 9 000 euros de M. Bernard ne sont pas un pourcentage abstrait. C'est l'expertise locale, la préparation du dossier, la stratégie de vente, la qualification des acquéreurs, la négociation, la coordination avec le syndic et le notaire, le suivi jusqu'à l'acte. Chaque ligne a sa preuve. Ensuite, la remise. Ton barème affiche des prix maximums : tu peux négocier en dessous, jamais au-dessus. Si tu acceptes une remise, c'est contre un engagement clair, et c'est écrit au mandat. Enfin, le mandat simple. C'est son droit. Tu montres ce que l'exclusivité ajoute : tes engagements écrits, un compte rendu toutes les deux semaines. Et jamais de promesse de prix.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Arrêté du 26/01/2022 ; décret n° 72-678, art. 73 ; DGCCRF, fiche « L'agent immobilier » ; honoraires et engagements : bible §7 (fictif)",
+      "steps": [
+        {
+          "label": "Prestation par prestation",
+          "detail": "Expertise, dossier, stratégie, qualification, négociation, coordination, suivi : chaque ligne, une preuve."
+        },
+        {
+          "label": "La remise, cadrée",
+          "detail": "Barème = prix maximums : en dessous si tu veux, contre un engagement, écrit au mandat."
+        },
+        {
+          "label": "Le mandat simple, comparé",
+          "detail": "Son droit ; tu montres ce que l'exclusif ajoute, sans promesse de prix."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "M. Bernard dit à Karim : l'autre agence prend trois pour cent, pourquoi payer cinq ? Toi, que proposerais-tu, sans promettre de prix ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération ; exemple fictif (3 % = 5 400 € sur 180 000 €)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard dit à Karim : « L'autre agence prend 3 %, vous 5 %. Pourquoi payer plus ? » (exemple fictif : 5 400 € contre 9 000 €, à la charge de l'acquéreur dans les deux cas). Que répond Karim, sans dénigrer et sans promettre de prix ?",
+      "model_answer": "« C'est une vraie question. Vos 180 000 € net vendeur sont écrits au mandat ; les honoraires sont à la charge de l'acquéreur, et à 3 % le prix affiché serait plus bas : c'est un vrai point. Voici ce que couvrent mes 9 000 € : expertise locale, dossier technique avec l'attestation E et le chiffrage des travaux, plan Éco-staging, qualification des acquéreurs, négociation, coordination avec le syndic et le notaire, compte rendu toutes les deux semaines. Comparons ligne par ligne. Je ne vous promets pas un prix plus haut : je vous promets ces engagements, par écrit. »",
+      "keywords": [
+        "prestation par prestation",
+        "net vendeur",
+        "engagements écrits",
+        "pas de promesse de prix",
+        "comparer"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Décret n° 2015-1090 (code de déontologie, information exacte) ; arrêté du 26/01/2022 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Aucune : un agent peut garantir un prix de vente s'il connaît bien son marché",
+          "Aucune : une remise d'honoraires oblige à promettre un résultat en échange",
+          "Il doit une information exacte : il promet un prix qu'il ne maîtrise pas"
+        ],
+        "answer": 2,
+        "feedback": "Le code de déontologie (décret n° 2015-1090) impose une information exacte, intelligible et complète, y compris sur les honoraires. L'arrêté du 26/01/2022 fait du barème un prix maximum, négociable à la baisse. On défend ses honoraires par les prestations, jamais par une promesse de prix.",
+        "whys": [
+          "Faux : le prix final dépend du marché et des acquéreurs ; une garantie de prix n'a aucune base.",
+          "Faux : la remise se négocie sous le barème affiché ; elle n'oblige à aucune promesse de résultat.",
+          "Exact : promettre 30 000 € de plus n'est pas une information exacte, c'est un pari sur le marché."
+        ]
+      },
+      "card2": {
+        "question": "Si Sarah accordait une remise à l'oral, sans la reporter au mandat, que se passerait-il ?",
+        "answer": "La remise elle-même est permise : le barème affiche des prix maximums. Mais les honoraires doivent figurer au mandat, avec la partie qui les paie, et l'annonce doit être cohérente avec le mandat. Une remise orale crée un écart entre ce qui est dit et ce qui est écrit : source de litige."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : des honoraires compris, pas bradés. La fiche honoraires, prestation par prestation, et le tableau simple ou exclusif.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils (ressource de la capsule 3.25)",
+      "goal": "Des honoraires compris, pas bradés",
+      "tools": [
+        {
+          "name": "Fiche honoraires",
+          "role": "7 prestations, chacune avec sa preuve"
+        },
+        {
+          "name": "Tableau simple / exclusif",
+          "role": "Ce qui change pour le vendeur, sans promesse de prix"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "La fiche honoraires de M. Bernard",
+      "voice": "La fiche de M. Bernard. Expertise locale : les comparables. Le dossier : DPE, attestation, plan de travaux, devis. Stratégie et qualification des acquéreurs. Négociation, coordination avec le syndic et le notaire. Et le suivi, jusqu'à l'acte. Sept prestations, une preuve pour chacune.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible §3 à §7 (fictif) ; codes D03, D09, D12, D13 ; prestations du PLAN.json (capsule 3.25)",
+      "tool": "Fiche honoraires",
+      "steps": [
+        "Expertise locale : comparables D12, fourchette 178 000 – 186 000 € en l'état",
+        "Dossier : DPE, attestation E, PPPT, devis de 16 500 €",
+        "Stratégie et qualification : plan Éco-staging, acquéreurs avec plan de financement",
+        "Négociation et coordination : offres écrites, syndic, notaire",
+        "Suivi : compte rendu toutes les 2 semaines jusqu'à l'acte"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "Le tableau : simple ou exclusif",
+      "voice": "Le tableau, maintenant. Mandat simple : plusieurs agences, il peut vendre seul. Exclusif : une seule agence, mais tes engagements et tes comptes rendus écrits. Dans les deux cas, les honoraires sont écrits au mandat. Sortie de l'exclusif après trois mois. Il choisit. Toi, tu ne promets aucun prix.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Service-Public F1550 (vérifié le 19/09/2025) ; décret n° 72-678, art. 73 et 78 (Légifrance)",
+      "tool": "Tableau simple / exclusif",
+      "steps": [
+        "Simple : plusieurs agences, il peut vendre seul",
+        "Exclusif : une seule agence, engagements et comptes rendus écrits",
+        "Les deux : honoraires écrits au mandat, sous le barème",
+        "Sortie de l'exclusif : après 3 mois, préavis de 15 jours",
+        "Conclusion : il choisit, aucun prix promis"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "À toi : filme ton jeu de rôle.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 3.25 : jeu de rôle filmé autour de l'objection « Votre concurrent prend moins cher que vous »",
+      "cta": "Ouvrir le jeu de rôle",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton jeu de rôle filmé et ta fiche honoraires.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 3.25 : jeu de rôle filmé et fiche honoraires",
+      "ask": "Dépose une capture de ton jeu de rôle filmé (première image ou lien) et de ta fiche honoraires : les 7 prestations, chacune avec sa preuve, ta réponse à la remise et ta réponse au mandat simple, sans aucune promesse de prix.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Trouve un partenaire qui jouera M. Bernard, filme deux minutes, et reviens déposer ta preuve."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Mozi coupe ses honoraires en deux et promet la lune. Toi, tu as expliqué sept prestations, sans promettre un euro de plus.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "source": "Fait observable : ta fiche honoraires et ton jeu de rôle filmé",
+      "status": "Tes honoraires : 7 prestations, 7 preuves. Mozi : moitié prix et promesse au feutre."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Légifrance — Arrêté du 26 janvier 2022 modifiant l'arrêté du 10 janvier 2017 (barème affiché en tarifs maximums, négociables à la baisse ; entrée en vigueur le 1/04/2022), consulté le 28/10/2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045118966"
+    },
+    {
+      "label": "Légifrance — Arrêté du 10 janvier 2017 relatif à l'information des consommateurs par les professionnels intervenant dans une transaction immobilière",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033888549/"
+    },
+    {
+      "label": "DGCCRF — Fiche pratique « L'agent immobilier : les règles qui encadrent la profession » (écrit le 04/08/2023 : barème TTC en prix maximums, mentions du mandat, mandat simple ou exclusif, clause pénale, commission), consultée le 28/10/2026",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques-et-les-faq/lagent-immobilier-les-regles-qui-encadrent-la-profession"
+    },
+    {
+      "label": "Autorité de la concurrence — Avis n° 23-A-07 du 2 juin 2023 sur l'entremise immobilière (communiqué : taux de commission moyen de 5,78 % TTC en 2022, environ 4 % TTC dans l'Union européenne), consulté le 28/10/2026",
+      "url": "https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/lautorite-de-la-concurrence-rend-son-avis-sur-la-situation-concurrentielle-du"
+    },
+    {
+      "label": "Légifrance — Décret n° 2015-1090 du 28 août 2015, code de déontologie des professionnels de l'immobilier (annexe, art. 10 « Confraternité » : ni dénigrement ni discrédit des confrères ; obligation d'information exacte, intelligible et complète, y compris sur les honoraires), consulté le 28/10/2026",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031113441"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 73 (rémunération précisée dans le mandat, partie qui en a la charge), vérifié le 26/10/2026",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033261932"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 78 (clause d'exclusivité ou pénale : stipulation expresse, caractères très apparents, exemplaire remis ; dénonciation après 3 mois, préavis de 15 jours par LRAR), consulté le 28/10/2026",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000030782471"
+    },
+    {
+      "label": "Bible du fil rouge (données fictives : §1, §5, §6, §7 ; codes D03, D07, D09, D12, D13, D18)",
+      "url": null
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Concurrent à 3 % (5 400 € sur 180 000 € net vendeur) : exemple fictif, absent de la bible [à définir avec Sébastien Paumier]",
+    "Politique de remise (remise seulement contre un engagement écrit, plancher éventuel) : à définir avec Sébastien Paumier et à confirmer avec Éco-propriété ; la bible fixe les honoraires de M. Bernard à 9 000 € TTC",
+    "Liste des 7 prestations reprise du PLAN.json ; preuves associées (codes D03 à D13) à valider",
+    "Écran 6 : 5,78 % TTC est une moyenne 2022 citée par l'Autorité de la concurrence (avis n° 23-A-07 du 2/06/2023) à partir d'études : à actualiser avant diffusion ; toujours l'afficher avec sa source et sa date",
+    "Relecture juridique : barème en prix maximums (arrêté du 26/01/2022), honoraires de l'annonce conformes au mandat, obligation d'information exacte du code de déontologie (numéro d'article à vérifier : seul l'art. 10 a été identifié par son numéro)",
+    "Jeu de rôle filmé : prévoir l'accord écrit du partenaire filmé (droit à l'image) et l'absence de données personnelles réelles",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "2.2",
+  "module": 2,
+  "section": "A · Je comprends le vendeur et son bien",
+  "etape": "1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "La fiche découverte vendeur",
+  "objective": "Remplir les 6 rubriques de la fiche découverte à partir d'un entretien et du dossier du vendeur, repérer les contraintes (appels de fonds, propriété, fiscalité à renvoyer) et la faire valider par écrit",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Le chapitre suit l'entretien chez M. Bernard et montre comment chaque réponse atterrit dans l'une des 6 rubriques de la fiche D01. Mozi, lui, remplit la fiche avec la pension et le médecin du vendeur, et oublie l'appel de fonds de 8 970 € du 1/01/2027. Démonstration : le calcul de la quote-part ITE à partir du PV d'AG, puis la synthèse de 5 lignes envoyée pour validation."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Dans sa fiche découverte, Mozi a noté le montant de la pension de M. Bernard et le nom de son médecin. Quelle règle enfreint-il ?",
+        "options": [
+          "Aucune : plus il en sait, mieux il vend",
+          "La minimisation des données du RGPD : il ne collecte que ce qui sert à vendre le bien",
+          "Le secret professionnel du notaire"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le RGPD interdit de collecter ce qui n'est pas nécessaire à la finalité, même si le vendeur le dit spontanément.",
+          "Juste : revenus et santé ne servent ni à estimer ni à vendre l'appartement ; ils ne vont pas dans la fiche.",
+          "Faux : la règle en cause n'est pas celle du notaire, c'est la protection des données par l'agent."
+        ],
+        "fb_title": "Minimisation des données",
+        "fb_text": "Le RGPD (art. 5) impose de ne collecter que les données adéquates et nécessaires à la finalité. Pour vendre un bien, ni les revenus, ni l'épargne, ni la santé du vendeur ne sont utiles. Si le vendeur en parle, tu ne les écris pas."
+      },
+      {
+        "question": "Le 1er appel de fonds ITE (8 970 €) est exigible le 1/01/2027. Si la vente n'est pas signée à cette date, qui le paie au syndic ?",
+        "options": [
+          "L'acquéreur, puisqu'il profitera de l'isolation",
+          "Personne : l'appel est suspendu tant que le lot est en vente",
+          "M. Bernard, copropriétaire à la date d'exigibilité ; un accord contraire avec l'acquéreur n'engage pas le syndicat"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : tant qu'il n'est pas propriétaire, l'acquéreur ne doit rien au syndicat.",
+          "Faux : une mise en vente ne suspend pas un appel de fonds voté.",
+          "Juste : c'est la règle de principe (décret de 1967, art. 6-2 et 6-3) ; une répartition reste possible entre les parties, rédigée par le notaire."
+        ],
+        "fb_title": "La date d'exigibilité décide",
+        "fb_text": "Les provisions hors budget sont payées par le copropriétaire à la date de leur exigibilité. Vendeur et acquéreur peuvent convenir d'une autre répartition, mais elle ne vaut qu'entre eux. Ton rôle : le repérer dès la découverte et le noter comme contrainte."
+      },
+      {
+        "question": "M. Bernard répond : « Mon prix plancher ? Je vous le dirai quand j'aurai vu votre estimation. » Que notes-tu dans la fiche ?",
+        "options": [
+          "« Prix plancher : non communiqué, à redemander après l'estimation »",
+          "« Prix plancher : 172 000 €, celui des autres agences »",
+          "« Prix plancher : 205 000 € moins 10 % »"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : tu notes la réponse telle qu'elle est et l'action à prévoir ; c'est une réponse normale pour un profil C.",
+          "Faux : 172 000 € est l'avis d'autres agences, pas une décision du vendeur.",
+          "Faux : tu inventes un chiffre que le vendeur n'a jamais donné."
+        ],
+        "fb_title": "On note ce qui est dit",
+        "fb_text": "La fiche découverte enregistre les réponses du vendeur, pas tes hypothèses. « Non communiqué, à redemander après l'estimation » est une information utile : elle te dit que la preuve écrite viendra avant la discussion de prix."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche découverte vendeur",
+    "kind": "fiche",
+    "intro": "La trame de la fiche découverte (D01) en 6 rubriques, à remplir pendant ou juste après l'entretien. Chaque rubrique se remplit avec les mots du vendeur, puis se vérifie avec un document du dossier. La fiche se termine par une synthèse de 5 lignes que le vendeur valide par écrit.",
+    "sections": [
+      {
+        "heading": "Les 6 rubriques de la fiche",
+        "type": "table",
+        "headers": ["Rubrique", "Ce que tu notes", "Document de contrôle"],
+        "rows": [
+          ["1. Vendeur et décision", "Propriétaire(s), nature du bien (propre, commun, succession), personnes à consulter, résidence principale ou non", "Titre de propriété (D11 / M11)"],
+          ["2. Projet et délai", "Motif, projet d'après, échéance et marge, ordre vente / achat, besoin du prix de vente", "Reformulation validée (capsule 2.1)"],
+          ["3. Prix", "Prix espéré, avis de valeur reçus et leur justification, statut du prix plancher", "Avis écrits reçus, s'il y en a"],
+          ["4. Bien vu par le vendeur", "Atouts, gênes, travaux faits (avec factures), sinistres et leur clôture, DPE et attestation", "DPE (D02), attestation (D03), factures"],
+          ["5. Copropriété ou terrain", "Charges, travaux votés et échéancier, PPPT, procédures ; pour une maison : terrain, assainissement, servitudes", "D06 à D10 ; M06, M08 pour une maison"],
+          ["6. Critères de choix de l'agence", "Attentes, rythme et forme des comptes rendus, ce qui ferait dire « j'ai bien choisi »", "Mots du vendeur"]
+        ]
+      },
+      {
+        "heading": "Documents à demander",
+        "type": "checklist",
+        "items": [
+          "DPE complet avec son numéro ADEME à 13 caractères (D02) et attestation actualisée s'il y en a une (D03)",
+          "Extrait du titre de propriété et dernière taxe foncière (D11)",
+          "Appels de charges et budget prévisionnel (D06), PV des 3 dernières AG (D07)",
+          "Carnet d'entretien, synthèse du PPPT, fiche synthétique de la copropriété (D08, D09, D10)",
+          "Diagnostics existants (D17) et factures des travaux réalisés",
+          "Pour une maison : extrait cadastral, rapport du SPANC, audit énergétique s'il existe (M06, M08, M03)"
+        ]
+      },
+      {
+        "heading": "Contraintes à repérer et à renvoyer",
+        "type": "list",
+        "items": [
+          "Appel de fonds exigible pendant la vente : payé par le copropriétaire à la date d'exigibilité ; un accord entre parties est rédigé par le notaire",
+          "Propriété : indivision, succession, bien commun : qui doit signer ? À vérifier sur le titre, avec le notaire",
+          "Résidence principale ou non : tu le notes ; l'impact fiscal se traite avec le notaire (capsule 2.3)",
+          "Crédit en cours : montant à faire chiffrer par la banque (décompte de remboursement anticipé)",
+          "Fonds de travaux attaché au lot (1 061 € au 30/09/2026 pour M. Bernard) : non remboursé au vendeur, sauf accord dans l'acte"
+        ]
+      },
+      {
+        "heading": "Ce que tu n'écris jamais",
+        "type": "text",
+        "text": "Revenus, épargne, santé, détails de la vie familiale, opinions : ces données ne servent ni à estimer ni à vendre le bien. Le RGPD impose la minimisation : si le vendeur les évoque, tu ne les notes pas. Phrase utile : « Merci de me le dire, mais je n'ai pas besoin de cette information pour vendre votre appartement ; je ne la note pas. »"
+      },
+      {
+        "heading": "La synthèse à faire valider (exemple M. Bernard)",
+        "type": "text",
+        "text": "« Vous souhaitez vendre pour vous rapprocher de votre fille, avant l'été 2027, avec une marge de trois mois. Vous espérez 205 000 € ; je vous remettrai une estimation écrite et justifiée. Un appel de fonds de 8 970 € est prévu le 1/01/2027 pour le ravalement avec isolation. Vous souhaitez des comptes rendus écrits et chiffrés. Merci de me confirmer ou de corriger. » À envoyer sous 48 h."
+      }
+    ],
+    "footer": "Sources : décret n° 67-223 du 17/03/1967, art. 6-2 (2°) et 6-3 ; service-public.fr F32920 (charges l'année de la vente) ; CNIL (RGPD, art. 5). Données du fil rouge fictives. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Remplir la fiche découverte de M. Bernard",
+    "duration_min": 30,
+    "context": "Exemple fictif. Tu as mené l'entretien chez M. Bernard. Extraits : « Je veux me rapprocher de ma fille à Nantes et prendre plus petit. » « Avant l'été 2027… à trois mois près, ce n'est pas grave. » « J'espère 205 000 €. Les deux autres agences m'ont dit 172 000, moins 15 % à cause du DPE, mais personne ne m'a montré de calcul. » « Je suis seul propriétaire, je l'ai acheté en 1998, le prêt est fini depuis longtemps. » « Mon prix plancher ? Je vous le dirai quand j'aurai vu votre estimation. » « Le ravalement a été voté l'an dernier, je ne sais plus combien je dois. » « Ce que je veux : des comptes rendus écrits, avec des chiffres. » Il ajoute spontanément le montant de sa pension et le nom de son médecin.",
+    "materials": [
+      "D01 Fiche découverte vendeur (vierge)",
+      "D06 Appels de charges et budget prévisionnel 2026",
+      "D07 PV d'AG du 12/06/2025 (extraits)",
+      "D11 Extrait du titre de propriété et taxe foncière"
+    ],
+    "steps": [
+      "Remplis les 6 rubriques du D01 avec les mots du vendeur.",
+      "Formule le délai réel (échéance et marge) et l'ordre des opérations vente / achat.",
+      "Note le prix espéré, les avis reçus et leur justification, et le statut du prix plancher.",
+      "Avec le D07, calcule la quote-part ITE du lot et l'échéancier ; repère l'appel qui tombe pendant la vente.",
+      "Liste les points à faire confirmer par le notaire (propriété, appel de fonds, plus-value).",
+      "Barre les informations à ne pas conserver et justifie en une phrase.",
+      "Rédige la synthèse de 5 lignes à envoyer pour validation."
+    ],
+    "expected": "Fiche attendue (exemple). Vendeur : M. Alain Bernard, 64 ans, propriétaire seul, bien propre acheté en 1998, prêt soldé (à vérifier sur D11), résidence principale. Projet : se rapprocher de sa fille à Nantes, acheter plus petit ; vente avant achat a priori. Délai : avant l'été 2027, souple à 3 mois. Prix : espéré 205 000 € ; avis de deux agences à 172 000 € (−15 % « DPE »), sans justification écrite ; plancher non communiqué, à redemander après l'estimation. Copropriété : ITE votée le 12/06/2025, 1 150 000 × 312/10 000 = 35 880 € pour le lot, 4 appels de 8 970 € (1/01, 1/04, 1/07, 1/10/2027) ; le premier tombera avant la vente : en principe payé par M. Bernard, accord éventuel avec l'acquéreur à rédiger par le notaire. Fonds de travaux : 1 061 € attachés au lot. À renvoyer au notaire : plus-value (résidence principale), appel de fonds. Critères : comptes rendus écrits et chiffrés. Barré : pension et médecin (minimisation RGPD). Synthèse : celle de la ressource, envoyée sous 48 h."
+  },
+  "deliverable": {
+    "title": "Fiche découverte de M. Bernard",
+    "format": "PDF ou DOCX, 1 page (trame D01) + synthèse de 5 lignes",
+    "criteria": [
+      "Les 6 rubriques sont renseignées, avec au moins une citation du vendeur",
+      "Le délai est formulé avec son échéance et sa marge (avant l'été 2027, souple à 3 mois)",
+      "La quote-part ITE (35 880 €) et l'appel de 8 970 € au 1/01/2027 sont identifiés comme contrainte",
+      "Au moins 5 documents à demander sont listés avec leur code",
+      "Aucune donnée non nécessaire (revenus, santé) n'apparaît",
+      "La synthèse de 5 lignes à faire valider termine la fiche"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (provisions exigibles en cas de mutation)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    },
+    {
+      "label": "Décret n° 67-223 du 17 mars 1967, art. 6-3 (convention contraire : effet entre les parties)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488324"
+    },
+    {
+      "label": "Service-Public F32920 : qui paie les charges de copropriété l'année de la vente",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F32920"
+    },
+    {
+      "label": "Service-Public F34026 : fonds de travaux en copropriété",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F34026"
+    },
+    {
+      "label": "CNIL : principes du RGPD (minimisation des données)",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2"
+    }
+  ],
+  "open_points": [
+    "Juriste : relire l'art. 6-2 (2°) et 6-3 du décret de 1967 sur le texte consolidé de Légifrance avant tournage (règle reprise de la capsule v3 2.1, non relue ce jour)",
+    "Rédacteur du dossier : la trame D01 doit comporter exactement les 6 rubriques de la ressource",
+    "Chapitre à adapter depuis chap_2.1 (v3) : nouveau numéro 2.2, écran 13-14 alignés sur cet exercice et ce livrable"
+  ]
+}

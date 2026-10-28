@@ -1,0 +1,159 @@
+{
+  "id": "1.17",
+  "module": 1,
+  "section": "G · Je crée mes outils de visibilité web et physique",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Communiquer : message clé et plan de communication",
+  "objective": "Écrire son message clé en 20 mots maximum (cible, problème, promesse) et choisir 2 canaux prioritaires justifiés par sa cible, avec un rythme et un indicateur pour chacun",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Être partout, c'est n'être nulle part. Sébastien Paumier montre comment passer de la promesse (capsule 1.11) à un message clé de 20 mots, répété à l'identique partout, puis comment choisir deux canaux seulement selon l'endroit où se renseigne ta cible : fiche Google, Facebook local, LinkedIn pour les prescripteurs, boîtage, partenaires."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Lequel de ces textes est un message clé utilisable ?",
+        "options": [
+          "« Agence dynamique et à votre écoute depuis 20 ans, nous vendons tous types de biens. »",
+          "« Vendre votre logement ancien au juste prix : DPE vérifié, valeur prouvée par les ventes réelles. »",
+          "« Le DPE, la valeur verte, la copropriété, les travaux, le financement : on s'occupe de tout ! »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Il parle de l'agence et de tous les biens : aucune cible, aucun problème, rien qu'un vendeur puisse retenir.",
+          "Juste : une cible (logement ancien), un problème implicite (le prix face au DPE) et une promesse vérifiable, en moins de 20 mots.",
+          "Liste de sujets sans promesse claire ; « on s'occupe de tout » sort aussi des limites du métier (financement, travaux)."
+        ],
+        "fb_title": "Un message, une cible, une promesse",
+        "fb_text": "Le message clé est la version courte de ta promesse : qui tu aides, à quoi, et ce qui le prouve. Il se répète mot pour mot sur ta fiche Google, ta bannière LinkedIn, ta carte et ton flyer."
+      },
+      {
+        "question": "Ta cible : des propriétaires de maisons des années 1960-1980, plutôt âgés, dans trois communes. Quels 2 canaux prioritaires choisis-tu ?",
+        "options": [
+          "TikTok et LinkedIn",
+          "Une campagne d'e-mails achetés et des appels à froid",
+          "Ta fiche Google et un boîtage ciblé dans les rues de maisons, avec un QR code"
+        ],
+        "answer": 2,
+        "whys": [
+          "Canaux peu adaptés à cette cible ; LinkedIn sert surtout à toucher les prescripteurs, pas les particuliers vendeurs.",
+          "Illégal : e-mails de prospection sans consentement et appels sans consentement préalable sont interdits envers les particuliers.",
+          "Juste : ils cherchent sur Google avant de choisir et lisent leur courrier ; le boîtage respecte le « Stop Pub » et le QR code mène à ton offre."
+        ],
+        "fb_title": "Le canal suit la cible",
+        "fb_text": "Pars de l'endroit où ta cible se renseigne avant de choisir une agence. Deux canaux tenus chaque semaine valent mieux que six abandonnés au bout d'un mois. Les règles de chaque canal sont détaillées en 1.18, 1.20 et 1.22."
+      },
+      {
+        "question": "Quel indicateur suis-tu pour savoir si ton plan de communication fonctionne ?",
+        "options": [
+          "Le nombre de demandes de contact de propriétaires reçues par canal",
+          "Le nombre de « j'aime » sur tes publications",
+          "Le nombre de flyers imprimés"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : c'est le résultat attendu de la communication, mesurable par canal (formulaire, appel, QR code scanné).",
+          "Un « j'aime » ne dit rien d'un projet de vente ; c'est un indicateur de vanité.",
+          "C'est une dépense, pas un résultat ; seuls les contacts générés mesurent l'effet du flyer."
+        ],
+        "fb_title": "Mesurer des demandes, pas des applaudissements",
+        "fb_text": "Pour chaque canal : nombre de demandes reçues, puis nombre de rendez-vous. Un lien ou un QR code différent par canal te permet de savoir d'où vient chaque contact."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de plan de communication",
+    "kind": "modele",
+    "intro": "Le modèle d'une page pour passer de ta promesse à un message clé, puis à un plan de communication sur 30 jours avec 2 canaux prioritaires. À remplir une fois, à revoir chaque trimestre.",
+    "sections": [
+      {
+        "type": "formula",
+        "heading": "Le message clé",
+        "text": "Message clé = cible + problème (ou bénéfice) + promesse vérifiable, en 20 mots maximum. Exemple : « Vendre votre logement ancien au juste prix : DPE vérifié, valeur prouvée par les ventes réelles. » (15 mots)"
+      },
+      {
+        "type": "table",
+        "heading": "Le plan sur une page",
+        "headers": ["Rubrique", "Ce que tu écris", "Exemple (agent à Melun, fictif)"],
+        "rows": [
+          ["Objectif", "Un résultat chiffré sur 30 jours", "10 demandes de propriétaires, 4 rendez-vous R1"],
+          ["Cible", "Repris de ta fiche cible (1.7) et de tes angles (1.10)", "Propriétaires d'appartements en copropriété des années 1960-1980"],
+          ["Message clé", "20 mots maximum, identique partout", "« Vendre votre logement ancien au juste prix : DPE vérifié, valeur prouvée par les ventes réelles. »"],
+          ["Canal 1", "Où ta cible se renseigne, rythme, responsable", "Fiche Google : 1 post par semaine, réponse à chaque avis"],
+          ["Canal 2", "Deuxième canal, rythme", "Boîtage ciblé de 300 flyers par mois avec QR code, rues de résidences 1960-1980"],
+          ["Indicateur", "Demandes et rendez-vous par canal", "QR code dédié au flyer, suivi des appels de la fiche Google"],
+          ["Budget", "Temps et argent", "2 h par semaine ; impression et distribution à chiffrer"],
+          ["Bilan", "Date et décision", "J+30 : garder, ajuster ou changer un canal"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Quel canal pour quelle cible",
+        "headers": ["Canal", "Pour qui", "Règle à connaître"],
+        "rows": [
+          ["Fiche Google", "Tout propriétaire qui cherche une agence près de chez lui", "Nom réel, avis sans contrepartie (capsule 1.18)"],
+          ["Facebook local", "Habitants actifs dans les groupes de ville", "Règles des groupes, catégorie Logement pour la publicité (1.18)"],
+          ["LinkedIn", "Prescripteurs : notaires, syndics, courtiers, artisans", "Aucune automatisation (1.18)"],
+          ["Boîtage et flyer", "Rues ciblées, publics moins connectés", "Respect du « Stop Pub » (1.20)"],
+          ["E-mail ou SMS", "Contacts qui ont donné leur consentement", "Consentement préalable envers les particuliers (1.22)"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Avant de lancer",
+        "items": [
+          "Le message clé est identique sur tous tes supports.",
+          "Chaque canal a un rythme que tu peux tenir 30 jours.",
+          "Chaque canal a son propre lien ou QR code pour mesurer.",
+          "Aucun canal ne repose sur un contact non consenti.",
+          "La date du bilan est dans ton agenda."
+        ]
+      }
+    ],
+    "footer": "Sources : CNIL, prospection commerciale par voie électronique (consentement, art. L. 34-5 CPCE) ; DGCCRF, démarchage téléphonique (11/08/2026) ; ministère de la Transition écologique, fin de l'expérimentation Oui Pub et retour du Stop Pub (1/05/2025). Modèle : proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Mon message clé et mes 2 canaux prioritaires",
+    "duration_min": 25,
+    "context": "Tu as ta cible, tes angles et ta promesse. Tu les ramènes à un message clé de 20 mots maximum, puis tu choisis les deux canaux par lesquels ta cible te trouvera ce mois-ci, avec un rythme et un indicateur.",
+    "materials": [
+      "Ta fiche cible (1.7), tes offres ciblées (1.10), ta promesse (1.11)",
+      "Modèle de plan de communication (ressource)"
+    ],
+    "steps": [
+      "Écris trois versions de ton message clé, puis garde la plus claire (20 mots maximum).",
+      "Teste-la sur une personne extérieure : peut-elle redire qui tu aides et ce que tu promets ?",
+      "Liste 3 endroits où ta cible se renseigne avant de choisir une agence.",
+      "Choisis 2 canaux parmi eux et justifie chacun en une phrase.",
+      "Pour chaque canal : rythme, responsable, indicateur, objectif à 30 jours.",
+      "Inscris la date du bilan dans ton agenda."
+    ],
+    "expected": "Exemple attendu. Message clé : « Vendre votre logement ancien au juste prix : DPE vérifié, valeur prouvée par les ventes réelles. » Canal 1 : fiche Google, parce que les vendeurs comme M. Bernard cherchent « agence immobilière DPE Melun » avant de rappeler ; 1 post par semaine ; indicateur : appels et clics depuis la fiche ; objectif : 6 demandes. Canal 2 : boîtage de 300 flyers par mois dans les rues de résidences 1960-1980, en respectant le Stop Pub, avec un QR code dédié ; indicateur : scans et demandes ; objectif : 4 demandes. Bilan le 28/11 : garder le canal qui produit des rendez-vous, ajuster l'accroche de l'autre."
+  },
+  "deliverable": {
+    "title": "Mon message clé et mon plan de communication",
+    "format": "PDF ou DOCX d'une page : message clé + plan (objectif, cible, 2 canaux, rythme, indicateurs, budget, bilan)",
+    "criteria": [
+      "Le message clé fait 20 mots maximum et contient une cible et une promesse vérifiable",
+      "Exactement 2 canaux prioritaires, chacun justifié par la cible",
+      "Un rythme tenable et un indicateur de résultat (demandes ou rendez-vous) par canal",
+      "Aucun canal fondé sur un contact sans consentement",
+      "Une date de bilan à 30 jours"
+    ]
+  },
+  "sources": [
+    { "label": "CNIL — La prospection commerciale par courrier électronique, SMS-MMS et automate d'appel", "url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel" },
+    { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" },
+    { "label": "Ministère de la Transition écologique — L'expérimentation Oui Pub (fin le 30/04/2025, retour du Stop Pub)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/lexperimentation-oui-pub" },
+    { "label": "Google — Aide Fiche d'établissement : conseils pour améliorer votre classement local", "url": "https://support.google.com/business/answer/7091?hl=fr" },
+    { "label": "Proposition pédagogique Éco-Propriété — modèle de plan de communication", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier le message clé type proposé en exemple.",
+    "à vérifier : coût indicatif d'impression et de distribution à donner en exemple (non chiffré ici)."
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "id": "3.26",
+  "module": 3,
+  "title": "Les mandats : simple, exclusif, semi-exclusif",
+  "capsule_title": "Les mandats : simple, exclusif, semi-exclusif",
+  "duration": "4:30",
+  "objective": "Comparer les mandats simple, exclusif et semi-exclusif (durée, exclusivité, honoraires, mentions obligatoires, résiliation) et justifier lequel proposer à un vendeur",
+  "mozi": {
+    "line": "180 000 net, 9 000 d'honoraires, exclusif… La durée ? On verra bien : jusqu'à ce que ça se vende !",
+    "scene": "Mozi rédige le mandat sur une serviette en papier, écrit « durée : ∞ » à la place de la date de fin, puis plie la serviette en avion. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 3.26 : simple, exclusif, semi-exclusif",
+      "voice": "Bienvenue. Avant le 5 novembre, M. Bernard veut comprendre ce qu'il signe. Dans ce chapitre, tu compares les trois mandats, et tu choisis le bon.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "source": null,
+      "cta": "Commencer",
+      "pose": "salut"
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "source": null,
+      "cta": "Suivant",
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "ce qui distingue les mandats simple, exclusif et semi-exclusif"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "vérifier les mentions obligatoires et le registre avant la signature"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ton tableau comparatif et ta recommandation"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "180 000 net, 9 000 d'honoraires, exclusif… La durée ? On verra bien : jusqu'à ce que ça se vende !",
+      "voice": "180 000 net, 9 000 d'honoraires, exclusif… La durée ? On verra bien : jusqu'à ce que ça se vende !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "180 000 net, 9 000 d'honoraires, exclusif… La durée ? On verra bien : jusqu'à ce que ça se vende !",
+      "scene": "Mozi écrit le mandat sur une serviette en papier, note « durée : ∞ », puis la plie en avion."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "180 000 € net, 9 000 € TTC, durée : on verra",
+      "voice": "Cent quatre-vingt mille euros net. Neuf mille euros d'honoraires. La durée ? On verra.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "Prix : 180 000 € net",
+        "Honoraires : 9 000 € TTC",
+        "Durée : on verra"
+      ],
+      "wrong": 2,
+      "why": "La durée limitée est une mention obligatoire : sans elle, le mandat n'est pas régulier."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Sans durée, pas de mandat régulier",
+      "voice": "Le droit à commission suppose un mandat écrit et régulier, avec une durée limitée. Et une clause d'exclusivité qui n'est pas en caractères très apparents ne s'applique pas.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "DGCCRF, fiche « L'agent immobilier » (04/08/2023 : mandat écrit et régulier, durée parmi les mentions) ; Service-Public F1550 (durée limitée) ; décret n° 72-678, art. 78 (Légifrance, consultés le 28/10/2026)",
+      "lines": [
+        "Durée absente : mandat irrégulier, commission menacée.",
+        "Clause d'exclusivité peu apparente : inapplicable."
+      ]
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "65,1 % des professionnels contrôlés en anomalie",
+      "voice": "Soixante-cinq virgule un pour cent. En 2023, la DGCCRF a contrôlé 1 739 professionnels de l'immobilier : près de deux sur trois avaient au moins une anomalie. Parmi elles, des biens présentés à tort comme exclusifs.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "DGCCRF, « Professions de l'immobilier : beaucoup de manquements », écrit le 19/12/2024 (enquête 2023), consulté le 28/10/2026",
+      "guess": {
+        "q": "En 2023, sur 1 739 professionnels de l'immobilier contrôlés par la DGCCRF, quelle part avait au moins une anomalie ?",
+        "answer": 65.1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "unit": " %"
+      },
+      "value": "65,1 %",
+      "label": "des professionnels de l'immobilier contrôlés par la DGCCRF en 2023 avaient au moins une anomalie (1 132 sur 1 739)"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Simple → exclusif → semi-exclusif",
+      "voice": "D'abord, le mandat simple. Plusieurs agences, et le vendeur peut vendre lui-même. Seul l'agent qui conclut la vente est payé. Ensuite, l'exclusif. Une seule agence. La clause d'exclusivité, en caractères très apparents, précise tes actions et tes comptes rendus. Trois mois, puis chacun peut le dénoncer, avec quinze jours de préavis par recommandé. Enfin, le semi-exclusif. Une seule agence, mais le vendeur garde le droit de trouver lui-même un acheteur, sans honoraires ou avec des honoraires réduits, selon le mandat. Et pour les trois : un écrit, une durée limitée, le prix, les honoraires et qui les paie, et un numéro au registre des mandats.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Service-Public F1550 (vérifié le 19/09/2025) ; DGCCRF, fiche « L'agent immobilier » ; décret n° 72-678, art. 72, 73 et 78 (Légifrance)",
+      "steps": [
+        {
+          "label": "Simple",
+          "detail": "Plusieurs agences, il peut vendre lui-même ; seul l'agent qui conclut est payé."
+        },
+        {
+          "label": "Exclusif",
+          "detail": "Une seule agence ; clause très apparente ; 3 mois, puis préavis de 15 jours."
+        },
+        {
+          "label": "Semi-exclusif",
+          "detail": "Une seule agence, mais il peut trouver lui-même un acheteur ; honoraires selon le mandat."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Exemple du parcours maison. Mme Garnier veut une seule agence, mais garder le droit de vendre à un voisin intéressé. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération ; Service-Public F1550 ; Mme Garnier : bible §11 (fictif, proposition à valider)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Exemple du parcours maison : Mme Garnier veut confier la vente à une seule agence, mais garder la possibilité de vendre elle-même à un voisin qui s'est dit intéressé. Quel mandat Élodie lui propose-t-elle, et que vérifie-t-elle dans le texte ?",
+      "model_answer": "Un mandat semi-exclusif : une seule agence, et Mme Garnier garde le droit de vendre elle-même. Élodie vérifie que le mandat dit clairement ce qui se passe si Mme Garnier trouve l'acheteur (pas d'honoraires, ou honoraires réduits), sa durée limitée, le prix, les honoraires et qui les paie, la clause en caractères très apparents, et le numéro du registre sur son exemplaire.",
+      "keywords": [
+        "semi-exclusif",
+        "vendre elle-même",
+        "honoraires",
+        "durée",
+        "registre"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte. Quelle règle Mozi enfreint-il ?",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Service-Public F1550 ; DGCCRF, fiche « L'agent immobilier » ; décret n° 72-678, art. 72 et 78 (Légifrance)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Aucune : une durée « jusqu'à la vente » suffit si le vendeur est d'accord",
+          "Aucune : la durée n'est obligatoire que dans le mandat simple",
+          "Tout mandat est écrit et limité dans le temps : la durée est une mention obligatoire"
+        ],
+        "answer": 2,
+        "feedback": "Le mandat est écrit, daté, signé, et comporte notamment sa durée, le prix, la rémunération et la partie qui la paie, et le numéro d'inscription au registre des mandats. Pour l'exclusif : 3 mois, puis dénonciation possible avec 15 jours de préavis par LRAR (décret n° 72-678, art. 78).",
+        "whys": [
+          "Faux : le mandat doit avoir une durée limitée, quel que soit l'accord du vendeur.",
+          "Faux : simple, exclusif ou semi-exclusif, la durée figure toujours au mandat.",
+          "Exact : écrit, durée limitée, prix, honoraires et qui les paie, numéro au registre."
+        ]
+      },
+      "card2": {
+        "question": "Si M. Bernard voulait sortir de son mandat exclusif signé le 5/11/2026, que se passerait-il ?",
+        "answer": "Pendant trois mois, jusqu'au 5/02/2027, il reste engagé. Ensuite, chacun peut dénoncer le mandat à tout moment, par lettre recommandée avec avis de réception, au moins quinze jours à l'avance (décret n° 72-678, art. 78). Signé hors agence, il aurait aussi eu 14 jours pour se rétracter."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : proposer le bon mandat, et le rédiger juste. Le tableau des trois mandats, et la check-list des mentions.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils (ressource de la capsule 3.26)",
+      "goal": "Proposer le bon mandat, et le rédiger juste",
+      "tools": [
+        {
+          "name": "Tableau des trois mandats",
+          "role": "Durée, exclusivité, honoraires, résiliation, côte à côte"
+        },
+        {
+          "name": "Check-list des mentions",
+          "role": "Mentions obligatoires et registre, avant la signature"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Le tableau : trois mandats côte à côte",
+      "voice": "Le tableau. Simple : plusieurs agences, reconduction possible si le vendeur en est informé. Exclusif : une agence, une clause très apparente, pas de reconduction tacite. Semi-exclusif : une agence, mais il peut vendre seul. Pour M. Bernard, profil C : l'exclusif, trois mois, avec tes engagements écrits.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Service-Public F1550 (vérifié le 19/09/2025) ; décret n° 72-678, art. 78 ; mandat de M. Bernard : bible §7 (fictif)",
+      "tool": "Tableau des trois mandats",
+      "steps": [
+        "Simple : plusieurs agences, il peut vendre seul, reconduction avec information préalable",
+        "Exclusif : une agence, clause très apparente, pas de reconduction tacite",
+        "Semi-exclusif : une agence, il peut vendre seul, honoraires prévus au mandat",
+        "Résiliation de l'exclusif : après 3 mois, préavis de 15 jours par LRAR",
+        "Pour M. Bernard : exclusif, 3 mois, 9 000 € TTC à la charge de l'acquéreur"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "La check-list : avant la signature",
+      "voice": "La check-list avant signature. Un écrit, daté, signé, en deux exemplaires. Le prix, la durée, les honoraires et qui les paie. La clause, très apparente, avec tes actions et tes comptes rendus. Les moyens de diffusion des annonces. Et le numéro du registre, sur son exemplaire.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Service-Public F1550 ; décret n° 72-678, art. 72, 73 et 78 (Légifrance) ; modèle de mandat D18 (fictif)",
+      "tool": "Check-list des mentions",
+      "steps": [
+        "Forme : écrit, daté, signé, en 2 exemplaires originaux",
+        "Chiffres : 180 000 € net, 3 mois, 9 000 € TTC à la charge de l'acquéreur",
+        "Clause : exclusivité très apparente, actions et comptes rendus prévus",
+        "Diffusion : moyens employés pour les annonces",
+        "Registre : numéro reporté sur l'exemplaire de M. Bernard"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "À toi : compare les trois mandats sur ton cas.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 3.26 : comparer les trois types de mandat sur un cas de vendeur",
+      "cta": "Ouvrir le cas à comparer",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton tableau des trois mandats et ta recommandation.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 3.26 : tableau comparatif rempli et recommandation",
+      "ask": "Dépose une capture de ton tableau comparatif rempli pour le cas du vendeur (durée, exclusivité, honoraires, mentions obligatoires, résiliation, pour les trois mandats) et de ta recommandation en deux phrases : lequel proposer, et pourquoi.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Garde le modèle de mandat de ton agence sous la main, puis reviens déposer ton tableau."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Mozi signe des mandats sans fin sur une serviette. Toi, tu sais lequel proposer, et tu sais le rédiger juste.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "source": "Fait observable : ton tableau comparatif et ta check-list des mentions",
+      "status": "Ton mandat : une durée, un numéro, une clause lisible. Mozi : une serviette et « on verra »."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (loi Hoguet)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068387"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972, art. 72 (mandat écrit, registre des mandats, numéro reporté sur l'exemplaire du mandant), vérifié le 26/10/2026",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033202014"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 73 (rémunération précisée dans le mandat, partie qui en a la charge), vérifié le 26/10/2026",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033261932"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 78 (clause d'exclusivité ou pénale : stipulation expresse, caractères très apparents, exemplaire remis ; dénonciation après 3 mois, préavis de 15 jours par LRAR), consulté le 28/10/2026",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000030782471"
+    },
+    {
+      "label": "Service-Public — F1550 « Quel mandat de vente peut-on confier à un agent immobilier ? » (vérifié le 19/09/2025 : mandats simple, exclusif, semi-exclusif ; mentions, durée, reconduction, résiliation), consulté le 28/10/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1550"
+    },
+    {
+      "label": "DGCCRF — Fiche pratique « L'agent immobilier : les règles qui encadrent la profession » (écrit le 04/08/2023 : barème TTC en prix maximums, mentions du mandat, mandat simple ou exclusif, clause pénale, commission), consultée le 28/10/2026",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques-et-les-faq/lagent-immobilier-les-regles-qui-encadrent-la-profession"
+    },
+    {
+      "label": "DGCCRF — « Professions de l'immobilier : beaucoup de manquements » (écrit le 19/12/2024, enquête 2023 : 1 739 professionnels contrôlés, 65,1 % en anomalie, pratiques commerciales trompeuses = 16 % des anomalies), consulté le 28/10/2026",
+      "url": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/les-enquetes/professions-de-limmobilier-beaucoup-de-manquements"
+    },
+    {
+      "label": "Bible du fil rouge (données fictives : §1, §5, §6, §7 ; codes D03, D07, D09, D12, D13, D18)",
+      "url": null
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "À faire relire par un juriste : ensemble des règles des écrans 5, 7, 9, 11 et 12 (mentions obligatoires, durée limitée, reconduction, clause pénale, art. 72, 73 et 78 du décret n° 72-678)",
+    "Mandat semi-exclusif : il n'a pas de définition propre dans la loi Hoguet ; Service-Public (F1550) indique une résiliation à la fin de la durée initiale, alors que la présence d'une clause d'exclusivité envers les autres agents pourrait relever de l'art. 78 (3 mois, préavis de 15 jours) : à trancher par un juriste avant diffusion",
+    "Reconduction tacite (mandat simple et semi-exclusif) et interdiction pour l'exclusif : reprises de Service-Public F1550 ; texte de référence (Code de la consommation) à vérifier",
+    "Calcul des honoraires de la ressource (exemple : 9 000 € TTC = 5 % de 180 000 € net vendeur, à la charge de l'acquéreur) : textes à sourcer",
+    "Écran 8 : le voisin intéressé de Mme Garnier est une hypothèse d'exercice, absente de la bible (parcours maison, proposition à valider)",
+    "Écran 6 : 65,1 % porte sur l'ensemble des anomalies (pas seulement les mandats) ; toujours afficher la source DGCCRF et l'année 2023",
+    "Numéro de registre fictif à afficher en démonstration (ex. « n° 2026-118, fictif »)",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}
