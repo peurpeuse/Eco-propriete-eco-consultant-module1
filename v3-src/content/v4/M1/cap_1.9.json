@@ -1,0 +1,244 @@
+{
+ "id": "1.9",
+ "module": 1,
+ "section": "E · Je me spécialise",
+ "etape": "Avant l'étape 1",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "La méthode DISC : se connaître",
+ "objective": "Identifier son style de communication dominant (D, I, S ou C) avec l'auto-test, et décrire son effet probable sur deux types de clients avec un ajustement concret",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Avant de lire le style des vendeurs (module 3), Sébastien Paumier te fait lire le tien. Il présente les quatre styles DISC (Dominant, Influent, Stable, Conforme), puis montre ce qui se passe quand un agent très rapide et enthousiaste rencontre M. Bernard, ancien ingénieur qui veut des preuves. Le DISC n'est pas une étiquette : c'est un miroir pour ajuster ta façon de parler."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Qu'est-ce que la méthode DISC dans ta pratique d'éco-consultant ?",
+    "options": [
+     "Un test de personnalité qui te classe définitivement.",
+     "Une grille de communication : elle t'aide à repérer ton style et à l'ajuster selon ton interlocuteur.",
+     "Un diagnostic psychologique à faire passer aux vendeurs."
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : chacun a un peu des quatre styles ; le résultat est une tendance, pas une étiquette.",
+     "Juste : c'est un outil de communication, issu du modèle de W. M. Marston (1928), utilisé comme hypothèse de travail.",
+     "Faux : tu n'es pas psychologue et tu ne fais passer aucun test à un client."
+    ],
+    "fb_title": "Un miroir, pas une étiquette",
+    "fb_text": "Le DISC décrit des préférences de communication : rythme (rapide ou posé) et orientation (faits ou personnes). Tu t'en sers pour te connaître et t'adapter, jamais pour juger ou classer quelqu'un."
+   },
+   {
+    "question": "Sarah obtient un profil I dominant (rapide, tournée vers les personnes). Quel risque court-elle avec M. Bernard, profil C ?",
+    "options": [
+     "Aucun : l'enthousiasme convainc tout le monde.",
+     "Qu'il la trouve trop lente et trop détaillée.",
+     "Qu'il la trouve peu fiable si elle avance des chiffres approximatifs sans source et parle plus qu'elle ne prouve."
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : un style C se méfie de l'enthousiasme sans preuve.",
+     "Faux : c'est le risque d'un style S ou C face à un D, pas celui d'un I.",
+     "Juste : un C veut des sources et des documents ; l'ajustement de Sarah : envoyer le dossier avant, citer chaque source."
+    ],
+    "fb_title": "Ton style a un effet sur l'autre",
+    "fb_text": "Le style I crée vite la relation, mais un C comme M. Bernard (fictif) décroche devant les approximations. Sarah garde sa chaleur et ajoute ce qu'il attend : dossier envoyé 48 h avant, source de chaque chiffre, temps de réflexion."
+   },
+   {
+    "question": "Ton auto-test (8 situations) donne : D 4, I 1, S 0, C 3. Que retiens-tu ?",
+    "options": [
+     "Un style D dominant, avec un C fort en appui : rapide et orienté résultats, attentif aux faits.",
+     "Un style S, car c'est le plus faible.",
+     "Aucun résultat : il faut au moins 6 réponses dans une colonne pour conclure."
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : le score le plus élevé indique le style dominant ; le deuxième nuance le portrait.",
+     "Faux : le score le plus faible montre le style que tu utilises le moins, pas ton style dominant.",
+     "Faux : il n'y a pas de seuil ; on lit les scores les uns par rapport aux autres."
+    ],
+    "fb_title": "Dominant et appui",
+    "fb_text": "On lit le score le plus haut (style dominant) et le suivant (style d'appui). D + C : direct, exigeant sur les faits. Point de vigilance : avec un vendeur S comme Mme Garnier (fictive), ralentir et rassurer."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Auto-test DISC et fiche de lecture",
+  "kind": "fiche",
+  "intro": "Un auto-test de 8 situations pour repérer ton style de communication dominant, puis une fiche de lecture pour comprendre son effet sur tes clients. Ce n'est pas un test psychologique validé : c'est une grille de réflexion, proposée par Éco-Propriété à partir du modèle DISC de W. M. Marston (1928). Réponds vite, selon ce que tu fais vraiment, pas ce que tu voudrais faire.",
+  "sections": [
+   {
+    "heading": "Auto-test : pour chaque situation, coche la réponse qui te ressemble le plus",
+    "type": "table",
+    "headers": [
+     "Situation",
+     "D",
+     "I",
+     "S",
+     "C"
+    ],
+    "rows": [
+     [
+      "Un vendeur hésite",
+      "Je propose une décision",
+      "Je le rassure par une histoire",
+      "Je lui laisse du temps",
+      "Je lui envoie les chiffres"
+     ],
+     [
+      "Je prépare un rendez-vous",
+      "3 points clés",
+      "Le premier contact, l'ambiance",
+      "Le déroulé pas à pas",
+      "Toutes les pièces du dossier"
+     ],
+     [
+      "On me pose une question piège",
+      "Je réponds net",
+      "Je détends l'atmosphère",
+      "Je reformule",
+      "Je vérifie avant de répondre"
+     ],
+     [
+      "Un collègue me critique",
+      "Je défends ma position",
+      "J'en parle pour dénouer",
+      "J'évite le conflit",
+      "Je demande les faits précis"
+     ],
+     [
+      "Ma journée idéale",
+      "Des objectifs atteints",
+      "Des rencontres",
+      "Un rythme stable",
+      "Un travail bien fait"
+     ],
+     [
+      "Je présente un prix",
+      "Le chiffre d'abord",
+      "Un exemple de vente",
+      "Les étapes du calcul",
+      "Le tableau des comparables"
+     ],
+     [
+      "Un imprévu arrive",
+      "Je tranche vite",
+      "J'improvise",
+      "Je suis déstabilisé",
+      "J'analyse avant d'agir"
+     ],
+     [
+      "On me dit souvent que je suis",
+      "Direct",
+      "Enthousiaste",
+      "Patient",
+      "Précis"
+     ]
+    ]
+   },
+   {
+    "heading": "Calcul et lecture du résultat",
+    "type": "formula",
+    "text": "Compte tes réponses par colonne (total = 8). Score le plus élevé = style dominant ; deuxième score = style d'appui. Exemple : D 4, I 1, S 0, C 3 → D dominant, C en appui. Si deux scores sont égaux, garde les deux et observe-toi en rendez-vous pendant deux semaines."
+   },
+   {
+    "heading": "Fiche de lecture : ton style et ses effets",
+    "type": "table",
+    "headers": [
+     "Style",
+     "Tes forces",
+     "Ton risque avec un client",
+     "Ton ajustement"
+    ],
+    "rows": [
+     [
+      "D · Dominant",
+      "Décision, efficacité, cap clair",
+      "Brusquer un S, survoler les preuves d'un C",
+      "Ralentir, laisser le temps, montrer les sources"
+     ],
+     [
+      "I · Influent",
+      "Contact, énergie, récit",
+      "Paraître léger à un C, promettre trop vite",
+      "Écrire un récapitulatif sourcé après chaque échange"
+     ],
+     [
+      "S · Stable",
+      "Écoute, fiabilité, patience",
+      "Paraître lent à un D, ne pas oser conclure",
+      "Préparer une recommandation claire et la dire"
+     ],
+     [
+      "C · Conforme",
+      "Rigueur, exactitude, dossier solide",
+      "Noyer un D ou un I sous les détails",
+      "Commencer par une page de synthèse, détails en annexe"
+     ]
+    ]
+   },
+   {
+    "heading": "Exemple : face aux deux vendeurs du fil rouge (fictifs)",
+    "type": "text",
+    "text": "M. Bernard est C : il veut des preuves, décide lentement, déteste l'insistance. Mme Garnier est S : elle a besoin d'être rassurée et consulte ses fils. Un agent D dominant devra, avec M. Bernard, envoyer le dossier avant et citer chaque source ; avec Mme Garnier, ralentir, présenter les étapes et proposer d'associer ses fils. Le fond reste le même pour les deux : même DPE vérifié, mêmes règles, aucune pression."
+   },
+   {
+    "heading": "Les règles d'éthique",
+    "type": "checklist",
+    "items": [
+     "Je formule une hypothèse de style, jamais un jugement sur une personne.",
+     "Je garde le même fond pour tous : mêmes chiffres, mêmes règles, même honnêteté.",
+     "Je n'utilise jamais un style repéré pour faire pression ou exploiter une crainte.",
+     "Je ne fais passer aucun questionnaire à un client."
+    ]
+   }
+  ],
+  "footer": "Origine du modèle : W. M. Marston, Emotions of Normal People (1928). Auto-test et grille : proposition pédagogique Éco-Propriété, outil de communication générique sans lien avec les questionnaires commerciaux sous marque, non validé comme test psychométrique. Profils de M. Bernard et Mme Garnier : fil rouge fictif. Mise à jour : 28/10/2026."
+ },
+ "exercise": {
+  "title": "Mon profil DISC et son effet sur mes clients",
+  "duration_min": 25,
+  "context": "Tu passes l'auto-test, tu identifies ton style dominant et ton style d'appui, puis tu réfléchis à leur effet sur deux clients réels récents (anonymisés) et sur un vendeur du fil rouge.",
+  "materials": [
+   "Auto-test DISC et fiche de lecture",
+   "Tes notes sur deux rendez-vous vendeurs récents (anonymisées)",
+   "D01 Fiche découverte de M. Bernard et M01 Fiche découverte de Mme Garnier (fictifs)"
+  ],
+  "steps": [
+   "Passe l'auto-test et calcule tes scores D, I, S, C.",
+   "Identifie ton style dominant et ton style d'appui ; recopie tes forces et ton risque dans la fiche de lecture.",
+   "Choisis deux rendez-vous récents : décris en une phrase comment ton style a aidé ou gêné l'échange.",
+   "Applique-toi à M. Bernard (C) ou à Mme Garnier (S) : quel est ton risque principal avec ce vendeur ?",
+   "Écris deux ajustements concrets (un geste, une phrase) que tu appliqueras dès ton prochain rendez-vous."
+  ],
+  "expected": "Exemple attendu. Scores : D 4, I 1, S 0, C 3 : style D dominant, C en appui. Forces : je vais à l'essentiel, je prépare mes chiffres. Risque : brusquer les vendeurs qui ont besoin de temps. Rendez-vous 1 (vendeuse de 78 ans, succession) : j'ai proposé de signer le mandat le jour même ; elle a demandé à réfléchir et ne m'a pas rappelé. Rendez-vous 2 (cadre pressé, mutation) : échange rapide et efficace, mandat signé. Avec Mme Garnier (S, fictive) : mon risque est de la presser. Ajustements : 1. je présente le déroulé en étapes et je propose d'associer ses fils à un deuxième rendez-vous ; 2. je termine par « Prenez le temps d'en parler, je vous rappelle jeudi à l'heure qui vous convient »."
+ },
+ "deliverable": {
+  "title": "Mon profil DISC et mes ajustements",
+  "format": "PDF, une demi-page : scores de l'auto-test + style dominant et d'appui + 2 rendez-vous analysés + 2 ajustements",
+  "criteria": [
+   "Les scores sont calculés et le style dominant et d'appui identifiés",
+   "Deux rendez-vous réels sont analysés, sans donnée personnelle",
+   "Le risque avec un vendeur du fil rouge est décrit en lien avec son style (C ou S)",
+   "Deux ajustements concrets et applicables (geste ou phrase)",
+   "Aucun jugement sur une personne, aucune technique de pression"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Everything DiSC — Histoire du modèle (W. M. Marston, Emotions of Normal People, 1928)",
+   "url": "https://www.everythingdisc.com/our-story"
+  },
+  {
+   "label": "Proposition pédagogique Éco-Propriété — auto-test DISC et grille de communication (fil rouge fictif)",
+   "url": "https://eco-propriete.fr"
+  }
+ ],
+ "open_points": [
+  "Auto-test en 8 situations : création pédagogique Éco-Propriété, non validée scientifiquement ; à valider par Sébastien Paumier (et à vérifier : absence de reprise d'un questionnaire commercial protégé).",
+  "Cohérence avec les capsules DISC du module 3 (ancienne 3.2) : mêmes libellés de styles et mêmes règles d'éthique."
+ ]
+}

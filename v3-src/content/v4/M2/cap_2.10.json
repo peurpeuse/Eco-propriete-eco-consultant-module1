@@ -1,0 +1,162 @@
+{
+  "id": "2.10",
+  "module": 2,
+  "section": "C · Le DPE et l'audit énergétique",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Commander un DPE ou un audit",
+  "objective": "Rédiger une commande claire à un diagnostiqueur ou un auditeur certifié, pièces à fournir comprises, et lire une simulation d'étiquette sans la présenter comme une classe officielle",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Un DPE juste commence par une bonne commande. Sébastien Paumier vérifie un certificat dans l'annuaire du ministère, rappelle les règles d'indépendance, puis rédige la commande : pièces à fournir (factures, plans, descriptif), délai, questions précises. Il lit enfin une simulation d'étiquette après travaux : utile pour décider, jamais à afficher dans une annonce."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Comment vérifies-tu qu'un diagnostiqueur peut réaliser le DPE de ton vendeur ?",
+        "options": [
+          "Tu regardes ses avis en ligne",
+          "Tu cherches son certificat dans l'annuaire officiel des diagnostiqueurs certifiés du ministère",
+          "Tu lui demandes s'il a déjà travaillé avec ton agence"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : les avis ne prouvent ni la certification ni sa validité.",
+          "Juste : l'annuaire public permet de vérifier la certification et sa validité par domaine.",
+          "Faux : un lien habituel avec ton agence ne prouve rien ; il peut même poser une question d'indépendance."
+        ],
+        "fb_title": "L'annuaire officiel",
+        "fb_text": "Le diagnostiqueur doit détenir un certificat délivré par un organisme accrédité par le Cofrac, être assuré et n'avoir aucun lien avec le propriétaire, son mandataire ou une entreprise de travaux. L'annuaire du ministère permet de vérifier le certificat par son numéro."
+      },
+      {
+        "question": "Après sa simulation, le diagnostiqueur estime l'appartement de M. Bernard « vers D » une fois les travaux privatifs faits. Que peux-tu écrire dans l'annonce ?",
+        "options": [
+          "« Classe D après travaux »",
+          "« Bientôt classe D »",
+          "La classe en vigueur (E) ; la simulation se présente à part, comme une estimation à confirmer"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : une simulation n'est pas un DPE ; l'annonce affiche la classe en vigueur.",
+          "Faux : c'est une promesse de classe, interdite dans ta pratique.",
+          "Juste : l'annonce reprend l'étiquette en vigueur ; la simulation sert au conseil, présentée comme une estimation."
+        ],
+        "fb_title": "Simulation n'est pas étiquette",
+        "fb_text": "Seuls le DPE et l'attestation actualisée établissent une classe. Une simulation après travaux (ici ≈ 110 kWhEF → ≈ 209 kWhEP avec 1,9 → D, à confirmer) aide à décider des travaux ; elle se présente comme une estimation, avec ses hypothèses."
+      },
+      {
+        "question": "Mme Garnier (maison classée G) doit faire réaliser un audit énergétique avant de vendre. Qui peut le réaliser ?",
+        "options": [
+          "Un professionnel qualifié et indépendant : bureau d'études ou entreprise avec signe de qualité, architecte formé, diagnostiqueur habilité",
+          "L'artisan qui fera les travaux, puisqu'il connaît les prix",
+          "L'agent immobilier, avec un logiciel gratuit"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : ce sont les profils prévus par les textes, sans lien de nature à porter atteinte à leur impartialité.",
+          "Faux : l'auditeur doit être indépendant ; le vendeur garde le libre choix des entreprises.",
+          "Faux : l'agent n'est pas auditeur et ne vend pas de travaux."
+        ],
+        "fb_title": "Un auditeur qualifié et indépendant",
+        "fb_text": "L'audit réglementaire est réalisé par un professionnel qualifié, impartial, assuré, qui ne sous-traite pas l'audit. Il est valable 5 ans et remis dès la première visite. Ton rôle : vérifier la qualification, préparer les pièces, relire le rendu avec le vendeur."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de commande + lecture de la simulation d'étiquette",
+    "kind": "modele",
+    "intro": "Un modèle de commande que le vendeur envoie (ou que tu prépares pour lui) au diagnostiqueur ou à l'auditeur de son choix. Une bonne commande donne les pièces, précise ce qui est attendu et fixe un délai compatible avec la mise en vente. Avec la grille pour lire une simulation d'étiquette après travaux.",
+    "sections": [
+      {
+        "heading": "Avant de commander",
+        "type": "checklist",
+        "items": [
+          "Certificat vérifié sur l'annuaire officiel (domaine DPE, amiante, électricité…), en cours de validité",
+          "Pour un audit : qualification de l'auditeur vérifiée (signe de qualité, architecte formé, diagnostiqueur certifié avec compétence audit)",
+          "Attestation d'assurance de responsabilité professionnelle demandée",
+          "Aucun lien avec le vendeur, ton agence ou une entreprise de travaux",
+          "Deux devis au moins, choisis par le vendeur"
+        ]
+      },
+      {
+        "heading": "Modèle de commande (à adapter)",
+        "type": "text",
+        "text": "« Objet : commande de [DPE / audit énergétique réglementaire / diagnostics électricité, amiante…] pour la vente de [type de bien, surface, année] situé à [commune]. Je vous confie : [liste des diagnostics]. Pièces jointes : plan et descriptif, factures des travaux réalisés (menuiseries, chauffage, isolation, ventilation), DPE précédent et son numéro, diagnostics existants. Points à examiner : [ex. ventilation réelle, fenêtres remplacées en 2004]. Accès : [dates de visite possibles, accès aux combles, au sous-sol, à la chaufferie]. Rendu attendu avant le [date], en PDF, avec le numéro ADEME pour le DPE. Merci de joindre votre certificat et votre attestation d'assurance. [Signature du vendeur]. »"
+      },
+      {
+        "heading": "Lire une simulation d'étiquette",
+        "type": "steps",
+        "items": [
+          "Repère les hypothèses : quels travaux, quelles performances (Uw des fenêtres, type de VMC, rendement du chauffage) ?",
+          "Vérifie le coefficient de l'électricité utilisé (1,9 en 2026, 1,7 au 1/01/2027).",
+          "Compare le résultat aux seuils et note l'écart au seuil : une simulation à 5 près ne garantit rien.",
+          "Compare les travaux simulés aux devis réels (D13 ou M14).",
+          "Écris la conclusion au conditionnel, avec la mention « estimation, à confirmer par un DPE après travaux »."
+        ]
+      },
+      {
+        "heading": "Exemple : la simulation de M. Bernard",
+        "type": "text",
+        "text": "Hypothèse : les 4 travaux du D13 (fenêtres, VMC, radiateurs à inertie, chauffe-eau thermodynamique : 16 500 €). Résultat estimé : ≈ 110 kWhEF/m²/an ; 110 × 1,9 = 209 kWhEP/m²/an → D (seuil D : > 180 et ≤ 250). Avec l'isolation par l'extérieur de la copropriété en plus : ≈ 85 kWhEF ; 85 × 1,9 = 161,5 → C. Phrase : « D'après la simulation, ces travaux pourraient faire passer l'appartement en D ; c'est une estimation, seul un DPE après travaux le confirmera. »"
+      }
+    ],
+    "footer": "Sources : ecologie.gouv.fr, diagnostiqueur immobilier (5/08/2025) et annuaire des diagnostiqueurs certifiés ; INC, audit énergétique (16/12/2024) ; service-public.fr F16096. Données du fil rouge fictives (BIBLE §6). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Rédiger la commande à un diagnostiqueur certifié",
+    "duration_min": 25,
+    "context": "M. Bernard envisage de faire les travaux privatifs avant la vente et veut savoir ce qu'ils changeraient. Il te demande de préparer la commande d'une simulation d'étiquette, et de vérifier au passage que son dossier de diagnostics (D17) couvrira la date d'acte prévue (15/03/2027). Variante parcours maison : relis la commande qui aurait dû précéder l'audit de Mme Garnier (M03) et liste ce qu'elle devait contenir.",
+    "materials": [
+      "D02 DPE et D03 attestation actualisée",
+      "D13 Devis des travaux privatifs",
+      "D17 Dossier de diagnostic technique",
+      "Annuaire des diagnostiqueurs certifiés (ministère)",
+      "M03 Audit énergétique (variante maison)"
+    ],
+    "steps": [
+      "Vérifie dans l'annuaire le certificat de deux diagnostiqueurs de ton secteur (sans les recommander au vendeur : il choisit).",
+      "Relève dans le D17 la date de chaque diagnostic et ce qui expire avant le 15/03/2027.",
+      "Rédige la commande avec le modèle : objet, pièces jointes, points à examiner, accès, délai.",
+      "Écris les hypothèses de la simulation à partir du D13.",
+      "Rédige la phrase qui présentera le résultat de la simulation au vendeur."
+    ],
+    "expected": "Exemple de commande : « Objet : simulation de l'étiquette DPE après travaux et contrôle des diagnostics pour la vente d'un T4 de 76 m² (1972) à Melun. Pièces jointes : DPE du 14/03/2023 (n° à 13 caractères) et attestation actualisée E, plan (D04), devis des travaux (D13 : 4 fenêtres PVC Uw ≤ 1,3, VMC hygroréglable B et débouchage du conduit, 6 radiateurs à inertie programmables, chauffe-eau thermodynamique 200 L), dossier de diagnostics (D17). Points à examiner : ventilation naturelle actuelle, conduit de salle de bains obstrué. Rendu avant le 30/11/2026. Merci de joindre certificat et assurance. » Contrôle D17 : diagnostic électricité valable 3 ans, à refaire s'il date d'avant le 15/03/2024 ; état des risques à refaire à moins de 6 mois de la promesse ; amiante et Carrez sans limite si rien n'a changé. Phrase : « D'après la simulation, ces travaux pourraient faire passer l'appartement autour de 209 kWhEP, en D ; c'est une estimation, seul un DPE après travaux le confirmera. »"
+  },
+  "deliverable": {
+    "title": "Commande au diagnostiqueur pour M. Bernard",
+    "format": "1 page (DOCX ou PDF) : commande + tableau des validités du D17",
+    "criteria": [
+      "La certification d'au moins un diagnostiqueur est vérifiée sur l'annuaire officiel",
+      "La commande liste les pièces jointes et les points à examiner",
+      "Les hypothèses de la simulation reprennent exactement le D13",
+      "Les validités du D17 sont comparées à la date d'acte prévue",
+      "La simulation est présentée comme une estimation à confirmer, jamais comme une classe"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Ministère de la Transition écologique : diagnostiqueur immobilier, profession réglementée (certification Cofrac, assurance, indépendance), mis à jour le 5/08/2025",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/diagnostiqueur-immobilier-profession-reglementee"
+    },
+    {
+      "label": "Annuaire des diagnostiqueurs immobiliers certifiés (ministère)",
+      "url": "https://diagnostiqueurs.din.developpement-durable.gouv.fr/index.action"
+    },
+    {
+      "label": "INC : audit énergétique à la vente (qualification et indépendance de l'auditeur, validité 5 ans), 16/12/2024",
+      "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons"
+    },
+    {
+      "label": "Service-Public F16096 : DPE (coefficient de l'électricité, attestation actualisée)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+    }
+  ],
+  "open_points": [
+    "À vérifier : qualifications exactes exigées en 2026 pour les diagnostiqueurs réalisant l'audit (la mesure transitoire de l'INC s'arrêtait au 31/12/2023)",
+    "BIBLE : les dates de chaque pièce du D17 ne sont pas fixées ; à définir pour que l'exercice ait un corrigé unique",
+    "La simulation après travaux (≈ 110 kWhEF → D) est une estimation fictive de la BIBLE §6, à faire confirmer par un diagnostiqueur"
+  ]
+}
