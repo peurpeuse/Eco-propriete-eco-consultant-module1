@@ -11,7 +11,7 @@
   "video": {
     "duration": "4:30",
     "chapter": false,
-    "pitch": "Mozi affiche : « Travaux remboursés par les aides et les économies ! » Sébastien Paumier refait les comptes de l'appartement de M. Bernard : 16 500 € de travaux privatifs, 0 € d'aide notifiée (MaPrimeRénov' par geste exclut désormais ventilation, chauffage et isolation), un retour indicatif de 19 à 27 ans sur les économies d'énergie. Pas de promesse : des chiffres datés, sourcés, et la mention « aucun gain garanti »."
+    "pitch": "Mozi affiche : « Travaux remboursés par les aides et les économies ! » Sébastien Paumier refait les comptes de l'appartement de M. Bernard : 16 500 € de travaux privatifs, 0 € d'aide notifiée, un retour indicatif de 19 à 27 ans sur les économies d'énergie. Pas de promesse : des chiffres datés, sourcés, et la mention « aucun gain garanti »."
   },
   "quiz": {
     "questions": [
@@ -48,9 +48,9 @@
         "fb_text": "16 500 / 851 ≈ 19,4 ans ; 16 500 / 621 ≈ 26,6 ans. Ce retour est indicatif : il repose sur les coûts conventionnels du DPE, pas sur les factures. Les travaux améliorent aussi le confort et la valeur, sans gain garanti."
       },
       {
-        "question": "L'acquéreur des Martin demande si l'éco-prêt à taux zéro réduit le coût des travaux. Que réponds-tu ?",
+        "question": "Un acquéreur demande si l'éco-prêt à taux zéro réduit le coût des travaux. Que réponds-tu ?",
         "options": [
-          "« C'est un prêt sans intérêts, jusqu'à 50 000 € selon les travaux : il étale le paiement, il ne réduit pas le coût ; l'éligibilité se vérifie auprès de la banque »",
+          "« C'est un prêt sans intérêts, jusqu'à 50 000 € selon les travaux : il étale le paiement sans réduire le coût ; la banque décide »",
           "« Oui, il rembourse 50 000 € de travaux »",
           "« C'est une aide de l'État que je vous garantis »"
         ],
@@ -73,14 +73,56 @@
       {
         "type": "table",
         "heading": "Budget et aides : exemple rempli (M. Bernard, FICTIF, octobre 2026)",
-        "headers": ["Poste", "Budget TTC", "Aide possible (statut au 28/10/2026)", "Aide retenue", "Reste à charge"],
+        "headers": [
+          "Poste",
+          "Budget TTC",
+          "Aide possible (statut au 28/10/2026)",
+          "Aide retenue",
+          "Reste à charge"
+        ],
         "rows": [
-          ["Fenêtres PVC (4)", "5 600 €", "À vérifier sur france-renov.gouv.fr ; CEE possibles", "0 €", "5 600 €"],
-          ["VMC + débouchage", "2 900 €", "MaPrimeRénov' par geste : ventilation exclue depuis le 1/09/2026", "0 €", "2 900 €"],
-          ["Radiateurs à inertie + thermostat", "4 800 €", "Équipement de chauffage exclu depuis le 1/09/2026", "0 €", "4 800 €"],
-          ["Chauffe-eau thermodynamique", "3 200 €", "Pompe à chaleur dédiée à l'eau chaude exclue depuis le 1/09/2026", "0 €", "3 200 €"],
-          ["Total privatifs", "16 500 €", "", "0 €", "16 500 €"],
-          ["Quote-part ITE (copropriété)", "35 880 €", "MaPrimeRénov' Copropriété demandée par le syndic, non notifiée", "0 €", "35 880 €"]
+          [
+            "Fenêtres PVC (4)",
+            "5 600 €",
+            "À vérifier sur france-renov.gouv.fr ; CEE possibles",
+            "0 €",
+            "5 600 €"
+          ],
+          [
+            "VMC + débouchage",
+            "2 900 €",
+            "MaPrimeRénov' par geste : ventilation exclue depuis le 1/09/2026",
+            "0 €",
+            "2 900 €"
+          ],
+          [
+            "Radiateurs à inertie + thermostat",
+            "4 800 €",
+            "Équipement de chauffage exclu depuis le 1/09/2026",
+            "0 €",
+            "4 800 €"
+          ],
+          [
+            "Chauffe-eau thermodynamique",
+            "3 200 €",
+            "Pompe à chaleur dédiée à l'eau chaude exclue depuis le 1/09/2026",
+            "0 €",
+            "3 200 €"
+          ],
+          [
+            "Total privatifs",
+            "16 500 €",
+            "",
+            "0 €",
+            "16 500 €"
+          ],
+          [
+            "Quote-part ITE (copropriété)",
+            "35 880 €",
+            "MaPrimeRénov' Copropriété demandée par le syndic, non notifiée",
+            "0 €",
+            "35 880 €"
+          ]
         ]
       },
       {
@@ -152,11 +194,25 @@
     ]
   },
   "sources": [
-    { "label": "Service-Public, « MaPrimeRénov' : certains projets de travaux bientôt exclus du dispositif » (A18332, publié le 23/02/2026, mis à jour le 27/08/2026)", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18332" },
-    { "label": "France Rénov', MaPrimeRénov' pour une rénovation par geste", "url": "https://france-renov.gouv.fr/aides/mpr" },
-    { "label": "economie.gouv.fr, L'éco-prêt à taux zéro (éco-PTZ) : jusqu'à 50 000 € selon les travaux", "url": "https://www.economie.gouv.fr/particuliers/gerer-mon-argent/emprunter-et-sassurer/leco-pret-taux-zero-eco-ptz-pouvez-vous-en-beneficier" },
-    { "label": "economie.gouv.fr, « TVA à taux réduit : pour quels travaux ? » (mis à jour le 11/12/2025)", "url": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-taux-reduit-pour-quels-travaux" },
-    { "label": "Proposition pédagogique Éco-Propriété : devis D13, coûts du DPE D02 et performances après travaux FICTIFS (Bible §3, §6)" }
+    {
+      "label": "Service-Public, « MaPrimeRénov' : certains projets de travaux bientôt exclus du dispositif » (A18332, publié le 23/02/2026, mis à jour le 27/08/2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18332"
+    },
+    {
+      "label": "France Rénov', MaPrimeRénov' pour une rénovation par geste",
+      "url": "https://france-renov.gouv.fr/aides/mpr"
+    },
+    {
+      "label": "economie.gouv.fr, L'éco-prêt à taux zéro (éco-PTZ) : jusqu'à 50 000 € selon les travaux",
+      "url": "https://www.economie.gouv.fr/particuliers/gerer-mon-argent/emprunter-et-sassurer/leco-pret-taux-zero-eco-ptz-pouvez-vous-en-beneficier"
+    },
+    {
+      "label": "economie.gouv.fr, « TVA à taux réduit : pour quels travaux ? » (mis à jour le 11/12/2025)",
+      "url": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-taux-reduit-pour-quels-travaux"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété : devis D13, coûts du DPE D02 et performances après travaux FICTIFS (Bible §3, §6)"
+    }
   ],
   "open_points": [
     "À vérifier : éligibilité des fenêtres à MaPrimeRénov' par geste et montants CEE à la date de chaque session ; date limite d'émission de l'éco-PTZ.",
