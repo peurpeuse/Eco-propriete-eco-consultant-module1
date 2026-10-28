@@ -1,0 +1,219 @@
+{
+  "id": "3.23",
+  "module": 3,
+  "title": "Le parcours des acquéreurs, argument de prise de mandat",
+  "capsule_title": "Le parcours des acquéreurs, argument de prise de mandat",
+  "duration": "4:30",
+  "objective": "Remplir pour l'appartement de M. Bernard la fiche de projection d'un futur acquéreur (coût complet, aides possibles, mensualité indicative, points à faire vérifier par un courtier) et la présenter au vendeur comme preuve d'une stratégie de commercialisation",
+  "mozi": {
+    "line": "Votre futur acheteur ? 600 € par mois, aides comprises, prêt déjà accordé : je l'ai lu dans le marc de café !",
+    "scene": "Mozi, blazer violet, penché sur une tasse de café vide dans la cuisine de M. Bernard, annonce des chiffres en fixant le fond de la tasse. Sur la nappe, un calcul griffonné et barré."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 3.23 : le parcours des acquéreurs",
+      "voice": "Bienvenue. Pour convaincre M. Bernard, tu vas lui montrer son futur acquéreur : ce qu'il paiera, et ce qu'il faudra vérifier.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre le parcours de l'acquéreur, appliquer la fiche de projection, puis prouver avec ta fiche remplie.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "ce qu'un acquéreur paiera vraiment, et la règle des 35 % qui filtre les dossiers" },
+        { "verb": "Appliquer", "text": "remplir la fiche de projection de l'appartement de M. Bernard, sans jamais promettre un prêt ni une aide" },
+        { "verb": "Prouver", "text": "montrer ta fiche remplie et la phrase que tu dis au vendeur" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Votre futur acheteur ? 600 € par mois, aides comprises, prêt déjà accordé : je l'ai lu dans le marc de café !",
+      "voice": "Votre futur acheteur ? 600 euros par mois, aides comprises, prêt déjà accordé : je l'ai lu dans le marc de café !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Votre futur acheteur ? 600 € par mois, aides comprises, prêt déjà accordé : je l'ai lu dans le marc de café !",
+      "scene": "Mozi fixe le fond d'une tasse de café vide dans la cuisine de M. Bernard ; sur la nappe, un calcul griffonné puis barré."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "189 000 €, 16 500 € de travaux, prêt accordé et aides acquises",
+      "voice": "Prix : 189 000 euros. Travaux chiffrés : 16 500 euros. Prêt accordé, aides acquises. Où est l'erreur ?",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant touche le temps fautif ; pause jusqu'à la réponse",
+      "source": null,
+      "beats": ["Prix : 189 000 € FAI", "Travaux chiffrés : 16 500 €", "Prêt accordé, aides acquises"],
+      "wrong": 2,
+      "why": "Une mensualité calculée par l'agent n'est pas une offre de prêt, et une aide n'est acquise qu'après décision de l'organisme."
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Mensualité rêvée, vente tombée",
+      "voice": "L'acquéreur signe sur une mensualité rêvée. La banque refuse le prêt. La condition suspensive joue : le compromis tombe, le dépôt est rendu. Et M. Bernard a perdu des semaines.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Prêt refusé : la condition suspensive joue, la vente tombe.", "Sommes versées rendues, semaines perdues pour le vendeur."],
+      "source": "Code de la consommation, art. L. 313-41 (vente conclue sous condition suspensive d'obtention du prêt ; si elle n'est pas réalisée, toute somme versée d'avance est remboursée sans retenue ni indemnité), Légifrance"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "35 % : le plafond du taux d'effort",
+      "voice": "Trente-cinq pour cent. C'est le plafond du taux d'effort fixé par le Haut Conseil de stabilité financière, assurance comprise, sur 25 ans au plus. Au-delà, la plupart des dossiers ne passent pas.",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant estime au curseur, puis le vrai chiffre s'affiche",
+      "guess": { "q": "Quel taux d'effort maximal (charges d'emprunt sur revenus, assurance comprise) le HCSF impose-t-il aux banques ?", "answer": 35, "min": 20, "max": 50, "step": 1, "unit": " %" },
+      "value": "35 %",
+      "label": "taux d'effort maximal, assurance emprunteur comprise, avec une durée de crédit de 25 ans au plus (marge de flexibilité de 20 % de la production trimestrielle)",
+      "source": "HCSF, décision D-HCSF-2021-7 du 29/09/2021, art. 1er (35 %, 25 ans), applicable au 1/01/2022 ; FAQ HCSF, question 12 (assurance comprise) ; page « Mesure relative à l'octroi de crédits immobiliers », economie.gouv.fr, consultée le 28/10/2026"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Coût complet → Aides possibles → Mensualité indicative",
+      "voice": "Trois lignes sur la fiche. Un : le coût complet. Prix : 189 000 euros. Frais de notaire : environ 13 700. Travaux privatifs : 16 500. Garantie : environ 2 000. Total : environ 221 200 euros. À part, la quote-part des travaux de façade votés : 35 880 euros, répartition à régler chez le notaire. Deux : les aides possibles. Éco-prêt à taux zéro, MaPrimeRénov', certificats d'économies d'énergie : selon les revenus et les conditions. Possibles, jamais acquises. Trois : la mensualité indicative. Avec 22 000 euros d'apport, sur 25 ans à 3,55 % : environ 1 050 euros par mois, assurance comprise. Il faut donc environ 3 000 euros de revenus nets pour rester sous 35 %. C'est une hypothèse, pas une offre de prêt : le courtier vérifie.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Bible du fil rouge, §4, §6, §7 (données fictives : prix 189 000 € FAI, travaux 16 500 €, quote-part ITE 35 880 €, frais de notaire ≈ 7,6 % du net vendeur, garantie ≈ 2 000 €, apport 22 000 €, taux 3,55 % sur 25 ans) ; calculs : 180 000 × 7,6 % ≈ 13 700 ; 189 000 + 13 700 + 16 500 + 2 000 = 221 200 ; prêt 199 200 € → ≈ 1 003 € hors assurance + ≈ 50 € d'assurance ≈ 1 053 € ; 1 053 / 0,35 ≈ 3 010 € ; contrôle du taux : baromètre CAFPI de septembre 2026, 3,58 % en moyenne sur 25 ans ; HCSF D-HCSF-2021-7",
+      "steps": [
+        { "label": "Coût complet", "detail": "189 000 € FAI + ≈ 13 700 € de notaire + 16 500 € de travaux + ≈ 2 000 € de garantie ≈ 221 200 € ; à part : quote-part ITE de 35 880 €." },
+        { "label": "Aides possibles", "detail": "Éco-PTZ, MaPrimeRénov', CEE : selon revenus et conditions, à vérifier sur France Rénov' ; jamais présentées comme acquises." },
+        { "label": "Mensualité indicative", "detail": "Apport 22 000 €, prêt ≈ 199 200 € sur 25 ans à 3,55 % : ≈ 1 053 €/mois assurance comprise, soit ≈ 3 010 € de revenus nets pour 35 %. Hypothèse, pas une offre." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "M. Bernard demande à Sarah pourquoi elle lui parle des acquéreurs, alors que c'est lui qui vend. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Rendez-vous de mandat. M. Bernard, factuel, s'étonne : « Pourquoi me parler de mes acheteurs ? C'est moi qui vends. » Que lui répond Sarah, en deux ou trois phrases ?",
+      "model_answer": "Parce qu'un acheteur qui ne peut pas financer fait perdre des semaines. Cette fiche montre ce que votre acquéreur paiera vraiment, environ 221 000 € avec les travaux, et le revenu qu'il lui faut pour rester sous 35 %. Je ne fais visiter qu'après vérification du financement par un courtier ou sa banque : c'est ma stratégie de commercialisation, et c'est écrit.",
+      "keywords": ["coût complet", "35 %", "courtier", "financement vérifié", "stratégie"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "REFONTE_V4, limites du métier (jamais une aide présentée comme acquise ni une mensualité comme une offre de financement) ; HCSF D-HCSF-2021-7 et FAQ ; bible du fil rouge (fictif)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Une mensualité calculée par l'agent engage la banque dès qu'elle reste sous 35 %",
+          "Les aides à la rénovation sont automatiques pour les primo-accédants : on peut les déduire du prix",
+          "Une mensualité indicative n'est jamais une offre de financement, et une aide n'est acquise qu'après décision écrite"
+        ],
+        "answer": 2,
+        "feedback": "L'agent projette, il ne finance pas. La mensualité est une hypothèse que le courtier ou la banque vérifie ; les aides dépendent des revenus et des conditions de chaque ménage, et ne sont acquises qu'après décision.",
+        "whys": [
+          "Faux : seule la banque émet une offre de prêt ; le seuil de 35 % est un plafond, pas une garantie d'accord.",
+          "Faux : les aides dépendent des revenus et des travaux de chaque ménage ; on ne les déduit jamais du prix.",
+          "Exact : sur la fiche, on écrit « mensualité indicative » et « aides possibles, à vérifier », jamais « accordé »."
+        ]
+      },
+      "card2": {
+        "question": "Si l'acquéreur empruntait aussi la quote-part des travaux de façade, 35 880 €, dans le même prêt, que se passerait-il ?",
+        "answer": "Le prêt passerait à environ 235 100 € : ≈ 1 240 € par mois assurance comprise, donc environ 3 550 € de revenus nets pour rester sous 35 %. Le courtier dira quelle solution tient : un seul prêt, un prêt travaux à part, ou un éco-prêt à taux zéro si le ménage y est éligible."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux gestes, un seul but",
+      "voice": "Deux gestes, un seul but : prouver à M. Bernard que tu sais à qui vendre. La fiche de projection, puis sa présentation au vendeur.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource de la capsule 3.23 : fiche de projection acquéreur (modèle)",
+      "goal": "Prouver au vendeur que tu sais à qui vendre, et à quelles conditions",
+      "tools": [
+        { "name": "Fiche de projection acquéreur", "role": "Coût complet, aides possibles, mensualité indicative, points à vérifier" },
+        { "name": "Présentation au vendeur", "role": "Relier la fiche à la stratégie de commercialisation" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "La fiche, ligne par ligne",
+      "voice": "La fiche, ligne par ligne. Prix et frais : environ 202 700 euros. Travaux : 16 500, devis à l'appui. Façade : 35 880, en quatre appels en 2027. Aides : possibles, à vérifier. Mensualité : environ 1 053 euros, indicative.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge, §4, §6, §7, D13 (fictifs) ; calcul : 189 000 + 13 700 = 202 700 ; mensualité recalculée sur 199 200 € à 3,55 % sur 25 ans",
+      "tool": "Fiche de projection acquéreur",
+      "steps": [
+        "Prix et frais : 189 000 € + ≈ 13 700 € de notaire",
+        "Travaux privatifs : 16 500 €, devis D13 à l'appui",
+        "Façade votée : 35 880 €, 4 appels de 8 970 € en 2027",
+        "Aides : possibles, à vérifier, jamais acquises",
+        "Mensualité : ≈ 1 053 €, indicative, à faire vérifier"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "La présentation à M. Bernard",
+      "voice": "Puis tu la présentes à M. Bernard. Le coût complet de son acquéreur. Le revenu nécessaire. Ce que vérifie le courtier : apport, revenus, crédits en cours, financement de la façade. Et ton engagement : visites après vérification du financement.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "HCSF D-HCSF-2021-7 (le taux d'effort intègre l'ensemble des emprunts en cours) ; bible du fil rouge, §7 (engagements de l'agent, fictifs) ; engagement « visites après vérification du financement » : proposition à valider",
+      "tool": "Présentation au vendeur",
+      "steps": [
+        "Coût complet : ≈ 221 200 €, façade à part",
+        "Revenu nécessaire : ≈ 3 010 € nets pour 35 %",
+        "Courtier : apport, revenus, crédits en cours, façade",
+        "Engagement : visites après vérification du financement"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Remplis la fiche de projection de M. Bernard.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 3.23 (PLAN.json) : fiche de projection d'un futur acquéreur pour le bien fil rouge, présentée au vendeur comme preuve d'une stratégie de commercialisation",
+      "cta": "Ouvrir l'exercice",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta fiche de projection remplie.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 3.23 : fiche de projection acquéreur remplie pour l'appartement de M. Bernard (prix, travaux et ordre de grandeur, aides possibles, points à faire vérifier par un courtier)",
+      "ask": "Dépose une capture de ta fiche remplie : prix et frais, travaux et ordre de grandeur, aides possibles, mensualité indicative, points à faire vérifier par un courtier, et la phrase que tu dis à M. Bernard.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. La fiche t'attend : reviens la déposer quand chaque ligne a son chiffre ou son « à vérifier »."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. M. Bernard sait qui peut acheter son appartement, et à quelles conditions. Ça, c'est un argument de mandat.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta fiche : coût complet, revenu nécessaire, 4 points pour le courtier. Celle de Mozi : 600 € lus dans une tasse.",
+      "source": "Fait observable de l'exercice (fiche de l'apprenant) ; bible du fil rouge (fictif)"
+    }
+  ],
+  "sources": [
+    { "label": "HCSF, décision D-HCSF-2021-7 du 29/09/2021 (taux d'effort ≤ 35 %, maturité ≤ 25 ans), applicable au 1/01/2022", "url": "https://www.economie.gouv.fr/files/files/directions_services/hcsf/D-HCSF-2021-7%20sign%C3%A9e.pdf" },
+    { "label": "HCSF, FAQ sur les décisions relatives à l'octroi de crédits immobiliers, question 12 (assurance emprunteur comprise dans les charges)", "url": "https://www.economie.gouv.fr/files/files/directions_services/hcsf/HCSF_FAQ_decisions_octroi_credits_immobiliers.pdf" },
+    { "label": "economie.gouv.fr, « Mesure relative à l'octroi de crédits immobiliers » (flexibilité de 20 %, différé de 2 ans, décisions du 29/06/2023 et du 18/12/2023), consultée le 28/10/2026", "url": "https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers" },
+    { "label": "Code de la consommation, art. L. 313-41 (condition suspensive d'obtention du prêt)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032433227" },
+    { "label": "CAFPI, baromètre des taux, septembre 2026 (3,58 % en moyenne sur 25 ans), consulté le 28/10/2026", "url": "https://www.cafpi.fr/credit-immobilier/barometre-taux" },
+    { "label": "France Rénov' (aides à la rénovation : conditions à vérifier au cas par cas)", "url": "https://france-renov.gouv.fr/" },
+    { "label": "Bible du fil rouge (données fictives : §4 copropriété et ITE, §6 travaux privatifs, §7 commercialisation et plan de financement de référence, D13)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Bien fil rouge retenu : l'appartement de M. Bernard (capsule commune, parcours non précisé) ; une variante maison (Mme Garnier) est possible dans la ressource",
+    "Chiffres dérivés de la bible, à valider : frais de notaire ≈ 13 700 € (7,6 % de 180 000 €, même ratio que 13 300 € sur 175 000 €), prêt ≈ 199 200 €, mensualité ≈ 1 003 € hors assurance et ≈ 1 053 € assurance comprise (assurance au même ratio que la bible), revenu ≈ 3 010 €/mois ; avec la façade : ≈ 235 100 €, ≈ 1 243 €, ≈ 3 550 €",
+    "Taux de 3,55 % sur 25 ans : repris de la bible (« fait vérifié » d'octobre 2026) ; cohérent avec le baromètre CAFPI de septembre 2026 (3,58 %) ; à actualiser le jour où la fiche est remise",
+    "Aides : à vérifier pour 2026-2027 (éco-PTZ, MaPrimeRénov' par geste ou rénovation d'ampleur, CEE, MaPrimeRénov' Copropriété demandée par le syndic, montant non notifié : ne pas chiffrer)",
+    "Répartition des appels de fonds ITE entre vendeur et acquéreur : à régler par le notaire (décret du 17/03/1967, art. 6-2, à vérifier avant citation)",
+    "Engagement « visites après vérification du financement » : proposition, à valider par Sébastien Paumier (non listé dans les engagements de la bible)",
+    "Mention à faire figurer sur la fiche : « mensualité indicative, ce n'est pas une offre de financement ; aides possibles, non acquises » ; relecture par un courtier (IOBSP)",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

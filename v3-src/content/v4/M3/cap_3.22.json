@@ -1,0 +1,173 @@
+{
+  "id": "3.22",
+  "module": 3,
+  "section": "E · Être choisi : offre, honoraires, engagements",
+  "etape": "7",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Présenter l'offre Éco-Consultant et ses services",
+  "objective": "Rédiger une proposition commerciale d'une page qui annonce quatre résultats, trois niveaux d'offre et, pour chaque service, qui le réalise et ce qui est facturé",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi, en blazer violet, promet à un vendeur « je m'occupe de tout, travaux compris, et je prends juste 10 % sur l'artisan ». Sébastien Paumier présente l'inverse : une page, quatre résultats attendus pour le vendeur, trois niveaux d'offre, et une ligne claire entre ce que l'agent fait lui-même, ce qui demande un spécialiste et ce qui est facturé en plus. Exemple : la proposition remise à M. Bernard."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi propose à un vendeur : « Je vous trouve l'artisan pour les fenêtres et je prends 10 % au passage. » Quelle règle de l'offre Éco-Consultant enfreint-il ?",
+        "options": [
+          "Aucune, c'est un service en plus",
+          "L'éco-consultant ne vend pas de travaux et ne touche aucune commission sur les entreprises",
+          "Il aurait dû prendre 5 % au lieu de 10 %"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : une commission sur les travaux crée un conflit d'intérêts avec le vendeur que tu conseilles.",
+          "Juste : tu aides à lire et à comparer les devis ; le vendeur choisit l'entreprise et la paie directement.",
+          "Faux : le problème n'est pas le taux, c'est la commission elle-même."
+        ],
+        "fb_title": "Conseiller, pas vendre",
+        "fb_text": "Dans l'offre Éco-Consultant, tu ne vends pas de travaux, tu ne touches aucune commission et tu ne choisis pas l'entreprise à la place du vendeur. C'est ce qui rend ton analyse des devis crédible."
+      },
+      {
+        "question": "M. Bernard demande : « Avec la vente, est-ce que je paierai de l'impôt sur la plus-value ? » Où places-tu cette question dans ta proposition ?",
+        "options": [
+          "Dans « ce que je réalise moi-même » : tu fais le calcul fiscal",
+          "Tu ne la mentionnes pas, ce n'est pas ton sujet",
+          "Dans « ce qui demande un spécialiste » : tu l'orientes vers son notaire"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le conseil fiscal ne fait pas partie de ton métier d'éco-consultant.",
+          "Faux : la question est légitime, tu dois dire à qui la poser.",
+          "Juste : tu identifies la question et tu orientes vers le notaire, sans y répondre à sa place."
+        ],
+        "fb_title": "Savoir à qui renvoyer",
+        "fb_text": "Ta proposition liste ce que tu réalises, ce qui demande un spécialiste (notaire, diagnostiqueur, courtier, expert-comptable) et ce qui est facturé en plus. Le vendeur sait qui fait quoi avant de s'engager."
+      },
+      {
+        "question": "Lequel de ces quatre éléments fait partie des résultats attendus de l'offre pour le vendeur ?",
+        "options": [
+          "Informer les acquéreurs avec un dossier chiffré (étiquette, travaux, copropriété)",
+          "Garantir un prix de vente supérieur à celui des autres agences",
+          "Obtenir les aides à la rénovation à la place de l'acheteur"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : c'est le 4e résultat attendu, avec comprendre la valeur, repérer les freins et choisir la stratégie.",
+          "Faux : aucun professionnel ne peut garantir un prix de vente.",
+          "Faux : une aide dépend des revenus du ménage qui fait les travaux ; elle n'est jamais acquise."
+        ],
+        "fb_title": "Quatre résultats, zéro promesse",
+        "fb_text": "Comprendre la valeur du bien, repérer les freins, choisir la stratégie avant la commercialisation, informer les acquéreurs : ce sont des résultats que tu peux livrer et que le vendeur peut vérifier."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de proposition commerciale d'une page, avec engagements et limites",
+    "kind": "modele",
+    "intro": "Ce modèle t'aide à présenter l'offre Éco-Consultant sur une seule page, à partir du dossier Éco-staging du bien. Les tarifs et la répartition exacte des services entre les niveaux d'offre sont à confirmer avec Éco-propriété : les champs entre crochets sont à compléter, n'invente aucun montant. Exemple d'en-tête : M. Bernard, dossier fil rouge fictif.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "Le plan de la page",
+        "items": [
+          "En-tête : nom du vendeur, bien, date, rappel de son projet (« vendre avant l'été 2027 »).",
+          "Les quatre résultats attendus, en une ligne chacun.",
+          "Les trois niveaux d'offre, avec le contenu de chacun et le tarif [à compléter].",
+          "Qui fait quoi : ce que tu réalises, ce qui demande un spécialiste, ce qui est facturé en plus.",
+          "Tes engagements écrits et tes limites.",
+          "L'étape suivante, datée."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Les quatre résultats attendus pour le vendeur",
+        "headers": ["Résultat", "Ce que le vendeur reçoit (exemple M. Bernard)"],
+        "rows": [
+          ["Comprendre la valeur du bien", "Fourchette 178 000 – 186 000 € net, comparables D12, étiquette en vigueur E (D03)"],
+          ["Repérer les freins", "Fenêtres simple vitrage, absence de VMC, appels de fonds ITE (D07, D13)"],
+          ["Choisir la stratégie avant la commercialisation", "Grille d'arbitrage travaux ou vente en l'état, plan Éco-staging"],
+          ["Informer les acquéreurs", "Dossier technique, devis chiffrés, calendrier des appels de fonds remis aux acheteurs sérieux"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Trois niveaux d'offre (contenu proposé, tarifs à confirmer avec Éco-propriété)",
+        "headers": ["Niveau", "Contenu proposé", "Tarif", "À la charge de"],
+        "rows": [
+          ["1. Lecture du bien", "Estimation, lecture du DPE et de l'attestation, liste des freins", "[à compléter : tarif confirmé par Éco-propriété]", "[à compléter]"],
+          ["2. Plan Éco-staging", "Niveau 1 + plan Éco-staging (3 actions à petit budget, chiffrées)", "[à compléter : tarif confirmé par Éco-propriété]", "[à compléter]"],
+          ["3. Formule complète", "Niveau 2 + dossier Éco-staging de 8 pages, dossier acquéreurs, suivi de la commercialisation", "[à compléter : tarif et répartition confirmés par Éco-propriété]", "[à compléter]"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Qui fait quoi",
+        "headers": ["Je réalise moi-même", "Demande un spécialiste", "Facturé en plus"],
+        "rows": [
+          ["Estimation, synthèse des indicateurs, plan Éco-staging, lecture comparée des devis", "Diagnostiqueur certifié (DPE, simulation d'étiquette), notaire (fiscalité, acte), courtier (financement), géomètre", "[à compléter selon la grille Éco-propriété]"],
+          ["Dossier acquéreurs, comptes rendus, coordination des visites", "Entreprises de travaux choisies et payées directement par le vendeur", "Petites dépenses Éco-staging (≈ 450 € dans l'exemple de M. Bernard), payées par le vendeur à ses fournisseurs"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Engagements et limites à écrire sur la page",
+        "items": [
+          "Je ne vends pas de travaux et je ne touche aucune commission sur les entreprises.",
+          "Je ne choisis pas l'entreprise à votre place : je vous aide à comparer les devis.",
+          "Je ne fais pas de conseil fiscal ni juridique : je vous oriente vers votre notaire ou un expert-comptable.",
+          "Je ne promets ni prix de vente, ni délai, ni classe énergétique ; une aide n'est jamais présentée comme acquise.",
+          "Chaque chiffre de votre dossier porte sa source et sa date.",
+          "Aucun honoraire lié à la vente n'est dû avant que la vente soit conclue (loi n° 70-9, art. 6) ; le mode de facturation des services en plus est à valider par un juriste."
+        ]
+      }
+    ],
+    "footer": "Offre et tarifs : à confirmer avec Éco-propriété (tableau source : « tarifs et répartition à confirmer »). Règle de rémunération : loi n° 70-9 du 2 janvier 1970, art. 6 I (Légifrance, version en vigueur consultée le 28/10/2026). Limites du métier : cahier des charges Éco-Consultant. Chiffres : dossier fil rouge fictif. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Proposition commerciale d'une page pour M. Bernard",
+    "duration_min": 40,
+    "context": "Après le rendez-vous de restitution du 29 octobre 2026, M. Bernard t'a dit : « Mettez-moi par écrit ce que vous faites exactement, ce que ça coûte et qui paie. » Tu rédiges, à partir de son dossier Éco-staging, la proposition commerciale d'une page qu'il relira avant de te donner sa réponse le 5 novembre.",
+    "materials": [
+      "Dossier Éco-staging de 8 pages (capsule 3.13)",
+      "Plan Éco-staging (capsule 3.10)",
+      "D03 Attestation actualisée ADEME",
+      "D07 PV d'AG du 12/06/2025",
+      "D12 Tableau des comparables",
+      "D13 Devis des travaux privatifs"
+    ],
+    "steps": [
+      "Remplis l'en-tête : vendeur, bien, date, projet.",
+      "Écris les quatre résultats attendus, chacun relié à une pièce ou un livrable du dossier.",
+      "Décris les trois niveaux d'offre ; laisse les tarifs et la répartition en champs « [à compléter] » tant qu'Éco-propriété ne les a pas confirmés.",
+      "Remplis le tableau « qui fait quoi » : ce que tu réalises, ce qui demande un spécialiste, ce qui est facturé en plus.",
+      "Recopie tes engagements et tes limites, puis termine par une étape datée.",
+      "Relis : une page, aucun montant inventé, aucune promesse de prix, de délai, de classe ou d'aide."
+    ],
+    "expected": "En-tête : « Proposition pour M. Alain Bernard · appartement T4 de 76 m², résidence Les Tilleuls, Melun · 30/10/2026 · projet : vendre avant l'été 2027. » Résultats : 1) valeur : fourchette 178 000 – 186 000 € net (D12), étiquette E (D03) ; 2) freins : fenêtres simple vitrage et VMC (D13), appels de fonds ITE de 35 880 € (D07) ; 3) stratégie : vente en l'état avec plan Éco-staging ; 4) acquéreurs : dossier technique et devis remis aux acheteurs sérieux. Niveaux : lecture du bien / plan Éco-staging / formule complète, tarifs « [à compléter : tarif confirmé par Éco-propriété] ». Qui fait quoi : estimation et plan réalisés par toi ; DPE et simulation par un diagnostiqueur ; fiscalité par le notaire ; travaux choisis et payés par le vendeur ; Éco-staging ≈ 450 € payé par le vendeur à ses fournisseurs. Engagements et limites recopiés. Étape : « Votre réponse le jeudi 5 novembre ; je reste disponible pour toute question d'ici là. »"
+  },
+  "deliverable": {
+    "title": "Proposition commerciale d'une page pour M. Bernard",
+    "format": "PDF, 1 page A4",
+    "criteria": [
+      "Les quatre résultats attendus sont présents, chacun relié à une pièce ou un livrable du dossier",
+      "Les trois niveaux d'offre sont décrits ; aucun tarif n'est inventé (champs « [à compléter] » tant qu'Éco-propriété n'a pas confirmé)",
+      "Le tableau distingue ce que l'agent réalise, ce qui demande un spécialiste et ce qui est facturé en plus",
+      "Les limites du métier figurent : ni vente de travaux, ni commission, ni conseil fiscal ou juridique, ni promesse de prix, de délai, de classe ou d'aide",
+      "La page se termine par une étape datée, sans pression"
+    ]
+  },
+  "sources": [
+    { "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970, art. 6 (convention écrite, rémunération et partie qui en a la charge ; aucune rémunération avant l'opération conclue)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032043077" },
+    { "label": "Éco-Propriété — cahier des charges de la formation Éco-Consultant (limites du métier) ; dossier fil rouge fictif", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Tarifs du plan Éco-staging et de la formule complète, et répartition des services entre les trois niveaux : à confirmer avec Éco-propriété (champs laissés à compléter).",
+    "Les trois niveaux d'offre (lecture du bien, plan Éco-staging, formule complète) sont une proposition de découpage à valider par Sébastien Paumier et Éco-propriété.",
+    "À faire relire par un juriste : compatibilité de la facturation de services distincts au vendeur avec l'art. 6 I de la loi n° 70-9 (aucune somme représentative d'honoraires ou de frais avant l'opération conclue) et avec le mandat.",
+    "Chapitre interactif nouveau à écrire."
+  ]
+}

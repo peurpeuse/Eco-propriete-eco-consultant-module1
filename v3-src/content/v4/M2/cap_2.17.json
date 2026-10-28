@@ -1,0 +1,161 @@
+{
+  "id": "2.17",
+  "module": 2,
+  "section": "F · Je mesure le bien",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Surfaces utile pondérée et de plancher : valoriser les annexes",
+  "objective": "Calculer la surface utile pondérée d'un bien avec annexes à l'aide de coefficients indicatifs, et distinguer cette surface d'évaluation de la surface de plancher du code de l'urbanisme",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Exemple : la maison de Mme Garnier à Vaux-le-Pénil, 112 m² habitables mais 112 m² de sous-sol, une véranda de 12 m² et des combles perdus. Sébastien Paumier montre comment une surface pondérée fait entrer les annexes dans l'estimation sans les confondre avec la surface habitable, puis ce qu'est la surface de plancher, qui sert aux autorisations d'urbanisme."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mme Garnier demande pourquoi tu n'annonces pas « 224 m² » puisque son sous-sol fait 112 m². Que lui réponds-tu ?",
+        "options": [
+          "« Vous avez raison, le sous-sol compte comme la maison. »",
+          "« La surface annoncée reste 112 m² habitables ; le sous-sol est valorisé à part, avec un coefficient, dans mon calcul de valeur. »",
+          "« Le sous-sol n'a aucune valeur, je ne le compte pas. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le sous-sol est exclu de la surface habitable (art. R. 156-1 du CCH) ; l'additionner tromperait l'acquéreur.",
+          "Juste : la surface pondérée est un outil d'évaluation interne ; elle ne remplace pas la surface habitable dans l'annonce.",
+          "Faux : un garage, une cave ou un atelier ont une valeur d'usage ; l'ignorer sous-estime la maison."
+        ],
+        "fb_title": "Annoncer l'habitable, valoriser les annexes",
+        "fb_text": "Tu annonces 112 m² habitables et tu cites le sous-sol complet de 112 m². Dans ton estimation, chaque annexe reçoit un coefficient, et tu compares avec des références calculées de la même façon."
+      },
+      {
+        "question": "Pour une même maison, laquelle de ces surfaces sert au calcul des seuils d'autorisation d'urbanisme (déclaration préalable, permis, architecte) ?",
+        "options": [
+          "La surface utile pondérée",
+          "La surface habitable",
+          "La surface de plancher (et l'emprise au sol)"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : la surface pondérée n'a pas de définition légale ; c'est un outil d'évaluation.",
+          "Faux : la surface habitable sert au bail et à l'usage courant, pas aux seuils d'urbanisme.",
+          "Juste : la surface de plancher (art. R. 111-22 du code de l'urbanisme) et l'emprise au sol fixent les seuils (dont 150 m² pour l'architecte)."
+        ],
+        "fb_title": "Urbanisme = surface de plancher",
+        "fb_text": "La surface de plancher se mesure au nu intérieur des façades, sur les niveaux clos et couverts de plus de 1,80 m, en déduisant notamment garages, vides, trémies et combles non aménageables. Elle peut dépasser la surface habitable."
+      },
+      {
+        "question": "Mozi estime une maison en multipliant 112 m² habitables + 112 m² de sous-sol par le prix au m² des maisons vendues. Quelle est son erreur ?",
+        "options": [
+          "Il donne au sous-sol la même valeur qu'une pièce de vie et applique un prix au m² calculé sur des surfaces habitables",
+          "Il aurait dû utiliser la surface Carrez",
+          "Il aurait dû retirer la véranda de la surface habitable"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : il mélange deux surfaces : le prix de référence est exprimé en m² habitables, il ne peut pas s'appliquer à un sous-sol compté à 100 %.",
+          "Faux : la surface Carrez ne concerne pas une maison hors copropriété.",
+          "Faux : la véranda n'est pas dans les 112 m² ; le problème est le sous-sol compté en entier."
+        ],
+        "fb_title": "Même surface pour le bien et les références",
+        "fb_text": "Si les références sont exprimées en m² habitables, tu ajoutes les annexes à part. Si tu raisonnes en surface pondérée, tes références doivent l'être aussi, avec les mêmes coefficients. Sinon, tu surévalues le bien."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche surfaces + barème de coefficients de pondération, à rédiger par Éco-propriété",
+    "kind": "fiche",
+    "intro": "Trois surfaces reviennent dans une estimation de maison ou d'appartement avec annexes : la surface habitable (art. R. 156-1 du CCH), la surface de plancher (art. R. 111-22 du code de l'urbanisme) et la surface utile pondérée, qui n'a pas de définition légale. Le barème officiel Éco-propriété est à rédiger : les coefficients ci-dessous sont des ordres de grandeur d'usage, indicatifs, à valider avant diffusion.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les trois surfaces",
+        "headers": ["Surface", "Définition", "À quoi elle sert"],
+        "rows": [
+          ["Habitable", "Planchers moins murs, cloisons, gaines, embrasures ; sans combles non aménagés, caves, sous-sols, garages, vérandas, balcons, parties de moins de 1,80 m", "Annonce, bail, comparaison avec les ventes"],
+          ["De plancher", "Niveaux clos et couverts de plus de 1,80 m, au nu intérieur des façades, après déduction notamment des vides, trémies, garages et combles non aménageables", "Seuils d'autorisation d'urbanisme, taxe d'aménagement"],
+          ["Utile pondérée", "Surface habitable + annexes affectées d'un coefficient d'usage", "Outil interne d'évaluation, jamais une surface annoncée"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Coefficients d'usage INDICATIFS (barème Éco-propriété à rédiger)",
+        "headers": ["Annexe", "Fourchette indicative", "Ce qui fait varier"],
+        "rows": [
+          ["Véranda non chauffée", "0,4 à 0,6", "Orientation, état, usage toute l'année ou non"],
+          ["Garage", "0,3 à 0,5", "Accès, porte motorisée, marché local du stationnement"],
+          ["Sous-sol, cave, atelier (plus de 1,80 m)", "0,2 à 0,4", "Hauteur, lumière, humidité, accès intérieur"],
+          ["Chaufferie, buanderie", "0,2 à 0,3", "Équipement, propreté, accès"],
+          ["Balcon, terrasse", "0,2 à 0,5", "Surface utilisable, exposition, vue"],
+          ["Combles perdus non accessibles", "0", "Non utilisables en l'état"]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Exemple : maison de Mme Garnier (coefficients indicatifs)",
+        "text": "Habitable 112 × 1 = 112 ; véranda 12 × 0,5 = 6 ; garage 30 × 0,4 = 12 ; chaufferie-buanderie 20 × 0,3 = 6 ; cave et atelier (2,10 m) 62 × 0,3 = 18,6 ; combles perdus × 0. Surface utile pondérée = 154,6 m², arrondie à 155 m². Surface de plancher estimée : 112 (rez-de-chaussée, cloisons non comprises) + 12 (véranda close) + 20 + 62 (sous-sol hors garage) = 206 m² au moins, garage de 30 m² déduit."
+      },
+      {
+        "type": "checklist",
+        "heading": "Les règles d'usage à respecter",
+        "items": [
+          "Annoncer toujours la surface habitable, et citer les annexes à part avec leur surface réelle",
+          "Appliquer les mêmes coefficients au bien et à toutes les références comparées",
+          "Écrire dans le dossier d'estimation le coefficient retenu pour chaque annexe et pourquoi",
+          "Ne jamais additionner une annexe à 100 % à la surface habitable",
+          "Pour un projet d'extension, vérifier la surface de plancher existante : au-delà de 150 m² après travaux, le recours à un architecte est obligatoire"
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Votre maison fait 112 m² habitables : c'est ce chiffre que verront les acheteurs. Votre sous-sol, votre garage et votre véranda ont une vraie valeur : je les compte dans mon calcul avec un coefficient, et j'explique lequel dans le dossier. Vous voyez ainsi exactement d'où vient le prix. »"
+      }
+    ],
+    "footer": "Sources : CCH, art. R. 156-1 ; code de l'urbanisme, art. R. 111-22 (définition reprise par Service-Public, fiche F36777, vérifiée le 28/10/2026). Coefficients de pondération : ordres de grandeur d'usage, non réglementaires, à remplacer par le barème Éco-propriété. Exemple : maison fictive de Mme Garnier. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Surface utile pondérée d'une maison avec annexes",
+    "duration_min": 30,
+    "context": "Exemple utilisé : la maison de Mme Garnier à Vaux-le-Pénil (parcours maison). Surface habitable 112 m² ; sous-sol 112 m² non habitable (garage 30 m², chaufferie-buanderie 20 m², cave et atelier 62 m², hauteur 2,10 m) ; véranda non chauffée de 12 m² (1995) ; combles perdus non aménageables. Les références de maisons vendues du secteur sont exprimées en m² habitables.",
+    "materials": [
+      "M04 Plan et descriptif de la maison",
+      "M05 Reportage photo commenté",
+      "M12 Tableau des mutations de maisons (fictif)",
+      "Barème indicatif de la fiche"
+    ],
+    "steps": [
+      "Liste toutes les surfaces de la maison et classe-les : habitable, annexe, non utilisable.",
+      "Choisis un coefficient pour chaque annexe dans la fourchette indicative et justifie-le en une ligne (état, hauteur, humidité vue en M05).",
+      "Calcule la surface utile pondérée.",
+      "Estime la surface de plancher existante et dis si une extension de 30 m² ferait dépasser le seuil de 150 m².",
+      "Explique en deux phrases pourquoi tu ne peux pas appliquer le prix au m² des références à la surface pondérée sans les recalculer."
+    ],
+    "expected": "Classement : habitable 112 m² ; annexes : véranda 12, garage 30, chaufferie-buanderie 20, cave-atelier 62 ; combles perdus non utilisables. Coefficients (exemple) : véranda 0,5 (non chauffée, côté jardin) ; garage 0,4 ; chaufferie 0,3 ; cave-atelier 0,3 (hauteur 2,10 m mais traces d'humidité en bas des murs, M05) ; combles 0. Surface pondérée : 112 + 6 + 12 + 6 + 18,6 = 154,6 m², arrondie à 155 m². Surface de plancher : au moins 206 m² (112 + 12 + 20 + 62, garage déduit), donc déjà au-delà de 150 m² : une extension de 30 m² relève du permis de construire avec architecte (à confirmer par la mesure réelle). Les références M12 sont en m² habitables : soit on applique leur prix aux 112 m² et on ajoute les annexes à part, soit on recalcule chaque référence en surface pondérée avec les mêmes coefficients."
+  },
+  "deliverable": {
+    "title": "Calcul de surface utile pondérée de la maison de Mme Garnier",
+    "format": "Tableur ou PDF, 1 page",
+    "criteria": [
+      "Chaque surface est classée (habitable, annexe, non utilisable) avec sa valeur",
+      "Chaque coefficient est dans la fourchette indicative et justifié",
+      "La surface pondérée est calculée sans erreur et arrondie",
+      "La surface de plancher est estimée et comparée au seuil de 150 m²",
+      "Le document indique que les coefficients sont indicatifs et que l'annonce garde 112 m² habitables"
+    ]
+  },
+  "sources": [
+    { "label": "Code de la construction et de l'habitation, art. R. 156-1 (surface habitable)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819221" },
+    { "label": "Service-Public : agrandissement en zone urbaine, définition de la surface de plancher et de l'emprise au sol, seuil de 150 m² (F36777)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36777" },
+    { "label": "Service-Public : recours obligatoire à un architecte (F20568)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20568" },
+    { "label": "Bible du fil rouge Éco-propriété, §11 (maison fictive de Mme Garnier)" }
+  ],
+  "open_points": [
+    "À rédiger par Éco-propriété : le barème officiel des coefficients de pondération ; les fourchettes de la fiche sont des ordres de grandeur d'usage, non sourcés, présentés comme indicatifs.",
+    "À vérifier : surface de plancher réelle de la maison de Mme Garnier (épaisseur des cloisons, statut de la véranda close, local technique) ; le chiffre de 206 m² est une estimation dérivée de la bible.",
+    "À confirmer avec Sébastien Paumier : usage de la surface pondérée dans le dossier d'estimation (méthode retenue ou simple contrôle)."
+  ]
+}

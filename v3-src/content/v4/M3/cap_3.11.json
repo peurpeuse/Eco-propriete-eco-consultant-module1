@@ -1,0 +1,248 @@
+{
+  "id": "3.11",
+  "module": 3,
+  "section": "B · L'art de la synthèse",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Le plan d'action : faire, arbitrer, projeter, éviter",
+  "objective": "Classer chaque action possible sur le bien fil rouge en quatre colonnes (faire, arbitrer, projeter, éviter), avec un coût, un responsable et une date.",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "M. Bernard a une liste de vingt idées : repeindre, changer les fenêtres, attendre l'isolation de l'immeuble, baisser le prix. Sébastien Paumier les range en quatre colonnes : faire maintenant, arbitrer avec le vendeur, projeter pour l'acquéreur, éviter. Chaque action reçoit un coût, un responsable, une date et la pièce qui la justifie."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Dans quelle colonne ranges-tu l'installation d'une VMC (2 900 €, D13) chez M. Bernard ?",
+        "options": [
+          "Faire : avant les photos",
+          "Projeter : chiffrée et remise à l'acquéreur, qui décidera ; la cause des moisissures est révélée",
+          "Éviter : ce n'est pas utile"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : ce sont des travaux, pas une action à petit budget ; ils retarderaient la mise en vente.",
+          "Juste : la VMC fait partie des 16 500 € de travaux privatifs remis aux acquéreurs avec le devis.",
+          "Faux : la VMC traite la vraie cause des moisissures ; on la cache encore moins qu'on ne l'écarte."
+        ],
+        "fb_title": "Projeter, c'est chiffrer pour l'acheteur",
+        "fb_text": "« Projeter » regroupe les travaux que le futur acquéreur fera : VMC 2 900 €, fenêtres 5 600 €, radiateurs 4 800 €, chauffe-eau 3 200 € (D13, 16 500 €). On les chiffre, on ne les fait pas."
+      },
+      {
+        "question": "Faire les travaux privatifs avant la vente ou vendre en l'état : dans quelle colonne ?",
+        "options": [
+          "Faire",
+          "Éviter",
+          "Arbitrer : c'est une décision du vendeur, préparée avec la grille de la capsule 3.12"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : décider seul de faire 16 500 € de travaux, c'est choisir à la place du vendeur.",
+          "Faux : on ne l'écarte pas sans calcul ; on le compare.",
+          "Juste : un choix qui engage de l'argent et un délai se met sur la table, chiffres à l'appui, et c'est le vendeur qui tranche."
+        ],
+        "fb_title": "Arbitrer, c'est faire décider",
+        "fb_text": "La colonne « Arbitrer » contient les choix qui reviennent au vendeur : travaux ou vente en l'état, prix d'annonce, répartition des appels de fonds avec l'acquéreur (rédigée par le notaire). Tu prépares les chiffres, il décide."
+      },
+      {
+        "question": "Mozi propose « −15 % à cause du DPE » sur l'annonce. Où se range cette action ?",
+        "options": [
+          "Éviter : la décote est forfaitaire, sans calcul, et l'étiquette en vigueur est E",
+          "Faire : c'est rapide",
+          "Arbitrer : à proposer au vendeur"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : une décote non justifiée fait perdre de l'argent au vendeur et repose sur un classement périmé (F de 2023).",
+          "Faux : rapide ne veut pas dire juste ; aucun chiffre ne la fonde.",
+          "Faux : on ne met pas sur la table une option qui ne repose sur aucune donnée."
+        ],
+        "fb_title": "Éviter, c'est protéger",
+        "fb_text": "La colonne « Éviter » liste ce qui ferait perdre de l'argent ou de la confiance : décote forfaitaire, repeindre des moisissures sans rien dire, promettre une classe ou une aide, photographier avant le plan Éco-staging."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de plan d'action",
+    "kind": "modele",
+    "intro": "Ce modèle classe toutes les actions possibles sur un bien en quatre colonnes. Il se remplit après le tableau de bord (capsule 3.7) et le plan Éco-staging (capsule 3.10), et devient une page du Dossier Éco-staging (capsule 3.13). Règle : chaque ligne a un coût, un responsable, une date et la pièce qui la justifie.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les 4 colonnes",
+        "headers": [
+          "Colonne",
+          "Ce qu'on y met",
+          "Qui décide"
+        ],
+        "rows": [
+          [
+            "Faire",
+            "Actions utiles, petites, avant la mise en vente (Éco-staging, pièces à commander)",
+            "Le vendeur valide, l'éco-consultant organise"
+          ],
+          [
+            "Arbitrer",
+            "Choix qui engagent argent ou délai (travaux avant vente, prix, répartition des appels de fonds)",
+            "Le vendeur, sur les chiffres"
+          ],
+          [
+            "Projeter",
+            "Travaux que fera l'acquéreur, chiffrés par devis, avec la performance estimée",
+            "L'acquéreur, plus tard"
+          ],
+          [
+            "Éviter",
+            "Ce qui ferait perdre argent ou confiance",
+            "Personne : on l'écarte"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Plan rempli · M. Bernard (fil rouge, fictif)",
+        "headers": [
+          "Colonne",
+          "Action",
+          "Coût",
+          "Qui · quand",
+          "Pièce"
+        ],
+        "rows": [
+          [
+            "Faire",
+            "Plan Éco-staging en 3 actions",
+            "≈ 450 €",
+            "Vendeur · avant le 12/11/2026",
+            "Plan 3.10"
+          ],
+          [
+            "Faire",
+            "Commander l'état de l'installation électrique (plus de 15 ans)",
+            "Prix du diagnostiqueur",
+            "Vendeur · avant le 13/11/2026",
+            "D17"
+          ],
+          [
+            "Faire",
+            "Demander la fiche synthétique au syndic",
+            "0 €",
+            "Éco-consultant · relance le 03/11/2026",
+            "D10"
+          ],
+          [
+            "Arbitrer",
+            "Travaux privatifs avant vente ou vente en l'état",
+            "16 500 € ou 0 €",
+            "Vendeur · au RDV du 29/10/2026",
+            "Grille 3.12"
+          ],
+          [
+            "Arbitrer",
+            "Répartition des appels ITE avec l'acquéreur",
+            "4 × 8 970 €",
+            "Vendeur et acquéreur · rédigée par le notaire",
+            "D07"
+          ],
+          [
+            "Projeter",
+            "Fenêtres, VMC, radiateurs, chauffe-eau → D estimée",
+            "16 500 € TTC",
+            "Acquéreur · après l'achat",
+            "D13"
+          ],
+          [
+            "Projeter",
+            "ITE de la copropriété → C estimée ; toiture-terrasse 2030",
+            "35 880 € (lot)",
+            "Copropriété · 2027 puis 2030",
+            "D07, D09"
+          ],
+          [
+            "Éviter",
+            "Décote « −15 % à cause du DPE »",
+            "≈ 10 000 € (172 000 € contre 182 000 € milieu de fourchette)",
+            "—",
+            "D03 (classe E)"
+          ],
+          [
+            "Éviter",
+            "Promettre une classe après travaux ou une aide",
+            "—",
+            "—",
+            "Estimations non confirmées"
+          ]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Contrôle du plan",
+        "items": [
+          "Chaque ligne a un coût, un responsable, une date et une pièce.",
+          "La colonne « Faire » reste à petit budget et se termine avant les photos.",
+          "La colonne « Arbitrer » ne contient aucune décision prise à la place du vendeur.",
+          "La colonne « Projeter » ne promet ni classe ni aide : estimations à confirmer.",
+          "Les montants sont identiques au tableau de bord et aux devis."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase pour présenter le plan",
+        "text": "« Monsieur Bernard, voici tout ce qu'on peut faire, rangé en quatre colonnes. À gauche, ce que je vous propose de faire tout de suite, pour environ 450 €. Ensuite, deux décisions qui vous reviennent. Puis ce que l'acheteur fera, chiffré pour lui. Et à droite, ce que je vous déconseille, avec la raison. »"
+      }
+    ],
+    "footer": "Sources : dossier fil rouge Éco-Consultant (D03, D07, D09, D10, D13, D17 ; données fictives) ; décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des appels de fonds, Légifrance). Proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Classer les actions de son bien fil rouge",
+    "duration_min": 30,
+    "context": "Tu as le tableau de bord (3.7), la synthèse (3.8) et le plan Éco-staging (3.10) de ton bien fil rouge. Il faut maintenant ranger toutes les actions possibles avant le rendez-vous de restitution. Corrigé donné pour l'appartement de M. Bernard ; pour la maison de Mme Garnier, pense à l'assainissement (M08), à l'audit (M03) et au lot à bâtir (M06, M07).",
+    "materials": [
+      "D03 Attestation actualisée ADEME",
+      "D07 PV d'AG du 12/06/2025",
+      "D09 Synthèse du PPPT",
+      "D13 Devis des travaux privatifs",
+      "D17 Dossier de diagnostic technique",
+      "Plan Éco-staging (capsule 3.10)"
+    ],
+    "steps": [
+      "Liste au moins 10 actions possibles sur le bien (travaux, documents, prix, présentation).",
+      "Range chacune dans une colonne : faire, arbitrer, projeter, éviter.",
+      "Donne à chaque ligne un coût, un responsable, une date et la pièce qui la justifie.",
+      "Vérifie qu'aucune décision n'est prise à la place du vendeur et qu'aucune classe ni aide n'est promise.",
+      "Écris la phrase qui présente le plan au vendeur."
+    ],
+    "expected": "Corrigé pour M. Bernard. Faire : plan Éco-staging ≈ 450 € avant le 12/11/2026 ; état de l'installation électrique à commander (installation de plus de 15 ans, D17) ; fiche synthétique D10 à demander au syndic (Mme Roy, Cabinet Martel Gestion) ; attestation actualisée E jointe à l'annonce. Arbitrer : travaux privatifs avant la vente (16 500 €) ou vente en l'état → grille 3.12 ; répartition des appels ITE (4 × 8 970 € en 2027) entre vendeur et acquéreur, rédigée par le notaire, sachant que le copropriétaire à la date d'exigibilité paie le syndicat (art. 6-2 décret 1967). Projeter : fenêtres 5 600 €, VMC 2 900 €, radiateurs 4 800 €, chauffe-eau 3 200 € → D estimée ; ITE de l'immeuble → C estimée ; toiture-terrasse prévue en 2030 (PPPT D09). Éviter : décote « −15 % » (172 000 € proposés par les concurrents), repeindre des moisissures sans révéler l'absence de VMC, promettre une classe ou MaPrimeRénov' Copropriété (non notifiée), photographier avant le plan."
+  },
+  "deliverable": {
+    "title": "Plan d'action du bien fil rouge en 4 colonnes",
+    "format": "Tableur ou PDF, 1 page",
+    "criteria": [
+      "Au moins 10 actions réparties dans les 4 colonnes",
+      "Chaque ligne a un coût, un responsable, une date et une pièce justificative",
+      "Les choix qui engagent argent ou délai sont dans « Arbitrer », pas décidés à la place du vendeur",
+      "Aucune classe après travaux ni aide n'est présentée comme acquise",
+      "Les montants sont identiques au dossier fil rouge"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des provisions lors de la vente d'un lot)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    },
+    {
+      "label": "Service-Public — Diagnostics immobiliers obligatoires lors de la vente (F10798), vérifié le 07/03/2025",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798"
+    },
+    {
+      "label": "Dossier fil rouge Éco-Consultant (BIBLE §4, §6, §7 ; données fictives)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Grille « faire, arbitrer, projeter, éviter » : proposition pédagogique à valider par Sébastien Paumier"
+  ]
+}
