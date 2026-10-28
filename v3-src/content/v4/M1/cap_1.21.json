@@ -1,0 +1,241 @@
+{
+  "id": "1.21",
+  "module": 1,
+  "section": "H · Je transforme ma visibilité en rendez-vous",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Construire une offre de découverte qui obtient un rendez-vous",
+  "objective": "Écrire une offre de découverte complète (accroche ciblée, préanalyse du bien en 3 vérifications, appel à l'action vers le R1) et la diffuser par un canal conforme aux règles de démarchage et au RGPD",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi appelle un samedi les numéros d'annonces de particuliers : « Service rénovation énergétique, vous avez droit à des aides ! » Sébastien Paumier montre l'inverse : une offre qui donne envie d'être contacté, une préanalyse en 3 vérifications, un rendez-vous R1, et les règles de démarchage en vigueur depuis le 11 août 2026."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Samedi 10 h, Mozi appelle des numéros relevés sur des annonces de particuliers : « Service rénovation énergétique, vous avez droit à des aides ! » Combien de règles enfreint-il ?",
+        "options": [
+          "Une : il appelle un samedi",
+          "Plusieurs : pas de consentement préalable, jour interdit, démarchage sur la rénovation énergétique et présentation trompeuse",
+          "Aucune, s'il raccroche quand on lui dit non"
+        ],
+        "answer": 1,
+        "whys": [
+          "Le samedi est bien interdit, mais ce n'est qu'une des fautes : sans consentement préalable, l'appel est interdit tous les jours.",
+          "Juste : consentement absent (obligatoire depuis le 11/08/2026), samedi interdit, démarchage téléphonique interdit en rénovation énergétique, et se faire passer pour un service public est sanctionné.",
+          "Raccrocher après un refus est une obligation, pas une excuse : l'appel était interdit dès le départ."
+        ],
+        "fb_title": "Quatre fautes en une phrase",
+        "fb_text": "Depuis le 11/08/2026 : pas de démarchage téléphonique sans consentement préalable ; appels du lundi au vendredi, 10 h-13 h et 14 h-20 h ; démarchage téléphonique interdit en rénovation énergétique ; sanctions jusqu'à 75 000 € (personne physique) et 375 000 € (personne morale)."
+      },
+      {
+        "question": "Quelle accroche d'offre de découverte respecte la posture d'éco-consultant ?",
+        "options": [
+          "« Votre passoire thermique perd 25 % de sa valeur : appelez-nous vite ! »",
+          "« Faut-il rénover votre logement avant de le vendre ? Je vérifie avec vous 3 points en 45 minutes, sans engagement. »",
+          "« Rénovez avec nous et vendez 30 % plus cher. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Peur et chiffre non sourcé : exactement le discours que tes vendeurs ont déjà entendu, et qui ne repose sur aucune règle.",
+          "Juste : une question que le vendeur se pose vraiment, une promesse de méthode (3 vérifications) et un temps limité.",
+          "Double faute : tu vends des travaux et tu promets un gain, deux limites du métier."
+        ],
+        "fb_title": "Une question vraie, une méthode courte",
+        "fb_text": "L'accroche reprend la question du vendeur. L'offre promet une préanalyse (étiquette en vigueur, obligations liées à la vente, ventes du secteur), pas un résultat. Elle ne vend aucun travaux et ne présente aucune aide comme acquise."
+      },
+      {
+        "question": "M. Bernard a coché sur ton formulaire : « J'accepte d'être recontacté par [ton agence] au sujet de mon DPE et de l'estimation de mon bien ». Que dois-tu conserver ?",
+        "options": [
+          "Rien, la case cochée suffit",
+          "Seulement son numéro de téléphone",
+          "La preuve du consentement (date, heure, texte affiché, canal) pendant au moins 3 ans"
+        ],
+        "answer": 2,
+        "whys": [
+          "Sans preuve, tu ne peux pas démontrer que l'appel était autorisé en cas de contrôle ou de plainte.",
+          "Le numéro seul ne prouve rien de l'accord ; c'est l'accord qu'il faut pouvoir montrer.",
+          "Juste : la preuve du consentement (date, heure, informations transmises) se conserve au moins 3 ans et se fournit au consommateur à sa demande."
+        ],
+        "fb_title": "Un consentement se prouve",
+        "fb_text": "Le consentement au démarchage téléphonique est libre, spécifique, éclairé, univoque, révocable, valable un an au maximum. Tu archives la preuve au moins 3 ans. M. Bernard peut retirer son accord à tout moment, y compris oralement."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle d'offre de découverte (accroche, 3 vérifications, appel à l'action) ; règles de démarchage et de données personnelles à sourcer",
+    "kind": "modele",
+    "intro": "Ton offre de découverte donne au propriétaire une raison de te contacter : une question qu'il se pose, une préanalyse courte et utile, un rendez-vous R1. Elle se diffuse par des canaux qui respectent les règles en vigueur depuis le 11 août 2026. Partie règles : à faire relire par un juriste.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "Le modèle en 3 temps",
+        "items": [
+          "Accroche ciblée : la question du vendeur, tirée de ton angle (capsule 1.10). Exemple : « Faut-il rénover votre logement avant de le vendre ? »",
+          "Préanalyse en 3 vérifications : ce que tu regardes avec lui, en 45 minutes, sans engagement (voir ci-dessous).",
+          "Appel à l'action : une seule étape vers le R1, datée, avec le canal de réponse de son choix (formulaire, e-mail, téléphone)."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Les 3 vérifications de la préanalyse",
+        "headers": [
+          "Vérification",
+          "Ce que tu regardes",
+          "Exemple fil rouge (fictif)"
+        ],
+        "rows": [
+          [
+            "1. L'étiquette en vigueur",
+            "Date du DPE, énergie de chauffage, attestation actualisée possible",
+            "M. Bernard : DPE 2023 électrique, 150 × 1,9 = 285, classe E"
+          ],
+          [
+            "2. Les obligations liées à la vente",
+            "Audit énergétique (maison ou monopropriété classée E, F ou G), documents de copropriété",
+            "Mme Garnier (parcours maison) : maison G, audit obligatoire ; M. Bernard : lot de copropriété, pas d'audit, PV d'AG et appels de fonds"
+          ],
+          [
+            "3. Les ventes réelles du secteur",
+            "Ventes comparables (DVF), en l'état et rénovées",
+            "Appartements 1965-1980 : 2 650 €/m² en l'état, 2 850 €/m² rénovés"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Exemple d'offre rédigée (flyer ou page web)",
+        "text": "« Faut-il rénover votre logement avant de le vendre ? Avant de dépenser un euro en travaux ou d'accepter une décote, vérifions ensemble trois points : l'étiquette énergie en vigueur de votre logement, les obligations qui s'appliquent à votre vente, et les prix réels des ventes de votre quartier. 45 minutes chez vous ou en agence, sans engagement. Je ne vends pas de travaux. Pour prendre rendez-vous : scannez le QR code ou répondez par e-mail. » Formulaire : case non cochée « J'accepte d'être recontacté(e) par téléphone par [agence] au sujet de mon logement et de son estimation, pendant 12 mois. »"
+      },
+      {
+        "type": "table",
+        "heading": "Règles de diffusion par canal (vérifiées le 28/10/2026)",
+        "headers": [
+          "Canal",
+          "Règle",
+          "Source"
+        ],
+        "rows": [
+          [
+            "Téléphone",
+            "Consentement préalable obligatoire depuis le 11/08/2026 ; lundi-vendredi, 10 h-13 h et 14 h-20 h ; 4 sollicitations maximum en 30 jours ; numéro non masqué",
+            "DGCCRF, loi n° 2025-594, décret n° 2026-662"
+          ],
+          [
+            "Téléphone et rénovation énergétique",
+            "Démarchage téléphonique interdit dans ce secteur ; rappel possible d'une demande explicite sous 5 jours ouvrables, limité à l'objet demandé",
+            "DGCCRF, art. L. 223-1 code de la consommation"
+          ],
+          [
+            "E-mail et SMS",
+            "Consentement préalable du particulier ; lien de désinscription dans chaque message",
+            "CNIL, art. L. 34-5 CPCE"
+          ],
+          [
+            "Courrier et boîtage",
+            "Autorisé ; droit d'opposition ; respect du Stop Pub",
+            "CNIL ; ministère de la Transition écologique"
+          ],
+          [
+            "Porte-à-porte",
+            "Interdit si la personne a clairement refusé les visites ; 14 jours de rétractation pour un contrat signé hors établissement",
+            "Service-Public Entreprendre F23224"
+          ],
+          [
+            "Bloctel",
+            "Supprimé depuis le 11/08/2026 : il ne suffit plus de consulter une liste d'opposition",
+            "DGCCRF"
+          ]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Données personnelles : le minimum",
+        "items": [
+          "Formulaire : qui collecte, pour quoi, combien de temps, droits de la personne, lien vers la politique de confidentialité.",
+          "Case de consentement non cochée, distincte pour le téléphone et pour l'e-mail ou le SMS.",
+          "Preuve du consentement archivée (date, heure, texte, canal) au moins 3 ans.",
+          "Données d'un prospect conservées 3 ans au maximum après le dernier contact venant de lui, puis supprimées.",
+          "Aucune donnée inutile (situation familiale, santé, revenus) dans le formulaire.",
+          "Jamais de présentation comme organisme public ou au nom d'une aide publique."
+        ]
+      }
+    ],
+    "footer": "Sources : DGCCRF, les règles du démarchage téléphonique (27/07/2026) et renforcement des mesures contre le démarchage abusif (20/07/2026) ; loi n° 2025-594 du 30/06/2025 ; décret n° 2026-662 du 23/07/2026 ; décret n° 2022-1313 ; CNIL, prospection électronique et référentiel gestion commerciale ; Service-Public Entreprendre F23224 (démarchage à domicile, vérifié le 11/08/2026). Partie règles à faire relire par un juriste. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Écrire son offre de découverte",
+    "duration_min": 40,
+    "context": "Tu écris l'offre qui transforme ta visibilité en rendez-vous : une accroche ciblée (« Faut-il rénover votre logement avant de le vendre ? » ou une accroche tirée de ton angle), une préanalyse du bien en 3 vérifications, un appel à l'action qui mène au rendez-vous R1. Tu précises le canal de diffusion et vérifies qu'il est conforme.",
+    "materials": [
+      "Tes offres ciblées (1.10), ton message clé (1.17), ton support physique (1.20)",
+      "D02, D03, D07 et D12 (appartement de M. Bernard) ou M02, M03 et M12 (maison de Mme Garnier, parcours maison)",
+      "Modèle d'offre de découverte et tableau des règles (ressource)"
+    ],
+    "steps": [
+      "Choisis ton angle et écris l'accroche sous forme de question, avec les mots du vendeur.",
+      "Écris les 3 vérifications de ta préanalyse, adaptées à ton angle, et teste-les sur un bien fil rouge.",
+      "Écris l'appel à l'action : une étape, une durée, le canal de réponse.",
+      "Choisis ton canal de diffusion et vérifie-le dans le tableau des règles.",
+      "Rédige le texte du formulaire : information RGPD et case de consentement non cochée.",
+      "Relis : aucune promesse de gain, aucune vente de travaux, aucune aide présentée comme acquise."
+    ],
+    "expected": "Exemple attendu. Accroche : « Faut-il rénover votre logement avant de le vendre ? » Préanalyse : (1) l'étiquette en vigueur : date du DPE, chauffage, attestation actualisée (M. Bernard : classe E au lieu de F) ; (2) les obligations de la vente : audit pour une maison classée E, F ou G, documents de copropriété pour un lot ; (3) les ventes réelles du quartier sur DVF, en l'état et rénovées. Appel à l'action : « 45 minutes chez vous ou en agence, sans engagement : scannez le QR code ou répondez à cet e-mail. » Canal : flyer en boîtage (Stop Pub respecté) et page web. Formulaire : mention d'information, case non cochée « J'accepte d'être recontacté(e) par téléphone par [agence] au sujet de mon logement et de son estimation, pendant 12 mois ». Aucun appel sans ce consentement, jamais le week-end."
+  },
+  "deliverable": {
+    "title": "Mon offre de découverte",
+    "format": "PDF ou DOCX d'une page : accroche, 3 vérifications, appel à l'action, canal choisi avec la règle applicable, texte du formulaire",
+    "criteria": [
+      "L'accroche est une question ciblée tirée d'un angle vendeur",
+      "La préanalyse comporte 3 vérifications concrètes et vérifiables",
+      "L'appel à l'action mène à une seule étape : le rendez-vous R1",
+      "Le canal de diffusion est conforme (consentement pour téléphone, e-mail et SMS ; Stop Pub pour le boîtage)",
+      "Le formulaire comporte l'information RGPD et une case de consentement non cochée (agence, objet, durée)",
+      "Aucune promesse de gain, aucune vente de travaux, aucune aide présentée comme acquise"
+    ]
+  },
+  "sources": [
+    {
+      "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises"
+    },
+    {
+      "label": "DGCCRF — Renforcement des mesures pour lutter contre le démarchage abusif (20/07/2026)",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/renforcement-des-mesures-pour-lutter-contre-le-demarchage-abusif"
+    },
+    {
+      "label": "Légifrance — Loi n° 2025-594 du 30 juin 2025 contre toutes les fraudes aux aides publiques",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051824277"
+    },
+    {
+      "label": "Légifrance — Décret n° 2026-662 du 23 juillet 2026 (consentement à la prospection téléphonique)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054483939"
+    },
+    {
+      "label": "CNIL — La prospection commerciale par courrier électronique, SMS-MMS et automate d'appel",
+      "url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel"
+    },
+    {
+      "label": "CNIL — Référentiel gestion des activités commerciales (durées de conservation des données prospects)",
+      "url": "https://www.cnil.fr/sites/cnil/files/atoms/files/referentiel_traitements-donnees-caractere-personnel_gestion-activites-commerciales.pdf"
+    },
+    {
+      "label": "Service-Public Entreprendre — Démarchage à domicile : règles à respecter (F23224, vérifié le 11/08/2026)",
+      "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F23224"
+    },
+    {
+      "label": "INC — L'obligation de réaliser un audit énergétique lors de la vente de certaines maisons",
+      "url": "https://www.inc-conso.fr/content/lobligation-de-realiser-un-audit-energetique-lors-de-la-vente-de-certaines-maisons"
+    }
+  ],
+  "open_points": [
+    "à faire relire par un juriste : le tableau des règles de diffusion par canal, en particulier l'application à un agent immobilier de l'interdiction de démarchage téléphonique « en matière de rénovation énergétique » quand l'offre évoque la rénovation avant vente.",
+    "à vérifier : article exact du code de la consommation qui interdit le démarchage à domicile après refus manifeste (issu de la loi n° 2025-594) et montant des sanctions (Service-Public indique 1 an et 150 000 €).",
+    "à vérifier : la CNIL annonçait une mise à jour de ses fiches après les textes d'application ; revérifier avant diffusion.",
+    "Le parcours maison (Mme Garnier) reste une proposition à valider (BIBLE §11).",
+    "Le chapitre interactif (nouveau) reste à écrire."
+  ]
+}

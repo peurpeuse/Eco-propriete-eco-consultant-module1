@@ -1,0 +1,172 @@
+{
+  "id": "3.25",
+  "module": 3,
+  "section": "E · Être choisi : offre, honoraires, engagements",
+  "etape": "7",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Défendre les honoraires et négocier l'exclusivité",
+  "objective": "Expliquer prestation par prestation ce que comprennent tes honoraires, traiter une demande de remise ou de mandat simple, et respecter les règles d'affichage des honoraires",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "« Votre concurrent prend moins cher que vous. » Mozi, en blazer violet, répond « je baisse à moitié si vous signez ce soir, et je vous vends 10 000 € plus cher ». Sébastien Paumier montre l'inverse : les 9 000 € TTC détaillés en sept prestations, une remise discutée sans brader, un mandat simple respecté, et les règles d'affichage des honoraires."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Face à l'objection « votre concurrent est moins cher », Mozi promet : « Avec moi, vous vendrez 10 000 € plus cher. » Quelle est son erreur ?",
+        "options": [
+          "Il promet un prix supérieur pour justifier ses honoraires, ce qu'aucun agent ne peut garantir",
+          "Il aurait dû promettre 5 000 € seulement",
+          "Il n'a pas précisé que ses honoraires sont TTC"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : tu justifies tes honoraires par ce que tu fais, jamais par un prix de vente promis.",
+          "Faux : le montant n'est pas le problème, la promesse elle-même l'est.",
+          "C'est une mention utile, mais l'erreur de fond est la promesse d'un prix supérieur."
+        ],
+        "fb_title": "Justifier par les prestations",
+        "fb_text": "Tes honoraires se défendent prestation par prestation : expertise locale, préparation du dossier, stratégie, qualification des acquéreurs, négociation, coordination, suivi. Le prix de vente dépendra des offres ; tu ne le promets pas."
+      },
+      {
+        "question": "Comment l'annonce de l'appartement de M. Bernard doit-elle présenter le prix et les honoraires (à la charge de l'acquéreur) ?",
+        "options": [
+          "« 189 000 € FAI », sans autre mention",
+          "« 180 000 € », les honoraires étant indiqués seulement en agence",
+          "« 189 000 € honoraires inclus (180 000 € hors honoraires) — Honoraires : 5 % TTC à la charge de l'acquéreur »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : il manque le prix hors honoraires, qui doit payer et le pourcentage TTC.",
+          "Faux : la publicité doit indiquer le prix honoraires inclus et le pourcentage TTC, quel que soit le support.",
+          "Juste : prix honoraires inclus et exclus, qui paie, et pourcentage TTC précédé de « Honoraires : »."
+        ],
+        "fb_title": "Ce que dit l'arrêté de 2017",
+        "fb_text": "Arrêté du 10 janvier 2017, art. 3 : le prix est exprimé honoraires inclus et exclus (le prix honoraires inclus en plus gros), l'annonce dit à qui incombent les honoraires et donne leur montant TTC en pourcentage du prix hors honoraires : 9 000 / 180 000 = 5 %."
+      },
+      {
+        "question": "Le barème affiché par l'agence de Claire indique 5 % TTC maximum. Un vendeur demande une remise. Que peut-elle faire ?",
+        "options": [
+          "Rien : le barème affiché ne se négocie jamais",
+          "Accepter une remise sous le barème si elle le décide, l'écrire dans le mandat, mais jamais dépasser le maximum affiché",
+          "Appliquer 6 % à un autre client pour compenser"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : depuis le 1/04/2022, le barème affiche des prix maximums, justement pour permettre une négociation à la baisse.",
+          "Juste : la remise est possible, la rémunération convenue est écrite dans le mandat, le maximum affiché ne se dépasse pas.",
+          "Faux : dépasser le prix maximum affiché est contraire au barème."
+        ],
+        "fb_title": "Un barème de prix maximums",
+        "fb_text": "L'arrêté du 26 janvier 2022 a modifié l'art. 2 de l'arrêté de 2017 : le barème affiche les prix maximums TTC, avec qui paie. Accorder une remise est un choix commercial, pas une obligation ; ta réponse dépend de ce que tu peux maintenir comme service."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche honoraires, prestation par prestation ; réponses à la remise d'honoraires et au mandat simple ; règles de transparence des honoraires (DGCCRF, à sourcer)",
+    "kind": "fiche",
+    "intro": "Cette fiche t'aide à expliquer ce que comprennent tes honoraires, à répondre calmement à une demande de remise ou de mandat simple, et à respecter les règles de transparence. Exemple : M. Bernard, 9 000 € TTC (5 % du prix hors honoraires de 180 000 €), à la charge de l'acquéreur. Dossier fil rouge fictif ; règles vérifiées sur Légifrance et DGCCRF au 28/10/2026.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les honoraires, prestation par prestation",
+        "headers": ["Prestation", "Ce que tu fais concrètement (exemple M. Bernard)"],
+        "rows": [
+          ["Expertise locale", "Comparables du secteur (D12), lecture de l'étiquette et de l'attestation E (D03)"],
+          ["Préparation du dossier", "Dossier technique, devis D13, PV d'AG D07, calendrier des appels de fonds"],
+          ["Stratégie de vente", "Arbitrage travaux ou vente en l'état, plan Éco-staging, prix de présentation"],
+          ["Qualification des acquéreurs", "Projet, financement et calendrier vérifiés avant chaque visite"],
+          ["Négociation", "Offres écrites, arguments chiffrés, défense du prix plancher du vendeur"],
+          ["Coordination", "Diagnostiqueur, syndic, notaire, pièces du compromis"],
+          ["Suivi", "Compte rendu écrit toutes les 2 semaines jusqu'à l'acte"]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Répondre à « votre concurrent est moins cher »",
+        "items": [
+          "Accueillir : « C'est un vrai critère, parlons-en. »",
+          "Comparer : « Regardons ce que comprend chaque offre, prestation par prestation. »",
+          "Situer : « Mes honoraires sont de 9 000 € TTC, à la charge de l'acquéreur : vous recevez 180 000 € net. »",
+          "Ne jamais promettre : pas de « je vous vendrai plus cher », pas de délai garanti.",
+          "Ne jamais dénigrer : tu ne commentes pas le travail du concurrent."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Remise d'honoraires et mandat simple : tes réponses",
+        "items": [
+          "Remise : « Je peux étudier une remise si une prestation n'est pas utile pour vous. Laquelle souhaitez-vous retirer ? » Tu restes sous le maximum affiché et tu écris le montant convenu dans le mandat.",
+          "Remise sous pression (« ce soir ou jamais ») : « Je préfère vous laisser comparer à tête reposée. »",
+          "Mandat simple : « C'est votre droit. En exclusif, je m'engage par écrit sur des actions et des comptes rendus ; en simple, je ne peux pas prendre ces engagements de la même façon. »",
+          "Si le vendeur maintient le mandat simple : tu respectes son choix, tu laisses ta charte d'engagements et tu proposes de refaire le point à une date fixée."
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Règles de transparence des honoraires",
+        "items": [
+          "Barème affiché en vitrine, à l'entrée et sur le site : prix maximums TTC de chaque prestation et qui les paie (arrêté du 10/01/2017, art. 2, modifié par l'arrêté du 26/01/2022, en vigueur depuis le 1/04/2022)",
+          "Annonce de vente : prix honoraires inclus et exclus, qui paie, pourcentage TTC des honoraires à la charge de l'acquéreur sur le prix hors honoraires, précédé de « Honoraires : » (arrêté du 10/01/2017, art. 3)",
+          "Le prix affiché n'inclut jamais la part des honoraires à la charge du vendeur (même art. 3)",
+          "Rémunération et partie qui la paie précisées dans le mandat ; aucune autre rémunération que celle prévue au mandat (décret n° 72-678, art. 73)",
+          "Aucun honoraire dû avant que la vente soit effectivement conclue (loi n° 70-9, art. 6 I)",
+          "Contrôles : la DGCCRF relève un taux d'anomalie de 58 à 65 % dans le secteur sur six ans, notamment sur l'information relative aux honoraires (page du 20/06/2022)"
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Le calcul à afficher",
+        "text": "Honoraires à la charge de l'acquéreur, en % du prix hors honoraires = 9 000 € TTC / 180 000 € = 5 %. Prix honoraires inclus = 180 000 + 9 000 = 189 000 €. Annonce : « 189 000 € honoraires inclus (180 000 € hors honoraires). Honoraires : 5 % TTC à la charge de l'acquéreur. »"
+      }
+    ],
+    "footer": "Sources : arrêté du 10 janvier 2017 relatif à l'information des consommateurs par les professionnels intervenant dans une transaction immobilière, art. 2 (modifié par l'arrêté du 26 janvier 2022) et art. 3 ; loi n° 70-9, art. 6 et 6-1 ; décret n° 72-678, art. 73 (Légifrance, consultés le 28/10/2026) ; DGCCRF, « Agences immobilières : attention aux clauses illicites et à l'information sur les tarifs », 20/06/2022. Fiche à faire relire par un juriste. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Jeu de rôle filmé : « Votre concurrent prend moins cher que vous »",
+    "duration_min": 40,
+    "context": "Rendez-vous du 5 novembre 2026, avant la signature. M. Bernard a reçu l'offre d'une agence à honoraires réduits et te dit : « Votre concurrent prend moins cher que vous. » Il demande ensuite une remise, puis propose de signer plutôt un mandat simple. Un partenaire joue M. Bernard (profil C) ; tu es filmé.",
+    "materials": [
+      "D18 Modèle de mandat exclusif",
+      "Barème d'honoraires affiché de ton agence",
+      "Fiche honoraires, prestation par prestation",
+      "Charte d'engagements (capsule 3.27)"
+    ],
+    "steps": [
+      "Prépare ta réponse à l'objection en citant les sept prestations, chacune avec un exemple du dossier de M. Bernard.",
+      "Prépare ta réponse à la demande de remise : ce que tu peux retirer, ce que tu ne retires pas, et le maximum de ton barème.",
+      "Prépare ta réponse au mandat simple, sans pression, avec une étape datée.",
+      "Joue la scène (6 à 8 minutes), filmée.",
+      "Revois la vidéo et note toute phrase qui promet un prix, un délai, ou qui juge le concurrent.",
+      "Écris l'annonce du bien conforme à l'arrêté de 2017 (prix, qui paie, pourcentage TTC)."
+    ],
+    "expected": "Objection : « C'est un vrai critère. Mes honoraires sont de 9 000 € TTC, à la charge de l'acquéreur ; vous recevez 180 000 € net. Ils couvrent sept prestations : l'expertise locale (comparables D12, attestation E), le dossier technique (D13, D07), la stratégie (vente en l'état, Éco-staging), la qualification des acheteurs, la négociation, la coordination avec le syndic et le notaire, et un compte rendu écrit toutes les 2 semaines. Comparons ce que comprend l'autre offre, ligne par ligne. » Remise : « Si une prestation ne vous sert pas, on peut en parler ; je ne dépasse jamais mon barème et ce que nous convenons est écrit dans le mandat. » Mandat simple : « C'est votre droit. En exclusif, je m'engage par écrit sur mes actions et mes comptes rendus. Si vous préférez un mandat simple, je respecte votre choix et je vous laisse ma charte ; refaisons le point le 5 décembre. » Annonce : « 189 000 € honoraires inclus (180 000 € hors honoraires). Honoraires : 5 % TTC à la charge de l'acquéreur. » Aucune promesse de prix supérieur, aucun jugement sur le concurrent."
+  },
+  "deliverable": {
+    "title": "Jeu de rôle filmé et annonce conforme",
+    "format": "Vidéo de 8 minutes maximum + annonce rédigée (texte, 1/2 page)",
+    "criteria": [
+      "Les honoraires sont expliqués prestation par prestation (au moins 6 des 7), chacune avec un exemple du dossier",
+      "La demande de remise est traitée sans brader sous pression et sans dépasser le maximum du barème",
+      "Le choix d'un mandat simple est respecté, avec une étape datée",
+      "Aucune promesse de prix supérieur ou de délai, aucun dénigrement du concurrent",
+      "L'annonce indique le prix honoraires inclus et exclus, qui paie et « Honoraires : 5 % TTC à la charge de l'acquéreur »"
+    ]
+  },
+  "sources": [
+    { "label": "Légifrance — Arrêté du 10 janvier 2017 relatif à l'information des consommateurs par les professionnels intervenant dans une transaction immobilière (texte consolidé)", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033888549/" },
+    { "label": "Légifrance — Arrêté du 10 janvier 2017, art. 2 (barème de prix maximums TTC), modifié par l'arrêté du 26 janvier 2022, en vigueur depuis le 1/04/2022", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000045120877" },
+    { "label": "Légifrance — Arrêté du 10 janvier 2017, art. 3 (mentions des annonces de vente)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033889160" },
+    { "label": "Légifrance — Arrêté du 26 janvier 2022 modifiant l'arrêté du 10 janvier 2017 (JORF du 4/02/2022)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045118966" },
+    { "label": "DGCCRF — Agences immobilières : attention aux clauses illicites et à l'information sur les tarifs (20/06/2022)", "url": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/les-enquetes/agences-immobilieres-attention-aux-clauses-illicites-et" },
+    { "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (art. 6 et 6-1) et décret n° 72-678, art. 73", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512228" }
+  ],
+  "open_points": [
+    "À faire relire par un juriste : formulation des règles de transparence (arrêté du 10/01/2017 modifié, loi n° 70-9 art. 6 et 6-1, décret n° 72-678 art. 73) et réponse type sur la remise d'honoraires.",
+    "Valider avec Sébastien Paumier la liste des sept prestations et la politique de remise recommandée aux apprenants.",
+    "Chapitre interactif nouveau à écrire."
+  ]
+}

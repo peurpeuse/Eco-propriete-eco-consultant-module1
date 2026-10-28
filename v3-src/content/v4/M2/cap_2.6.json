@@ -1,0 +1,172 @@
+{
+  "id": "2.6",
+  "module": 2,
+  "section": "B · Les diagnostics obligatoires : ce qui vaut pour tous",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Selon la zone : risques naturels (argiles, inondation), termites, mérule, bruit",
+  "objective": "Interroger Géorisques et les arrêtés préfectoraux pour une adresse, puis lister les obligations de zone qui s'appliquent (état des risques, termites, mérule, bruit) et les informations à donner à l'acquéreur",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Même maison, autre adresse, autre dossier. Sébastien Paumier saisit une adresse dans Géorisques et lit l'écran : prévention, inondation, argiles, catastrophes naturelles. Puis il cherche ce que Géorisques ne dit pas seul : termites, mérule, bruit. Exemple : l'état des risques de Mme Garnier, exposée aux argiles."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "L'annonce de la maison de Mme Garnier doit-elle parler des risques ?",
+        "options": [
+          "Non, les risques ne se donnent qu'au notaire",
+          "Seulement si un arrêté de catastrophe naturelle a été pris",
+          "Oui : l'annonce renvoie au site Géorisques pour les informations sur les risques"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : l'état des risques est remis dès la première visite, et l'annonce doit déjà renvoyer à Géorisques.",
+          "Faux : la mention dans l'annonce ne dépend pas d'un arrêté de catastrophe naturelle.",
+          "Juste : l'annonce mentionne par exemple « Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques »."
+        ],
+        "fb_title": "Annonce, visite, promesse",
+        "fb_text": "Trois temps : l'annonce renvoie à Géorisques ; l'état des risques (moins de 6 mois) est remis dès la première visite ; il est annexé à la promesse ou à l'acte et signé par l'acquéreur (service-public.fr F12239)."
+      },
+      {
+        "question": "La commune a eu un arrêté de catastrophe naturelle « sécheresse » et le vendeur a été indemnisé pour des fissures. Que vérifies-tu ?",
+        "options": [
+          "S'il reste des travaux de réparation non réalisés : ils doivent être listés et annexés à l'état des risques",
+          "Rien : le sinistre est indemnisé, il n'a plus à en parler",
+          "Que le vendeur rembourse l'indemnité avant de vendre"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : pour un sinistre lié à la sécheresse indemnisé pendant sa détention, le vendeur joint la liste des travaux de réparation non réalisés.",
+          "Faux : l'indemnisation ne dispense pas d'informer l'acquéreur.",
+          "Faux : aucune règle n'impose de rembourser l'indemnité."
+        ],
+        "fb_title": "Sinistre sécheresse : les travaux restants",
+        "fb_text": "Après un arrêté de catastrophe naturelle, le vendeur informe l'acquéreur des sinistres indemnisés. Pour les dommages liés à la sécheresse et à la réhydratation des sols, il joint la liste des travaux de réparation non réalisés (service-public.fr F12239, à jour au 28/09/2026)."
+      },
+      {
+        "question": "Géorisques n'affiche rien sur les termites pour une adresse. Que fais-tu ?",
+        "options": [
+          "Tu conclus qu'il n'y a pas de termites",
+          "Tu commandes un état termites par précaution, sans vérifier",
+          "Tu vérifies l'arrêté préfectoral termites et mérule de la commune (carte du Cerema, mairie, préfecture)"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : l'absence d'information ne prouve pas l'absence de zone.",
+          "Faux : le vendeur paie ; tu vérifies d'abord si la commune est dans une zone délimitée.",
+          "Juste : l'obligation dépend d'un arrêté préfectoral ; la carte nationale du Cerema et la mairie le confirment."
+        ],
+        "fb_title": "Termites : l'arrêté décide",
+        "fb_text": "L'état termites (6 mois) est exigé dans les zones délimitées par arrêté préfectoral ; l'information mérule aussi. Les arrêtés se consultent en mairie et en préfecture ; le Cerema publie une carte nationale mise à jour à chaque nouvel arrêté."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Mode d'emploi Géorisques, liste des arrêtés préfectoraux à consulter, fiche retrait-gonflement des argiles, inondation et catastrophe naturelle (textes à sourcer)",
+    "kind": "fiche",
+    "intro": "La méthode pour savoir, en 20 minutes, quelles obligations de zone s'appliquent à une adresse. Géorisques donne l'essentiel des risques naturels et technologiques ; les arrêtés préfectoraux donnent les termites et la mérule ; le plan d'exposition au bruit donne le bruit des aérodromes.",
+    "sections": [
+      {
+        "heading": "Géorisques en 6 gestes",
+        "type": "steps",
+        "items": [
+          "Ouvre georisques.gouv.fr et saisis l'adresse exacte (ou la parcelle cadastrale).",
+          "Relève les plans de prévention : inondation, mouvements de terrain, technologiques, miniers ; prescrit, approuvé ou en projet.",
+          "Relève la zone de sismicité (1 à 5) et le potentiel radon (1 à 3).",
+          "Relève l'exposition au retrait-gonflement des argiles (faible, moyenne, forte).",
+          "Liste les arrêtés de catastrophe naturelle de la commune (type, date).",
+          "Génère l'état des risques avec le service en ligne de Géorisques, puis fais-le compléter et signer par le vendeur ; date à noter : validité 6 mois."
+        ]
+      },
+      {
+        "heading": "Ce que Géorisques ne suffit pas à dire",
+        "type": "table",
+        "headers": ["Sujet", "Où vérifier", "Conséquence pour la vente"],
+        "rows": [
+          ["Termites", "Arrêté préfectoral ; carte nationale du Cerema ; mairie", "État termites de moins de 6 mois"],
+          ["Mérule", "Arrêté préfectoral ; carte du Cerema ; mairie", "Information mérule dans la promesse ou l'acte"],
+          ["Bruit des aérodromes", "Plan d'exposition au bruit (zones A à D), Géoportail, mairie", "Document d'information bruit dans le dossier"],
+          ["Sinistres indemnisés", "Vendeur, assureur, rapport d'expertise", "Liste des sinistres ; travaux non réalisés pour un sinistre sécheresse"]
+        ]
+      },
+      {
+        "heading": "Retrait-gonflement des argiles, inondation, catastrophe naturelle",
+        "type": "list",
+        "items": [
+          "Argiles : les sols argileux gonflent avec l'eau et se rétractent à la sécheresse ; les maisons sur fondations peu profondes sont les plus exposées (fissures en escalier).",
+          "Exposition moyenne ou forte : une étude géotechnique préalable est exigée pour la vente d'un terrain à bâtir (loi ÉLAN) ; à vérifier pour toute division de parcelle (capsule 2.21).",
+          "Inondation : un plan de prévention prescrit ou approuvé déclenche l'état des risques et peut limiter les travaux.",
+          "Catastrophe naturelle : l'arrêté ouvre l'indemnisation ; le vendeur informe l'acquéreur des sinistres indemnisés pendant sa détention.",
+          "Tu ne qualifies jamais une fissure : tu la signales et tu renvoies vers un expert (capsule 2.19)."
+        ]
+      },
+      {
+        "heading": "Exemple : la maison de Mme Garnier (dossier fictif M10)",
+        "type": "text",
+        "text": "Exposition moyenne au retrait-gonflement des argiles ; pas de plan de prévention inondation ; un arrêté « sécheresse » en 2019 sur la commune ; fissures en escalier sur le pignon nord à faire examiner. Termites : commune non couverte par un arrêté (fictif, à vérifier) ; mérule : pas de zone. Ce que tu dis : « Votre maison est en zone d'argiles moyenne ; l'état des risques le mentionnera. Pour les fissures, je vous conseille l'avis d'un expert avant la mise en vente : c'est mieux que de laisser l'acquéreur le découvrir. »"
+      }
+    ],
+    "footer": "Sources : service-public.fr F12239 (état des risques, 28/09/2026) ; ministère de la Transition écologique, termites et mérule (mis à jour le 10/04/2026) ; INC, bruit aux environs des aérodromes (2020) ; Géorisques. Étude géotechnique (loi ÉLAN) : à vérifier sur Légifrance. Données du fil rouge fictives. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Lister les obligations de zone d'une adresse",
+    "duration_min": 30,
+    "context": "Tu prépares la vente d'une maison de ton secteur (adresse réelle de ton choix, par exemple celle de ton agence : aucune donnée personnelle). Tu dois dire au vendeur, avant la mise en vente, ce qui s'applique selon la zone. En comparaison, tu as le dossier fictif de Mme Garnier à Vaux-le-Pénil (M10).",
+    "materials": [
+      "Géorisques (georisques.gouv.fr)",
+      "Carte termites et mérule du Cerema, site de la préfecture",
+      "Géoportail (plans d'exposition au bruit)",
+      "M10 État des risques de Mme Garnier (fictif)"
+    ],
+    "steps": [
+      "Saisis l'adresse sur Géorisques et relève les 5 informations (plans de prévention, sismicité, radon, argiles, arrêtés de catastrophe naturelle).",
+      "Vérifie les arrêtés termites et mérule de la commune et note ta source.",
+      "Vérifie si l'adresse est dans un plan d'exposition au bruit.",
+      "Liste les pièces et informations à prévoir avec leur moment de remise (annonce, première visite, promesse).",
+      "Compare avec le M10 de Mme Garnier et rédige la phrase pour le vendeur."
+    ],
+    "expected": "Exemple de rendu (adresse fictive) : plan de prévention inondation approuvé : non ; sismicité 1 (très faible) ; radon 1 ; argiles : exposition moyenne ; arrêtés de catastrophe naturelle : inondation 1999, sécheresse 2019. Termites : commune non couverte (carte Cerema consultée le 28/10/2026) ; mérule : non. Bruit : hors plan d'exposition au bruit. À prévoir : mention Géorisques dans l'annonce ; état des risques de moins de 6 mois remis dès la première visite ; liste des sinistres indemnisés et, pour un sinistre sécheresse, des travaux non réalisés ; annexe à la promesse. Comparaison M10 : même exposition moyenne aux argiles ; fissures du pignon nord à faire examiner. Phrase : « Votre adresse est en zone d'argiles moyenne et la commune a connu un arrêté sécheresse : l'état des risques le dira ; vous me dites si vous avez déclaré un sinistre. »"
+  },
+  "deliverable": {
+    "title": "Fiche zone d'une adresse",
+    "format": "1 page (PDF) avec captures Géorisques datées",
+    "criteria": [
+      "Les 5 informations de Géorisques sont relevées et datées",
+      "Termites, mérule et bruit sont vérifiés avec une source nommée",
+      "Les pièces à prévoir et leur moment de remise sont listés",
+      "Les sinistres et arrêtés de catastrophe naturelle sont traités",
+      "Aucune adresse ou donnée d'un client réel n'apparaît"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Service-Public F12239 : état des risques (zones, 6 mois, première visite, annonce, sinistres sécheresse), 28/09/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239"
+    },
+    {
+      "label": "Géorisques (ministère de la Transition écologique)",
+      "url": "https://www.georisques.gouv.fr"
+    },
+    {
+      "label": "Ministère de la Transition écologique : termites, insectes xylophages et champignons lignivores (état termites 6 mois, mérule, carte Cerema), mis à jour le 10/04/2026",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/termites-insectes-xylophages-champignons-lignivores"
+    },
+    {
+      "label": "INC : l'information sur le bruit aux environs des aérodromes (depuis le 1/06/2020)",
+      "url": "https://www.inc-conso.fr/content/linformation-sur-le-bruit-aux-environs-des-aerodromes"
+    },
+    {
+      "label": "Banque des territoires : le Cerema diffuse les cartographies nationales termites et mérule",
+      "url": "https://www.banquedesterritoires.fr/zones-infectees-par-les-termites-et-les-merules-le-cerema-diffuse-les-cartographies-nationales"
+    }
+  ],
+  "open_points": [
+    "À vérifier : obligation d'étude géotechnique préalable à la vente d'un terrain à bâtir en zone d'argiles moyenne ou forte (loi ÉLAN, CCH art. L. 132-4 et suivants) : non relue ce jour",
+    "À vérifier : situation réelle de Vaux-le-Pénil (termites, plan d'exposition au bruit de l'aérodrome de Melun-Villaroche) : le dossier fictif M10 ne doit contredire aucune donnée réelle",
+    "À vérifier : nom et adresse exacte du service en ligne de Géorisques qui génère l'état des risques (ERRIAL)"
+  ]
+}

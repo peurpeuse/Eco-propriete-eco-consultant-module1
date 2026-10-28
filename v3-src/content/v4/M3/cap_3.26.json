@@ -1,0 +1,172 @@
+{
+  "id": "3.26",
+  "module": 3,
+  "section": "E · Être choisi : offre, honoraires, engagements",
+  "etape": "7",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Les mandats : simple, exclusif, semi-exclusif",
+  "objective": "Comparer les mandats simple, exclusif et semi-exclusif (durée, exclusivité, honoraires, mentions obligatoires, résiliation) et justifier lequel proposer à un vendeur",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi, en blazer violet, fait signer un « exclusif d'un an, sans sortie », clause en petits caractères au verso. Sébastien Paumier pose les trois mandats côte à côte : qui peut vendre, combien de temps, comment on en sort, ce que le mandat doit contenir. Puis il choisit, pour M. Bernard, le mandat à proposer et explique pourquoi."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi fait signer un mandat exclusif « d'un an, sans sortie possible », la clause d'exclusivité en petits caractères au verso. Qu'est-ce qui ne va pas ?",
+        "options": [
+          "La clause doit être en caractères très apparents, et passé 3 mois chaque partie peut dénoncer le mandat avec 15 jours de préavis par LRAR",
+          "Rien, si le vendeur a signé",
+          "Seule la durée pose problème : 6 mois auraient suffi"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : art. 78 du décret n° 72-678 : clause très apparente, exemplaire remis, dénonciation possible après 3 mois.",
+          "Faux : une clause d'exclusivité qui ne respecte pas ces conditions ne peut pas recevoir application.",
+          "Faux : quelle que soit la durée, la sortie après 3 mois et la clause très apparente s'imposent."
+        ],
+        "fb_title": "Article 78 du décret de 1972",
+        "fb_text": "La clause d'exclusivité ne s'applique que si elle est stipulée expressément, en caractères très apparents, dans un mandat dont le vendeur a reçu un exemplaire. Passé 3 mois à compter de la signature, chaque partie peut dénoncer le mandat avec un préavis de 15 jours au moins, par LRAR."
+      },
+      {
+        "question": "Un vendeur veut confier sa vente à une seule agence, mais garder le droit de vendre lui-même à un acheteur qu'il trouverait. Quel mandat lui présentes-tu ?",
+        "options": [
+          "Le mandat exclusif",
+          "Le mandat simple avec trois agences",
+          "Le mandat semi-exclusif, dont tu lis avec lui la clause sur la vente par le propriétaire"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : en exclusif, il ne peut pas vendre lui-même.",
+          "Faux : il veut une seule agence ; le simple répond à un autre besoin.",
+          "Juste : une seule agence, et le vendeur garde la possibilité de vendre lui-même, selon les conditions écrites au mandat."
+        ],
+        "fb_title": "Le semi-exclusif, un usage contractuel",
+        "fb_text": "Le semi-exclusif n'est pas défini par un texte : c'est une pratique décrite par service-public.fr. Le mandat peut laisser le vendeur vendre sans honoraires, ou prévoir qu'il redirige son acheteur vers l'agent avec des honoraires réduits. Tu lis la clause avec lui."
+      },
+      {
+        "question": "M. Bernard signe un mandat exclusif de 3 mois le 5/11/2026. Que lui dis-tu sur la sortie ?",
+        "options": [
+          "« Vous pouvez arrêter quand vous voulez, par un simple appel. »",
+          "« Après le 5 février 2027, vous ou moi pouvons y mettre fin à tout moment, avec au moins 15 jours de préavis par lettre recommandée. »",
+          "« Vous êtes engagé jusqu'à ce que le bien soit vendu. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : avant 3 mois, le mandat est irrévocable, et la dénonciation se fait par LRAR.",
+          "Juste : 3 mois à compter de la signature, puis dénonciation à tout moment avec 15 jours de préavis par LRAR.",
+          "Faux : un mandat doit être limité dans le temps (loi n° 70-9, art. 7), et la sortie après 3 mois est prévue par l'art. 78."
+        ],
+        "fb_title": "Trois mois, puis quinze jours",
+        "fb_text": "Le mandat doit mentionner cette règle en caractères très apparents (loi n° 70-9, art. 7, 2°). Tu la lis avec M. Bernard avant la signature : pour un profil C, connaître la sortie rend l'engagement acceptable."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableau des mandats : caractéristiques juridiques et commerciales, obligations administratives, calcul des honoraires (textes à sourcer, à faire relire par un juriste)",
+    "kind": "tableau",
+    "intro": "Ce tableau compare les trois mandats de vente et rappelle ce que tout mandat doit contenir, les obligations de tenue du registre et le calcul des honoraires. Les règles citées ont été vérifiées sur Légifrance et service-public.fr le 28/10/2026 ; le tableau reste à faire relire par un juriste avant diffusion. Utilise toujours le modèle de mandat validé par ton agence (exemple : D18).",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les trois mandats côte à côte",
+        "headers": ["Critère", "Simple", "Exclusif", "Semi-exclusif"],
+        "rows": [
+          ["Nombre d'agences", "Une ou plusieurs", "Une seule", "Une seule"],
+          ["Le vendeur peut vendre lui-même", "Oui", "Non", "Oui, selon les conditions du mandat"],
+          ["Durée", "Limitée, souvent 3 mois irrévocables", "Limitée ; irrévocable pendant 3 mois", "Limitée, souvent 3 mois irrévocables"],
+          ["Sortie", "À la fin de la durée initiale ou après reconduction, préavis de 15 jours par LRAR", "Après 3 mois, à tout moment, préavis de 15 jours au moins par LRAR (art. 78)", "Comme le simple selon service-public.fr ; application de l'art. 78 à vérifier"],
+          ["Reconduction tacite", "Possible, avec information du vendeur sur son droit de ne pas reconduire", "Non, selon service-public.fr : nouveau mandat à signer", "Possible, avec la même information"],
+          ["Engagements écrits de l'agent", "Non imposés", "Actions à réaliser et compte rendu selon une périodicité convenue (loi n° 70-9, art. 6 I)", "À vérifier : clause d'exclusivité, donc mêmes engagements probables"],
+          ["Intérêt commercial", "Le vendeur garde toutes les portes ouvertes", "Un prix, un dossier, un responsable qui rend des comptes", "Une seule agence, le vendeur garde sa liberté de vendre seul"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Mentions obligatoires de tout mandat de vente",
+        "items": [
+          "Mandat écrit, préalable à toute négociation, en deux exemplaires dont un remis au vendeur (décret n° 72-678, art. 72 et 78)",
+          "Identité du vendeur et de l'agent, objet du mandat et description du bien, prix de vente",
+          "Durée limitée dans le temps, sinon le mandat est nul (loi n° 70-9, art. 7)",
+          "Conditions de résiliation et, pour l'exclusif, la règle des 3 mois et 15 jours en caractères très apparents (loi n° 70-9, art. 7, 2°)",
+          "Rémunération, ses conditions de détermination et la partie qui en a la charge (loi n° 70-9, art. 6 ; décret, art. 73)",
+          "Conditions de réception, versement ou remise de fonds ; moyens de diffusion des annonces (loi n° 70-9, art. 6 I)",
+          "Numéro d'inscription au registre des mandats reporté sur l'exemplaire du vendeur (décret, art. 72)",
+          "Clause d'exclusivité ou clause pénale : stipulation expresse, en caractères très apparents, plafonnée au montant des honoraires prévus (décret, art. 78)"
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Obligations administratives",
+        "items": [
+          "Inscrire chaque mandat, par ordre chronologique, au registre des mandats (coté sans discontinuité et relié, ou électronique).",
+          "Conserver mandats et registre pendant 10 ans (décret, art. 72).",
+          "Signature hors de l'agence, après démarchage : délai de rétractation de 14 jours et formulaire de rétractation remis (Code de la consommation, art. L. 221-18).",
+          "Aucune rémunération avant que la vente soit effectivement conclue (loi n° 70-9, art. 6 I)."
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Calcul des honoraires (exemple M. Bernard, à la charge de l'acquéreur)",
+        "text": "Honoraires TTC = prix net vendeur × taux = 180 000 € × 5 % = 9 000 € TTC. Prix honoraires inclus = 180 000 + 9 000 = 189 000 €. Si les honoraires étaient à la charge du vendeur, le prix affiché ne les ajouterait pas : le vendeur les paierait sur le prix de vente. Dans tous les cas, le mandat précise qui paie (décret, art. 73)."
+      },
+      {
+        "type": "list",
+        "heading": "Phrases à dire au vendeur",
+        "items": [
+          "« Il existe trois mandats ; je vous les montre côte à côte, et c'est vous qui choisissez. »",
+          "« En exclusif, je m'engage par écrit sur mes actions et sur un compte rendu régulier. »",
+          "« Lisons ensemble la clause d'exclusivité et la règle de sortie : elles sont écrites en caractères très apparents. »"
+        ]
+      }
+    ],
+    "footer": "Sources : loi n° 70-9 du 2 janvier 1970, art. 6 et 7 ; décret n° 72-678 du 20 juillet 1972, art. 72, 73 et 78 ; Code de la consommation, art. L. 221-18 (Légifrance, consultés le 28/10/2026) ; service-public.fr, « Quel mandat de vente peut-on confier à un agent immobilier ? », vérifié le 19/09/2025. Mandat semi-exclusif : pratique contractuelle. Tableau à faire relire par un juriste. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Comparer les trois mandats sur le cas de M. Bernard",
+    "duration_min": 35,
+    "context": "Le 5 novembre 2026, M. Bernard te demande : « Expliquez-moi la différence entre les mandats, et dites-moi lequel vous me conseillez. » Il veut vendre avant l'été 2027, ne compte pas chercher d'acheteur lui-même, et veut savoir comment il pourrait sortir du mandat. Tu compares les trois mandats sur son cas et tu justifies ta proposition.",
+    "materials": [
+      "D18 Modèle de mandat exclusif",
+      "Tableau des mandats",
+      "Charte d'engagements (capsule 3.27)",
+      "Fiche honoraires (capsule 3.25)"
+    ],
+    "steps": [
+      "Remplis pour M. Bernard le tableau comparatif : durée, exclusivité, honoraires, mentions obligatoires, sortie.",
+      "Calcule les honoraires et le prix honoraires inclus pour chaque mandat (même base : 180 000 € net, 5 % TTC à la charge de l'acquéreur, sauf remise convenue).",
+      "Vérifie que le modèle D18 contient toutes les mentions obligatoires ; note celles qui manquent.",
+      "Choisis le mandat à proposer et justifie-le en trois phrases, à partir de son projet et de son profil.",
+      "Écris la phrase qui explique la sortie du mandat proposé, avec les dates."
+    ],
+    "expected": "Comparaison : simple (plusieurs agences, il peut vendre seul, sortie à la fin de la durée initiale avec 15 jours de préavis) ; exclusif (une agence, pas de vente par lui-même, irrévocable 3 mois puis dénonciation à tout moment avec 15 jours de préavis par LRAR, engagements écrits et comptes rendus) ; semi-exclusif (une agence, il garde la vente directe selon la clause). Honoraires : 9 000 € TTC, 189 000 € honoraires inclus, à la charge de l'acquéreur, identiques sauf remise écrite au mandat. Mentions D18 : prix, durée, rémunération et qui paie, registre, clause d'exclusivité et règle des 3 mois en caractères très apparents, moyens de diffusion, actions et périodicité du compte rendu. Proposition : exclusif de 3 mois, parce qu'il ne cherchera pas d'acheteur lui-même, qu'un seul prix et un seul dossier protègent sa valeur, et que la charte lui donne des engagements vérifiables. Sortie : « Signé le 5 novembre 2026, ce mandat peut être dénoncé par vous ou par moi à partir du 5 février 2027, à tout moment, avec au moins 15 jours de préavis par lettre recommandée. »"
+  },
+  "deliverable": {
+    "title": "Tableau comparatif des mandats et recommandation pour M. Bernard",
+    "format": "PDF ou DOCX, 1 page (tableau + recommandation de 5 lignes)",
+    "criteria": [
+      "Les trois mandats sont comparés sur la durée, l'exclusivité, les honoraires, les mentions obligatoires et la sortie",
+      "La règle de l'art. 78 est exacte : clause très apparente, exemplaire remis, dénonciation après 3 mois avec 15 jours de préavis par LRAR",
+      "Les honoraires sont calculés juste (9 000 € TTC, 189 000 € honoraires inclus) avec la partie qui les paie",
+      "La recommandation part du projet et du profil du vendeur, sans pression, et laisse le choix au vendeur",
+      "Les points incertains (semi-exclusif, reconduction) sont signalés comme à vérifier, sans être tranchés au hasard"
+    ]
+  },
+  "sources": [
+    { "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972, art. 78 (clause d'exclusivité, dénonciation après 3 mois, préavis 15 jours LRAR)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000030782471" },
+    { "label": "Légifrance — Décret n° 72-678, art. 72 (mandat écrit préalable, registre, conservation 10 ans), en vigueur depuis le 1/10/2016", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033202014" },
+    { "label": "Légifrance — Décret n° 72-678, art. 73 (rémunération et partie qui la paie)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033261932" },
+    { "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (art. 6 : mentions et engagements de l'exclusivité ; art. 7 : limitation dans le temps, mention de l'art. 78)", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512228" },
+    { "label": "Légifrance — Code de la consommation, art. L. 221-18 (rétractation de 14 jours hors établissement)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842" },
+    { "label": "Service-public.fr — Quel mandat de vente peut-on confier à un agent immobilier ? (vérifié le 19/09/2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1550" }
+  ],
+  "open_points": [
+    "À faire relire par un juriste : l'ensemble du tableau des mandats (mentions obligatoires, obligations administratives, calcul des honoraires).",
+    "À faire relire par un juriste : régime de sortie du mandat semi-exclusif (service-public.fr l'aligne sur le mandat simple, mais il contient une clause d'exclusivité au sens de l'art. 78) et engagements de l'art. 6 I qui s'y appliquent.",
+    "À faire relire par un juriste : absence de reconduction tacite du mandat exclusif (affirmée par service-public.fr, sans texte cité dans la fiche).",
+    "Chapitre interactif nouveau à écrire."
+  ]
+}

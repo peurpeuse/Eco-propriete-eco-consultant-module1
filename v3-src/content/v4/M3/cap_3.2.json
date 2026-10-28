@@ -1,0 +1,158 @@
+{
+  "id": "3.2",
+  "module": 3,
+  "section": "A · Construire les indicateurs du bien",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "De la donnée à l'indicateur : définition, formule, source, date",
+  "objective": "Trier les données du dossier de son bien fil rouge en données brutes, indicateurs et repères, puis rédiger la fiche d'identité complète d'un indicateur (définition, formule, unité, source, date, limites)",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "« 11 400 kWh par an », ça ne dit rien à M. Bernard. Divisé par 76 m², ça devient 150 kWh/m²/an ; multiplié par le bon coefficient, 285 kWhEP/m²/an ; comparé au seuil, une classe E. Sébastien Paumier montre la différence entre une donnée brute, un indicateur et un repère, puis remplit la fiche d'identité d'un indicateur, ligne par ligne."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Dans le dossier de M. Bernard, « 2 652 € de charges par an » est :",
+        "options": [
+          "Un repère",
+          "Une donnée brute ; rapportée à la surface (2 652 / 76 ≈ 34,9 €/m²/an), elle devient un indicateur comparable",
+          "Un indicateur de performance énergétique"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : un repère est une référence extérieure au bien (seuil, médiane du secteur, étude).",
+          "Juste : la donnée brute devient indicateur quand une formule la rend comparable (par m², par an, par an et par m²).",
+          "Faux : ce sont des charges de copropriété, sans chauffage collectif ; elles ne mesurent pas l'énergie."
+        ],
+        "fb_title": "Brute, indicateur, repère",
+        "fb_text": "Donnée brute : un chiffre tel qu'il sort d'un document (2 652 €/an). Indicateur : ce chiffre passé par une formule qui le rend comparable (34,9 €/m²/an). Repère : la référence à laquelle on le compare (d'autres copropriétés du secteur, datées)."
+      },
+      {
+        "question": "Hugo écrit : « Consommation : 285 ». Que manque-t-il pour que ce soit un indicateur utilisable ?",
+        "options": [
+          "Rien, le chiffre suffit",
+          "Un arrondi à 300",
+          "L'unité (kWhEP/m²/an), la formule (150 kWhEF × 1,9), la source (attestation D03) et la date"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : sans unité, 285 peut être des kWh, des euros ou des kg de CO₂.",
+          "Faux : arrondir change le chiffre sans rien expliquer ; 300 n'est plus vérifiable.",
+          "Juste : un indicateur se lit avec sa fiche d'identité ; le coefficient change au 1/01/2027 (1,7), donc la date compte."
+        ],
+        "fb_title": "Un chiffre sans fiche n'est pas un indicateur",
+        "fb_text": "285 kWhEP/m²/an = 150 kWhEF/m²/an × 1,9 (coefficient de l'électricité depuis le 1/01/2026). Au 1/01/2027, le coefficient passe à 1,7 : 255 kWhEP/m²/an, toujours classe E. Sans la date, on ne sait pas quel chiffre est le bon."
+      },
+      {
+        "question": "Quelle limite écris-tu dans la fiche de l'indicateur « consommation d'énergie primaire » de M. Bernard ?",
+        "options": [
+          "Calcul conventionnel du DPE : il ne reflète pas les factures réelles, qui dépendent des occupants",
+          "Aucune : c'est un chiffre officiel",
+          "Il est faux parce que M. Bernard vit seul"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : le DPE calcule une consommation théorique pour un usage standard ; c'est sa force (comparable) et sa limite.",
+          "Faux : un chiffre officiel a aussi des limites ; les écrire te protège.",
+          "Faux : il n'est pas faux, il est conventionnel ; la situation de l'occupant n'entre pas dans le calcul."
+        ],
+        "fb_title": "La limite fait partie de l'indicateur",
+        "fb_text": "Chaque fiche d'indicateur dit ce qu'il ne mesure pas. Ici : consommation conventionnelle, pas la facture. Un acquéreur qui se chauffe plus ou moins paiera plus ou moins : tu ne promets aucune facture."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche d'identité d'un indicateur (modèle) : définition, formule, unité, source, date, limites",
+    "kind": "modele",
+    "intro": "Un indicateur est une donnée passée par une formule qui la rend comparable, avec sa source et sa date. Ce modèle se remplit pour chacun des 6 à 8 indicateurs du tableau de bord (capsule 3.7). Exemple rempli : appartement de M. Bernard (chiffres FICTIFS du dossier fil rouge). Le même modèle sert pour la maison de Mme Garnier.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Trier : donnée brute, indicateur, repère (exemple M. Bernard)",
+        "headers": ["Type", "Exemple", "Source"],
+        "rows": [
+          ["Donnée brute", "11 400 kWhEF/an ; 76 m² ; 2 652 €/an de charges ; 16 500 € de travaux ; taxe foncière 1 412 €/an", "D02, D04, D06, D13, D11"],
+          ["Indicateur", "150 kWhEF/m²/an ; 285 kWhEP/m²/an ; 34,9 €/m²/an de charges ; 217 €/m² de travaux ; 2 650 €/m² (médiane)", "Calculés à partir des données brutes"],
+          ["Repère", "Seuils de classe DPE (E : 250 à 330 kWhEP/m²/an) ; médiane du secteur ; écarts de valeur verte des notaires", "Guide DPE du ministère ; D12 ; Notaires de France (7/01/2026)"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Fiche d'identité : exemple rempli",
+        "headers": ["Rubrique", "Contenu"],
+        "rows": [
+          ["Nom", "Consommation d'énergie primaire"],
+          ["Définition", "Énergie nécessaire pour chauffer, produire l'eau chaude, éclairer et faire fonctionner les auxiliaires, ramenée à l'énergie primaire"],
+          ["Formule", "Énergie finale par m² × coefficient de conversion (électricité : 1,9 depuis le 1/01/2026, 1,7 au 1/01/2027)"],
+          ["Valeur", "150 × 1,9 = 285 kWhEP/m²/an (classe E) ; 150 × 1,7 = 255 au 1/01/2027 (classe E)"],
+          ["Unité", "kWhEP/m²/an"],
+          ["Source", "DPE du 14/03/2023 (D02) et attestation actualisée ADEME (D03)"],
+          ["Date", "Octobre 2026 (coefficient 1,9)"],
+          ["Limites", "Calcul conventionnel du DPE, pas la facture réelle ; dépend du coefficient en vigueur ; ne dit rien du prix de l'énergie"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Un indicateur est prêt quand",
+        "items": [
+          "Il a un nom compris par un vendeur non spécialiste",
+          "Sa formule est écrite et recalculable",
+          "Son unité est précisée",
+          "Sa source est un document identifié (code du dossier ou référence publique)",
+          "Sa date est écrite, et la date d'actualisation si une règle change",
+          "Sa limite est écrite en une phrase"
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Chaque chiffre que je vous montre a une petite fiche : d'où il vient, comment je le calcule et ce qu'il ne dit pas. Vous pouvez tout refaire avec votre calculatrice. »"
+      }
+    ],
+    "footer": "Sources : Ministère de la Transition écologique, guide DPE pour les diagnostiqueurs (seuils des classes) ; arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027) ; ADEME, Observatoire DPE-Audit. Données FICTIVES du dossier fil rouge. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Trier ses données et écrire la fiche d'un indicateur",
+    "duration_min": 30,
+    "context": "Ta grille VERTE (capsule 3.1) contient toutes les données de ton bien fil rouge. Avant de les montrer au vendeur, tu les tries : lesquelles sont brutes, lesquelles sont déjà des indicateurs, lesquelles sont des repères ? Puis tu écris la fiche d'identité complète d'un indicateur de ton choix.",
+    "materials": [
+      "Ta grille VERTE (capsule 3.1)",
+      "Appartement : D02, D03, D04, D06, D11, D12, D13 ; maison : M02, M03, M04, M11, M12, M14",
+      "Modèle de fiche d'identité (ressource)"
+    ],
+    "steps": [
+      "Classe au moins 12 données de ta grille en trois colonnes : brute, indicateur, repère.",
+      "Pour 3 données brutes, écris la formule qui en fait un indicateur et calcule-le.",
+      "Choisis un indicateur et remplis sa fiche d'identité complète (8 rubriques).",
+      "Vérifie qu'une autre personne peut recalculer le chiffre avec ta fiche seule.",
+      "Écris la phrase qui présente cet indicateur au vendeur, avec sa limite."
+    ],
+    "expected": "Exemple pour M. Bernard. Données brutes : 11 400 kWhEF/an, 76 m², 2 652 €/an de charges, 1 412 €/an de taxe foncière, 16 500 € de travaux, 35 880 € de quote-part ITE. Indicateurs calculés : 11 400 / 76 = 150 kWhEF/m²/an ; 150 × 1,9 = 285 kWhEP/m²/an ; 2 652 / 76 ≈ 34,9 €/m²/an ; 16 500 / 76 ≈ 217 €/m² ; 1 412 / 76 ≈ 18,6 €/m²/an. Repères : seuils DPE (E de 250 à 330 kWhEP/m²/an), médiane du secteur 2 650 €/m² (D12, fictif), écarts de valeur verte des notaires (étude du 7/01/2026). Fiche complète d'un indicateur, par exemple la consommation d'énergie primaire : définition, formule (150 × 1,9), valeur 285 kWhEP/m²/an, unité, source D02-D03, date octobre 2026, actualisation au 1/01/2027 (255, toujours E), limite (conventionnel, pas la facture).",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Tri des données et fiche d'identité d'un indicateur",
+    "format": "Tableau + fiche (PDF ou tableur, 1 page)",
+    "criteria": [
+      "Au moins 12 données sont triées sans erreur entre brute, indicateur et repère",
+      "Trois formules de passage brute → indicateur sont écrites et justes",
+      "La fiche d'identité comporte les 8 rubriques (nom, définition, formule, valeur, unité, source, date, limites)",
+      "La date d'actualisation est signalée quand une règle change (coefficient au 1/01/2027)",
+      "La phrase au vendeur cite la limite de l'indicateur"
+    ]
+  },
+  "sources": [
+    { "label": "Ministère de la Transition écologique, Guide DPE pour les diagnostiqueurs : seuils des classes (énergie primaire et émissions)", "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_pour_les_diagnostiqueurs_DPE.pdf" },
+    { "label": "Légifrance, arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
+    { "label": "ADEME, Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+    { "label": "Proposition pédagogique Éco-Propriété : modèle de fiche d'identité d'indicateur, données FICTIVES du dossier fil rouge (Bible §3, §4, §6)" }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier le modèle de fiche d'identité en 8 rubriques (le PLAN en cite 6 : définition, formule, unité, source, date, limites ; nom et valeur ajoutés).",
+    "Repère « charges au m² » : aucune référence de secteur fournie ; à définir avec Sébastien Paumier (observatoire des charges ou données du syndic)."
+  ]
+}

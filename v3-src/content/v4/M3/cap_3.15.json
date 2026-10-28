@@ -1,0 +1,230 @@
+{
+  "id": "3.15",
+  "module": 3,
+  "section": "C · Travaux avant la vente : devis, chantier, réception",
+  "etape": "6 (Éco-staging)",
+  "parcours": null,
+  "prio": true,
+  "ia": false,
+  "title": "Suivre le chantier avant la vente : planning, réception, réserves",
+  "objective": "Établir le planning de trois corps de métier, puis lire un procès-verbal de réception : réserves, délai de levée et garanties qui démarrent (1 an, 2 ans, 10 ans).",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Quand un vendeur fait des travaux avant de vendre, tout se joue en deux moments : l'ordre des interventions et la réception. Sébastien Paumier bâtit le planning de trois corps de métier, puis lit un procès-verbal de réception ligne à ligne : réserves, délai de levée, garanties de 1, 2 et 10 ans. Mozi, lui, signe le PV sans regarder : « On verra plus tard. »"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi pousse son vendeur à signer le PV de réception sans réserve « pour aller vite », alors qu'un joint manque sur une fenêtre. Quel est le risque ?",
+        "options": [
+          "Aucun : la garantie de parfait achèvement couvre tout pendant un an",
+          "Un défaut visible non signalé au PV est considéré comme accepté ; il faut l'inscrire en réserve",
+          "Le PV n'a aucune valeur s'il est signé le jour même"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : la garantie de parfait achèvement couvre les réserves du PV et les désordres apparus ensuite, pas un défaut visible accepté sans réserve.",
+          "Juste : selon Service-Public, les défauts non signalés dans le procès-verbal sont considérés comme acceptés.",
+          "Faux : la réception le jour de la fin des travaux est normale ; c'est l'absence de réserve qui pose problème."
+        ],
+        "fb_title": "Ce qui se voit s'écrit",
+        "fb_text": "La réception (art. 1792-6 du Code civil) se fait avec ou sans réserves. Tout défaut visible va au PV, avec un délai de levée convenu. L'éco-consultant ne signe pas à la place du vendeur : il l'aide à préparer la visite."
+      },
+      {
+        "question": "Le PV des fenêtres est signé le 15/12/2026 avec deux réserves. Jusqu'à quand court la garantie de parfait achèvement ?",
+        "options": [
+          "Jusqu'au 15/12/2028",
+          "Jusqu'au 15/12/2036",
+          "Un an après la réception, soit jusqu'à mi-décembre 2027"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : 2 ans, c'est la garantie de bon fonctionnement des équipements dissociables.",
+          "Faux : 10 ans, c'est la garantie décennale.",
+          "Juste : la garantie de parfait achèvement dure 1 an à compter de la réception (art. 1792-6)."
+        ],
+        "fb_title": "1 an, 2 ans, 10 ans",
+        "fb_text": "Parfait achèvement : 1 an (réserves et désordres signalés dans l'année). Bon fonctionnement, dite biennale : 2 ans (équipements dissociables). Décennale : 10 ans (solidité, impropriété à la destination). Toutes partent de la réception."
+      },
+      {
+        "question": "Le vendeur fait des travaux en décembre 2026 et vend en mars 2027. Que lui conseilles-tu de garder pour le notaire ?",
+        "options": [
+          "Devis, factures, PV, levée des réserves et attestations d'assurance : il peut être réputé constructeur, le notaire analysera",
+          "Rien : les garanties ne concernent que l'entreprise",
+          "Seulement les photos avant et après"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : vente dans les 10 ans après réception : l'acte mentionne l'existence ou l'absence des assurances, et le vendeur peut être réputé constructeur (art. 1792-1) ; le notaire tranche.",
+          "Faux : le vendeur peut être concerné selon la nature des travaux ; c'est au notaire d'analyser.",
+          "Faux : des photos ne remplacent ni le PV ni les attestations."
+        ],
+        "fb_title": "Le dossier travaux suit le bien",
+        "fb_text": "Tu ne fais pas d'analyse juridique : tu fais réunir les pièces (devis, factures, PV, levée des réserves, attestations décennales) et tu renvoies au notaire, qui dira ce qui figure dans l'acte."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de planning de chantier et fiche PV de réception et réserves ; garanties après réception (textes à sourcer)",
+    "kind": "modele",
+    "intro": "Cette fiche sert quand un vendeur décide de faire des travaux avant la vente. Tu l'aides à organiser l'ordre des interventions et à préparer la réception ; tu ne diriges pas le chantier, tu ne choisis pas les entreprises et tu ne signes rien à sa place. Exemple : variante « travaux privatifs avant vente » (scénario B de la capsule 3.12) de l'appartement de M. Bernard, que le vendeur n'a pas retenue dans le fil rouge.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Planning type · 3 corps de métier (variante scénario B, fictif)",
+        "headers": [
+          "Ordre",
+          "Corps de métier",
+          "Travaux (devis D13)",
+          "Dates",
+          "Point de contrôle"
+        ],
+        "rows": [
+          [
+            "1",
+            "Menuisier",
+            "4 fenêtres des chambres, 5 600 €",
+            "14 et 15/12/2026 (commande le 02/11, délai 6 semaines)",
+            "Entrées d'air, finitions, réception le 15/12"
+          ],
+          [
+            "2",
+            "Électricien",
+            "VMC hygroréglable + débouchage 2 900 € ; 6 radiateurs à inertie 4 800 €",
+            "16 au 18/12/2026",
+            "Débits de la VMC, programmation, réception le 18/12"
+          ],
+          [
+            "3",
+            "Plombier-chauffagiste",
+            "Chauffe-eau thermodynamique 200 L, 3 200 €",
+            "21/12/2026",
+            "Mise en service, notice, réception le 21/12"
+          ],
+          [
+            "Fin",
+            "Vendeur + éco-consultant",
+            "Dossier travaux complet",
+            "Avant le 08/01/2027",
+            "Factures, PV, attestations, levée des réserves"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Préparer la réception avec le vendeur",
+        "items": [
+          "Relire le devis signé : chaque poste prévu doit être fait.",
+          "Visiter pièce par pièce, de jour, avec le devis en main ; tester chaque ouvrant, chaque radiateur, la VMC.",
+          "Noter chaque défaut visible en réserve, précisément (pièce, ouvrage, défaut).",
+          "Convenir d'un délai de levée des réserves avec l'entreprise et l'écrire au PV.",
+          "Faire signer le PV par les deux parties ; garder une copie et des photos datées.",
+          "À la levée, faire constater par écrit que chaque réserve est levée."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Les garanties après réception",
+        "headers": [
+          "Garantie",
+          "Durée",
+          "Ce qu'elle couvre",
+          "Texte"
+        ],
+        "rows": [
+          [
+            "Parfait achèvement",
+            "1 an après la réception",
+            "Désordres signalés en réserve au PV ou notifiés par écrit dans l'année ; pas l'usure normale",
+            "Code civil, art. 1792-6"
+          ],
+          [
+            "Bon fonctionnement (dite biennale)",
+            "2 ans minimum après la réception",
+            "Éléments d'équipement dissociables (ex. ballon d'eau chaude)",
+            "Code civil, art. 1792-3"
+          ],
+          [
+            "Décennale",
+            "10 ans après la réception",
+            "Dommages qui compromettent la solidité ou rendent l'ouvrage impropre à sa destination",
+            "Code civil, art. 1792 et 1792-4-1"
+          ]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Le dossier travaux à remettre au notaire",
+        "items": [
+          "Devis signés et factures de chaque entreprise.",
+          "Attestations d'assurance décennale (jointes aux devis et factures).",
+          "PV de réception et constat de levée des réserves.",
+          "Notices et attestations de mise en service des équipements.",
+          "Photos datées avant et après."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Où tu t'arrêtes, et la phrase à dire",
+        "text": "Une vente dans les 10 ans qui suivent la réception oblige à mentionner dans l'acte l'existence ou l'absence des assurances obligatoires, et le vendeur qui a fait réaliser des travaux peut être réputé constructeur (art. 1792-1) : c'est le notaire qui analyse. Phrase : « Monsieur Bernard, je ne dirige pas le chantier et je ne signe rien à votre place. Je vous aide à préparer la réception : tout ce qui se voit, on l'écrit. Et on garde chaque papier pour le notaire. »"
+      }
+    ],
+    "footer": "Sources : Service-Public F2958 « Garanties après la réception des travaux », vérifié le 25/09/2026 ; Service-Public F2034 « Garantie décennale des constructeurs », vérifié le 10/04/2026 ; Code civil, art. 1792, 1792-1, 1792-3, 1792-4-1, 1792-6 (Légifrance) ; ANIL, Cass. 3e civ., 2 octobre 2002 (vendeur réputé constructeur). Planning et PV fictifs. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Planifier trois corps de métier, puis lire un PV de réception",
+    "duration_min": 40,
+    "context": "Variante pédagogique : imagine que M. Bernard ait choisi le scénario B (travaux privatifs avant la vente, 16 500 € de devis D13), signés le 02/11/2026. Tu établis le planning des trois corps de métier, puis tu lis le PV de réception des fenêtres du 15/12/2026. Corrigé donné pour l'appartement de M. Bernard ; pour la maison de Mme Garnier, l'étape 1 de l'audit (combles, pompe à chaleur, fenêtres) se prête au même exercice.",
+    "materials": [
+      "D13 Devis des travaux privatifs",
+      "D04 Plan et descriptif",
+      "PV de réception des fenêtres du 15/12/2026 (fictif, fourni) : réserve 1 « joint intérieur manquant, fenêtre de la chambre de 10 m² » ; réserve 2 « rayure sur le vitrage gauche, grande chambre » ; levée convenue sous 30 jours"
+    ],
+    "steps": [
+      "Classe les quatre devis D13 par corps de métier (menuisier, électricien, plombier-chauffagiste).",
+      "Ordonne les interventions et justifie l'ordre en une phrase par ligne.",
+      "Place les dates en tenant compte du délai de fabrication des fenêtres (6 semaines après la commande du 02/11/2026).",
+      "Lis le PV : liste les réserves, le délai de levée et la date limite de levée.",
+      "Calcule les dates de fin des trois garanties pour les fenêtres.",
+      "Liste les pièces à réunir pour le notaire et la personne à qui renvoyer pour l'analyse juridique."
+    ],
+    "expected": "Corrigé pour M. Bernard (variante B, fictive). Corps de métier : menuisier (fenêtres 5 600 €), électricien (VMC + débouchage 2 900 € ; radiateurs 4 800 €), plombier-chauffagiste (chauffe-eau thermodynamique 3 200 €). Ordre : 1) fenêtres d'abord, l'enveloppe et les entrées d'air conditionnent le réglage de la VMC ; 2) électricien : VMC puis radiateurs, qui se posent sur des murs finis ; 3) plombier : chauffe-eau dans la cuisine, indépendant. Dates : commande le 02/11/2026, fenêtres posées les 14 et 15/12/2026, électricien du 16 au 18/12, plombier le 21/12, dossier complet avant le 08/01/2027. PV du 15/12/2026 : 2 réserves (joint intérieur manquant, chambre de 10 m² ; rayure sur vitrage, grande chambre), levée sous 30 jours, soit avant le 14/01/2027, à faire constater par écrit. Garanties : parfait achèvement jusqu'au 15/12/2027 ; bon fonctionnement 2 ans pour les éléments dissociables (jusqu'au 15/12/2028) ; décennale jusqu'au 15/12/2036. Pièces : devis, factures, attestations décennales, PV, constat de levée, notices. Renvoi au notaire (art. 1792-1, mention des assurances dans l'acte)."
+  },
+  "deliverable": {
+    "title": "Planning de chantier + fiche de lecture du PV de réception",
+    "format": "Tableur ou PDF, 1 à 2 pages",
+    "criteria": [
+      "Trois corps de métier ordonnés, chaque position justifiée",
+      "Les dates tiennent compte du délai de fabrication et ne se chevauchent pas",
+      "Les réserves du PV et la date limite de levée sont relevées",
+      "Les trois garanties (1 an, 2 ans, 10 ans) sont datées à partir de la réception, avec leur article du Code civil",
+      "Les pièces à garder pour le notaire sont listées et l'analyse juridique lui est renvoyée"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Service-Public — Garanties après la réception des travaux (F2958), vérifié le 25/09/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2958"
+    },
+    {
+      "label": "Service-Public — Garantie décennale des constructeurs (F2034), vérifié le 10/04/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2034"
+    },
+    {
+      "label": "Légifrance — Code civil, art. 1792 à 1792-7 (responsabilité des constructeurs, réception, garanties)",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006136352/"
+    },
+    {
+      "label": "ANIL — Vente d'une maison individuelle, vendeur non professionnel, garantie décennale (Cass. 3e civ., 2 octobre 2002)",
+      "url": "https://www.anil.org/documentation-experte/analyses-juridiques-jurisprudence/jurisprudence/jurisprudence-2004/vente-dune-maison-individuelle-/-vendeur-non-professionnel-/-garantie-decennale/"
+    }
+  ],
+  "open_points": [
+    "à vérifier : URL de la section Légifrance des art. 1792 et suivants (Légifrance non consultable pendant la rédaction ; contenu vérifié via Service-Public F2958 et F2034)",
+    "Qualification des fenêtres (ouvrage ou élément d'équipement) au regard des garanties décennale et biennale, et application de l'art. 1792-1 au vendeur : à faire relire par un juriste",
+    "à vérifier : obligation d'assurance dommages-ouvrage pour ce type de travaux de rénovation (non mentionnée dans la fiche)",
+    "Planning et PV de réception fictifs (variante du scénario B) : à valider par Sébastien Paumier ; remplacer par un PV réel anonymisé si disponible",
+    "Chapitre nouveau à écrire (15 écrans)"
+  ]
+}

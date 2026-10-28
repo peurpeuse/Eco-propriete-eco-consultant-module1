@@ -1,0 +1,170 @@
+{
+ "id": "2.32",
+ "module": 2,
+ "section": "L · PARCOURS MAISON · Sa valeur vénale : sol + construction, bâti-terrain, capitalisation",
+ "etape": "4 (Éco-staging)",
+ "parcours": "maison",
+ "prio": false,
+ "ia": false,
+ "title": "Maison : la construction, poste par poste, au coût actuel",
+ "objective": "Chiffrer le coût à neuf d'une maison par postes de construction, au prix de l'année, en actualisant un barème daté avec l'indice BT01",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Mozi reprend le prix d'achat de 1979 de Mme Garnier et ajoute « l'inflation, à peu près ». Sébastien Paumier montre ce que coûterait aujourd'hui la même maison, poste par poste : gros œuvre, couverture, menuiseries, chauffage… puis comment actualiser un barème de janvier avec l'indice BT01 de l'Insee, pour obtenir le coût à neuf qui servira à la vétusté."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Un barème de coût de construction daté de janvier 2026 (BT01 = 134,7) donne 1 836 €/m². Le dernier BT01 publié est celui d'août 2026 (139,4). Quel coût actualisé ?",
+    "options": [
+     "1 836 €/m², un barème ne s'actualise pas",
+     "Environ 1 974 €/m² (1 836 + 139,4 − 1)",
+     "Environ 1 900 €/m² (1 836 × 139,4 ÷ 134,7)"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : les coûts de construction bougent d'un mois à l'autre ; un barème daté se ramène à la date de valeur.",
+     "Faux : on n'additionne pas un indice ; on applique le rapport entre l'indice de la date de valeur et celui du barème.",
+     "Juste : 139,4 ÷ 134,7 = 1,0349, soit +3,5 % ; 1 836 × 1,0349 ≈ 1 900 €/m²."
+    ],
+    "fb_title": "Nouvel indice sur ancien indice",
+    "fb_text": "Coût actualisé = coût du barème × (BT01 à la date de valeur ÷ BT01 à la date du barème). Utilise le dernier indice publié au Journal officiel, et garde la même base (base 100 en 2010)."
+   },
+   {
+    "question": "Pourquoi chiffrer la maison de Mme Garnier poste par poste plutôt qu'avec un seul prix au m² ?",
+    "options": [
+     "Parce que la vétusté se mesure ensuite poste par poste : la toiture de 1968 n'a pas le même âge que la salle de bains de 2015",
+     "Parce qu'un seul prix au m² est interdit",
+     "Pour obtenir un coût plus élevé"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : chaque corps d'état a sa durée de vie et son état ; le découpage par postes prépare la grille de vétusté (capsule 2.33).",
+     "Faux : un prix global au m² est utile pour contrôler ; il ne permet simplement pas d'appliquer une vétusté juste.",
+     "Faux : le découpage répartit le même coût total ; il ne l'augmente pas."
+    ],
+    "fb_title": "Découper pour pouvoir déprécier",
+    "fb_text": "La somme des postes redonne le coût total (ici 212 800 € pour la maison). Le découpage permet de déprécier chaque poste selon son âge et son état réels."
+   },
+   {
+    "question": "Mozi calcule le coût à neuf avec le prix d'achat de 1979 « plus l'inflation ». Quelle est son erreur ?",
+    "options": [
+     "Il aurait dû utiliser le prix de 1968",
+     "Il confond prix d'achat et coût de reconstruction : le coût à neuf se chiffre au prix actuel des travaux, terrain exclu",
+     "Il n'y a pas d'erreur, c'est la méthode officielle"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : remonter plus loin ne change rien ; un prix d'achat ancien mélange terrain, construction et marché de l'époque.",
+     "Juste : la méthode chiffre ce que coûterait aujourd'hui une construction équivalente, hors terrain, puis la déprécie.",
+     "Faux : aucune méthode ne fait de l'inflation appliquée à un prix d'achat une valeur de construction."
+    ],
+    "fb_title": "Coût de reconstruction, pas prix d'achat",
+    "fb_text": "Le coût à neuf répond à une question : combien coûterait aujourd'hui une maison équivalente, hors terrain ? C'est la base de la méthode du coût de remplacement déprécié (Charte de l'expertise)."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Barème de coût de construction 2026 par postes (part de chaque poste), actualisation par l'indice BT01",
+  "kind": "fiche",
+  "intro": "Aucun barème public officiel « 2026 par postes » n'existe pour les maisons individuelles. Les parts et les prix ci-dessous sont des VALEURS FICTIVES D'EXEMPLE, construites pour le fil rouge à partir du ratio de la bible (1 900 €/m² habitable, maison équivalente, hors terrain). Dans ta pratique, remplace-les par un barème professionnel daté ou par les prix d'un constructeur local, puis actualise-les avec le BT01.",
+  "sections": [
+   {
+    "type": "table",
+    "heading": "Coût à neuf de la maison de Mme Garnier par postes (FICTIF)",
+    "headers": ["Poste", "Part", "Coût à neuf (112 m² × 1 900 €)"],
+    "rows": [
+     ["Terrassement, fondations, sous-sol, gros œuvre", "34 %", "72 352 €"],
+     ["Charpente, couverture, zinguerie", "10 %", "21 280 €"],
+     ["Menuiseries extérieures et fermetures", "9 %", "19 152 €"],
+     ["Isolation, plâtrerie, cloisons, menuiseries intérieures", "12 %", "25 536 €"],
+     ["Chauffage, eau chaude, ventilation", "10 %", "21 280 €"],
+     ["Plomberie, sanitaires", "6 %", "12 768 €"],
+     ["Électricité", "7 %", "14 896 €"],
+     ["Revêtements de sols et murs, peinture", "8 %", "17 024 €"],
+     ["Réseaux, raccordements, assainissement", "4 %", "8 512 €"],
+     ["Total maison", "100 %", "212 800 €"],
+     ["Véranda non chauffée 12 m² × 600 €/m² (fictif)", "à part", "7 200 €"],
+     ["Coût à neuf total", "", "220 000 €"]
+    ]
+   },
+   {
+    "type": "formula",
+    "heading": "Actualiser un barème avec l'indice BT01",
+    "text": "Coût actualisé = coût du barème × (BT01 du mois de référence le plus récent ÷ BT01 du mois du barème). Exemple : barème fictif de janvier 2026 à 1 836 €/m² ; BT01 janvier 2026 = 134,7 ; BT01 août 2026 = 139,4 (paru au JO le 16/10/2026). Coefficient = 139,4 ÷ 134,7 = 1,0349. Coût actualisé = 1 836 × 1,0349 = 1 900 €/m²."
+   },
+   {
+    "type": "list",
+    "heading": "Ce qu'il faut savoir sur le BT01",
+    "items": [
+     "Index national du bâtiment « tous corps d'état », publié chaque mois par l'Insee, en base 100 en 2010.",
+     "Il mesure l'évolution des coûts des facteurs de production du bâtiment (matériaux, salaires, énergie…), pas les prix de vente des maisons.",
+     "Il paraît avec environ deux mois et demi de décalage : en octobre 2026, le dernier connu est celui d'août 2026.",
+     "Ne mélange jamais deux bases : un indice en base 2010 ne se compare pas à une ancienne base.",
+     "Il sert aussi à réviser les prix des contrats de construction : ne l'utilise que pour actualiser un coût."
+    ]
+   },
+   {
+    "type": "steps",
+    "heading": "Chiffrer une maison poste par poste en 5 gestes",
+    "items": [
+     "Mesure la surface habitable et liste les annexes (sous-sol, véranda, garage) : dis lesquelles sont comprises dans ton ratio.",
+     "Choisis un barème daté et sourcé pour une construction équivalente (même gabarit, même niveau de prestation actuel), hors terrain.",
+     "Actualise le barème à la date de valeur avec le BT01.",
+     "Répartis le coût par postes et vérifie que la somme redonne le total.",
+     "Ajoute à part les annexes non comprises et écris tes hypothèses (TVA, honoraires, prestation)."
+    ]
+   }
+  ],
+  "footer": "Sources : Insee, série 001710986 « Index du bâtiment BT01 tous corps d'état, base 2010 » (janvier 2026 : 134,7 ; août 2026 : 139,4, JO du 16/10/2026) ; Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025), méthode du coût de remplacement déprécié. Barème, parts et coût de la véranda : valeurs FICTIVES d'exemple. Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Chiffrer le coût à neuf de la maison fil rouge par postes",
+  "duration_min": 30,
+  "context": "Pour appliquer la méthode sol + construction à la maison de Mme Garnier, tu dois d'abord savoir ce que coûterait aujourd'hui une maison équivalente : plain-pied de 112 m² sur sous-sol complet, véranda de 12 m², hors terrain. Ton barème fictif date de janvier 2026 : 1 836 €/m² habitable, sous-sol compris.",
+  "materials": [
+   "M04 Plan et descriptif de la maison",
+   "Barème fictif par postes (ressource de la capsule)",
+   "Insee, série BT01 base 2010"
+  ],
+  "steps": [
+   "Relève sur le site de l'Insee le BT01 de janvier 2026 et le dernier BT01 publié ; calcule le coefficient d'actualisation.",
+   "Actualise le barème de 1 836 €/m² et calcule le coût à neuf de la maison sur 112 m².",
+   "Répartis ce coût entre les 9 postes avec les parts du barème et vérifie le total.",
+   "Ajoute la véranda à part (600 €/m², fictif) et donne le coût à neuf total.",
+   "Écris en 3 lignes tes hypothèses : ce qui est compris (sous-sol), ce qui ne l'est pas (terrain), les valeurs fictives."
+  ],
+  "expected": "BT01 janvier 2026 = 134,7 ; août 2026 = 139,4 (dernier publié, JO du 16/10/2026). Coefficient = 139,4 ÷ 134,7 = 1,0349. Coût actualisé = 1 836 × 1,0349 = 1 900 €/m². Maison : 112 × 1 900 = 212 800 €. Postes : gros œuvre 34 % = 72 352 € ; couverture 10 % = 21 280 € ; menuiseries extérieures 9 % = 19 152 € ; isolation et plâtrerie 12 % = 25 536 € ; chauffage, ECS, ventilation 10 % = 21 280 € ; plomberie 6 % = 12 768 € ; électricité 7 % = 14 896 € ; revêtements 8 % = 17 024 € ; réseaux et assainissement 4 % = 8 512 € ; total 212 800 €. Véranda : 12 × 600 = 7 200 €. Coût à neuf total : 220 000 €. Hypothèses : ratio pour une maison équivalente sur sous-sol complet, hors terrain ; barème, parts et prix de la véranda fictifs ; à remplacer par un barème professionnel daté.",
+  "ia_prompt": null
+ },
+ "deliverable": {
+  "title": "Tableau du coût à neuf par postes de la maison de Mme Garnier",
+  "format": "Tableau XLSX ou PDF, 1 page",
+  "criteria": [
+   "Les deux valeurs du BT01 sont citées avec leur mois et leur date de parution",
+   "Le coefficient et le coût actualisé au m² sont justes",
+   "Les 9 postes sont chiffrés et leur somme redonne 212 800 €",
+   "La véranda est ajoutée à part et le total atteint 220 000 €",
+   "Les hypothèses et les valeurs fictives sont signalées"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Insee, Index du bâtiment BT01 tous corps d'état, base 2010 (série 001710986) : janvier 2026 = 134,7 (JO du 17/03/2026) ; août 2026 = 139,4 (JO du 16/10/2026)",
+   "url": "https://www.insee.fr/fr/statistiques/serie/001710986"
+  },
+  {
+   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : évaluation des constructions par le coût de remplacement déprécié ; approche par les coûts (coût de construction, améliorations, amortissement, obsolescence, plus valeur du terrain)",
+   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+  },
+  {
+   "label": "Bible du fil rouge §11.2 et §11.5 : maison de 112 m² sur sous-sol, véranda 12 m², coût de construction neuve 1 900 €/m² habitable hors terrain (fictif)"
+  }
+ ],
+ "open_points": [
+  "Aucun barème public « 2026 par postes » : parts des postes, barème de janvier 2026 à 1 836 €/m² et véranda à 600 €/m² sont fictifs ; à remplacer par un barème professionnel choisi avec Sébastien Paumier.",
+  "À valider : le ratio de 1 900 €/m² inclut le sous-sol complet (hypothèse retenue ici) ; TVA et honoraires de maîtrise d'œuvre réputés compris.",
+  "À actualiser : BT01 à chaque session (dernier connu ici : août 2026)."
+ ]
+}

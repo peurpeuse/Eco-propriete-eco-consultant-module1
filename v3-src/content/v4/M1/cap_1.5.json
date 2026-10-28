@@ -1,0 +1,153 @@
+{
+ "id": "1.5",
+ "module": 1,
+ "section": "C · J'affine",
+ "etape": "Avant l'étape 1",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "Affiner sa zone : quartiers, biens, concurrents",
+ "objective": "Réduire sa zone de chalandise en deux passes (quartiers et types de biens, puis concurrents) et désigner deux secteurs prioritaires justifiés par des chiffres datés",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Une zone de 420 ventes, c'est trop large pour être connu partout. Sébastien Paumier montre deux passes : d'abord les quartiers et les types de biens où se concentrent les ventes et les logements énergivores (comme la résidence de M. Bernard), puis les concurrents qui y sont déjà. Il garde deux secteurs prioritaires, pas dix."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Ta zone compte trois quartiers. Lequel choisis-tu en priorité pour une offre d'éco-consultant ?",
+    "options": [
+     "Le quartier neuf de 2018, où tous les DPE sont en A ou B.",
+     "Le quartier pavillonnaire de 2005 où ne se vendent que 5 maisons par an.",
+     "Le quartier de résidences des années 1965-1980, avec beaucoup de ventes et de nombreux DPE en E, F, G."
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : des logements récents et performants ont peu besoin de ton expertise énergétique.",
+     "Faux : trop peu de ventes pour nourrir ton activité.",
+     "Juste : du volume et un vrai sujet énergétique, là où ton expertise fait la différence."
+    ],
+    "fb_title": "Volume et sujet énergétique",
+    "fb_text": "Le bon secteur réunit deux conditions : assez de ventes (DVF) et des vendeurs qui ont besoin de toi (part de DPE E, F, G sur l'observatoire de l'ADEME). La résidence « Les Tilleuls » de M. Bernard (1972, fictive) en est l'exemple type."
+   },
+   {
+    "question": "Dans ta deuxième passe, tu repères qu'une agence détient 40 % des annonces d'un quartier. Que fais-tu ?",
+    "options": [
+     "Tu abandonnes le quartier : il est pris.",
+     "Tu notes sa position et cherches ce qu'elle ne fait pas (DPE vérifié, chiffrage des travaux), pour te différencier.",
+     "Tu baisses tes honoraires sous les siens."
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : un concurrent fort prouve qu'il y a un marché ; il ne ferme pas le quartier.",
+     "Juste : l'analyse de la concurrence sert à trouver ton angle, pas à fuir ni à copier.",
+     "Faux : la guerre des prix n'est pas un positionnement et use ta marge."
+    ],
+    "fb_title": "Un concurrent fort n'est pas un mur",
+    "fb_text": "Relève ce que font les concurrents (annonces, mentions DPE, avis) et ce qu'ils ne font pas. Si leurs annonces affichent des F « −15 % » sans chiffrage, ton angle est tout trouvé : le DPE vérifié et le budget de travaux."
+   },
+   {
+    "question": "Mozi a « affiné » sa zone : il a ajouté trois départements « pour avoir plus de vendeurs ». Quel est le problème ?",
+    "options": [
+     "Il sera invisible partout et ne connaîtra les prix nulle part.",
+     "Aucun : plus la zone est grande, plus il aura de mandats.",
+     "Il lui faut une carte professionnelle par département."
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : affiner, c'est réduire ; une zone trop large dilue ta visibilité et ta connaissance des prix.",
+     "Faux : le nombre de vendeurs augmente, mais tes chances d'être choisi baissent.",
+     "Faux : la carte professionnelle n'est pas délivrée par département ; ce n'est pas le problème."
+    ],
+    "fb_title": "Affiner, c'est réduire",
+    "fb_text": "Mozi confond volume et efficacité. Un vendeur choisit l'agent qui connaît sa rue, ses ventes, sa copropriété. Deux secteurs prioritaires bien connus valent mieux que trois départements survolés."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche d'affinage de zone",
+  "kind": "fiche",
+  "intro": "Tu as tracé ta zone (capsule 1.4). Cette fiche t'aide à la réduire en deux passes pour choisir deux secteurs où tu seras connu. Tu remplis le tableau avec des chiffres datés, puis tu tranches.",
+  "sections": [
+   {
+    "heading": "Passe 1 : quartiers et types de biens",
+    "type": "steps",
+    "items": [
+     "Découpe ta zone en 4 à 8 secteurs (quartiers, hameaux, IRIS de l'Insee).",
+     "Pour chaque secteur, compte les ventes des 12 derniers mois dans DVF, maisons et appartements séparés.",
+     "Repère le type de bien dominant : immeubles des années 1960-1980, pavillons, maisons anciennes, copropriétés récentes.",
+     "Relève sur l'observatoire DPE-Audit de l'ADEME la part des DPE en E, F, G du secteur.",
+     "Garde les secteurs qui réunissent du volume et un sujet énergétique."
+    ]
+   },
+   {
+    "heading": "Passe 2 : concurrents",
+    "type": "checklist",
+    "items": [
+     "Je liste les agences et mandataires actifs dans chaque secteur retenu (annonces, vitrines, fiches Google).",
+     "Je compte leurs annonces et note leur part approximative.",
+     "Je regarde comment ils traitent le DPE dans leurs annonces : simple lettre, décote annoncée, ou chiffrage.",
+     "Je relève leur note et le nombre d'avis Google.",
+     "J'écris ce qu'aucun d'eux ne propose : c'est mon angle."
+    ]
+   },
+   {
+    "heading": "Tableau de décision",
+    "type": "table",
+    "headers": ["Secteur", "Ventes 12 mois (DVF)", "Type dominant", "Part DPE E-F-G", "Concurrents", "Décision"],
+    "rows": [
+     ["Exemple : quartier des Tilleuls (fictif)", "85", "Copropriétés 1965-1980", "Forte", "3 agences, aucune ne chiffre les travaux", "Prioritaire"],
+     ["Exemple : lotissement 2015 (fictif)", "20", "Maisons récentes", "Faible", "1 agence", "Écarté"],
+     ["Secteur 3", "…", "…", "…", "…", "…"]
+    ]
+   },
+   {
+    "heading": "La phrase qui résume ton choix",
+    "type": "text",
+    "text": "« Je travaille en priorité [secteur 1] et [secteur 2] : [nombre] ventes par an, surtout des [type de bien], avec beaucoup de logements classés E, F ou G ; aucun concurrent n'y propose [ton angle]. » Cette phrase servira dans ta fiche cible (1.7), ta spécialisation (1.8) et ta fiche Google."
+   }
+  ],
+  "footer": "Sources : data.gouv.fr, DVF (mise à jour du 12/10/2026) ; ADEME, observatoire DPE-Audit ; Insee, découpage IRIS. Tableau d'exemple : chiffres fictifs du fil rouge. Mise à jour : 28/10/2026."
+ },
+ "exercise": {
+  "title": "Affiner ma zone en deux passes",
+  "duration_min": 40,
+  "context": "Tu repars de la zone tracée en 1.4. En deux passes, tu la réduis à deux secteurs prioritaires. Tout se fait sur ta zone réelle ; le quartier fictif de M. Bernard sert de modèle.",
+  "materials": [
+   "Ton étude de zone (livrable 1.4)",
+   "explore.data.gouv.fr/immobilier (DVF)",
+   "observatoire-dpe-audit.ademe.fr",
+   "Annonces en ligne et fiches Google des concurrents",
+   "Fiche d'affinage de zone"
+  ],
+  "steps": [
+   "Découpe ta zone en 4 à 8 secteurs et remplis pour chacun : ventes sur 12 mois, type de bien dominant, part de DPE E-F-G.",
+   "Garde les 3 ou 4 secteurs qui combinent volume et sujet énergétique.",
+   "Pour ces secteurs, liste les concurrents actifs, leur part d'annonces approximative et leur traitement du DPE.",
+   "Choisis 2 secteurs prioritaires et écris l'angle que tu y apportes.",
+   "Rédige ta phrase de synthèse."
+  ],
+  "expected": "Exemple attendu (fictif, à remplacer par ta zone). Passe 1 : 6 secteurs ; retenus : quartier des Tilleuls (85 ventes, copropriétés 1965-1980, nombreux DPE E-F) et centre ancien (60 ventes, immeubles anciens, chauffage électrique fréquent). Écartés : lotissement 2015 (20 ventes, DPE récents), hameau (8 ventes). Passe 2 : 3 agences actives aux Tilleuls ; leurs annonces affichent la lettre du DPE sans chiffrage, l'une annonce « −15 % DPE ». Angle : vérification de l'étiquette à jour et budget de travaux remis aux acquéreurs. Phrase : « Je travaille en priorité les Tilleuls et le centre ancien : environ 145 ventes par an, surtout des appartements des années 60-70 classés E ou F ; aucun concurrent n'y chiffre les travaux. »"
+ },
+ "deliverable": {
+  "title": "Ma zone affinée",
+  "format": "PDF, 1 page : tableau de décision rempli + carte des 2 secteurs prioritaires + phrase de synthèse",
+  "criteria": [
+   "Au moins 4 secteurs analysés avec ventes, type dominant et part de DPE E-F-G",
+   "Les concurrents des secteurs retenus sont listés avec leur traitement du DPE",
+   "Exactement 2 secteurs prioritaires, chacun justifié par des chiffres datés",
+   "L'angle de différenciation est écrit en une phrase",
+   "Aucun dénigrement nominatif d'un concurrent"
+  ]
+ },
+ "sources": [
+  { "label": "data.gouv.fr — Demandes de valeurs foncières (DVF), mise à jour du 12/10/2026", "url": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/" },
+  { "label": "ADEME — Observatoire DPE-Audit", "url": "https://observatoire-dpe-audit.ademe.fr" },
+  { "label": "Insee — Définition des IRIS (îlots regroupés pour l'information statistique)", "url": "https://www.insee.fr/fr/metadonnees/definition/c1523" }
+ ],
+ "open_points": [
+  "Seuils de décision (volume minimal de ventes, part de DPE E-F-G « forte ») : à définir avec Sébastien Paumier.",
+  "Recherche de DPE par quartier sur l'observatoire : fonctionnalités à vérifier le jour du tournage (recherche par adresse ou par commune)."
+ ]
+}

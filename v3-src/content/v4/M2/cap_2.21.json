@@ -1,0 +1,168 @@
+{
+  "id": "2.21",
+  "module": 2,
+  "section": "I · PARCOURS MAISON · Cadastre et droits à construire",
+  "etape": "3 (Éco-staging)",
+  "parcours": "maison",
+  "prio": false,
+  "ia": false,
+  "title": "Maison : cadastre, droits à construire, division parcellaire",
+  "objective": "Lire l'extrait cadastral de la maison de Mme Garnier, calculer l'emprise au sol encore possible et décrire, sans rien promettre, les étapes d'une division parcellaire",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Parcelle AB 214 : 1 240 m², 24 m de façade, une maison de 1968 au milieu. Sébastien Paumier lit l'extrait cadastral de Mme Garnier, croise le plan avec le règlement de la zone UB et montre qu'un lot de 480 m² pourrait être détaché à l'arrière. Une option à étudier avec un géomètre et le notaire, jamais un gain promis."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Un fils de Mme Garnier dit : « D'après le cadastre, la limite est au ras de la haie, donc la parcelle fait 1 240 m² pile. » Que lui réponds-tu ?",
+        "options": [
+          "« Exact, le cadastre fixe les limites de propriété. »",
+          "« Le cadastre a une valeur fiscale ; seul un bornage par un géomètre-expert fixe les limites. »",
+          "« Il faut demander à la mairie de signer la limite. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le plan cadastral ne fixe pas les limites de propriété ; il sert à l'impôt foncier.",
+          "Juste : la surface cadastrale est une indication ; avant une division, le géomètre-expert mesure et borne la parcelle.",
+          "Faux : la mairie ne fixe pas les limites privées ; c'est le bornage, amiable ou judiciaire."
+        ],
+        "fb_title": "Cadastre fiscal, bornage juridique",
+        "fb_text": "Service-Public le rappelle : le plan cadastral a une valeur fiscale, il ne fixe pas les limites de propriété. Pour une division, le géomètre-expert établit le bornage et le document d'arpentage qui créera les nouveaux numéros de parcelle."
+      },
+      {
+        "question": "Zone UB fictive : emprise au sol maximale 40 %. Après détachement d'un lot de 480 m², quelle emprise maximale resterait sur le terrain de la maison, si la règle s'applique lot par lot ?",
+        "options": [
+          "496 m²",
+          "192 m²",
+          "304 m²"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : 496 m², c'est 40 % de la parcelle entière (1 240 m²), avant division.",
+          "Faux : 192 m², c'est 40 % du lot détaché de 480 m².",
+          "Juste : 1 240 − 480 = 760 m² ; 760 × 40 % = 304 m² pour la maison et ses annexes."
+        ],
+        "fb_title": "760 × 40 % = 304 m²",
+        "fb_text": "Le terrain restant fait 760 m², soit 304 m² d'emprise maximale. La maison en occupe environ 140 m² avec la véranda (hypothèse à mesurer) : la règle reste respectée. À vérifier : le règlement peut s'appliquer à chaque lot ou à l'ensemble du terrain divisé."
+      },
+      {
+        "question": "Mozi annonce à Mme Garnier : « Votre jardin vaut 84 000 € de plus, je vends le terrain à part la semaine prochaine ! » Quelle est la bonne approche ?",
+        "options": [
+          "Présenter le lot comme une option à étudier : géomètre, autorisation, étude de sol, assainissement, notaire, puis chiffrer net de frais",
+          "Annoncer 84 000 € mais en parlant de « fourchette »",
+          "Ne jamais parler de division, c'est trop risqué"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : 420 m² × 200 €/m² = 84 000 € avant frais ; il faut ôter environ 15 000 € de frais et lever les inconnues avant toute décision.",
+          "Faux : le mot « fourchette » ne change rien : le chiffre est brut, avant frais et sans autorisation obtenue.",
+          "Faux : taire une option possible prive la vendeuse d'une information utile ; il suffit de la présenter honnêtement."
+        ],
+        "fb_title": "Une option, pas une promesse",
+        "fb_text": "84 000 € est un ordre de grandeur brut (fictif). Après environ 15 000 € de géomètre, branchements et étude G1, il resterait environ 69 000 €, sous réserve de l'autorisation, de l'assainissement et du marché. Mme Garnier décide avec son notaire et ses fils."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche cadastre (plan, matrice), droits à construire et division parcellaire (proposition à valider)",
+    "kind": "fiche",
+    "intro": "Proposition à valider par Sébastien Paumier. Cette fiche t'aide à lire un extrait cadastral, à calculer ce que le PLU permet encore de construire sur une parcelle, et à présenter une division parcellaire comme une option à étudier. Tu ne fais ni étude juridique ni promesse de prix : tu prépares les bonnes questions pour le géomètre-expert, la mairie et le notaire.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Le cadastre : quoi, où, à quoi ça sert",
+        "headers": ["Document", "Contenu", "Où l'obtenir"],
+        "rows": [
+          ["Plan cadastral", "Sections, numéros de parcelles, emprise des bâtiments ; pas de nom de propriétaire", "cadastre.gouv.fr (consultation et extraits), mairie, centre des impôts fonciers"],
+          ["Matrice cadastrale (relevé de propriété)", "Parcelles et bâtiments d'un propriétaire dans la commune, contenance", "Centre des impôts fonciers, formulaire 6815-EM-SD"],
+          ["Bornage", "Limites juridiques de la propriété", "Géomètre-expert"]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Droits à construire : le calcul de l'emprise",
+        "text": "Emprise maximale = surface du terrain × coefficient d'emprise de la zone. Parcelle AB 214 : 1 240 × 40 % = 496 m². Emprise existante (hypothèse à mesurer) : maison ≈ 128 m² + véranda 12 m² ≈ 140 m². Reste avant division ≈ 356 m². Après division : maison sur 760 m² → 304 m² maximum ; lot de 480 m² → 192 m² maximum (si la règle s'applique lot par lot)."
+      },
+      {
+        "type": "steps",
+        "heading": "Les étapes d'une division parcellaire",
+        "items": [
+          "Lire le règlement de zone (M07) : emprise, hauteur 9 m, reculs, accès, assainissement.",
+          "Vérifier l'emplacement de l'épandage de l'assainissement non collectif (M08) : il ne doit pas se retrouver sur le lot vendu.",
+          "Consulter un géomètre-expert : bornage, plan de division, accès de 60 m² (bande en pleine propriété ou servitude de passage).",
+          "Déposer l'autorisation : déclaration préalable si aucune voie ni aucun espace commun n'est créé, permis d'aménager sinon (Service-Public F37932).",
+          "Faire réaliser l'étude géotechnique préalable (G1), exigée pour la vente d'un terrain à bâtir en zone d'argiles moyenne ou forte.",
+          "Chiffrer net de frais avec le notaire : branchements, géomètre, étude de sol, fiscalité éventuelle (renvoi au notaire)."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Le lot de Mme Garnier en chiffres (fictifs)",
+        "headers": ["Élément", "Valeur", "Statut"],
+        "rows": [
+          ["Lot détaché à l'arrière", "480 m² dont bande d'accès 60 m²", "Hypothèse de géomètre"],
+          ["Surface valorisable", "420 m²", "Dérivée"],
+          ["Prix des terrains à bâtir viabilisés", "180 à 230 €/m², médiane 200 €/m²", "Tableau M13 (fictif)"],
+          ["Valeur brute", "420 × 200 = 84 000 €", "Avant frais"],
+          ["Frais estimés (géomètre, branchements, G1)", "15 000 €", "Fictif, à faire chiffrer"],
+          ["Ordre de grandeur net", "≈ 69 000 €", "Option à étudier, non promise"]
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire à Mme Garnier",
+        "text": "« Votre terrain est grand : le plan local d'urbanisme permettrait peut-être d'en détacher une partie à l'arrière. Ce n'est qu'une piste. Il faudrait un géomètre, une autorisation de la mairie, une étude de sol et l'avis de votre notaire. Je vous propose d'en parler avec vos fils, sans rien décider aujourd'hui : on peut aussi vendre la maison avec tout le terrain. »"
+      }
+    ],
+    "footer": "Sources : Service-Public F14226 (consulter le cadastre, vérifiée le 13/03/2025), F37932 (diviser un terrain, vérifiée le 21/07/2026) ; economie.gouv.fr (matrice cadastrale, formulaire 6815-EM-SD) ; bible §11.4 et §11.5 (maison, zone UB, mutations et frais fictifs). Proposition à valider par Sébastien Paumier. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Lire l'extrait cadastral et estimer les droits à construire",
+    "duration_min": 35,
+    "context": "Mme Garnier (71 ans, profil S) a entendu qu'on pouvait « vendre un bout de jardin ». Avant le rendez-vous où ses fils seront présents, tu prépares une note simple : ce que dit le cadastre, ce que permet la zone UB, ce que donnerait une division, et ce qu'il reste à vérifier.",
+    "materials": [
+      "M06 Extrait cadastral et plan de la parcelle AB 214",
+      "M07 Extrait du PLU (zone UB)",
+      "M04 Plan et descriptif de la maison",
+      "M08 Rapport du SPANC du 12/03/2025",
+      "M10 État des risques (ERP)",
+      "M13 Tableau des mutations de terrains (fictif)"
+    ],
+    "steps": [
+      "Dans M06, relève la section, le numéro, la contenance, la façade sur rue et l'emprise des bâtiments.",
+      "Dans M07, relève les trois règles chiffrées de la zone UB et calcule l'emprise maximale de la parcelle entière.",
+      "Estime l'emprise existante (maison et véranda) à partir de M04, en écrivant ton hypothèse.",
+      "Calcule l'emprise maximale de chaque terrain après détachement d'un lot de 480 m².",
+      "Liste les points bloquants à vérifier : accès, assainissement (M08), argiles (M10), autorisation, application des règles lot par lot.",
+      "Calcule l'ordre de grandeur brut puis net du lot (M13 et frais de 15 000 €) et rédige la phrase pour Mme Garnier."
+    ],
+    "expected": "Parcelle AB 214 (fictive) : 1 240 m², façade de 24 m. Zone UB : emprise 40 %, hauteur 9 m au faîtage, recul 5 m sur rue. Emprise maximale de la parcelle : 496 m². Emprise existante : hypothèse ≈ 140 m² (maison ≈ 128 m² murs compris + véranda 12 m²), à mesurer. Après division : terrain de la maison 760 m² → 304 m² maximum (≈ 140 m² occupés) ; lot de 480 m² → 192 m² maximum, si la règle s'applique lot par lot (à vérifier dans le règlement). Points à vérifier : bande d'accès de 60 m² (pleine propriété ou servitude) ; épandage non conforme de 1985 à localiser pour qu'il reste sur le terrain de la maison, et assainissement autonome à prévoir pour le lot ; argiles d'exposition moyenne → étude G1 obligatoire pour vendre un terrain à bâtir ; déclaration préalable si aucune voie commune n'est créée. Valeur : 420 × 200 = 84 000 € brut ; net ≈ 69 000 € après 15 000 € de frais, option à étudier avec géomètre et notaire."
+  },
+  "deliverable": {
+    "title": "Note cadastre et droits à construire de la parcelle AB 214",
+    "format": "PDF, 1 page + schéma de la parcelle",
+    "criteria": [
+      "Les données cadastrales sont relevées et le statut fiscal du cadastre est rappelé",
+      "Les emprises maximales sont justes (496, 304 et 192 m²) et l'hypothèse d'emprise existante est écrite",
+      "Au moins quatre points à vérifier sont listés, dont l'assainissement et l'étude G1",
+      "La valeur du lot est présentée brute puis nette de frais, comme une option non promise",
+      "La note renvoie au géomètre-expert, à la mairie et au notaire"
+    ]
+  },
+  "sources": [
+    { "label": "Service-Public : comment consulter le cadastre (valeur fiscale, bornage) F14226", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14226" },
+    { "label": "cadastre.gouv.fr, service de consultation du plan cadastral", "url": "https://www.cadastre.gouv.fr" },
+    { "label": "economie.gouv.fr : s'informer sur le cadastre (matrice, formulaire 6815-EM-SD)", "url": "https://www.economie.gouv.fr/particuliers/gerer-mon-argent/investir-dans-limmobilier/comment-sinformer-sur-le-cadastre" },
+    { "label": "Service-Public : quelle autorisation pour diviser un terrain (F37932)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37932" },
+    { "label": "Bible du fil rouge Éco-propriété, §11.4 et §11.5 (données fictives de la maison)" }
+  ],
+  "open_points": [
+    "Proposition à valider par Sébastien Paumier (ressource marquée « proposition à valider » dans le plan).",
+    "À vérifier : application des règles du PLU lot par lot ou à l'ensemble du terrain divisé (code de l'urbanisme, art. R. 151-21) selon le règlement de la zone.",
+    "À vérifier : obligation d'étude géotechnique préalable (G1) à la vente d'un terrain à bâtir en zone d'exposition moyenne ou forte aux argiles (loi ÉLAN), reprise de la bible.",
+    "Emprise existante de la maison (≈ 140 m²) : hypothèse dérivée, la bible ne la donne pas.",
+    "Fiscalité de la vente du lot : hors champ de l'éco-consultant, renvoi au notaire."
+  ]
+}
