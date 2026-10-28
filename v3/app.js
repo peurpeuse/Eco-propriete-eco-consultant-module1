@@ -35,6 +35,9 @@
   function nl(s) { return esc(s).replace(/\n/g, '<br>'); }
   function announce(t) { $('live').textContent = ''; setTimeout(function () { $('live').textContent = t; }, 30); }
   function modById(id) { for (var i = 0; i < C.modules.length; i++) if (C.modules[i].id === +id) return C.modules[i]; return null; }
+  function modLabel(m) { return m && m.id === 0 ? 'Prérequis' : 'Module ' + (m ? m.id : ''); }
+  function visCaps(m) { return m.capsules.filter(function (c) { return !c.parcours || c.parcours === PARC(); }); }
+  function PARC() { return S.parcours === 'maison' ? 'maison' : 'appartement'; }
   function lc(s) { s = String(s || ''); return s.charAt(0).toLowerCase() + s.slice(1); }
 
   /* ---------- État ---------- */
@@ -49,19 +52,31 @@
 
   /* ---------- Plan du cours ---------- */
   var SECS = [], FLAT = [], BYKEY = {}, STEPK = ['v', 'q', 'r', 'p', 'd'];
-  (function () {
+  function buildPlan() {
+    SECS.length = 0; FLAT.length = 0; Object.keys(BYKEY).forEach(function (k) { delete BYKEY[k]; });
     function add(sec, g, it) { it.sec = sec; FLAT.push(it); BYKEY[it.key] = it; g.items.push(it); }
     if (SCOPE.start) {
       var s = { id: 'start', title: 'Bienvenue', color: 'var(--g)', groups: [{ label: null, items: [] }] };
       add(s, s.groups[0], { key: 'welcome', kind: 'welcome', title: 'Bienvenue et mode d’emploi', dur: 'Lecture · 5 min' });
       add(s, s.groups[0], { key: 'pos', kind: 'test', title: 'Test de positionnement', dur: 'Quiz · ' + ((G.positioning || {}).questions || []).length + ' questions' });
-      add(s, s.groups[0], { key: 'dossier', kind: 'dossier', title: 'Le dossier fil rouge de M. Bernard', dur: 'Ressources · ' + ((G.dossier || {}).documents || []).length + ' documents' });
+      add(s, s.groups[0], { key: 'dossier', kind: 'dossier', title: 'Le dossier fil rouge (appartement de M. Bernard)', dur: 'Ressources · ' + ((G.dossier || {}).documents || []).length + ' documents' });
       SECS.push(s);
     }
     MODS.forEach(function (m) {
-      var s = { id: 'm' + m.id, mod: m, title: m.title, color: 'var(--m' + m.id + ')', groups: [] };
+      var s = { id: 'm' + m.id, mod: m, title: m.title, color: 'var(--m' + m.id + ')', groups: [] }, lastSec = null;
       m.capsules.forEach(function (c) {
+        if (c.parcours && c.parcours !== PARC()) return; // parcours maison ou appartement : on ne garde que celui choisi
+        if (c.section && c.section !== lastSec) { lastSec = c.section; s.groups.push({ label: c.section, head: 1, items: [] }); }
         var g = { label: c.id + ' · ' + c.title, items: [] }; s.groups.push(g);
+        if (c.v4) {
+          if (c.chapter) add(s, g, { key: 'c:' + c.id + ':0', kind: 'chapter', cap: c, step: 0, title: 'Chapitre ' + c.id + ' · ' + c.chapter.title, dur: 'Vidéo interactive · 4 min 30 max' });
+          else add(s, g, { key: 'c:' + c.id + ':0', kind: 'video', cap: c, step: 0, title: c.title, dur: 'Vidéo · 4 min 30 max' });
+          add(s, g, { key: 'c:' + c.id + ':1', kind: 'quiz', cap: c, step: 1, title: 'Quiz flash', dur: 'Je me teste · ' + c.quiz.questions.length + ' questions' });
+          add(s, g, { key: 'c:' + c.id + ':2', kind: 'reading', cap: c, step: 2, title: c.resource.title, dur: 'Je télécharge la ressource · fiche PDF' });
+          add(s, g, { key: 'c:' + c.id + ':3', kind: 'practice', cap: c, step: 3, title: c.exercise.title, dur: 'Je pratique · ' + c.exercise.duration_min + ' min' + (c.ia ? ' · IA' : ''), ia: c.ia });
+          add(s, g, { key: 'c:' + c.id + ':4', kind: 'assignment', cap: c, step: 4, title: c.deliverable.title, dur: 'Je dépose mon livrable' });
+          return;
+        }
         if (c.chapter) {
           g.label = c.id + ' · ' + c.chapter.title;
           add(s, g, { key: 'c:' + c.id + ':0', kind: 'chapter', cap: c, step: 0, title: 'Chapitre ' + c.id + ' · ' + c.chapter.title, dur: 'Chapitre interactif · ' + (c.chapter.duration || '4:30') });
@@ -76,7 +91,7 @@
         add(s, g, { key: 'c:' + c.id + ':4', kind: 'assignment', cap: c, step: 4, title: c.deliverable.title, dur: 'Devoir · à déposer' });
         }
       });
-      var g2 = { label: 'Fin du module ' + m.id, items: [] }; s.groups.push(g2);
+      var g2 = { label: m.id === 0 ? 'Fin du prérequis' : 'Fin du module ' + m.id, items: [] }; s.groups.push(g2);
       add(s, g2, { key: 'case:' + m.id, kind: 'case', mod: m, title: m.case.title, dur: 'Cas pratique · ' + m.case.duration_min + ' min' });
       add(s, g2, { key: 'rem:' + m.id, kind: 'reminder', mod: m, title: 'Rappels J+1 · J+7 · J+30', dur: 'Quiz de rappel' });
       SECS.push(s);
@@ -89,7 +104,8 @@
       add(e, e.groups[0], { key: 'att', kind: 'cert', title: 'Attestation de fin de formation', dur: 'Après le quiz final' });
       SECS.push(e);
     }
-  })();
+  }
+  buildPlan();
   function secItems(s) { return [].concat.apply([], s.groups.map(function (g) { return g.items; })); }
   function isDone(it) {
     var k = it.key;
@@ -105,6 +121,8 @@
   function save() {
     var j = JSON.stringify(S);
     if (j.length > 4000) { Object.keys(S.c).forEach(function (k) { delete S.c[k].qa; }); j = JSON.stringify(S); }
+    if (j.length > 4000) { Object.keys(S.c).forEach(function (k) { var h = S.c[k].ch; if (h) { delete h.ret; delete h.guess; delete h.g; delete h.vote; } }); j = JSON.stringify(S); }
+    if (j.length > 4000) { Object.keys(S.c).forEach(function (k) { var h = S.c[k].ch; if (h) S.c[k].ch = { i: h.i, done: h.done }; }); j = JSON.stringify(S); }
     LMS.set('cmi.suspend_data', j);
     if (S.cur) LMS.set('cmi.core.lesson_location', S.cur.join('|').slice(0, 250));
     report(); LMS.commit();
@@ -149,24 +167,24 @@
   /* ---------- Page de présentation du cours ---------- */
   function renderHome() {
     $('navBtn').style.display = 'none';
-    var started = FLAT.some(isDone), nCaps = MODS.reduce(function (a, m) { return a + m.capsules.length; }, 0), nIA = 0;
-    MODS.forEach(function (m) { m.capsules.forEach(function (c) { if (c.ia) nIA++; }); });
+    var started = FLAT.some(isDone), nCaps = MODS.reduce(function (a, m) { return a + visCaps(m).length; }, 0), nIA = 0, nCh = 0;
+    MODS.forEach(function (m) { visCaps(m).forEach(function (c) { if (c.ia) nIA++; if (c.chapter) nCh++; }); });
     var cta = '<button class="btn p big" data-learn="' + esc(nextKey()) + '">' + (started ? 'Reprendre la formation' : 'Commencer la formation') + '</button>';
     var single = MODS.length === 1;
     var h = '<section class="hero"><div class="wrap"><div><div class="crumb">' + esc(M.program || 'Formation') + ' › Immobilier › Transaction</div><h1>' + esc(single ? 'Module ' + MODS[0].id + ' · ' + MODS[0].title : TITLE) + '</h1>' +
       '<p class="lead">' + esc(single ? (M.objectives || {})[MODS[0].id] || M.pitch : M.pitch) + '</p><div class="inst"><img src="assets/seb.png" alt=""><span>Formateur : <b>Sébastien Paumier</b>, Éco-Propriété</span></div>' +
       '<div class="row">' + cta + (started ? '<span class="muted">' + pct() + ' % terminé</span>' : '') + '</div></div>' +
       '<div class="side"><div class="card"><b>Ce qui est inclus</b><ul class="incl">' +
-      [[nCaps + ' chapitres interactifs de 4 min 30 avec Sébastien Paumier', 'video'], [nCaps + ' quiz en cartes à retourner', 'quiz'], [nCaps + ' fiches pratiques en PDF', 'reading'], [nCaps + ' exercices sur un dossier réel (fictif)', 'practice'], [MODS.length + ' cas pratique' + (MODS.length > 1 ? 's' : '') + ' évalué' + (MODS.length > 1 ? 's' : ''), 'case'], ['Rappels J+1, J+7, J+30', 'reminder'], ['Attestation de fin de formation', 'cert']].map(function (x) { return '<li>' + ic(x[1]) + '<span>' + esc(x[0]) + '</span></li>'; }).join('') + '</ul></div></div></div>' +
-      '<div class="wrap"><div class="facts"><div><b>' + MODS.length + ' module' + (single ? '' : 's') + '</b><span>' + nCaps + ' chapitres de 4 min 30</span></div><div><b>Niveau intermédiaire</b><span>Agents, mandataires, négociateurs</span></div><div><b>' + esc(single ? '≈ ' + Math.round(MODS[0].capsules.length * 1.1 + 1) + ' heures' : M.hours || '≈ 40 heures') + '</b><span>À ton rythme, 100 % en ligne</span></div><div><b>Attestation</b><span>De fin de formation</span></div></div></div></section>' +
+      [[nCaps + ' capsules : vidéo de 4 min 30 maximum, quiz flash, fiche, exercice, livrable', 'video'], [nCh + ' vidéos interactives avec Sébastien Paumier et Mozi', 'video'], [nCaps + ' quiz flash de 3 questions', 'quiz'], [nCaps + ' fiches pratiques en PDF', 'reading'], [nCaps + ' exercices sur un bien fil rouge (appartement ou maison)', 'practice'], [MODS.length + ' cas pratique' + (MODS.length > 1 ? 's' : '') + ' évalué' + (MODS.length > 1 ? 's' : ''), 'case'], ['Rappels J+1, J+7, J+30', 'reminder'], ['Attestation de fin de formation', 'cert']].map(function (x) { return '<li>' + ic(x[1]) + '<span>' + esc(x[0]) + '</span></li>'; }).join('') + '</ul></div></div></div>' +
+      '<div class="wrap"><div class="facts"><div><b>' + MODS.length + ' module' + (single ? '' : 's') + '</b><span>' + nCaps + ' capsules de 4 min 30 maximum</span></div><div><b>Niveau intermédiaire</b><span>Agents, mandataires, négociateurs</span></div><div><b>' + esc(single ? '≈ ' + Math.round(MODS[0].capsules.length * 1.1 + 1) + ' heures' : M.hours || '≈ 40 heures') + '</b><span>À ton rythme, 100 % en ligne</span></div><div><b>Attestation</b><span>De fin de formation</span></div></div></div></section>' +
       '<nav class="tabsbar" aria-label="Sections de la page"><div class="wrap"><a href="#apropos" class="on">À propos</a><a href="#modules">Modules</a><a href="#formateur">Formateur</a><a href="#evaluation">Évaluation</a>' + (M.downloads ? '<a href="#lms">Pour ton LMS</a>' : '') + '</div></nav>' +
       '<div class="wrap"><section class="sec" id="apropos"><h2>Ce que tu vas apprendre</h2><div class="learn">' + MODS.map(function (m) { return '<div>' + ic('check') + '<span>' + esc((M.objectives || {})[m.id] || m.title) + '</span></div>'; }).join('') + '</div>' +
       '<h2 class="mt">Compétences travaillées</h2><div class="skills">' + (M.skills || []).map(function (s) { return '<span>' + esc(s) + '</span>'; }).join('') + '</div>' +
-      '<h2 class="mt">Détails</h2><div class="details"><div><b>Format</b><span class="muted">Chapitres de 15 écrans : Mozi, le cours, le quiz, la démo, ta preuve</span></div><div><b>Langue</b><span class="muted">Français</span></div><div><b>Fil rouge</b><span class="muted">Un T4 à Melun classé F, de l’estimation à l’acte</span></div><div><b>Intelligence artificielle</b><span class="muted">' + nIA + ' exercices avec prompts métier</span></div></div></section>' +
-      '<section class="sec" id="modules"><h2>' + (single ? 'Contenu du module' : 'Il y a ' + MODS.length + ' modules dans cette formation') + '</h2><p class="muted">Code couleur DPE : tu progresses du rouge vers le vert, comme un logement qu’on rénove.</p><div class="mods">' +
+      '<h2 class="mt">Détails</h2><div class="details"><div><b>Format</b><span class="muted">Chaque capsule : je regarde (4 min 30 maximum), je me teste (quiz flash de 3 questions), je télécharge la ressource, je pratique, je dépose mon livrable</span></div><div><b>Langue</b><span class="muted">Français</span></div><div><b>Fil rouge au choix</b><span class="muted">L’appartement de M. Bernard à Melun, classé F, ou la maison de Mme Garnier, classée G, de l’estimation à l’acte</span></div><div><b>Intelligence artificielle</b><span class="muted">' + nIA + ' exercices avec prompts métier</span></div></div></section>' +
+      '<section class="sec" id="modules"><h2>' + (single ? 'Contenu du module' : 'Il y a ' + MODS.length + ' modules dans cette formation') + '</h2><p class="muted">Code couleur DPE : tu progresses du rouge vers le vert, comme un logement qu’on rénove.</p>' + parcSwitch() + '<div class="mods">' +
       SECS.map(function (s) { return modCard(s); }).join('') + '</div></section>' +
       '<section class="sec" id="formateur"><h2>Formateur</h2><div class="inst2"><img src="assets/seb.png" alt=""><div><h3>Sébastien Paumier</h3><p class="muted" style="margin:2px 0 8px">Formateur Éco-Propriété · spécialiste transaction et performance énergétique</p><p>' + esc(cut((G.start || {}).welcome, 420)) + '</p></div></div></section>' +
-      '<section class="sec" id="evaluation"><h2>Comment tu es évalué</h2><div class="details"><div><b>Quiz en cartes</b><span class="muted">Dans chaque chapitre, retour expliqué immédiat</span></div><div><b>Devoirs</b><span class="muted">' + nCaps + ' livrables avec grille de validation</span></div><div><b>Cas pratiques</b><span class="muted">Un par module, évalué par le formateur</span></div>' + (SCOPE.end ? '<div><b>Quiz final</b><span class="muted">' + ((G.final || {}).questions || []).length + ' questions, seuil ' + TH + ' %</span></div>' : '<div><b>Score SCORM</b><span class="muted">Moyenne des quiz flash</span></div>') + '</div><div class="row" style="margin-top:22px">' + cta + '</div></section></div>';
+      '<section class="sec" id="evaluation"><h2>Comment tu es évalué</h2><div class="details"><div><b>Quiz flash</b><span class="muted">3 questions après chaque capsule, retour expliqué immédiat</span></div><div><b>Devoirs</b><span class="muted">' + nCaps + ' livrables avec grille de validation</span></div><div><b>Cas pratiques</b><span class="muted">Un par module, évalué par le formateur</span></div>' + (SCOPE.end ? '<div><b>Quiz final</b><span class="muted">' + ((G.final || {}).questions || []).length + ' questions, seuil ' + TH + ' %</span></div>' : '<div><b>Score SCORM</b><span class="muted">Moyenne des quiz flash</span></div>') + '</div><div class="row" style="margin-top:22px">' + cta + '</div></section></div>';
     if (M.downloads) {
       // Paquets SCORM 1.2 à importer dans le LMS (site uniquement, pas dans les paquets eux-mêmes)
       var dl = '<section class="sec" id="lms"><h2>Pour ton LMS : les paquets SCORM</h2><p class="muted">Télécharge le paquet et importe-le tel quel dans ton LMS (format SCORM 1.2, version ' + esc(M.version || '') + '). Le suivi (progression, score, statut « terminé ») remonte dans le LMS. Les vidéos sont lues en streaming : l’apprenant doit avoir accès à Internet.</p><div class="dl">' +
@@ -181,6 +199,7 @@
     [].forEach.call(app.querySelectorAll('[data-revoir]'), function (b) { b.onclick = function () { var id = b.getAttribute('data-revoir'), c0 = cs(id), ch0 = c0.ch || (c0.ch = {}), k7 = 6; ch0.i = k7; ch0.g = 0; if (ch0.gt) delete ch0.gt.s; save(); go(['learn', 'c:' + id + ':0']); }; });
     [].forEach.call(app.querySelectorAll('[data-revu]'), function (b) { b.onclick = function () { var p = b.getAttribute('data-revu').split(':'), sf = ((S.c[p[0]] || {}).ch || {}).self; if (sf) sf[p[1]] = 'ok'; save(); render(); }; });
     [].forEach.call(app.querySelectorAll('[data-learn]'), function (b) { b.onclick = function () { go(['learn', b.getAttribute('data-learn')]); }; });
+    bindParc();
     var tabs = app.querySelectorAll('.tabsbar a');
     [].forEach.call(tabs, function (a) { a.onclick = function (e) { e.preventDefault(); var t = $(a.getAttribute('href').slice(1)); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - 120, behavior: 'smooth' }); [].forEach.call(tabs, function (x) { x.classList.toggle('on', x === a); }); }; });
   }
@@ -188,29 +207,41 @@
   function modCard(s) {
     var items = secItems(s), nd = items.filter(isDone).length, m = s.mod;
     var first = items.filter(function (it) { return !isDone(it); })[0] || items[0];
-    var meta = m ? m.capsules.length + ' chapitres interactifs · ' + m.capsules.length + ' fiches · ' + m.capsules.length + ' exercices · 1 cas pratique' : items.length + ' éléments';
+    var vc = m ? visCaps(m) : [], nch = vc.filter(function (c) { return c.chapter; }).length;
+    var meta = m ? vc.length + ' capsules' + (nch ? ' dont ' + nch + ' vidéos interactives' : '') + ' · ' + vc.length + ' fiches · ' + vc.length + ' exercices' + (m.case ? ' · 1 cas pratique' : '') : items.length + ' éléments';
     var body = m ? '<div class="io"><div><b>Point de départ</b><br>' + esc(m.entry) + '</div><div><b>Ce que tu produis</b><br>' + esc(m.exit) + '</div></div>' +
-      '<ul class="ilist">' + m.capsules.map(function (c) { var mz = c.chapter && c.chapter.mozi && c.chapter.mozi.line; return '<li>' + ic('video') + '<span><b>' + c.id + ' · ' + esc(c.chapter ? c.chapter.title : c.title) + '</b>' + (c.ia ? ' <span class="chip ia">IA</span>' : '') + '<br><span class="muted sm">' + esc(mz ? 'Mozi : « ' + mz + ' »' : c.objective) + '</span></span><span class="k">' + (c.chapter ? '4 min 30' : '5 éléments') + '</span></li>'; }).join('') +
+      '<ul class="ilist">' + vc.map(function (c) { var mz = c.chapter && c.chapter.mozi && c.chapter.mozi.line; return '<li>' + ic('video') + '<span><b>' + c.id + ' · ' + esc(c.chapter ? c.chapter.title : c.title) + '</b>' + (c.ia ? ' <span class="chip ia">IA</span>' : '') + '<br><span class="muted sm">' + esc(mz ? 'Mozi : « ' + mz + ' »' : c.objective) + '</span></span><span class="k">' + (c.v4 ? (c.chapter ? 'Vidéo interactive' : '4 min 30 max') + ' · 5 étapes' : c.chapter ? '4 min 30' : '5 éléments') + '</span></li>'; }).join('') +
       '<li>' + ic('case') + '<span><b>Cas pratique</b> · ' + esc(m.case.title) + '</span><span class="k">' + m.case.duration_min + ' min</span></li><li>' + ic('reminder') + '<span>Rappels J+1 · J+7 · J+30</span><span class="k">Quiz</span></li></ul>' :
       '<ul class="ilist">' + items.map(function (it) { return '<li>' + ic(it.kind) + '<span>' + esc(it.title) + '</span><span class="k">' + esc(it.dur) + '</span></li>'; }).join('') + '</ul>';
-    return '<details class="mod" style="--mc:' + s.color + '"' + (m && m.id === MODS[0].id ? ' open' : '') + '><summary><span class="bar6"></span><span>' + (m ? '<span class="mk">MODULE ' + m.id + '</span>' : '') + '<h3>' + esc(s.title) + '</h3><div class="meta">' + esc(meta) + (nd ? ' · ' + nd + '/' + items.length + ' terminés' : '') + '</div></span><span class="chev">' + ic('chev') + '</span></summary><div class="body">' + body +
-      '<div class="row" style="margin-top:14px"><button class="btn s" data-learn="' + esc(first.key) + '">' + (nd ? 'Continuer' : 'Commencer') + (m ? ' le module ' + m.id : '') + '</button></div></div></details>';
+    return '<details class="mod" style="--mc:' + s.color + '"' + (m && m.id === MODS[0].id ? ' open' : '') + '><summary><span class="bar6"></span><span>' + (m ? '<span class="mk">' + esc(modLabel(m).toUpperCase()) + '</span>' : '') + '<h3>' + esc(s.title) + '</h3><div class="meta">' + esc(meta) + (nd ? ' · ' + nd + '/' + items.length + ' terminés' : '') + '</div></span><span class="chev">' + ic('chev') + '</span></summary><div class="body">' + body +
+      '<div class="row" style="margin-top:14px"><button class="btn s" data-learn="' + esc(first.key) + '">' + (nd ? 'Continuer' : 'Commencer') + (m ? (m.id === 0 ? ' le prérequis' : ' le module ' + m.id) : '') + '</button></div></div></details>';
   }
 
   /* ---------- Lecteur : plan latéral + élément ---------- */
   function navHtml(it) {
-    return '<nav class="nav" id="courseNav" aria-label="Plan du cours"><div class="nh"><b>' + esc(TITLE) + '</b>' + pct() + ' % terminé</div>' +
+    return '<nav class="nav" id="courseNav" aria-label="Plan du cours"><div class="nh"><b>' + esc(TITLE) + '</b>' + pct() + ' % terminé' + parcSwitch() + '</div>' +
       SECS.map(function (s) {
         var open = !!openSecs[s.id], all = secItems(s), nd = all.filter(isDone).length;
-        return '<div class="ng" style="--mc:' + s.color + '"><button aria-expanded="' + open + '" data-sec="' + s.id + '"><span class="mbar"></span><span>' + esc(s.mod ? 'Module ' + s.mod.id + ' · ' + s.title : s.title) + '<span class="msub">' + nd + ' / ' + all.length + ' terminés</span></span>' + ic('chev') + '</button>' +
-          (open ? '<ul>' + s.groups.map(function (g) { return (g.label ? '<li class="cap">' + esc(g.label) + '</li>' : '') + g.items.map(function (x) { var d = isDone(x); return '<li><button class="it' + (x === it ? ' on' : '') + (d ? ' done' : '') + '" data-key="' + esc(x.key) + '"' + (x === it ? ' aria-current="page"' : '') + '><span class="st"></span><span>' + esc(x.title) + '<span class="sr"> (' + (d ? 'terminé' : 'à faire') + ')</span><small>' + ic(x.kind) + esc(x.dur) + '</small></span></button></li>'; }).join(''); }).join('') + '</ul>' : '') + '</div>';
+        return '<div class="ng" style="--mc:' + s.color + '"><button aria-expanded="' + open + '" data-sec="' + s.id + '"><span class="mbar"></span><span>' + esc(s.mod ? modLabel(s.mod) + ' · ' + s.title : s.title) + '<span class="msub">' + nd + ' / ' + all.length + ' terminés</span></span>' + ic('chev') + '</button>' +
+          (open ? '<ul>' + s.groups.map(function (g) { return (g.label ? '<li class="' + (g.head ? 'sech' : 'cap') + '">' + esc(g.label) + '</li>' : '') + g.items.map(function (x) { var d = isDone(x); return '<li><button class="it' + (x === it ? ' on' : '') + (d ? ' done' : '') + '" data-key="' + esc(x.key) + '"' + (x === it ? ' aria-current="page"' : '') + '><span class="st"></span><span>' + esc(x.title) + '<span class="sr"> (' + (d ? 'terminé' : 'à faire') + ')</span><small>' + ic(x.kind) + esc(x.dur) + '</small></span></button></li>'; }).join(''); }).join('') + '</ul>' : '') + '</div>';
       }).join('') + '</nav>';
+  }
+  function parcSwitch() {
+    if (!MODS.some(function (m) { return m.capsules.some(function (c) { return c.parcours; }); })) return '';
+    return '<div class="parc" role="group" aria-label="Mon bien fil rouge"><span>Mon bien fil rouge :</span>' + [['appartement', 'Appartement'], ['maison', 'Maison']].map(function (x) { return '<button data-parc="' + x[0] + '" aria-pressed="' + (PARC() === x[0]) + '">' + x[1] + '</button>'; }).join('') + '</div>';
+  }
+  function bindParc() {
+    [].forEach.call(app.querySelectorAll('[data-parc]'), function (b) { b.onclick = function () {
+      var v = b.getAttribute('data-parc'); if (PARC() === v) return; S.parcours = v; buildPlan();
+      if (S.cur && S.cur[0] === 'learn' && !BYKEY[S.cur[1]]) S.cur = ['home'];
+      save(); render(); announce(v === 'maison' ? 'Parcours maison : la maison de Mme Garnier' : 'Parcours appartement : l’appartement de M. Bernard');
+    }; });
   }
   function renderLearn(it) {
     $('navBtn').style.display = '';
     var sec = it.sec; openSecs[sec.id] = true;
     var idx = FLAT.indexOf(it), prev = FLAT[idx - 1], next = FLAT[idx + 1];
-    var bc = '<div class="bc"><button data-home>' + esc(MODS.length === 1 ? 'Module ' + MODS[0].id : 'Accueil du cours') + '</button> › ' + esc(sec.mod ? 'Module ' + sec.mod.id : sec.title) + (it.cap ? ' › Capsule ' + esc(it.cap.id) : '') + '</div>';
+    var bc = '<div class="bc"><button data-home>' + esc(MODS.length === 1 ? 'Module ' + MODS[0].id : 'Accueil du cours') + '</button> › ' + esc(sec.mod ? modLabel(sec.mod) : sec.title) + (it.cap ? ' › Capsule ' + esc(it.cap.id) : '') + '</div>';
     var head = '<h1 class="ititle">' + esc(it.kind === 'video' ? it.cap.id + ' · ' + it.cap.title : it.title) + '</h1><div class="itype">' + ic(it.kind) + '<span>' + esc(it.dur) + '</span>' + (it.ia ? '<span class="chip ia">IA</span>' : '') + (isDone(it) ? '<span class="chip ok">Terminé</span>' : '') + '</div>';
     var mk = MARK[it.kind];
     var foot = '<div class="foot"><span>' + (prev ? '<button class="btn ghost" data-key="' + esc(prev.key) + '">← Précédent</button>' : '') + '</span><span class="row">' +
@@ -219,7 +250,7 @@
     app.innerHTML = '<div class="lv">' + navHtml(it) + '<main class="main" tabindex="-1"><div class="inner">' + bc + head + R[it.kind](it) + foot + '</div></main></div>';
     $('navBtn').setAttribute('aria-expanded', 'false');
     [].forEach.call(app.querySelectorAll('[data-sec]'), function (b) { b.onclick = function () { var id = b.getAttribute('data-sec'); openSecs[id] = !openSecs[id]; var n = $('courseNav'), st = n.scrollTop; n.outerHTML = navHtml(it); $('courseNav').scrollTop = st; bindNav(it); }; });
-    bindNav(it);
+    bindNav(it); bindParc();
     attachHls();
     [].forEach.call(app.querySelectorAll('.main [data-key]'), function (b) { b.onclick = function () { go(['learn', b.getAttribute('data-key')]); }; });
     [].forEach.call(app.querySelectorAll('[data-home]'), function (b) { b.onclick = function () { go(['home']); }; });
@@ -323,6 +354,9 @@
   };
   R.video = function (it) {
     var c = it.cap, v = c.video;
+    if (c.v4 && !v.src && !v.segments) return '<div class="player"><img class="seb" src="assets/seb.png" alt=""><span class="tag">Vidéo en production · 4 min 30 maximum · Sébastien Paumier</span><span class="hook">' + esc(v.pitch || '') + '</span></div>' +
+      '<div class="box" style="margin-top:14px"><h3>Objectif de la capsule</h3><p style="margin:0">À la fin de cette capsule, tu sauras ' + esc(lc(c.objective)) + '.</p></div>' +
+      '<div class="box"><h3>Le parcours de la capsule</h3><ol style="margin:0;padding-left:20px"><li>Je regarde la vidéo (4 min 30 maximum)</li><li>Je me teste : quiz flash de ' + c.quiz.questions.length + ' questions</li><li>Je télécharge la ressource : « ' + esc(c.resource.title) + ' »</li><li>Je pratique : « ' + esc(c.exercise.title) + ' »</li><li>Je dépose mon livrable : « ' + esc(c.deliverable.title) + ' »</li></ol></div>';
     var isHls = v.src && /\.m3u8($|\?)/.test(v.src);
     var media = v.src ? '<video controls preload="metadata" playsinline' + (v.poster ? ' poster="' + esc(v.poster) + '"' : '') + (isHls ? ' data-hls="' : ' src="') + esc(v.src) + '"></video>' :
       '<img class="seb" src="assets/seb.png" alt=""><button class="pl" id="playBtn" aria-label="Lire la transcription"></button><span class="tag">Vidéo en production · avatar de Sébastien Paumier</span><span class="hook">« ' + esc(v.hook) + ' »</span>';
@@ -332,6 +366,7 @@
       '<div id="pob" hidden><div class="box"><h3>Objectif de la capsule</h3><p style="margin:0">À la fin de cette capsule, tu sauras ' + esc(lc(c.objective)) + '.</p></div><div class="box"><h3>Ensuite</h3><p style="margin:0">Quiz flash (' + c.quiz.questions.length + ' questions), la fiche « ' + esc(c.resource.title) + ' », l’exercice « ' + esc(c.exercise.title) + ' », puis le devoir à déposer.</p></div></div>';
   };
   B.video = function (it) {
+    if (!$('ptr')) return;
     var p = $('playBtn'); if (p) p.onclick = function () { $('ptr').scrollIntoView({ behavior: 'smooth' }); $('ptr').focus({ preventScroll: true }); };
     [].forEach.call(app.querySelectorAll('[data-pt]'), function (b) { b.onclick = function () {
       [].forEach.call(app.querySelectorAll('[data-pt]'), function (x) { x.setAttribute('aria-selected', String(x === b)); });
