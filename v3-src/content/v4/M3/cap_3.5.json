@@ -1,0 +1,166 @@
+{
+  "id": "3.5",
+  "module": 3,
+  "section": "A · Construire les indicateurs du bien",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Les indicateurs de coût : budget, aides, reste à charge, retour",
+  "objective": "Calculer pour son bien fil rouge le budget de travaux par poste, les aides vérifiées (datées et sourcées), le reste à charge et un retour indicatif, avec la mention « aucun gain garanti »",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Mozi affiche : « Travaux remboursés par les aides et les économies ! » Sébastien Paumier refait les comptes de l'appartement de M. Bernard : 16 500 € de travaux privatifs, 0 € d'aide notifiée (MaPrimeRénov' par geste exclut désormais ventilation, chauffage et isolation), un retour indicatif de 19 à 27 ans sur les économies d'énergie. Pas de promesse : des chiffres datés, sourcés, et la mention « aucun gain garanti »."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi annonce à un vendeur : « Vos travaux seront remboursés par MaPrimeRénov' et les économies. » Quelle est son erreur ?",
+        "options": [
+          "Il oublie les primes CEE",
+          "Il présente des aides non vérifiées comme acquises et un retour comme garanti",
+          "Il devrait parler de crédit d'impôt"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : ajouter une aide non vérifiée aggraverait l'erreur.",
+          "Juste : une aide dépend des travaux, de la date et des revenus de celui qui les fait ; tant qu'elle n'est pas notifiée, elle vaut 0 € dans le calcul.",
+          "Faux : le problème n'est pas le nom du dispositif, c'est la promesse."
+        ],
+        "fb_title": "Aide non notifiée = 0 €",
+        "fb_text": "Tu cites les aides possibles avec leur date et leur source, tu ne les déduis que lorsqu'elles sont notifiées. Depuis le 1/09/2026, ventilation, chauffage et isolation sont sortis de MaPrimeRénov' par geste : pour M. Bernard, rien à déduire aujourd'hui."
+      },
+      {
+        "question": "Économie d'énergie estimée après travaux privatifs chez M. Bernard : 621 à 851 € par an. Budget : 16 500 €. Quel retour indicatif ?",
+        "options": [
+          "Environ 2 ans",
+          "Environ 8 ans",
+          "Environ 19 à 27 ans, sans garantie"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : ce résultat ne correspond à aucun calcul cohérent avec ces chiffres.",
+          "Faux : il faudrait plus de 2 000 € d'économie par an.",
+          "Juste : 16 500 / 851 ≈ 19 ans ; 16 500 / 621 ≈ 27 ans. Indicatif : prix de l'énergie et usage réel varient."
+        ],
+        "fb_title": "Retour simple = reste à charge ÷ économie annuelle",
+        "fb_text": "16 500 / 851 ≈ 19,4 ans ; 16 500 / 621 ≈ 26,6 ans. Ce retour est indicatif : il repose sur les coûts conventionnels du DPE, pas sur les factures. Les travaux améliorent aussi le confort et la valeur, sans gain garanti."
+      },
+      {
+        "question": "L'acquéreur des Martin demande si l'éco-prêt à taux zéro réduit le coût des travaux. Que réponds-tu ?",
+        "options": [
+          "« C'est un prêt sans intérêts, jusqu'à 50 000 € selon les travaux : il étale le paiement, il ne réduit pas le coût ; l'éligibilité se vérifie auprès de la banque »",
+          "« Oui, il rembourse 50 000 € de travaux »",
+          "« C'est une aide de l'État que je vous garantis »"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : un prêt n'est pas une aide ; il finance le reste à charge, sous conditions, avec un accord de la banque.",
+          "Faux : il se rembourse ; seuls les intérêts sont pris en charge.",
+          "Faux : tu ne garantis ni une aide ni un financement ; tu renvoies au courtier ou à la banque."
+        ],
+        "fb_title": "Un prêt finance, il ne subventionne pas",
+        "fb_text": "Dans le tableau, l'éco-PTZ va dans « financement », pas dans « aides ». Il ne baisse pas le reste à charge. Tu n'en fais jamais une promesse : la banque décide."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableur : budget par poste, aides (datées et sourcées), reste à charge, retour indicatif ; mention « aucun gain garanti »",
+    "kind": "tableur",
+    "intro": "Ce tableur calcule les indicateurs de coût du bien fil rouge : budget par poste, aides vérifiées à la date du jour, reste à charge et retour indicatif. Il sépare les aides (qui réduisent le coût) des financements (qui l'étalent). Exemple rempli : appartement de M. Bernard (devis D13 FICTIF). Parcours maison : devis M14 et audit M03 de Mme Garnier. Aucune aide n'est présentée comme acquise ; aucun gain n'est garanti.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Budget et aides : exemple rempli (M. Bernard, FICTIF, octobre 2026)",
+        "headers": ["Poste", "Budget TTC", "Aide possible (statut au 28/10/2026)", "Aide retenue", "Reste à charge"],
+        "rows": [
+          ["Fenêtres PVC (4)", "5 600 €", "À vérifier sur france-renov.gouv.fr ; CEE possibles", "0 €", "5 600 €"],
+          ["VMC + débouchage", "2 900 €", "MaPrimeRénov' par geste : ventilation exclue depuis le 1/09/2026", "0 €", "2 900 €"],
+          ["Radiateurs à inertie + thermostat", "4 800 €", "Équipement de chauffage exclu depuis le 1/09/2026", "0 €", "4 800 €"],
+          ["Chauffe-eau thermodynamique", "3 200 €", "Pompe à chaleur dédiée à l'eau chaude exclue depuis le 1/09/2026", "0 €", "3 200 €"],
+          ["Total privatifs", "16 500 €", "", "0 €", "16 500 €"],
+          ["Quote-part ITE (copropriété)", "35 880 €", "MaPrimeRénov' Copropriété demandée par le syndic, non notifiée", "0 €", "35 880 €"]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Les formules",
+        "text": "Reste à charge = budget TTC − aides notifiées. Économie annuelle indicative = coût annuel d'énergie du DPE × (énergie finale avant − après) / énergie finale avant. Retour simple = reste à charge / économie annuelle. M. Bernard : coût DPE 2 330 à 3 190 €/an ; (150 − 110) / 150 = 26,7 % ; économie 621 à 851 €/an ; retour 16 500 / 851 ≈ 19 ans à 16 500 / 621 ≈ 27 ans. Avec l'ITE : économie 1 010 à 1 382 €/an ; 52 380 / 1 382 ≈ 38 ans à 52 380 / 1 010 ≈ 52 ans."
+      },
+      {
+        "type": "list",
+        "heading": "Aides et financements : ce qu'il faut savoir (vérifié en octobre 2026)",
+        "items": [
+          "MaPrimeRénov' par geste : depuis le 1/09/2026, ventilation, équipements de chauffage, pompes à chaleur dédiées à l'eau chaude, chauffage et eau chaude solaires et isolation en sont exclus (Service-Public, mis à jour le 27/08/2026).",
+          "MaPrimeRénov' rénovation d'ampleur : réservée aux projets avec gain d'au moins deux classes, accompagnement obligatoire ; conditions de revenus du ménage qui fait les travaux.",
+          "Primes CEE : versées par des fournisseurs d'énergie selon les opérations ; montant à vérifier au cas par cas, jamais chiffré avant l'offre écrite.",
+          "Éco-prêt à taux zéro : prêt sans intérêts, jusqu'à 50 000 € selon les travaux ; c'est un financement, pas une aide ; la banque décide.",
+          "TVA à 5,5 % : déjà intégrée dans le devis TTC quand les travaux y sont éligibles ; ne pas la compter une seconde fois."
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Avant de présenter les coûts",
+        "items": [
+          "Chaque aide citée a sa source et sa date de vérification",
+          "Seules les aides notifiées sont déduites du budget",
+          "Aides et financements sont dans deux colonnes différentes",
+          "Le retour est écrit « indicatif », avec sa formule",
+          "La mention « aucun gain garanti » figure en bas de la fiche",
+          "Renvoi à France Rénov' pour l'éligibilité et au courtier ou à la banque pour le financement"
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Les travaux privatifs coûtent 16 500 €. À ce jour, je ne déduis aucune aide, parce qu'aucune n'est accordée et que plusieurs de ces postes ne sont plus éligibles depuis septembre. Les économies d'énergie estimées les rembourseraient en 19 à 27 ans environ : c'est indicatif, aucun gain n'est garanti. »"
+      }
+    ],
+    "footer": "Sources : Service-Public, actualité A18332 « MaPrimeRénov' : certains projets de travaux bientôt exclus » (mise à jour le 27/08/2026) ; France Rénov' (MaPrimeRénov' par geste) ; economie.gouv.fr (éco-PTZ ; TVA à taux réduit, 11/12/2025) ; DPE D02 (coûts annuels) et devis D13 FICTIFS. Aucun gain garanti. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Calculer les indicateurs de coût de son bien fil rouge",
+    "duration_min": 35,
+    "context": "Le vendeur de ton bien fil rouge veut savoir combien il paierait vraiment et en combien de temps les économies rembourseraient les travaux. Tu calcules le budget par poste, tu vérifies les aides à la date du jour, tu calcules le reste à charge et un retour indicatif, sans rien garantir.",
+    "materials": [
+      "Appartement : D13 devis, D07 PV d'AG, D02 DPE (coûts annuels d'énergie) ; maison : M14 devis, M03 audit, M02 DPE",
+      "Ton tableau de performance (capsule 3.3)",
+      "Sites officiels : france-renov.gouv.fr, service-public.gouv.fr",
+      "Tableur des indicateurs de coût (ressource)"
+    ],
+    "steps": [
+      "Reporte le budget TTC par poste et le total, en séparant privatif et copropriété (ou étape 1 et étape 2 pour la maison).",
+      "Pour chaque poste, vérifie les aides possibles à la date du jour et note la source et la date.",
+      "Calcule le reste à charge en ne déduisant que les aides notifiées.",
+      "Calcule l'économie annuelle indicative à partir des coûts du DPE et de l'écart d'énergie finale.",
+      "Calcule le retour simple, en fourchette, et écris la mention « aucun gain garanti ».",
+      "Liste à part les financements possibles (éco-PTZ), sans les déduire."
+    ],
+    "expected": "Pour M. Bernard. Budget : fenêtres 5 600 €, VMC 2 900 €, radiateurs 4 800 €, chauffe-eau 3 200 € = 16 500 € TTC ; quote-part ITE 35 880 € à part. Aides : MaPrimeRénov' par geste exclut ventilation, chauffage, pompe à chaleur pour l'eau chaude et isolation depuis le 1/09/2026 (Service-Public, 27/08/2026) ; fenêtres et CEE à vérifier ; MaPrimeRénov' Copropriété non notifiée ; aides retenues 0 €. Reste à charge : 16 500 € (privatifs) et 35 880 € (copropriété). Économie indicative : (150 − 110) / 150 ≈ 26,7 % de 2 330 à 3 190 € = 621 à 851 €/an. Retour simple : 16 500 / 851 ≈ 19 ans à 16 500 / 621 ≈ 27 ans. Financement : éco-PTZ possible jusqu'à 50 000 € selon les travaux, décision de la banque, non déduit. Mention « aucun gain garanti ». Pour Mme Garnier : 42 500 € (étape 1) + 35 500 € (étape 2) = 78 000 € ; aides dépendant des revenus du ménage qui fera les travaux : non chiffrées.",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Tableau des indicateurs de coût de son bien fil rouge",
+    "format": "Tableur ou PDF, 1 page",
+    "criteria": [
+      "Le budget par poste et le total sont justes, privatif et copropriété séparés",
+      "Chaque aide citée a sa source et sa date ; seules les aides notifiées sont déduites",
+      "Le reste à charge et le retour indicatif (en fourchette) sont calculés avec leur formule",
+      "Les financements sont séparés des aides",
+      "La mention « aucun gain garanti » figure"
+    ]
+  },
+  "sources": [
+    { "label": "Service-Public, « MaPrimeRénov' : certains projets de travaux bientôt exclus du dispositif » (A18332, publié le 23/02/2026, mis à jour le 27/08/2026)", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18332" },
+    { "label": "France Rénov', MaPrimeRénov' pour une rénovation par geste", "url": "https://france-renov.gouv.fr/aides/mpr" },
+    { "label": "economie.gouv.fr, L'éco-prêt à taux zéro (éco-PTZ) : jusqu'à 50 000 € selon les travaux", "url": "https://www.economie.gouv.fr/particuliers/gerer-mon-argent/emprunter-et-sassurer/leco-pret-taux-zero-eco-ptz-pouvez-vous-en-beneficier" },
+    { "label": "economie.gouv.fr, « TVA à taux réduit : pour quels travaux ? » (mis à jour le 11/12/2025)", "url": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-taux-reduit-pour-quels-travaux" },
+    { "label": "Proposition pédagogique Éco-Propriété : devis D13, coûts du DPE D02 et performances après travaux FICTIFS (Bible §3, §6)" }
+  ],
+  "open_points": [
+    "À vérifier : éligibilité des fenêtres à MaPrimeRénov' par geste et montants CEE à la date de chaque session ; date limite d'émission de l'éco-PTZ.",
+    "Règles d'aides vérifiées au 27/08/2026 : à actualiser avec la loi de finances 2027.",
+    "Retour simple calculé à partir des coûts conventionnels du DPE (prix 2021 indexés) : méthode à valider par Sébastien Paumier."
+  ]
+}
