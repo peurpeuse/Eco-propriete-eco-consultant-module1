@@ -1,0 +1,162 @@
+{
+  "id": "2.40",
+  "module": 2,
+  "section": "M · PARCOURS APPARTEMENT · Sa valeur vénale : comparaison, capitalisation, réconciliation",
+  "etape": "4 (Éco-staging)",
+  "parcours": "appartement",
+  "prio": false,
+  "ia": false,
+  "title": "Appartement : réconcilier les méthodes et conclure",
+  "objective": "Conclure en valeur vénale pour l'appartement de M. Bernard en pondérant la comparaison et la capitalisation, avec des coefficients justifiés par écrit et un contrôle de l'écart entre méthodes",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Deux méthodes, deux chiffres : 182 000 € par comparaison (milieu de la fourchette 178 000 – 186 000 €), 179 600 € par capitalisation. Sébastien Paumier montre comment contrôler l'écart, choisir les poids (70 % et 30 %) en les justifiant, puis conclure sur une valeur arrondie : 181 000 €, valeur libre, net vendeur."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Comparaison : 182 000 €. Capitalisation : 179 600 €. Poids retenus : 70 % et 30 %. Quelle valeur pondérée ?",
+        "options": [
+          "180 800 €",
+          "179 600 €",
+          "181 280 €, arrondie à 181 000 €"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : c'est la moyenne simple (50/50), pas la pondération retenue.",
+          "Faux : c'est le résultat de la seule capitalisation.",
+          "Juste : 0,7 × 182 000 + 0,3 × 179 600 = 127 400 + 53 880 = 181 280 €, arrondie au millier."
+        ],
+        "fb_title": "Chaque méthode pèse selon sa fiabilité",
+        "fb_text": "0,7 × 182 000 = 127 400 € ; 0,3 × 179 600 = 53 880 € ; total 181 280 €. On arrondit la conclusion (181 000 €) : une valeur vénale n'a pas la précision de l'euro."
+      },
+      {
+        "question": "Pourquoi donner plus de poids à la comparaison qu'à la capitalisation pour ce T4 ?",
+        "options": [
+          "Parce que la comparaison donne toujours le chiffre le plus haut",
+          "Parce que les acquéreurs de ce type de bien sont surtout des occupants et que les ventes comparables sont nombreuses et récentes",
+          "Parce que la capitalisation est interdite pour un appartement"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le poids ne dépend pas du résultat ; choisir la méthode qui arrange serait biaisé.",
+          "Juste : 6 ventes en l'état retenues, dont une dans la résidence ; la capitalisation reste un contrôle, elle ne voit pas directement les appels de fonds de l'isolation.",
+          "Faux : elle est permise et utile ; elle est simplement moins représentative ici."
+        ],
+        "fb_title": "Justifier le poids, pas le résultat",
+        "fb_text": "Le poids d'une méthode se justifie par la qualité des données et par le marché réel du bien : ici, des occupants et beaucoup de ventes comparables. On écrit cette justification avant de calculer, pas après."
+      },
+      {
+        "question": "Mozi trouve 182 000 € par comparaison et 150 000 € par capitalisation, et conclut « 166 000 €, la moyenne ». Que fais-tu à sa place ?",
+        "options": [
+          "Je contrôle l'écart (≈ 18 %), je cherche la cause (loyer, taux, base brute ou nette) avant de pondérer",
+          "Je garde la moyenne : c'est neutre",
+          "Je supprime la capitalisation sans le dire"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : un écart supérieur à 10 % signale une erreur de donnée ou de taux ; on la trouve avant de conclure.",
+          "Faux : la moyenne de deux chiffres incohérents donne un troisième chiffre faux.",
+          "Faux : écarter une méthode est possible, mais par écrit et avec la raison."
+        ],
+        "fb_title": "Un grand écart se traite, il ne se moyenne pas",
+        "fb_text": "(182 000 − 150 000) / 182 000 ≈ 18 %. Un tel écart vient souvent d'un taux pris pour une autre étiquette ou d'un loyer net comparé à un taux brut. On corrige la donnée, puis on pondère. Seuil de contrôle proposé : 10 %."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableau de pondération des méthodes pour un appartement",
+    "kind": "tableau",
+    "intro": "Ce tableau conclut l'estimation d'un appartement à partir de deux méthodes : la comparaison (capsules 2.37 et 2.38, ajustements en 2.43) et la capitalisation (capsule 2.39). Il oblige à écrire le poids de chaque méthode, à contrôler l'écart entre elles et à arrondir la conclusion. Exemple rempli : appartement de M. Bernard, chiffres FICTIFS du dossier fil rouge.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Pondération : exemple rempli",
+        "headers": ["Méthode", "Résultat", "Poids", "Justification", "Contribution"],
+        "rows": [
+          ["Comparaison (après ajustements prouvés)", "182 000 € (milieu de 178 000 – 186 000 €)", "70 %", "6 ventes en l'état retenues, dont 1 dans la résidence ; marché d'occupants", "127 400 €"],
+          ["Capitalisation", "179 600 € (11 673,60 / 6,5 %)", "30 %", "Contrôle investisseur ; loyers et taux moins nombreux ; ne voit pas directement les appels de fonds ITE", "53 880 €"],
+          ["Méthode écartée : coût de remplacement", "Non calculée", "0 %", "Lot de copropriété : la méthode sol + construction ne s'applique pas à un appartement", "—"],
+          ["Valeur pondérée", "", "100 %", "", "181 280 €"],
+          ["Conclusion arrondie", "181 000 €", "", "Valeur vénale libre, net vendeur, octobre 2026", ""]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Les calculs",
+        "text": "Valeur pondérée = Σ (résultat × poids). Écart entre méthodes = (résultat le plus haut − résultat le plus bas) / résultat le plus haut. M. Bernard : 0,7 × 182 000 + 0,3 × 179 600 = 181 280 € → 181 000 €. Écart : (182 000 − 179 600) / 182 000 ≈ 1,3 % : méthodes convergentes."
+      },
+      {
+        "type": "checklist",
+        "heading": "Contrôles avant de conclure",
+        "items": [
+          "Les poids sont écrits et justifiés avant le calcul",
+          "L'écart entre méthodes est calculé ; au-delà de 10 % (seuil proposé), la cause est cherchée et corrigée",
+          "Loyer et taux de la capitalisation sont sur la même base (brut ou net)",
+          "Toute méthode écartée l'est par écrit, avec la raison",
+          "La conclusion est arrondie (au millier) et reste dans la fourchette de la comparaison",
+          "La valeur est qualifiée : libre ou occupée, net vendeur, date"
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Repères de poids (proposition à adapter)",
+        "items": [
+          "Appartement de résidence principale, ventes nombreuses : comparaison 70 à 80 %, capitalisation 20 à 30 %.",
+          "Studio ou T2 très recherché par les investisseurs : capitalisation jusqu'à 40 à 50 %.",
+          "Peu de ventes comparables (bien atypique) : poids de la comparaison réduit, à expliquer.",
+          "Un poids de 100 % sur une seule méthode est possible, si l'autre est écartée par écrit."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire à M. Bernard",
+        "text": "« J'ai fait deux calculs indépendants. Par les ventes du secteur, votre appartement se situe autour de 182 000 €. Par le loyer qu'en tirerait un investisseur, autour de 179 600 €. Les deux se rejoignent à un peu plus de 1 % près. Je donne plus de poids aux ventes, parce que vos acheteurs seront surtout des occupants : ma conclusion est 181 000 € net vendeur, dans une fourchette de 178 000 à 186 000 €. »"
+      }
+    ],
+    "footer": "Sources : Charte de l'expertise en évaluation immobilière (méthodes par comparaison et par capitalisation, pondération et justification) ; résultats des capsules 2.37 à 2.39 et 2.43 (données FICTIVES du dossier fil rouge). Poids et seuil d'écart de 10 % : proposition pédagogique à valider. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Conclure en valeur vénale",
+    "duration_min": 25,
+    "context": "Tu as deux résultats pour l'appartement de M. Bernard : la comparaison retraitée et ajustée (178 000 – 186 000 €) et la capitalisation (179 600 €). M. Bernard lira chaque ligne. Tu choisis les poids, tu les justifies, tu contrôles l'écart et tu conclus sur une valeur arrondie.",
+    "materials": [
+      "Tes résultats des capsules 2.38 (comparaison) et 2.39 (capitalisation)",
+      "D12 Tableau des comparables (fictifs)",
+      "D07 PV d'AG du 12/06/2025 (appels de fonds de l'isolation de façade)",
+      "Tableau de pondération (ressource)"
+    ],
+    "steps": [
+      "Reporte les deux résultats : milieu de la fourchette par comparaison et valeur capitalisée.",
+      "Calcule l'écart entre les méthodes et dis s'il est sous le seuil de contrôle.",
+      "Écris le poids de chaque méthode et sa justification en une phrase.",
+      "Indique la méthode écartée (coût de remplacement) et pourquoi.",
+      "Calcule la valeur pondérée et arrondis-la au millier.",
+      "Rédige la conclusion en une phrase : valeur, nature (libre, net vendeur), fourchette, date."
+    ],
+    "expected": "Comparaison : milieu de 178 000 – 186 000 € = 182 000 €. Capitalisation : 179 600 €. Écart : (182 000 − 179 600) / 182 000 ≈ 1,3 %, sous le seuil de 10 % : méthodes convergentes. Poids : comparaison 70 % (6 ventes en l'état retenues dont une dans la résidence Les Tilleuls ; acquéreurs surtout occupants) ; capitalisation 30 % (méthode de contrôle, données de loyers moins nombreuses, ne voit pas directement les 35 880 € d'appels de fonds de l'isolation). Méthode écartée : coût de remplacement (sol + construction), inadaptée à un lot de copropriété. Calcul : 0,7 × 182 000 = 127 400 € ; 0,3 × 179 600 = 53 880 € ; total 181 280 € → 181 000 €. Conclusion : « Valeur vénale libre, net vendeur, en octobre 2026 : 181 000 €, dans une fourchette de 178 000 à 186 000 €. » Des poids différents (75/25, 80/20) sont acceptables s'ils sont justifiés : 75/25 donne 181 400 €, 80/20 donne 181 520 €, toujours ≈ 181 000 €.",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Tableau de pondération et conclusion de valeur vénale de l'appartement de M. Bernard",
+    "format": "Tableur ou PDF, 1 page",
+    "criteria": [
+      "Les deux résultats sont reportés et l'écart entre méthodes est calculé",
+      "Chaque poids est justifié par écrit ; la méthode écartée l'est aussi",
+      "La valeur pondérée est juste et arrondie au millier",
+      "La conclusion précise : libre, net vendeur, fourchette, date",
+      "Aucun chiffre n'est présenté comme un prix de vente garanti"
+    ]
+  },
+  "sources": [
+    { "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : méthodes d'évaluation, choix et justification ; à vérifier : lien officiel de la 6e édition", "url": "https://charteexpertiseimmo.org" },
+    { "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (appels de fonds exigibles et mutation d'un lot)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265" },
+    { "label": "Proposition pédagogique Éco-Propriété : pondération 70/30, seuil d'écart de 10 %, résultats FICTIFS du dossier fil rouge (Bible §4 et §5)" }
+  ],
+  "open_points": [
+    "Repères de poids (70-80 % / 20-30 %) et seuil de contrôle de 10 % : proposition pédagogique à valider par Sébastien Paumier.",
+    "Conclusion 181 000 € : chiffre dérivé (non présent dans la Bible), à faire valider et à ajouter à la Bible §5 pour cohérence avec la suite (prix de présentation et mandat au module 3).",
+    "À vérifier : lien officiel de la 6e édition de la Charte de l'expertise en évaluation immobilière."
+  ]
+}

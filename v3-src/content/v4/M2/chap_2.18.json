@@ -1,0 +1,342 @@
+{
+  "id": "2.18",
+  "module": 2,
+  "title": "Audit 360° : relever les six postes",
+  "capsule_title": "Audit 360° : relever les six postes",
+  "duration": "4:30",
+  "objective": "Relever en visite ou sur photos les six postes d'un logement (murs, planchers bas, toiture, menuiseries, ventilation, chauffage et eau chaude), leur âge, leur état et leur impact sur le DPE et le confort",
+  "mozi": {
+    "line": "Fenêtres neuves, grilles scotchées : adieu les courants d'air !",
+    "scene": "Fenêtres neuves posées, Mozi recouvre de ruban adhésif toutes les grilles d'aération et la bouche de la salle de bains de M. Bernard, puis allume une bougie pour vérifier que la flamme ne bouge plus. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 2.18 : relever les six postes",
+      "voice": "Bienvenue. En dix minutes de visite, tu vas relever les six postes d'un logement, et savoir quoi en dire.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "ce que chaque poste pèse dans le DPE et le confort"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "relever les six postes de l'appartement de M. Bernard, sur photos"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ta trame des six postes en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Fenêtres neuves, grilles scotchées : adieu les courants d'air !",
+      "voice": "Fenêtres neuves, grilles scotchées : adieu les courants d'air !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Fenêtres neuves, grilles scotchées : adieu les courants d'air !",
+      "scene": "Mozi scotche toutes les grilles d'aération et la bouche de la salle de bains, puis vérifie avec une bougie que la flamme ne bouge plus."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "Fenêtres neuves, grilles scotchées, zéro courant d'air",
+      "voice": "Des fenêtres neuves. Des grilles scotchées. Zéro courant d'air.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "Fenêtres neuves",
+        "Grilles scotchées",
+        "« Zéro courant d'air »"
+      ],
+      "wrong": 1,
+      "why": "Sans grilles d'aération, l'air humide reste : les moisissures arrivent."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "L'humidité reste. Les moisissures gagnent.",
+      "voice": "Plus rien ne sort. L'air humide reste, il condense sur les parois froides, et les moisissures gagnent la salle de bains. Un logement plus étanche a besoin d'une ventilation qui marche.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "L'air humide ne sort plus.",
+        "Les moisissures gagnent la salle de bains."
+      ],
+      "source": "ADEME, « Tout savoir sur l'isolation » (isolation associée à une ventilation efficace) ; formation Audit énergétique Éco-Propriété (ventilation, menuiseries)"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "75 % : la part du chauffage",
+      "voice": "Soixante-quinze pour cent. C'est la part du chauffage dans la consommation de M. Bernard : 112 sur 150. Six convecteurs de 1998 font l'essentiel de son DPE.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Quelle part de la consommation de M. Bernard vient du chauffage ?",
+        "answer": 75,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": " %"
+      },
+      "value": "≈ 75 %",
+      "label": "de la consommation de M. Bernard vient du chauffage : calcul sur son DPE (112 sur 150 kWhEF/m²/an)",
+      "source": "Calcul sur le DPE du 14/03/2023 (D02, fil rouge fictif, pas une statistique) : 112 / 150 ≈ 74,7 %"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Chauffage et eau chaude → Ventilation et menuiseries → Murs, plancher, toiture",
+      "voice": "Six postes, en trois arrêts. Un : chauffage et eau chaude. Six convecteurs de 1998, sans programmation : radiateurs à inertie avec thermostat, 4 800 euros. Le ballon de 2011 : chauffe-eau thermodynamique, 3 200 euros. Deux : ventilation et menuiseries, toujours ensemble. Une feuille de papier devant la bouche de la salle de bains : elle ne colle pas. VMC et débouchage, 2 900 euros, mais le conduit est commun : on passe par le syndic. Les quatre fenêtres en simple vitrage : 5 600 euros, avec des entrées d'air. Trois : murs, plancher bas, toiture. Ici, plancher et plafond donnent sur des voisins chauffés. Les murs : l'isolation par l'extérieur est votée pour 2027, pas d'isolation intérieure. Chez Mme Garnier, ces trois postes sont tous à traiter.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "CCH, art. L. 111-1, 17° bis (les six postes de travaux de rénovation énergétique) ; bible du fil rouge (équipements, devis D13, PV d'AG D07, maison de Mme Garnier §11.2, fictifs) ; ADEME, « Tout savoir sur l'isolation » ; loi n° 65-557 du 10/07/1965, art. 25 b",
+      "steps": [
+        {
+          "label": "Chauffage et eau chaude",
+          "detail": "Convecteurs 1998 → radiateurs à inertie, 4 800 € ; ballon 2011 → chauffe-eau thermodynamique, 3 200 €."
+        },
+        {
+          "label": "Ventilation et menuiseries",
+          "detail": "VMC + débouchage, 2 900 € (conduit commun : syndic) ; 4 fenêtres, 5 600 €, avec entrées d'air."
+        },
+        {
+          "label": "Murs, plancher bas, toiture",
+          "detail": "Plancher et plafond sur logements chauffés ; murs : ITE votée pour 2027, pas d'isolation intérieure."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Un acquéreur interroge Claire sur la VMC. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "En visite chez M. Bernard, un acquéreur demande à Claire : « On peut brancher une VMC sur le conduit de la salle de bains ? » Que répond-elle ?",
+      "model_answer": "Le conduit est collectif : c'est une partie commune. La solution se valide avec le syndic et un professionnel, pour ne pas gêner le tirage des voisins. Le devis de 2 900 € prévoit une VMC hygroréglable et le débouchage du conduit.",
+      "keywords": [
+        "partie commune",
+        "syndic",
+        "professionnel",
+        "2 900 €"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "ADEME, « Tout savoir sur l'isolation » (isolation et ventilation) ; bible du fil rouge (ITE votée le 12/06/2025, démarrage avril 2027)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Un logement plus étanche doit garder des entrées d'air et une extraction qui fonctionne",
+          "Plus un logement est étanche, moins il a besoin d'être ventilé",
+          "Aucune : les grilles d'aération deviennent facultatives avec des fenêtres neuves"
+        ],
+        "answer": 0,
+        "feedback": "Plus le logement est étanche, plus il faut évacuer l'humidité. Les nouvelles fenêtres gardent des entrées d'air, sauf ventilation double flux, et l'extraction de la salle de bains doit fonctionner.",
+        "whys": [
+          "Exact : étanchéité et ventilation vont ensemble. Chez M. Bernard, l'extraction est déjà insuffisante.",
+          "Faux : c'est l'inverse. Moins l'air fuit, plus la ventilation doit faire son travail.",
+          "Faux : sans entrée d'air, l'extraction ne tire plus rien et l'humidité s'installe."
+        ]
+      },
+      "card2": {
+        "question": "Si Hugo proposait d'isoler les murs de M. Bernard par l'intérieur, que se passerait-il ?",
+        "answer": "Il doublerait des travaux déjà votés : l'isolation par l'extérieur démarre en avril 2027. M. Bernard perdrait de la surface habitable pour un gain limité, et on paierait deux fois pour isoler les mêmes murs : lui à l'intérieur, la copropriété à l'extérieur."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux gestes, un seul but",
+      "voice": "Deux gestes, un seul but : remplacer l'inquiétude par un budget. La trame des six postes, puis le tableau d'impact.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource « Trame de relevé des six postes » de la capsule 2.18 ; CCH, art. L. 111-1, 17° bis",
+      "goal": "Remplacer l'inquiétude par un budget",
+      "tools": [
+        {
+          "name": "Trame des six postes (plan D04)",
+          "role": "Relever chaque poste, son âge et son état, sur place ou sur photos"
+        },
+        {
+          "name": "Tableau d'impact (D02, D13)",
+          "role": "Relier chaque poste au DPE, à une solution et à un prix"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "La trame : une photo, une ligne",
+      "voice": "Plan en main. Cuisine : la plaque du ballon, la bouche. Salle de bains : la feuille de papier, les angles. Chambres : le reflet de la vitre, les joints, l'étiquette du convecteur. Puis le séjour et les murs. À chaque poste : une photo, une ligne.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Trame de relevé des six postes » de la capsule 2.18 ; test du reflet et de la feuille de papier : à valider par un technicien",
+      "tool": "Trame des six postes (plan D04)",
+      "steps": [
+        "Cuisine : plaque du ballon (année, litres), bouche d'extraction",
+        "Salle de bains : feuille de papier devant la bouche, angles du plafond",
+        "Chambres : reflet de la vitre, joints, étiquette du convecteur",
+        "Séjour et murs : balcon, façade, grilles d'air, voisins dessus et dessous"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "Le tableau : équipement, impact, solution",
+      "voice": "Puis le tableau. Pour chaque poste : l'équipement, l'année, l'impact sur le DPE, la solution. Total des devis : 16 500 euros. Estimation à faire confirmer par un diagnostiqueur : classe D après ces travaux, puis C avec l'isolation de la façade.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (devis D13 et estimations de performance fictifs, à confirmer par un diagnostiqueur) : 110 × 1,9 ≈ 209 → D ; 85 × 1,9 ≈ 162 → C",
+      "tool": "Tableau d'impact (D02, D13)",
+      "steps": [
+        "Une ligne par poste : équipement, année, état",
+        "Relier au DPE : chauffage 112, eau chaude 26 kWhEF/m²/an",
+        "Solutions D13 : 4 800 + 3 200 + 2 900 + 5 600 = 16 500 €",
+        "Estimation fictive à confirmer : D (209), puis C (162) avec l'ITE"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Identifie les équipements sur les photos maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 2.18 : identifier les équipements sur photos et leur impact (reportage D05) ; pas d'outil en ligne officiel",
+      "cta": "Ouvrir l'exercice : photos",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ta trame des six postes.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.18 : trame des six postes de l'appartement de M. Bernard",
+      "ask": "Dépose une capture de ta trame remplie : les six postes, l'équipement identifié sur chaque photo, son impact sur le DPE et le confort, et le total de 16 500 €.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Les photos de M. Bernard t'attendent : reviens déposer ta trame quand elle est remplie."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Tu as regardé cet appartement comme un technicien, pas comme un vendeur pressé.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta trame : 6 postes, 4 devis, 16 500 € justifiés. Mozi : un rouleau de ruban adhésif.",
+      "source": "Fait observable : le livrable de la capsule 2.18 (6 postes, total D13 de 16 500 €)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Code de la construction et de l'habitation, art. L. 111-1, 17° bis (rénovation énergétique performante : les six postes de travaux, isolation des murs, des planchers bas, de la toiture, menuiseries extérieures, ventilation, production de chauffage et d'eau chaude sanitaire)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043976954"
+    },
+    {
+      "label": "ADEME, Tout savoir sur l'isolation (isolation associée à une ventilation efficace, simple vitrage)",
+      "url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/renover/tout-savoir-isolation"
+    },
+    {
+      "label": "Loi n° 65-557 du 10/07/1965 (art. 25 b : travaux affectant les parties communes ou l'aspect extérieur)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068256/"
+    },
+    {
+      "label": "Ministère de la Transition écologique, Guide pour les diagnostiqueurs DPE (performances Uw, recommandations menuiseries)",
+      "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_pour_les_diagnostiqueurs_DPE.pdf"
+    },
+    {
+      "label": "Formation Audit énergétique Éco-Propriété (systèmes, chauffage, ECS, ventilation, menuiseries) — contenus internes vérifiés",
+      "url": "https://eco-propriete.fr"
+    },
+    {
+      "label": "Bible du fil rouge (équipements, D02, D07, D13 et estimations de performance fictifs ; maison de Mme Garnier §11.2)",
+      "url": null
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Plan v4 : « six postes » interprétés comme les six postes de travaux de l'art. L. 111-1, 17° bis du CCH (murs, planchers bas, toiture, menuiseries, ventilation, chauffage et eau chaude) ; à confirmer avec Sébastien Paumier et à aligner avec la ressource « Trame de relevé des six postes »",
+    "Écran 7 : le texte de l'art. L. 111-1, 17° bis a été lu en extrait (Légifrance, via un moteur de recherche) ; vérifier la version en vigueur avant tournage",
+    "À valider par un technicien : raccordement d'une VMC individuelle sur un conduit shunt ; test du reflet pour distinguer simple et double vitrage ; test de la feuille de papier",
+    "Écran 12 : classes D (209) et C (162) après travaux = estimations fictives du fil rouge, à présenter comme « à confirmer par un diagnostiqueur » ; aucun pourcentage d'économie annoncé",
+    "Exercice : les photos du reportage D05 doivent montrer chacun des six postes (plaque du ballon, bouche, fenêtres, convecteur, façade)",
+    "Relecture juridique : art. 25 b de la loi de 1965 et statut privatif ou commun des fenêtres selon le règlement",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

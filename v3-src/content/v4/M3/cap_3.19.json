@@ -1,0 +1,275 @@
+{
+  "id": "3.19",
+  "module": 3,
+  "section": "D · Les chiffres devant le vendeur",
+  "etape": "7",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Présenter et défendre son prix avec ses chiffres",
+  "objective": "Présenter au vendeur un prix en fourchette puis une recommandation, en donnant pour chaque chiffre sa source, sa date et sa limite",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Deux agences ont dit 172 000 €, M. Bernard espère 205 000 €. Mozi, en blazer violet, lui lance « 205 000 €, je vous le garantis ». Sébastien Paumier montre l'inverse : les preuves d'abord, une fourchette de 178 000 à 186 000 € net, puis une recommandation à 180 000 € net, soit 189 000 € honoraires inclus. Chaque chiffre arrive avec sa source, sa date et sa limite."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Rendez-vous de restitution avec M. Bernard. À quel moment annonces-tu le prix ?",
+        "options": [
+          "Dès l'ouverture, pour capter son attention",
+          "Après l'étiquette, la valeur et la stratégie, quand les preuves sont posées",
+          "Seulement après la signature du mandat"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : sans preuves, ton prix devient un chiffre de plus face aux 172 000 € des autres agences.",
+          "Juste : le prix découle des preuves que le vendeur vient de voir ; c'est le 5e temps de la trame.",
+          "Faux : le prix figure dans le mandat, il se discute donc avant la signature."
+        ],
+        "fb_title": "Le prix en 5e position",
+        "fb_text": "Ordre du jour et projet, étiquette en vigueur, valeur, stratégie, puis prix, engagements et étape datée. Quand le prix arrive, M. Bernard a déjà vu les ventes, l'attestation et les devis."
+      },
+      {
+        "question": "Mozi a dit à M. Bernard : « 205 000 €, je vous le garantis, signez chez moi. » Quelle est son erreur principale ?",
+        "options": [
+          "Il annonce le prix trop tard dans le rendez-vous",
+          "Il oublie de préciser que le prix est honoraires inclus",
+          "Il promet un prix de vente, sans preuve, pour gagner le mandat"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : le moment n'est pas le problème ; le chiffre lui-même n'est appuyé sur rien.",
+          "C'est une imprécision, mais l'erreur de fond est ailleurs : la promesse.",
+          "Juste : 205 000 € dépasse les comparables en l'état et aucun professionnel ne peut garantir un prix de vente."
+        ],
+        "fb_title": "Recommander, jamais promettre",
+        "fb_text": "205 000 / 76 ≈ 2 697 €/m², au-dessus des 2 650 €/m² des ventes comparables en l'état (D12), sans tenir compte des fenêtres, de la VMC ni des appels de fonds de l'ITE. Tu recommandes un prix de présentation ; le prix de vente se formera avec les offres, que le vendeur acceptera ou non."
+      },
+      {
+        "question": "Quelle phrase présente correctement la limite du chiffre 2 650 €/m² ?",
+        "options": [
+          "« 2 650 €/m², c'est la moyenne des ventes comparables en l'état 2025-2026 (D12) : des ventes passées, pas une garantie. »",
+          "« 2 650 €/m², c'est la valeur officielle de votre quartier. »",
+          "« 2 650 €/m², c'est le prix minimum que vous obtiendrez. »"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : source (D12), période (2025-2026) et limite (ventes passées, pas une garantie) sont données.",
+          "Faux : il n'existe pas de « valeur officielle » d'un quartier ; c'est une moyenne d'échantillon.",
+          "Faux : c'est une promesse de prix plancher que rien ne permet de tenir."
+        ],
+        "fb_title": "Source, date, limite",
+        "fb_text": "Un chiffre défendable tient en trois mots : d'où il vient, de quand il date, ce qu'il ne dit pas. Pour M. Bernard, profil C, la limite annoncée renforce la confiance au lieu de l'affaiblir."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Trame de RDV de restitution (fourchette, source, date et limite de chaque chiffre)",
+    "kind": "trame",
+    "intro": "Cette trame structure ton rendez-vous de restitution (45 à 60 minutes). Les preuves passent avant le chiffre, le prix est donné en fourchette puis en recommandation, et chaque chiffre est accompagné de sa source, de sa date et de sa limite. Envoie le dossier au vendeur 48 h avant. Exemple : M. Bernard, dossier fil rouge fictif.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les 7 temps du rendez-vous",
+        "headers": [
+          "Temps",
+          "Durée",
+          "Contenu",
+          "Pièce montrée"
+        ],
+        "rows": [
+          [
+            "1. Ordre du jour et projet",
+            "5 min",
+            "Objectif, durée, rappel du projet et de l'échéance (avant l'été 2027)",
+            "D01"
+          ],
+          [
+            "2. Étiquette en vigueur",
+            "5 min",
+            "Attestation actualisée classe E, validité jusqu'au 13/03/2033",
+            "D02, D03"
+          ],
+          [
+            "3. Valeur",
+            "10 min",
+            "Comparables, base, ajustements, fourchette",
+            "D12, D13, D07"
+          ],
+          [
+            "4. Stratégie",
+            "10 min",
+            "Vente en l'état, plan Éco-staging, pièces remises aux acheteurs",
+            "Grille d'arbitrage, plan Éco-staging"
+          ],
+          [
+            "5. Prix",
+            "5 min",
+            "Fourchette, recommandation, net vendeur, honoraires, prix affiché",
+            "Calcul écrit"
+          ],
+          [
+            "6. Engagements et mandat",
+            "10 min",
+            "Engagements écrits, clause d'exclusivité lue ensemble",
+            "D18"
+          ],
+          [
+            "7. Questions et étape datée",
+            "5-15 min",
+            "Réponses, date de décision convenue",
+            "Récapitulatif écrit"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Chaque chiffre : source, date, limite",
+        "headers": [
+          "Chiffre",
+          "Source",
+          "Date",
+          "Limite à dire"
+        ],
+        "rows": [
+          [
+            "Classe E",
+            "Attestation actualisée ADEME (D03)",
+            "Valable jusqu'au 13/03/2033",
+            "Méthode conventionnelle : ne mesure pas la facture réelle"
+          ],
+          [
+            "2 650 €/m² en l'état",
+            "Tableau des comparables (D12)",
+            "Ventes 2025-2026",
+            "Ventes passées, échantillon du secteur : pas une garantie"
+          ],
+          [
+            "16 500 € de travaux",
+            "Devis des travaux privatifs (D13)",
+            "Date du devis à reporter",
+            "Prix indicatifs, à valider localement"
+          ],
+          [
+            "35 880 € d'ITE pour le lot",
+            "PV d'AG du 12/06/2025 (D07)",
+            "4 appels en 2027",
+            "Aide MaPrimeRénov' Copropriété demandée, non notifiée : ne pas la chiffrer"
+          ],
+          [
+            "178 000 – 186 000 € net",
+            "Calcul ci-dessous",
+            "Octobre 2026",
+            "Fourchette d'estimation, pas un prix de vente"
+          ]
+        ]
+      },
+      {
+        "type": "formula",
+        "heading": "Le calcul à montrer",
+        "text": "Base = 76 m² × 2 650 €/m² = 201 400 €. Ajustements (fenêtres simple vitrage et absence de VMC, D13 ; appels de fonds ITE à venir, D07) → fourchette 178 000 – 186 000 € net vendeur. Recommandation : 180 000 € net + 9 000 € TTC d'honoraires (5 %, à la charge de l'acquéreur) = 189 000 € honoraires inclus, soit ≈ 2 487 €/m² affiché et ≈ 2 368 €/m² net. Haut de fourchette : 186 000 € × 1,05 = 195 300 € honoraires inclus."
+      },
+      {
+        "type": "table",
+        "heading": "Expliquer les autres chiffres sans dénigrer",
+        "headers": [
+          "Chiffre entendu",
+          "D'où il vient",
+          "Ta phrase"
+        ],
+        "rows": [
+          [
+            "172 000 €",
+            "201 400 × 0,85 ≈ 171 190 € : décote forfaitaire de 15 % liée au F de 2023",
+            "« Votre étiquette en vigueur est E. Je préfère ajuster poste par poste, pièce à l'appui. »"
+          ],
+          [
+            "205 000 €",
+            "≈ 2 697 €/m², au-dessus des comparables en l'état, sans défauts ni appels ITE",
+            "« Ce prix correspond à un bien sans travaux ni appels de fonds. Regardons les ventes ensemble. »"
+          ]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Phrases clés",
+        "items": [
+          "« Avant de parler prix, regardons ce que disent les ventes réelles. »",
+          "« La fourchette va de 178 000 à 186 000 € net ; je vous recommande 180 000 €, et voici pourquoi. »",
+          "« Vous recevez 180 000 € ; l'acheteur voit 189 000 € honoraires inclus. »",
+          "« C'est une recommandation : le prix de vente se formera avec les offres, et c'est vous qui les accepterez. »",
+          "« Prenez le temps de relire. Pouvons-nous convenir d'une réponse le jeudi 5 novembre ? »"
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "À ne jamais faire",
+        "items": [
+          "Annoncer le prix avant les preuves",
+          "Aligner ton prix sur l'espoir du vendeur pour gagner le mandat",
+          "Citer des annonces en cours comme références de prix",
+          "Confondre net vendeur et prix honoraires inclus",
+          "Promettre un prix de vente ou un délai",
+          "Dénigrer les confrères"
+        ]
+      }
+    ],
+    "footer": "Données du fil rouge fictives (marché inspiré de DVF, présenté comme exemple). Mandat : rémunération et partie qui la paie précisées (décret n° 72-678, art. 73, Légifrance). Attestation actualisée : observatoire DPE-Audit de l'ADEME. Trame : proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Support de restitution : fourchette, sources et limites",
+    "duration_min": 40,
+    "context": "Le rendez-vous de restitution avec M. Bernard a lieu le jeudi 29 octobre 2026 à 10 h, chez lui. Il a reçu le dossier le 27. Tu prépares le support que tu poseras sur la table ou montreras sur une tablette : 7 slides maximum, une par temps de la trame, avec pour chaque chiffre sa source, sa date et sa limite.",
+    "materials": [
+      "D01 Fiche découverte vendeur",
+      "D03 Attestation actualisée ADEME",
+      "D07 PV d'AG du 12/06/2025",
+      "D12 Tableau des comparables",
+      "D13 Devis des travaux privatifs",
+      "D18 Modèle de mandat exclusif"
+    ],
+    "steps": [
+      "Slide 1 : ordre du jour et projet de M. Bernard (échéance, motivation).",
+      "Slide 2 : étiquette en vigueur (classe E, validité) et, en une phrase, le changement de coefficient électricité.",
+      "Slide 3 : la valeur : base, ajustements reliés aux pièces, fourchette en net vendeur.",
+      "Slide 4 : la stratégie (vente en l'état, Éco-staging ≈ 450 €, pièces remises aux acheteurs).",
+      "Slide 5 : la recommandation de prix (net, honoraires, prix affiché) et, sous chaque chiffre, une ligne « source · date · limite ».",
+      "Slides 6 et 7 : engagements et clause d'exclusivité à lire ensemble, puis récapitulatif et date de décision proposée."
+    ],
+    "expected": "Slide 2 : « Étiquette en vigueur : E (attestation ADEME, valable jusqu'au 13/03/2033). Le F de 2023 était calculé avec un coefficient électricité de 2,3, qui vaut 1,9 depuis le 1/01/2026. Limite : méthode conventionnelle. » Slide 3 : « 76 m² × 2 650 €/m² (D12, ventes 2025-2026) = 201 400 € ; ajustements : fenêtres et VMC (D13), appels ITE (D07) → 178 000 – 186 000 € net. Limite : estimation, pas un prix de vente. » Slide 5 : « Je recommande 180 000 € net + 9 000 € TTC d'honoraires (5 %, à la charge de l'acquéreur) = 189 000 € honoraires inclus. » Sous chaque chiffre : « Source : D12 · 2025-2026 · ventes passées » ; « Source : D13 · date du devis · prix indicatifs » ; « Source : D07 · AG du 12/06/2025 · aide non notifiée, non chiffrée ». Slide 7 : « Votre réponse le jeudi 5 novembre ; je vous laisse le dossier. » Aucune slide ne promet un prix de vente, un délai ou une classe future."
+  },
+  "deliverable": {
+    "title": "Support de restitution pour M. Bernard",
+    "format": "PDF, 7 slides maximum",
+    "criteria": [
+      "Les 7 temps de la trame sont présents et le prix n'apparaît qu'à partir de la slide 5",
+      "Le prix est d'abord donné en fourchette (178 000 – 186 000 € net), puis en recommandation (180 000 € net, 189 000 € honoraires inclus)",
+      "Chaque chiffre affiché porte sa source (code de pièce), sa date et sa limite",
+      "Le calcul 76 × 2 650 = 201 400 € est exact et chaque ajustement est relié à une pièce (D07, D12 ou D13)",
+      "Aucune promesse de prix de vente, de délai ou de classe, aucun dénigrement des autres agences",
+      "La dernière slide propose une étape datée, sans demander la signature le jour même"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972, art. 73 (rémunération précisée dans le mandat et partie qui la paie), version en vigueur depuis le 20/10/2016",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033261932"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — trame de restitution en 7 temps ; chiffres du fil rouge fictifs (BIBLE §3, §5, §6, §7)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier la colonne « limite à dire » du tableau source / date / limite.",
+    "Le détail chiffré de chaque ajustement entre 201 400 € et la fourchette n'existe pas dans le dossier fil rouge : à fixer avec Sébastien Paumier si on veut l'afficher (sinon rester sur « ajustements » + pièces, cohérence avec la capsule d'estimation du module 2).",
+    "Dater le devis D13 dans le dossier fil rouge.",
+    "Chapitre interactif à adapter depuis l'ancien chap_3.5 (numéros et renvois à mettre à jour)."
+  ]
+}

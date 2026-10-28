@@ -1,0 +1,153 @@
+{
+  "id": "1.15",
+  "module": 1,
+  "section": "F · Je crée ma promesse et mon pitch",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Son elevator pitch",
+  "objective": "Enregistrer un elevator pitch de 30 secondes en 5 temps, centré sur le problème du vendeur et terminé par une seule proposition datée",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Un voisin demande à l'apprenant, devant l'ascenseur : « Et toi, tu fais quoi exactement ? » Trente secondes, environ 75 mots. Sébastien Paumier donne une trame en 5 temps (qui j'aide, leur problème, ce que je fais, une preuve, une invitation), la démontre en version agent de Melun, puis montre comment la raccourcir et la tester chronomètre en main."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "À voix haute, on parle à environ 150 mots par minute. Combien de mots pour un pitch de 30 secondes ?",
+        "options": [
+          "Environ 30 mots",
+          "Environ 150 mots",
+          "Environ 75 mots"
+        ],
+        "answer": 2,
+        "whys": [
+          "Trop court : 30 mots tiennent en 12 secondes environ ; tu n'aurais pas le temps de donner une preuve et une invitation.",
+          "150 mots, c'est une minute entière : tu doubles le temps disponible et ton interlocuteur décroche.",
+          "Juste : 150 mots par minute × 0,5 minute = 75 mots. Au-delà, tu coupes."
+        ],
+        "fb_title": "30 secondes, 75 mots",
+        "fb_text": "Le repère de 150 mots par minute est celui utilisé pour les voix de la formation. Écris ton pitch, compte les mots, puis chronomètre-toi : si tu dépasses 30 secondes, c'est souvent la phrase sur ton agence qui doit partir."
+      },
+      {
+        "question": "Par quoi commence un bon elevator pitch d'éco-consultant ?",
+        "options": [
+          "Par les personnes que tu aides et leur problème",
+          "Par l'ancienneté et la taille de ton agence",
+          "Par ton taux d'honoraires"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : l'interlocuteur se reconnaît ou reconnaît quelqu'un de son entourage, et il écoute la suite.",
+          "C'est ce que disent toutes les agences : rien de distinctif, et ça parle de toi, pas de lui.",
+          "Les honoraires ont leur place dans l'offre écrite, pas dans les 30 premières secondes."
+        ],
+        "fb_title": "Lui d'abord, toi ensuite",
+        "fb_text": "« J'aide les propriétaires qui vendent un logement ancien et à qui on a annoncé une décote à cause de leur DPE » : en une phrase, la cible et son problème. Ta méthode et ta preuve viennent ensuite."
+      },
+      {
+        "question": "Ton pitch se termine. Quelle fin est la plus solide ?",
+        "options": [
+          "« N'hésitez pas si un jour vous avez besoin. »",
+          "« Si vous connaissez quelqu'un dans ce cas, je lui propose un rendez-vous de 30 minutes pour vérifier son DPE ensemble. »",
+          "« Signez avec moi, vous ne le regretterez pas. »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Trop vague : sans proposition concrète, personne ne revient vers toi.",
+          "Juste : une seule étape, utile, limitée dans le temps, que l'autre peut relayer sans effort.",
+          "Pression et promesse : l'inverse de la posture d'éco-consultant."
+        ],
+        "fb_title": "Une invitation concrète",
+        "fb_text": "La fin d'un pitch propose une seule étape simple : un rendez-vous court, une vérification, une carte avec un QR code. Elle peut viser la personne en face ou quelqu'un de son entourage."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Trame d'elevator pitch",
+    "kind": "trame",
+    "intro": "La trame en 5 temps pour présenter ton métier en 30 secondes, dans un ascenseur, à un repas ou à un salon. Ce n'est pas un texte à réciter : l'ordre reste, les mots s'adaptent à la personne en face.",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "Les 5 temps (≈ 75 mots)",
+        "items": [
+          "Qui j'aide (≈ 5 s) : la cible, en mots simples.",
+          "Leur problème (≈ 7 s) : ce qu'ils vivent, avec leurs mots.",
+          "Ce que je fais (≈ 8 s) : deux ou trois verbes vérifiables tirés de ta promesse (capsule 1.11).",
+          "Une preuve (≈ 5 s) : un exemple concret ou une pièce, jamais un chiffre promis.",
+          "Une invitation (≈ 5 s) : une seule étape simple, que la personne peut aussi relayer."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Exemple rempli : agent à Melun (≈ 70 mots)",
+        "text": "« J'aide les propriétaires de Melun qui vendent un logement ancien. Beaucoup ont entendu qu'ils perdraient 15 ou 25 % à cause de leur DPE. Moi, je vérifie d'abord l'étiquette à jour, je pars des ventes réelles du quartier et je chiffre les travaux par devis. Le mois dernier, un appartement classé F est passé en E avec une simple attestation gratuite. Si vous connaissez quelqu'un dans ce cas, je lui propose trente minutes pour vérifier son DPE ensemble. »"
+      },
+      {
+        "type": "table",
+        "heading": "Version floue ou version claire",
+        "headers": ["À éviter", "À dire"],
+        "rows": [
+          ["« Je suis agent immobilier passionné. »", "« J'aide les propriétaires qui vendent un logement ancien. »"],
+          ["« On a le meilleur réseau. »", "« Je vérifie l'étiquette à jour avant de parler prix. »"],
+          ["« Je vous la vends plus cher. »", "« Je pars des ventes réelles et je chiffre les travaux. »"],
+          ["« N'hésitez pas. »", "« Je lui propose trente minutes pour vérifier son DPE. »"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Tester son pitch",
+        "items": [
+          "Compter les mots : 75 au maximum.",
+          "Se chronométrer : 30 secondes au maximum, sans accélérer.",
+          "Le dire à 3 personnes et leur demander : « Qu'est-ce que je fais ? » Leur réponse doit ressembler à ta phrase 3.",
+          "Vérifier qu'il ne contient ni promesse de prix, ni classe garantie, ni aide acquise.",
+          "S'enregistrer en vidéo, se réécouter, couper ce qui ne sert pas."
+        ]
+      }
+    ],
+    "footer": "Repère de débit : 150 mots par minute (gabarit des chapitres de la formation). Exemple : fil rouge fictif (attestation actualisée ADEME, BIBLE §3). Trame : proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Enregistrer son elevator pitch de 30 secondes",
+    "duration_min": 25,
+    "context": "Un voisin, un commerçant ou un notaire te demande ce que tu fais. Tu as 30 secondes. Tu écris ton pitch en 5 temps à partir de ta promesse (capsule 1.11) et de ta cible (capsule 1.10), puis tu l'enregistres en vidéo.",
+    "materials": [
+      "Trame d'elevator pitch (ressource)",
+      "Ta promesse en 3 phrases (capsule 1.11)",
+      "Tes offres ciblées (capsule 1.10)",
+      "Un téléphone pour filmer"
+    ],
+    "steps": [
+      "Écris une phrase par temps (qui j'aide, problème, ce que je fais, preuve, invitation).",
+      "Compte les mots et coupe jusqu'à 75 au maximum.",
+      "Dis-le à voix haute trois fois, sans le lire, chronomètre en main.",
+      "Teste-le sur une personne et note ce qu'elle a retenu.",
+      "Ajuste, puis enregistre-toi en vidéo, face caméra, en une seule prise de 30 secondes maximum."
+    ],
+    "expected": "Pitch attendu : 5 temps reconnaissables, 60 à 75 mots, 30 secondes ou moins. Exemple : « J'aide les propriétaires de Melun qui vendent un logement ancien. Beaucoup ont entendu qu'ils perdraient 15 ou 25 % à cause de leur DPE. Moi, je vérifie l'étiquette à jour, je pars des ventes réelles du quartier et je chiffre les travaux par devis. Un appartement classé F est passé en E avec une attestation gratuite. Si vous connaissez quelqu'un dans ce cas, je lui propose trente minutes pour vérifier son DPE. » Le regard est caméra, le ton naturel, sans lecture visible, et la fin propose une seule étape."
+  },
+  "deliverable": {
+    "title": "Mon elevator pitch filmé",
+    "format": "Vidéo MP4 de 30 secondes maximum + texte du pitch (avec le nombre de mots)",
+    "criteria": [
+      "Les 5 temps sont présents dans l'ordre",
+      "75 mots au maximum et 30 secondes au maximum",
+      "Le pitch commence par la cible et son problème, pas par l'agence",
+      "Aucune promesse de prix, de classe, de délai ou d'aide",
+      "Une seule invitation concrète à la fin"
+    ]
+  },
+  "sources": [
+    { "label": "Gabarit des chapitres Éco-Consultant — repère de débit de voix de 150 mots par minute", "url": "https://eco-propriete.fr" },
+    { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
+    { "label": "Proposition pédagogique Éco-Propriété — trame d'elevator pitch en 5 temps", "url": "https://eco-propriete.fr" }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier la trame en 5 temps et son articulation avec le pitch d'une minute de l'ancienne capsule 1.7.",
+    "L'exemple « un appartement classé F est passé en E » doit être présenté comme un exemple fictif dans la vidéo (fil rouge M. Bernard)."
+  ]
+}

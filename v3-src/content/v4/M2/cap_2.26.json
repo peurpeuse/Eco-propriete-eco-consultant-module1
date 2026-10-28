@@ -1,0 +1,177 @@
+{
+ "id": "2.26",
+ "module": 2,
+ "section": "K · Cadrer, lire le marché, réunir les références",
+ "etape": "4 (Éco-staging)",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "Cadrer la mission : finalité, date de valeur, type de valeur, pièces",
+ "objective": "Rédiger le cadrage écrit d'une demande d'estimation (finalité, date de valeur, type de valeur, pièces) et décider de l'accepter, de la recadrer ou de la refuser",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Avant de chercher une seule référence, Sébastien Paumier pose quatre questions : pour quoi faire, à quelle date, quelle valeur, avec quelles pièces. Il les applique à la maison de Mme Garnier et à l'appartement de M. Bernard, puis montre une demande qu'on refuse : « estimez-la le plus bas possible, c'est pour une donation »."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Un fils te demande d'estimer la maison de sa mère, décédée en mars 2026, pour la déclaration de succession. Quelle date de valeur retiens-tu ?",
+    "options": [
+     "La date de ta visite, en octobre 2026",
+     "La date du décès, en mars 2026",
+     "La date de la future vente, quand elle aura lieu"
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : la visite sert à constater l'état du bien, mais la valeur fiscale d'une succession se fixe à la date de la transmission.",
+     "Juste : l'article 761 du CGI retient la valeur vénale réelle à la date de la transmission, c'est-à-dire le décès.",
+     "Faux : une vente future est hypothétique ; la déclaration se rapporte à la date du décès."
+    ],
+    "fb_title": "La finalité fixe la date",
+    "fb_text": "Succession : date du décès ; donation : date de l'acte ; vente : date de ton avis. Tu notes la date de valeur en tête de ton avis, et tu laisses le notaire et les héritiers arrêter la valeur déclarée : tu n'es ni fiscaliste ni notaire."
+   },
+   {
+    "question": "Un client te dit : « Pour la donation à mon fils, estimez-la le plus bas possible, qu'on paie moins de droits. » Que fais-tu ?",
+    "options": [
+     "Tu acceptes et tu retiens le bas de la fourchette",
+     "Tu acceptes, mais sans rien écrire",
+     "Tu refuses cette consigne : tu ne donnes qu'une valeur vénale honnête et tu le renvoies vers son notaire"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : une valeur orientée pour réduire l'impôt t'expose, et expose ton client à un redressement ; ce n'est plus une estimation.",
+     "Faux : un avis oral reste un avis ; s'il est orienté, le problème est le même, et il n'y a aucune trace de ta méthode.",
+     "Juste : la valeur à déclarer est la valeur vénale réelle (CGI, art. 761) ; le conseil fiscal relève du notaire."
+    ],
+    "fb_title": "Une finalité ne change pas la valeur",
+    "fb_text": "La finalité change la date et la forme de ton avis, jamais le résultat. Tu peux accepter une mission de donation si on te demande la valeur vénale ; tu refuses une mission dont la consigne est de sous-estimer."
+   },
+   {
+    "question": "Mme Garnier veut vendre sa maison. Quel type de valeur inscris-tu dans ton cadrage ?",
+    "options": [
+     "Valeur vénale en l'état, libre d'occupation, plus une valeur après rénovation présentée à part",
+     "Valeur à neuf, pour l'assurance",
+     "Valeur locative, pour un investisseur"
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : elle vend un bien libre qu'elle occupe ; l'acheteur paiera la valeur vénale en l'état, et la valeur après travaux l'aide à se projeter.",
+     "Faux : la valeur à neuf sert à l'assurance ; elle ne dit pas le prix qu'un acheteur paiera.",
+     "Faux : classée G, la maison ne peut pas être louée en l'état ; la valeur locative ne sert qu'en contrôle (capsule 2.35)."
+    ],
+    "fb_title": "Un type de valeur, écrit noir sur blanc",
+    "fb_text": "Valeur vénale, locative, à neuf, en l'état, après travaux, libre ou occupée : ce ne sont pas les mêmes chiffres. Si ton cadrage ne dit pas laquelle tu calcules, ton client comparera des choses qui ne se comparent pas."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Trame de cadrage de la mission + liste des pièces à réunir (version maison, version appartement)",
+  "kind": "fiche",
+  "intro": "Cette trame se remplit avant la visite, avec le client, puis se relit à la fin. Elle tient sur une page. Elle protège ton client (il sait ce qu'il reçoit) et elle te protège (tu sais ce que tu ne fais pas). Sans cadrage écrit, pas d'estimation.",
+  "sections": [
+   {
+    "type": "table",
+    "heading": "Les 6 rubriques du cadrage",
+    "headers": ["Rubrique", "La question", "Exemple : maison de Mme Garnier"],
+    "rows": [
+     ["Demandeur et propriétaire", "Qui demande, qui est propriétaire, qui décide ?", "Mme Garnier, seule propriétaire depuis la succession de 2023 ; ses fils sont consultés"],
+     ["Finalité", "À quoi servira la valeur ?", "Mise en vente pour financer l'entrée en résidence seniors (été 2027)"],
+     ["Date de valeur", "À quelle date la valeur se rapporte-t-elle ?", "Date de l'avis : octobre 2026"],
+     ["Type de valeur", "Quelle valeur, dans quelle situation ?", "Valeur vénale en l'état, libre ; valeur après rénovation à part ; lot à bâtir en option"],
+     ["Bien et périmètre", "Qu'est-ce qui est estimé, qu'est-ce qui ne l'est pas ?", "Maison 112 m², sous-sol, véranda, parcelle AB 214 de 1 240 m² ; mobilier exclu"],
+     ["Limites", "Ce que l'avis n'est pas", "Ni expertise judiciaire, ni conseil fiscal ou juridique, ni promesse de prix"]
+    ]
+   },
+   {
+    "type": "table",
+    "heading": "Finalité, date de valeur et réflexe",
+    "headers": ["Finalité", "Date de valeur", "Ton réflexe"],
+    "rows": [
+     ["Vente", "Date de ton avis", "Valeur vénale en l'état ; actualiser si la vente tarde"],
+     ["Succession", "Date du décès (CGI, art. 761)", "Avis de valeur ; le notaire et les héritiers arrêtent la valeur déclarée"],
+     ["Donation", "Date de l'acte (CGI, art. 761)", "Valeur vénale réelle ; aucune consigne « le plus bas possible »"],
+     ["Litige, divorce contentieux, expropriation", "Fixée par la procédure", "Renvoyer vers un expert en évaluation ou un expert judiciaire"]
+    ]
+   },
+   {
+    "type": "checklist",
+    "heading": "Pièces à réunir · version maison (dossier de Mme Garnier)",
+    "items": [
+     "Titre de propriété et taxe foncière (M11)",
+     "Extrait cadastral et plan de la parcelle (M06), extrait du PLU (M07)",
+     "Plan et descriptif de la maison (M04), reportage photo (M05)",
+     "DPE (M02) et audit énergétique réglementaire (M03), devis de l'audit (M14)",
+     "Rapport du SPANC et devis de réhabilitation (M08)",
+     "Diagnostics amiante et électricité (M09), état des risques (M10)"
+    ]
+   },
+   {
+    "type": "checklist",
+    "heading": "Pièces à réunir · version appartement (dossier de M. Bernard)",
+    "items": [
+     "Titre de propriété et taxe foncière (D11), plan et descriptif (D04)",
+     "DPE (D02) et attestation actualisée (D03), dossier de diagnostic technique (D17)",
+     "Appels de charges et budget (D06), fiche synthétique de la copropriété (D10)",
+     "PV d'AG des 3 dernières années (D07), carnet d'entretien (D08), PPPT (D09)",
+     "Pré-état daté (D16) et devis des travaux privatifs (D13)"
+    ]
+   },
+   {
+    "type": "text",
+    "heading": "La phrase à dire au client",
+    "text": "« Avant de parler de prix, je vous propose d'écrire ensemble à quoi va servir cette estimation, à quelle date elle se rapporte et ce qu'elle comprend. Vous saurez exactement ce que vous recevez, et vous pourrez vérifier chaque chiffre. Pour la fiscalité, c'est votre notaire qui vous conseillera. »"
+   }
+  ],
+  "footer": "Sources : Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025), chapitres sur la définition de la valeur vénale et la réalisation des missions ; Code général des impôts, art. 761 (Légifrance). Données Garnier et Bernard fictives (bible du fil rouge). Mise à jour : octobre 2026."
+ },
+ "exercise": {
+  "title": "Accepter, recadrer ou refuser trois demandes, puis cadrer la mission",
+  "duration_min": 25,
+  "context": "Trois demandes arrivent la même semaine. Demande 1 : les deux enfants d'un propriétaire décédé le 10 mars 2026 veulent « une estimation pour le notaire » d'une maison de Dammarie-lès-Lys. Demande 2 : un propriétaire de Melun veut donner son appartement à sa fille et te demande « le prix le plus bas défendable, pour les droits ». Demande 3 : Mme Garnier veut vendre sa maison de Vaux-le-Pénil avant l'été 2027.",
+  "materials": [
+   "Trame de cadrage (ressource de la capsule)",
+   "M01 Fiche découverte de Mme Garnier",
+   "M06 Extrait cadastral, M07 Extrait du PLU, M11 Titre de propriété",
+   "CGI, art. 761 (Légifrance)"
+  ],
+  "steps": [
+   "Pour chaque demande, écris ta décision : accepter, accepter en recadrant, ou refuser la consigne, avec une phrase de justification.",
+   "Pour chaque demande, indique la finalité et la date de valeur.",
+   "Pour chaque demande, indique le type de valeur et ce que ton avis ne sera pas.",
+   "Remplis la trame de cadrage complète pour la demande 3 (Mme Garnier).",
+   "Liste les pièces de la version maison qui te manquent encore pour Mme Garnier et la personne qui peut te les donner."
+  ],
+  "expected": "Demande 1 : accepter en recadrant. Finalité : déclaration de succession ; date de valeur : 10 mars 2026 (date du décès, CGI art. 761) ; valeur vénale libre ; avis de valeur, pas expertise ; la valeur déclarée est arrêtée par les héritiers avec le notaire. Demande 2 : refuser la consigne « le plus bas défendable » ; proposer seulement un avis de valeur vénale réelle à la date prévue de l'acte, et renvoyer vers le notaire pour la fiscalité de la donation. Demande 3 : accepter. Finalité : mise en vente ; date de valeur : octobre 2026 ; type : valeur vénale en l'état, libre d'occupation, plus valeur après rénovation (audit M03) présentée à part, et lot à bâtir de 420 m² valorisables en option à étudier avec un géomètre et le notaire ; périmètre : maison de 112 m², sous-sol, véranda, parcelle AB 214 de 1 240 m². Pièces à réunir : M02 à M14 ; le rapport du SPANC (M08) et l'audit (M03) sont prioritaires car ils changent la valeur.",
+  "ia_prompt": null
+ },
+ "deliverable": {
+  "title": "Trois décisions motivées et la trame de cadrage de la maison de Mme Garnier",
+  "format": "Document PDF de 2 pages maximum",
+  "criteria": [
+   "Chaque demande a une décision (accepter, recadrer, refuser) justifiée en une phrase",
+   "Les dates de valeur sont exactes : date du décès, date de l'acte, date de l'avis",
+   "La consigne « le plus bas possible » est refusée et le renvoi au notaire est écrit",
+   "La trame Garnier remplit les 6 rubriques, dont le type de valeur et les limites",
+   "La liste des pièces manquantes cite les codes M et la personne à solliciter"
+  ]
+ },
+ "sources": [
+  {
+   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : définition de la valeur vénale à une date donnée, contenu du contrat ou de la lettre de mission (type d'évaluation, identification des biens, hypothèses, finalité)",
+   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+  },
+  {
+   "label": "Code général des impôts, art. 761 : immeubles estimés à leur valeur vénale réelle à la date de la transmission (Légifrance)",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006305376"
+  },
+  {
+   "label": "Bible du fil rouge Éco-Consultant, §1 à §11 (données fictives Bernard et Garnier)"
+  }
+ ],
+ "open_points": [
+  "À faire relire par un juriste : formulation des limites de l'avis de valeur (« ni expertise, ni conseil fiscal ») et cas de refus.",
+  "À définir avec Sébastien Paumier : modèle de lettre de mission Éco-Propriété (honoraires ou gratuité de l'avis, mentions obligatoires).",
+  "À vérifier : abattement de 20 % sur la résidence principale du défunt (CGI, art. 764 bis) à mentionner ou non, uniquement comme renvoi au notaire."
+ ]
+}

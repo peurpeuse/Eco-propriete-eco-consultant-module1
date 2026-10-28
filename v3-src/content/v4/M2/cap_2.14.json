@@ -1,0 +1,168 @@
+{
+  "id": "2.14",
+  "module": 2,
+  "section": "F · Je mesure le bien",
+  "etape": "2 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Mesurer avec Magic Plan : plan et surfaces au téléphone",
+  "objective": "Relever deux pièces avec Magic Plan selon un protocole fixe (pièces, hauteurs, ouvertures), contrôler une cote au mètre et exporter un plan coté avec ses surfaces",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier relève en direct le séjour et la cuisine d'un appartement avec Magic Plan : coins de pièce, ouvertures, hauteur sous plafond, puis contrôle d'une longueur au mètre laser. Il montre l'export du plan et rappelle ce que l'application ne fait pas : elle dessine et additionne, elle ne décide pas ce qui entre dans une surface Carrez ou habitable."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Hugo relève le séjour de 24 m² de M. Bernard avec Magic Plan. Avant d'exporter le plan, que doit-il faire en priorité ?",
+        "options": [
+          "Contrôler au moins une longueur de la pièce au mètre laser ou au ruban et corriger l'écart",
+          "Rien : la surface affichée par l'application vaut mesurage officiel",
+          "Arrondir toutes les surfaces au mètre carré supérieur pour garder de la marge"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : une cote de contrôle par pièce permet de repérer un relevé faussé (coin mal pointé, mauvaise lumière) avant de s'en servir.",
+          "Faux : l'application dessine et additionne ; elle ne remplace pas un mesurage contrôlé, et sa précision dépend du téléphone et des conditions.",
+          "Faux : arrondir vers le haut gonfle la surface ; c'est exactement ce qui expose ensuite le vendeur à une contestation."
+        ],
+        "fb_title": "Une cote de contrôle par pièce",
+        "fb_text": "Le relevé au téléphone est rapide, mais il peut se tromper sur un coin ou une ouverture. Une longueur vérifiée au mètre laser par pièce suffit à repérer l'écart et à corriger le plan avant l'export."
+      },
+      {
+        "question": "Dans une chambre mansardée, Sarah relève la pièce entière sans noter les hauteurs. Quel est le problème pour la suite ?",
+        "options": [
+          "Aucun, Magic Plan exclut seul les parties basses",
+          "Le plan sera moins joli à l'export",
+          "Sans la ligne des 1,80 m, elle ne peut pas déduire les parties basses des surfaces Carrez ou habitable"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : ne compte pas sur une exclusion automatique ; c'est à toi de repérer et de mesurer la zone sous 1,80 m.",
+          "Faux : l'enjeu n'est pas esthétique, il touche la surface que tu annonceras.",
+          "Juste : les parties de hauteur inférieure à 1,80 m ne comptent ni en Carrez ni en surface habitable ; il faut les relever à part."
+        ],
+        "fb_title": "Toujours relever la ligne des 1,80 m",
+        "fb_text": "Sous pente, tu notes la hauteur et tu traces au sol la limite des 1,80 m. La surface sous cette ligne est relevée à part, puis déduite (art. 4-1 du décret du 17 mars 1967 pour Carrez, art. R. 156-1 du CCH pour l'habitable)."
+      },
+      {
+        "question": "Mozi envoie à un acquéreur une capture de Magic Plan : « 82 m², mesure laser du téléphone, garantie ». Où est l'erreur ?",
+        "options": [
+          "Il aurait dû envoyer le fichier DXF plutôt qu'une capture",
+          "Il présente un relevé d'application comme une surface garantie, sans contrôle ni qualification de la surface",
+          "Il aurait dû écrire la surface en pieds carrés"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : le format d'export ne change rien au problème de fond.",
+          "Juste : un relevé au téléphone est un outil de travail ; une surface annoncée doit être contrôlée et dire de quelle surface il s'agit (Carrez, habitable…).",
+          "Faux : l'unité n'est pas le sujet ; en France on annonce en mètres carrés."
+        ],
+        "fb_title": "Un outil, pas une garantie",
+        "fb_text": "Magic Plan sert à préparer la visite, le plan et le prémesurage. La surface opposable à la vente d'un lot (Carrez) ou au bail (habitable) se calcule avec ses règles d'exclusion, et tu dis toujours de quelle surface tu parles."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Protocole de relevé (pièces, hauteurs, ouvertures) et mode d'emploi Magic Plan",
+    "kind": "fiche",
+    "intro": "Cette fiche te donne un ordre de relevé toujours identique et la manière d'utiliser Magic Plan (application de plans pour iOS et Android, éditée par Sensopia) pendant la visite. Elle sert à produire un plan coté et un prémesurage. Elle ne remplace pas le mesurage Carrez ou habitable remis au notaire ou inscrit au bail.",
+    "sections": [
+      {
+        "type": "checklist",
+        "heading": "Avant la visite",
+        "items": [
+          "Téléphone chargé, application installée, projet créé au nom du bien (pas de nom du client dans le titre du fichier partagé)",
+          "Mètre laser (idéalement connectable en Bluetooth à l'application) et ruban de 5 m",
+          "Plan existant s'il y en a un (plan de vente, plan de la copropriété), pour comparer",
+          "Liste des pièces annoncées par le vendeur et des annexes (balcon, cave, parking, véranda, sous-sol)",
+          "Bonne lumière : ouvre les volets, allume toutes les pièces"
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Le protocole de relevé, pièce par pièce",
+        "items": [
+          "Toujours le même sens : entrée, pièces de vie, chambres, pièces d'eau, annexes.",
+          "Nomme la pièce dans l'application avant de la relever (séjour, chambre 1…).",
+          "Relève les coins au sol (caméra, ou capteur LiDAR si le téléphone en a un), en évitant les meubles.",
+          "Place les ouvertures : portes, fenêtres, portes-fenêtres, avec leur largeur.",
+          "Saisis la hauteur sous plafond ; sous pente, note la hauteur basse et trace au sol la limite des 1,80 m.",
+          "Contrôle une longueur par pièce au mètre laser ; si l'écart dépasse quelques centimètres, corrige la cote dans l'application.",
+          "Photographie chaque pièce depuis l'entrée et rattache les photos à la pièce."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Ce que fait Magic Plan, ce qu'il ne fait pas",
+        "headers": ["L'application fait", "Tu fais toi-même"],
+        "rows": [
+          ["Dessine le plan pièce par pièce et assemble l'étage", "Vérifier que l'assemblage correspond à la réalité (cloisons, dégagements)"],
+          ["Calcule la surface au sol de chaque pièce dessinée", "Décider ce qui entre dans la surface Carrez, habitable ou pondérée"],
+          ["Accepte des cotes saisies ou envoyées par un mètre laser", "Contrôler au moins une cote par pièce"],
+          ["Exporte le plan (PDF, image, DXF selon l'abonnement)", "Indiquer sur l'export : date, « prémesurage, non contractuel »"]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Les pièges fréquents",
+        "items": [
+          "Pointer un coin derrière un meuble : la pièce rétrécit ou s'allonge.",
+          "Oublier un placard ou un dégagement : la somme des pièces ne colle plus au total.",
+          "Laisser les parties sous 1,80 m dans la surface d'une pièce mansardée.",
+          "Mélanger balcon, cave ou véranda avec les pièces principales.",
+          "Annoncer une surface « garantie » à partir du seul relevé du téléphone."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase à dire au vendeur",
+        "text": "« Je relève votre logement au téléphone pour avoir un plan clair et un premier calcul des surfaces. C'est un prémesurage. La surface qui figurera dans la promesse de vente sera celle du mesurage de votre dossier de diagnostics ; si les deux diffèrent, on cherche pourquoi avant de publier l'annonce. »"
+      }
+    ],
+    "footer": "Sources : site de l'éditeur magicplan (fonctions de relevé caméra et LiDAR, connexion de mètres laser Bluetooth, export PDF et DXF), consulté le 28/10/2026 ; décret n° 67-223 du 17 mars 1967, art. 4-1 ; CCH, art. R. 156-1. La précision annoncée par l'éditeur n'a pas été vérifiée de façon indépendante. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Relever 2 pièces et exporter le plan",
+    "duration_min": 30,
+    "context": "Tu t'entraînes chez toi (ou dans un bien de ton agence, avec l'accord du propriétaire). Tu relèves deux pièces dont une avec une fenêtre et une porte, puis tu compares ton relevé à un contrôle au mètre. Exemple de correction : le séjour (24 m²) et la cuisine (9 m²) de l'appartement de M. Bernard.",
+    "materials": [
+      "Application Magic Plan (version gratuite ou d'essai)",
+      "Mètre laser ou ruban",
+      "D04 Plan et descriptif de l'appartement de M. Bernard (pour l'exemple corrigé)"
+    ],
+    "steps": [
+      "Crée un projet et nomme les deux pièces avant de commencer.",
+      "Relève chaque pièce en suivant le protocole : coins, ouvertures, hauteur sous plafond.",
+      "Mesure une longueur par pièce au mètre et note l'écart avec la cote de l'application.",
+      "Corrige les cotes si l'écart dépasse quelques centimètres.",
+      "Exporte le plan avec les surfaces de chaque pièce et ajoute la mention « prémesurage du [date], non contractuel ».",
+      "Écris en 3 lignes ce que tu as dû corriger et pourquoi."
+    ],
+    "expected": "Exemple attendu (appartement de M. Bernard, D04). Séjour : plan rectangulaire, porte-fenêtre vers le balcon placée, hauteur sous plafond saisie ; surface affichée proche de 24 m², une longueur contrôlée au mètre laser et l'écart noté (par exemple 4 cm, corrigé). Cuisine : fenêtre et porte placées, surface proche de 9 m². Le balcon de 6 m² est relevé à part, comme annexe, et n'est pas additionné aux pièces. L'export porte la date et la mention « prémesurage, non contractuel ». Commentaire : « Un coin du séjour était pointé derrière le canapé : longueur trop courte de 4 cm, corrigée après contrôle. »"
+  },
+  "deliverable": {
+    "title": "Plan coté de 2 pièces relevé avec Magic Plan",
+    "format": "PDF ou image de l'export + 3 lignes de commentaire",
+    "criteria": [
+      "Les deux pièces sont nommées et leurs ouvertures (portes, fenêtres) sont placées",
+      "La hauteur sous plafond est indiquée pour chaque pièce",
+      "Une cote de contrôle au mètre est notée pour chaque pièce, avec l'écart constaté",
+      "Les annexes éventuelles (balcon, placard extérieur) sont séparées des pièces",
+      "L'export porte la date et la mention « prémesurage, non contractuel »"
+    ]
+  },
+  "sources": [
+    { "label": "magicplan, centre d'aide : connexion d'un mètre laser Bluetooth (PrecisionLink), consulté le 28/10/2026", "url": "https://help.magicplan.app/laser-distance-meters" },
+    { "label": "magicplan, blog : relevé caméra, laser Bluetooth et LiDAR ; export DXF, consulté le 28/10/2026", "url": "https://magicplan.app/blog/room-scan-cad" },
+    { "label": "Décret n° 67-223 du 17 mars 1967, art. 4-1 (exclusion des parties de hauteur inférieure à 1,80 m)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006488230" },
+    { "label": "Code de la construction et de l'habitation, art. R. 156-1 (surface habitable)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819221" }
+  ],
+  "open_points": [
+    "À définir avec Sébastien Paumier : application imposée (Magic Plan) ou libre ; version gratuite suffisante pour l'export de l'exercice (formats et prix à vérifier au moment de la diffusion).",
+    "Précision de l'application non vérifiée de façon indépendante : prévoir un test interne Éco-propriété (relevé téléphone vs mètre laser sur 5 pièces) avant d'annoncer un ordre de grandeur d'écart.",
+    "Vidéo : prévoir un tournage réel du relevé (écran du téléphone en incrustation)."
+  ]
+}

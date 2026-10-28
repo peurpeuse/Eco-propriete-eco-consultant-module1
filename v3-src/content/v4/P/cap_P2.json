@@ -1,0 +1,168 @@
+{
+ "id": "P2",
+ "module": 0,
+ "section": "Prérequis · Climat et marché",
+ "etape": "Prérequis",
+ "parcours": null,
+ "prio": false,
+ "ia": false,
+ "title": "Ce que le climat change pour un logement : argiles, inondations, surchauffe",
+ "objective": "Relever sur Géorisques trois risques climatiques pour une adresse de sa zone et expliquer en une phrase chacun ce qu'ils changent pour le bâti et le confort d'été",
+ "video": {
+  "duration": "4:30",
+  "chapter": false,
+  "pitch": "Sébastien Paumier ouvre Géorisques avec l'adresse de la maison de Mme Garnier (fictive) : fissures en escalier sur le pignon, sol argileux possible. Il montre les trois risques climatiques qui touchent un logement (argiles, inondation, surchauffe), où les lire, et ce qu'un agent dit ou ne dit pas à un vendeur."
+ },
+ "quiz": {
+  "questions": [
+   {
+    "question": "Mme Garnier te montre des fissures en escalier de 0,5 mm sur le pignon nord de sa maison de 1968. Que fais-tu ?",
+    "options": [
+     "Tu la rassures : « C'est normal sur une maison de cet âge, rien à faire. »",
+     "Tu vérifies l'exposition aux argiles sur Géorisques et tu lui conseilles de faire examiner les fissures par un professionnel du bâtiment.",
+     "Tu lui annonces que la maison doit être reprise en sous-œuvre."
+    ],
+    "answer": 1,
+    "whys": [
+     "Faux : tu n'es pas expert en structure ; minimiser un désordre peut te coûter ta crédibilité et nuire à l'acquéreur.",
+     "Juste : tu relèves un fait vérifiable (exposition) et tu renvoies le diagnostic au professionnel compétent.",
+     "Faux : tu poserais un diagnostic structurel que seul un expert peut faire après examen."
+    ],
+    "fb_title": "Relever, puis renvoyer à l'expert",
+    "fb_text": "Des fissures en escalier sur un sol argileux peuvent venir du retrait-gonflement des argiles. Ton rôle : vérifier l'exposition sur Géorisques, noter le fait, conseiller un examen par un professionnel. Le diagnostic n'est pas de ton ressort."
+   },
+   {
+    "question": "Depuis le 1er juillet 2026, quelle part des maisons individuelles existantes se trouve en zone d'exposition moyenne ou forte au retrait-gonflement des argiles ?",
+    "options": [
+     "Environ 1 sur 10",
+     "Environ 1 sur 4",
+     "Environ 6 sur 10"
+    ],
+    "answer": 2,
+    "whys": [
+     "Faux : c'est très en dessous du nouveau zonage.",
+     "Faux : même l'ancien zonage de 2020 dépassait déjà la moitié des maisons (52,5 %).",
+     "Juste : 12,1 millions de maisons, soit 61,5 %, et 55 % du territoire hexagonal (nouvelle carte, en vigueur au 1/07/2026)."
+    ],
+    "fb_title": "Une maison sur deux et plus",
+    "fb_text": "La carte mise à jour (arrêté du 9/01/2026, publié au JO du 31/01/2026, applicable au 1/07/2026) place 55 % du territoire hexagonal en exposition moyenne ou forte, contre 48 % en 2020 : 12,1 millions de maisons (61,5 %). Le risque argile est donc la règle, pas l'exception."
+   },
+   {
+    "question": "L'appartement de M. Bernard a un séjour exposé sud-ouest au 4e étage. Un acquéreur demande s'il est agréable en été. Où regardes-tu d'abord ?",
+    "options": [
+     "L'indicateur de confort d'été en page 2 du DPE, puis l'exposition, les protections solaires et la ventilation.",
+     "La classe énergie du DPE : une bonne classe garantit le confort d'été.",
+     "L'état des risques : la surchauffe y est notée."
+    ],
+    "answer": 0,
+    "whys": [
+     "Juste : le DPE donne un indicateur de confort d'été (insuffisant, moyen ou bon) depuis le 1/07/2021 ; tu le complètes par ce que tu observes.",
+     "Faux : la classe A à G mesure surtout le chauffage ; un logement bien classé peut surchauffer l'été.",
+     "Faux : l'état des risques ne traite pas la surchauffe d'un logement ; il porte sur les risques naturels et technologiques."
+    ],
+    "fb_title": "Le confort d'été se lit à part",
+    "fb_text": "L'indicateur de confort d'été figure en page 2 du DPE depuis la réforme de 2021, sur trois niveaux, sans entrer dans la classe A à G. Une étude Pouget Consultants et IGNES (16/06/2026, base ADEME) le trouve « insuffisant » pour 48,2 % des logements analysés."
+   }
+  ]
+ },
+ "resource": {
+  "title": "Fiche risques climatiques du logement et mode d'emploi Géorisques",
+  "kind": "fiche",
+  "intro": "Trois risques climatiques changent la vie d'un logement et la façon de le vendre : le retrait-gonflement des argiles, l'inondation, la surchauffe. Cette fiche te dit où les lire, ce qu'ils changent pour le bâti et le confort, et ce que tu dis au vendeur. Tu informes ; tu ne diagnostiques pas.",
+  "sections": [
+   {
+    "heading": "Les 3 risques en un coup d'œil",
+    "type": "table",
+    "headers": ["Risque", "Repère national", "Ce que ça change pour le bâti", "Où le lire"],
+    "rows": [
+     ["Retrait-gonflement des argiles", "55 % du territoire hexagonal et 12,1 millions de maisons (61,5 %) en exposition moyenne ou forte (carte applicable au 1/07/2026)", "Fissures en escalier, portes qui frottent, surtout maisons sur fondations peu profondes", "Géorisques (adresse) ; état des risques"],
+     ["Inondation", "17,1 millions d'habitants exposés au débordement de cours d'eau, 1,4 million à la submersion marine (ministère, 6/04/2023)", "Dégâts sur sous-sols et rez-de-chaussée, humidité, coût d'assurance", "Géorisques ; plan de prévention des risques ; état des risques"],
+     ["Surchauffe", "Confort d'été « insuffisant » pour 48,2 % des logements d'une base de 8,9 millions de DPE (Pouget Consultants et IGNES, 16/06/2026)", "Inconfort, santé des occupants fragiles, besoin de protections solaires et de ventilation", "DPE page 2 (indicateur confort d'été) ; visite : exposition, volets, dernier étage"]
+    ]
+   },
+   {
+    "heading": "Mode d'emploi Géorisques en 5 gestes",
+    "type": "steps",
+    "items": [
+     "Ouvre georisques.gouv.fr et saisis l'adresse exacte du bien (ou clique sur la parcelle).",
+     "Lis la liste des risques de l'adresse : argiles (niveau d'exposition), inondation, autres risques naturels et technologiques.",
+     "Note les arrêtés de catastrophe naturelle de la commune (type et année).",
+     "Repère s'il existe un plan de prévention des risques (PPR) qui couvre la parcelle.",
+     "Fais une capture datée : elle entre dans ton dossier, et le vendeur établit l'état des risques à remettre dès la première visite."
+    ]
+   },
+   {
+    "heading": "Les règles à connaître",
+    "type": "list",
+    "items": [
+     "État des risques : remis à l'acquéreur dès la première visite, établi depuis moins de 6 mois, annexé à la promesse puis à l'acte. S'il manque à la promesse, le délai de rétractation ne court qu'à partir de sa remise (service-public.fr, F12239, vérifié le 28/09/2026).",
+     "Toute annonce de vente concernée indique que les informations sur les risques sont disponibles sur georisques.gouv.fr.",
+     "Argiles : en zone d'exposition moyenne ou forte, une étude géotechnique préalable est exigée pour la vente d'un terrain à bâtir (loi ÉLAN) ; le nouveau zonage s'applique aussi aux contrats de construction de maison individuelle.",
+     "Fonds de prévention argile : aide sous conditions de revenus, expérimentée depuis octobre 2025 dans 11 départements pilotes, conditions élargies au 1/05/2026 (service-public.fr, actualité du 3/06/2026)."
+    ]
+   },
+   {
+    "heading": "Exemple : la maison de Mme Garnier (fil rouge, fictif)",
+    "type": "text",
+    "text": "Maison de 1968 à Vaux-le-Pénil sur sous-sol complet. L'état des risques (M10) indique une exposition moyenne aux argiles (fictif, à vérifier sur Géorisques) et un arrêté de catastrophe naturelle « sécheresse » en 2019 sur la commune (fictif) ; pas de plan de prévention inondation. Pathologies vues (M05) : fissures en escalier de 0,5 mm sur le pignon nord, humidité en bas des murs du sous-sol, simples vitrages. Ce que tu dis : « Votre adresse est en exposition moyenne aux argiles. Je vous conseille de faire examiner ces fissures par un professionnel avant la mise en vente : un acquéreur informé négocie moins qu'un acquéreur surpris. »"
+   },
+   {
+    "heading": "Ce que tu ne dis jamais",
+    "type": "list",
+    "items": [
+     "« Ces fissures, ce n'est rien » : tu n'es ni expert en structure ni géotechnicien.",
+     "« Il n'y a aucun risque ici » : tu relèves ce que dit Géorisques, à une date.",
+     "« Le DPE est bon, donc il fait frais l'été » : le confort d'été se lit à part.",
+     "« L'assurance couvrira » : la prise en charge dépend du contrat et d'un arrêté de catastrophe naturelle."
+    ]
+   }
+  ],
+  "footer": "Sources : arrêté du 9/01/2026 (JO du 31/01/2026) sur le zonage argiles, via Banque des Territoires (2/02/2026) et service-public.fr (actualité A18807, 3/06/2026, mise à jour 8/07/2026) ; ministère de la Transition écologique, risque inondation (6/04/2023) ; service-public.fr F12239 (état des risques, vérifié le 28/09/2026) ; étude Pouget Consultants et IGNES (16/06/2026), via Monimmeuble ; Cafpi (23/07/2026) sur l'indicateur de confort d'été. Exemple Mme Garnier : fil rouge fictif. Mise à jour : 28/10/2026."
+ },
+ "exercise": {
+  "title": "Trois risques pour une adresse de ma zone",
+  "duration_min": 30,
+  "context": "Tu choisis une adresse réelle de ta zone de travail : un bien que tu connais (mandat en cours, vente récente) ou une rue type de ton secteur. Tu relèves sur Géorisques ses risques climatiques et tu prépares ce que tu dirais au vendeur. Aucune donnée personnelle du propriétaire dans ton livrable : seulement l'adresse ou la rue.",
+  "materials": [
+   "georisques.gouv.fr (recherche par adresse)",
+   "Le DPE du bien si tu l'as (page 2 : indicateur de confort d'été)",
+   "Exemple corrigé : M10 État des risques et M05 Reportage photo de la maison de Mme Garnier (fictifs)",
+   "Fiche risques climatiques du logement"
+  ],
+  "steps": [
+   "Saisis l'adresse sur Géorisques et fais une capture datée de la liste des risques.",
+   "Relève le niveau d'exposition aux argiles, le risque inondation (PPR ou zone inondable) et les arrêtés de catastrophe naturelle de la commune.",
+   "Évalue la surchauffe : indicateur de confort d'été du DPE s'il existe, sinon trois observations (exposition, dernier étage ou combles, protections solaires).",
+   "Pour chacun des trois risques, écris en une phrase ce qu'il change pour le bâti ou pour le confort d'été.",
+   "Écris la phrase que tu dirais au vendeur, avec le professionnel vers qui tu le renvoies si besoin."
+  ],
+  "expected": "Exemple attendu (maison de Mme Garnier, fictif). Argiles : exposition moyenne (M10) ; une maison de 1968 sur sous-sol, avec fissures en escalier de 0,5 mm au pignon nord : risque de mouvements du sol en sécheresse ; à faire examiner par un professionnel avant la vente. Inondation : pas de plan de prévention inondation sur la commune selon M10 ; l'humidité en bas des murs du sous-sol relève plutôt de remontées d'humidité, à faire vérifier, pas d'un risque d'inondation. Surchauffe : DPE de 2024 sans mention favorable (à relire en page 2) ; plain-pied, combles peu isolés (5 cm), simples vitrages : risque de chaleur l'été, volets roulants manuels comme protection. Phrase : « Votre adresse est en exposition moyenne aux argiles selon Géorisques au 28/10/2026. Faisons examiner ces fissures avant la mise en vente ; l'acquéreur aura l'état des risques dès la première visite. »"
+ },
+ "deliverable": {
+  "title": "Fiche 3 risques de mon adresse",
+  "format": "PDF, 1 page : capture Géorisques datée + tableau à 3 lignes (risque, constat, effet sur le bâti ou le confort, phrase au vendeur)",
+  "criteria": [
+   "La capture Géorisques est datée et correspond à l'adresse choisie",
+   "Les trois risques (argiles, inondation, surchauffe) sont relevés, chacun avec son niveau ou son constat",
+   "Chaque risque a son effet sur le bâti ou le confort d'été, en une phrase",
+   "La phrase au vendeur renvoie au bon professionnel et ne pose aucun diagnostic",
+   "Aucune donnée personnelle du propriétaire n'apparaît"
+  ]
+ },
+ "sources": [
+  { "label": "Géorisques — Connaître les risques près de chez soi", "url": "https://www.georisques.gouv.fr" },
+  { "label": "Banque des Territoires — Retrait-gonflement des sols argileux : la carte des zones exposées mise à jour (2/02/2026)", "url": "https://www.banquedesterritoires.fr/retrait-gonflement-des-sols-argileux-la-carte-des-zones-exposees-mise-jour" },
+  { "label": "Service-public.fr — Fissures liées à la sécheresse : de nouvelles aides (3/06/2026, mise à jour 8/07/2026)", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18807" },
+  { "label": "SDES — Nouveau zonage d'exposition au retrait-gonflement des argiles (23/06/2021, zonage 2020)", "url": "https://www.statistiques.developpement-durable.gouv.fr/nouveau-zonage-dexposition-au-retrait-gonflement-des-argiles-plus-de-104-millions-de-maisons" },
+  { "label": "Ministère de la Transition écologique — Généralités sur le risque inondation (6/04/2023)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/generalites-risque-inondation-france" },
+  { "label": "Service-public.fr — État des risques, F12239 (vérifié le 28/09/2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12239" },
+  { "label": "Monimmeuble — Étude Pouget Consultants et IGNES sur le confort d'été dans les DPE (23/06/2026)", "url": "https://monimmeuble.com/actualite/confort-dete-dpe-1-logement-sur-2-est-une-bouilloire-thermique" },
+  { "label": "Cafpi — Indicateur de confort d'été du DPE et proposition de loi n° 1735 (23/07/2026)", "url": "https://www.cafpi.fr/credit-immobilier/actualites/dpe-un-nouvel-indicateur-sur-la-chaleur-des-logements-bientot-en-place-ce-que-ca-change-pour-vous" }
+ ],
+ "open_points": [
+  "Textes de la fiche « à sourcer » dans le tableau : les chiffres sont sourcés, mais l'étude confort d'été (Pouget Consultants et IGNES) n'a été lue que via un média ; à confirmer sur le document d'origine.",
+  "Indicateur de confort d'été : réforme en discussion (proposition de loi n° 1735, projet de loi Relance du logement) ; à actualiser à la date de tournage.",
+  "Parcours exact sur Géorisques (intitulés des rubriques) à capturer le jour du tournage, l'interface pouvant changer.",
+  "Exposition argiles de l'adresse fictive de Mme Garnier : donnée fictive du fil rouge, à présenter comme telle."
+ ]
+}

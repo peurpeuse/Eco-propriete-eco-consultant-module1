@@ -1,0 +1,215 @@
+{
+  "id": "1.21",
+  "module": 1,
+  "title": "Construire une offre de découverte qui obtient un rendez-vous",
+  "capsule_title": "Construire une offre de découverte qui obtient un rendez-vous",
+  "duration": "4:30",
+  "objective": "Écrire son offre de découverte : une accroche ciblée, une préanalyse du bien en 3 vérifications et un appel à l'action qui mène au rendez-vous R1, dans le respect des règles de démarchage",
+  "mozi": {
+    "line": "J'ai trouvé votre numéro dans l'annuaire de 1987 : vendez-moi votre maison avant le dîner !",
+    "scene": "Mozi, casque sur la tête, appelle un à un les numéros d'un vieil annuaire jauni, à 21 h, en lisant le même texte. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 1.21 : construire une offre de découverte qui obtient un rendez-vous",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas transformer une question de vendeur en rendez-vous.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi une question utile, posée avec accord, ouvre la porte" },
+        { "verb": "Appliquer", "text": "écrire ton accroche, tes 3 vérifications et ton appel à l'action" },
+        { "verb": "Prouver", "text": "déposer ton offre de découverte qui mène au rendez-vous R1" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Votre numéro, dans l'annuaire de 1987 !",
+      "voice": "J'ai trouvé votre numéro dans l'annuaire de 1987 : vendez-moi votre maison avant le dîner !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "J'ai trouvé votre numéro dans l'annuaire de 1987 : vendez-moi votre maison avant le dîner !",
+      "scene": "Mozi, casque sur la tête, appelle les numéros d'un vieil annuaire jauni, à 21 h, en lisant le même texte."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "J'ai son numéro, donc j'appelle",
+      "voice": "J'ai son numéro. Donc je peux l'appeler. Et lui vendre ma visite.",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant touche le temps fautif", "source": null,
+      "beats": ["J'ai son numéro", "donc je peux l'appeler", "et lui vendre ma visite"],
+      "wrong": 1,
+      "why": "Avoir un numéro ne donne pas le droit d'appeler : depuis le 11 août 2026, il faut l'accord préalable du particulier."
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Jusqu'à 75 000 € d'amende",
+      "voice": "Appeler un particulier sans son accord, c'est jusqu'à soixante-quinze mille euros d'amende pour une personne. Trois cent soixante-quinze mille pour une société.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Jusqu'à 75 000 € d'amende pour une personne physique.", "Jusqu'à 375 000 € pour une société."],
+      "source": "Loi n° 2025-594 du 30/06/2025 et décret n° 2026-662 du 23/07/2026, présentés par GHR, « Démarchage téléphonique : ce qui change depuis le 11 août 2026 », 25/08/2026, https://www.ghr.fr/reglementation-fiscalite/demarchage-telephonique-ce-qui-change-depuis-le-11-aout-2026 ; Journal du Geek, 27/07/2026 ; à vérifier sur Légifrance (article du code de la consommation)"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "15 % des ventes : des logements F ou G",
+      "voice": "Quinze pour cent. Début 2025, environ une vente de logement ancien sur sept concernait un logement classé F ou G. Ces vendeurs se posent tous la même question.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": { "q": "Début 2025, quelle part des ventes de logements anciens concernait des logements classés F ou G ?", "answer": 15, "min": 0, "max": 100, "step": 1, "unit": " %" },
+      "value": "15 %",
+      "label": "des ventes de logements anciens concernent des logements classés F ou G (début 2025 ; 11 % en 2021, 17 % en 2023)",
+      "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (tendances 2025), mis à jour le 7/01/2026, https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Accroche → Préanalyse → Rendez-vous",
+      "voice": "Ton offre de découverte tient en trois temps. D'abord, l'accroche : la question que le vendeur se pose déjà. « Faut-il rénover votre logement avant de le vendre ? » Ensuite, la préanalyse, en trois vérifications : la classe et la date du DPE ; les obligations à la vente, comme l'audit pour une maison ou les travaux votés en copropriété ; les ventes récentes du secteur. Enfin, l'appel à l'action : trente minutes chez lui pour présenter les résultats. C'est le rendez-vous R1. Et toujours avec son accord.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Offre de découverte de la capsule 1.21 (PLAN v4) ; audit à la vente : Service-Public F37110, vérifié le 14/09/2026 ; ventes récentes : DVF (data.gouv.fr)",
+      "steps": [
+        { "label": "Accroche", "detail": "« Faut-il rénover votre logement avant de le vendre ? »" },
+        { "label": "Préanalyse", "detail": "Trois vérifications : DPE, obligations à la vente, ventes récentes." },
+        { "label": "Rendez-vous", "detail": "Trente minutes chez le vendeur pour présenter les résultats : le R1." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "M. Bernard a coché la case du site de l'agence de Claire. Écris l'appel à l'action de son offre. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; Bible §1 et §4 (fictif) : consentement coché, travaux de ravalement votés le 12/06/2025",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard a coché sur le site de l'agence de Claire : « J'accepte d'être recontacté au sujet de mon DPE et de l'estimation de mon bien ». Écris en deux phrases l'appel à l'action de l'offre de découverte de Claire.",
+      "model_answer": "Je vous propose un rendez-vous de trente minutes chez vous pour vous présenter mes trois vérifications : votre DPE et son attestation actualisée, les travaux votés par la copropriété, et les ventes récentes de la résidence. Vous décidez ensuite, sans engagement.",
+      "keywords": ["rendez-vous", "trois vérifications", "DPE", "sans engagement"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Loi n° 2025-594 du 30/06/2025 (démarchage téléphonique : consentement préalable depuis le 11/08/2026), d'après GHR 25/08/2026 et Journal du Geek 27/07/2026 ; à vérifier sur Légifrance",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Depuis le 11 août 2026, démarcher un particulier par téléphone exige son accord préalable",
+          "On peut appeler tout numéro qui n'est pas inscrit sur Bloctel",
+          "Aucune : un agent immobilier n'est pas concerné par ces règles"
+        ],
+        "answer": 0,
+        "feedback": "Depuis le 11 août 2026, le démarchage téléphonique d'un particulier est interdit sans son accord préalable, libre, spécifique et révocable. C'est au professionnel de prouver cet accord.",
+        "whys": [
+          "Exact : l'accord doit venir avant l'appel, d'un geste actif, et tu dois pouvoir le prouver.",
+          "Faux : c'était l'ancienne logique. Depuis le 11 août 2026, ne pas être inscrit ne vaut plus accord.",
+          "Faux : la règle vise tout professionnel qui démarche un consommateur, agent immobilier compris."
+        ]
+      },
+      "card2": {
+        "question": "Si M. Bernard avait coché la case de l'agence, que se passerait-il ?",
+        "answer": "L'agence pourrait l'appeler au sujet de son DPE et de son estimation, dans les créneaux autorisés : l'accord est préalable, précis et prouvé. Elle garde la preuve, et elle cesse tout appel s'il retire son accord."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : obtenir le rendez-vous R1, avec l'accord du vendeur. L'offre de découverte, et le formulaire d'accord.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource de la capsule 1.21 (PLAN v4)",
+      "goal": "Obtenir le rendez-vous R1, avec l'accord du vendeur",
+      "tools": [
+        { "name": "Offre de découverte", "role": "Accroche, 3 vérifications, appel à l'action vers le R1" },
+        { "name": "Formulaire d'accord", "role": "Recueillir et prouver l'accord avant tout appel" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "L'offre de M. Bernard",
+      "voice": "Pour M. Bernard : l'accroche, faut-il rénover avant de vendre ? Première vérification, son DPE de 2023 et l'attestation, classe E. Deuxième, le ravalement voté en assemblée générale. Troisième, les ventes récentes du secteur. Puis trente minutes chez lui.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible §3, §4 et §5 (fictif) : attestation classe E (D03), PV d'AG du 12/06/2025 (D07), comparables (D12)",
+      "tool": "Offre de découverte",
+      "steps": [
+        "Accrocher : faut-il rénover avant de vendre ?",
+        "Vérifier 1 : DPE 2023, attestation classe E",
+        "Vérifier 2 : ravalement voté en AG",
+        "Vérifier 3 : ventes récentes du secteur",
+        "Proposer : 30 minutes, rendez-vous R1"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Le formulaire d'accord",
+      "voice": "Sur ton formulaire, tu écris pourquoi tu rappelleras : le DPE et l'estimation. Tu laisses la case décochée. Tu gardes la date de l'accord. Et tu appelles seulement dans les créneaux autorisés.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "CNIL, « La prospection commerciale par courrier électronique, SMS-MMS et automate d'appel », mise à jour le 10/06/2026 (case décochée par défaut) ; GHR 25/08/2026 (preuve de l'accord, créneaux : du lundi au vendredi, 10 h-13 h et 14 h-20 h, 4 sollicitations au plus par 30 jours) ; à vérifier sur Légifrance",
+      "tool": "Formulaire d'accord",
+      "steps": [
+        "Écrire : le motif, DPE et estimation",
+        "Laisser : la case décochée",
+        "Garder : la date de l'accord",
+        "Appeler : dans les créneaux autorisés"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Écris ton offre de découverte maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 1.21 (PLAN v4) : renvoi vers le modèle d'offre",
+      "cta": "Ouvrir le modèle d'offre",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton offre de découverte.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 1.21 (PLAN v4)",
+      "ask": "Dépose une capture de ton offre de découverte : l'accroche « Faut-il rénover votre logement avant de le vendre ? », ta préanalyse du bien en 3 vérifications et ton appel à l'action qui mène au rendez-vous R1.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le modèle d'offre t'attend : reviens déposer ton offre quand elle est écrite."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Ton offre répond à la question du vendeur, et elle demande le rendez-vous avec son accord.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton offre : 1 question, 3 vérifications, 1 rendez-vous avec accord. Mozi : un annuaire de 1987, aucun accord.",
+      "source": "Comparaison avec le contre-exemple du chapitre (Mozi, fictif)"
+    }
+  ],
+  "sources": [
+    { "label": "Loi n° 2025-594 du 30/06/2025 contre toutes les fraudes aux aides publiques et décret n° 2026-662 du 23/07/2026 : démarchage téléphonique sur consentement préalable depuis le 11/08/2026 ; présentation GHR, 25/08/2026", "url": "https://www.ghr.fr/reglementation-fiscalite/demarchage-telephonique-ce-qui-change-depuis-le-11-aout-2026" },
+    { "label": "Journal du Geek, 27/07/2026 : démarchage téléphonique, les règles changent le 11 août (amendes de 75 000 € et 375 000 €)", "url": "https://www.journaldugeek.com/2026/07/27/demarchage-telephonique-a-partir-du-11-aout-les-regles-changent-en-france/" },
+    { "label": "Squire Patton Boggs, La Revue : nouvelles restrictions au démarchage des consommateurs (interdiction du démarchage en rénovation énergétique, y compris par voie électronique, depuis le 1/07/2025)", "url": "https://larevue.squirepattonboggs.com/nouvelles-restrictions-au-demarchage-des-consommateurs-par-appel-ou-sms.html" },
+    { "label": "CNIL, La prospection commerciale par courrier électronique, SMS-MMS et automate d'appel, mise à jour le 10/06/2026 (consentement préalable, art. L. 34-5 CPCE, RGPD art. 6, 7, 21)", "url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel" },
+    { "label": "Notaires de France, La valeur verte des logements en France sur les transactions 2024, mis à jour le 7/01/2026 : part des ventes F-G autour de 15 % début 2025", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
+    { "label": "Service-Public, Audit énergétique en cas de vente (F37110), vérifié le 14/09/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37110" },
+    { "label": "Bible du fil rouge, §1, §3, §4, §5 (fictif)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "À faire relire par un juriste : article exact du code de la consommation issu de la loi n° 2025-594 et du décret n° 2026-662 (non lus sur Légifrance, site inaccessible lors de la rédaction) ; montants des amendes (75 000 € / 375 000 €), créneaux d'appel (lundi-vendredi, 10 h-13 h et 14 h-20 h, 4 sollicitations par 30 jours), durée de l'accord (1 an) et conservation de la preuve (3 ans) relevés sur des sources secondaires",
+    "À faire relire par un juriste : l'accroche « Faut-il rénover votre logement avant de le vendre ? » ne doit pas faire assimiler l'offre à un démarchage en rénovation énergétique (interdit, y compris par voie électronique, depuis le 1/07/2025) ; l'éco-consultant ne vend pas de travaux",
+    "À vérifier : règles de la prospection postale et du boîtage (pas de consentement préalable, droit d'opposition) sur la fiche CNIL dédiée ; non affichées dans le chapitre",
+    "Écran 6 : la part des ventes F-G (≈ 15 %) est lue sur la page de présentation des Notaires de France ; l'étude complète (PDF) n'a pas pu être ouverte",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

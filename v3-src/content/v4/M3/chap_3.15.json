@@ -1,0 +1,218 @@
+{
+  "id": "3.15",
+  "module": 3,
+  "title": "Suivre le chantier avant la vente : planning, réception, réserves",
+  "capsule_title": "Suivre le chantier avant la vente : planning, réception, réserves",
+  "duration": "4:30",
+  "objective": "Établir le planning de trois corps de métier, préparer la réception avec le vendeur et lire un procès-verbal : réserves, délai de levée, garanties qui en découlent",
+  "mozi": {
+    "line": "Le PV ? Je l'ai signé dans l'ascenseur, sans entrer : zéro réserve, zéro souci !",
+    "scene": "Mozi, blazer violet, signe le procès-verbal de réception contre la paroi de l'ascenseur pendant que le peintre de M. Bernard descend avec ses pots. Derrière la porte, le plafond de la cuisine garde une large trace de reprise."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 3.15 : suivre le chantier avant la vente",
+      "voice": "Bienvenue. Avant les photos et les visites, il y a un petit chantier chez M. Bernard. Tu vas apprendre à le suivre jusqu'au bout.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre la réception, appliquer un planning, puis prouver que tu sais lire un procès-verbal.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "ce que change la réception : réserves, délai de levée, garanties de 1, 2 et 10 ans" },
+        { "verb": "Appliquer", "text": "planifier trois corps de métier dans le bon ordre, puis lire un PV de réception" },
+        { "verb": "Prouver", "text": "montrer ton planning et ta lecture du PV en une image" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Le PV ? Je l'ai signé dans l'ascenseur, sans entrer : zéro réserve, zéro souci !",
+      "voice": "Le PV ? Je l'ai signé dans l'ascenseur, sans entrer : zéro réserve, zéro souci !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Le PV ? Je l'ai signé dans l'ascenseur, sans entrer : zéro réserve, zéro souci !",
+      "scene": "Mozi signe le procès-verbal contre la paroi de l'ascenseur ; derrière la porte, une trace de reprise barre le plafond de la cuisine."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "Chantier fini, PV signé sans regarder, visites demain",
+      "voice": "Chantier fini. Procès-verbal signé sans regarder. Visites dès demain. Où est l'erreur ?",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant touche le temps fautif ; pause jusqu'à la réponse",
+      "source": null,
+      "beats": ["Chantier fini", "PV signé sans regarder", "Visites dès demain"],
+      "wrong": 1,
+      "why": "Un défaut visible que personne ne note au PV est considéré comme accepté : les garanties ne le couvrent plus."
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "Défaut non signalé = défaut accepté",
+      "voice": "Et la trace du plafond ? Elle n'est pas notée au procès-verbal. Elle est donc considérée comme acceptée. Le peintre n'a plus à la reprendre au titre des garanties. Et c'est elle que les acquéreurs verront en premier.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["Défaut visible non noté au PV : considéré comme accepté.", "Plus de réparation au titre des garanties."],
+      "source": "Service-Public, fiche F2958 « Garanties après la réception des travaux », vérifiée le 25/09/2026 : « Si vous ne signalez pas le désordre, il est considéré comme accepté. Vous ne pourrez plus demander au constructeur de le réparer au titre des garanties. »"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "12 mois de garantie de parfait achèvement",
+      "voice": "Douze mois. C'est la garantie de parfait achèvement : pendant un an après la réception, l'entreprise répare les désordres signalés. À condition qu'ils soient signalés.",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant estime au curseur, puis le vrai chiffre s'affiche",
+      "guess": { "q": "Pendant combien de mois après la réception l'entreprise doit-elle réparer les désordres signalés (garantie de parfait achèvement) ?", "answer": 12, "min": 0, "max": 36, "step": 1, "unit": " mois" },
+      "value": "12 mois",
+      "label": "de garantie de parfait achèvement à compter de la réception, pour les désordres réservés au PV ou notifiés par écrit ensuite",
+      "source": "Code civil, art. 1792-6, al. 2 (« pendant un délai d'un an, à compter de la réception »), Légifrance, version en vigueur au 28/10/2026"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Planning → Réception → Garanties",
+      "voice": "Trois temps. Un : le planning. Chez M. Bernard, trois corps de métier pour le plan Éco-staging. D'abord le ventiliste, qui débouche le conduit de la salle de bains : on traite la cause de l'humidité. Puis l'électricien, pour l'éclairage du séjour. Le peintre passe en dernier, pour ne rien abîmer. Deux : la réception. C'est M. Bernard, le maître de l'ouvrage, qui réceptionne, avec chaque entreprise. Toi, tu prépares la liste de contrôle et tu l'accompagnes. Chaque défaut visible devient une réserve, avec une photo et un délai de levée fixé d'un commun accord. Trois : les garanties. Un an de parfait achèvement. Deux ans de bon fonctionnement pour les équipements qu'on peut enlever sans abîmer le bâti. Dix ans pour les dommages graves. Tu ranges factures et attestations d'assurance dans le dossier de vente.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Code civil, art. 1792, 1792-3, 1792-4-1 et 1792-6 (Légifrance, en vigueur au 28/10/2026) ; Service-Public F2958 (vérifiée le 25/09/2026) ; bible du fil rouge, §7 (plan Éco-staging, fictif)",
+      "steps": [
+        { "label": "Planning", "detail": "La cause d'abord, les finitions ensuite : ventiliste (conduit de la salle de bains), électricien (éclairage du séjour), peintre (traitement anti-moisissures et plafond de cuisine)." },
+        { "label": "Réception", "detail": "Le vendeur réceptionne avec chaque entreprise ; chaque défaut visible devient une réserve écrite, avec photo et délai de levée fixé d'un commun accord." },
+        { "label": "Garanties", "detail": "1 an de parfait achèvement, 2 ans de bon fonctionnement (équipements dissociables), 10 ans pour les dommages graves ; factures et attestations au dossier." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Le peintre a laissé une trace au plafond de la cuisine. M. Bernard demande à Claire s'il doit signer quand même. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; Code civil, art. 1792-6",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Vendredi, réception du lot peinture. M. Bernard, très factuel, montre une trace de reprise au plafond de la cuisine et demande à Claire : « Je signe quand même ? » Que lui répond Claire, en deux phrases ?",
+      "model_answer": "Oui, vous pouvez signer la réception, mais avec une réserve écrite : « trace de reprise au plafond de la cuisine », avec une photo. On fixe avec le peintre un délai de levée avant les premières visites, et la garantie de parfait achèvement couvre ce défaut puisqu'il est noté au PV.",
+      "keywords": ["réserve", "photo", "délai de levée", "parfait achèvement", "PV"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Code civil, art. 1792-1 et 1792-6 ; Code des assurances, art. L. 243-2 ; Service-Public F2958 (vérifiée le 25/09/2026)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "La réception est un acte contradictoire du maître de l'ouvrage : on visite, et chaque défaut visible est noté en réserve",
+          "Une réception sans réserve est toujours préférable, car elle accélère la levée des garanties",
+          "Aucune : l'agent peut réceptionner seul les travaux à la place du vendeur, s'il le fait vite"
+        ],
+        "answer": 0,
+        "feedback": "La réception est l'acte par lequel le maître de l'ouvrage, ici M. Bernard, accepte l'ouvrage avec ou sans réserves, de façon contradictoire. Un défaut visible non réservé est considéré comme accepté.",
+        "whys": [
+          "Exact : on visite avec l'entreprise et chaque défaut visible devient une réserve écrite au PV (art. 1792-6).",
+          "Faux : sans réserve, les défauts visibles sont considérés comme acceptés ; la réception ne « lève » aucune garantie, elle les fait démarrer.",
+          "Faux : c'est le maître de l'ouvrage qui réceptionne ; l'agent prépare et accompagne, il ne signe pas à la place du vendeur."
+        ]
+      },
+      "card2": {
+        "question": "Si M. Bernard faisait aussi remplacer ses 4 fenêtres avant la vente, que se passerait-il ?",
+        "answer": "En vendant un ouvrage qu'il a fait construire, il serait réputé constructeur (art. 1792-1, 2°). Pour une vente dans les dix ans, l'acte mentionne les assurances et l'attestation est annexée (art. L. 243-2 du Code des assurances) : il faudrait garder factures et attestation d'assurance de l'entreprise. Le notaire le confirmera."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux documents, un seul but",
+      "voice": "Deux documents, un seul but : des travaux finis, réceptionnés et prouvés avant la première visite. Le planning, puis la fiche de réception.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource de la capsule 3.15 : modèle de planning de chantier et fiche PV de réception et réserves",
+      "goal": "Des travaux finis, réceptionnés et prouvés avant la première visite",
+      "tools": [
+        { "name": "Modèle de planning de chantier", "role": "Ordonner trois corps de métier, avec dates et réception" },
+        { "name": "Fiche PV de réception et réserves", "role": "Noter chaque réserve, son délai de levée et les garanties" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le planning de M. Bernard",
+      "voice": "Le planning, semaine du 9 novembre. Lundi, le ventiliste. Mardi, l'électricien. Mercredi 11, férié. Jeudi et vendredi matin, le peintre. Vendredi après-midi, la réception, lot par lot. Tout est fini avant le 13 novembre au soir.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge, §7 (plan Éco-staging, fictif) ; échéance « avant le 13/11/2026 » reprise des chapitres du module 3 ; dates du planning fictives, à valider ; 11 novembre, jour férié (Code du travail, art. L. 3133-1)",
+      "tool": "Modèle de planning de chantier",
+      "steps": [
+        "Lundi 9/11 : ventiliste, débouchage du conduit de la salle de bains",
+        "Mardi 10/11 : électricien, éclairage du séjour",
+        "Jeudi 12 et vendredi 13/11 matin : peintre, traitement et plafond",
+        "Vendredi 13/11 après-midi : réception, un PV par entreprise"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "Lire le PV : réserve, délai, garanties",
+      "voice": "Puis la fiche de réception du peintre. Réserve : trace de reprise au plafond de la cuisine, avec photo. Délai de levée convenu : huit jours. Levée constatée par écrit. Et les garanties démarrent le 13 novembre : un an, deux ans, dix ans selon les ouvrages.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Code civil, art. 1792-6 (délais de réparation fixés d'un commun accord ; exécution constatée d'un commun accord), 1792-3 et 1792-4-1 ; délai de 8 jours fictif (exemple de PV)",
+      "tool": "Fiche PV de réception et réserves",
+      "steps": [
+        "Réserve : trace de reprise au plafond de la cuisine, photo jointe",
+        "Délai de levée : 8 jours, fixé d'un commun accord",
+        "Levée : constatée par écrit, signée par les deux parties",
+        "Garanties : départ le 13/11/2026, factures et attestations au dossier"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais le planning, puis lis le PV de réception.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 3.15 (PLAN.json) : planning de trois corps de métier, puis lecture d'un procès-verbal de réception (réserves, délai de levée, garanties)",
+      "cta": "Ouvrir l'exercice",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton planning et ta lecture du procès-verbal.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 3.15 : planning de trois corps de métier et fiche PV de réception lue (réserves, délai de levée, garanties)",
+      "ask": "Dépose une capture de ton planning des trois corps de métier et de ta fiche PV remplie : chaque réserve, son délai de levée, et les garanties qui en découlent (1, 2 ou 10 ans).",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Le chantier t'attend : reviens déposer ton planning et ton PV quand ils sont prêts."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Chez M. Bernard, chaque défaut est noté, daté, réparé. Les acquéreurs visiteront un chantier fini, pas une promesse.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton chantier : 3 entreprises, 3 PV, 1 réserve levée, garanties datées. Celui de Mozi : 1 signature dans l'ascenseur.",
+      "source": "Fait observable de l'exercice (planning et PV de l'apprenant) ; bible du fil rouge (fictif)"
+    }
+  ],
+  "sources": [
+    { "label": "Code civil, art. 1792-6 (réception avec ou sans réserves, garantie de parfait achèvement d'un an, délais fixés d'un commun accord), Légifrance, en vigueur au 28/10/2026", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006443552" },
+    { "label": "Code civil, art. 1792 (responsabilité de plein droit du constructeur, dommages compromettant la solidité ou rendant l'ouvrage impropre à sa destination)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006443502" },
+    { "label": "Code civil, art. 1792-1 (est réputé constructeur toute personne qui vend, après achèvement, un ouvrage qu'elle a construit ou fait construire)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006443512" },
+    { "label": "Code civil, art. 1792-3 (garantie de bon fonctionnement d'une durée minimale de deux ans à compter de la réception)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006443534" },
+    { "label": "Code civil, art. 1792-4-1 (décharge des responsabilités après dix ans à compter de la réception)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019017055" },
+    { "label": "Code des assurances, art. L. 243-2 (acte de vente avant dix ans : mention des assurances, attestation annexée)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031010272" },
+    { "label": "Service-Public, F2958 « Garanties après la réception des travaux », vérifiée le 25/09/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2958" },
+    { "label": "DGCCRF, fiche pratique « Malfaçon : mettez en œuvre les garanties »", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/malfacon-mettez-en-oeuvre-les-garanties" },
+    { "label": "Bible du fil rouge (données fictives : plan Éco-staging §7, D13 devis des travaux privatifs)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Garanties à faire relire par un juriste : classement exact des lots du plan Éco-staging (peinture en principe sous la seule garantie de parfait achèvement ; éclairage : bon fonctionnement si équipement dissociable) ; à vérifier au cas par cas avec l'entreprise et son assureur",
+    "Cohérence budgétaire : la bible chiffre le plan Éco-staging à ≈ 450 € ; trois entreprises pour ce budget est optimiste. Montant volontairement absent du chapitre, à confirmer par Sébastien Paumier (ou part faite par le vendeur lui-même)",
+    "Planning (9-13/11/2026) et délai de levée de 8 jours : exemples fictifs, à valider ; échéance « avant le 13/11/2026 » reprise des autres chapitres du module 3",
+    "Carte 2 du quiz (vendeur réputé constructeur, L. 243-2) : relecture juridique, et préciser que l'obligation d'assurance dépend de la nature des travaux",
+    "Rappeler dans la ressource : l'éco-consultant ne choisit pas l'entreprise et ne signe pas la réception à la place du vendeur",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+  ]
+}

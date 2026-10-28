@@ -1,0 +1,198 @@
+{
+  "id": "1.14",
+  "module": 1,
+  "section": "F · Je crée ma promesse et mon pitch",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Méthode 5C : les cinq C, et le premier, Contacter",
+  "objective": "Situer chaque étape de la relation vendeur dans les 5C (Contacter, Connaître, Convaincre, Conclure, Conforter) et préparer par écrit une prise de contact conforme avec un propriétaire",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier présente la méthode des 5C, de la première prise de contact au suivi après la vente : Contacter, Connaître, Convaincre, Conclure, Conforter. Puis il détaille le premier C sur le cas de M. Bernard : pourquoi j'ai le droit de le contacter, par quel canal, avec quelle première phrase et quel objectif."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Tu rappelles M. Bernard et tu lui présentes aussitôt ton mandat exclusif. À quel C es-tu passé trop vite ?",
+        "options": [
+          "Conforter",
+          "Connaître : tu proposes une solution avant d'avoir compris son projet",
+          "Contacter : tu n'aurais pas dû l'appeler"
+        ],
+        "answer": 1,
+        "whys": [
+          "Conforter vient après la conclusion, une fois le travail fait ; ici, tu n'as encore rien construit.",
+          "Juste : avant de convaincre et de conclure, tu découvres son projet, son calendrier (vendre avant l'été 2027) et ses craintes (le −15 %).",
+          "Le contact est légitime : il a coché qu'il acceptait d'être recontacté par ton agence au sujet de son DPE et de l'estimation."
+        ],
+        "fb_title": "Chaque C prépare le suivant",
+        "fb_text": "Contacter ouvre la porte, Connaître donne la matière, Convaincre s'appuie sur des preuves, Conclure formalise (mandat écrit), Conforter entretient la confiance jusqu'à l'acte et après. Sauter Connaître, c'est convaincre à l'aveugle."
+      },
+      {
+        "question": "Pour le premier C, quelle est la bonne question à te poser avant tout contact ?",
+        "options": [
+          "« Ai-je le droit de le contacter, sur quel objet et par quel canal ? »",
+          "« Combien de fois puis-je l'appeler cette semaine ? »",
+          "« Quel est le prix que je vais lui annoncer ? »"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : depuis le 11/08/2026, le démarchage téléphonique d'un consommateur exige son consentement préalable, pour un objet et un professionnel précis.",
+          "La fréquence compte (4 sollicitations téléphoniques au maximum sur 30 jours), mais elle vient après la question du droit de contacter.",
+          "Annoncer un prix au premier contact, c'est sauter Connaître et Convaincre ; et c'est ce qu'ont fait les deux agences du −15 %."
+        ],
+        "fb_title": "Contacter commence par la légitimité",
+        "fb_text": "Avant de composer un numéro : d'où vient le contact, quel accord a été donné, pour quel objet, jusqu'à quand. M. Bernard a accepté d'être recontacté par ton agence sur son DPE et l'estimation : c'est ton cadre, et ta première phrase le rappelle."
+      },
+      {
+        "question": "M. Bernard décroche. Quelle première phrase choisis-tu ?",
+        "options": [
+          "« Bonjour, j'ai un acheteur pour votre appartement, on peut signer cette semaine ? »",
+          "« Bonjour, je fais une étude de marché sur votre quartier, avez-vous cinq minutes ? »",
+          "« Bonjour Monsieur Bernard, [prénom nom] de [agence]. Vous avez demandé à être recontacté au sujet de votre DPE : est-ce un bon moment ? »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Argument invérifiable et pression : exactement ce qui fait raccrocher un vendeur prudent.",
+          "Prétexte trompeur : tu masques l'objet commercial de l'appel, ce qui ruine la confiance et peut constituer une pratique trompeuse.",
+          "Juste : identité claire, rappel de sa demande, respect de son temps. Il sait qui appelle et pourquoi."
+        ],
+        "fb_title": "Qui, pourquoi, et la permission",
+        "fb_text": "Une ouverture conforme et efficace tient en trois éléments : ton identité et ton agence, l'objet de sa demande, la permission de poursuivre. Si ce n'est pas le moment, tu proposes un créneau et tu raccroches."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche 5C : Contacter, Connaître, Convaincre, Conclure, Conforter ; 1er C détaillé (à reprendre du support de formation Éco- courtier de 2020)",
+    "kind": "fiche",
+    "intro": "Version provisoire : les 5C sont décrits ici de façon générique, en attendant la reprise du support de formation Éco-courtier de 2020. Le premier C, Contacter, est détaillé pour préparer ton premier échange avec un propriétaire.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les 5C en un coup d'œil (version générique)",
+        "headers": [
+          "C",
+          "Objectif",
+          "Ce que tu produis",
+          "Capsules liées"
+        ],
+        "rows": [
+          [
+            "Contacter",
+            "Ouvrir un échange légitime et obtenir un premier rendez-vous",
+            "Une prise de contact préparée, la preuve du consentement",
+            "1.14, 1.21, 1.22"
+          ],
+          [
+            "Connaître",
+            "Comprendre le projet, le bien, le calendrier et les craintes du vendeur",
+            "Une fiche découverte remplie (D01)",
+            "Module 2"
+          ],
+          [
+            "Convaincre",
+            "Montrer, pièces à l'appui, ce que ta méthode change",
+            "Une démonstration, un avis de valeur écrit",
+            "1.16, module 2"
+          ],
+          [
+            "Conclure",
+            "Formaliser l'accord par un mandat écrit conforme",
+            "Le mandat signé et inscrit au registre",
+            "Module 3"
+          ],
+          [
+            "Conforter",
+            "Tenir les engagements et entretenir la relation jusqu'à l'acte et après",
+            "Comptes rendus, suivi, demande d'avis et de recommandation",
+            "Modules 4 et 5"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Le 1er C détaillé : préparer un contact",
+        "items": [
+          "Source : d'où vient ce contact (formulaire, recommandation, rencontre) ? Note-la.",
+          "Droit : quel accord a été donné, à qui, pour quel objet, jusqu'à quand ? Sans consentement préalable, pas d'appel de prospection.",
+          "Canal : celui que la personne a accepté (téléphone, e-mail, SMS) ; en jours et heures autorisés pour le téléphone (lundi-vendredi, 10 h-13 h et 14 h-20 h).",
+          "Objectif unique : obtenir le rendez-vous R1, pas un mandat.",
+          "Ouverture : ton identité, ton agence, l'objet de sa demande, la permission de poursuivre.",
+          "Deux ou trois questions de découverte courtes, puis deux créneaux proposés.",
+          "Trace : date, canal, résultat et prochaine action dans ton tableau de suivi."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Exemple : le premier contact avec M. Bernard (fictif)",
+        "text": "Source : formulaire du site de ton agence, case cochée « J'accepte d'être recontacté par [ton agence] au sujet de mon DPE et de l'estimation de mon bien ». Il ne décroche plus aux numéros inconnus : tu commences par un message écrit. « Bonjour Monsieur Bernard, [prénom nom], [agence]. Vous avez demandé à être recontacté au sujet de votre DPE et de l'estimation de votre appartement. Je peux vérifier avec vous l'étiquette à jour avant de parler prix. Je vous propose mardi 18 h ou jeudi 10 h, 45 minutes chez vous. Vous pouvez aussi me répondre par écrit. »"
+      },
+      {
+        "type": "checklist",
+        "heading": "À ne pas faire au premier C",
+        "items": [
+          "Appeler un numéro relevé sur une annonce de particulier sans consentement préalable.",
+          "Masquer l'objet commercial de l'appel (fausse enquête, faux organisme).",
+          "Annoncer un prix ou une décote avant d'avoir vu le bien et les documents.",
+          "Relancer plus de 4 fois par téléphone en 30 jours, ou après un refus."
+        ]
+      }
+    ],
+    "footer": "Sources : DGCCRF, règles du démarchage téléphonique (loi n° 2025-594, décret n° 2026-662, 27/07/2026) ; décret n° 2022-1313 (jours et horaires). Les 5C : description générique provisoire, à remplacer par le support de formation Éco-courtier de 2020. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Préparer sa prise de contact avec un propriétaire",
+    "duration_min": 25,
+    "context": "Tu prépares le premier C pour M. Bernard (fictif), qui a coché sur le site de ton agence qu'il acceptait d'être recontacté au sujet de son DPE et de l'estimation de son bien, mais qui ne décroche plus aux numéros inconnus. Si tu as un vrai contact consenti, tu peux préparer aussi le sien, sans données personnelles dans ton livrable.",
+    "materials": [
+      "D01 Fiche découverte vendeur (vierge)",
+      "Fiche 5C (ressource)",
+      "La preuve du consentement (capture du formulaire, fictive pour M. Bernard)"
+    ],
+    "steps": [
+      "Remplis les 3 premières lignes de la préparation : source, droit (accord, objet, durée), canal autorisé.",
+      "Fixe l'objectif unique du contact : le rendez-vous R1, avec deux créneaux.",
+      "Écris le message écrit d'ouverture (SMS ou e-mail) puis la phrase d'ouverture si tu l'as au téléphone.",
+      "Prépare 3 questions de découverte courtes (projet, calendrier, ce qu'on lui a déjà dit).",
+      "Prévois la réponse à « Je ne suis pas intéressé » et la façon de clore l'échange.",
+      "Note la ligne que tu écriras dans ton tableau de suivi après le contact."
+    ],
+    "expected": "Exemple attendu. Source : formulaire du site. Droit : accord donné à [agence] pour être recontacté au sujet du DPE et de l'estimation, durée 12 mois maximum, preuve conservée. Canal : message écrit d'abord, puis téléphone en jours et heures autorisés. Objectif : R1 de 45 minutes chez lui. Ouverture : « Bonjour Monsieur Bernard, [prénom nom], [agence]. Vous avez demandé à être recontacté au sujet de votre DPE : est-ce un bon moment ? » Questions : « Où en est votre projet ? », « Pour quand souhaitez-vous avoir vendu ? », « Qu'est-ce qu'on vous a déjà dit sur votre DPE ? ». Refus : « Je note, je ne vous recontacterai pas ; vous pouvez revenir vers moi à tout moment. » Suivi : date, canal, résultat, prochaine action."
+  },
+  "deliverable": {
+    "title": "Ma préparation de prise de contact",
+    "format": "Fiche d'une page (PDF ou DOCX) : source, droit, canal, objectif, message d'ouverture, 3 questions, réponse au refus, ligne de suivi",
+    "criteria": [
+      "La source et la preuve du consentement sont identifiées (objet, professionnel, durée)",
+      "Le canal et les horaires respectent les règles de démarchage",
+      "L'objectif est unique : obtenir le rendez-vous R1",
+      "L'ouverture donne l'identité, l'agence et l'objet de la demande, sans prétexte",
+      "Le refus est respecté et tracé"
+    ]
+  },
+  "sources": [
+    {
+      "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises"
+    },
+    {
+      "label": "Légifrance — Loi n° 2025-594 du 30 juin 2025 contre toutes les fraudes aux aides publiques",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051824277"
+    },
+    {
+      "label": "Légifrance — Décret n° 2026-662 du 23 juillet 2026 (recueil, conservation et retrait du consentement à la prospection téléphonique)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054483939"
+    },
+    {
+      "label": "Légifrance — Décret n° 2022-1313 du 13 octobre 2022 (jours, horaires et fréquence du démarchage téléphonique)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046421823"
+    }
+  ],
+  "open_points": [
+    "Reprendre le support de formation Éco-courtier de 2020 : définitions exactes des 5C, contenu détaillé du premier C, exemples d'origine.",
+    "Valider avec Sébastien Paumier que l'ordre et les intitulés des 5C (Contacter, Connaître, Convaincre, Conclure, Conforter) correspondent au support de 2020."
+  ]
+}
