@@ -131,7 +131,7 @@
       "voice": "D'abord, tu pars des défauts, pas de la déco. Sur le reportage photo de M. Bernard : moisissures dans la salle de bains, auréole au plafond de la cuisine, fissure fine dans le dégagement, séjour encombré et sombre. Ensuite, pour chaque défaut, un verbe. Traiter, si c'est petit et durable. Documenter, si c'est lourd : l'absence de VMC, devis à 2 900 euros. Expliquer, si c'est sans gravité : la fissure, non structurelle, à surveiller. Enfin, tu retiens trois actions, chacune chiffrée. Salle de bains et conduit : environ 220 euros. Plafond de la cuisine : environ 70 euros. Séjour désencombré et éclairé : environ 160 euros. Total : environ 450 euros.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
-      "source": "Dossier fil rouge, bible §2, §6 et §7 (défauts ; devis VMC 2 900 € ; plan Éco-staging ≈ 450 € en trois postes) ; répartition indicative 70 + 150 / 70 / 160 € reprise du chapitre v3 3.4, prix fictifs à vérifier localement",
+      "source": "Dossier fil rouge, bible §2, §6 et §7 (défauts ; devis VMC 2 900 € ; plan Éco-staging ≈ 450 € en trois postes) ; répartition indicative 70 + 150 / 70 / 160 € prix fictifs à vérifier localement",
       "steps": [
         {
           "label": "Partir des défauts",

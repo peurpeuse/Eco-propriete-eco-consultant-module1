@@ -88,15 +88,47 @@
       {
         "heading": "Seuils DPE (logements de 40 m² et plus)",
         "type": "table",
-        "headers": ["Classe", "Énergie primaire (kWhEP/m²/an)", "Émissions (kgCO₂/m²/an)"],
+        "headers": [
+          "Classe",
+          "Énergie primaire (kWhEP/m²/an)",
+          "Émissions (kgCO₂/m²/an)"
+        ],
         "rows": [
-          ["A", "≤ 70", "≤ 6"],
-          ["B", "> 70 et ≤ 110", "> 6 et ≤ 11"],
-          ["C", "> 110 et ≤ 180", "> 11 et ≤ 30"],
-          ["D", "> 180 et ≤ 250", "> 30 et ≤ 50"],
-          ["E", "> 250 et ≤ 330", "> 50 et ≤ 70"],
-          ["F", "> 330 et ≤ 420", "> 70 et ≤ 100"],
-          ["G", "> 420", "> 100"]
+          [
+            "A",
+            "≤ 70",
+            "≤ 6"
+          ],
+          [
+            "B",
+            "> 70 et ≤ 110",
+            "> 6 et ≤ 11"
+          ],
+          [
+            "C",
+            "> 110 et ≤ 180",
+            "> 11 et ≤ 30"
+          ],
+          [
+            "D",
+            "> 180 et ≤ 250",
+            "> 30 et ≤ 50"
+          ],
+          [
+            "E",
+            "> 250 et ≤ 330",
+            "> 50 et ≤ 70"
+          ],
+          [
+            "F",
+            "> 330 et ≤ 420",
+            "> 70 et ≤ 100"
+          ],
+          [
+            "G",
+            "> 420",
+            "> 100"
+          ]
         ]
       },
       {
@@ -107,16 +139,61 @@
       {
         "heading": "Calculateur à remplir",
         "type": "table",
-        "headers": ["Ligne", "Formule", "Ton bien", "M. Bernard (corrigé)"],
+        "headers": [
+          "Ligne",
+          "Formule",
+          "Ton bien",
+          "M. Bernard (corrigé)"
+        ],
         "rows": [
-          ["1. EF / m²", "Somme des usages lue sur le DPE", "……", "150 kWhEF/m²/an"],
-          ["2. EF / an", "Ligne 1 × surface", "……", "11 400 kWhEF/an"],
-          ["3. EP / m² (coefficient en vigueur)", "Non électrique + électrique × 1,9", "……", "285 → E"],
-          ["4. EP / m² (année suivante)", "Non électrique + électrique × 1,7", "……", "255 → E"],
-          ["5. GES / an", "kgCO₂/m² × surface", "……", "912 kgCO₂/an (C)"],
-          ["6. Classe retenue", "La moins bonne (EP, GES)", "……", "E (attestation)"],
-          ["7. Écart au seuil inférieur", "EP − seuil de la classe du dessous", "……", "255 − 250 = 5"],
-          ["8. Coût / mois", "Fourchette DPE ÷ 12", "……", "≈ 194 à 266 € (prix 2021)"]
+          [
+            "1. EF / m²",
+            "Somme des usages lue sur le DPE",
+            "……",
+            "150 kWhEF/m²/an"
+          ],
+          [
+            "2. EF / an",
+            "Ligne 1 × surface",
+            "……",
+            "11 400 kWhEF/an"
+          ],
+          [
+            "3. EP / m² (coefficient en vigueur)",
+            "Non électrique + électrique × 1,9",
+            "……",
+            "285 → E"
+          ],
+          [
+            "4. EP / m² (année suivante)",
+            "Non électrique + électrique × 1,7",
+            "……",
+            "255 → E"
+          ],
+          [
+            "5. GES / an",
+            "kgCO₂/m² × surface",
+            "……",
+            "912 kgCO₂/an (C)"
+          ],
+          [
+            "6. Classe retenue",
+            "La moins bonne (EP, GES)",
+            "……",
+            "E (attestation)"
+          ],
+          [
+            "7. Écart au seuil inférieur",
+            "EP − seuil de la classe du dessous",
+            "……",
+            "255 − 250 = 5"
+          ],
+          [
+            "8. Coût / mois",
+            "Fourchette DPE ÷ 12",
+            "……",
+            "≈ 194 à 266 € (prix 2021)"
+          ]
         ]
       }
     ],
@@ -171,7 +248,6 @@
   ],
   "open_points": [
     "À vérifier : relire les seuils dans l'annexe de l'arrêté du 31/03/2021 modifié (valeurs reprises de la capsule v3, non relues ce jour dans le texte)",
-    "À vérifier : facteur d'émission du fioul (0,324 kgCO₂/kWh) et calcul des ≈ 119 kgCO₂/m²/an de Mme Garnier (BIBLE §11.3)",
-    "Chapitre à adapter depuis chap_2.3 (v3) : retirer la partie Carrez (désormais capsule 2.15), ajouter le cas Garnier"
+    "À vérifier : facteur d'émission du fioul (0,324 kgCO₂/kWh) et calcul des ≈ 119 kgCO₂/m²/an de Mme Garnier (BIBLE §11.3)"
   ]
 }

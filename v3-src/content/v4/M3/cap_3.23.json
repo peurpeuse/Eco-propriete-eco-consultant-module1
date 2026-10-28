@@ -73,14 +73,42 @@
       {
         "type": "table",
         "heading": "1. Le coût total du projet (exemple, profil type primo-accédant)",
-        "headers": ["Poste", "Montant", "Source ou hypothèse"],
+        "headers": [
+          "Poste",
+          "Montant",
+          "Source ou hypothèse"
+        ],
         "rows": [
-          ["Prix honoraires inclus", "189 000 €", "Prix de présentation recommandé (180 000 € net + 9 000 € TTC d'honoraires à la charge de l'acquéreur)"],
-          ["Frais de notaire (estimation)", "≈ 13 700 €", "Ratio du dossier : 13 300 / 175 000 ≈ 7,6 % du prix hors honoraires ; 7,6 % × 180 000 € ≈ 13 680 € ; à faire confirmer par le notaire"],
-          ["Travaux privatifs", "16 500 €", "Devis D13 (fenêtres 5 600, VMC 2 900, radiateurs 4 800, chauffe-eau 3 200)"],
-          ["Frais de garantie (estimation)", "≈ 2 000 €", "Ordre de grandeur du dossier, à faire chiffrer par le courtier"],
-          ["Apport (hypothèse)", "− 22 000 €", "Profil type retenu pour l'exemple"],
-          ["Montant à emprunter", "≈ 199 200 €", "189 000 + 13 700 + 16 500 + 2 000 − 22 000"]
+          [
+            "Prix honoraires inclus",
+            "189 000 €",
+            "Prix de présentation recommandé (180 000 € net + 9 000 € TTC d'honoraires à la charge de l'acquéreur)"
+          ],
+          [
+            "Frais de notaire (estimation)",
+            "≈ 13 700 €",
+            "Ratio du dossier : 13 300 / 175 000 ≈ 7,6 % du prix hors honoraires ; 7,6 % × 180 000 € ≈ 13 680 € ; à faire confirmer par le notaire"
+          ],
+          [
+            "Travaux privatifs",
+            "16 500 €",
+            "Devis D13 (fenêtres 5 600, VMC 2 900, radiateurs 4 800, chauffe-eau 3 200)"
+          ],
+          [
+            "Frais de garantie (estimation)",
+            "≈ 2 000 €",
+            "Ordre de grandeur du dossier, à faire chiffrer par le courtier"
+          ],
+          [
+            "Apport (hypothèse)",
+            "− 22 000 €",
+            "Profil type retenu pour l'exemple"
+          ],
+          [
+            "Montant à emprunter",
+            "≈ 199 200 €",
+            "189 000 + 13 700 + 16 500 + 2 000 − 22 000"
+          ]
         ]
       },
       {
@@ -91,10 +119,22 @@
       {
         "type": "table",
         "heading": "3. Les appels de fonds de la copropriété",
-        "headers": ["Échéance", "Montant", "Qui paie au syndicat"],
+        "headers": [
+          "Échéance",
+          "Montant",
+          "Qui paie au syndicat"
+        ],
         "rows": [
-          ["1/01/2027", "8 970 €", "Le copropriétaire à la date d'exigibilité (décret n° 67-223, art. 6-2) ; accord différent possible entre vendeur et acquéreur, rédigé par le notaire"],
-          ["1/04, 1/07 et 1/10/2027", "3 × 8 970 €", "Idem : dépend de la date de l'acte"]
+          [
+            "1/01/2027",
+            "8 970 €",
+            "Le copropriétaire à la date d'exigibilité (décret n° 67-223, art. 6-2) ; accord différent possible entre vendeur et acquéreur, rédigé par le notaire"
+          ],
+          [
+            "1/04, 1/07 et 1/10/2027",
+            "3 × 8 970 €",
+            "Idem : dépend de la date de l'acte"
+          ]
         ]
       },
       {
@@ -162,16 +202,30 @@
     ]
   },
   "sources": [
-    { "label": "HCSF — Mesure relative à l'octroi de crédits immobiliers (taux d'effort 35 % au plus, durée 25 ans)", "url": "https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers" },
-    { "label": "Ministère de la Transition écologique — Éco-prêt à taux zéro (jusqu'à 50 000 €, 20 ans au plus)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/eco-pret-taux-zero-eco-ptz" },
-    { "label": "economie.gouv.fr — Rénovation énergétique : les aides (changements au 1er septembre 2026)", "url": "https://www.economie.gouv.fr/particuliers/faire-des-economies-denergie/renovation-energetique-les-aides-auxquelles-vous-pouvez-pretendre" },
-    { "label": "France Rénov' — MaPrimeRénov' par geste (conditions)", "url": "https://france-renov.gouv.fr/aides/mpr" },
-    { "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2 (en vigueur depuis le 25/12/2025)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265" }
+    {
+      "label": "HCSF — Mesure relative à l'octroi de crédits immobiliers (taux d'effort 35 % au plus, durée 25 ans)",
+      "url": "https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers"
+    },
+    {
+      "label": "Ministère de la Transition écologique — Éco-prêt à taux zéro (jusqu'à 50 000 €, 20 ans au plus)",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/eco-pret-taux-zero-eco-ptz"
+    },
+    {
+      "label": "economie.gouv.fr — Rénovation énergétique : les aides (changements au 1er septembre 2026)",
+      "url": "https://www.economie.gouv.fr/particuliers/faire-des-economies-denergie/renovation-energetique-les-aides-auxquelles-vous-pouvez-pretendre"
+    },
+    {
+      "label": "France Rénov' — MaPrimeRénov' par geste (conditions)",
+      "url": "https://france-renov.gouv.fr/aides/mpr"
+    },
+    {
+      "label": "Légifrance — Décret n° 67-223 du 17 mars 1967, art. 6-2 (en vigueur depuis le 25/12/2025)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    }
   ],
   "open_points": [
     "à vérifier : taux moyen du crédit immobilier sur 25 ans le jour de la diffusion (hypothèse du dossier fil rouge : 3,55 % en oct. 2026) — source à citer (par exemple l'Observatoire Crédit Logement/CSA).",
     "Frais de notaire (≈ 13 700 €) et frais de garantie (≈ 2 000 €) : ordres de grandeur dérivés du dossier fil rouge, à faire valider par Sébastien Paumier.",
-    "Valider avec Sébastien Paumier que le profil type (apport de 22 000 €) n'anticipe pas trop le dossier des acquéreurs Martin utilisé au module 4.",
-    "Chapitre interactif nouveau à écrire."
+    "Valider avec Sébastien Paumier que le profil type (apport de 22 000 €) n'anticipe pas trop le dossier des acquéreurs Martin utilisé au module 4."
   ]
 }

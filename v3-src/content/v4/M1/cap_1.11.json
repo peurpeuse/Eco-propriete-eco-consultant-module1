@@ -84,14 +84,35 @@
       {
         "type": "table",
         "heading": "Ce que je ne fais pas, et à qui je renvoie",
-        "headers": ["Je ne fais pas", "Je renvoie à"],
+        "headers": [
+          "Je ne fais pas",
+          "Je renvoie à"
+        ],
         "rows": [
-          ["Établir un DPE ou un audit, juger une fissure ou une pathologie", "Le diagnostiqueur certifié, l'auditeur, un bureau d'études ou un expert bâtiment"],
-          ["Vendre des travaux, choisir l'entreprise, toucher une commission", "Le vendeur, qui demande ses devis à des entreprises qualifiées (RGE si aides)"],
-          ["Conseil juridique (succession, répartition des charges, clauses)", "Le notaire"],
-          ["Conseil fiscal (plus-value, revenus fonciers)", "L'expert-comptable ou le notaire"],
-          ["Offre de financement, calcul d'aide présenté comme acquis", "Le courtier, la banque, France Rénov' pour les aides"],
-          ["Promettre un prix, une classe, un délai ou un gain", "Personne : je m'engage sur des moyens écrits"]
+          [
+            "Établir un DPE ou un audit, juger une fissure ou une pathologie",
+            "Le diagnostiqueur certifié, l'auditeur, un bureau d'études ou un expert bâtiment"
+          ],
+          [
+            "Vendre des travaux, choisir l'entreprise, toucher une commission",
+            "Le vendeur, qui demande ses devis à des entreprises qualifiées (RGE si aides)"
+          ],
+          [
+            "Conseil juridique (succession, répartition des charges, clauses)",
+            "Le notaire"
+          ],
+          [
+            "Conseil fiscal (plus-value, revenus fonciers)",
+            "L'expert-comptable ou le notaire"
+          ],
+          [
+            "Offre de financement, calcul d'aide présenté comme acquis",
+            "Le courtier, la banque, France Rénov' pour les aides"
+          ],
+          [
+            "Promettre un prix, une classe, un délai ou un gain",
+            "Personne : je m'engage sur des moyens écrits"
+          ]
         ]
       },
       {
@@ -151,17 +172,34 @@
     ]
   },
   "sources": [
-    { "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (loi Hoguet)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068387" },
-    { "label": "Légifrance — Loi Hoguet, article 6 (mandat écrit, rémunération)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032043077" },
-    { "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972 (registre des mandats)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006061974/" },
-    { "label": "Légifrance — Décret n° 2015-1090 du 28 août 2015 (code de déontologie des professionnels de l'immobilier)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031113441" },
-    { "label": "Décret n° 2016-173 du 18 février 2016 relatif à la formation continue des professionnels de l'immobilier (14 h/an ou 42 h sur 3 ans) — à vérifier sur Légifrance", "url": "https://www.legifrance.gouv.fr" },
-    { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" }
+    {
+      "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (loi Hoguet)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068387"
+    },
+    {
+      "label": "Légifrance — Loi Hoguet, article 6 (mandat écrit, rémunération)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032043077"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972 (registre des mandats)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006061974/"
+    },
+    {
+      "label": "Légifrance — Décret n° 2015-1090 du 28 août 2015 (code de déontologie des professionnels de l'immobilier)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031113441"
+    },
+    {
+      "label": "Décret n° 2016-173 du 18 février 2016 relatif à la formation continue des professionnels de l'immobilier (14 h/an ou 42 h sur 3 ans) — à vérifier sur Légifrance",
+      "url": "https://www.legifrance.gouv.fr"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    }
   ],
   "open_points": [
     "à faire relire par un juriste : la liste des obligations professionnelles (carte, garantie, RCP, mandat, déontologie, formation continue, lutte contre le blanchiment).",
     "à vérifier : référence Légifrance exacte et version en vigueur du décret n° 2016-173 (heures de déontologie et de non-discrimination).",
-    "à vérifier : obligations de lutte contre le blanchiment applicables à l'agent (code monétaire et financier) avant de les détailler.",
-    "Chapitre à adapter depuis l'ancien chap_1.2 : recadrer sur la promesse et les limites, renuméroter."
+    "à vérifier : obligations de lutte contre le blanchiment applicables à l'agent (code monétaire et financier) avant de les détailler."
   ]
 }

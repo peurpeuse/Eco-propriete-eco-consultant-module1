@@ -73,14 +73,42 @@
       {
         "heading": "Les 6 rubriques de la fiche",
         "type": "table",
-        "headers": ["Rubrique", "Ce que tu notes", "Document de contrôle"],
+        "headers": [
+          "Rubrique",
+          "Ce que tu notes",
+          "Document de contrôle"
+        ],
         "rows": [
-          ["1. Vendeur et décision", "Propriétaire(s), nature du bien (propre, commun, succession), personnes à consulter, résidence principale ou non", "Titre de propriété (D11 / M11)"],
-          ["2. Projet et délai", "Motif, projet d'après, échéance et marge, ordre vente / achat, besoin du prix de vente", "Reformulation validée (capsule 2.1)"],
-          ["3. Prix", "Prix espéré, avis de valeur reçus et leur justification, statut du prix plancher", "Avis écrits reçus, s'il y en a"],
-          ["4. Bien vu par le vendeur", "Atouts, gênes, travaux faits (avec factures), sinistres et leur clôture, DPE et attestation", "DPE (D02), attestation (D03), factures"],
-          ["5. Copropriété ou terrain", "Charges, travaux votés et échéancier, PPPT, procédures ; pour une maison : terrain, assainissement, servitudes", "D06 à D10 ; M06, M08 pour une maison"],
-          ["6. Critères de choix de l'agence", "Attentes, rythme et forme des comptes rendus, ce qui ferait dire « j'ai bien choisi »", "Mots du vendeur"]
+          [
+            "1. Vendeur et décision",
+            "Propriétaire(s), nature du bien (propre, commun, succession), personnes à consulter, résidence principale ou non",
+            "Titre de propriété (D11 / M11)"
+          ],
+          [
+            "2. Projet et délai",
+            "Motif, projet d'après, échéance et marge, ordre vente / achat, besoin du prix de vente",
+            "Reformulation validée (capsule 2.1)"
+          ],
+          [
+            "3. Prix",
+            "Prix espéré, avis de valeur reçus et leur justification, statut du prix plancher",
+            "Avis écrits reçus, s'il y en a"
+          ],
+          [
+            "4. Bien vu par le vendeur",
+            "Atouts, gênes, travaux faits (avec factures), sinistres et leur clôture, DPE et attestation",
+            "DPE (D02), attestation (D03), factures"
+          ],
+          [
+            "5. Copropriété ou terrain",
+            "Charges, travaux votés et échéancier, PPPT, procédures ; pour une maison : terrain, assainissement, servitudes",
+            "D06 à D10 ; M06, M08 pour une maison"
+          ],
+          [
+            "6. Critères de choix de l'agence",
+            "Attentes, rythme et forme des comptes rendus, ce qui ferait dire « j'ai bien choisi »",
+            "Mots du vendeur"
+          ]
         ]
       },
       {
@@ -176,7 +204,6 @@
   ],
   "open_points": [
     "Juriste : relire l'art. 6-2 (2°) et 6-3 du décret de 1967 sur le texte consolidé de Légifrance avant tournage (règle reprise de la capsule v3 2.1, non relue ce jour)",
-    "Rédacteur du dossier : la trame D01 doit comporter exactement les 6 rubriques de la ressource",
-    "Chapitre à adapter depuis chap_2.1 (v3) : nouveau numéro 2.2, écran 13-14 alignés sur cet exercice et ce livrable"
+    "Rédacteur du dossier : la trame D01 doit comporter exactement les 6 rubriques de la ressource"
   ]
 }

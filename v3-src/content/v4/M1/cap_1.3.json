@@ -1,167 +1,220 @@
 {
- "id": "1.3",
- "module": 1,
- "section": "B · J'étudie ma zone de chalandise",
- "etape": "Avant l'étape 1",
- "parcours": null,
- "prio": false,
- "ia": false,
- "title": "Le marché 2026 : ce qui change",
- "objective": "Relier trois changements observés chez ses propres clients à un fait sourcé du marché 2026 (prix, crédit, DPE, prospection) et formuler la réponse à leur apporter",
- "video": {
-  "duration": "4:30",
-  "chapter": true,
-  "pitch": "Chapitre interactif. Mozi appelle tout l'annuaire « parce que les gens adorent les surprises ». Sébastien Paumier montre ce qui a changé en 2026 : un marché qui repart mais des prix nationaux à −0,8 %, un DPE électrique recalculé avec 1,9, et une prospection téléphonique soumise au consentement préalable depuis le 11 août 2026. Démonstration sur M. Bernard."
- },
- "quiz": {
-  "questions": [
-   {
-    "question": "M. Bernard te dit : « L'Insee annonce −0,8 % sur un an. Mon appartement vaut donc 0,8 % de moins. » Que lui réponds-tu ?",
-    "options": [
-     "« Exactement, c'est la baisse qui s'applique à votre appartement. »",
-     "« Les ventes augmentent, donc votre appartement a pris de la valeur. »",
-     "« C'est une moyenne nationale ; pour les appartements c'est −0,1 %. Regardons les ventes de votre secteur. »"
+  "id": "1.3",
+  "module": 1,
+  "section": "B · J'étudie ma zone de chalandise",
+  "etape": "Avant l'étape 1",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Le marché 2026 : ce qui change",
+  "objective": "Relier trois changements observés chez ses propres clients à un fait sourcé du marché 2026 (prix, crédit, DPE, prospection) et formuler la réponse à leur apporter",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Chapitre interactif. Mozi appelle tout l'annuaire « parce que les gens adorent les surprises ». Sébastien Paumier montre ce qui a changé en 2026 : un marché qui repart mais des prix nationaux à −0,8 %, un DPE électrique recalculé avec 1,9, et une prospection téléphonique soumise au consentement préalable depuis le 11 août 2026. Démonstration sur M. Bernard."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "M. Bernard te dit : « L'Insee annonce −0,8 % sur un an. Mon appartement vaut donc 0,8 % de moins. » Que lui réponds-tu ?",
+        "options": [
+          "« Exactement, c'est la baisse qui s'applique à votre appartement. »",
+          "« Les ventes augmentent, donc votre appartement a pris de la valeur. »",
+          "« C'est une moyenne nationale ; pour les appartements c'est −0,1 %. Regardons les ventes de votre secteur. »"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : l'indice Insee est une moyenne nationale ; il ne donne pas la variation de valeur d'un bien précis.",
+          "Faux : volume et prix ne se déduisent pas l'un de l'autre ; plus de ventes ne veut pas dire des prix en hausse.",
+          "Juste : tu précises le champ (appartements −0,1 %) et tu ramènes la discussion aux ventes comparables de son secteur."
+        ],
+        "fb_title": "Le national donne la tendance, le local la valeur",
+        "fb_text": "Le −0,8 % de l'Insee est une moyenne nationale, tous logements anciens, au T2 2026 ; les appartements ont reculé de 0,1 % seulement. Pour l'appartement de M. Bernard, seules les ventes comparables du secteur (D12) permettent de conclure."
+      },
+      {
+        "question": "Dans le chapitre, Mozi appelle à la chaîne des numéros relevés sur des annonces. Quelle règle enfreint-il depuis le 11 août 2026 ?",
+        "options": [
+          "Le démarchage téléphonique d'un particulier exige son consentement préalable ; un numéro publié ne vaut pas accord.",
+          "Il aurait dû vérifier d'abord que les numéros n'étaient pas inscrits sur Bloctel.",
+          "Il ne peut appeler qu'entre 10 h et 13 h."
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : depuis le 11/08/2026 (loi n° 2025-594, décret n° 2026-662), il faut un consentement préalable, libre, spécifique, à ton nom, d'un an au plus.",
+          "Faux : Bloctel a disparu avec la réforme ; on ne raisonne plus en liste d'opposition mais en consentement préalable.",
+          "Faux : des plages horaires ne rendent pas licite un appel fait sans consentement."
+        ],
+        "fb_title": "Pas d'appel sans accord préalable",
+        "fb_text": "Mozi suppose qu'un numéro publié est libre. Depuis le 11/08/2026, l'appel de prospection vers un particulier exige son accord préalable, nominatif, pour un objet précis, d'un an au plus, dont tu gardes la preuve 3 ans. Un contrat obtenu ensuite est contestable."
+      },
+      {
+        "question": "Le DPE de M. Bernard (mars 2023) indique 150 kWhEF/m²/an, chauffage électrique. Quelle classe énergie en 2026, avec le coefficient 1,9 ?",
+        "options": [
+          "F : 150 × 2,3 = 345 kWhEP/m²/an",
+          "E : 150 × 1,9 = 285 kWhEP/m²/an",
+          "D : 150 × 1,7 = 255 kWhEP/m²/an"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : 2,3 était le coefficient en vigueur jusqu'au 31/12/2025 ; c'est le calcul du DPE de 2023.",
+          "Juste : 150 × 1,9 = 285 kWhEP/m²/an, entre 251 et 330 : classe E.",
+          "Faux : 1,7 ne s'applique qu'au 1/01/2027, et 255 reste en E (D s'arrête à 250)."
+        ],
+        "fb_title": "Coefficient 1,9 depuis le 1er janvier 2026",
+        "fb_text": "Depuis le 1/01/2026, l'électricité est convertie avec 1,9 (arrêté du 13/08/2025). 150 × 1,9 = 285, classe E (251 à 330). L'attestation actualisée gratuite de l'ADEME le confirme (D03). Au 1/01/2027, avec 1,7 : 255, toujours E."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche réglementation et tendances, sourcée",
+    "kind": "fiche",
+    "intro": "Les chiffres et les règles qui changent ta prise de mandat en 2026, avec leur source et la phrase à dire au vendeur. À garder dans ton dossier de rendez-vous et à mettre à jour chaque trimestre (Insee, Banque de France).",
+    "sections": [
+      {
+        "heading": "Le marché en 5 repères",
+        "type": "table",
+        "headers": [
+          "Indicateur",
+          "Valeur",
+          "Source",
+          "Ce que tu dis au vendeur"
+        ],
+        "rows": [
+          [
+            "Volume de ventes",
+            "958 000 ventes dans l'ancien sur 12 mois à fin juin 2026",
+            "Insee, IR n° 216 (8/09/2026)",
+            "« Les acheteurs sont revenus : il y a de la demande. »"
+          ],
+          [
+            "Prix",
+            "−0,8 % sur un an au T2 2026 ; maisons −1,3 %, appartements −0,1 %",
+            "Insee, IR n° 216",
+            "« C'est une moyenne nationale : regardons les ventes de votre secteur. »"
+          ],
+          [
+            "Taux moyen 20 ans",
+            "≈ 3,50 à 3,55 % (octobre 2026)",
+            "Meilleurtaux, 19/10/2026",
+            "« Vos acheteurs peuvent emprunter ; je vérifierai leur financement. »"
+          ],
+          [
+            "Taux d'usure",
+            "5,40 % pour 20 ans et plus, du 1/10 au 31/12/2026",
+            "Banque de France",
+            "« Le plafond se juge sur le TAEG, assurance comprise. »"
+          ],
+          [
+            "Ventes F-G",
+            "≈ 15 % des ventes de l'ancien début 2025",
+            "Notaires de France, valeur verte (7/01/2026)",
+            "« Les F et G se vendent ; l'écart de prix dépend de la région. »"
+          ]
+        ]
+      },
+      {
+        "heading": "DPE : ce qui a changé",
+        "type": "list",
+        "items": [
+          "Coefficient électricité : 2,3 jusqu'au 31/12/2025 ; 1,9 depuis le 1/01/2026 (arrêté du 13/08/2025) ; 1,7 au 1/01/2027 (arrêté du 19/08/2026).",
+          "Attestation actualisée gratuite sur l'observatoire DPE-Audit de l'ADEME, sans nouvelle visite, pour les DPE établis depuis le 1/07/2021. Elle vaut jusqu'à la fin de validité du DPE d'origine.",
+          "Les DPE établis avant le 1/07/2021 ne sont plus valables pour vendre.",
+          "Classe = la moins bonne des deux notes (énergie primaire et émissions)."
+        ]
+      },
+      {
+        "heading": "Prospection : la check-list depuis le 11 août 2026",
+        "type": "checklist",
+        "items": [
+          "Je n'appelle un particulier que s'il a donné son consentement préalable (loi n° 2025-594 du 30/06/2025, décret n° 2026-662 du 23/07/2026). Bloctel n'existe plus.",
+          "Le consentement est un acte positif clair, à mon nom, avec l'objet des appels et une durée d'un an au plus.",
+          "Je conserve la preuve au moins 3 ans.",
+          "J'arrête dès que la personne retire son accord.",
+          "SMS et e-mails de prospection vers un particulier : consentement préalable aussi (CNIL, art. L. 34-5 du code des postes et des communications électroniques).",
+          "Un contrat conclu après un démarchage illicite est contestable (portée exacte à confirmer par un juriste)."
+        ]
+      },
+      {
+        "heading": "Ce que pensent les vendeurs en 2026",
+        "type": "list",
+        "items": [
+          "51 % pensent que mettre les agences en concurrence augmente leurs chances (enquête leboncoin Immo auprès de 419 professionnels, sept.-oct. 2025, déclaratif).",
+          "Ils arrivent informés : estimateurs en ligne, articles sur le DPE, avis d'autres agences. Ta valeur ajoutée, c'est la preuve."
+        ]
+      },
+      {
+        "heading": "Exemple rempli : M. Bernard (fil rouge, fictif)",
+        "type": "text",
+        "text": "T4 de 76 m² à Melun, chauffage électrique, DPE du 14/03/2023 classé F (150 × 2,3 = 345 kWhEP). Deux agences lui ont annoncé « −15 % à cause du DPE », soit 172 000 €. Avec le coefficient 1,9 : 285 kWhEP, classe E, confirmée par l'attestation (D03). Tendance nationale des appartements : −0,1 % sur un an. Comparables du secteur (D12, fictifs) : 2 650 €/m² en l'état. Il a coché le consentement de ton agence : tu peux le recontacter sur son DPE et son estimation, et seulement sur cet objet."
+      }
     ],
-    "answer": 2,
-    "whys": [
-     "Faux : l'indice Insee est une moyenne nationale ; il ne donne pas la variation de valeur d'un bien précis.",
-     "Faux : volume et prix ne se déduisent pas l'un de l'autre ; plus de ventes ne veut pas dire des prix en hausse.",
-     "Juste : tu précises le champ (appartements −0,1 %) et tu ramènes la discussion aux ventes comparables de son secteur."
+    "footer": "Sources : Insee IR n° 216 (8/09/2026) ; Meilleurtaux (19/10/2026) ; Banque de France (usure T4 2026) ; Notaires de France, valeur verte (7/01/2026) ; arrêtés des 13/08/2025 et 19/08/2026 ; ADEME ; DGCCRF (27/07/2026) ; enquête leboncoin Immo (2025, déclaratif). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Lister 3 changements chez ses propres clients",
+    "duration_min": 25,
+    "context": "Avant de démarcher, tu prends du recul sur tes propres vendeurs : qu'est-ce qui a changé chez eux en 2026 ? Tu pars de tes rendez-vous réels de l'année. Le dossier de M. Bernard (fictif) sert d'exemple d'application.",
+    "materials": [
+      "Tes notes de 5 à 10 rendez-vous vendeurs de 2026",
+      "D02 DPE du 14/03/2023, D03 Attestation actualisée, D12 Tableau des comparables (fil rouge, fictifs)",
+      "Fiche réglementation et tendances"
     ],
-    "fb_title": "Le national donne la tendance, le local la valeur",
-    "fb_text": "Le −0,8 % de l'Insee est une moyenne nationale, tous logements anciens, au T2 2026 ; les appartements ont reculé de 0,1 % seulement. Pour l'appartement de M. Bernard, seules les ventes comparables du secteur (D12) permettent de conclure."
-   },
-   {
-    "question": "Dans le chapitre, Mozi appelle à la chaîne des numéros relevés sur des annonces. Quelle règle enfreint-il depuis le 11 août 2026 ?",
-    "options": [
-     "Le démarchage téléphonique d'un particulier exige son consentement préalable ; un numéro publié ne vaut pas accord.",
-     "Il aurait dû vérifier d'abord que les numéros n'étaient pas inscrits sur Bloctel.",
-     "Il ne peut appeler qu'entre 10 h et 13 h."
+    "steps": [
+      "Relis tes notes de 5 à 10 rendez-vous vendeurs de 2026 (ou, à défaut, interroge 3 collègues).",
+      "Repère ce qui revient : questions posées, craintes, documents apportés, comportement au téléphone.",
+      "Choisis 3 changements et rattache chacun à un fait sourcé de la fiche (marché, crédit, DPE, prospection, attentes des vendeurs).",
+      "Pour chaque changement, écris la réponse concrète que tu vas apporter (geste, document, phrase).",
+      "Vérifie que chaque chiffre cité a sa source et sa date, et qu'aucune réponse ne repose sur un appel sans consentement."
     ],
-    "answer": 0,
-    "whys": [
-     "Juste : depuis le 11/08/2026 (loi n° 2025-594, décret n° 2026-662), il faut un consentement préalable, libre, spécifique, à ton nom, d'un an au plus.",
-     "Faux : Bloctel a disparu avec la réforme ; on ne raisonne plus en liste d'opposition mais en consentement préalable.",
-     "Faux : des plages horaires ne rendent pas licite un appel fait sans consentement."
-    ],
-    "fb_title": "Pas d'appel sans accord préalable",
-    "fb_text": "Mozi suppose qu'un numéro publié est libre. Depuis le 11/08/2026, l'appel de prospection vers un particulier exige son accord préalable, nominatif, pour un objet précis, d'un an au plus, dont tu gardes la preuve 3 ans. Un contrat obtenu ensuite est contestable."
-   },
-   {
-    "question": "Le DPE de M. Bernard (mars 2023) indique 150 kWhEF/m²/an, chauffage électrique. Quelle classe énergie en 2026, avec le coefficient 1,9 ?",
-    "options": [
-     "F : 150 × 2,3 = 345 kWhEP/m²/an",
-     "E : 150 × 1,9 = 285 kWhEP/m²/an",
-     "D : 150 × 1,7 = 255 kWhEP/m²/an"
-    ],
-    "answer": 1,
-    "whys": [
-     "Faux : 2,3 était le coefficient en vigueur jusqu'au 31/12/2025 ; c'est le calcul du DPE de 2023.",
-     "Juste : 150 × 1,9 = 285 kWhEP/m²/an, entre 251 et 330 : classe E.",
-     "Faux : 1,7 ne s'applique qu'au 1/01/2027, et 255 reste en E (D s'arrête à 250)."
-    ],
-    "fb_title": "Coefficient 1,9 depuis le 1er janvier 2026",
-    "fb_text": "Depuis le 1/01/2026, l'électricité est convertie avec 1,9 (arrêté du 13/08/2025). 150 × 1,9 = 285, classe E (251 à 330). L'attestation actualisée gratuite de l'ADEME le confirme (D03). Au 1/01/2027, avec 1,7 : 255, toujours E."
-   }
+    "expected": "Exemple de réponse attendue. Changement 1 : le vendeur arrive informé et met les agences en concurrence (51 % selon l'enquête leboncoin Immo, déclaratif). Réponse : je remets des pièces (comparables, plan de vente) plutôt qu'un prix plus haut. Chez M. Bernard : à 2 650 €/m² (D12, fictif), la base est de 76 × 2 650 = 201 400 € avant ajustements, loin du « −15 % ». Changement 2 : le DPE électrique a changé de règle (1,9 depuis le 1/01/2026). Réponse : je vérifie l'étiquette avant de parler prix. Chez M. Bernard : 285 kWhEP, classe E (D03) au lieu de F. Changement 3 : les vendeurs ne décrochent plus et l'appel sans consentement est interdit depuis le 11/08/2026. Réponse : je ne contacte que des personnes consentantes, par écrit d'abord, avec un créneau proposé."
+  },
+  "deliverable": {
+    "title": "Mes 3 changements clients 2026",
+    "format": "PDF ou DOCX, 1 page (tableau à 4 colonnes : changement observé, fait sourcé, ma réponse, application)",
+    "criteria": [
+      "3 changements distincts, observés chez tes clients (pas recopiés de la vidéo)",
+      "Chaque changement est relié à un fait chiffré avec sa source et sa date",
+      "Chaque changement a une réponse concrète (geste, document ou phrase)",
+      "Aucun chiffre national n'est appliqué tel quel à un bien précis",
+      "Aucune réponse ne repose sur un appel sans consentement"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Insee — Informations rapides n° 216, indices des prix des logements anciens, T2 2026 (8/09/2026)",
+      "url": "https://www.insee.fr/fr/statistiques/9040119"
+    },
+    {
+      "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "label": "Meilleurtaux — Baromètre des taux immobiliers, octobre 2026",
+      "url": "https://www.meilleurtaux.com/credit-immobilier/taux-actuels/"
+    },
+    {
+      "label": "Banque de France — Taux d'usure applicables au 1er octobre 2026",
+      "url": "https://www.banque-france.fr/node/3357"
+    },
+    {
+      "label": "Légifrance — Arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises"
+    },
+    {
+      "label": "MySweetImmo — Enquête leboncoin Immo (419 professionnels, sept.-oct. 2025, déclaratif)",
+      "url": "https://www.mysweetimmo.com/2025/11/06/immobilier-les-biens-vendus-en-exclusivite-partent-51-jours-plus-vite-quen-mandat-simple/"
+    }
+  ],
+  "open_points": [
+    "Juriste : portée de la sanction civile (« contrat contestable » ou « nul ») après un démarchage illicite, art. L. 223-1 du code de la consommation, à trancher avant tournage (point repris de la revue M1).",
+    "Chiffres Insee, taux moyens et usure : à rafraîchir chaque trimestre ; à vérifier : date de la prochaine publication Insee (T3 2026) avant tournage."
   ]
- },
- "resource": {
-  "title": "Fiche réglementation et tendances, sourcée",
-  "kind": "fiche",
-  "intro": "Les chiffres et les règles qui changent ta prise de mandat en 2026, avec leur source et la phrase à dire au vendeur. À garder dans ton dossier de rendez-vous et à mettre à jour chaque trimestre (Insee, Banque de France).",
-  "sections": [
-   {
-    "heading": "Le marché en 5 repères",
-    "type": "table",
-    "headers": ["Indicateur", "Valeur", "Source", "Ce que tu dis au vendeur"],
-    "rows": [
-     ["Volume de ventes", "958 000 ventes dans l'ancien sur 12 mois à fin juin 2026", "Insee, IR n° 216 (8/09/2026)", "« Les acheteurs sont revenus : il y a de la demande. »"],
-     ["Prix", "−0,8 % sur un an au T2 2026 ; maisons −1,3 %, appartements −0,1 %", "Insee, IR n° 216", "« C'est une moyenne nationale : regardons les ventes de votre secteur. »"],
-     ["Taux moyen 20 ans", "≈ 3,50 à 3,55 % (octobre 2026)", "Meilleurtaux, 19/10/2026", "« Vos acheteurs peuvent emprunter ; je vérifierai leur financement. »"],
-     ["Taux d'usure", "5,40 % pour 20 ans et plus, du 1/10 au 31/12/2026", "Banque de France", "« Le plafond se juge sur le TAEG, assurance comprise. »"],
-     ["Ventes F-G", "≈ 15 % des ventes de l'ancien début 2025", "Notaires de France, valeur verte (7/01/2026)", "« Les F et G se vendent ; l'écart de prix dépend de la région. »"]
-    ]
-   },
-   {
-    "heading": "DPE : ce qui a changé",
-    "type": "list",
-    "items": [
-     "Coefficient électricité : 2,3 jusqu'au 31/12/2025 ; 1,9 depuis le 1/01/2026 (arrêté du 13/08/2025) ; 1,7 au 1/01/2027 (arrêté du 19/08/2026).",
-     "Attestation actualisée gratuite sur l'observatoire DPE-Audit de l'ADEME, sans nouvelle visite, pour les DPE établis depuis le 1/07/2021. Elle vaut jusqu'à la fin de validité du DPE d'origine.",
-     "Les DPE établis avant le 1/07/2021 ne sont plus valables pour vendre.",
-     "Classe = la moins bonne des deux notes (énergie primaire et émissions)."
-    ]
-   },
-   {
-    "heading": "Prospection : la check-list depuis le 11 août 2026",
-    "type": "checklist",
-    "items": [
-     "Je n'appelle un particulier que s'il a donné son consentement préalable (loi n° 2025-594 du 30/06/2025, décret n° 2026-662 du 23/07/2026). Bloctel n'existe plus.",
-     "Le consentement est un acte positif clair, à mon nom, avec l'objet des appels et une durée d'un an au plus.",
-     "Je conserve la preuve au moins 3 ans.",
-     "J'arrête dès que la personne retire son accord.",
-     "SMS et e-mails de prospection vers un particulier : consentement préalable aussi (CNIL, art. L. 34-5 du code des postes et des communications électroniques).",
-     "Un contrat conclu après un démarchage illicite est contestable (portée exacte à confirmer par un juriste)."
-    ]
-   },
-   {
-    "heading": "Ce que pensent les vendeurs en 2026",
-    "type": "list",
-    "items": [
-     "51 % pensent que mettre les agences en concurrence augmente leurs chances (enquête leboncoin Immo auprès de 419 professionnels, sept.-oct. 2025, déclaratif).",
-     "Ils arrivent informés : estimateurs en ligne, articles sur le DPE, avis d'autres agences. Ta valeur ajoutée, c'est la preuve."
-    ]
-   },
-   {
-    "heading": "Exemple rempli : M. Bernard (fil rouge, fictif)",
-    "type": "text",
-    "text": "T4 de 76 m² à Melun, chauffage électrique, DPE du 14/03/2023 classé F (150 × 2,3 = 345 kWhEP). Deux agences lui ont annoncé « −15 % à cause du DPE », soit 172 000 €. Avec le coefficient 1,9 : 285 kWhEP, classe E, confirmée par l'attestation (D03). Tendance nationale des appartements : −0,1 % sur un an. Comparables du secteur (D12, fictifs) : 2 650 €/m² en l'état. Il a coché le consentement de ton agence : tu peux le recontacter sur son DPE et son estimation, et seulement sur cet objet."
-   }
-  ],
-  "footer": "Sources : Insee IR n° 216 (8/09/2026) ; Meilleurtaux (19/10/2026) ; Banque de France (usure T4 2026) ; Notaires de France, valeur verte (7/01/2026) ; arrêtés des 13/08/2025 et 19/08/2026 ; ADEME ; DGCCRF (27/07/2026) ; enquête leboncoin Immo (2025, déclaratif). Mise à jour : 28/10/2026."
- },
- "exercise": {
-  "title": "Lister 3 changements chez ses propres clients",
-  "duration_min": 25,
-  "context": "Avant de démarcher, tu prends du recul sur tes propres vendeurs : qu'est-ce qui a changé chez eux en 2026 ? Tu pars de tes rendez-vous réels de l'année. Le dossier de M. Bernard (fictif) sert d'exemple d'application.",
-  "materials": [
-   "Tes notes de 5 à 10 rendez-vous vendeurs de 2026",
-   "D02 DPE du 14/03/2023, D03 Attestation actualisée, D12 Tableau des comparables (fil rouge, fictifs)",
-   "Fiche réglementation et tendances"
-  ],
-  "steps": [
-   "Relis tes notes de 5 à 10 rendez-vous vendeurs de 2026 (ou, à défaut, interroge 3 collègues).",
-   "Repère ce qui revient : questions posées, craintes, documents apportés, comportement au téléphone.",
-   "Choisis 3 changements et rattache chacun à un fait sourcé de la fiche (marché, crédit, DPE, prospection, attentes des vendeurs).",
-   "Pour chaque changement, écris la réponse concrète que tu vas apporter (geste, document, phrase).",
-   "Vérifie que chaque chiffre cité a sa source et sa date, et qu'aucune réponse ne repose sur un appel sans consentement."
-  ],
-  "expected": "Exemple de réponse attendue. Changement 1 : le vendeur arrive informé et met les agences en concurrence (51 % selon l'enquête leboncoin Immo, déclaratif). Réponse : je remets des pièces (comparables, plan de vente) plutôt qu'un prix plus haut. Chez M. Bernard : à 2 650 €/m² (D12, fictif), la base est de 76 × 2 650 = 201 400 € avant ajustements, loin du « −15 % ». Changement 2 : le DPE électrique a changé de règle (1,9 depuis le 1/01/2026). Réponse : je vérifie l'étiquette avant de parler prix. Chez M. Bernard : 285 kWhEP, classe E (D03) au lieu de F. Changement 3 : les vendeurs ne décrochent plus et l'appel sans consentement est interdit depuis le 11/08/2026. Réponse : je ne contacte que des personnes consentantes, par écrit d'abord, avec un créneau proposé."
- },
- "deliverable": {
-  "title": "Mes 3 changements clients 2026",
-  "format": "PDF ou DOCX, 1 page (tableau à 4 colonnes : changement observé, fait sourcé, ma réponse, application)",
-  "criteria": [
-   "3 changements distincts, observés chez tes clients (pas recopiés de la vidéo)",
-   "Chaque changement est relié à un fait chiffré avec sa source et sa date",
-   "Chaque changement a une réponse concrète (geste, document ou phrase)",
-   "Aucun chiffre national n'est appliqué tel quel à un bien précis",
-   "Aucune réponse ne repose sur un appel sans consentement"
-  ]
- },
- "sources": [
-  { "label": "Insee — Informations rapides n° 216, indices des prix des logements anciens, T2 2026 (8/09/2026)", "url": "https://www.insee.fr/fr/statistiques/9040119" },
-  { "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024 (7/01/2026)", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
-  { "label": "Meilleurtaux — Baromètre des taux immobiliers, octobre 2026", "url": "https://www.meilleurtaux.com/credit-immobilier/taux-actuels/" },
-  { "label": "Banque de France — Taux d'usure applicables au 1er octobre 2026", "url": "https://www.banque-france.fr/node/3357" },
-  { "label": "Légifrance — Arrêté du 19 août 2026 (NOR VLOL2617030A), coefficient électricité 1,7 au 1/01/2027", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
-  { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
-  { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" },
-  { "label": "MySweetImmo — Enquête leboncoin Immo (419 professionnels, sept.-oct. 2025, déclaratif)", "url": "https://www.mysweetimmo.com/2025/11/06/immobilier-les-biens-vendus-en-exclusivite-partent-51-jours-plus-vite-quen-mandat-simple/" }
- ],
- "open_points": [
-  "Juriste : portée de la sanction civile (« contrat contestable » ou « nul ») après un démarchage illicite, art. L. 223-1 du code de la consommation, à trancher avant tournage (point repris de la revue M1).",
-  "Chiffres Insee, taux moyens et usure : à rafraîchir chaque trimestre ; à vérifier : date de la prochaine publication Insee (T3 2026) avant tournage.",
-  "Chapitre interactif à adapter (old_v3 1.1) : renuméroter en « Chapitre 1.3 » et aligner les écrans 13-14 sur l'exercice et le livrable ci-dessus."
- ]
 }

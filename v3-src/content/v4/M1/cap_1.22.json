@@ -85,12 +85,32 @@
       {
         "type": "table",
         "heading": "Séquence de relances type",
-        "headers": ["Jour", "Canal (si accepté)", "Contenu"],
+        "headers": [
+          "Jour",
+          "Canal (si accepté)",
+          "Contenu"
+        ],
         "rows": [
-          ["J0", "Message écrit", "Rappel de sa demande, offre de découverte, deux créneaux"],
-          ["J+3", "E-mail", "Relance 1 : une information utile (comment obtenir l'attestation DPE actualisée)"],
-          ["J+10", "Téléphone (jours et heures autorisés)", "Relance 2 : proposer le R1, écouter, respecter un refus"],
-          ["J+21", "Courrier ou e-mail", "Relance 3 : dernier message, porte ouverte, aucune autre relance sans réponse"]
+          [
+            "J0",
+            "Message écrit",
+            "Rappel de sa demande, offre de découverte, deux créneaux"
+          ],
+          [
+            "J+3",
+            "E-mail",
+            "Relance 1 : une information utile (comment obtenir l'attestation DPE actualisée)"
+          ],
+          [
+            "J+10",
+            "Téléphone (jours et heures autorisés)",
+            "Relance 2 : proposer le R1, écouter, respecter un refus"
+          ],
+          [
+            "J+21",
+            "Courrier ou e-mail",
+            "Relance 3 : dernier message, porte ouverte, aucune autre relance sans réponse"
+          ]
         ]
       },
       {
@@ -107,15 +127,47 @@
       {
         "type": "table",
         "heading": "Tableau de suivi des prospects (colonnes)",
-        "headers": ["Colonne", "Contenu", "Exemple (fictif)"],
+        "headers": [
+          "Colonne",
+          "Contenu",
+          "Exemple (fictif)"
+        ],
         "rows": [
-          ["Référence", "Code interne, pas de nom dans les exports", "P-2026-014"],
-          ["Source et preuve du consentement", "Canal, date, texte accepté, fin de validité", "Formulaire site, 02/10/2026, DPE et estimation, jusqu'au 01/10/2027"],
-          ["Canaux autorisés", "Téléphone, e-mail, SMS, courrier", "E-mail et téléphone"],
-          ["Étape", "Contact, offre, relance 1-3, qualifié, R1, R2, mandat, perdu", "R1 fixé"],
-          ["Prochaine action et date", "Une seule, datée", "R1 le 21/10 à 18 h"],
-          ["Notes", "Faits utiles au projet, jamais de jugement ni de vie privée", "Vendre avant l'été 2027, DPE 2023, a reçu 2 avis à −15 %"],
-          ["Date de suppression", "3 ans après le dernier contact venant du prospect", "02/10/2029"]
+          [
+            "Référence",
+            "Code interne, pas de nom dans les exports",
+            "P-2026-014"
+          ],
+          [
+            "Source et preuve du consentement",
+            "Canal, date, texte accepté, fin de validité",
+            "Formulaire site, 02/10/2026, DPE et estimation, jusqu'au 01/10/2027"
+          ],
+          [
+            "Canaux autorisés",
+            "Téléphone, e-mail, SMS, courrier",
+            "E-mail et téléphone"
+          ],
+          [
+            "Étape",
+            "Contact, offre, relance 1-3, qualifié, R1, R2, mandat, perdu",
+            "R1 fixé"
+          ],
+          [
+            "Prochaine action et date",
+            "Une seule, datée",
+            "R1 le 21/10 à 18 h"
+          ],
+          [
+            "Notes",
+            "Faits utiles au projet, jamais de jugement ni de vie privée",
+            "Vendre avant l'été 2027, DPE 2023, a reçu 2 avis à −15 %"
+          ],
+          [
+            "Date de suppression",
+            "3 ans après le dernier contact venant du prospect",
+            "02/10/2029"
+          ]
         ]
       },
       {
@@ -171,17 +223,34 @@
     ]
   },
   "sources": [
-    { "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)", "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises" },
-    { "label": "Légifrance — Loi n° 2025-594 du 30 juin 2025 contre toutes les fraudes aux aides publiques", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051824277" },
-    { "label": "Légifrance — Décret n° 2026-662 du 23 juillet 2026 (consentement à la prospection téléphonique)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054483939" },
-    { "label": "CNIL — La prospection commerciale par courrier électronique, SMS-MMS et automate d'appel", "url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel" },
-    { "label": "CNIL — Référentiel relatif aux traitements de données pour la gestion des activités commerciales (conservation 3 ans pour un prospect)", "url": "https://www.cnil.fr/sites/cnil/files/atoms/files/referentiel_traitements-donnees-caractere-personnel_gestion-activites-commerciales.pdf" },
-    { "label": "RGPD, règlement (UE) 2016/679 (art. 5 : minimisation, limitation de la conservation)", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj" }
+    {
+      "label": "DGCCRF — Les règles du démarchage téléphonique s'imposant aux entreprises (27/07/2026)",
+      "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-regles-du-demarchage-telephonique-simposant-aux-entreprises"
+    },
+    {
+      "label": "Légifrance — Loi n° 2025-594 du 30 juin 2025 contre toutes les fraudes aux aides publiques",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051824277"
+    },
+    {
+      "label": "Légifrance — Décret n° 2026-662 du 23 juillet 2026 (consentement à la prospection téléphonique)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054483939"
+    },
+    {
+      "label": "CNIL — La prospection commerciale par courrier électronique, SMS-MMS et automate d'appel",
+      "url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel"
+    },
+    {
+      "label": "CNIL — Référentiel relatif aux traitements de données pour la gestion des activités commerciales (conservation 3 ans pour un prospect)",
+      "url": "https://www.cnil.fr/sites/cnil/files/atoms/files/referentiel_traitements-donnees-caractere-personnel_gestion-activites-commerciales.pdf"
+    },
+    {
+      "label": "RGPD, règlement (UE) 2016/679 (art. 5 : minimisation, limitation de la conservation)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
   ],
   "open_points": [
     "à faire relire par un juriste : séquence de relances et règles RGPD de la fiche (base légale du suivi des « pas maintenant », durée de conservation).",
     "à vérifier : mise à jour annoncée par la CNIL de ses fiches prospection après les textes d'application du 11/08/2026.",
-    "Valider avec Sébastien Paumier les taux de l'exemple fictif (40 contacts, 14 réponses, 6 R1, 2 mandats) ou les remplacer par des repères observés chez Éco-Propriété.",
-    "Le chapitre interactif (nouveau) reste à écrire."
+    "Valider avec Sébastien Paumier les taux de l'exemple fictif (40 contacts, 14 réponses, 6 R1, 2 mandats) ou les remplacer par des repères observés chez Éco-Propriété."
   ]
 }

@@ -82,22 +82,73 @@
       {
         "type": "table",
         "heading": "Trier chaque défaut : traiter, documenter ou expliquer",
-        "headers": ["Verbe", "Quand", "Exemple (M. Bernard)"],
+        "headers": [
+          "Verbe",
+          "Quand",
+          "Exemple (M. Bernard)"
+        ],
         "rows": [
-          ["Traiter", "Petit coût, effet visible, durable", "Plafond taché après sinistre clos, séjour encombré et sombre"],
-          ["Documenter", "Vrai sujet technique, travaux lourds", "Absence de VMC (devis 2 900 €), fenêtres simple vitrage (5 600 €)"],
-          ["Laisser et expliquer", "Sans gravité, à surveiller", "Fissure fine (< 0,2 mm) non structurelle du dégagement"]
+          [
+            "Traiter",
+            "Petit coût, effet visible, durable",
+            "Plafond taché après sinistre clos, séjour encombré et sombre"
+          ],
+          [
+            "Documenter",
+            "Vrai sujet technique, travaux lourds",
+            "Absence de VMC (devis 2 900 €), fenêtres simple vitrage (5 600 €)"
+          ],
+          [
+            "Laisser et expliquer",
+            "Sans gravité, à surveiller",
+            "Fissure fine (< 0,2 mm) non structurelle du dégagement"
+          ]
         ]
       },
       {
         "type": "table",
         "heading": "Plan rempli · 3 actions pour M. Bernard (fil rouge, prix indicatifs fictifs)",
-        "headers": ["Action", "Défaut traité", "Qui", "Coût", "Avant le", "Preuve"],
+        "headers": [
+          "Action",
+          "Défaut traité",
+          "Qui",
+          "Coût",
+          "Avant le",
+          "Preuve"
+        ],
         "rows": [
-          ["1. Salle de bains : nettoyage, traitement anti-moisissures, joints + débouchage du conduit", "Moisissures (ventilation insuffisante)", "Vendeur + artisan", "≈ 70 € + ≈ 150 €", "12/11/2026", "Photos avant/après + facture du débouchage"],
-          ["2. Plafond cuisine : sous-couche anti-taches + peinture", "Auréole (sinistre 2022 clos)", "Vendeur ou artisan", "≈ 70 €", "12/11/2026", "Photos + preuve de clôture du sinistre"],
-          ["3. Séjour : désencombrement + LED couleur chaude et lampadaire", "Séjour encombré et sombre", "Vendeur", "0 € + ≈ 160 €", "10/11/2026", "Photos + ticket de caisse"],
-          ["Total", "", "", "≈ 450 €", "", "Séance photo le 13/11/2026"]
+          [
+            "1. Salle de bains : nettoyage, traitement anti-moisissures, joints + débouchage du conduit",
+            "Moisissures (ventilation insuffisante)",
+            "Vendeur + artisan",
+            "≈ 70 € + ≈ 150 €",
+            "12/11/2026",
+            "Photos avant/après + facture du débouchage"
+          ],
+          [
+            "2. Plafond cuisine : sous-couche anti-taches + peinture",
+            "Auréole (sinistre 2022 clos)",
+            "Vendeur ou artisan",
+            "≈ 70 €",
+            "12/11/2026",
+            "Photos + preuve de clôture du sinistre"
+          ],
+          [
+            "3. Séjour : désencombrement + LED couleur chaude et lampadaire",
+            "Séjour encombré et sombre",
+            "Vendeur",
+            "0 € + ≈ 160 €",
+            "10/11/2026",
+            "Photos + ticket de caisse"
+          ],
+          [
+            "Total",
+            "",
+            "",
+            "≈ 450 €",
+            "",
+            "Séance photo le 13/11/2026"
+          ]
         ]
       },
       {
@@ -123,7 +174,11 @@
     "title": "Proposer 3 actions à petit budget, chiffrées",
     "duration_min": 25,
     "context": "Ton vendeur fil rouge accepte de « faire un petit quelque chose » avant les photos, mais pas plus de 500 €. Tu dois choisir 3 actions, les chiffrer, les dater, et dire ce que tu remettras aux acheteurs pour le reste. Corrigé donné pour l'appartement de M. Bernard ; pour la maison de Mme Garnier, pars du reportage photo M05.",
-    "materials": ["D05 Reportage photo commenté", "D04 Plan et descriptif", "D13 Devis des travaux privatifs"],
+    "materials": [
+      "D05 Reportage photo commenté",
+      "D04 Plan et descriptif",
+      "D13 Devis des travaux privatifs"
+    ],
     "steps": [
       "Liste les défauts visibles sur le reportage photo et trie-les : traiter, documenter, laisser et expliquer.",
       "Choisis 3 actions « traiter » et justifie leur effet sur les photos ou la visite.",
@@ -146,12 +201,17 @@
     ]
   },
   "sources": [
-    {"label": "Légifrance — Code civil, art. 1112-1 (devoir d'information)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032007138"},
-    {"label": "Dossier fil rouge Éco-Consultant (BIBLE §2, §6, §7 ; prix indicatifs fictifs) — proposition pédagogique Éco-Propriété", "url": "https://eco-propriete.fr"}
+    {
+      "label": "Légifrance — Code civil, art. 1112-1 (devoir d'information)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032007138"
+    },
+    {
+      "label": "Dossier fil rouge Éco-Consultant (BIBLE §2, §6, §7 ; prix indicatifs fictifs) — proposition pédagogique Éco-Propriété",
+      "url": "https://eco-propriete.fr"
+    }
   ],
   "open_points": [
     "Répartition indicative des 450 € (débouchage, peinture, éclairage) : prix locaux à valider par Sébastien Paumier",
-    "Formulation sur l'art. 1112-1 du Code civil et le risque de dissimulation : à faire relire par un juriste",
-    "Chapitre à adapter depuis l'ancien chap_3.4 (renuméroté 3.10)"
+    "Formulation sur l'art. 1112-1 du Code civil et le risque de dissimulation : à faire relire par un juriste"
   ]
 }

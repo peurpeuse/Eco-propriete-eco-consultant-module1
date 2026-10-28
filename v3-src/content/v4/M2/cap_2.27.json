@@ -1,191 +1,287 @@
 {
- "id": "2.27",
- "module": 2,
- "section": "K · Cadrer, lire le marché, réunir les références",
- "etape": "4 (Éco-staging)",
- "parcours": null,
- "prio": false,
- "ia": false,
- "title": "Les 8 familles de valeur",
- "objective": "Classer les atouts et défauts d'un bien dans les 8 familles de valeur et décider, pour chacun, s'il est neutre, chiffré par une preuve ou simple argument",
- "video": {
-  "duration": "4:30",
-  "chapter": true,
-  "pitch": "Mozi résume l'appartement de M. Bernard en une phrase : « moins 15 % à cause du DPE ». Une seule famille de valeur ; il y en a huit. Sébastien Paumier montre les 8 questions à poser à chaque bien, les 3 effets possibles sur le prix (neutre, chiffré, argument) et la règle qui rend le tableau défendable : un défaut, une famille, un montant."
- },
- "quiz": {
-  "questions": [
-   {
-    "question": "Mozi annonce à M. Bernard : « Moins 15 % à cause du DPE, c'est la règle. » Quelle est son erreur principale ?",
-    "options": [
-     "Il réduit tout le bien à la seule famille énergétique, avec un pourcentage sans preuve",
-     "Il aurait dû dire moins 20 %",
-     "Il aurait dû parler du DPE seulement après la visite"
+  "id": "2.27",
+  "module": 2,
+  "section": "K · Cadrer, lire le marché, réunir les références",
+  "etape": "4 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Les 8 familles de valeur",
+  "objective": "Classer les atouts et défauts d'un bien dans les 8 familles de valeur et décider, pour chacun, s'il est neutre, chiffré par une preuve ou simple argument",
+  "video": {
+    "duration": "4:30",
+    "chapter": true,
+    "pitch": "Mozi résume l'appartement de M. Bernard en une phrase : « moins 15 % à cause du DPE ». Une seule famille de valeur ; il y en a huit. Sébastien Paumier montre les 8 questions à poser à chaque bien, les 3 effets possibles sur le prix (neutre, chiffré, argument) et la règle qui rend le tableau défendable : un défaut, une famille, un montant."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Mozi annonce à M. Bernard : « Moins 15 % à cause du DPE, c'est la règle. » Quelle est son erreur principale ?",
+        "options": [
+          "Il réduit tout le bien à la seule famille énergétique, avec un pourcentage sans preuve",
+          "Il aurait dû dire moins 20 %",
+          "Il aurait dû parler du DPE seulement après la visite"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : un bien, c'est 8 familles ; et un écart de prix sans preuve n'est qu'une opinion. L'attestation de M. Bernard est d'ailleurs en classe E.",
+          "Faux : le problème n'est pas le niveau du pourcentage, c'est le pourcentage lui-même, appliqué sans comparaison ni preuve.",
+          "Faux : le moment ne change rien ; un chiffre sans source reste faux, avant ou après la visite."
+        ],
+        "fb_title": "Une famille ne fait pas un prix",
+        "fb_text": "Mozi regarde le bien avec une seule paire de lunettes. Toi, tu poses 8 questions, tu pars des ventes comparables et tu n'ajustes que ce que tu prouves : devis, PV d'AG, appel de fonds."
+      },
+      {
+        "question": "Les fenêtres bois simple vitrage de M. Bernard relèvent à la fois de la technique et de l'énergie. Que fais-tu dans ton tableau ?",
+        "options": [
+          "Tu les déduis dans les deux familles pour être prudent",
+          "Tu ne les comptes nulle part, les acheteurs s'en moquent",
+          "Tu les ranges dans la seule famille énergétique avec le devis (5 600 €) et tu notes « voir énergétique » en technique"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : c'est un double compte ; ton estimation perdrait 5 600 € sans raison.",
+          "Faux : simple vitrage et paroi froide se voient et pèsent dans la négociation ; il faut les traiter.",
+          "Juste : une seule famille, un seul montant, une preuve (devis D13)."
+        ],
+        "fb_title": "Un défaut, une case, un montant",
+        "fb_text": "Le double compte fait sous-estimer le bien du montant du défaut. Tu choisis une famille, tu y mets la preuve (D13) et tu renvoies depuis l'autre. Si M. Bernard refait ton calcul ligne par ligne, il doit retomber sur ton chiffre."
+      },
+      {
+        "question": "Les convecteurs électriques de 1998 se retrouvent aussi dans la plupart des comparables en l'état. Quel effet sur la valeur en l'état ?",
+        "options": [
+          "Chiffré : on déduit le devis des radiateurs (4 800 €)",
+          "Neutre : les comparables en l'état ont le même équipement",
+          "Argument positif"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : ce serait un double compte avec le prix au m² des comparables, qui intègre déjà cet équipement.",
+          "Juste : un élément commun aux références est déjà dans leur prix ; il est neutre.",
+          "Faux : des convecteurs anciens sans programmation ne sont pas un atout."
+        ],
+        "fb_title": "Déjà dans le prix de référence",
+        "fb_text": "Avant de déduire quoi que ce soit, demande-toi si les biens vendus autour avaient le même défaut. Si oui, il est déjà dans leur prix. Le devis servira pour la valeur après rénovation et pour le budget de l'acquéreur."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche des 8 familles",
+    "kind": "fiche",
+    "intro": "Fiche de référence pour chaque estimation : la question à poser par famille, les preuves à réunir, les 3 effets possibles et la règle de classement. Remplis le tableau avant de chiffrer quoi que ce soit ; il devient la colonne vertébrale de ton avis de valeur. Elle vaut pour un appartement comme pour une maison.",
+    "sections": [
+      {
+        "type": "table",
+        "heading": "Les 8 familles, la question, les preuves",
+        "headers": [
+          "Famille",
+          "La question à se poser",
+          "Preuves à réunir"
+        ],
+        "rows": [
+          [
+            "Intrinsèque",
+            "Surface, plan, étage ou niveaux, exposition, annexes, terrain ?",
+            "Mesurage, plan, photos, cadastre"
+          ],
+          [
+            "Marché",
+            "Que disent les ventes comparables du secteur ?",
+            "Ventes DVF ou notariales, délai de vente, biens en concurrence"
+          ],
+          [
+            "Technique",
+            "État du bâti et des équipements ?",
+            "Grille d'audit, diagnostics, devis"
+          ],
+          [
+            "Énergétique",
+            "Classe, coût, travaux pour progresser ?",
+            "DPE ou attestation actualisée, audit, devis"
+          ],
+          [
+            "Copropriété ou terrain",
+            "Charges et travaux votés (appartement) ; PLU, assainissement, risques (maison) ?",
+            "PV d'AG, PPPT, appels de fonds ; PLU, rapport SPANC, état des risques"
+          ],
+          [
+            "Perçue",
+            "Que ressent l'acheteur en entrant et sur les photos ?",
+            "Reportage photo, plan Éco-staging chiffré"
+          ],
+          [
+            "Financière",
+            "Coût mensuel pour l'acheteur, travaux compris ?",
+            "Simulation de mensualité, devis, aides notifiées uniquement"
+          ],
+          [
+            "Transactionnelle",
+            "Délai, conditions, documents, mandat ?",
+            "Calendrier du vendeur, dossier complet, type de mandat"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Les 3 effets possibles sur le prix",
+        "headers": [
+          "Effet",
+          "Quand l'utiliser",
+          "Ce que tu écris"
+        ],
+        "rows": [
+          [
+            "Neutre",
+            "Les comparables ont le même élément",
+            "« Présent dans les références, sans ajustement »"
+          ],
+          [
+            "Chiffré",
+            "Une preuve écrite donne un montant (devis, PV, appel de fonds)",
+            "« −5 600 €, devis D13 du [date] »"
+          ],
+          [
+            "Argument",
+            "Pas de montant prouvable, mais un effet sur le délai ou la place dans la fourchette",
+            "« Soutient le haut de la fourchette »"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Méthode de classement en 5 étapes",
+        "items": [
+          "Liste tous les atouts et défauts relevés pendant la visite, sans les trier.",
+          "Range chaque élément dans une seule famille, celle de sa preuve principale.",
+          "Compare avec les biens de référence : l'élément est-il déjà dans leur prix ?",
+          "Attribue l'effet : neutre, chiffré (avec la preuve) ou argument.",
+          "Relis : aucun double compte, au moins un atout par famille quand il existe."
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Les règles qui rendent ton tableau défendable",
+        "items": [
+          "Un défaut = une famille = un montant : jamais de double compte.",
+          "Pas de preuve, pas de montant : une impression reste un argument.",
+          "Le coût d'une réparation n'est pas forcément la décote que l'acheteur appliquera : présente les deux séparément.",
+          "Pas de pourcentage national pour l'énergie : la valeur verte se lit dans les comparables (capsule 2.28).",
+          "Une aide non notifiée ne se chiffre pas.",
+          "Les atouts comptent autant que les défauts."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Exemple rempli : appartement de M. Bernard (fictif)",
+        "headers": [
+          "Famille",
+          "Atouts",
+          "Défauts",
+          "Effet"
+        ],
+        "rows": [
+          [
+            "Intrinsèque",
+            "76 m², T4, 4e avec ascenseur, balcon 6 m² SO, cave, parking",
+            "Immeuble 1972, parking extérieur",
+            "Argument (haut de fourchette)"
+          ],
+          [
+            "Marché",
+            "Comparables en l'état ≈ 2 650 €/m² (fictif)",
+            "Rénovés à 2 850 €/m² : concurrence",
+            "Base de la valeur"
+          ],
+          [
+            "Technique",
+            "Cuisine et sols 2016, tableau électrique 2010",
+            "Pas de VMC, conduit obstrué",
+            "Chiffré : −2 900 € (D13)"
+          ],
+          [
+            "Énergétique",
+            "Attestation actualisée classe E",
+            "4 fenêtres simple vitrage ; convecteurs 1998 (neutres)",
+            "Chiffré : −5 600 € (D13)"
+          ],
+          [
+            "Copropriété",
+            "Ascenseurs 2019, colonnes 2015, impayés modérés",
+            "ITE votée : 35 880 € pour le lot en 2027",
+            "Chiffré à partir du PV D07"
+          ],
+          [
+            "Perçue",
+            "Lumière sud-ouest, cuisine récente",
+            "Moisissures SdB, auréole cuisine, fissure fine",
+            "Éco-staging ≈ 450 €, pas de décote"
+          ],
+          [
+            "Financière",
+            "Travaux privatifs finançables avec le prêt",
+            "16 500 € de travaux + appels ITE 2027",
+            "Argument (présentation en mensualité)"
+          ],
+          [
+            "Transactionnelle",
+            "Vendeur souple à 3 mois près, dossier complet",
+            "Objectif : vendu avant l'été 2027",
+            "Argument (délai)"
+          ]
+        ]
+      }
     ],
-    "answer": 0,
-    "whys": [
-     "Juste : un bien, c'est 8 familles ; et un écart de prix sans preuve n'est qu'une opinion. L'attestation de M. Bernard est d'ailleurs en classe E.",
-     "Faux : le problème n'est pas le niveau du pourcentage, c'est le pourcentage lui-même, appliqué sans comparaison ni preuve.",
-     "Faux : le moment ne change rien ; un chiffre sans source reste faux, avant ou après la visite."
+    "footer": "Sources : 8 familles de valeur, référentiel du programme Éco-Consultant (proposition pédagogique) ; DVF, data.gouv.fr (mise à jour semestrielle, octobre 2026) ; Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (7/01/2026) ; Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025). Données M. Bernard fictives. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Classer les atouts et défauts du bien",
+    "duration_min": 25,
+    "context": "Tu as visité l'appartement de M. Bernard et lu le dossier de copropriété. Avant de chercher tes références et de calculer la valeur, tu ranges chaque élément dans la bonne famille et tu décides de son effet sur le prix en l'état. Parcours maison : fais le même travail sur la maison de Mme Garnier (M04, M05, M08, M02), en remplaçant la famille copropriété par la famille terrain.",
+    "materials": [
+      "D04 Plan et descriptif, D05 Reportage photo commenté",
+      "D03 Attestation actualisée ADEME (classe E)",
+      "D07 PV d'AG du 12/06/2025, D13 Devis des travaux privatifs",
+      "D12 Tableau des comparables (fictifs)"
     ],
-    "fb_title": "Une famille ne fait pas un prix",
-    "fb_text": "Mozi regarde le bien avec une seule paire de lunettes. Toi, tu poses 8 questions, tu pars des ventes comparables et tu n'ajustes que ce que tu prouves : devis, PV d'AG, appel de fonds."
-   },
-   {
-    "question": "Les fenêtres bois simple vitrage de M. Bernard relèvent à la fois de la technique et de l'énergie. Que fais-tu dans ton tableau ?",
-    "options": [
-     "Tu les déduis dans les deux familles pour être prudent",
-     "Tu ne les comptes nulle part, les acheteurs s'en moquent",
-     "Tu les ranges dans la seule famille énergétique avec le devis (5 600 €) et tu notes « voir énergétique » en technique"
+    "steps": [
+      "Classe ces 16 éléments dans une des 8 familles : 76 m² Carrez ; 4e avec ascenseur ; balcon 6 m² sud-ouest ; cave et parking extérieur ; comparables en l'état à 2 650 €/m² ; cuisine refaite en 2016 ; absence de VMC et conduit obstrué ; attestation classe E ; 4 fenêtres bois simple vitrage ; convecteurs de 1998 ; ITE votée (35 880 € pour le lot) ; ascenseurs remplacés en 2019 ; moisissures et auréole ; 16 500 € de travaux à financer ; vendre avant l'été 2027 ; dossier de copropriété complet.",
+      "Pour chaque élément, indique s'il s'agit d'un atout ou d'un défaut.",
+      "Attribue l'effet sur le prix en l'état : neutre, chiffré (preuve et montant) ou argument.",
+      "Vérifie qu'aucun montant n'apparaît deux fois.",
+      "Écris en 2 phrases ta réponse à M. Bernard quand il te demande pourquoi tu n'appliques pas « −15 % pour le DPE »."
     ],
-    "answer": 2,
-    "whys": [
-     "Faux : c'est un double compte ; ton estimation perdrait 5 600 € sans raison.",
-     "Faux : simple vitrage et paroi froide se voient et pèsent dans la négociation ; il faut les traiter.",
-     "Juste : une seule famille, un seul montant, une preuve (devis D13)."
-    ],
-    "fb_title": "Un défaut, une case, un montant",
-    "fb_text": "Le double compte fait sous-estimer le bien du montant du défaut. Tu choisis une famille, tu y mets la preuve (D13) et tu renvoies depuis l'autre. Si M. Bernard refait ton calcul ligne par ligne, il doit retomber sur ton chiffre."
-   },
-   {
-    "question": "Les convecteurs électriques de 1998 se retrouvent aussi dans la plupart des comparables en l'état. Quel effet sur la valeur en l'état ?",
-    "options": [
-     "Chiffré : on déduit le devis des radiateurs (4 800 €)",
-     "Neutre : les comparables en l'état ont le même équipement",
-     "Argument positif"
-    ],
-    "answer": 1,
-    "whys": [
-     "Faux : ce serait un double compte avec le prix au m² des comparables, qui intègre déjà cet équipement.",
-     "Juste : un élément commun aux références est déjà dans leur prix ; il est neutre.",
-     "Faux : des convecteurs anciens sans programmation ne sont pas un atout."
-    ],
-    "fb_title": "Déjà dans le prix de référence",
-    "fb_text": "Avant de déduire quoi que ce soit, demande-toi si les biens vendus autour avaient le même défaut. Si oui, il est déjà dans leur prix. Le devis servira pour la valeur après rénovation et pour le budget de l'acquéreur."
-   }
+    "expected": "Intrinsèque : 76 m², 4e avec ascenseur, balcon SO, cave et parking → atouts, arguments. Marché : comparables à 2 650 €/m² → base (76 × 2 650 = 201 400 €). Technique : cuisine 2016 → atout, argument ; absence de VMC → défaut chiffré −2 900 € (D13). Énergétique : attestation E → atout ; fenêtres simple vitrage → défaut chiffré −5 600 € (D13), une seule fois ; convecteurs → défaut neutre (présents dans les comparables en l'état). Copropriété : ITE votée 35 880 € → défaut chiffré à partir du PV D07 ; ascenseurs 2019 → atout. Perçue : moisissures et auréole → Éco-staging ≈ 450 €, pas de décote. Financière : 16 500 € de travaux → argument (présentation en mensualité), pas une seconde déduction. Transactionnelle : objectif été 2027 et dossier complet → arguments. Réponse : « Le DPE n'est qu'une des huit familles, et votre étiquette est désormais E. Je pars des ventes réelles et je n'ajuste que ce que je prouve : fenêtres et ventilation au devis, et travaux votés par l'immeuble. »",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Tableau des 8 familles de valeur du bien fil rouge",
+    "format": "Tableau PDF ou XLSX, 1 page",
+    "criteria": [
+      "Les 16 éléments sont classés, chacun dans une seule famille",
+      "Chaque effet « chiffré » cite sa preuve (code du dossier) et son montant",
+      "Aucun montant n'apparaît deux fois",
+      "Les éléments présents dans les comparables sont traités comme neutres, avec la justification",
+      "La réponse au « −15 % pour le DPE » tient en 2 phrases et cite au moins une preuve"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Programme Éco-Consultant : 8 familles de valeur, proposition pédagogique"
+    },
+    {
+      "label": "DVF, Demandes de valeurs foncières (data.gouv.fr) : 5 dernières années, mise à jour semestrielle (avril et octobre), hors Alsace, Moselle et Mayotte",
+      "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+    },
+    {
+      "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (étude de décembre 2025, mise en ligne le 7/01/2026)",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025)",
+      "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
+    }
+  ],
+  "open_points": [
+    "À définir avec Sébastien Paumier : nom de la 5e famille pour la maison (« terrain » à la place de « copropriété ») et son rendu dans la roue des 8 familles."
   ]
- },
- "resource": {
-  "title": "Fiche des 8 familles",
-  "kind": "fiche",
-  "intro": "Fiche de référence pour chaque estimation : la question à poser par famille, les preuves à réunir, les 3 effets possibles et la règle de classement. Remplis le tableau avant de chiffrer quoi que ce soit ; il devient la colonne vertébrale de ton avis de valeur. Elle vaut pour un appartement comme pour une maison.",
-  "sections": [
-   {
-    "type": "table",
-    "heading": "Les 8 familles, la question, les preuves",
-    "headers": ["Famille", "La question à se poser", "Preuves à réunir"],
-    "rows": [
-     ["Intrinsèque", "Surface, plan, étage ou niveaux, exposition, annexes, terrain ?", "Mesurage, plan, photos, cadastre"],
-     ["Marché", "Que disent les ventes comparables du secteur ?", "Ventes DVF ou notariales, délai de vente, biens en concurrence"],
-     ["Technique", "État du bâti et des équipements ?", "Grille d'audit, diagnostics, devis"],
-     ["Énergétique", "Classe, coût, travaux pour progresser ?", "DPE ou attestation actualisée, audit, devis"],
-     ["Copropriété ou terrain", "Charges et travaux votés (appartement) ; PLU, assainissement, risques (maison) ?", "PV d'AG, PPPT, appels de fonds ; PLU, rapport SPANC, état des risques"],
-     ["Perçue", "Que ressent l'acheteur en entrant et sur les photos ?", "Reportage photo, plan Éco-staging chiffré"],
-     ["Financière", "Coût mensuel pour l'acheteur, travaux compris ?", "Simulation de mensualité, devis, aides notifiées uniquement"],
-     ["Transactionnelle", "Délai, conditions, documents, mandat ?", "Calendrier du vendeur, dossier complet, type de mandat"]
-    ]
-   },
-   {
-    "type": "table",
-    "heading": "Les 3 effets possibles sur le prix",
-    "headers": ["Effet", "Quand l'utiliser", "Ce que tu écris"],
-    "rows": [
-     ["Neutre", "Les comparables ont le même élément", "« Présent dans les références, sans ajustement »"],
-     ["Chiffré", "Une preuve écrite donne un montant (devis, PV, appel de fonds)", "« −5 600 €, devis D13 du [date] »"],
-     ["Argument", "Pas de montant prouvable, mais un effet sur le délai ou la place dans la fourchette", "« Soutient le haut de la fourchette »"]
-    ]
-   },
-   {
-    "type": "steps",
-    "heading": "Méthode de classement en 5 étapes",
-    "items": [
-     "Liste tous les atouts et défauts relevés pendant la visite, sans les trier.",
-     "Range chaque élément dans une seule famille, celle de sa preuve principale.",
-     "Compare avec les biens de référence : l'élément est-il déjà dans leur prix ?",
-     "Attribue l'effet : neutre, chiffré (avec la preuve) ou argument.",
-     "Relis : aucun double compte, au moins un atout par famille quand il existe."
-    ]
-   },
-   {
-    "type": "list",
-    "heading": "Les règles qui rendent ton tableau défendable",
-    "items": [
-     "Un défaut = une famille = un montant : jamais de double compte.",
-     "Pas de preuve, pas de montant : une impression reste un argument.",
-     "Le coût d'une réparation n'est pas forcément la décote que l'acheteur appliquera : présente les deux séparément.",
-     "Pas de pourcentage national pour l'énergie : la valeur verte se lit dans les comparables (capsule 2.28).",
-     "Une aide non notifiée ne se chiffre pas.",
-     "Les atouts comptent autant que les défauts."
-    ]
-   },
-   {
-    "type": "table",
-    "heading": "Exemple rempli : appartement de M. Bernard (fictif)",
-    "headers": ["Famille", "Atouts", "Défauts", "Effet"],
-    "rows": [
-     ["Intrinsèque", "76 m², T4, 4e avec ascenseur, balcon 6 m² SO, cave, parking", "Immeuble 1972, parking extérieur", "Argument (haut de fourchette)"],
-     ["Marché", "Comparables en l'état ≈ 2 650 €/m² (fictif)", "Rénovés à 2 850 €/m² : concurrence", "Base de la valeur"],
-     ["Technique", "Cuisine et sols 2016, tableau électrique 2010", "Pas de VMC, conduit obstrué", "Chiffré : −2 900 € (D13)"],
-     ["Énergétique", "Attestation actualisée classe E", "4 fenêtres simple vitrage ; convecteurs 1998 (neutres)", "Chiffré : −5 600 € (D13)"],
-     ["Copropriété", "Ascenseurs 2019, colonnes 2015, impayés modérés", "ITE votée : 35 880 € pour le lot en 2027", "Chiffré à partir du PV D07"],
-     ["Perçue", "Lumière sud-ouest, cuisine récente", "Moisissures SdB, auréole cuisine, fissure fine", "Éco-staging ≈ 450 €, pas de décote"],
-     ["Financière", "Travaux privatifs finançables avec le prêt", "16 500 € de travaux + appels ITE 2027", "Argument (présentation en mensualité)"],
-     ["Transactionnelle", "Vendeur souple à 3 mois près, dossier complet", "Objectif : vendu avant l'été 2027", "Argument (délai)"]
-    ]
-   }
-  ],
-  "footer": "Sources : 8 familles de valeur, référentiel du programme Éco-Consultant (proposition pédagogique) ; DVF, data.gouv.fr (mise à jour semestrielle, octobre 2026) ; Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (7/01/2026) ; Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025). Données M. Bernard fictives. Mise à jour : octobre 2026."
- },
- "exercise": {
-  "title": "Classer les atouts et défauts du bien",
-  "duration_min": 25,
-  "context": "Tu as visité l'appartement de M. Bernard et lu le dossier de copropriété. Avant de chercher tes références et de calculer la valeur, tu ranges chaque élément dans la bonne famille et tu décides de son effet sur le prix en l'état. Parcours maison : fais le même travail sur la maison de Mme Garnier (M04, M05, M08, M02), en remplaçant la famille copropriété par la famille terrain.",
-  "materials": [
-   "D04 Plan et descriptif, D05 Reportage photo commenté",
-   "D03 Attestation actualisée ADEME (classe E)",
-   "D07 PV d'AG du 12/06/2025, D13 Devis des travaux privatifs",
-   "D12 Tableau des comparables (fictifs)"
-  ],
-  "steps": [
-   "Classe ces 16 éléments dans une des 8 familles : 76 m² Carrez ; 4e avec ascenseur ; balcon 6 m² sud-ouest ; cave et parking extérieur ; comparables en l'état à 2 650 €/m² ; cuisine refaite en 2016 ; absence de VMC et conduit obstrué ; attestation classe E ; 4 fenêtres bois simple vitrage ; convecteurs de 1998 ; ITE votée (35 880 € pour le lot) ; ascenseurs remplacés en 2019 ; moisissures et auréole ; 16 500 € de travaux à financer ; vendre avant l'été 2027 ; dossier de copropriété complet.",
-   "Pour chaque élément, indique s'il s'agit d'un atout ou d'un défaut.",
-   "Attribue l'effet sur le prix en l'état : neutre, chiffré (preuve et montant) ou argument.",
-   "Vérifie qu'aucun montant n'apparaît deux fois.",
-   "Écris en 2 phrases ta réponse à M. Bernard quand il te demande pourquoi tu n'appliques pas « −15 % pour le DPE »."
-  ],
-  "expected": "Intrinsèque : 76 m², 4e avec ascenseur, balcon SO, cave et parking → atouts, arguments. Marché : comparables à 2 650 €/m² → base (76 × 2 650 = 201 400 €). Technique : cuisine 2016 → atout, argument ; absence de VMC → défaut chiffré −2 900 € (D13). Énergétique : attestation E → atout ; fenêtres simple vitrage → défaut chiffré −5 600 € (D13), une seule fois ; convecteurs → défaut neutre (présents dans les comparables en l'état). Copropriété : ITE votée 35 880 € → défaut chiffré à partir du PV D07 ; ascenseurs 2019 → atout. Perçue : moisissures et auréole → Éco-staging ≈ 450 €, pas de décote. Financière : 16 500 € de travaux → argument (présentation en mensualité), pas une seconde déduction. Transactionnelle : objectif été 2027 et dossier complet → arguments. Réponse : « Le DPE n'est qu'une des huit familles, et votre étiquette est désormais E. Je pars des ventes réelles et je n'ajuste que ce que je prouve : fenêtres et ventilation au devis, et travaux votés par l'immeuble. »",
-  "ia_prompt": null
- },
- "deliverable": {
-  "title": "Tableau des 8 familles de valeur du bien fil rouge",
-  "format": "Tableau PDF ou XLSX, 1 page",
-  "criteria": [
-   "Les 16 éléments sont classés, chacun dans une seule famille",
-   "Chaque effet « chiffré » cite sa preuve (code du dossier) et son montant",
-   "Aucun montant n'apparaît deux fois",
-   "Les éléments présents dans les comparables sont traités comme neutres, avec la justification",
-   "La réponse au « −15 % pour le DPE » tient en 2 phrases et cite au moins une preuve"
-  ]
- },
- "sources": [
-  {
-   "label": "Programme Éco-Consultant : 8 familles de valeur, proposition pédagogique (reprise de la capsule v3 2.8)"
-  },
-  {
-   "label": "DVF, Demandes de valeurs foncières (data.gouv.fr) : 5 dernières années, mise à jour semestrielle (avril et octobre), hors Alsace, Moselle et Mayotte",
-   "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
-  },
-  {
-   "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (étude de décembre 2025, mise en ligne le 7/01/2026)",
-   "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
-  },
-  {
-   "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025)",
-   "url": "https://charteexpertiseimmo.org/la-6eme-%C3%A9dition.html"
-  }
- ],
- "open_points": [
-  "À définir avec Sébastien Paumier : nom de la 5e famille pour la maison (« terrain » à la place de « copropriété ») et son rendu dans la roue des 8 familles.",
-  "Chapitre interactif à adapter depuis chap_2.8 (nouveau numéro 2.27, renvois vers 2.28 et 2.30)."
- ]
 }

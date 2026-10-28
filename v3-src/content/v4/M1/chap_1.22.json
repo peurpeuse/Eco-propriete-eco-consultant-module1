@@ -51,11 +51,11 @@
     {
       "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
       "title": "Appel interdit. Amende par appel.",
-      "voice": "Résultat : sans accord préalable, l'appel est interdit. L'amende peut atteindre 75 000 euros par appel, 375 000 pour une société. Et la DGCCRF publie les sanctions.",
+      "voice": "Résultat : sans accord préalable, l'appel est interdit. L'amende peut atteindre 75 000 euros pour une personne, 375 000 pour une société. Et la DGCCRF publie les sanctions.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": ["Sans accord préalable : appel interdit depuis le 11 août 2026.", "Jusqu'à 75 000 € d'amende par appel, 375 000 € pour une société."],
-      "source": "DGCCRF, « Les règles du démarchage téléphonique s'imposant aux entreprises », 27/07/2026 (consentement préalable dès le 11/08/2026 ; jusqu'à 75 000 € par appel pour une personne physique, 375 000 € pour une personne morale ; publication systématique des amendes) ; loi n° 2025-594 du 30/06/2025"
+      "source": "DGCCRF, « Les règles du démarchage téléphonique s'imposant aux entreprises », 27/07/2026 (consentement préalable dès le 11/08/2026 ; jusqu'à 75 000 € pour une personne physique, 375 000 € pour une personne morale ; publication systématique des amendes) ; loi n° 2025-594 du 30/06/2025"
     },
     {
       "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
@@ -209,6 +209,7 @@
     "Frontière à valider : l'offre d'entrée parle de vente et d'estimation (DPE, attestation), jamais de travaux de rénovation énergétique, secteur où le démarchage téléphonique est totalement interdit",
     "R1 (découverte) et R2 (présentation de l'estimation) : définitions et critères de qualification à définir avec Sébastien Paumier",
     "Séquence J0, J+3, J+7, J+14 : proposition pédagogique, pas une règle ; à valider",
-    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider"
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : fin sobre à valider",
+    "à vérifier : écran 5, « 75 000 € d'amende par appel » ; le chapitre 1.21 et la capsule 1.21 disent « jusqu'à 75 000 € » sans « par appel ». Confirmer la formulation sur le texte DGCCRF / Légifrance et l'aligner dans les deux chapitres."
   ]
 }

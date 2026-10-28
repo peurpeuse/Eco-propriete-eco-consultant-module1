@@ -78,27 +78,90 @@
       {
         "type": "table",
         "heading": "Ajustements : exemple rempli (M. Bernard, FICTIF)",
-        "headers": ["Famille", "Élément", "Ajustement", "Preuve"],
+        "headers": [
+          "Famille",
+          "Élément",
+          "Ajustement",
+          "Preuve"
+        ],
         "rows": [
-          ["Marché", "Valeur de base 76 × 2 650", "201 400 €", "D12, médiane du groupe en l'état"],
-          ["Énergétique", "4 fenêtres bois simple vitrage", "−5 600 €", "Devis D13"],
-          ["Technique", "Pas de VMC, conduit obstrué", "−2 900 €", "Devis D13"],
-          ["Technique / énergétique", "Convecteurs 1998, ballon 2011", "0 € (neutre)", "Équipements présents dans les ventes en l'état"],
-          ["Copropriété", "Appels ITE : 26 910 € dus par l'acquéreur si acte au 15/03/2027, immeuble isolé en contrepartie", "−6 900 € à −14 900 €", "PV D07 ; jugement documenté"],
-          ["Résultat", "Fourchette en l'état, net vendeur", "178 000 € – 186 000 €", "192 900 − 14 900 / − 6 900"]
+          [
+            "Marché",
+            "Valeur de base 76 × 2 650",
+            "201 400 €",
+            "D12, médiane du groupe en l'état"
+          ],
+          [
+            "Énergétique",
+            "4 fenêtres bois simple vitrage",
+            "−5 600 €",
+            "Devis D13"
+          ],
+          [
+            "Technique",
+            "Pas de VMC, conduit obstrué",
+            "−2 900 €",
+            "Devis D13"
+          ],
+          [
+            "Technique / énergétique",
+            "Convecteurs 1998, ballon 2011",
+            "0 € (neutre)",
+            "Équipements présents dans les ventes en l'état"
+          ],
+          [
+            "Copropriété",
+            "Appels ITE : 26 910 € dus par l'acquéreur si acte au 15/03/2027, immeuble isolé en contrepartie",
+            "−6 900 € à −14 900 €",
+            "PV D07 ; jugement documenté"
+          ],
+          [
+            "Résultat",
+            "Fourchette en l'état, net vendeur",
+            "178 000 € – 186 000 €",
+            "192 900 − 14 900 / − 6 900"
+          ]
         ]
       },
       {
         "type": "table",
         "heading": "Avant / après : la comparaison honnête",
-        "headers": ["Indicateur", "Valeur", "Calcul ou source"],
+        "headers": [
+          "Indicateur",
+          "Valeur",
+          "Calcul ou source"
+        ],
         "rows": [
-          ["Valeur en l'état", "178 000 – 186 000 €", "Ajustements ci-dessus"],
-          ["Valeur après rénovation", "216 600 €", "76 × 2 850 (médiane M6 à M8)"],
-          ["Écart de valeur", "30 600 – 38 600 €", "216 600 − 186 000 / − 178 000"],
-          ["Coût des travaux", "52 380 €", "16 500 privatifs (D13) + 35 880 quote-part ITE (D07), hors aide non notifiée"],
-          ["Solde indicatif", "−13 780 à −21 780 €", "Écart − coût : aucun gain garanti"],
-          ["Repère régional", "Appartements E : −3 à −5 % ; C : +2 à +4 % par rapport à D", "Notaires de France, valeur verte, transactions 2024, Île-de-France grande couronne (étude publiée le 7/01/2026), à vérifier dans le tableau régional"]
+          [
+            "Valeur en l'état",
+            "178 000 – 186 000 €",
+            "Ajustements ci-dessus"
+          ],
+          [
+            "Valeur après rénovation",
+            "216 600 €",
+            "76 × 2 850 (médiane M6 à M8)"
+          ],
+          [
+            "Écart de valeur",
+            "30 600 – 38 600 €",
+            "216 600 − 186 000 / − 178 000"
+          ],
+          [
+            "Coût des travaux",
+            "52 380 €",
+            "16 500 privatifs (D13) + 35 880 quote-part ITE (D07), hors aide non notifiée"
+          ],
+          [
+            "Solde indicatif",
+            "−13 780 à −21 780 €",
+            "Écart − coût : aucun gain garanti"
+          ],
+          [
+            "Repère régional",
+            "Appartements E : −3 à −5 % ; C : +2 à +4 % par rapport à D",
+            "Notaires de France, valeur verte, transactions 2024, Île-de-France grande couronne (étude publiée le 7/01/2026), à vérifier dans le tableau régional"
+          ]
         ]
       },
       {
@@ -166,17 +229,33 @@
     ]
   },
   "sources": [
-    { "label": "DVF, Demandes de valeurs foncières (data.gouv.fr)", "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres" },
-    { "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des provisions en cas de mutation d'un lot)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265" },
-    { "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (publiée le 7/01/2026) : appartements G −17 % en grande couronne francilienne par rapport à D", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" },
-    { "label": "Service-Public, « MaPrimeRénov' : certains projets de travaux bientôt exclus du dispositif » (A18332, mise à jour le 27/08/2026)", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18332" },
-    { "label": "CNIL, définition : minimisation des données", "url": "https://www.cnil.fr/fr/definition/minimisation" },
-    { "label": "Proposition pédagogique Éco-Propriété : ventes D12 et devis D13 FICTIFS (Bible du fil rouge §4 à §6) ; reprise de l'ancienne capsule 2.10" }
+    {
+      "label": "DVF, Demandes de valeurs foncières (data.gouv.fr)",
+      "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres"
+    },
+    {
+      "label": "Décret n° 67-223 du 17 mars 1967, art. 6-2 (paiement des provisions en cas de mutation d'un lot)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053191265"
+    },
+    {
+      "label": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 » (publiée le 7/01/2026) : appartements G −17 % en grande couronne francilienne par rapport à D",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    },
+    {
+      "label": "Service-Public, « MaPrimeRénov' : certains projets de travaux bientôt exclus du dispositif » (A18332, mise à jour le 27/08/2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18332"
+    },
+    {
+      "label": "CNIL, définition : minimisation des données",
+      "url": "https://www.cnil.fr/fr/definition/minimisation"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété : ventes D12 et devis D13 FICTIFS (Bible du fil rouge §4 à §6)"
+    }
   ],
   "open_points": [
     "À vérifier : écarts régionaux E (−3 à −5 %) et C (+2 à +4 %) des appartements de grande couronne, lus dans une version du tableau régional de l'étude des notaires (attribution des lignes appartements / maisons à confirmer dans le PDF officiel) ; seul le chiffre G −17 % est vérifié dans le texte.",
     "Décote copropriété 6 900 – 14 900 € : jugement documenté dérivé de la Bible, à présenter comme tel, pas comme règle de marché.",
-    "Chapitre interactif à adapter depuis chap_2.10.json (nouveau numéro 2.43) : non traité dans cette fiche.",
     "Aides : règles MaPrimeRénov' vérifiées au 27/08/2026 ; à actualiser à chaque session (loi de finances 2027)."
   ]
 }

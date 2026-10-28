@@ -194,7 +194,7 @@
         ]
       }
     ],
-    "footer": "Sources : aide Google Business Profile (consignes, zones desservies, description, avis) et règlement des contenus Google Maps ; aide Meta (programmation, publicités Logement) ; Service-Public F16096 (DPE dans les annonces) ; INC (annonces de lots de copropriété) ; aide LinkedIn (logiciels interdits, activité automatisée) ; CNIL (réutilisation des données publiées sur Internet). Reprise des anciennes capsules 1.3, 1.4 et 1.5. Mise à jour : 28/10/2026."
+    "footer": "Sources : aide Google Business Profile (consignes, zones desservies, description, avis) et règlement des contenus Google Maps ; aide Meta (programmation, publicités Logement) ; Service-Public F16096 (DPE dans les annonces) ; INC (annonces de lots de copropriété) ; aide LinkedIn (logiciels interdits, activité automatisée) ; CNIL (réutilisation des données publiées sur Internet). Mise à jour : 28/10/2026."
   },
   "exercise": {
     "title": "Fiche Google, 3 posts programmés, profil LinkedIn",
@@ -271,7 +271,6 @@
   ],
   "open_points": [
     "Les règles des plateformes (Google, Meta, LinkedIn) changent souvent : revérifier chaque consigne avant tournage et à chaque mise à jour de la ressource.",
-    "à vérifier : exigences actuelles de Meta pour les publicités immobilières en France (catégorie Logement, options de ciblage restantes).",
-    "Chapitre à adapter depuis l'ancien chap_1.3 en intégrant Facebook (ancien 1.4) et LinkedIn (ancien 1.5) ; renuméroter."
+    "à vérifier : exigences actuelles de Meta pour les publicités immobilières en France (catégorie Logement, options de ciblage restantes)."
   ]
 }

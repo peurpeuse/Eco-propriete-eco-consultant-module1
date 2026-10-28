@@ -73,12 +73,37 @@
       {
         "type": "table",
         "heading": "Les 4 styles en un coup d'œil",
-        "headers": ["Style", "Ce qu'il cherche", "Indices à l'oral", "Il décide…"],
+        "headers": [
+          "Style",
+          "Ce qu'il cherche",
+          "Indices à l'oral",
+          "Il décide…"
+        ],
         "rows": [
-          ["D · Dominant (rapide, faits)", "Résultat, contrôle, efficacité", "Coupe la parole, « combien ? quand ? », phrases courtes", "Vite, s'il a les options et garde la main"],
-          ["I · Influent (rapide, personnes)", "Relation, reconnaissance, enthousiasme", "Raconte, digresse, parle de ses souvenirs", "Sur l'émotion, puis hésite"],
-          ["S · Stable (posé, personnes)", "Sécurité, harmonie, continuité", "Écoute, cite ses proches, évite le conflit", "Lentement, après avoir consulté"],
-          ["C · Conforme (posé, faits)", "Exactitude, preuves, règles", "« D'où vient ce chiffre ? », documents classés", "Lentement, après avoir vérifié"]
+          [
+            "D · Dominant (rapide, faits)",
+            "Résultat, contrôle, efficacité",
+            "Coupe la parole, « combien ? quand ? », phrases courtes",
+            "Vite, s'il a les options et garde la main"
+          ],
+          [
+            "I · Influent (rapide, personnes)",
+            "Relation, reconnaissance, enthousiasme",
+            "Raconte, digresse, parle de ses souvenirs",
+            "Sur l'émotion, puis hésite"
+          ],
+          [
+            "S · Stable (posé, personnes)",
+            "Sécurité, harmonie, continuité",
+            "Écoute, cite ses proches, évite le conflit",
+            "Lentement, après avoir consulté"
+          ],
+          [
+            "C · Conforme (posé, faits)",
+            "Exactitude, preuves, règles",
+            "« D'où vient ce chiffre ? », documents classés",
+            "Lentement, après avoir vérifié"
+          ]
         ]
       },
       {
@@ -114,7 +139,11 @@
     "title": "Profiler le vendeur fil rouge",
     "duration_min": 25,
     "context": "Avant le rendez-vous de restitution du 29/10/2026, tu relis tes notes de découverte sur ton vendeur fil rouge. Tu dois formuler ton hypothèse de style DISC, la justifier par des indices observés et dire ce qui pourrait la contredire. Corrigé donné pour M. Bernard (appartement) ; un repère est donné pour Mme Garnier (maison).",
-    "materials": ["D01 Fiche découverte vendeur (tes notes)", "D03 Attestation actualisée ADEME", "D12 Tableau des comparables"],
+    "materials": [
+      "D01 Fiche découverte vendeur (tes notes)",
+      "D03 Attestation actualisée ADEME",
+      "D12 Tableau des comparables"
+    ],
     "steps": [
       "Relève dans tes notes au moins 5 indices observés (débit, questions, objets montrés, façon de décider, réactions passées).",
       "Place chaque indice sur les deux axes : rapide ou posé, faits ou personnes.",
@@ -136,12 +165,17 @@
     ]
   },
   "sources": [
-    {"label": "Everything DiSC — Histoire du modèle (W. M. Marston, Emotions of Normal People, 1928)", "url": "https://www.everythingdisc.com/our-story"},
-    {"label": "Dossier fil rouge Éco-Consultant (BIBLE §1 et §11.1, profils DISC fictifs)", "url": "https://eco-propriete.fr"}
+    {
+      "label": "Everything DiSC — Histoire du modèle (W. M. Marston, Emotions of Normal People, 1928)",
+      "url": "https://www.everythingdisc.com/our-story"
+    },
+    {
+      "label": "Dossier fil rouge Éco-Consultant (BIBLE §1 et §11.1, profils DISC fictifs)",
+      "url": "https://eco-propriete.fr"
+    }
   ],
   "open_points": [
     "« DiSC » et « Everything DiSC » sont des marques : écrire « DISC » générique et ne reproduire aucun questionnaire propriétaire ; mention à faire relire par un juriste",
-    "Partage entre 3.17 (identifier) et 3.18 (adapter son discours) : à valider par Sébastien Paumier",
-    "Chapitre à adapter depuis l'ancien chap_3.2 (renuméroté 3.17)"
+    "Partage entre 3.17 (identifier) et 3.18 (adapter son discours) : à valider par Sébastien Paumier"
   ]
 }

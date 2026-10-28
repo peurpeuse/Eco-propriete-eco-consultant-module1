@@ -73,19 +73,79 @@
       {
         "heading": "Tableur net vendeur : appartement de M. Bernard (offre acceptée)",
         "type": "table",
-        "headers": ["Ligne", "Montant", "Date", "Origine"],
+        "headers": [
+          "Ligne",
+          "Montant",
+          "Date",
+          "Origine"
+        ],
         "rows": [
-          ["Prix FAI", "184 000 €", "Offre du 2/12/2026", "D15"],
-          ["− Honoraires (charge acquéreur, dans le prix)", "− 9 000 €", "À l'acte", "Mandat D18"],
-          ["= Net vendeur", "175 000 €", "Acte prévu le 15/03/2027", "Calcul"],
-          ["− Solde du prêt", "0 €", "-", "Prêt soldé (D11 ; inscription à vérifier par le notaire)"],
-          ["− Plan Éco-staging", "≈ − 450 €", "Nov. 2026", "Mandat, BIBLE §7"],
-          ["− État daté (syndic, facturé au vendeur)", "380 € au plus", "Avant l'acte", "Service-Public F37294"],
-          ["− Diagnostics manquants ou à refaire", "Montant du devis", "Avant mise en vente", "Devis du diagnostiqueur"],
-          ["− Appel de fonds ITE payé au syndic", "− 8 970 €", "1/01/2027", "D07"],
-          ["+ Remboursement de l'appel par les acquéreurs", "+ 8 970 €", "À l'acte", "Accord rédigé par le notaire"],
-          ["Fonds de travaux attaché au lot", "1 061 € non remboursés", "-", "D06, sauf accord dans l'acte"],
-          ["= Somme disponible estimée (avant diagnostics)", "≈ 174 170 €", "À l'acte", "175 000 − 450 − 380"]
+          [
+            "Prix FAI",
+            "184 000 €",
+            "Offre du 2/12/2026",
+            "D15"
+          ],
+          [
+            "− Honoraires (charge acquéreur, dans le prix)",
+            "− 9 000 €",
+            "À l'acte",
+            "Mandat D18"
+          ],
+          [
+            "= Net vendeur",
+            "175 000 €",
+            "Acte prévu le 15/03/2027",
+            "Calcul"
+          ],
+          [
+            "− Solde du prêt",
+            "0 €",
+            "-",
+            "Prêt soldé (D11 ; inscription à vérifier par le notaire)"
+          ],
+          [
+            "− Plan Éco-staging",
+            "≈ − 450 €",
+            "Nov. 2026",
+            "Mandat, BIBLE §7"
+          ],
+          [
+            "− État daté (syndic, facturé au vendeur)",
+            "380 € au plus",
+            "Avant l'acte",
+            "Service-Public F37294"
+          ],
+          [
+            "− Diagnostics manquants ou à refaire",
+            "Montant du devis",
+            "Avant mise en vente",
+            "Devis du diagnostiqueur"
+          ],
+          [
+            "− Appel de fonds ITE payé au syndic",
+            "− 8 970 €",
+            "1/01/2027",
+            "D07"
+          ],
+          [
+            "+ Remboursement de l'appel par les acquéreurs",
+            "+ 8 970 €",
+            "À l'acte",
+            "Accord rédigé par le notaire"
+          ],
+          [
+            "Fonds de travaux attaché au lot",
+            "1 061 € non remboursés",
+            "-",
+            "D06, sauf accord dans l'acte"
+          ],
+          [
+            "= Somme disponible estimée (avant diagnostics)",
+            "≈ 174 170 €",
+            "À l'acte",
+            "175 000 − 450 − 380"
+          ]
         ]
       },
       {
@@ -115,14 +175,35 @@
       {
         "heading": "Ce que tu renvoies, et à qui",
         "type": "table",
-        "headers": ["Situation", "Tu renvoies à"],
+        "headers": [
+          "Situation",
+          "Tu renvoies à"
+        ],
         "rows": [
-          ["Toute question d'impôt sur la plus-value, d'exonération, d'abattement", "Notaire chargé de la vente"],
-          ["Bien loué en meublé, SCI, activité professionnelle", "Expert-comptable du vendeur"],
-          ["Succession, donation, indivision, séparation", "Notaire"],
-          ["Solde exact du prêt et frais de remboursement anticipé", "Banque du vendeur (décompte écrit)"],
-          ["Mainlevée d'une garantie inscrite", "Notaire"],
-          ["Charges et appels de fonds au jour de la vente", "Syndic (état daté) et notaire"]
+          [
+            "Toute question d'impôt sur la plus-value, d'exonération, d'abattement",
+            "Notaire chargé de la vente"
+          ],
+          [
+            "Bien loué en meublé, SCI, activité professionnelle",
+            "Expert-comptable du vendeur"
+          ],
+          [
+            "Succession, donation, indivision, séparation",
+            "Notaire"
+          ],
+          [
+            "Solde exact du prêt et frais de remboursement anticipé",
+            "Banque du vendeur (décompte écrit)"
+          ],
+          [
+            "Mainlevée d'une garantie inscrite",
+            "Notaire"
+          ],
+          [
+            "Charges et appels de fonds au jour de la vente",
+            "Syndic (état daté) et notaire"
+          ]
         ]
       },
       {
@@ -192,7 +273,6 @@
     "Notaire ou juriste fiscaliste : relire la fiche « ce qu'on repère, ce qu'on renvoie » (textes à sourcer, aucun conseil fiscal) avant diffusion",
     "À vérifier : le BOI-RFPI-PVI-10-40-10 n'a pas pu être relu en ligne ; seules les fiches service-public.fr et impots.gouv.fr ont été vérifiées",
     "À vérifier : cas de l'entrée en résidence seniors (ce n'est pas forcément un établissement ouvrant droit à l'exonération spécifique des personnes âgées) : à faire trancher par le notaire, ne pas l'enseigner comme règle",
-    "BIBLE : le montant des diagnostics de M. Bernard et la date de décès de M. Garnier ne sont pas fixés ; à définir avec Sébastien Paumier si on veut les chiffrer",
-    "Chapitre nouveau à écrire (2.3) : la réplique de Mozi proposée ici est à valider"
+    "BIBLE : le montant des diagnostics de M. Bernard et la date de décès de M. Garnier ne sont pas fixés ; à définir avec Sébastien Paumier si on veut les chiffrer"
   ]
 }

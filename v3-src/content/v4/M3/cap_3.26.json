@@ -73,15 +73,55 @@
       {
         "type": "table",
         "heading": "Les trois mandats côte à côte",
-        "headers": ["Critère", "Simple", "Exclusif", "Semi-exclusif"],
+        "headers": [
+          "Critère",
+          "Simple",
+          "Exclusif",
+          "Semi-exclusif"
+        ],
         "rows": [
-          ["Nombre d'agences", "Une ou plusieurs", "Une seule", "Une seule"],
-          ["Le vendeur peut vendre lui-même", "Oui", "Non", "Oui, selon les conditions du mandat"],
-          ["Durée", "Limitée, souvent 3 mois irrévocables", "Limitée ; irrévocable pendant 3 mois", "Limitée, souvent 3 mois irrévocables"],
-          ["Sortie", "À la fin de la durée initiale ou après reconduction, préavis de 15 jours par LRAR", "Après 3 mois, à tout moment, préavis de 15 jours au moins par LRAR (art. 78)", "Comme le simple selon service-public.fr ; application de l'art. 78 à vérifier"],
-          ["Reconduction tacite", "Possible, avec information du vendeur sur son droit de ne pas reconduire", "Non, selon service-public.fr : nouveau mandat à signer", "Possible, avec la même information"],
-          ["Engagements écrits de l'agent", "Non imposés", "Actions à réaliser et compte rendu selon une périodicité convenue (loi n° 70-9, art. 6 I)", "À vérifier : clause d'exclusivité, donc mêmes engagements probables"],
-          ["Intérêt commercial", "Le vendeur garde toutes les portes ouvertes", "Un prix, un dossier, un responsable qui rend des comptes", "Une seule agence, le vendeur garde sa liberté de vendre seul"]
+          [
+            "Nombre d'agences",
+            "Une ou plusieurs",
+            "Une seule",
+            "Une seule"
+          ],
+          [
+            "Le vendeur peut vendre lui-même",
+            "Oui",
+            "Non",
+            "Oui, selon les conditions du mandat"
+          ],
+          [
+            "Durée",
+            "Limitée, souvent 3 mois irrévocables",
+            "Limitée ; irrévocable pendant 3 mois",
+            "Limitée, souvent 3 mois irrévocables"
+          ],
+          [
+            "Sortie",
+            "À la fin de la durée initiale ou après reconduction, préavis de 15 jours par LRAR",
+            "Après 3 mois, à tout moment, préavis de 15 jours au moins par LRAR (art. 78)",
+            "Comme le simple selon service-public.fr ; application de l'art. 78 à vérifier"
+          ],
+          [
+            "Reconduction tacite",
+            "Possible, avec information du vendeur sur son droit de ne pas reconduire",
+            "Non, selon service-public.fr : nouveau mandat à signer",
+            "Possible, avec la même information"
+          ],
+          [
+            "Engagements écrits de l'agent",
+            "Non imposés",
+            "Actions à réaliser et compte rendu selon une périodicité convenue (loi n° 70-9, art. 6 I)",
+            "À vérifier : clause d'exclusivité, donc mêmes engagements probables"
+          ],
+          [
+            "Intérêt commercial",
+            "Le vendeur garde toutes les portes ouvertes",
+            "Un prix, un dossier, un responsable qui rend des comptes",
+            "Une seule agence, le vendeur garde sa liberté de vendre seul"
+          ]
         ]
       },
       {
@@ -156,17 +196,34 @@
     ]
   },
   "sources": [
-    { "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972, art. 78 (clause d'exclusivité, dénonciation après 3 mois, préavis 15 jours LRAR)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000030782471" },
-    { "label": "Légifrance — Décret n° 72-678, art. 72 (mandat écrit préalable, registre, conservation 10 ans), en vigueur depuis le 1/10/2016", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033202014" },
-    { "label": "Légifrance — Décret n° 72-678, art. 73 (rémunération et partie qui la paie)", "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033261932" },
-    { "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (art. 6 : mentions et engagements de l'exclusivité ; art. 7 : limitation dans le temps, mention de l'art. 78)", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512228" },
-    { "label": "Légifrance — Code de la consommation, art. L. 221-18 (rétractation de 14 jours hors établissement)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842" },
-    { "label": "Service-public.fr — Quel mandat de vente peut-on confier à un agent immobilier ? (vérifié le 19/09/2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1550" }
+    {
+      "label": "Légifrance — Décret n° 72-678 du 20 juillet 1972, art. 78 (clause d'exclusivité, dénonciation après 3 mois, préavis 15 jours LRAR)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000030782471"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 72 (mandat écrit préalable, registre, conservation 10 ans), en vigueur depuis le 1/10/2016",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033202014"
+    },
+    {
+      "label": "Légifrance — Décret n° 72-678, art. 73 (rémunération et partie qui la paie)",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033261932"
+    },
+    {
+      "label": "Légifrance — Loi n° 70-9 du 2 janvier 1970 (art. 6 : mentions et engagements de l'exclusivité ; art. 7 : limitation dans le temps, mention de l'art. 78)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512228"
+    },
+    {
+      "label": "Légifrance — Code de la consommation, art. L. 221-18 (rétractation de 14 jours hors établissement)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226842"
+    },
+    {
+      "label": "Service-public.fr — Quel mandat de vente peut-on confier à un agent immobilier ? (vérifié le 19/09/2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1550"
+    }
   ],
   "open_points": [
     "À faire relire par un juriste : l'ensemble du tableau des mandats (mentions obligatoires, obligations administratives, calcul des honoraires).",
     "À faire relire par un juriste : régime de sortie du mandat semi-exclusif (service-public.fr l'aligne sur le mandat simple, mais il contient une clause d'exclusivité au sens de l'art. 78) et engagements de l'art. 6 I qui s'y appliquent.",
-    "À faire relire par un juriste : absence de reconduction tacite du mandat exclusif (affirmée par service-public.fr, sans texte cité dans la fiche).",
-    "Chapitre interactif nouveau à écrire."
+    "À faire relire par un juriste : absence de reconduction tacite du mandat exclusif (affirmée par service-public.fr, sans texte cité dans la fiche)."
   ]
 }

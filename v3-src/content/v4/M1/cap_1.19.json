@@ -73,13 +73,37 @@
       {
         "type": "table",
         "heading": "La structure en 5 briques",
-        "headers": ["Brique", "Question", "Exemple fil rouge (anonymisé)"],
+        "headers": [
+          "Brique",
+          "Question",
+          "Exemple fil rouge (anonymisé)"
+        ],
         "rows": [
-          ["Rôle", "Qui écrit ?", "« Tu es éco-consultant immobilier à Melun. »"],
-          ["Contexte", "Quel bien, quelle cible ? Jamais la personne", "« T4 de 76 m², immeuble de 1972, chauffage électrique, DPE 2023 classé F, classé E avec l'attestation actualisée. »"],
-          ["Tâche", "Quoi faire, dans quel but ?", "« Rédige un post qui explique ce que le nouveau calcul change pour un vendeur. »"],
-          ["Format", "Longueur, structure, ton", "« 800 caractères, une accroche, un exemple fictif, une question finale. »"],
-          ["Contraintes", "Ce qui est interdit", "« Aucun chiffre absent de ce prompt, [À VÉRIFIER] en cas de doute, aucun nom ni adresse. »"]
+          [
+            "Rôle",
+            "Qui écrit ?",
+            "« Tu es éco-consultant immobilier à Melun. »"
+          ],
+          [
+            "Contexte",
+            "Quel bien, quelle cible ? Jamais la personne",
+            "« T4 de 76 m², immeuble de 1972, chauffage électrique, DPE 2023 classé F, classé E avec l'attestation actualisée. »"
+          ],
+          [
+            "Tâche",
+            "Quoi faire, dans quel but ?",
+            "« Rédige un post qui explique ce que le nouveau calcul change pour un vendeur. »"
+          ],
+          [
+            "Format",
+            "Longueur, structure, ton",
+            "« 800 caractères, une accroche, un exemple fictif, une question finale. »"
+          ],
+          [
+            "Contraintes",
+            "Ce qui est interdit",
+            "« Aucun chiffre absent de ce prompt, [À VÉRIFIER] en cas de doute, aucun nom ni adresse. »"
+          ]
         ]
       },
       {
@@ -119,7 +143,7 @@
         ]
       }
     ],
-    "footer": "Sources : règlement (UE) 2024/1689 (AI Act), art. 50 ; RGPD (UE) 2016/679 ; CNIL, IA et RGPD ; arrêtés du 13/08/2025 et du 19/08/2026 (coefficient électricité) ; Notaires de France (valeur verte, transactions 2024). Prompts : proposition pédagogique Éco-Propriété, reprise de l'ancienne capsule 1.6. Mise à jour : 28/10/2026."
+    "footer": "Sources : règlement (UE) 2024/1689 (AI Act), art. 50 ; RGPD (UE) 2016/679 ; CNIL, IA et RGPD ; arrêtés du 13/08/2025 et du 19/08/2026 (coefficient électricité) ; Notaires de France (valeur verte, transactions 2024). Prompts : proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
   },
   "exercise": {
     "title": "1 post et 1 script vidéo courte avec l'IA",
@@ -165,18 +189,41 @@
     ]
   },
   "sources": [
-    { "label": "Règlement (UE) 2024/1689 sur l'intelligence artificielle (AI Act), EUR-Lex", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj" },
-    { "label": "AI Act, article 50 (obligations de transparence), texte consolidé lisible", "url": "https://artificialintelligenceact.eu/article/50/" },
-    { "label": "Règlement (UE) 2026/1744 « Omnibus numérique sur l'IA », EUR-Lex (cité dans l'ancienne capsule 1.6)", "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj" },
-    { "label": "RGPD, règlement (UE) 2016/679", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj" },
-    { "label": "CNIL — IA : comment être en conformité avec le RGPD", "url": "https://www.cnil.fr/fr/intelligence-artificielle/ia-comment-etre-en-conformite-avec-le-rgpd" },
-    { "label": "Légifrance — Arrêté du 19/08/2026 (coefficient électricité 1,7 au 1/01/2027)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079" },
-    { "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr" },
-    { "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024", "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024" }
+    {
+      "label": "Règlement (UE) 2024/1689 sur l'intelligence artificielle (AI Act), EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "label": "AI Act, article 50 (obligations de transparence), texte consolidé lisible",
+      "url": "https://artificialintelligenceact.eu/article/50/"
+    },
+    {
+      "label": "Règlement (UE) 2026/1744 « Omnibus numérique sur l'IA », EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "label": "RGPD, règlement (UE) 2016/679",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "label": "CNIL — IA : comment être en conformité avec le RGPD",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/ia-comment-etre-en-conformite-avec-le-rgpd"
+    },
+    {
+      "label": "Légifrance — Arrêté du 19/08/2026 (coefficient électricité 1,7 au 1/01/2027)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "Notaires de France — La valeur verte des logements en France sur les transactions 2024",
+      "url": "https://www.notaires.fr/fr/actualites/la-valeur-verte-des-logements-en-france-sur-les-transactions-2024"
+    }
   ],
   "open_points": [
     "à vérifier : date d'application de l'article 50 de l'AI Act après l'Omnibus numérique (l'ancienne capsule retenait le 2/08/2026) et portée exacte pour un agent immobilier.",
-    "à vérifier : URL Légifrance de l'arrêté du 13 août 2025 (coefficient 1,9).",
-    "Chapitre à adapter depuis l'ancien chap_1.6 : renuméroter, recentrer sur 1 post + 1 script."
+    "à vérifier : URL Légifrance de l'arrêté du 13 août 2025 (coefficient 1,9)."
   ]
 }

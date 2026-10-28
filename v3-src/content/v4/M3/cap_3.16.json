@@ -107,14 +107,56 @@
       {
         "type": "table",
         "heading": "Tableau de suivi · exemple rempli (M. Bernard, 28/10/2026)",
-        "headers": ["Pièce", "Source", "Date", "Statut", "Prochaine action"],
+        "headers": [
+          "Pièce",
+          "Source",
+          "Date",
+          "Statut",
+          "Prochaine action"
+        ],
         "rows": [
-          ["D03 Attestation ADEME (E)", "Vendeur (observatoire ADEME)", "2026", "Reçu", "Joindre au dossier et à l'annonce"],
-          ["D06 Charges 2026", "Cabinet Martel Gestion", "2026", "Reçu", "Charge mensuelle : 2 652 / 12 ≈ 221 €"],
-          ["D07 PV d'AG", "Cabinet Martel Gestion", "12/06/2025", "Reçu", "Préparer la réponse ITE (35 880 €)"],
-          ["D10 Fiche synthétique", "Mme Roy, syndic", "À venir", "Demandé", "Relancer le 03/11/2026"],
-          ["D13 Devis travaux", "Entreprises (fictives)", "Oct. 2026", "Reçu", "Total 16 500 € TTC à présenter"],
-          ["D17 État de l'électricité", "Diagnostiqueur au choix du vendeur", "À venir", "À commander", "Bon de commande signé avant le 13/11/2026"]
+          [
+            "D03 Attestation ADEME (E)",
+            "Vendeur (observatoire ADEME)",
+            "2026",
+            "Reçu",
+            "Joindre au dossier et à l'annonce"
+          ],
+          [
+            "D06 Charges 2026",
+            "Cabinet Martel Gestion",
+            "2026",
+            "Reçu",
+            "Charge mensuelle : 2 652 / 12 ≈ 221 €"
+          ],
+          [
+            "D07 PV d'AG",
+            "Cabinet Martel Gestion",
+            "12/06/2025",
+            "Reçu",
+            "Préparer la réponse ITE (35 880 €)"
+          ],
+          [
+            "D10 Fiche synthétique",
+            "Mme Roy, syndic",
+            "À venir",
+            "Demandé",
+            "Relancer le 03/11/2026"
+          ],
+          [
+            "D13 Devis travaux",
+            "Entreprises (fictives)",
+            "Oct. 2026",
+            "Reçu",
+            "Total 16 500 € TTC à présenter"
+          ],
+          [
+            "D17 État de l'électricité",
+            "Diagnostiqueur au choix du vendeur",
+            "À venir",
+            "À commander",
+            "Bon de commande signé avant le 13/11/2026"
+          ]
         ]
       },
       {
@@ -135,7 +177,12 @@
     "title": "Constituer le dossier complet du vendeur fil rouge",
     "duration_min": 35,
     "context": "Mercredi 28 octobre 2026. Le rendez-vous de restitution est fixé au jeudi 29 octobre. Tu as reçu une chemise de documents et produit ton Dossier Éco-staging (capsule 3.13). Tu dois constituer le dossier du vendeur, repérer ce qui manque et lui envoyer un récapitulatif. Corrigé donné pour l'appartement de M. Bernard ; pour la maison de Mme Garnier, utilise M01 à M14 (SPANC M08, audit M03, ERP M10).",
-    "materials": ["D01 à D13", "D16 Pré-état daté", "D17 Dossier de diagnostic technique", "D18 Modèle de mandat exclusif"],
+    "materials": [
+      "D01 à D13",
+      "D16 Pré-état daté",
+      "D17 Dossier de diagnostic technique",
+      "D18 Modèle de mandat exclusif"
+    ],
     "steps": [
       "Classe les documents reçus dans les 4 blocs.",
       "Pour chaque pièce, renseigne source, date et statut (reçu, demandé, à commander, plus tard) dans le tableau de suivi.",
@@ -159,14 +206,25 @@
     ]
   },
   "sources": [
-    {"label": "Service-Public — Vente d'un logement en copropriété (F2604), consulté le 28/10/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2604"},
-    {"label": "Service-Public — Diagnostics immobiliers obligatoires lors de la vente (F10798), vérifié le 07/03/2025", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798"},
-    {"label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr"},
-    {"label": "CNIL — Définition : minimisation des données", "url": "https://www.cnil.fr/fr/definition/minimisation"}
+    {
+      "label": "Service-Public — Vente d'un logement en copropriété (F2604), consulté le 28/10/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2604"
+    },
+    {
+      "label": "Service-Public — Diagnostics immobiliers obligatoires lors de la vente (F10798), vérifié le 07/03/2025",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10798"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    },
+    {
+      "label": "CNIL — Définition : minimisation des données",
+      "url": "https://www.cnil.fr/fr/definition/minimisation"
+    }
   ],
   "open_points": [
     "Termites : arrêté préfectoral applicable à Melun à vérifier (repris de l'ancienne capsule 3.1)",
-    "Délai de validité de chaque diagnostic à la date de l'acte : non détaillé dans la fiche, à vérifier diagnostic par diagnostic",
-    "Chapitre à adapter depuis l'ancien chap_3.1 (renuméroté 3.16)"
+    "Délai de validité de chaque diagnostic à la date de l'acte : non détaillé dans la fiche, à vérifier diagnostic par diagnostic"
   ]
 }

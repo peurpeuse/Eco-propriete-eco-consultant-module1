@@ -73,16 +73,52 @@
       {
         "heading": "Les rubriques du DPE, dans l'ordre de lecture",
         "type": "table",
-        "headers": ["Rubrique", "Ce que tu relèves", "M. Bernard (D02 / D03)"],
+        "headers": [
+          "Rubrique",
+          "Ce que tu relèves",
+          "M. Bernard (D02 / D03)"
+        ],
         "rows": [
-          ["En-tête", "N° ADEME (13 caractères), date d'établissement, fin de validité, surface, énergie", "2377E0123456X ; 14/03/2023 ; 13/03/2033 ; 76 m² ; tout électrique"],
-          ["Étiquettes énergie et climat", "kWhEP/m²/an, kgCO₂/m²/an, les deux classes, la classe retenue", "345 (F) et 12 (C) → F en 2023 ; attestation : E"],
-          ["Estimation des coûts annuels", "Fourchette en € et année de référence des prix", "2 330 à 3 190 €/an, prix au 1/01/2021"],
-          ["Schéma des déperditions et isolation", "Postes dominants, indicateur d'isolation (4 niveaux)", "À relever sur le D02"],
-          ["Ventilation, confort d'été", "Type de ventilation, indicateur de confort d'été", "Ventilation naturelle, pas de VMC"],
-          ["Consommations par usage", "Chauffage, eau chaude, éclairage, auxiliaires", "112 / 26 / 4 / 8 = 150 kWhEF/m²/an"],
-          ["Recommandations", "Usage, entretien, deux scénarios de travaux avec fourchettes de coûts", "À comparer aux devis D13 (16 500 €)"],
-          ["Descriptif technique", "Données d'entrée (parois, menuiseries, équipements)", "Simple vitrage des chambres, convecteurs 1998, ballon 2011"]
+          [
+            "En-tête",
+            "N° ADEME (13 caractères), date d'établissement, fin de validité, surface, énergie",
+            "2377E0123456X ; 14/03/2023 ; 13/03/2033 ; 76 m² ; tout électrique"
+          ],
+          [
+            "Étiquettes énergie et climat",
+            "kWhEP/m²/an, kgCO₂/m²/an, les deux classes, la classe retenue",
+            "345 (F) et 12 (C) → F en 2023 ; attestation : E"
+          ],
+          [
+            "Estimation des coûts annuels",
+            "Fourchette en € et année de référence des prix",
+            "2 330 à 3 190 €/an, prix au 1/01/2021"
+          ],
+          [
+            "Schéma des déperditions et isolation",
+            "Postes dominants, indicateur d'isolation (4 niveaux)",
+            "À relever sur le D02"
+          ],
+          [
+            "Ventilation, confort d'été",
+            "Type de ventilation, indicateur de confort d'été",
+            "Ventilation naturelle, pas de VMC"
+          ],
+          [
+            "Consommations par usage",
+            "Chauffage, eau chaude, éclairage, auxiliaires",
+            "112 / 26 / 4 / 8 = 150 kWhEF/m²/an"
+          ],
+          [
+            "Recommandations",
+            "Usage, entretien, deux scénarios de travaux avec fourchettes de coûts",
+            "À comparer aux devis D13 (16 500 €)"
+          ],
+          [
+            "Descriptif technique",
+            "Données d'entrée (parois, menuiseries, équipements)",
+            "Simple vitrage des chambres, convecteurs 1998, ballon 2011"
+          ]
         ]
       },
       {
@@ -180,7 +216,6 @@
   ],
   "open_points": [
     "Rédacteur du dossier : le D02 fictif doit contenir un schéma des déperditions, un indicateur d'isolation et deux scénarios de recommandations cohérents avec le D13",
-    "Facteur d'émission du fioul (0,324 kgCO₂/kWh) utilisé pour le DPE de Mme Garnier : à vérifier dans la méthode 3CL",
-    "Chapitre à adapter depuis chap_2.4 (v3) : la séquence IA est retirée (la capsule n'est plus IA) ; écrans 13-14 sur cet exercice"
+    "Facteur d'émission du fioul (0,324 kgCO₂/kWh) utilisé pour le DPE de Mme Garnier : à vérifier dans la méthode 3CL"
   ]
 }

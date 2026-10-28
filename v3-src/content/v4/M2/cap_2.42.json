@@ -78,24 +78,90 @@
       {
         "type": "table",
         "heading": "Tableau de chiffrage : exemple rempli (devis D13, FICTIF)",
-        "headers": ["Poste", "Quantité", "Prix unitaire TTC", "Total TTC", "Source"],
+        "headers": [
+          "Poste",
+          "Quantité",
+          "Prix unitaire TTC",
+          "Total TTC",
+          "Source"
+        ],
         "rows": [
-          ["Fenêtres PVC double vitrage Uw ≤ 1,3 (remplacent bois simple vitrage)", "4", "1 400 €", "5 600 €", "Devis D13"],
-          ["VMC simple flux hygroréglable type B + débouchage conduit salle de bains", "1 ensemble", "2 900 € (forfait)", "2 900 €", "Devis D13"],
-          ["Radiateurs à inertie programmables + thermostat", "6 + 1", "800 € (moyenne, thermostat compris)", "4 800 €", "Devis D13"],
-          ["Chauffe-eau thermodynamique 200 L", "1", "3 200 €", "3 200 €", "Devis D13"],
-          ["Total travaux privatifs", "", "", "16 500 €", "Prix indicatifs à valider"]
+          [
+            "Fenêtres PVC double vitrage Uw ≤ 1,3 (remplacent bois simple vitrage)",
+            "4",
+            "1 400 €",
+            "5 600 €",
+            "Devis D13"
+          ],
+          [
+            "VMC simple flux hygroréglable type B + débouchage conduit salle de bains",
+            "1 ensemble",
+            "2 900 € (forfait)",
+            "2 900 €",
+            "Devis D13"
+          ],
+          [
+            "Radiateurs à inertie programmables + thermostat",
+            "6 + 1",
+            "800 € (moyenne, thermostat compris)",
+            "4 800 €",
+            "Devis D13"
+          ],
+          [
+            "Chauffe-eau thermodynamique 200 L",
+            "1",
+            "3 200 €",
+            "3 200 €",
+            "Devis D13"
+          ],
+          [
+            "Total travaux privatifs",
+            "",
+            "",
+            "16 500 €",
+            "Prix indicatifs à valider"
+          ]
         ]
       },
       {
         "type": "table",
         "heading": "Barème de contrôle par poste (à adapter à ta région)",
-        "headers": ["Poste", "Unité", "Exemple D13 (Melun, FICTIF)", "Barème Poitou-Charentes 2026", "Ton secteur"],
+        "headers": [
+          "Poste",
+          "Unité",
+          "Exemple D13 (Melun, FICTIF)",
+          "Barème Poitou-Charentes 2026",
+          "Ton secteur"
+        ],
         "rows": [
-          ["Fenêtre PVC double vitrage posée", "pièce", "1 400 €", "À compléter (barème à fournir)", "À relever"],
-          ["VMC hygroréglable en appartement", "ensemble", "2 900 €", "À compléter", "À relever"],
-          ["Radiateur à inertie programmable posé", "pièce", "≈ 800 €", "À compléter", "À relever"],
-          ["Chauffe-eau thermodynamique 200 L posé", "pièce", "3 200 €", "À compléter", "À relever"]
+          [
+            "Fenêtre PVC double vitrage posée",
+            "pièce",
+            "1 400 €",
+            "À compléter (barème à fournir)",
+            "À relever"
+          ],
+          [
+            "VMC hygroréglable en appartement",
+            "ensemble",
+            "2 900 €",
+            "À compléter",
+            "À relever"
+          ],
+          [
+            "Radiateur à inertie programmable posé",
+            "pièce",
+            "≈ 800 €",
+            "À compléter",
+            "À relever"
+          ],
+          [
+            "Chauffe-eau thermodynamique 200 L posé",
+            "pièce",
+            "3 200 €",
+            "À compléter",
+            "À relever"
+          ]
         ]
       },
       {
@@ -170,14 +236,24 @@
     ]
   },
   "sources": [
-    { "label": "economie.gouv.fr, « TVA à taux réduit : pour quels travaux ? » (mis à jour le 11/12/2025) : 5,5 % amélioration énergétique, 10 % autres travaux, logements achevés depuis plus de 2 ans ; chaudières à combustibles fossiles à 20 % depuis le 1/03/2025", "url": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-taux-reduit-pour-quels-travaux" },
-    { "label": "Service-Public Entreprendre : taux de TVA pour les travaux de rénovation d'un logement (F23568)", "url": "https://entreprendre.service-public.fr/vosdroits/F23568" },
-    { "label": "CNIL, définition : minimisation des données", "url": "https://www.cnil.fr/fr/definition/minimisation" },
-    { "label": "Proposition pédagogique Éco-Propriété : méthode quantité × prix unitaire, devis D13 FICTIF (Bible du fil rouge §6) ; reprise de l'ancienne capsule 2.9" }
+    {
+      "label": "economie.gouv.fr, « TVA à taux réduit : pour quels travaux ? » (mis à jour le 11/12/2025) : 5,5 % amélioration énergétique, 10 % autres travaux, logements achevés depuis plus de 2 ans ; chaudières à combustibles fossiles à 20 % depuis le 1/03/2025",
+      "url": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-taux-reduit-pour-quels-travaux"
+    },
+    {
+      "label": "Service-Public Entreprendre : taux de TVA pour les travaux de rénovation d'un logement (F23568)",
+      "url": "https://entreprendre.service-public.fr/vosdroits/F23568"
+    },
+    {
+      "label": "CNIL, définition : minimisation des données",
+      "url": "https://www.cnil.fr/fr/definition/minimisation"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété : méthode quantité × prix unitaire, devis D13 FICTIF (Bible du fil rouge §6)"
+    }
   ],
   "open_points": [
     "Barème de coûts de rénovation 2026 « exemple Poitou-Charentes » : document source à fournir par Sébastien Paumier (non trouvé, aucun prix inventé ; colonne laissée « à compléter »).",
-    "Chapitre interactif à adapter depuis chap_2.9.json (nouveau numéro 2.42, exercice et livrable ci-dessus) : non traité dans cette fiche.",
     "Seuil d'écart de 20 % entre devis et barème : proposition pédagogique à valider.",
     "Prix unitaire « 800 € par radiateur, thermostat compris » : moyenne dérivée de D13 (4 800 / 6), pas une ligne du devis."
   ]

@@ -81,7 +81,7 @@
         "0 délai"
       ],
       "wrong": 1,
-      "why": "Rénover coûterait 52 380 € pour 34 600 € d'écart de prix : le compte n'y est pas."
+      "why": "Rénover coûterait 52 380 € pour 35 600 € d'écart de prix : le compte n'y est pas."
     },
     {
       "n": 5,
@@ -90,14 +90,14 @@
       "tc": "0:50",
       "end": "1:05",
       "title": "52 380 € dépensés. Vente repoussée après le chantier.",
-      "voice": "En vrai : 16 500 euros de travaux, plus 35 880 euros d'appels de façade. 52 380 euros dépensés, pour 34 600 euros d'écart. Et une vente repoussée après le chantier, qui ne démarre qu'en avril 2027.",
+      "voice": "En vrai : 16 500 euros de travaux, plus 35 880 euros d'appels de façade. 52 380 euros dépensés, pour 35 600 euros d'écart. Et une vente repoussée après le chantier, qui ne démarre qu'en avril 2027.",
       "voice_status": "proposition",
       "interaction": "Aucune",
       "lines": [
-        "52 380 € dépensés pour 34 600 € d'écart.",
+        "52 380 € dépensés pour 35 600 € d'écart.",
         "Vente repoussée après le chantier (début avril 2027)."
       ],
-      "source": "Dossier fil rouge (fictif) : devis D13 = 16 500 € ; PV d'AG D07 = 35 880 € pour le lot ; 216 600 − 182 000 = 34 600 € ; appels payés par le copropriétaire à la date d'exigibilité (décret n° 67-223 du 17/03/1967, art. 6-2, Légifrance)"
+      "source": "Dossier fil rouge (fictif) : devis D13 = 16 500 € ; PV d'AG D07 = 35 880 € pour le lot ; 216 600 − 181 000 = 35 600 € ; appels payés par le copropriétaire à la date d'exigibilité (décret n° 67-223 du 17/03/1967, art. 6-2, Légifrance)"
     },
     {
       "n": 6,
@@ -128,10 +128,10 @@
       "tc": "1:20",
       "end": "2:15",
       "title": "Deux scénarios, quatre indicateurs → retirer les coûts → il décide",
-      "voice": "D'abord, tu compares deux scénarios avec quatre indicateurs de ton tableau de bord : prix net, coût, délai, risque. En l'état : 178 000 à 186 000 euros net, environ 450 euros d'Éco-staging, mise en vente en novembre. Ensuite, tu retires les coûts. Les 216 600 euros supposent les travaux privatifs et la façade isolée. Écart avec le milieu de la fourchette : 34 600 euros. Coût : 52 380 euros. Bilan : moins 17 780 euros. Enfin, tu conseilles, et lui décide. Tu poses la grille, M. Bernard refait le calcul lui-même. Et la plus-value ? Sur une résidence principale, elle est en principe exonérée. Le notaire le confirme.",
+      "voice": "D'abord, tu compares deux scénarios avec quatre indicateurs de ton tableau de bord : prix net, coût, délai, risque. En l'état : 178 000 à 186 000 euros net, environ 450 euros d'Éco-staging, mise en vente en novembre. Ensuite, tu retires les coûts. Les 216 600 euros supposent les travaux privatifs et la façade isolée. Écart avec le milieu de la fourchette : 35 600 euros. Coût : 52 380 euros. Bilan : moins 16 780 euros. Enfin, tu conseilles, et lui décide. Tu poses la grille, M. Bernard refait le calcul lui-même. Et la plus-value ? Sur une résidence principale, elle est en principe exonérée. Le notaire le confirme.",
       "voice_status": "proposition",
       "interaction": "Les trois étapes apparaissent une à une",
-      "source": "Dossier fil rouge (bible §5-§7, fictif) : (216 600 − 182 000) − 16 500 − 35 880 = −17 780 € ; Service-Public F10864 (exonération de la plus-value sur la résidence principale) ; tableau de bord du bien : capsule 3.7",
+      "source": "Dossier fil rouge (bible §5-§7, fictif) : (216 600 − 181 000) − 16 500 − 35 880 = −16 780 € ; Service-Public F10864 (exonération de la plus-value sur la résidence principale) ; tableau de bord du bien : capsule 3.7",
       "steps": [
         {
           "label": "Deux scénarios, quatre indicateurs",
@@ -139,7 +139,7 @@
         },
         {
           "label": "Retirer les coûts",
-          "detail": "34 600 € d'écart − 16 500 € − 35 880 € = −17 780 €."
+          "detail": "35 600 € d'écart − 16 500 € − 35 880 € = −16 780 €."
         },
         {
           "label": "Il décide",
@@ -160,10 +160,10 @@
       "source": "Pratique de récupération (retrieval practice)",
       "prompt": "Toi, que proposerais-tu ?",
       "context": "Hugo, mandataire, reçoit un mail de M. Bernard : « Un rénové se vend 216 600 €. Ne vaudrait-il pas mieux que je fasse les travaux ? » Que lui répond-il ?",
-      "model_answer": "Pour viser 216 600 €, il faut 16 500 € de travaux privatifs et la façade isolée, soit 35 880 € d'appels pour le lot : 52 380 € pour 34 600 € d'écart, et une vente repoussée après le chantier, qui démarre en avril 2027. Je recommande la vente en l'état avec un dossier chiffré pour l'acheteur. La grille est jointe ; la décision vous appartient.",
+      "model_answer": "Pour viser 216 600 €, il faut 16 500 € de travaux privatifs et la façade isolée, soit 35 880 € d'appels pour le lot : 52 380 € pour 35 600 € d'écart, et une vente repoussée après le chantier, qui démarre en avril 2027. Je recommande la vente en l'état avec un dossier chiffré pour l'acheteur. La grille est jointe ; la décision vous appartient.",
       "keywords": [
         "52 380 €",
-        "34 600 €",
+        "35 600 €",
         "appels de fonds",
         "il décide"
       ]
@@ -248,14 +248,14 @@
       "tc": "3:40",
       "end": "4:00",
       "title": "Choix justifié : dix lignes, sa décision",
-      "voice": "Puis j'écris dix lignes. Son objectif. Le calcul : 52 380 euros pour 34 600 d'écart. Ma recommandation : vendre en l'état, avec les devis remis aux acheteurs. Et la phrase clé : la décision lui appartient.",
+      "voice": "Puis j'écris dix lignes. Son objectif. Le calcul : 52 380 euros pour 35 600 d'écart. Ma recommandation : vendre en l'état, avec les devis remis aux acheteurs. Et la phrase clé : la décision lui appartient.",
       "voice_status": "proposition",
       "interaction": "Étapes qui s'enchaînent",
       "source": "Exercice et livrable de la capsule 3.12 ; Service-Public F10864 pour le renvoi au notaire",
       "tool": "Choix justifié",
       "steps": [
         "Rappeler l'objectif : vendu avant l'été 2027",
-        "Donner le calcul : 52 380 € dépensés pour 34 600 € d'écart",
+        "Donner le calcul : 52 380 € dépensés pour 35 600 € d'écart",
         "Recommander la vente en l'état, devis D13 et calendrier des appels remis aux acheteurs",
         "Laisser la décision au vendeur, renvoyer la plus-value au notaire"
       ]
@@ -296,10 +296,10 @@
       "tc": "4:20",
       "end": "4:30",
       "title": "Bravo !",
-      "voice": "Bravo. Tu as démontré, chiffres à l'appui, ce que Mozi n'a jamais calculé : moins 17 780 euros.",
+      "voice": "Bravo. Tu as démontré, chiffres à l'appui, ce que Mozi n'a jamais calculé : moins 16 780 euros.",
       "voice_status": "proposition",
       "interaction": "Effet statut, aucun badge",
-      "status": "Ta grille : 3 scénarios, −17 780 € démontrés. Mozi : une calculatrice sans ligne de coûts.",
+      "status": "Ta grille : 3 scénarios, −16 780 € démontrés. Mozi : une calculatrice sans ligne de coûts.",
       "source": "Fait observable : ta grille d'arbitrage ; calcul du fil rouge (fictif)"
     }
   ],

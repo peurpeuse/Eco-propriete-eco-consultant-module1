@@ -45,10 +45,10 @@
           "Faux : c'est le raisonnement de Mozi et des agences concurrentes, avec une classe périmée et une décote sans calcul."
         ],
         "fb_title": "Trois chiffres qui décident",
-        "fb_text": "On choisit les trois chiffres qui portent la décision : l'étiquette en vigueur (E), la valeur en l'état (178 000 à 186 000 €) et ce que coûterait l'autre option (16 500 + 35 880 = 52 380 € pour un écart de 34 600 €)."
+        "fb_text": "On choisit les trois chiffres qui portent la décision : l'étiquette en vigueur (E), la valeur en l'état (178 000 à 186 000 €) et ce que coûterait l'autre option (16 500 + 35 880 = 52 380 € pour un écart de 35 600 €)."
       },
       {
-        "question": "Ta synthèse annonce « 182 000 € net vendeur ». M. Bernard demande « D'où sort ce chiffre ? ». Que doit montrer ta page ?",
+        "question": "Ta synthèse annonce « 181 000 € net vendeur ». M. Bernard demande « D'où sort ce chiffre ? ». Que doit montrer ta page ?",
         "options": [
           "Ta signature et ton expérience",
           "La preuve : milieu de la fourchette 178 000 à 186 000 €, calculée sur les comparables D12 (2 650 €/m², ventes 2025-2026), date de l'estimation",
@@ -114,7 +114,13 @@
     "title": "Résumer le bien fil rouge en une page",
     "duration_min": 30,
     "context": "M. Bernard t'a écrit : « Avant jeudi, pouvez-vous m'envoyer l'essentiel sur une page ? Je lirai le détail ensuite. » Tu pars de ton tableau de bord (capsule 3.7) pour rédiger la synthèse. Corrigé donné pour l'appartement de M. Bernard ; la méthode est identique pour la maison de Mme Garnier.",
-    "materials": ["Tableau de bord du bien (capsule 3.7)", "D03 Attestation actualisée ADEME", "D07 PV d'AG du 12/06/2025", "D12 Tableau des comparables", "D13 Devis des travaux privatifs"],
+    "materials": [
+      "Tableau de bord du bien (capsule 3.7)",
+      "D03 Attestation actualisée ADEME",
+      "D07 PV d'AG du 12/06/2025",
+      "D12 Tableau des comparables",
+      "D13 Devis des travaux privatifs"
+    ],
     "steps": [
       "Écris ta conclusion en une phrase de 25 mots maximum, sans promesse de prix ni de délai.",
       "Choisis dans ton tableau de bord les trois chiffres qui portent cette conclusion.",
@@ -122,7 +128,7 @@
       "Écris la prochaine étape : qui fait quoi, avant quelle date, en laissant la décision au vendeur.",
       "Relis à voix haute et coupe jusqu'à tenir en une minute de lecture."
     ],
-    "expected": "Corrigé pour M. Bernard. Conclusion : « Votre appartement se vend en l'état, classé E, entre 178 000 et 186 000 € net, avec un dossier qui chiffre tout pour l'acheteur. » Chiffre 1 : classe E, 285 kWhEP/m²/an (150 × 1,9) — preuve D03, attestation actualisée ADEME valable jusqu'au 13/03/2033 ; limite : calcul conventionnel. Chiffre 2 : 178 000 à 186 000 € net vendeur — preuve D12, 2 650 €/m² × 76 m² = 201 400 € ajustés pour les fenêtres, l'absence de VMC et l'ITE à venir, oct. 2026. Chiffre 3 : 52 380 € de dépenses (16 500 € D13 + 35 880 € D07) pour viser 216 600 €, soit un écart de 34 600 € seulement par rapport au milieu de fourchette (182 000 €). Prochaine étape : rendez-vous du 29/10/2026 pour parcourir le dossier ; décision du vendeur à une date qu'il choisit. Pas de mention −15 %, pas de classe F mise en avant, pas d'aide chiffrée."
+    "expected": "Corrigé pour M. Bernard. Conclusion : « Votre appartement se vend en l'état, classé E, entre 178 000 et 186 000 € net, avec un dossier qui chiffre tout pour l'acheteur. » Chiffre 1 : classe E, 285 kWhEP/m²/an (150 × 1,9) — preuve D03, attestation actualisée ADEME valable jusqu'au 13/03/2033 ; limite : calcul conventionnel. Chiffre 2 : 178 000 à 186 000 € net vendeur — preuve D12, 2 650 €/m² × 76 m² = 201 400 € ajustés pour les fenêtres, l'absence de VMC et l'ITE à venir, oct. 2026. Chiffre 3 : 52 380 € de dépenses (16 500 € D13 + 35 880 € D07) pour viser 216 600 €, soit un écart de 35 600 € seulement par rapport à la valeur en l’état conclue (181 000 €). Prochaine étape : rendez-vous du 29/10/2026 pour parcourir le dossier ; décision du vendeur à une date qu'il choisit. Pas de mention −15 %, pas de classe F mise en avant, pas d'aide chiffrée."
   },
   "deliverable": {
     "title": "Synthèse d'une page du bien fil rouge",
@@ -136,8 +142,14 @@
     ]
   },
   "sources": [
-    {"label": "Dossier fil rouge Éco-Consultant (BIBLE §3, §4, §5, §6 ; données fictives)", "url": "https://eco-propriete.fr"},
-    {"label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr"}
+    {
+      "label": "Dossier fil rouge Éco-Consultant (BIBLE §3, §4, §5, §6 ; données fictives)",
+      "url": "https://eco-propriete.fr"
+    },
+    {
+      "label": "ADEME — Observatoire DPE-Audit (attestation actualisée)",
+      "url": "https://observatoire-dpe-audit.ademe.fr"
+    }
   ],
   "open_points": [
     "Méthode « une page, une idée, trois chiffres » : proposition pédagogique, à valider par Sébastien Paumier",

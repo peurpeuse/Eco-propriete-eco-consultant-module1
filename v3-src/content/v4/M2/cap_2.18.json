@@ -73,27 +73,97 @@
       {
         "type": "table",
         "heading": "Où regarder, quoi demander",
-        "headers": ["Poste", "Où regarder", "Indices d'âge et d'état", "Question au vendeur"],
+        "headers": [
+          "Poste",
+          "Où regarder",
+          "Indices d'âge et d'état",
+          "Question au vendeur"
+        ],
         "rows": [
-          ["1. Murs", "Façades, tableaux de fenêtres, prises en mur extérieur", "Épaisseur, doublage, paroi froide, traces de condensation", "Isolation faite ou votée en copropriété ?"],
-          ["2. Planchers bas", "Sous-sol, vide sanitaire, logement du dessous", "Isolant visible ou non, sol froid", "Qu'y a-t-il sous le logement ?"],
-          ["3. Toiture", "Combles, dernier étage, toiture-terrasse", "Épaisseur et tassement de l'isolant, traces d'eau", "Date de réfection, isolant posé quand ?"],
-          ["4. Menuiseries", "Chaque fenêtre et porte-fenêtre", "Simple ou double vitrage, date dans l'intercalaire, joints", "Année de remplacement, factures ?"],
-          ["5. Ventilation", "Bouches cuisine, salle de bains, WC ; entrées d'air", "VMC ou ventilation naturelle, grilles bouchées, moisissures", "Conduits entretenus ? Partie commune ?"],
-          ["6. Chauffage et eau chaude", "Émetteurs, chaudière ou ballon, thermostat", "Plaque signalétique (année, litres), programmation", "Entretien, pannes, pièces mal chauffées ?"]
+          [
+            "1. Murs",
+            "Façades, tableaux de fenêtres, prises en mur extérieur",
+            "Épaisseur, doublage, paroi froide, traces de condensation",
+            "Isolation faite ou votée en copropriété ?"
+          ],
+          [
+            "2. Planchers bas",
+            "Sous-sol, vide sanitaire, logement du dessous",
+            "Isolant visible ou non, sol froid",
+            "Qu'y a-t-il sous le logement ?"
+          ],
+          [
+            "3. Toiture",
+            "Combles, dernier étage, toiture-terrasse",
+            "Épaisseur et tassement de l'isolant, traces d'eau",
+            "Date de réfection, isolant posé quand ?"
+          ],
+          [
+            "4. Menuiseries",
+            "Chaque fenêtre et porte-fenêtre",
+            "Simple ou double vitrage, date dans l'intercalaire, joints",
+            "Année de remplacement, factures ?"
+          ],
+          [
+            "5. Ventilation",
+            "Bouches cuisine, salle de bains, WC ; entrées d'air",
+            "VMC ou ventilation naturelle, grilles bouchées, moisissures",
+            "Conduits entretenus ? Partie commune ?"
+          ],
+          [
+            "6. Chauffage et eau chaude",
+            "Émetteurs, chaudière ou ballon, thermostat",
+            "Plaque signalétique (année, litres), programmation",
+            "Entretien, pannes, pièces mal chauffées ?"
+          ]
         ]
       },
       {
         "type": "table",
         "heading": "Exemple rempli : appartement de M. Bernard (fictif)",
-        "headers": ["Poste", "Constat", "Poids DPE ou constat", "Solution (devis D13)"],
+        "headers": [
+          "Poste",
+          "Constat",
+          "Poids DPE ou constat",
+          "Solution (devis D13)"
+        ],
         "rows": [
-          ["Murs", "Béton banché 1972, polystyrène 2 cm, pont thermique au balcon", "Pertes par la façade", "ITE votée en AG le 12/06/2025 (quote-part 35 880 €)"],
-          ["Planchers bas", "Sur logement chauffé", "Neutre", "Rien au niveau du lot"],
-          ["Toiture", "Sous logement chauffé ; toiture-terrasse commune de 2004", "Neutre pour le lot", "PPPT : toiture-terrasse en 2030"],
-          ["Menuiseries", "PVC double vitrage 2004 (séjour, cuisine) ; 4 bois simple vitrage (chambres)", "Paroi froide, fuites d'air", "4 fenêtres PVC Uw ≤ 1,3 : 5 600 €"],
-          ["Ventilation", "Naturelle, pas de VMC, conduit salle de bains obstrué", "Moisissures", "VMC hygro B + débouchage : 2 900 €"],
-          ["Chauffage et eau chaude", "6 convecteurs 1998 sans programmation ; ballon 200 L de 2011", "112 et 26 kWhEF/m²/an", "Radiateurs à inertie 4 800 € ; chauffe-eau thermodynamique 3 200 €"]
+          [
+            "Murs",
+            "Béton banché 1972, polystyrène 2 cm, pont thermique au balcon",
+            "Pertes par la façade",
+            "ITE votée en AG le 12/06/2025 (quote-part 35 880 €)"
+          ],
+          [
+            "Planchers bas",
+            "Sur logement chauffé",
+            "Neutre",
+            "Rien au niveau du lot"
+          ],
+          [
+            "Toiture",
+            "Sous logement chauffé ; toiture-terrasse commune de 2004",
+            "Neutre pour le lot",
+            "PPPT : toiture-terrasse en 2030"
+          ],
+          [
+            "Menuiseries",
+            "PVC double vitrage 2004 (séjour, cuisine) ; 4 bois simple vitrage (chambres)",
+            "Paroi froide, fuites d'air",
+            "4 fenêtres PVC Uw ≤ 1,3 : 5 600 €"
+          ],
+          [
+            "Ventilation",
+            "Naturelle, pas de VMC, conduit salle de bains obstrué",
+            "Moisissures",
+            "VMC hygro B + débouchage : 2 900 €"
+          ],
+          [
+            "Chauffage et eau chaude",
+            "6 convecteurs 1998 sans programmation ; ballon 200 L de 2011",
+            "112 et 26 kWhEF/m²/an",
+            "Radiateurs à inertie 4 800 € ; chauffe-eau thermodynamique 3 200 €"
+          ]
         ]
       },
       {
@@ -123,7 +193,7 @@
         "text": "« Les quatre postes privatifs sont identifiés et chiffrés par devis : fenêtres, ventilation, chauffage, eau chaude, soit 16 500 €. La façade est traitée par la copropriété, travaux votés pour 2027. Une estimation, à faire confirmer par un diagnostiqueur, place le logement en D après les travaux privatifs, puis en C avec l'isolation de la façade. » Tu présentes des devis et une estimation, pas une promesse."
       }
     ],
-    "footer": "Sources : CCH, art. L. 111-1, 17° bis (six postes de travaux) ; ADEME, Tout savoir sur l'isolation ; loi n° 65-557 du 10/07/1965, art. 25 b. Devis et estimations de performance fictifs (bible du fil rouge), à confirmer par un diagnostiqueur. Reprise de l'ancienne capsule 2.5. Mise à jour : 28/10/2026."
+    "footer": "Sources : CCH, art. L. 111-1, 17° bis (six postes de travaux) ; ADEME, Tout savoir sur l'isolation ; loi n° 65-557 du 10/07/1965, art. 25 b. Devis et estimations de performance fictifs (bible du fil rouge), à confirmer par un diagnostiqueur. Mise à jour : 28/10/2026."
   },
   "exercise": {
     "title": "Identifier les équipements sur photos et leur impact",
@@ -159,14 +229,25 @@
     ]
   },
   "sources": [
-    { "label": "Code de la construction et de l'habitation, art. L. 111-1, 17° bis (rénovation énergétique performante, six postes de travaux)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043976954" },
-    { "label": "ADEME, Tout savoir sur l'isolation (isolation et ventilation efficace)", "url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/renover/tout-savoir-isolation" },
-    { "label": "Loi n° 65-557 du 10/07/1965, art. 25 b (travaux affectant les parties communes ou l'aspect extérieur)", "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068256/" },
-    { "label": "Formation Audit énergétique Éco-Propriété (systèmes, ventilation, menuiseries), contenus internes", "url": "https://eco-propriete.fr" }
+    {
+      "label": "Code de la construction et de l'habitation, art. L. 111-1, 17° bis (rénovation énergétique performante, six postes de travaux)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043976954"
+    },
+    {
+      "label": "ADEME, Tout savoir sur l'isolation (isolation et ventilation efficace)",
+      "url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/renover/tout-savoir-isolation"
+    },
+    {
+      "label": "Loi n° 65-557 du 10/07/1965, art. 25 b (travaux affectant les parties communes ou l'aspect extérieur)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068256/"
+    },
+    {
+      "label": "Formation Audit énergétique Éco-Propriété (systèmes, ventilation, menuiseries), contenus internes",
+      "url": "https://eco-propriete.fr"
+    }
   ],
   "open_points": [
     "À valider par un technicien : raccordement d'une VMC individuelle sur un conduit shunt de ventilation naturelle (repris de l'ancienne capsule 2.5).",
-    "À confirmer avec Sébastien Paumier : les « six postes » du titre sont ceux de l'art. L. 111-1, 17° bis du CCH (chauffage et eau chaude regroupés) ; l'ancienne capsule en comptait cinq.",
-    "Chapitre interactif « adapter » (depuis chap_2.5) à produire séparément."
+    "À confirmer avec Sébastien Paumier : les « six postes » du titre sont ceux de l'art. L. 111-1, 17° bis du CCH (chauffage et eau chaude regroupés) ; l'ancienne capsule en comptait cinq."
   ]
 }
