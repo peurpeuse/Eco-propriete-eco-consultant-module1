@@ -1,0 +1,210 @@
+{
+  "id": "1.16",
+  "module": 1,
+  "title": "Démontrer sa différence en 3 minutes",
+  "capsule_title": "Démontrer sa différence en 3 minutes",
+  "duration": "4:30",
+  "objective": "Filmer une démonstration de valeur de 3 minutes devant un propriétaire fictif : une observation simple et vérifiable, sans devis, sans promesse de gain, sans expertise technique improvisée",
+  "mozi": {
+    "line": "Pas besoin de lire votre DPE : je le sens à l'odeur. Isolez tout, vous gagnerez cinquante mille euros !",
+    "scene": "Mozi renifle les murs de M. Bernard avec une loupe, puis griffonne un devis sur une serviette en papier. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1, "brick": 1, "kind": "welcome", "tc": "0:00", "end": "0:10",
+      "title": "Chapitre 1.16 : démontrer sa différence en 3 minutes",
+      "voice": "Bienvenue. Dans ce chapitre, tu vas montrer ta différence en trois minutes, avec un seul fait.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »", "cta": "Commencer", "source": null
+    },
+    {
+      "n": 2, "brick": 1, "kind": "goals", "tc": "0:10", "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »", "cta": "Suivant", "source": null,
+      "items": [
+        { "verb": "Comprendre", "text": "pourquoi un fait vérifiable convainc mieux qu'une promesse" },
+        { "verb": "Appliquer", "text": "construire ta démonstration en 3 minutes : observer, montrer, renvoyer" },
+        { "verb": "Prouver", "text": "filmer ta démonstration et l'envoyer au formateur" }
+      ]
+    },
+    {
+      "n": 3, "brick": 2, "kind": "mozi", "tc": "0:20", "end": "0:35",
+      "title": "Je le sens à l'odeur : vous gagnerez 50 000 € !",
+      "voice": "Pas besoin de lire votre DPE : je le sens à l'odeur. Isolez tout, vous gagnerez cinquante mille euros !",
+      "voice_status": "proposition",
+      "interaction": "Aucune", "source": null,
+      "line": "Pas besoin de lire votre DPE : je le sens à l'odeur. Isolez tout, vous gagnerez cinquante mille euros !",
+      "scene": "Mozi renifle les murs avec une loupe, puis griffonne un devis sur une serviette en papier."
+    },
+    {
+      "n": 4, "brick": 2, "kind": "belief", "tc": "0:35", "end": "0:50",
+      "title": "3 minutes, pour impressionner, 50 000 € promis",
+      "voice": "Trois minutes devant le vendeur. Pour l'impressionner. En lui promettant cinquante mille euros.",
+      "voice_status": "proposition",
+      "interaction": "L'apprenant touche le temps fautif", "source": null,
+      "beats": ["3 minutes devant le vendeur", "pour l'impressionner", "« + 50 000 € » promis"],
+      "wrong": 2,
+      "why": "On ne promet jamais un gain : on montre un fait que le vendeur peut vérifier lui-même."
+    },
+    {
+      "n": 5, "brick": 3, "kind": "consequence", "tc": "0:50", "end": "1:05",
+      "title": "« D'où sort ce chiffre ? »",
+      "voice": "M. Bernard, ancien ingénieur, demande d'où sort ce chiffre. Mozi n'a pas de source. Le rendez-vous s'arrête là.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": ["« D'où sort ce chiffre ? »", "Pas de source. Pas de mandat."],
+      "source": "Bible §1 (fictif) : M. Bernard, profil C, veut des preuves et se méfie des promesses"
+    },
+    {
+      "n": 6, "brick": 4, "kind": "stat", "tc": "1:05", "end": "1:20",
+      "title": "850 000 logements sortis des passoires sans travaux",
+      "voice": "Huit cent cinquante mille. C'est le nombre de logements qui devaient sortir du statut de passoire au 1er janvier 2026, sans aucun travail, selon le gouvernement. Voilà un fait à vérifier devant un vendeur.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": { "q": "Selon le gouvernement, combien de logements sortent du statut de passoire au 1er janvier 2026, sans travaux ?", "answer": 850000, "min": 0, "max": 2000000, "step": 50000, "unit": " logements" },
+      "value": "850 000",
+      "label": "logements sortis du statut de passoire (F ou G) au 1er janvier 2026 sans travaux, par le passage du coefficient de l'électricité de 2,3 à 1,9 (estimation du gouvernement)",
+      "source": "AFP, dépêche du 9/07/2025 (mise à jour le 10/07/2025) reprenant l'annonce de Matignon, via Connaissance des Énergies, https://connaissancedesenergies.org/afp/reforme-du-dpe-cette-modification-va-faire-disparaitre-850-000-passoires-energetiques-sans-travaux-250709 ; estimation contestée par certains acteurs (KRNO)"
+    },
+    {
+      "n": 7, "brick": 4, "kind": "steps", "tc": "1:20", "end": "2:15",
+      "title": "Observer → Montrer → Renvoyer",
+      "voice": "Trois minutes, trois temps. D'abord, observe un seul fait, visible sur un document du vendeur : la date du DPE, l'énergie de chauffage, la classe. Ensuite, montre la source : le vendeur vérifie lui-même, sur un site officiel, devant toi. Enfin, renvoie au bon professionnel ce que tu ne peux pas confirmer : le diagnostiqueur, l'auditeur, le notaire. Pas de devis, pas de gain promis, pas de diagnostic improvisé. Ta différence, c'est qu'on peut te vérifier.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Trame de démonstration de la capsule 1.16 (PLAN v4) ; limites du métier : REFONTE_V4",
+      "steps": [
+        { "label": "Observer", "detail": "Un seul fait visible sur un document : date du DPE, chauffage, classe." },
+        { "label": "Montrer", "detail": "Le vendeur vérifie lui-même la source officielle, devant toi." },
+        { "label": "Renvoyer", "detail": "Ce que tu ne peux pas confirmer va au diagnostiqueur ou au notaire." }
+      ]
+    },
+    {
+      "n": 8, "brick": 4, "kind": "retrieval", "tc": "2:15", "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Sarah a trois minutes devant Mme Garnier, dont la maison est chauffée au fioul. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice) ; Bible §11.3 (fictif) ; Service-Public F37110, vérifié le 14/09/2026",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Sarah est chez Mme Garnier. Le DPE indique une maison classée G, chauffée au fioul. Quelle observation simple et vérifiable fait-elle en trois minutes, sans devis ni promesse ?",
+      "model_answer": "Votre DPE indique un chauffage au fioul : c'est lui qui classe la maison G pour le climat. Pour vendre une maison classée G, l'audit énergétique est obligatoire : regardons ensemble la fiche Service-Public. Le chiffrage des travaux, c'est l'auditeur qui le fera, pas moi.",
+      "keywords": ["fioul", "audit", "vérifier", "Service-Public"]
+    },
+    {
+      "n": 9, "brick": 4, "kind": "quiz", "tc": "2:40", "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Limites du métier d'éco-consultant (REFONTE_V4) ; attestation actualisée : Bible §3 (fait vérifié) et observatoire DPE-Audit de l'ADEME",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Aucune : un chiffre rond rassure le vendeur",
+          "Sa démonstration est trop courte : il faut au moins dix minutes",
+          "L'éco-consultant ne promet ni gain ni prix, et ne fait pas de devis : il montre un fait vérifiable"
+        ],
+        "answer": 2,
+        "feedback": "Mozi improvise une expertise, fait un devis et promet un gain. L'éco-consultant fait l'inverse : un fait, une source, et un renvoi au bon professionnel.",
+        "whys": [
+          "Faux : un chiffre sans source fait fuir un vendeur prudent comme M. Bernard.",
+          "Faux : trois minutes suffisent si tu montres un seul fait vérifiable.",
+          "Exact : ni devis, ni gain promis, ni diagnostic improvisé ; un fait que le vendeur vérifie."
+        ]
+      },
+      "card2": {
+        "question": "S'il montrait juste la date et le chauffage du DPE, que se passerait-il ?",
+        "answer": "M. Bernard verrait un DPE de 2023 et un chauffage électrique. Il vérifierait sur l'observatoire de l'ADEME et téléchargerait l'attestation actualisée gratuite : classe E. La preuve viendrait de lui, pas de Mozi."
+      }
+    },
+    {
+      "n": 10, "brick": 5, "kind": "tools", "tc": "3:10", "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : un fait que le vendeur vérifie lui-même. Son DPE, et l'observatoire de l'ADEME.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Observatoire DPE-Audit de l'ADEME, https://observatoire-dpe-audit.ademe.fr/accueil (lien relevé sur economie.gouv.fr, page du 3/09/2026)",
+      "goal": "Un fait que le vendeur vérifie lui-même",
+      "tools": [
+        { "name": "Le DPE du vendeur", "role": "Repérer un seul fait : date, chauffage, classe" },
+        { "name": "Observatoire DPE-Audit de l'ADEME", "role": "Faire vérifier ce fait par le vendeur, en direct" }
+      ]
+    },
+    {
+      "n": 11, "brick": 5, "kind": "demo", "tc": "3:20", "end": "3:40",
+      "title": "Le DPE de M. Bernard",
+      "voice": "Sur le DPE de M. Bernard, tu lis la date : 14 mars 2023. Tu repères le chauffage : électrique, classe F. Tu dis une seule phrase : votre étiquette a pu changer en 2026, vérifions ensemble.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible §3 (fictif) : DPE du 14/03/2023, document D02, chauffage électrique, classe F",
+      "tool": "Le DPE du vendeur",
+      "steps": [
+        "Lire : la date, 14/03/2023",
+        "Repérer : chauffage électrique, classe F",
+        "Dire : l'étiquette a pu changer en 2026"
+      ]
+    },
+    {
+      "n": 12, "brick": 5, "kind": "demo", "tc": "3:40", "end": "4:00",
+      "title": "L'observatoire : vérifier ensemble",
+      "voice": "Sur l'observatoire de l'ADEME, M. Bernard saisit lui-même le numéro de son DPE. Il télécharge l'attestation actualisée, gratuite : classe E. Le reste, tu le renvoies au diagnostiqueur.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible §3 (fait vérifié) : attestation actualisée gratuite, classe E, D03 ; parcours de saisie à vérifier le jour du tournage",
+      "tool": "Observatoire DPE-Audit de l'ADEME",
+      "steps": [
+        "Ouvrir : l'observatoire DPE-Audit",
+        "Saisir : le numéro 2377E0123456X",
+        "Télécharger : l'attestation, classe E",
+        "Renvoyer : le reste au diagnostiqueur"
+      ]
+    },
+    {
+      "n": 13, "brick": 5, "kind": "action", "tc": "4:00", "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Filme ta démonstration maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 1.16 (PLAN v4) : renvoi vers la trame et l'exercice",
+      "cta": "Ouvrir la trame et filmer",
+      "url": "#exercice"
+    },
+    {
+      "n": 14, "brick": 6, "kind": "proof", "tc": "4:05", "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Envoie-moi ta vidéo de trois minutes.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 1.16 (PLAN v4)",
+      "ask": "Envoie au formateur ta vidéo de 3 minutes devant un propriétaire fictif : une observation simple et vérifiable, sans devis, sans promesse de gain, sans expertise technique improvisée. Dépose ici une capture de l'envoi et ta grille d'auto-observation remplie.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Ta trame t'attend : reviens déposer ta vidéo quand elle est filmée."
+    },
+    {
+      "n": 15, "brick": 6, "kind": "bravo", "tc": "4:20", "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. En trois minutes, tu as donné au vendeur un fait qu'il a vérifié lui-même.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ta démo : 1 fait, 1 source, 3 minutes. Les deux autres agences : « −15 % à cause du DPE ».",
+      "source": "Bible §1 (fictif) : deux agences ont annoncé « −15 % à cause du DPE »"
+    }
+  ],
+  "sources": [
+    { "label": "AFP, 9/07/2025 (mise à jour 10/07/2025), via Connaissance des Énergies : 850 000 logements sortent du statut de passoire avec le coefficient 1,9 (estimation du gouvernement)", "url": "https://connaissancedesenergies.org/afp/reforme-du-dpe-cette-modification-va-faire-disparaitre-850-000-passoires-energetiques-sans-travaux-250709" },
+    { "label": "Observatoire DPE-Audit de l'ADEME (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr/accueil" },
+    { "label": "economie.gouv.fr, Ce qu'il faut savoir sur le DPE, page du 3/09/2026 (coefficient 1,9 puis 1,7 au 1/01/2027)", "url": "https://www.economie.gouv.fr/particuliers/immobilier-diagnostic-performance-energetique-dpe" },
+    { "label": "Service-Public, Audit énergétique en cas de vente d'un bien dit « passoire thermique » (F37110), vérifié le 14/09/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37110" },
+    { "label": "Bible du fil rouge, §1, §3 et §11.3 (fictif, faits vérifiés signalés)", "url": null }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Écran 6 : 850 000 est une estimation gouvernementale (juillet 2025), contestée par certains acteurs ; à présenter comme une estimation. Chercher un bilan officiel (ADEME ou SDES) publié après le 1/01/2026",
+    "Écran 12 : à vérifier le jour du tournage : recherche par numéro de DPE sur l'observatoire et conditions d'éligibilité de l'attestation (DPE établi après le 1/07/2021, selon la bible)",
+    "Grille d'auto-observation de la vidéo : critères à définir avec Sébastien Paumier",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; écran 14 : modalité d'envoi de la vidéo au formateur et fin sobre à valider"
+  ]
+}

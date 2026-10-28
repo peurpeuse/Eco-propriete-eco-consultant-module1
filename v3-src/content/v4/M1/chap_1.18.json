@@ -1,0 +1,374 @@
+{
+  "id": "1.18",
+  "module": 1,
+  "title": "Être trouvé sur le web",
+  "capsule_title": "Visibilité web (Google, Facebook, LinkedIn)",
+  "duration": "4:30",
+  "objective": "Optimiser sa fiche Google avec de vrais avis, programmer 3 posts Facebook sourcés et refaire son profil LinkedIn d'expert, sans faux avis, sans ciblage interdit et sans robot",
+  "mozi": {
+    "line": "Cinq étoiles pour moi, personne ne verra rien !",
+    "scene": "Mozi, assis dans sa voiture, tape des avis cinq étoiles sur sa propre fiche avec trois téléphones à la fois. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 1.18 : être trouvé sur le web",
+      "voice": "Bienvenue. Dans ce chapitre, tu soignes tes trois vitrines en ligne : Google, Facebook et LinkedIn.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "comment un vendeur choisit l'agent qu'il appelle, et ce que chaque réseau y apporte"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "optimiser ta fiche Google, programmer 3 posts, refaire ton profil LinkedIn"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer tes trois vitrines en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Cinq étoiles pour moi, personne ne verra rien !",
+      "voice": "Cinq étoiles pour moi, personne ne verra rien !",
+      "voice_status": "validé",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Cinq étoiles pour moi, personne ne verra rien !",
+      "scene": "Mozi tape des avis cinq étoiles sur sa propre fiche, trois téléphones en main."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "20 avis, 5 étoiles, 1 seul auteur",
+      "voice": "Vingt avis, cinq étoiles, un seul auteur.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "20 avis",
+        "5 étoiles",
+        "1 seul auteur"
+      ],
+      "wrong": 2,
+      "why": "Des avis écrits par soi-même sont supprimés, et la fiche est signalée."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Avis supprimés. Fiche signalée.",
+      "voice": "Et là, ça ne rate pas : les avis disparaissent, la fiche est signalée.",
+      "voice_status": "validé",
+      "interaction": "Aucune",
+      "lines": [
+        "Avis supprimés.",
+        "Fiche signalée."
+      ],
+      "source": "Google peut supprimer les faux avis, bloquer les nouveaux et afficher un avertissement sur la fiche (Journal du Geek, 6 octobre 2024)"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "75 % lisent les avis avant d'acheter",
+      "voice": "Avant d'acheter, trois personnes sur quatre lisent d'abord les avis.",
+      "voice_status": "validé",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Quelle part des consommateurs lit les avis avant d'acheter ?",
+        "answer": 75,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": " %"
+      },
+      "value": "75 %",
+      "label": "des consommateurs lisent les avis avant d'acheter",
+      "source": "Avis Vérifiés, étude relayée par CB News le 17 juillet 2024 (72 000 consommateurs, France, Espagne, Italie)"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Google → Facebook → LinkedIn",
+      "voice": "Regarde comment M. Bernard choisit. Un, Google. Il tape agence immobilière Melun et compare les fiches : photos, horaires, avis, et tes réponses aux avis. Ta fiche complète, avec de vrais avis, c'est ta première poignée de main. Deux, Facebook. Il veut voir que tu es actif dans son quartier. Même nom que ta fiche, une vraie photo, des posts réguliers : pédagogie, coulisses, avis, avec l'accord écrit de tes clients. Et une pub d'estimation se fait en catégorie Logement : une zone, jamais un âge. Trois, LinkedIn. C'est là que son notaire te découvre. Ton titre dit où, quoi, pour qui, sans titre que tu n'as pas. Tes Infos tiennent en quatre paragraphes. Et tu invites à la main, jamais avec un robot.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Parcours de choix du vendeur : à vérifier avec Sébastien Paumier ; Meta, aide « About ads for housing » (catégorie Logement, France incluse) ; LinkedIn Aide, « Logiciels et extensions interdits » ; modèle de titre et d'Infos, piliers de posts : proposition pédagogique Éco-Propriété",
+      "steps": [
+        {
+          "label": "Google",
+          "detail": "Fiche complète, vrais avis, une réponse à chaque avis."
+        },
+        {
+          "label": "Facebook",
+          "detail": "Même nom, vraie photo, posts réguliers sur 3 piliers ; pub en catégorie Logement."
+        },
+        {
+          "label": "LinkedIn",
+          "detail": "Titre où, quoi, pour qui ; Infos en 4 paragraphes ; invitations à la main."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "Toi, que proposerais-tu ?",
+      "voice_status": "validé",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "Mozi a vingt faux avis. Toi, tu démarres avec zéro. Que fais-tu pour que M. Bernard te choisisse ?",
+      "model_answer": "Je demande un avis à chacun de mes vrais clients satisfaits, avec le lien direct de ma fiche, et je réponds à tous les avis, même aux moins bons. Peu d'avis au début, mais tous vrais.",
+      "keywords": [
+        "vrais clients",
+        "demander",
+        "lien",
+        "répondre"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "validé",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "Faux avis réputés trompeurs en toutes circonstances (code de la consommation, art. L. 121-4) ; Assemblée nationale, réponse ministérielle du 1er août 2023 ; carte 2 : LinkedIn Aide, sections du profil",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Diffuser de faux avis est une pratique commerciale trompeuse, en toutes circonstances",
+          "Une fiche Google ne peut pas dépasser 20 avis",
+          "Aucune : c'est sa fiche, il y écrit ce qu'il veut"
+        ],
+        "answer": 0,
+        "feedback": "Les faux avis de consommateurs font partie des pratiques réputées trompeuses en toutes circonstances (code de la consommation, art. L. 121-4). Et Google les supprime.",
+        "whys": [
+          "Exact : la loi les classe parmi les pratiques trompeuses en toutes circonstances, sans qu'il faille prouver un préjudice.",
+          "Faux : il n'existe aucun plafond d'avis. Le problème, c'est l'auteur, pas le nombre.",
+          "Faux : la fiche est publique et s'adresse à des consommateurs ; la loi s'applique."
+        ]
+      },
+      "card2": {
+        "question": "Maxime, nouvel entrant, veut écrire « Expert DPE certifié » dans son titre LinkedIn. S'il le faisait, que se passerait-il ?",
+        "answer": "Il laisserait croire qu'il est diagnostiqueur certifié. Le premier notaire ou vendeur qui vérifie perd confiance, comme M. Bernard qui vérifie tout. C'est le même piège que les faux avis : une vitrine qui ment. Son titre doit dire ce qu'il fait vraiment : où, quoi, pour qui."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux outils, un seul but",
+      "voice": "Deux outils, un seul but : qu'un vendeur te trouve, et qu'un notaire te recommande. Ta fiche Google, puis ton duo Facebook et LinkedIn.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "à valider : choix des deux outils",
+      "goal": "Être trouvé, choisi et recommandé",
+      "tools": [
+        {
+          "name": "Fiche Google",
+          "role": "Être trouvé en recherche locale, avec de vrais avis"
+        },
+        {
+          "name": "Facebook et LinkedIn",
+          "role": "Programmer tes posts et refaire ton profil d'expert"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Google : compléter, décrire, demander, répondre",
+      "voice": "Sur Google, tu complètes ta fiche : catégorie, zone desservie, horaires, photos. Une description de sept cent cinquante caractères maximum, sans lien ni promotion. Tu envoies ton lien d'avis à tes vrais clients. Et tu réponds à chaque avis.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Aide Google Business Profile (description : 750 caractères ; validation de l'établissement ; demande d'avis aux clients) — à vérifier le jour du tournage",
+      "tool": "Fiche Google",
+      "steps": [
+        "Compléter : catégorie, zone desservie, horaires, photos",
+        "Décrire : 750 caractères max, sans lien ni promo",
+        "Demander : ton lien d'avis à tes vrais clients",
+        "Répondre : à chaque avis, même au moins bon"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "Facebook et LinkedIn : programmer, réécrire",
+      "voice": "Dans le planificateur de Meta, tu prépares trois posts, une source par chiffre, et tu les programmes, jusqu'à vingt-neuf jours à l'avance. Sur LinkedIn, tu fais une capture avant, puis tu réécris ton titre : ville, spécialité, type de biens. Et tes Infos, en quatre paragraphes.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Meta, « Programmer une publication pour ta Page Facebook » (de 20 minutes à 29 jours, consulté le 26/10/2026, à revérifier le jour du tournage) ; LinkedIn Aide, sections du profil — interface à vérifier le jour du tournage",
+      "tool": "Facebook et LinkedIn",
+      "steps": [
+        "Préparer : 3 posts, pédagogie, coulisses, avis",
+        "Programmer : jusqu'à 29 jours à l'avance",
+        "Titre LinkedIn : ville, spécialité, type de biens",
+        "Infos LinkedIn : 4 paragraphes, à la première personne"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Fais-le maintenant.",
+      "voice_status": "validé",
+      "interaction": "Le bouton ouvre le lien dans un nouvel onglet",
+      "source": "Exercice de la capsule 1.18 : fiche Google (google.com/business), Meta Business Suite (business.facebook.com), profil LinkedIn (linkedin.com) — liens à valider",
+      "cta": "Faire mes trois chantiers web",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ce que tu as fait.",
+      "voice_status": "validé",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "fin sobre : proposition à valider",
+      "ask": "Dépose une image en trois parties : ta fiche Google vue sur téléphone, tes 3 posts programmés, le haut de ton profil LinkedIn après modification.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Commence par ta fiche Google, c'est elle que le vendeur voit en premier : reviens déposer tes captures quand elles sont prêtes."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Tes trois vitrines disent la même chose, avec de vrais avis. Celles de Mozi : de faux avis, une page vide, un robot.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Tes 3 vitrines : complètes et vraies. Celles de Mozi : faux avis, page vide, robot.",
+      "source": "Fait observable sur les captures de l'apprenant ; contre-exemple de Mozi (BIBLE.md, § 8 : fiche incomplète, page inactive, LinkedIn négligé)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Code de la consommation, art. L. 121-4 (pratiques commerciales réputées trompeuses)",
+      "url": null
+    },
+    {
+      "label": "Assemblée nationale, réponse ministérielle sur les faux avis, 1er août 2023",
+      "url": null
+    },
+    {
+      "label": "Avis Vérifiés, via CB News, 17 juillet 2024 : 75 % lisent les avis avant d'acheter",
+      "url": null
+    },
+    {
+      "label": "Journal du Geek, 6 octobre 2024 : Google supprime les faux avis et signale les fiches",
+      "url": null
+    },
+    {
+      "label": "Google — Modifier votre fiche d'établissement (description : 750 caractères)",
+      "url": "https://support.google.com/business/answer/3039617?hl=fr"
+    },
+    {
+      "label": "Google — Valider votre établissement sur Google",
+      "url": "https://support.google.com/business/answer/7107242?hl=fr"
+    },
+    {
+      "label": "Meta — Programmer une publication pour ta Page Facebook (20 min à 29 jours)",
+      "url": "https://www.facebook.com/help/389849807718635"
+    },
+    {
+      "label": "Meta — Utiliser le Planificateur de Meta Business Suite",
+      "url": "https://www.facebook.com/business/help/1678733516458988"
+    },
+    {
+      "label": "Meta — About ads for housing (pays concernés, dont la France)",
+      "url": "https://www.facebook.com/business/help/837655677217892"
+    },
+    {
+      "label": "Meta — Audiences des campagnes Logement, Emploi, Produits et services financiers",
+      "url": "https://www.facebook.com/business/help/2220749868045706"
+    },
+    {
+      "label": "LinkedIn Aide — Logiciels et extensions interdits",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions"
+    },
+    {
+      "label": "LinkedIn Aide — Activité automatisée sur LinkedIn (restriction du compte)",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1340567"
+    },
+    {
+      "label": "LinkedIn Aide — Section Sélection (Featured) du profil",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a552452/featured-section-on-your-profile-faqs"
+    },
+    {
+      "label": "LinkedIn Aide — Ajouter des sections au profil",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a540837/add-sections-to-your-profile"
+    }
+  ],
+  "open_points": [
+    "Fusion v4 des anciens chapitres 1.3 (Google), 1.4 (Facebook) et 1.5 (LinkedIn). Squelette et Mozi de l'ancien 1.3 gardés (écrans 3 à 6 et 8, voix déjà validées) ; les Mozi de 1.4 (pub ciblée par âge) et 1.5 (robot d'invitations) ne sont plus mis en scène, leurs règles passent dans l'écran 7",
+    "Voix des écrans 1, 2, 7, 10, 11, 12 et 15 : propositions à valider par Sébastien Paumier ; écrans 3 à 6, 8, 9, 13 et 14 : voix validées de l'ancien 1.3 gardées telles quelles",
+    "Écran 7 : rythme « 3 publications par semaine » de l'ancien 1.4 remplacé par « posts réguliers » ; le rythme conseillé reste une proposition pédagogique à fixer dans le calendrier éditorial type",
+    "Non repris faute de place, à garder dans la ressource (check-list fiche Google, calendrier éditorial type, modèle de profil LinkedIn) : paramétrage détaillé d'une pub Facebook en catégorie Logement (objectif Prospects, formulaire avec case non cochée nominative, consentement loi n° 2025-594), intervention dans les groupes locaux, mentions obligatoires d'une annonce (DPE, copropriété), recommandations et section Sélection LinkedIn, blocage des invitations (« en général une semaine », à vérifier)",
+    "Écran 7 et ressource : ranger la formation Éco-Consultant dans « Licences et certifications » suppose une attestation ou une certification réelle ; à trancher par Sébastien Paumier",
+    "Étapes Google, Meta et LinkedIn à vérifier le jour du tournage ; lien d'action vers l'exercice (#exercice), les trois liens officiels sont dans la ressource",
+    "Ne pas citer de peine chiffrée pour les faux avis : 5 ans et 750 000 € non confirmés sur Légifrance",
+    "Renvois : message clé et canaux prioritaires en capsule 1.17 ; rédaction des posts avec l'IA en capsule 1.19"
+  ]
+}

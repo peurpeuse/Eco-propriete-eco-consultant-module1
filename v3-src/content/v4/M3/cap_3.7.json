@@ -1,0 +1,156 @@
+{
+  "id": "3.7",
+  "module": 3,
+  "section": "A · Construire les indicateurs du bien",
+  "etape": "5 (Éco-staging)",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "Le tableau de bord du bien : 6 à 8 indicateurs sur une page",
+  "objective": "Monter sur une seule page le tableau de bord du bien fil rouge : 6 à 8 indicateurs, chacun avec sa valeur, sa source, sa date et sa limite.",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier pose sur la table deux documents : quinze pages de chiffres en vrac, et une page avec huit cases. Il montre comment choisir 6 à 8 indicateurs parmi ceux des capsules 3.3 à 3.6 (énergie, valeur, coût, copropriété), les ranger en quatre familles et donner à chacun sa source, sa date et sa limite. Démonstration sur l'appartement de M. Bernard."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Karim veut mettre 15 indicateurs dans le tableau de bord de son vendeur « pour montrer le travail fait ». Que lui conseilles-tu ?",
+        "options": [
+          "Garder les 15 : plus il y a de chiffres, plus le vendeur est rassuré",
+          "En garder 6 à 8, un ou deux par famille (énergie, valeur, coût, copropriété ou terrain), et mettre le reste en annexe",
+          "N'en garder qu'un : le prix"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : au-delà de 8 cases, le vendeur ne retient plus rien et ne sait pas quoi regarder en premier.",
+          "Juste : une page, 6 à 8 indicateurs répartis par famille, le détail reste disponible en annexe pour qui veut vérifier.",
+          "Faux : un seul chiffre ne montre ni l'énergie, ni les coûts, ni les travaux votés qui expliquent ce prix."
+        ],
+        "fb_title": "Une page, 6 à 8 cases",
+        "fb_text": "Le tableau de bord sert à décider, pas à impressionner. On choisit un ou deux indicateurs par famille (énergie, valeur, coût, copropriété ou terrain) ; tout le reste part en annexe du Dossier Éco-staging."
+      },
+      {
+        "question": "Dans le tableau de bord de M. Bernard, quelle étiquette énergie affiches-tu dans la case « Performance » ?",
+        "options": [
+          "F, 345 kWhEP/m²/an : c'est le DPE du 14/03/2023",
+          "D : c'est la classe estimée après les travaux privatifs",
+          "E, 285 kWhEP/m²/an : attestation actualisée ADEME (coefficient électricité 1,9 en 2026), valable jusqu'au 13/03/2033"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : c'est l'ancien classement ; l'attestation actualisée (D03) le remplace pour la vente.",
+          "Faux : c'est une estimation après travaux non réalisés, à faire confirmer par un diagnostiqueur ; elle va dans une autre case, marquée « estimation ».",
+          "Juste : 150 kWhEF × 1,9 = 285 kWhEP/m²/an, classe E, source D03, valable jusqu'au 13/03/2033."
+        ],
+        "fb_title": "L'étiquette en vigueur d'abord",
+        "fb_text": "La case « Performance » montre l'étiquette en vigueur : E (attestation actualisée ADEME, D03). Le F de 2023 peut figurer en petit comme point de départ, et le D estimé après travaux dans la case « Travaux », avec la mention « estimation à confirmer »."
+      },
+      {
+        "question": "Une case du tableau indique « Valeur après rénovation : 216 600 € ». Que manque-t-il pour qu'elle soit honnête ?",
+        "options": [
+          "La limite : valeur qui suppose les travaux privatifs ET l'ITE de l'immeuble réalisés, sur comparables fictifs de 2025-2026",
+          "Rien : le calcul 76 × 2 850 est juste",
+          "Le logo de l'agence"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : sans la limite, le vendeur lit un prix promis ; avec elle, il lit un scénario sous conditions.",
+          "Faux : le calcul est juste, mais il ne dit pas à quelles conditions ce prix serait atteint.",
+          "Faux : la présentation ne remplace ni la source, ni la date, ni la limite d'un chiffre."
+        ],
+        "fb_title": "Chaque case a sa limite",
+        "fb_text": "Un indicateur complet, c'est valeur + source + date + limite. 216 600 € = 76 × 2 850 €/m² (D12), mais seulement si les travaux privatifs (16 500 €) et l'ITE (35 880 € pour le lot) sont faits. Sans cette ligne, le chiffre devient une promesse."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Modèle de tableau de bord, 1 page, à remplir dans le tableur du projet (T5.4)",
+    "kind": "modele",
+    "intro": "Ce modèle tient sur une page A4 paysage. Il rassemble les indicateurs construits dans les capsules 3.3 (performance), 3.4 (valeur), 3.5 (coût) et 3.6 (marché) pour un seul bien. Il se remplit dans l'onglet « Tableau de bord » du tableur du projet (T5.4) et devient la page 2 du Dossier Éco-staging (capsule 3.13). Règle d'or : pas de case sans source, sans date et sans limite.",
+    "sections": [
+      {
+        "type": "list",
+        "heading": "Les 4 familles, 6 à 8 cases au total",
+        "items": [
+          "Performance (1 à 2 cases) : étiquette énergie en vigueur, étiquette climat, coût annuel d'énergie indiqué sur le DPE.",
+          "Valeur (1 à 2 cases) : fourchette de valeur en l'état, valeur après rénovation sous conditions.",
+          "Coût (1 à 2 cases) : budget travaux chiffré par devis, classe estimée après travaux (estimation à confirmer).",
+          "Copropriété ou terrain (1 à 2 cases) : charges annuelles, travaux votés et appels de fonds ; pour une maison : assainissement, risques, potentiel du terrain.",
+          "Option marché (1 case) : un repère local de la capsule 3.6 (part des biens F et G, délai, marge de négociation), daté."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Tableau de bord rempli · appartement de M. Bernard (fil rouge, fictif)",
+        "headers": ["Indicateur", "Valeur", "Source et date", "Limite"],
+        "rows": [
+          ["Étiquette énergie en vigueur", "E · 285 kWhEP/m²/an (150 × 1,9)", "D03 attestation actualisée ADEME, valable jusqu'au 13/03/2033", "DPE d'origine F (345) du 14/03/2023"],
+          ["Étiquette climat", "C · 12 kgCO₂/m²/an", "D02 DPE du 14/03/2023", "Calcul conventionnel, pas une mesure"],
+          ["Coût annuel d'énergie", "2 330 à 3 190 €/an", "D02, prix des énergies au 1/01/2021", "Usage conventionnel, pas la facture réelle"],
+          ["Valeur en l'état", "178 000 à 186 000 € net vendeur", "D12 comparables 2025-2026 (2 650 €/m²), oct. 2026", "Comparables fictifs du fil rouge"],
+          ["Valeur après rénovation", "≈ 216 600 € (76 × 2 850 €/m²)", "D12, oct. 2026", "Suppose travaux privatifs ET ITE réalisés"],
+          ["Travaux privatifs chiffrés", "16 500 € TTC → D estimée (≈ 209 kWhEP)", "D13 devis, oct. 2026", "Classe à confirmer par un diagnostiqueur"],
+          ["Charges de copropriété", "2 652 €/an (≈ 221 €/mois)", "D06 budget prévisionnel 2026", "Hors travaux votés"],
+          ["Travaux votés (ITE)", "35 880 € pour le lot : 4 × 8 970 € en 2027", "D07 PV d'AG du 12/06/2025", "Payés par le copropriétaire à la date d'exigibilité"]
+        ]
+      },
+      {
+        "type": "checklist",
+        "heading": "Contrôle avant d'imprimer",
+        "items": [
+          "Chaque case a une valeur, une unité, une source (code du dossier ou organisme) et une date.",
+          "Chaque estimation porte le mot « estimation » et dit qui doit la confirmer.",
+          "L'étiquette en vigueur est en tête ; l'ancienne figure en petit, comme point de départ.",
+          "Aucune aide n'est chiffrée comme acquise, aucun prix n'est promis.",
+          "Les chiffres sont identiques à ceux du dossier et du tableur (aucune recopie à la main).",
+          "Le tableau tient sur une page et se lit en moins d'une minute."
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "La phrase pour présenter la page au vendeur",
+        "text": "« Monsieur Bernard, voici votre bien sur une seule page : huit chiffres, chacun avec sa source et sa date. En haut, ce qui est acquis ; en bas, ce qui dépend de travaux ou de décisions de la copropriété. Prenez le temps de vérifier chaque case avec les documents que je vous ai envoyés. »"
+      }
+    ],
+    "footer": "Sources : dossier fil rouge Éco-Consultant (D02, D03, D06, D07, D12, D13 ; données fictives) ; coefficient électricité 1,9 au 1/01/2026 (arrêté du 13/08/2025, fait vérifié de la bible) ; Service-Public F16096 (DPE). Proposition pédagogique Éco-Propriété. Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Monter le tableau de bord du bien fil rouge",
+    "duration_min": 35,
+    "context": "Avant le rendez-vous de restitution du 29/10/2026, tu dois résumer ton bien fil rouge sur une page. Tu as construit ses indicateurs dans les capsules 3.3 à 3.6 ; il faut maintenant choisir les 6 à 8 qui comptent et les rendre vérifiables. Corrigé donné pour l'appartement de M. Bernard ; si tu suis la maison de Mme Garnier, applique la même méthode avec M02, M03, M08, M12 et M14.",
+    "materials": ["D02 DPE du 14/03/2023", "D03 Attestation actualisée ADEME", "D06 Appels de charges et budget 2026", "D07 PV d'AG du 12/06/2025", "D12 Tableau des comparables", "D13 Devis des travaux privatifs", "Tableur du projet (T5.4)"],
+    "steps": [
+      "Liste tous les indicateurs déjà calculés dans les capsules 3.3 à 3.6 et range-les dans les 4 familles.",
+      "Choisis 6 à 8 indicateurs : un ou deux par famille, ceux qui changent la décision du vendeur.",
+      "Pour chacun, écris la valeur, l'unité, la source (code du dossier), la date et la limite.",
+      "Marque « estimation » chaque valeur qui n'est pas acquise et indique qui doit la confirmer.",
+      "Remplis l'onglet « Tableau de bord » du tableur T5.4 et vérifie que la page tient sur une feuille A4.",
+      "Relis avec la check-list de contrôle et corrige toute case incomplète."
+    ],
+    "expected": "Corrigé pour l'appartement de M. Bernard (8 cases) : 1) Étiquette en vigueur E, 285 kWhEP/m²/an (150 × 1,9), D03, valable jusqu'au 13/03/2033, ancien F 345 en rappel. 2) Climat C, 12 kgCO₂/m²/an, D02 du 14/03/2023. 3) Coût d'énergie 2 330 à 3 190 €/an, D02 (prix 2021), usage conventionnel. 4) Valeur en l'état 178 000 à 186 000 € net vendeur, D12 (2 650 €/m²), oct. 2026. 5) Valeur après rénovation ≈ 216 600 € (76 × 2 850), limite : travaux privatifs ET ITE réalisés. 6) Travaux privatifs 16 500 € TTC (D13 : 5 600 + 2 900 + 4 800 + 3 200), classe D estimée (≈ 209 kWhEP), à confirmer par un diagnostiqueur. 7) Charges 2 652 €/an, soit ≈ 221 €/mois (D06, budget 2026). 8) ITE votée : 35 880 € pour le lot (1 150 000 × 312/10 000), 4 appels de 8 970 € en 2027 (D07). Aucune aide chiffrée (MaPrimeRénov' Copropriété non notifiée). Variante maison de Mme Garnier : étiquette G (climat 119 kgCO₂), audit M03 (C pour 78 000 €), assainissement non conforme (11 800 €), valeur en l'état 285 000 à 300 000 €."
+  },
+  "deliverable": {
+    "title": "Tableau de bord du bien fil rouge (1 page)",
+    "format": "Onglet du tableur T5.4 exporté en PDF, 1 page A4 paysage",
+    "criteria": [
+      "6 à 8 indicateurs, répartis sur au moins 3 des 4 familles",
+      "Chaque indicateur a une valeur avec son unité, une source (code du dossier ou organisme) et une date",
+      "L'étiquette en vigueur est celle de l'attestation actualisée (E pour M. Bernard), l'ancienne est signalée comme point de départ",
+      "Chaque estimation est marquée comme telle, avec la personne qui doit la confirmer",
+      "Aucune aide n'est présentée comme acquise et aucun prix n'est promis",
+      "Les chiffres sont identiques à ceux du dossier fil rouge"
+    ]
+  },
+  "sources": [
+    {"label": "Service-Public — Diagnostic de performance énergétique (F16096), consulté le 28/10/2026", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"},
+    {"label": "ADEME — Observatoire DPE-Audit (attestation actualisée)", "url": "https://observatoire-dpe-audit.ademe.fr"},
+    {"label": "Dossier fil rouge Éco-Consultant (BIBLE §2 à §6, données fictives) — proposition pédagogique Éco-Propriété", "url": "https://eco-propriete.fr"}
+  ],
+  "open_points": [
+    "Contenu exact du tableur du projet (T5.4) et de son onglet « Tableau de bord » : à confirmer avec Éco-propriété",
+    "Le choix des 8 indicateurs du corrigé est une proposition : à valider par Sébastien Paumier",
+    "Case « marché local » (capsule 3.6) absente du corrigé faute de donnée dans la bible : à décider avec Sébastien Paumier"
+  ]
+}

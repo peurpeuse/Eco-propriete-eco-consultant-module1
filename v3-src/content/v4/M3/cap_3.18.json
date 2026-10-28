@@ -1,0 +1,217 @@
+{
+  "id": "3.18",
+  "module": 3,
+  "section": "D · Les chiffres devant le vendeur",
+  "etape": "7",
+  "parcours": null,
+  "prio": false,
+  "ia": false,
+  "title": "DISC : adapter son discours",
+  "objective": "Réécrire l'ouverture, l'annonce du prix et la conclusion de ton rendez-vous pour le style DISC observé, sans changer un seul chiffre ni une seule règle",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier prend la même annonce de prix (180 000 € net vendeur, 189 000 € honoraires inclus) et la dit quatre fois : pour un style D, I, S et C. Le fond ne bouge pas, seuls la longueur, le support, le rythme et la place de la décision changent. Démonstration sur M. Bernard (C) puis, en contrepoint, sur Mme Garnier (S, maison fil rouge)."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Rendez-vous de restitution du 29/10/2026 chez M. Bernard (style C observé). Quelle ouverture choisis-tu ?",
+        "options": [
+          "« Avant tout, je vous raconte la superbe vente qu'on a faite la semaine dernière dans votre rue. »",
+          "« Je vous ai envoyé le dossier mardi. Je vous propose 45 minutes : la valeur, la stratégie, puis vos questions. Chaque chiffre a sa source. »",
+          "« On va droit au but : si le prix vous va, vous signez aujourd'hui ? »"
+        ],
+        "answer": 1,
+        "whys": [
+          "Adapté à un style I, qui aime le récit ; pour un C, c'est du bruit sans preuve.",
+          "Juste : ordre du jour, durée, documents envoyés avant et sources annoncées, c'est ce qui rassure un style C.",
+          "Faux : la pression et la signature le jour même braquent un C, qui décide après avoir vérifié."
+        ],
+        "fb_title": "Un C veut le plan et les preuves",
+        "fb_text": "Avec un style C, l'ouverture annonce l'ordre du jour, la durée et le fait que chaque chiffre est sourcé. Tu lui as envoyé le dossier avant : il arrive en ayant déjà commencé à vérifier."
+      },
+      {
+        "question": "Mme Garnier (maison fil rouge, style S observé) te dit : « Je dois d'abord en parler à mes fils. » Que réponds-tu ?",
+        "options": [
+          "« Bien sûr. Voulez-vous que je leur envoie le récapitulatif, ou que nous fassions un point à trois en visio la semaine prochaine ? »",
+          "« Vos fils ne vivent pas ici, c'est à vous de décider. »",
+          "« Si vous attendez, votre maison classée G perdra encore de la valeur. »"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : tu respectes son besoin de consulter et tu proposes une étape simple, datée, sans pression.",
+          "Faux : tu disqualifies ses proches, alors qu'un style S décide avec eux ; tu perds sa confiance.",
+          "Faux : tu utilises une crainte pour presser et tu affirmes une perte sans source : c'est de la manipulation."
+        ],
+        "fb_title": "Un S décide entouré",
+        "fb_text": "Un style S a besoin de sécurité et consulte ses proches. Tu facilites cette consultation (récapitulatif, point à trois) et tu fixes une date. Tu n'exploites jamais une crainte pour accélérer la décision."
+      },
+      {
+        "question": "Ton collègue Hugo prépare la même restitution pour un vendeur de style D. Qu'a-t-il le droit de changer ?",
+        "options": [
+          "Le prix : il l'arrondit à 190 000 € pour faire plus simple",
+          "Les règles : il saute les mentions du mandat, un D n'aime pas les détails",
+          "La forme : une page, trois chiffres, une recommandation ; le prix, les chiffres et les règles restent identiques"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : un chiffre arrondi n'est plus celui du dossier (189 000 € honoraires inclus).",
+          "Faux : les mentions obligatoires du mandat s'appliquent quel que soit le profil du vendeur.",
+          "Juste : le DISC adapte la longueur, le support et le rythme, jamais le fond."
+        ],
+        "fb_title": "Même fond, autre forme",
+        "fb_text": "Le DISC est un outil de communication : il change la façon de présenter, pas ce que tu présentes. Pour un D, version courte et décision laissée au vendeur ; le détail reste disponible en annexe."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Fiche DISC : discours",
+    "kind": "fiche",
+    "intro": "Cette fiche t'aide à traduire le même message dans la forme qui convient au style DISC observé chez ton vendeur (fiche 3.17). Tu règles quatre curseurs : la longueur, le support, le rythme et la place de la décision. Le prix, les chiffres et les règles ne changent jamais. Exemples tirés du dossier de M. Bernard (fil rouge, fictif).",
+    "sections": [
+      {
+        "type": "steps",
+        "heading": "Les 4 réglages à faire avant le rendez-vous",
+        "items": [
+          "Longueur : une page pour un D, un récit court pour un I, un plan étape par étape pour un S, un dossier complet pour un C.",
+          "Support : chiffres clés (D), visuels et photos (I), calendrier et « qui fait quoi » (S), tableau de calcul et pièces (C).",
+          "Rythme : rapide et direct (D, I), calme et sans urgence (S), posé avec des silences pour vérifier (C).",
+          "Décision : tu proposes des options (D), tu écris le récapitulatif (I), tu laisses consulter les proches (S), tu fixes une date de réponse après vérification (C)."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Le même prix, dit de quatre façons (M. Bernard, 180 000 € net, 189 000 € honoraires inclus)",
+        "headers": [
+          "Style",
+          "Ouverture",
+          "Annonce du prix",
+          "Conclusion"
+        ],
+        "rows": [
+          [
+            "D",
+            "« 30 minutes, trois points, une recommandation. »",
+            "« 189 000 € affichés, 180 000 € net pour vous. Deux autres options en annexe. Vous tranchez. »",
+            "« Que décidez-vous, et pour quand ? »"
+          ],
+          [
+            "I",
+            "« Je vous montre d'abord à quoi ressemblera votre annonce. »",
+            "« À 189 000 €, votre appartement se place juste par rapport aux ventes du quartier : les acheteurs viendront visiter. »",
+            "« Je vous envoie le récapitulatif ce soir et je vous appelle jeudi. »"
+          ],
+          [
+            "S",
+            "« On avance à votre rythme, voici les trois étapes. »",
+            "« 180 000 € net pour vous ; voici ce qui se passe ensuite, étape par étape. »",
+            "« Voulez-vous en parler à votre fille avant ? Jeudi vous irait ? »"
+          ],
+          [
+            "C",
+            "« Dossier envoyé mardi ; 45 minutes ; chaque chiffre a sa source. »",
+            "« 76 m² × 2 650 €/m² (tableau D12) = 201 400 € ; ajustements reliés à D07 et D13 ; fourchette 178 000 – 186 000 € net ; je recommande 180 000 € net. »",
+            "« Prenez le temps de vérifier. Réponse le jeudi 5 novembre ? »"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Mots qui passent, mots qui bloquent",
+        "headers": [
+          "Style",
+          "Ce qui passe",
+          "Ce qui bloque"
+        ],
+        "rows": [
+          [
+            "D",
+            "« Résultat », « options », « vous décidez »",
+            "Les détails sans fin, l'hésitation"
+          ],
+          [
+            "I",
+            "Les images, l'enthousiasme mesuré, les personnes",
+            "La froideur, les tableaux sans récit"
+          ],
+          [
+            "S",
+            "« Étape par étape », « sans surprise », « à votre rythme »",
+            "L'urgence, les changements imprévus"
+          ],
+          [
+            "C",
+            "« Voici la source », « vérifions ensemble », « je ne sais pas, je vérifie »",
+            "« Faites-moi confiance », les arrondis, les promesses"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Contrepoint : Mme Garnier, style S (maison fil rouge, fictif)",
+        "text": "Mme Garnier, 71 ans, consulte ses deux fils avant de décider et déteste la pression. Pour elle, tu remplaces le tableau de calcul par un calendrier simple (estimation, mandat, visites, résidence seniors à l'été 2027), tu proposes un point à trois avec ses fils et tu laisses une date de réponse. Les chiffres de sa maison restent ceux du dossier M01 à M14."
+      },
+      {
+        "type": "checklist",
+        "heading": "Garde-fous, quel que soit le style",
+        "items": [
+          "Le style est une hypothèse de communication, pas un jugement sur la personne.",
+          "Même dossier, même prix, mêmes règles pour tous les vendeurs.",
+          "Aucune crainte repérée n'est utilisée pour faire pression.",
+          "Aucune promesse de prix, de délai ou de classe énergétique.",
+          "Pas de questionnaire DISC commercial sous marque sans licence ni accord du client."
+        ]
+      }
+    ],
+    "footer": "Origine du modèle : W. M. Marston, Emotions of Normal People (1928). DISC utilisé ici comme grille de communication générique (proposition pédagogique Éco-Propriété), sans lien avec les outils commerciaux sous marque. Chiffres : dossier fil rouge fictif (BIBLE, sections 1, 5 et 11). Mise à jour : 28/10/2026."
+  },
+  "exercise": {
+    "title": "Adapter son discours au profil identifié",
+    "duration_min": 30,
+    "context": "Tu as formulé en capsule 3.17 ton hypothèse de style pour M. Bernard : C dominant, avec une possible composante S liée à son projet de se rapprocher de sa fille. Avant le rendez-vous de restitution du jeudi 29 octobre 2026, tu réécris les trois moments clés de ton discours pour ce style, puis tu fais la même chose pour un deuxième style afin de vérifier que seule la forme change.",
+    "materials": [
+      "D01 Fiche découverte vendeur (tes notes et ton hypothèse DISC)",
+      "D03 Attestation actualisée ADEME",
+      "D07 PV d'AG du 12/06/2025",
+      "D12 Tableau des comparables",
+      "D13 Devis des travaux privatifs",
+      "Fiche DISC : profils (capsule 3.17) et Fiche DISC : discours"
+    ],
+    "steps": [
+      "Recopie ton hypothèse de style et les 3 indices qui la fondent (D01).",
+      "Règle les 4 curseurs pour ce style : longueur, support, rythme, place de la décision.",
+      "Écris ta phrase d'ouverture (ordre du jour, durée, documents envoyés).",
+      "Écris ton annonce du prix en citant au moins deux pièces du dossier (D12, D07 ou D13) et les montants exacts.",
+      "Écris ta conclusion : une étape datée, sans pression ni promesse.",
+      "Réécris les trois phrases pour un style D ou S, puis surligne ce qui a changé : seule la forme doit bouger."
+    ],
+    "expected": "Hypothèse : style C (documents classés, « d'où vient ce chiffre ? », refus des −15 % sans calcul) ; à surveiller : composante S. Réglages : dossier complet envoyé 48 h avant, tableau de calcul, rythme posé, réponse à une date convenue. Ouverture : « Je vous ai envoyé le dossier mardi. Je vous propose 45 minutes : la valeur, la stratégie, puis vos questions. Chaque chiffre a sa source. » Prix : « Les ventes comparables en l'état sont à 2 650 €/m² (tableau D12) : 76 m² × 2 650 = 201 400 €. Après ajustements pour les fenêtres et la VMC (devis D13) et pour l'ITE votée (PV D07 du 12/06/2025), la fourchette est de 178 000 à 186 000 € net. Je vous recommande 180 000 € net, soit 189 000 € honoraires inclus. » Conclusion : « Prenez le temps de vérifier. Pouvons-nous convenir de votre réponse le jeudi 5 novembre ? » Version S : « On avance à votre rythme : voici les trois étapes. Le prix que je vous recommande vous laisse 180 000 € net. Voulez-vous en parler à votre fille avant ? » Les montants sont identiques dans les deux versions."
+  },
+  "deliverable": {
+    "title": "Trois phrases adaptées au profil de M. Bernard, et leur version pour un second style",
+    "format": "PDF ou DOCX, 1 page (tableau 3 moments × 2 styles)",
+    "criteria": [
+      "L'hypothèse de style est rappelée avec au moins 3 indices observables",
+      "Les 4 réglages (longueur, support, rythme, décision) sont explicités pour chaque style",
+      "L'annonce du prix cite au moins deux pièces (D12, D07 ou D13) et les montants exacts du dossier (180 000 € net, 189 000 € honoraires inclus)",
+      "La conclusion propose une étape datée, sans pression ni promesse de prix, de délai ou de classe",
+      "La version pour le second style change la forme sans changer un seul chiffre ni une seule règle"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Everything DiSC — Histoire du modèle (W. M. Marston, Emotions of Normal People, 1928)",
+      "url": "https://www.everythingdisc.com/our-story"
+    },
+    {
+      "label": "Proposition pédagogique Éco-Propriété — grille DISC appliquée au discours vendeur ; dossier fil rouge fictif (BIBLE, sections 1, 5, 11)",
+      "url": "https://eco-propriete.fr"
+    }
+  ],
+  "open_points": [
+    "Valider avec Sébastien Paumier les quatre formulations types par style (tableau « Le même prix, dit de quatre façons »).",
+    "Le contrepoint Mme Garnier (BIBLE §11) est une proposition à valider par Sébastien Paumier.",
+    "Relecture juridique de la mention sur les marques « DiSC » / « Everything DiSC » (usage générique du terme DISC)."
+  ]
+}

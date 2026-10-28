@@ -1,0 +1,168 @@
+{
+  "id": "2.39",
+  "module": 2,
+  "section": "M · PARCOURS APPARTEMENT · Sa valeur vénale : comparaison, capitalisation, réconciliation",
+  "etape": "4 (Éco-staging)",
+  "parcours": "appartement",
+  "prio": false,
+  "ia": false,
+  "title": "Appartement : capitalisation, loyer au m² et taux retenu",
+  "objective": "Calculer la valeur de l'appartement de M. Bernard par capitalisation (loyer annuel ÷ taux observé), choisir le taux selon l'étiquette DPE et l'état, et distinguer valeur libre et valeur occupée",
+  "video": {
+    "duration": "4:30",
+    "chapter": false,
+    "pitch": "Sébastien Paumier se met dans la peau de M. Petit, l'investisseur : combien vaut l'appartement s'il le loue ? Loyer de 12,80 €/m² par mois, taux observé de 6,5 % pour un bien classé E : 179 600 €. Puis il montre ce que change l'étiquette : avec l'ancien DPE F et le calendrier d'interdiction de louer, le taux monte et la valeur chute."
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Loyer de marché de l'appartement de M. Bernard : 12,80 €/m² par mois hors charges, 76 m². Taux brut observé pour un bien classé E : 6,5 %. Quelle valeur par capitalisation ?",
+        "options": [
+          "15 049 €",
+          "179 600 €",
+          "205 000 €"
+        ],
+        "answer": 1,
+        "whys": [
+          "Faux : c'est le loyer mensuel divisé par le taux, sans passer au loyer annuel.",
+          "Juste : 76 × 12,80 × 12 = 11 673,60 € par an ; 11 673,60 / 0,065 ≈ 179 594, arrondi à 179 600 €.",
+          "Faux : c'est le prix espéré par M. Bernard, pas un résultat de calcul."
+        ],
+        "fb_title": "Loyer annuel ÷ taux",
+        "fb_text": "La capitalisation part du loyer annuel : 76 m² × 12,80 € × 12 mois = 11 673,60 €. Divisé par le taux observé de 6,5 %, on obtient ≈ 179 600 €. Le loyer et le taux doivent être sur la même base (ici brut, hors charges)."
+      },
+      {
+        "question": "Hugo capitalise un T3 classé F avec le même taux qu'un bien classé D. Qu'oublie-t-il ?",
+        "options": [
+          "Rien : le taux dépend seulement du quartier",
+          "Que le taux se choisit selon le loyer, pas selon l'étiquette",
+          "Qu'un bien F ne pourra plus être proposé à une nouvelle location au 1er janvier 2028 sans travaux : le risque relève le taux"
+        ],
+        "answer": 2,
+        "whys": [
+          "Faux : l'étiquette et l'état changent le risque pour l'investisseur, donc le taux.",
+          "Faux : le loyer et le taux sont deux données distinctes ; le taux traduit le risque et la liquidité.",
+          "Juste : décence énergétique au 1/01/2028 pour les F (nouveaux baux, renouvellements, reconductions) ; l'investisseur exige un taux plus élevé, la valeur baisse."
+        ],
+        "fb_title": "L'étiquette change le taux",
+        "fb_text": "Depuis le 1/01/2025, un logement G ne peut plus être loué en nouveau bail ; les F suivront au 1/01/2028 et les E au 1/01/2034. Les loyers des F et G sont gelés depuis le 24/08/2022. Un investisseur intègre ce risque : le taux monte, la valeur capitalisée baisse."
+      },
+      {
+        "question": "M. Bernard vend son appartement vide, au départ pour Nantes. Quelle valeur estimes-tu ?",
+        "options": [
+          "La valeur libre, sans décote d'occupation",
+          "La valeur occupée, puisque la capitalisation suppose un locataire",
+          "La moyenne des deux"
+        ],
+        "answer": 0,
+        "whys": [
+          "Juste : le bien sera libre à la vente ; la capitalisation sert ici de méthode de contrôle, appliquée à un loyer de marché théorique.",
+          "Faux : la capitalisation utilise un loyer de marché, mais le bien n'est pas loué ; il n'y a pas de bail à reprendre.",
+          "Faux : on ne fait pas la moyenne d'une situation qui n'existe pas."
+        ],
+        "fb_title": "Libre ou occupé : c'est un fait, pas un calcul",
+        "fb_text": "Un bien vendu vide se valorise libre. Un bien vendu avec un locataire en place subit une décote d'occupation (l'acquéreur ne peut pas l'habiter, il reprend le bail). Ici, M. Bernard l'occupe et partira : valeur libre."
+      }
+    ]
+  },
+  "resource": {
+    "title": "Tableur loyers et taux de capitalisation observés ; fiche : loyer annuel ÷ taux, bien libre ou occupé, calendrier d'interdiction de louer (F, G) à sourcer",
+    "kind": "tableur",
+    "intro": "La capitalisation estime ce qu'un investisseur paierait pour le revenu locatif du bien. Pour un appartement de résidence principale comme celui de M. Bernard, c'est une méthode de contrôle à côté de la comparaison. Loyers et taux de cet exemple sont FICTIFS : tu les remplaces par des loyers et des ventes de biens loués relevés dans ton secteur, datés.",
+    "sections": [
+      {
+        "type": "formula",
+        "heading": "La formule",
+        "text": "Loyer annuel = surface × loyer au m² mensuel × 12. Valeur par capitalisation = loyer annuel / taux. Taux observé d'une vente louée = loyer annuel / prix de vente. Règle : loyer et taux sur la même base (brut hors charges avec un taux brut ; net de charges non récupérables et de taxe foncière avec un taux net). M. Bernard : 76 × 12,80 × 12 = 11 673,60 € ; 11 673,60 / 6,5 % ≈ 179 600 €."
+      },
+      {
+        "type": "table",
+        "heading": "Taux observés (exemple FICTIF, ventes de biens loués, secteur Melun 2025-2026)",
+        "headers": ["Réf.", "Bien", "Loyer mensuel HC", "Prix de vente", "Taux brut"],
+        "rows": [
+          ["L1", "T4 78 m², 1974, classe D, bon état", "1 050 €", "215 000 €", "5,9 %"],
+          ["L2", "T3 68 m², 1970, classe E, en l'état", "900 €", "168 000 €", "6,4 %"],
+          ["L3", "T3 65 m², 1968, classe F, à rénover", "820 €", "132 000 €", "7,5 %"],
+          ["Repère retenu", "C-D rénové 5,8 % · E en l'état 6,5 % · F-G 7,5 %", "", "", "À fixer par secteur"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Sensibilité au taux (M. Bernard, loyer annuel 11 673,60 €)",
+        "headers": ["Taux", "Valeur", "Lecture"],
+        "rows": [
+          ["6,0 %", "194 560 €", "Bien sans risque particulier"],
+          ["6,5 %", "179 594 € ≈ 179 600 €", "Retenu : attestation classe E, en l'état"],
+          ["7,0 %", "166 766 €", "Investisseur prudent"],
+          ["7,5 %", "155 648 €", "Si l'on lisait encore l'ancien DPE F (2023)"]
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Calendrier de décence énergétique (location, France métropolitaine)",
+        "headers": ["Date", "Règle", "Effet sur le taux"],
+        "rows": [
+          ["24/08/2022", "Gel des loyers des logements F et G (pas de hausse)", "Loyer bloqué : taux exigé plus haut"],
+          ["1/01/2025", "Classe G interdite en nouveau bail, renouvellement ou reconduction tacite", "G : bien à rénover avant de louer"],
+          ["1/01/2028", "Classe F interdite à son tour", "F : risque fort"],
+          ["1/01/2034", "Classe E interdite à son tour", "E (M. Bernard) : louable jusqu'au 31/12/2033, puis D minimum"]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Libre ou occupé",
+        "items": [
+          "Libre : le bien est vendu vide ; c'est le cas de M. Bernard. Pas de décote d'occupation.",
+          "Occupé : le bien est vendu avec un locataire en place ; l'acquéreur reprend le bail et ne peut pas l'habiter ; la valeur occupée est inférieure à la valeur libre.",
+          "La décote d'occupation dépend de la durée restante du bail, du loyer et du marché local : à vérifier avec des ventes occupées du secteur, jamais un pourcentage de tête.",
+          "Phrase à dire : « Pour un investisseur, votre appartement vaudrait autour de 179 600 €. Comme vous le vendez libre, ce chiffre me sert de contrôle de l'estimation par les ventes. »"
+        ]
+      }
+    ],
+    "footer": "Sources : Ministère de la Transition écologique, « Décence énergétique et gel des loyers » (mis à jour le 19/12/2025) ; Service-Public, actualité du 1/01/2025 sur les logements G ; Charte de l'expertise en évaluation immobilière (méthode par capitalisation, valeur libre et occupée). Loyers et taux FICTIFS, à remplacer par des relevés datés. Mise à jour : octobre 2026."
+  },
+  "exercise": {
+    "title": "Capitaliser l'appartement de M. Bernard",
+    "duration_min": 30,
+    "context": "M. Petit, investisseur, s'intéresse aux biens du secteur pour les louer. Tu veux savoir ce que vaut l'appartement de M. Bernard pour un investisseur, afin de contrôler ton estimation par comparaison. Tu calcules la valeur par capitalisation, tu justifies le taux par l'étiquette et l'état, et tu précises si la valeur est libre ou occupée.",
+    "materials": [
+      "D03 Attestation actualisée ADEME (classe E)",
+      "D02 DPE du 14/03/2023 (classe F, ancien coefficient)",
+      "D04 Plan et descriptif de l'appartement",
+      "Tableur loyers et taux observés (ressource, exemple fictif)"
+    ],
+    "steps": [
+      "Calcule le loyer annuel de marché : 76 m² × 12,80 € × 12.",
+      "Calcule le taux brut des 3 ventes louées L1 à L3 et classe-les selon l'étiquette.",
+      "Choisis le taux pour M. Bernard en t'appuyant sur l'attestation E et l'état ; écris ta justification.",
+      "Calcule la valeur par capitalisation, puis la sensibilité à ± 0,5 point.",
+      "Indique si la valeur est libre ou occupée, et la date à laquelle un bien classé E ne pourra plus être proposé à une nouvelle location.",
+      "Compare le résultat à la base par comparaison (201 400 €) et à la fourchette en l'état (178 000 – 186 000 €)."
+    ],
+    "expected": "Loyer annuel : 76 × 12,80 × 12 = 11 673,60 €. Taux observés : L1 1 050 × 12 / 215 000 ≈ 5,9 % (D) ; L2 900 × 12 / 168 000 ≈ 6,4 % (E) ; L3 820 × 12 / 132 000 ≈ 7,5 % (F). Taux retenu : 6,5 % (attestation classe E, bien en l'état, louable en nouveau bail jusqu'au 31/12/2033). Valeur : 11 673,60 / 0,065 ≈ 179 594 € → 179 600 €. Sensibilité : 6,0 % → 194 560 € ; 7,0 % → 166 766 €. Avec l'ancien DPE F (taux 7,5 %) : 155 648 €, d'où l'intérêt de l'attestation actualisée. Valeur libre : M. Bernard vend vide, pas de décote d'occupation. Comparaison : 179 600 € est dans la fourchette en l'état 178 000 – 186 000 €, sous la base brute de 201 400 € (avant ajustements) ; la capitalisation confirme le bas-milieu de fourchette. Elle reste une méthode de contrôle : les acquéreurs d'un T4 de ce type sont surtout des occupants.",
+    "ia_prompt": null
+  },
+  "deliverable": {
+    "title": "Fiche de capitalisation de l'appartement de M. Bernard",
+    "format": "Tableur ou PDF, 1 page",
+    "criteria": [
+      "Le loyer annuel (11 673,60 €) et la valeur capitalisée (≈ 179 600 €) sont justes",
+      "Le taux retenu est justifié par l'étiquette (attestation E), l'état et des ventes louées datées",
+      "La sensibilité au taux (± 0,5 point) est calculée",
+      "La valeur est qualifiée de libre, avec la raison",
+      "Le calendrier de décence (G 2025, F 2028, E 2034) est cité avec sa source"
+    ]
+  },
+  "sources": [
+    { "label": "Ministère de la Transition écologique, « Décence énergétique et gel des loyers » (mis à jour le 19/12/2025) : seuils au 1/01/2025, 1/01/2028, 1/01/2034, nouveaux baux, renouvellements et reconductions ; gel des loyers F et G depuis le 24/08/2022", "url": "https://www.ecologie.gouv.fr/politiques-publiques/location-gel-loyers-passoires-energetiques" },
+    { "label": "Service-Public, « Les passoires thermiques les moins bien isolées ne peuvent plus être mises en location » (classe G, 1/01/2025)", "url": "https://www.service-public.fr/particuliers/actualites/A17975" },
+    { "label": "Service-Public, Logement à louer décent (F2042)", "url": "https://www.service-public.fr/particuliers/vosdroits/F2042" },
+    { "label": "Charte de l'expertise en évaluation immobilière, 6e édition (novembre 2025) : méthode par capitalisation, valeur libre et occupée ; à vérifier : lien officiel de la 6e édition", "url": "https://charteexpertiseimmo.org" },
+    { "label": "Proposition pédagogique Éco-Propriété : loyer 12,80 €/m² et taux observés FICTIFS (Bible du fil rouge §5, M. Petit investisseur §7)" }
+  ],
+  "open_points": [
+    "Loyer de marché (12,80 €/m²/mois HC) et taux observés (5,8 % / 6,5 % / 7,5 %) : exemple fictif à valider par Sébastien Paumier et à ajouter au dossier fil rouge (nouvel onglet D12 ou document dédié).",
+    "À vérifier : ordre de grandeur de la décote d'occupation à proposer comme repère (aucun chiffre donné dans la fiche).",
+    "Calendrier de décence : à actualiser si le calendrier est modifié par la loi (vérifié au 19/12/2025 sur ecologie.gouv.fr)."
+  ]
+}

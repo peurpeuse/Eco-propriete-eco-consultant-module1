@@ -1,0 +1,350 @@
+{
+  "id": "2.8",
+  "module": 2,
+  "title": "Calculer : kWh/m²/an, CO₂, étiquette",
+  "capsule_title": "Calculer : kWh/m²/an, CO₂, étiquette",
+  "duration": "4:30",
+  "objective": "Calculer l'étiquette d'un bien type : consommation en énergie finale puis primaire (kWh/m²/an) sur la bonne surface, émissions (kgCO₂/m²/an) et classe retenue selon le double seuil énergie et climat",
+  "mozi": {
+    "line": "Balcon et cave en plus, je divise par 90 : et hop, classe D !",
+    "scene": "Mozi mesure le balcon puis la cave de M. Bernard avec un mètre ruban en élastique, qu'il étire de toutes ses forces, puis refait le calcul du DPE sur sa calculatrice. Histoire absurde, sans morale."
+  },
+  "screens": [
+    {
+      "n": 1,
+      "brick": 1,
+      "kind": "welcome",
+      "tc": "0:00",
+      "end": "0:10",
+      "title": "Chapitre 2.8 : calculer l'étiquette",
+      "voice": "Bienvenue. Prends une calculatrice : dans ce chapitre, tu refais l'étiquette énergie et climat de M. Bernard.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Commencer »",
+      "cta": "Commencer",
+      "source": null
+    },
+    {
+      "n": 2,
+      "brick": 1,
+      "kind": "goals",
+      "tc": "0:10",
+      "end": "0:20",
+      "title": "Ce que tu vas faire",
+      "voice": "Tu vas comprendre, appliquer, puis prouver.",
+      "voice_status": "proposition",
+      "interaction": "Bouton « Suivant »",
+      "cta": "Suivant",
+      "source": null,
+      "items": [
+        {
+          "verb": "Comprendre",
+          "text": "d'où viennent les kWh/m²/an, le CO₂ et la classe"
+        },
+        {
+          "verb": "Appliquer",
+          "text": "calculer l'étiquette d'un bien type, de l'énergie finale à la classe retenue"
+        },
+        {
+          "verb": "Prouver",
+          "text": "montrer ton calculateur rempli en une image"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "brick": 2,
+      "kind": "mozi",
+      "tc": "0:20",
+      "end": "0:35",
+      "title": "Balcon et cave en plus, je divise par 90 : et hop, classe D !",
+      "voice": "Balcon et cave en plus, je divise par 90 : et hop, classe D !",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "line": "Balcon et cave en plus, je divise par 90 : et hop, classe D !",
+      "scene": "Mozi mesure le balcon et la cave avec un mètre ruban en élastique, puis refait le calcul du DPE sur sa calculatrice."
+    },
+    {
+      "n": 4,
+      "brick": 2,
+      "kind": "belief",
+      "tc": "0:35",
+      "end": "0:50",
+      "title": "11 400 kWh, ÷ 90 m², = classe D",
+      "voice": "Onze mille quatre cents kilowattheures. Divisés par quatre-vingt-dix mètres carrés. Égale classe D.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": null,
+      "beats": [
+        "11 400 kWh par an",
+        "÷ 90 m² avec balcon et cave",
+        "= classe D"
+      ],
+      "wrong": 1,
+      "why": "Le DPE divise par la surface de référence, 76 m² : balcon et cave n'en font pas partie."
+    },
+    {
+      "n": 5,
+      "brick": 3,
+      "kind": "consequence",
+      "tc": "0:50",
+      "end": "1:05",
+      "title": "Un faux D. Le DPE dit E.",
+      "voice": "Onze mille quatre cents divisé par 90, fois 1,9 : environ 241, un faux D. Sur 76 mètres carrés, on trouve 285 : classe E. L'acquéreur lira le DPE, pas la calculatrice de Mozi.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "lines": [
+        "11 400 ÷ 90 × 1,9 ≈ 241 : un faux D.",
+        "Sur 76 m² : 150 × 1,9 = 285, classe E."
+      ],
+      "source": "Calcul : 11 400 / 90 ≈ 126,7 kWhEF/m² × 1,9 ≈ 241 (D) contre 150 × 1,9 = 285 (E) ; seuils de l'arrêté du 31/03/2021 modifié (D ≤ 250, E 251-330) ; surface de référence du DPE = surface habitable, plus vérandas et locaux chauffés d'au moins 1,80 m (ANIL, analyse juridique DPE ; arrêté du 25/03/2024)"
+    },
+    {
+      "n": 6,
+      "brick": 4,
+      "kind": "stat",
+      "tc": "1:05",
+      "end": "1:20",
+      "title": "1,9 : le coefficient de l'électricité",
+      "voice": "Un virgule neuf. C'est le coefficient de l'électricité depuis le 1er janvier 2026. Il valait 2,3. Il vaudra 1,7 en 2027. Même appartement, autre étiquette.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "guess": {
+        "q": "Quel est le coefficient de conversion de l'électricité depuis le 1er janvier 2026 ?",
+        "answer": 1.9,
+        "min": 1,
+        "max": 3,
+        "step": 0.1,
+        "unit": ""
+      },
+      "value": "1,9",
+      "label": "coefficient de conversion de l'électricité depuis le 1er janvier 2026 (2,3 avant, 1,7 au 1er janvier 2027)",
+      "source": "Arrêté du 13/08/2025 (1,9 au 1/01/2026, INC) ; arrêté du 19/08/2026, NOR VLOL2617030A (1,7 au 1/01/2027) ; Service-Public F16096, consulté le 26/10/2026"
+    },
+    {
+      "n": 7,
+      "brick": 4,
+      "kind": "steps",
+      "tc": "1:20",
+      "end": "2:15",
+      "title": "Énergie finale → Énergie primaire → CO₂ et étiquette",
+      "voice": "Trois calculs, dans cet ordre. Un : l'énergie finale. Le DPE de M. Bernard donne 150 kilowattheures par mètre carré et par an, sur 76 mètres carrés de surface de référence. Fois 76 : 11 400 par an. Deux : l'énergie primaire. Tu multiplies l'électricité par son coefficient. Fois 2,3 : 345, classe F. Fois 1,9 : 285, classe E. Fois 1,7 : 255, toujours E, à 5 du seuil de D. Trois : le CO₂ et l'étiquette. 12 kilos par mètre carré : classe C pour le climat. La classe retenue, c'est la moins bonne des deux : E. Regarde la maison de Mme Garnier : 400 en énergie, F. Mais avec son fioul, 119 kilos de CO₂ : G. Le double seuil la classe G.",
+      "voice_status": "proposition",
+      "interaction": "Les trois étapes apparaissent une à une",
+      "source": "Arrêté du 31/03/2021 modifié, échelle de référence (logements de 40 m² et plus : D ≤ 250, E 251-330, F 331-420 kWhEP ; climat C 12-30, G > 100 kgCO₂) ; arrêtés du 13/08/2025 et du 19/08/2026 ; Service-Public F16096 (coefficients) ; ANIL (surface de référence) ; bible du fil rouge (DPE D02 et maison de Mme Garnier M02, fictifs ; facteur fioul à vérifier)",
+      "steps": [
+        {
+          "label": "Énergie finale",
+          "detail": "150 kWhEF/m²/an × 76 m² = 11 400 kWhEF/an. Surface de référence : 76 m², sans balcon ni cave."
+        },
+        {
+          "label": "Énergie primaire",
+          "detail": "Électricité × coefficient : × 2,3 = 345 (F) ; × 1,9 = 285 (E) ; × 1,7 = 255 (E)."
+        },
+        {
+          "label": "CO₂ et étiquette",
+          "detail": "12 kgCO₂/m² → C ; la moins bonne l'emporte : E. Mme Garnier : 400 (F) mais 119 kgCO₂ (G) → G."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "brick": 4,
+      "kind": "retrieval",
+      "tc": "2:15",
+      "end": "2:40",
+      "title": "Toi, que proposerais-tu ?",
+      "voice": "M. Bernard demande à Hugo pourquoi il passe de F à E sans travaux. Toi, que proposerais-tu ?",
+      "voice_status": "proposition",
+      "interaction": "Champ libre, dictée possible, « Passer » ; retour explicatif immédiat",
+      "source": "Pratique de récupération (retrieval practice)",
+      "prompt": "Toi, que proposerais-tu ?",
+      "context": "M. Bernard, ancien ingénieur, demande à Hugo : « Comment mon appartement passe-t-il de F à E alors que je n'ai fait aucun travail ? » Que répond Hugo, en deux phrases ?",
+      "model_answer": "Votre consommation n'a pas changé : 150 kWh d'énergie finale par m² et par an. C'est le coefficient de l'électricité qui est passé de 2,3 à 1,9 : 150 × 1,9 = 285, classe E, et l'attestation de l'ADEME le confirme.",
+      "keywords": [
+        "150",
+        "coefficient",
+        "1,9",
+        "285",
+        "attestation"
+      ]
+    },
+    {
+      "n": 9,
+      "brick": 4,
+      "kind": "quiz",
+      "tc": "2:40",
+      "end": "3:10",
+      "title": "Quelle règle Mozi enfreint-il ?",
+      "voice": "À toi de jouer : retourne la carte.",
+      "voice_status": "proposition",
+      "interaction": "Retourner la carte ; retour explicatif immédiat sur une mauvaise réponse ; carte 2",
+      "source": "ANIL, analyse juridique DPE (surface de référence) ; arrêté du 25/03/2024 ; bible du fil rouge (§3 et §11.3, fictifs)",
+      "card1": {
+        "question": "Quelle règle Mozi enfreint-il ?",
+        "options": [
+          "Le DPE divise la consommation par la surface de référence : balcon et cave non chauffés n'en font pas partie",
+          "On peut diviser par toute la surface du lot, annexes comprises",
+          "Aucune : un calcul refait par l'agent remplace le DPE"
+        ],
+        "answer": 0,
+        "feedback": "La surface de référence du DPE, c'est la surface habitable, plus les vérandas et les locaux chauffés d'au moins 1,80 m. Chez M. Bernard : 76 m², donc 150 kWhEF/m² et 285 kWhEP/m² avec 1,9 : classe E.",
+        "whys": [
+          "Exact : 11 400 / 76 = 150 kWhEF/m², ni plus ni moins.",
+          "Faux : un balcon n'est pas clos et une cave n'est pas chauffée : ni l'un ni l'autre n'entre dans la surface de référence.",
+          "Faux : seul le DPE, ou son attestation actualisée, établit la classe. Ton calcul sert à comprendre et à contrôler."
+        ]
+      },
+      "card2": {
+        "question": "Si le coefficient de l'électricité baissait encore, la maison de Mme Garnier changerait-elle de classe ?",
+        "answer": "Non. Son énergie primaire baisserait un peu, d'environ 400 à 393 avec 1,9 : toujours F. Et son climat reste G, à cause du fioul : 119 kgCO₂/m². C'est le chauffage qu'il faut changer, pas un coefficient qu'il faut attendre."
+      }
+    },
+    {
+      "n": 10,
+      "brick": 5,
+      "kind": "tools",
+      "tc": "3:10",
+      "end": "3:20",
+      "title": "Deux gestes, un seul but",
+      "voice": "Deux gestes, un seul but : une étiquette que tu peux refaire devant le vendeur. Le calculateur, puis le contrôle croisé.",
+      "voice_status": "proposition",
+      "interaction": "Aucune",
+      "source": "Ressource « Fiche formules + calculateur » de la capsule 2.8",
+      "goal": "Une étiquette que tu peux refaire devant le vendeur",
+      "tools": [
+        {
+          "name": "Calculateur (8 lignes)",
+          "role": "Refaire chaque calcul, de l'énergie finale à la classe retenue"
+        },
+        {
+          "name": "Contrôle croisé (D02, D03, D04)",
+          "role": "Vérifier que les documents disent la même chose"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:20",
+      "end": "3:40",
+      "title": "Le calculateur, ligne par ligne",
+      "voice": "Le calculateur, ligne par ligne. Surface de référence : 76. Énergie finale : 150, soit 11 400 par an. Primaire : 345, 285, puis 255. Émissions : 12 par mètre carré, 912 kilos par an, classe C. Classe retenue : E.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Ressource « Fiche formules + calculateur » de la capsule 2.8 (calculs refaits : 150 × 76 = 11 400 ; 12 × 76 = 912)",
+      "tool": "Calculateur (8 lignes)",
+      "steps": [
+        "Lignes 1-2 : surface de référence 76 m², 11 400 kWhEF/an",
+        "Lignes 3-5 : énergie primaire 345 (F), 285 (E), 255 (E)",
+        "Lignes 6-7 : 12 kgCO₂/m²/an, soit 912 kgCO₂/an → C",
+        "Ligne 8 : la moins bonne des deux → classe E"
+      ]
+    },
+    {
+      "n": 12,
+      "brick": 5,
+      "kind": "demo",
+      "tc": "3:40",
+      "end": "4:00",
+      "title": "Le contrôle croisé : trois coches",
+      "voice": "Puis le contrôle croisé. La surface du DPE est-elle celle du plan ? La somme des usages fait-elle 150 ? 150 fois 1,9 donne-t-il la classe de l'attestation ? Si un contrôle échoue, tu ne corriges pas : tu écris au diagnostiqueur.",
+      "voice_status": "proposition",
+      "interaction": "Étapes qui s'enchaînent",
+      "source": "Bible du fil rouge (D02, D03, D04 fictifs) ; démonstration de la capsule 2.8",
+      "tool": "Contrôle croisé (D02, D03, D04)",
+      "steps": [
+        "Surface du DPE (76 m²) = surface du plan D04 ?",
+        "Somme des usages : 112 + 26 + 4 + 8 = 150 ?",
+        "150 × 1,9 = 285 → E, comme sur l'attestation D03 ?",
+        "Un écart : question écrite au diagnostiqueur"
+      ]
+    },
+    {
+      "n": 13,
+      "brick": 5,
+      "kind": "action",
+      "tc": "4:00",
+      "end": "4:05",
+      "title": "À toi de jouer",
+      "voice": "Calcule l'étiquette de ton bien type maintenant.",
+      "voice_status": "proposition",
+      "interaction": "Le bouton ouvre l'exercice",
+      "source": "Exercice de la capsule 2.8 : calculer l'étiquette d'un bien type (pas d'outil en ligne officiel)",
+      "cta": "Ouvrir le calculateur",
+      "url": "#exercice"
+    },
+    {
+      "n": 14,
+      "brick": 6,
+      "kind": "proof",
+      "tc": "4:05",
+      "end": "4:20",
+      "title": "Ta preuve en une image",
+      "voice": "Montre-moi ton calculateur rempli.",
+      "voice_status": "proposition",
+      "interaction": "Dépôt d'une capture ; « Je le ferai plus tard » mène à une fin sobre",
+      "source": "Livrable de la capsule 2.8 : calculateur rempli pour le bien type",
+      "ask": "Dépose une capture de ton calculateur rempli pour le bien type : surface de référence, énergie finale, énergie primaire, CO₂, les deux étiquettes et la classe retenue.",
+      "later": "Je le ferai plus tard",
+      "later_text": "D'accord. Ta calculatrice t'attend : reviens déposer ton calculateur quand il est rempli."
+    },
+    {
+      "n": 15,
+      "brick": 6,
+      "kind": "bravo",
+      "tc": "4:20",
+      "end": "4:30",
+      "title": "Bravo !",
+      "voice": "Bravo. Une étiquette, tu sais maintenant la refaire, et l'expliquer devant le vendeur.",
+      "voice_status": "proposition",
+      "interaction": "Effet statut, aucun badge",
+      "status": "Ton calcul : 8 lignes refaites à la main. Les deux autres agences : une lettre, F, et −15 %.",
+      "source": "Bible du fil rouge (fictif) : deux agences ont annoncé « −15 % à cause du DPE »"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ANIL, analyse juridique : diagnostic de performance énergétique (surface de référence : surface habitable, vérandas chauffées, locaux chauffés d'au moins 1,80 m)",
+      "url": "https://www.anil.org/aj-dpe/"
+    },
+    {
+      "label": "Arrêté du 25 mars 2024 (surface de référence du DPE, seuils petites surfaces)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049446315"
+    },
+    {
+      "label": "Code de la construction et de l'habitation, art. R. 156-1 (surface habitable)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043808633"
+    },
+    {
+      "label": "INC : abaissement du coefficient de l'électricité à 1,9 au 1/01/2026 (arrêté du 13/08/2025)",
+      "url": "https://www.inc-conso.fr/content/1er-janvier-2026-abaissement-du-coefficient-de-conversion-de-lelectricite-des-dpe"
+    },
+    {
+      "label": "Arrêté du 19 août 2026 (coefficient 1,7 au 1/01/2027), NOR VLOL2617030A",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054747079"
+    },
+    {
+      "label": "Service-Public, F16096 : DPE (validité, coefficient 1,9 au 1/01/2026 puis 1,7 au 1/01/2027), consulté le 26/10/2026",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
+    },
+    {
+      "label": "Arrêté du 31 mars 2021 relatif au DPE (échelle de référence des classes, version consolidée)",
+      "url": "https://aida.ineris.fr/reglementation/arrete-310321-relatif-diagnostic-performance-energetique-batiments-parties-batiments"
+    },
+    {
+      "label": "Bible du fil rouge (données fictives : D02, D03, D04 ; maison de Mme Garnier, M02)",
+      "url": null
+    }
+  ],
+  "open_points": [
+    "Toutes les voix sont des propositions à valider par Sébastien Paumier, y compris la réplique de Mozi",
+    "Plan v4 : les surfaces (Carrez, habitable, pondérée) passent en 2.14 à 2.17 ; la séquence Carrez de l'ancien chapitre 2.3 (seuil d'un vingtième, art. 46 de la loi de 1965) est retirée d'ici et relève de 2.15. Mozi garde son mètre ruban, mais son erreur porte désormais sur la surface de référence du DPE",
+    "Écran 5 : « 90 m² » est un chiffre absurde de Mozi (la surface de la cave n'existe pas dans la bible), à présenter comme tel",
+    "Écran 7 et carte 2 : maison de Mme Garnier (400 kWhEP → F ; 119 kgCO₂ → G ; 393 avec 1,9) reprise de la bible §11.3, fictive ; le facteur d'émission du fioul (0,324) est marqué « à vérifier » dans la bible",
+    "Écran 7 : mention obligatoire à l'écran « seuils pour les logements de 40 m² et plus » ; le coût annuel (2 330 à 3 190 €) n'est plus affiché ici (lecture du DPE en 2.7)",
+    "Ne jamais présenter 255 comme un passage en D en 2027",
+    "Écran 13 : pas d'outil en ligne officiel (#exercice) ; le bien type de l'exercice est à définir dans la fiche capsule 2.8 ; écran 14 : fin sobre à valider"
+  ]
+}
