@@ -336,6 +336,7 @@
   R.chapter = function (it) {
     var c = it.cap;
     return window.EcoChapter.render(c.chapter, { avatar: 'assets/seb.png' }) +
+      (c.v4 ? '<details class="box vidalt" style="margin-top:18px"><summary><b>Voir ce chapitre en vidéo</b> · version animée à regarder d’un trait</summary><div class="player" style="margin-top:12px"><video controls preload="none" playsinline src="' + esc(VBASE + 'Capsule_' + c.id + '.mp4') + '"></video></div></details>' : '') +
       '<div class="box" style="margin-top:18px"><h3>Pour aller plus loin</h3><p style="margin:0">La fiche « ' + esc(c.resource.title) + ' », l’exercice complet « ' + esc(c.exercise.title) + ' » et le devoir « ' + esc(c.deliverable.title) + ' » sont dans le plan, juste après ce chapitre.</p></div>';
   };
   B.chapter = function (it) {
@@ -352,9 +353,10 @@
       onExercise: function () { go(['learn', 'c:' + c.id + ':3']); }
     });
   };
+  var VBASE = 'https://eco-consultant-parcours.vercel.app/videos/';
   R.video = function (it) {
     var c = it.cap, v = c.video;
-    if (c.v4 && !v.src && !v.segments) return '<div class="player"><img class="seb" src="assets/seb.png" alt=""><span class="tag">Vidéo en production · 4 min 30 maximum · Sébastien Paumier</span><span class="hook">' + esc(v.pitch || '') + '</span></div>' +
+    if (c.v4 && !v.src && !v.segments) return '<div class="player"><video controls preload="metadata" playsinline src="' + esc(VBASE + 'Capsule_' + c.id + '.mp4') + '"></video></div>' +
       '<div class="box" style="margin-top:14px"><h3>Objectif de la capsule</h3><p style="margin:0">À la fin de cette capsule, tu sauras ' + esc(lc(c.objective)) + '.</p></div>' +
       '<div class="box"><h3>Le parcours de la capsule</h3><ol style="margin:0;padding-left:20px"><li>Je regarde la vidéo (4 min 30 maximum)</li><li>Je me teste : quiz flash de ' + c.quiz.questions.length + ' questions</li><li>Je télécharge la ressource : « ' + esc(c.resource.title) + ' »</li><li>Je pratique : « ' + esc(c.exercise.title) + ' »</li><li>Je dépose mon livrable : « ' + esc(c.deliverable.title) + ' »</li></ol></div>';
     var isHls = v.src && /\.m3u8($|\?)/.test(v.src);

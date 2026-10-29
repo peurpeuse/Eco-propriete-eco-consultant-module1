@@ -1,0 +1,304 @@
+{
+ "id": "1.1",
+ "module": 1,
+ "modlabel": "Module 1",
+ "modtitle": "Se différencier pour attirer les propriétaires",
+ "color": "#E2231A",
+ "title": "Ma première démonstration : lire un DPE devant un propriétaire",
+ "chapter": false,
+ "scenes": [
+  {
+   "kind": "welcome",
+   "title": "Ma première démonstration : lire un DPE devant un propriétaire",
+   "caption": "Capsule 1.1. Ma première démonstration : lire un DPE devant un propriétaire",
+   "dur": 10.07,
+   "clips": [
+    {
+     "file": "s00.mp3",
+     "at": 0.5,
+     "dur": 8.67,
+     "text": "Bonjour, c'est Sébastien Paumier. Capsule 1.1 : ta première démonstration. Lire un DPE devant un propriétaire."
+    }
+   ]
+  },
+  {
+   "kind": "objective",
+   "title": "Objectif",
+   "text": "Tirer d'un DPE réel trois observations simples et vérifiables, les dire à un propriétaire sans devis ni promesse, et renvoyer la vérification au diagnostiqueur",
+   "caption": "À la fin de cette capsule : Tirer d'un DPE réel trois observations simples et vérifiables, les dire à un propriétaire sans devis ni promesse, et renvoyer la vérification au diagnostiqueur",
+   "dur": 12.87,
+   "clips": [
+    {
+     "file": "s01.mp3",
+     "at": 0.5,
+     "dur": 11.47,
+     "text": "À la fin de cette capsule, tu sauras tirer d'un DPE réel trois observations simples et vérifiables, les dire au propriétaire sans devis ni promesse, et renvoyer la vérification au diagnostiqueur."
+    }
+   ]
+  },
+  {
+   "kind": "mozi",
+   "title": "Mozi, lui, ferait ça",
+   "line": "C, évidemment ! La meilleure des deux notes.",
+   "pose": "base",
+   "scene": "Le DPE de M. Bernard affiche 345 kWhEP/m²/an (F) et 12 kgCO₂/m²/an (C). Quelle classe retient le DPE ?",
+   "caption": "Le DPE de M. Bernard affiche 345 kWhEP/m²/an (F) et 12 kgCO₂/m²/an (C). Quelle classe retient le DPE ? Mozi, lui, répondrait : « C, la meilleure des deux notes. »",
+   "dur": 21.2,
+   "clips": [
+    {
+     "file": "s02a.mp3",
+     "at": 0.5,
+     "dur": 15.49,
+     "text": "Le DPE de M. Bernard affiche 345 kWhEP/m²/an, soit la classe F, et 12 kg de CO₂, soit la classe C. Quelle classe retient le DPE ? Mozi, lui, a sa réponse."
+    },
+    {
+     "file": "s02b.mp3",
+     "at": 16.59,
+     "dur": 3.71,
+     "text": "Mozi : « C, évidemment ! La meilleure des deux notes. »"
+    }
+   ],
+   "bubbleAt": 16.19
+  },
+  {
+   "kind": "consequence",
+   "title": "Pourquoi c'est une erreur",
+   "lines": [
+    "Faux : le DPE ne retient jamais la meilleure note ; ce serait flatter le bien."
+   ],
+   "caption": "Faux : le DPE ne retient jamais la meilleure note ; ce serait flatter le bien.",
+   "dur": 8.32,
+   "clips": [
+    {
+     "file": "s03.mp3",
+     "at": 0.5,
+     "dur": 6.92,
+     "text": "Faux. Le DPE ne retient jamais la meilleure note : ce serait flatter le bien. C'est la moins bonne des deux qui décide."
+    }
+   ]
+  },
+  {
+   "kind": "pitch",
+   "title": "Ce que tu vas voir",
+   "lines": [
+    "Sébastien Paumier pose sur la table le DPE de M. Bernard (14/03/2023, classé F) et montre en trois gestes ce qu'un agent peut dire tout de suite : la date et l'énergie de chauffage…",
+    "Puis ce qu'il fait vérifier par le diagnostiqueur, et ce qu'il ne dit jamais."
+   ],
+   "caption": "Sébastien Paumier pose sur la table le DPE de M. Bernard (14/03/2023, classé F) et montre en trois gestes ce qu'un agent peut dire tout de suite : la date et l'énergie de chauffage, les deux notes et celle qui décide, le poste qui consomme le plus. Puis ce qu'il fait vérifier par le diagnostiqueur, et ce qu'il ne dit jamais.",
+   "dur": 24.07,
+   "clips": [
+    {
+     "file": "s04.mp3",
+     "at": 0.5,
+     "dur": 22.67,
+     "text": "Dans cette capsule, je pose sur la table le DPE de M. Bernard, daté du 14/03/2023, classé F. Et je te montre en trois gestes ce que tu peux dire tout de suite : la date et l'énergie de chauffage, les deux notes et celle qui décide, puis le poste qui consomme le plus. Ensuite, ce que tu fais vérifier par le diagnostiqueur. Et ce que tu ne dis jamais."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "stype": "steps",
+   "title": "Ce qu'on voit : 3 observations",
+   "items": [
+    "La date et l'énergie : DPE établi avant le 1/07/2021 ? Il n'est plus valable pour vendre. Après : valable 10 ans.…",
+    "Les deux notes : énergie primaire (kWhEP/m²/an) et émissions (kgCO₂/m²/an). La classe retenue est la moins bonne des deux. Dis laquelle décide.",
+    "Le poste qui pèse le plus : la répartition (chauffage, eau chaude, éclairage, auxiliaires) et l'estimation des coûts annuels montrent où se…"
+   ],
+   "caption": "Ce qu'on voit : 3 observations. La date et l'énergie : DPE établi avant le 1/07/2021 ? Il n'est plus valable pour vendre. Après : valable 10 ans.… Les deux notes : énergie primaire (kWhEP/m²/an) et émissions (kgCO₂/m²/an). La classe retenue est la moins bonne des deux. Dis laquelle décide. Le poste qui pèse le plus : la répartition (chauffage, eau chaude, éclairage, auxiliaires) et l'estimation des coûts annuels montrent…",
+   "dur": 26.32,
+   "clips": [
+    {
+     "file": "s05.mp3",
+     "at": 0.5,
+     "dur": 24.92,
+     "text": "Ce qu'on voit : trois observations. Un : la date et l'énergie. Un DPE établi avant le 1/07/2021 n'est plus valable pour vendre ; après, il vaut 10 ans. Deux : les deux notes, énergie et climat. La classe retenue est la moins bonne des deux : dis laquelle décide. Trois : le poste qui pèse le plus, avec la répartition des consommations et l'estimation des coûts annuels."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "stype": "checklist",
+   "title": "Ce qu'on fait vérifier par un diagnostiqueur",
+   "items": [
+    "Des travaux faits depuis le DPE (fenêtres, chauffage, isolation) : l'attestation ne les voit pas ; un nouveau DPE peut être utile.",
+    "Une donnée qui semble fausse (surface, année, équipement) : tu le signales au propriétaire, le diagnostiqueur corrige.",
+    "Le confort d'été, la ventilation, l'humidité : tu notes ce que tu vois, tu ne conclus pas."
+   ],
+   "caption": "Ce qu'on fait vérifier par un diagnostiqueur. Des travaux faits depuis le DPE (fenêtres, chauffage, isolation) : l'attestation ne les voit pas ; un nouveau DPE peut être utile. Une donnée qui semble fausse (surface, année, équipement) : tu le signales au propriétaire, le diagnostiqueur corrige. Le confort d'été, la ventilation, l'humidité : tu notes ce que tu vois, tu ne conclus pas.",
+   "dur": 22.09,
+   "clips": [
+    {
+     "file": "s06.mp3",
+     "at": 0.5,
+     "dur": 20.69,
+     "text": "Ce que tu fais vérifier par un diagnostiqueur. Des travaux faits depuis le DPE : l'attestation ne les voit pas, un nouveau DPE peut être utile. Une donnée qui semble fausse, comme la surface ou l'année : tu la signales, le diagnostiqueur corrige. Le confort d'été, la ventilation, l'humidité : tu notes ce que tu vois, tu ne conclus pas."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "stype": "list",
+   "title": "Ce qu'on ne dit pas",
+   "items": [
+    "Un gain de prix ou une décote en pourcentage (« +10 % », « −15 % »).",
+    "Une classe future annoncée comme sûre avant l'attestation ou le nouveau DPE.",
+    "Un devis, un nom d'entreprise, une aide présentée comme acquise.",
+    "« Votre DPE est faux » : tu n'es pas diagnostiqueur."
+   ],
+   "caption": "Ce qu'on ne dit pas. Un gain de prix ou une décote en pourcentage (« +10 % », « −15 % »). Une classe future annoncée comme sûre avant l'attestation ou le nouveau DPE. Un devis, un nom d'entreprise, une aide présentée comme acquise. « Votre DPE est faux » : tu n'es pas diagnostiqueur.",
+   "dur": 16.79,
+   "clips": [
+    {
+     "file": "s07.mp3",
+     "at": 0.5,
+     "dur": 15.39,
+     "text": "Et ce que tu ne dis pas. Un gain de prix ou une décote en pourcentage. Une classe future annoncée comme sûre. Un devis, un nom d'entreprise, une aide présentée comme acquise. Et jamais : « votre DPE est faux ». Tu n'es pas diagnostiqueur."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "stype": "table",
+   "title": "Exemple : le DPE de M. Bernard (D02, fictif)",
+   "table": {
+    "headers": [
+     "Observation",
+     "Ce que tu dis",
+     "Vérification"
+    ],
+    "rows": [
+     [
+      "DPE du 14/03/2023, chauffage électrique",
+      "« Le coefficient a changé au 1/01/2026 : regardons l'attestation à jour.…",
+      "Attestation ADEME : 150 × 1,9 = 285 kWhEP → E (D03)…"
+     ],
+     [
+      "345 kWhEP (F) et 12 kgCO₂ (C)",
+      "« C'est l'énergie qui vous classait F, pas le climat. »",
+      "Aucune : lecture directe"
+     ],
+     [
+      "Chauffage 112 kWhEF/m²/an sur 150 ; coûts estimés 2 330 à 3…",
+      "« Le chauffage fait les trois quarts de la consommation calculée. »",
+      "Fenêtres et ventilation à faire regarder par le diagnostiqueur"
+     ]
+    ]
+   },
+   "caption": "Exemple : le DPE de M. Bernard (D02, fictif). DPE du 14/03/2023, chauffage électrique : « Le coefficient a changé au 1/01/2026 : regardons l'attestation à jour. » ; 345 kWhEP (F) et 12 kgCO₂ (C) : « C'est l'énergie qui vous classait F, pas le climat. » ; Chauffage 112 kWhEF/m²/an sur 150 ; coûts estimés 2 330 à 3 190 €/an : « Le chauffage fait les trois…",
+   "dur": 24.65,
+   "clips": [
+    {
+     "file": "s08.mp3",
+     "at": 0.5,
+     "dur": 23.25,
+     "text": "Exemple avec le DPE de M. Bernard. Il date de mars 2023, chauffage électrique : le coefficient a changé au 1/01/2026, alors on regarde l'attestation à jour. 345 kWh, classe F, et 12 kg de CO₂, classe C : c'est l'énergie qui le classait F, pas le climat. Et le chauffage fait les trois quarts de la consommation calculée."
+    }
+   ]
+  },
+  {
+   "kind": "quiz",
+   "title": "Teste-toi",
+   "card1": {
+    "question": "M. Bernard se chauffe à l'électricité et son DPE date de mars 2023. Quelle observation peux-tu faire sans rien promettre ?",
+    "options": [
+     "« Le coefficient de l'électricité a changé au 1/01/2026 : téléchargeons l'attestation actualisée gratuite pour voir la classe à jour. »",
+     "« Votre appartement est maintenant en E, je vous le garantis. »",
+     "« Votre DPE est périmé, il faut en refaire un. »"
+    ],
+    "answer": 0
+   },
+   "fb": "Depuis le 1/01/2026, l'électricité est convertie avec 1,9 au lieu de 2,3 (arrêté du 13/08/2025). Pour un DPE établi après le 1/07/2021, l'attestation actualisée se télécharge gratuitement sur l'observatoire DPE-Audit. Chez M. Bernard, elle donne E : 150 × 1,9…",
+   "caption": "M. Bernard se chauffe à l'électricité et son DPE date de mars 2023. Quelle observation peux-tu faire sans rien promettre ?",
+   "dur": 25.63,
+   "clips": [
+    {
+     "file": "s09a.mp3",
+     "at": 0.5,
+     "dur": 9.17,
+     "text": "À toi. M. Bernard se chauffe à l'électricité, et son DPE date de mars 2023. Quelle observation peux-tu faire sans rien promettre ?"
+    },
+    {
+     "file": "s09b.mp3",
+     "at": 12.77,
+     "dur": 11.96,
+     "text": "La bonne réponse : tu signales que le coefficient de l'électricité a changé, et vous téléchargez ensemble l'attestation actualisée, gratuite, pour voir la classe à jour. Chez M. Bernard, elle donne E."
+    }
+   ],
+   "reveal": 12.469999999999999
+  },
+  {
+   "kind": "steps",
+   "title": "À toi : Trois observations sur un DPE réel",
+   "steps": [
+    {
+     "label": "Relève la date, le numéro ADEME, la surface et l'énergie de chauffage ; dis si le DPE est…",
+     "detail": ""
+    },
+    {
+     "label": "Relève les deux notes et dis laquelle décide la classe.",
+     "detail": ""
+    },
+    {
+     "label": "Relève la répartition des consommations et l'estimation des coûts annuels ; repère le poste principal.",
+     "detail": ""
+    },
+    {
+     "label": "Si le chauffage est électrique et le DPE postérieur au 1/07/2021, télécharge l'attestation actualisée et note la classe…",
+     "detail": ""
+    },
+    {
+     "label": "Écris tes 3 observations en une phrase chacune, puis ce que tu fais vérifier par le diagnostiqueur et…",
+     "detail": ""
+    }
+   ],
+   "caption": "À toi de jouer : Trois observations sur un DPE réel. 25 minutes.",
+   "dur": 12.08,
+   "clips": [
+    {
+     "file": "s10.mp3",
+     "at": 0.5,
+     "dur": 10.68,
+     "text": "À toi de jouer : trois observations sur un DPE réel. Relève la date, les deux notes, le poste principal, puis écris tes trois phrases. Compte 25 minutes."
+    }
+   ]
+  },
+  {
+   "kind": "proof",
+   "title": "Ton livrable : Ma démo DPE en 3 observations",
+   "items": [
+    "Les 3 observations sont exactes et vérifiables sur le document",
+    "La classe retenue est expliquée par la règle de la moins bonne des deux notes",
+    "La validité du DPE et, si besoin, l'attestation actualisée sont traitées",
+    "Au moins un point est renvoyé au diagnostiqueur",
+    "Aucune promesse de gain, aucun devis, aucune donnée personnelle du propriétaire"
+   ],
+   "caption": "Ton livrable : Ma démo DPE en 3 observations. Il sera validé sur ces critères.",
+   "dur": 7.93,
+   "clips": [
+    {
+     "file": "s11.mp3",
+     "at": 0.5,
+     "dur": 6.53,
+     "text": "Ton livrable : ta démo DPE en trois observations, sur une page. Il sera validé sur ces critères."
+    }
+   ]
+  },
+  {
+   "kind": "bravo",
+   "title": "Bravo !",
+   "status": "Fiche démo en 3 observations : ce qu'on voit, ce qu'on fait vérifier par un diagnostiqueur, ce qu'on ne dit pas",
+   "caption": "Bravo. Télécharge la fiche, fais l'exercice et dépose ton livrable.",
+   "dur": 5.92,
+   "clips": [
+    {
+     "file": "s12.mp3",
+     "at": 0.5,
+     "dur": 4.52,
+     "text": "Bravo ! Télécharge la fiche, fais l'exercice, et dépose ton livrable."
+    }
+   ]
+  }
+ ],
+ "total": 217.94,
+ "voiced": true
+}

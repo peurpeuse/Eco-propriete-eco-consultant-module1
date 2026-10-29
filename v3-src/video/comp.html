@@ -106,10 +106,10 @@ function apply(e,lt){
   return x>=0;
 }
 function fmt(v,dec){var t=v.toFixed(dec).replace('.',',');var parts=t.split(',');parts[0]=parts[0].replace(/\B(?=(\d{3})+(?!\d))/g,' ');return parts.join(',');}
-function chunks(text,dur){
+function chunks(text,dur,off,exact){
   var ss=String(text||'').replace(/ ([%:;!?»€)])/g,'\u00a0$1').replace(/([«(]) /g,'$1\u00a0').replace(/(\d) (?=\d{3}\b)/g,'$1\u00a0').split(/(?<=[.!?…:;])(?<!(?:^|[\s(])(?:M|Mme|MM|Dr|art|n°|St|[A-Z])\.)\s+/),out=[];
   ss.forEach(function(s){var w=s.split(/[ \t\n]+/).filter(Boolean);while(w.length){var n=w.length>18?Math.min(14,Math.ceil(w.length/Math.ceil(w.length/14))):w.length;out.push(w.splice(0,n).join(' '));}});
-  var tw=out.reduce(function(a,c){return a+c.split(/[ ]+/).length+2;},0),t=0.3,avail=Math.max(1,dur-0.6),r=[];
+  var tw=out.reduce(function(a,c){return a+c.split(/[ ]+/).length+2;},0),t=(off==null?0.3:off),avail=exact?dur:Math.max(1,dur-0.6),r=[];
   out.forEach(function(c){var d=avail*(c.split(' ').length+2)/tw;r.push({t:t,txt:c});t+=d;});
   return r;
 }
@@ -140,8 +140,8 @@ function build(i){
   } else if(k==='mozi'){
     if(!B.chapter&&s.scene)add('<div class="why" style="font-weight:400;font-size:22px;margin:0 0 18px">'+esc(s.scene)+'</div>',0.1,'up');
     add('<div><span class="tag">MOZI</span></div>',0.1,'pop');
-    var bb=add('<div class="bub">« <span class="ty"></span> »</div>',0.4,'pop');
-    var ty=bb.querySelector('.ty');A(ty,0.8,'type',Math.min(3.5,Math.max(1.2,(s.line||s.title).length/28)));EL[EL.length-1].full=s.line||s.title;
+    var ba=s.bubbleAt||0.4;var bb=add('<div class="bub">« <span class="ty"></span> »</div>',ba,'pop');
+    var ty=bb.querySelector('.ty');A(ty,ba+0.4,'type',Math.min(3.5,Math.max(1.2,(s.line||s.title).length/28)));EL[EL.length-1].full=s.line||s.title;
     if(s.scene&&B.chapter)add('<div class="why" style="font-weight:400;font-size:20px;opacity:.85">'+esc(s.scene)+'</div>',1.5,'fade');
     AV=avatar(moz(s.pose||'base'),0.2,root);
   } else if(k==='belief'){
@@ -193,7 +193,7 @@ function build(i){
   } else if(k==='quiz'){
     var c1=s.card1||{};add('<div class="kick">'+esc(s.title&&s.title.length<40?s.title:'Teste-toi')+'</div>',0.1,'up');
     add('<div class="q">'+esc(c1.question||'')+'</div>',0.3,'up');
-    var O=add('<div class="opts"></div>',0,'fade',0.01),rv=Math.max(4,d*0.5),ans=parseInt(c1.answer,10);
+    var O=add('<div class="opts"></div>',0,'fade',0.01),rv=s.reveal||Math.max(4,d*0.5),ans=parseInt(c1.answer,10);
     (c1.options||[]).forEach(function(o,j){var e=addTo(O,'<div class="opt"><span class="k">'+'ABCD'[j]+'</span><span>'+esc(o)+'</span></div>',0.8+j*0.35,'up');
       if(j===ans){EL.push({el:e,at:rv,fx:'cls',cls:'ok',d:0.01});A(e,rv,'pop',0.6);} else {var f={el:e,at:rv,fx:'dim',d:0.5};EL.push(f);}});
     if(s.fb)add('<div class="fb">'+esc(s.fb)+'</div>',rv+0.5,'up');
@@ -225,7 +225,7 @@ function build(i){
   // avatar
   if(k!=='mozi'&&k!=='belief')AV=avatar(seb(pose),0.15,root);
   // scene fade-out
-  var cs=chunks(s.caption,d);s._ch=cs;SUB.textContent='';
+  var cs=s.clips?[].concat.apply([],s.clips.map(function(c){return chunks(c.text,c.dur,c.at,true);})):chunks(s.caption,d);s._ch=cs;SUB.textContent='';
 }
 function confetti(e,lt){var x=(lt-e.at)/e.d;var s=e.el.style;if(x<=0||x>=1){s.opacity=0;return x>=0;}ACT=true;var r=e.seed*137.5;var ang=(r%360)*Math.PI/180,sp=300+(e.seed*53)%420;
   var px=640+Math.cos(ang)*sp*x,py=300+Math.sin(ang)*sp*x*0.7+520*x*x;s.left=px+'px';s.top=py+'px';s.opacity=1-x;s.transform='rotate('+(x*720+r)+'deg)';return true;}
